@@ -72,7 +72,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
             <div class="item item--issue">
   <a name="t-187118"></a>
-  
+
   <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
     <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
 
@@ -105,7 +105,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><img src="/assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
             <div class="item item--issue item--link">
   <a name="yg21vPy"></a>
-  
+
   <h3 class="item__title"><a href="https://www.percona.com/blog/2016/09/09/basic-housekeeping-for-mysql-indexes/">Basic Housekeeping for MySQL Indexes</a></h3>
     <p>Percona Database Performance Blog 科普了幾個找出 MySQL 中無用的、重複的或欄位順序有問題的 indexes 的方法。除了透過 MySQL 的 sys schema 之外，還有大家的好朋友 <a href="https://www.percona.com/doc/percona-toolkit/2.2/index.html">Percona Toolkit</a>，不只 <a href="https://www.percona.com/doc/percona-toolkit/2.2/pt-duplicate-key-checker.html">pt-duplicate-key-checker</a>，還有其他像是 <a href="https://www.percona.com/doc/percona-toolkit/2.2/pt-query-digest.html">pt-query-digest</a>、<a href="https://www.percona.com/doc/percona-toolkit/2.2/pt-online-schema-change.html">pt-online-schema-change</a> 和 <a href="https://www.percona.com/doc/percona-toolkit/2.2/pt-archiver.html">pt-archiver</a> 都是好東西啊。</p>
   <span class="item__footer"><a href="https://www.percona.com/blog/2016/09/09/basic-housekeeping-for-mysql-indexes/">percona.com</a></span>
@@ -114,7 +114,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="nbsB4JR"></a>
-  
+
   <h3 class="item__title"><a href="https://vinta.ws/code/speed-up-python-and-node-js-builds-on-travis-ci.html">Speed up Python and Node.js builds on Travis CI</a></h3>
     <p>因為前陣子都在重構公司的專案，清理了不少陳年老碼和前朝遺表，也順道補了不少測試（目前測試覆蓋率達到 83% 啦）。這時候就覺得跑 CI 的速度不夠快了，後來想到其實可以在 Travis CI 上把整個 <code>site-packages</code> 和 <code>node_modules</code> 目錄都 cache 起來，這樣一來，跑 <code>pip install</code> 和 <code>npm install</code> 的時間加起來從一百多秒變成只要 5 秒，開心。</p>
 
@@ -131,7 +131,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="hIqd5Hw"></a>
-  
+
   <h3 class="item__title"><a href="https://www.the-art-of-web.com/html/html5-form-validation/">HTML5 Form Validation Examples</a></h3>
     <p>只要有使用者輸入的地方，就少不了要驗證資料。這篇文章就介紹了不少 HTML5 新增的有關 validation 的 <code>&lt;input&gt;</code> 屬性和 CSS pseudo-classes。除了大家應該都已經在用的 <code>required</code> 和各種新的 <code>&lt;input&gt;</code> 類型之外，還有可以直接指定 regular expression 的 <code>pattern</code> 屬性。也示範了如何透過 CSS 做到簡單的 valid 和 invalid 效果，畢竟<a href="https://yincheng.site/using-html-css-instead-of-js">能使用 HTML/CSS 解决的问题就不要使用 JavaScript</a>。當然前提是<a href="https://caniuse.com/#feat=input-pattern">瀏覽器有支援</a>，比如說 Safari，它雖然支援 <code>pattern</code> 屬性，但是如果輸入的資料不符合指定的格式，它還是會讓使用者提交表單... OK，好。</p>
 
@@ -148,7 +148,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="v1bJD93"></a>
-  
+
   <h3 class="item__title"><a href="https://blog.simontaranto.com/post/2016-09-25-tuning-aws-sqs.html/">Tuning AWS SQS Job Queues</a></h3>
     <p>在 <a href="https://streetvoice.com/">StreetVoice</a> 我們有好幾個專案都是用 <a href="https://aws.amazon.com/sqs/">Amazon SQS</a> 來當 Celery 的 broker，用了很長一段時間都沒出過什麼大問題（不過當然也是有在某個我們都沒發現的地方其實出了錯的可能性，也或許在立下了「XXX 已經很久都沒發生過問題了」這樣的死亡 flag 之後常常那個 XXX 就會很神奇地壞掉），所以一直沒什麼機會仔細研究 Amazon SQS 的各項配置和使用情境（慚愧），剛好看到這篇作者在講他們針對 Amazon SQS 的 debug 過程，應該是挺有參考價值的。</p>
   <span class="item__footer"><a href="https://blog.simontaranto.com/post/2016-09-25-tuning-aws-sqs.html/">simontaranto.com</a></span>
@@ -157,7 +157,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="aTn3D0c"></a>
-  
+
   <h3 class="item__title"><a href="https://fundersclub.com/blog/2016/08/17/founders-guide-automation/">Founder&#39;s Guide to Automation</a></h3>
     <p>雖然 <a href="https://codetengu.com/">CodeTengu</a> 基本上是個越多人訂閱就越虧錢的 project（超過 5000 人訂閱的話每個月要噴 <a href="https://curated.co/pricing">129 美金</a>，而現在已經四千多人啦），不過因為虛榮心作祟，三不五時也是會想著還可以怎麼推廣。正好就看到這篇文章，忍不住想知道國外的 startup 是如何自動化 Marketing、Social Media 和 Sales 等任務，不過讀完才發現，他們竟然把買廣告和 SEO 也稱為自動化（雖然也不能說不對啦），果然所謂的 founder 講的話都不能盡信啊。不過裡頭提到的幾個服務我恰巧也有在用，例如目前 CodeTengu 在各個社交平台上的貼文就是透過 <a href="https://buffer.com/">Buffer</a> 發佈的。</p>
 
@@ -177,7 +177,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><img src="/assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
             <div class="item item--issue item--link">
   <a name="jXMRF0D"></a>
-  
+
   <h3 class="item__title"><a href="https://www.slideshare.net/nnja/how-to-successfully-grow-a-code-review-culture">How to successfully grow a code review culture</a></h3>
     <p>這份投影片是一份非常、非常好的 Code Review 指南啊!!!!</p>
 
@@ -200,7 +200,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="HpU4vDw"></a>
-  
+
   <h3 class="item__title"><a href="https://pre-commit.com/">pre-commit by Yelp</a></h3>
     <p>這個 pre-commit 是 Yelp 所開放出來的「可維護的 pre-commit 框架」 簡單來說就是用 yaml 寫設定檔, 就可以方便地維護 pre commit hooks, 讓你的 team member 也可以透過簡單幾個指令便可以快速安裝、使用同一份 pre-commit hooks。</p>
 
@@ -218,7 +218,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
             <div class="item item--issue item--link">
   <a name="yfkx2yt"></a>
-  
+
   <h3 class="item__title"><a href="https://opensource.com/life/16/9/interview-jim-hall-freedos">Interview with Jim Hall of FreeDOS</a></h3>
     <p>這篇專訪了 FreeDOS 專案創始人 <a href="https://www.freedos.org/jhall/">Jim Hall</a>。對，是 <a href="https://www.freedos.org/">FreeDOS</a> 不是 FreeBSD，不要眼花看錯了，就是那個 DOS，已經成了某些不明究理的人對「提示字元」、「命令列介面」慣稱的那個 DOS。</p>
 
@@ -231,7 +231,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="BBOvhey"></a>
-  
+
   <h3 class="item__title"><a href="https://www.jfry.me/articles/2015/gpg-smartcard/">Using GPG with Smart Cards</a></h3>
     <p>日前終於收到了千里迢迢、過鹹水而來的 <a href="https://www.yubico.com/products/yubikey-hardware/yubikey-neo/">Yubikey Neo</a>，除了是因為在 COSCUP 2016 聽了「<a href="https://coscup.org/2016/schedules.html#H11">深入淺出 Google/Dropbox/GitHub 都採用的 FIDO U2F</a>」這場啟發的興趣之外，另外就是看中這款可以當成 <a href="https://en.wikipedia.org/wiki/OpenPGP_card">OpenPGP card</a> 的緣故，算是目前最好買的 OpenPGP card 吧？我一直很想要有個 OpenPGP card，方便我跨環境使用 OpenPGP/GnuPG。</p>
 
@@ -244,7 +244,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="hPfrJoi"></a>
-  
+
   <h3 class="item__title"><a href="https://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/">Everything You Should Know About Progressive Web Apps</a></h3>
     <p>Progressive Web Apps (PWA) 讓網站（頁）長得像一個原生應用程式、用起來像一個原生應用程式，這篇文章算是 PWA 的懶人包，闡釋了 PWA 的特性。對用戶而言，PWA 增進了 UX，對開發者而言，PWA 減低了因為不同平台間的技術 stacks 差異，導致需多重投入開發資源的各種成本問題。</p>
 
@@ -257,7 +257,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="KR1hoHQ"></a>
-  
+
   <h3 class="item__title"><a href="https://sorotokin.com/adaptive-layout/">Adaptive Layout</a></h3>
     <p>前陣子因為某電子書平台在台灣設點開業，於是我去下載了一本書嘗鮮，在 Twitter 上<del>訐譙</del>感嘆這本又是 PDF 原封不動直接搬上來，不知何時這些出版業者才會意識到「電子顯示設備<strong>不是</strong>一張有著固定大小的紙」這件事？中間還跟其他人有些<del>爭執</del>意見交換，我在意的點是「現有科技、技術就是要你們（出版業者）適應 box model, RWD 與 Adaptive Layout，而你們卻是貪圖自己方便、因循苟且、輕忽讀者的閱讀體驗！」</p>
 
@@ -268,7 +268,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="6jYuxOY"></a>
-  
+
   <h3 class="item__title"><a href="https://medium.com/@sugarpirate/rise-from-the-ashes-incremental-apis-with-phoenix-b08cd66bd142#.ba9t35rvu">Rise From the Ashes — Incremental APIs With Phoenix</a></h3>
     <p>這篇講解了如何使用 <a href="https://github.com/poteto/terraform">terraform</a> 讓 Phoenix 可以整合既有的 API，達成漸次過渡，是想要導入 Phoenix、又有不少 legacy code 包袱的產品團隊可以借鑒的一篇好文。</p>
   <span class="item__footer"><a href="https://medium.com/@sugarpirate/rise-from-the-ashes-incremental-apis-with-phoenix-b08cd66bd142#.ba9t35rvu">medium.com</a></span>
@@ -277,7 +277,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="a3B8EJz"></a>
-  
+
   <h3 class="item__title"><a href="https://beam-wisdoms.clau.se/en/latest/">Welcome, adventurer! — BEAM VM Wisdoms 1.0 documentation</a></h3>
     <p>這個網站整理了 BEAM VM 的相關知識，對於想要瞭解 BEAM 工作原理的人來說是很好的指引文件。</p>
   <span class="item__footer"><a href="https://beam-wisdoms.clau.se/en/latest/">clau.se</a></span>
@@ -286,7 +286,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="PJUc4ZW"></a>
-  
+
   <h3 class="item__title"><a href="https://github.com/llaisdy/beam_languages">Languages, and about languages, on the BEAM</a></h3>
     <p>除了 Erlang 以及近來能見度愈來愈受矚目的 Elixir 之外，其實還有一些基於 BEAM 的語言，這篇整理、羅列出這些語言。</p>
   <span class="item__footer"><a href="https://github.com/llaisdy/beam_languages">github.com</a></span>
@@ -295,7 +295,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="8KM2fXD"></a>
-  
+
   <h3 class="item__title"><a href="https://github.com/drumaddict/elixir-maze">Elixir Maze</a></h3>
     <p>一個以 Elixir 移植自 <a href="https://github.com/drumaddict/ruby-maze">ruby-maze</a> 的迷宮產生器。</p>
 
@@ -313,7 +313,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
             <div class="item item--issue item--link">
   <a name="QMJ1hcA"></a>
-  
+
   <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer at StreetVoice (台北、北京、上海)</a></h3>
     <p>開發及維護 StreetVoice 旗下相關網站。</p>
 
@@ -354,7 +354,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
 <footer class="footer">
   <div class="i">
     <p>
-      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+      &copy;2015-2018 CodeTengu Weekly 碼天狗週刊
     </p>
   </div>
 </footer>

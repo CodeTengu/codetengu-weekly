@@ -72,7 +72,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
             <div class="item item--issue">
   <a name="t-333547"></a>
-  
+
   <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
     <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
 
@@ -108,7 +108,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><img src="/assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
             <div class="item item--issue item--link">
   <a name="qGpUqBv"></a>
-  
+
   <h3 class="item__title"><a href="https://vinta.ws/code/build-a-recommender-system-with-spark-logistic-regression.html">Build a recommender system with Spark: Logistic Regression</a></h3>
     <p>前陣子寫了幾篇文章專門在講用 Apache Spark 搭建一個 GitHub repo 的推薦系統，打算寫成一個系列，不過因為身體不適中斷了好一陣子，所以寫著寫著 GitHub 都推出自己的推薦系統了（攤手）。言歸正傳，這篇文章主要是在講用 Logistic Regression 來對推薦結果排序，重點放在特徵工程和 Machine Learning Pipeline，對 LR 演算法本身沒有太多著墨，畢竟它就是個線性模型嘛。</p>
 
@@ -127,7 +127,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="nwGuait"></a>
-  
+
   <h3 class="item__title"><a href="https://vinta.ws/code/build-a-recommender-system-with-spark-content-based-and-elasticsearch.html">Build a recommender system with Spark: Content-based and Elasticsearch</a></h3>
     <p>這一篇也是 GitHub 推薦系統系列的文章之一，講的是大家喜聞樂見的 Content-based Recommendation。我原本是打算把 repo 的文本資料轉成 Word2Vec 向量，然後計算各個 repo 之間的相似度（所謂的 Similarity Join），但是要計算這麼多 repo 之間的相似度實在太花時間了，就算用了 Locality Sensitive Hashing 也還是太久又容易 OOM。後來一想，尋找相似或相關物品這件事不就是搜尋引擎在做的嗎，所以後來就直接改用 Elasticsearch 了。用 document id 當作搜尋條件，一個 More Like This query 就解決了，清爽利落。畢竟不需要所有的事情都在 Spark 裡解決。</p>
   <span class="item__footer"><a href="https://vinta.ws/code/build-a-recommender-system-with-spark-content-based-and-elasticsearch.html">vinta.ws</a></span>
@@ -136,7 +136,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="vTXQQOV"></a>
-  
+
   <h3 class="item__title"><a href="https://www.cnblogs.com/xing901022/p/6445254.html">基于 Spark UI 性能优化与调试 —— 初级篇</a></h3>
     <p>在寫程式的時候偶爾會發生「我明明只是加了一行簡單的 code，為什麼整個程式的效能就掉了這麼多」的情形，只因為我們對那行 code 實際上到底做了什麼其實並不清楚。更慘的是你的程式還是跑在一個分散式系統上時。幸好 Spark 提供了一個非常棒的工具：Spark UI。透過 Event Timeline 和 DAG Visualization，你可以看到非常詳細的整個 Spark application 的執行過程，例如某個 job 的某個 stage 的某個 task 做了什麼、花了多少時間和在哪一台機器上執行，甚至能夠精確地定位到是在你的 code 的某個檔案的某一行的某個 function call。真希望所有語言和框架都有這樣方便的工具啊。</p>
 
@@ -153,7 +153,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="GUfbh8W"></a>
-  
+
   <h3 class="item__title"><a href="https://developers.google.com/machine-learning/glossary/">Google - Machine Learning Glossary</a></h3>
     <p>這是 Google 製作的一份機器學習的常見詞彙表，非常實用！</p>
   <span class="item__footer"><a href="https://developers.google.com/machine-learning/glossary/">google.com</a></span>
@@ -162,7 +162,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="FVw0cId"></a>
-  
+
   <h3 class="item__title"><a href="https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/">MySQL vs. MariaDB vs. Percona Server: Reality Check</a></h3>
     <p>Percona 製作了一份表格，比較了 MySQL、MariaDB 和 Percona Server for MySQL 之間的異同。對有在評估選用或是跳槽到其中之一的資料庫的人應該很有幫助。不過如果你看完還是不知道該選哪個，黃金法則：你就閉著眼睛挑最多人用的那個就好了。</p>
 
@@ -185,7 +185,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><img src="/assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
             <div class="item item--issue item--link">
   <a name="TidJLPk"></a>
-  
+
   <h3 class="item__title"><a href="https://zapier.com/blog/remote-team-management/">Managing from Afar: How to Run a Remote Team</a></h3>
     <p>這是 Zapier 他們自己的文章, 其實 Zapier 真的不錯, 他們的 content marketing 也一直做得很好, 是少數我每次收到 email 都會打開看文章, 而且覺得文章有很多寶的一家公司。</p>
 
@@ -201,7 +201,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="vXWATk1"></a>
-  
+
   <h3 class="item__title"><a href="https://medium.com/pminsider/product-manager-skills-by-seniority-level-a-deep-breakdown-cd0690f76d10">Product Manager Skills By Seniority Level  —  A Deep Breakdown</a></h3>
     <p>最近終於把手上兩個產品的產品經理都找到了, 比起先前找到的好上不少 XD 唉, 原以為 PM 就是把我手上非技術的部分抽出來就可以了, 但是老實說我幾乎沒有跟 PM 共事過的經驗, 所以整個很難拿捏, 搞不好我身上負責的 PM 工作內容, 都可以找 Senior PM 或是 PM Lead 了 ( 無誤 )</p>
 
@@ -216,7 +216,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="xFfOkPW"></a>
-  
+
   <h3 class="item__title"><a href="https://web.jobbole.com/92736/">反击爬虫，前端工程师的脑洞可以有多大？</a></h3>
     <p>真的是腦洞大開, 學習了, 很多很有趣的方式啊!</p>
   <span class="item__footer"><a href="https://web.jobbole.com/92736/">jobbole.com</a></span>
@@ -225,7 +225,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="NtktxqI"></a>
-  
+
   <h3 class="item__title"><a href="https://medium.com/s/engineering-growth-framework/engineering-growth-introduction-8ba7b78c8d6c">Engineering growth: introduction</a></h3>
     <p>Medium 的工程師成長框架, 我還沒全部讀完, 但覺得一定得好好拜讀一下, 先分享給大家!</p>
   <span class="item__footer"><a href="https://medium.com/s/engineering-growth-framework/engineering-growth-introduction-8ba7b78c8d6c">medium.com</a></span>
@@ -239,7 +239,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><img src="/assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
             <div class="item item--issue item--link">
   <a name="iZCej4A"></a>
-  
+
   <h3 class="item__title"><a href="https://mozilladevelopers.github.io/playground/">Introduction to CSS Grid Layout</a></h3>
     <p>CSS Grid Layout 已在目前各大主流瀏覽器（Chrome 、 Firefox 、 Safari 、 Edge）上被實作，是 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">flexbox</a> 外另一種方便的排版選擇，方便處理 2D grid 的排版，可以透過本篇文章簡單的圖解來快速入門。</p>
   <span class="item__footer"><a href="https://mozilladevelopers.github.io/playground/">github.io</a></span>
@@ -248,7 +248,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="GS7g3Jx"></a>
-  
+
   <h3 class="item__title"><a href="https://developers.google.com/web/updates/2017/09/sticky-headers">An event for CSS position:sticky</a></h3>
     <p><code>position: sticky</code> 語法有點類似 <code>position: fixed</code>，在 parent element 滾動到可視範圍就會自動轉變為像是 <code>position: relative</code> 的功能，本篇文章透過 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API">Intersection Observer</a> 來實作出 sticky change event ，簡單的檢查目前瀏覽的範圍。</p>
   <span class="item__footer"><a href="https://developers.google.com/web/updates/2017/09/sticky-headers">google.com</a></span>
@@ -257,7 +257,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="rH1f3rC"></a>
-  
+
   <h3 class="item__title"><a href="https://hackernoon.com/partially-applied-curried-functions-could-obfuscate-the-javascript-stack-trace-84d66bd8032e">Partially-applied (or curried) functions could obfuscate the JavaScript stack trace</a></h3>
     <p>Pointfree style 意即在一些 function 組合的過程中，不需要直接去操作 data ，可以減少一些不必要的命名，讓程式保持簡潔易讀，不過在執行過程中會使 call stack 集中在一些通用的 function ，而不是主要的程式內，debug 就會變得麻煩，這裡也提出一些方式來 trace 程式上的錯誤。</p>
   <span class="item__footer"><a href="https://hackernoon.com/partially-applied-curried-functions-could-obfuscate-the-javascript-stack-trace-84d66bd8032e">hackernoon.com</a></span>
@@ -271,7 +271,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
           <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
             <div class="item item--issue item--link">
   <a name="Ke2WwwJ"></a>
-  
+
   <h3 class="item__title"><a rel="nofollow" href="https://www.alibabagroup.com/">阿里巴巴 - Java 技术专家</a></h3>
     <p>我们是阿里巴巴新零售事业群负责阿里巴巴集团无线数据采集的部门，阿里是一家数据公司，每天有亿级的数据通过我们的数据网关到达集团各个业务系统，驱动导购，搜索，推荐等等业务的发展。未来这里会覆盖数据采集，用户增长，IOT，边缘计算等等诸多赋能阿里整个生态的场景，我们非常希望您能加入我们，一起用数据改变商业！</p>
 
@@ -300,7 +300,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="UzcLMh1"></a>
-  
+
   <h3 class="item__title"><a rel="nofollow" href="https://www.alibabagroup.com/">阿里巴巴 - 客户端技术专家</a></h3>
     <p>岗位描述:</p>
 
@@ -351,7 +351,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
 <footer class="footer">
   <div class="i">
     <p>
-      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+      &copy;2015-2018 CodeTengu Weekly 碼天狗週刊
     </p>
   </div>
 </footer>

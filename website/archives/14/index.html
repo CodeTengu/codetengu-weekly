@@ -1,197 +1,401 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="header--withimage no-js" lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Archives - CodeTengu Weekly 碼天狗週刊</title>
-<meta name="description" content="Browse back issues of CodeTengu Weekly 碼天狗週刊.">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-<style>
-body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
-.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
-</style>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Archives - CodeTengu Weekly 碼天狗週刊</title>
+    <meta
+      name="description"
+      content="Browse back issues of CodeTengu Weekly 碼天狗週刊."
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+      }
+      .issue__heading,
+      .page__header,
+      .category__title,
+      .issue__pager__text time {
+        font-family: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
+      }
+    </style>
 
-<link href="/assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
-<link href="/assets/stylesheet.css" media="all" rel="stylesheet" />
-<script src="/assets/publication/themes/public_1/application.js"></script>
+    <link
+      href="/assets/publication/themes/public_1/application.css"
+      media="all"
+      rel="stylesheet"
+    />
+    <link href="/assets/stylesheet.css" media="all" rel="stylesheet" />
+    <script src="/assets/publication/themes/public_1/application.js"></script>
 
-  <link rel="shortcut icon" href="/assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
-    <link href="/assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+    <link
+      rel="shortcut icon"
+      href="/assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      type="image/x-icon"
+    />
+    <link
+      href="/assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
 
-      <link href="/assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
-      <link href="/assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+    <link
+      href="/assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="57x57"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="72x72"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="76x76"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="114x114"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="120x120"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="144x144"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
+    <link
+      href="/assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png"
+      sizes="152x152"
+      rel="apple-touch-icon"
+      type="image/png"
+    />
 
-
-  <meta property="og:image" content="https://weekly.codetengu.com/assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
-    <meta property="og:image:width" content="631">
-    <meta property="og:image:height" content="400">
-</head>
-<body>
-<header class="header" role="banner">
-  <div class="navbar" role="navigation">
-    <div class="i">
-      <div class="navbar-collapse">
-        <a class="navbar-a" href="/archives/1/">Archives</a>
+    <meta
+      property="og:image"
+      content="https://weekly.codetengu.com/assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png"
+    />
+    <meta property="og:image:width" content="631" />
+    <meta property="og:image:height" content="400" />
+  </head>
+  <body>
+    <header class="header" role="banner">
+      <div class="navbar" role="navigation">
+        <div class="i">
+          <div class="navbar-collapse">
+            <a class="navbar-a" href="/archives/1/">Archives</a>
+          </div>
+          <a class="navbar-a navbar-brand" href="/">
+            <img
+              src="/assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png"
+              alt="CodeTengu Weekly 碼天狗週刊"
+              width="256"
+            />
+          </a>
+          <button class="navbar-a navbar-toggle">
+            <span class="sr-only">Toggle Menu</span
+            ><span class="navbar-toggle-bar"></span
+            ><span class="navbar-toggle-bar"></span
+            ><span class="icon icon-cross"></span>
+          </button>
+        </div>
       </div>
-      <a class="navbar-a navbar-brand" href="/">
-        <img src="/assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
-      </a>
-      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
-    </div>
-  </div>
-    <div class="intro">
+      <div class="intro">
+        <div class="i">
+          <h1>Archives</h1>
+          <h2>Browse back issues of CodeTengu Weekly 碼天狗週刊.</h2>
+        </div>
+      </div>
+    </header>
+
+    <div class="issues">
       <div class="i">
-        <h1>Archives</h1>
-        <h2>Browse back issues of CodeTengu Weekly 碼天狗週刊.</h2>
+        <ul class="item__list item__list--issues">
+          <li class="item">
+            <a href="/issues/16/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 16</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Python, MySQL, Cassandra, Swift, iOS, MVVM, MVC,
+                  Android, C, Go, Kubernetes, Docker, Bitcoin
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-11-16"
+                    ><span>Nov 16th</span> 2015</time
+                  >
+                </h4>
+              </div>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/15/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 15</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Growth Hacking, Mind Hacking, PHP, Laravel
+                  Elixir, Bootstrap, Deep Learning, Ruby, Rails, C10K,
+                  技術團隊管理
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-11-09"
+                    ><span>Nov 9th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_be882afd-e8d8-4f1a-b0e3-5af4af1c96a9.jpg"
+                  title="本週 IG: kiksnowgirl"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/14/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 14</h2>
+                <p class="item__title">
+                  本期內容涵蓋 RESTful API, Python 3, Redis, Docker, Ansible,
+                  DevOps, iTerm2, JavaScript, Amazon S3, PHP, Android, NodeJS
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-11-02"
+                    ><span>Nov 2nd</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_535f5d48-bcaa-43bb-8386-e380e4f2e4e9.jpg"
+                  title="DevOps Reactions"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/13/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 13</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Core Data, iOS, Android, Functional Reactive
+                  Programming, CSS, JavaScript, 開會技巧, 技術團隊管理
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-10-26"
+                    ><span>Oct 26th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_9854a690-be08-48b1-be91-db60f96b09f7.jpg"
+                  title="本週 IG: wjmild"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/12/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 12</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Python, Docker, Android, iOS, Vim, Machine
+                  Learning, PHP
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-10-19"
+                    ><span>Oct 19th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_b88daa4a-e59b-4568-998f-e1c95c186dea.jpg"
+                  title="Anime in History (@AniHistory)"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/11/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 11</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Android, Functional Programming, JavaScript,
+                  Management, Perl, Python, React.js, Redux
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-10-12"
+                    ><span>Oct 12th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_c85681a6-1db2-4518-b58f-34567db5caae.jpg"
+                  title="本週 IG: 趙敏瑩"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/10/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 10</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Android, Django, Functional Programming, Git,
+                  iOS, Management, Python, Redis, SaltStack
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-10-05"
+                    ><span>Oct 5th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_84296fd7-7d78-4c9d-aab0-bed585e41d82.jpg"
+                  title="本週 IG 推薦：董嘉儀"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/9/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 9</h2>
+                <p class="item__title">
+                  本期內容涵蓋 CSS, JavaScript, Machine Learning, Management,
+                  MySQL, PHP, React.js
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-09-28"
+                    ><span>Sep 28th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_07897da0-179f-4fe9-ab79-a65e1af181a3.jpg"
+                  title="本週 IG 新發現: 姜藝彬"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/8/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 8</h2>
+                <p class="item__title">
+                  本期內容涵蓋 Android, Django, Docker, Elasticsearch, iOS,
+                  Management, Python, Swift, Testing
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-09-21"
+                    ><span>Sep 21st</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_e90e1c80-a9c1-473c-9a17-95ca977676d2.jpg"
+                  title="[MV] Hyukoh - WI ING WI ING"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="/issues/7/#start">
+              <div class="item__body">
+                <h2 class="item__heading">Issue 7</h2>
+                <p class="item__title">
+                  本期內容涵蓋 BDD, CSS, Git, JavaScript, Laravel, Machine
+                  Learning, Node.js, PHP, Python, TDD
+                </p>
+                <h4 class="item__footer">
+                  <time class="published" datetime="2015-09-14"
+                    ><span>Sep 14th</span> 2015</time
+                  >
+                </h4>
+              </div>
+              <span class="item__image">
+                <img
+                  src="square_thumb_24caf585-3e18-4349-b54b-11c6278e0e0d.png"
+                  title="純 CSS 的 emoji 開關"
+                  alt=""
+                  width="100"
+                />
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-</header>
+    <div class="pagination" export_root_prefix="../../">
+      <ul class="i">
+        <li>
+          <a href="/archives/13/"
+            ><span class="pagination__label">Prev</span
+            ><span class="icon icon-angle-left"></span
+          ></a>
+        </li>
+        <li rel="start"><a href="/archives/1/">1</a></li>
+        <li class="gap"><span>&hellip;</span></li>
+        <li><a href="/archives/11/">11</a></li>
+        <li><a href="/archives/12/">12</a></li>
+        <li rel="prev"><a href="/archives/13/">13</a></li>
+        <li class="active">
+          <span>14<span> of 15</span></span>
+        </li>
+        <li rel="next"><a href="/archives/15/">15</a></li>
+        <li>
+          <a href="/archives/15/"
+            ><span class="pagination__label">Next</span
+            ><span class="icon icon-angle-right"></span
+          ></a>
+        </li>
+      </ul>
+    </div>
 
-
-
-
-
-
-  <div class="issues">
-  <div class="i">
-    <ul class="item__list item__list--issues">
-      <li class="item">
-        <a href="/issues/16/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 16</h2>
-            <p class="item__title">本期內容涵蓋 Python, MySQL, Cassandra, Swift, iOS, MVVM, MVC, Android, C, Go, Kubernetes, Docker, Bitcoin</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-11-16'><span>Nov 16th</span> 2015</time></h4>
-          </div>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/15/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 15</h2>
-            <p class="item__title">本期內容涵蓋 Growth Hacking, Mind Hacking, PHP, Laravel Elixir, Bootstrap, Deep Learning, Ruby, Rails, C10K, 技術團隊管理</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-11-09'><span>Nov 9th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_be882afd-e8d8-4f1a-b0e3-5af4af1c96a9.jpg" title="本週 IG: kiksnowgirl" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/14/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 14</h2>
-            <p class="item__title">本期內容涵蓋 RESTful API, Python 3, Redis, Docker, Ansible, DevOps, iTerm2, JavaScript, Amazon S3, PHP, Android, NodeJS</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-11-02'><span>Nov 2nd</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_535f5d48-bcaa-43bb-8386-e380e4f2e4e9.jpg" title="DevOps Reactions" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/13/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 13</h2>
-            <p class="item__title">本期內容涵蓋 Core Data, iOS, Android, Functional Reactive Programming, CSS, JavaScript, 開會技巧, 技術團隊管理</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-10-26'><span>Oct 26th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_9854a690-be08-48b1-be91-db60f96b09f7.jpg" title="本週 IG: wjmild" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/12/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 12</h2>
-            <p class="item__title">本期內容涵蓋 Python, Docker, Android, iOS, Vim, Machine Learning, PHP</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-10-19'><span>Oct 19th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_b88daa4a-e59b-4568-998f-e1c95c186dea.jpg" title="Anime in History (@AniHistory)" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/11/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 11</h2>
-            <p class="item__title">本期內容涵蓋 Android, Functional Programming, JavaScript, Management, Perl, Python, React.js, Redux</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-10-12'><span>Oct 12th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_c85681a6-1db2-4518-b58f-34567db5caae.jpg" title="本週 IG: 趙敏瑩" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/10/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 10</h2>
-            <p class="item__title">本期內容涵蓋 Android, Django, Functional Programming, Git, iOS, Management, Python, Redis, SaltStack</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-10-05'><span>Oct 5th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_84296fd7-7d78-4c9d-aab0-bed585e41d82.jpg" title="本週 IG 推薦：董嘉儀" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/9/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 9</h2>
-            <p class="item__title">本期內容涵蓋 CSS, JavaScript, Machine Learning, Management, MySQL, PHP, React.js</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-09-28'><span>Sep 28th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_07897da0-179f-4fe9-ab79-a65e1af181a3.jpg" title="本週 IG 新發現: 姜藝彬" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/8/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 8</h2>
-            <p class="item__title">本期內容涵蓋 Android, Django, Docker, Elasticsearch, iOS, Management, Python, Swift, Testing</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-09-21'><span>Sep 21st</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_e90e1c80-a9c1-473c-9a17-95ca977676d2.jpg" title="[MV] Hyukoh - WI ING WI ING" alt="" width="100" />
-
-            </span>
-</a>      </li>
-      <li class="item">
-        <a href="/issues/7/#start">
-          <div class="item__body">
-            <h2 class="item__heading">Issue 7</h2>
-            <p class="item__title">本期內容涵蓋 BDD, CSS, Git, JavaScript, Laravel, Machine Learning, Node.js, PHP, Python, TDD</p>
-            <h4 class="item__footer"><time class='published' datetime='2015-09-14'><span>Sep 14th</span> 2015</time></h4>
-          </div>
-            <span class="item__image">
-                  <img src="square_thumb_24caf585-3e18-4349-b54b-11c6278e0e0d.png" title="純 CSS 的 emoji 開關" alt="" width="100" />
-
-            </span>
-</a>      </li>
-    </ul>
-  </div>
-</div>
-<div class="pagination" export_root_prefix="../../"><ul class="i"><li><a href="/archives/13/"><span class="pagination__label">Prev</span><span class="icon icon-angle-left"></span></a></li> <li rel="start"><a href="/archives/1/">1</a></li> <li class="gap"><span>&hellip;</span></li> <li><a href="/archives/11/">11</a></li> <li><a href="/archives/12/">12</a></li> <li rel="prev"><a href="/archives/13/">13</a></li> <li class="active"><span>14<span> of 15</span></span></li> <li rel="next"><a href="/archives/15/">15</a></li> <li><a href="/archives/15/"><span class="pagination__label">Next</span><span class="icon icon-angle-right"></span></a></li></ul></div>
-
-
-<footer class="footer">
-  <div class="i">
-    <p>
-      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
-    </p>
-  </div>
-</footer>
-
-
-</body>
+    <footer class="footer">
+      <div class="i">
+        <p>&copy;2015-2018 CodeTengu Weekly 碼天狗週刊</p>
+      </div>
+    </footer>
+  </body>
 </html>
-
