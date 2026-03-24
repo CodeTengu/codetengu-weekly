@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 117 小明在開發軟體時總是嚴格地遵循各項協定與標準，直到他看到了 ISO 3166-1</title>
+<meta name="description" content="本期內容涵蓋 Blockchain, Ethereum, IPFS, Machine Learning, JavaScript, Webpack, WebAssembly, CSS, Microservice">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Blockchain, Ethereum, IPFS, Machine Learning, JavaScript, Webpack, WebAssembly, CSS, Microservice'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/117/index.html#start">
+        Issue 117 小明在開發軟體時總是嚴格地遵循各項協定與標準，直到他看到了 ISO 3166-1 &nbsp;<i><time class='published' datetime='2018-03-05'>March 5th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-361752"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="m2lLWxr"></a>
+  
+  <h3 class="item__title"><a href="http://truffleframework.com/tutorials/pet-shop">Ethereum Pet Shop</a></h3>
+    <p>Ethereum：中級</p>
+
+<p>最近的工作內容包山包海，Smart Contract 跟 Dapp 都要寫一些，不過有研究過的人應該都會覺得這些文件怎麼都寫得這麼亂，然後網路上的文章也都東寫一些西寫一些，許多脈絡都不是很清楚啊！</p>
+
+<p>工程師都喜歡動手做從做中學，介紹給大家專門用來寫 Smart Contract 的 Truffle Framework，這絕對是初學 Smart Contract 的好物！上面也有許多教學文章，範例都蠻清楚有趣的，尤其是這個 Pet Shop Dapp，跟著做一做說不定就可以寫一個自己的 Cryptokitties 服務來玩了～</p>
+  <span class="item__footer"><a href="http://truffleframework.com/tutorials/pet-shop">truffleframework.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RK99Iwg"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/miaoski/ipfs-tutorial">IPFS 教學和筆記</a></h3>
+    <p>我很喜歡 IPFS 的理念，網路上的資訊應該要是自由永存的，但現在的網路資訊其實都還是要 Server 作為 host，控制 Server 的人就可以讓內容消失，比如政府想要控制某些內容，那就只要控制提供內容的 Server 就好了。IPFS 就是希望透過 P2P 的機制讓資訊自由永存，只要內容放上 IPFS 了，就永遠不會消失，也就不會被有心人控制，這樣的網路世界才是自由的。</p>
+
+<p>這篇文章算是蠻淺顯易懂的教學，但已經涵蓋大部分內容了，大家應該都可以馬上開始上手使用 IPFS。如果未來 Dapp 的機制更完整了，應該全部都會放上 IPFS 吧，這樣就不需要 Server 了，不過目前 IPFS 也還是很不穩定，希望越來越多人用才能讓 IPFS 的網絡更加健全，期待那一天的到來。</p>
+  <span class="item__footer"><a href="https://github.com/miaoski/ipfs-tutorial">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="wnT3HdC"></a>
+  
+  <h3 class="item__title"><a href="https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-15-jiang-xue-xi-bi-ji/">林軒田教授機器學習技法 Machine Learning Techniques 第 15 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>機器學習技法第 15 講主要是講解矩陣分解的方式來解推薦問題，矩陣分解其實在這個領域還蠻常使用到的，真的是必學的技法啊！然後我終於將林軒田教授機器學習課程的筆記寫完了！<a href="https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-16-jiang-xue-xi-bi-ji/">第 16 講</a>只是一些回顧，如果大家有興趣可以自行點連結前往，雖然我很早就看完了整個課程，但要寫成筆記就是一整個懶，<a href="http://mmdays.com/2017/12/19/%E5%A0%B1%E5%91%8A%E4%BB%8A%E5%B9%B4%E4%B8%8A%E4%B8%8B%E7%8F%AD%E6%99%82%E9%96%93%E6%80%8E%E9%BA%BC%E9%81%8E/">所以就被人說富堅了</a>，我也是千百個不願意啊！</p>
+
+<p>回顧一整個課程，林軒田老師的課程算是涵蓋了蠻多經典的機器學習演算法，能夠對這個領域有個完整的概觀，但如果大家想要深入學習現在最紅的 Deep Learning，那這門課程就著墨不多，建議大家可以去看看<a href="https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ">李弘毅老師的課程</a>，非常推薦！</p>
+  <span class="item__footer"><a href="https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-15-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="74dLDSX"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4">webpack 4: released - Codename: Legato</a></h3>
+    <p>Webpack 已經出到 v4 啦，這次改版主要有以下改變：</p>
+
+<ul>
+<li>效能變得更快，不過因為尚未實作 Multicore ，意味著將來還有更多的改進幅度。</li>
+<li>Mode, #0CJS (Zero-Configuration):
+
+<ul>
+<li>新增了兩個 mode options ， "production" 以及 "development" ，透過不同的 mode 來自動選擇最適合的 bundle 流程，這裡有<a href="https://medium.com/webpack/webpack-4-mode-and-optimization-5423a6bc597a">更詳細的介紹</a>。</li>
+<li>entry 、 output 也有 default 設定了，初學者不需要 config file 也可以開始一個簡單的專案。</li>
+</ul>
+</li>
+<li>移除了 CommonsChunkPlugin，取而代之的是 <a href="https://gist.github.com/sokra/1522d586b8e5c0f5072d7565c2bee693">optimization.splitChunks</a> 。</li>
+<li>支援 WebAssembly</li>
+<li>JavaScript 之前在 Webpack 一直都是唯一的 first-class module type ，在 Webpack 4 改寫了這個限制，目前已經有五種 module types ， 並且支援 ECMAScript modules ，將來還會實做 HTML 、 CSS module types 。</li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/webpack/webpack-4-released-today-6cdb994702d4">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8xwRa9F"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d">Learn CSS Variables in 5 minutes</a></h3>
+    <p>不需要經過 preprocess ， pure CSS 透過 custom properties 也能達到 Sass 與 less 中 variable 的效果， 有興趣兩姐的話，本篇作者提供了幾個免費的<a href="https://scrimba.com/g/gcssvariables">教學影片</a>。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XTOTVwu"></a>
+  
+  <h3 class="item__title"><a href="http://kizu.ru/en/blog/variable-order/">CSS Variable Order</a></h3>
+    <p>不使用 JavaScript 也能對 table 做排序！</p>
+
+<p>這裡利用 CSS variable 來設定 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/order">order</a> 的值，並且透過 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label">HTML label for attribute</a> 來使 table header 的每個欄位各自綁定不同隱藏的 radio button ，進而達到排序的效果。</p>
+  <span class="item__footer"><a href="http://kizu.ru/en/blog/variable-order/">kizu.ru</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zTan08S"></a>
+      <a href="https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html"><img src="original_ratio_extra_large_6a6e9ce0-0c1e-4bb6-a6f4-7f5f97a8c6e1.png" title="A secure web is here to stay" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html">A secure web is here to stay</a></h3>
+    <p>Google Chorme 計劃在 Chrome 68 將所有 HTTP sites 標記為不安全的網站，開發者可以透過最新版本的
+ <a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a> 來對網站審查是否為 <a href="https://developer.mozilla.org/docs/Web/Security/Mixed_content">mixed content</a> 並加以改進網站安全性。</p>
+  <span class="item__footer"><a href="https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html">googleblog.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="MeXRQez"></a>
+  
+  <h3 class="item__title"><a href="https://mtlynch.io/why-i-quit-google/">Why I Quit Google to Work for Myself</a></h3>
+    <p>公司大了就得有制度、靠量化，很容易就變成只追求會出現在 review/promotion 上的指標。人人稱羨的 Google 也不例外，看看過來人的經驗分享。</p>
+
+<p>另外，Go 大神 Deve Cheney 的幾則評論也很值得一看：<br/>
+https://twitter.com/davecheney/status/969759343267622912</p>
+
+<ul>
+<li>量化無可避免、總比靠年資來決定升遷好</li>
+<li>比起各種口號，如何對待員工升遷、獎懲才真正反映公司理念</li>
+</ul>
+  <span class="item__footer"><a href="https://mtlynch.io/why-i-quit-google/">mtlynch.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="krOvcr9"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/o-api-an-alternative-to-rest-apis-e9a2ed53b93c">O API  —  an alternative to REST APIs</a></h3>
+    <p>作者覺得 RESTful API 把<em>一次 request</em> 的資訊散布在 HTTP method、URL、body 各處，並不好理解。於是提出了 O API  (Obvious API) 的概念：提供單一 endpoint，把 request 內容都寫在 request body 裡。</p>
+
+<p>有經驗的人大概會立刻想到 Facebook 的 <a href="http://graphql.org/learn/">GraphQL</a>，其他類似的方案還有 Netflix 的 <a href="http://netflix.github.io/falcor/">Falcor</a>、比較新的 <a href="https://medium.com/b2w-engineering/restql-tackling-microservice-query-complexity-27def5d09b40">restQL</a> 。</p>
+
+<p>我相信在前後端徹底分離、微服務盛行的趨勢下，這類的方案會漸漸成為主流。再來就等各 client 平台（主要是 mobile）的 library 發展成熟了。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/o-api-an-alternative-to-rest-apis-e9a2ed53b93c">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lpA64Vb"></a>
+  
+  <h3 class="item__title"><a href="http://www.infoq.com/cn/articles/micro-service-technology-stack">微服务架构技术栈选型手册</a></h3>
+    <p>既然微服務（microservices）已經漸成主流，該怎麼挑選使用的技術也是門大學問。這篇可以當做個起點參考。</p>
+
+<p>（嗯，其實裡面大部分東西我都還沒仔細研究過……）</p>
+  <span class="item__footer"><a href="http://www.infoq.com/cn/articles/micro-service-technology-stack">infoq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JcP6ClJ"></a>
+      <a href="https://twitter.com/404death/status/968381431146778624"><img src="original_ratio_extra_large_da508fb3-a9ae-4e71-a6a0-48b9c80d3476.jpg" title="Memory segmentation cheat sheet" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://twitter.com/404death/status/968381431146778624">Memory segmentation cheat sheet</a></h3>
+    <p>內容其實就只有這張圖。雖然現在主流語言的使用者大概都不會直接碰觸這些記憶體細節，但我相信它是值得收藏與瞭解的。</p>
+  <span class="item__footer"><a href="https://twitter.com/404death/status/968381431146778624">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="duiRFZf"></a>
+      <a href="https://www.instagram.com/p/BctIZcagKgW/"><img src="original_ratio_extra_large_af72f639-b704-4908-a9c5-2b7a5746f1ce.jpg" title="Trang Phi on Instagram" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/p/BctIZcagKgW/">Trang Phi on Instagram</a></h3>
+    <p>（最近實在沒看什麼深度技術文，只好再放個 Instagram 了）</p>
+  <span class="item__footer"><a href="https://www.instagram.com/p/BctIZcagKgW/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Ir3O1ys"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ew">Senior Frontend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>精通 JavaScript、CSS 與 HTML</li>
+<li>相容主流瀏覽器的前端整合開發經驗</li>
+<li>前端 framework / library 的使用經驗</li>
+<li>熟悉 React</li>
+<li>模組化開發經驗</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ew">104.com.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jlQjNSG"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.facebook.com/groups/616369245163622/permalink/1218104558323418/">Python Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python or NodeJS</li>
+<li>Experience with Python web frameworks ie. Flask/Django/Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of Mongo and Redis</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.facebook.com/groups/616369245163622/permalink/1218104558323418/">facebook.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/116/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-02-12'>February 12th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>117 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/118/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-03-12'>March 12th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

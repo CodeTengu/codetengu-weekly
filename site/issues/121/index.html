@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 121 請問 TRUNCATE TABLE 是 DDL 還是 DML，請搶答！</title>
+<meta name="description" content="本期內容涵蓋 Management, Machine Learning, Deep Learning, Blockchain, Ethereum, PHP, Laravel, CSS, JavaScript, React">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Management, Machine Learning, Deep Learning, Blockchain, Ethereum, PHP, Laravel, CSS, JavaScript, React'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/121/index.html#start">
+        Issue 121 請問 TRUNCATE TABLE 是 DDL 還是 DML，請搶答！ &nbsp;<i><time class='published' datetime='2018-04-02'>April 2nd 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-372443"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="79tt7Tu"></a>
+  
+  <h3 class="item__title"><a href="https://matthewnewkirk.com/2017/09/20/share-your-manager-readme/">Share your Manager README</a></h3>
+    <p>這一兩年來因為技術相關事務越來越少，也越來越忙，所以相對的，跟技術同事們也都比較少接觸，這其實真的不太好，不過也因此了解了，所謂的 Engagement 這詞的真正含義，像我這樣就是太不 Engagement 了!  ( 什麼鬼 )</p>
+
+<p>所以最近的 1 on 1 了解到這件事之後，我開始問每個人說:「是不是會因為覺得我很忙所以不敢找我？」 「拜託，以後有事想講看到我在就馬上抓住我，Slack 也行，或是直接看我的 Google 日曆，直接 Booking 時間」</p>
+
+<p>不過其實最棒的還是直接攤開你身為主管的 README，身為技術人應該都會看 GitHub 上面發現新套件，使用之前應該都會看過他的 README。</p>
+
+<blockquote><p>其實主管們也該提供一下 README，讓大家知道怎麼使用你。 你期待的是什麼，你怎麼看事情，怎麼評估價值 ... 等等。</p></blockquote>
+
+<p>除了這一篇外還有另外兩篇可以參考一下，其實本來這週我也想附上我的 README，但是實在是沒有太多時間。 也許大家期待一下下週。</p>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1PE2OmkVykdZYF2QzmJ-ZUHqBAxnnsbnMsd19z3qLWNI/edit#slide=id.gcb9a0b074_1_0">Scott Burns README</a></li>
+<li><a href="https://docs.google.com/document/d/1sx5ssYb_xMrmwPpyjD5xP7RvQ7cHweDYlRGn2SXztKw/edit#heading=h.g1q7u9cc1uha">Manager README - Oren Ellenbogen</a></li>
+</ul>
+
+
+<p>另外這篇文章還有一個很大的收穫就是 DRI: Directly Responsible Individuals</p>
+  <span class="item__footer"><a href="https://matthewnewkirk.com/2017/09/20/share-your-manager-readme/">matthewnewkirk.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ze8cg9N"></a>
+  
+  <h3 class="item__title"><a href="http://chemjobber.blogspot.tw/2011/10/apples-corporate-innovation-directly.html">Apple&#39;s corporate innovation? The &#39;directly responsible individual&#39;</a></h3>
+    <p>在上一篇看到的 DRI 其實還滿讓我好奇的，不過原來我早就知道這件事了，早期在研究如何進行更好的會議的時候就知道這件事。</p>
+
+<p>除了開會前要有 Agenda 之外，開完會還需要有決定好要做什麽的 Action list, 而每則 Action list 都必須要有一個負責人跟結束時間。 不然會議的事情很常會落入，不知道誰要負責，不知道什麼時候結束的狀況。</p>
+
+<p>而 DRI: Directly Responsible Individual 則是 Steve Jobs 在 Apple 開會都會用的方式，其實好像很簡單，但其實也沒有那麼簡單，因為我 run 過一段時間，有時候自己都會覺得困難而放棄。</p>
+
+<p>例如: 有一件事你不確定是前端還是後端，或是都有，這時要交給誰負責？ 甚至怎麼設定完成日期？ 或是 ... 現在還不知道某個功能的瓶頸，負責人應該是 Dev 還是 Ops? (我知道 DevOps 就解決了嘛)</p>
+
+<p>所以，我這邊先前有發生過同一個狀況好幾次，某個產品原本有兩個工程師，因為我們走 Free style，自己撿 issue，所以以前也就不會指定誰負責，但是其中有人離職之後，剩下一個工程師的產出還比兩個工程師還要好上很多。 因為只有他負責了 ... XD</p>
+
+<p>DRI 看似簡單，但其實還是有一些「眉角」，除非你在一個非常小的團隊， 所以下面兩篇也可以參考一下:</p>
+
+<ul>
+<li><a href="https://medium.com/@mmamet/directly-responsible-individuals-f5009f465da4">Directly Responsible Individuals</a> - 這篇是 TripAdvisor 的產品副總寫的</li>
+<li><a href="https://www.quora.com/How-well-does-Apples-Directly-Responsible-Individual-DRI-model-work-in-practice">How well does Apple's Directly Responsible Individual (DRI) model work in practice?</a> - 這篇有一則回答是在 Apple 工作過的員工所提出的，我覺得非常棒</li>
+</ul>
+  <span class="item__footer"><a href="http://chemjobber.blogspot.tw/2011/10/apples-corporate-innovation-directly.html">blogspot.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="QTyGPEe"></a>
+  
+  <h3 class="item__title"><a href="https://blog.fukuball.com/ji-yu-lstm-shen-du-xue-xi-fang-fa-yan-fa-er-cheng-de-zhang-yu-sheng-ge-ci-chan-sheng-mo-xing-zhi-jing-zhang-yu-sheng/">Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>之前看到〈<a href="http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw">『致敬赵雷』基于TensorFlow让机器生成赵雷曲风的歌词</a>〉這篇文章覺得非常有趣，因此一直都想自己動手試試看，中國有趙雷，那台灣要找什麼值得紀念的音樂人來作這個歌詞機器學習模型呢？我想<a href="https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%A8%E7%94%9F">張雨生</a>應該會是台灣非常值得令人紀念的音樂人之一了。</p>
+
+<p>程式的基礎我使用了之前在 GitHub 上有點小小貢獻的一個 Project 作為程式碼基礎，這個 Project 是 <a href="https://github.com/hit-computer/char-rnn-tf">char-rnn-tf</a>，可以用於生成一段中文文本（訓練與料是英文時也可以用於生成英文），訓練語料庫我收集了張雨生的百餘首歌詞，由於這樣的歌詞語料還是有些不足，因此也加入了林夕、其他著名歌詞、新詩作為輔助，整個語料庫大致包含 74856 個字、2612 個不重複字（其實語料庫還是不足）。</p>
+
+<p>演算法基本上就是 LSTM，細節在此就不多加著墨，若有興趣可以在<a href="https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html">這篇文章</a>了解一下，相關程式碼我放在這邊：<a href="https://github.com/fukuball/Tom-Chang-Deep-Lyrics">Tom-Chang-Deep-Lyrics</a>，如何安裝環境、如何訓練、如何生成歌詞，基本上都寫在 Readme 了，大家可以前往瞧瞧。</p>
+  <span class="item__footer"><a href="https://blog.fukuball.com/ji-yu-lstm-shen-du-xue-xi-fang-fa-yan-fa-er-cheng-de-zhang-yu-sheng-ge-ci-chan-sheng-mo-xing-zhi-jing-zhang-yu-sheng/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6Or7L12"></a>
+  
+  <h3 class="item__title"><a href="https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5">GAN with Keras: Application to Image Deblurring</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>GAN 可能會是未來 Machine Learning 會有長足進展的最有影響力的演算法，不過複雜度實在是太高，我個人也沒有時間去自己實作好好理解這個算法。本篇文章用圖片去模糊這個例子去實踐了 GAN，有空應該要好好來跟著實作一遍啊！</p>
+  <span class="item__footer"><a href="https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5">sicara.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PRtf5EV"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@anderson.c/ethereum-%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-%E9%80%8F%E9%81%8E-metamask-%E4%BD%BF%E7%94%A8-web3-ethjs-64b73aa8d3a">【Ethereum 智能合約開發筆記】透過 MetaMask 使用 web3 和使用 EthJS 呼叫合約</a></h3>
+    <p>Ethereum：初級</p>
+
+<p>個人覺得 Ethereum Developer 除了懂 Smart Contract 怎麼寫之外，也應該要知道怎麼寫 Dapp，Smart Contract 就像是後端，而 Dapp 就是前端了，Ethereum Developer 不該只局限於其中一個領域，這篇算是一個非常簡易的前端入門，如何接上在前端接上 Smart Contract 與之互動，其實不難啊！</p>
+  <span class="item__footer"><a href="https://medium.com/@anderson.c/ethereum-%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-%E9%80%8F%E9%81%8E-metamask-%E4%BD%BF%E7%94%A8-web3-ethjs-64b73aa8d3a">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cXyWi3S"></a>
+  
+  <h3 class="item__title"><a href="https://laravel-news.com/signed-routes">Getting Started with Signed Routes in Laravel</a></h3>
+    <p>Laravel：初級</p>
+
+<p>Laravel 5.6 出了一個新的 feature  - signed URLs，可以做到像是 S3 的  signed URLs 那樣，暫時給予使用者 access 特定資源的權限，其實要做這樣的功能並不難，但就跟登入登出一樣，做了幾次就會覺得煩、做到懷疑人生，web framework 本身就該提供這樣的功能啊！升級 Laravel 5.6 讓您馬上擁有！</p>
+  <span class="item__footer"><a href="https://laravel-news.com/signed-routes">laravel-news.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="UomEW4C"></a>
+  
+  <h3 class="item__title"><a href="https://aftertheflood.co/projects/sparks/">The world’s first code-free sparkline typeface</a></h3>
+    <p>可以顯示迷你 Bar Chart, Line Chart 的字型。而且他是開源的！</p>
+  <span class="item__footer"><a href="https://aftertheflood.co/projects/sparks/">aftertheflood.co</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VvXWkEq"></a>
+  
+  <h3 class="item__title"><a href="https://blog.angularindepth.com/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams-20fce8e6511">Learn to combine RxJs sequences with super intuitive interactive diagrams</a></h3>
+    <p>利用互動的圖片教你認識 Rxjs 的一些用法，例如 merge, mergeAll, concat 等</p>
+
+<p>包括使用可編輯的程式碼，適合想要入門學習 Rxjs 的朋友。</p>
+  <span class="item__footer"><a href="https://blog.angularindepth.com/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams-20fce8e6511">angularindepth.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ppNt3af"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@reactcomponentcaching/speedier-server-side-rendering-in-react-16-with-component-caching-e8aa677929b1">Speedier Server-Side Rendering in React 16 with Component Caching</a></h3>
+    <p>Server Side Rendering 已經成為 React 的顯學之一，過去有許多公司導入這樣記述，並且提出各樣的方法解決 React 的 SSR 問題。</p>
+
+<p>Sasha Aickin 在 2016 的時候就有提過 React Component Cache 的方式，而隨著 React 16 的推出。React 已經改進了 SSR 的效能，所以作者決定推出這個方便使用的 library。</p>
+
+<p>主要有幾個特色：</p>
+
+<ol>
+<li>兩種類型的 Caching</li>
+<li>支援 Stream method</li>
+<li>支援 Redis 或 Memcached</li>
+</ol>
+
+
+<p>有在玩 SSR 的朋友們，不仿試看看！</p>
+  <span class="item__footer"><a href="https://medium.com/@reactcomponentcaching/speedier-server-side-rendering-in-react-16-with-component-caching-e8aa677929b1">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KEcOvJg"></a>
+  
+  <h3 class="item__title"><a href="https://developers.google.com/web/updates/2018/03/cssom">Working with the new CSS Typed Object Model</a></h3>
+    <p>Chrome 66 將會支援 CSS typed OM。</p>
+
+<p>隨著 Type system 在前端越來越受到重視，像是 typescript、flow、Elm、PureScript、ReasonML，而 CSS 的 Object Model 也可以導入 type。type 可以幫助我們減少 bug 跟更好的錯誤處理！</p>
+
+<p>有興趣的朋友，可以多多了解！</p>
+  <span class="item__footer"><a href="https://developers.google.com/web/updates/2018/03/cssom">google.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="iAUwyyo"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/2">Senior Frontend Developer at Swag</a></h3>
+    <p>薪資範圍：年薪新台幣 100 ~ 200 萬元。</p>
+
+<p>能力需求：</p>
+
+<ol>
+<li>精通 JavaScript、CSS 與 HTML</li>
+<li>相容主流瀏覽器的前端整合開發經驗</li>
+<li>前端 framework / library 的使用經驗</li>
+<li>熟悉 React</li>
+<li>模組化開發經驗</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/2">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/120/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-03-26'>March 26th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>121 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/122/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-04-09'>April 9th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

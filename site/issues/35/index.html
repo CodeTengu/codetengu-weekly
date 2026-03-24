@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 35 不要試著去人格化人工智慧！他們討厭那樣子！</title>
+<meta name="description" content="本期內容涵蓋 Testing, CI, CD, iOS, Android, JavaScript, RWD, StarWar, Drone">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Testing, CI, CD, iOS, Android, JavaScript, RWD, StarWar, Drone'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/35/index.html#start">
+        Issue 35 不要試著去人格化人工智慧！他們討厭那樣子！ &nbsp;<i><time class='published' datetime='2016-03-21'>March 21st 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-118225"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 楊威利腦殘粉</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - App、Server、Data，不知何時向 F* 邁進</li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="5k4yDrx"></a>
+  
+  <h3 class="item__title"><a href="http://codingitwrong.com/2016/02/08/approaches-to-testing-a-survey.html">Approaches to Testing: A Survey</a></h3>
+    <p>文章裡分析了常見的四種 Testing 的途徑：</p>
+
+<ol>
+<li>DHH (RoR 作者) style</li>
+<li>Classical TDD</li>
+<li>Mockist TDD</li>
+<li>Discovery Testing</li>
+</ol>
+
+
+<p>用同樣的七個問題去檢驗這四種測試方法，並附上該方法常被議論的批評。</p>
+
+<p>我覺得重點就是我們採用的測試方法會感染跟影響程式架構設計，同樣地，如果我們想採用一個跟目前 codebase 風格不符合的測試方法，會在一開始就遭遇巨大的障礙，巨大到不知道怎麼進行下去，很多人就是在這種情況下放棄 Testing 的。(這時候就可以考慮要不要先從 <a href="https://en.wikipedia.org/wiki/Software_testing#Acceptance_testing">Acceptance test</a> 及 <a href="https://en.wikipedia.org/wiki/Software_testing#Integration_testing">Integration test</a> 開始寫起)<br/>
+但無論你是採用哪種方法，其實到最後大家因為 Testing 延伸出來有價值的討論都是 <a href="http://misko.hevery.com/code-reviewers-guide/flaw-digging-into-collaborators/">Testability</a> 跟架構設計。</p>
+
+<p>我還有一個深刻的體會是團隊中導入大家都同意的測試方法其實對統一大家的架構設計有很大幫助。</p>
+
+<p>雖然沒有人想知道，但我自己看完他的介紹覺得我是偏向 Mockist 流派的，也確實我的程式碼風格已經長成這個流派的形狀了，大量的小型元件、大量的 <a href="https://www.youtube.com/watch?v=IKD2-MAkXyQ">Dependency Injection</a>。</p>
+  <span class="item__footer"><a href="http://codingitwrong.com/2016/02/08/approaches-to-testing-a-survey.html">codingitwrong.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eBg5b21"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/productive-developers/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.urnr4ma5d">GitDo: Designing the app infrastructure</a></h3>
+    <p>GitDo 是一個做 GitHub iOS Client 的團隊，這是他們寫的開發經驗談。<br/>
+分享了選擇 Swift 為開發語言的好壞處、Entity, Model 遇到的問題跟建議、API Client 的設計方向、將商業邏輯抽成 Frameworks 的好處、 Carthage &amp; CocoaPods、<a href="https://www.objc.io/issues/13-architecture/viper/">VIPER 架構</a>、Realm or CoreData、Reactive Programming 經驗。</p>
+
+<p>整體談得比較廣而淺，還在摸索中的人看起來也不會有問題，特別適合近期有新 project 要啟動的朋友，很多技術上的選擇都有包含到。</p>
+
+<p>掰惹威，最近我也要開始一個新的 Swift 專案，而我跟他們技術選擇上的分歧有：</p>
+
+<ul>
+<li>採用 <a href="https://github.com/ReactiveX/RxSwift">RxSwift</a> 而不是 ReactiveCocoa</li>
+<li>採用 Core Data 或 pure SQLite 而不採用 <a href="https://realm.io/">Realm</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/productive-developers/gitdo-designing-the-app-infrastructure-3b7710c0fd81#.urnr4ma5d">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BtMZMSq"></a>
+  
+  <h3 class="item__title"><a href="https://robots.thoughtbot.com/creating-your-first-ios-framework">Creating your first iOS Framework</a></h3>
+    <p>前一篇提到將自己的商業邏輯以 Frameworks 的方式獨立出來有可以跨平台、製作 Extensions 的好處，其實值得投資。<br/>
+這篇就是以 Swift 為開發語言建立 Framework 的教程，包含了 <a href="https://github.com/Carthage/Carthage">Carthage</a> 跟 <a href="https://github.com/CocoaPods/CocoaPods">CocoaPods</a> 的整合。</p>
+  <span class="item__footer"><a href="https://robots.thoughtbot.com/creating-your-first-ios-framework">thoughtbot.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="x1onhoQ"></a>
+  
+  <h3 class="item__title"><a href="http://jeremie-martinez.com/2016/01/14/devops-on-android/">DevOps on Android: From one Git push to production</a></h3>
+    <p>在 Android 的生態裡面要建立 <a href="https://en.wikipedia.org/wiki/Continuous_integration">CI</a>, <a href="https://en.wikipedia.org/wiki/Continuous_delivery">CD</a> 因為有 Gradle 跟 <a href="https://developers.google.com/android-publisher/api-ref/">Google Play Developer API</a> 的加持是相對簡單的。<br/>
+我甚至都在想當在 GitHub 上面有人開 Pull Request 的時候，就 build 一個 beta 版本送到 slack 或是夾帶到 Pull Request comment。</p>
+
+<p>這一篇關於 continuous delivery 的教學講得算是鉅細彌遺，大家可以參考一下。甚至我們還可以直接用 <a href="https://github.com/Triple-T/gradle-play-publisher">gradle-play-publisher</a> 這個 Gradle plugin 來幫助你操作上傳到 Google Play 的這個過程。</p>
+  <span class="item__footer"><a href="http://jeremie-martinez.com/2016/01/14/devops-on-android/">jeremie-martinez.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qeJWuTV"></a>
+  
+  <h3 class="item__title"><a href="http://panavtec.me/continous-integration-on-android-with-travis-ci/">Continous integration on Android with travis CI</a></h3>
+    <p>既然上一篇是在介紹 Android 的 <a href="https://en.wikipedia.org/wiki/Continuous_delivery">CD</a>，那麼沒有一個 <a href="https://en.wikipedia.org/wiki/Continuous_integration">CI</a> 還是不行的。</p>
+
+<p>現在 CI 的服務我想最熱門的還是 <a href="https://travis-ci.com/">Travis CI</a>，他對於 Open Source 是免費的。還有另一個選擇是 <a href="https://circleci.com/">Circle CI</a>，但我對於他的 outputs 分 section 這件事情實在是無法接受。</p>
+
+<p>這篇文章除了介紹 Android 怎麼使用 Travis CI 之外，也有提到在 CI 上你除了 build APK 之外還應該要跑什麼。(<a href="http://weekly.codetengu.com/issues/32">CodeTengu 32 期</a> 也有提到 <a href="http://jeremie-martinez.com/2015/12/15/custom-lint-rules/">Help developers with custom Lint rules</a>，串上 CI，一切都很美好！)</p>
+  <span class="item__footer"><a href="http://panavtec.me/continous-integration-on-android-with-travis-ci/">panavtec.me</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-adamp33">
+        <div class="i" id="adamp33">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@adamp33</span></h2>
+            <div class="item item--issue item--link">
+  <a name="9qdZWKn"></a>
+      <a href="https://developers.google.com/web/updates/2016/03/notifications"><img src="original_ratio_extra_large_546ad37f-5b69-4b6e-87ce-157d65ad88b4.png" title="瀏覽器通知還可以加按鈕？" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://developers.google.com/web/updates/2016/03/notifications">瀏覽器通知還可以加按鈕？</a></h3>
+    <p>Google Chrome v50 將會為 Notification API 加上按鈕，讓使用者能在通知做特定動作，類似瀏覽器的 <code>confirm</code>，相當實用。</p>
+  <span class="item__footer"><a href="https://developers.google.com/web/updates/2016/03/notifications">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RHEegHe"></a>
+  
+  <h3 class="item__title"><a href="http://blog.wearecolony.com/a-year-without-jquery/">一年不用 jQuery</a></h3>
+    <p>jQuery 自從 2006 年釋出後，可說是前端界最重要的函式庫，也促使制定許多 HTML5、新版 ECMAScript 的 API。但隨著瀏覽器原生的功能與 ECMAScript 越來越強大，對於 jQuery 的需求已經漸漸減少，一名叫做 Patrick Kunka 的工程師分享他和團隊一年不用 jQuery 的心得，相當值得前端工程師們思考。</p>
+  <span class="item__footer"><a href="http://blog.wearecolony.com/a-year-without-jquery/">wearecolony.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="THQLLVE"></a>
+  
+  <h3 class="item__title"><a href="https://css-tricks.com/rem-global-em-local/">用 em 和 rem 搭配來做 RWD 字體大小</a></h3>
+    <p>一般前端工程師在指定網頁字體大小時，多用 <code>px</code> 來處理。但對於不同尺寸螢幕的瀏覽體驗做 Responsive Web Design 時，字體大小應該更為彈性，使用 <code>rem</code> 和 <code>em</code> 來當作字體大小的單位可以讓程式更為簡潔，也易於維護。</p>
+  <span class="item__footer"><a href="https://css-tricks.com/rem-global-em-local/">css-tricks.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="bNe1dO4"></a>
+  
+  <h3 class="item__title"><a href="https://code.org/starwars">星際大戰</a></h3>
+    <p>放下你手中的程式, 教教身旁的親戚朋友或小孩子們寫 code, 也許是一件再快樂不過的事了。</p>
+
+<p>相信嗎, 從 6 歲到 106 歲都可以學, 用程式積木來玩 <a href="https://code.org/starwars">星際大戰</a> 遊戲。如果都過關了, <a href="https://studio.code.org/">這裡</a>還有更多遊戲可以玩, 讓你知道寫程式跟玩遊戲一樣簡單。記得第一次進入時, 要選 "繁體字" 喔！</p>
+  <span class="item__footer"><a href="https://code.org/starwars">code.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-128541"></a>
+  
+  <h3 class="item__title">I like this NEW way to learn code</h3>
+    <p>學程式最好玩的地方, 就是這群人永遠對現有的東西不滿足。寫 GUI 或前端的人, 一開始堅持一種最完美的架構 MVC (Model-View-Controller); 之後陸續出現 MVP, MVVM (最典型的是 <a href="http://knockoutjs.com">knockout.js</a>, 直到之前很紅的 <a href="https://angularjs.org">Angular.js</a> 的 MVW (已經沒什麼好說了, 就說 Model-View-Whatever...)。重點是, 今天要學一種最新的 whatever, 叫 FRP (Functional Reactive Programming), 以 <a href="http://cycle.js.org/">Cycle.js</a> 為例, 我喜歡右下角的
+ "OPEN CHAT", 有問題, 直接提問...</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JLcFNoK"></a>
+  
+  <h3 class="item__title"><a href="http://qz.com/540559/the-future-of-drones-is-apps/">The future of drones is apps</a></h3>
+    <p>我想這已經不是第一次我介紹四軸飛行器 drones 了, 那麼 drones 跟程式有什麼關係? 目前至少已經有兩家公司提供 drones 的 SDK, 一家是大陸公司叫 "大疆" <a href="http://www.dji.com/zh-tw">DJI</a>, 它的 SDK 叫 <a href="https://github.com/dji-sdk/Onboard-SDK">Onboard-SDK</a>; 另一家是 3D Robotics (3DR), 開發工具叫 <a href="http://dronekit.io/">DroneKit</a>, 它們主推開源 <a href="http://dev.ardupilot.com/">ArduPilot</a>, 特點是也能用 python 開發。</p>
+
+<p>想想看, 再過幾年 drone 程式的開發工具更方便了, 跟 Android 或 iOS 程式開發沒什麼兩樣, 它只是一個長了翅膀的 smartphone 罷了。</p>
+  <span class="item__footer"><a href="http://qz.com/540559/the-future-of-drones-is-apps/">qz.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="LuCdmTn"></a>
+  
+  <h3 class="item__title"><a href="http://essenmitsosse.de/pixel/?showcase=true&amp;slide=4">可能是你看過最酷的 responsive 效果</a></h3>
+    <p>看了就知道！</p>
+
+<p>由 <a href="https://twitter.com/adamp3">@adamp33</a> 提供</p>
+  <span class="item__footer"><a href="http://essenmitsosse.de/pixel/?showcase=true&amp;slide=4">essenmitsosse.de</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6rGlXeM"></a>
+      <a href="http://mjtsai.com/blog/2016/01/07/facebook-tests-users-reaction-to-crashes/"><img src="twenty_by_nine_extra_large_91875eb3-8a62-418a-ada1-f356b61a2a90.jpg" title="Michael Tsai - Blog - Facebook Tests Users’ Reaction to Crashes" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://mjtsai.com/blog/2016/01/07/facebook-tests-users-reaction-to-crashes/">Michael Tsai - Blog - Facebook Tests Users’ Reaction to Crashes</a></h3>
+    <p>Facebook 在他們的 Android 用戶之間秘密進行一個測試，製造一些人工的 crash 讓用戶在一段時間內幾乎無法使用 Facebook native app。而即便如此，用戶還是會透過瀏覽器去上 Facebook。</p>
+
+<p>哇塞，狂！</p>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供</p>
+  <span class="item__footer"><a href="http://mjtsai.com/blog/2016/01/07/facebook-tests-users-reaction-to-crashes/">mjtsai.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue">
+  <a name="t-128589"></a>
+      <img src="original_ratio_extra_large_599079b7-dd19-411b-a7d3-38cb386a66a9.jpg" title="作為一個凡人，還是不要刺探深井冰的極限比較好。" alt="" width="730" />
+
+  <h3 class="item__title">作為一個凡人，還是不要刺探深井冰的極限比較好。</h3>
+    <p>就算追究下去迷霧也只會越來越濃，那個，聽我說，放手吧，不要研究大武 政夫的腦啊！<a href="https://goo.gl/iDZqju">read more</a></p>
+  <span class="item__footer"><a href="https://medium.com/@autisticcat">@autisticcat</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/34/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-03-14'>March 14th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>35 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/36/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-03-28'>March 28th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

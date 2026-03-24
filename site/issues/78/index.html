@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 78 小明相信最好的代碼本身就是文檔，他才不需要註解，他的函式名稱有 100 個字元</title>
+<meta name="description" content="本期內容涵蓋 Machine Learning, Testing, PHP, Smart Contract, Alexa, ReactJS, Swift, Redux, Protocol Buffers">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Machine Learning, Testing, PHP, Smart Contract, Alexa, ReactJS, Swift, Redux, Protocol Buffers'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/78/index.html#start">
+        Issue 78 小明相信最好的代碼本身就是文檔，他才不需要註解，他的函式名稱有 100 個字元 &nbsp;<i><time class='published' datetime='2017-03-06'>March 6th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-253898"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href="https://www.douban.com/people/vinta/">NieR: Automata</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <a href="https://twitter.com/saiday/status/833915863573024768">教召報名成功～</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 新年新專案，好刺激啊！</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XlxUFUV"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@maxbraun/this-machine-turns-trump-tweets-into-planned-parenthood-donations-4ece8301e722#.nxk035mlh">This Machine Turns Trump Tweets into Planned Parenthood Donations</a></h3>
+    <p>Trump Driven Development：中級</p>
+
+<p>目前為止我所看過最經典的 <a href="https://github.com/fukuball/Trump-Driven-Development">Trump Driven Development</a> 案例！ 由於美國選出了有史以來最愛上推的總統，Trump 在推上的每個訊息都牽動著產業的動盪，因此作者想出了一個點子：監控 Trump 推特帳號的訊息，透過 Google 自然語言處理 API 判斷訊息會對某家公司帶來什麼樣的影響之後，自動在交易平台上買賣股票（<a href="https://www.tradeking.com/">TradeKing</a> 有 API 可以使用，好先進！），目前的投資報酬率是 7 %！相關程式碼都放在 <a href="https://github.com/maxbbraun/trump2cash">GitHub</a> 了，有沒有人要一起去開一下 TradeKing 的帳號啊？真想玩玩看！</p>
+  <span class="item__footer"><a href="https://medium.com/@maxbraun/this-machine-turns-trump-tweets-into-planned-parenthood-donations-4ece8301e722#.nxk035mlh">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="D7BcSXm"></a>
+  
+  <h3 class="item__title"><a href="http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw">基于 TensorFlow 让机器生成赵雷曲风的歌词</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>最近看到的一篇有趣的實驗，作者使用了 RNN 等類似演算法訓練出了一個可以生成趙雷歌詞風格的歌詞產生器，文章將原理講述得蠻清楚的，雖然最後做出來的效果並不算好，但就是有趣！有燃起我做做類似實驗的念頭！學一項技術最快的方式就是動手做做自己覺得有趣的事啊！</p>
+  <span class="item__footer"><a href="http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw">qq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OYo2BEO"></a>
+  
+  <h3 class="item__title"><a href="https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-8-jiang-xue-xi-bi-ji/">林軒田教授機器學習技法 Machine Learning Techniques 第 8 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>上一講我們介紹了如何使用 Blending 及 Bagging 的技巧來做到 Aggregation Model，可以使用 Uniform 及 Linear 的方式融合不同的 Model。至於以 Non-linear 的方式融合 Model 就需要依據想展現的特性去調整演算法來做到，這一講將介紹 Adaptive Boosting 這種特別的演算法。</p>
+  <span class="item__footer"><a href="https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-8-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="b6s60Gt"></a>
+  
+  <h3 class="item__title"><a href="http://blog.nikolaposa.in.rs/2017/02/13/testing-conventions/">Testing Conventions - 測試的慣例</a></h3>
+    <p>PHP：中級</p>
+
+<p>作者用一些簡易的範例講述了測試的一些慣例，分成 Structure、Naming、Arrange-Act-Assert 三個面向來說明，其中 Naming 的部份蠻受用的，一般 PHPUnit 上的說明在 test method 的命名會使用類似 <code>testPostCanBeCommented</code> 這樣的格式來命名，但作者卻使用類似 <code>it_can_be_commented</code> 這樣的格式來命名，目的是為了增加可讀性。對了，<a href="https://laracasts.com/">Laracasts</a> 的 <a href="https://twitter.com/jeffrey_way?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Jeffrey Way</a> 也是使用這樣的方式寫測試喔～</p>
+  <span class="item__footer"><a href="http://blog.nikolaposa.in.rs/2017/02/13/testing-conventions/">nikolaposa.in.rs</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="AcFZTyf"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/jmolivas/phpqa">jmolivas/phpqa - PHP QA 工具大全</a></h3>
+    <p>PHP：中級</p>
+
+<p>這個套件將 PHP 中一些好用的 QA 工具都整合在一起了，我自己是沒有全部都用到，但大家也可以先全部用用看之後在看自己想將哪些 QA 工具導入就好～</p>
+  <span class="item__footer"><a href="https://github.com/jmolivas/phpqa">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dQUy39x"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/taipei-ethereum-meetup/%E4%BD%BF%E7%94%A8node-js%E9%83%A8%E7%BD%B2%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-smart-contract-520534305aaf">使用 Node.js 部署智能合約 (Smart Contract)</a></h3>
+    <p><a href="https://medium.com/taipei-ethereum-meetup">Taipei Ethereum Meetup</a> 專欄, 開始有很多人在這裡寫繁體中文 Ethereum 相關的文章, 不能再用看不懂英文或簡體中文來當藉口, 不學習新技術。這篇文章, 一步一步地教您如何用 node.js 部署一個簡單的 smart contract, 其中 <a href="https://medium.com/taipei-ethereum-meetup%20/%20%E4%BD%BF%E7%94%A8%20parity%20%E5%BB%BA%E7%AB%8B%20proof-of-authority-poa-ethereum-chain-c5c1cdd0f21a">Proof-of-Authority (PoA) Ethereum Chain 連結</a>, 還教你如何利用 parity 自己蓋私有的 Ethereum 區塊鏈 (blockchain), 有了自己的鏈, 就不必花錢去買或花時間去 mining 才能使用真正的 Ethereum blockchain 了。</p>
+  <span class="item__footer"><a href="https://medium.com/taipei-ethereum-meetup/%E4%BD%BF%E7%94%A8node-js%E9%83%A8%E7%BD%B2%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-smart-contract-520534305aaf">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4AmUVOp"></a>
+  
+  <h3 class="item__title"><a href="https://www.cnet.com/how-to/the-complete-list-of-alexa-commands/">The complete list of Alexa commands so far</a></h3>
+    <p>2017 年起改變我生活的新東西, 她叫 Alexa (硬體叫 Amazon Echo 或 Echo Dot)。
+玩了幾天, 發現聲控的世界真的來臨了。更應該說, 已經可以感受得到人工智慧 (A.I.) 帶給人類生活的方便性, 是指日可待了。</p>
+
+<p>Alexa, what new features do you have?</p>
+
+<p>它有無限多的擴充能力, 我們稱它作 skills。人類幫她累積很多技能, 目前她已經學會了上萬個 skills。我覺得最有趣的遊戲, 叫 "The Magic Door”。無聊時真的可以跟她玩玩…</p>
+
+<p><a href="https://www.themagicdoor.org/map/">Alexa, enable The Magic Door</a></p>
+
+<p>你也能透過 IFTTT <a href="https://ifttt.com/amazon_alexa">利用 Alexa 跟所有 IFTTT</a> 能做的事情介接, 你也可以自己教他新的技能, 有興趣的人, 不妨可以研究一下 <a href="https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide">Alexa Skills Kit</a>。</p>
+
+<p>如果你玩 Arduino, 想利用 <a href="https://www.youtube.com/watch?v=CIi01OG8G0o">Alexa 聲控你家裡的 IoT 設備</a>, 那已經是輕而易舉的事了。</p>
+
+<p>最後, 你一定會說, 台灣還買不到 Amazon Echo 或 Echo Dot 啊? 怎麼玩? 用 <a href="https://www.youtube.com/watch?v=JNTuoOsXS1k&amp;t=580s">Raspberry Pi 3 做一個 Alexa 吧</a>。註: <a href="https://developer.amazon.com/alexa-voice-service">AVS (alexa voice service)</a> 服務, 目前只有 US, UK 跟德國。你可能要想辦法翻牆了。</p>
+  <span class="item__footer"><a href="https://www.cnet.com/how-to/the-complete-list-of-alexa-commands/">cnet.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="f6eCjvh"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/how-to-make-your-react-app-fully-functional-fully-reactive-and-able-to-handle-all-those-crazy-e5da8e7dac10">How to make your React app fully functional, fully reactive, and able to handle all those crazy side effects</a></h3>
+    <p>你還在用 MVC 方式寫前端嗎? 之前有介紹過 cyclejs, 也有人介紹過 Redux. 這篇文章介紹如何利用 <a href="https://github.com/cyclejs-community/redux-cycles">redux-cycles</a> 在 React 裡寫比較 pure functional 而且比較 reactive 的程式。雖然用很多動畫圖片加以說明, 但還是需要一段時間理解, 也值得花時間研究, 因為現在的 front-end code, 還是太難測試。把程式寫的 pure (functional) 一點, 可能有更有助於理解與測試。這也許是個終極的方法!</p>
+
+<p>cyclejs 的 community 也膨脹得很快, <a href="https://github.com/cyclejs-community/awesome-cyclejs">awesome-cyclejs</a> 已經不少東西可以讀了。而 <a href="https://github.com/xgrommx/awesome-redux">awesome-redux</a> 更已經有 7,747 個 stars 了. 如果能合併使用, 應該會更好。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/how-to-make-your-react-app-fully-functional-fully-reactive-and-able-to-handle-all-those-crazy-e5da8e7dac10">freecodecamp.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Pecqlc5"></a>
+  
+  <h3 class="item__title"><a href="https://onevcat.com/2017/02/ownership/">所有权宣言 - Swift 官方文章 Ownership Manifesto 译文评注版</a></h3>
+    <p>Swift 團隊前一陣子對社群的人寄出了一封郵件，是關於記憶體所有權相關的討論，主要是在說明未來打算改變的方向。這是一篇很長很長的文章，也提到了不少比較細節的部分，很值得仔細閱讀。</p>
+  <span class="item__footer"><a href="https://onevcat.com/2017/02/ownership/">onevcat.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OBJTzFY"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/avoiding-accidental-complexity-when-structuring-your-app-state-6e6d22ad5e2a#.zjjhs7fvq">Avoiding Accidental Complexity When Structuring Your App State</a></h3>
+    <p>最近在規劃產品的新架構，我打算使用 <a href="http://redux.js.org/docs/introduction/index.html">Redux</a> 作為資料流的處理方式。如何設計資料模型對 app 開發來說是很重要的一環，它可以說是整個 app 的地基，一開始沒做好，後來就很容易歪掉。因為 Redux 整個就是圍著資料模型運轉，所以如何規劃模型，以及如何讓團隊裡的其他成員遵循規劃原則，就顯得相當的重要。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1#.244xqpjxp">Dissecting Twitter’s Redux Store</a></li>
+<li><a href="http://redux.js.org/docs/recipes/StructuringReducers.html">Structuring Reducers · Redux</a></li>
+<li><a href="https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/">Database Normalization Explained in Simple English</a></li>
+</ul>
+  <span class="item__footer"><a href="https://hackernoon.com/avoiding-accidental-complexity-when-structuring-your-app-state-6e6d22ad5e2a#.zjjhs7fvq">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QCZCjAd"></a>
+  
+  <h3 class="item__title"><a href="http://blog.leichunfeng.com/blog/2017/02/20/talking-about-the-decompression-of-the-image-in-ios/">谈谈 iOS 中图片的解压缩</a></h3>
+    <p>有在開發 iOS app 的人一定有做過用 table view 顯示一堆圖片，然後就會遇到滾動卡頓的問題，然後爬文就會發現可能是因為顯示圖片時需要解壓縮所以很耗時間，然後就會看到大家建議的做法是先在背景解壓縮再回到前景顯示，然後你最終會被指引到 <code>CGBitmapContextCreate</code> 這個函式。</p>
+
+<p>你會發現這個函式需要一大堆參數，看了文件之後還是似懂非懂，谷歌大神一下還會發現許多知名的 library 像是 YYImage、SDWebImage、AFNetworking 都用到它來解壓縮圖片，可是各家傳入的參數卻又略有不同。看完這篇說明你就會懂了。</p>
+  <span class="item__footer"><a href="http://blog.leichunfeng.com/blog/2017/02/20/talking-about-the-decompression-of-the-image-in-ios/">leichunfeng.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CCY4Zq"></a>
+  
+  <h3 class="item__title"><a href="https://www.raywenderlich.com/149335/introduction-protocol-buffers-ios">Introduction to Protocol Buffers on iOS</a></h3>
+    <p>現在開發 app 免不了要跟後端或是其他客戶端傳遞資料，最常見的資料格式就是 JSON 跟 XML 了。它們非常適合有架構的資料，也提供了高度可閱讀性，但是相對的它們的檔案尺寸通常會比較大，序列/反序列化也會消耗比較多的資源。
+Protocol Buffers 是 Google 開發的結構化資料交換格式，它生成的資料體積小、處理的效率高、擴充彈性佳，早已被 Google 以及許多公司廣泛使用，尤其適合用在需要頻繁傳輸資料的場合。</p>
+
+<p>其他相關或類似的服務還有：</p>
+
+<ul>
+<li><a href="http://www.grpc.io/">grpc.io</a></li>
+<li><a href="https://google.github.io/flatbuffers/index.html">FlatBuffers</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.raywenderlich.com/149335/introduction-protocol-buffers-ios">raywenderlich.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="poXeONx"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/twitter/ios-twitter-image-pipeline">Twitter Image Pipeline is a robust and performant image loading and caching framework for iOS clients</a></h3>
+    <p>圖片絕對是 app 開發當中不可或缺的重要角色，但是要如何優雅而且正確的處理它卻始終是個大難題，還好目前已經有許多出色的 library 可以幫我們解決「下載 / 緩存 / 顯示」三大問題，最廣為人知的大概就是 <a href="https://github.com/rs/SDWebImage">SDWebImage</a>、<a href="https://github.com/ibireme/YYImage">YYImage</a>、<a href="https://github.com/onevcat/Kingfisher">Kingfisher</a> 這幾個。近期 Twitter 也公開了它們自家的圖片管理庫，讓廣大的開發者們又多了一個選擇，真是可喜可賀！</p>
+  <span class="item__footer"><a href="https://github.com/twitter/ios-twitter-image-pipeline">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="CIChi9Y"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/sgolemon/table-flip">sgolemon/table-flip 翻桌例外</a></h3>
+    <p>這是一個可以丟出翻桌表情符號作為例外的 PHP 套件，作者是從一個 <a href="https://twitter.com/LGnome/status/735573024825430016">Twitter 討論串</a> 中獲得靈感的，希望大家也能時時刻刻保持著幽默感～</p>
+
+<p>由 <a href="https://twitter.com/fukuball">@fukuball</a> 分享。</p>
+  <span class="item__footer"><a href="https://github.com/sgolemon/table-flip">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/77/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-02-27'>February 27th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>78 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/79/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-03-13'>March 13th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

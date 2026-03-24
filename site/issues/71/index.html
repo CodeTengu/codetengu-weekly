@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 71 如果你覺得自己的工作環境裡沒有機歪人，那你就是那個機歪人</title>
+<meta name="description" content="本期內容涵蓋 Web, Machine Learning, Testing, iOS, Android, Golang">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Web, Machine Learning, Testing, iOS, Android, Golang'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/71/index.html#start">
+        Issue 71 如果你覺得自己的工作環境裡沒有機歪人，那你就是那個機歪人 &nbsp;<i><time class='published' datetime='2016-12-05'>December 5th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-208670"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.douban.com/people/vinta/">More Than Human</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="j0Iqslx"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/alex/what-happens-when">What happens when you type google.com into your browser and press enter?</a></h3>
+    <p>（因為趕著回去玩 Final Fantasy XV，這一期就不多廢話了，PSN ID <code>vintalines</code>，大家多多指教。）</p>
+
+<p>之前在面試工程師的時候，常常會問一下標題的這個問題，但是老實說能夠答得好的人真的不多呢，了解這個問題對於你平常 debug 其實是很有幫助的。不過除了技術問題之外，我也會好奇地問一下來面試的人他們是怎麼準備這次的面試的，不過讓我訝異的是，其實有不少人都支支吾吾地表示他們沒有特別準備，嗯，也不是說不行啦，只是有時候面試你的人也是花了不少時間在看你的履歷和 GitHub 上的 code，專門準備要問你哪些問題。而且更重要的是，從你怎麼準備面試，多少是可以看出你平常是怎麼做事的嘛。</p>
+  <span class="item__footer"><a href="https://github.com/alex/what-happens-when">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="x5Rmeab"></a>
+  
+  <h3 class="item__title"><a href="http://www.slideshare.net/Severalnines/webinar-slides-9-devops-tips-for-going-in-production-with-galera-cluster-for-mysql-mariadb">9 DevOps Tips for going in production with MySQL / MariaDB Galera Cluster</a></h3>
+    <p>StreetVoice 的資料庫前陣子換成了 MariaDB Galera Cluster，因為需要跨 data center 又得支援 multi-master 讀寫（其中一個 data center 還是在連外網路異常險惡的中國），而 Galera 基本上是對我們整個後端的程式來說改動最少的方案。</p>
+
+<p>這份 Severalnines 的簡報提到了很多用 Galera Cluster 需要注意的地方，非常值得一看。如果你是 Severalnines 的會員，也可以看看他們的 Webinar 的<a href="http://severalnines.com/blog/9-devops-tips-going-production-mysql-mariadb-galera-cluster-webinar-replay">影片</a>。</p>
+  <span class="item__footer"><a href="http://www.slideshare.net/Severalnines/webinar-slides-9-devops-tips-for-going-in-production-with-galera-cluster-for-mysql-mariadb">slideshare.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cqvdik7"></a>
+  
+  <h3 class="item__title"><a href="https://peteris.rocks/blog/htop/">htop explained</a></h3>
+    <p>想必很多人都用過 <code>htop</code>，不過你真的都知道畫面上每個欄位或數值是什麼意思嗎？不懂沒關係，看完這篇文章你就懂了。不過更棒的是，作者還講了很多 Linux 的基本知識，學到很多啊。</p>
+  <span class="item__footer"><a href="https://peteris.rocks/blog/htop/">peteris.rocks</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3VPZSJK"></a>
+  
+  <h3 class="item__title"><a href="https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists-ebook/dp/B01M0LNE8C/">Introduction to Machine Learning with Python</a></h3>
+    <p>最近在讀這本書，真的不錯，跟大家分享一下，作者就是 <a href="http://scikit-learn.org/">scikit-learn</a> 的核心開發者之一，讀起來（幾乎）沒有挫折感，這對初學者來說是很關鍵的啊。不過這本書並不是在教你怎麼一步一步地 implement 各種 Machine Learning 的演算法，畢竟他整本書都在用 scikit-learn 了。就像你在讀 High Performance MySQL 的時候，它也不是在教你怎麼 implement 一個資料庫的嘛。</p>
+
+<p>這本書最棒的地方是他在說明每個演算法的時候都會有好幾幅精心繪製的圖表，可以讓你用非常直觀的方式了解到不同演算法之間的差異。甚至是在示範調整演算法的參數時也有把結果做成圖，所謂的 Visualization 真的很重要呢。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.safaribooksonline.com/library/view/python-for-data/9781491957653/">Python for Data Analysis</a> 要出第二版了</li>
+</ul>
+  <span class="item__footer"><a href="https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists-ebook/dp/B01M0LNE8C/">amazon.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xgQnSQi"></a>
+      <a href="https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html"><img src="original_ratio_extra_large_d8fb92ee-0ba6-4108-87bc-0e41be9044eb.png" title="Google Testing Blog: Just Say No to More End-to-End Tests" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html">Google Testing Blog: Just Say No to More End-to-End Tests</a></h3>
+    <p>在 app 的領域是比較少看到 <a href="https://www.techopedia.com/definition/7035/end-to-end-test">End-to-End Testing</a> 的方法討論跟工具，但參加了好幾次 MOPCON 都有 UI Testing 的議程，而 End-to-End Testing 免不了一定會包含到 UI Testing 的部分，所以下面就混在一起說好了。</p>
+
+<p>這個標題乍看之下是有點重，但重點是 <strong>more</strong> End-to-End Tests，End-to-End Tests 有它不可取代的必要性，但不要因為 UI Testing 或是 End-to-End 的概念上很吸引人而做了過多不必要的測試，這樣並不會帶來等量的助益，只是在消耗你的開發資源。</p>
+
+<p>附圖是 Testing Pyramid，轉載自 Martin Fowler 的部落格 <a href="http://martinfowler.com/bliki/TestPyramid.html">TestPyramid</a>，大概就是說越高階的測試跑得越慢、要花更多資源去寫跟維護。這個測試三角形跟 Google 在文章裡提到的測試方法分配分別是 70% unit tests, 20% integration tests, 10% end-to-end tests 也是不謀而合。</p>
+
+<p>而我個人認為這篇文章的精華在這句：</p>
+
+<blockquote><p>Thus, to evaluate any testing strategy, you cannot just evaluate how it finds bugs. You also must evaluate how it enables developers to fix (and even prevent) bugs.</p></blockquote>
+  <span class="item__footer"><a href="https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8m7kJhs"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@sadmansamee/intelligence-in-mobile-applications-ca3be3c0e773#.nwbq4c9uw">Intelligence in Mobile Applications</a></h3>
+    <p>機器學習現在非常熱門，相關的平台跟服務也是大量的湧現出來。</p>
+
+<p>如果想要做 <strong>語音辨識</strong>、<strong>臉部辨識</strong>、<strong>自然語言處理</strong>、<strong>預測系統</strong> 這類的東西，有哪些第三方的服務可以加速你的開發呢？</p>
+
+<p>這篇文介紹了 mobile app developer 可以應用的服務：</p>
+
+<ul>
+<li><a href="https://wit.ai/">Wit.ai</a></li>
+<li><a href="https://cloud.google.com/products/machine-learning/">Google Cloud Machine Learning APIs</a></li>
+<li><a href="https://www.microsoft.com/cognitive-services">Microsoft Cognitive Services</a></li>
+<li><a href="https://www.ibm.com/watson/developercloud/services-catalog.html">IBM Watson</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@sadmansamee/intelligence-in-mobile-applications-ca3be3c0e773#.nwbq4c9uw">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Qvbrt9w"></a>
+  
+  <h3 class="item__title"><a href="https://onevcat.com/2016/11/pop-cocoa-1/">面向协议编程与 Cocoa 的邂逅 (上)</a></h3>
+    <p><a href="https://onevcat.com/2016/12/pop-cocoa-2/">面向协议编程与 Cocoa 的邂逅 (下)</a></p>
+
+<p><a href="https://twitter.com/onevcat">王巍</a> 對 POP (Protocol Oriented Programming) 的介紹跟想法。標題寫的是「與 Cocoa 的邂逅」，表示這不只是一篇關於 POP 的理論介紹，包含了一些日常中很實際的應用。</p>
+
+<p>用 POP 而非 OO 的原因王巍列出這三點：</p>
+
+<ul>
+<li>動態派發安全性 (Dynamic dispatch)</li>
+<li>橫切關注點 (Cross-Cutting Concerns)</li>
+<li>菱形缺陷 (Diamond Problem)</li>
+</ul>
+
+
+<p>POP 的應用上，你所需要掌握的工具：</p>
+
+<ul>
+<li>protocol extension</li>
+<li>protocol associatedtype</li>
+</ul>
+
+
+<p>這兩篇網誌是由他自己的 <a href="https://speakerdeck.com/onevcat/mian-xiang-xie-yi-bian-cheng-yu-cocoa-de-xie-hou">這份簡報</a> 延伸出來的，簡報十分完整，推薦可以先看簡報。</p>
+
+<p>延伸閱讀：<a href="http://chris.eidhof.nl/post/protocol-oriented-programming/">Protocol Oriented Programming is Not a Silver Bullet</a></p>
+  <span class="item__footer"><a href="https://onevcat.com/2016/11/pop-cocoa-1/">onevcat.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uPIgula"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521#.6p3ae11s8">Mastering the Terminal side of Android development</a></h3>
+    <p>不多說了，直接用文內的 TL;DR</p>
+
+<ul>
+<li>Install iterm2, a better terminal than the default one</li>
+<li>Use the oh-my-zsh shell with autosuggestions</li>
+<li>compact the commands ./gradlew iDD</li>
+<li>Run the commands faster by using the offline flag --offline</li>
+<li>Pretty print your tests</li>
+<li>Don’t manually open the app on the phone after install, use <a href="https://github.com/cesarferreira/android-rocket-launcher">this plugin</a> to automate it</li>
+<li>Attach the process to debugger without restarting the app in debug mode</li>
+<li>Enjoy a more convenient logcat output with <a href="https://github.com/JakeWharton/pidcat">pidcat</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521#.6p3ae11s8">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="EsQWXLf"></a>
+  
+  <h3 class="item__title"><a href="http://go-talks.appspot.com/github.com/kkdai/GolangTalks/gdgfest/gdgfest.slide#1">GDG DevFest Taipei 2016 - In Love with Golang</a></h3>
+    <p>GDG Dev Fest 是 Google Developer Group Festival Taipei ( Google 開發者群組嘉年華會 )
+GDG DevFest 之前在 GTG 有人問我，為何大家投影片不用 Golang Present 來做．所以我為了 GDG Dev Fest 做好了 Golang Talk 的投影片．</p>
+  <span class="item__footer"><a href="http://go-talks.appspot.com/github.com/kkdai/GolangTalks/gdgfest/gdgfest.slide#1">go-talks.appspot.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oyAY9X4"></a>
+  
+  <h3 class="item__title"><a href="http://divan.github.io/posts/avoid_gotchas/">How to avoid Go gotchas (如何避免 Golang 的雷 (坑))</a></h3>
+    <p>如何避免 Golang 的坑？</p>
+
+<p>一半而言坑的原因有兩種： 錯誤的語言跟錯誤的直覺。</p>
+
+<p>而錯誤的直覺往往在於對於語言本身的架構與原理夠不夠了解。</p>
+
+<p>這篇文章詳細了介紹 slice 與 interface 的原理，並且講解常常會踩到坑的原因。</p>
+
+<p><a href="https://gocn.io/article/171">簡體中文翻譯文</a></p>
+  <span class="item__footer"><a href="http://divan.github.io/posts/avoid_gotchas/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Rh9JWpk"></a>
+  
+  <h3 class="item__title"><a href="https://dave.cheney.net/2016/11/19/go-1-8-toolchain-improvements">Go 1.8 toolchain improvements</a></h3>
+    <p>Dave Cheney 解釋預計在 2017/01/31 將要釋出的 Go 1.8 主要在 toolchain 上的優化． 其中包含有:</p>
+
+<p><strong>編譯得更快:</strong>
+Go 1.7 就支援了 SSA(Static single assignment) 但是由於相容舊的方式，留了不少舊的架構． 1.8 完成了所有的優化並且拔光舊有的架構． 可以讓你編譯得更快， 雖然比不上 Go 1.4 (因為當時用 C 來做底層 Compiler  1.5 之後換成 Go 原生來編譯 Compiler ) ，但是也有長足的進步．</p>
+
+<p><strong>Code Generation 的優化:</strong>
+對於 Code 分析與產生 (go gen) 有著些許的優化與速度提升．</p>
+
+<p><strong>Defer 與 cgo 的效能提升:</strong>
+Defer 提升 33% 而 cgo 提升 45%</p>
+
+<p><strong>平台支援:</strong>
+Go 1.7 支援 64-bit mips, Go 1.8 支援 32-bit mips</p>
+  <span class="item__footer"><a href="https://dave.cheney.net/2016/11/19/go-1-8-toolchain-improvements">cheney.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xIswOGl"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/farslan/how-to-write-your-own-go-tool">How to write your own Go tool </a></h3>
+    <p><a href="https://github.com/fatih">Fatma Arslan</a> (vim-go 的作者) 介紹了如何透過 go/ast go/parser 與 go/printer 來製作 golang 的小工具，
+並且透過 gofmt 的 use case 來解釋如何透過這些工具來製作．</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/farslan/how-to-write-your-own-go-tool">speakerdeck.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Ju3fHkd"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golang/go/wiki/FromXToGo">FromXToGo </a></h3>
+    <p>如果你正從某個語言（PHP, Python, Ruby...）想要換到 Golang 卻又害怕嗎？</p>
+
+<p>這邊有一連串文章搜集好相關的故事，可以給你們一切參考。</p>
+  <span class="item__footer"><a href="https://github.com/golang/go/wiki/FromXToGo">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="H9SJcaa"></a>
+  
+  <h3 class="item__title"><a href="http://blog.analytics-toolkit.com/2016/language-spam-latest-google-analytics-spam/">Language Spam – The Latest Google Analytics Spam</a></h3>
+    <p>上次打開 Google Analytics 發現來訪的語言欄位有大量 <code>Secret.ɢoogle.com You are invited! Enter only with this ticket URL. Copy it. Vote for Trump!</code> 紀錄。</p>
+
+<p>當下忍不住笑了出來，詭異的句子有一種莫名的喜感。</p>
+
+<p>這篇是我看到比較詳細的說明也提供了解法。</p>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供。</p>
+  <span class="item__footer"><a href="http://blog.analytics-toolkit.com/2016/language-spam-latest-google-analytics-spam/">analytics-toolkit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/70/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-11-28'>November 28th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>71 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/72/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-12-12'>December 12th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 98 絕望啊！我對每個 library 都有自己的 DSL 絕望啦！</title>
+<meta name="description" content="本期內容涵蓋 Frontend, DevOps, MySQL, Go, Bitcoin, PostgresQL">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Frontend, DevOps, MySQL, Go, Bitcoin, PostgresQL'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/98/index.html#start">
+        Issue 98 絕望啊！我對每個 library 都有自己的 DSL 絕望啦！ &nbsp;<i><time class='published' datetime='2017-07-31'>July 31st 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-302033"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Quantum Thief</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="KMemqZ9"></a>
+      <a href="https://www.targetprocess.com/articles/speed-in-software-development/"><img src="original_ratio_extra_large_1ccfd86a-0894-4e2d-bf34-5fa4880badb1.jpg" title="Speed in Software Development" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.targetprocess.com/articles/speed-in-software-development/">Speed in Software Development</a></h3>
+    <p>這一篇真的是不可多得, 作者畫了一張圖, 一開始看到覺得這好亂喔, 不知道怎麼看。 但這篇解釋得非常清楚, 而且是對於任何會影響開發速度的各種角度跟因素, 牽一髮動全身啊。</p>
+
+<p>這篇文章提到的議題很多, 舉例來說: 「技術債」, 常常聽到大家都在講技術債, 但是什麼才算是真正的技術債? 你明確知道這邊留下一個債, 知道之後要來還的, 這才叫技術債。 你沒有特地去借的不叫技術債, 就是寫得爛而已 XD</p>
+
+<p>好啦, 有時候別人的債, 是你要來幫忙還的, 我很懂。</p>
+
+<p>而技術債好不好? 跟借錢一樣, 借了要還, 但你可以借來買車、買房, 但是借來花光光都不還債, 那就破產囉。</p>
+
+<p>這篇應該是我 2017 上半年最推的一篇了, 非常值得一看!!! 但我才發現是 2014 的文章啊 ...</p>
+  <span class="item__footer"><a href="https://www.targetprocess.com/articles/speed-in-software-development/">targetprocess.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9c1aBk"></a>
+  
+  <h3 class="item__title"><a href="https://www.keycdn.com/blog/speed-index/">Speed Index Explained – Another Way to Measure Web Performance</a></h3>
+    <p>很多年前開發網頁有 YSlow 這種東西可以用來測哪邊還有地方可以改善, 但是現在 Web 的發展差異有點大了, 第一次看到 Speed Index 這種東西, 文章中說是 2012 年, <a href="https://www.webpagetest.org/">WebPageTest</a> 就開始在他們的測試報告裡面提出來了 Speed Index 這個數據, 數字越小越快, 時代變了啊!</p>
+  <span class="item__footer"><a href="https://www.keycdn.com/blog/speed-index/">keycdn.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oRWs2as"></a>
+  
+  <h3 class="item__title"><a href="https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse">CI/CD Tools Comparison: Jenkins, GitLab CI, Buildbot, Drone, and Concourse</a></h3>
+    <p>CI/CD 這件事在 <a href="https://streetvoice.com/">StreetVoice</a> 最早是用 Jenkins, 後來改用 Travis CI 才真正把這件事弄的很順利, 因為設定簡單。 在還沒開始之前, 先降低門檻這件事真的是很重要, 這篇提到的 <a href="https://concourse.ci/">Concourse</a> 還滿想試試的, 看起來也是簡單又清爽。 像是 Buildbot 努力過一陣子, 還是直接放生了 :/</p>
+
+<p>其實也是想說 Travis CI 用這麼多年了, 是不是該試試看新的東西了 XD 但話說上禮拜才因為 Travis CI 升級了預設的 Linux Distro, 害我們的 build 突然就炸了, 查了好一會才知道原因, 不可控的因素還是越低越好啊</p>
+  <span class="item__footer"><a href="https://www.digitalocean.com/community/tutorials/ci-cd-tools-comparison-jenkins-gitlab-ci-buildbot-drone-and-concourse">digitalocean.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rCq4j2J"></a>
+  
+  <h3 class="item__title"><a href="https://www.lullabot.com/articles/how-to-learn-react">How to Learn React: A Five-Step Plan</a></h3>
+    <p>前幾天看到在美國工作的朋友貼了一個徵才訊息, Remote 在家工作, 主要是寫 React-Native, 年收入似乎將近三百萬台幣, 這時候我就覺得為何我不好好的把 React Native 給學一學呢!?</p>
+
+<p>好啦, 機會是給準備好的人, 開始認真學 React 了!!</p>
+  <span class="item__footer"><a href="https://www.lullabot.com/articles/how-to-learn-react">lullabot.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OxtFYrx"></a>
+  
+  <h3 class="item__title"><a href="http://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow/">Faster Pagination in MySQL – Why Order By With Limit and Offset is Slow?</a></h3>
+    <p>快速分頁, 用 OFFSET, LIMIT 來做分頁, 分頁越後面, 速度就會越慢, 其實一直都知道這個問題, 但是還沒時間認真去研究, 這篇解釋得還滿清楚的。</p>
+
+<p>另外, 來個題外話, 跟分頁相關的還有一個問題, 就是算出總頁數這件事, 這個 SQL query 也是挺慢的, 所以如果可以不給總頁數, 只給下一頁的話, 那頁面又可以快上一倍吧。</p>
+
+<p>例如: 一頁秀出 20 則, 那麼你就 select 21 則, 如果有第 21 則的話, 那就是有下一頁了, 對吧!? :p</p>
+  <span class="item__footer"><a href="http://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow/">eversql.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="i6P5mx2"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg25">Golang.tw 第 25 次聚會的投影片與錄影</a></h3>
+    <p>這次主要有四個講者，並且有包括 Python, Evernote, Blogger 架設與 Machine Learning 的講題．
+分享給大家..</p>
+
+<p>19:30 ~ 20:10: 王思元 - Evenote API + Blogger API
+20:30- 21:10: M157Q - Grumpy</p>
+
+<p>Lightening talk:
+21:20: HUGO-靜態網站生成器-2-分鐘上手 (林志傑)
+21:20 ~ 21:30 GoLearn</p>
+  <span class="item__footer"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg25">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UgGUPEp"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/campoy/go-tooling-workshop?utm_content=buffer51da1&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">A workshop covering all the tools gophers use in their day to day life 讓你跟著快速學習 Golang 的好 workshop 教材</a></h3>
+    <p>由 Google 的 傳教士 Francesc Campoy 所準備的 workshop video 跟相關的 source code ． 提供了給初學者跑 workshop 的好素材． 並且讓你能快速了解 Go 的相關工具 (go list, go vet, go list, godoc 甚至 pprof 都有提到)</p>
+
+<p>全程透過 vscode for Go 讓大家更容易上手.</p>
+  <span class="item__footer"><a href="https://github.com/campoy/go-tooling-workshop?utm_content=buffer51da1&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="98bFAe0"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/nareix/joy4?utm_content=buffer120fc&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">nareix/joy4: Golang audio/video library and streaming server</a></h3>
+    <p>之前常常有人詢問，是否有不錯用的 Golang audio/video library?
+這個看起來很有用，不僅僅支援不少的格式．</p>
+
+<p>還支援 RTMP server/client 與 RTSP client 對於想要用 Golang 做 steaming 的人．應該會覺得棒喔..</p>
+  <span class="item__footer"><a href="https://github.com/nareix/joy4?utm_content=buffer120fc&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9xbKHUC"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/tj/gh-polls?utm_content=buffera6d25&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">tj/gh-polls: Polls for GitHub issues and readmes</a></h3>
+    <p>gh-polls 可以讓你輕鬆的建立投票 markdown ，並且連接到相關服務可以迅速投票．</p>
+
+<p>只要建立好選項後， markdown 就直接可以使用．並且連接到投票的後端的服務．任何人都可以快速建立投票．
+此外，這次之前 Nodejs 大神 TJ Holowaychuk 為了自己公司的產品 apex/up 寫出的小工具．</p>
+  <span class="item__footer"><a href="https://github.com/tj/gh-polls?utm_content=buffera6d25&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sNTqNnv"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=KBZlN0izeiY&amp;index=5&amp;list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">GopherCon 2017: Kavya Joshi - Understanding Channels - YouTube</a></h3>
+    <p>[GopherCon 2017 - Understanding Channels]</p>
+
+<p>Channels 大家都了解，但是你真的能了解他如何運作的嗎?
+一開始很好奇這個女講者竟然敢在 GopherCon 上面講 Channels ，但是聽了內容意外的深入．</p>
+
+<p>從簡單的  buffer/unbuffered channels 的差異，他們如何運作，甚至到 channels 跟 go scheduler 是如何運作的部分講得相當仔細...</p>
+
+<p>相當建議大家好好閱讀這一篇...</p>
+
+<p>兩篇衍生閱讀: (跟 go scheduler 相關)</p>
+
+<ul>
+<li><a href="http://buff.ly/2h4MZXL">how Golang scheduler working go 1.7</a></li>
+<li><a href="http://buff.ly/2h4OaGu">How does the golang scheduler work?</a></li>
+</ul>
+
+
+<p>GopherCon 2017 所有的影片:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">GopherCon 2017 playlist</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBfhRZj3BDOrKdHzoafHsKHU">GopherCon 2017 lightening talk playlist</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=KBZlN0izeiY&amp;index=5&amp;list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="J1ELyMN"></a>
+  
+  <h3 class="item__title"><a href="https://thenextweb.com/contributors/2017/07/24/ultimate-guide-upcoming-fork-thats-splitting-bitcoin-community/#.tnw_qlUfeF9b">Bitcoin 八月一號 Fork 懶人包</a></h3>
+    <p>Bitcoin 在八月一號即將 Fork, 這個懶人包解釋了什麼是 SegWit 和 SwgWit 2x ，還有 Fork 會對 bitcoin 帶來的影響。</p>
+  <span class="item__footer"><a href="https://thenextweb.com/contributors/2017/07/24/ultimate-guide-upcoming-fork-thats-splitting-bitcoin-community/#.tnw_qlUfeF9b">thenextweb.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tWzeFe7"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kamranahmedse/developer-roadmap">Web 開發者天賦樹 2017 版</a></h3>
+    <p>Web 技術一直推成出新。往往讓人迷惘再來該學什麼好。有人整理出了一個 2017 版的天賦樹，讓我們能決定在沒事的時候該來研究些什麼。</p>
+  <span class="item__footer"><a href="https://github.com/kamranahmedse/developer-roadmap">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rBN9Rql"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/xori/gamblers-dice">不隨機但是讓人覺得公平的骰子函式庫</a></h3>
+    <p>程式裡常常需要亂數決定一些事。機率上的隨機性會影響公平性，但是機率上的隨機和人類的認知常常不太符合，最有名的就是<a href="https://zh.wikipedia.org/wiki/%E8%B3%AD%E5%BE%92%E8%AC%AC%E8%AA%A4">賭徒謬誤</a> 。大家會認為完全獨立事件的發生機率會和之前的結果有關。簡單來說就是如果很久沒有骰到六，再來骰到六的機率會變高。
+而這個骰子函式庫會讓之前比較少出現的數字機率上升，更棒的是在骰一百萬次的時候每一面的出現機率還滿平均的。 <strong>請不要用在任何真的需要公平隨機的地方</strong></p>
+  <span class="item__footer"><a href="https://github.com/xori/gamblers-dice">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1ltdrVT"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/simon-engledew/gocmdpev">PostgresQL Query Visualizer</a></h3>
+    <p>當我們遇到Query 過慢時常常會用 <a href="https://www.postgresql.org/docs/9.6/static/sql-explain.html"><code>EXPLAIN</code></a> 來看看慢的是哪一個部分。不過有時候太複雜看不太懂，這個工具讓我們能更容易找到效能瓶頸。</p>
+  <span class="item__footer"><a href="https://github.com/simon-engledew/gocmdpev">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rRUoUxT"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/pmq20/ruby-compiler">把 Ruby 程式包成單一執行檔</a></h3>
+    <p>雖然名字裡有編譯，但是其實是把程式，函式庫和 Ruby 直譯器包到一個迷你檔案系統裡。目前還不支援跨平台。不過光是讓動態語言能包裝成單一執行檔就是很大的進步了。</p>
+  <span class="item__footer"><a href="https://github.com/pmq20/ruby-compiler">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/97/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-07-24'>July 24th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>98 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/99/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-08-07'>August 7th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

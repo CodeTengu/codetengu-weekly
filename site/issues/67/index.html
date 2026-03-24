@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 67 小明白天只是一名普通的軟體工程師，但是只要一到了夜晚，他就會搖身一變，成為一名加班的軟體工程師</title>
+<meta name="description" content="本期內容涵蓋 AWS, MySQL, Python, Django, Machine Learning, Docker, DevOps, ChatOps, Elixir, Phoenix, Go, Kubernetes, BlockChain">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 AWS, MySQL, Python, Django, Machine Learning, Docker, DevOps, ChatOps, Elixir, Phoenix, Go, Kubernetes, BlockChain'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/67/index.html#start">
+        Issue 67 小明白天只是一名普通的軟體工程師，但是只要一到了夜晚，他就會搖身一變，成為一名加班的軟體工程師 &nbsp;<i><time class='published' datetime='2016-11-07'>November 7th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-196853"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob">We Are Legion (We Are Bob)</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 買了文明帝國 6</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="DqnIVjz"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/open-guides/og-aws">open-guides/og-aws: Amazon Web Services — a practical guide</a></h3>
+    <p>這是一份非常全面的 AWS 使用指南，如果你正在用或打算用 AWS，必須好好讀一讀。</p>
+  <span class="item__footer"><a href="https://github.com/open-guides/og-aws">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Rx3WUqc"></a>
+  
+  <h3 class="item__title"><a href="https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci">What&#39;s the difference between utf8_general_ci and utf8_unicode_ci?</a></h3>
+    <p>上禮拜遇到一個 MySQL 的 Cannot add foreign key constraint 的問題，但是兩邊明明都有 index 而且 column type 也都一樣。後來突然想到我好像在哪裡看過一篇在說因為 collation 不同導致 index 失效的文章（雖然我其實只看了標題，根本沒點進去看內文），一查發現果然是這個原因：因為從正式環境 dump 出來的資料是用 <code>utf8_general_ci</code>，但是我在開發環境建立的 table 卻用了 <code>utf8_unicode_ci</code>。</p>
+
+<p>問題解決之後忍不住研究了一下這兩個 collation 有什麼不同，順便跟大家分享一下。</p>
+
+<p>然後雖然可能沒有人想知道，但是這些 <code>utf8_xxx_ci</code> 的 <code>ci</code> 其實是 <strong>case insensitive</strong> 的意思啊。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/30074492/what-is-the-difference-between-utf8mb4-and-utf8-charsets-in-mysql">What is the difference between utf8mb4 and utf8 charsets in MySQL?</a></li>
+<li><a href="https://stackoverflow.com/questions/15534977/mysql-cannot-add-foreign-key-constraint">MySQL Cannot Add Foreign Key Constraint</a></li>
+</ul>
+  <span class="item__footer"><a href="https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci">stackoverflow.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ywQLBhT"></a>
+  
+  <h3 class="item__title"><a href="http://thosecleverkids.com/thoughts/posts/upgrading-django">Upgrading Django</a></h3>
+    <p>因為前陣子也才升級了 <a href="https://streetvoice.com/">StreetVoice</a> 的 Django 版本，這就看到有人整理了從 Django 1.3 到 Django 1.10 各個版本的升級注意事項，雖然大部分內容都可以在官網的 <a href="https://docs.djangoproject.com/en/dev/releases/">Release notes</a> 找到，但是有人幫你畫了重點整理成冊還是挺不錯的。</p>
+  <span class="item__footer"><a href="http://thosecleverkids.com/thoughts/posts/upgrading-django">thosecleverkids.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iPPcxno"></a>
+  
+  <h3 class="item__title"><a href="http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-2/">Machine Learning: An In-Depth, Non-Technical Guide - Part 2</a></h3>
+    <p>最近在研究 Machine Learning，一邊上 MOOC，一邊自己讀書（這時候 <a href="https://www.safaribooksonline.com/">Safari Books Online</a> 的優點就體現出來啦：某個概念搞不懂，可以隨時找其他書來看）。對初學者來說，機器學習除了多得嚇人的演算法之外，最煩的就是那些層出不窮的專有名詞了（雖然任何學問都是這樣），這個系列的文章就（概略地）解釋了不少常見的 Machine Learning 專有名詞和概念，讓你有個粗淺的理解，不至於在閱讀相關文章的時候寸步難行。</p>
+
+<p>然後，忍不住要提一下，Kaggle 的 Kernels 真的不錯啊，會有很多人分享他們對 Kaggle 上的比賽題目的解題過程，例如 <a href="https://www.kaggle.com/c/titanic/kernels">Titanic: Machine Learning from Disaster</a>。</p>
+  <span class="item__footer"><a href="http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-2/">innoarchitech.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3nGgw5B"></a>
+  
+  <h3 class="item__title"><a href="http://pandas.pydata.org/pandas-docs/stable/10min.html">10 Minutes to Pandas</a></h3>
+    <p>對 <a href="http://pandas.pydata.org/">Pandas</a> 的第一印象就是它的 API 實在是太他媽魔術了（雖然後來發現其實真正魔術的是 Numpy）。總之一開始完全看不懂，後來才發現官網上的這篇入門指南，雖然標題說只要 10 分鐘，但是那是騙你的，讀完 <a href="http://pandas.pydata.org/pandas-docs/stable/indexing.html">Indexing and Selecting Data</a> 就不止了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python">Pandas Tutorial: DataFrames in Python</a></li>
+<li><a href="http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/">Working with DataFrames</a></li>
+</ul>
+  <span class="item__footer"><a href="http://pandas.pydata.org/pandas-docs/stable/10min.html">pydata.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Y0mLKup"></a>
+  
+  <h3 class="item__title"><a href="https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/">Docker in Production: A History of Failure</a></h3>
+    <p>對 Docker 滿滿的血淚控訴，事實上裡頭列的坑，我也幾乎都遇過，所以讀了特別地感同身受：</p>
+
+<ul>
+<li>每次大更版，都隨著亮眼的新功能夾帶了小臭蟲，以及一些不向前相容的坑。</li>
+<li>無法對 image 儲存空間做有效管理，為了這類小而惱人的問題，甚至要自己 call Docker API 寫個輔助程式處理。</li>
+<li>類似上一點，至今若要自架 Docker Registry (v2) <a href="https://github.com/docker/docker-registry/issues/988">依舊很難做 image 的空間管理</a>。最後若不是轉到付費的解決方案 (Docker Trusted Registry, AWS ECR...)，就是放棄使用 Docker Registry，改以 save &amp; load 另走自己的一套 image 派送流程、迂迴曲折地 shipping。</li>
+<li>莫衷一是的 storage drivers，選了任一個，就代表你被強制同梱了那一個 storage driver 適用的、特定版本的 Linux distribution。</li>
+<li>資料庫之類仰賴 permanent disk storage 的應用，在 production 場合尤其不適合使用 Docker，無論哪種 workaround 都用起來綁手綁腳。</li>
+</ul>
+
+
+<p>如果要做 immutable infrastructure，現在的我會比較偏好用 <a href="https://www.packer.io/">Packer</a> 做 VM image，仍以 VM 為應用程式的主要宿主，但是一些適用 container 的應用，我也不排斥使用 container。綜合考量適用場合、資源調度整合的便利性等因素，分別給予最合適的部署方式，而非一味地追逐酷炫潮夯、人云亦云、通通上 Docker。</p>
+  <span class="item__footer"><a href="https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/">wordpress.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="h1JjexY"></a>
+  
+  <h3 class="item__title"><a href="https://www.lita.io/">Lita: ChatOps for Ruby</a></h3>
+    <p>前陣子，我們單位終於把先前在此介紹過的 <a href="https://operable.io/">Cog</a> 架了起來，感受到它設計上的一些強大之處，譬如完善的權限系統、不同用途的 command bundles 可部署在特定的 relay groups 區隔開來等。但是過沒幾天，就被一些毛邊給刮得滿手傷痕，誠實地說，我覺得 Cog 在目前（2016 年末）還沒成熟到可以運用在 production 環境中。</p>
+
+<p>於是我們又回頭去用雖然不那麼酷炫潮夯、但是掌握度高的 Lita。透過我們熟悉親切的老朋友 Ruby，無論是從頭撰寫，還是將之前既有的 DevOps 相關工作的 scripts 改寫為 Lita plug-in，相比之下真是無痛，且權限分野之類的需求，除了 Lita 基本的支援，我們還是能夠自行運用 Ruby 實作出更細緻、切合自身所需的管理邏輯。</p>
+
+<p>如果您的單位也想導入 ChatOps，我很誠心推薦您參考看看 Lita。</p>
+  <span class="item__footer"><a href="https://www.lita.io/">lita.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TQcoWiD"></a>
+  
+  <h3 class="item__title"><a href="http://www.techworld.com.au/article/432871/developer_interview_how_haiku_building_better_beos/">Developer interview: How Haiku is building a better BeOS</a></h3>
+    <p>BeOS 曾經是 Apple 公司次世代作業系統的可能選項之一，但是後來的歷史如各位所見，Steve Jobs 帶著 NeXTSTEP 回鍋，包著 Mac OS 皮、骨子裡是 NeXTSTEP 的 Mac OS X 最後上了位，技術優異卻時不我與的 BeOS 黯然退場。</p>
+
+<p>不過因為 <a href="https://www.haiku-os.org/">Haiku</a> 專案出現、延續了它的靈魂，於是我們有了這麼一個 open source 版本的 BeOS。</p>
+
+<p>這篇採訪長文介紹了 Haiku 專案的緣起、設計決策、組織文化，雖然是一篇四年前的舊文，但是我還是覺得值得推薦給大家，此後還是會找一些類似的開源專案專訪文與大家分享，體會別人在程式碼以外，執行專案時是如何處理其他各種面向的議題。</p>
+  <span class="item__footer"><a href="http://www.techworld.com.au/article/432871/developer_interview_how_haiku_building_better_beos/">techworld.com.au</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mXj0lAa"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@mustafaturan/anatomy-of-an-elixir-process-878030c37166#.mdo5d848i">Anatomy of an Elixir Process</a></h3>
+    <p>簡潔有力地以圖解方式從微觀到巨觀介紹了 Elixir 的 Process，因為太簡潔有力了所以我也要寫得簡潔有力，直接點擊進去看吧！</p>
+  <span class="item__footer"><a href="https://medium.com/@mustafaturan/anatomy-of-an-elixir-process-878030c37166#.mdo5d848i">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CZNrnRo"></a>
+  
+  <h3 class="item__title"><a href="https://changelog.com/posts/introducing-changelog-2-0">Introducing Changelog 2.0</a></h3>
+    <p>Changelog 這個 Podcast 很有趣，我也是訂戶之一。這篇文章介紹了他們使用 Elixir/Phoenix 製作的新網站（還預定會把這個 CMS 開源！）、以及新節目，包括 Go Time 這個針對 Go 語言的主題節目。大家感受一下。</p>
+  <span class="item__footer"><a href="https://changelog.com/posts/introducing-changelog-2-0">changelog.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="HxzRWPA"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg17">Golang Taipei 2016/10 第十七次聚會的投影片與錄影鏈結</a></h3>
+    <p>各位好，編輯只好自肥一下．身為 <a href="http://golang.tw">Golang.tw</a> 的共同主辦人之一，在這裡告訴各位我們十月地的聚會投影片與影片已經出現了．</p>
+
+<p>可以來這裡查看相關的投影片與影片內容，之後相關的聚會也會在這裡顯示出來．</p>
+
+<p>本月份的聚會有提到 <a href="https://grpc.io">GRPC</a> 也有講到 <a href="https://github.com/golang/mobile">gomobile</a> ，內容相當的精彩．</p>
+
+<p>十一月的聚會將會定在 11/29 號，歡迎大家來報名講者與協辦攝影師．請各位踴躍來報名啊</p>
+  <span class="item__footer"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg17">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RzfLNia"></a>
+  
+  <h3 class="item__title"><a href="http://www.florinpatan.ro/2016/10/why-you-should-not-use-iris-for-your-go.html">Why you should not use iris for your Go projects</a></h3>
+    <p>Iris 是一個號稱地表上最快的 Web Framework，擁有 5000+ star 的專案，但是想要申請 Awesome-Go 卻被 ban 掉的整個故事．  這篇文章，從多個角度建議你不應該把 Iris 當作你的專案中，故事精彩就直接看內文吧．</p>
+
+<p>懶人包:</p>
+
+<ol>
+<li>Iris 被 Awesome-Go 移除</li>
+<li>Iris 的 Kataras 申請重新加入．</li>
+<li>被人發現把 PR 改掉，License 亂寫</li>
+<li>被 Awesome-Go 拒絕並且 Ban 掉</li>
+<li>Kataras 把 Iris commit 改成只有兩個 (哪招？)</li>
+<li>Kataras 修改自己在 git issue 裡面的發言</li>
+</ol>
+
+
+<p>參考 : <a href="https://github.com/avelino/awesome-go/pull/1137">Awesome-Go Github PR</a></p>
+  <span class="item__footer"><a href="http://www.florinpatan.ro/2016/10/why-you-should-not-use-iris-for-your-go.html">florinpatan.ro</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Wq3KzDC"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/rekihattori/awesome-programmers">rekihattori/awesome-programmers: A list of history&#39;s greatest</a></h3>
+    <p>傑出程序員(捲舌音) 清單</p>
+
+<p>裡面有四個人跟 Golang 有關係</p>
+
+<p>在作業系統分類中:</p>
+
+<ul>
+<li>Ken Thompson: Go 創始人之一，也是 C 語言的共同發明者．</li>
+<li>Rob Pike: Go 創始人之一，主要管理整體架構與之後發展．</li>
+<li>Russ Cox: 許多好用的 Go 工具都是他起頭撰寫，不論是 gofmt 還是 goimport ．</li>
+<li>Brian Kernighan:  賣最好的 Go book作者 .  <a href="http://buff.ly/2dHhYpe">書本的鏈結</a></li>
+</ul>
+
+
+<p>還有一個在資料庫的分類:</p>
+
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E5%BE%B7%C2%B7%E8%8F%B2%E8%8C%B2%E6%B4%BE%E7%BF%A0%E5%85%8B">Brad Fitzpatrick</a>: LiveJournal 的創辦人，並且是 OpenID 制定協定的人．目前主要負責 Golang <code>net/http</code> 的相關開發．</li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/rekihattori/awesome-programmers">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="exTsGmT"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@zwischenzugs/learn-kubernetes-the-hard-way-the-easy-and-cheap-way-6f82b665ccd9#.4t5ai4v65">Learn Kubernetes the Hard Way (the Easy and Cheap Way) – Medium</a></h3>
+    <p>Kelsey Hightower (Google Kubernetes 的傳教士) 的文件 <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way">kubernetes-the-hard-way</a> (透過硬派方式來安裝 Kubernetes) 一直都是了解與安裝 Kubernetes 最基本的安裝手冊．但是由於真的太困難而變成許多人望而卻步．（不然就是透過 minikube 或是直接使用 GKE)</p>
+
+<p>這篇文章，透過相同的方式來安裝．但是卻幫你透過 Vagrant 來安裝的方式幫你把 Kubernetes 安裝起來．不僅僅可以一鍵可以輕鬆完成，還可以在中間了解如何安裝並且一步步指導你相關步驟，實在相當的方便啊．</p>
+  <span class="item__footer"><a href="https://medium.com/@zwischenzugs/learn-kubernetes-the-hard-way-the-easy-and-cheap-way-6f82b665ccd9#.4t5ai4v65">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Lv5Ha37"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/chain/chain?utm_content=buffer1a436&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">chain/chain: Chain Core Developer Edition</a></h3>
+    <p>Chain 是一個 BlockChain 服務的公司，提供透過 blockchain 技術的金流與安全的資訊服務．</p>
+
+<p>相關訊息之前有板友貼過， 不過在這裡增加一些其他資訊:</p>
+
+<ol>
+<li><p>Chain 公司內部人員有一位是 Keith Rarick 是之前是 Heroku 做出 Go official buildpack 的大大 <a href="http://buff.ly/2dMp2xv">KR Github</a></p></li>
+<li><p>根據 Reddit 上面的討論，如果你使用這個服務而沒有 AGPL 的話，你就得付企業的 License 費用  <a href="http://buff.ly/2eTmmio">Reddit link</a></p></li>
+</ol>
+  <span class="item__footer"><a href="https://github.com/chain/chain?utm_content=buffer1a436&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2u0z0Dc"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#109;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#116;&#122;&#x61;&#x6e;&#x67;&#109;&#x73;&#64;&#115;&#x74;&#114;&#x65;&#x65;&#116;&#118;&#x6f;&#x69;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;">&#x74;&#122;&#97;&#x6e;&#103;&#109;&#x73;&#x40;&#x73;&#x74;&#114;&#101;&#101;&#116;&#x76;&#x6f;&#105;&#x63;&#x65;&#x2e;&#99;&#x6f;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Dc82vYa"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="http://jobs.kktix.cc">Frontend / Backend Developer at KKTIX</a></h3>
+    <p>負責開發與維護 KKTIX 服務，可自由遠端工作。團隊採行 Scrumban 敏捷開發流程，並實踐 Pair Programing、Code Review、整合 CI 作自動測試與佈署。讓你可以參與產品開發，並且能專注程式實作。團隊使用的技術包括但不限於 Golang / Ruby on Rails / JavaScript / ReactJS / AngularJS / AWS / PostgreSQL / Redis / Elasticsearch 歡迎自主管理能力強大的你，一起加入 KKTIX，開發更好用的售票報名服務。</p>
+
+<p>意者請將履歷寄到 <a rel="nofollow" href="mailto:hr@kkbox.com">hr@kkbox.com</a> 或到 <a rel="nofollow" href="http://jobs.kktix.cc">http://jobs.kktix.cc</a> 報名。</p>
+  <span class="item__footer"><a rel="nofollow" href="http://jobs.kktix.cc">kktix.cc</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/66/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-10-31'>October 31st 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>67 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/68/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-11-14'>November 14th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 76 心裡想的是 Microservice，手裡做的是 Distributed Monolith</title>
+<meta name="description" content="本期內容涵蓋 Python, Database, Recommender System, Machine Learning, Debug, Go, Message Queue, JavaScript, React, UI, RethinkDB, PostgreSQL, Node.js">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Database, Recommender System, Machine Learning, Debug, Go, Message Queue, JavaScript, React, UI, RethinkDB, PostgreSQL, Node.js'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/76/index.html#start">
+        Issue 76 心裡想的是 Microservice，手裡做的是 Distributed Monolith &nbsp;<i><time class='published' datetime='2017-02-20'>February 20th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-236625"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Player of Games</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 新年新專案，好刺激啊！</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="j2BKtuS"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/parallel-tasks-in-python-concurrent-futures.html">Parallel tasks in Python: concurrent.futures</a></h3>
+    <p>在 Python 中如果想要平行地執行許多任務，常常會用 <code>multiprocessing</code> 或 <code>multiprocessing.dummy</code>（其實就是 <code>threading</code>）。不過如果你的任務是所謂的 <a href="https://en.wikipedia.org/wiki/Embarrassingly_parallel">Embarrassingly Parallel</a>，就是指每個任務之間不需要相互溝通或依賴，其實有更簡單的方式：<code>concurrent.futures</code>。</p>
+
+<p>寫起來跟一般同步的寫法幾乎一樣，一個 <code>for loop</code> 打完收工，清爽。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://docs.python.org/3/library/concurrent.futures.html">Python Standard Library - concurrent.futures</a></li>
+</ul>
+  <span class="item__footer"><a href="https://vinta.ws/code/parallel-tasks-in-python-concurrent-futures.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9MfKcJb"></a>
+  
+  <h3 class="item__title"><a href="https://cloudplatform.googleblog.com/2017/02/inside-Cloud-Spanner-and-the-CAP-Theorem.html">Inside Cloud Spanner and the CAP Theorem</a></h3>
+    <p>上禮拜最值得一提的消息無疑是 Google 發表了 GCP 的新服務 <a href="https://cloud.google.com/spanner/">Cloud Spanner</a>。幾乎就是一個理想的資料庫該有的樣子啊，global distributed (not pure) relational database，支援 ACID transaction、SQL: 2011 和他媽的 horizontal scaling，看完都要尿褲子了。</p>
+
+<p>Eric Brewer（就是提出 CAP 定理的人）在這篇文章提到，Spanner 嚴格來說是 CP 啦，而不是 <a href="https://twitter.com/googlecloud/status/831549273544208384">@googlecloud</a> 推文宣稱的 CAP，畢竟只要是分散式系統，network partition 是無可避免的。只是 Google 透過他們的技術和資本實力能夠把 A 拉高到你幾乎可以假設他們的服務不會出事（或者說是還沒等到 Google 的服務掛掉，你的服務先掛掉的機率還比較高）。</p>
+
+<p>不過 Cloud Spanner 其實是跑在 Google 自家的 private global network（Eric Brewer 說這是最關鍵的一點），而不是我們這些平民平常在用的 public Internet；在 white paper 裡面還提到 Google 透過在各個 datacenter 裝備 GPS 和原子鐘實現了一套 TrueTime API，解決了分散式的 MVCC 機制在全球範圍內的不同機器之間的 timestamp 誤差。是說軟體開發搞到最後，拼的反而是硬體了啊。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45855.pdf">Spanner, TrueTime &amp; The CAP Theorem</a></li>
+<li><a href="https://cloud.google.com/spanner/docs/schema-and-data-model">Cloud Spanner - Schema and Data Model</a></li>
+<li><a href="https://github.com/pingcap/tidb">TiDB</a> - 中國的團隊根據 Spanner 論文開發出來的 NewSQL，相容 MySQL protocol</li>
+</ul>
+
+
+<p>（這一期難得有兩個 curator 都寫了同樣的主題啊）</p>
+  <span class="item__footer"><a href="https://cloudplatform.googleblog.com/2017/02/inside-Cloud-Spanner-and-the-CAP-Theorem.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="fMoW2D8"></a>
+  
+  <h3 class="item__title"><a href="https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-engines">Building Recommendation Engines</a></h3>
+    <p>之前趁春節假期的時候讀完了這本專門講推薦系統的書，從古典的 Collaborative Filtering、Content-based 到利用機器學習方法的 Model-based，提到了不少搭建推薦系統常用的機器學習和自然語言處理的「套路」，也分別示範了如何使用 Spark、Mahout 和 Neo4j 來實作推薦系統。雖然每個部份並沒有太深入，但是勝在給出了一個整體的、概觀的學習路徑，適合入門。</p>
+
+<p>而且不知道為什麼，竟然還有附一系列的<a href="https://www.safaribooksonline.com/library/view/building-practical-recommendation/9781787287648/">教學影片</a>，影片內容就是書的精華版。何必呢。</p>
+
+<p>不過專門講推薦系統的書也真的是不多，之前也讀了老牌的 <a href="https://www.manning.com/books/collective-intelligence-in-action">Collective Intelligence in Action</a> 和项亮（他的英文名字是叫 Vector 嗎？）的「<a href="https://book.douban.com/subject/10769749/">推荐系统实践</a>」，前者有點過時而且不太實用，後者很扎實但是就相對難啃，所以最先讀完的反而是這本書。</p>
+  <span class="item__footer"><a href="https://www.packtpub.com/big-data-and-business-intelligence/building-recommendation-engines">packtpub.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vVO8rbT"></a>
+  
+  <h3 class="item__title"><a href="https://www.themarketingtechnologist.co/about-debugging-8-things-i-wish-i-knew-earlier-in-my-career/">About debugging: 8 things I wish I knew earlier in my career</a></h3>
+    <p>作者總結出來的 debug 應該有的「心法」，尤其是第二點。</p>
+
+<p>其實只要不是那種 typo 等級的錯誤，你每解完一個 error / bug / issue，你其實就是學到一項新的知識，當然這個新知識可大可小。我自己的習慣是只要解決掉一個我之前沒遇過的問題或任務，就會開一篇 Evernote 的筆記記錄下來，不只是對以後的查詢、溫故知新很有幫助，長久累積下來，也是挺有成就感的，像我目前就囤了快 1800 篇的筆記。大家有空可以試試。</p>
+
+<p>不過這個其實就是所謂的 TIL (<a href="https://github.com/thoughtbot/til">Today I Learned</a>) 的概念啦。</p>
+  <span class="item__footer"><a href="https://www.themarketingtechnologist.co/about-debugging-8-things-i-wish-i-knew-earlier-in-my-career/">themarketingtechnologist.co</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="H22N8em"></a>
+  
+  <h3 class="item__title"><a href="https://blog.codeship.com/growing-tech-stack-say-no/">Growing Your Tech Stack: When to Say No</a></h3>
+    <p>如果你也讀了前陣子那篇引起無數人共鳴的文章 <a href="https://blog.daftcode.pl/hype-driven-development-3469fc2e9b22">Hype Driven Development</a>，多半也會發現有些工程師就是ㄏㄧㄠˊ咖稱，你不讓他們三不五時玩一下新玩意兒他們是坐不住的，所以下一步要考慮的問題就會是：該如何評估要不要採用某項技術？</p>
+
+<p>有個簡單的方式就是根據引入的新技術對產品可能造成的風險來判斷，例如從最輕微的開發工具的改善、中等程度的部署流程的變動到最重大的改用新的程式語言或採用新的資料庫。雖然這篇文章是把改用新的程式語言列為 moderate risk 啦，但是考慮到團隊成員對新語言的掌握程度和能不能即時從人力市場中找到足夠多而且足夠好的人來接手開發等等的因素，更重要的是導入新的程式語言通常也意味著新的工具鏈與整個生態系，所以怎麼看都不會只是 moderate 吶。</p>
+  <span class="item__footer"><a href="https://blog.codeship.com/growing-tech-stack-say-no/">codeship.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dFo8oih"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg21">Golang Taipei Gathering #21: Go 1.8 release party 投影片與影片</a></h3>
+    <p>這個月的 Golang 社群聚會號稱聚集了台北，台中與高雄的夥伴們一起歡慶 Golang 1.8 正式發行．
+雖然當台北時間舉辦 Release Party 的時候還沒有正式發行（後來在半夜就出了正式版，可見專案管理能力萬歲)</p>
+
+<p>這次主要請到 Umbo CV 的 David 跟 Kent 來講 Go 1.8 的一些新功能，內容包括新的語法，工具，甚至有提到 plugin 或者是 dynamic loading 的部分．</p>
+
+<p>歡迎大家一起來看看．</p>
+  <span class="item__footer"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg21">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="J7N7Udk"></a>
+  
+  <h3 class="item__title"><a href="https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html">Grumpy: Go running Python!</a></h3>
+    <p>Google open source 為了解決很多 legacy 的 python code ，開發了一個工具可以讓你將 Python 轉換成 Go ，或是在 Python 裡面跑 Go 的套件．</p>
+
+<p>一些重點整理:</p>
+
+<ol>
+<li><p>Grumpy (脾氣暴躁 XD)  把 令人討厭的 GIL (Global interpreter lock) 拿掉了．換成 Go 的 GC 來管理．可以讓跑 python 的時候 multiple thread  更快． Grumpy 也不是第一個把 GIL 拿掉的 Python runtime, IronPython / Jython 都這樣幹過</p></li>
+<li><p>目前 Grumpy 支援度不夠，所以大家使用前看一下 issue list (光是 import "/", "."  就有些問題 refer issue 11)</p></li>
+<li><p>Grumpy 不知道 CPython 的部分，所以 numPy 跟 opencv 都不能用． (其實還不少不能用的，畢竟還 alpha)</p></li>
+<li><p>也是可以跑 Interactive shell  "make run" 就可以了...</p></li>
+<li><p>目前僅支援 Python 2.7  (畢竟還有四年可以活 XD)</p></li>
+</ol>
+
+
+<p>最後，為了呼應拿掉 GIL ， <a href="https://research.swtch.com/lockfree">Russ Cox 也發了篇十年前的 C 語言文章．來解釋 lock 有多痛苦</a> XDDD</p>
+
+<p>想清楚了解 Python GIL 是什麼，可以看看這篇 <a href="http://www.dabeaz.com/python/GIL.pdf">slide</a></p>
+  <span class="item__footer"><a href="https://opensource.googleblog.com/2017/01/grumpy-go-running-python.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="USDMssK"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/uber/cherami-server">uber/cherami-server: Distributed, scalable, durable, and highly available message queue system.</a></h3>
+    <p>Uber 將他們的 Task Queue - Cherami 開源． 原本 Uber 是使用 Celery (Python) 作為他們的 task queue ． 由於業務的增加，對於 HA 的需求增加，於是用 #Golang 重寫成過，</p>
+
+<p>並且與 Uber 許多好用的套件 <a href="http://buff.ly/2ia5CFb">TChannel</a>  (管 RPC) 與 <a href="http://buff.ly/2i79MSL">RingPop</a> (負責 Health Checking 與 Membership ) 結合在一起．</p>
+
+<p>成為一個具有 Distributed, scalable, durable, 跟 highly available 的 task/message queue 系統</p>
+
+<p>說明的部落格<a href="http://buff.ly/2iW6pLP">在這裡</a></p>
+  <span class="item__footer"><a href="https://github.com/uber/cherami-server">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UWoFc7R"></a>
+  
+  <h3 class="item__title"><a href="http://atp.fm/205">[ATC: Podcast] 專訪 Swift 與 LLVM 的創造者，剛離開 Apple 到 Tesla 的 Chris Lattner</a></h3>
+    <p>最近剛離開 Apple 到 Tesla 的 Chris Lattner 接受 ATP (ACCIDENTAL TECH PODCAST) 的邀請來談談 LLVM 跟其他相關科技． 記錄一下一些重點摘錄:</p>
+
+<ul>
+<li>關於職涯轉換:
+
+<ul>
+<li>當然有談一下關於 Apple 跟 Tesla 在職業生涯上面的轉換． 對於 Chris Lattner 從工程師到管理階層的轉換，他自嘲不是一個所謂的 People person 但是他喜歡這方面的轉換．</li>
+</ul>
+</li>
+<li>有討論到 Apple 對於 Objective C 想要改善的想法，一直到了 ARC 甚至談到了 Swift 誕生的起因．</li>
+<li>關於 Swift 的開源 (Open Source):
+
+<ul>
+<li>Lattner 提到原本在他心中就覺得會發生，但是礙於公司政策無法來運作．</li>
+<li>其實從一開始的 Commit 到相關工具的開發，都有顯示出來 Lattner 是從 Open Source 的角色來思考．</li>
+<li>但是 Swift 2 Open Source 後， 公司無法規劃到說會得到那麼多的回饋．</li>
+</ul>
+</li>
+</ul>
+
+
+<p>從 HN 找到一些，關於 Chris Lattner 的八卦:</p>
+
+<ul>
+<li>他一直都是一個實務派的人，所以小木屋與木工也都自己做． 照片在此:
+
+<ul>
+<li><a href="https://twitter.com/clattner_llvm/status/736237407016607744">https://twitter.com/clattner_llvm/status/736237407016607744</a></li>
+<li><a href="https://twitter.com/clattner_llvm/status/818499400313909249">https://twitter.com/clattner_llvm/status/818499400313909249</a></li>
+</ul>
+</li>
+</ul>
+
+
+<p>備註一下: Chris Lattner 是 LLVM 跟 Swift 的發明者跟主要維護人．</p>
+
+<p>參考:</p>
+
+<ul>
+<li><a href="https://9to5mac.com/2017/01/18/swift-creator-chris-lattner-talks-developer-tools-and-career-after-recent-jump-from-apple-to-tesla/">Swift creator Chris Lattner talks developer tools and career after recent jump from Apple to Tesla</a></li>
+<li><a href="https://news.ycombinator.com/item?id=13433215">HN: Interview with Chris Lattner [audio] (atp.fm)</a></li>
+</ul>
+  <span class="item__footer"><a href="http://atp.fm/205">atp.fm</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Yy7KF9m"></a>
+  
+  <h3 class="item__title"><a href="https://cloudplatform.googleblog.com/2017/02/introducing-Cloud-Spanner-a-global-database-service-for-mission-critical-applications.html">Google Cloud Platform Blog: Introducing Cloud Spanner: a global database service for mission-critical applications</a></h3>
+    <p>Google 改變世界的幾篇論文中 (MapReduce, BigTable, Chuppy, Borg, Spanner) ，總算又有一個從論文變成商品了．參考: <a href="https://www.mapr.com/blog/5-google-projects-changed-big-data-forever">五大神論文</a></p>
+
+<p>當然宣傳內容很讓人驚訝，CAP Theorem 可以完全 (強) 滿足嗎? 可以看看<a href="https://cloudplatform.googleblog.com/2017/02/inside-Cloud-Spanner-and-the-CAP-Theorem.html">這篇文章</a></p>
+
+<p>當然我們都知道 CAP 無法都完全支持，大部分會選擇某些比較弱，當另外兩項選擇強支持的時候．</p>
+
+<p>"Spanner does not actually beat CAP theorem. It chooses C over A when P happens. But the infra team in google manages it so well so they could still deliver high Availability to most users."</p>
+
+<p>但是，當然這麼好的神器便宜嗎？</p>
+
+<p>"開一台 0.9 usd/hour，儲存和傳輸另外算錢"
+refer <a href="https://kaif.io/z/programming/debates/uV6Fs8wHqn">kaif</a></p>
+
+<p>難道 Spanner 論文出來後沒有人試著把 Spanner 做出嗎?</p>
+
+<p>當然有！就是之前很紅的小強資料庫 CockroachDB，所以他們當然趁著<a href="https://jepsen.io/analyses/cockroachdb-beta-20160829">風頭繼續推廣他們的 Open Source 小強資料庫</a></p>
+
+<p>最後，別忘記 CockroachDB 使用 Golang 寫的!! 歡迎加入 <a href="http://golang.tw">Golang.tw 社群</a></p>
+  <span class="item__footer"><a href="https://cloudplatform.googleblog.com/2017/02/introducing-Cloud-Spanner-a-global-database-service-for-mission-critical-applications.html">googleblog.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dXTzUJu"></a>
+  
+  <h3 class="item__title"><a href="https://mxstbr.blog/2017/02/react-children-deepdive/">A deep dive into children in React</a></h3>
+    <p>詳細地介紹 React children，還有 React 內建的 Children helper 函式。
+沒有用過 React children 的話建議可以看一下這篇，善用 React children 對於 component 組合會很有幫助。</p>
+  <span class="item__footer"><a href="https://mxstbr.blog/2017/02/react-children-deepdive/">mxstbr.blog</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nyUJee7"></a>
+  
+  <h3 class="item__title"><a href="https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a#.nzbyjy6rw">UI component explorers  —  your new favorite tool</a></h3>
+    <p>告訴你為什麼應該要用 UI Component explorer，主要以 Meteor 的 Chromatic 為介紹，最後也有帶出其他幾個知名的工具，像是 Storybook、Devcards。</p>
+
+<p>如果你們前端團隊還沒導入類似的工具，建議趕快導入。對於前端開發協作有很大的幫助。</p>
+  <span class="item__footer"><a href="https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a#.nzbyjy6rw">hichroma.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oI3rrHX"></a>
+  
+  <h3 class="item__title"><a href="http://blog.sagemath.com/2017/02/09/rethinkdb-vs-postgres.html">RethinkDB versus PostgreSQL: my personal experience</a></h3>
+    <p>作者介紹他從 RethinkDB 轉移到 PostgreSQL 的心路歷程。</p>
+
+<p>使用 RethinkDB 相當長一段時間，即使中間有碰到許多問題，還是相信 RethinkDB 最終會解決這些問題。直到 RethinkDB 的公司喊停為止，加上客戶要求產品中不能有 AGPL 相關授權的東西。此時，才重新思考用何種技術取代 RethinkDB。</p>
+
+<p>最後選中了 PostgresSQL，因為有比較自由的授權，而且擁有 LISTEN / NOTIFY，比較符合他原來的使用方式。比較了轉移前後的速度，CPU 使用量，還因此省下每月約 $800 的費用。</p>
+  <span class="item__footer"><a href="http://blog.sagemath.com/2017/02/09/rethinkdb-vs-postgres.html">sagemath.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Cme7E6X"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/fusebox/webpack-is-not-the-only-way-6ddb67e99be9#.phgg2w5k9">WebPack is not the only way</a></h3>
+    <p>webpack 出現以後，改變了前端開發的生態。過去要靠 make、grunt、gulp 或者自行寫 shell script 解決，都因 webpack 出現而改變。當然因為 webpack 還是有許多被人詬病的地方，例如文件寫得不是很好。而 webpack 出現的時候，babel 也還沒出現而且 ES2015 還沒被廣泛地使用。後來也出現許多類似的工具，像 JSPM，Rollup 但始終不像 webpack 這樣能解決 html、css 甚至圖片的打包問題。</p>
+
+<p>Fusebox 除了強調他快速以外，透過 plugin 也能夠打包 html 跟 css。雖然 webpack 前陣子終於釋出第 2 版，但看來 fusebox 來勢洶洶。希望能繼續良性競爭，造福廣大的前端開發工作者！</p>
+  <span class="item__footer"><a href="https://medium.com/fusebox/webpack-is-not-the-only-way-6ddb67e99be9#.phgg2w5k9">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5JVdT3z"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/the-node-js-collection/an-update-on-es6-modules-in-node-js-42c958b890c#.8cj6279ys">An Update on ES6 Modules in Node.js</a></h3>
+    <p>雖然 node 上面已經實現了不少 ES2015 的語法，但是 module system 卻遲遲不見蹤影，因為 node 當初採用的是 CommonJS 跟 ES2015 的 module system 有很大的不一樣。</p>
+
+<p>像 node 裡面是當執行到該行 code 的時候才同步地載入，而 ES2015 採取異步的策略。當然他們也正在嘗試解決這個問題，像是採用新的副檔案名 mjs，別名為 Michael Jackson Script ，透過這個副檔名，該檔案可以被認為是 ES6 module 而原本的 js 就採用 CommonJS 的系統。</p>
+  <span class="item__footer"><a href="https://medium.com/the-node-js-collection/an-update-on-es6-modules-in-node-js-42c958b890c#.8cj6279ys">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="nJcugRR"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Backend Developers at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB Galera Cluster)、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x74;&#x7a;&#97;&#x6e;&#x67;&#x6d;&#115;&#64;&#115;&#116;&#x72;&#101;&#x65;&#x74;&#118;&#x6f;&#105;&#x63;&#x65;&#x2e;&#x63;&#x6f;&#109;">&#x74;&#122;&#x61;&#x6e;&#x67;&#x6d;&#x73;&#x40;&#115;&#116;&#x72;&#x65;&#x65;&#116;&#118;&#111;&#105;&#99;&#x65;&#46;&#x63;&#111;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/75/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-01-02'>January 2nd 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>76 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/77/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-02-27'>February 27th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

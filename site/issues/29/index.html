@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 29 如何靠寫 Java 快速致富？繼承</title>
+<meta name="description" content="本期內容涵蓋 iOS, Android, TDD, Machine Learning, WordPress, Sketch, JavaScript">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Android, TDD, Machine Learning, WordPress, Sketch, JavaScript'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/29/index.html#start">
+        Issue 29 如何靠寫 Java 快速致富？繼承 &nbsp;<i><time class='published' datetime='2016-02-08'>February 8th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-106690"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="vJJDmhd"></a>
+  
+  <h3 class="item__title"><a href="http://blog.codeship.com/a-serverless-rest-api-in-minutes/">A Serverless REST API in Minutes with Serverless Framework </a></h3>
+    <p><a href="https://github.com/serverless/serverless">Serverless Framework</a> 透過 <a href="https://aws.amazon.com/documentation/lambda/">AWS Lambda</a> 跟 <a href="http://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html">API Gateway</a> 的組合讓大家不需要再開機器來跑 backend。這是在 AWS Lambda 跟 API Gateway 推出之後就很多人在試的方式，現在有一套相對成熟的 framework 推出來，馬上獲得了大量的關注。</p>
+
+<p>舉出一些特色： AWS Lambda 是 Event-driven 的資源，所以只有在你的 lambda 執行的時候才算錢、不需要去處理 scale 的事情、部署應用超容易。</p>
+
+<p>Serverless framework 提供必要的框架來管理 AWS lambda 跟 API Gateway 讓開發的體驗更好，這個 framework 值得大家的關注。尤其是要從 <a href="http://parse.com/">Parse</a> 出走的人。</p>
+  <span class="item__footer"><a href="http://blog.codeship.com/a-serverless-rest-api-in-minutes/">codeship.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CvBKMZX"></a>
+  
+  <h3 class="item__title"><a href="http://imnotyourson.com/diffable-and-mergeable-localizable-strings/">Diffable and mergeable Localizable.strings</a></h3>
+    <p>不曉得各位 iOS 的開發者都是怎樣處理 Localizable.strings UTF-16 編碼的 git diff 跟 merge 問題的？</p>
+
+<p>上禮拜工作 merge 時一個不小心整包 Localizable.strings 被另一個衝突的 branch 蓋掉，才開始覺得這樣下去真的不行。
+會有這樣的問題是因為 Git 預設不認 UTF-16 的編碼，會視為 binary file，然後 Apple 堅持 .strings 要用 UTF-16 編碼。所以在它身上 git diff, merge 就變得非常難用，也沒辦法在 GitHub 上面看 diff 實在很煩。</p>
+
+<p>最後發現在 build settings 有兩個神奇的屬性，<strong>Set Convert Copied Files</strong> 跟 <strong>Set Strings file Output Encoding</strong>，設好之後以後 Localizable.strings 用 UTF-8 就好勒，功能全解放！</p>
+  <span class="item__footer"><a href="http://imnotyourson.com/diffable-and-mergeable-localizable-strings/">imnotyourson.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LZZw1yW"></a>
+  
+  <h3 class="item__title"><a href="http://qualitycoding.org/networking-constructor-injection/">Constructor Injection to TDD Networking: Is It That Easy?</a></h3>
+    <p>這是 <a href="https://github.com/jonreid/OCMockito">OCMokito</a> 的作者寫的 Test Driven Development (TDD) 教學。超入門、初學等級，以 TDD 的方式來介紹寫 Testing 的流程。</p>
+
+<p>有些人可能會覺得之前不是才在吵 <a href="http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html">TDD is dead. Long live testing.</a>，大過年的，不要起爭議啦。</p>
+
+<p>但我覺得啦，說起 TDD：與其說是在寫測試，TDD 的重點反而是設計。而雖然我現在也沒在用 TDD 開發，但學 TDD 時得來的那些設計觀念到現在還是很受用。</p>
+  <span class="item__footer"><a href="http://qualitycoding.org/networking-constructor-injection/">qualitycoding.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6PvzW0i"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@diolor/improving-ux-with-rxjava-4440a13b157f#.s16plhwdb">Improving UX with RxJava</a></h3>
+    <p>Reactive Programming 很適合拿來處理一些不可預測的狀態，這也就是為什麼都是 Frontend 在紅 Reactive Programming 了。Netflix 應該是少數在 backend 也實作 Reactive Programming 的吧？(<a href="http://techblog.netflix.com/2013/01/reactive-programming-at-netflix.html">Reactive Programming at Netflix</a>)</p>
+
+<p>扯遠啦，總之 UI 操作介面跟喜怒無常的網路狀態都是很適合讓 Reactive Programming 發揮優勢的場合，這篇文章針對這兩個主題提了例子跟解法。</p>
+  <span class="item__footer"><a href="https://medium.com/@diolor/improving-ux-with-rxjava-4440a13b157f#.s16plhwdb">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BlROi9Y"></a>
+  
+  <h3 class="item__title"><a href="http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/index.html">APK 瘦身实践</a></h3>
+    <p>Android APK 瘦身的經驗談，最有效果的果然還是圖片的壓縮跟取捨，雖然有些還蠻極限操作的，但整體來說很實用！</p>
+
+<p>我是寫程式打工的，而我寫程式的原則是：</p>
+
+<p>「幹你娘 code 爆」</p>
+
+<p>沒錯，就是幹你娘 code 爆，老子才不管甚麼設計輸出圖檔三小的，每次寫的 UI code 就是姬芭一大包。顏色效果用程式寫，動畫用程式寫。所有的元件建構式都要帶 style 屬性，跟把「所見即所得」這四個字當作沒聽過一樣。</p>
+
+<p>我還記得，我刻第 25 個 UI 元件那時候，經理跑來跟我說，app 上有 26 個地方跟設計畫的不一樣，你有頭緒嗎？</p>
+
+<p>我他媽的怎麼會知道。</p>
+  <span class="item__footer"><a href="http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/index.html">jayfeng.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="wbWBH28"></a>
+  
+  <h3 class="item__title"><a href="http://www.technologyreview.com/view/545606/how-an-ai-algorithm-learned-to-write-political-speeches/">How an AI Algorithm Learned to Write Political Speeches</a></h3>
+    <p>美國已故總統甘乃迪的經典名言：</p>
+
+<blockquote><p>Ask not what your country can do for you; ask what you can do for your country.</p></blockquote>
+
+<p>這句話著實有點迷惑人，但其他大部份的政治演說都有既定的形式與詞彙，我們有辦法讓機器學習寫出政治演說，做成一個政治演說產生器嗎？本篇文章就是在討論這個問題，也分享了相關程式碼在 <a href="https://github.com/valentin012/conspeech">GitHub</a> 上，大家可以照著 <a href="https://github.com/valentin012/conspeech/blob/master/con_speech.ipynb">iPython Notebook</a> 做做看，也許使用了這個程式，總統在備詢時就可以隨時照稿子念了吧！</p>
+  <span class="item__footer"><a href="http://www.technologyreview.com/view/545606/how-an-ai-algorithm-learned-to-write-political-speeches/">technologyreview.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jFqzj0E"></a>
+  
+  <h3 class="item__title"><a href="http://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks/">Analyzing 50k fonts using deep neural networks</a></h3>
+    <p>本篇文章是 <a href="https://twitter.com/fulhack">@Erik Bernhardsson</a> 一時無聊做的，首先使用 <a href="http://scrapy.org/">Scrapy</a> 從網路上抓取了約莫 5 萬個字形，最後再試圖跑 deep learning 讓機器學會創造新的字型，相關的<a href="https://github.com/erikbern/deep-fonts/blob/master/model.py">程式碼</a>作者也有分享出來，不過跑一次要幾週的時間，大家可以斟酌一下。</p>
+
+<p>其實關於字型相關的 Machine Learning 應用，我最近有發現一個還蠻有趣的 Project - <a href="http://blog.otoro.net/2015/12/28/recurrent-net-dreams-up-fake-chinese-characters-in-vector-format-with-tensorflow/">Recurrent Net Dreams Up Fake Chinese Characters in Vector Format with TensorFlow</a>，可以用機器來創造無意義的中文假字，想出這個計劃的人真的很天才（還是很無聊？）！</p>
+  <span class="item__footer"><a href="http://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks/">erikbern.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="kCxh4B"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-jiang-xue-xi-bi-ji-2/">林軒田教授機器學習基石 Machine Learning Foundations 第 11 講學習筆記</a></h3>
+    <p>在上一講中我們了解了 Logistic Regression 演算法並了解了如何使用 Logistic Regression 來預測心臟病發病機率這樣的問題，這一講中將延伸之前學過的演算法，在理論上說明 Linear Regression 以及 Logistic Regression 都可以用來解 Binary Classification 的問題。學會了 Binary Classification 之後，我們也可以用這樣的技巧來解 Multi-Classification 的問題。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-jiang-xue-xi-bi-ji-2/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="s4glyjU"></a>
+  
+  <h3 class="item__title"><a href="https://laravel-news.com/2016/01/wordpress-and-laravel/">WordPress and Laravel</a></h3>
+    <p>WordPress 目前還是世界上最受歡迎的部落格平台，很多人習慣使用 WordPress 來發佈文章、管理內容或是照片等等，雖然許多程序員近幾年來積極推廣使用 Markdown 寫作平台，但真正的文字工作者還是離不開 WordPress。因此漸漸發展出了後台管理介面使用 WordPress ，但前台使用其他 Framework 如 Laravel 等來呈現，以方便程序員開發功能。</p>
+
+<p>本篇文章就介紹了如何快速地建立後台 WordPress 前台 Laravel 的架構，據說 <a href="https://streetvoice.com/">StreetVoice</a> 也有一些網站是使用這樣的架構，只是前台採用的 Framework 是 Django。</p>
+  <span class="item__footer"><a href="https://laravel-news.com/2016/01/wordpress-and-laravel/">laravel-news.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZURcraL"></a>
+  
+  <h3 class="item__title"><a href="https://egoist.github.io/2016/01/19/tooling-free-you-from-jquery/">tooling 让你从 jQuery 中解脱出来</a></h3>
+    <p>最近前端相關工具的發展已經複雜到讓人覺得噁心的地步，常常會讓人懷念起以前用 jQuery 寫前端那種隨插即用的暢快感。</p>
+
+<p>tooling 便是一個這樣工具，標題雖然寫「tooling 让你从 jQuery 中解脱出来」，但這標題只是個引子，tooling 想解決的問題就是要讓開發者可以回到那不用建構工具那種「顯得很方便」的開發方式。使用了 tooling 之後，不需要什麼複雜的設置，馬上就可以快速建構好 ES6、Webpack、Babel 6、React with JSX、Vue、PostCSS with PreCSS 等等前端開發環境，前端開發就是要這樣才對嘛！</p>
+  <span class="item__footer"><a href="https://egoist.github.io/2016/01/19/tooling-free-you-from-jquery/">github.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-adamp33">
+        <div class="i" id="adamp33">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@adamp33</span></h2>
+            <div class="item item--issue item--link">
+  <a name="islw2U4"></a>
+  
+  <h3 class="item__title"><a href="https://blog.patw.me/archives/1114/use-sketch-to-improve-flow-of-frontend-and-design/">使用 Sketch 改善網頁前端與設計的標註與合作方式</a></h3>
+    <p>你有跟設計師合作的經驗嗎？一定常常遇到規格標示不清、太多細節導致漏看，設計師標好標滿各種距離、顏色等等也是曠日費時。若是有一個好工具來解決這樣的溝通模式，肯定讓開發時間更能有效利用。</p>
+
+<p><a href="https://speakerdeck.com/patw0929/shi-yong-sketch-gai-shan-cheng-shi-yu-she-ji-de-he-zuo-ji-biao-zhu-fang-shi">投影片版</a></p>
+  <span class="item__footer"><a href="https://blog.patw.me/archives/1114/use-sketch-to-improve-flow-of-frontend-and-design/">patw.me</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1B0bnHw"></a>
+  
+  <h3 class="item__title"><a href="https://www.talater.com/upup/">一行做出離線功能的 upup.js</a></h3>
+    <p>如果你做的是內容型網站，提供離線閱讀是個不錯的功能，還可以利用 cache 提升載入。upup.js 將 service worker API 包裝成讓你只要一行就可以輕鬆館理 offline resource，有需要的不妨試試。</p>
+
+<p>註：<a href="http://caniuse.com/#search=service%20worker">iOS Safari 目前還不支援 service worker</a></p>
+  <span class="item__footer"><a href="https://www.talater.com/upup/">talater.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="aTbZPjB"></a>
+  
+  <h3 class="item__title"><a href="http://mikeking.io/devtools-author/">DevTools Author 為開發者工具換張臉</a></h3>
+    <p>DevTools Author 利用 Google Chrome 的實驗功能，可以調整 Dev tool 的配色，讓你的開發工具不再一成不變！</p>
+  <span class="item__footer"><a href="http://mikeking.io/devtools-author/">mikeking.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XFW8S6Y"></a>
+      <a href="https://toggl.com/developer-methods-infographic"><img src="original_ratio_extra_large_f69082cc-d38c-499d-9316-3805d57e42dd.png" title="Software Development Methods Explained With Cars (Infographic)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://toggl.com/developer-methods-infographic">Software Development Methods Explained With Cars (Infographic)</a></h3>
+    <p>大家感受一下。</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享。</p>
+  <span class="item__footer"><a href="https://toggl.com/developer-methods-infographic">toggl.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/28/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-02-04'>February 4th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>29 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/30/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-02-15'>February 15th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 143 Roses Are Red. Violets Are Blue. Unexpected &#39;{&#39; on Line 32.</title>
+<meta name="description" content="本期內容涵蓋 Swift, Machine Learning, iOS, Redis, NLP, JavaScript, AngularJS, ReactJS, Blockchain">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Swift, Machine Learning, iOS, Redis, NLP, JavaScript, AngularJS, ReactJS, Blockchain'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/143/index.html#start">
+        Issue 143 Roses Are Red. Violets Are Blue. Unexpected &#39;{&#39; on Line 32. &nbsp;<i><time class='published' datetime='2018-10-01'>October 1st 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-416507"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。或是關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a>。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Blindsight</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">我們公司在徵人</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://github.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+<li><a href="https://github.com/lucienlee">@lucienlee</a> - 🦌</li>
+</ul>
+
+
+<p><a href="https://www.reddit.com/r/ProgrammerHumor/comments/7uyafj/roses_are_red_violets_are_blue/">本週標題出處</a>。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="mJxe4Go"></a>
+  
+  <h3 class="item__title"><a href="http://alisoftware.github.io/swift/protocols/2018/09/02/protocols-private-properties/">Private properties in protocols</a></h3>
+    <p>Swift 的 Protocol 是個很好用的概念，但它還在不斷的完善中，也還有不少限制存在，例如不能在 Protocol 裡頭宣告 private property。</p>
+
+<p>作者舉了一個蠻常見的場景說明為什麼這會是個問題，如果是我們自己專案裡頭遇到，或許我們可以跟團隊成員說好「這些 property 不能亂動」，但是一來這樣實在太不保險，而來如果我們是在開發一個 library 給其他人用的話，我們也無法保證其他人會怎麼用它。</p>
+
+<p>所以要怎麼在 Protocol 宣告 private property 呢？作者提供了一個小技巧：用一個中間物件把它包起來。蠻取巧的一個作法，或許你正好需要！</p>
+  <span class="item__footer"><a href="http://alisoftware.github.io/swift/protocols/2018/09/02/protocols-private-properties/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cfhUH5d"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/lovoo/NSFWDetector">NSFWDetector: A NSFW (aka porn) detector with CoreML</a></h3>
+    <p>利用 CoreML 做機器學習，讓程式可以辨識出不雅的圖片。我想到可以用在一個場景：如果你的 app 允許使用者上傳圖片的話，可以用這個套件在上傳前先檢查，節省後續人工檢查每一則發文的成本。</p>
+
+<p>如果你好奇它的訓練資料的話，<a href="https://github.com/lovoo/NSFWDetector/issues/16">這裡也有提供</a> XD</p>
+  <span class="item__footer"><a href="https://github.com/lovoo/NSFWDetector">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UogStrp"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/ios-os-x-development/access-control-management-with-swift-cc3c3d68cbc3">Access Control Management with Swift</a></h3>
+    <p>當你的產品功能跟使用者權限有關的時候，你或許一開始會先用粗暴有用的做法，在 User model 裡頭加入一堆 boolean property，然後在業務邏輯的地方判斷 <code>if (user.propertyA) { doSomething(); }</code>。</p>
+
+<p>隨著產品逐步變大，你會發現 User model 裡頭的 boolean property 越加越多，業務邏輯要判斷的東西也越來越多，更有可能這一堆權限判斷會散落在各個不同檔案裡。</p>
+
+<p>想想就覺得可怕，是吧？（或許你正在面對這一坨可怕的邏輯？😨）本文作者提供了一個處理使用者存取權限的思路，或許會對你現在或將來有幫助！</p>
+  <span class="item__footer"><a href="https://medium.com/ios-os-x-development/access-control-management-with-swift-cc3c3d68cbc3">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="O0DVNJR"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/playlist?list=PLKNt6c4Ajv2tgrX4wVgoHLSMuP-3sC2M9">Swift &amp; Fika 2018</a></h3>
+    <p>Swift &amp; Fika 是一個在斯德哥爾摩舉辦的 Swift Conference，今年的場次剛結束不久，新鮮的影片就上 Youtube 了，只能說主辦單位真的很有心，不知道中午吃便當的時候要看什麼的話，就來看看 Swift 吧。</p>
+  <span class="item__footer"><a href="https://www.youtube.com/playlist?list=PLKNt6c4Ajv2tgrX4wVgoHLSMuP-3sC2M9">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="8bSCCxF"></a>
+  
+  <h3 class="item__title"><a href="https://codecoding.net/ruby/on/rails/2018/09/14/dont-talk-crud.html">Don&#39;t talk CRUD</a></h3>
+    <p>CRUD 是資料操作、framework 的基本操作，但它們不應該直接被用在 API、URL 乃至於使用者介面上。</p>
+
+<p>應該盡量採用客戶、使用者的慣用語，也就是所謂的 <a href="https://en.wikipedia.org/wiki/Domain-driven_design">Domain-driven design</a>。畢竟解決（客戶、使用者的）問題才是開發程式的重點。</p>
+  <span class="item__footer"><a href="https://codecoding.net/ruby/on/rails/2018/09/14/dont-talk-crud.html">codecoding.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RhchigI"></a>
+  
+  <h3 class="item__title"><a href="https://www.cnblogs.com/wdliu/p/9377278.html">Redis 系列 -- Redis 4.0 深入持久化</a></h3>
+    <p>網路上能找到的 Redis persistence 文件，多半只介紹 RDB 與 AOF 兩種形式和比較。這篇是少數仔細地介紹了 4.0 新增的 AOF 混合 RDB 形式的文章，而且對 3 種 persistence 形式的使用與運作都有清楚說明。</p>
+
+<p><a href="https://yq.aliyun.com/articles/193034">Redis 4.0 之 RDB-AOF 混合持久化</a> 則進一步從 source code 分析了這種新的 persistence 形式。</p>
+  <span class="item__footer"><a href="https://www.cnblogs.com/wdliu/p/9377278.html">cnblogs.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3c2wQ2b"></a>
+  
+  <h3 class="item__title"><a href="https://githubengineering.com/towards-natural-language-semantic-code-search/">Towards Natural Language Semantic Code Search</a></h3>
+    <p>GitHub 已經能做到以文字語意搜尋程式碼了，以後除了 Stack Overflow 又多了一個地方可以找範例程式 <del>來抄襲</del> 了。</p>
+
+<p>懶得看文章的，也可以直接在 <a href="https://experiments.github.com/semantic-code-search">這裡</a> 試試看目前的效果。</p>
+  <span class="item__footer"><a href="https://githubengineering.com/towards-natural-language-semantic-code-search/">githubengineering.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7uEKmv9"></a>
+  
+  <h3 class="item__title"><a href="https://blog.othree.net/log/2018/09/26/zone-of-zero/">保護專注力</a></h3>
+    <p>進入專注狀態（或所謂 <a href="https://zh.wikipedia.org/wiki/%E5%BF%83%E6%B5%81%E7%90%86%E8%AB%96">Flow</a>）是很難的事情，參考一下 othree 如何確保自己的專注力吧。</p>
+
+<p>裡面提到 AshWu 的 <a href="https://medium.com/@hSATAC/%E5%A6%82%E4%BD%95%E5%9C%A8-context-switch-%E9%96%93%E7%B6%AD%E6%8C%81%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B-8b910e468076">如何在 Context Switch 間維持自己的生產力</a> 也是很有參考價值，特別是 <strong>管理精力</strong> 一段：</p>
+
+<blockquote><p>調整你的生活作息，讓自己有良好的睡眠品質；養成固定運動的習慣，增強體力；將精力最好的時段保留下來給自己，其他的時間給別人；藉由建立儀式性的行為，讓自己能快速進入高專注的狀態；找到能讓自己快速回復精力的活動；避免把自己燃燒殆盡、而是追求能快速的充電完畢，重返工作。</p></blockquote>
+  <span class="item__footer"><a href="https://blog.othree.net/log/2018/09/26/zone-of-zero/">othree.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vyTLhwl"></a>
+  
+  <h3 class="item__title"><a href="https://microfrontend.cn/">微前端的那些事儿 | microfrontends</a></h3>
+    <p>我離網頁前端開發的世界已遠，沒想到類似微服務的架構也在前端發生了。</p>
+
+<p><del>果然 IT 人員就是在不同領域、用不同語言不斷地重複同樣的事情啊</del></p>
+  <span class="item__footer"><a href="https://microfrontend.cn/">microfrontend.cn</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-lucienlee">
+        <div class="i" id="lucienlee">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0fd6d111-31ae-45a3-915c-759133dad2cd.jpeg" alt="@lucienlee" width="80" /><span class="category__title__text">@lucienlee</span></h2>
+            <div class="item item--issue item--link">
+  <a name="4DTvSy8"></a>
+  
+  <h3 class="item__title"><a href="https://staltz.com/use-react-in-cyclejs-and-vice-versa.html">Use React in Cycle.js and vice-versa</a></h3>
+    <p>[Frontend]</p>
+
+<p>Cycle.js 是個 functional 及 reactive 的前端框架。第一次聽到他的朋友，你可以暫且非常粗略地把它想像成是個有 view layer 的 RxJS。<br/>
+Cycle.js 過去以學習門檻高、整合困難而導致少有應用在大型項目的案例。原因在於要開始使用前你必須先掌握 reactive 事件流的思維；而與現有專案整合上，因為他有自己的開發方式/范式，讓你一但使用 Cycle.js ，你就得接受 Reactive for everything 這件事，較難與 react 跟 vue 這樣 view layer 框架直接整合。</p>
+
+<p>作者 André Staltz 16年曾經公開 diss 過 React ，但考量到工程成本與社群發展上，能相互借用對方的積累對整個開發生態是更好的，而如今由於 React 16.4 <code>Context</code> 和 <code>forwardRef</code> API 的成熟，Cycle.js 與 React 能更無痛地整合在一起，或許是個可以嘗試將 Cycle.js 試在 production 的好時機，因為遇到實在不行的狀況，你還是能借用龐大的 react 社群中各種輪子解決問題。</p>
+
+<p><code>#工程化的成本包含忍受隔壁的同事說求不更新，學不動了</code></p>
+  <span class="item__footer"><a href="https://staltz.com/use-react-in-cyclejs-and-vice-versa.html">staltz.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="db4r6Nt"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/a-comparison-between-angular-and-react-and-their-core-languages-9de52f485a76">A comparison between Angular and React and their core languages</a></h3>
+    <p>[Frontend]</p>
+
+<p>雖然原文主旨談的是 Angular 與 React 的比較，但我其實覺得文中與討論串 JavaScript VS TypeScript 與
+Statically and Dynamically-typed languages 的爭論才是全文的亮點。有趣的是，文中提到一篇靜態、動態型別對於開發速度影響的論文。裡頭提到，靜態型別反而有機會因為花時間在修復 type error 而導致開發速度比較慢，從論文中開發時間的分佈圖來看，可以猜想工程師的經驗會影響靜態型別是否拖慢開發速度。</p>
+
+<p>從我個人使用 TypeScript 的經驗來看，的確去熟悉第三方套件內部的型別會需要花更多時間預讀、TypeScript 對多層泛型跟多層 HOC 中的 type error report 目前十分不好讀，容易花許多時間在 trace error 邵，另外在資料 pipe 處理中，如果有結構上的變化，很多時候得很囉嗦地宣告只差一點點的型別。但不得不說，透過靜態型別能提昇程式可讀性，因為型別為封裝的元件提供了接口聲明，能讓工程師整合起來比較方便，重構上也比較不容易寫出預期不一樣的錯誤。</p>
+
+<p>題外話，上文中的 André Stalt 也是堅定的靜態型別派，他也有寫過<a href="https://staltz.com/all-js-libraries-should-be-authored-in-typescript.html">文章</a>討論過這件事，有興趣可以一起讀一讀</p>
+
+<p><code>#戰型別語言絕對是百年戰爭</code>, <code>#但還是希望大家寫套件能行個方便補個 .d.ts</code></p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/a-comparison-between-angular-and-react-and-their-core-languages-9de52f485a76">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xLMlD41"></a>
+  
+  <h3 class="item__title"><a href="https://blockgeeks.com/guides/blockchain-consensus/">Basic Primer: Blockchain Consensus Protocol</a></h3>
+    <p>[Blockchain]</p>
+
+<p>區塊鏈中最重要的概念在於－－如何創造<em>共識</em>，不管是證明價值轉移、資料不被竄改或是合約被公正執行，其背後的概念都是我們如何用技術手段，創造一個取得共識的方法。也因此了解區塊鏈中各種共識方案，是入門的基礎之基礎，這篇文章快速介紹了幾個常見的共識算法，包含 POW, POS, DPOS, dBFT ，有興趣可以延伸了解一下其他沒提到的<a href="https://thecoinoffering.com/learn/blockchain-consensus-systems/">共識算法</a>。</p>
+  <span class="item__footer"><a href="https://blockgeeks.com/guides/blockchain-consensus/">blockgeeks.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JltMiVd"></a>
+  
+  <h3 class="item__title"><a href="https://kk.org/cooltools/finite-and-infi/">Finite and Infinite Games</a></h3>
+    <p>[Life]</p>
+
+<p><em>Finite and Infinite Games</em> / <em>有限與無限的遊戲</em>，是最近影響我最多的一本哲學書，裡邊提到了世界上只有兩種遊戲－－「有限遊戲」與「無限遊戲」，進而引領大家思考世界上各種互動的本質是什麼。這裡擷取幾個片段，讓大家感受一下什麼是有限與無限遊戲：</p>
+
+<blockquote><p>世界上只有兩種類型的「遊戲」，「有限的遊戲」和「無限的遊戲」。 有限的遊戲，其目的在於贏得勝利；無限的遊戲，卻旨在讓遊戲永遠進行下去。 有限的遊戲在邊界內玩，無限的遊戲玩的就是邊界。 有限的遊戲具有一個確定的開始和結束，擁有特定的贏家，規則的存在就是為了保證遊戲會結束。 無限的遊戲既沒有確定的開始和結束，也沒有贏家，它的目的在於將更多的人帶入到遊戲本身中來，從而延續遊戲。</p></blockquote>
+
+<hr />
+
+<blockquote><p>無限遊戲參與者放眼未來，並不著眼於勝利，而是著眼於繼續比賽，過去將需要被不斷地重新解讀。無限遊戲參與者並不對抗他人的行動，而是發起自己的行動，使得他人能夠發起自己的行動進行回應。</p></blockquote>
+
+<hr />
+
+<blockquote><p>姑且說有限遊戲參與者為了權力（power）而參賽，無限遊戲參與者憑借力量（strength）參賽。</p></blockquote>
+
+<p>往大的說，這本書能讓你對社會上的競爭博奕有另一種思考；往小地說，你能以一個新的角度來看待隔壁小明遇到的職場鬥爭。而我自己則是從區塊鏈、新創競爭、組織管理上得到許多印鑑的想法，祝大家能認清自己正在玩什麼樣的遊戲，並成為自己想要的玩家。</p>
+
+<p>連結附上的是 Wired 雜誌創辦人 Kevin Kelly 的推薦，有興趣的人可以在買實體書<del>或是網路上找到神祕的 pdf </del>來看看。</p>
+
+<p><code>#說起來割韭菜是個有限還是無限遊戲呢？😜</code></p>
+  <span class="item__footer"><a href="https://kk.org/cooltools/finite-and-infi/">kk.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3WMEHGU"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">Senior Backend Engineer at Swag</a></h3>
+    <p>To apply, please send your resume to <a rel="nofollow" href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#118;&#105;&#110;&#116;&#x61;&#x40;&#115;&#119;&#x61;&#x67;&#46;&#108;&#x69;&#118;&#101;">&#x76;&#105;&#x6e;&#x74;&#97;&#64;&#115;&#x77;&#97;&#103;&#46;&#108;&#x69;&#x76;&#101;</a>.</p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>In-depth knowledge of Python or Node.js</li>
+<li>Experience with Python web frameworks (i.e., Flask, Django, or Tornado)</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB and Redis</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+<li>Designed for modular systems</li>
+<li>Cloud environment experience</li>
+<li>Excellent communication and organizational skills</li>
+</ul>
+
+
+<h2>Plus</h2>
+
+<ul>
+<li>Worked with Python <code>asyncio</code></li>
+<li>Experience developing in Go</li>
+<li>Event-driven architecture</li>
+<li>Experience working with cluster environments and containers (i.e., Kubernetes and Docker)</li>
+<li>Development flow utilizing CI/CD </li>
+<li>Experience working with distributed systems </li>
+<li>Experience working with real-time APIs </li>
+</ul>
+
+
+<h2>薪資範圍</h2>
+
+<ul>
+<li>年薪 100 萬新台幣以上。</li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/142/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-09-17'>September 17th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>143 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/144/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-10-08'>October 8th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

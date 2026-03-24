@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 126 CodeTengu_Weekly_20180507_最終版_v3.zip</title>
+<meta name="description" content="本期內容涵蓋 Kotlin, Python, Golang, Kubernetes, DevOps">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Kotlin, Python, Golang, Kubernetes, DevOps'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/126/index.html#start">
+        Issue 126 CodeTengu_Weekly_20180507_最終版_v3.zip &nbsp;<i><time class='published' datetime='2018-05-07'>May 7th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-381898"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href="https://www.douban.com/people/vinta/">God of War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.yourator.co/companies/escapex/jobs/3116">我們又要找 iOS 工程師啦！</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - <a href="https://tw.pycon.org/2018/registration/ticket-info/">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="7nssCaT"></a>
+  
+  <h3 class="item__title"><a href="https://blog.jetbrains.com/kotlin/2018/04/embedding-kotlin-playground/">Embedding Kotlin Playground</a></h3>
+    <p>有看過 <a href="http://kotlinlang.org/docs/reference/basic-syntax.html">Kotlin 文件</a> 的人應該都被它那個可以直接編輯跟執行的 embedded playground 驚豔過。</p>
+
+<p>現在你也可以嵌在自己的頁面了，除了手動加入 <code>&lt;script&gt;</code> 外，也有提供 <a href="https://github.com/Kotlin/kotlin-playground-wp-plugin">WordPress plugin</a>。JetBrains 也表示他們會提交 Kotlin Playground 到 <a href="http://embed.ly/">Embedly</a>，而因為 Medium 是用 Embedly 來整合嵌入內容，所以到時候 Medium 也就可以用了。</p>
+
+<p>目前支援的語言有 <code>JavaScript</code>, <code>Kotlin</code>, <code>Java</code>：</p>
+
+<p><a href="https://jetbrains.github.io/kotlin-playground/examples/">Kotlin Playground demo</a></p>
+  <span class="item__footer"><a href="https://blog.jetbrains.com/kotlin/2018/04/embedding-kotlin-playground/">jetbrains.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="F5gBgOu"></a>
+  
+  <h3 class="item__title"><a href="https://edit.theappbusiness.com/modular-ios-strangling-the-monolith-4a6843a28992">Modular iOS: Strangling the Monolith</a></h3>
+    <p>沒想到會在 iOS 開發看到 Monolith 這個詞。作者想要把一個 iOS app 根據功能拆成不同的 project 再用 workspace 整合起來，就像是隔壁棚的 Microservice 那樣，哇，這個夠創意！</p>
+
+<p>這個系列實在很特別，用這個角度去看 project 的設計，會重新認識一些東西。</p>
+  <span class="item__footer"><a href="https://edit.theappbusiness.com/modular-ios-strangling-the-monolith-4a6843a28992">theappbusiness.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Am9L4kJ"></a>
+  
+  <h3 class="item__title"><a href="https://lepture.com/en/2018/structure-of-a-flask-project">Structure of a Flask Project</a></h3>
+    <p>作者發現很多人學 <a href="https://github.com/pallets/flask">Flask</a> 會參考 DigitalOcean 的這篇 <a href="https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications">How To Structure Large Flask Applications</a>。而這篇有個不好的示範，在 root <code>__init__.py</code> 就 import 了其他 package 會用到的 module 來建 instance，package 再從上層 import 來用，這樣發展下去就容易有 cyclic dependency 的可能。</p>
+
+<p>這篇在談的主要概念其實跟 Flask 無關，只是 Flask 沒有預設的 project folder structure，會需要知道一些觀念跟 best practice。文章列舉了兩種 folder structure 的建議，以正視聽。</p>
+  <span class="item__footer"><a href="https://lepture.com/en/2018/structure-of-a-flask-project">lepture.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="OOYDtxd"></a>
+      <a href="https://www.youtube.com/watch?v=H1noO30JP98&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE"><img src="original_ratio_extra_large_1696f4e5-b3c4-48c6-ac3f-25bfed45edbd.png" title="GopherConSG 2018 所有演講錄影" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=H1noO30JP98&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE">GopherConSG 2018 所有演講錄影</a></h3>
+    <p>GopherConSG  (Singapore) 2018  的全部錄影內容，前兩天才結束的 GopherConSG 2018 總算有錄影內容了．</p>
+
+<p>幾個重點推薦:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=F8nrpe0XWRg&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=1">Russ Cox: Go with Versions</a></li>
+<li><a href="https://www.youtube.com/watch?v=5DCdjxhBpTw&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=8">William Kennedy:  Optimize For Correctness</a></li>
+<li><a href="https://www.youtube.com/watch?v=wh81Xjuq8E4&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=11">Chew Xuanyi: The Lost Art of Bondage</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=H1noO30JP98&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jLYHiSi"></a>
+  
+  <h3 class="item__title"><a href="https://kubernetespodcast.com/">Google 官方的 Kubernetes Podcast 上線啦....</a></h3>
+    <p>如果你跟我一樣，喜歡在通勤時間聽聽科技 Podcast ．</p>
+
+<p>那麼你不能錯過這個在 KubeCon EU 2018 公布的官方 Kubernetes podcast．</p>
+
+<p>為何會到現在才有官方的 Kubernetes Podcast? 因為其實一開始 Kubernetes 這個題材都是放在 <a href="https://www.gcppodcast.com/">Google Cloud Platform 的 Podcast</a> 之中． 但是隨著市場越來越大 (AWS EKS,  Azure AKS 的上線) ，其實還真的蠻需要有個專門討論 Kubernetes 的地方．</p>
+
+<p>第一期找來的 Kubernetes Community Head - Paris Pittman  來討論，大約的議題如下:</p>
+
+<ul>
+<li>身為   Community Head 的責任．</li>
+<li>Kubernetes 社群各種討論管道</li>
+<li>並且討論 Kubernetes 許多功能是如何在社群裡面決定</li>
+</ul>
+
+
+<p>蠻多有趣的內容</p>
+  <span class="item__footer"><a href="https://kubernetespodcast.com/">kubernetespodcast.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9PtTdlM"></a>
+  
+  <h3 class="item__title"><a href="https://kccnceu18.sched.com/event/DshP">Prometheus 2.0 </a></h3>
+    <p>KubeCon/CNCF EU 2018 keynote : Prometheus 2.0 announcement</p>
+
+<p>重點整理:</p>
+
+<ul>
+<li>更好的 TSDB 支援</li>
+<li>更低的 (接近 1/2 ) CPU/MEM 消耗</li>
+<li>監控的 process 如果死掉，會加上 termination marker</li>
+</ul>
+  <span class="item__footer"><a href="https://kccnceu18.sched.com/event/DshP">sched.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tcESpzK"></a>
+  
+  <h3 class="item__title"><a href="https://cloudplatform.googleblog.com/2018/05/Open-sourcing-gVisor-a-sandboxed-container-runtime.html">Google 開源他們內部在使用的 container runtime 具有 user space sandbox kernel </a></h3>
+    <p>五月的各大科技論壇開始了，遠在歐洲的 KubeCon EU 最大的新聞就是 Google 開源了他們的 user space sandbox kernel  container runtime  "gVisor"</p>
+
+<p>針對了 container 安全性比較疲弱的缺點， Google 開源他們內部使用許久的 container runtime ．</p>
+
+<p>補充:</p>
+
+<ol>
+<li>如果 gVisor PM 的講解還不是很清楚的話，可以看看 <a href="https://www.youtube.com/watch?v=TJJT8wc0T_c">Ian Lewis 所講解的 gVisor 針對安全性提升的 demo</a></li>
+</ol>
+  <span class="item__footer"><a href="https://cloudplatform.googleblog.com/2018/05/Open-sourcing-gVisor-a-sandboxed-container-runtime.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="E0QMyEf"></a>
+  
+  <h3 class="item__title"><a href="https://www.gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/">Open Source at Google Cloud Platform with Sarah Novotny | Google Cloud Platform Podcast</a></h3>
+    <p>最近聽的另外一個 Tech Podcast: GCP Podcast</p>
+
+<p>採訪的人  Sarah Novotny 職稱相當有趣，叫做 "Head of Open Source Strategy for Google Cloud Platform"</p>
+
+<p>這個職稱要負責管理 GCP 相關元件的開源策略，並且要幫忙經營相關的開源並且讓公司能夠透過開源來獲利．</p>
+
+<p>這個人同時也是 Kubernetes 開源的推手與策略管理的頭，這邊採訪同時也討論到 CNCF 相關運作 (Sarah) 同時也參加 CNCF 相關會議與運作．</p>
+
+<p>想知道 Google 內部如何透過開源來賺錢嗎? 這篇可以聽聽看</p>
+  <span class="item__footer"><a href="https://www.gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/">gcppodcast.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-allanlei">
+        <div class="i" id="allanlei">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/6eac35ae-4739-4a76-9eef-c4449c66ed2f.jpeg" alt="@allanlei" width="80" /><span class="category__title__text">@allanlei</span></h2>
+            <div class="item item--issue item--link">
+  <a name="m6yAbD9"></a>
+  
+  <h3 class="item__title"><a href="https://www.digitalocean.com/products/kubernetes/">Kubernetes on Digitial Ocean</a></h3>
+    <p>Digital Ocean has taken notice of rise of Kubernetes and is now also planning to offer it as a service.  This is great news for companys who are looking to cost save or developer just wanting to startup a basic cluster without breaking the bank.  $5 for 1CPU,2 5GB disk, and 1TB bandwith is pretty hard to beat.  Combine it with their other offerings like Load Balance, Spaces, Block Storage and its quite hard to beat.</p>
+
+<p>Hopefully Digital Ocean gives the big cloud providers a run for their money.</p>
+
+<p>PS: They are open for early access.  Go sign up!</p>
+  <span class="item__footer"><a href="https://www.digitalocean.com/products/kubernetes/">digitalocean.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NJ8EmLN"></a>
+  
+  <h3 class="item__title"><a href="https://cloud.google.com/compute/docs/load-balancing/http/backend-service#user-defined-request-headers">Integrated Geolocation on Google Load Balancers</a></h3>
+    <p>Google introduced support for custom HTTP headers on their load balancers and provide some pre-defined variables, notibly geolocation related headers such as <code>client_city_lat_long</code> for latitude, longitude.  With this, backend servers no long need to load a large (and probably licenced) database to resolve an IP address.</p>
+  <span class="item__footer"><a href="https://cloud.google.com/compute/docs/load-balancing/http/backend-service#user-defined-request-headers">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8lkttYC"></a>
+  
+  <h3 class="item__title"><a href="https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/">kubectl port-forward to non-pods</a></h3>
+    <p>It's finally here!  Port forwarding to something other than a pod.  As of 1.10, you can forward to Pods, Deployments, Services, almost anything with a selector.  All that is left is <a href="https://github.com/kubernetes/kubernetes/issues/43962">binding to something other than <code>localhost</code></a>.</p>
+  <span class="item__footer"><a href="https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/">kubernetes.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="qatVeT2"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">Senior Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 萬元以上。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python or Node.js</li>
+<li>Experience with Python web frameworks, ie. Flask/Django/Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">104.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2GihXaH"></a>
+  
+  <h3 class="item__title"><a href="https://stackoverflow.com/teams">Stack Overflow for Teams</a></h3>
+    <p>Stack Overflow 的新服務，應該是極少數在技術部門導入但不用訓練成本的工具了吧</p>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供</p>
+  <span class="item__footer"><a href="https://stackoverflow.com/teams">stackoverflow.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/125/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-04-30'>April 30th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>126 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/127/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-05-14'>May 14th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

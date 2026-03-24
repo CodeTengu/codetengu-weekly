@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 97 騙人，日出怎麼會是早上，我明明都是在晚上看到日出的</title>
+<meta name="description" content="本期內容涵蓋 iOS, Android, Swift, Kotlin, Microservice, Rust, DHCP, GraphQL, ReactJS, CSS">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Android, Swift, Kotlin, Microservice, Rust, DHCP, GraphQL, ReactJS, CSS'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/97/index.html#start">
+        Issue 97 騙人，日出怎麼會是早上，我明明都是在晚上看到日出的 &nbsp;<i><time class='published' datetime='2017-07-24'>July 24th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-302032"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Quantum Thief</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 在 <a href="https://kerbalspaceprogram.com/">KSP</a> 內登陸月球中</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="YbfRX6l"></a>
+  
+  <h3 class="item__title"><a href="https://machinelearning.apple.com/">Apple Machine Learning Journal</a></h3>
+    <p>Apple 在這個月開始了 Apple Machine Learning Journal 這個 site，似乎不打算用 blog 的形式而是用比較正式的 journal 來刊登跟 Machine Learning 相關的內容。</p>
+
+<p>第一期已經出來了，Apple 真的很會寫這類的文件啊，雖然這不是我熟悉的領域，但看起來也是有所收穫。<br/>
+相信對許多人來說是個很好的資源。</p>
+  <span class="item__footer"><a href="https://machinelearning.apple.com/">apple.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4z1iLZS"></a>
+  
+  <h3 class="item__title"><a href="http://chris.eidhof.nl/post/reducers/">Reducers - Chris Eidhof</a></h3>
+    <p>又是 Chris Eidhof！總覺得他一直在幫 Swift 增加難度。<br/>
+學 Swift 的時候總是會看到一些魔幻的 code，這個是我近期看到最帥氣的。</p>
+
+<p>這篇文章的用意是對很常見的有 async task 的 project 做重構，把 async task 的 state 抽離出來，增加可測試性。<br/>
+因為是 async task，為了要處理 state 中的 side effect，作者引入了一個 Reducer 的模式，這個在 <a href="http://redux.js.org/docs/introduction/Motivation.html">Redux</a>, <a href="https://guide.elm-lang.org/">Elm (update function)</a> 很常見的模式，是一種很 functional 的模式。
+在這樣重構之後，測試的時候就不需要引入任何種的 Test Doubles，直接 assert input, output 就好了。</p>
+
+<p>作者還把 enum 當成 method 來用，在這個範例的條件下，理由也很說得過去，之前還真的沒想過呢。</p>
+
+<p>註：Reducer 用 higher order function 的 <code>reduce</code> 來聯想的話，很快就理解了</p>
+  <span class="item__footer"><a href="http://chris.eidhof.nl/post/reducers/">eidhof.nl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="50ANDg"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/rmondello/status/884458464470343682">Ricky Mondello on Twitter: &quot;iOS 11 Beta 3 adds SFAuthenticationSession&quot;</a></h3>
+    <p>Apple 在今年的 WWDC <a href="https://developer.apple.com/videos/play/wwdc2017/225/">What's New in Safari View Controller</a> 說 iOS 11 之後的 Safari, Safari View Controller 不會再共享 cookie, local storage 了，不愧是業界最重視用戶隱私的公司。<br/>
+但這樣就讓有些事情很難做啦，特別是本來拿 Safari View Controller 來做 SSO 的，於是，嘩，iOS 11 beta 3 多了一個 <a href="https://developer.apple.com/documentation/safariservices/sfauthenticationsession">SFAuthenticationSession</a>，專門處理這件事。</p>
+
+<p>有人已經做了 <a href="https://github.com/dvdhpkns/SFAuthenticationSession-example">範例</a>，這個新的 API 運作起來其實真的很不錯，那麼剩下的就是開發者要關心的版本兼容問題了。</p>
+  <span class="item__footer"><a href="https://twitter.com/rmondello/status/884458464470343682">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uEay9D"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@manuelvicnt/kotlin-integrate-it-with-your-complex-android-project-dagger-mockito-a4c71a8f2574">Kotlin: Integrate it with your complex Android project (Dagger, Mockito)</a></h3>
+    <p>Kotlin 的 100% java interoperability 是很讚的一件事情，這讓你忽然福至心靈想要在既有的 Android Java 專案導入的時候，摁摁，它就導入了。</p>
+
+<p>我想最近應該很多人已經或考慮導入 Kotlin 了，這篇是針對這個需求的主題：整合既有的 3rd party library。</p>
+
+<p><a href="https://twitter.com/wangyung">@wangyung</a> 很早期就投入 Kotlin 開發，他寫了一篇 <a href="https://engineering.linecorp.com/tw/blog/detail/178">為什麼我們使用 Kotlin 開發 LINE Creators Studio</a>，在 Mokito final class mocking 這個問題上，他採取的是 interface oriented，我覺得比較理想。</p>
+  <span class="item__footer"><a href="https://medium.com/@manuelvicnt/kotlin-integrate-it-with-your-complex-android-project-dagger-mockito-a4c71a8f2574">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="o8rnK7D"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/facebook/device-year-class">facebook/device-year-class: A library that analyzes an Android device&#39;s specifications and calculates which year the device would be considered &quot;high end”.</a></h3>
+    <pre><code class="java">if (year &gt;= 2013) {
+    // Do advanced animation
+} else if (year &gt; 2010) {
+    // Do simple animation
+} else {
+    // Phone too slow, don't do any animations
+}
+</code></pre>
+
+<p>簡單、粗暴、做得到</p>
+  <span class="item__footer"><a href="https://github.com/facebook/device-year-class">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="4uV40iI"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6">How We Solved Authentication and Authorization in Our Microservice Architecture</a></h3>
+    <p>作者分享了他們在 Microservice 架構下如何處理認證與授權的問題，我覺得這篇提到很多場景都是多產品、多子系統的公司在實務上會碰到的，像是處理跨子系統、行動版 App、開放第三方存取 API 等，很值得一讀。</p>
+  <span class="item__footer"><a href="https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="o3rslwR"></a>
+  
+  <h3 class="item__title"><a href="https://llogiq.github.io/2017/06/01/perf-pitfalls.html">Rust Performance Pitfalls</a></h3>
+    <p>本文作者列舉了一些 Rust 常見的效能坑，值得使用 Rust 語言的程式開發者參考。</p>
+
+<p>不過裡頭有些做法是拿安全換效能，我個人實在不願意這樣搞就是了…。（若不是為了安全，為什麼要用 Rust？）</p>
+  <span class="item__footer"><a href="https://llogiq.github.io/2017/06/01/perf-pitfalls.html">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Bo0lF9M"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/samsung-internet-dev/because-browser-diversity-is-good-for-the-web-910d1cbcdf3b">Because Browser Diversity Is Good For The Web</a></h3>
+    <p>作者因為一則 Twitter 回應而寫了這篇，關於瀏覽器產品的多樣性為何重要的文章。當然，我絕對明白處理多瀏覽器的相容工作很煩、有時更會覺得痛，可是我還是跟作者一樣認為，瀏覽器產品的多樣性，正是 Web 之所以為 Web 的明證。</p>
+
+<p>我們不想要回到那個 IE 獨大的時代，此時的我們也不該認為「Chrome 是『市場最大手』，網頁在它這裡看起來沒問題、能動就好」。</p>
+
+<p>（想起以前曾經為了單位網站的選單是 IE-only、而跟主管吵架的往事，我真的好衝。）</p>
+  <span class="item__footer"><a href="https://medium.com/samsung-internet-dev/because-browser-diversity-is-good-for-the-web-910d1cbcdf3b">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4QMF1dl"></a>
+  
+  <h3 class="item__title"><a href="https://cafbit.com/entry/rapid_dhcp_or_how_do">Rapid DHCP: Or, how do Macs get on the network so fast?</a></h3>
+    <p>以前我剛接觸到 Mac OS X （現在要改稱 macOS 了…）時，扣除那些絢麗的視覺效果不談，印象最深刻的就是它用 DHCP 設定網路組態真是爆猛無敵誇張地快，進度指示的圓圈才剛快速地跑過一輪，就好了，相較之下我在 Windows, Linux, FreeBSD 底下可要等個好幾秒，於是我就很好奇，OS X 的網路設定是怎麼做到這種效果的？這篇文章談的就是這個主題，很有趣，如果您沒看過，現在讓您看看。</p>
+
+<p>是說有人也曾跟我有同樣的好奇心嗎？</p>
+  <span class="item__footer"><a href="https://cafbit.com/entry/rapid_dhcp_or_how_do">cafbit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="PwT55Qp"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@cjoudrey/life-of-a-graphql-query-lexing-parsing-ca7c5045fad8">Life of a GraphQL Query — Lexing/Parsing</a></h3>
+    <p>作者從 GraphQL Ruby 使用的 Ragel 切入，帶你理解如何解譯 GraphQL 的語法。</p>
+
+<p>處理語言的 lexing 和 parsing，算是很入門的一篇。</p>
+
+<p>作者下一篇是關於 GraphQL query 的驗證，有興趣的朋友可以繼續追蹤。</p>
+  <span class="item__footer"><a href="https://medium.com/@cjoudrey/life-of-a-graphql-query-lexing-parsing-ca7c5045fad8">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6ioFnki"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319">An Almost Static Stack (Building Static Sites with create-react-app)</a></h3>
+    <p>作者手把手地教你如何用 React 完成一個靜態網站。</p>
+
+<p>用到的 tech stack 如下：</p>
+
+<ul>
+<li>create-react-app</li>
+<li>react-router</li>
+<li>react-helmet</li>
+<li>react-snapshot</li>
+<li>styled-components</li>
+</ul>
+
+
+<p>若是你剛好都有用以上的專案，而且正在找尋靜態網站的解決方案，不妨試試作者的方法。</p>
+  <span class="item__footer"><a href="https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="w3W7TOt"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/its-not-dark-magic-pulling-back-the-curtains-from-your-stylesheets-c8d677fa21b2">CSS Isn’t Black Magic</a></h3>
+    <p>從瀏覽器如何產生畫面開始說起，也就是所謂的 Browser render pipeline (The pixel pipeline)。</p>
+
+<p>除了提到 CSSOM 的產生過程，後面也有提到權重、定位跟 Z-index，建議 JavaScript 寫很熟，CSS 卻一直苦手的朋友，可以用心閱讀體會！</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/its-not-dark-magic-pulling-back-the-curtains-from-your-stylesheets-c8d677fa21b2">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JIrLztF"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/measuring-web-performance-its-really-quite-simple-adeda8f7f39e">Measuring web performance; it’s really quite simple</a></h3>
+    <p>一篇較長的文章，在說明如何定義好 performance，並且正確地測量網站的 performance。</p>
+
+<p>後面也有實際使用 webpagetest 測量，建議對 web performance 還不熟悉的朋友可以花時間閱讀。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/measuring-web-performance-its-really-quite-simple-adeda8f7f39e">hackernoon.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ruPgzts"></a>
+  
+  <h3 class="item__title"><a href="https://www.destroyallsoftware.com/talks/wat">Wat</a></h3>
+    <p>這是一個五分鐘的 lightning talk，是在開一些語言 (Ruby, JavaScript) 的玩笑，但節奏的掌握好好，超好笑。</p>
+
+<p>這個作者自己有做一個 screencast 的網站 <a href="https://www.destroyallsoftware.com/screencasts">Destroy All Software</a>，真材實料啊！</p>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供。</p>
+  <span class="item__footer"><a href="https://www.destroyallsoftware.com/talks/wat">destroyallsoftware.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/96/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-07-17'>July 17th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>97 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/98/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-07-31'>July 31st 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

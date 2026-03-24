@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 8 人類的生產力在電腦和網路普及之後大幅提升，但是工時卻沒有變少</title>
+<meta name="description" content="本期內容涵蓋 Android, Django, Docker, Elasticsearch, iOS, Management, Python, Swift, Testing">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Android, Django, Docker, Elasticsearch, iOS, Management, Python, Swift, Testing'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/8/index.html#start">
+        Issue 8 人類的生產力在電腦和網路普及之後大幅提升，但是工時卻沒有變少 &nbsp;<i><time class='published' datetime='2015-09-21'>September 21st 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-65192"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>本期 curators：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="http://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - <strong>木南日菜真的很強齁</strong></li>
+</ul>
+
+
+<p>歡迎關注 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，保證每天更新</p>
+  <span class="item__footer">有任何建議或疑問的話，可以到 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 留個話，亂入無妨</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xHNtT1j"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/taizilongxu/interview_python">关于 Python 的面试题</a></h3>
+    <p>列出了很多 Python 滿基本的概念和用法，範例也都很精簡，就算沒有要面試，掃一下也是不錯的。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.reddit.com/r/Python/comments/1knw7z/python_interview_questions">Python interview questions</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/taizilongxu/interview_python">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SbxIHw5"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/tools-for-profiling-your-python-django-project.html">Tools for profiling your Python / Django project</a></h3>
+    <p>在開始優化你的程式之前，你總是得先知道究竟是哪個 function 或哪一行程式碼最需要被優化嘛，這件事就是所謂的 profiling。前陣子試玩了幾個 Python 常用的 profiling 工具，包括 <code>timer</code>, <code>pycallgraph</code>, <code>cProfile</code>, <code>line_profiler</code>, <code>memory_profiler</code>，可以很容易地找出哪一行 code 花了多少時間執行或是用了多少記憶體。</p>
+
+<p>突然想到，像 Go 那樣把 <a href="https://vinta.ws/code/testify-testing-in-go.html">benchmark</a> 作為 unit test 一部分的概念其實挺不錯的。</p>
+
+<p>PS. 另外也推薦一下 <a href="https://opbeat.com">Opbeat</a>，它的 Performance Metrics 功能真的好。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script">How can you profile a Python script?</a></li>
+<li><a href="https://www.airpair.com/python/posts/optimizing-python-code">Optimizing Python - a Case Study</a></li>
+</ul>
+  <span class="item__footer"><a href="https://vinta.ws/code/tools-for-profiling-your-python-django-project.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3kZzoRv"></a>
+  
+  <h3 class="item__title"><a href="http://www.eightypercent.net/post/layers-in-the-stack.html">Anatomy of a Modern Production Stack</a></h3>
+    <p>由前 Google Compute Engine 的 Lead Architect 寫的一篇關於現代化的大規模系統應該使用哪些玩意兒，毫無懸念地是 container-based。但是老實說，與其說是「現代」倒不如說是「近未來」啊，因為文章裡頭提到的大概有一半以上的東西，我想大部份的 developer 可能都沒碰過（甚至沒聽過）。話雖如此，先了解一下歷史的車輪究竟會往哪個方向碾過去總是沒有壞處的嘛。</p>
+  <span class="item__footer"><a href="http://www.eightypercent.net/post/layers-in-the-stack.html">eightypercent.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NroTY8b"></a>
+  
+  <h3 class="item__title"><a href="https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/">Elasticsearch Indexing Performance Cheatsheet</a></h3>
+    <p>這篇文章（和底下延伸閱讀的那兩篇）都是在講 Elasticsearch 在使用上的 best practice，從 configuration、index settings、type mappings 到該怎麼下 query 等大大小小的方面都涵蓋到了，值得一讀。其中我覺得最基本的一件事就是：要記得用 <code>alias</code>，這樣才能先為你遲早都會遇到的 reindex 做準備。</p>
+
+<p>我前幾天正好就遇到一次要重做 index 的情況，寫了一篇 <a href="https://vinta.ws/code/change-index-mappings-with-zero-downtime-using-elasticsearch-py.html">Change index mappings with zero downtime using elasticsearch-py</a>，有興趣的人可以看一下。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://blogs.endjin.com/2015/01/elasticsearch-gotchas-and-tips-part-2/">Elasticsearch gotchas and tips</a></li>
+<li><a href="https://www.elastic.co/guide/en/elasticsearch/guide/current/indexing-performance.html">Indexing Performance Tips</a></li>
+</ul>
+  <span class="item__footer"><a href="https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/">codecentric.de</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iFxuNVi"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/henriquebastos/python-decouple">python-decouple: Strict separation of settings from code</a></h3>
+    <p>根據 <a href="http://12factor.net/">The Twelve-Factor App</a> 宣言，建議你把 config 存在 environment variables，而 <code>python-decouple</code> 就是在做「從環境變數（或 <code>.env</code> 檔案）讀一個設定進來，然後 cast 成正確的 data type」這件事。</p>
+
+<p>用一行 <code>EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=False, cast=bool)</code> 漂亮地解決。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://github.com/vinta/awesome-python#configuration">vinta/awesome-python - Configuration</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/henriquebastos/python-decouple">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="P9Fx40K"></a>
+  
+  <h3 class="item__title"><a href="https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/">Reducing FOOMs in the Facebook iOS app</a></h3>
+    <p>Facebook 分享關於他們怎麼處理 OOMs (Out Of Memory) 的文章，說明了 Facebook 是怎麼統計 OOMs 發生，透過什麼樣的機制去減少 OOMs 的可能及成效。將 <code>UIWebView</code> 換成 <a href="https://developer.apple.com/library/prerelease/ios/documentation/WebKit/Reference/WKWebView_Ref/">WKWebView</a>，效果很好，簡單粗暴。</p>
+
+<p>但我覺得值得一提的是抓出 Memory Leaks 的方法，大至 Facebook 小至獨立開發的專案其實都常常發生 Memory Leaks 而不自知，這篇文章說到他們為了找 leaks 寫了一個所謂的 <code>AllocationTracker</code> 透過不正常的 instances 數量幫助開發者早期猜到哪個物件有 leak 的可能。</p>
+
+<p>剛好我在 iOS 上也試過一種早期判斷 Memory Leaks 的方法，想法上不同，我是透過執行 Unit testing 時驗證物件會不會被 release。大家有興趣也可以參考我的做法 <a href="http://imnotyourson.com/unit-tests-that-avoid-memory-leaks/">Unit tests with memory leaks assertion</a>。</p>
+
+<p>PS. 大家可能都有裝 <a href="https://try.crashlytics.com/">Crashlytics</a>，但 Crashlytics 其實是沒辦法抓到 Low-memory events 的，所以 OOMs 發生時你是不會在 crash report 上看到的。</p>
+  <span class="item__footer"><a href="https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/">facebook.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nc7SDIT"></a>
+  
+  <h3 class="item__title"><a href="http://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">Shipping an App with App Transport Security</a></h3>
+    <p>iOS 9 已經正式釋出了，App Transport Security aka "HTTP! You shall not pass! " 想必是影響開發者最大的改變，真心推薦這篇文章，將 ATS 講得很清楚。</p>
+
+<p>How critical is App Transport Security? 的<a href="http://security.stackexchange.com/a/100286">這個回答</a>更是詳列了六種你可能需要調整 ATS 白名單或開關的狀況。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://medium.com/@hfuecks/is-your-app-ios-9-ready-da09fd2b3e61">Is your app iOS 9 ready?</a></li>
+<li>Issue 2 的中文 <a href="http://weekly.codetengu.com/issues/2#WqtUx2q">iOS9AdaptationTips</a>。</li>
+</ul>
+  <span class="item__footer"><a href="http://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">timekl.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="x9gzs43"></a>
+  
+  <h3 class="item__title"><a href="http://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">Android: Looper, Handler, HandlerThread. Part I</a></h3>
+    <p>這是一個講 Android threading 的系列文章，從最常見的 <code>AsyncTask</code> 分析及什麼情況下你不該用 <code>AsyncTask</code>(你的 <code>AsyncTask</code> 直接 reference 你的 <code>Activity</code>/<code>Fragment</code>)、  Java 的<code>Thread</code> + <code>Handler</code> 跟 Android 提供的 <code>HandlerThread</code> 的差異及你應該要知道的 <a href="http://developer.android.com/reference/android/os/MessageQueue.html">MessageQueue</a> 。</p>
+
+<p><a href="http://blog.nikitaog.me/2014/10/18/android-looper-handler-handlerthread-ii/">Part 2</a></p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li>附上一個 <code>HandlerThread</code> 的 <a href="http://stackoverflow.com/a/19154438/1554531">real world example</a><br/>
+書：<a href="http://www.amazon.com/Efficient-Android-Threading-Asynchronous-Applications/dp/1449364136">Efficient Android Threading: Asynchronous Processing Techniques for Android Applications</a></li>
+</ul>
+  <span class="item__footer"><a href="http://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">nikitaog.me</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="swoXXYY"></a>
+  
+  <h3 class="item__title"><a href="http://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">Fun with Functions – Crunchy Development</a></h3>
+    <p>這是一篇講 Swift functional programming 的範例，有<a href="http://swift.gg/2015/09/11/fun_with_functions/">簡中版本</a>，涵蓋了入門的 <a href="https://zh.wikipedia.org/wiki/%E6%9F%AF%E9%87%8C%E5%8C%96">currying</a> 以及演示了一個很好的 operator overloading 應用，我以前一直覺得這樣不好吧，一定會有報應。</p>
+
+<p>雖然我看過有人說現在的 funtional programming 現象就像是 20 世紀末的共產主義浪潮，信奉者散播著理想化的理念到你的國家 (codebase) 裡，一直到你的國家 (codebase) 充滿了債務 (monads)，他們又離去了。 (<a href="http://stackoverflow.com/questions/44965/what-is-a-monad">沒有人知道 monads 是什麼</a>)</p>
+
+<p>不過我還是覺得在 Swift 就是要適度的引入 functional programming 才能解放這個語言的強大跟彈性，而且在特定的情況用 functional programming 會讓閱讀性提高嘛。</p>
+  <span class="item__footer"><a href="http://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="98Z1Zlc"></a>
+  
+  <h3 class="item__title"><a href="http://misko.hevery.com/code-reviewers-guide/">Guide: Writing Testable Code</a></h3>
+    <p>這是 Google 內關於加強程式可測試性 (testability) 的設計準則，沒話說，寫得真的好。<br/>
+總共有四個 flaws，都有提供 bad smells 讓我們可以憑感覺找到可以加強的地方。有重構的 before 跟 after。</p>
+
+<p>我想大家應該都有過想要寫測試但是看了想要測試的 object, method 就發現「媽的，這根本沒辦法測啊」然後轉頭又離開的情況，其實寫測試入門最先要處理的就是我們平常寫的 code 思維，而當寫出高可測試性的 code 時也直接提高了它的維護性跟品質。</p>
+  <span class="item__footer"><a href="http://misko.hevery.com/code-reviewers-guide/">hevery.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="AACheD1"></a>
+      <a href="https://www.youtube.com/watch?v=hr4GaRPX6cM"><img src="original_ratio_extra_large_e90e1c80-a9c1-473c-9a17-95ca977676d2.jpg" title="[MV] Hyukoh - WI ING WI ING" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=hr4GaRPX6cM">[MV] Hyukoh - WI ING WI ING</a></h3>
+    <p>最近發現了一個韓國獨立樂團叫 Hyukoh, 主唱的聲音真的是不得了, 覺得一定要跟大家分享一下。 除了這首 wi ing wi wing 之外, 還有一首叫 <a href="https://www.youtube.com/watch?v=Ln49ema6rDE">Big Bird</a> 的也超棒!</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=hr4GaRPX6cM">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zzn0Sfb"></a>
+  
+  <h3 class="item__title"><a href="http://36kr.com/p/5037612.html">如何每年讀 60 本書?</a></h3>
+    <p>2013 年自己發憤打算讀一百本書, 不過最後其實只讀完了 60 本書, 當初讀完一本書都還拍照做個紀錄, 便把照片集結起來留個<a href="http://tzangms.com/books-i-read-in-2013/">紀錄</a>。</p>
+
+<p>而我這兩年則是跟這篇文章中提到的一樣, 我利用通勤時間開始用 <a href="http://www.audible.com/">Audible</a> 聽有聲書, 大多時候也用 1.5 倍或是 2 倍的播放速度來聽電子書, 這樣聽書就更快了, 一本 8 小時的書, 用兩倍速的播放速度聽, 只需要 4 個小時。</p>
+
+<p>不過大多是聽管理類的相關書籍就是了, 後來英文聽力也提升非常多, 我一直在推薦身邊的人用這方法, 大家可以參考一下。</p>
+
+<p>另外,  文章中的 <a href="https://www.blinkist.com/en/">Blinkist</a> 也是一個不錯的讀書方法, 剛好前一陣子又開始用 Blinkist 了, 大家也可以試試。</p>
+  <span class="item__footer"><a href="http://36kr.com/p/5037612.html">36kr.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qNVTYQ7"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@yllan/%E7%AA%AE%E4%BA%BA-32-%E5%85%83%E8%B8%8F%E9%A0%BB%E8%A8%88-14d344bb01cc">窮人 32 元踏頻計</a></h3>
+    <p>自從知道 <a href="https://twitter.com/yllan">@yllan</a> 的時候就覺得他是天才, 而且是擅長把科技應用在生活上。 最近他似乎迷上騎腳踏車, 所以他用了磁鐵跟橡皮筋搭配 iPhone 來做出踏頻計。</p>
+
+<p>實在是很帥, 哈哈哈, 簡直就是工程師界的生活智慧王啊!</p>
+  <span class="item__footer"><a href="https://medium.com/@yllan/%E7%AA%AE%E4%BA%BA-32-%E5%85%83%E8%B8%8F%E9%A0%BB%E8%A8%88-14d344bb01cc">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="d8bs7Lb"></a>
+  
+  <h3 class="item__title"><a href="http://99designs.com/tech-blog/blog/2015/09/08/book-club/">Book Club for Tech Leads</a></h3>
+    <p>99designs 技術團隊內部的讀書會, 主要是針對 Tech Leads, 除了書單之外。 文章中講述了他們為何要看這些書, 為何要有讀書會以及跟流程等等。</p>
+  <span class="item__footer"><a href="http://99designs.com/tech-blog/blog/2015/09/08/book-club/">99designs.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="p6PifFT"></a>
+  
+  <h3 class="item__title"><a href="http://nwhitehead.github.io/pineapple/">Pineapple</a></h3>
+    <p>iPython for Mac</p>
+  <span class="item__footer"><a href="http://nwhitehead.github.io/pineapple/">github.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/7/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-09-14'>September 14th 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>8 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/9/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-09-28'>September 28th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 103 If 判斷式就是窮人版的決策樹</title>
+<meta name="description" content="本期內容涵蓋 PostgreSQL, Rust, JSON API, Golang, Kubernetes, Machine Learning, MongoDB">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 PostgreSQL, Rust, JSON API, Golang, Kubernetes, Machine Learning, MongoDB'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/103/index.html#start">
+        Issue 103 If 判斷式就是窮人版的決策樹 &nbsp;<i><time class='published' datetime='2017-10-23'>October 23rd 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-329781"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Ready Player One</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 徵 Android Developer！救我！</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 請推薦工作機會</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="cECTxxG"></a>
+  
+  <h3 class="item__title"><a href="http://www.interdb.jp/pg/index.html">The Internals of PostgreSQL : Introduction</a></h3>
+    <p>一個詳實講解 PostgreSQL 運作機制的網站，其實這是鈴木啓修さん (SUZUKI Hironobu) 很佛心地將他的著作《<a href="https://www.amazon.co.jp/PostgreSQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774153923">PostgreSQL全機能バイブル</a>》幾乎整本的翻譯為英文，放到這個網站上，很具參考價值。</p>
+
+<p>就我可能有點受到同溫層影響，而得到一個或許是刻板印象的印象，PostgreSQL 在 Rails 開發社群裡，還蠻常見到它被選用為後端資料庫系統的，不過我自己之所以用起 PostgreSQL 反倒是中途一度跑去寫 PHP 時，為了處理專案中某個惱人的樹狀資料結構，而發現 PostgreSQL 的 <a href="https://www.postgresql.org/docs/current/static/ltree.html">ltree</a> 特好用，就此成為愛用者。然而我就也只是個只知基本操作的 PostgreSQL 用戶，在工作中碰到資料庫效能瓶頸時，方知我對 PostgreSQL 內部運作機制一無所知，這本書正巧起了個很豐富的知識補充作用。如果您也有跟我類似的背景，這本 PostgreSQL 線上電子書或許也會適合您一讀。</p>
+  <span class="item__footer"><a href="http://www.interdb.jp/pg/index.html">interdb.jp</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JsFNqTD"></a>
+  
+  <h3 class="item__title"><a href="https://electronic.blue/blog/2016/10/10-rust-an-introduction/">給 C++ 使用者的 Rust 簡介</a></h3>
+    <p>Rust 在產品定位上是 system programming language，在這個領域的市場霸主是 C/C++，這系列文章是針對已有 C++ 基礎知識的人士寫的，以等價、類比概念來介紹 Rust。</p>
+
+<p>同場加映：</p>
+
+<ul>
+<li><a href="https://github.com/nrc/r4cppp">Rust for C++ programmers</a> 另一份類似的介紹、教學文。</li>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&amp;mid=2653162576&amp;idx=1&amp;sn=921c4a9574d4a9ece3bf9ed4ff02b582&amp;chksm=8b49313ebc3eb828255121186d58e170c86c1d3f7c91560fac9646109738606a640e2f26efde&amp;scene=21#wechat_redirect">我们为什么要选择小众语言 Rust 来实现 TiKV？</a> <a href="https://www.pingcap.com/">PingCAP</a> 聯合創始人兼 CTO 黄东旭的文章，描述他們選擇 Rust 來開發 TiKV 的決策歷程。</li>
+</ul>
+  <span class="item__footer"><a href="https://electronic.blue/blog/2016/10/10-rust-an-introduction/">electronic.blue</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Gu8SKB7"></a>
+  
+  <h3 class="item__title"><a href="http://jsonapi.org/">JSON API — A specification for building APIs in JSON</a></h3>
+    <p>在學著刻 API 的時候，發現這個名稱不怎麼特別的（畢竟在這時代 server-side 只要會吐 JSON 的就叫 API）、不酷不炫不潮不夯的東西（在 2013 年就已經略具雛型了，2015 年中推出 1.0 版…）。</p>
+
+<p>簡單說，這個 JSON API 就是一份 API 實作規範、準則，照著實作，您的 API 產品基本方方面面就大致上可說是五臟俱全。對於想要做 API 產品而怕莫衷一是、掛一漏萬的人來說，這個  JSON API 是很不錯的進入點、地基。</p>
+
+<p>同場加映：</p>
+
+<ul>
+<li><a href="http://www.jianshu.com/p/0c593988c759">JSON API 1.0 核心开发者自述 | 你所不知道的那些技术细节</a></li>
+<li><a href="http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/">How and why should you use JSON API in your Rails API?</a> <em>（附註：JSON API 不只是 Ruby &amp; Rails 這個小圈圈裡的一小撮人在搞的東西，您可以在 <a href="http://jsonapi.org/implementations/">JSON API — Implementations</a> 找到各種當代製作 Web API 產品的流行語言之相關實作）</em></li>
+</ul>
+  <span class="item__footer"><a href="http://jsonapi.org/">jsonapi.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="VplsgCZ"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@brendanleglaunec/how-refactoring-my-c-application-into-a-go-library-made-it-better-in-every-way-b99aa15fcfdf">How refactoring my C++ application into a Go library made it better in every way</a></h3>
+    <p>Cmeradar 後端工程師解釋當初開發過程中，如何把 C++ 的部份重構改成 Go</p>
+
+<p>Cmeradar 這個套件很有趣，他會掃描你網路區段中是否有 RTSP server (port 554) 然後直接試著連接到 server 並且提供可用的 RTSP 鏈結 (可用 VLC 播放)． 有興趣的人可以看看相關實現的部分...</p>
+
+<p>當然如果你想自己弄 Golang RTSP client 可以看看以下這個鏈結 透過 <a href="https://buff.ly/2g3KEsW">joy4</a></p>
+  <span class="item__footer"><a href="https://medium.com/@brendanleglaunec/how-refactoring-my-c-application-into-a-go-library-made-it-better-in-every-way-b99aa15fcfdf">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Yq06wRM"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/NVIDIA/k8s-device-plugin">NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes</a></h3>
+    <p>https://github.com/NVIDIA/k8s-device-plugin</p>
+
+<p>Kubernetes 在設計上有著相當程度的擴充性，在當初有 plugin 的架構就可以看出來． 比如說: Network Plugin 讓 CNI 可以輕鬆地整合． 1.8 版剛開放 alpha 的新功能 "Device Plugin" 更強，可以讓 GPU, 高效能網卡, FPGAs 甚至是 InfiniBand 輕鬆的整合在 Kubernetes 之中</p>
+
+<p>原本在 Kubernetes 內預設只能抓取到 CPU 與 Memory 的狀態（不然，就得很辛苦.. 你懂的)  但是透過了 Device Plugin 你就做以下的事情:</p>
+
+<ul>
+<li>輕易的讓 Kubernetes 內所有的 container 可以存取該裝置</li>
+<li>輕易抓取到 GPU (或是高效率網卡) 的訊息</li>
+<li>透過 Kubernetes 的 Health check 來檢查裝置狀態</li>
+</ul>
+
+
+<p>有興趣的可以再看看  Kuberentes <a href="https://kubernetes.io/docs/concepts/cluster-administration/device-plugins/">文件</a></p>
+
+<p>題外話: <a href="https://buzzorange.com/techorange/2017/10/17/adam-jamie-cpu-gpu-compare/">CPU 與 GPU 到底差在哪？ (XDD)  </a></p>
+  <span class="item__footer"><a href="https://github.com/NVIDIA/k8s-device-plugin">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="n2KJ6ag"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/netflix-techblog/machine-learning-platform-meetup-ddec090f3c17">Machine Learning Platform meetup – Netflix TechBlog</a></h3>
+    <p>什麼樣的 Meetup 講者包括 Google, Twitter, Uber, Facebook 與 Netflix？
+當然就是由 Netflix 所舉辦的 Machine Learning Platform Meetup</p>
+
+<p>裡面包括了兩套剛剛 Open-Source 強大的工具 <a href="https://github.com/Netflix/vectorflow">Netflix/vectorFlow</a> 與 <a href="https://github.com/uber/horovod">Uber/Horovod</a></p>
+
+<p>五篇 talk 包含了三套系統與兩個 Machine Learning 的經驗分享..
+不愧是第二外星科技產生的公司 (Netflix) 舉辦的 Meetup</p>
+  <span class="item__footer"><a href="https://medium.com/netflix-techblog/machine-learning-platform-meetup-ddec090f3c17">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UogXm9y"></a>
+  
+  <h3 class="item__title"><a href="https://mp.weixin.qq.com/s/AbOUe4XaTwWPlHq7TRvOug">如何基于 Go 搭建一个大数据平台</a></h3>
+    <p>這篇文章講解了七牛如何使用 Golang 打造他們的大數據平台服務 (Pandora)
+裡面包括了簡單的架構圖，與可能會遇到的問題，包括了:</p>
+
+<ul>
+<li>高吞吐 (high throughput）與低延遲 (Low latency)</li>
+<li>高可用 (HA) 與水平擴展 (Scale-out)</li>
+<li>自動化營運 (Automation)</li>
+</ul>
+
+
+<p>文章的本文真正提到 Golang 的優點部分並不多，
+但是許多內容提到建置一個大數據平台應該要有哪些要注意的地方．
+很值得好好研究．</p>
+  <span class="item__footer"><a href="https://mp.weixin.qq.com/s/AbOUe4XaTwWPlHq7TRvOug">qq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="K5dRQbv"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/SoftewareArchitect/">[中文導讀] Are You a Software Architect?</a></h3>
+    <p>之前在網路上有個有趣的討論，
+究竟前端工程師需不需要了解演算法．</p>
+
+<p>這就讓我思考到，那麼一個軟體架構師需要哪些能力呢？ 這篇文章可以來了解一下...
+不論你已經是軟體架構師，或是你正想將你的專業領域網軟體架構師來邁進，都建議來看一下．</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/SoftewareArchitect/">evanlin.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="peVj2xR"></a>
+  
+  <h3 class="item__title"><a href="https://www.w3.org/TR/timezone/">Working with TIme Zones</a></h3>
+    <p>最近<a href="https://join.gov.tw/idea/detail/90028e3c-f785-438a-836b-25b0b8fb8e1b">把台灣的時區改成 +9 的提案</a> 引起不少討論。本篇就是 W3C 對處理時區的建議。有處理過就知道台灣沒有日光節約時間真是超幸福的。不然 stackoverflow 上<a href="https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices">處理日光節約時間的提問</a> 就不會這麼熱門了。要是真的改時區的話，台灣的工程師需求大概會增加 20% 吧ＸＤ</p>
+  <span class="item__footer"><a href="https://www.w3.org/TR/timezone/">w3.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="wM8a9KB"></a>
+  
+  <h3 class="item__title"><a href="https://aphyr.com/posts/322-jepsen-mongodb-stale-reads">Mongodb Stale Read</a></h3>
+    <p>最近在處理一些mongodb 的問題。發現這篇關於 mongodb 一致性(consistency) 的文。裡面分析了為什麼mongodb 2.6 即使在最高的 write concern, MAJORITY 下也會產生 dirty read。也就是沒辦法保證讀取自己剛剛寫入的值會得到一樣的結果。</p>
+  <span class="item__footer"><a href="https://aphyr.com/posts/322-jepsen-mongodb-stale-reads">aphyr.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GfrDGw0"></a>
+  
+  <h3 class="item__title"><a href="https://machinelearning.apple.com/2017/10/01/hey-siri.html">Apple 如何偵測 Hey Siri</a></h3>
+    <p>最新一期 Apple Machine Learning  journal (blog ?) ，講解了他們怎麼用 Deep Neural Network (DNN) 來偵測 Hey Siri。特別有趣的是在行動裝置的電力和處理能力限制下，先在比較不耗電 coprocessor 上用一個小的 network 來偵測可能的事件，機率高的話再開啟主要的處理器來做精準的偵測。這也解釋了為什麼有 coprocessor 的 iPhone 能在任何時候都聽到使用者的呼喚，但是又不把手機的店吃光光。</p>
+  <span class="item__footer"><a href="https://machinelearning.apple.com/2017/10/01/hey-siri.html">apple.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="8MJaOkp"></a>
+  
+  <h3 class="item__title"><a href="http://www.decisionproblem.com/paperclips/index2.html"> 迴紋針製造器</a></h3>
+    <p>AI 界有一個有名的思想實驗，<a href="https://wiki.lesswrong.com/wiki/Paperclip_maximizer">Paperclip maximizer</a>。 內容是關於如果讓一個製造迴紋針的 AI 無限制的發展會發生什麼事。
+現在有人把它做成了一個 web game !</p>
+
+<p>PS. 他使用了 Local Storage，你可以安心地關掉它去睡覺，明天再繼續製造迴紋針。</p>
+  <span class="item__footer"><a href="http://www.decisionproblem.com/paperclips/index2.html">decisionproblem.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/102/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-10-16'>October 16th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>103 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/104/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-11-06'>November 6th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

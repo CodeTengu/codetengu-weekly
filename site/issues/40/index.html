@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 40 // Do not remove this comment or code will break</title>
+<meta name="description" content="本期內容涵蓋 SQL, Android, JavaScript, Career, 2FA, DC/OS, FRP">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 SQL, Android, JavaScript, Career, 2FA, DC/OS, FRP'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/40/index.html#start">
+        Issue 40 // Do not remove this comment or code will break &nbsp;<i><time class='published' datetime='2016-04-25'>April 25th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-128011"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href="http://book.douban.com/people/vinta/">平面國</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 徵 Android 工程師，<a href="https://www.indievox.com/h/jobs.html">意者內洽</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue">
+  <a name="t-140887"></a>
+  
+  <h3 class="item__title">21st-century cowrie shells - 21世紀的 &quot;貝&quot; 幣</h3>
+    <p>智能合約 (smart contract) 與數位代幣 (token) 的應用, 會從少數人開始使用, 比如說是開發者, 進而在公司內部開始應用, 例如年終獎金, 只發比特幣, 不再發現金了, 最後還是會變成每個人都能發行自己的 tokens; 就像網站一樣, 一開始政府與研究單位先有, 再來才是各行各業, 最後演進到部落格, 每個人都可以很簡單的架設自己的網頁。</p>
+
+<p>但網頁是在 1993 NCSA 發明了 <a href="http://www.ncsa.illinois.edu/enabling/mosaic">Mosaic</a> 瀏覽器之後, 才讓一般人開始對 Internet 覺得好用而感到興趣, 也才有今天所有的一切, smart phones, web apps 等等, 但卻花了 20 年以上的時間才被所有人類接受。不過智能合約或許不必那麼久, 大概只要兩三年的時間, 就會被廣泛應用。所以當年 web 瀏覽器可以說是 killer app, 改變了人類的生活; 而 2016 的今天, 下一個 killer app 是什麼？我覺得是 Wallet ” 電子錢包“, 它是你跟未來數位生活的介面, 就跟瀏覽器是你跟 Internet 的介面一樣, 你可以研發一個萬用的“電子錢包", 可以跟當年 <a href="https://en.wikipedia.org/wiki/Netscape">Netscape</a> 公司一樣, 再一次改變世界!</p>
+
+<p>但切記, 當有了 smart contracts 的應用, 你的錢包就不只是錢包, 就像 web 瀏覽器不再只是拿來瀏覽網頁。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Lu3Iydx"></a>
+  
+  <h3 class="item__title"><a href="http://www.arm-blog.com/using-2-factor-authentication-for-ssh/">Using 2 factor authentication for SSH</a></h3>
+    <p>想讓你的 servers 更安全一些嗎? 最有效果的方法是把 ssh login 再增加一個 2FA (two-factor authentication) 認證 。本連結教你如何利用 Android 或 iOS 手機上的 Google Authenticator 軟體幫你每一分鐘產生一次新密碼, 再加上你原本 ssh 的  password 就更加安全了。</p>
+
+<p>同樣這個 2FA 方法也可以用在 Amazon <a href="https://aws.amazon.com/iam/details/mfa/">AWS 帳號認證</a> , 還有常被用來當 <a href="https://blockchain.info/de/wallet/google-authenticator">數位錢包的身份確認</a>, 當然 Google 的帳號也可以用 Google Authenticator 來做 <a href="https://support.google.com/accounts/topic/28786">2 - 步確認</a>。所以同一個 2FA 軟體, 到處都可以使用。</p>
+  <span class="item__footer"><a href="http://www.arm-blog.com/using-2-factor-authentication-for-ssh/">arm-blog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BAl3m1a"></a>
+  
+  <h3 class="item__title"><a href="https://docs.mesosphere.com/overview/">什麼是 DC/OS ?</a></h3>
+    <p>全名是 Datacenter Operating System, 也就是 "資料中心的作業系統"。雖然名稱好像是用在 Datacenter, 但我們也可以套用在自己的公司裡, 來執行 docker containers, big data 或傳統的應用程式。它其實就是 Mesos + Dockers + GUI + CLI, 就像我以前用 <a href="https://blog.pivotal.io/big-data-pivotal/products/1-command-15-minute-install-hadoop-in-memory-data-grid-sql-analytic-data-warehouse">Vagrant 玩 Hadoop</a>, 或 Mesos + Marathon (用 <a href="https://github.com/mesosphere/playa-mesos">Playa Mesos</a>), 我們也可以用 <a href="https://github.com/dcos/dcos-vagrant/tree/v0.6.0">Vagrant 來安裝 DC/OS</a>, 瞭解它的原理之後, 再考慮是否可以導入公司資訊中心。</p>
+  <span class="item__footer"><a href="https://docs.mesosphere.com/overview/">mesosphere.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="RSubhaj"></a>
+  
+  <h3 class="item__title"><a href="https://code.facebook.com/posts/597378980427792/react-native-a-year-in-review/">React Native: A year in review</a></h3>
+    <p>Facebook 在今年的 <a href="https://www.fbf8.com/">F8 - Facebook Developer Conference</a> 上宣布 Microsoft 正將 React Native 加入 Ｗindows 生態系，讓開發者可以使用 React Native 開發 Windows PC 、 Windows Phone 、 Xbox 軟體，也會提供一些開源的工具如 Visual Studio Code 和 Code Push 上的 React Native extension ，另外， Samsung 也在實作自家平台 Tizen 的 React Native porting。</p>
+
+<p>React Native 雖然是新的一套開發方式，但在短短一年內已累積龐大的生態系與許多實際上架 App。</p>
+
+<p>不同於以往 "Write Once, Run Everywere" 的概念，React Native 並不是真的跨平台， 而是希望能在維持 native code 的效能下，使用同一套開發方式去實作不同平台的 App，達到 "Learn Once, Write Everywere" 的精神，而因為程式邏輯方面可以利用 JavaScript 實作，在實際開發時，iOS 與 Android App 都可以達到蠻高程度的 code sharing 。</p>
+  <span class="item__footer"><a href="https://code.facebook.com/posts/597378980427792/react-native-a-year-in-review/">facebook.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6JJp32K"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.w2zc634od">Webpack — The Confusing Parts</a></h3>
+    <p>自從 Webpack 出現後，Gulp 和 Grunt 漸漸地被 Npm + Webpack 取代，因為 Ｗebpack 功能強大，本篇文章探討幾個容易讓開發者混淆的點：</p>
+
+<ol>
+<li><p>Development Vs Production</p>
+
+<ul>
+<li>Webpack 有很多功能，有些屬於 Development ，有些屬於 Production ，有些則是共用，所以在實作上通常會分成兩個 config 檔，透過 npm 的 scripts 來 run webpack 。</li>
+</ul>
+</li>
+<li><p>webpack CLI Vs webpack-dev-server</p>
+
+<ul>
+<li>webpack CLI 較適合 production build</li>
+<li>webpack-dev-server 為 Node.js server ，支援一些方便開發的功能，如： Hot Module Replacement (HMR)</li>
+</ul>
+</li>
+<li><p>“entry” — String Vs Array Vs Object</p>
+
+<ul>
+<li>光是 app 的 entry point ，就有很多種設定方式，因為支援多個 bundle file，所以可以透過 array 與 object 來指定 entry。</li>
+</ul>
+</li>
+<li><p>output — “path” Vs “publicPath”</p>
+
+<ul>
+<li>path 表示儲存 result 的路徑</li>
+<li>publicPath 用於讓 Webpack’s plugins update  CSS, HTML 檔案內的 URL 。</li>
+</ul>
+</li>
+<li><p>Loaders And Chaining Loaders</p>
+
+<ul>
+<li>各種不同的 loaders 使 webpack 可以 import 各個相對應格式的 file ，有些 file 需要透過多個 loader 來多次轉換才能 import 。</li>
+</ul>
+</li>
+<li><p>Loaders Themselves Can Be Configured</p>
+
+<ul>
+<li>loader 可以透過 queryset 的方式來設定參數</li>
+</ul>
+</li>
+<li><p>The .babelrc file</p>
+
+<ul>
+<li>當 babel-loader 需要設定較多參數時，可以另外寫個 .babelrc ， babel-loader 會自動讀取來設定參數。</li>
+</ul>
+</li>
+<li><p>Plugins</p>
+
+<ul>
+<li>Plugin 可以對產出的 bundle file 再做進一步的處理。</li>
+</ul>
+</li>
+<li><p>Loaders Vs Plugins</p>
+
+<ul>
+<li>Loaders 在 bundle 產生之前運作</li>
+<li>Plugin 則在 bundle 產生過程後運作</li>
+</ul>
+</li>
+<li><p>Resolving File Extensions</p>
+
+<ul>
+<li>在 resolve extensions 加入空字串，是為了可以 import 沒有 extension 的 file 。</li>
+</ul>
+</li>
+</ol>
+  <span class="item__footer"><a href="https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.w2zc634od">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cmtdgwG"></a>
+  
+  <h3 class="item__title"><a href="https://manu.ninja/functional-reactive-game-programming-rxjs-breakout">Functional Reactive Game Programming – RxJS Breakout</a></h3>
+    <p>越來越多人利用 Reactive Programming 概念來撰寫 UI 程式， 本篇作者利用 <a href="http://reactivex.io/">Reactive Extension</a> 實作出類似 <a href="https://www.google.com.tw/search?q=Atari+Breakout&amp;source=lnms&amp;tbm=isch">Atari Breakout</a> 的遊戲。</p>
+
+<p>Reactive Programming 可以將任何 Event 視為 Stream 從而簡單的做操作，如果對這個領域還不熟悉，可以看看 <a href="http://staltz.com/">André Staltz</a> 的<a href="https://gist.github.com/staltz/868e7e9bc2a7b8c1f754">介紹</a></p>
+  <span class="item__footer"><a href="https://manu.ninja/functional-reactive-game-programming-rxjs-breakout">manu.ninja</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Okjkh9P"></a>
+  
+  <h3 class="item__title"><a href="https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2#.puk0n19ow">Introducing React Storybook</a></h3>
+    <p>在開發 React 時常會將一個大的 Component 分割成許多小的 Component ， React Storybook 可以讓開發者不需執行 App 獨立開發各個 Component ，直接顯示在 Storybook 上，只要簡單的步驟就可以將 Component 設定好並執行，且不會污染原有的環境，有簡潔風格的 UI 介面，支援 Hot Module Reloading ，可在各種 React App 下執行。</p>
+  <span class="item__footer"><a href="https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2#.puk0n19ow">kadira.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="cGP11OY"></a>
+  
+  <h3 class="item__title"><a href="http://martinfowler.com/bliki/OrmHate.html">OrmHate</a></h3>
+    <p>上期的副標讓我想起這篇文章，ORM 派與（半）手刻 SQL 派的爭論一直是 IT 界不停歇的週期性熱門話題。但到底為什麼 SQL/ORM 這麼難用？不如讓我們重溫一下大師的看法。</p>
+
+<p>Martin Fowler 認為 Database(Relational) ↔ Memory(Object) 間的雙向對映本身就是一個非常複雜的問題。當你希望一套工具可以適用各種狀況時，自然會得到一個龐大肥腫的 ORM 工具。例如同樣解決雙向同步的 MVC 框架亦常有類似問題；更何況因為跨越系統邊界而更複雜難解的 object-realtional 問題。</p>
+
+<p>關於要不要用 ORM，大師的建議如下：</p>
+
+<ol>
+<li><em>原則上</em> 不要自己刻 ORM。畢竟這問題太複雜，沒必要讓自己再深陷泥沼。</li>
+<li>或是分離資料庫讀/寫，把雙向同步問題轉成單向資料流、需要的時候直接使用 SQL。這部分可以參考 <a href="http://martinfowler.com/bliki/CQRS.html">Command Query Responsibility Segregation</a> 模式。
+（是否覺得把 雙向同步問題 轉成 單向資料流 這方法有點熟悉？這正是 Flux 的特點）</li>
+</ol>
+
+
+<p>衍伸閱讀：</p>
+
+<ul>
+<li><a href="http://blog.turn.tw/?p=2992">批評 ACTIVE RECORD 的13個論點：最好用也最危險的 ANTI-PATTERN</a></li>
+</ul>
+  <span class="item__footer"><a href="http://martinfowler.com/bliki/OrmHate.html">martinfowler.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="kFS45vj"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@sergii/java-8-in-android-n-preview-76184e2ab7ad">Java 8 in Android N Preview</a></h3>
+    <p>各位，我們終於可以在 Android 上用 Java 8 啦！</p>
+
+<p>這篇是實際在 Android N Preview 上使用 Java 8 的心得文。<br/>
+不多說，各位自己看吧。</p>
+  <span class="item__footer"><a href="https://medium.com/@sergii/java-8-in-android-n-preview-76184e2ab7ad">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QrPYlrH"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/Valve/fingerprintjs2">Valve/fingerprintjs2: Modern &amp; flexible browser fingerprinting library</a></h3>
+    <p>從本期開始我想介紹一些個人覺得有趣的專案。<br/>
+<del>（順便清一下自己的 study list）</del></p>
+
+<p>fingerprintJS 根據瀏覽器特性（User-Agent、螢幕解析度、安裝的 plug-in 等等）算出 hash 值，不透過 cookie 就可以識別不同的使用者。（但由於手機瀏覽器的特性，很容易得到接近的 fingerprint 值）</p>
+
+<p>P.S. 本來要介紹的是 <a href="http://valve.github.io/fingerprintjs/">Fingerprintjs</a>，剛剛才發現已經被 Fingerprintjs2 取代了。</p>
+  <span class="item__footer"><a href="https://github.com/Valve/fingerprintjs2">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VnYXJZY"></a>
+  
+  <h3 class="item__title"><a href="http://53973000.blogspot.tw/2016/04/head-hunter.html">Head Hunter 不會告訴你的事情！</a></h3>
+    <p>工作一段時間之後，工作機會的來源幾乎都是靠朋友跟 Head Hunter 介紹。不像朋友介紹，Head Hunter 其實只是在商言商的仲介，先搞清楚這點才不至於吃虧。</p>
+
+<p>作者建議如下：</p>
+
+<p>對 Head Hunter 的認知：</p>
+
+<ol>
+<li>別把 Head Hunter 當媽，先清楚他們的服務內容</li>
+<li>顧問費用是建立在年薪的計算基準</li>
+<li>在他們與公司的合作契約中，大多不會討論勞動條件</li>
+</ol>
+
+
+<p>透過 Head Hunter 找工作時，仍應：</p>
+
+<ol>
+<li>個人對這公司先做研究</li>
+<li>列一份勞動條件問題表：工作時間、加班補休、請假規則、賠償條款、合約終止注意事項</li>
+</ol>
+
+
+<p>（其實這些是去任何公司面試時都該做的事前準備）</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li>不是有期限的合約就是定期契約喔，不要被呼攏了。請看 <a href="http://momoge.blogspot.tw/2016/04/005.html">一年一簽很無聊，懂嗎？那統統叫不定期契約啦！</a></li>
+</ul>
+  <span class="item__footer"><a href="http://53973000.blogspot.tw/2016/04/head-hunter.html">blogspot.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="E7kQ1HX"></a>
+      <a href="https://www.instagram.com/gundamstagram/"><img src="original_ratio_extra_large_e54e64f6-4fd8-4095-863b-157587f14953.jpg" title="本期 IG - GUNDAMSTAGRAM (@gundamstagram)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/gundamstagram/">本期 IG - GUNDAMSTAGRAM (@gundamstagram)</a></h3>
+    <p>雖然食色性也，但也不能一直貼美女照片。這次分享一下不同調性的 Instagram 帳號。</p>
+
+<p>這個帳號專門貼鋼彈模型照片，造一台鋼彈應該是每個工程師的夢想吧？！（握拳）</p>
+  <span class="item__footer"><a href="https://www.instagram.com/gundamstagram/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="beXNcWE"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=SYRlTISvjww">Uptime Funk - (Uptown Funk parody) - YouTube</a></h3>
+    <p>Don’t reboot it just patch!</p>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=SYRlTISvjww">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/39/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-04-18'>April 18th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>40 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/41/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-05-02'>May 2nd 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

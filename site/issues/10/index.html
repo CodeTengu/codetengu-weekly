@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 10 分散式系統的兩大難題：二是訊息只傳遞一次，一是保證訊息的順序，二是訊息只傳遞一次</title>
+<meta name="description" content="本期內容涵蓋 Android, Django, Functional Programming, Git, iOS, Management, Python, Redis, SaltStack">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Android, Django, Functional Programming, Git, iOS, Management, Python, Redis, SaltStack'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/10/index.html#start">
+        Issue 10 分散式系統的兩大難題：二是訊息只傳遞一次，一是保證訊息的順序，二是訊息只傳遞一次 &nbsp;<i><time class='published' datetime='2015-10-05'>October 5th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-69914"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>本期 curators：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="http://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - <strong>熬夜是一種才能</strong></li>
+</ul>
+
+
+<p>歡迎關注 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，保證每天更新</p>
+  <span class="item__footer">有任何建議或疑問的話，可以到 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 留個話，亂入無妨</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="fLHN78f"></a>
+  
+  <h3 class="item__title"><a href="http://masteringdjango.com/">Mastering Django - The NEW Django Book</a></h3>
+    <p>隨著 Python 在這幾年裡越來越熱門，作為 Python 生態系中最具代表性的 web framework 的 Django，用的人也越來越多啦。前陣子正好就發現有一位澳洲的程序員在 <a href="http://www.djangobook.com/">The Django Book</a> 的基礎上專門為 Django 1.8 LTS（Long-Term Support 版本）寫了一本電子書。</p>
+
+<p>我相信一定有不少 Django 的 developers 當年都是看那本 The Django Book 入門的，而這本 Mastering Django 基本上就是 The Django Book 的精神續作。什麼叫「精神續作」呢？大概就是類似「人中之龍」之於「莎木」或是 <a href="https://torment.inxile-entertainment.com/">Torment: Tides of Numenera</a> 之於<a href="https://www.g-cores.com/articles/21095">異域鎮魂曲</a>。</p>
+
+<p>然後，雖然跟主題完全無關，但是我還是要說：<a href="https://www.fallout4.com/">Fallout 4</a> 會在今年 11 月發售！而且聽說他媽的會有中文版？！</p>
+  <span class="item__footer"><a href="http://masteringdjango.com/">masteringdjango.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4q1TcQS"></a>
+  
+  <h3 class="item__title"><a href="https://engineering.pinterest.com/blog/building-follower-model-scratch">Building a follower model from scratch</a></h3>
+    <p>Pinterest 的 Infrastructure Engineer 非常詳細地說明了他們如何使用 Redis（沒錯，就是大家的好朋友 Redis）重新打造整個 following / follower 關係模型，主要是利用 Redis 的 <code>SortedSet</code> 和 <code>Set</code>；也花了不少篇幅講他們的 high availability 方案。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://redislabs.com/ebook/redis-in-action">Redis in Action</a> &lt;&lt; 免費電子書</li>
+<li><a href="https://abcfy2.gitbooks.io/redis-in-action-reading-notes/content/">Redis in Action 学习笔记</a></li>
+</ul>
+  <span class="item__footer"><a href="https://engineering.pinterest.com/blog/building-follower-model-scratch">pinterest.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zW6lLcX"></a>
+  
+  <h3 class="item__title"><a href="https://docs.saltstack.com/en/latest/topics/best_practices.html">Salt Best Practices</a></h3>
+    <p><a href="https://github.com/saltstack/salt">SaltStack</a> 是一套以 Python 開發的 configuration management 工具，類似的還有 Puppet、Chef 和 Ansible，這個領域最多人用的基本上就是這四個了。Python 軟體基金會（PSF）、LinkedIn、NASA 和美國國防部都在使用 SaltStack。在 container 相關技術真的普及之前，這些自動化的 configuration management 工具還是很好用的。</p>
+
+<p>這篇文章是官方公布的最佳實踐，有在用 SaltStack 的朋友可以看一下。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://docs.saltstack.com/en/getstarted/">SaltStack Overview - QuickStart Guide</a> 史上最圖文並茂的入門教學</li>
+<li><a href="http://www.amazon.com/gp/product/1491900636/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1491900636&amp;linkCode=as2&amp;tag=vinta02c-20&amp;linkId=DH5ZZ66XJT7O3UBE">Salt Essentials</a></li>
+</ul>
+  <span class="item__footer"><a href="https://docs.saltstack.com/en/latest/topics/best_practices.html">saltstack.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dvyEV8j"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/Doist/bitmapist">bitmapist - a powerful analytics library using Redis bitmaps (Python)</a></h3>
+    <p>bitmapist 是一個 Python library，利用 Redis（是的，又是大家的好朋友 Redis）的 <a href="http://redis.io/commands/setbit">bitmap</a> 結構能夠很方便地做到許多統計用的功能，例如：</p>
+
+<ul>
+<li>Has user 123 been online today? This week? This month?</li>
+<li>Has user 123 performed action "X"?</li>
+<li>How many users have been active have this month? This hour?</li>
+<li>How many unique users have performed action "X" this week?</li>
+<li>How many % of users that were active last week are still active?</li>
+<li>How many % of users that were active last month are still active this month?</li>
+<li>What users performed action "X"?</li>
+</ul>
+
+
+<p>而且因為是 bitmap，還可以直接做聯集或交集的運算。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://blog.getspool.com/2011/11/29/fast-easy-realtime-metrics-using-redis-bitmaps/">Redis bitmaps - Fast, easy, realtime metrics</a></li>
+<li><a href="http://www.slideshare.net/dvirsky/kicking-ass-with-redis">Kicking ass with Redis</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/Doist/bitmapist">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="AVksB7l"></a>
+  
+  <h3 class="item__title"><a href="http://opinion.udn.com/opinion/story/5955/1224417">揭開「說服力」的神秘面紗：權威的影響</a></h3>
+    <p>文章中有提到一個有趣的「說服力訓練遊戲」：</p>
+
+<blockquote><p>每當我們聽到一段覺得有意思的話，不管是認同還是反感，試著想像，這段話若是出自形象迥異、各式各樣的族群身份之口，我們對此的認同度會否有微妙的差異？去感受這種差異，慢慢地，我們就可以去分辨，話語的力道哪些是來自於道理本身，哪些，則是權威的加持效果。</p></blockquote>
+  <span class="item__footer"><a href="http://opinion.udn.com/opinion/story/5955/1224417">udn.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="frFKoQo"></a>
+  
+  <h3 class="item__title"><a href="https://developers.google.com/app-indexing/?hl=zh-tw">App Indexing</a></h3>
+    <p>如果你的 app 是一個 website service 延伸出來的，或是你的 app 有一個延伸的 website，那麼這次 Google IO 提出來的 App Indexing 一定會讓你很感興趣。網頁上的揭露的訊息有點少，可以看這個影片 <a href="https://www.youtube.com/watch?v=UjLJoMWSXts">App Indexing API</a>。</p>
+
+<p>簡單來說就是在手機用 Google Search 的時候就讓用戶透過搜尋頁面開啟 app 到對應的結果，超讚的啊。
+在 Android 上可以除了可以讓你開啟 app 之外還可以提示未安裝 app 的用戶安裝。</p>
+  <span class="item__footer"><a href="https://developers.google.com/app-indexing/?hl=zh-tw">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="B1BKv8s"></a>
+  
+  <h3 class="item__title"><a href="https://corner.squareup.com/2015/08/a-small-leak.html">A small leak will sink a great ship</a></h3>
+    <p>Square 又一篇警世好文，在 Lollipop 版本之前的 alert dialogs 因為 Dalvik VM 的 bug 導致 memory leak，真的好可怕。裡面有提供修正的方式，我就不多說了。</p>
+
+<p>這篇文很好的示範了可能會造成 memory leak 的 bad smells，如何以 <a href="https://github.com/square/leakcanary">LeakCanary</a> 輔助找 leak、進一步縮小範圍測試的方式跟證明。</p>
+  <span class="item__footer"><a href="https://corner.squareup.com/2015/08/a-small-leak.html">squareup.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bs15Bi5"></a>
+  
+  <h3 class="item__title"><a href="https://realm.io/cn/news/tips-for-ios-9-development/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io">iOS 9 开发高级技巧</a></h3>
+    <p>iOS 9 除了 ATS (App Transport Security) 之外還有我們應該知道的事情，Realm 請 12 位頂尖的 iOS 開發者分享 iOS 9 的心得跟技巧，篇幅都很小掃過一次就了然於心，在開發中適時的使用新的功能及工具對一個開發者是很重要的。</p>
+  <span class="item__footer"><a href="https://realm.io/cn/news/tips-for-ios-9-development/?hmsr=toutiao.io&amp;utm_medium=toutiao.io&amp;utm_source=toutiao.io">realm.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="V0NmXzr"></a>
+  
+  <h3 class="item__title"><a href="http://oleb.net/blog/2015/08/how-to-use-updateconstraints/">How to Use updateConstraints</a></h3>
+    <p>如何正確地使用 Auto Layout 一直是一個課題，看上去有太多種方法都可行，我們需要更多的知識來幫助我們做選擇。  比方說，<code>viewDidLayoutSubviews()</code> 是在 layout pass 結束的時候才會被啟用，而 <code>updateConstraints()</code> 是在 layout pass 之前。</p>
+
+<p>文章提到，如果你有在 code 裡產生 <code>NSLayoutConstraint</code> 你不應該把初始設定的 layout codes 放在 <code>updateConstraints()</code>，而只有在你後續動態調整<strong>大量</strong> constraints 時才有必要，因為在 <code>updateConstraint()</code> 裡面的 constraints install / uninstall 是批量完成的與效能相關。<code>UIView</code> 的 <code>updateConstraints()</code>，可以在任何時候被 <code>view. setNeedsUpdateConstraints()</code> 啟用。</p>
+
+<p>註：雖然沒有相關，但如果你也是自己在 code 中產生 <code>NSLayoutConstraint</code> 的流派，我最近試著用 <code>IB_DESIGNABLE</code> ，可以在 Interface Builder 預覽 code 寫出來的 layout，無論是在 debug 或是多人合作都很有幫助。</p>
+
+<p><a href="https://developer.apple.com/library/ios/recipes/xcode_help-IB_objects_media/Chapters/CreatingaLiveViewofaCustomObject.html">Creating a Custom View That Renders in Interface Builder</a></p>
+  <span class="item__footer"><a href="http://oleb.net/blog/2015/08/how-to-use-updateconstraints/">oleb.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bqKi8xd"></a>
+  
+  <h3 class="item__title"><a href="https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/">Git team workflows: merge or rebase?</a></h3>
+    <p>在多人開發的時候，就不能開心的 <a href="http://www.commitlogsfromlastnight.com/">這樣 commit</a> 了，留下有意義的 commit log 給你的同事是很重要的。</p>
+
+<p>要合併兩個 branch 你可以透過 rebase 或 merge，大家都知道 rebase 在某些時候可以增加 commit log 的閱讀性但又老是聽人家說很危險，這篇文章給了很不錯的輪廓。</p>
+
+<p>我個人是 commits 還在 local 就用 rebase，已經 push 的除非遇到一個以上的 commit conflicts 或有人已經合併了我的 branch 否則也還是用 rebase，只有在已經開了 pull request 才會用 merge。心情好的時候也會在 push 之前用 <code>rebase -i commit</code> 整理一下，大家可以參考一下 ihower 的 <a href="https://ihower.tw/git/rebase.html">還沒 push 前可以做的（壞）事</a>。</p>
+  <span class="item__footer"><a href="https://www.atlassian.com/git/articles/git-team-workflows-merge-or-rebase/">atlassian.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="hQHaaQI"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/blog/2066-git-2-6-including-flexible-fsck-and-improved-status">Git 2.6 重大更新 (GitHub)</a></h3>
+    <p>每天用的吃飯工具 Git 出新版了，當然要關心一下改了什麼東西。</p>
+
+<ol>
+<li><p>更有彈性的 <code>git fsck</code>：</p>
+
+<p> 因為 <a href="https://schacon.github.io/gitbook/1_the_git_object_model.html">Git Object Model</a> 的關係，fsck 修復後會造成 commit history 改寫。對於已經大量散佈的 repository 來說，這問題可能比 Git object 內容有問題更難處理。從 2.6 版開始，你可以讓 <code>git fsck</code> 略過某些狀況、只修復你希望它修復的部分。</p></li>
+<li><p><code>git status</code>  在 <code>git rebase -i</code> 過程中會顯示更詳細的資訊，像是這樣：</p>
+
+<pre><code>$ git status
+interactive rebase in progress; onto 1e7a542
+Last commands done (5 commands done):
+   pick da6bc48 commit four
+   edit 12ee9f3 commit five
+Next commands to do (5 remaining commands):
+   pick 8262b99 commit six
+   squash 0f9e8ec commit seven
+You are currently editing a commit while rebasing branch 'master' on '1e7a542'.
+</code></pre></li>
+</ol>
+
+
+<p>更多細節在 <a href="https://github.com/git/git/blob/v2.6.0/Documentation/RelNotes/2.6.0.txt">Git 2.6.0 Release Notes</a></p>
+  <span class="item__footer"><a href="https://github.com/blog/2066-git-2-6-including-flexible-fsck-and-improved-status">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KvWpE01"></a>
+  
+  <h3 class="item__title"><a href="https://drboolean.gitbooks.io/mostly-adequate-guide/">Professor Frisby&#39;s Mostly Adequate Guide to Functional Programming</a></h3>
+    <p>函數式編程（Functional Programming）已經是無法阻擋的趨勢，各家語言都不斷引入支援。但
+多數教材都以純函數式語言為例子，門檻較高。光是要搞懂 <a href="https://en.wikipedia.org/wiki/Monad_(functional_programming">Monad</a> 才能做 I/O 就足以嚇跑一大票人。</p>
+
+<p>這本書挑了目前最熱門也最容易找到執行環境的語言 —— JavaScript 來編寫函數式語言教材就是希望降低入門門檻，讓讀者可以慢慢在實際應用中導入 FP 的觀念。</p>
+
+<p>另外也有取得授權翻譯的簡體中文版 —— <a href="https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details">JS 函数式编程指南</a>。</p>
+  <span class="item__footer"><a href="https://drboolean.gitbooks.io/mostly-adequate-guide/">gitbooks.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OxSmhBc"></a>
+  
+  <h3 class="item__title"><a href="https://yongjhih.gitbooks.io/feed/content/RxJava.html">以 RxJava 實例了解 Reactive Programming 的優點</a></h3>
+    <p>多數 Reactive Programming 文章都是跟你說怎麼用，但是不太能直接感受改寫成 Reactive 的好處。這篇文章以例子說明 Reactive 除了潮之外，確實有些實務上的優點：</p>
+
+<ul>
+<li>有效解決重複的 loop 增進效能，維持同個 loop</li>
+<li>提前打斷迴圈的能力，避免不必要的過濾與轉換</li>
+<li>拉平巢狀 callback 增加易讀性</li>
+</ul>
+
+
+<hr />
+
+<p>這篇文章出自 <a href="https://yongjhih.gitbooks.io/feed/">Open Android</a> 的 RxJava 一章，整本書涵蓋了以開源角度開發 Android App 的各種面向，值得參考參考。</p>
+  <span class="item__footer"><a href="https://yongjhih.gitbooks.io/feed/content/RxJava.html">gitbooks.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6CbQBEg"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/swlh/good-tech-lead-bad-tech-lead-948b2b806d86">Good Tech Lead, Bad Tech Lead</a></h3>
+    <p>這是 Foursquare 的技術團隊領導（Tech Lead）指南，從不同面向點出好壞 Tech Lead 的做法差異。簡單來說，好的 Tech Lead 應該要：</p>
+
+<ol>
+<li><p>視自己為團隊一份子、幫忙排除障礙（如減少不必要的瑣事）讓成員可以專心發揮所長</p></li>
+<li><p>掌握大局並做適當安排</p>
+
+<ul>
+<li>預見可能發生的問題</li>
+<li>了解每個團隊成員的能力與工作狀況</li>
+<li>掌握平衡，尤其是「準時完成」與「追求品質」</li>
+</ul>
+</li>
+<li><p>溝通、討論：先把時間花在溝通而非編寫程式</p>
+
+<ul>
+<li>參與產品規劃、不是一味接受需求</li>
+<li>鼓勵成員間的討論、參與時不帶定見</li>
+</ul>
+</li>
+</ol>
+  <span class="item__footer"><a href="https://medium.com/swlh/good-tech-lead-bad-tech-lead-948b2b806d86">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="deLIJpU"></a>
+      <a href="https://instagram.com/lulutung/"><img src="square_extra_large_84296fd7-7d78-4c9d-aab0-bed585e41d82.jpg" title="本週 IG 推薦：董嘉儀" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://instagram.com/lulutung/">本週 IG 推薦：董嘉儀</a></h3>
+    <p>延續 <a href="https://twitter.com/tzangms">@tzangms</a> 的 IG 主題。</p>
+
+<p>這是我前陣子在 Instagram 上亂逛看到的，似乎是位香港的模特兒。覺得她挺可愛的，希望大家也會喜歡。</p>
+  <span class="item__footer"><a href="https://instagram.com/lulutung/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="m34vZMM"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="http://www.66kjobs.tw/jobs/1106">後端工程師 at Babbo</a></h3>
+    <blockquote><p>來信 <a rel="nofollow" href="&#109;&#97;&#105;&#x6c;&#116;&#111;&#58;&#104;&#101;&#108;&#x6c;&#111;&#x40;&#x62;&#x61;&#x62;&#46;&#98;&#x6f;">&#x68;&#101;&#108;&#108;&#111;&#64;&#x62;&#97;&#x62;&#46;&#x62;&#111;</a> 請附上你的簡歷和任何可以在網路上找到你的帳號名稱。如果我們覺得你適合這份工作，我們會跟你約個時間面試（如果你不在台北，也可以先電話面試）；如果我們覺得你不太適合這個職務，也一定會回信告訴你為什麼，不會讓你的求職信石沈大海。</p></blockquote>
+
+<hr />
+
+<p>溫馨提醒：</p>
+
+<ul>
+<li><a rel="nofollow" href="http://weekly.codetengu.com/issues/6#zbbDwbF">精益技术简历之道 —— 改善技术简历的 47 条原则</a>。</li>
+<li><a rel="nofollow" href="https://drive.google.com/open?id=0B7GBorzHG0UbR1NUUzd4b05RZ2s">上班族不可侵犯的十個權益</a></li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="http://www.66kjobs.tw/jobs/1106">66kjobs.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="T1da90h"></a>
+  
+  <h3 class="item__title"><a href="https://book.douban.com/subject/25884108/">程序员的呐喊 by Steve Yegge</a></h3>
+    <p>作者是個在 Google 工作的知名軟體工程師（在 Wikipedia 有一個條目的那種知名），這本書收錄的就是這個硬派但是講話很靠北的程序員在他的部落格上發表的文章，其實跟「<a href="http://local.joelonsoftware.com/wiki/%E9%A6%96%E9%A0%81">約耳趣談軟體</a>」有點像。書裡講的東西其實就是那些我們平常會跟同事或朋友胡亂抱怨的事情，類似「動態語言就是慢，沒什麼好說的了」、「媽的 XXX 真的是個爛語言，厲害的工程師就是要用 OOO」、「你有沒有看過『重構』這本書？幹超屌」，差別在於 Steve Yegge 真的說出個所以然，而且是用一種很機八的方式。</p>
+
+<p>例如他是這麼評論「敏捷開發（Agile）」的 ——「这玩意儿基本上又是某种愚蠢的营销骗局，是专门忽悠那些从来没读过『<a href="https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9">没有银弹</a>』的菜鸟程序员的科技病毒。那种会去延长保险期限、会买自助教科书、相信老板真的关心他们，把他们当人看的程序员、那种专门去各种研讨会认识朋友，还有那些真的相信在小卡片上乱写一通就能瞬间简化软件开发的家伙。」</p>
+
+<p>好吧，當然這本書裡還是有一些實用的內容，例如他也有教你怎麼準備 Google 的面試或是一個軟體工程師應該怎麼學數學。但是這本書最棒的地方其實是告訴我們，這個世界上還是存在著很有趣的軟體工程師的嘛！</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享</p>
+  <span class="item__footer"><a href="https://book.douban.com/subject/25884108/">douban.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/9/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-09-28'>September 28th 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>10 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/11/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-10-12'>October 12th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

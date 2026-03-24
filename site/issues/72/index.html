@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 72 Workaround 雖可恥但有用</title>
+<meta name="description" content="本期內容涵蓋 Machine Learning, Deep Learning, Data Mining, Xcode, Swift, Object-Oriented Programming, Python, CSS">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Machine Learning, Deep Learning, Data Mining, Xcode, Swift, Object-Oriented Programming, Python, CSS'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/72/index.html#start">
+        Issue 72 Workaround 雖可恥但有用 &nbsp;<i><time class='published' datetime='2016-12-12'>December 12th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-211061"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.douban.com/people/vinta/">More Than Human</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="l9Bf8JH"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-7-jiang-xue-xi-bi-ji/">林軒田教授機器學習技法 Machine Learning Techniques 第 7 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>前 6 講我們對 SVM 做了完整的介紹，從基本的 SVM 分類器到使用 Support Vector 性質發展出來的 Regression 演算法 SVR，在機器學習基石中學過的各種問題，SVM 都有對應的演算法可以解。</p>
+
+<p>第 7 講我們要介紹 Aggregation Models，顧名思義就是要將多種模型結合起來，看能不能在機器學習上有更好的效果。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-7-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BF0wgi7"></a>
+  
+  <h3 class="item__title"><a href="http://bangqu.com/gpu/blog/5145">大神 Yann LeCun 親授：如何自學深度學習技術並進階成專家</a></h3>
+    <p>Machine Learning、Deep Learning：初級</p>
+
+<p>如何自學深度學習？我想這應該是很多沒學過機器學習的開發者心中的疑問，Facebook AI Research 首席 <a href="https://www.facebook.com/yann.lecun">Yann LeCun</a> 給大家的解答非常值得一看。其中幾點我看到時其實覺得不解，大神居然要我們盡量去上物理課、量子力學等等，我們不是要學深度學習嗎？原來物理學的許多數學建模方法，在建構機器學習演算法思維上也有共通之處。</p>
+
+<p>我本來半信半疑，但有人在我寫的<a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-liu-jiang-xue-xi-bi-ji/#comment-3033683253">機器學習基石第 6 講筆記</a>留言說「這些證明好像量子物理」，我嚇得都尿褲子了...</p>
+  <span class="item__footer"><a href="http://bangqu.com/gpu/blog/5145">bangqu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tyLpkXx"></a>
+  
+  <h3 class="item__title"><a href="https://wizardforcel.gitbooks.io/dm-algo-top10/content/c4.5.html">数据挖掘十大算法详解</a></h3>
+    <p>Machine Learning、Data Mining：中級</p>
+
+<p>Machine Learning 跟 Data Mining 有許多重疊的部份，Data Mining 在字面上可能又較著重於從資料中挖掘出一些有趣的特性，也因此有一些在 Data Mining 領域的演算法會是依據 Data 而去設計的，有些演算法甚至是一些人類直觀的想法但卻沒有理論上的保證，不過，在許多應用上也是有出色的表現，例如 Apriori、knn、PageRank 等等。</p>
+
+<p>「数据挖掘十大算法详解」介紹了 Data Mining 領域大致上會碰到的十大演算法，寫得非常淺顯易懂。</p>
+  <span class="item__footer"><a href="https://wizardforcel.gitbooks.io/dm-algo-top10/content/c4.5.html">gitbooks.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tFEezyl"></a>
+  
+  <h3 class="item__title"><a href="http://www.slideshare.net/tw_dsconf/ss-62245351">[DSC 2016] 系列活動：李宏毅 / 一天搞懂深度學習</a></h3>
+    <p>Machine Learning、Deep Learning：中級</p>
+
+<p>上週去參加了台灣最大的人工智慧盛會「人工智慧與應用研討會 TAAI」，報名了近來在網路上評價非常好的專題演講 - 台大李弘毅教授的一天搞懂深度學習，原本是抱著來聽聽看的心態，想說也許能夠聽得懂 60% 就不錯了，結果李弘毅教授講得超清楚的，應該 90% 都聽懂了，什麼 CNN、RNN、LSTM、GAN 等等，感覺都被李弘毅教授點通了，有種想跑去台大聽李弘毅教授講課的衝動！</p>
+
+<p>對了，這場演講也是李弘毅教授的封麥之作了，之後要聽就真的要去台大聽了！還好李弘毅教授會不定期分享課程內容到 <a href="https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ">YouTube</a> 上～</p>
+  <span class="item__footer"><a href="http://www.slideshare.net/tw_dsconf/ss-62245351">slideshare.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eNbJSIO"></a>
+      <a href="https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application"><img src="original_ratio_extra_large_db875fe8-a6f9-4fed-a93d-6b61615bf6a6.png" title="iNDIEVOX Open Data/API 智慧音樂應用" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application">iNDIEVOX Open Data/API 智慧音樂應用</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>前幾天受邀去政治大學、中山大學演講 <a href="https://en.wikipedia.org/wiki/Music_information_retrieval">Music Information Retrieval</a> 領域相關講題，於是就分享了 <a href="http://www.indievox.com/">iNDIEVOX</a> 如何使用近期開放出來的 <a href="https://github.com/indievox-inc/iNDIEVOX-Dataset">Open Data 及 API</a> 實做出一些有趣的智慧音樂應用，例如辨識音樂情緒、推薦購買關聯音樂等等需要機器學習演算法才能實現的功能。</p>
+
+<p>由於面對的學生有博士班及碩士班的同學，其實實作面及研究面都要顧及，所以除了說明一些演算法之外，也一步一步地帶著大家如何跑完一整個機器學習流程，甚至擔心大家沒跟上還寫了一些範例程式碼提供參考，詳情請大家自己看簡報內容吧。</p>
+
+<p>與現今許多神奇的機器學習應用比起來，也許這些音樂推薦功能也不怎麼神奇了，畢竟這也只是我工作之餘自己做的一些實驗性產品，技術深度要跟投入大量研究經費及人力的大公司比起來可能不算什麼，但對於想要入門機器學習做出些什麼有趣的應用系統，我想這是一個非常好的手把手教學與展示！</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application">speakerdeck.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="EqaLoSZ"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-1-3-36381e07284d#.tzowaiugd">My Favorite Xcode 8 Shortcuts</a></h3>
+    <p>有人分享了一份他常用的 Xcode 快速鍵（還有<a href="https://medium.com/ios-geek-community/bobs-favorite-xcode-shortcuts-part-2-3-c076e506cd20#.qwwokucyg">第二集</a>，<a href="https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-3-3-afd2bf590442#.4rmozi811">第三集</a>），作者很貼心的提供了 gif 檔展示每個快速鍵的功用。</p>
+
+<p>我從中學到了幾個之前沒注意到的快速鍵，例如 <code>Command Option Left/Right</code> 可以收合展開程式碼，<code>Control L</code> 可以將游標那一行程式碼置於畫面中央，<code>Control K</code> 可以刪除下一行程式碼。另外提供兩個我常用的快速鍵：<code>Control Shift J</code> 可以切到專案瀏覽器並選中目前編輯的檔案，<code>Control Command Up/Down</code> 可以在 .h/.m 檔之間切換。</p>
+  <span class="item__footer"><a href="https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-1-3-36381e07284d#.tzowaiugd">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BPDXzgH"></a>
+  
+  <h3 class="item__title"><a href="https://realm.io/news/tryswift-rob-napier-swift-legacy-functional-programming/">Watch Swift and the Legacy of Functional Programming</a></h3>
+    <p><a href="https://twitter.com/cocoaphony">Rob Napier</a> 分享了他對 Swift 的看法，他認為 Swift 直至今日依然不是 Functional Language，所以如果用 functional 的思維去寫 Swift 會很不自然。他認為 <code>Type</code> 才是 Swift 的組成單位，要用 <code>Type</code> 來思考並組合你的 Swift 程式碼。講得非常簡單好懂，很值得一看的演講。</p>
+  <span class="item__footer"><a href="https://realm.io/news/tryswift-rob-napier-swift-legacy-functional-programming/">realm.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jhMLQD3"></a>
+  
+  <h3 class="item__title"><a href="http://hotcocoatouch.com/2016/11/16/composite-validators/">Composite Validators - Hot Cocoa Touch</a></h3>
+    <p>常常會聽到這麼一句話：「多用合成，少用繼承」，使用合成模式 (Composite Pattern) 真的可以避免許多麻煩、讓程式碼更有彈性、各個元件的職責更加明確。這篇文章的作者舉例說明，如何用合成模式來驗證使用者輸入的 Email 跟密碼，是個很常見的使用情境。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li>有人覺得作者這樣的設計還有改善空間，所以<a href="https://owensd.io/2016/11/28/composite-validators-refined/">寫了一篇文章來回應</a></li>
+<li>配合上一篇 Rob Napier 的演講一起看會更有體會</li>
+</ul>
+  <span class="item__footer"><a href="http://hotcocoatouch.com/2016/11/16/composite-validators/">hotcocoatouch.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NIout7y"></a>
+  
+  <h3 class="item__title"><a href="https://pspdfkit.com/blog/2016/hiding-action-share-extensions-in-your-own-apps/">Hiding Your Action and Share Extensions In Your Own Apps</a></h3>
+    <p>iOS 提供了 <code>UIActivityViewController</code>（就是按下「分享」按鈕後會跳出來的那個界面），讓使用者可以用別的 app 來處理當前的檔案。但是假如使用者已經在使用你的 app 了，此時跳出來的 <code>UIActivityViewController</code> 如果還列出你的 app 選項，就會顯得很不合理。PSPDFKit 的開發團隊找到一個很有趣的方法來解決這個問題！</p>
+  <span class="item__footer"><a href="https://pspdfkit.com/blog/2016/hiding-action-share-extensions-in-your-own-apps/">pspdfkit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="H9MckeB"></a>
+  
+  <h3 class="item__title"><a href="http://blog.stablekernel.com/would-async/await-work-in-swift/ios">Would Async/Await Work In Swift/iOS?</a></h3>
+    <p>「非同步操作」基本上已經是每個 app 都需要面對的問題，有些程式語言提供 async/await 語法來處理非同步操作，但目前看起來 Swift 尚未打算提供類似的語法。本文作者 Joe Conway 分享他的思路，說明 Swift 底下該怎麼實作這個特性。</p>
+  <span class="item__footer"><a href="http://blog.stablekernel.com/would-async/await-work-in-swift/ios">stablekernel.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="BgAdcue"></a>
+  
+  <h3 class="item__title"><a href="https://lukasa.co.uk/2016/12/Debugging_Your_Operating_System/">Debugging Your Operating System: A Lesson In Memory Allocation</a></h3>
+    <p><a href="http://docs.python-requests.org/en/master/">Requests</a> 是 Python 上最受實戰驗證的 HTTP 客戶端函式庫。但它的主要維護人之一 Cory Benfield 最近卻收到一個神奇的 <a href="https://github.com/kennethreitz/requests/issues/3729">bug report</a>：</p>
+
+<blockquote><p><code>iter_content</code> 在 HTTPS 連線收到很大的內容時會變得很慢</p></blockquote>
+
+<p>這一點也不合理 —— Requests 歷史如此之長，使用者如此之多，怎麼到現在才冒出這麼基本的問題？Cory 跟著 reporter 一路追下去，才發現這牽扯到非常多因素：使用 <a href="http://cffi.readthedocs.io/en/latest/">CFFI</a> 配置記憶體的實作、C 標準庫對 <a href="https://vorpus.org/blog/why-does-calloc-exist/"><code>calloc</code> 的實作</a>與 <code>malloc</code> 的差異、一直到蘋果需要針對記憶體極端受限的硬體，而對它的<a href="https://en.wikipedia.org/wiki/XNU">極致優化</a>。</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Leaky_abstraction"><em>Abstraction is leaky.</em></a> 不論你的應用有多麼高階，總是有些問題會需要一直往下挖，才能找到真正原因。希望大家都能擁有足夠的<a href="http://www.books.com.tw/products/0010456858">自我修養</a>，不要漏點了底層的技能樹。</p>
+  <span class="item__footer"><a href="https://lukasa.co.uk/2016/12/Debugging_Your_Operating_System/">lukasa.co.uk</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bjaxv24"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.457n7wdrd">The 100% correct way to do CSS breakpoints</a></h3>
+    <p>三個實作 CSS 斷點的原則：</p>
+
+<ul>
+<li>正確規劃斷點位置</li>
+<li>為斷點取好名稱</li>
+<li>要有描述性</li>
+</ul>
+
+
+<p>第一點根本一上來就打爆所有你既有的斷點概念啊！我之前和各大網站的 layout 掙扎了滿久，才決定我筆電上的所有瀏覽器視窗都要是 1225 px 寬，不多也不少，就是因為很多網站的斷點都設得不太好（包括 Twitter），讓使用者體驗整個糟。希望大家都能被這篇文章啟發一些想法，進而改善自家網站的 layout。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.457n7wdrd">freecodecamp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UqQJdzB"></a>
+  
+  <h3 class="item__title"><a href="https://www.naftaliharris.com/blog/why-making-python-2.8/">Why I’m Making Python 2.8</a></h3>
+    <p>有個人把所有的 Python 3 新功能都 backport 回 Python 2，然後把專案名稱作 Python 2.8。他的原因是自己的程式碼都在 Python 2，而與其把所有程式都改寫成 Python 3-compatible，不如把新功能移植回現在這個直譯器上，然後就可以用了。喔耶！</p>
+
+<p>嗯，不論你對這個專案的想法如何，至少不需要否認它的存在價值啦。作者有個問題需要處理，然後別人無法（<a href="https://www.python.org/dev/peps/pep-0404/">不想？</a>）解決，所以他就用自己的方法找了出路。這就是開源的基本精神，不是嗎？</p>
+
+<p>比較有趣的倒是 Python 社群的反應。Hacker News 和 Reddit 一堆瘋子就不用看了，許多 Python 大名們也都有<a href="https://twitter.com/kennethreitz/status/807690433954344960">討論</a>。話說前陣子也有某大手<a href="https://learnpythonthehardway.org/book/nopython3.html">發表</a>自己對 Python 3 的厭惡，宣稱 Python 2 才是正道，自己永遠不會升級，也不會教任何新手 Python 3。好啦其實 Zed A. Shaw 在技術界早就頗黑，雖然很受一部份人愛戴 <del>怎麼有點像某人</del>，但畢竟他的 reach，尤其對許多初學者的影響力還是很大，所以雖然文章內容根本錯誤百出無從吐槽，但（幸好）還是有人跳出來反駁，其中不乏<a href="https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/">比較情緒的發言</a>。反觀起來這個專案大家就比較能接受，普遍的反應比較接近「雖然不樂意，但這是個人自由，反正就冷處理」。最多的討論倒是圍繞在<a href="https://github.com/naftaliharris/python2.8/issues/47">不該用 Python 這個名稱</a>，主要是商標因素。好像也是有道理。</p>
+  <span class="item__footer"><a href="https://www.naftaliharris.com/blog/why-making-python-2.8/">naftaliharris.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jJNAHiE"></a>
+  
+  <h3 class="item__title"><a href="https://sidbala.com/h-264-is-magic/">H.264 is Magic</a></h3>
+    <p>為什麼桌面上顯示一張 1 MB 的 PNG 檔，錄成 5 秒鐘影片之後反而只剩 175 KB？因為 H.264 很神奇。這篇文章會帶你走過 H.264 所使用的各種技巧，解釋究竟要怎樣把影片中如此大量的資訊，壓進比圖片還要清亮的檔案尺寸。</p>
+
+<p>我<a href="http://weekly.codetengu.com/issues/68#DCyVxtS">上次</a>引了一篇介紹 GIF 歷史的文章，裡面也有提到 GIF 的一大問題就是難以壓縮；為了解決這個問題，現代服務提出了各式各樣的解法。舉例而言，當你把一張 GIF 上傳到 Twitter，出現在你 timeline 上的其實是⋯⋯一個 H.264 編碼的無聲 MP5 影片！因為現代的影片壓縮技術實在比 GIF 厲害太多啦。</p>
+
+<p>文中的主題大致可分成幾個階段：</p>
+
+<ul>
+<li>頻域壓縮（量化壓縮 quantization）</li>
+<li>色度抽樣（chroma sampling）</li>
+<li>動態補償（motion compensation）</li>
+<li>熵編碼（entropy encoding）</li>
+</ul>
+
+
+<p>如果你很熟悉上面這些名詞，恭喜你 XD 如果你都看不懂，那才是正常不過；不過這篇文章就是來解釋它們的，所以完全適合好奇又沒有任何基礎知識的人。雖然看完大概對工作也不會有什麼立即幫助，但還是很酷的閒暇閱讀。</p>
+  <span class="item__footer"><a href="https://sidbala.com/h-264-is-magic/">sidbala.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ROrLYLk"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://join.dcard.today/">Web Developers at Dcard</a></h3>
+    <p>Dcard 是全台灣最大的學生社群，每天有超過百萬人在使用，是近年來台灣崛起最快的本土團隊。同時在技術上努力追求突破，是國內數一數二早將 Kubernetes 用在 production 的公司。使用架構：Kubernetes, Node.js, Golang, Elixir, PostgreSQL, Redis, Scylla, React/Redux。</p>
+
+<p>履歷請寄到： <a rel="nofollow" href="&#109;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x77;&#101;&#x6c;&#99;&#x6f;&#109;&#x65;&#64;&#x64;&#99;&#97;&#114;&#x64;&#x2e;&#99;&#x63;">&#x77;&#101;&#x6c;&#99;&#x6f;&#109;&#x65;&#x40;&#100;&#x63;&#x61;&#114;&#x64;&#46;&#99;&#99;</a> 或到 <a rel="nofollow" href="http://join.dcard.today">http://join.dcard.today</a></p>
+  <span class="item__footer"><a rel="nofollow" href="https://join.dcard.today/">dcard.today</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="V49aCSw"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Backend Developers at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x74;&#122;&#x61;&#110;&#103;&#109;&#115;&#x40;&#115;&#x74;&#x72;&#101;&#101;&#x74;&#x76;&#x6f;&#105;&#x63;&#101;&#46;&#99;&#111;&#109;">&#116;&#122;&#97;&#x6e;&#x67;&#109;&#115;&#64;&#x73;&#116;&#x72;&#x65;&#101;&#116;&#118;&#111;&#105;&#x63;&#x65;&#46;&#x63;&#111;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="z0sQ14P"></a>
+      <a href="https://github.com/xxhomey19/PPAV"><img src="original_ratio_extra_large_b5555ba8-7874-4b13-953a-98d7787003fb.png" title="PPAV - 搜尋、推播 AV 的 Facebook Messenger BOT" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/xxhomey19/PPAV">PPAV - 搜尋、推播 AV 的 Facebook Messenger BOT</a></h3>
+    <p>這大概是近期最熱門的一個機器人了吧！簡直就是殺手級應用啊！怎麼使用這個機器人我想附圖已經說明得很清楚了，如果還是不會用，那就直接去這個 <a href="https://www.facebook.com/ppavbot/">PPAV 粉絲頁</a>傳私訊看看就知道了～</p>
+
+<p>我來改改 CodeTengu 的副標：</p>
+
+<blockquote><p>PPAV 適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p></blockquote>
+
+<p>由 <a href="https://twitter.com/fukuball">@fukuball</a> 分享。</p>
+  <span class="item__footer"><a href="https://github.com/xxhomey19/PPAV">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/71/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-12-05'>December 5th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>72 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/73/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-12-19'>December 19th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

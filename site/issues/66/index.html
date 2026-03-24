@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 66 學海無涯，回頭是岸</title>
+<meta name="description" content="本期內容涵蓋 SQL, Python, Machine Learning, PHP, iOS, Android">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 SQL, Python, Machine Learning, PHP, iOS, Android'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/66/index.html#start">
+        Issue 66 學海無涯，回頭是岸 &nbsp;<i><time class='published' datetime='2016-10-31'>October 31st 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-196852"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob">We Are Legion (We Are Bob)</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 買了文明帝國 6 ...</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3S7JNwy"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@Bar_Code/the-problem-with-tech-leads-a840af1f511c#.p1rmp0re0">The Problem with Tech Leads</a></h3>
+    <p>領導、帶團隊跟寫程式差不多, 只是:</p>
+
+<ul>
+<li>你沒辦法寫測試, 只能偶而做一下調查</li>
+<li>抽象化 (Abstraction), 現在叫做 Delegation</li>
+<li>繼承 (Inheritance), 現在叫做, 別人的問題就是你的問題</li>
+<li>你通常得重複做一件事, 所以忘掉 DRY</li>
+<li>你沒辦法用 monitor 來測量</li>
+</ul>
+
+
+<p>然後以上這些事情通常會有延遲。 通常還要幾週你才會知道你的實驗有沒有效果。</p>
+
+<p>這篇文章, 我節錄了 22 重點, 真心覺得寫得很棒, 也心有戚戚焉。</p>
+
+<p>以下列其中幾個重點:</p>
+
+<ul>
+<li>每個人都應該可以領導他們自己，並且帶領一個會議。</li>
+<li>如果你沒辦法帶領你自己，你怎麼帶領別人?</li>
+<li>團隊的潛力不是在於把 IQ 最大化，而是集體智慧。</li>
+<li>90% 的高績效人士，通常有高 EQ</li>
+<li>由高 IQ 的人組成的團隊不一定會保證高產出，結果通常是相反的。</li>
+<li>跟任何新技術一樣，有很多關於領導力的文章、部落格、書、論壇跟專家。你可以用以前學習任何新技術的方式來學習領導力。</li>
+</ul>
+
+
+<p>除此之外, 這篇文章還提到了一些很早就存在的一些理論, 像是:</p>
+
+<ul>
+<li><a href="http://www.businessballs.com/tuckmanformingstormingnormingperforming.htm">Team Maturity Models</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Situational_leadership_theory">Situational leadership theory</a></li>
+</ul>
+
+
+<p>我覺得也都是分別需要再花時間深入研究體會的, 而且都非常有見地。</p>
+
+<p>想來加入我的團隊嗎? <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4b39416a33353d662f313962373d351862828286c3f45456795j98&amp;jobsource=n104bank1">傳送門</a></p>
+  <span class="item__footer"><a href="https://medium.com/@Bar_Code/the-problem-with-tech-leads-a840af1f511c#.p1rmp0re0">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Ja7elaZ"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/i/moments/791738696978403328">Management in ten tweets</a></h3>
+    <p>十則推文談管理的 Twitter moments。</p>
+
+<p>溝通、信任、挑戰。</p>
+
+<p>做過才會知道, 溝通的力量比你想像中的還要有力。</p>
+  <span class="item__footer"><a href="https://twitter.com/i/moments/791738696978403328">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="21Zk66i"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/once-upon-a-team/when-should-you-a-hire-a-product-manager-91e393862150">When should you a hire a Product Manager? </a></h3>
+    <p>其實我的工作生涯中完全幾乎沒跟 PM 工作過, 所以其實一直以來對 PM 的想像都有點不太對, 不知道一位真正好的 PM 到底該是怎麼樣子。</p>
+
+<p>曾經也有碰過幾個主管說「我們沒有 PM 沒辦法進行下去」, 但這產品已經經營了 10 年了, 「當初為何不需要 PM 現在卻一定要」我心裡這樣想。</p>
+
+<p>這篇文章給出了幾個痛點, 如果沒踩到, 那可以先不用找 PM, 不過我目前幾乎都踩到了 XD</p>
+
+<ul>
+<li>Struggling to keep track of what to build next (lack of a prioritized backlog).</li>
+<li>Building solutions that don’t work because no one had time to think about them (and you should have caught it).</li>
+<li>Shipping has slowed down due to mismatched priorities between teams or poor communication between teams.</li>
+<li>People on the team don’t feel a sense of “why” we’re building something.</li>
+</ul>
+
+
+<p>嘿, 沒錯! <a href="https://www.104.com.tw/job/?jobno=4dvuq&amp;jobsource=n104bank1&amp;hotjob_chr=">我也正在找 PM</a>! 最近讀了非常多關於 PM 的文章, 歡迎來跟我聊聊, 來加入 <a href="https://streetvoice.com/">StreetVoice</a> 跟我一起工作吧!</p>
+  <span class="item__footer"><a href="https://medium.com/once-upon-a-team/when-should-you-a-hire-a-product-manager-91e393862150">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oCfueOa"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/elwinar/rambler">rambler - A simple and language-independent SQL schema migration tool</a></h3>
+    <p>一個用 go 寫的 SQL migration tool, 因為習慣了用 Django 開發, 有內建的 migration tool, 但是老實說產生出來的 migration file 實在是太令人眼花撩亂, 所以以前傾向用 <a href="https://github.com/paltman-archive/nashvegas">django-nashvegas</a> 而不是 South (後來內建進 Django)</p>
+
+<p>而 rambler 就是類似, 而且不被特定語言、框架綁住, 小專案使用也是挺方便的, 而且 migration file 清楚明暸啊!!</p>
+  <span class="item__footer"><a href="https://github.com/elwinar/rambler">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="k3y0dj8"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/stedmeister/easyargs">easyargs - A python module to make handling command line arguments easy</a></h3>
+    <p>因為一直做 web, 所以挺少寫 command line 的, 唯一比較有人知道的就是我愛卡提諾 <a href="https://github.com/tzangms/iloveck101">iloveck101</a> 這個 open source 專案了 XD</p>
+
+<p>當初其實想要加上一些參數, 跟寫一些說明的, 可是發現實在是有點麻煩, 也沒有太多時間就沒做了, 這幾天看到 easyargs 便覺得, 啊, 早一點有這個就好了, 簡化太多了, 太方便了啊!</p>
+  <span class="item__footer"><a href="https://github.com/stedmeister/easyargs">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="k87K1e0"></a>
+  
+  <h3 class="item__title"><a href="http://engineering.postmates.com/Estimating-Delivery-Times/">Estimating Delivery Times: A Case Study In Practical Machine Learning - Postmates 使用機器學習估算運送時間案例分享</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p><a href="https://postmates.com/">Postmates</a> 是一個媒合快遞運送服務的平台，本篇文章分享了 Postmates 如何運用機器學習相關的技術來預估運送時間。其實他們使用的方法超簡單，就只是很單純地使用了 Regression，沒有什麼高深的 Deep Learning 之類的。有看過我之前分享的機器學習基礎課程的話，一定都會這個方法。</p>
+
+<p>文章最值得一提的地方就是他遵守了「Simple is first」這個原則，用最簡單的 Regression 及僅僅用了運送地點距離這一個 Feature 就跳下去做了，先看看結果，然後慢慢加入合理的 Feature 增加準確度，看了這篇文章就覺得機器學習真的不難嘛！</p>
+  <span class="item__footer"><a href="http://engineering.postmates.com/Estimating-Delivery-Times/">postmates.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="97pUmEK"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-5-jiang-xue-xi-bi-ji/">林軒田教授機器學習技法 Machine Learning Techniques 第 5 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>前四講的課程中 SVM 所有的概念大致上已經介紹完畢，而我們也知道 SVM 就是一個用來訓練機器分類的演算法，那如果想用 SVM 來做 Regression 或是 Logistic Regression 是可行的嗎？這一講將介紹如何將 SVM 算法中用到的 Kernel 概念轉換應用到 Logistic Regression。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-5-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vI1H2Tq"></a>
+  
+  <h3 class="item__title"><a href="http://cs231n.github.io/"> CS231n: Convolutional Neural Networks for Visual Recognition</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>大家現在都知道 Deep Learning 很紅，尤其是用在視覺的應用上簡直就是兇殘（太多顯而易見的應用，令人印象深刻），因此大家都想學 Deep Learning。我個人目前只從林軒田教授的<a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2IQOYPmqjqWsNUFl2kpk1U2">機器學習技法課程</a>知道一些很粗淺的知識（爆雷一下，機器學習技法介紹 Deep Learning 的課程只有一講，真的很粗淺啊），如果要再深入了解 Deep Learning 的話，我推薦這個課程，雖然我也都還沒看，不過就一起來學習吧！光是看課程中分享的範例程式碼就覺得會有很多收穫啊！</p>
+  <span class="item__footer"><a href="http://cs231n.github.io/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oAHFO75"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/rinvex/country">Useful PHP Library rinvex/country - 好用的萬國套件</a></h3>
+    <p>PHP：初級</p>
+
+<p>介紹一個好用的萬國套件，舉凡國家的地理位置、使用幣別、網域等等資訊應有盡有，目前使用是覺得少了 ip 區段的資訊，不過大家可以去幫忙貢獻一下喔！</p>
+  <span class="item__footer"><a href="https://github.com/rinvex/country">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NQbYdt6"></a>
+  
+  <h3 class="item__title"><a href="https://www.sitepoint.com/quick-intro-phpcompatibility-standard-for-phpcs-are-you-php7-ready/">PhpCompatibility for PHPCS – Are You PHP7 Ready? - 準備好升級 PHP 7 了嗎？</a></h3>
+    <p>PHP：中級</p>
+
+<p>PHP 7 發布一陣子了，根據調查許多開發者都傾向在新的 Project 使用 PHP 7 而不會將舊的 Project 升級，原因當然是 PHP 7 與 PHP 5 的差異有點大。但如果真的想把舊的 Project 升級到 PHP 7 要怎麼做呢？PhpCompatibility 這個工具或許可以帶來一些幫助！</p>
+  <span class="item__footer"><a href="https://www.sitepoint.com/quick-intro-phpcompatibility-standard-for-phpcs-are-you-php7-ready/">sitepoint.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="SamqKMx"></a>
+  
+  <h3 class="item__title"><a href="http://holko.pl/2016/10/18/dsym-debug/">Speeding up Development Build Times With Conditional dSYM Generation</a></h3>
+    <p>一個加快 Xcode 編譯速度的小技巧，簡單又有效。</p>
+  <span class="item__footer"><a href="http://holko.pl/2016/10/18/dsym-debug/">holko.pl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="S6roGr7"></a>
+  
+  <h3 class="item__title"><a href="https://pdfviewer.io/">PDF Viewer for iOS &amp; Android - Reading, Reviewing, Annotating - Made Easy.</a></h3>
+    <p>你有聽過 <a href="https://pspdfkit.com/">PSPDFKit</a> 嘛？它應該算是 iOS 跟 Android 開發圈中最有名的 PDF framework 了，有超多知名 app 跟公司都使用這套 framework。就在前不久，它們釋出了自己的 PDF Viewer，閱讀、註記、編輯的功能通通都有，而且完全免費沒有內購。</p>
+
+<p>根據他們官方說法，免費的原因是為了要讓所有人都能擁有最頂級的 PDF 體驗，然後使用者就會發現某些 app 內建的 PDF 功能太弱了，進而要求開發商也要提供出色的體驗，然後開發商發現這真是太困難了，就只好去購買他們的 PSPDFKit，這樣他們就能因為免費而賺錢了。</p>
+  <span class="item__footer"><a href="https://pdfviewer.io/">pdfviewer.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UgZVsM4"></a>
+  
+  <h3 class="item__title"><a href="http://nelson.logdown.com/posts/2016/10/06/xcode-8-supports-plugins-again">讓 Xcode 8 再度支援 plugins</a></h3>
+    <p>你是否為了 Plugins 的支援而遲遲不肯升級到 Xcode 8 呢？其實現在已經有不少 <a href="https://theswiftdev.com/2016/08/17/xcode-8-extensions/">Xcode extension</a> 了，不過因為蘋果目前開放的 Source Editor Extension 能力實在少得可憐，所以相對的也沒有什麼戲法可變 :-(</p>
+
+<p>還好透過 unsign Xcode.app 的方式，就可以解開 Xcode 的封印，讓原有的 plugins 再度生效。但也由於 unsign 的原因，所以你的 Xcode 會變得比較不安全（其實就是安全性退回跟以前一樣），所以「解鎖一定有風險，使用前請詳閱公開說明書」！</p>
+  <span class="item__footer"><a href="http://nelson.logdown.com/posts/2016/10/06/xcode-8-supports-plugins-again">logdown.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1gCX8Kn"></a>
+  
+  <h3 class="item__title"><a href="http://savvyapps.com/blog/mobile-app-analytics">28 Metrics That Matter for Your App</a></h3>
+    <p>早期開發 app 的時候，統計資料分析還是一個很陌生的名詞，現在已經變成開發時的標準配備了，畢竟有了資料才知道使用者是怎麼使用你的 app，以及要從何處改善 app。這篇文章列出了 28 個重要的統計指標，每個指標都有淺顯易懂的說明。你不一定要全部都用上，但至少你應該知道它們是什麼意思。</p>
+
+<p>另外 Ray Wenderlich 還有一篇<a href="https://www.raywenderlich.com/138939/getting-started-mobile-analytics">入門教學</a>教你如何收集這些數據，可以搭配一起閱讀。</p>
+  <span class="item__footer"><a href="http://savvyapps.com/blog/mobile-app-analytics">savvyapps.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zAAmc4y"></a>
+  
+  <h3 class="item__title"><a href="https://developer.apple.com/macos/touch-bar/">Touch Bar on the new MacBook Pro</a></h3>
+    <p>Mac 的新品發表會結束了，你還滿意嗎？不出所料的，新版的 Macbook Pro 果然有個酷炫的 Touch Bar，同時相關的開發資源也都已經準備好了，包括 <a href="https://developer.apple.com/download/">Xcode 8.1</a>、<a href="https://support.apple.com/kb/dl1897">macOS 10.12.1</a>、<a href="https://developer.apple.com/library/content/documentation/UserExperience/Conceptual/OSXHIGuidelines/AbouttheTouchBar.html">HIG</a>、以及 <a href="https://developer.apple.com/reference/appkit/nstouchbar">NSTouchBar Class Reference</a>，想嚐鮮的人可以開始研究囉！</p>
+  <span class="item__footer"><a href="https://developer.apple.com/macos/touch-bar/">apple.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3cVmga"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer (後端) at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#x61;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#116;&#122;&#x61;&#110;&#x67;&#x6d;&#x73;&#x40;&#115;&#116;&#114;&#101;&#101;&#x74;&#118;&#x6f;&#105;&#99;&#101;&#x2e;&#99;&#111;&#x6d;">&#116;&#x7a;&#97;&#x6e;&#x67;&#109;&#115;&#64;&#115;&#x74;&#x72;&#x65;&#101;&#116;&#118;&#x6f;&#105;&#99;&#101;&#46;&#99;&#x6f;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/65/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-10-24'>October 24th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>66 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/67/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-11-07'>November 7th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

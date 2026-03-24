@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 128 聽說桐島 rm -rf /* 了</title>
+<meta name="description" content="本期內容涵蓋 React.js, JavaScript, Blockchain, Ethereum, CSS, Git, GraphQL, gRPC, Swift, TensorFlow">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 React.js, JavaScript, Blockchain, Ethereum, CSS, Git, GraphQL, gRPC, Swift, TensorFlow'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/128/index.html#start">
+        Issue 128 聽說桐島 rm -rf /* 了 &nbsp;<i><time class='published' datetime='2018-05-21'>May 21st 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-385593"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在玩<a href="https://www.douban.com/people/vinta/">命運石之門 0</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 》〉》<a href="https://www.yourator.co/companies/escapex/jobs/3116">我們要找 iOS 工程師</a>《〈《</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 今年 PyCon Taiwan <a href="https://tw.pycon.org/2018/zh-hant/events/tutorials/">在台北和高雄都有開 tutorial</a> 喔。Shadowverse: <code>uranusjr</code></li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="kPy0Beu"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56">React Binding Patterns: 5 Approaches for Handling `this`</a></h3>
+    <p>寫 React 的人，除非你還在用 React.createClass，否則你必須自己把你的 function bind 到 this。或用 ES6 改寫 arrow function，不外乎本文中這 5 種寫法。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="u9qb2wZ"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/read-write-participate/putting-eu-citizens-in-control-of-their-data-4696c7e88ae5">Putting EU Citizens in Control of Their Data</a></h3>
+    <p>再過幾天 May 25, 2018，歐盟在 2016 年底公吿的 GDPR (General Data Protection Regulation) 即將生效。即使你的網站沒有涉及到歐洲用戶，如何正確收集或處理網路上個資，是每ㄧ位開發者都應該正視的問題。</p>
+
+<p><a href="https://twitter.com/r3bl_">Aleksandar Todorović</a> 指出，GDPR 施行目的是要 “focuses on ensuring that users know, understand, and consent to the data collected about them,” 讓使用者更清楚了解與同意被網站或手機軟體所收集的資料。表面上是對公司的規定，實質上是要喚醒每個人要回掌控自己資料的權益。也藉此讓公司重新思考，以最少資料為原則來收集客戶資料。想要了解更多 GDPR 相關資訊，可以參考 <a href="https://eureka.eu.com/gdpr/">https://eureka.eu.com/gdpr/</a>。</p>
+  <span class="item__footer"><a href="https://medium.com/read-write-participate/putting-eu-citizens-in-control-of-their-data-4696c7e88ae5">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QakGuiB"></a>
+  
+  <h3 class="item__title"><a href="http://uk.businessinsider.com/bitcoin-pizza-10000-100-million-2017-11">Someone in 2010 bought 2 pizzas with 10,000 bitcoins — which today would be worth $100 million</a></h3>
+    <p>"Bitcoin Pizza Day" 快到了!!! (May 22)</p>
+
+<p>對了，COSCUP 2018，Blockchain track，也正在 call for papers，5/25 截止喔。歡迎投稿，請註明「投給 "Taipei Ethereum Meetup" session」。</p>
+  <span class="item__footer"><a href="http://uk.businessinsider.com/bitcoin-pizza-10000-100-million-2017-11">businessinsider.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-386854"></a>
+  
+  <h3 class="item__title">&quot;Ethereum interests me because it can do things and because it&#39;s a platform.&quot;</h3>
+    <p>Apple 的共同創辦人 <a href="https://en.wikipedia.org/wiki/Steve_Wozniak">Steve Wozniak</a> 前幾天在維也納舉辦的 <a href="https://www.wearedevelopers.com/">WeAreDevelopers</a> 大會中，面對 5000 多名開發者，把 Ethereum 比喻成跟 Apple 一樣，它是一個 "平台"，造就未來網路上互信的平台。大家因此可以在上面寫程式，直接做交易。有興趣看原文者，可以在此 <a href="https://www.youtube.com/watch?v=KxwSEipest4&amp;t=2s">YouTube 連結</a>，從約 7:30 分處開始看起。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="mkd6Dpo"></a>
+  
+  <h3 class="item__title"><a href="https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/">A Guide To The State Of Print Stylesheets In 2018</a></h3>
+    <p>很實用的一篇文章，作者是 Rachel Andrew，各位都知道 CSS Grid 的話，應該有看過她的 <a href="https://www.youtube.com/watch?v=N5Lt1SLqBmQ">Talk</a>。</p>
+
+<p>前半段再讓你思考，為何你的頁面要加上適用列印的 style，後面則是一步一步提點會需要用到那些 CSS 屬性。</p>
+
+<p>對於需要用網頁呈現發票樣式的您，可以好好閱讀這篇，相信會收穫滿滿。</p>
+  <span class="item__footer"><a href="https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/">smashingmagazine.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9LDGUfJ"></a>
+  
+  <h3 class="item__title"><a href="http://www.data-forge-js.com/">Data-Forge</a></h3>
+    <p>一套受到 Panda 跟 LINQ 啟發處理資料的 JS 套件，API 看起都蠻好懂的，也有 DataFrame。</p>
+
+<p>有興趣的可以看一下 <a href="https://github.com/data-forge/data-forge-ts/blob/master/docs/guide.md">Guide</a> 跟 <a href="https://github.com/data-forge/data-forge-ts/blob/master/docs/concepts.md">Key concepts</a>。</p>
+  <span class="item__footer"><a href="http://www.data-forge-js.com/">data-forge-js.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JEPqDCJ"></a>
+  
+  <h3 class="item__title"><a href="https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a">Moving Fast and Securing Things</a></h3>
+    <p>介紹 Slack 怎麼做安全開發生命週期，並且開源了他們的工具 <a href="https://github.com/slackhq/goSDL">goSDL</a>。</p>
+
+<p>一個 PHP 的網頁應用，需要回答一些問題，之後就幫你自動開好追蹤的票，不過只支援 JIRA 跟 Trello。</p>
+
+<p>有用這兩套和 Slack 的朋友們，可以玩玩看這個開發工具。</p>
+  <span class="item__footer"><a href="https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a">slack.engineering</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rSa3TW4"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@sharifsbeat/reasonable-form-handling-d117d52ebc8a">Reasonable Form Handling</a></h3>
+    <p>用 ReasonML 為例子，講解 Form Component 中會需要做得事情，像是 Validation 跟 Form data management。</p>
+
+<p>一步一步教你做出 Form Validation，還有 Form component。</p>
+
+<p>當然其實已經有些 ReasonML 的套件你可以參考，<a href="https://github.com/Astrocoders/reform">ReForm</a> 和 <a href="https://github.com/alexfedoseev/re-formality">Formality</a>.</p>
+  <span class="item__footer"><a href="https://medium.com/@sharifsbeat/reasonable-form-handling-d117d52ebc8a">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6HA3Ccz"></a>
+  
+  <h3 class="item__title"><a href="https://iheanyi.com/journal/2018/05/12/the-g-unit-stack-go-graphql-and-grpc/">The G-Unit Stack: Go, GraphQL, and gRPC</a></h3>
+    <p>用 GraphQL 作為 API Gateway 透過 gRPC 跟後面的其他服務溝通。</p>
+
+<p>直接看 <a href="https://github.com/iheanyi/go-grpc-graphql-simple-example">code</a>。</p>
+  <span class="item__footer"><a href="https://iheanyi.com/journal/2018/05/12/the-g-unit-stack-go-graphql-and-grpc/">iheanyi.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3xzxcDa"></a>
+  
+  <h3 class="item__title"><a href="https://git-scm.com/book/zh-tw/v1/Git-%E5%85%A7%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%A4%E5%91%BD%E4%BB%A4-Plumbing-%E5%92%8C%E9%AB%98%E5%B1%A4%E5%91%BD%E4%BB%A4-Porcelain">Git 底層指令</a></h3>
+    <p>大家常常用的 Git 命令有哪些呢？add, commit, log, (blame? XD) 這些我們常用的命令其實都是所謂的高階 (Porcelain) 命令，專門給人類使用的。有另外一組專門給 script 用的低階 (Plumbing) 命令，這組命令和 Git 的的運作原理息息相關。對 Git 原理有興趣的人可以看看。</p>
+  <span class="item__footer"><a href="https://git-scm.com/book/zh-tw/v1/Git-%E5%85%A7%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%A4%E5%91%BD%E4%BB%A4-Plumbing-%E5%92%8C%E9%AB%98%E5%B1%A4%E5%91%BD%E4%BB%A4-Porcelain">git-scm.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lGtdIix"></a>
+  
+  <h3 class="item__title"><a href="https://opensource.googleblog.com/2018/05/introducing-git-protocol-version-2.html">Git Protocol v2</a></h3>
+    <p>現在 Git 的資料傳輸協定 (pull, fetch, clone 時候用的）有一些效能上的問題。當 fetch 的時候，server 會回應所有的 ref 資料，當 branch/tag 多的時候就會很慢 (Chromium 有 50 萬個)。新版的 v2 協定只會回應 fetch 相關的 ref 資料，讓速度變快了不少。</p>
+
+<p>不過實作上遇到一個問題，當初沒想過會有一個不相容的新版，所以沒有辦法讓舊 server 相容新 protocol。
+後來使用了一個 <a href="https://public-inbox.org/git/20090605171627.d92f6060.vsu@altlinux.ru/">bug</a> 來繞過這個問題。</p>
+
+<p>這個故事值得讓所有寫公開 API 的人引以為鑑，多加一個無用的版本 prefix/field 可以讓未來的你感謝自己。</p>
+  <span class="item__footer"><a href="https://opensource.googleblog.com/2018/05/introducing-git-protocol-version-2.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Vj9dD9g"></a>
+  
+  <h3 class="item__title"><a href="https://www.tensorflow.org/community/swift">Swift for TensorFlow</a></h3>
+    <p>Swift 的發明人Chris Lattner 到 Google Brain 工作會發生什麼呢？</p>
+
+<p>當然就是用 Swift 來寫 AI !</p>
+
+<p>Google 開源了一版修改過的 Swift ，內建 TensorFlow。可以自動把 Eager Execution 的 code 變成 TF Graph 來加快運算速度。內建 <a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E5%8B%95%E5%BE%AE%E5%88%86">Automatic differentiation</a>。可以直接 import Python 的 Pandas 等函式庫直接使用。而且有一個 Sound 的 type system，再也沒有打錯字重 train 這回事。簡直就是超棒。</p>
+
+<p>最終目標是  merge 回 upstream，讓普通的 Swift 也可以有這些功能。不過現在還沒有 stable，歡迎大家一起來踩雷。</p>
+  <span class="item__footer"><a href="https://www.tensorflow.org/community/swift">tensorflow.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-sponsor">
+        <div class="i" id="sponsor">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工商服務</span></h2>
+            <div class="item item--issue item--link">
+  <a name="mPm2zzs"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="http://blog.coscup.org/2018/04/coscup-2018-cfp-is-open.html">Finally, the CfP of COSCUP 2018 is here!</a></h3>
+    <p>今年 COSCUP 我們很榮幸再度與 GNOME.Asia Summit 合作舉辦聯合研討會，除此之外加上 16 個由社群發起的議程軌及 COSCUP 籌辦的特別軌，讓今年的 COSCUP 平行議程軌數一舉達到 15 個之多，大家選行程又要大傷腦筋！感謝許許多多的社群夥伴協力促使這樣規模的 COSCUP 誕生。</p>
+
+<p>一如往常，COSCUP 徵求各式各樣與自由 / 開源軟體相關的演講，歡迎各方俠女豪傑於 5 月 25 日前透過表單投稿，在經過社群審稿後我們預定於七月初公布完整的議程表。</p>
+
+<p><a rel="nofollow" href="https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform">現在就投稿吧！</a></p>
+  <span class="item__footer"><a rel="nofollow" href="http://blog.coscup.org/2018/04/coscup-2018-cfp-is-open.html">coscup.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="sDsAn8u"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">Senior Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 萬元以上。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python</li>
+<li>Experience with Python web frameworks, ie. Flask, Django, or Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">104.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/127/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-05-14'>May 14th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>128 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/129/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-05-28'>May 28th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

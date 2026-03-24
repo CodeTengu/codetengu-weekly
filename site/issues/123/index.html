@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 123 簡單、粗暴、做得到</title>
+<meta name="description" content="本期內容涵蓋 Languages, F2E, Golang, DevOps, Data Cleaning, Kaggle">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Languages, F2E, Golang, DevOps, Data Cleaning, Kaggle'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/123/index.html#start">
+        Issue 123 簡單、粗暴、做得到 &nbsp;<i><time class='published' datetime='2018-04-16'>April 16th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-376132"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.yourator.co/companies/escapex/jobs/3116">我們又要找 iOS 工程師啦！</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - <a href="https://tw.pycon.org/2018/registration/ticket-info/">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="hjoDz0v"></a>
+  
+  <h3 class="item__title"><a href="https://tw.pycon.org/2018/registration/ticket-info/">PyCon Taiwan 2018 開始售票辣！</a></h3>
+    <p>今年 PyCon Taiwan 會在 6/1–2 在老地方中研院舉辦，要來的記得買票。今年早鳥維持 2,500 <del>減量不減價</del> 先搶先贏，太晚的就只能買貴票了喔喔喔。我們今年同樣有<a href="https://tw.pycon.org/2018/registration/financial-aid/">財務補助活動</a>，可以憑搭乘證明申請交通補助，外地參加者請多多利用，我們很期待看到更多台北以外的會眾 >&lt;</p>
+
+<p>另外今年同樣會有 tutorial，兩場在高雄兩場在台北，敬請關注相關情報。</p>
+  <span class="item__footer"><a href="https://tw.pycon.org/2018/registration/ticket-info/">pycon.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zOuTeqC"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@caspervonb/a-brief-totally-accurate-history-of-programming-languages-cd93ec806124">A Brief Totally Accurate History Of Programming Languages</a></h3>
+    <p>簡單（但是保證準確）的程式語言史。可以看看你最喜歡的語言是什麼時候出現在這個世上的。說不定有些部份還會讓你很驚訝呢。你知道 Java 比 JavaScript、Python、甚至 Ruby 都還年輕嗎？ 你知道為什麼 Lua 的 index 是 1-based 嗎（大誤）</p>
+  <span class="item__footer"><a href="https://medium.com/@caspervonb/a-brief-totally-accurate-history-of-programming-languages-cd93ec806124">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vaYv87S"></a>
+  
+  <h3 class="item__title"><a href="https://webaim.org/blog/user-agent-string-history/">History of the browser user-agent string</a></h3>
+    <p>繼續歷史相關的主題，這篇文章帶你走過瀏覽器 user-agent 的歷史，試圖理解為什麼現在每家瀏覽器的 user-agent 完全莫名其妙，幾乎毫無用途，而且大家都假裝自己是別人。</p>
+
+<p>專業秘訣：不要忘想用 user-agent 判斷使用者究竟是用什麼瀏覽器。如果你真的要根據瀏覽器支援的功能進行邏輯判斷，請使用 <a href="https://zh.wikipedia.org/wiki/%E7%89%B9%E5%BE%81%E6%A3%80%E6%B5%8B">feature detection</a> 判斷客戶端的特性，而不是瀏覽器種類本身。</p>
+  <span class="item__footer"><a href="https://webaim.org/blog/user-agent-string-history/">webaim.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CLpuLgh"></a>
+      <a href="https://usefulcharts.com/blogs/charts/evolution-of-the-english-alphabet"><img src="original_ratio_extra_large_c15b5ea2-e19b-49f9-bbd9-53e21a562532.png" title=" Evolution of the English Alphabet" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://usefulcharts.com/blogs/charts/evolution-of-the-english-alphabet"> Evolution of the English Alphabet</a></h3>
+    <p>說到歷史就想到最近看到這個列出英文字母起源的表格。好像還是第一次有人這樣全部做出來，好想買一張回家掛！如果你有興趣知道「為什麼」會這樣演變，或者想多看一下古英語（Old English）使用，但是現在已被廢除的字母，也可以看看作者做的 <a href="https://www.youtube.com/watch?v=4VNVCxi9TL8">YouTube 影片</a>，實在是很不錯。</p>
+
+<p>喔順帶一提，如果你對人類語言，或者英語的歷史有興趣，我最近又重新熟悉了一次<a href="https://en.wikipedia.org/wiki/Great_Vowel_Shift">大元音轉移</a>（Greate Vowel Shift）。看完之後你就知道為什麼英語發音那麼沒道理了。然後可能也會對這個沒道理背後的道理有點概念。可能吧，畢竟真的沒道理。</p>
+
+<p>我有提過我很愛研究語言嗎？有興趣的歡迎一起來討論啊​ ╭( ･ㅂ･)و</p>
+  <span class="item__footer"><a href="https://usefulcharts.com/blogs/charts/evolution-of-the-english-alphabet">usefulcharts.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="huVi7OJ"></a>
+  
+  <h3 class="item__title"><a href="https://yusugomori.com/projects/css-sans/">CSS Sans</a></h3>
+    <p>純 CSS 實作的字型。啥？</p>
+
+<p>不過這可以用來觀察各 CSS 版本（其實是瀏覽器版本）對現代 CSS 功能的支援演變。十分有趣。</p>
+  <span class="item__footer"><a href="https://yusugomori.com/projects/css-sans/">yusugomori.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="rSoZzbI"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/teh-cmc/go-internals">teh-cmc/go-internals: A book about the internals of the Go programming language.</a></h3>
+    <p>關於 Golang 內部實現的電子書，目前進度到第二章．裡面談到使用 interface 與內部如何實現．
+並且可以深入了解使用 interface 可能帶來效能上的犧牲以及內部實作的細節．
+相當硬派的書啊....</p>
+  <span class="item__footer"><a href="https://github.com/teh-cmc/go-internals">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="w4BexDy"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88">Line of sight in code – Mat Ryer – Medium</a></h3>
+    <p>一篇很好的建議，可以讓你的 go code 變得更漂亮，更容易閱讀。
+裡面講解到很細，舉凡:</p>
+
+<ul>
+<li>error 處理方式如何變得更漂亮</li>
+<li>要讓你的 if 判斷句能夠精簡</li>
+<li>讓 switch/select 直接變成 function</li>
+</ul>
+
+
+<p>這些方式可以讓你的 code 變得更美，以後回來通靈 (?) 也會比較順暢..</p>
+  <span class="item__footer"><a href="https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sLso8yR"></a>
+  
+  <h3 class="item__title"><a href="http://www.tonytruong.net/running-a-keras-tensorflow-model-in-golang/">Running a Keras / TensorFlow Model in Golang - Tony Truong</a></h3>
+    <p>在 Deep Learning 上面，透過 Python 跟 Keras 與 Tensorflow 來進行．
+這篇文章相當有趣，我們可以透過 Golang 來跑 model inference ．
+有興趣想要透過 Golang 來進行 Deep Learning 的人可以看看</p>
+  <span class="item__footer"><a href="http://www.tonytruong.net/running-a-keras-tensorflow-model-in-golang/">tonytruong.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8kKPP2w"></a>
+  
+  <h3 class="item__title"><a href="https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html">Go on very small hardware (Part 1) | Michał Derkacz</a></h3>
+    <p>在非常小的裝置上面使用 Golang ?
+透過 transpile C 的方式來將你原先 Go 的開發部署到相當小的裝置上</p>
+  <span class="item__footer"><a href="https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="68XNksm"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/til-consistent-hashing-algorithm-tradeoffs/">[Slides] Consistent Hashing: Algorithmic Tradoffs</a></h3>
+    <p>這一篇投影片的整理是根據 Damian Gryski 在他 <a href="https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8">Medium 裡面文章</a> 的整理．</p>
+
+<p>裡面主要是透過整理來談 Consistent Hashing 主要要解決的問題，與先天設計上可能有的一些問題．之後 Google 發表了 Jump Hashing 來解決相關的限制．</p>
+
+<p>並且還有在他們的 Load balance 有使用到的 Maglev Hashing ，這一篇投影片會講解原理跟優缺點比較．</p>
+
+<p>有興趣相關演算法的人可以來看看....</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/til-consistent-hashing-algorithm-tradeoffs/">evanlin.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-drumrick">
+        <div class="i" id="drumrick">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/90dce7fc-2341-4deb-9abd-fec433bdeb4e.jpeg" alt="@drumrick" width="80" /><span class="category__title__text">@drumrick</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2Qv4hC"></a>
+  
+  <h3 class="item__title"><a href="https://www.kaggle.com/rtatman/data-cleaning-challenge-handling-missing-values">Kaggle 5-Day Challenge: Data Cleaning</a></h3>
+    <p>根據 Google 搜尋結果顯示，Kaggle 從去年十月開始了這種 5-Day Challenge 系列教學，內容基礎而精簡，主題則相當多樣化，有講解公式的、有講解演算法的、有視覺化的，還有這次的 Data Cleaning。教學的形式其實就是以 Kaggle Kernel 的方式呈現，讓有心學習的人能一邊學習一邊操作，這次的教學可以從上面的連結開始，如果有興趣參考過去的 5-Day Challenge，可以在 <a href="https://www.kaggle.com/rtatman/kernels">Rachael 的 Kernel</a> 中搜尋 "Challenge" 就可以找到。</p>
+
+<p>不知道是不是教學迴響很好，或是 Data Cleaning 一直都是大家心中的痛，在上週，Rachael 還在 <a href="https://twitter.com/rctatman/status/981580342707421184">twitter</a> 上跟大家募集『很髒』的資料集，搞不好這個 Challenge 還會有續集？</p>
+  <span class="item__footer"><a href="https://www.kaggle.com/rtatman/data-cleaning-challenge-handling-missing-values">kaggle.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LWVZON8"></a>
+  
+  <h3 class="item__title"><a href="http://blog.kaggle.com/2018/04/03/q1-2018-product-update/">Kaggle Q1 產品更新說明</a></h3>
+    <p>Kaggle 2018 年動作頻繁，發佈了好幾個實用的功能，例如：</p>
+
+<ul>
+<li>可以建立 private dataset</li>
+<li>Kernel 更新</li>
+<li>運算資源提高到 6 小時，而且可以 pip install 了</li>
+<li>協作分享</li>
+</ul>
+
+
+<p>主要就是把一般的工作流程整起來，方便<del>引誘</del>你使用 Kaggle 的平台。</p>
+
+<p>在其他更新中有兩點：</p>
+
+<ul>
+<li>正式發布了在 <a href="https://weekly.codetengu.com/issues/114">#114</a> 提到的 <a href="https://www.kaggle.com/learn/overview">Kaggle Learn</a>，比起一月底多了 Pandas 和 SQL 這兩個主題。關於 Kaggle Learn 這邊有兩邊心得文可以看看：<a href="https://yq.aliyun.com/articles/399913">簡中</a> / <a href="https://medium.com/yiyi-network/https-medium-com-yiyi-network-kaggle-learn-8e585feaf241">繁中</a></li>
+<li>目前有 14 個公開的資料集整合 BigQuery，在 Kaggle 中的實際用法可以參考 Kaggle Learn 的 SQL 課程。</li>
+</ul>
+  <span class="item__footer"><a href="http://blog.kaggle.com/2018/04/03/q1-2018-product-update/">kaggle.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oBlOXg"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/p/f3ec0655c5be">了解一下 Google Art &amp; Culture 在幹嘛</a></h3>
+    <p>一時興起了解一下 Google Art &amp; Culture 都在幹嘛，文中會提及幾個 Google Art &amp; Culture 最近的專案，都是將影像相關的機器學習技術與藝術作品結合的應用，未來有機會的話會持續關注這個領域。</p>
+  <span class="item__footer"><a href="https://medium.com/p/f3ec0655c5be">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/122/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-04-09'>April 9th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>123 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/124/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-04-23'>April 23rd 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

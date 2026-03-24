@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 6 要殺一個程式設計師不需要刀，改三次規格就好</title>
+<meta name="description" content="本期內容涵蓋 Android, Code Review, Django, iOS, (Monty) Python, PostgreSQL, SQL, Swift">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Android, Code Review, Django, iOS, (Monty) Python, PostgreSQL, SQL, Swift'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/6/index.html#start">
+        Issue 6 要殺一個程式設計師不需要刀，改三次規格就好 &nbsp;<i><time class='published' datetime='2015-09-07'>September 7th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-64506"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>本期 curators：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="http://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - <strong>我愛金貞敏</strong></li>
+</ul>
+
+
+<p>歡迎關注 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，保證每天更新</p>
+  <span class="item__footer">有任何建議或疑問的話，可以到 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 留個話，亂入無妨</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="VX6EPK7"></a>
+  
+  <h3 class="item__title"><a href="http://schinckel.net/2014/08/26/avoiding-sql-antipatterns-using-django-(and-postgres)/">Avoiding SQL Antipatterns using Django (and Postgres)</a></h3>
+    <p>如何在 Django 裡避免 <a href="https://pragprog.com/book/bksqla/sql-antipatterns">SQL Antipatterns</a> 這本書裡提到的那些常見錯誤。這本書不厚，如果你便秘的話，蹲個三次馬桶就可以讀完了。</p>
+  <span class="item__footer"><a href="http://schinckel.net/2014/08/26/avoiding-sql-antipatterns-using-django-(and-postgres)/">schinckel.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dZHY1Bu"></a>
+  
+  <h3 class="item__title"><a href="https://www.caktusgroup.com/blog/2015/08/15/making-clean-code-part-your-build-process/">Making Clean Python Code a Part of Your Build Process (And More!)</a></h3>
+    <p>雖然 Python 這一類的動態語言沒辦法像 Java 那樣在編譯的時候就檢查出一些低級的錯誤，但是我們也不要自暴自棄，我們還有 <a href="https://flake8.readthedocs.org/en/latest/">flake8</a> 和 <a href="http://www.pylint.org/">pylint</a>，這些工具除了可以作為 Continuous Integration 的一個環節之外，也可以和我們常用的編輯器整合，直接在介面上用鮮明的顏色標示出錯誤或不符合規範的寫法。</p>
+
+<p>用 SublimeText 的人可以試試 <a href="https://packagecontrol.io/packages/SublimeLinter-flake8">Sublime​Linter-flake​8</a>。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://engineering.quora.com/Moving-Fast-With-High-Code-Quality">Moving Fast With High Code Quality</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.caktusgroup.com/blog/2015/08/15/making-clean-code-part-your-build-process/">caktusgroup.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NxbcXSP"></a>
+  
+  <h3 class="item__title"><a href="http://kevinlondon.com/2015/05/05/code-review-best-practices.html">Code Review Best Practices</a></h3>
+    <p>這篇文章說的是你在做 code review 的時候到底應該 review 些什麼，可以從架構、設計、程式碼風格、測試等角度來看 committer 的程式碼。</p>
+
+<p>至於要如何處理 code review 裡的「人」的部分，你可以看一下延伸閱讀的那篇短文，主要在說 code review 的雙方在討論問題時應該用什麼樣的態度或語句比較好，我覺得最重要的一點其實就是：多使用問句，而不是命令句。例如你其實不應該說「不要使用全域變數！你這個智障！」而是應該採用一種比較委婉的語氣：「你確定要在這裡使用全域變數？你是智障嗎？」。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://github.com/thoughtbot/guides/tree/master/code-review">A guide for reviewing code and having your code reviewed</a></li>
+</ul>
+  <span class="item__footer"><a href="http://kevinlondon.com/2015/05/05/code-review-best-practices.html">kevinlondon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BXtf4Fr"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/where-to-find-great-content-to-read.html">你都去哪裡看技術文章？</a></h3>
+    <p>收錄了一些我覺得不錯的技術週報、網站和值得關注的開發者的 Twitter 帳號。在發佈之後又追加了一些內容，看過的朋友也是可以再點進去看看。</p>
+  <span class="item__footer"><a href="https://vinta.ws/code/where-to-find-great-content-to-read.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zbbDwbF"></a>
+      <a href="http://zh.lucida.me/blog/lean-technical-resume/"><img src="original_ratio_extra_large_9fefb58e-41dc-4099-918d-53a283f44c53.png" title="精益技术简历之道 —— 改善技术简历的 47 条原则" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://zh.lucida.me/blog/lean-technical-resume/">精益技术简历之道 —— 改善技术简历的 47 条原则</a></h3>
+    <p>不管你現在有沒有在找工作，其實都應該每隔一段時間（例如半年）就更新一下你的履歷，回顧並總結這段時間裡工作上值得一提的事情。這篇文章就是在講身為一個 developer 應該怎麼寫一份能夠被其他 developer 認同的履歷，所以不要再用那些傳統的求職網站教你的爛方法寫履歷啦。</p>
+
+<p>第一步就是不要用 <code>.doc</code>。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://stevehanov.ca/blog/index.php?id=56">How a programmer reads your resume (comic)</a></li>
+<li><a href="http://get.jobdeer.com/744.get">如何写好技术简历</a></li>
+<li><a href="http://www.thenewslens.com/post/36376/">台灣人，你的英文履歷像垃圾？</a></li>
+</ul>
+  <span class="item__footer"><a href="http://zh.lucida.me/blog/lean-technical-resume/">lucida.me</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XAUJMcK"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/lookingstars/meituan">lookingstars/meituan</a></h3>
+    <p>一個中國的魔人 <a href="https://github.com/lookingstars">lookingstars</a> 開源的高仿美團團購 iOS app，這個 app 有大量的客製化 UI 組件、Web View，作者全都用很高的完成度複製了出來，我在截圖中還看到作者似乎連啟動頁的廣告都霸氣的複製了。</p>
+
+<p>會稱之為魔人就表示這樣的事情魔人絕對不會只幹一次，這個作者還開源了<a href="https://github.com/lookingstars/chuanke">百度傳課 iOS</a>、<a href="https://github.com/lookingstars/tudou">土豆視頻 iOS</a>、<a href="https://github.com/lookingstars/aoyouHH">遨遊哈哈 iOS</a>。</p>
+
+<p>PS. View 的部分作者都採用 code 生成，沒有 xib 及 storyboard，沒有採用 AutoLayout。</p>
+  <span class="item__footer"><a href="https://github.com/lookingstars/meituan">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="EcsJ4h5"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/mackuba/SafariAutoLoginTest">mackuba/SafariAutoLoginTest</a></h3>
+    <p><a href="https://developer.apple.com/videos/wwdc/2015/?id=504">Introduction Safari View Controller WWDC session</a></p>
+
+<p>iOS 9 新增了 Safari View Controller，可以透過它拿到 Safari cookies。這也表示如果使用者已經在 Safari 瀏覽器登入過你的服務，當使用者安裝 native app 時如果你的 Safari cookie 存有足夠的資訊你可以將使用者自動登入，這是很好的使用者體驗。</p>
+
+<p>這個 GitHub concept repo 簡單展示了使用 SafariViewController 來實現的自動登入。</p>
+
+<p>PS. 就算無法自動登入，Safari View Controller 也有機會存取 iCloud Keychain 做帳號密碼 AutoFill，也是很不錯的體驗。</p>
+  <span class="item__footer"><a href="https://github.com/mackuba/SafariAutoLoginTest">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lQDYalT"></a>
+  
+  <h3 class="item__title"><a href="http://appventure.me/2015/08/20/swift-pattern-matching-in-detail">Match Me if you can: Swift Pattern Matching in Detail</a></h3>
+    <p>Swift 強大的 Matching 機制詳細介紹，包含七個常用的 Matching Pattern (Wildcard, Identifier, Value-Binding, Tuple, Enumeration Case, Type-Casting, Expression)，如果你不想看內文，這裡有整理好的 <a href="https://gist.github.com/saiday/09c7968c6bcbcfd57bd2">pattern implementation</a>。</p>
+
+<p>後段也介紹了在 Swift 中 <code>switch</code> 進階的用法以及 <code>case</code> keyword 與其它 statement (if, for, guard) 的組合技法。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://austinzheng.com/2014/12/17/custom-pattern-matching/">Custom pattern matching in Swift</a> 也就是 <code>~=</code> 的 overloading 啦</li>
+</ul>
+  <span class="item__footer"><a href="http://appventure.me/2015/08/20/swift-pattern-matching-in-detail">appventure.me</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="azzzm9I"></a>
+  
+  <h3 class="item__title"><a href="https://launchkit.io/reviews">Review Monitor - App reviews delivered to Slack and your inbox</a></h3>
+    <p>iOS App Store review monitor，簡單的設定好之後，你的 App 收到新評論的時候可以發送內容到 Slack 或 Inbox，每則評論也會產生一個還不錯看的靜態頁面可以供宣傳使用。</p>
+
+<p>似乎過一陣子就會支援 Google Play，目前 Android 有另一個選擇 <a href="http://www.androidreviewsmanager.com/">Android Review Manager</a></p>
+  <span class="item__footer"><a href="https://launchkit.io/reviews">launchkit.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7ayXJ7T"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/udinic/speed-up-your-app-droidcon-nyc-2015">Speed up your app (Droidcon NYC 2015)</a></h3>
+    <p>這是一份介紹 Android App 效能優化的簡報，包含了內建的效能分析工具 <a href="https://developer.android.com/tools/performance/systrace/index.html">Systrace</a>, <a href="https://developer.android.com/tools/performance/traceview/index.html">TraceView</a>, <a href="https://developer.android.com/tools/performance/allocation-tracker/index.html">Allocation Tracer</a>, <a href="https://developer.android.com/tools/performance/profile-gpu-rendering/index.html">GPU rendering</a>, <a href="https://developer.android.com/tools/performance/debug-gpu-overdraw/index.html">GPU overdraw</a>, <a href="https://developer.android.com/tools/performance/hierarchy-viewer/index.html">Hierarchy View</a> 以及 square 出的 <a href="https://github.com/square/leakcanary">LeakCanary</a> Memory leaks 偵測工具。</p>
+
+<p>LeakCanary 的概念跟使用說明可以看 Square 自己寫的這篇 <a href="https://corner.squareup.com/2015/05/leak-canary.html">LeakCanary: Detect all memory leaks!</a></p>
+
+<p>PS. 這篇簡報搭配的影片還沒出來，出來的時候會分享到 CodeTengu Facebook 粉絲團跟 Twitter 帳號。</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/udinic/speed-up-your-app-droidcon-nyc-2015">speakerdeck.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="yX2XJh0"></a>
+  
+  <h3 class="item__title"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTQ5MjIyMA==&amp;mid=223938815&amp;idx=1&amp;sn=21f28860a7dfda0999b12c946d7fb102#rd">&quot;无所不能&quot; 的产品经理</a></h3>
+    <p>身邊有很多工程師們都不知道 PM 到底實際用處在哪、做些什麽事, 其實就連我也是這一陣子才比較清楚 PM 工作的整個樣貌。 加上前一陣子看了<a href="http://book.douban.com/subject/4723970/">人人都是产品经理</a>這本書, 所以覺得有興趣的人可以從這篇文章中瞭解一下 PM 的工作。</p>
+
+<p>總之呢, PM 就得是問題分析跟問題解決的專家就是了!</p>
+  <span class="item__footer"><a href="http://mp.weixin.qq.com/s?__biz=MjM5NTQ5MjIyMA==&amp;mid=223938815&amp;idx=1&amp;sn=21f28860a7dfda0999b12c946d7fb102#rd">qq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RUwyUQr"></a>
+  
+  <h3 class="item__title"><a href="https://blog.growth.supply/the-22-books-to-read-before-you-quit-your-job-bc75471ff038">The 22 books to read before you quit your job</a></h3>
+    <p>國外有許多書跟文章都在說如何開展自己想要的生活, 特別是開創自己的事業, 但是身為一個開發人員大多在提升自身的技術能力, 其實很容易缺少像是財務、經營、行銷等等技能, 所以時常會聽到很多人開公司時常敗在財務, 或是不知道怎麼做好行銷而敗下陣來。</p>
+
+<p>這篇文章裡面列了在辭職前需要讀的 22 本書, 沒想到我已經讀過了 10 本, 所以覺得跟我思路滿像的, 畢竟之前也都是在為了辭職而努力 (笑)。</p>
+
+<p>讀完 10 本書後的感想呢, 我是覺得有空可以讀一下, 多累積一下非技術的思維, 會讓思考更靈活。</p>
+  <span class="item__footer"><a href="https://blog.growth.supply/the-22-books-to-read-before-you-quit-your-job-bc75471ff038">growth.supply</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="YQaHClu"></a>
+  
+  <h3 class="item__title"><a href="http://www.fredrik-luo.com/blog/?p=235">HTTPS 是否会彻底取代 HTTP</a></h3>
+    <p>「挪威同事叹了口气 "谷歌的人尼玛都活在 5 年以后啊"。」</p>
+  <span class="item__footer"><a href="http://www.fredrik-luo.com/blog/?p=235">fredrik-luo.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZHzZq70"></a>
+  
+  <h3 class="item__title"><a href="http://tzangms.com/use-hazel-to-simplify-digital-life/">用 Hazel 來簡化數位生活</a></h3>
+    <p>我覺得用 Mac 的人真的都應該買 Hazel 這個工具的, 不管如何我還是想跟大家分享這一篇文章, 把事情自動化, 這樣才能空出更多的時間, 把時間花在重要的事情上。</p>
+  <span class="item__footer"><a href="http://tzangms.com/use-hazel-to-simplify-digital-life/">tzangms.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-68341"></a>
+      <img src="original_ratio_extra_large_9ba266cf-d364-41ac-926c-6972dc045442.jpg" title="" alt="" width="730" />
+
+    <p>Goodbye you little shit!</p>
+  <span class="item__footer"></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="wrrIInN"></a>
+  
+  <h3 class="item__title"><a href="http://movie.douban.com/subject/1294917/">Monty Python and the Holy Grail 聖杯傳奇</a></h3>
+    <p>雖然 Python 的 LOGO 是蟒蛇，但是根據作者 <a href="http://j.mp/1K0bOdz">Guido van Rossum 的說法</a>，這個名字其實是取自一個七零年代的英國喜劇團體 Monty Python（他們甚至被稱為喜劇界的 The Beatles）。知道這個典故的人不少，但是真的看過 Monty Python 的電視劇或電影的人就不多了。</p>
+
+<p>今天就來跟大家介紹一部他們最有名的電影 Monty Python and the Holy Grail。電影說的是傻乎乎的亞瑟王和他的一群低能的圓桌武士尋找聖杯的故事，但是無論是台詞、角色設定或表現手法，就算是現在來看都非常前衛，加上他們慣有的對政治和宗教的惡趣味詭辯，喜歡那種惡毒的英式笑話的人真的不應該錯過。而且今年的「<a href="http://www.kff.tw/home02.aspx?ID=$2001&amp;IDK=2&amp;EXEC=D&amp;DATA=2994&amp;AP=$2001_HISTORY-0">高雄電影節</a>」有放映這部片！</p>
+
+<p>PS. 以前跟朋友聊到為什麼會用 Python 這個語言，大家講完各自的理由之後，我才發現好像只有我是因為也很喜歡 Monty Python 所以才決定學 Python 的，不然當年讀大學的時候最熱門的程式語言其實是 Ruby，可惜現在 Ruby 已經不潮了。</p>
+
+<p>由 <a href="https://www.facebook.com/vinta.chen">@vinta</a> 分享</p>
+  <span class="item__footer"><a href="http://movie.douban.com/subject/1294917/">douban.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/5/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-08-31'>August 31st 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>6 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/7/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-09-14'>September 14th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

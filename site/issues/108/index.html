@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 108 聽說多數公司會故意招募一個能力不足的員工只是為了鼓舞大家的士氣，讓其他人在遇到瓶頸時還保有信心。真是無稽之談，我待的公司就沒看到這樣的人。</title>
+<meta name="description" content="本期內容涵蓋 JavaScript, Redux, Game, PostgreSQL, SSH Key, API Design, Career">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 JavaScript, Redux, Game, PostgreSQL, SSH Key, API Design, Career'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/108/index.html#start">
+        Issue 108 聽說多數公司會故意招募一個能力不足的員工只是為了鼓舞大家的士氣，讓其他人在遇到瓶頸時還保有信心。真是無稽之談，我待的公司就沒看到這樣的人。 &nbsp;<i><time class='published' datetime='2017-12-04'>December 4th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-342454"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Wool</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 徵 Android Developer！救我！</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 諸君，賺錢有數，性命要顧</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="qFthqx9"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace">JavaScript hacks for ES6 hipsters</a></h3>
+    <p>本篇文章透過幾個例子，利用 ES6 的 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment">Destructuring Assignment</a> 、  <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer">Shorthand Property Names</a> 以及 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator">Spread Operator</a> 來撰寫更方便的語法。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DIkqWJH"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=56zCnwj58e4">Totally Tooling Tips: Accessibility Testing</a></h3>
+    <p>這個簡短的教學透過 Chrome dev tools 的 Audit panel Accessibility 的檢查，可以分析網頁後給予簡單建議來改進網站的易用性。</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=56zCnwj58e4">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1TA55aN"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/fhinkel/new-in-vs-code-inline-change-review-d43df04ea264">New in VS Code: Inline Change Review</a></h3>
+    <p>VSCode 1.18 版加入了 Expandable Git annotations ，可以直接在編輯器上面展開 annotations 觀察和 git 上版本差異，並且可以直接對部分區塊做 stage 以及 revert 等等的操作。</p>
+  <span class="item__footer"><a href="https://medium.com/fhinkel/new-in-vs-code-inline-change-review-d43df04ea264">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Bij3KjO"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@jidefr/the-most-unknown-redux-performance-trick-986fdfe871fa">The most unknown redux performance trick</a></h3>
+    <p>如果你有使用 React/Redux 做開發，這篇文章探討 <a href="https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options">redux connect function</a> 較容易被遺漏的第三個參數內加入areStatesEqual option 的使用方式。</p>
+  <span class="item__footer"><a href="https://medium.com/@jidefr/the-most-unknown-redux-performance-trick-986fdfe871fa">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="LDxbsHc"></a>
+  
+  <h3 class="item__title"><a href="https://gamehistory.org/aladdin-source-code/">Digging for treasure in Aladdin’s source code</a></h3>
+    <p>迪士尼的阿拉丁動畫曾經改編為電子遊戲，發行在好幾個平台上，我玩過的是 PC (MS-DOS) 版，這是一款人物動作非常細膩的遊戲，至今仍舊讓我印象深刻。Video Game History Foundation 很幸運地取得了此款游戲的 Sega Genesis <em>（臺灣俗稱 "SEGA" 的那款黑色 16-bit 遊戲機）</em> 版本原始碼、素材與開發工具，結果在原始碼當中，找到了一些正式版遊戲裡沒有用上的素材。透過一些工具輔助，他們順利 build 出使用這些未登場素材的遊戲。整個「重組」過程非常有趣，與大家分享。</p>
+
+<p>後來我再翻了一下網上資料，發現維基百科上有這個 <a href="https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code">List of commercial video games with available source code</a> 條目，類似阿拉丁這樣後來有釋出原始碼的商業發行遊戲還不少，或許這些歷史遺產會有不少地方值得想要學習製作電玩的人參考。</p>
+  <span class="item__footer"><a href="https://gamehistory.org/aladdin-source-code/">gamehistory.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="onXiDPT"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/ongres/postgresql-configuration-for-humans">PostgreSQL Configuration for Humans</a></h3>
+    <p>這份投影片有很多非常實用的 PostgreSQL 設定指引，含金量高，雖然作者很明顯地是為了宣傳他們家的 PostgreSQL 設定工具，但是絕大部份篇幅都是佛心來著的、交代了很多重要設定的概念。老實講，PostgreSQL 的設定參數多如牛毛，不可能在一份投影片裡完全講完，但是裡頭提到的可說是最重要的幾項了。推薦給同樣使用 PostgreSQL 的大家。</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/ongres/postgresql-configuration-for-humans">speakerdeck.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="hymMpCR"></a>
+  
+  <h3 class="item__title"><a href="https://blog.g3rt.nl/upgrade-your-ssh-keys.html">Upgrade your SSH keys!</a></h3>
+    <p>我不清楚各位讀者的 SSH keys 加密演算法強度如何，但是就我能看到、摸到的機器，普遍都還是採用 DSA/RSA 1024 或 RSA 2048，文中認為這樣的強度已經有點不足，此文作者建議大家可以透過文中指引，把您的 SSH keys 加密演算法強度升級。</p>
+  <span class="item__footer"><a href="https://blog.g3rt.nl/upgrade-your-ssh-keys.html">g3rt.nl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="gOeVwuW"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/nayafia/lemonade-stand">A handy guide to financial support for open source.</a></h3>
+    <p>這個主題很殘酷也很現實。</p>
+
+<p>記得我前陣子看過一則 tweet，大意是這樣：</p>
+
+<ul>
+<li>場景A：知名 A 廠又推出新款產品 → 眾人："Shut up and take my money!"</li>
+<li>場景B：眾人每天都會用到的開源軟體社群請大家捐款贊助 → 眾人：「呵呵，才不要咧！」</li>
+</ul>
+
+
+<p>補充我看到的另外一個場景 C：雲端業者把開源軟體包裝為 SaaS，大家每個月甘心繳雲端稅，可是這個軟體本身卻慘澹經營苦哈哈。</p>
+
+<p>這份 GitHub repo 就是針對這個議題，整理出一些想要採用開源方式釋出作品，又想要維持財務健康的方法。</p>
+
+<p>順道一提，雖然開放文化基金會並沒有請我宣傳，但是身為長期捐款人，我想至少在這裡、我暫時要告別碼天狗 curator 的最後一期，請容我借個版面再次宣傳一下「<a href="http://ocf.tw/300">開源 300 壯士</a>」這個專案，懇請大家考慮，每週少喝一杯手搖飲料，加入這個定期捐款專案，就可以幫助很多開放文化、開源活動。</p>
+  <span class="item__footer"><a href="https://github.com/nayafia/lemonade-stand">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="AhRz7Vx"></a>
+  
+  <h3 class="item__title"><a href="https://blog.keras.io/user-experience-design-for-apis.html">User experience design for APIs</a></h3>
+    <p>在 mobile APP、前後端分離盛行的現在，制定 API 是很常見的工作內容。</p>
+
+<p>除了考慮邏輯、效能等面向，使用者體驗（UX）也是很重要的一環。
+作者列出了設計 API （在 UX 上）的三條規則：</p>
+
+<ol>
+<li>要考慮完整的 workflows （而非單一 API）；</li>
+<li>降低 API 使用者的理解負擔；</li>
+<li>提供有用的回饋——包含詳細的錯誤訊息、預防各種易犯的錯誤、乃至於提供詢問管道。</li>
+</ol>
+  <span class="item__footer"><a href="https://blog.keras.io/user-experience-design-for-apis.html">keras.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="I5edw6m"></a>
+  
+  <h3 class="item__title"><a href="https://routley.io/tech/2017/11/23/logbook.html">Using a logbook to improve your programming</a></h3>
+    <p>經常看到有人建議工程師撰寫網誌，來整理自己所學、以增進技術。</p>
+
+<p>如果覺得公開發表的壓力太大，可以試試看這篇文章提到的日誌方法：<br/>
+在著手開發或除錯前，先整理問題、解法，最後再紀錄解法的成果、可加強之術。</p>
+
+<p>網友 <a href="https://twitter.com/AlbertHuang314">@AlbertHuang314</a> 也有一篇類似的心得——<a href="http://alberthuang314.blogspot.com/2012/12/blog-post_12.html">寫實驗紀錄或工作日誌的重要性</a> 。</p>
+  <span class="item__footer"><a href="https://routley.io/tech/2017/11/23/logbook.html">routley.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="76ditr3"></a>
+  
+  <h3 class="item__title"><a href="https://www.ptt.cc/bbs/Salary/M.1510233851.A.EED.html">「最後，你有沒有問題想問我們？」 - 看板 Salary - 批踢踢實業坊</a></h3>
+    <p>面試除了公司在衡量應徵者，也是面試者評價公司的好機會。<br/>
+文章裡列出的七則問題，都可以加深對於公司甚至於自己的理解。</p>
+
+<p>對於前陣子頻繁面試的我來說，這篇文章可是相見恨晚啊。<br/>
+（雖然我其實完全憑直覺在衡量公司，哈哈）</p>
+
+<p>年關快到了，可能有不少人開始或準備物色新的工作。<br/>
+希望大家都能找到理想的工作啊。 :)</p>
+  <span class="item__footer"><a href="https://www.ptt.cc/bbs/Salary/M.1510233851.A.EED.html">ptt.cc</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1gwh9oi"></a>
+  
+  <h3 class="item__title"><a href="https://isocpp.org/blog/2017/11/jupyter-cling-interactive-cpp">Jupyter + Cling: Interactive C++ : Standard C++</a></h3>
+    <p>分享這篇只是想分享一下我的驚訝。<br/>
+原來現在已經可以在 Jupyter Notebook 裡面直接寫 C++ （script?）了啊</p>
+
+<p>P.S. 不知道有多少讀者平常以 C++ 為主力語言呢？</p>
+  <span class="item__footer"><a href="https://isocpp.org/blog/2017/11/jupyter-cling-interactive-cpp">isocpp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3ZJTiUw"></a>
+      <a href="https://www.instagram.com/v_19981010/"><img src="original_ratio_extra_large_74473b30-283a-4624-afcb-8054a35f2bf2.jpg" title="鼎惠 🐻 (@v_19981010) • Instagram photos and videos" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/v_19981010/">鼎惠 🐻 (@v_19981010) • Instagram photos and videos</a></h3>
+    <p></p>
+  <span class="item__footer"><a href="https://www.instagram.com/v_19981010/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/107/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-11-27'>November 27th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>108 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/109/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-12-11'>December 11th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

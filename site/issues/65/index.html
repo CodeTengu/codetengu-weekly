@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 65 上班的人太多，下班的人太少 #職場不等式</title>
+<meta name="description" content="本期內容涵蓋 iOS, Android, JWT, Docker, Blockchain, JavaScript, Yarn, ECMAScript 6">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Android, JWT, Docker, Blockchain, JavaScript, Yarn, ECMAScript 6'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/65/index.html#start">
+        Issue 65 上班的人太多，下班的人太少 #職場不等式 &nbsp;<i><time class='published' datetime='2016-10-24'>October 24th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-196851"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob">We Are Legion (We Are Bob)</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 買了文明帝國 6 ...</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - GCP 好用嗎？</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="olg4HS"></a>
+  
+  <h3 class="item__title"><a href="https://text.sourcegraph.com/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people-d1b549681291#.25rwr0wnl">Why vacation at tech companies should be mandatory: better code, happier people</a></h3>
+    <blockquote><p>If you know your team will have to maintain your work while you’re gone, you’ll produce better systems and code.</p></blockquote>
+
+<p>軟體公司應該強迫員工休假，對大家都有好處。</p>
+
+<p>對公司的好處引援的例子是金融業為了防止員工在內部做一些偷雞摸狗的事情，強迫休假讓每個人平時做的事情交給他的職務代理人，防止一些不好的事情藏在日常的工作之中。<br/>
+體現在軟體業上，如果員工意識到自己寫的東西要給大家維護 (而且是自己不在的時候)，那他平常就會更把寫出好的 code 當成一回事。</p>
+
+<p>另一個好處跟 Travis CI 之前討論過的休假政策調整一樣 (<a href="http://www.paperplanes.de/2014/12/10/from-open-to-minimum-vacation-policy.html">From Open (Unlimited) to Minimum Vacation Policy</a>)，讓員工因為強迫休假而沒有虧欠感。</p>
+
+<p>Travis CI 在調整成最低休假政策之後，有 25 天帶薪休假日。<br/>
+如果是在台灣，以勞基法規定第一年沒有特休、滿一年七天到滿第三年才有 10 天特休，中間還不能換公司，就算改成強迫休假也是辦公椅都還沒涼，人又回來了，對公司藏污納垢的排除非常不利啊，希望各位資方在這件事也要硬起來。</p>
+  <span class="item__footer"><a href="https://text.sourcegraph.com/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people-d1b549681291#.25rwr0wnl">sourcegraph.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-203871"></a>
+  
+  <h3 class="item__title">Core Data in iOS 10</h3>
+    <p>這次 Core Data 在 iOS 10 的更新做了很多使用上跟 APIs 的改善，以往被批評的部分幾乎都做了調整。</p>
+
+<p>首先是 Core Data stack，這是剛入門的人最慘烈的痛，只是想要弄個 persistent store 為什麼要逼我設定  <a href="https://developer.apple.com/reference/coredata/nsmanagedobjectmodel">NSManagedObjectModel</a>, <a href="https://developer.apple.com/reference/coredata/nspersistentstorecoordinator">NSPersistentStoreCoordinator</a>, <a href="https://developer.apple.com/reference/coredata/nsmanagedobjectcontext">NSManagedObjectContext</a>，而且沒有主流的 best practice，很可能在還沒有原因的情況就選擇了不一樣的 Core Data stack 實作方式，可以參考 <a href="https://www.bignerdranch.com/blog/introducing-the-big-nerd-ranch-core-data-stack/">Big Nerd Ranch Core Data Stack</a> 列舉的幾種常見設定。</p>
+
+<p>現在有了一個新類別 <a href="https://developer.apple.com/reference/coredata/nspersistentcontainer">NSPersistentContainer</a>，我們可以透過它設定一開始的 Core Data stack，而它也只是封裝了以往使用的東西，帶了一些預設的值跟行為而已。fetch 的行為也直接透過 <code>NSPersistentContainer</code> 操作就可以，非常方便。</p>
+
+<p>詳細閱讀： <a href="https://swifting.io/blog/2016/09/25/25-core-data-in-ios10-nspersistentcontainer/">Core Data in iOS10: NSPersistentContainer</a></p>
+
+<p>這次 Xcode 8 也解決了以往在 <code>xcdatamodel</code> 的介面定義好 entity 後得自己建立對應的 NSManagedObject subclass 的問題，透過 codegen，在新增或變更後就產生一份給你。其實就是陽春版的 <a href="https://github.com/rentzsch/mogenerator">mogenerator</a>。</p>
+
+<p>併發的問題也可以透過一個新的類別 <a href="https://developer.apple.com/reference/coredata/nsquerygenerationtoken">NSQueryGenerationToken</a> 來處理，讓以往繁瑣的事情變簡單。</p>
+
+<p>延伸閱讀：<a href="https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatNewCoreData2016/ReleaseNotes.html#//apple_ref/doc/uid/TP40017342-CH1-DontLinkElementID_3">NSQueryGenerationToken 官方使用範例</a></p>
+
+<p>Core Data 經過這次的大調整後，導入門檻終於降到一個合理高度了，已經採用 Core Data 的朋友下次做新的專案也可以用新的方法囉！</p>
+  <span class="item__footer"></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KCYALXU"></a>
+  
+  <h3 class="item__title"><a href="https://realm.io/news/real-world-swift-performance/">Real World Swift Performance</a></h3>
+    <p>這是一個只有 15 分鐘的 talk，內容蠻有趣，在談 Swift 的 struct, class, protocol, enum, generic 如何影響效能。</p>
+
+<p>結論是 struct 套 protocol 會對效能造成大量影響 (與不套 protocol 的差異為慢了 1300% ~ 15000%)，原因是 protocol 用了一種 Existential Container 的結構來處理 struct，而這個結構又有一個 three word buffer 的設計，假如 struct 超過這個設計限制，就會被分配到 heap 上 (就是這個情況效能差異達到 15000%)，再由 Existential Container 儲存的 protocol 方法調用實體方法，效能就是在這些地方喪失的。</p>
+
+<p>而泛型因為在 compile time 就可以知道型別，編譯器可以做優化，所以沒有太大的效能問題。</p>
+
+<p>其實這個 talk 是從今年的 WWDC Session 416 <a href="https://developer.apple.com/videos/play/wwdc2016/416/">Understanding Swift Performance</a> 濃縮一部分出來的，所以省略了很多細節，說明的部分會聽不懂是正常的。</p>
+  <span class="item__footer"><a href="https://realm.io/news/real-world-swift-performance/">realm.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ob1wbVm"></a>
+  
+  <h3 class="item__title"><a href="https://zeroturnaround.com/software/jrebel-for-android/">JRebel for Android</a></h3>
+    <p>近期都在開發 Android，而整個 Android 開發的環節最讓我有意見的就是 build app 的時間。</p>
+
+<p>Gradle 優化過後，公司的專案 build 的時間還是接近一分半鐘，這個時間長到足夠讓我把注意力分散又集中在那些奇奇怪怪的影片或動態了。向我的同事抱怨這個困擾之後，他推薦我用了 JRebel，驚為天人！太晚發現了！</p>
+
+<p>簡單來說就是實作了 hot swapping <a href="https://en.wikipedia.org/wiki/Hot_swapping">[wiki]</a>，而且除非有改動到 inheritance, interface 或是 AndroidManifest，多數的情況下新 patch 的 build 會直接 reload 當前的 Activity，超棒的！</p>
+
+<p>「蛤，那跟 <a href="https://developer.android.com/studio/run/index.html#instant-run">Instant Run</a> 有什麼不一樣？」<br/>
+「比較快啊！」</p>
+
+<p>延伸：<a href="https://zeroturnaround.com/rebellabs/jrebel-for-android-and-instant-run-compared/">JRebel for Android and Instant Run: Hot Swaps, Warm Swaps, Cold Swaps, all the Swaps!</a></p>
+  <span class="item__footer"><a href="https://zeroturnaround.com/software/jrebel-for-android/">zeroturnaround.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="SANtjvO"></a>
+  
+  <h3 class="item__title"><a href="http://paulbakker.io/java/jwt-keycloak-angular2/">JWT authentication with Vert.x, Keycloak and Angular 2</a></h3>
+    <p>傳統上，幾乎每個網站應用程式，都自己寫客戶資料管理，含認證與授權等功能。到目前為止，很多人的專案應該都是這樣做的，但想寫好這個部分，又要能重複使用，真談何容易? 加上系統如果還需提供 RESTful API，又要會管理 <a href="https://jwt.io/">JWT</a> tokens 或 OpenID 連線，甚至帳號還想跟多家 <a href="https://oauth.net/articles/authentication/">OAuth 2.0</a> 提供商整合，例如 FB，Google，github，twitter 等，幾乎是小公司或小開發團隊無法在有限的時間內達成的任務。</p>
+
+<p>看看這篇文章，建議用開源的 <a href="http://www.keycloak.org/">KeyCloak</a> (Single sign-on) SSO 軟體，來幫你做到幾乎所有使用者及 tokens 授權與認證的管裡，專心做你商業邏輯的部分吧!</p>
+  <span class="item__footer"><a href="http://paulbakker.io/java/jwt-keycloak-angular2/">paulbakker.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mpS8x4W"></a>
+  
+  <h3 class="item__title"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-docker-machine/">Use Docker Machine with the Azure driver</a></h3>
+    <p>雖然 <a href="https://docs.docker.com/machine/">docker-machine</a> 不是只能在微軟 Azure 雲端開 Docker 主機，但台灣還是很多 Windows 的使用者，不妨用這最快的方法，在他們已經購買的 Azure 雲上，來使用 Docker。而如果想用別家雲端部署，也只有 <a href="https://docs.docker.com/machine/drivers/">drivers</a> 不同，docker-machine 還支援 <a href="https://docs.docker.com/machine/drivers/aws/">Amazon AWS</a>，<a href="https://docs.docker.com/machine/drivers/digital-ocean/">Digital Ocean</a>，<a href="https://docs.docker.com/machine/drivers/gce/">Google Computer Engine</a>，<a href="https://docs.docker.com/machine/drivers/openstack/">OpenStack</a>，<a href="https://docs.docker.com/machine/drivers/hyper-v/">微軟 Hyper-V</a>，<a href="https://docs.docker.com/machine/drivers/soft-layer/">IBM Softlayer</a>，還有本機的虛擬主機 <a href="https://docs.docker.com/machine/drivers/virtualbox/">Oracle VirtualBox</a>，或其他像 VMware vSphere、Fusion、或 vCloud Air 等。</p>
+
+<p>Mac 或 Windows 使用者，如果已經裝過 <a href="https://www.docker.com/products/docker-toolbox">Docker Toolbox</a>，就會附贈 docker-machine 指令。 如果只想裝 docker-machine 也可只<a href="https://docs.docker.com/machine/install-machine/">安裝 docker-machine</a>。 以前使用 boot2docker 的人，也可以利用 <a href="https://docs.docker.com/machine/migrate-to-machine/">升級</a> 方式，把自己本機的 Docker engine 改成 docker-machine，如此一來，不管是要部署 containers 到本地或雲端，變成一件非常簡單的事。</p>
+
+<p>簡單的測試過 <a href="https://hub.docker.com/_/hello-world/">docker run hello-world</a> 沒問題後，就可以開始使用 docker。但建議多用 <a href="https://docs.docker.com/compose/">docker-compose</a> 來做部署, 而非單純用 docker 指令。</p>
+  <span class="item__footer"><a href="https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-docker-machine/">microsoft.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="AZ1br4J"></a>
+  
+  <h3 class="item__title"><a href="http://www.ethnews.com/interview-with-status-a-mobile-light-client-ethereum-messaging-app">Interview with Status: A Mobile Light Client Ethereum Messaging App</a></h3>
+    <p><a href="https://status.im/">Status</a> 是一個利用 <a href="https://www.ethereum.org/">Ethereum</a> 開放原始碼的電子錢包 <a href="https://github.com/ethereum/mist">Mist</a>，開發出來的一個輕量手機聊天軟體。其最終目的還是希望能做出一個聊天軟體，除了聊天以外，還能做支付，以及執行智能合約。從這公司訪談可以看出，總部在新加坡的這個 8 人團隊，花了很長的時間，希望能找到一個讓 <a href="http://www.investopedia.com/terms/b/blockchain.asp">blockchain</a> 能夠輕量化到可以在手機上執行，確又要能保證資料的安全與正確性的方法。</p>
+
+<p>它幾乎是善用了 blockchain 本身的加密特性，還有 Ethereum 本身的 P2P 技術，巧妙地發展出一個新一代的聊天軟體。很明顯，未來的手機，絕對不只是聊天而已，它還能做我們平常做的所有事情，這類的軟體可以讓我們拭目以待。</p>
+
+<p>有興趣開發類似的軟體的人，可以到 <a href="https://github.com/status-im">status-im</a> GitHub 做協同開發。</p>
+  <span class="item__footer"><a href="http://www.ethnews.com/interview-with-status-a-mobile-light-client-ethereum-messaging-app">ethnews.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2dH54oA"></a>
+      <a href="https://code.facebook.com/posts/1840075619545360"><img src="twenty_by_nine_extra_large_9fcea3b8-0916-404c-ac61-f3670ed8a65d.png" title="Yarn: A new package manager for JavaScript" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://code.facebook.com/posts/1840075619545360">Yarn: A new package manager for JavaScript</a></h3>
+    <p>JavaScript 實作中常常會使用到不同的相依套件，這些套件通常會透過 package manager 來管理，近幾年最熱門的就是 npm 了，Facebook 最近發表了一套新的套件管理 - Yarn ，用以改善 consistency、security 與 performance 的問題。</p>
+
+<p><a href="https://medium.freecodecamp.com/npm-vs-yarn-benchmark-9b456de4aa96">這篇文章</a>對 install 的效能做了一些比較。</p>
+
+<p>而 Yarn 除了速度比 npm 快以外，lockfile 也是很重要的一個功能，npm 裡重複的相依套件，在不同的環境下可能有不同的檔案結構，造成有時會發生有些 bug 只在特定電腦的狀況，透過 Yarn 的 lockfile 就可以將相依套件鎖定版本，確保每個環境的結構都是一樣的。</p>
+  <span class="item__footer"><a href="https://code.facebook.com/posts/1840075619545360">facebook.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZIQoyoV"></a>
+  
+  <h3 class="item__title"><a href="http://jazcash.com/a-javascript-journey-with-only-six-characters">A Javascript journey with only six characters</a></h3>
+    <p>透過  "[" 、 "]" 、 "(" 、 ")"、 "!" 和 "+" 這六個字元就可以寫 JavaScript ！</p>
+
+<p>三個基本的規則：</p>
+
+<ul>
+<li>"!" 用來轉換成 Boolean</li>
+<li>"+" 用來轉換成 Number</li>
+<li>"[]" 用來轉換成 String</li>
+</ul>
+
+
+<p>文內會經過不同轉換讓大家理解是如何得到各個英文字母，也可以透過 <a href="http://www.jsfuck.com/">JSFuck</a>，自動轉換程式碼。</p>
+  <span class="item__footer"><a href="http://jazcash.com/a-javascript-journey-with-only-six-characters">jazcash.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2sbcxyc"></a>
+  
+  <h3 class="item__title"><a href="http://tesseract.projectnaptha.com/">Tesseract.js: Pure Javascript OCR for 62 Languages</a></h3>
+    <p>Tesseract.js 是一套 Pure JavaScript 的文字辨識 library ，因為是 Pure JavaScript ，所以不只可以在 NodeJS 上執行，也可以單獨運行在瀏覽器上。</p>
+
+<p><a href="https://github.com/naptha/tesseract.js">Source Code</a></p>
+  <span class="item__footer"><a href="http://tesseract.projectnaptha.com/">projectnaptha.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lSjHadk"></a>
+  
+  <h3 class="item__title"><a href="http://www.2ality.com/2016/09/global.html">ES proposal: global</a></h3>
+    <p>JavaScript 已經可以運行在許多不同的平台，而存取 global variable 的方式也各有所不同，本篇文章會簡略介紹存取方式以及 ES6 新的變數宣告方式，以及存取 global 的 polyfill 。</p>
+  <span class="item__footer"><a href="http://www.2ality.com/2016/09/global.html">2ality.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="YBwkzo3"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer (後端) at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#x74;&#122;&#97;&#x6e;&#x67;&#x6d;&#115;&#64;&#x73;&#116;&#x72;&#101;&#x65;&#x74;&#118;&#x6f;&#x69;&#99;&#x65;&#x2e;&#99;&#x6f;&#109;">&#116;&#x7a;&#x61;&#110;&#x67;&#x6d;&#x73;&#x40;&#x73;&#x74;&#x72;&#101;&#x65;&#116;&#118;&#x6f;&#x69;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/64/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-10-17'>October 17th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>65 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/66/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-10-31'>October 31st 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

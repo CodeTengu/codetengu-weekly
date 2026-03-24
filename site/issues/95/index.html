@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 95 Information wants to be free</title>
+<meta name="description" content="本期內容涵蓋 Blockchain, Machine Learning, Python, Django, Interviewing, Go">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Blockchain, Machine Learning, Python, Django, Interviewing, Go'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/95/index.html#start">
+        Issue 95 Information wants to be free &nbsp;<i><time class='published' datetime='2017-07-10'>July 10th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-295942"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Quantum Thief</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 在 <a href="https://kerbalspaceprogram.com/">KSP</a> 內登陸月球中</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="k3qT3BT"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@tina26919742/a-complete-guide-on-building-a-smart-contract-on-a-private-net-in-ethereum-726851c7c044">Beginner’s guide to Ethereum (1) — Build a smart contract on a private network</a></h3>
+    <p>Blockchain：初級</p>
+
+<p>雖然 <a href="https://twitter.com/mingderwang">@mingderwang</a> 一直都有在 CodeTengu 推廣 Ethereum 相關技術開發，但我一直沒能好好靜下心來好好學習，這近看到這篇遊港正妹工程師李婷婷的教學文章之後，我終於寫出了我人生第一個 <a href="https://www.facebook.com/photo.php?fbid=1611595085519890&amp;set=a.177940655552014.43383.100000082436586&amp;type=3&amp;theater">Smart Contract</a> 了！難道正妹寫的教學文效果比較好嗎？</p>
+
+<p>Beginner’s guide to Ethereum 系列文章：</p>
+
+<ul>
+<li><a href="https://medium.com/@tina26919742/beginners-guide-to-ethereum-2-run-multiple-nodes-on-a-private-network-in-5-lines-c97a4d78a590">Beginners guide to Ethereum (2) — run multiple nodes on a private network in 5 lines</a></li>
+<li><a href="https://medium.com/@tina26919742/beginners-guide-to-ethereum-3-explain-the-genesis-file-and-use-it-to-customize-your-blockchain-552eb6265145">Beginners guide to Ethereum (3) — explain the genesis file and use it to customize your blockchain</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@tina26919742/a-complete-guide-on-building-a-smart-contract-on-a-private-net-in-ethereum-726851c7c044">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8kbma3R"></a>
+  
+  <h3 class="item__title"><a href="https://www.ptt.cc/bbs/Soft_Job/M.1498959912.A.6C5.html">Kaggle 心得分享</a></h3>
+    <p>Kaggle、Machine Learning：初級</p>
+
+<p>這是 <a href="https://www.kaggle.com/">Kaggle</a> 上<a href="https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count">數海獅競賽</a>第一名 Kaggler 的心得分享，參加比賽直接練習解 ML 問題真的是學習 ML 最快的方法，而且如果得了前幾名還會有優渥的競賽獎金！比如這個數海獅競賽的總獎金就有 25000 美金，第一名可以獨得 12000 美金，真的超爽，我應該也要來找時間比 Kaggle 來賺賺外快啊！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://speech.ee.ntu.edu.tw/~tlkagk/courses.html">Machine Learning and having it deep and structured</a></li>
+<li><a href="http://cs231n.stanford.edu/">CS231n: Convolutional Neural Networks for Visual Recognition</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.ptt.cc/bbs/Soft_Job/M.1498959912.A.6C5.html">ptt.cc</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6nlea1t"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@kstseng/kkbox-data-game-17-06-1st-place-solution-2baa14aee5f4">KKBOX Data Game - 17.06 1st place Solution</a></h3>
+    <p>Kaggle、Machine Learning：初級</p>
+
+<p>最近 KKBOX 集團新服務 - KKTV 在 Kaggle 上第一次對外舉辦了資料分析競賽，比賽內容是這樣的：「以前四個月的資料為分析基石，推測用戶在接下來一個月花最長時間觀看的是哪部劇」，希望藉由 Kaggler 的競爭中來找出增進推薦系統預測準確度的方法。本篇文章是這個比賽第一名 Kaggler 的分享，雖然只是將準確度從 0.27 提升到 0.28，但寶貴的分析過程很值得參考。</p>
+
+<p>不過，忍不住要說一下，前三名的獎勵只有精緻米其林主廚料理體驗暨交流餐敘跟 KKTV 6 個月免費看序號卡好像真的有點虛啊～</p>
+  <span class="item__footer"><a href="https://medium.com/@kstseng/kkbox-data-game-17-06-1st-place-solution-2baa14aee5f4">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TNMKO5o"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/blissfully/startup-saas-stack-4aa9a17b9afc">Startup SaaS Stack</a></h3>
+    <p>Business：初級</p>
+
+<p>想要創業開一下公司（網路、軟體開發相關）都會面臨一些共同的問題，像是公司要如何發工資、要怎麼記帳、怎麼報稅等等問題，這篇文章分享了公司處在各種規模時可以考慮使用的 SaaS 工具服務來解決上述的問題，雖然在台灣不一定能用，但還是可以參考一下，或者是自己創業做一個在台灣可以運作的相同服務出來（推坑）。</p>
+  <span class="item__footer"><a href="https://medium.com/blissfully/startup-saas-stack-4aa9a17b9afc">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="LuS67yX"></a>
+  
+  <h3 class="item__title"><a href="http://python.apichecklist.com">Checklist for Python libraries APIs</a></h3>
+    <p>源自 <a href="https://github.com/fjsj">Flávio Juvenal</a>  在 PyCon 2017 的演講 <a href="https://www.youtube.com/watch?v=4mkFfce46zE">How to make a good library API</a>。這個 talk 探討了一些好 library 值得學習的特點，包括簡易性、一致性、彈性、安全性四個大項，並提供了一些該注意的細節與實例。為了讓大家在每次設計 API 時不要漏掉東西，作者把他提到的項目整理成一個清單，並用 checklist 方便逐項確認。</p>
+
+<p>雖然是 PyCon 的演講，但這些項目只要稍微調整一下，在其他語言也適用，而且我覺得不只是 library，很多設計上的重點在跨元件 interface 設計上也同樣需要注意。網頁用了 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage">LocalStorage</a> 儲存狀態。</p>
+
+<p>我還沒機會用，不過感覺很方便，應該會把它加入下一個專案的檢查項目裡。如果下次有什麼需要設計介面的狀況，也絕對要試試看。</p>
+
+<p>Flávio 目前任職於 <a href="https://www.vinta.com.br">Vinta Software</a>，一家巴西軟體公司，與 <a href="https://vinta.ws">Vinta</a> 沒有任何關聯。</p>
+  <span class="item__footer"><a href="http://python.apichecklist.com">apichecklist.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="L1EV3qk"></a>
+  
+  <h3 class="item__title"><a href="https://pydantic-docs.helpmanual.io">pydantic: Data validation using Python 3.6 type hinting</a></h3>
+    <p>Python 3.6 在 <a href="https://www.python.org/dev/peps/pep-3107/">PEP 3107 Function Annotation</a> 基礎上發展的 <a href="https://docs.python.org/3/library/typing.html"><code>typing</code> module</a> 受到不少關注。可以指定型態在很多時候確實很有用，尤其對沒辦法精確掌握維護狀況的大型團隊裡，可以把 code review 部份標準化（例如 Guido 共同開發、Dropbox 大量使用的 <a href="http://mypy-lang.org">mypy</a>）就特別方便。但 dynamic typing 也有它的好處，如果只是把 type annotation 像 static typing system 那樣用，總是感覺不太痛快。</p>
+
+<p>幸好強大的 Python 社群馬上開始發揮創意。就我所知的第一槍是 <a href="http://www.django-rest-framework.org">Django REST Framework</a> 作者 Tom Christie 開發的 <a href="https://github.com/tomchristie/apistar">API Star</a>。這是一個 web API framework，讓你可以用很少量的宣告做出 web API。「如果 Django REST Framework 的作者覺得有需要開發新工具，那它肯定是好東西。」我忘了是從哪裡聽到這句話，但 API Star 確實很酷。這是另一個獨立題材了，有機會再另外分享。</p>
+
+<p>回到 pydantic。Data validation 最重要的 interface 就是要能方便宣告怎樣的資料才合法。我之前也用過不少工具，例如 Django 的 <a href="https://docs.djangoproject.com/en/1.11/ref/forms/api/">Forms API</a>、<a href="https://wtforms.readthedocs.io/en/latest/">WTForms</a>（主要用來與 HTML forms 互動）和 <a href="http://alecthomas.github.io/voluptuous/docs/_build/html/index.html">Voluptuous</a> 等等，不過 pydantic 的宣告方法感覺特別舒服。Type annotation 提供型態、assignment 提供 default，這比傳統的 declarative API 要漂亮太多啦！大家也來用用看吧，然後我覺得更重要的是，不要掉入 static vs dynamic typing 的陷阱啊，一起想想 type hints 有什麼創意用法才是正途。</p>
+  <span class="item__footer"><a href="https://pydantic-docs.helpmanual.io">helpmanual.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9RLr8Wl"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/5-ways-to-make-django-admin-safer-eb7753698ac8">5 ways to make Django Admin safer</a></h3>
+    <p>我常常嘴 <a href="https://docs.djangoproject.com/en/1.11/ref/contrib/admin/">Django Admin</a> 其實就是個比較好看客製化程度比較高的 phpMyAdmin，所以也有很多同樣的問題。這篇列出了五個能讓它安全<strong>一點</strong>的方法，其實都是老生常談，不過因為太重要，還是值得提醒：</p>
+
+<ul>
+<li>不要用預設的 <code>/admin/</code> 路徑。</li>
+<li>覆寫設定與 template，讓每個環境的 admin 外觀有差異。</li>
+<li>為你的 admin 取名字，不要用預設的 <em>Django Administration</em>。</li>
+<li>不要開放 admin 給任意來源。</li>
+<li>強化 authentication 機制（文中的例子是 2FA）。</li>
+</ul>
+
+
+<p>其實我也不能說我都有做到，尤其第四個雖然很想這麼做，但實務上還是很不方便啊。倒是文中提供的 2FA solution 感覺頗值得。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/5-ways-to-make-django-admin-safer-eb7753698ac8">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VkwS18R"></a>
+  
+  <h3 class="item__title"><a href="http://where.coraline.codes/blog/my-year-at-github/">Antisocial Coding: My Year At GitHub</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Coraline_Ada_Ehmke">Coraline Ada Ehmke</a> 回顧了他加入 GitHub 一年多一點，最後被開除的經歷。這個故事與技術無關，而是描述他如何被其他人批評具有攻擊性，最後在各種事件交織下離開公司。</p>
+
+<p>最近覺得建立團體文化實在是條非常非常細的鋼索。一方面我們需要找到適合的同伴，才能在舒服的環境發揮出能力，但當團體裡無可避免地發生衝突，要如何正確處理各種議題，這個價值觀無比重要，也無比難拿捏。前陣子有個朋友分享並贊同 Mark Zuckerberg 的<a href="http://uk.businessinsider.com/mark-zuckerberg-tip-for-hiring-employees-2015-3">用人哲學</a>，簡單來講就是「如果角色交換，我願不願意為他工作」。我完全不同意。這個想法在初衷上可能不差，但對於一個本來就在公司文化內、又身為主管的優勢位置，實在太容易否定別人。老闆挑員工比起員工挑老闆，應該用更絕對的對錯標準來判斷。你自己想不想為他工作根本不重要，這是你的責任；真正重要的，是你的員工們能不能合作，以及如果不能，該讓誰離開，或者該怎麼讓他們不會互相影響。</p>
+
+<p>這篇文章本身也只是一面之詞，我其實不覺得你應該用這篇文章支持 Coraline 或者否定 GitHub —— 有很多證據指出 GitHub 需要受到批評，不過這是另一碼事。但這個故事裡透露的衝突點，以及主角們面對衝突的方式，還是透露了許多事情，能讓人反思。</p>
+  <span class="item__footer"><a href="http://where.coraline.codes/blog/my-year-at-github/">coraline.codes</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jm8LYn4"></a>
+  
+  <h3 class="item__title"><a href="https://www.reddit.com/r/ProgrammerDadJokes/comments/6hzsym/two_sql_developers_walk_into_a_bar_then_walk/">Two sql developers walk into a bar &amp; then walk straight out...</a></h3>
+    <p>來自最近發現的 subreddit <a href="https://www.reddit.com/r/ProgrammerDadJokes/">/r/ProgrammerDadJokes</a>。</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Dad_joke">Dad joke</a> 是英文俚語，用來稱呼那種長輩裝年輕講的，一點也不好笑的笑話，通常是雙關語或音相似的字，就像你爸沒話題的時候會跟你講的那種。寬鬆翻譯成日文就是ダジャレ，中文好像沒有類似的，反正就是廢到笑的那種。我很喜歡這類笑話 <del>初老症狀</del>，連結這個是我看到最好（最廢？）的，分享給大家。</p>
+  <span class="item__footer"><a href="https://www.reddit.com/r/ProgrammerDadJokes/comments/6hzsym/two_sql_developers_walk_into_a_bar_then_walk/">reddit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="iUlKaUH"></a>
+  
+  <h3 class="item__title"><a href="http://www.etpan.org/">十年磨一劍:  etpan 的故事</a></h3>
+    <p>工作生涯也過了 10年，經歷了不少公司和團隊，遇過許許多多的人，在這麼多人之中，只有一個人跟我說過『基礎的重要性、很多東西的關鍵要願意捲起袖子鑽進去，像是 RFC 或是各種 Spec，就會獲得答案』。大部分遇到的人都是喜歡玩新技術、新語言，快速的做出一個有趣的專案，而這種求快的想法，也造成了一堆公司都是用 open source 組一組，然後想趕快賣錢、結案。這種形式的軟體公司在台灣是多數，但想想其實也頗合理，我想這就是所謂的製造業的血液吧，總認為輪子買來裝一裝，可以動就可以賣錢了。</p>
+
+<p>下面連結這個人，他只做了兩個 open source 的 project，第一個 libetpan - 用 C 語言實作郵件收發功能的組件。第二個是 mailcore，一樣是郵件收發的組件，屬於比較高階抽象化的組件。簡單說，他就是利用這兩個 project 做完所有郵件收發的功能。也就是實作了郵件相關的 RFC。</p>
+
+<p>libetpan 從 2001年開始，mailcore 是 2013 年開始，一直到現在仍持續在維護。他在 2010 年推出了一款 Mac 郵件軟體 Sparrow，評價很好，然後 2012 年被 Google 買走。在很多領域或許都有類似的現象，沒有中心思想哲學的人，就像草一樣隨處蔓延，吹不死也長不大。期待在島上的人們，可以把自己當作一個種子，往土裡深深地種下去，然後可以茁壯成大樹，進而成為一片森林。</p>
+
+<p>[本文引用自臉書陳信邦]</p>
+  <span class="item__footer"><a href="http://www.etpan.org/">etpan.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="g59e0of"></a>
+  
+  <h3 class="item__title"><a href="https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/">開發人員的面試指南 - A developer’s guide to interviewing </a></h3>
+    <p>如何面試一家公司 (開發人員的面試指南 – A developer’s guide to interviewing)</p>
+
+<p>最近面試不少人，也有一些工讀生．發現學生不知道要問公司什麼.. 於是把這一篇貼上來分享給大家．
+老生常談的是，大家都說不僅僅是公司面試你．你同時也在面試公司的．你應該要把握任何一個跟面試官交流的問題，來問出來自己究竟適不適合（或是喜不喜歡）這一間公司．</p>
+
+<p>歡迎大家來看看這一篇文章.. 也歡迎大家丟履歷來敝公司..</p>
+
+<ul>
+<li>Data Scientist (senior)</li>
+<li>Frontend (senior)</li>
+</ul>
+
+
+<p>快來丟履歷... 大家快來面試我.... (鞠躬..)</p>
+  <span class="item__footer"><a href="https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/">louie.lu</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dAbbAfD"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/rob_pike/status/878412416127606784">Rob Pike 在 Twitter  分享了一個笑話</a></h3>
+    <p>Go 大神 Rob Pike 講的笑話一則 :</p>
+
+<p>當初在做 Java 與 Go 發現 Go 竟然比 Jave 慢了十倍，不過再細看之後才發現． 測量 Go 的速度單位原來是 micros 而不是 millis ．</p>
+
+<p>[編按: 由於看錯，其實該測量結果 Go 比起 Java 快上了一百倍]</p>
+  <span class="item__footer"><a href="https://twitter.com/rob_pike/status/878412416127606784">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Aqv8aBI"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/mattn/sudo?utm_content=buffer2a9d1&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">mattn/sudo: sudo for windows</a></h3>
+    <p>在 Windows 下要切換 administrator 的 console 來執行某些指令其實很麻煩， mattn 弄了一個 windows 的 sudo 版本．</p>
+
+<p>當你跑 sudo 需要權限的指令，就會跳出 UAC</p>
+
+<p>意外的實用說...  總覺得稍微修改，可以給 drag and drop</p>
+  <span class="item__footer"><a href="https://github.com/mattn/sudo?utm_content=buffer2a9d1&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="azjCJil"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golangtw/jobs/issues">Golang Jobs in Taiwan</a></h3>
+    <p>你的公司想要找台灣的 Golang 人才嗎?</p>
+
+<p>你不知道到底一個好的 Golang 工程師到底應該值多少錢？</p>
+
+<p>不妨來這個 Github issue 看看吧，裡面有包括來自 Blockchain, 直撥產業的各種職缺．</p>
+
+<p>而且薪水都超過 80K 以上喔，快來應徵吧 (?</p>
+  <span class="item__footer"><a href="https://github.com/golangtw/jobs/issues">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/94/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-07-03'>July 3rd 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>95 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/96/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-07-17'>July 17th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

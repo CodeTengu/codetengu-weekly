@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 84 哇！是擅長 Over-engineering 的朋友呢！</title>
+<meta name="description" content="本期內容涵蓋 Management, DevOps, Django, Phoenix, Elixir, Microservice, Chatbot, Go">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Management, DevOps, Django, Phoenix, Elixir, Microservice, Chatbot, Go'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/84/index.html#start">
+        Issue 84 哇！是擅長 Over-engineering 的朋友呢！ &nbsp;<i><time class='published' datetime='2017-04-17'>April 17th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-263798"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Forever War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 最近在看<a href="http://www.taaze.tw/static_act/201302/art/">禪與摩托車維修的藝術</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 徵會寫 HTML &amp; CSS 的網頁設計師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="LiXzzjU"></a>
+  
+  <h3 class="item__title"><a href="http://fractio.nl/2014/09/19/not-a-promotion-a-career-change/">IT&#39;S NOT A PROMOTION - IT&#39;S A CAREER CHANGE</a></h3>
+    <p>「管理職並不是升職, 而是轉換職業」 雖然這篇主題是這個，不過當中有兩個重點讓我覺得非常有趣，而且一語中地，真的是釐清我多年無法清楚說明的事。</p>
+
+<ol>
+<li>The Dunning-Kruger effect</li>
+<li>Systemic undervaluation of non-technical skills</li>
+</ol>
+
+
+<p>而我最感興趣的就是 The Dunning-Kruger effect 了, 我便去找一下 Wikipedia 上的簡述:「達克效應是一種認知偏差，能力欠缺的人有一種虛幻的自我優越感，錯誤地認為自己比真實情況更加優秀。」</p>
+
+<p>例如就軟體工程師來說, 常常會有以下狀況:</p>
+
+<ul>
+<li>覺得自己懂的比其他人多、其他人什麼都不懂、覺得自己超強</li>
+<li>覺得非技術性的工作都很廢</li>
+<li>覺得管理沒什麼技術性可言, 廢</li>
+</ul>
+
+
+<p>就我的個人經驗來看, 大部分 junior 工程師都會落入這種狀況, 會了一些東西之後, 覺得自己很強, 但是根本就還很菜, 因為很多東西都知道的太少, 設計時考慮的太少, 所以常會想出不夠周全的作法, 然後還覺得「有這麼難嗎?」</p>
+
+<p>不過除了 D-K Effect 之外, 本文我真的是畫了很多重點, 值得看個幾遍, 像我也是在透過這篇評量過去的自己, 畢竟大家都 junior 過 (笑)</p>
+  <span class="item__footer"><a href="http://fractio.nl/2014/09/19/not-a-promotion-a-career-change/">fractio.nl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="N5GEpS3"></a>
+  
+  <h3 class="item__title"><a href="https://increment.com/on-call/on-call-at-any-size/">On-call at any size</a></h3>
+    <p>On-call 這件事, 在不同團隊大小會有不同作法, 從 <a href="https://streetvoice.com/">StreetVoice</a> 早期只有我一個人在 On-call, 大概這樣經歷了 5 ~ 6 年, 一直到最近才換成我們系統工程師 <a href="https://twitter.com/Seanhsu0102">Seanhsu0102</a> 為第一線。</p>
+
+<p>慢慢人比較多了, 前一陣子便開始思考用 PagerDuty 來做 rotate, 跟多層 On-call 的機制 (但是太忙還沒搞 XD)</p>
+
+<p>On-call rotate 這件事我在第一份工作也碰過, 當時是第一線, 搞不定會有資深工程師可以求救, 而經理則是只會收到 mail, 除非在 30 分鐘或一小時後, 如果還沒解決時, 經理才會收到簡訊或手機通知, 看事情嚴重度。</p>
+
+<p>這篇提到許多該做的機制、觀念跟對應的工具, 像是 log aggregator, error aggregator 等等, 值得一看, StreetVoice 大概只做到了 80% 左右(?)</p>
+
+<p>當然, 有個足夠有經驗的人可以通靈當然是最棒的 (笑)</p>
+  <span class="item__footer"><a href="https://increment.com/on-call/on-call-at-any-size/">increment.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9nJFh9n"></a>
+  
+  <h3 class="item__title"><a href="https://labs.spotify.com/2017/03/29/dare-to-be-different-part-2/">Culture at Spotify</a></h3>
+    <p>矽谷的公司常會強調所謂的 Culture, 但是 Culture 到底是什麼, 怎麼說清楚講明白? 其實好像真的有點難, 或是常常講跟沒講一樣。</p>
+
+<p>Spotify 這篇我覺得至少有滿明確的方向, 挺好的。</p>
+  <span class="item__footer"><a href="https://labs.spotify.com/2017/03/29/dare-to-be-different-part-2/">spotify.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rqnVkt6"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/ivelum/djangoql">DjangoQL - Advanced search language for Django</a></h3>
+    <p>滿有趣的一個 project, 對於工程師來說好像可以幫上一點忙。</p>
+  <span class="item__footer"><a href="https://github.com/ivelum/djangoql">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="e2FsaUC"></a>
+  
+  <h3 class="item__title"><a href="http://www.gdcvault.com/play/1023470/-It-s-Just-Emulation">&quot;It&#39;s Just Emulation!&quot; - The Challenge of Selling Old Games</a></h3>
+    <p>講者 Frank Cifaldi (<a href="https://twitter.com/frankcifaldi">@frankcifaldi</a>) 是 Digital Eclipse 這間公司的一員，也是 <a href="http://gamehistory.org/">Video Game History Foundation</a> 的創始成員之一。Digital Eclipse 承製了 CAPCOM 的「<a href="http://www.capcom.co.jp/RCC/">洛克人傳奇合輯</a>」 (Mega Man Legacy Collection / Rockman Classics Collection)，運用了模擬器技術讓這系列<del>老掉牙</del>經典遊戲重新在當代的遊戲機上發行。</p>
+
+<p>以講者對經典遊戲的熱愛，以及製作這款遊戲的經驗，他認為模擬器這東西長期被污名化，是時候該還它一個公道了。演講中除了列舉一些遊戲廠商與模擬器社群之間既敵視、又默默在吃後者豆腐的事蹟稍加挖苦，再以老電影不斷在各種記錄媒體上重現與傳承的例子，來譬喻模擬器其實可以視為「老遊戲的放映機」，對陪伴我們走過許多時光的經典遊戲來說，是一種數位典藏與近用的絕佳手段。</p>
+
+<p>這段演講影片非常精彩，我很推薦對電玩遊戲有愛的大家花點時間收看。</p>
+  <span class="item__footer"><a href="http://www.gdcvault.com/play/1023470/-It-s-Just-Emulation">gdcvault.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QeVgGWA"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@fogleman/i-made-an-nes-emulator-here-s-what-i-learned-about-the-original-nintendo-2e078c9b28fe">I made an NES emulator. Here’s what I learned about the original Nintendo.</a></h3>
+    <p>緊接著這篇還是在介紹模擬器，主因是我最近在嘗試讓家中的初代 <a href="https://www.raspberrypi.org/products/model-b/">Raspberry Pi Model B</a> 能夠跑一些老主機上頭的經典遊戲，跌跌撞撞之間學到一堆冷知識。這篇就是在講，作者透過親身實作了一個紅白機（當然，<a href="https://en.wikipedia.org/wiki/Nintendo_Entertainment_System">歐美版</a>的外殼並不是紅白色）模擬器，從中瞭解到紅白機的諸元運作方式，對於有志於開發紅白機模擬器的人來說，是一篇很不錯的觀念引導文。</p>
+
+<p>此外，我自己所謂跌跌撞撞的經驗，主要是一開始認為「初代 Raspberry Pi 規格再怎麼不濟，模擬紅白機應該還是綽綽有餘，用它做個『自我流 <a href="https://www.nintendo.co.jp/clv/">Nintendo Classic Mini Family Computer</a>』是可行的」結果紅白機並不是如憨人所想這麼簡單的東西，多支援一塊特殊處理晶片，多支援一種特殊 <a href="https://wiki.nesdev.com/w/index.php/Mapper">mapper</a>，處理起來的程式複雜度就又不知增加多少倍，而模擬器本身又是一種 CPU intensive 的程式，要在玩家的感官可接受的限度內，「翻譯」這些經典遊戲的程式到現代的硬體上，追求翻譯的精準度 (<a href="http://emulation-general.wikia.com/wiki/Emulation_Accuracy">accuracy</a>)，就需要耗費極大的 CPU 運算成本。</p>
+
+<p>同場加映：</p>
+
+<ul>
+<li><a href="https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/">Accuracy takes power: one man’s 3GHz quest to build a perfect SNES emulator</a></li>
+<li><a href="https://news.ycombinator.com/item?id=13052487">LaiNES – Cycle-accurate NES emulator in around 1000 lines of code</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@fogleman/i-made-an-nes-emulator-here-s-what-i-learned-about-the-original-nintendo-2e078c9b28fe">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8VF2pxW"></a>
+  
+  <h3 class="item__title"><a href="http://swanros.com/phoenix-1-3-is-pure-love-for-api-development/">Phoenix 1.3 is pure love for API development</a></h3>
+    <p>這篇介紹了 Phoenix 這個 Elixir 的 Web 開發框架，在 1.3 版（到截稿為止還在 rc1）一些設計上的改變。其中對於專案目錄結構的變動，是最顯著的，我覺得這是 Phoenix 擺脫「Ruby on Rails 仿品」的包袱、更朝向 Elixir way 來設計，是很重要的一步。</p>
+
+<p>此外，新增的 <code>action_fallback</code> 讓程式寫起來更具表述力，也更加精簡，透過這個 callback 可以把很多程式的後續處理集中在一起，對於像是 API 返回呼叫結果之類的場合很有幫助。</p>
+
+<p>雖然 Phoenix 1.3 可能不是一個會讓人覺得酷炫潮夯、大刀闊斧的新改版，但的確是一個往好的設計方向去做的新版，各位手邊如果還有一些 1.3 之前的專案，現在就可以開始試著轉移到 1.3 了。</p>
+  <span class="item__footer"><a href="http://swanros.com/phoenix-1-3-is-pure-love-for-api-development/">swanros.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="EEoHPxO"></a>
+  
+  <h3 class="item__title"><a href="https://10consulting.com/2017/01/04/building-a-cqrs-web-application-in-elixir-using-phoenix/">Building a CQRS/ES web application in Elixir using Phoenix</a></h3>
+    <p>自從我來到目前這個需要「在有限時間內，處理瞬間巨量請求」的工作後，就開始去找這方面的資料來看。其中 <a href="https://martinfowler.com/bliki/CQRS.html">CQRS</a> 與 <a href="https://martinfowler.com/eaaDev/EventSourcing.html">Event Sourcing</a> 是我自己曾悶著頭想，但過了好一陣子，才發現早已有人提出來的兩種架構設計方法。</p>
+
+<p>這篇文章作者詳細介紹了以 Phoenix 實作出 CQRS/ES 架構的應用程式實戰經驗，且是以傘形組織方式 (<a href="https://elixirschool.com/lessons/advanced/umbrella-projects/">Umbrella</a>) 把每個元件分而治之，整個開發環節都帶過了一次，對想要拿 Phoenix 做大事業的人是一份很好的參考學習範例，推薦給大家。</p>
+  <span class="item__footer"><a href="https://10consulting.com/2017/01/04/building-a-cqrs-web-application-in-elixir-using-phoenix/">10consulting.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qB3kTiZ"></a>
+  
+  <h3 class="item__title"><a href="https://truss.works/blog/2016/12/9/man-splained">Man, ‘splained: 40-Plus Years of Man Page History — Truss</a></h3>
+    <p>在泛 UNIX/UNIX-clone 系統上混，絕對少不了去<del>找男人</del>翻 man(ual) pages 的機會，但是 man 的歷史緣由、來龍去脈以及如何編寫，其實我自己也不求甚解<del>（而且說實在的，groff 看了一眼就覺得阿雜，怎麼還能要求我去寫）</del>，我想跟我一樣對 man 既熟悉又陌生的人並不少，而這篇考古文，就概略地介紹了 man 這玩意兒，可說是 man 的科普文。</p>
+
+<p>本期最後一篇，給大家介紹這個有點 geek 趣味的文章。</p>
+  <span class="item__footer"><a href="https://truss.works/blog/2016/12/9/man-splained">truss.works</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="BQtwiCK"></a>
+      <a href="https://github.com/kkdai/LineBotBabyLuis"><img src="twenty_by_nine_extra_large_8a35a077-1e15-4631-aac1-e5d36dc3c7d3.jpg" title="kkdai/LineBotBabyLuis: A baby NLU chatbot using LUIS" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/kkdai/LineBotBabyLuis">kkdai/LineBotBabyLuis: A baby NLU chatbot using LUIS</a></h3>
+    <p>大家好，這一次我會自肥自己兩個小 Chatbot 分享給大家（附帶原始碼) ．也希望讓大家了解一下如何使用 Golang 來架設 Chatbot ．</p>
+
+<p>LineBotBabyLuis: 就是當初寫好專案 <a href="https://github.com/kkdai/luis">luis go sdk</a> 之後說要寫一個會自我學習的 chatbot 的 POC 小專案．</p>
+
+<p>這個 Chatbot 具有自我學習的功能（其實不過就是每次問他，他不認識的，就會請你告訴他是哪個 intent )</p>
+
+<p>透過微軟 LUIS 的功能，這個 chatbot 就算沒有任何資料庫也能夠做到自我學習．並且不斷累積知識的功能．</p>
+
+<p>想學學 LUIS 怎麼使用的人（透過 Golang API ) 也可以看看．</p>
+
+<p>之後會再寫個中文部落格來介紹這個....</p>
+  <span class="item__footer"><a href="https://github.com/kkdai/LineBotBabyLuis">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="970Jnls"></a>
+      <a href="https://github.com/kkdai/LineBotAnimal"><img src="twenty_by_nine_extra_large_9f4c7625-6b86-4302-bb9a-cbec272cfe5c.PNG" title="kkdai/LineBotAnimal: Line Bot Animal photo classification" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/kkdai/LineBotAnimal">kkdai/LineBotAnimal: Line Bot Animal photo classification</a></h3>
+    <p>為了 Chatbot Day 準備的聊天機器人第二彈</p>
+
+<p>功能很簡單: 就是你上傳動物照片，他就會告訴你是什麼動物．</p>
+
+<p>背後的機器學習模型就是鼎鼎大名的 Tensorflow Inception</p>
+
+<p>細節就會在 04/27 的 IThome Chatbot Day  會講解....</p>
+
+<p>註解: Tensorflow Inception 就是一個透過 CNN 建立出來的動物資料庫分類器</p>
+
+<p>參考: <a href="https://github.com/tensorflow/models/tree/master/inception">https://github.com/tensorflow/models/tree/master/inception</a></p>
+  <span class="item__footer"><a href="https://github.com/kkdai/LineBotAnimal">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sMs0nAO"></a>
+  
+  <h3 class="item__title"><a href="https://rakyll.org/grpc-trace/">Automatic Stackdriver Tracing for gRPC · Go, the unwritten parts</a></h3>
+    <p>這篇講解了如何透過 Golang 來撰寫一個使用 stackdriver （也就是 Google 之前所併購的線上分散式追蹤 distributed tracing 的工具) 來查看在 gRPC 下問是否有任何問題．</p>
+
+<p>想要試試看 Open Source 的 distributed tracing ? 那麼可以試試看最近進入 <a href="http://cncf.io">CNCF</a> 的 Open Tracing ．  官方的部落格有一個<a href="https://medium.com/opentracing/tracing-http-request-latency-in-go-with-opentracing-7cc1282a100a#.vi1v0ftnv">範例讓你學習如何用 Golang 透過 Open Tracing 來追蹤 http latency </a>．</p>
+
+<p>名詞解釋: CNCF (Cloud Native Computing Foundation) 是由 Google, Intel, CoreOS 與華為 等等各家網路 大公司所組成的協會．主要選取一些優秀的服務來推廣適合作為 Cloud Native Computing 之用.. 目前裡面的軟體有: Kubernetes, Prometheus, Fluentd 與 GPRC .. 等等 Cloud Native 上重要的服務</p>
+  <span class="item__footer"><a href="https://rakyll.org/grpc-trace/">rakyll.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="d8T5Ra2"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8">Linux, Netlink, and Go — Part 1: netlink – Medium</a></h3>
+    <p>這篇文章看了好幾天，終於看完． 透過 #Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 "Netlink"</p>
+
+<p>本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink</p>
+
+<p>[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．</p>
+
+<p>Netlink Socket 優點:</p>
+
+<ol>
+<li>透過 UDP 沒有 ioctl 的 kernel round trip time</li>
+<li>可以一次發給同一個 group 中的 user process</li>
+</ol>
+
+
+<p>缺點:</p>
+
+<ol>
+<li>UDP 老問題.. 你不確定對方有沒有收到</li>
+<li>由於透過 socket 其實感覺不如 ioctl 那麼的直覺</li>
+</ol>
+
+
+<p>這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看</p>
+
+<p>BTW: Prometheus 的 node_exporter 感覺很好用??</p>
+
+<p><a href="https://github.com/mdlayher/netlink">Netlink Go package</a>:</p>
+
+<p>關於 Netlink Socket 可以<a href="http://daydreamer.idv.tw/rewrite.php/read-47.html">參考</a></p>
+  <span class="item__footer"><a href="https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8xjtmLb"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/leandromoreira/digital_video_introduction">leandromoreira/digital_video_introduction: A hands-on introduction to video technology: image, video, codec (av1, h264, h265) and more (ffmpeg encoding).</a></h3>
+    <p> [關於影像處理的完整介紹]</p>
+
+<p>裡面包含圖片，各種影像格式 av1, h264, h265 的編碼格式與一些基礎原理外．也有 ffmpeg 的相關操作． 對於想要惡補或是回顧的人會有趣．
+裡面的解釋都很清楚，有大量的圖片作為輔助．相當的棒！</p>
+  <span class="item__footer"><a href="https://github.com/leandromoreira/digital_video_introduction">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/83/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-04-10'>April 10th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>84 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/85/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-04-24'>April 24th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

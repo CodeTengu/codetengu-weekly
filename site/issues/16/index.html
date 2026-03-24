@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 16 Ubuntu 是一個來自非洲祖魯語的單詞，意思是 I can&#39;t configure Debian.</title>
+<meta name="description" content="本期內容涵蓋 Python, MySQL, Cassandra, Swift, iOS, MVVM, MVC, Android, C, Go, Kubernetes, Docker, Bitcoin">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, MySQL, Cassandra, Swift, iOS, MVVM, MVC, Android, C, Go, Kubernetes, Docker, Bitcoin'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/16/index.html#start">
+        Issue 16 Ubuntu 是一個來自非洲祖魯語的單詞，意思是 I can&#39;t configure Debian. &nbsp;<i><time class='published' datetime='2015-11-16'>November 16th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-75989"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href="https://github.com/codetengu/headquarters">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>本期 curators：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員</strong></li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+</ul>
+
+
+<hr />
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer"></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="t0hlbYL"></a>
+  
+  <h3 class="item__title"><a href="http://stackshare.io/featured-posts">StackShare Featured Posts</a></h3>
+    <p>雖然上一期就有提到一篇 Medium 的技術團隊分享他們用了哪些技術的文章，但是其實 StackShare（和它的<a href="http://stackshare.io/posts">官方 blog</a>）上還有好多篇類似的文章，有許多大大小小、各個領域的網路公司都各自分享了他們的 technology stack，最喜歡看這種文章了。</p>
+
+<p>作為一個 developer，除了參與或是自己發起 open source 專案之外，更重要的其實就是向其他人分享自己或是所屬團隊的知識、經驗、踩過的雷或是總結出來的最佳實踐，畢竟「分享」這件事對你自己和其他人都會有收穫。</p>
+  <span class="item__footer"><a href="http://stackshare.io/featured-posts">stackshare.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DDx6BB"></a>
+  
+  <h3 class="item__title"><a href="https://pyformat.info/">PyFormat: Using % and .format() for great good!</a></h3>
+    <p>這篇文章專門在講 Python 的 <code>str.format()</code> 各種超便利的用法，大家就別再用 <code>%</code> 來 format 字串啦！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://slott-softwarearchitect.blogspot.tw/2015/11/formatting-strings-and-strformat-family.html">Formatting Strings and the str.format() family of functions -- Python 3.4 Notes</a></li>
+</ul>
+  <span class="item__footer"><a href="https://pyformat.info/">pyformat.info</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Gkdp59N"></a>
+  
+  <h3 class="item__title"><a href="https://www.percona.com/blog/2014/01/28/10-mysql-settings-to-tune-after-installation/">10 MySQL settings to tune after installation</a></h3>
+    <p>這是一篇來自 (Percona) MySQL Performance Blog 的文章，提到了 10 個重要的 MySQL configuration 參數，例如 <code>innodb_file_per_table</code> 和 <code>query_cache_size</code> 等等，有在用 MySQL 的人都應該要看一下。不過不是每個參數都支援在 runtime 的時候修改，這點要注意。</p>
+
+<p>底下的延伸閱讀則是由 VividCortex 發布的小手冊，也是在講一樣的主題。而且 VividCortex 的創辦人就是 High Performance MySQL 的作者。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.vividcortex.com/resources/configuring-mysql-for-performance/">Configuring MySQL for Performance</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.percona.com/blog/2014/01/28/10-mysql-settings-to-tune-after-installation/">percona.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qKD478F"></a>
+  
+  <h3 class="item__title"><a href="http://yangzhe1991.org/blog/2015/10/datamodel-and-cql-cassandra-does-not-have-sql/">Cassandra 的数据模型和 CQL</a></h3>
+    <p>這是<a href="http://yangzhe1991.org/blog/2015/09/cassandra-introduction/">系列文章</a>的第二篇，很詳細地說明了 Cassandra 的基本概念。另外也推薦一下這本 <a href="http://amzn.to/1MQ3KsT">Learning Apache Cassandra</a>。</p>
+
+<p>雖然 <a href="http://www.datastax.com/dev/blog/new-in-cassandra-3-0-materialized-views">Cassandra 3.0</a> 不久前推出了。</p>
+  <span class="item__footer"><a href="http://yangzhe1991.org/blog/2015/10/datamodel-and-cql-cassandra-does-not-have-sql/">yangzhe1991.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qUtNYim"></a>
+  
+  <h3 class="item__title"><a href="http://zhuanlan.zhihu.com/necromanov/19735387">用世界来叙事：Fallout 3</a></h3>
+    <p>因為本週的三位 curator 裡有兩位這禮拜都在玩 Fallout 4，所以如果你覺得這一期的 weekly 質量下滑了，大家就多多包涵啦！</p>
+
+<p>如果你不能理解或是有點好奇為什麼全世界的玩家都這麼期待這款遊戲，你或許可以讀一讀這篇由一位中國的遊戲設計師所寫的評論，感受一下。雖然他講的是 Fallout 3。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://zhuanlan.zhihu.com/necromanov/19793833">不一样的路径：Fallout: New Vegas</a></li>
+</ul>
+  <span class="item__footer"><a href="http://zhuanlan.zhihu.com/necromanov/19735387">zhihu.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="WJlnW5h"></a>
+  
+  <h3 class="item__title"><a href="http://blog.ios-developers.io/wrapping-your-callbacks-in-promises/">Wrapping your callbacks in Promises</a></h3>
+    <p>We code in an asynchronous world. We promise.</p>
+
+<p>這一句是 <a href="https://github.com/mxcl/PromiseKit">PromiseKit</a> 的口號。</p>
+
+<p>這是一篇關於 PromiseKit 最簡單的教學文，不過說實在的 PromiseKit 差不多就是這麼簡單，不像 <a href="https://github.com/ReactiveCocoa/ReactiveCocoa">ReactiveCocoa</a> 一樣包山包海、個人覺得語法上也比 <a href="https://github.com/BoltsFramework/Bolts-iOS">Bolts</a> 親切一些。</p>
+
+<p>PromiseKit 就只想解決一件事情：大量的 callbacks 串接導致的閱讀性下降 aka <a href="http://en.wikipedia.org/wiki/Pyramid_of_doom_%28programming%29">厄運金字塔</a> ，可以透過 <a href="http://wikipedia.org/wiki/Promise_%28programming%29">promise pattern</a> 達成 callbacks chaining 來解決。</p>
+
+<p>它的文件寫得也是不錯： http://promisekit.org/introduction/</p>
+  <span class="item__footer"><a href="http://blog.ios-developers.io/wrapping-your-callbacks-in-promises/">ios-developers.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rOb6wS3"></a>
+  
+  <h3 class="item__title"><a href="http://www.infoq.com/cn/articles/rethinking-mvc-mvvm">被误解的 MVC 和被神化的 MVVM in iOS development</a></h3>
+    <p>同意，有些人會說 MVVM 可以解決自己 MVC 架構下肥大 ViewController 問題，但我非常懷疑，如果在 MVC 架構下你的 ViewController 就是肥大的，那麼只是因為加上一層稀薄的 ViewModel 幫助實在很小啊。</p>
+
+<p>大家的好朋友 objc.io 是大家認識 MVVM 的好起點 <a href="https://www.objc.io/issues/13-architecture/mvvm/">Introduction to MVVM</a>。想要感受跟 FRP 風格的 MVVM 實作方式，可以參考這個 GitHub repo <a href="https://github.com/artsy/eidolon">artsy/eidolon</a>。</p>
+
+<p>註：我個人寫 ViewModel 主要是為了測試。</p>
+  <span class="item__footer"><a href="http://www.infoq.com/cn/articles/rethinking-mvc-mvvm">infoq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="YCU2CF9"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/rallat/android-development-like-a-pro?utm_source=Android+Weekly&amp;utm_campaign=d55b4c77a9-Android_Weekly_173&amp;utm_medium=email&amp;utm_term=0_4eb677ad19-d55b4c77a9-337958501">Android development like a pro</a></h3>
+    <p>這是 Twitter 的 Android 工程師給的一個 talk，一起手就先給 Fragment 一記重拳，後面花了很大篇幅仔細地介紹他是怎麼實作 MVP 架構的以及他感受的優缺點，偏重在 Scalable, Maintainable 及 Testability，會是有一點經驗的工程師很好的進階材料。</p>
+
+<p>在投影片的後段，作者也試做了 VIPER 版本的架構，這兩個架構都可以在 GitHub repo <a href="https://github.com/rallat/EffectiveAndroid">rallat/EffectiveAndroid</a> 看到。</p>
+
+<p>延伸：在更早之前，Coursera 也提出了非常類似 MVVM + VIPER 架構方案，可以參考他們的 Effective Android Architecture <a href="https://www.youtube.com/watch?v=ATjeQnPA9t0">研討會影片</a>、<a href="https://speakerdeck.com/richk/effective-android-architecture">投影片</a> 還有 source code <a href="https://github.com/richk/CourseraDemoApp">richk/CourseraDemoApp</a></p>
+  <span class="item__footer"><a href="https://speakerdeck.com/rallat/android-development-like-a-pro?utm_source=Android+Weekly&amp;utm_campaign=d55b4c77a9-Android_Weekly_173&amp;utm_medium=email&amp;utm_term=0_4eb677ad19-d55b4c77a9-337958501">speakerdeck.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Jwfb471"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=daV0F9Tal_w">你所不知道的 C 語言：指標篇</a></h3>
+    <p>相信很多訂閱者在大學的時候都<strong>好像</strong>學過 C。這是 <a href="https://twitter.com/jserv">jserv</a> 在成大開的課，講得超好！  (竟然還有 <a href="https://www.facebook.com/JservFans">Jserv 與他愉快的小夥伴</a> 粉絲頁可以互動)</p>
+
+<p>這堂課的共筆在 hackpad 上 <a href="https://embedded2015.hackpad.com/C-s0rlzR8wVtm">你所不知道的C語言：指標篇</a>，最後我想分享一句 jserv 在課堂上講的一句話「很多人之所以 C 語言學不好，是抽象想像力不好」 #嗆我嗆夠了沒</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=daV0F9Tal_w">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="G5YnKGS"></a>
+  
+  <h3 class="item__title"><a href="http://www.toptal.com/go/go-programming-a-step-by-step-introductory-tutorial">Go 語言非常適合寫平行程式</a></h3>
+    <p>這篇適合已有其他電腦語言經驗者來讀, 不難看出 go 有很強的平行化處理能力。他用 goroutines 的方法, 讓多個 workers 同時執行同一個 function, 從 CPU 的角度來講, 他可以自動分到不同 cores 上執行。</p>
+
+<p>如果想進一步學 go 文法和內建程式庫, 可以利用<a href="https://gobyexample.com/">範例來學習</a>, 裡面當你看到土撥鼠 icon 時, 可以點擊它進到 Go Playground, 直接編輯和執行。</p>
+
+<p>至於, 已經有這麼多種語言, 為何要再多學一種? 我喜歡它的安裝和執行方式簡潔。還有沒有 C 或 C++ 難懂, 但可以跑得跟 C++ 一樣快。</p>
+  <span class="item__footer"><a href="http://www.toptal.com/go/go-programming-a-step-by-step-introductory-tutorial">toptal.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="YcOR5dI"></a>
+  
+  <h3 class="item__title"><a href="https://meteorhacks.com/learn-kubernetes-the-future-of-the-cloud">Kubernetes 會成爲雲端主流配置 containers 工具嗎?</a></h3>
+    <p>當你學會 <a href="https://www.docker.com/">Docker</a> 後, 下一個需要學的工具就是如何在雲端配置你的 docker images?</p>
+
+<p>您一則自己用 <a href="https://www.vagrantup.com/">Vagrant</a> 或 Docker 架設一個 <a href="http://kubernetes.io/">Kubernetes</a> cluster 在自己的電腦上測試, 或在 Google 雲端的 <a href="https://cloud.google.com/container-engine/">Google Container Engine</a> 或 Red Hat 的 <a href="https://www.openshift.com/">OpenShift 3</a> 直接開個 Kubernetes 環境來使用。</p>
+
+<p>這篇文章簡單介紹了 Kubernets 的基本成員 pod, service, volume, 以及 replica controller, 最新版 <a href="http://kubernetes.io/v1.1/index.html">1.1</a> 還增加了 job 和 horizontal pod autoscaler (hpa) 等功能, 讓 containers 的管理變得很簡單, 而且真的很好用。只要照着程式範例做一次, 你就可以很快學會怎麼使用 Kubernetes!</p>
+  <span class="item__footer"><a href="https://meteorhacks.com/learn-kubernetes-the-future-of-the-cloud">meteorhacks.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SG7ubUk"></a>
+  
+  <h3 class="item__title"><a href="http://blogs.wsj.com/moneybeat/2015/10/28/bitbeat-microsoft-to-offer-ethereum-based-services-on-azure/">微軟也在玩下一代比特幣 - Ethereum</a></h3>
+    <p>大家一定會覺得很奇怪, 這裡不是介紹跟程式開發相關的文章嗎, 爲何提比特幣呢？<a href="https://en.wikipedia.org/wiki/Vitalik_Buterin">Vitalik Buterin</a>, 我想介紹的跟這位 21 歲的程式設計師兼作家有關。他讓我覺得程式設計師只能找個工作寫寫網站, 幫公司寫寫 apps, 過了一陣子所學的語言又過時了, 重頭再來一次, 這個世界, 從來沒有讓程式設計師主導過任何一件事嗎？</p>
+
+<p>這篇新聞, 不是來自於科技網站, 它是來自華爾街郵報。雖然廣告性質居多, 但不難看出這個年輕人, 將 (或應該說, 已經) 改變整個世界, 他 17 歲開始玩比特幣, 寫 Bitcoin Weekly (跟我們一樣), 但後來發明了 <a href="https://www.youtube.com/watch?v=TDGq4aeevgY">Ethereum</a>, 將比特幣的技術 (blockchain) 發揮到極致, 讓這個技術不只能用在虛擬幣, 還可以寫程式, 發展出所謂的 smart contracts, 連微軟都跟它靠攏 (難得一次微軟跑最快), 其他 J.P. Morgan Chase, 花旗銀行等大公司, 都紛紛投入研究。</p>
+
+<p>我指的是程式設計師就不能改變世界嗎? 你還想錯過下一個 Google 還是 Facebook 嗎? 他 21 歲而已, 你還在等什麼?</p>
+  <span class="item__footer"><a href="http://blogs.wsj.com/moneybeat/2015/10/28/bitbeat-microsoft-to-offer-ethereum-based-services-on-azure/">wsj.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/15/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-11-09'>November 9th 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>16 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/17/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-11-23'>November 23rd 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

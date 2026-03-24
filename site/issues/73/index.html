@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 73 Merge branch &#39;develop&#39;</title>
+<meta name="description" content="本期內容涵蓋 Ethereum, Node.js, Jenkins, JavaScript, React.js, Progressive Web App, Functional Programming, PostgreSQL, Go">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Ethereum, Node.js, Jenkins, JavaScript, React.js, Progressive Web App, Functional Programming, PostgreSQL, Go'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/73/index.html#start">
+        Issue 73 Merge branch &#39;develop&#39; &nbsp;<i><time class='published' datetime='2016-12-19'>December 19th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-211062"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.douban.com/people/vinta/">The Player of Games</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="1u2fFkC"></a>
+  
+  <h3 class="item__title"><a href="http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/">Scanning Live Ethereum Contracts for the &quot;Unchecked-Send&quot; Bug</a></h3>
+    <p>智能合約安全嗎？我也常被問到，怎麼寫智能合約才安全？其實是因為一般軟體處理的是 data (資料)，智能合約處理的是 value (價值)；因此，小小的錯誤，就有可能造成非常大的損失。因此正確的程式寫法或安全的設計模式 (<a href="http://medium.com/@billgleim/contract-security-design-patterns-and-reputation-74d455162adb">Secure Design Patterns</a>)，在智能合約裡變得更加重要。不巧的是，剛開始 <a href="https://solidity.readthedocs.io/en/develop/">Solidity</a> 的範例程式，也跟 C++ 的教科書一樣，為了方便讀者學習，拿掉許多檢查錯誤的程式碼。這樣的錯誤示範，更嚴重的影響到後來陸續開發出來的合約，<a href="https://github.com/slockit/DAO">theDAO</a> 是最典型一個有程式漏洞的智能合約，它也是有史以來最大的眾籌募資 (1.5 億美金)，但沒多久就被駭客偷走了 5,300 萬美元。</p>
+
+<p>這篇文章，簡單的介紹什麼是有問題的程式寫法，當然也建議怎麼寫最好。目前這種問題的解決方法，就是利用工具來檢查這些錯誤的寫法，找出程式裡的安全漏洞，還有研究怎麼樣的設計模式，能避免類似的問題再次發生。</p>
+  <span class="item__footer"><a href="http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/">hackingdistributed.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NO3MzrN"></a>
+  
+  <h3 class="item__title"><a href="https://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools">Debugging Node.js in Chrome DevTools</a></h3>
+    <p>介紹大家一個簡單易用的 <a href="https://nodejs.org/en/">node.js</a> 開發、除錯以及 profiling 工具，<a href="https://www.npmjs.com/package/devtool">devtool</a>。它功能之多，真的很難用言語形容。你們可以自己下載下來用用看，就知道它真的有多好用了。</p>
+  <span class="item__footer"><a href="https://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools">svbtle.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7T1XEtF"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/garbage-collection/jenkins-pipelines-what-i-wish-i-knew-starting-out-6e3d4eb2ff5b">Jenkins Pipelines: What I Wish I Knew Starting Out</a></h3>
+    <p>初學 <a href="https://jenkins.io">Jenkins</a> 者可能會覺得門檻很高，尤其是新的 2.0，最好用的應該是 <a href="https://jenkins.io/doc/book/pipeline/getting-started/">Jenkins Pipeline</a> 功能，但又要學一個語言叫 <a href="http://groovy-lang.org">Groovy</a> 才能使用。</p>
+
+<p>這篇文章介紹為何他們選擇 Jenkins pipelines 當他們連續部署 (continuous deployment) 的工具，在使用過程中，他們也踩了不少雷。因此藉由分享他們的使用經驗，希望能省下大家學習與嘗試錯誤的時間。如果大家想更近一步的學習，可以從 <a href="https://jenkins.io/doc/pipeline/examples/">Pipeline Examples</a> 找到更多範例與樂趣。</p>
+  <span class="item__footer"><a href="https://medium.com/garbage-collection/jenkins-pipelines-what-i-wish-i-knew-starting-out-6e3d4eb2ff5b">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="AtN7vFR"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf">The Inner Workings Of Virtual DOM</a></h3>
+    <p>Preact 是 lightweight 版本的 React library ，本篇文章會透過流程圖一步一步仔細探討 Preact 在 create 、 update 、 remove DOM 的流程，以及跟 React lifecycle 的關聯。</p>
+  <span class="item__footer"><a href="https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6rejyXN"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/ragingwind/learning-pwa">Learning Progressive Web Apps Step by Step</a></h3>
+    <p>Progressive Web App 透過 <a href="https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/#app_shell">App Shell</a> 的概念讓使用者在任何環境都可以順暢瀏覽網頁，這裡提供一個懶人包，除了介紹外，也有幾個 boilerplates 與 generators 方便玩玩第一個 PWA 網頁。</p>
+  <span class="item__footer"><a href="https://github.com/ragingwind/learning-pwa">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dF8z5Go"></a>
+  
+  <h3 class="item__title"><a href="https://webkit.org/blog/7099/html-interactive-form-validation/">HTML Interactive Form Validation</a></h3>
+    <p>HTML5 的 form validation 終於被實作在 Webkit 上，將來的 Safari 瀏覽器終於也可以使用原生的 validation attributes 以及 JavaScript API ，文內提供幾個簡單的例子以及 DEMO 。</p>
+  <span class="item__footer"><a href="https://webkit.org/blog/7099/html-interactive-form-validation/">webkit.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Fxa55yW"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@xilefmai/efficient-javascript-14a11651d563#.dbjhxrsts">Writing Efficient JavaScript</a></h3>
+    <p>本篇文章提出了一些 rule ，經由 JIT compiler 的角度探討，透過確保 compiler  正確執行一些 code optimization ，以及撰寫更有效率的指令，來提升程式的效能，概念都非常簡單，值得一讀。</p>
+  <span class="item__footer"><a href="https://medium.com/@xilefmai/efficient-javascript-14a11651d563#.dbjhxrsts">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="qZ3hjww"></a>
+  
+  <h3 class="item__title"><a href="http://www.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt">Functional Programming Patterns</a></h3>
+    <p>非常值得一看的 Slide，重新把 functional programming 的基礎再重新走過一次。搭配一些簡單的範例，讓你更了解 functional programming 的優點。投影片以 typed language 作為主要範例，所以 clojure 或 javascript 的朋友如果沒有 haskell 或相關家族的語言經歷，可能會沒那麼容易體會。</p>
+  <span class="item__footer"><a href="http://www.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt">slideshare.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PqoDMef"></a>
+  
+  <h3 class="item__title"><a href="https://auth0.com/blog/how-saml-authentication-works/">How SAML Authentication Works</a></h3>
+    <p>企業中常常使用 SAML 作為 Single Sign-On (SSO) 的協定。文中介紹了 SAML 的優點，並且簡單講解了 SAML 是如何運作。</p>
+
+<p>其實只需要看前面說明的部分，就可以了解 SAML 的運作，後面的篇幅在介紹如何使用 Auh0 的 SAML 功能。
+有在尋找 Single Sign-On 解法的朋友也可以參考 <a href="http://openid.net/connect/">OpenID Connect</a>，不是之前曾經熱門過一陣子的 openid 2.0，他們是不同的協定。openid connect 是基於 Oauth2 加上了 JWT (JSON Web Token)，也可以達成 SSO 的功能。想了解更多的朋友，我會在 <a href="http://golang.kktix.cc/events/gtg19">GTG19 (Golang Taiwan Gathering #19)</a> 有更多的介紹。</p>
+  <span class="item__footer"><a href="https://auth0.com/blog/how-saml-authentication-works/">auth0.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tz2IDXP"></a>
+  
+  <h3 class="item__title"><a href="http://www.cybertec.at/trying-out-postgres-bloom-indexes/">Trying out Postgres Bloom indexes</a></h3>
+    <p>Postgres 9.6 新增了一個功能叫 Bloom indexes，可以先閱讀過前一篇 <a href="http://www.cybertec.at/so-what-are-bloom-indexes-for-postgres/">So what are Bloom indexes for Postgres?</a> 來了解其作用。</p>
+
+<p>這篇主要真的實驗了 Bloom indexes 的效果。就這篇的測試資料來說，結果算是很不錯。但在 summary 裡面有提到一些問題，所以使用上還是有要注意的地方。</p>
+  <span class="item__footer"><a href="http://www.cybertec.at/trying-out-postgres-bloom-indexes/">cybertec.at</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6FzB6md"></a>
+  
+  <h3 class="item__title"><a href="https://blog.gopheracademy.com/advent-2016/saga-go-dependency-management">The Saga of Go Dependency Management</a></h3>
+    <p>說明了 golang 套件管理的發展，以及目前成立了一個套件管理委員會。說明委員會的任務，還有他們第一次開會完的一些目標。</p>
+
+<p>看起來 golang 的管理套件會採取和其他現代化的套件管理工具類似的做法。像是 SemVer、扁平的相依性、兩個檔案，一個作為套件版本號，另一個作為 lock 檔案。</p>
+
+<p>這篇蠻適合剛接觸 golang 的新手了解目前 golang 發展的情況。</p>
+  <span class="item__footer"><a href="https://blog.gopheracademy.com/advent-2016/saga-go-dependency-management">gopheracademy.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="g7ZzvGw"></a>
+  
+  <h3 class="item__title"><a href="https://blog.prototypr.io/for-user-engagement-forget-flow-its-all-about-fiero-80500e4c1d8e#.2qgyggsde">For User Engagement, Forget Flow. It’s All About Fiero</a></h3>
+    <p>Flow 是使用者體驗裡面常提到的，通常包括四個元素。</p>
+
+<ol>
+<li>明確的目標</li>
+<li>回饋</li>
+<li>挑戰與鍛鍊的平衡</li>
+<li>低風險的失敗</li>
+</ol>
+
+
+<p>但是作者說明前兩個很容易，但是一般對於非遊戲化的系統，要做到遊戲化根本上缺少了第三項。
+所以在嘗試遊戲化的過程中，你很難達到 flow 的設計精神。</p>
+
+<p>作者說，重要的其實是 Fiero (成就感)，當你越過任何難過時候達成的感受，才是讓你不斷努力的原因。
+下次在你的設計中，試著嘗試加入一些成就感的體驗吧。</p>
+  <span class="item__footer"><a href="https://blog.prototypr.io/for-user-engagement-forget-flow-its-all-about-fiero-80500e4c1d8e#.2qgyggsde">prototypr.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VUI0vvU"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/webpack/webpack-performance-budgets-13d4880fbf6d#.wxh0hbbxo">Webpack Performance Budgets</a></h3>
+    <p></p>
+  <span class="item__footer"><a href="https://medium.com/webpack/webpack-performance-budgets-13d4880fbf6d#.wxh0hbbxo">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/72/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-12-12'>December 12th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>73 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/74/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-12-26'>December 26th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

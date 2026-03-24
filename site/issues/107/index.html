@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 107 先講求效果，再講求不傷身體</title>
+<meta name="description" content="本期內容涵蓋 iOS, React Native, Go, Machine Learning, API Design, CSS, DevOps, Microcontroller">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, React Native, Go, Machine Learning, API Design, CSS, DevOps, Microcontroller'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/107/index.html#start">
+        Issue 107 先講求效果，再講求不傷身體 &nbsp;<i><time class='published' datetime='2017-11-27'>November 27th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-341000"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Wool</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 徵 Android Developer！救我！</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="fUiXk75"></a>
+  
+  <h3 class="item__title"><a href="https://andresinaka.github.io/Transformer/">Transformer</a></h3>
+    <p>一個方便的線上工具，可以讓你把格式化的文字轉成 <code>NSAttributedString</code>，更棒的是它同時提供 Swift 4 跟 Objective-C 版本。雖然目前的功能還有點少，但至少能幫忙提供一個基礎的 NSAttributedString，方便開發者後續修改。</p>
+
+<p>它的<a href="https://github.com/andresinaka/Transformer">原始碼在這裏</a>，有興趣的人可以幫忙加上更多功能！</p>
+  <span class="item__footer"><a href="https://andresinaka.github.io/Transformer/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lQFqv0G"></a>
+  
+  <h3 class="item__title"><a href="https://hellogithub.com/">HelloGitHub – 分享 GitHub 上入门级、有趣的开源项目</a></h3>
+    <p>就如同標題講的，這個網站就是搜集並定時分享在 GitHub 上有趣的專案，我想到就會來看一下，有時候會發現一些好玩的東西。不過可惜的是，它好像沒有提供「訂閱」的功能，不然就方便多了。</p>
+  <span class="item__footer"><a href="https://hellogithub.com/">hellogithub.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="pZubMrR"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/dblock/fui">fui: Find unused Objective-C imports.</a></h3>
+    <p>現在手上的案子已經有一點年紀，所以被很多人修改過，app 提供的功能也跟一開始的設想有很大的出入。所以可以想見的，遺留卻沒用到的程式碼跟資源檔越來越多，整個專案越來越肥，啟動速度也越來越慢，這迫使我花了一點時間好好的處理了一下這個老案子。</p>
+
+<p>我用的就是這個 <code>fui</code>，它幫我找出許多早已不再被引用到的程式碼，一個個順藤摸瓜下去又找出一大串無用的程式碼，最後的結果讓我很滿意，砍掉很多舊檔案，包出來的 app 體積也比之前小很多。不過要注意的是，工具找出來的結果不一定百分百正確，你最好要一個個看過，並記得要用版本控制做好備份。</p>
+
+<p>接下來我會刪除沒用到的 frameworks / libraries 跟資源檔（字體、圖片、影音），順便提供幾個工具給各位參考：</p>
+
+<ul>
+<li><a href="https://github.com/onevcat/FengNiao">FengNiao: A command line tool for cleaning unused resources in Xcode.</a></li>
+<li><a href="https://github.com/tinymind/LSUnusedResources">LSUnusedResources: A Mac App to find unused images and resources in XCode project.</a></li>
+<li><a href="https://imageoptim.com/mac">ImageOptim — better Save for Web</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/dblock/fui">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JassMEU"></a>
+  
+  <h3 class="item__title"><a href="http://www.jianshu.com/p/17cfac53578a">iOS 开发是否要采用 React Native? - 简书</a></h3>
+    <p>React Native 已經推出大約兩年了，我自己還沒寫過，倒是聽到不少人或公司開始嘗試使用它，甚至有些新創公司也不找 native app developer 了，就直接指名要找會寫 React Native 的。到底該不該用 RN 開發呢，這篇文章整理了幾個不錯的思考點，值得開發者或公司決策者拿來參考參考。</p>
+  <span class="item__footer"><a href="http://www.jianshu.com/p/17cfac53578a">jianshu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="MLtMput"></a>
+  
+  <h3 class="item__title"><a href="https://www.hackingwithswift.com/awards">Swift Community Awards</a></h3>
+    <p>這就不多說了，滿滿的資源啊！就算現在看不完，也要加到書籤等著有空慢慢看！</p>
+  <span class="item__footer"><a href="https://www.hackingwithswift.com/awards">hackingwithswift.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="CEnnTgt"></a>
+  
+  <h3 class="item__title"><a href="https://commandcenter.blogspot.tw/2017/10/the-upspin-manifesto-on-ownership-and.html">command center: The Upspin manifesto: On the ownership and sharing of data</a></h3>
+    <p>Rob Pike 是我相當尊敬的大師之一，不僅僅是因為他有參與到 Golang 的開發與許多規格的定義，更重要的是 Rob Pike 有著相當清楚而有條理的思路．</p>
+
+<p>Upspin (一個幫助人分享檔案的 Golang 套件) 是由 Rob Pike 創立的點子，這篇文章敘述著當初為什麼要做這樣的軟體？ 為什麼要另外開發一套檔案的分享工具？ 檔案的分享究竟有多麼重要？</p>
+
+<p>我一直認為，一個好的 Software Engineer 更是一個好的文章作者．他要能夠在他的程式裡面敘述出一個他要表達的故事（想法），他想要解決問題的脈絡．</p>
+
+<p>參考文章：</p>
+
+<ol>
+<li><a href="https://buff.ly/2zA1OtT">Go Proverbs</a></li>
+<li><a href="https://buff.ly/2zoN7ZN">The Best Programming Advice I Ever Got" with Rob Pike</a></li>
+</ol>
+  <span class="item__footer"><a href="https://commandcenter.blogspot.tw/2017/10/the-upspin-manifesto-on-ownership-and.html">blogspot.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bVcsUSP"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/farslan/go-at-digitalocean">Go at DigitalOcean</a></h3>
+    <p>Vim-go 作者 Faith Arslan 解釋 digital ocean 為何選擇 Go 而且也介紹他們如何使用。並且結合一般常用的工具。很實用的文章。 以下節錄一些:</p>
+
+<ul>
+<li>使用 monorepo (call: cthulhu) 來管理公司的 standard libraries ．有統一個工具，也有各個團隊必須的工具 （當然也有開發中的)</li>
+<li>剛報到的新人，只要 clone 這個 repo 加上他們有開發一個 DirEnv ( Hacking GoPath in zsh, bash..) 讓每個人一開始馬上就可以 build code</li>
+<li>Vendoring 還是使用 govendor (並且有解決 MacOS 的 case-insensetive 問題), dep 還在評估</li>
+<li>使用 Drone 做 CI/CD</li>
+<li>自己開發出 gta (Go Test Auto) 系統，讓 go build 從 20 min -> 2~3 mins (是一個可以抓出變動的目錄然後指編譯跟測試有變動的部分)</li>
+</ul>
+
+
+<p>Digital Ocean 的 custom 工具都好想要啊..</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/farslan/go-at-digitalocean">speakerdeck.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="fOY0VvE"></a>
+  
+  <h3 class="item__title"><a href="https://www.slideshare.net/EvansLin/kubernetes-vs-mesos/EvansLin/kubernetes-vs-mesos">Kubernetes v.s. mesos</a></h3>
+    <p>這篇投影片整理了 mesos 與 Kubernetes 的一些比較． 內容有包含:</p>
+
+<ul>
+<li>這兩年的發展</li>
+<li>基本架構圖</li>
+<li>整理最久的就是近兩年的版本功能發表的時間軸</li>
+</ul>
+
+
+<p>希望能幫助一些人</p>
+  <span class="item__footer"><a href="https://www.slideshare.net/EvansLin/kubernetes-vs-mesos/EvansLin/kubernetes-vs-mesos">slideshare.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KFhwSNn"></a>
+  
+  <h3 class="item__title"><a href="https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/?utm_content=buffer25008&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">Announcing GoLand (Former Gogland) EAP 18: Final Product Name, Templates Support and More | GoLand Blog</a></h3>
+    <p>Jetbrain 出了很多好用的 IDE ，他們將他們的 Go IDE 原名 Gogand 後來正名為 GoLand.</p>
+
+<p>不過講回來 vscode 真的越來越好用，對於 Golang 支援也越來越好了．下一版更新還會內建 <code>go build</code>  跟 <code>go install</code> 真的是太方便了．</p>
+  <span class="item__footer"><a href="https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/?utm_content=buffer25008&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">jetbrains.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9SVoqQV"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/moocs-DLS-NN-DL/">[Coursera] Deep Learning Specialization: Neural Networks and Deep Learning (一）</a></h3>
+    <p>本來就想把 Deep Learning 學一下， 因緣際會下看到這一篇 <a href="https://medium.com/@ywchen88/andrew-ng-deep-learning-specialization-%E8%AA%B2%E7%A8%8B%E6%84%9F%E6%83%B3-1-3-6acf4d6c5c82">Coursera 學習心得</a> 試讀了七天，除了提供 Jupyter Notebook 之外，作業也都相當有趣，就開始繼續學了． 目前進度到 Week2 相當推薦有程式設計一點點基礎就可以來學．裡面的數學應該還好． 學習的過程中還可以學會 Python 裡面的 numpy 如何使用，因為裡面主要就是要教導你如何使用 numpy 來兜出 Neural Network ．</p>
+
+<p>真的相當有趣的基礎課程，基本上上完了就等於把o’reilly deep learning 的整本書都上完．並且有實際透過 numpy 寫完部分的 DNN 的分類器的作業．</p>
+
+<ul>
+<li><a href="http://www.evanlin.com/moocs-DLS-NN-DL/">Week 1-2: Introduction to deep learning &amp; Neural Networks Basics</a></li>
+<li><a href="http://www.evanlin.com/moocs-DLS-NN-DL2/">Week 3: Shallow neural networks</a></li>
+<li><a href="http://www.evanlin.com/moocs-DLS-NN-DL3/">Week 4: Deep Neural Networks</a></li>
+</ul>
+  <span class="item__footer"><a href="http://www.evanlin.com/moocs-DLS-NN-DL/">evanlin.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Ep2bZm8"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/dailymotion-engineering/a-brief-history-of-apis-at-dailymotion-3c2c16001717">A brief history of APIs at Dailymotion</a></h3>
+    <p>每天有百萬次 API 呼叫的 Dailymotion 如何 scale 他們的 API performance，像是解決 over-fetching 跟  chattiness 問題。</p>
+
+<p>後面還有一小段是在介紹如何 scale API Team。</p>
+  <span class="item__footer"><a href="https://medium.com/dailymotion-engineering/a-brief-history-of-apis-at-dailymotion-3c2c16001717">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PHpuQ1W"></a>
+  
+  <h3 class="item__title"><a href="https://stylable.io/">CSS for components</a></h3>
+    <p>Wix 提出專為 Component 設計的 CSS preprocessor。</p>
+  <span class="item__footer"><a href="https://stylable.io/">stylable.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Igm3Jzh"></a>
+  
+  <h3 class="item__title"><a href="https://www.infoq.com/news/2017/11/facebook-releases-reason-3">Facebook Overhauls ReasonML Syntax in Reason 3</a></h3>
+    <p>ReasonML 正式邁入第三版，加入更多迎合 JS 開發人員的語法。</p>
+
+<p>像是 labeled arg 的 shorhand，或是更像 JS 的 function call。</p>
+  <span class="item__footer"><a href="https://www.infoq.com/news/2017/11/facebook-releases-reason-3">infoq.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="jOURx3z"></a>
+  
+  <h3 class="item__title"><a href="https://seashells.io/">Seasells.io</a></h3>
+    <p>這個網站可以讓你快速的把命令列(CLI) 的輸出變成一個網頁。 只要把輸出透過 netcat 上傳，就會產生一個會自動更新的網頁，可以拿來看 watch 的輸出，或是把程式執行的結果分享給別人。當然也可以傳 <a href="https://github.com/klange/nyancat">nyancat</a> 或 <a href="https://github.com/erkin/ponysay">ponysay</a> 給別人。</p>
+  <span class="item__footer"><a href="https://seashells.io/">seashells.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8jsA0t9"></a>
+  
+  <h3 class="item__title"><a href="https://distill.pub/2017/feature-visualization/">Feature Visualization</a></h3>
+    <p>很多人覺得 deep learning 是一個魔法黑盒子。這篇 google 的研究把 Feature 化為圖像。讓我們能一窺黑盒子的內部，讓我們對於 deep learning 又多了一點點的了解。</p>
+  <span class="item__footer"><a href="https://distill.pub/2017/feature-visualization/">distill.pub</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5rQduvn"></a>
+  
+  <h3 class="item__title"><a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">Spotify Scrum</a></h3>
+    <p><a href="https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/">part 2</a>
+Spotify 描述了他們怎麼跑 Scrum。他們跑的不是教科書上的標準 Scrum。他們捨棄了許多標準項目，像是估時和 burndown chart等，只保留有助溝通和改進的像是 daily standup和 retrospective 等。有興趣的可以看看他們怎麼讓超過1000個工程師一起跑scrum。</p>
+  <span class="item__footer"><a href="https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/">spotify.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1lhuMHh"></a>
+  
+  <h3 class="item__title"><a href="https://jaycarlson.net/microcontrollers/">Amazing 1$ microcontrollers</a></h3>
+    <p>介紹了 21 種價格低於一元美金的微控制器。鉅細彌遺的介紹了每一個微控制器的 IO，時脈等特色，還有編譯器，開發環境與效能的分析。 Maker 們絕對不能錯過。</p>
+  <span class="item__footer"><a href="https://jaycarlson.net/microcontrollers/">jaycarlson.net</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="NzFKgFF"></a>
+  
+  <h3 class="item__title"><a href="https://www.toothycat.net/~hologram/Turing/index.html">魔法風雲會是圖靈完備的 (Turing complete) </a></h3>
+    <p><a href="https://zh.wikipedia.org/wiki/%E4%B8%87%E6%99%BA%E7%89%8C">魔法風雲會 (Magic: the Gathering)</a> 是一款由<a href="https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AF%9F%C2%B7%E5%8A%A0%E8%8F%B2">數學教授</a>發明的集換式卡片遊戲。有人證明了可以用這款遊戲製造出一個圖靈機。</p>
+
+<p>最近即將推出的新系列有不少和程式有關的梗，像是 <a href="https://shop.tcgplayer.com/magic/unstable/hot-fix">hot fix</a> 和 <a href="https://shop.tcgplayer.com/magic/unstable/the-grand-calcutron">The Grand Calcutron</a>。</p>
+  <span class="item__footer"><a href="https://www.toothycat.net/~hologram/Turing/index.html">toothycat.net</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/106/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-11-20'>November 20th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>107 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/108/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-12-04'>December 4th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

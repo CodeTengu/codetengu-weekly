@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 64 奧卡姆剃刀法則：因為需要改的地方太多了，那就改天吧</title>
+<meta name="description" content="本期內容涵蓋 Python, iOS, Ruby, Go, RESTful API, RPC, Search, UX, JavaScript, ECMAScript 6, Microservice, Node.js, Functional Programming">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, iOS, Ruby, Go, RESTful API, RPC, Search, UX, JavaScript, ECMAScript 6, Microservice, Node.js, Functional Programming'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/64/index.html#start">
+        Issue 64 奧卡姆剃刀法則：因為需要改的地方太多了，那就改天吧 &nbsp;<i><time class='published' datetime='2016-10-17'>October 17th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-189568"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob">We Are Legion (We Are Bob)</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <a href="https://www.youtube.com/watch?v=u7rSnc7mYC4">妙蛙種子破音</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - GCP 好用嗎？</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="f07mDWF"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/asynchronous-python-45df84b82434">Asynchronous Python</a></h3>
+    <p>這篇文章簡單介紹了異步程式的概念，以及異步程式中的技術與 paradigms，並帶出許多常見的關鍵字，例如 greenlets、event loop、callbacks、coroutines 等等。</p>
+
+<p>異步程式並不難，但它是許多過去技術的結合，所以我們在介紹它時，常會扯到太多相關的東西；沒有相關背景知識的人會因此卻不，因為一上來就聽不懂了。這篇文章很適合當起點。看完了大概還是不會寫異步程式，但可以藉此知道一些基礎知識，把學習曲線降低後，就不會被其他文章搞得昏頭轉向。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/asynchronous-python-45df84b82434">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nC2LxsW"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d">The decline of Stack Overflow</a></h3>
+    <p>你看 Stack Overflow 嗎？這是個蠢問題，現在哪個寫程式的人不看 Stack Overflow。但你有在上面問過問題嗎？你有在上面<strong>解答</strong>過別人的問題嗎？</p>
+
+<p>根據 2015 年六月的數據，Stack Overflow 目前有超過四十萬註冊使用者，以及將近十萬個問題。但根據 <a href="http://www.webcitation.org/6NeNOY5oR">2013 年的研究</a>，77% 的使用者只問過一個問題，65% 只回答過一個問題，只有 8% 使用者回答超過五個問題。這個參與數據對一般網站是非常糟糕的數據，作者認為代表 Stack Overflow 的衰敗。</p>
+
+<p>就我自己的經驗，Stack Overflow 確實在許多方面有問題。它的 single sign-on 機制非常糟糕（雖然現在似乎修好了），新使用者登入之後的動線也非常不明確。即使你找到了可以回答的問題，Stack Overflow 的規則也會讓你難以完整、正確地回答，而容易被其他使用者搶快。重複的回答，即使更完整或更正確，只要速度輸人，就很容易得到負面評論、甚至 downvote。沒有得到 accepted 回答的舊問題也缺乏管理，很多問題其實早已有好的回答，但只要發問人沒有回來 accept，它們永遠都會維持 unanswered 狀態。</p>
+
+<p>如果你想問問題，情況也不太好。站上已有的問題數量很容易讓 moderators 找到相似的舊問題，進而將你的問題提報為 duplicate——即使它們並不是。Stack Overflow 完全民主、公開、存粹只靠分數決定使用者權力的規則，讓 moderators 完全不需相關領域經驗，也可以審查所有文章。只要有規則，就會有玩弄規則的人。這兩個因素結合起來，使得 Stack Overflow 充斥著專業不足，又擁有過大權力、無法制衡的 <em>privileged trolls</em>。</p>
+
+<p>當然，Stack Overflow 仍然是非常成功的網站。他為我們帶來極大量、非常有用的資源，原文下面的留言有非常多的成功案例，許多有名氣的使用者也指出它在許多方面仍然做得非常好。這些都是真的，毫無疑問。最近新推出的<a href="https://blog.stackoverflow.com/2016/07/introducing-stack-overflow-documentation-beta/">文件功能</a>也能夠活用這些零碎資源，組織成更有系統的知識。這也是好事。但它最原本的目的
+——問答網站——也似乎確實走到了瓶頸，那套 Atwood <a href="https://blog.codinghorror.com/the-gamification/">引以為傲</a>、從遊戲發想的完全公開、民主、有機、自治系統，在 scaling 上也顯現疲態，似乎需要重構。我們需要 Stack Overflow，過去如此，現在如此，未來也仍然如此。但它並非完美，仍然需要反省與改善。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d">hackernoon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="C79f2Xq"></a>
+      <a href="https://uxdesign.cc/a-critical-analysis-of-the-ios-10-lockscreen-experience-726ddfba3c1a"><img src="original_ratio_extra_large_69dd2b80-f86a-440d-844d-1869e0fbb05d.png" title="A critical analysis of the iOS 10 lockscreen experience" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://uxdesign.cc/a-critical-analysis-of-the-ios-10-lockscreen-experience-726ddfba3c1a">A critical analysis of the iOS 10 lockscreen experience</a></h3>
+    <p>iOS 10 最大的改變應該是 lock screen 吧，畢竟它是所有使用者最常看到的畫面。作者詳細分析了 iOS 9 與 10 裡 lock screen 的差別，並評價各種操作模式的優劣。幾個教訓：</p>
+
+<ul>
+<li>在可以水平捲動的視窗中加上水平滑動手勢不是個好主意。</li>
+<li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">尼爾森啟發法</a>告訴我們：
+
+<ul>
+<li>好的錯誤訊息很重要，但以細心設計避免錯誤產生則更為優秀。</li>
+<li>使用者不應需要理解不同字詞、狀況、動作是否代表同一件事。</li>
+</ul>
+</li>
+<li>在不同 z-index 中加上多餘的訊息，會導致過度複雜的概念模型。</li>
+<li>過少的視覺提示與標誌可能造成錯誤使用。</li>
+</ul>
+  <span class="item__footer"><a href="https://uxdesign.cc/a-critical-analysis-of-the-ios-10-lockscreen-experience-726ddfba3c1a">uxdesign.cc</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cHaT2qb"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/ruby-vs-python-the-definitive-faq-5cb0046292be">Ruby vs Python, the Definitive FAQ</a></h3>
+    <p>該選 Python 還是 Ruby？這絕對是我看過最中肯最客觀的比較文。不服來戰。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/ruby-vs-python-the-definitive-faq-5cb0046292be">hackernoon.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2Ci3MXX"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=4rw_B4yY69k&amp;list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P&amp;index=12">[影片] GopherCon 2016: Renee French - The Go Gopher A Character Study</a></h3>
+    <p>Rob Pike 的老婆 Renée French 也就是眾所皆知的 Gopher  圖形發明者，</p>
+
+<p>講解了 Gopher 的發明過程．這段影片沒有任何程式碼但是相當有趣．</p>
+
+<p>也可以看到許多可愛的 Gopher 圖案，還有 Gopher 圖案的設計規範與理念．</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=4rw_B4yY69k&amp;list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P&amp;index=12">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OTQ46Bx"></a>
+  
+  <h3 class="item__title"><a href="https://coreos.com/blog/gRPC-protobufs-swagger.html">Take a REST with HTTP/2, Protobufs, and Swagger</a></h3>
+    <p>GRPC 大家用了沒？ 是不是因為還不想把手邊的 RESTful API 換掉而沒有改到 GRPC ?
+CoreOS 展示如何透導入 GRPC 後，依舊有 RESTful API 並且有 Swagger 的服務。</p>
+
+<p>相關議題，其實有上 Google Cloud Platform Podcast，想聽聽訪問的可以聽聽看 CoreOS CTO 如何解釋：</p>
+
+<p><a href="https://www.gcppodcast.com/post/episode-43-grpc-with-brandon-philips/">gRPC at CoreOS with Brandon Philips | Google Cloud Platform Podcast</a></p>
+
+<p>此外，如果有人想了解為何要從 Rest API 換到 GRPC  ，可以參考 <a href="http://www.grpc.io/faq/">GRPC 的 FAQ</a></p>
+
+<pre><code>gRPC largely follows HTTP semantics over HTTP/2 but we explicitly allow for full-duplex streaming. We diverge from typical REST conventions as we use static paths for performance reasons during call dispatch as parsing call parameters from paths, query parameters and payload body adds latency and complexity. We have also formalized a set of errors that we believe are more directly applicable to API uses cases than the HTTP status codes.
+</code></pre>
+  <span class="item__footer"><a href="https://coreos.com/blog/gRPC-protobufs-swagger.html">coreos.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RzKYgQ7"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/smallnest/rpcx">smallnest/rpcx: rpcx is a distributed RPC service framework based on net/rpc like alibaba Dubbo and weibo Motan. One of best performance RPC frameworks.</a></h3>
+    <p>這個 RPC Service 透過分散式的方式來提供更好的 RPC 效能，甚至遠遠超過 <a href="http://www.grpc.io/">GRPC</a> 與 <a href="http://dubbo.io/">Alibaba Dubbo</a> 與 <a href="https://github.com/weibocom/motan">Weibe Motan</a></p>
+
+<p>除了速度快，更有以下的特點:</p>
+
+<ul>
+<li>支援多種資料格式 json, protobuf, gob</li>
+<li>支援多種 discovery service: zookeeper, etcd</li>
+<li>由於根據 <code>net/rpc</code> 寫成，使用原生套件的人可以很快速的轉換過來．</li>
+<li>支援 Load Balancer</li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/smallnest/rpcx">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CpRhFqQ"></a>
+  
+  <h3 class="item__title"><a href="http://spf13.com/post/joining-go-team-at-google?utm_content=bufferccb52&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">I’m joining the Go team at Google</a></h3>
+    <p>Steve Francia (spf13) 也就是 viper ， cobra 與 Hugo 的作者．</p>
+
+<p>寫文章宣布他加入了 Google Golang Team ．</p>
+
+<p>長達九年在做身為自我創業 spf13 lab 的經營者，也當過 docker 顧問的 ．</p>
+
+<p>Steve Francia 也講解了，之後他在 Google Go team 的角色扮演與期許． 很值得一看．</p>
+  <span class="item__footer"><a href="http://spf13.com/post/joining-go-team-at-google?utm_content=bufferccb52&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">spf13.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Ti1zkPG"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/huichen/wukong">huichen/wukong: 高度可定制的全文搜索引擎</a></h3>
+    <p>huichen/wukong 悟空： 簡體全文搜尋引擎
+支援簡體斷詞，變且可以客製化的全文搜尋引擎．
+至於全文搜尋引擎那麼多，為何還要做一個？ 以下來自官方的解釋:</p>
+
+<ul>
+<li>需要有客製化的全文搜尋功能</li>
+<li>要能夠垂直整合</li>
+<li>即時反應</li>
+<li>結果排序法則需要訂製</li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/huichen/wukong">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="MV9PInK"></a>
+  
+  <h3 class="item__title"><a href="http://keithjgrant.com/posts/your-team-needs-a-ux-engineer.html">Your team needs a UX engineer</a></h3>
+    <p>因為標題的緣故就聯想到，最近有<a href="http://youmightnotneedjs.com/">你可能不需要 JS </a>跟<a href="http://hugogiraudel.com/2016/10/13/you-might-need-javascript/">你可能需要 JS </a>這兩篇。</p>
+
+<p>不過這篇跟前面兩篇文章都沒關係，主要在講團隊中必須要有一個 UX 工程師。
+要注意這篇特別強調的是 UX <strong>工程師</strong>，所以這位工程師必須要會寫 js 和 css。</p>
+
+<p>作者說當團隊人數長到 4~5 個人的時候，你就必須要考慮有一位專職的 UX 工程師負責撰寫 css。
+這位 UX 工程師必須負責 CSS 和 accessibility ，還要維護團隊的 pattern library，讓其他工程師負責商業邏輯的部分。</p>
+
+<p>個人之前很幸運有跟 UX 工程師合作過，所以希望各公司也可以考慮一下 CSS Developer 或 UX Engineer 這樣的職缺。讓團隊的分工更明確，使彼此都能有更多的產出。</p>
+  <span class="item__footer"><a href="http://keithjgrant.com/posts/your-team-needs-a-ux-engineer.html">keithjgrant.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="HEmEQwM"></a>
+  
+  <h3 class="item__title"><a href="https://styled-components.com/">styled-components</a></h3>
+    <p>由 <a href="https://twitter.com/glenmaddern">Glen Maddern</a> 跟 <a href="https://twitter.com/mxstbr">Max Stoiber</a> 共同開發的新作品。
+有在接觸 React 社群的朋友對這兩位應該都很熟悉，前者是 <a href="https://github.com/css-modules/css-modules">CSS Modules</a> 的貢獻者之一，而後者是 <a href="https://github.com/mxstbr/react-boilerplate">react-boilerplate</a> 的作者。</p>
+
+<p>styled-components 利用 ES6 語法的 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals">tagged template literals</a> 讓 <a href="https://speakerdeck.com/vjeux/react-css-in-js">css-in-js</a> 的語法更接近本來寫 CSS 的時候。而且可以複寫原本元件的樣式。除了支援 media-query 也可以 inject global 的 @font-face，有在寫 css-in-js 或 react-native 的朋友，也許可以考慮用用這個新套件。</p>
+  <span class="item__footer"><a href="https://styled-components.com/">styled-components.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mlHKcRa"></a>
+  
+  <h3 class="item__title"><a href="https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson">Developing Transactional Microservices Using Aggregates, Event Sourcing and CQRS - Part 1</a></h3>
+    <p>最近 microservice 越來越受到關注，作者 <a href="http://www.chrisrichardson.net/">Chris Richardson</a> 有弄了一個 <a href="http://microservices.io/">microservices.io</a> 也歡迎大家上去找答案。</p>
+
+<p>這篇作者在講怎麼解決 microservice 的 transaction 問題，過去在 monolithic 架構下，可以使用 transaction lock 的方式確保資料一致，但是在 microservice 中卻不適用。</p>
+
+<p>作者建議採用 DDD (Domain-Driven Design) Aggregates，也就是透過 aggregate 把 microservice 下面的 domain objects 視為一個單位，這邊要注意 Primary Key 的使用以及一個 Transaction 配合一個 Aggregate。最後透過 Event 來保持資料的一致性，也就是 CQRS (Command Query Responsibility Segregation) 或 Event sourcing。</p>
+  <span class="item__footer"><a href="https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson">infoq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nVIFRC2"></a>
+  
+  <h3 class="item__title"><a href="https://simeneer.blogspot.tw/2016/10/nodejs-streams.html">海納百川：Node.js Streams</a></h3>
+    <p>對 Stream 非常完整的介紹，建議還不知道 stream 是什麼的朋友務必花時間閱讀。</p>
+
+<p>當初 <a href="http://gulpjs.com/">gulpjs</a> 可以快速獲得大家支持就是靠 stream 的魔法！英文好一點的朋友也可以閱讀一下 <a href="https://twitter.com/substack">substack</a> 的 <a href="https://github.com/substack/stream-handbook">stream handbook</a></p>
+  <span class="item__footer"><a href="https://simeneer.blogspot.tw/2016/10/nodejs-streams.html">blogspot.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LhlPcCW"></a>
+  
+  <h3 class="item__title"><a href="https://hackernoon.com/from-callback-to-future-functor-monad-6c86d9c16cb5#.uexcqdi81">From Callback to Future -&gt; Functor -&gt; Monad</a></h3>
+    <p>對 Functional Programming 想深入了解的朋友，建議可以看看這篇。</p>
+
+<p>當然如果還只是入門階段，可以參考 hannahpun 的<a href="http://www.hannahpun.me/basic-functional-javascript2/">從零開始認識 functional javascript </a>系列。</p>
+
+<p>而一直搞不懂 Functor 或 Monad ，但是對於 javascript 很熟的朋友，這篇會教你從 callback 的概念帶到 Future (Promise)，過程中會讓你明白什麼是 Functor 和 Monad。</p>
+  <span class="item__footer"><a href="https://hackernoon.com/from-callback-to-future-functor-monad-6c86d9c16cb5#.uexcqdi81">hackernoon.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/63/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-10-10'>October 10th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>64 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/65/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-10-24'>October 24th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

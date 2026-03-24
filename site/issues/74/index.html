@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 74 只有兩種產業的人會把他們的客戶稱為 User，軟體工程師和毒販</title>
+<meta name="description" content="本期內容涵蓋 MySQL, DevOps, Python, Elixir, JavaScript, Go, Machine Learning">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 MySQL, DevOps, Python, Elixir, JavaScript, Go, Machine Learning'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/74/index.html#start">
+        Issue 74 只有兩種產業的人會把他們的客戶稱為 User，軟體工程師和毒販 &nbsp;<i><time class='published' datetime='2016-12-26'>December 26th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-211063"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.douban.com/people/vinta/">The Player of Games</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習( 疑? )．</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="5DmiQQM"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/rocio/yessql-process-and-tooling-at-scale">YesSQL, Process and Tooling at Scale</a></h3>
+    <p>GitHub 在用 MySQL 時的流程跟相關工具的投影片, 真的是整合了很多東西進 Slack + hubot。</p>
+
+<p>當中比較感興趣的是已經出來一陣子的 <a href="https://github.com/github/gh-ost">gh-ost - GitHub's Online Schema Migrations for MySQL</a>, 先前沒好好看他, 看了這份投影片之後覺得實在厲害, 應該研究下, 因為目前部署後 migration 應該是我們 StreetVoice 部署流程中, 最後需要完善的一個部分。</p>
+  <span class="item__footer"><a href="https://speakerdeck.com/rocio/yessql-process-and-tooling-at-scale">speakerdeck.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="AbVfTIN"></a>
+  
+  <h3 class="item__title"><a href="https://www.susanjfowler.com/blog/2016/10/13/the-ops-identity-crisis">The Ops Identity Crisis</a></h3>
+    <p>可能從我第一份工作開始, 對於 Dev 跟 Ops 的界線就是模糊的, 除了寫程式之外, 也得搞 Server, 所以我從一開始就認為 DevOps 對於開發人員來說是基本的, 一直到後來認識一些在大公司任職的開發人員才知道他們的工作、職責被切得這麼細。</p>
+
+<p>這篇文章在講 Ops 身份危機, 像是 DevOps 的崛起, 還有許多工具的出現, Ops 這件事對於 Developer 來說簡單了許多, 一直到近年的 microservice 及 serverless, 導致 Ops 的工作越來越少, 被 Developer 直接搶走了, 但是這個 Ops 這個職位會消失嗎? 我覺得是不會的啦, 只是負責的事務不該跟 Developer 分的那麼開, 而是越來越像, 只是主要負責的東西不同, 畢竟 Dev 跟 Ops 兩這之間的工作本來就有一定的重疊。</p>
+
+<p>其實 StreetVoice 在一、兩年前還是找了一個專職的 Ops, 但是他也寫一些程式, 實際上, 因為 Ops 有很多東西需要花時間去測試、調教, 在 mindset 上跟 Developer 對比起來有一些不小的差別, 我覺得還是需要專職的人來負責。</p>
+
+<p>但, 你覺得程式部署上線之後、出問題時該 on call 的是 Ops, 還是寫程式的 Developer? 其實這答案很簡單吧。</p>
+  <span class="item__footer"><a href="https://www.susanjfowler.com/blog/2016/10/13/the-ops-identity-crisis">susanjfowler.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dRF5hWK"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kennethreitz/maya">Maya - Datetimes for Humans™</a></h3>
+    <p>requests 的作者 <a href="https://twitter.com/kennethreitz">kennethreitz</a> 另一個給人類的禮物。</p>
+  <span class="item__footer"><a href="https://github.com/kennethreitz/maya">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="a1qy4Ub"></a>
+  
+  <h3 class="item__title"><a href="https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding">One Sure-Fire Way to Improve Your Coding</a></h3>
+    <p>提升自己編寫程式的能力，除了多寫，就是多讀、多觀摩、研究那些優秀的程式之所以優秀的緣由何在。本篇是一份很完整的指南，指引您如何挑、如何讀、如何領會那些優秀程式的設計之道。</p>
+  <span class="item__footer"><a href="https://changelog.com/posts/one-sure-fire-way-to-improve-your-coding">changelog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="NrV9ES9"></a>
+  
+  <h3 class="item__title"><a href="http://thenewstack.io/etsy-cto-qa-need-software-engineers-not-developers/">Etsy CTO Q&amp;A: We Need Software Engineers, Not Developers</a></h3>
+    <p>本篇專訪 Etsy CTO，談及 Etsy 的技術架構與 DevOps 文化，以及如標題所示「我們想要的是工程師，而不是軟體開發者」，而這也是本篇最值得一讀的一節。先別因為這有點標題黨的風格而倒了胃口，裡頭寫得非常好。</p>
+  <span class="item__footer"><a href="http://thenewstack.io/etsy-cto-qa-need-software-engineers-not-developers/">thenewstack.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OsRXLO2"></a>
+  
+  <h3 class="item__title"><a href="https://robots.thoughtbot.com/tell-don-t-ask-in-elixir">&quot;Tell, Don&#39;t Ask&quot; in Elixir: A Story of Pattern-Matching</a></h3>
+    <p>我是一個資質駑鈍的人，有些東西，像是 Object Oriented，就花了很久才領會。小時候讀《世紀末軟體革命 2》說 OO 是「模擬世界，加以處理」，也由於我腦子轉不過來，加上被 BASIC, C, Assembly 這種「照著流程跑」的程式運作邏輯制約，始終不覺得我何以需要 OO 這樣的 paradigm shift。一直要到讀了 matz さん的《松本行弘的程式世界》才又在裡頭的內容之中領悟了「物件 = 把資料與程式封裝起來」這種設計的奧義所在。</p>
+
+<p>而這樣的後知後覺也一度讓我有「用 Ruby 這樣的 OOPL，卻寫出了不 OO、怪抽象、壞氣味程式」的弊病，也是直到我讀了 <a href="https://pragprog.com/articles/tell-dont-ask">Tell, Don't Ask</a> 才有大徹大悟之感。</p>
+
+<p>這篇文章講的是 Elixir 雖然一般咸認是函數式語言，要寫出遵循 Tell, Don't Ask 原則的 declarative (not imperative) 程式可能第一印象會覺得有點困難，但是透過合理的程式邏輯規劃，我們還是可以用 Tell, Don't Ask 原則寫出好寫好懂的程式來。</p>
+  <span class="item__footer"><a href="https://robots.thoughtbot.com/tell-don-t-ask-in-elixir">thoughtbot.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="165x6SF"></a>
+  
+  <h3 class="item__title"><a href="http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background">&quot;Thinking in AngularJS&quot; if I have a jQuery background?</a></h3>
+    <p>之前在 Twitter 上道出了我不太理解這些前端框架之於 jQuery 的精神、出發點差異所在，推友 <a href="https://twitter.com/caasih">@caasih</a> 寫了好幾則 <a href="https://twitter.com/caasih/status/805784035288969216">tweets</a> 為我釋疑，讓我有了一點基礎認知。</p>
+
+<p>這篇 Stack Overflow 上的問答恰好也跟我的問題極為相像，底下幾個被讚爆了的解答都很有啟發我這種前端麻瓜的參考價值，推薦給同為「被 jQuery 慣壞、同時沒做過有一定規模的前端專案」的各位。</p>
+  <span class="item__footer"><a href="http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background">stackoverflow.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qJC7WTJ"></a>
+  
+  <h3 class="item__title"><a href="http://www.happydaze.se/wolf/">Wolf – Gameboy cartridge with co-processor</a></h3>
+    <p>在 Gameboy Color 上移植德軍總部 3D，作者用了很多早期遊戲機上突破硬體先天限制的常見途徑：特製處理晶片。我們在紅白機上、在超任上玩過的某些大容量、音效特佳、畫面特效令人驚豔的遊戲，很多是仰仗了這種「開外掛」的方式，另外則是取決於遊戲製作者對主機的掌握度，盡可能以軟體手法做出效果。</p>
+
+<p>我一直很敬佩這些遊戲創作者在有限的資源底下，盡可能豐富我們玩家的感官享受。遊戲機與電腦的遊戲運行環境，向來就是一個相對拮据、一個相對充裕，於是我們常常在電腦上無論是開發遊戲還是其他軟體，都太過於揮霍，這台跑不動，就要你開另一台更好規格的去跑。也許，三不五時可以反思：「是否我可以把手上這個軟體，寫得再更有效率、更省資源些？」真的情非得已時，再去開外掛？</p>
+
+<p>同場加映：</p>
+
+<ul>
+<li><a href="http://www.racketboy.com/retro/nintendo/nes/best-nes-graphics-sound">The Games That Pushed The Limits Of The NES</a></li>
+<li><a href="http://www.racketboy.com/retro/super-nintendo-snes-games-that-pushed-the-limits-graphics-soun">Games That Pushed The Limits of the Super Nintendo (SNES)</a></li>
+<li><a href="https://www.youtube.com/watch?v=IIjo2clyqvU">[低分少年] SEGA SATURN 畫面表現大驗證</a></li>
+</ul>
+  <span class="item__footer"><a href="http://www.happydaze.se/wolf/">happydaze.se</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="1eyV8SL"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kkdai/luis">kkdai/luis: Microsoft Luis.ai API Golang package</a></h3>
+    <p>編輯自肥的時間又來了!!</p>
+
+<p><a href="https://www.luis.ai/">LUIS.AI</a> 是微軟提供出來具有 NLU (Neural Language Understanding) 的一個服務，可以讓一般使用者輕鬆建立與使用微軟建立好的語言學習模型．</p>
+
+<p>目前還提供一些 free-tier ，具有良好的繁體與簡體中文的支持，很推薦大家用用看． 這裡有一篇<a href="http://studyhost.blogspot.tw/2016/08/bot-framework-4-luis.html">教學文章</a>．</p>
+
+<p>花了幾天的時間，稍微把微軟的 LUIS.AI Golang package 包裝好了．
+主要可以讓大家透過 LUIS Golang 套件來做以下事情:</p>
+
+<ul>
+<li>增加一個新的語句 (utterances)</li>
+<li>訓練模型</li>
+<li>透過已經訓練好的模型來預測結果</li>
+<li>選出最高分的結果</li>
+</ul>
+
+
+<p>目前僅僅完成我需要用的接口，還需要大家的幫忙能夠讓它更好!!</p>
+  <span class="item__footer"><a href="https://github.com/kkdai/luis">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4JYnu5T"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg19?utm_content=bufferdd47a&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">第十九次 Golang 台灣聚會的投影片跟錄影</a></h3>
+    <p>又要自肥一下 (喂!)</p>
+
+<p><a href="http://golang.tw">Golang.tw</a> 是台灣 Golang 社群的官方網站，我們目前持續每個月一次的聚會頻率 ( 如果沒有找不到講者的話 (笑) )．</p>
+
+<p>第十九次的聚會 (GTG19) 日前在 2016/12/20 剛剛聚會完，講者陣容強大包括:</p>
+
+<ul>
+<li>Hawk</li>
+<li>g0v 爆炸頭 LY</li>
+</ul>
+
+
+<p>閃電秀也跨領域請到</p>
+
+<ul>
+<li>Data Scientist - Summit Suen</li>
+<li>HackMD 作者 Max</li>
+<li>Guesslin1986</li>
+</ul>
+
+
+<p>大家如果錯過，可以來看看投影片跟錄影檔．</p>
+
+<p>下一次聚會預估是在 2017/01/24 (如果如期找得到講者的話....  #^___^#)</p>
+  <span class="item__footer"><a href="https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg19?utm_content=bufferdd47a&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4BBFARn"></a>
+  
+  <h3 class="item__title"><a href="http://research.comma.ai/">comma.ai research 無人車自動駕駛 AI 系統開源了</a></h3>
+    <p><a href="http://comma.ai">comma.ai</a> 提供一個無人車自動駕駛的 AI 系統，他們開放了他們 AI 方面的原始馬來提供給大家試試看．包括自動跟車等等系統都在裡面．</p>
+
+<p>開放項目還包括了 80 G 的 Dataset (包括七小時十五分的駕駛資料還有其他的) ，系統使用 Anaconda, Tensorflow 與 CV2． 很有趣的專案．</p>
+
+<p>這個專案有以下特性:</p>
+
+<ul>
+<li>不需要建模與圖形函數 (CV2 僅僅拿來比對相片相似度)</li>
+<li>適用於小解析度相機 (160 x 320 灰階)</li>
+<li>透過 RNN 來分析</li>
+</ul>
+  <span class="item__footer"><a href="http://research.comma.ai/">comma.ai</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="g3gKs5t"></a>
+  
+  <h3 class="item__title"><a href="https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/">DeepMind AI Reduces Google Data Centre Cooling Bill by 40% </a></h3>
+    <p>其實 Deepmind 雖然為人所知的就是 AlphaGo 打敗世界棋王，其實前幾個月 ( 2016/07 ) 也公布另外一篇文章．就是講解 Deepmind 透過 AI 的方式來省掉 40% 的冷氣電費．</p>
+
+<p>其實 Google Datacenter 很省電一直都不是秘密，這也是為什麼 GCP 可以比其它同業便宜的原因． ( GCPUG.TW(Google Cloud Platform User Group Taiwan))</p>
+
+<p>這邊有個有趣的舊聞:</p>
+
+<p>這個<a href="https://www.google.com/about/datacenters/efficiency/external/index.html#best-practices">鏈結</a>裡面有 Google Datacenter 省電的方式，裡面有</p>
+
+<ul>
+<li>Measure PUE: 仔細分析 PUE</li>
+<li>Manage airflow: 管理冷氣的通道</li>
+<li>Adjust the thermostat: 調整溫度控制</li>
+<li>Use free cooling: 使用天然冷氣</li>
+<li>Optimize power distribution: 透過 將 UPS 放在主機上，來減少 AC/DC 轉換</li>
+</ul>
+
+
+<p>其中... 如果你去<a href="https://www.cnet.com/news/google-uncloaks-once-secret-server-10209580/">搜尋 AC/DC</a> 的話就會找到一個知名人士</p>
+
+<p>恩恩... 就是 「智慧城市委員會」顧問 - (翟神) 翟本喬</p>
+  <span class="item__footer"><a href="https://deepmind.com/blog/deepmind-ai-reduces-google-data-centre-cooling-bill-40/">deepmind.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UOpqOGc"></a>
+  
+  <h3 class="item__title"><a href="https://deepmind.com/blog/open-sourcing-deepmind-lab/">Open-sourcing DeepMind Lab</a></h3>
+    <p>這兩天最紅的 (ML) 新聞之一，大概就是以 AlphaGo 打敗世界棋王而聞名的 DeepMind ．要把他們的 3D 平台的實驗室開源了，這一個 3D 平台中，使用者（玩家）就是擔任裡面的一個浮在空中的攝影鏡頭，並且可以在裡面解開一些謎題．</p>
+
+<p>是不是有點熟悉? 沒錯！就是類似於 OpenAI 的方式．</p>
+
+<p>目前代碼已經開源在 <a href="https://github.com/deepmind/lab">Github</a><br/>
+懶得看英文? 這裡有<a href="http://www.jiqizhixin.com/article/1948">中文</a></p>
+
+<p>題外話:</p>
+
+<p>此外，其實大家都會想說 DeepMind 下一步是不是要挑戰 3D 遊戲呢?</p>
+
+<p>其實早在三四個月前，就已經有 Data Scientist 研究透過 Reinforcement Learning (Q-Learning) 來玩 DOOM (毀滅戰士) 的 Deathmatch 模式，<a href="https://techcrunch.com/2016/09/21/scientists-teach-machines-to-hunt-and-kill-humans-in-doom-deathmatch-mode/">相關網址</a></p>
+
+<p>方式是透過兩個邏輯:</p>
+
+<ul>
+<li>遇敵邏輯:  就是經由 3D 圖像的判斷，透過 Q-Learning 來自我學習如何透過最少的時間找到敵人．</li>
+<li>戰鬥邏輯:  一樣是透過 Q-Learning 的方式來找尋到最好的戰鬥方式．</li>
+</ul>
+
+
+<p>只是這次 DeepMind 想要挑戰什麼？大家可以猜猜!!</p>
+  <span class="item__footer"><a href="https://deepmind.com/blog/open-sourcing-deepmind-lab/">deepmind.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/73/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-12-19'>December 19th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>74 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/75/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-01-02'>January 2nd 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

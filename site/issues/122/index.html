@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 122 整天都在網路上看人家的文件，但還沒有自己寫過 - 文件就像是青春期的性愛幻想</title>
+<meta name="description" content="本期內容涵蓋 API Design, Kotlin, Python, CI, RAC, Swift, DevOps, Microservice, msgpack, zstd">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 API Design, Kotlin, Python, CI, RAC, Swift, DevOps, Microservice, msgpack, zstd'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/122/index.html#start">
+        Issue 122 整天都在網路上看人家的文件，但還沒有自己寫過 - 文件就像是青春期的性愛幻想 &nbsp;<i><time class='published' datetime='2018-04-09'>April 9th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-374139"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.yourator.co/companies/escapex/jobs/3116">我們又要找 iOS  工程師啦！</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="69BRuxT"></a>
+  
+  <h3 class="item__title"><a href="https://stripe.com/blog/api-versioning">APIs as infrastructure: future-proofing Stripe with versioning</a></h3>
+    <p>Stripe 分享設計 REST API 版本的經驗跟方法。</p>
+
+<p>其中最有趣的部分是 Stripe 不再主要地採用 URL 夾帶 API 版本 (<code>v1/endpoint</code>) 而是採用日期 (<code>2018-04-01</code>) 的 API 版本化方式。其原因是大版本 API 升級是痛苦的，對 API developer 跟 client developer 來說都是。</p>
+
+<p>他們透過一套自己的 DSL 來描述每一個 endpoint、撰寫 version change (包含與上一版的相容轉換方法)、紀錄 version changes list。<br/>
+當一個舊版的 API request 進來會從最新版的實作開始，透過 version changes list 一步一步退版本直到符合這個 request 的 API 版本。<br/>
+這樣的方法就像是 DB 的 migration，只是他是倒過來的、針對的是你的 API endpoint。</p>
+
+<p>有兩個很明顯的好處，不用管舊版的實作可以快速滾動升級，跟做完之後就有免費的 changelog。</p>
+  <span class="item__footer"><a href="https://stripe.com/blog/api-versioning">stripe.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Ny6l0Lp"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@steve.yegge/who-will-steal-android-from-google-af3622b6252e">Who will steal Android from Google?</a></h3>
+    <p>Steve Yegge 換工作了，對前公司正常能量釋放中。開頭就來了這句：</p>
+
+<blockquote><p>Android’s dev stack is the world’s biggest poo sandwich.</p></blockquote>
+
+<p>當然，他在 Google 並不是開發 Android 的，但他對 Android 生態的觀察還是滿犀利的。特別是 <a href="https://flutter.io">Flutter</a> 的部分：</p>
+
+<blockquote><p>“Oh yeah? Well you can’t compete with us, because we’re going to compete with us!” and they launched Flutter, which is a 100% serious Android development stack that competes with native Android.</p></blockquote>
+
+<p>結論是想要在他的新公司嘗試用 React Native，畢竟這種大公司大 app 總是為了 build time 所苦。然後他也鼓勵有後端經驗的開發者學習 mobile 開發，因為現在這種全端人才實在太少了，奇貨可居。</p>
+
+<p>Steve Yegge 的文筆還是那麼流暢，如果懷念他的憤怒可以看這篇的上一篇 <a href="https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84">Why I left Google to join Grab</a>。</p>
+  <span class="item__footer"><a href="https://medium.com/@steve.yegge/who-will-steal-android-from-google-af3622b6252e">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-374961"></a>
+  
+  <h3 class="item__title">Nullability annotations 之亂！</h3>
+    <p>最近用 Kotlin 調用 Android SDK，明明看到它的 .java 有 <code>@Nullable</code> 的標註，但 Kotlin 的類型推導卻給了我 <a href="https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types">Platform Type</a>，檢查發現在 bytecode <code>@Nullable</code> 就被抽掉了。原因是 Android SDK 用的是 <code>android.annotation.Nullable</code>，這個 annotation 並不是公開的 API (<a href="https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/annotation/Nullable.java#40">AOSP Nullable</a>)</p>
+
+<p>那問題就來了，如果我要重新做人在 Java code 裡標註 nullability，我應該用哪套 package 的 <code>@Nullable</code>？JetBrains 的 <code>org.jetbrains.annotations.Nullable</code> 、 JDK 的 <code>javax.annotation.Nullable</code>  還是 Android 的 <code>android.support.annotation.Nullable</code>？</p>
+
+<p>先講結論，寫 Android 用 <code>android.support.annotation.Nullable</code> 因為 Android Studio 的 Lint 只認這個。不是寫 Android 的話就看你的 nullness analysis 工具用哪一套。</p>
+
+<p>Kotlin 開發過程也苦惱過同樣的問題，Kotlin 的 null-safety types 跟對 Java 的兼容性就是魚與熊掌。務實如 Kotlin 這個語言嘗試了很多做法，最後妥協在什麼 package 的 nullness annotation 都參考，如果沒有標註，就 infer Platform Type 給你，你自己管吧。 (<a href="https://blog.jetbrains.com/kotlin/2015/04/upcoming-change-more-null-safety-for-java/">More Null-safety for Java</a> 是他們不斷嘗試解決的過程)</p>
+
+<p>是說，為什麼會有這麼多套的 nullness annotations？<br/>
+啊，沒有錯啦，因為大家都不相容嘛哈哈哈哈</p>
+  <span class="item__footer"></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dyp6Dyf"></a>
+  
+  <h3 class="item__title"><a href="https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/">Python，你到底是在__底線__什麼啦！ </a></h3>
+    <p>Python 在變數上有許多 underscore (<code>_</code>) 的語法跟命名習慣，這篇解釋了這四種形式：</p>
+
+<ul>
+<li><code>foo_</code></li>
+<li><code>_foo</code></li>
+<li><code>__foo__</code></li>
+<li><code>__foo</code></li>
+</ul>
+
+
+<p>對我這個剛學習的人有很大幫助。</p>
+  <span class="item__footer"><a href="https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/">aji.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="A462iUl"></a>
+  
+  <h3 class="item__title"><a href="https://developer.apple.com/library/content/technotes/tn2387/_index.html">Technical Note TN2387: In-App Purchase Best Practices</a></h3>
+    <p>接下來有段時間可以重新整理某專案裡頭的 IAP 相關程式碼與流程，所以找了不少參考資料，最權威的當然就是蘋果自家的文件囉。除了這個之外，底下這些也很適合參考：</p>
+
+<ul>
+<li><a href="https://developer.apple.com/library/content/technotes/tn2413/_index.html">Technical Note TN2413: In-App Purchase FAQ</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2014/303/">Optimizing In-App Purchases - WWDC 2014 - Videos - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2014/305/">Preventing Unauthorized Purchases with Receipts - WWDC 2014 - Videos - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2017/305/">Advanced StoreKit - WWDC 2017 - Videos - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2017/303/">What's New in StoreKit - WWDC 2017 - Videos - Apple Developer</a></li>
+</ul>
+
+
+<p>我也打算把 StoreKit 包起來，讓其他地方的程式碼可以更優雅地使用它，所以也參考了其他 library 的做法，看起來這幾個算是做得滿漂亮的。</p>
+
+<ul>
+<li><a href="https://github.com/jinSasaki/InAppPurchase">InAppPurchase: A Simple and Lightweight framework for In App Purchase</a></li>
+<li><a href="https://github.com/mattt/CargoBay">CargoBay: The Essential StoreKit Companion</a></li>
+<li><a href="https://github.com/RealArtistsShip/IAPManager">IAPManager: Ultralight StoreKit - iOS macOS</a></li>
+</ul>
+  <span class="item__footer"><a href="https://developer.apple.com/library/content/technotes/tn2387/_index.html">apple.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mQdIgd4"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/fastlane/ci/releases/tag/1.0.0.alpha.1">Release 1.0.0.alpha.1 - First fastlane.ci alpha</a></h3>
+    <p>之前曾經提過的 fastlane.ci 已經按照進度推出 1.0.0 alpha 了，它跟 fastlane 完美的整合，打從一開始就是為了 iOS/Android 開發流程打造，並且 100% 採用 MIT 授權開放原始碼，你可以自架伺服器來運行它。雖然只是 alpha 版，但已經算是堪用了，有興趣的可以玩玩看。</p>
+  <span class="item__footer"><a href="https://github.com/fastlane/ci/releases/tag/1.0.0.alpha.1">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LVKxo64"></a>
+  
+  <h3 class="item__title"><a href="https://blog.appfigures.com/ios-developers-ship-less-apps-for-first-time/">iOS Developers Ship 29% Fewer Apps In 2017, The First Ever Decline – And More Trends To Watch</a></h3>
+    <p>除了標題講的那樣之外，這篇文章也提供了一些其他數據，例如使用 non-native 開發的比重有多少，以及最多人選擇的 non-native 開發方式等等。蠻有趣的一篇觀察，有些數據或許可以做為你下一個 app 開發方向的參考依據。</p>
+  <span class="item__footer"><a href="https://blog.appfigures.com/ios-developers-ship-less-apps-for-first-time/">appfigures.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="g0fMul6"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/shuaiwang007/RAC">GitHub - shuaiwang007/RAC: RAC 的常用用法，提高开发效率</a></h3>
+    <p>在我們公司的專案裡頭，ReactiveObjC 佔了蠻重要的一個角色，所以熟悉 RAC 的各種用法是很重要的（當然不會 RAC 也沒關係啦，<a href="https://www.yourator.co/companies/escapex/jobs/3116">我們會教你！</a>）。前幾天在亂逛網路時，發現了這個 repo，裡頭把最常用的 RAC 功能都詳細解說了一遍，不管是當作速查表或是當作新手上工補充教材，都非常合適啊！</p>
+
+<p>順便追加一個<a href="https://github.com/ValiantCat/FRPCheatSheeta">速查表</a>，裡頭包含了 ReactiveObjC / ReactiveSwift / RxSwift。</p>
+  <span class="item__footer"><a href="https://github.com/shuaiwang007/RAC">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JNmpvOY"></a>
+  
+  <h3 class="item__title"><a href="https://www.developerinsider.in/tips-to-become-a-better-swift-ios-developer/">Tips to become a better Swift (iOS) Developer</a></h3>
+    <p>很多人推崇 Swift 的一個理由是它比較簡單，但我一直認為這是一個假象。我覺得 Swift 好上手，但它易學難精，一個不小心就會寫出不優雅或是效能不夠好的程式碼。這篇文章裡頭透過大量的程式碼片段說明如何成為更好的 Swift 工程師，值得初學者參考。</p>
+  <span class="item__footer"><a href="https://www.developerinsider.in/tips-to-become-a-better-swift-ios-developer/">developerinsider.in</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QVukUfk"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/JohnSundell/SwiftTips">SwiftTips: A collection of Swift tips &amp; tricks that I&#39;ve shared on Twitter</a></h3>
+    <p>看完之後或許你會懷疑這真的是你平常在寫的 Swift 嗎？恩..... 真的是易學難精 Orz</p>
+  <span class="item__footer"><a href="https://github.com/JohnSundell/SwiftTips">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-allanlei">
+        <div class="i" id="allanlei">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/6eac35ae-4739-4a76-9eef-c4449c66ed2f.jpeg" alt="@allanlei" width="80" /><span class="category__title__text">@allanlei</span></h2>
+            <div class="item item--issue item--link">
+  <a name="FPYxeP5"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=CZ3wIuvmHeM">Mastering Chaos</a></h3>
+    <p>Josh Evans (of Netflix at the time) gave a great talk of Netflix's road to where they are now. He talks through problems they've experienced creating large distributed systems, what microservices are and are not, and how embracing chaos can affect design decisions.</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=CZ3wIuvmHeM">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zrYWl0w"></a>
+  
+  <h3 class="item__title"><a href="https://msgpack.org/index.html">Storing Redis values with msgpack</a></h3>
+    <blockquote><p>It's like JSON. but fast and small.</p></blockquote>
+
+<p>When there is a need to store data structures in Redis, the go to way is to serialize in JSON.  For those cases, why not use msgpack?</p>
+
+<ul>
+<li>Serialized size is smaller with msgpack and smaller means memory savings</li>
+<li><a href="https://github.com/msgpack/msgpack-python#extended-types">Able to serialize custom types via Ext</a></li>
+<li><a href="https://redis.io/commands/eval#available-libraries">Redis lua supports it out of the box</a></li>
+</ul>
+
+
+<p>Critics of msgpack, including the author themself, says it is still not as good as JSON+Compression, but for the use case of redis, there wouldn't (normally) be compression.</p>
+
+<p>Seems like a straight-forward method to save on resource with limited drawbacks.</p>
+  <span class="item__footer"><a href="https://msgpack.org/index.html">msgpack.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nosnnsl"></a>
+  
+  <h3 class="item__title"><a href="https://facebook.github.io/zstd/">ZStandard for better Compression of REST APIs</a></h3>
+    <p>A lossless compression algorithm by Yann Collet at Facebook (also the worked on lz4) that aims to offer faster compressions and at higher ratio compared to current libraries like zlib.</p>
+
+<p>The special feature in ZStandard I think will be very beneficial is the use of a pre-train dictionary aimed for the use of small payloads where the data is normally too small to generate any valuable compression context.  JSON payloads from REST APIs fit this use case pretty well having many small payloads &lt;100KB.</p>
+
+<p>Having run a very simple test against our own APIs, I was looking at 20% better compression compared to gzip using a pre-train dictionary. Don't take my word for it, try it out for yourself!</p>
+  <span class="item__footer"><a href="https://facebook.github.io/zstd/">github.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Thui7Z1"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/2">Senior Frontend Developer at Swag</a></h3>
+    <p>薪資範圍：年薪新台幣 100 萬元以上。</p>
+
+<p>能力需求：</p>
+
+<ol>
+<li>精通 JavaScript、CSS 與 HTML</li>
+<li>相容主流瀏覽器的前端整合開發經驗</li>
+<li>前端 framework / library 的使用經驗</li>
+<li>熟悉 React</li>
+<li>模組化開發經驗</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/2">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/121/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-04-02'>April 2nd 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>122 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/123/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-04-16'>April 16th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

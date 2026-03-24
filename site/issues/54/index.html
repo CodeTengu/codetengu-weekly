@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 54 歡迎大家來到碼天狗的烘焙雞，（狀態列跑馬燈）最佳觀看解析度為 800x600，建議使用 IE 5.0 以上瀏覽器</title>
+<meta name="description" content="本期內容涵蓋 DevOps, Kubernetes, Objective-C, Redux, Design Patterns, Swift, Go, 管理">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 DevOps, Kubernetes, Objective-C, Redux, Design Patterns, Swift, Go, 管理'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/54/index.html#start">
+        Issue 54 歡迎大家來到碼天狗的烘焙雞，（狀態列跑馬燈）最佳觀看解析度為 800x600，建議使用 IE 5.0 以上瀏覽器 &nbsp;<i><time class='published' datetime='2016-08-08'>August 8th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-173305"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href="https://book.douban.com/people/vinta/">奇點天空</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 太熱了</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 為了工作開始看韓劇</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="YdcnDsM"></a>
+  
+  <h3 class="item__title"><a href="http://alistapart.com/article/the-foundation-of-technical-leadership">The Foundation of Technical Leadership</a></h3>
+    <p>這篇應該是這半年來看過最切合心聲的技術主管文了, 大推!</p>
+  <span class="item__footer"><a href="http://alistapart.com/article/the-foundation-of-technical-leadership">alistapart.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="IjzPaCQ"></a>
+  
+  <h3 class="item__title"><a href="https://taipeidevopsmeetup.hackpad.com/minikube-qElonIZUsWN">minikube 線上教學</a></h3>
+    <p>每次都介紹別人的文章, 趁爸爸節寫一篇自己的教學網頁來讓大家利用 <a href="https://github.com/kubernetes/minikube">minikube</a> 簡單的設定, 安裝一個 <a href="http://kubernetes.io/">kubernetes</a> 的學習環境。kubernetes 可以讓你在本機或雲端, 甚至多台主機同時管理和安裝部署 dockers, 需要更進一步了解 kubectl 指令的人可以在安裝好環境之後, 利用這 <a href="http://k8s.info/cs.html">cheat sheet</a>。</p>
+  <span class="item__footer"><a href="https://taipeidevopsmeetup.hackpad.com/minikube-qElonIZUsWN">hackpad.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mgOuzum"></a>
+  
+  <h3 class="item__title"><a href="https://www.junyiacademy.org/computer-science-a/ihc/ihcsz/ihcsz-a/v/hdwNH45QuMY">Hour Of Code 冰雪奇緣介紹</a></h3>
+    <p>我也要介紹冰雪奇緣, 看完連結裡的影片說明後, 就可以帶你的小孩 (如果沒有小孩 , 帶你女朋友, 或另一半) 來玩 <a href="https://code.org/">hour of code</a>。不管是憤怒鳥或冰雪奇緣, 過關後就能得到寫程式的證書喔! 爸爸節快樂...</p>
+  <span class="item__footer"><a href="https://www.junyiacademy.org/computer-science-a/ihc/ihcsz/ihcsz-a/v/hdwNH45QuMY">junyiacademy.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="iqEuCQR"></a>
+  
+  <h3 class="item__title"><a href="http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c">用 Objective-C 實作 Redux 架構</a></h3>
+    <p>最近因為工作上的需要，所以找了一些資料來研究該如何管理 app 的程式狀態，讓每個頁面在存取資料時可以維持資料的一致性，結果讓我找到了 Redux 這個架構。</p>
+
+<p>最初是 Facebook 提出了 Flux 架構，而 Redux 是其改良版，因為它簡單好懂好實作所以提出之後就大受歡迎。這個架構提出的時候是針對網站設計的，後來有人把這個概念搬到 Swift 實作，但我一直沒找到有人分享 Objective-C 的實作心得，所以我就自己動手做了一遍並寫了這麼一篇心得，用起來的感覺其實滿舒服的。</p>
+
+<p>另外工商服務一下，敝公司正在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它優秀人才</a>，歡迎來跟我當同事！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://redux.js.org/docs/introduction/index.html">Redux 官方文件</a></li>
+<li><a href="https://github.com/ReSwift/ReSwift">ReSwift</a></li>
+<li><a href="http://blog.benjamin-encz.de/post/real-world-flux-ios/">Real World Flux Architecture on iOS</a></li>
+</ul>
+  <span class="item__footer"><a href="http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c">logdown.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FpTKit9"></a>
+  
+  <h3 class="item__title"><a href="http://design-patterns.readthedocs.io/zh_CN/latest/">图说设计模式 — Graphic Design Patterns</a></h3>
+    <p>Design patterns 這種東西，在小時候懵懵懂懂剛接觸程式設計的時候覺得它很重要，但看完之後卻無法體會它的重要性，也不知道該怎麼運用。長大之後碰的程式多了，才越發瞭解它的重要性，也越覺得該學的東西還有很多。</p>
+
+<p>這個網站列出了 16 個常用的 design patterns，並且針對每個 pattern 的定義、背後動機、優缺點、使用情境、代碼分析等等，都有詳細說明。獻給所有覺得自己不懂 design patterns 的人，你並不孤單。</p>
+  <span class="item__footer"><a href="http://design-patterns.readthedocs.io/zh_CN/latest/">readthedocs.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bUpM0e0"></a>
+  
+  <h3 class="item__title"><a href="http://www.jessesquires.com/enums-as-configs/">Enums as configuration: the anti-pattern</a></h3>
+    <p>相信很多開發者一定都有用過 <code>enum</code> 來列出所有選項，然後再用 <code>switch-case</code> 來判斷每個選項並做出後續動作，通常在做 UI 相關的設定最常見到這種做法。但是作者認為這不是一個好作法，理由是：</p>
+
+<ul>
+<li>你在 <code>switch-case</code> 漏了幾個選項，compiler 也不會有 error，但有可能你的程式就這麼錯了。</li>
+<li>如果你修改或刪除了幾個選項，其他用到的程式碼也要跟著改，不然可能會導致錯誤結果或編譯失敗。</li>
+<li>使用者只能用固定的這幾個選項，無法自行新增，這樣不夠彈性。</li>
+</ul>
+
+
+<p>所以作者認為不應該使用 <code>enum</code> 作為設定選項，而是要設計一個 configuration object，所有可以讓使用者調整的設定都包在裡面，開發者只要接受這個 object 並做出相對應的調整即可。像是 <code>URLSession</code> 跟 <code>URLSessionConfiguration</code> 就是很好的例子。</p>
+  <span class="item__footer"><a href="http://www.jessesquires.com/enums-as-configs/">jessesquires.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qLc4lPG"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst">Writing High-Performance Swift Code</a></h3>
+    <p>Swift 官方 repository 所提供的最佳化奇技淫巧，它的目標讀者是編譯器跟標準函式庫的開發者，所以有些方法不適合用在一般的程式開發，但多瞭解一下也是好的。</p>
+  <span class="item__footer"><a href="https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cXVzO06"></a>
+  
+  <h3 class="item__title"><a href="http://www.cocoawithlove.com/blog/2016/07/30/timer-problems.html">Design patterns for safe timer usage</a></h3>
+    <p>Timer 絕對是 iOS 開發過程中最常用的到元件之一，它看起來非常的簡單，用法也是很直覺，但它的坑卻是意外的多。這篇文章列出了使用 Timer 的一些正確姿勢，帶你躲過一個又一個的地雷。雖然文章是用 Swift 3 寫成，不過它的概念是共通的。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://www.jianshu.com/p/d23b9fd84bcb">iOS不同场景下的定时方法</a></li>
+<li><a href="http://www.jianshu.com/p/2fe076e5e255">小心NSTimer中的循环引用</a></li>
+</ul>
+  <span class="item__footer"><a href="http://www.cocoawithlove.com/blog/2016/07/30/timer-problems.html">cocoawithlove.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="twi9Isp"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/LaiFengiOS/LFLiveKit">LFLiveKit</a></h3>
+    <p>一個 iOS 的 RTMP streaming SDK，支援了不少功能，現在直播那麼紅，或許有人開發上正好需要。</p>
+  <span class="item__footer"><a href="https://github.com/LaiFengiOS/LFLiveKit">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="kAqQS1K"></a>
+      <a href="https://www.youtube.com/watch?v=LJvEIjRBSDA"><img src="original_ratio_extra_large_f2f6d84c-34ba-4e71-bd28-eb033a7f2654.jpeg" title="Write in Go (Fall 2014) - YouTube" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=LJvEIjRBSDA">Write in Go (Fall 2014) - YouTube</a></h3>
+    <p>孩子的教育不能等... 父親節的今天．快讓你的小孩搭配著冰雪奇緣的主題曲來學 Go．  XDDD</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=LJvEIjRBSDA">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zF3BDP1"></a>
+      <a href="https://github.com/tidwall/buntdb"><img src="original_ratio_extra_large_b45dbed9-718b-4aa8-b1f2-c5c8b5284fd2.png" title="BuntDB is a fast, embeddable, in-memory key/value database for Go with custom indexing and geospatial support" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/tidwall/buntdb">BuntDB is a fast, embeddable, in-memory key/value database for Go with custom indexing and geospatial support</a></h3>
+    <p>參考著 BoltDB 並且使用一樣的 Raft Consensus 做一致性管理． BuntDB 打著以下特點 (跟 BoltDB 有些許的不同處):</p>
+
+<ul>
+<li>支援自訂索引</li>
+<li>適合 geospatial data 處理</li>
+<li>BuntDB 使用 Memory ，而 BoltDB 使用檔案存取資料．</li>
+<li>作者說針對一致性的管理上， <a href="https://github.com/tidwall/raft-boltdb#benchmarks">BuntDB 有改寫過 Raft 並且比 BoltDB 的 Raft 更快 ( 令人相當驚訝... )</a></li>
+</ul>
+
+
+<p>想瞭解更多的與 BoltDB 的差異可以看看<a href="https://hn.algolia.com/story/12125416/buntdb-fast-embeddable-in-memory-key-value-database-for-go-with-geospatial">原作者在 HN 上面的討論</a> ..</p>
+  <span class="item__footer"><a href="https://github.com/tidwall/buntdb">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3es0xMS"></a>
+  
+  <h3 class="item__title"><a href="http://dtrace.org/blogs/ahl/2016/08/02/i-love-go-i-hate-go/"> I Love Go; I Hate Go</a></h3>
+    <p>Delphix 的 CTO - <a href="https://twitter.com/ahl">Adam Leventhal</a> 分享他對 ‪Golang‬ 的又愛又恨的情緒．</p>
+
+<p>喜愛的部分包含著:  Gofmt ， Go 很直覺， Toolchain 很強大．
+討厭的部分包含著: Go 沒有 Assertion ， Go compiler omits frame pointers ...</p>
+
+<p>雖然有愛也有恨，但是 Adam Leventhal 也說到你不能因為一些小小的缺點就跟你的愛人分手． Golang 依舊有許多令人讚賞的地方，快來仔細看看這篇介紹吧..</p>
+  <span class="item__footer"><a href="http://dtrace.org/blogs/ahl/2016/08/02/i-love-go-i-hate-go/">dtrace.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BqYwmjV"></a>
+      <a href="https://github.com/dgryski/talks/blob/master/consistent-hashing/slides.md"><img src="original_ratio_extra_large_2e6b0385-b365-4fed-b61d-5bf16390b665.JPG" title="dgryski/talks: consistent hashing in go" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/dgryski/talks/blob/master/consistent-hashing/slides.md">dgryski/talks: consistent hashing in go</a></h3>
+    <p><a href="https://github.com/dgryski">Damian Gryski</a> 身為 Books.com 的資深工程師．dgryski 除了是重度的 Golang 愛好者外，還喜歡讀很多資訊科學的論文與研究各種進階的資料結構．</p>
+
+<p>這份 Talk 從原來的問題 Load Balancer 或是 K/V 存放的問題來出發．介紹了一開始的解決方式 Hashing Mod N ，再來探討 Consistent Hashing 如何解決 Hashing Mod N 與的節點新增與刪除帶來變動的問題，最後帶到 Jump Hashing 與 Maglev Hashing ． 想要好好瞭解 Ring Hashing 資料結構能如何幫你解決 Load Balancer 問題的話，一定得好好的閱讀這篇．</p>
+  <span class="item__footer"><a href="https://github.com/dgryski/talks/blob/master/consistent-hashing/slides.md">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="r1nNR7j"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/uber/ringpop-go">uber/ringpop-go: Scalable, fault-tolerant application-layer sharding for Go applications</a></h3>
+    <p><a href="http://uber.github.io/ringpop/">Uber RingPop</a> 是他們在去年開源的一個應用架構．  本來是使用 Node.JS 來做開發的，這次推薦的是 Golang 版本的．</p>
+
+<p>RingPop 具有相當多的功能，簡單條列如下:</p>
+
+<ul>
+<li>透過 <a href="https://en.wikipedia.org/wiki/Gossip_protocol">Gossip</a> 來傳遞資訊</li>
+<li>透過 <a href="https://en.wikipedia.org/wiki/Consistent_hashing">Consistent Hashing</a> 來分散保存使用者資訊</li>
+<li>資訊透過 <a href="https://github.com/google/farmhash">Google farmhash</a> 作為 Consistent Hashing 的 Hash Function</li>
+</ul>
+
+
+<p>透過這些方式可以建置出具有可擴展性，分散式的應用程式架構．</p>
+
+<p>想瞭解更多資訊，可以查看以下鏈結:</p>
+
+<ul>
+<li><a href="http://www.slideshare.net/Codemotion/jeff-wolki-explorations-in-cooperative-distributed-systems-with-ubers-ringpop">Slideshare for Uber Ringpop</a></li>
+<li><a href="https://eng.uber.com/intro-to-ringpop/">Uber Blog: Introduction RingPop</a></li>
+<li><a href="http://basho.com/posts/technical/ubers-ringpop-and-riak/">影片介紹與 Slide </a></li>
+<li><a href="http://dataology.blogspot.tw/2015/12/uber.html">車聯網的即時服務架構-以Uber為例</a></li>
+<li><a href="http://dataology.blogspot.tw/2015/12/uber.html">Uber 四年时间增长近 40 倍，背后架构揭秘</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/uber/ringpop-go">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/53/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-08-01'>August 1st 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>54 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/55/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-08-15'>August 15th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

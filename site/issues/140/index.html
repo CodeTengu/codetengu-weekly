@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 140 聽說新來的工程師喜歡玩密室逃脫，但是看他玩了一個下午都還沒離開 Vim 呢</title>
+<meta name="description" content="本期內容涵蓋 MongoDB, Kubernetes, NGINX, Google Cloud Platform, MySQL, JavaScript, React.js, CSS, WebAssambly, Go, gRPC">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 MongoDB, Kubernetes, NGINX, Google Cloud Platform, MySQL, JavaScript, React.js, CSS, WebAssambly, Go, gRPC'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/140/index.html#start">
+        Issue 140 聽說新來的工程師喜歡玩密室逃脫，但是看他玩了一個下午都還沒離開 Vim 呢 &nbsp;<i><time class='published' datetime='2018-09-03'>September 3rd 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-410882"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。或是關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a>。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Blindsight</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">我們公司在徵人</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+<li><a href="https://github.com/lucienlee">@lucienlee</a> - 🦌</li>
+</ul>
+
+
+<p><a href="https://twitter.com/vinta/status/967689046225907712">本週標題出處</a>。</p>
+  <span class="item__footer">不時致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="bk5ptiO"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html">MongoDB cookbook: Queries and Aggregations</a></h3>
+    <p>在 <a href="https://weekly.codetengu.com/issues/130#FAYDcQ8">Issue 130</a> 有提到，MongoDB 的 Aggregation 其實很強大，尤其搭配 <code>$elemMatch</code>、<code>$project</code>、<code>$let</code>、<code>$unwind</code> 和 <code>$facet</code> 等功能，可以直接完成很多複雜的業務邏輯，不需要多寫一行 code，雖然哪些事應該讓 DB 做、哪些事得在 API server 做，這就見仁見智啦。</p>
+
+<p>不過 MongoDB Aggregation 寫起來的阿雜程度實在也跟 Elasticsearch 的 Query DSL 不遑多讓了（Thanks JSON），因為老是記不起來各種 operators 的用法和限制，所以就遵循之前提過的 <a href="https://weekly.codetengu.com/search?q=cookbook">Cookbook</a> 模式，幫自己寫了一份筆記，複習、速查、分享各相宜。</p>
+  <span class="item__footer"><a href="https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SarfhXk"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=BznjDNxp4Hs">Kubernetes Best Practices with Sandeep Dinesh (Google)</a></h3>
+    <p>這個影片是 Google 的工程師在講使用 Kubernetes 和 containers 時的最佳實踐，影片的後半段則是 <a href="https://www.weave.works/">Weaveworks</a> 的人在講他們搭建自己的 Kubernetes cluster 時遇到的各種挑戰和解法。</p>
+
+<p>雖然前半段的內容有不少在 Kubernetes 和 GKE 的官方文件裡都有提到，但是有人貼心地幫你整理好還是挺棒的（就像你訂閱的這個 weekly 一樣），畢竟 Kubernetes 的文件實在多到靠北，看完都已經是 YAML 的形狀了。不過我對於越來越多人都推薦 Helm 這點還是不太能領略，總覺得 Helm 對一般使用者的意義好像不大啊（又不是 PaaS），我還不如直接幹一份 Chart 回來自己維護，之後要升級或客製化也比較方便，畢竟也就是一堆 YAML 檔。比較可行的用途似乎是團隊共用一套 Chart 來部署 production、staging 或 dev 環境？</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html">The incomplete guide to Google Kubernetes Engine</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=BznjDNxp4Hs">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iVDQOSZ"></a>
+  
+  <h3 class="item__title"><a href="https://blog.percy.io/tuning-nginx-behind-google-cloud-platform-http-s-load-balancer-305982ddb340">Tuning NGINX behind Google Cloud Platform HTTP(S) Load Balancer</a></h3>
+    <p>因為 Google Cloud HTTP Load Balancing 的某些特性，如果你在 Google Kubernetes Engine 裡面跑 NGINX（或 OpenResty）的話，會有一些額外的 config 需要設定，尤其是 <code>keepalive_timeout 620s;</code>。</p>
+
+<p>題外話，Google Cloud 的 Load Balancer 也是很強啊，除了支援 QUIC 之外，更是默認啟用 <a href="https://medium.com/google-cloud/tcp-bbr-magic-dust-for-network-performance-57a5f1ccf437">TCP BBR</a>。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://cloud.google.com/load-balancing/docs/https/">Google Cloud - HTTP(S) Load Balancing Concepts</a></li>
+</ul>
+  <span class="item__footer"><a href="https://blog.percy.io/tuning-nginx-behind-google-cloud-platform-http-s-load-balancer-305982ddb340">percy.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TApVzth"></a>
+  
+  <h3 class="item__title"><a href="https://mp.weixin.qq.com/s/wGOxro3uShp2q5w97azx5A">别废话，各种 SQL 到底加了什么锁？</a></h3>
+    <p>這個系列的文章專門在講 MySQL InnoDB 在各種情況下會使用的各種 lock，作者寫得非常淺顯易懂，最喜歡讀這種技術文章了～</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://weekly.codetengu.com/search?q=mysql">CodeTengu Search - MySQL</a></li>
+</ul>
+  <span class="item__footer"><a href="https://mp.weixin.qq.com/s/wGOxro3uShp2q5w97azx5A">qq.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="BVpFep6"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/facebook/react/issues/13525">React Fire: Modernizing React DOM</a></h3>
+    <p>React DOM 目前有許多不經過大改很難修復的 <a href="https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Bug%22+label%3A%22Component%3A+DOM%22">known problems</a> 。</p>
+
+<p>團隊希望可以刪除一些 event system 的 abstraction ，是造成系統複雜以及 bundle size 變大的原因。</p>
+
+<p>React Fire 計畫的大致方向：</p>
+
+<ul>
+<li><a href="https://github.com/facebook/react/issues/11896">Stop reflecting input values in the value attribute</a>
+
+<ul>
+<li>原生 DOM 的行為，鍵入字串改變 input 的 value 時瀏覽器並不會更新 DOM attribute 之 value 的值， React 也不該這麼做，雖然這樣做對一些依賴 CSS Selector 的 code 有幫助，但是也產生了一些未修復的 bug 。</li>
+</ul>
+</li>
+<li><a href="https://github.com/facebook/react/issues/2043">Attach events at the React root rather than the document</a>
+
+<ul>
+<li>React 嵌入到更大的系统中時，將 event handlers 綁定在 document 上，會造成一些與 stopPropagation 相關的問題。</li>
+</ul>
+</li>
+<li><a href="https://github.com/facebook/react/issues/9657">Migrate from onChange to onInput and don’t polyfill it for uncontrolled components</a>
+
+<ul>
+<li>React 使用和原生不同的事件名稱來表示 input event 會造成混淆。</li>
+</ul>
+</li>
+<li><a href="https://github.com/facebook/react/issues/4751">Drastically simplify the event system</a>
+
+<ul>
+<li>自 2013 初始版本以來， React event system 幾乎沒有變化。它的許多 polyfills 對於現代瀏覽器來說是不需要的，並且可能會產生更多的問題，也佔據了 React DOM 很大部分的 bundle size 。</li>
+</ul>
+</li>
+<li><a href="https://github.com/facebook/react/issues/4331">className → class</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/facebook/react/issues/13525">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="h9iXMkA"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/how-i-built-a-mood-changing-animation-using-css-masks-565b16ed051f">How I built a mood changing animation using CSS masks</a></h3>
+    <p>本文透過表情動畫的例子學習 CSS 遮罩 mask-image 以及切換 mask-position 的效果。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/how-i-built-a-mood-changing-animation-using-css-masks-565b16ed051f">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XjAHYtq"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@elcferreira/improve-your-motion-2ae6475641ca">Improve your motion</a></h3>
+    <p>在使用 CSS 轉場動畫時，使用 transition-duration 取代 transition-delay 達到更順暢的效果，透過文內的 timeline 可以更理解這兩者之間的效果差異。</p>
+  <span class="item__footer"><a href="https://medium.com/@elcferreira/improve-your-motion-2ae6475641ca">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ovlwGL5"></a>
+  
+  <h3 class="item__title"><a href="https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&amp;mem=192&amp;graphic=1&amp;w=1024&amp;h=768https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&amp;mem=192&amp;graphic=1&amp;w=1024&amp;h=768">透過 WebAssambly 執行 Windows 2000</a></h3>
+    <p>透過瀏覽器也可以執行 Windows 2000 !</p>
+
+<p>QEMU 的作者 <a href="https://bellard.org/">Fabrice Bellard</a> 在 2011 年就實作了這套 PC/x86 的模擬器 - <a href="https://bellard.org/jslinux/tech.html">JSLinux</a> ，
+為了提升效能，先是利用 asm.js 來改寫，後期更透過 <a href="https://github.com/kripken/emscripten">Emscripten</a> 將 C code 轉為 JavaScript 執行，而最近又更進一步支援 WebAssembly 。</p>
+  <span class="item__footer"><a href="https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&amp;mem=192&amp;graphic=1&amp;w=1024&amp;h=768https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&amp;mem=192&amp;graphic=1&amp;w=1024&amp;h=768">bellard.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="qSGf3TC"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/golang/status/1033118808087646213">Go on Twitter: 🎉 Go 1.11 is released!</a></h3>
+    <p>令人期待（？）的 Go 1.11 正式版出來了。包括兩個新功能：</p>
+
+<ol>
+<li>Golang module support (vgo experimental migration)</li>
+<li>WebAssembly port</li>
+</ol>
+
+
+<p>整理一下其他相關消息：</p>
+
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1EwuJhEHR5Trr2aXBPQajZ2Hcoh29tm_LQCpgfrCnuRk/preview?slide=id.g33148270ac_0_143">Brad Fitzpatrick 在七月底的演講 Go 1.11 and beyond</a></li>
+<li><a href="https://tw.saowen.com/a/280205cad1502193482905232ba84e501998fcb7216d8e51b037ca892cb22337">Go modules 初探</a></li>
+</ul>
+
+
+<p>Go 1.11 可能的問題：</p>
+
+<p>Go 1.11 之後 <code>github.com/nsf/gocode</code> 會爆炸喔… 各家 IDE 已經開始換 <code>github.com/mdempsky/gocode</code></p>
+  <span class="item__footer"><a href="https://twitter.com/golang/status/1033118808087646213">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UbYbIcu"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/securego/gosec">securego/gosec: Golang security checker</a></h3>
+    <p>一個很有趣的專案，透過 AST 的解析來分析你的 golang source code 是否有任何安全上漏洞．包括了：</p>
+
+<ul>
+<li>SQL Query</li>
+<li>File permission</li>
+<li>Random number security</li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/securego/gosec">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="EHX3ne7"></a>
+  
+  <h3 class="item__title"><a href="https://dev.to/deanveloper/my-favorite-go-2-proposals-3lie">My Favorite Go 2 Proposals</a></h3>
+    <p>這篇文章的作者一直在關心 Golang 2.0 (Go++?) 的發展.. 他列出了幾個有趣的 proposal ，大家可以看看</p>
+
+<ol>
+<li>Interface literals: 可以讓你寫 interface 更精簡</li>
+<li>Add collect statements to the language: 讓你處理 error 可以更 “漂亮”</li>
+</ol>
+
+
+<p>當然還有更多有趣的 proposal 正在進行.. 大家喜歡的是哪個?</p>
+  <span class="item__footer"><a href="https://dev.to/deanveloper/my-favorite-go-2-proposals-3lie">dev.to</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2Agkh4X"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/go-grpc-service/">在 Kubernetes 上面透過 Go 開發 gRPC service 可能遇到的問題</a></h3>
+    <p>這幾週調整一下 gRPC service ，所以有這篇心得文．裡面解決了幾個問題：</p>
+
+<ol>
+<li>如何 streaming request</li>
+<li>如何調整 gRPC request timeout</li>
+<li>如何調整 gRPC request size</li>
+</ol>
+
+
+<p>裡面也有一個簡單的範例給大家參考一下.</p>
+
+<p>更新：放了 Dockerfile 跟 Kubernetes yaml 在裡面</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/go-grpc-service/">evanlin.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="4HyVRtl"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">Senior Backend Engineer at Swag</a></h3>
+    <h2>必備</h2>
+
+<ul>
+<li>In-depth knowledge of Python, NodeJS </li>
+<li>Experience with Python web frameworks ie. Flask/Django/Tornado </li>
+<li>Utilized work queues for background processing </li>
+<li>In-depth knowledge of MongoDB and Redis </li>
+<li>Excellent understanding of HTTP </li>
+<li>Experience developing REST APIs </li>
+<li>Designed for modular systems </li>
+<li>Cloud environment experience</li>
+<li>Excellent communication and organizational skills</li>
+</ul>
+
+
+<h2>加分</h2>
+
+<ul>
+<li>Worked with Python <code>asyncio</code></li>
+<li>Experience developing in Go </li>
+<li>Event-driven architecture </li>
+<li>Experience working with cluster environments and/or containers. ie. Kubernetes, Docker </li>
+<li>Development flow utilizing CI/CD </li>
+<li>Experience working with distributed systems </li>
+<li>Experience working with real-time APIs </li>
+</ul>
+
+
+<h2>薪資範圍</h2>
+
+<ul>
+<li>年薪 100 萬新台幣以上。</li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="R4jNZup"></a>
+  
+  <h3 class="item__title"><a href="https://www.teepublic.com/">TeePublic</a></h3>
+    <p>上禮拜發現的一個專門賣 T-shirt 的網站，重點是上面賣的 T-shirt <strong>都！超！宅！</strong>它甚至有一個叫做 <a href="https://www.teepublic.com/t-shirts/programmer">Programmer</a> 的分類，或是你也可以隨便拿幾個你喜歡的電影、遊戲或動漫畫作品的名字去搜尋看看，保證有驚喜。我看到的第一天就買了八件。推薦各位臭宅去感受一下。</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享！</p>
+  <span class="item__footer"><a href="https://www.teepublic.com/">teepublic.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/139/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-08-27'>August 27th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>140 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/141/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-09-10'>September 10th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

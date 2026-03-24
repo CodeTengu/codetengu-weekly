@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 88 除錯就像是推理劇，你擔任偵探，同時也是兇手</title>
+<meta name="description" content="本期內容涵蓋 DevOps, Continuous Delivery, REST, JavaScript, Blockchain, Elixir, Phoenix, Bash, Python, 創業">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 DevOps, Continuous Delivery, REST, JavaScript, Blockchain, Elixir, Phoenix, Bash, Python, 創業'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/88/index.html#start">
+        Issue 88 除錯就像是推理劇，你擔任偵探，同時也是兇手 &nbsp;<i><time class='published' datetime='2017-05-15'>May 15th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-273972"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Singularity Sky</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 最近在看<a href="http://www.taaze.tw/static_act/201302/art/">禪與摩托車維修的藝術</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 在這裡寫歡迎挖角真的有用嗎🤔 有讀者留意過這一區塊嗎 XD</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - <a href="https://www.facebook.com/10209522579123158">台灣盲目吹捧 Python 大會</a><a href="https://tw.pycon.org/2017/registration/ticket-info/">熱烈售票中</a> 🐍</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a>（<a href="https://github.com/CodeTengu">Open Source 專案</a>）或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="imWUe6k"></a>
+  
+  <h3 class="item__title"><a href="http://pushtrain.club/">The Push Train</a></h3>
+    <p>這篇是在講 Continuous Delivery 的心理面, 或者是說非工具面, 作者本來覺得把 CD
+ 的工具鏈導進一家新公司就可以搞定了, 但是其實需要搞定很多人的問題。</p>
+
+<p>當中也提到, 像是去年我在 StreetVoice 開始提的一個流程 (看來我得寫一篇文章), 就是在說開發人員的 code 被 Review approve 過後, 要自己去 merge PR, 等 CI 跑完, code 自動 deploy 上 staging 後, 開發人員看到 Slack 通知, 就得上去人工測試, 沒問題了就自己把 code 丟上 production 這件事。</p>
+
+<p>而 Etsy 因為開發人數多, 部署的併發數高, 變成是得多人同時做這件事, 當多人同時做這件事時, 流程就又更厲害了, 真的是非常值得參考。</p>
+
+<p>另外, 最近重新看了在 <a href="https://weekly.codetengu.com/issues/74">CodeTengu 74 期</a>提過的 <a href="https://speakerdeck.com/rocio/yessql-process-and-tooling-at-scale">YesSQL, Process and Tooling at Scale</a>, 重新看一遍除了有更深層的心得之外, 當中提到 GitHub 的 migration queue 這件事, 我覺得可以搭配 Etsy 的流程, 果然 Scale 到一種程度就得有更完善的流程。</p>
+  <span class="item__footer"><a href="http://pushtrain.club/">pushtrain.club</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GfkBAJv"></a>
+  
+  <h3 class="item__title"><a href="https://insomnia.rest/">Insomnia REST Client</a></h3>
+    <p>REST client 的新選擇? 是還滿漂亮的啦</p>
+  <span class="item__footer"><a href="https://insomnia.rest/">insomnia.rest</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ND6OJkG"></a>
+  
+  <h3 class="item__title"><a href="https://huangxuan.me/js-module-7day/#/">JAVASCRIPT MODULARIZATION JOURNEY</a></h3>
+    <p>雖然是英文標題, 但其實是中文內容的投影片。</p>
+
+<p>從早期的 js 開發講到近期的開發演進史, 主要是工具跟規格演進, 以及說明為何當初要這樣做, 我身為一個非前端開發人員, 真的是解決了我許多當初不曉得為何要這樣做的疑惑。</p>
+  <span class="item__footer"><a href="https://huangxuan.me/js-module-7day/#/">huangxuan.me</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="esReXYy"></a>
+  
+  <h3 class="item__title"><a href="http://yanngirard.typepad.com/yanns_blog/2015/01/from-employee-to-entrepreneur-in-10-steps.html">How to go from Employee to Entrepreneur in 10 Steps</a></h3>
+    <p>我雖然不是很鼓勵年輕人太早出來創業，但我不相信有人不喜歡自由。Yann Girard 這篇文章講得非常實在，要先做好準備，再辭掉手上的工作；事業要從小做起，不要好高騖遠。未來社會會趨向個人化的自由工作型態，先打好您跟客戶之間網路互動的基礎，也就是 followers 越多越好，得到相當程度的信賴與支持，就可以離開現有的公司，拾回原本就應該屬於你的自由。</p>
+  <span class="item__footer"><a href="http://yanngirard.typepad.com/yanns_blog/2015/01/from-employee-to-entrepreneur-in-10-steps.html">typepad.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eA6hQaM"></a>
+  
+  <h3 class="item__title"><a href="https://thecontrol.co/some-blockchain-reading-1d98ec6b2f39">Some Blockchain Reading</a></h3>
+    <p>以前，有了 Internet 跟 WWW，就覺得小公司也可以跟 IBM 一樣做全世界的生意。讓大家對未來充滿信心和希望。這ㄧ年多以來，blockchain 跟 A.I. 一樣，被人類重新重視。但它有可能像蒸氣車對工業革命的影響，再次對人類社會與生活方式，造成巨大的改變。</p>
+
+<p>還有很多文章要看... (就不多說了)... 不，不能不現在說，它讓我覺得小小的公司也可以跟 Google Play 或 Apple App Store 一樣，做一個 marketplace。而且不需要等下個月，或下下個月才拿得到錢，用戶可以透過 blockchain 馬上支付軟體公司錢。還有其他無限多的應用，我就真的不再多說了...</p>
+  <span class="item__footer"><a href="https://thecontrol.co/some-blockchain-reading-1d98ec6b2f39">thecontrol.co</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eNIsvfa"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=lKJrTeNQGZE">UAE GovHack - Tesla &amp; Tollbooth on Blockchain</a></h3>
+    <p>這 YouTube 介紹 <a href="https://www.projectoaken.com/">Oaken 專案</a> 如何在 Tesla 電動車上，利用 <a href="https://www.ethereum.org/">Ethereum</a> blockchain 技術做到 m2m IoT 自動收費系統。其中最大的優點是，大量減少營運成本。去中心化的結果，使得系統與系統之間的轉換與廠商跟廠商之間的費用的轉嫁，可以讓 3% 以上的所謂服務費，降至 0.01% 左右。對 IoT 結合 blockchain 有興趣的人，可以從 <a href="http://ethembedded.com/">EthEmbedded</a> 開始。</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=lKJrTeNQGZE">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hiroshiyui">
+        <div class="i" id="hiroshiyui">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@hiroshiyui</span></h2>
+            <div class="item item--issue item--link">
+  <a name="D6oBJr2"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/gothinkster/realworld">TodoMVC for the RealWorld™ — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more</a></h3>
+    <p>在 GitHub 上尋找 Elixir/Phoenix 的前後端分離、RESTful API 範例時，挖到這個東西（先說 <a href="https://github.com/BrainMaestro/elixir-phoenix-realworld">Elixir/Phoenix 版在此</a>）。</p>
+
+<p>這個專案透過實作一個 Medium 的仿品<strong>的 API 規格</strong>、具體示範了「只要 API 不變，前後端隨便你用任何語言與框架實作，都可以提供一樣的服務」這件事。如果你也跟我一樣渴求這類專案的參考、學習範例，這是一個不錯的資源。</p>
+  <span class="item__footer"><a href="https://github.com/gothinkster/realworld">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZsIDG4U"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf">How does Elixir compile/execute code?</a></h3>
+    <p>一篇 Elixir 機制的科普文，介紹 <code>elixir</code> 與 <code>elixirc</code> 執行程式的方式，兩者執行結果看起來一樣，但是處理的目的卻不一樣，最終產物也不同。望「名」生義，<code>elixir</code> 是 "The Elixir script runner" (<code>man 1 elixir</code>)，<code>elixirc</code> 是 "The Elixir compiler" (<code>man 1 elixirc</code>)，所以後者 compile 出了 Modulename.beam 檔。</p>
+  <span class="item__footer"><a href="https://medium.com/@fxn/how-does-elixir-compile-execute-code-c1b36c9ec8cf">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dVDiydb"></a>
+  
+  <h3 class="item__title"><a href="https://kierantie.com/a/burnout/">Recovering from Burnout and Depression</a></h3>
+    <p>作者分享他之前遭遇燃盡 (burnout) 狀況時，面對它、處理它的過程。讀完這篇讓我心有戚戚焉，原來在某段工作後期，我的精神狀態，就是燃盡。</p>
+
+<p>這篇我就不想方設法多擠一些字出來湊版面了，如果你目前工作也遇到類似的狀況，讀吧你，這篇文章或許能幫得上你。</p>
+
+<p>（我也很希望當時就能有這篇文章）</p>
+  <span class="item__footer"><a href="https://kierantie.com/a/burnout/">kierantie.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jSMevp2"></a>
+  
+  <h3 class="item__title"><a href="http://www.openrepose.org/">Repose</a></h3>
+    <p>最近讀到 IBM 開源了 <a href="https://github.com/strongloop/microgateway">API Connect Microgateway</a> 的<a href="http://www.infoq.com/cn/news/2017/05/ibm-microgateway-opensource">新聞</a>，正好我最近在學習刻 Web API，所以對這類訊息的關注敏感度較高。Repose 是另外一個功能近似的產品，由 <a href="https://www.rackspace.com/">Rackspace</a> 公司開源。</p>
+
+<p>老實說，這些 API middleware 產品我都還沒用上，但是看功能介紹，有命中我的需求，墊了這麼一層如果可以解決很多阿雜的麻煩事，我會很樂於採用。</p>
+  <span class="item__footer"><a href="http://www.openrepose.org/">openrepose.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="z1FkftK"></a>
+  
+  <h3 class="item__title"><a href="http://sasheldon.com/blog/2017/05/07/how-i-broke-cargo-for-windows/">How I Broke Rust’s Package Manager for All Windows Users</a></h3>
+    <p>作者做了一個 crate（Rust 對可散佈套件的稱呼），然後就把全世界 Windows 使用者的 Cargo（Rust 的套件管理工具）弄壞了。</p>
+
+<p>原來 Cargo 在同步套件列表時，會為每個 crate 在本地建立一個檔案，存放相關資訊。作者上傳的 crate 叫做 <code>nul</code>，在 Windows 上是個保留檔名，讓 Cargo 在建檔時出錯，結果就什麼事情都做不了。</p>
+
+<p><strong>什麼啦這限制也太 87 了吧 Windows 不意外呵呵 Windows 呵呵。</strong>如果你的反應是這個，那你就，嗯，跟我一樣 XD 不過更奇耙的是，這還不止是唯一的保留名——總共有 22 個！至於理由嘛實在有點長，就請大家自己享受<del>微軟考古學家</del> <a href="https://blogs.msdn.microsoft.com/oldnewthing?p=42073">Raymond Chen 的專文</a>。總之這個名稱的作用類似 <code>/dev/null</code>，但是在所有目錄都適用，且與副檔名無關（也就是說 <code>NUL.EXE</code>、<code>NUL.TXT</code>、<code>NUL.DOC</code> 等等同樣是保留名稱）。</p>
+
+<p>Rust 社群最後的<a href="https://github.com/rust-lang/crates.io/pull/695">解法</a>是把這個 crate 下架，並禁止未來的使用者使用這 22 個保留名稱當作 crate 名。如同原文 comments 提到的，如果你的程式支援 Windows，也有類似功能，就快點檢查你會不會踩到一模一樣的 bug 吧。</p>
+  <span class="item__footer"><a href="http://sasheldon.com/blog/2017/05/07/how-i-broke-cargo-for-windows/">sasheldon.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GZ6FuiZ"></a>
+  
+  <h3 class="item__title"><a href="http://www.vidarholen.net/contents/blog/?p=576">[ -z $var ] works unreasonably well</a></h3>
+    <p>繼續討論 87 的話題。Bash scripting 有一堆雷這不是新聞，不過如果你踩中這個，雖然程式做的事情會跟你想的完全不一樣，但結果卻會正確！</p>
+
+<p>幫不熟 Bash 的人解釋：<code>$var</code> 代表取變數值，<code>[</code> 會對後面的參數進行處理，回傳 0 或 1；<code>-z</code> 如果後面有接參數，就是一個 binary operator，判斷參數是否為空。問題在於，Bash 的變數取值就只是個取代，所以如果 <code>$var</code> 是 <code>foo bar</code>，<code>[ -z $var ]</code> 就會被<a href="https://en.wikipedia.org/wiki/Internal_field_separator">展開</a>成 <code>[ -z foo bar ]</code>，兩個參數。更神的是，如果 <code>$var</code> 為空，則 <code>[ -z $var ]</code> 就會變成 <code>[ -z ]</code>。為了解決這個問題，通常的建議是<strong>永遠加引號</strong>。如果寫成 <code>[ -z "$var" ]</code>，就可以在所有狀況都正常。</p>
+
+<p>至於不加引號會怎麼影響 <code>[</code> 的行為，以及為什麼 <code>[ -z $var ]</code> 可以得到算 OK 的結果，大家就點進去看引文吧。這也是好 87 啊 Bash 不意外呵呵 Bash 呵呵。</p>
+  <span class="item__footer"><a href="http://www.vidarholen.net/contents/blog/?p=576">vidarholen.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="s4vN45Z"></a>
+  
+  <h3 class="item__title"><a href="https://opensource.com/article/17/4/grok-gil">Grok the GIL: How to write fast and thread-safe Python</a></h3>
+    <p>談到 Python 的缺點，就是跑得慢和 GIL 啦——雖然也是很有本，Python 就是這兩個點最麻煩了。不過在抱怨的同時，你有試著了解他嗎？<del>沒有，因為你只想到自己。</del></p>
+
+<p><del>男神</del> Jesse 這次帶大家來看看 Python 的 GIL 究竟是如何 implement、在什麼時候會發生作用、以及它在什麼時候其實不會阻止你實作 concurrency。這樣你以後抱怨的時候，就可以<del>賣弄術語</del>更有底氣，也不會錯怪它。</p>
+  <span class="item__footer"><a href="https://opensource.com/article/17/4/grok-gil">opensource.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QNBWpjj"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=uNjxe8ShM-8">On The Turing Completeness of PowerPoint</a></h3>
+    <p><del>我覺得 PowerPoint 是世界上最厲害的簡報軟體了，其他的都應該廢除。</del></p>
+
+<p>真的啊，如果 PowerPoint 是 Turing-complete，不就代表可以用它實作任何的簡報軟體；既然可以識做任何簡報軟體，其他的就都不需要，可以廢除了啊！</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=uNjxe8ShM-8">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/87/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-05-08'>May 8th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>88 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/89/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-05-22'>May 22nd 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 37 除錯的難度幾乎是寫程式的兩倍，如果你把程式寫得太精巧，那你多半沒有聰明到可以解決你的程式的錯誤</title>
+<meta name="description" content="本期內容涵蓋 C++, Wangle, Elixir, Erlang, Regression Testing, JavaScript, WebAssembly, TypeScript, npm, iOS, Swift, RxSwift">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 C++, Wangle, Elixir, Erlang, Regression Testing, JavaScript, WebAssembly, TypeScript, npm, iOS, Swift, RxSwift'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/37/index.html#start">
+        Issue 37 除錯的難度幾乎是寫程式的兩倍，如果你把程式寫得太精巧，那你多半沒有聰明到可以解決你的程式的錯誤 &nbsp;<i><time class='published' datetime='2016-04-04'>April 4th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-128008"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href="http://book.douban.com/people/vinta/">平面國</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - /ASD.?/ 工程師</li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="j8IfXEs"></a>
+  
+  <h3 class="item__title"><a href="http://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/">How is JavaScript asynchronous AND single threaded?</a></h3>
+    <p>JavaScript 是一個 asynchronous 的語言，不過在執行時是透過 single thread 來達成，文內會用簡單的圖解介紹  parallel programming 和 asynchronous programming 的差別。</p>
+  <span class="item__footer"><a href="http://www.sohamkamani.com/blog/2016/03/14/wrapping-your-head-around-async-programming/">sohamkamani.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ccXjA5f"></a>
+  
+  <h3 class="item__title"><a href="http://v8project.blogspot.tw/2016/03/experimental-support-for-webassembly.html">Experimental support for WebAssembly in V8</a></h3>
+    <p>WebAssembly 的概念才在去年被提出，V8 引擎上已經有實驗性的實作了， WebAssembly 因為是 binary format ，所以可以提升到接近 native 的速度，又因為基於 LLVM ， 可以使用各種語言編譯，或許再過個幾年，可以像當年的 Flash 一樣，改變前端的生態。</p>
+  <span class="item__footer"><a href="http://v8project.blogspot.tw/2016/03/experimental-support-for-webassembly.html">blogspot.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xhGHBsr"></a>
+  
+  <h3 class="item__title"><a href="http://staltz.com/all-js-libraries-should-be-authored-in-typescript.html">All JS libraries should be authored in TypeScript</a></h3>
+    <p>Cycle.js 的作者 <a href="http://staltz.com/">André Staltz</a> 提出了幾個理由說明為何需要用 Typescript 撰寫 libraries ：</p>
+
+<ul>
+<li>Better Documentation
+
+<ul>
+<li>加入 type 能讓 API 更清楚明瞭</li>
+</ul>
+</li>
+<li>Better Autocomplete
+
+<ul>
+<li>在一些編輯器像是 Visual Studio Code 與 Sublime 目前都有不錯的整合</li>
+</ul>
+</li>
+<li>Better Reliability</li>
+</ul>
+  <span class="item__footer"><a href="http://staltz.com/all-js-libraries-should-be-authored-in-typescript.html">staltz.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LLpHVPr"></a>
+  
+  <h3 class="item__title"><a href="http://chrismm.com/blog/how-to-reduce-the-cognitive-load-of-your-code/">How to reduce the cognitive load of your code</a></h3>
+    <p>這篇文章主要探討如何寫出 good readibility code ：</p>
+
+<ul>
+<li>Keep your personal quirks out of it
+
+<ul>
+<li>盡量遵照 coding standards ，不要用太多自己的方式。</li>
+</ul>
+</li>
+<li>Divide and conquer it
+
+<ul>
+<li>把大的問題分解成各個小問題</li>
+</ul>
+</li>
+<li>Make it discrete and processable
+
+<ul>
+<li>避免使用 magic string 造成 IDE 整合上的困難</li>
+</ul>
+</li>
+<li>Make it readable</li>
+<li>Make it easy to digest</li>
+</ul>
+  <span class="item__footer"><a href="http://chrismm.com/blog/how-to-reduce-the-cognitive-load-of-your-code/">chrismm.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jSbID5b"></a>
+  
+  <h3 class="item__title"><a href="http://blog.npmjs.org/post/141905368000/changes-to-npms-unpublish-policy?utm_source=javascriptweekly&amp;utm_medium=email">npm 更改了 unpublish 的政策</a></h3>
+    <p>上禮拜 npm 的 package 貢獻者 <a href="https://medium.com/@azerbike/i-ve-just-liberated-my-modules-9045c06be67c#.w6ti1ompu">Azer Koçulu</a> 刪除了所有他在 npm 上的 packages ，而此舉造成了很多依賴 left-pad 的 package 安裝出錯， npm 為了此次事件更改了政策，修改版本超過 24 小時就無法再 unpublish。</p>
+  <span class="item__footer"><a href="http://blog.npmjs.org/post/141905368000/changes-to-npms-unpublish-policy?utm_source=javascriptweekly&amp;utm_medium=email">npmjs.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="MhEsZet"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kuler90/RKTagsView">RKTagsView</a></h3>
+    <p>有不少 app 的畫面都會需要用到 tag view 來呈現資料，例如幫文章新增刪除標籤或是發訊息給多個聯絡人等等。之前我也曾找過有沒有不錯的套件可以拿來直接用，是有找到不少，但都覺得少了一些自訂的彈性。這兩天不經意看到這一個新套件，看起來可自訂的東西還不少，推薦給需要的人參考！</p>
+  <span class="item__footer"><a href="https://github.com/kuler90/RKTagsView">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5CJuydj"></a>
+  
+  <h3 class="item__title"><a href="http://chengway.in/swift-2-2-de-xin-te-xing/">Swift 2.2 的新特性</a></h3>
+    <p>Swift 2.2 已經正式推出好幾天了，不意外的又有許多「會讓工程師開心，卻又得修改程式碼」的變動，如果你還不知道發生什麼改變的話，可以看看這篇文章，已經幫你把重點都列出來了。</p>
+  <span class="item__footer"><a href="http://chengway.in/swift-2-2-de-xin-te-xing/">chengway.in</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FtlaJcC"></a>
+  
+  <h3 class="item__title"><a href="http://t.swift.gg/d/2-rxswift">RxSwift 学习指导索引</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Functional_reactive_programming">FRP (Functional Reactive Programming)</a> 在這幾年逐漸成為 app 開發的顯學，以前在 Objective-C 時代只有 <a href="https://github.com/ReactiveCocoa/ReactiveCocoa">ReactiveCocoa</a> 獨領風騷，幾乎是要使用 FRP 的唯一選擇。到了 Swift 之後倒是百家爭鳴，但目前最受眾人喜愛的應該還是 ReactiveCocoa 跟 <a href="https://github.com/ReactiveX/RxSwift">RxSwift</a>。</p>
+
+<p>兩者在使用上雖然有一些差異，概念卻是非常相似，中國的網友整理了一系列的 RxSwift 的學習指引，很適合剛接觸的人作為入門磚。</p>
+  <span class="item__footer"><a href="http://t.swift.gg/d/2-rxswift">swift.gg</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JcwVoo5"></a>
+  
+  <h3 class="item__title"><a href="http://useyourloaf.com/blog/adapting-auto-layout-without-interface-builder/">Adapting Auto Layout Without Interface Builder</a></h3>
+    <p>為了解決螢幕大小（直立、橫向、iPhone、iPad、Split View）越來越多的問題，使用 Auto Layout 來設計畫面已經是勢在必行，蘋果為了讓開發者輕鬆一點，在這方面也付出不少努力，例如推出了 StackView 跟越來越方便的 Interface Builder。</p>
+
+<p>儘管 Interface Builder 讓人詬病的地方很多，但不得不承認的是，用它來設定不同 Size classes 的 Auto Layout constraints 實在很方便。如果我們想要用純程式碼的作法，不使用 Interface Builder 來拉介面，該怎麼做呢？看完這篇文章你就懂了。</p>
+  <span class="item__footer"><a href="http://useyourloaf.com/blog/adapting-auto-layout-without-interface-builder/">useyourloaf.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="N6JrTpC"></a>
+  
+  <h3 class="item__title"><a href="http://keeganlee.me/post/architecture/20160303">App 架构经验总结</a></h3>
+    <p>架構這種東西，每個人的看法跟作法都不一樣，不同的語言跟不同的專案規模也會影響架構的設計。有句老話說得很對：「沒有正確的架構，只有適合的架構」。</p>
+
+<p>我自己是習慣看到討論架構的文章就會看一看，反正這種東西現在用不到，可能過一陣子就會用到。主要就是得多看多動多思考，即使不懂也要留個印象，慢慢的積累下來，時機到了就會體現出功用了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://keeganlee.me/post/architecture/20160107">App 架构设计经验谈: 接口的设计</a></li>
+<li><a href="http://keeganlee.me/post/architecture/20160114">App 架构设计经验谈: 技术选型</a></li>
+<li><a href="http://keeganlee.me/post/architecture/20160120">App 架构设计经验谈: 数据层的设计</a></li>
+<li><a href="http://keeganlee.me/post/architecture/20160214">App 架构设计经验谈: 业务层的设计</a></li>
+<li><a href="http://keeganlee.me/post/architecture/20160222">App 架构设计经验谈: 展示层的设计</a></li>
+</ul>
+  <span class="item__footer"><a href="http://keeganlee.me/post/architecture/20160303">keeganlee.me</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="hAKc1r2"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/hacker-daily/writing-high-performance-servers-in-modern-c-7cd00926828">Writing modern C++ servers using Wangle</a></h3>
+    <p>各位開發 backend server 的讀者都是用什麼語言呢？我猜主流應該是 Python、PHP 或 Ruby (on Rails)；新潮一點的大概是 Go、Node.js。</p>
+
+<p>因為常常變換工作用的語言（笑），所以我還蠻愛關注如何用其他語言或工具怎麼開發類似的功能。看到這篇 Wangle 入門才知道原來現在 C++ 的 framework 這麼好用。</p>
+
+<p>看看那個精美的分層 pipeline 設計，就算你不用 C++ 開發伺服器也是可以做為參考的。（畢竟 <a href="https://github.com/facebook/wangle">Wangle</a> 可是 Facebook 推出的啊）。<a href="https://www.zhihu.com/question/35450157">知乎</a>上也有段小問答可以瞭解一下 Wangle 的定位。</p>
+
+<p>另外，順便推薦一下 <a href="https://twitter.com/vanillashu">@vanillashu</a> 的 Elixir 推坑文：</p>
+
+<ol>
+<li><a href="http://blog.fatpipi.com/2016/03/elxir-elixir.html">為什麼要用 elixir 呢?</a></li>
+<li><a href="http://blog.fatpipi.com/2016/03/elixir-erlang-elixir-phoenix-framework.html">安裝 erlang + elixir + phoenix framework</a></li>
+</ol>
+  <span class="item__footer"><a href="https://medium.com/hacker-daily/writing-high-performance-servers-in-modern-c-7cd00926828">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vCewWvC"></a>
+  
+  <h3 class="item__title"><a href="https://bitquabit.com/post/the-more-things-change/">Flux is the new WndProc</a></h3>
+    <p>不知道有多少讀者用純 C/C++ 寫過 Windows 上的應用，沒有的話可以看看微軟自家的 <a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ff381409.aspx">Hello World</a> 範例，特別是 <code>WindowProc</code> 這個函式。會不會覺得 Flux 架構很像呢？這可是 80 年代的東西啊。</p>
+
+<p>現在 Web 前端技術五花八門，但似乎是在瀏覽器上重現一次 Desktop 上的發展歷程（想想 Canvas、<a href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/">Service Worker</a>、WebRTC、……）。沒想到 IT 領域已經可以用上「鑑古知今」這句話了，參考前人的經驗或許可以作為評估新技術的參考依據。不然…… 當作趣味看看也好？ :p</p>
+  <span class="item__footer"><a href="https://bitquabit.com/post/the-more-things-change/">bitquabit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PlxLN7J"></a>
+  
+  <h3 class="item__title"><a href="https://kkboxsqa.wordpress.com/2014/02/27/%E5%9B%9E%E6%AD%B8%E6%B8%AC%E8%A9%A6-regression-testing/">回歸測試 (Regression Testing) | 科科和測試</a></h3>
+    <p>身為一個曾以軟體測試為研究主題的 CS 本科生，對於回歸測試卻一直是霧裡看花、摸不著頭緒。前陣子找到這篇簡要的基礎文章，跟大家分享一下。</p>
+
+<p>不過<a href="http://twitter.com/@zmx">壞人學長</a> 曾說過：「在你的系統夠大之前都不需要煩惱這些問題」。我想不少讀者參與的系統應該直接把全部的測試都跑過一遍就好了吧？反正也花不了太多時間，何苦花時間去研究回歸測試呢？ :p</p>
+  <span class="item__footer"><a href="https://kkboxsqa.wordpress.com/2014/02/27/%E5%9B%9E%E6%AD%B8%E6%B8%AC%E8%A9%A6-regression-testing/">wordpress.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VDrBbpk"></a>
+  
+  <h3 class="item__title"><a href="http://ookonweb.nuweb.cc/?link=3781YZqElE">台雲資訊 - 徵夥伴</a></h3>
+    <blockquote><p>雲端時代，Hadoop, Spark, OpenStack, MongoDB, ElasticSearch, Redis, NodeJS, Ruby on Rails, Python, R.... 一堆很紅的系統，但沒有一個 MIT 的，我們的政府倒是花了百億級的經費，而更讓人憂心的是，不管是學界或是產業界很少團隊進行此類平台系統的研發計畫。</p></blockquote>
+
+<p>這是<a href="https://zh.wikipedia.org/wiki/%E5%90%B3%E6%98%87">吳昇</a>教授的團隊，目前正在徵求志同道合的夥伴。吳教授開發過台灣第一套搜尋引擎、提出過 <a href="http://wp.tenz.net/archives/231">Web 3.0</a> ，他一向很堅持基礎技術應該掌握在自己手裡。我覺得這是很偉大的理想，有能力、有興趣的人不妨試試看吧。</p>
+
+<p>（這篇應該算是工商服務文章，但 CodeTengu 團隊並沒有獲得什麼好處就是了。 :p）</p>
+  <span class="item__footer"><a href="http://ookonweb.nuweb.cc/?link=3781YZqElE">nuweb.cc</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="98oV3Mq"></a>
+      <a href="https://www.instagram.com/jessicababyfat/"><img src="original_ratio_extra_large_24f1f16e-43ef-4af8-9cdc-0eedfb14fe79.jpg" title="本週 IG 女孩 - Jessica (@jessicababyfat)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/jessicababyfat/">本週 IG 女孩 - Jessica (@jessicababyfat)</a></h3>
+    <p>這次推薦的比較是個人偏好的類型。 但主要是因為較少看到台灣或亞洲女孩追求這種健美、豐腴路線，覺得應該鼓勵一下。 :)</p>
+  <span class="item__footer"><a href="https://www.instagram.com/jessicababyfat/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue">
+  <a name="t-133908"></a>
+      <img src="original_ratio_extra_large_6e9aa403-1570-47e4-870c-e83cd172b121.jpg" title="2016 書店店員漫畫大賞 aka 就是要選出那些漏網之魚。" alt="" width="730" />
+
+  <h3 class="item__title">2016 書店店員漫畫大賞 aka 就是要選出那些漏網之魚。</h3>
+    <p>2008 年開始的書店店員大賞，選出的作品通常比較重視編輯面和內容，用白話說就是不以人氣、銷售量、動畫化等指標做為考量，而是用業界人士的專業角度評鑑的一個大賞。簡單說，這個賞其實是業界人的自 high，用來背書的力道稍嫌弱了點，但對我個人來說，這個賞的確是有質量擔保的評鑑，而且不將作品分類、貼標籤，一視同仁的選出真心推薦的作品，這一點非常不錯。這次選上的作品有一半以上還沒看過，所以就跟大家介紹一下我有看過的～ 沒看過的也先放上來，大家有興趣可以找來看。<a href="https://goo.gl/e9hiBd">read more</a></p>
+  <span class="item__footer">來自 <a href="https://medium.com/@autisticcat">@autisticcat</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/36/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-03-28'>March 28th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>37 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/38/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-04-11'>April 11th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

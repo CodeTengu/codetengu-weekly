@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 19 我早年都是用 vim 寫程式，也說不上特別喜歡，主要是當時還不知道怎麼退出 vim</title>
+<meta name="description" content="本期內容涵蓋 Python, JavaScript, Node.js, Linux, Docker, Ansible, Agile, Code Review, PHP 7, 人才招聘">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, JavaScript, Node.js, Linux, Docker, Ansible, Agile, Code Review, PHP 7, 人才招聘'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/19/index.html#start">
+        Issue 19 我早年都是用 vim 寫程式，也說不上特別喜歡，主要是當時還不知道怎麼退出 vim &nbsp;<i><time class='published' datetime='2015-12-07'>December 7th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-79988"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是<a href="https://github.com/CodeTengu/headquarters">目前的 curator 陣容</a>：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 泰國不得了</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近交了一個很正的女朋友，大家都很生氣</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="80zB6bq"></a>
+  
+  <h3 class="item__title"><a href="http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/">Python List Comprehensions: Explained Visually</a></h3>
+    <p>說到 Python 常常被拿出來說嘴的語法糖 list comprehensions，我前幾天正好看到這篇佛心的文章，作者用了各種色彩斑斕的例子和程式碼為初學者說明什麼是 list comprehensions（還他媽做了 GIF 動圖），如果你最近在學 Python，看不懂 list comprehensions 到底在寫殺小，推薦你看看。</p>
+
+<p>P.S. 就怕大家不知道，其實 Python 也有 set comprehensions 和 dict comprehensions。</p>
+  <span class="item__footer"><a href="http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/">treyhunner.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iGTALqR"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925#.mgzytijlh">Must See JavaScript Dev Tools That Put Other Dev Tools to Shame</a></h3>
+    <p>因為最近又打算來玩一下 Node.js，但是因為 JavaScript 界總是一代新人換舊人，所以決定從這篇文章開始，來熟悉一下現在 JS（主要是 backend）主流的開發工具鏈。</p>
+
+<p>是說現在 JavaScript 的 intelligent code completion 外掛除了 Tern 之外就沒有別的了嗎？以前用過真的不是很智能啊。</p>
+  <span class="item__footer"><a href="https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925#.mgzytijlh">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ypbazTi"></a>
+  
+  <h3 class="item__title"><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">Linux Performance Analysis in 60,000 Milliseconds</a></h3>
+    <p>這是來自 Netflix Performance Engineering team 的文章（不是我在說，<a href="http://techblog.netflix.com/">Netflix Tech Blog</a> 上真的有不少好東西）。這篇文章是在說：假設你要 SSH 進去某台 server 調查 performance 的問題，在登入後的 60 秒內，你可以做什麼來快速定位到問題可能出自哪裡？可能是 CPU、memory、disk 或是 network？</p>
+
+<p>我上禮拜才在想說要去問我們 team 的 SysAdmin 類似的問題，結果今天就看到這篇文章了，嘖嘖。題外話，團隊裡有一個厲害的 SysAdmin / DevOps 真的很棒啊，自從他來了之後我們的開發流程和生產力可都是超英趕美呢！建議各位老闆或技術主管，不要再找一些沒用的廢物 PM 了，找一個 SysAdmin / DevOps 比較實在啦！</p>
+  <span class="item__footer"><a href="http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html">netflix.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2ypNM7C"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/vinta/HAL-9000">vinta/HAL-9000</a></h3>
+    <p>因為前陣子看了 IFTTT 的那篇 <a href="http://weekly.codetengu.com/issues/14#3TWHzgG">Developing with Docker</a>，深受啟發，遂決定也如法炮製一番，還順手加了幾個屁功能。現在我就是拿 HAL 來管理我的整個開發環境和 dotfiles（主要就是 Docker、Go、Node.js 以及大家的好朋友 Python 君）。</p>
+
+<p>雖然不見得會有什麼太高的技術含量，但是身為一個 developer，寫一些給自己用（通常也都可以順便給別人用）的 side project 其實是一件很愉快的事啊。因為不是為了賺錢，也沒有時程的壓力，甚至是在 project 裡加上一些對人類文明的進展完全沒有幫助（只是因為你爽）的功能。我之前還寫了一個用來在網頁上的中英文之間插入空格的 <a href="https://github.com/vinta/paranoid-auto-spacing">Chrome 外掛</a>，但是我花了最多時間的除了處理如何正確地判斷要在哪個 DOM node 裡加上空格之外（畢竟 HTML 可是有各種巢狀嵌套的結構），就是在幫選項頁面的每個選單和按鈕加上快打旋風的特效（撥瀏海）。</p>
+  <span class="item__footer"><a href="https://github.com/vinta/HAL-9000">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ym0cSxR"></a>
+  
+  <h3 class="item__title"><a href="http://amzn.to/1LWgk9c">Ansible: Up and Running</a></h3>
+    <p>因為 <a href="https://github.com/vinta/HAL-9000">HAL</a> 有用到 Ansible，所以我花了幾碗牛肉麵的時間讀完了這本 Ansible: Up and Running（跟大家分享一下，就算你們不想知道：其實我習慣在吃飯的時候讀書）。不得不說，跟不長進的 SaltStack 比起來，Ansible 才像是一個用 Python 寫出來的簡潔、優雅的 configuration management 工具嘛！</p>
+
+<p>對 Ansible 有興趣的朋友，我會推薦這本書（雖然目前為止關於 Ansible 的我也只讀過這本），不過對於如何運用一個 CM 工具所需要的知識，其實書上都提到了啊（對圍觀的眾人使出「相信我之術」）。</p>
+  <span class="item__footer"><a href="http://amzn.to/1LWgk9c">amzn.to</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="s83g9q7"></a>
+  
+  <h3 class="item__title"><a href="http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader">What is an Agile Leader?</a></h3>
+    <p>最近一、兩年我開始減少寫程式的工作份量, 專注在管理, 領導相關的議題, 不過也一直在摸索、學習。</p>
+
+<p>而在前一陣子看到這篇真是驚為天人, 搭配最近自身的經驗, 覺得實在是非常棒的一篇文章, 我誠心推薦給大家, 雖然文章很長, 但真的棒。 本來想節錄重點, 但是這篇文章幾乎都是重點, 就不幫大家節錄了。</p>
+  <span class="item__footer"><a href="http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader">crisp.se</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="M8yNjj3"></a>
+  
+  <h3 class="item__title"><a href="https://tzangms.com/from-pocket-to-instapaper/">從 Pocket 跳槽改用 Instapaper</a></h3>
+    <p>因為現在讀的東西稍微不一樣, 不像以前讀的都是程式碼、技術相關的文章, 而是比較常讀一些管理、領導、創業或是時間管理的相關文章, 所以對於「筆記」以及「畫重點」這種需求似乎多了起來, 跟大家分享一下心得。</p>
+  <span class="item__footer"><a href="https://tzangms.com/from-pocket-to-instapaper/">tzangms.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vtY0Vjl"></a>
+  
+  <h3 class="item__title"><a href="http://amzn.to/1PMhaxf">有聲書推薦: Talent Rules!</a></h3>
+    <p>最近除了在幫 <a href="http://streetvoice.com/">StreetVoice</a> 面試各種程式設計師的職缺之外, 也在幫集團面試 MIS 主管。 面試主管職缺壓力比以往大, 可能是因為大部分的人都比我大、比我資深, 所以這一輪下來, 開始覺得得精進一下相關的技能。</p>
+
+<p>所以為了精進自己的面試的技巧跟方式, 買了好幾本關於面試技巧的書籍, 雖然說以前就聽過幾本, 像是 <a href="http://amzn.to/1PMhZ9d">Who</a> 這本其實也很不錯, 但是沒真的認真體驗、思考以及實踐的話, 看再多書也都只是表面, 最近讀了這本之後覺得方向更明確了。</p>
+
+<p>雖然說主管思維其實很好辨識, 但是到底該問什麽問題, 該怎麼問, 才能能確認這個人的 Performance 到底如何? 聽完這本書前三個章節就可以有非常大的收穫。</p>
+
+<p>最近幫自己設定最重要的目標就是 Recruit, 其他都再說, 像是本週我貼的第一篇文章 <a href="http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader">What is an Agile Leader?</a> 裡面提到的各種事情, 基本上都是立於你招募到好人才為前提, 這是我這一陣子的體會, 大家可以感受一下。</p>
+  <span class="item__footer"><a href="http://amzn.to/1PMhaxf">amzn.to</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="pMFRkgx"></a>
+      <a href="https://www.instagram.com/hongz_wannika/"><img src="original_ratio_extra_large_e8d0f5c1-b1bc-425f-921c-bf8d53a06178.jpg" title="本週 IG: hongz_wannika" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/hongz_wannika/">本週 IG: hongz_wannika</a></h3>
+    <p>天氣冷, 真的想去泰國</p>
+  <span class="item__footer"><a href="https://www.instagram.com/hongz_wannika/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="NSVQR2b"></a>
+  
+  <h3 class="item__title"><a href="http://blog.acolyer.org/2015/10/05/ipfs-content-addressed-versioned-p2p-file-system/">IPFS – Content Addressed, Versioned, P2P File System</a></h3>
+    <p>行星際檔案系統——<a href="https://github.com/ipfs/ipfs">IPFS</a> 是分散式的 P2P 檔案系統，它以內容來<em>定址</em>，讓 Web 從去中心化轉成真正的分散式。這篇文章摘要了 IPFS 所使用的技術，包括來自 Kademlia 與 BitTorrent 的 DHT、類似 Git 的物件模型等，適合當作了解技術細節的入門；實作範例可以參考官方提供的 prototype：<a href="https://github.com/ipfs/go-ipfs">IPFS implementation in Go</a>。</p>
+
+<p>我一直相信分散式檔案存取系統是未來的發展方向，期望 IPFS 能引起廣泛的應用。</p>
+
+<p>延伸閱讀：</p>
+
+<ol>
+<li><a href="https://blog.gslin.org/archives/2015/10/26/6084/ipfs-%E5%88%86%E6%95%A3%E5%BC%8F-web-%E6%9C%8D%E5%8B%99%EF%BC%8C%E4%BB%A5%E5%8F%8A-ipfspics-%E5%9C%96%E7%89%87%E5%84%B2%E5%AD%98/">IPFS 分散式 Web 服務，以及 ipfspics 圖片儲存 | Gea-Suan Lin's BLOG</a></li>
+<li><a href="http://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/">Why The Internet Needs IPFS Before It's Too Late | TechCrunch</a></li>
+</ol>
+  <span class="item__footer"><a href="http://blog.acolyer.org/2015/10/05/ipfs-content-addressed-versioned-p2p-file-system/">acolyer.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SGRf2Qp"></a>
+  
+  <h3 class="item__title"><a href="http://blog.psjay.com/posts/code-review-guide/">Code Review 指南</a></h3>
+    <p>嗯，又是另外一篇 code review 的指南。這篇比較著重於進行 code review 的時機與方式，同時也提到如何寫出便於 review 的 code 和 commit message。</p>
+
+<p>如果你之前錯過了的話，可以再看看 <a href="https://twitter.com/vinta">@vinta</a> 在 <a href="http://weekly.codetengu.com/issues/6#NxbcXSP">CodeTengu Issue #6</a> 提到的這兩篇：</p>
+
+<ul>
+<li><a href="http://kevinlondon.com/2015/05/05/code-review-best-practices.html">Code Review Best Practice</a></li>
+<li><a href="https://github.com/thoughtbot/guides/tree/master/code-review">A guide for reviewing code and having your code reviewed</a></li>
+</ul>
+  <span class="item__footer"><a href="http://blog.psjay.com/posts/code-review-guide/">psjay.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="C9hFdyL"></a>
+  
+  <h3 class="item__title"><a href="http://etodd.io/2015/09/28/one-weird-trick-better-code/">One Weird Trick to Write Better Code</a></h3>
+    <p>作者以他自己的小作品 Ninja Wars 和 Doom 3 的程式碼為例，列出了幾則通用的編程訣竅：</p>
+
+<ol>
+<li>避免全域變數</li>
+<li>物件導向的設計</li>
+<li>偏好組合勝於繼承</li>
+<li>優化效能的資料排列方法</li>
+</ol>
+
+
+<p>然後歸納出一個更通用的準則：混用物件導向和函數式編程。設計切合需求的資料結構、然後撰寫函數時盡可能不影響封裝的物件，最好能寫成純函數。</p>
+  <span class="item__footer"><a href="http://etodd.io/2015/09/28/one-weird-trick-better-code/">etodd.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="wyzG0wL"></a>
+  
+  <h3 class="item__title"><a href="https://ponyfoo.com/articles/es6">ES6 Overview in 350 Bullet Points</a></h3>
+    <p>用 350 條項目列出 ES6 的新特性。可以當作某種 cheat sheet ，如果你對 ES6 以前的 JavaScript 已經夠熟的話。</p>
+  <span class="item__footer"><a href="https://ponyfoo.com/articles/es6">ponyfoo.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="vvkA7EA"></a>
+  
+  <h3 class="item__title"><a href="https://blog.gslin.org/archives/2015/12/05/6178/%e6%9b%b4%e5%a4%9a%e9%97%9c%e6%96%bc-php-7-%e6%96%b0%e5%8a%9f%e8%83%bd%e7%9a%84%e4%bb%8b%e7%b4%b9/">更多關於 PHP 7 新功能的介紹...</a></h3>
+    <p>其實我很久沒寫 PHP 了，已經不太熟悉 PHP 的生態系。但我想 <a href="http://php.net/archive/2015.php#id2015-12-03-1">PHP 7 正式推出</a>肯定是件大事。如果你是用 PHP 的網站開發者，來看看到底 PHP 7 改了什麼東西吧。</p>
+  <span class="item__footer"><a href="https://blog.gslin.org/archives/2015/12/05/6178/%e6%9b%b4%e5%a4%9a%e9%97%9c%e6%96%bc-php-7-%e6%96%b0%e5%8a%9f%e8%83%bd%e7%9a%84%e4%bb%8b%e7%b4%b9/">gslin.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xGH7Gfm"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/tkosuga/boyfriend_require">tkosuga/boyfriend_require</a></h3>
+    <p>這個當年在 GitHub 開 repo 徵求男友的日本女程序員，這麼多年過去了，不知道她找到男朋友了沒？</p>
+
+<p>P.S. 看不懂日文的人，可以去找找其他人 fork 的版本，<a href="https://github.com/sheen-aa/boyfriend_require/blob/master/translations/Chinese/boyfriend_require_zh-CN.txt">中文</a>和<a href="https://github.com/agrimm/boyfriend_require/blob/master/README-en.md">英文</a>的版本都有喔。</p>
+
+<p>以上來自 <a href="https://twitter.com/vinta">@vinta</a> 的分享。</p>
+  <span class="item__footer"><a href="https://github.com/tkosuga/boyfriend_require">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="TMi7zXn"></a>
+      <a href="https://www.youtube.com/watch?v=OjxFTDzeG6A"><img src="original_ratio_extra_large_a474fe34-852b-4385-b2dc-9782dde646e2.png" title="成為廢土王者的一拳超人" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=OjxFTDzeG6A">成為廢土王者的一拳超人</a></h3>
+    <p>《一拳超人》紅到讓一個好端端的社會人瞬間變身為每週一固定在線上點刷新的屁孩這件事，應該不用再特別強調了。但是在 Fallout 4 裡造一個埼玉就很值得提一下了。這部作品 (一拳超人，不是 Fallout 4) 基本上顛覆了 JUMP 王道戰鬥漫畫的核心設定，有看《爆漫王》的人應該都知道「主角的成長」在這類型的作品中是不可或缺的要素，然而埼玉劈頭就是個怪力王者，而且平常長得就像 8 歲小孩 (或是一個畫技不好的大人) 畫的友藏，稍微拿出點實力的話每個人就會在五秒鐘之內去領便當了，老實說要是沒有「華麗戰鬥畫面擔當」傑諾斯，這部作品根本就會變成 *<a href="http://goo.gl/kWHLRV">搞笑漫畫日和</a>了吧！？</p>
+
+<p>*註一：那個連結是最近也很紅的小松先生模仿搞笑漫畫日和的世界末日</p>
+
+<p>回到《一拳超人》，其實它是一部<a href="http://tonarinoyj.jp/manga/onepanman/">在網路上連載的作品</a>，由於每回交稿量都不太一定，加上常常出現大場面動作電影般的跨頁分鏡，有時候都覺得做成翻頁動畫會不會好一點？其實在日本，線上連載已經成為一股趨勢，許多大手 (也就是名家) 都有線上作品，有興趣的話以後再來介紹。至於台版單行本，目前出到第 6 集，封面是生龍活虎的 PURI-PURI PRISONER 唷！</p>
+
+<p>喜歡村田雄介的話，必須不免俗地介紹他就是《光速蒙面俠 21》的作者，但結束連載之後這位漫畫家似乎就美好地壞掉了！？除了《一拳超人》之外，目前村田桑還以 ONE 的名稱連載了<a href="http://tonarinoyj.jp/manga/makai/">《魔界的歐吉桑》</a>和<a href="http://urasunday.com/mobupsycho100/index.html">《モブサイコ 100》</a>(這我實在不知道怎麼翻譯)，這兩部都更新地很勤，還有<a href="https://twitter.com/NEBU_KURO">推特</a>也是。記得沒錯的話《魔界的歐吉桑》在網路上應該找得到漢化版。</p>
+
+<p>如果問我有一天真人電影適合找誰來演的話，身為《熟成男生產履歷》的編撰者，我認為山内圭哉應該蠻適合的。</p>
+
+<p>知道你又想問：<a href="https://goo.gl/wSFTbN">山內圭哉是誰？</a></p>
+
+<p>以上來自 <a href="https://twitter.com/autisticcat">@autisticcat</a> 的分享！</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=OjxFTDzeG6A">youtube.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/18/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-11-30'>November 30th 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>19 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/20/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-12-14'>December 14th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

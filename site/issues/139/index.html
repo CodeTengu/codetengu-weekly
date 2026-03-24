@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 139 他們在 release 的前一天爆炸</title>
+<meta name="description" content="本期內容涵蓋 PHP, Design Pattern, DevOps, Terraform">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 PHP, Design Pattern, DevOps, Terraform'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/139/index.html#start">
+        Issue 139 他們在 release 的前一天爆炸 &nbsp;<i><time class='published' datetime='2018-08-27'>August 27th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-409442"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在重讀「<a href="https://www.douban.com/people/vinta/">沙丘</a>」系列</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">我們公司在徵人</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+<li><a href="https://github.com/lucienlee">@lucienlee</a> - 🦌</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="lx81R7q"></a>
+  
+  <h3 class="item__title"><a href="https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles">8 resources to learn about SOLID design principles</a></h3>
+    <p>PHP：中級 / Design Pattern：初級</p>
+
+<p>有人曾經問過 Laravel 的作者 Taylor Otwell：如果想成為更棒的 PHP 工程師，你會怎麼建議？</p>
+
+<blockquote><p> 學習出色的 Design Pattern。這不只適用在 PHP。你可以在任何程式語言使用這些 pattern。尤其是 SOLID。把這五個徹底學好，它會把你帶到新的境界，我每次寫 code 幾乎都在想這 5 點。</p></blockquote>
+
+<p>的確 Design Pattern 的重點心法即是在 SOLID（Single Responsibility Principle、Open Closed Principle、Least Knowledge Principle、 Interface Segregation Principle、Dependency Inversion Principle），每隔一段時間應該都要回頭檢視看看自己是否有將 SOLID 放在心中去寫 code，雖然有時趕產品開發常常會忽略掉而留下技術債，但就從回顧中去勉勵自己多看、多想、多練習。本篇文章羅列了一些平實易讀的資源，分享給大家。</p>
+  <span class="item__footer"><a href="https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles">barryvanveen.nl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="a8WdjAf"></a>
+  
+  <h3 class="item__title"><a href="https://matthiasnoback.nl/2018/08/more-code-comments/"> More code comments</a></h3>
+    <p>PHP：中級 / Programming：初級</p>
+
+<p>這是作者在 Twitter 上看到一篇討論程式註解的 tweet 之後寫下的文章，重點就是在討論註解這件事，當寫下註解的時候，可以去思考如何用一個概念來說明要註解的內容，如此可能就可以不必寫下註解，例如：</p>
+
+<pre><code>if ($date-&gt;hour &lt; 9 || $date-&gt;hour &gt; 17) { //Off-hours?
+}
+</code></pre>
+
+<p>可以改成</p>
+
+<pre><code>if ($this-&gt;isAnOffHour($date-&gt;hour)) {
+}
+</code></pre>
+
+<p>如此不僅不需要註解，甚至程式碼也變得更容易閱讀了。作者基本上贊成這個 tweet，不過他也提出了自己雖然也常遵循這樣的原則，不過卻也還是常寫下程式註解，當然我想這都是不可避免的（不然幹嘛有註解這樣的設計呢？），雖然我們要遵循好的設計原則，但卻也不是就完全不能寫註解，當真的需要寫下註解的時候，還是放心地寫吧！</p>
+  <span class="item__footer"><a href="https://matthiasnoback.nl/2018/08/more-code-comments/">matthiasnoback.nl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="X0RegK6"></a>
+  
+  <h3 class="item__title"><a href="https://developmentmatt.com/building-a-php-framework-part-1-why-seriously-why/">Building a PHP Framework: Part 1 – Why? Seriously, Why?</a></h3>
+    <p>PHP：中級 / Web Application：中級</p>
+
+<p>這一系列文章作者帶著讀者一步一步搭建一個 Web Framework，或許有人會問：為何要學做一個 Web Framework 呢？直接用現成的就好了啊！</p>
+
+<p>其實在搭建的過程當中可以學習到許多有關 Web Application 的知識及 Design Pattern，這可以讓自己對於 Web Application 的技術的掌握更扎實。像之前被批評的量產炮灰型 XXX Framework 工程師課程所產出的工程師其實就是少了這些基本知識，以至於只能學其一二，不能舉一反三。</p>
+
+<p>個人覺得這一系列文章寫得還蠻淺顯易懂的，雖然還沒完全完成，不過可以期待後續，回想起自己以前也幹過自幹 Framework 的傻事，的確很有成就感也能學到許多，不過要用到 production 還是三思啊！</p>
+  <span class="item__footer"><a href="https://developmentmatt.com/building-a-php-framework-part-1-why-seriously-why/">developmentmatt.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="awJE08I"></a>
+  
+  <h3 class="item__title"><a href="https://www.terraform.io/intro/index.html">Introduction to Terraform </a></h3>
+    <p>應該有些人聽過 Terraform，可能也有些人用過。敝公司也正在導入。不過這玩意到底是什麼呢？
+簡單來說就是用宣告式的方法來設定雲端系統 (像是 AWS, GCP, Azure 等等)。</p>
+
+<p>好處是整個系統都是用程式碼定義 (Infrastructure as Code) 。並且強制使用不可修改的 instance，讓系統的可重現性大幅提高。可以減少在 staging 會動，到 production 就升天的窘境。在這種伺服器會被關掉重開的情況下，也會讓大家在設計的時候就考慮到高可用性，減少水平擴展的困難度。</p>
+  <span class="item__footer"><a href="https://www.terraform.io/intro/index.html">terraform.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="e2lJkNt"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/gruntwork-io/terratest">Terratest: 雲端系統也能寫 unit test</a></h3>
+    <p>把雲端的的設定都寫成 Code 了，再來呢？有 Code 的地方就一定會有 Bug，這是無法改變的宿命。抓 Bug 並且讓它不再出現的最好方法就是寫 Test。不過設定要怎麼寫 Test 呢？</p>
+
+<p>Terratest 來拯救咧！</p>
+
+<p>這個 Gruntwork 開發的開源測試工具可以把你的雲端系統整個 deploy 到一個全新的環境，再自動跑我們寫的 test case ，像是 API test, ssh 連線等等。測完之後再自動把整個測試系統砍掉。讓改 infra code 不再心驚膽顫。</p>
+  <span class="item__footer"><a href="https://github.com/gruntwork-io/terratest">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Lxh2t9"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/gruntwork-io/terragrunt">Terragrunt: 把 Terraform 的設定抽到乾 (DRY)</a></h3>
+    <p>Infra code 寫好測滿之後，再來就要開始一層一層 deploy 出去，先是寫 dev 的設定，再來寫 staging 的設定，再來寫 alpha 的設定，差不多寫到 beta 的設定就崩潰了，連 production 都還沒到。每個環境都有點像，又都有點不像。好一點的只有 scale 不一樣，慘一點的要和一大堆 legacy 奮戰。</p>
+
+<p>Terragrunt 可以幫我們省很多複製貼上的工，讓每個環境都只需要訂參數，沿用一樣的設定，減少複製貼上產生錯誤的機率。也強制降低每個環境間的差異。</p>
+  <span class="item__footer"><a href="https://github.com/gruntwork-io/terragrunt">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oiWu55M"></a>
+  
+  <h3 class="item__title"><a href="https://www.usenix.org/conference/usenixsecurity18/presentation/mickens">	Why Do Keynote Speakers Keep Suggesting That Improving Security Is Possible? </a></h3>
+    <p>一個娛樂性非常高的 talk。讓我們能夠好好想想在 Hype Driven Development  下對電腦安全造成的影響。</p>
+  <span class="item__footer"><a href="https://www.usenix.org/conference/usenixsecurity18/presentation/mickens">usenix.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-sponsor">
+        <div class="i" id="sponsor">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工商服務</span></h2>
+            <div class="item item--issue item--link">
+  <a name="w60BCAw"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://iplayground.kktix.cc/events/iplayground2018">iPlayground 2018</a></h3>
+    <p>想聽 iOS 的最新開發技術？想聽和 Apple 奮戰的血淚談？想尋找新的工作機會？10/20 - 10/21 在台大管理學院舉辦的 iPlayground 2018 讓你三個願望一次滿足。</p>
+
+<p>目前熱烈<a rel="nofollow" href="https://cfp.iplayground.io/events/iplayground_2018">徵稿</a>與<a rel="nofollow" href="https://iplayground.kktix.cc/events/iplayground2018">售票</a>中。快來參與吧。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://iplayground.kktix.cc/events/iplayground2018">kktix.cc</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3e04zx3"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">Senior Backend Engineer at Swag</a></h3>
+    <h2>必備</h2>
+
+<ul>
+<li>In-depth knowledge of Python, NodeJS </li>
+<li>Experience with Python web frameworks ie. Flask/Django/Tornado </li>
+<li>Utilized work queues for background processing </li>
+<li>In-depth knowledge of MongoDB and Redis </li>
+<li>Excellent understanding of HTTP </li>
+<li>Experience developing REST APIs </li>
+<li>Designed for modular systems </li>
+<li>Cloud environment experience</li>
+<li>Excellent communication and organizational skills</li>
+</ul>
+
+
+<h2>加分</h2>
+
+<ul>
+<li>Worked with Python <code>asyncio</code></li>
+<li>Experience developing in Go </li>
+<li>Event-driven architecture </li>
+<li>Experience working with cluster environments and/or containers. ie. Kubernetes, Docker </li>
+<li>Development flow utilizing CI/CD </li>
+<li>Experience working with distributed systems </li>
+<li>Experience working with real-time APIs </li>
+</ul>
+
+
+<h2>薪資範圍</h2>
+
+<ul>
+<li>年薪 100 萬新台幣以上。</li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/138/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-08-20'>August 20th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>139 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/140/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-09-03'>September 3rd 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

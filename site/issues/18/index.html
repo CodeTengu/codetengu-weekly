@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 18 今天要跟大家說一個很好笑的 UDP 笑話</title>
+<meta name="description" content="本期內容涵蓋 Python, Go, MySQL, Docker, Android, iOS">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Go, MySQL, Docker, Android, iOS'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/18/index.html#start">
+        Issue 18 今天要跟大家說一個很好笑的 UDP 笑話 &nbsp;<i><time class='published' datetime='2015-11-30'>November 30th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-79474"></a>
+  
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是<a href="https://github.com/CodeTengu/headquarters">目前的 curator 陣容</a>：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 泰國不得了</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近交了一個很正的女朋友，大家都很生氣</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://twitter.com/tonytonyjan">@tonytonyjan</a> - 右手寫程式，左手寫音樂</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+
+<hr />
+
+<p>為了服務廣大的喜愛動漫的臭宅們，從本期開始，我們會不定期地推出 <strong>Otaku is the New Sexy</strong> 專欄，以三場晚餐約會和跟她去一次動物園作為交換，我們非常榮幸邀請到在東立出版社工作的職業腐女 <a href="https://twitter.com/autisticcat">@autisticcat</a> 小姐來跟大家分享。</p>
+  <span class="item__footer"></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ipjv5hw"></a>
+  
+  <h3 class="item__title"><a href="http://www.rafekettler.com/magicmethods.html">A Guide to Python&#39;s Magic Methods</a></h3>
+    <p>所謂的 <strong>Magic Methods</strong> 就是指 Python 的那些 <code>__xxx__</code> 的特殊 methods，例如最常見的 <code>__init__</code>、<code>__call__</code>、<code>__str__</code> 或是寫 context manager 一定會用到的 <code>__enter__</code> 和 <code>__exit__</code>。雖然有很多的 magic methods 平常不見得用得到，但是你至少應該看一下最後的那個 <strong>How to Call Magic Methods</strong> 表格，這樣你就知道那些你在別人的程式碼裡看到的魔術一般的用法是怎麼做到的了。</p>
+  <span class="item__footer"><a href="http://www.rafekettler.com/magicmethods.html">rafekettler.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="B6GeijO"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc#.awgfkmxuj">Best practices for a new Go developer</a></h3>
+    <p>這篇文章匯整了各方大神給 Golang 初學者的建議，但是主要講的都不是技術上的細節，而是觀念和心態上的 best practices。</p>
+
+<p>雖然常常聽到有人說每個程式語言都大同小異，只要精通一個，就能夠一法通萬法通，但是老實說我覺得這種說法根本就是放屁啊。如果只是學學基礎的語法，寫幾個屁程式，很多語言當然都很簡單。但是不同的語言其實都有各自的設計哲學、風格和慣例，要能夠寫出「道地的」程式碼，終究還是少不了長時間而且大量的實踐。所以「學習新的程式語言」這件事的潛在成本其實很高，換句話說，「如何決定要學什麼」也是一種很重要的技能啊。</p>
+  <span class="item__footer"><a href="https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc#.awgfkmxuj">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7PEXzyH"></a>
+  
+  <h3 class="item__title"><a href="http://imysql.com/2014/07/04/mysql-optimization-case-rand-optimize.shtml">[MySQL 优化案例] 系列 — RAND() 优化</a></h3>
+    <p>從資料庫中隨機取出幾筆記錄是個很常見的需求，但是我們都知道 <code>ORDER BY RAND()</code> 很慢，就算你以為你 <code>LIMIT 1</code> 了。這篇文章就列舉了其他幾個能夠達到同樣結果但是效率更好的方案。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html">MySQL 5.7 Reference Manual - ORDER BY Optimization</a></li>
+<li><a href="http://dev.mysql.com/doc/refman/5.7/en/mathematical-functions.html#function_rand">MySQL 5.7 Reference Manual - RAND()</a></li>
+</ul>
+  <span class="item__footer"><a href="http://imysql.com/2014/07/04/mysql-optimization-case-rand-optimize.shtml">imysql.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CCUoxPA"></a>
+  
+  <h3 class="item__title"><a href="http://thenewstack.io/ebookseries/">eBooks Series: The Docker and Container Ecosystem</a></h3>
+    <p>這是由 <a href="http://thenewstack.io/">The New Stack</a> 出版的一系列的 Docker 特刊，這一本是第一集。雖然我偶爾會取笑 The New Stack 就是技術文章界的內容農場，但是這本製作精美的小冊子倒是挺全面的，連最近的熱詞 Unikernel 都提到了。雖然有些章節的廢話很多，但是其中提到的某些數據蠻有趣的，例如對 Docker / Container 這項新技術的採用程度，大公司反而比一般的 startup 更高，但是想了一下也是有道理。</p>
+
+<p>題外話，我當初知道這個網站其實是因為 <a href="https://github.com/vinta/awesome-python">awesome-python</a>，那時候建立這個 repo 才沒幾天，就收到 The New Stack 的人寄來的信，說想針對這個主題<a href="http://thenewstack.io/awesome-python-frameworks-libraries-and-software-plus-tacos/">寫一篇文章</a>（雖然其實我後來沒回覆他），從那個時候開始我才發現國外的技術寫手的生態原來這麼蓬勃，而且他們不像 <a href="http://www.inside.com.tw/">Inside</a> 這樣的網路媒體，老是寫一些不入流或是錯誤百出的文章，國外的這些技術寫手對技術趨勢是有敏銳度的，而且他們是真的知道 Kubernetes 和 Mesos 是在做什麼的啊。</p>
+  <span class="item__footer"><a href="http://thenewstack.io/ebookseries/">thenewstack.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VuzdAVP"></a>
+  
+  <h3 class="item__title"><a href="https://devmag.io/post/2010/how-do-you-answer-questions-like-why-did-you-choose-x-over-y-where-x-and-y-are-two-competing-technologies-and-you-simply-prefer-x-to-y">How do you answer questions like &quot;Why did you choose X over Y&quot; where X and Y are two competing technologies and you simply prefer X to Y?</a></h3>
+    <p>我對於這種怎麼決定要用什麼技術（或是該怎麼點自己的技能樹）的主題一直都很感興趣。</p>
+
+<p>這是一個在 <a href="https://devmag.io/">devmag.io</a> 上討論，其中有一個人的回答可能挺有道理的：對於那些 "serious" 或是有急迫性的專案（簡單說就是你們公司的主力產品，做得好不好會左右公司存亡），最好還是用你或整個團隊都很熟悉的技術，即使那是個已經不新潮了的技術。</p>
+
+<p>但是我們也不要騙自己了，軟體工程師就是一群喜新厭舊的人啊，一聽到可以在專案裡用那個很潮的新玩意時，大家都超興奮的啊。所以嘛，才說每個人其實都應該要有自己的 side project，因為 side project 就是讓你嘗試新技術的地方啊。走得再前面一點，甚至每間公司、每個團隊也都應該要有 side project，畢竟現在優秀的軟體工程師可是很難找的啊，除了薪水、年終之外，彈性上下班（甚至是在家工作）、可以玩新技術也是很重要的福利啊，希望各企業的雇主們好好檢討一下。</p>
+  <span class="item__footer"><a href="https://devmag.io/post/2010/how-do-you-answer-questions-like-why-did-you-choose-x-over-y-where-x-and-y-are-two-competing-technologies-and-you-simply-prefer-x-to-y">devmag.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="E1WlJAv"></a>
+  
+  <h3 class="item__title"><a href="http://inthecheesefactory.com/blog/retrofit-2.0/en">Retrofit 2.0: The biggest update yet on the best HTTP Client Library for Android</a></h3>
+    <p>Android 上最知名的 REST client - Retrofit 在近期華麗地推出了 Retrofit 2 ，有哪些不一樣呢？<br/>
+終於可以在取得 deserialized object 的同時查找 header 或 URL、request 可以被真正的取消、一律採用 OkHttp 為 Retrofit 的 client。</p>
+
+<p>Retrofit 2 發佈時的 <a href="https://www.youtube.com/watch?v=KIAoQbAu3eA">影片</a>, <a href="https://speakerdeck.com/jakewharton/simple-http-with-retrofit-2-droidcon-nyc-2015">投影片</a></p>
+
+<p>如果你對 Retrofit 有興趣，但還在觀望，建議你可以看這篇教學 <a href="https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit">Consuming APIs with Retrofit</a></p>
+  <span class="item__footer"><a href="http://inthecheesefactory.com/blog/retrofit-2.0/en">inthecheesefactory.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TO1wHtA"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/pedrovgs/AndroidWiFiADB">pedrovgs/AndroidWiFiADB</a></h3>
+    <p>這個 IntelliJ / Android Studio 的 plugin 實在是太令人振奮了！透過 Wifi 網路就可以 build 到實機上 debug 了。</p>
+  <span class="item__footer"><a href="https://github.com/pedrovgs/AndroidWiFiADB">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="R6AUHKW"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/facebook/chisel">facebook/chisel</a></h3>
+    <p>在開發 iOS 的時候一定會經常性使用 lldb console 或是 Xcode 6 之後的 Debug View Hierarchy。而 chisel 是一個 lldb 的插件，有一堆常用跟不常用的命令集合，可以加速以上的過程或做到一些原本需要 rebuild 才能調試的部分，省下大量的時間，理論上大家就可以因此更早下班了。</p>
+
+<p>大家的好朋友 objc.io 有一期 lldb 的主題 <a href="https://www.objc.io/issues/19-debugging/lldb-debugging/">Dancing in the Debugger — A Waltz with LLDB</a>，在介紹實作的部分有大量提到 chisel。</p>
+
+<p>如果想要先感受一下，可以看 <a href="http://blog.cnbluebox.com/blog/2015/03/05/chisel/">Chisel-LLDB 命令插件，让调试更 Easy</a> 及 <a href="http://www.jianshu.com/p/b2371dd4443b">教你使用 FaceBook 的 chisel 来提高调试效率</a></p>
+  <span class="item__footer"><a href="https://github.com/facebook/chisel">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2epn2du"></a>
+  
+  <h3 class="item__title"><a href="http://building.usebutton.com/ios/deeplinking/android/2015/09/28/making-deep-links-delightful/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_218">[iOS] Making deep links delightful</a></h3>
+    <p>app 不只有一個進入點已經是越來越常見的事情，可以是在 web 上透過 <a href="https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html">Universal Link</a>，較傳統的 custom URL schemes 或甚至是在 spotlight 搜尋進入 app 的特定頁面。</p>
+
+<p>這篇文章是 <a href="https://www.usebutton.com/">Buttons</a> 內部對 Deep Links 的 best practice，比較有趣的部分是關於 Deep Links 的 error handling 以及開始為你的 Linkable page 做 testing。</p>
+  <span class="item__footer"><a href="http://building.usebutton.com/ios/deeplinking/android/2015/09/28/making-deep-links-delightful/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_218">usebutton.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="wlORtxJ"></a>
+  
+  <h3 class="item__title"><a href="https://developer.apple.com/news/?id=10052015a">Find WWDC Video Content Quickly</a></h3>
+    <p>雖然 Apple 的開發者網站一直做得很爛，但是透過這個新的搜尋功能來找 WWDC 的影片真的是蠻棒的。<br/>
+WWDC sessions 就是 iOS 開發者的寶庫，現在可以精確地跳到你搜尋關鍵字所在的秒數，以後要是有什麼 iOS API 用得沒什麼信心，倒是可以先來這邊搜一下，再去 stackoverflow 或 GitHub 了。</p>
+  <span class="item__footer"><a href="https://developer.apple.com/news/?id=10052015a">apple.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="rdAfR0x"></a>
+  
+  <h3 class="item__title"><a href="http://swagger.io/">Swagger - 世界上最多人用的 APIs framework</a></h3>
+    <p>應該沒人真正統計過誰是最多人用的 APIs framework, 那是 Swagger 在官網宣稱的, 但值得我推薦。</p>
+
+<p>通常開發專案, 我們都會先開發 app, 再開 APIs, 最後才提供 APIs 文件。但有了 Swagger, 我反而喜歡請 PM 用 <a href="http://editor.swagger.io/#/">swagger editor</a> 編輯器吧 APIs 開好, 再給程式設計師開發, 最後再統一給 front-end 或 mobile app 工程師同時來調用。</p>
+
+<p>由 swagger editor 編好的 YAML 或 JSON 檔, 除了可以直接放在 swagger UI 網路上開放, 如 <a href="http://petstore.swagger.io/">petstore demo</a>, 更可以直接拿 <a href="https://github.com/swagger-api/swagger-codegen">swagger generator</a> 來產生 client 端範例程式, 其中包括 iOS, Android, JavaScript, Java, Scala, Ruby, Python, Clojure 等。太好用了。下次有新專案, 讓我們用 swagger 定義 APIs 開始做起。</p>
+  <span class="item__footer"><a href="http://swagger.io/">swagger.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PaKMioP"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/tinylib/msgp/wiki/Getting-Started">go generate 的 Hello World</a></h3>
+    <p>一直想介紹 go generate, 但很難找到好且易懂的介紹文章。這個 <a href="https://github.com/tinylib/msgp">msgp</a> 其實是一個 go generate 的工具, 自己也是它產生出來的碼自己叫用的副程式庫。(沒想到可以這樣用)</p>
+
+<p>每當你想用 go generate, 第一步你需要寫一個工具 (例如 msgp, 它可以用任何語言寫, 只要能被執行到), 第二步寫一個你想產出程式的部分程式碼 (這裡 main.go 爲例), 裡面加上下面這一行</p>
+
+<p><code>//go:generate msgp</code></p>
+
+<p>當你執行 go generate 後, main.go 會產生 main_gen.go 和 main_gen_test.go 這兩個程式就馬上可以執行, 範例還包含了測試和 benchmark 的程式碼。(很神奇吧!)</p>
+  <span class="item__footer"><a href="https://github.com/tinylib/msgp/wiki/Getting-Started">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="aRPwiq9"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@deckarep/dancing-with-go-s-mutexes-92407ae927bf">與 Go 的 Mutexes 共舞</a></h3>
+    <p>當你寫 Go 時, 會慢慢開始用到 goroutines 來加速你的程式。但一平行化下去, 處理同一區資料時, 執行先後次序不同, 問題就來了。</p>
+
+<p>這篇文章介紹如何使用 Go 語言的 sync.Mutex 來寫 lock 跟 unlock, 還有如何寫才不會造成 deadlock。這是一般工程師常用的方法, 但未必是 Go 的 style, Go 更希望大家用 <a href="https://golang.org/doc/effective_go.html#channels">channels</a> 來解決這類的問題。</p>
+
+<p>但到底用 sync 還是用 channel 比較好? <a href="https://github.com/golang/go/wiki/MutexOrChannel">這裡</a>有簡單的答案: 一開始, 你可以先用熟悉的 lock, 當你 lock 越做越複雜時, 可慮看看用 channel 會不會比較簡單。</p>
+  <span class="item__footer"><a href="https://medium.com/@deckarep/dancing-with-go-s-mutexes-92407ae927bf">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-sponsor">
+        <div class="i" id="sponsor">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工商服務</span></h2>
+            <div class="item item--issue item--link">
+  <a name="P6HRHAI"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="http://www.meetup.com/Taipei-py/events/226558484/">Taipei.py Projects On</a></h3>
+    <p>"More than one to a project."</p>
+
+<p>你有太多有趣的主意與專案，也許這麼剛好跟 Python 扯上一點關係，那歡迎 BYOP (bring your odd project) (or, obvious project) 一起來玩。或著更加白話的名稱，Taipei.py Sprints。</p>
+
+<p>固定在每個月的第二個星期三晚上，利用聚會期間的機會，成員聚集在 Sprint 場地中，依各自有興趣的項目，一起密集的進行專案衝刺。</p>
+
+<p>【活動原則與目標】</p>
+
+<ol>
+<li>到場（要參加聚會還是在 Meetup RSVP 一下喔！）</li>
+<li>專案要有兩人才算成立</li>
+<li><a rel="nofollow" href="https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-12-09-6gQvSe9KX9K">報名專案</a></li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="http://www.meetup.com/Taipei-py/events/226558484/">meetup.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="KeUCk92"></a>
+      <a href="http://evening.moae.jp/news/2578"><img src="original_ratio_extra_large_fa24f1d3-c862-4c5c-893c-1c20758cf735.jpeg" title="真人版犬屋敷壱郎在新宿車站出沒中" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://evening.moae.jp/news/2578">真人版犬屋敷壱郎在新宿車站出沒中</a></h3>
+    <p>奧浩哉的《犬舍》，主角是一名突然被外星人改造成人間兵器的 58 歲男性，雖然看起來是爺爺輩，而且被改造後也始終維持著老人的模樣，體力跟得上不說，還不停釋放高能。但其實我爸都六十了頭髮還很黑啊！總之，除了衝擊性的人物設定之外，這部作品始終延續著奧浩哉獨特的 SF 風格，其暴力程度甚至一度被評為不適合代理、過度血腥的漫畫 (?)，目前雖然已經正式代理，但在台灣的討論度並不高，真可惜啊！</p>
+
+<p>隨著第五集單行本宣傳發行同時，官方推出了<a href="http://evening.moae.jp/news/2578">尋找野生的真人版犬屋敷壱郎</a>計畫。找來了致力於將遊戲、動漫寫實化的 CG 公司 <a href="http://animareal.com/">animareal</a>，拍攝過程似乎蠻有趣的，有興趣的話可以 follow 這個專案的擔當者  <a href="https://twitter.com/ANIMAREAL_ichi">ICH@ANIMAREAL</a>。</p>
+
+<p>如果哪天要拍電影的話，身為《熟成男生產履歷》的編撰者，我的首推絕對是溫水洋一。</p>
+
+<p>知道你想問：<a href="https://goo.gl/6NduUT">溫水洋一是誰？</a></p>
+
+<p>由 <a href="https://twitter.com/autisticcat">@autisticcat</a> 分享。</p>
+  <span class="item__footer"><a href="http://evening.moae.jp/news/2578">moae.jp</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/17/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-11-23'>November 23rd 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>18 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/19/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-12-07'>December 7th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

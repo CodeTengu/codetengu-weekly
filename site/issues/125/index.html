@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 125 碼天狗新聞：工程師會議中默不作聲，PM 恐成最大贏家</title>
+<meta name="description" content="本期內容涵蓋 Amazon Web Services, Google Cloud Platform, Kubernetes, DevOps, MySQL, Redis, Blockchain, Machine Learning, Reinforcement Learning">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Amazon Web Services, Google Cloud Platform, Kubernetes, DevOps, MySQL, Redis, Blockchain, Machine Learning, Reinforcement Learning'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/125/index.html#start">
+        Issue 125 碼天狗新聞：工程師會議中默不作聲，PM 恐成最大贏家 &nbsp;<i><time class='published' datetime='2018-04-30'>April 30th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-379979"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href="https://www.douban.com/people/vinta/">God of War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.yourator.co/companies/escapex/jobs/3116">我們又要找 iOS 工程師啦！</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - <a href="https://tw.pycon.org/2018/registration/ticket-info/">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="RfzebZK"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/apex-and-terraform-the-easiest-way-to-manage-aws-lambda-functions.html">Apex and Terraform: The easiest way to manage AWS Lambda functions</a></h3>
+    <p>因為一直都有訂閱 <a href="https://www.wired.com/story/rss-readers-feedly-inoreader-old-reader/">RSS</a> 的習慣，但是常常工作一忙就積了一堆文章忘記看，可是又發現自己就算上班事情很多還是會三不五時刷一下 Twitter <del>順便抱怨幾句</del>，所以就乾脆建了一個 <a href="https://twitter.com/vinta_rss_bot">@vinta_rss_bot</a>，透過 <a href="https://zapier.com/">Zapier</a> 同步 Feedly 裡的文章到 Twitter，讓自己在刷推的時候很容易不小心就看到。實測了一個多禮拜，效果不錯，大家可以試試。</p>
+
+<p>雖然這個 RSS bot 用了 Zapier 才花五分鐘就搞定了，連一行 code 都不用寫，但是因為不是每個人都是「<a href="https://github.com/vinta/pangu.js">空格之神</a>」的信徒，一看到 <a href="https://twitter.com/vinta_rss_bot">@vinta_rss_bot</a> 推了幾則沒有在標題的中英文之間加上空格的文章之後，開始覺得渾身不舒服。最後實在受不了，就用 AWS Lambda 寫了一個加空格的 web API - <a href="https://github.com/vinta/pangu.space">api.pangu.space</a>，讓 Zapier 在輸出到 Twitter 之前先打一次。</p>
+
+<p>（前情提要有點太長）</p>
+
+<p>這篇文章就是紀錄我當初用 <a href="http://apex.run/">Apex</a> 和 <a href="https://www.terraform.io/">Terraform</a> 部署 AWS Lambda functions 的過程，主要的邏輯很簡單，是用 Go 寫的，比較麻煩的反而是在配置 Amazon API Gateway 和 custom domain 的 HTTPS 之類的。因為只是個 side project，所以就沒用太重量級的 <a href="https://serverless.com/">Serverless</a> 了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://github.com/vinta/pangu.space">Paranoid text spacing as a service</a></li>
+</ul>
+  <span class="item__footer"><a href="https://vinta.ws/code/apex-and-terraform-the-easiest-way-to-manage-aws-lambda-functions.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OVyWBcx"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/cert-manager-automatically-provision-tls-certificates-in-kubernetes.html">cert-manager: Automatically provision TLS certificates in Kubernetes</a></h3>
+    <p>目前公司的 Kubernetes cluster 是用 kube-lego 自動從 Let's Encrypt 取得 TLS/SSL 憑證，但是因為 kube-lego 之前宣佈只支援到 Kubernetes v1.8 為止，所以希望大家改用<strong>另外一套由同一群人開發的在做同一件事的工具</strong>：cert-manager。</p>
+
+<p>這篇文章就是紀錄我當初部署 cert-manager 的過程，準備之後從 kube-lego 遷移過去。不過因為當時測試的時候發現 cert-manager 有些功能還不是很完善，例如 <code>ingress-shim</code>，再加上我們在 Kubernetes v1.9.6 用 kube-lego 其實也沒遇到什麼問題，所以後來的結論是暫時先不遷移。不過文章寫都寫了，還是跟大家分享一下，希望對其他人有幫助。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://vinta.ws/code/kube-lego-automatically-provision-tls-certificates-in-kubernetes.html">kube-lego: Automatically provision TLS certificates in Kubernetes</a></li>
+</ul>
+  <span class="item__footer"><a href="https://vinta.ws/code/cert-manager-automatically-provision-tls-certificates-in-kubernetes.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="EACgeZE"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/google-cloud/gcp-products-described-in-4-words-or-less-f3056550e595">GCP products described in 4 words or less</a></h3>
+    <p>之前都是用 AWS 比較多，但是現在公司是用 Google Cloud Platform，這篇文章可以讓你快速了解 GCP 上面有哪些東西可以用。</p>
+
+<p>忍不住抱怨一下，<a href="https://cloud.google.com/memorystore/">Google Cloud Memorystore</a> 到底什麼時候才要上線呢？</p>
+
+<p>雖然 GCP 在各方面都還是差了 AWS 一截（Google Kubernetes Engine 除外），但是 Google Cloud 的 Stackdriver 系列真心好用，例如 <a href="https://cloud.google.com/logging/">Logging</a> 可以直接全文搜尋所有 containers 的 stdout，什麼配置都不用（轉頭望向 ELK）。說到看 logs，<a href="https://github.com/johanhaleby/kubetail">kubetail</a> 也是不錯，就是強化版的 <code>kubectl logs -f</code>；另外還有 <a href="https://cloud.google.com/debugger/">Debugger</a> 可以直接在 production code 上跑 debugger，實在炫炮。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://cloud.google.com/docs/compare/aws/">Google Cloud Platform for AWS Professionals</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/google-cloud/gcp-products-described-in-4-words-or-less-f3056550e595">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8uygUVz"></a>
+  
+  <h3 class="item__title"><a href="https://modern-sql.com/blog/2018-04/mysql-8.0">One Giant Leap For SQL: MySQL 8.0 Released</a></h3>
+    <p>MySQL 8.0 前陣子發佈了，這個版本對 SQL 標準的支援有了長足的進步，終於從 SQL-92 的魔障中走出來了。有望擺脫 <strong>Friends don't let friends use MySQL</strong> 的罵名（目前看來會繼承這個污名的應該是 MongoDB）。</p>
+
+<p>是說因為以前一直都在用 MySQL，根本不知道 Window functions 是什麼，第一次用 <code>OVER (PARTITION BY ... ORDER BY ...)</code> 反而是在 Apache Spark 裡啊（SQL 俗）。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://mysqlserverteam.com/whats-new-in-mysql-8-0-generally-available/">What’s New in MySQL 8.0? (Generally Available)</a></li>
+<li><a href="http://dimitrik.free.fr/blog/archives/2018/04/mysql-performance-80-and-utf8-impact.html">MySQL Performance : 8.0 and UTF8 impact</a></li>
+</ul>
+  <span class="item__footer"><a href="https://modern-sql.com/blog/2018-04/mysql-8.0">modern-sql.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="k1bTwd2"></a>
+  
+  <h3 class="item__title"><a href="https://redislabs.com/community/ebook/">Redis in Action</a></h3>
+    <p>上禮拜花了一點時間研究 Redis 的 RDB/AOF persistence 和 Master/Slave replication 的原理，發現除了官方文件之外，Redis in Action 這本書寫得也非常詳細（雖然有些內容可能有點舊了），但是畢竟是經過 Redis 作者本人背書的，值得一讀。</p>
+
+<p>忍不住分享一下，我上禮拜仔細看了 Redis 4.0 的 <a href="https://raw.githubusercontent.com/antirez/redis/4.0/redis.conf">redis.conf</a> 之後，才發現現在多了一個 <code>aof-use-rdb-preamble</code> 設定，實測啟用之後可以讓 <code>appendonly.aof</code> 的檔案大小減少 50%，大家有空可以試試。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://redis.io/topics/persistence">Redis Persistence</a></li>
+<li><a href="https://redis.io/topics/replication">Redis Replication</a></li>
+<li><a href="https://segmentfault.com/a/1190000012038561">SegmentFault 技术周刊 Vol. 37 - 分布式缓存利器：Redis</a></li>
+</ul>
+  <span class="item__footer"><a href="https://redislabs.com/community/ebook/">redislabs.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SYvqXpC"></a>
+  
+  <h3 class="item__title"><a href="https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&amp;mid=2247487627&amp;idx=1&amp;sn=34d437a1253bdf61857cf2ac513285ac">金丝雀发布、滚动发布、蓝绿发布到底有什么差别？关键点是什么？</a></h3>
+    <p>看了這篇文章我才終於知道 Canary Releases, Blue-green Deployment, Rolling Update 是什麼意思（汗顏）。</p>
+  <span class="item__footer"><a href="https://mp.weixin.qq.com/s?__biz=MzIwMzg1ODcwMw==&amp;mid=2247487627&amp;idx=1&amp;sn=34d437a1253bdf61857cf2ac513285ac">qq.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xzytE9w"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@muzeumproject/white-paper-2cee4b0f2205">Muzeum 白皮書</a></h3>
+    <p>Blockchain Application：初級</p>
+
+<p>這幾個月開發的 <a href="https://muzeum.pro/">Muzeum Protocol</a> 終於要公開發表了（4/24 技術發佈會），我個人最欣賞這個 Protocol 的一點就是授權標準化、區塊鏈化，雖然我們是以音樂為例來架構一個授權應用在 Muzeum 上，但其實任何智慧資產、無形資產都可能可以透過相同的模式架構應用程式在 Muzeum 上。</p>
+
+<p>音樂授權標準化、區塊鏈化有什麼好處？</p>
+
+<p>我們先想像一個情境：當您的創作、電影、遊戲、音樂 Remix 需要其他音樂輔助的時候，要怎麼做呢？首先您需要找到授權人在哪裡，找到之後與授權人談條件，來來回回的合約簽章，最快您可能三個月後可以得到授權。</p>
+
+<p>有些不肖人士可能就想跳過授權直接盜版了，這其實會影響到創作人的收益。</p>
+
+<p>透過 Muzeum Protocol，您可以快速的找到授權位址、知道授權範圍、與授權人快速達成協議，並且直接將授權的收益直接回饋給音樂的授權人，最快可能在幾天甚至幾小時內得到授權並將授權憑證記錄在區塊鏈上，方便到讓人沒有理由說得到授權太慢、太麻煩了。如果說串流音樂的方便性改變了人們聽音樂的方式，Muzeum Protocol 授權標準化的方便性也可能帶給音樂授權生態一個巨大改變。</p>
+
+<p>Muzeum Protocol 雖然由我們提出一個初步的版本，但一切都是希望公開讓大家可以加入修改制定，畢竟這個 Protocol 最終目的是幫助創作人，需要大家一起參與才能更加完善。</p>
+
+<p>未來您有了新的創作，就可以發佈到 Muzuem Protocol，加入標準授權，將授權的憑證記錄在區塊鏈上，保障創作的授權使用得到收益，需要得到授權的人也能快速得到授權，延伸出更美好的創作甚至是商業應用，帶來雙贏的局面！</p>
+  <span class="item__footer"><a href="https://medium.com/@muzeumproject/white-paper-2cee4b0f2205">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="e74TruO"></a>
+  
+  <h3 class="item__title"><a href="https://www.anishathalye.com/2018/04/03/macbook-touchscreen/">Turning a MacBook into a Touchscreen with $1 of Hardware</a></h3>
+    <p>Machine Learning：高級</p>
+
+<p>怎麼讓 Macbook 的螢幕變成觸控螢幕呢？本篇文章作者示範了只花 1 美元就可以將 Macbook 升級成觸控螢幕！原理就是利用鏡子跟影像辨識！個人覺得很有趣啊！大家如果也想動手自己玩玩看的話，作者也有把程式碼開源在 <a href="https://github.com/bijection/sistine">GitHub</a> 喔！</p>
+  <span class="item__footer"><a href="https://www.anishathalye.com/2018/04/03/macbook-touchscreen/">anishathalye.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DBZFZbM"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/applied-data-science/how-to-build-your-own-world-model-using-python-and-keras-64fb388ba459">Hallucinogenic Deep Reinforcement Learning Using Python and Keras</a></h3>
+    <p>Machine Learning：高級</p>
+
+<p>今年三月 Google Brain 發表了 World Model 這個有關 Reinforcement Learning 方法的論文，我是有看沒有懂，大體的概念是 Machine Learning Model 可以在夢中自我學習嗎？有這樣的想法是來自於人類的思考方式，人類在學習一項技能的過程中也會有在腦中模擬真實環境藉以自我學習的方式，這個 World Model 就是要賦予 Machine 這種能力。</p>
+
+<p>概念上模型可分為視覺模型、記憶模型及控制器模型，視覺模型訓練以最小化輸入圖像與輸出壓縮圖像的差距，即是讓 Machine 具有圖像識別能力。記憶模型則是以壓縮圖像以及所採取的行為作為輸入，訓練 Machine 對未來的判斷。控制器模型則用以訓練 Machine 對未來所採取的行動，是否會讓遊戲可以繼續或是 Game Over。</p>
+
+<p>有了記憶模型及控制器模型，基本上 Machine 可以自己建立虛擬環境形成自己的 Play Ground，並讓自己在這個 Play Ground 中繼續學習，這也就是 World Model 中所謂的在「夢中」學習。說實話，這有點像漫畫醫龍裡面的朝田龍太郎在腦中模擬動手術那樣啊！蠻酷的！</p>
+
+<p>本篇文章也有帶大家一步一步訓練、運行 World Model，大家有時間不仿自己跑看看喔！</p>
+  <span class="item__footer"><a href="https://medium.com/applied-data-science/how-to-build-your-own-world-model-using-python-and-keras-64fb388ba459">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-sponsor">
+        <div class="i" id="sponsor">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工商服務</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Ta2e1X9"></a>
+      <a rel="nofollow" href="https://tw.pycon.org/2018/zh-hant/registration/ticket-info/"><img src="original_ratio_extra_large_4a2e66eb-d393-4b62-abc3-10f264e7eee5.png" title="PyCon Taiwan 2018 熱烈售票中！" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a rel="nofollow" href="https://tw.pycon.org/2018/zh-hant/registration/ticket-info/">PyCon Taiwan 2018 熱烈售票中！</a></h3>
+    <p>PyCon Taiwan 為一年一度由愛好者舉辦、討論並提倡使用 Python 程式語言的會議，聚焦在 Python 技術與其多樣的可能應用的交流。我們歡迎所有對 Python 有興趣的朋友一同加入 PyCon Taiwan 來分享所學、交換想法、並且認識更多同好。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://tw.pycon.org/2018/zh-hant/registration/ticket-info/">pycon.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="9emR1bp"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">Senior Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 萬元以上。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python or Node.js</li>
+<li>Experience with Python web frameworks, ie. Flask/Django/Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">104.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XsgQe9I"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0">HTTP codes as Valentine’s Day comics</a></h3>
+    <p>這篇文章用漫畫的方式介紹了各種 HTTP status code，有點太可愛了。</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享。</p>
+  <span class="item__footer"><a href="https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dswsaxa"></a>
+      <a href="https://www.netflix.com/title/70213238"><img src="original_ratio_extra_large_73951ce2-6542-4f66-a020-b4241937e4a8.jpeg" title="Monty Python&#39;s Flying Circus on Netflix" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.netflix.com/title/70213238">Monty Python&#39;s Flying Circus on Netflix</a></h3>
+    <p>各位觀眾，Netflix 上有 Monty Python's Flying Circus 了！不知道 Monty Python 是誰的，我們在 <a href="https://weekly.codetengu.com/issues/6#wrrIInN">Issue 6</a> 有介紹過！</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享！</p>
+  <span class="item__footer"><a href="https://www.netflix.com/title/70213238">netflix.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/124/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-04-23'>April 23rd 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>125 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/126/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-05-07'>May 7th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 43 Perl 是唯一一門在 RSA 加密前後看起來一樣的語言</title>
+<meta name="description" content="本期內容涵蓋 PHP, MySQL, Machine Learning, Docker, GPU, Ansible, Go, Raspberry Pi">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 PHP, MySQL, Machine Learning, Docker, GPU, Ansible, Go, Raspberry Pi'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/43/index.html#start">
+        Issue 43 Perl 是唯一一門在 RSA 加密前後看起來一樣的語言 &nbsp;<i><time class='published' datetime='2016-05-16'>May 16th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-140097"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href="http://book.douban.com/people/vinta/">銀色新生</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 徵 Android 工程師，<a href="https://www.indievox.com/h/jobs.html">意者內洽</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="uL4Xt3Z"></a>
+  
+  <h3 class="item__title"><a href="http://jaceju.net/2014/07/27/php-di-container/">理解 Dependency Injection 實作原理，以 PHP 為例</a></h3>
+    <p>PHP、Programming：中級</p>
+
+<p>當系統越來越龐大複雜時，會慢慢發現程式之間的依賴關係越來越重，不僅使得程式漸漸沒有修改的彈性，也會造成程式無法很容易地被測試。這時我們可以使用依賴注入（Dependency Injection）這個技巧來減低程式之間的藕合性。</p>
+
+<p>本篇文章用 PHP 撰寫了一個簡單的例子來說明怎麼做到依賴注入，並介紹了實務上會在大型系統使用 DI 容器來更容易地做到依賴注入，不過記得現在已經有許多 Framework 有提供很好的 DI 容器，就不需要自己再自幹一個了，這篇文章是為了幫助初學者更容易地了解 DI 的概念，如果看完文章你還是覺得一知半解，那可以看看<a href="https://www.youtube.com/watch?v=IKD2-MAkXyQ">這個生動的影片</a>幫助了解。</p>
+  <span class="item__footer"><a href="http://jaceju.net/2014/07/27/php-di-container/">jaceju.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="F2cQd2S"></a>
+  
+  <h3 class="item__title"><a href="http://www.lornajane.net/posts/2016/mysql-5-7-json-features">MySQL 5.7 Introduces a JSON Data Type - 簡介 MySQL 5.7 的 JSON Data Type</a></h3>
+    <p>MySQL：初級</p>
+
+<p>其實我個人蠻喜歡寫 SQL 的，比起使用 ORM 提供的 Query Builder，總是覺得 SQL 一次 Query 出想要的資料省事多了，而 MySQL 5.7 推出的新 Feature - JSON Data Type 可能又會讓 SQL 變得更好用，所以好好磨練一下寫 SQL 的技巧還是非常重要的。</p>
+
+<p>JSON Data Type 的使用時機是在你需要一些比較不需要結構化的資料時可以考慮使用，比如像是標籤、可有可無的 metadata 等等，這些資料設成自己一個資料表像割雞用牛刀，設成自己一個欄位又會造成資料表中這些欄位的資料很稀疏，這時我們就會想要用一個 JSON 文件存在一個欄位就好了。</p>
+
+<p>但僅僅將 JSON 用 String 存到資料表，並無法很簡易的 Query 出資料，而且也不能很簡易的操作資料，可能都需要先將資料撈出來之後，再用程式語言對 JSON 做操作，簡直是找自己麻煩。但如果是存成 MySQL 5.7 的 JSON Data Type，MySQL 提供了許多方法可以在 SQL Query 中操作 JSON 欄位的資料，瞧瞧這個 Query：</p>
+
+<pre><code>SELECT name, profile-&gt;"$.direct_reports" reports, profile-&gt;"$.salary" salary FROM people WHERE profile-&gt;"$.direct_reports" &gt;= 10;
+</code></pre>
+
+<p>很方便就可以把資料欄位的 JSON 文件當條件來查詢啊！感覺超棒的！</p>
+  <span class="item__footer"><a href="http://www.lornajane.net/posts/2016/mysql-5-7-json-features">lornajane.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TxwkwBd"></a>
+      <a href="http://www.benfrederickson.com/matrix-factorization/"><img src="original_ratio_extra_large_2389d02c-834c-40fe-a366-35c76f296a23.png" title="Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://www.benfrederickson.com/matrix-factorization/">Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>本篇文章展示了如何使用矩陣分解方法來快速做到相似音樂（藝人）功能，首先作者先使用了 LSA 這個矩陣分解方法，LSA 是 Latent Semantic Analysis 的縮寫，字面上的意思就是「潛在語意分析」，當你要分析兩個資料之間有沒有什麼潛在的語意關係（比如同意字、資料間的相似性），都可以使用這個矩陣分解方法來分析。不瞞各位說，本宅的研究論文就是使用了 LSA 來分析歌曲於歌詞之間的情意相似性，用以對歌曲推薦情意相似的歌詞，或是反過來用歌詞推薦情意相似的歌曲。</p>
+
+<p>不小心講了太多本宅的事，言歸正傳，本篇文章寫得言簡意賅，首先作者先利用使用者播放藝人歌曲建立藝人與使用者之間的關係矩陣，然後對這個矩陣進行 LSA 分解。LSA 需要指定參數說要將矩陣分解成幾個主要因子，作者選擇了 50 個因子，如此可以得到藝人跟 50 個因子的關係矩陣，以及使用者跟 50 個因子的關係矩陣。其實藝人跟 50 個因子關係矩陣的潛在意義就是藝人受到使用者歡迎的原因因子，它是抽象的，但大家可以想成藝人因為這 50 個因子，能夠與使用者關係矩陣線性組合成原本的播放矩陣，這 50 個因子造就了使用者如何播放藝人的音樂。</p>
+
+<p>得到 50 個因子的關係矩陣之後，每一個藝人都可以表示成 50 維的向量，我們就可以使用 cosin similarity 來計算每個藝人的相似程度（潛在意義就是被使用者播放的相似情況），大家可以看一下作者提供的一些結果，像是 The Beatles 推薦出 John Lennon、Paul Mccartney，真的還蠻準的。然後作者又進一步做了一些調整，因為從使用者播放藝人音樂的關係，我們可以定義這是種喜歡藝人音樂的關係，但如果使用者都不放某位藝人的音樂，那是否就代表了是一種不喜歡的關係，為了嚴謹的計算這樣的關係，他使用了 <a href="http://yifanhu.net/PUB/cf.pdf">Collaborative Filtering for Implicit Feedback Datasets</a> 提出的方法來做到這點，作者有提供相關 <a href="https://github.com/benfred/implicit">Source Code</a>，大家有興趣可以去玩玩看噢～</p>
+  <span class="item__footer"><a href="http://www.benfrederickson.com/matrix-factorization/">benfrederickson.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="m6xlDO5"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-wu-jiang-xue-xi-bi-ji/">林軒田教授機器學習基石 Machine Learning Foundations 第十五講學習筆記</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>在上一講中我們學習了如何推演正規化演算法來避免 Overfitting 的發生，總結前面所有的演算法加上正規化的技巧，我們會發現各種學習演算法都有一些參數需要去做調整，但到底要怎麼挑參數才能得到最好的效果呢？這一講中介紹了 Cross Validation 這個技巧來幫助我們選擇合適的參數，比起自己憑感覺挑參數客觀許多，在理論上也證明未來預測的效果會接近 Cross Validation 測試出來的結果，這是學會機器學習這門學問相當重要的一個技巧。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-wu-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue">
+  <a name="t-148223"></a>
+  
+  <h3 class="item__title">用 docker 來玩 GPU</h3>
+    <p>怎麼可能? Docker 不是用來分享 CPU 或記憶體資源的嗎, 怎麼可以用 Docker 來玩 GPU 呢? 答案是: 兩年前就已經有很多人在繪圖卡上試過 Docker 了。還比較過在 Docker 裡跟 Docker 外執行 <a href="http://www.nvidia.com.tw/object/cuda-parallel-computing-platform-tw.html">CUDA</a> 效能相差多少。現在 nVidia 也推出官方版 <a href="https://hub.docker.com/r/nvidia/cuda/">CUDA Docker images</a>, 想在 Docker 裡玩 GPU 的人, 可以 Docker pull 下來, 直接使用。</p>
+
+<p>一定有人會問, 繪圖卡不是只能用來打 games 的嗎? 為何還要支援 Docker? 如果你也這麼認為, 那你就大錯特錯了。最近不是流行 Machine Learning 或 Deep Learning 嗎? 用 GPU 可以讓運算速度快上百倍。加上 Docker 可以幫你解決很多安裝 drivers 的問題, 再加上官方版 nVidia Docker image 還提供內建 <a href="https://developer.nvidia.com/cuDNN">cuDNN</a> - Deep Neural Network 附程式庫, 可以讓你事半功倍, 很快成為用 Docker 跑 Deep Learning 處理 Big Data 的資料專家。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="as8FNz6"></a>
+  
+  <h3 class="item__title"><a href="http://www.nickhammond.com/automating-development-environment-ansible/">Automating your development environment with Ansible</a></h3>
+    <p>每次有 RD 新進人員報到, 最高興的是又可以採買新電腦或筆電給這位新員工。但頭痛的是, 又要重新安裝一個跟其他 RD 一模一樣的開發環境給他, 不管是誰裝, 幾乎都要耗掉一天的時間, 而且還未必能用。</p>
+
+<p>所以最好的解決方法就是, 自動化安裝你的開發環境。<a href="https://www.ansible.com/">Ansible</a> 也許是個人安裝自己筆電最簡單的方法, 不必像 <a href="https://www.chef.io/">Chef</a> 或是 <a href="https://puppet.com/">Puppet</a> 還要安裝 server, 或是用 push pull 的模式才能使用。<a href="http://www.nickhammond.com/automating-development-environment-ansible/">Nick Hammond</a> 這篇文章只是一個範例, 它用 Ansible 就能在 Mac 上安裝 Ruby 的開發環境, 還順道幫他架設 pow, MySQL 和 Elasticsearch, 並且能確保跟其他工程師一模一樣的開發環境。最棒的是, 這個設定只要做一次, 以後就輕鬆了。</p>
+  <span class="item__footer"><a href="http://www.nickhammond.com/automating-development-environment-ansible/">nickhammond.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="rTw4Wm1"></a>
+      <a href="https://peter.bourgon.org/go-best-practices-2016/#development-environment"><img src="original_ratio_extra_large_b1ef0e5e-b691-48ba-a275-ea5aabfa700d.jpg" title="Go best practices, six years in (學習 Golang 六年後，這裡有些秘訣)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://peter.bourgon.org/go-best-practices-2016/#development-environment">Go best practices, six years in (學習 Golang 六年後，這裡有些秘訣)</a></h3>
+    <p>作者分享學習 Golang 六年後（喔！一開始就學) 的一些實際演練上的好範例．</p>
+
+<ul>
+<li><p>Development environment (環境的設定)</p>
+
+<ul>
+<li>建議把 <code>$GOPATH/bin</code> (其實也就是我們常說的 <code>$GOBIN</code> 加入你的 <code>$PATH</code> 這樣做任何事情都會相當方便．</li>
+</ul>
+</li>
+<li><p>Repository structure (專案的檔案組織架構)</p>
+
+<ul>
+<li>如果你的套件是執行檔 （舉例:  <a href="https://github.com/kkdai/goFBPages">臉書相簿小幫手 :p</a> ) 把執行檔寫在主要目錄下，你其他函式庫寫在套件資料夾中．</li>
+<li>如果你的套件是函式庫   ( 舉例: <a href="https://github.com/kkdai/coapmq">CoAPMQ</a> ) 就把相關執行程式的部分 ( server 或是 client 或是其他 CLI 工具) 寫在資料夾中．</li>
+</ul>
+</li>
+<li><p>Formatting and style (關於 Coding Style 部分)</p>
+
+<ul>
+<li>不論你使用 gofmt 或是 goimport 他的 style 都是正確的，但是作者也建議你應該要參考 <a href="https://talks.golang.org/2014/names.slide#1">Andrew Gerrand 命名的建議</a></li>
+</ul>
+</li>
+<li><p>Configuration ( 有效的參數設定)</p>
+
+<ul>
+<li>作者建議如果要使用 <code>flag.Parse()</code> ，建議放在 <code>func main()</code> 因為這樣最直覺也最清楚．並且把所有的設定變數都在該地方存取好當作參數傳到各個函式．</li>
+</ul>
+</li>
+<li><p>Program design  (針對物件設計的討論)</p>
+
+<ul>
+<li>如果要起始一個物件( ex: foo )，比較建議的方式不是直接拿結構( <code>new(foo)</code> ) 來用，而是使用建構函數 <code>NewFoo()</code> ．</li>
+<li>有其他針對該物件的設定，可以當作建構函數的輸入參數．這樣在 <code>NewFoo()</code> 裡面可以有效地避免疏忽的初始化．比如說 <code>map</code> 沒有初始化，變數初始化．</li>
+</ul>
+</li>
+<li><p>Logging and instrumentation ( 關於 Logging )</p>
+
+<ul>
+<li>關於 Logging  的小技巧，以下幾個都還蠻有用的:
+
+<ul>
+<li>Logging 只需要紀錄意外狀況．</li>
+<li>避免太多的 Logging Level ，很多時候使用 Info 跟 Debug 已經很足夠．</li>
+<li>使用結構性的 Logging  套件，比如說 <a href="https://github.com/go-kit/kit/tree/master/log">go-kit/log</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Testing (關於測試)</p>
+
+<ul>
+<li>測試只測試需要被測試的部分．比如說你要測試一個空值，就不要測試極大值與極小值的部分．</li>
+</ul>
+</li>
+<li><p>Dependency management ( 套件相依管理 )</p>
+
+<ul>
+<li>這大概算是很困難的部分，不過作者也建議幾個相依套件可以給大家參考． （比如說我也很推薦的 <a href="https://github.com/kardianos/govendor">govendor</a> )</li>
+</ul>
+</li>
+<li><p>Build and deploy (編譯跟部屬方面)</p>
+
+<ul>
+<li>作者建議使用 <code>go install</code> 而不要使用 <code>go build</code> ，因為它不僅僅會把相依套件都安裝好．也會把可編譯的執行檔一併複製到 <code>$GOPATH/bin</code> 的目錄下．</li>
+</ul>
+</li>
+</ul>
+
+
+<p>這篇介紹有點長，不過很推薦大家好好研讀一下本文．</p>
+  <span class="item__footer"><a href="https://peter.bourgon.org/go-best-practices-2016/#development-environment">bourgon.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="JHPUOQK"></a>
+      <a href="http://goserv.it/"><img src="twenty_by_nine_extra_large_cc905641-9f5a-44e7-8cb3-b6c697856905.png" title="goserv - A lightweight toolkit for web applications in Go" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://goserv.it/">goserv - A lightweight toolkit for web applications in Go</a></h3>
+    <p>不少人一直都在詢問有沒有好的 ‪#‎Golang‬ Web toolkit ，這個 goserv 看起來還不錯．剛剛在 05/03 達到 1.0 正式版的 goserv 提供以下的功能:</p>
+
+<ul>
+<li>Fast &amp; Lightweight</li>
+<li>Flexible Routing</li>
+<li>Centralized Error handling</li>
+<li>跟原生 net/http 是相容的</li>
+</ul>
+
+
+<p>並且可以很快速的架設 File Server，也可以很快速地透過 MongoDB 架設 REST Server
+大家可以看看有沒有符合需求</p>
+  <span class="item__footer"><a href="http://goserv.it/">goserv.it</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zY4MK4H"></a>
+      <a href="https://www.gcppodcast.com/post/episode-25-go-with-andrew-and-chris/"><img src="original_ratio_extra_large_bb1cad0d-b4cc-4ffe-b25a-5383c7bbc454.jpg" title="[podcast] Go on the Cloud with Andrew Gerrand and Chris Broadfoot" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.gcppodcast.com/post/episode-25-go-with-andrew-and-chris/">[podcast] Go on the Cloud with Andrew Gerrand and Chris Broadfoot</a></h3>
+    <p>昨天才剛上架最新一期的 Google Cloud Platform Podcast 請到了兩個大神:</p>
+
+<p>Andrew Gerrand: 身為 Gopher 你很難沒聽過這個名字，就是 Golang 的創始團隊之一，並且專注在 Golang 使用者經驗上的持續推廣．</p>
+
+<p>Chris Broadfoot:  去年加入 Go 跟 Google Cloud Team 的 Chris 主要是負責 Go App 在 Google Cloud Platform 上面的開發．</p>
+
+<p>裡面有談到為何 Golang 受歡迎？ 為何幾乎所有重要的雲端的開發系統( Docker Kubenetes ) 都使用 Golang 作為開發語言．</p>
+
+<p>很推薦一聽....</p>
+
+<p>此外:  主持人是有來台灣參加 Golang Taiwan 的 Francesc Campoy  跟  Google Cloud team 的 Mark Mandel</p>
+  <span class="item__footer"><a href="https://www.gcppodcast.com/post/episode-25-go-with-andrew-and-chris/">gcppodcast.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XG6eS1V"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/google/zoekt">google/zoekt: Fast trigram based code search</a></h3>
+    <p>Zoekt ( 唸成 "zooked" ): Fast trigram based code search by Google"</p>
+
+<p>背景介紹:
+這是 Google 官方釋出的 trigram based code search tool ，其實之前 <a href="https://swtch.com/~rsc/">Russ Cox</a> 就有<a href="https://swtch.com/~rsc/regexp/regexp4.html">寫過類似概念的東西（並且支援 REGEX) </a></p>
+
+<p>如果想簡單的瞭解 Trigram 是如何在 code search 中運作，可以看小弟我之前的<a href="http://www.evanlin.com/trigram-study-note/">簡單介紹文章</a></p>
+  <span class="item__footer"><a href="https://github.com/google/zoekt">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uSsYEv7"></a>
+      <a href="https://github.com/kovetskiy/manul"><img src="original_ratio_extra_large_b0c7ffcd-dd08-4f0d-a8a9-1c23b7bfcac5.png" title="kovetskiy/manul 透過 git submodule 來方便達成 Go Vendoring 的工具" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/kovetskiy/manul">kovetskiy/manul 透過 git submodule 來方便達成 Go Vendoring 的工具</a></h3>
+    <p><a href="https://blog.golang.org/go1.6">Go 1.6</a> 之後已經預設將實驗性質的 Vendor (也就是相依套件管理功能，更多資訊請參考 <a href="https://github.com/golang/go/wiki/PackageManagementTools">Wiki</a> )  功能當作預設打開了．那麼該如何有效地使用 <a href="https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit">Vendoring</a> 呢?  不論是透過 <a href="https://github.com/tools/godep">Godep</a> 或是透過 <a href="https://github.com/kardianos/govendor">GoVendor</a> 都會複製一整份套件原始碼在你的 Golang Repo 下．難道沒有更好的方式嗎？</p>
+
+<p><a href="https://github.com/kovetskiy/manul">manul</a> 就是一個這樣的工具，他使用 <code>git submodule</code> 的概念來實作．將每個相依的套件當作是 submodule 來管理，這樣一來不僅僅可以減少許多的 Repo 空間，也可以更有效地做套件版本的控管． 並且 <code>git submodule</code> 本身就支援 <code>go get</code>．</p>
+
+<p>還在煩惱套件管理嗎？ 不仿試試看這個工具吧．</p>
+  <span class="item__footer"><a href="https://github.com/kovetskiy/manul">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="E5kY0KC"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://sudo.com.tw/companies/83/jobs/240">GoAnimate - 資深軟體設計工程師</a></h3>
+    <p>年薪範圍 NT$ 720,000 至 NT$ 1,080,000</p>
+  <span class="item__footer"><a rel="nofollow" href="https://sudo.com.tw/companies/83/jobs/240">sudo.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="5Hg5jD1"></a>
+      <a href="http://www.evanlin.com/amazon-echo-alexa-implement/"><img src="original_ratio_extra_large_b5bf0c33-f13a-4529-9360-05dc56957887.jpg" title="來動手玩玩 Amazon Echo 吧 ？  透過 Raspberry Pi 來模擬 Amazon Echo，並且開發個人化的 Alexa Skill " alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://www.evanlin.com/amazon-echo-alexa-implement/">來動手玩玩 Amazon Echo 吧 ？  透過 Raspberry Pi 來模擬 Amazon Echo，並且開發個人化的 Alexa Skill </a></h3>
+    <p>上週的 Random Cool Stuff 有提到透過 Amazon 藍芽喇叭語音控制設備 Echo 來控制你的電動車 Telsa S ．那麼本週就讓我們來動手透過 Raspberry Pi2 做一個 <del>窮人版</del> 開發者版本的 Amazon Echo 吧?</p>
+
+<p>這一篇文章整理了一些文章列表，並且敘述該如何從 Raspberry Pi 2 的設定到建立自己的開發版本的 Amzon Echo ，甚至到架設自己的伺服器與 AWS Lambda 的部分．來開發個人化的 Alexa Skill ( 也就是 Amazon Echo 上面的 App )</p>
+
+<p>其實 Amazon 所提供的<a href="https://github.com/amzn/alexa-avs-raspberry-pi">手把手說明文件</a>相當的清楚，但是可能會有些問題發生的時候不知道該如何去檢查．作者提供了一些簡單的檢查方式．希望能幫助大家儘快的開發出自己的 Amazon Echo 客製化技能．</p>
+
+<p>Post  by @kkdai</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/amazon-echo-alexa-implement/">evanlin.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/42/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-05-09'>May 9th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>43 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/44/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-05-23'>May 23rd 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

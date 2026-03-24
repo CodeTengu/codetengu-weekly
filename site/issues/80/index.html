@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 80 HTTP 牽到 443 還是 HTTP</title>
+<meta name="description" content="本期內容涵蓋 Python, Serverless, Management, Design, ReactJS, NodeJS, Career, Golang, YARN, TensorFlow">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Serverless, Management, Design, ReactJS, NodeJS, Career, Golang, YARN, TensorFlow'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/80/index.html#start">
+        Issue 80 HTTP 牽到 443 還是 HTTP &nbsp;<i><time class='published' datetime='2017-03-20'>March 20th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-256440"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Forever War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <a href="https://twitter.com/saiday/status/833915863573024768">教召報名成功～</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 新年新專案，好刺激啊！</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="RWD6lp"></a>
+  
+  <h3 class="item__title"><a href="https://hired.com/blog/highlights/product-managers-new-software-engineers/">Are Product Managers the New Software Engineers?</a></h3>
+    <p>先前軟體工程師搶手, 現在 PM 正夯?</p>
+
+<p>好文一篇, 直接節錄一下這篇文章的幾個重點:</p>
+
+<ul>
+<li>2016 年美國的產品經理的薪資 5.9% 的成長, 原本就比資料科學的薪資高, 去年的平均薪資成長幅度更比資料科學相關職缺的薪資成長  2.3% 還高</li>
+<li>成熟的市場拉高了薪資, 好的產品經理比起好的開發者難找</li>
+<li>產品出身的 CEO 開始取代了技術出身的 CEO</li>
+</ul>
+  <span class="item__footer"><a href="https://hired.com/blog/highlights/product-managers-new-software-engineers/">hired.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SfnQirn"></a>
+  
+  <h3 class="item__title"><a href="https://blog.signifai.io/not-your-fathers-python-amazing-powerful-frameworks/">Not Your Father’s Python: Amazing Powerful Frameworks</a></h3>
+    <p>帶點歷史回顧, 滿好讀的一篇文章, 從 Python 的 GIL 開始講起, 原來在 90 年代就有人試著移除 GIL, 換來多執行緒的執行速度提升, 但是結果卻是單執行緒的速度卻慢上一倍。</p>
+
+<p>後來提到了 Twisted 跟 Tornado 的突破, 到後來的 asyncio, 接著比較了幾個 async 的 Framework, 甚至比 go 還快 (?)</p>
+
+<p>看來 Python 3 越來越有譜了啊 ~</p>
+  <span class="item__footer"><a href="https://blog.signifai.io/not-your-fathers-python-amazing-powerful-frameworks/">signifai.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="srmFISk"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/the-mission/managers-let-your-reports-fail-e409a096fccd#.5k0eevm43">Managers: let your reports fail </a></h3>
+    <p>這篇的下面這段又提醒了我一次, 其實我以前這類心態很重, 雖然狀況越來越好了, 但是還是不時會跑出來, 但是應該算是克制的還行。</p>
+
+<pre><code>You may be tempted to handle the ‘hard’ stuff — like jumping into the fray whenever workloads get overwhelming or when higher executives are watching results. You may be tempted to think that only you can truly champion the team.
+
+After all, a screw-up from your team could reflect poorly on you, and you’re good at your job, so you aren’t about to let that happen. And in the end, the team (with you at the front) ships the results and gets accolades, so everything’s great, right?
+
+Wrong.
+
+The reality is - you’re stealing. You’re stealing opportunity from your team members to step up and face tasks that scare them.
+</code></pre>
+
+<p>去年年底跟 <a href="https://twitter.com/vinta">@vinta</a> 跟 <a href="https://twitter.com/saiday">@saiday</a> 聊他們都不約而同的分別跟我說「我攬了太多事情在身上」, 我前一陣子似乎才真的知道他們真正的意思。</p>
+
+<p>另外, 很喜歡 Sheryl Sandberg 說的下面這句話:</p>
+
+<blockquote><p>“Leadership is about making others better as a result of your presence, and making sure that impact lasts in your absence.”</p></blockquote>
+
+<p>這句話的真意, 等你要休長假的時候就知道了 XD</p>
+  <span class="item__footer"><a href="https://medium.com/the-mission/managers-let-your-reports-fail-e409a096fccd#.5k0eevm43">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bKDFz0C"></a>
+  
+  <h3 class="item__title"><a href="http://www.ithome.com.tw/news/112431">可口可樂的 Serverless 之旅</a></h3>
+    <p>難得推一下 IThome 的文章, 看了分類還是篇「新聞」? 看來 IOT 真的很適合用 AWS Lambda 啊 ~</p>
+
+<p>不過這篇我覺得比較推的是在講 CI/CD 跟 DevOps 這塊, 以前都覺得 SV 的開發流程沒什麼, 但看多了之後就覺得 SV 真的算是滿完善的, 不是我要說 XD</p>
+  <span class="item__footer"><a href="http://www.ithome.com.tw/news/112431">ithome.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ZjeHejr"></a>
+  
+  <h3 class="item__title"><a href="https://uxdesign.cc/the-best-youtube-channels-for-designers-and-developers-eda97b38d46a">The best YouTube channels for designers and developers</a></h3>
+    <p>針對 UI/UX Designer 或是前端工程師，這邊收錄很多相關的 YouTube channels ，看到喜歡的就訂閱吧！</p>
+  <span class="item__footer"><a href="https://uxdesign.cc/the-best-youtube-channels-for-designers-and-developers-eda97b38d46a">uxdesign.cc</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="HbmSZgU"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/functional-setstate-is-the-future-of-react-374f30401b6b">Functional setState is the future of React</a></h3>
+    <p>如果你是 React 的開發者，那你一定用過 setState ，但 <a href="https://facebook.github.io/react/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous">state 的更新可能是非同步的</a>，所以當有多個 setState 執行的情況，計算過的資料有可能是不正確的，而 setState 這個 function 其實也可以帶入 function 作為參數，這樣多個 setState 在 react 內部被批次執行的情況下，就會按照順序執行，建議大家都可以試著用這種方式來更新 state 。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/functional-setstate-is-the-future-of-react-374f30401b6b">freecodecamp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ira7zSf"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69">Before you bury yourself in packages, learn the Node.js runtime itself</a></h3>
+    <p>不同於別的 tutorial 介紹 ecosystem，本篇文章探討 Node.js 的 runtime ，文內有不同關於大家必須了解的 Node.js 相關問題，以及幫助學習 JavaScript 的方向，像是語言特性以及 ES6 ，以及對 Event Loop 的理解都是非常重要的。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69">freecodecamp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2RpQe4J"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@thejameskyle/react-loadable-2674c59de178">Introducing React Loadable</a></h3>
+    <p>有別於基於 Route-based 的 code splitting ， Component-based splitting 進一步將一些像是 modals 、 tabs 等等隱藏的 component 分離，待使用者需要時才 loading 。可以透過 <a href="https://github.com/tc39/proposal-dynamic-import">dynamic import</a> 來實作，但還要解決 import failed 以及 server-side rendering 的支援，透過 React Loadable 這套 third party library 可以方便的處理這些事。</p>
+  <span class="item__footer"><a href="https://medium.com/@thejameskyle/react-loadable-2674c59de178">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="WwZPWRN"></a>
+  
+  <h3 class="item__title"><a href="http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html">Why I Don&#39;t Talk to Google Recruiters (為何我再也不跟 Google 的招募人員講話了)</a></h3>
+    <p>這篇文章很有趣，其實是前幾個禮拜看到的文章，內容就是提到說因為招募的人都不是要雇用自己的單位．淪落到每次去面試都是考一些不是自己熟悉的部分，面試官也只是為了刁難而刁難失去了面試的精髓．</p>
+
+<p>又把它翻出來看．因為最近一堆大神在自己的 Twitter 上面自嘲說即使是像自己工作了那麼多年，寫程式依舊需要 Google 或是依舊不會在白板上面寫出一些演算法考題</p>
+
+<p>以下收集大神自嘲列表:</p>
+
+<ol>
+<li><p><a href="https://twitter.com/dhh/status/834146806594433025">DHH</a> (Ruby on Rails 發明人、Basecamp 創辦人兼 CTO) 自嘲不會在白板上面寫 Bubble Sort</p></li>
+<li><p><a href="https://twitter.com/tdierks/status/835912924329836545">Tim Dierks</a> 身為 Google Security 的 Lead  並且有三十年的程式經驗也說自己需要 Google 才能拿到 Python String 的長度</p></li>
+</ol>
+
+
+<p>歡迎提供其他大神自嘲 Tweet</p>
+  <span class="item__footer"><a href="http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html">yegor256.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5jsZPwG"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8#.th74209kd">Linux, Netlink, and Go — Part 1: netlink – Medium</a></h3>
+    <p>透過 Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 "Netlink"</p>
+
+<p>本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink</p>
+
+<p>[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．</p>
+
+<p>Netlink Socket 優點:</p>
+
+<ol>
+<li>透過 UDP 沒有 ioctl 的 kernel round trip time</li>
+<li>可以一次發給同一個 group 中的 user process</li>
+</ol>
+
+
+<p>缺點:</p>
+
+<ol>
+<li>UDP 老問題.. 你不確定對方有沒有收到</li>
+<li>由於透過 socket 其實感覺不如 ioctl 那麼的直覺</li>
+</ol>
+
+
+<p>這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看</p>
+
+<p>BTW: Prometheus 的 node_exporter 感覺很好用??</p>
+
+<p><a href="https://github.com/mdlayher/netlink">Netlink Go package</a>:</p>
+
+<p>關於 Netlink Socket 可以<a href="http://daydreamer.idv.tw/rewrite.php/read-47.html">參考</a></p>
+  <span class="item__footer"><a href="https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8#.th74209kd">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FOyAeBk"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/fatih/gomodifytags?utm_content=buffer6c7b4&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">fatih/gomodifytags: Go tool to modify struct field tags</a></h3>
+    <p>vim-go 出了一個更好的工具，就是 GoAddTags 可以幫你直接在資料內加上 Structure Tag (json, xml, bson)</p>
+
+<p>可以很快速地增加，減少或是更改內容． 再也不會不小心打錯 structure tag 了</p>
+  <span class="item__footer"><a href="https://github.com/fatih/gomodifytags?utm_content=buffer6c7b4&amp;utm_medium=social&amp;utm_source=facebook.com&amp;utm_campaign=buffer">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="yQUIa1d"></a>
+  
+  <h3 class="item__title"><a href="https://blog.acolyer.org/2017/01/09/apache-hadoop-yarn-yet-another-resource-negotiator/">Apache Hadoop YARN: Yet another resource negotiator | the morning paper</a></h3>
+    <p>Morning Paper 是一個會每天讀一篇論文，然後幫你寫導讀跟介紹的網站． 裡面論文的精彩程度是每個做軟體工程師不可不讀的．</p>
+
+<p>之前一系列的 Deep Learning 之後，作者準備要來好好讀讀分散式系統了． 所選的第一篇論文就是這篇 Hadoop YARN 的論文．</p>
+
+<p>YARN 是從 Hadoop 2.0 之後從 Hadoop 中抽出來的架構．本篇論文裡面的 YARN 還無法解決 SPOF ．  (Hadoop 2.4 之後有支援 HA)</p>
+
+<p>本篇論文也有討論到底 Mesos 跟 YARN 有什麼差異:</p>
+
+<p>Mesos -> Offer-based approach
+YARN  -> Request-based approach</p>
+
+<p><strong>同場加映:</strong></p>
+
+<p>有沒有辦法把 Mesos 跟 Hadoop YARN  一起用呢?  可以看看<a href="http://www.gegugu.com/2016/01/04/6372.html">這篇文章</a></p>
+  <span class="item__footer"><a href="https://blog.acolyer.org/2017/01/09/apache-hadoop-yarn-yet-another-resource-negotiator/">acolyer.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1EPulS0"></a>
+  
+  <h3 class="item__title"><a href="http://web.stanford.edu/class/cs20si/syllabus.html?1488584322269=1">Stanford University: Tensorflow for Deep Learning Research</a></h3>
+    <p>Stanford 在今年一月有公開他們的 TensorFlow 課程，內容相當的廣泛並且有相當多的資訊可以參考． 這個鏈結中有相關的課堂投影片與筆記．</p>
+
+<p>如果覺得這個太複雜，幾個簡單的資訊分享一下:</p>
+
+<ol>
+<li><p><a href="https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/">Google Codelab - Tensorflow for Poets:</a>
+就算你不是資料科學家也可以跑跑這個 codelab ，隨著一步步的指導可以很快速地學會怎麼在本地端透過 docker 來跑跑 Tensorflow 運算一個結果．</p></li>
+<li><p><a href="https://github.com/kazunori279/TensorFlow-Intro/blob/master/0.%20Preparation.ipynb#">Google Tensorflow-Intro Codelab</a>:
+今天在 Google 開放比較豐富的內容，這個 codelab 你會學到使用 BigQuery, Google Cloud 跟一些簡單的 Deep Learning 概念．並且透過 Jupyter Notebook 來跑跑看一些 Deep Learning 的範例．</p></li>
+</ol>
+  <span class="item__footer"><a href="http://web.stanford.edu/class/cs20si/syllabus.html?1488584322269=1">stanford.edu</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/79/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-03-13'>March 13th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>80 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/81/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-03-27'>March 27th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

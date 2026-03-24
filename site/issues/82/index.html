@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 82 把 .psd 副檔名改成 .jpg 並不叫做轉檔，不，改成 .png 也不是</title>
+<meta name="description" content="本期內容涵蓋 Machine Learning, Tensorflow, PHP, iOS">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Machine Learning, Tensorflow, PHP, iOS'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/82/index.html#start">
+        Issue 82 把 .psd 副檔名改成 .jpg 並不叫做轉檔，不，改成 .png 也不是 &nbsp;<i><time class='published' datetime='2017-04-03'>April 3rd 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-258695"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Forever War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 最近在看<a href="http://www.taaze.tw/static_act/201302/art/">禪與摩托車維修的藝術</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 徵會寫 HTML &amp; CSS 的網頁設計師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="5PMnqTs"></a>
+  
+  <h3 class="item__title"><a href="http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr/">Introducing Similarity Search at Flickr - Flickr 的相似圖片搜尋技術</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>本篇文章介紹了 Flickr 的相似圖片搜尋技術，說到相似這樣的問題，直接可以想到的就是使用矩陣降維後再進行內積做相似運算，而 Flickr 也大概是使用相同的原理，不過並不是直接使用矩陣運算的 SVD 或是 LSA 降維，而是使用類神經算法的方式將圖片對應至一個維度較低的 tag feature space（但其實就是降維），在這個空間再使用 K-Means、LOPQ 等算法去比較圖片的相似性，滿容易懂的，可以參考參考。</p>
+  <span class="item__footer"><a href="http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr/">flickr.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SYKE1Qv"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-9-jiang-xue-xi-bi-ji/">林軒田教授機器學習技法 Machine Learning Techniques 第 9 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>上一講我們介紹了 Adaptive Boosting 這種可以結合多個 Weak Learner 的 ML 演算法，這一講將介紹另一種 Aggregation Model - Decision Tree 這老舊卻依然很常用的 ML 演算法，Decision Tree 好用的地方在於容易解釋的特性，比較容易用來說服舊時代老人。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-9-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GxpUTlw"></a>
+  
+  <h3 class="item__title"><a href="https://google.github.io/seq2seq/">tf-seq2seq - A general-purpose encoder-decoder framework for Tensorflow</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>Encoder-Decoder 是目前非監督式學習一個熱門的領域，我們可以將這樣的機器學習技術使用在自動翻譯、自動懶人包、AI 對話、自動圖片標題等領域上，而這是一個由 google 開源的 Encoder-Decoder Framework，讓有興趣的人可以自己建立相關的 Model。但其實沒有好用的 Data 自己也玩不太起來，如果也可以提供足夠的 Training Dataset 就好了！</p>
+  <span class="item__footer"><a href="https://google.github.io/seq2seq/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="99Vht4a"></a>
+  
+  <h3 class="item__title"><a href="https://www.sitepoint.com/the-state-of-php-mvc-frameworks-in-2017/">The State of PHP MVC Frameworks in 2017 - 2017 PHP Framework 現狀</a></h3>
+    <p>PHP：初級</p>
+
+<p>PHP MVC Frameworks 的現狀如何呢？長話短說，首選就是用 Laravel 或是 Symfony，然後才選其他，大家可以看看文章作者的論點。然後，Laravel 社群在台灣蠻活躍的，所以選擇使用 Laravel 應該會在學習上蠻有幫助的，順帶一提，今年台灣會辦 <a href="https://laravelconf.tw/">Laravel Conf</a> 喔！敬請期待！</p>
+  <span class="item__footer"><a href="https://www.sitepoint.com/the-state-of-php-mvc-frameworks-in-2017/">sitepoint.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DRJp8F0"></a>
+  
+  <h3 class="item__title"><a href="https://blog.tighten.co/q-and-a-with-the-speakers-from-laracon-online-2017">Q&amp;A With The Speakers From Laracon Online 2017</a></h3>
+    <p>PHP：初級</p>
+
+<p>今年 <a href="https://laracon.net/">Laracon Online</a> 的一些大神問大語錄，有一些技術性的問題，有一些私人的問題，其實能這樣直接跟大神們互動也是蠻新鮮有趣的！</p>
+  <span class="item__footer"><a href="https://blog.tighten.co/q-and-a-with-the-speakers-from-laracon-online-2017">tighten.co</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="bU7Njhn"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/facebook/FBMemoryProfiler">FBMemoryProfiler: iOS tool that helps with profiling iOS Memory usage.</a></h3>
+    <p>Facebook 推出好一陣子的記憶體用量檢測工具，在開發 iOS app 的時候可以三不五時用這工具檢查看看有沒有應該放掉卻沒放掉的物件，也可以檢查是否有 retain cycle 的產生。</p>
+
+<p>最近在幫公司 app 大體檢，用這個工具讓我找到不少 memory leak。要看記憶體問題的話，它比 Instruments 還方便使用，搭配 Xcode 的 Memory Graph Debug 更是如虎添翼。</p>
+
+<p>同場加映：<a href="http://wereadteam.github.io/2016/02/22/MLeaksFinder/">MLeaksFinder：精准 iOS 内存泄露检测工具</a></p>
+  <span class="item__footer"><a href="https://github.com/facebook/FBMemoryProfiler">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rVn4pn3"></a>
+  
+  <h3 class="item__title"><a href="http://nelson.logdown.com/posts/2017/03/28/retain-cycle-in-afnetworking">一個 AFNetworking 的 retain cycle 問題</a></h3>
+    <p>這是在健檢公司 app 的時候發現的問題，其實這本質上並非 AFNetworking 所造成的，而是 NSURLSession 的設計使然，只要有用到 NSURLSession 又沒特別去留意文件說明的話，就很容易踩到這個坑。分享這篇小短文給各位，快回去檢查一下自家的 app 有沒有這個問題吧。</p>
+  <span class="item__footer"><a href="http://nelson.logdown.com/posts/2017/03/28/retain-cycle-in-afnetworking">logdown.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OrNPj5G"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/swiftly-swift/a-quick-look-at-semaphores-6b7b85233ddb">A Quick Look at Semaphores in Swift 🚦</a></h3>
+    <p>當有多組線程要存取同一個變數的時候，稍微有點經驗的工程師都知道這時要為這個變數「上鎖」，才不會造成存取不一致導致非預期結果。蘋果提供了多種上鎖的機制，semaphore 是個相當好上手而且效能也很出色的一個選擇。這是一篇詳細講解 semaphore 的科普文，建議每個人都該讀讀看。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/">不再安全的 OSSpinLock</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/swiftly-swift/a-quick-look-at-semaphores-6b7b85233ddb">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="h0dJfVH"></a>
+  
+  <h3 class="item__title"><a href="https://eng.uber.com/new-rider-app/">Engineering the Architecture Behind Uber’s New Rider App</a></h3>
+    <p>當 Uber 持續成長之後，他們的叫車 app 也遇到每家大公司都會遇到的問題，就是程式碼經年累月下來已經龐雜到難以維護的地步，所以他們決定要整個砍掉重練，規劃一套全新的架構。</p>
+
+<p>設計這個架構的時候，最重要的兩件事就是要「核心功能穩定」並且「易於擴充新功能」，最終的結果非常令人滿意，他們讓 iOS 跟 Android 平台共享了核心的架構與流程，以及商業邏輯。</p>
+
+<p>看完之後就覺得：「原來 Uber 的程式碼跟我們一樣也是一坨塞在 Controller 裏～ＸＤ」，以及「果然架構複雜一點之後，都會選擇類似 VIPER 的設計啊」。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://digital.travelport.com/blog/architecting-mobile-apps-with-bviper-modules">Architecting Apps with (B)VIPER Modules | MTT Blog</a></li>
+</ul>
+  <span class="item__footer"><a href="https://eng.uber.com/new-rider-app/">uber.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1OBbZsv"></a>
+  
+  <h3 class="item__title"><a href="https://pspdfkit.com/blog/2016/investigating-thread-saftey-of-UIImage/">Investigating Thread Safety of UIImage</a></h3>
+    <p>在 iOS 開發裡，我們為了效能的考量，通常都會把「載入並解碼圖片」這個動作丟到 background queue 去執行，可是你有想過「建立圖片」這個動作並非線程安全嗎？PSPDFKit 的強者 <a href="https://twitter.com/steipete">Peter Steinberger</a> 就在他們的官方部落格分享了他們對這問題的研究與解法。整篇文章非常精彩，值得一讀！</p>
+  <span class="item__footer"><a href="https://pspdfkit.com/blog/2016/investigating-thread-saftey-of-UIImage/">pspdfkit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KmnP9QP"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/hipposan/Oslo">hipposan/Oslo: An anatomy of Oslo</a></h3>
+    <p>這是一款由愛好者自行開發的 <a href="https://unsplash.com/">Unsplash</a> 第三方客戶端，Unsplash 提供了許多高品質的照片，並且開放讓人自由使用。這款 app 除了可以從 iTunes 下載安裝之外，作者也公開了所有的程式碼，供感興趣的人學習參考。</p>
+
+<p>同場加映：<a href="http://irvue.tumblr.com/">Irvue for OS X</a>，Unsplash 的桌面端軟體，可定時更換桌布，同時也有提供螢幕保護程式。</p>
+  <span class="item__footer"><a href="https://github.com/hipposan/Oslo">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ZID2EmT"></a>
+      <a href="https://tzangms.com/dashboard-tool-metabase/"><img src="original_ratio_extra_large_72d3074f-f2eb-4f7a-8a4f-d8da8cdce4f4.png" title="Dashboard 利器: Metabase" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://tzangms.com/dashboard-tool-metabase/">Dashboard 利器: Metabase</a></h3>
+    <p>直接看網誌，這麼好用，狂！</p>
+
+<p>由 <a href="https://twitter.com/fukuball">@fukuball</a> 分享。</p>
+  <span class="item__footer"><a href="https://tzangms.com/dashboard-tool-metabase/">tzangms.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/81/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-03-27'>March 27th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>82 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/83/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-04-10'>April 10th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

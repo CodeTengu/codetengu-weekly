@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 102 為什麼小明有問題都不 Google？因為他有 Bing</title>
+<meta name="description" content="本期內容涵蓋 Objective-C, Swift, Machine Learning, Deep Learning, Code Review, Git, R, Recommender System">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Objective-C, Swift, Machine Learning, Deep Learning, Code Review, Git, R, Recommender System'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/102/index.html#start">
+        Issue 102 為什麼小明有問題都不 Google？因為他有 Bing &nbsp;<i><time class='published' datetime='2017-10-16'>October 16th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-329780"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Ready Player One</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 徵 Android Developer！救我！</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> -  公司誠徵前端，有想做 5G 與 AI 相關方面的前端歡迎聯絡我</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 請推薦工作機會</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="tWYRGFQ"></a>
+  
+  <h3 class="item__title"><a href="https://www.hackingwithswift.com/articles/27/why-many-developers-still-prefer-objective-c-to-swift">Why many developers still prefer Objective-C to Swift</a></h3>
+    <p>如今 Swift 版本已經演進到 4 了，但還是有不少工程師鍾情於 Objective-C，這是為什麼呢？本文作者採訪了多位工程師，詢問他們許多問題，諸如「為何還死守著 Objective-C、看到研討會上都是 Swift 的主題會不會感到不舒服、在社交平台上會不會羞於承認自己還在用 Objective-C」等等，滿有趣的一篇採訪。</p>
+
+<p>當然，作者接下來又寫了一篇 <a href="https://www.hackingwithswift.com/articles/29/why-many-developers-prefer-swift-to-objective-c">Why many developers prefer Swift to Objective-C</a>。</p>
+  <span class="item__footer"><a href="https://www.hackingwithswift.com/articles/27/why-many-developers-still-prefer-objective-c-to-swift">hackingwithswift.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Xh2E5Ru"></a>
+  
+  <h3 class="item__title"><a href="https://designcode.io/ios11-iphone-x">Designing for iPhone X</a></h3>
+    <p>這大概是目前為止，我看到最詳細的設計指南了。幾乎所有你想得到的都有涵蓋到，設計師應該把這一篇列印出來貼在牆上，以便隨時參考！</p>
+  <span class="item__footer"><a href="https://designcode.io/ios11-iphone-x">designcode.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Pyh5I6T"></a>
+  
+  <h3 class="item__title"><a href="https://medium.cobeisfresh.com/a-case-for-using-storyboards-on-ios-3bbe69efbdf4">A Case For Using Storyboards on iOS</a></h3>
+    <p>我只有在寫自己的 side project 或 prototype 時，才會用 Storyboard 去設計介面，工作的專案裡頭還是完全用程式碼寫出介面。</p>
+
+<p>我其實有跟一些同事聊過這個話題，Storyboard 並非一無是處，只是我覺得很多人沒有正確地使用它。剛好最近看到這篇文章，作者對 Storyboard 的想法與使用方式跟我不謀而合：</p>
+
+<ul>
+<li>一個 Storyboard 裡頭只有一個 UIViewController</li>
+<li>Storyboard 用來設定 constraints，其他畫面的設定都寫在程式碼裡面</li>
+<li>不要用 Xib 設計 UIViewController</li>
+</ul>
+
+
+<p>作者也提供了一個把 UIViewController 跟對應的 Storyboard 設為同名的小技巧，可以讓開發變得更方便。</p>
+  <span class="item__footer"><a href="https://medium.cobeisfresh.com/a-case-for-using-storyboards-on-ios-3bbe69efbdf4">cobeisfresh.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="I1Iooq5"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/vhesener/Closures">Closures: Swifty closures for UIKit and Foundation</a></h3>
+    <p>這個東西把大部分的 UIKit 跟 Foundation 元件都加上 Closure 語法，讓開發者寫起來更加方便一點。這讓我想到在 Objective-C 時代很流行的 <a href="https://github.com/BlocksKit/BlocksKit">BlocksKit</a>。</p>
+  <span class="item__footer"><a href="https://github.com/vhesener/Closures">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TssjlJq"></a>
+  
+  <h3 class="item__title"><a href="https://juejin.im/post/59a0162e6fb9a0249e3b3d7f">iOS Device ID 的前世今生</a></h3>
+    <p>IMEI、UUID、UDID.... 有沒有被這些名詞搞混過？有沒有想過該如何唯一識別使用者的裝置？從以前到現在出現又消失過多少種方法？這一篇文章應該可以解答你的困惑。</p>
+
+<p>同場加映：</p>
+
+<ul>
+<li><a href="https://medium.com/the-traveled-ios-developers-guide/devicecheck-6f3eafac60e5">iOS 11: The DeviceCheck API</a>: It’s an Apple approved, and guaranteed way, to identify your app as running on a valid Apple device while maintaining absolute user privacy.</li>
+</ul>
+  <span class="item__footer"><a href="https://juejin.im/post/59a0162e6fb9a0249e3b3d7f">juejin.im</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="A1JLIkr"></a>
+  
+  <h3 class="item__title"><a href="http://inessential.com/2017/10/10/on_fixing_that_nsnull_crasher_in_overcas">inessential: On Fixing that NSNull Crasher in Overcast</a></h3>
+    <p><a href="https://overcast.fm/">Overcast</a> 是我很愛用的一款 podcast app，它的開發者 Marco Arment 最近在 Twitter 上邀請別人幫他想想該怎麼解決一個<a href="https://twitter.com/marcoarment/status/917852761873637376">存在已久的 crash</a>。本文作者剛好看到了這則求救，並提供了一個可能的解法，而且還真的解決了問題。無論是問題還是解法都很有趣，值得一看！</p>
+
+<p>同場加映：</p>
+
+<p><a href="https://pspdfkit.com/">PSPDFKit</a> 的開發者 Peter Steinberger 最近也在 Twitter 上詢問一個 <a href="https://twitter.com/steipete/status/919142277280358400">UIToolbar 在 iOS 11 產生的 bug</a>，最後的解法也是很奇葩。</p>
+  <span class="item__footer"><a href="http://inessential.com/2017/10/10/on_fixing_that_nsnull_crasher_in_overcas">inessential.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-drumrick">
+        <div class="i" id="drumrick">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/90dce7fc-2341-4deb-9abd-fec433bdeb4e.jpeg" alt="@drumrick" width="80" /><span class="category__title__text">@drumrick</span></h2>
+            <div class="item item--issue item--link">
+  <a name="OZRl4KH"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@drumrick/c6a292100fca">遲來的 Google Teachable Machine 簡介</a></h3>
+    <p>雖然 Teachable Machine 發布已經兩週了，但是一直還沒去瞭解，藉著颱風天稍微看了一下相關資料，撰文簡單介紹一下，到底需要怎樣的技術支援，才能讓 Teachable Machine 這樣的應用誕生？</p>
+  <span class="item__footer"><a href="https://medium.com/@drumrick/c6a292100fca">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="gImHDWL"></a>
+  
+  <h3 class="item__title"><a href="http://blog.kaggle.com/2017/10/05/data-science-101-sentiment-analysis-in-r-tutorial/">Kaggle 教學網誌：語意分析 in R</a></h3>
+    <p>文中使用 <a href="https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html">Tidytex 套件</a>，分析 1989 到 2017 年間，美國的國情咨文內容。程式碼完整，簡單的視覺化呈現結果，文末附上幾個簡單的練習，最後並條列了幾個 Kaggle 上的語料庫，以及其他可供使用字典。</p>
+
+<p>如果轉換到 Python 的部分，現在多數人使用的應該是 <a href="https://pypi.python.org/pypi/textblob">textblob</a>，這個套件結合了 NLTK 以及 Google Cloud NLP 的 API，在此之上做了一層的封裝，很容易使用。</p>
+
+<p>這些都是英文的部分，中文的話 Google Cloud NLP API 是有提供中文語意的判斷，但應該是要按次數比例收費的。公開的模型通常是以簡體中文為訓練資料，而且幾乎都是使用爬蟲爬某些網站的評分內容，例如電影評論網站、或是購物網站，導致並不是很適合普通情況的使用。</p>
+  <span class="item__footer"><a href="http://blog.kaggle.com/2017/10/05/data-science-101-sentiment-analysis-in-r-tutorial/">kaggle.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-331425"></a>
+  
+  <h3 class="item__title">量子位</h3>
+    <p>這是一個微信公眾號的名字，專門報導與 AI 相關的新聞。因為我習慣看文章追源頭，最近看到這邊出來幾篇不錯的文，但是沒有微信無法追蹤，令我相當苦惱，只好迂迴一下，看看量子位的文章會被轉發到哪些地方，總共找到兩個替代方案。</p>
+
+<p><a href="https://weiwenku.net/a/6776">微文庫量子位微信公眾號文章</a></p>
+
+<p>優點</p>
+
+<ul>
+<li>文章齊全數量多</li>
+<li>有點擊數量顯示，可以自行挑選熱門文章</li>
+</ul>
+
+
+<p>缺點</p>
+
+<ul>
+<li>版面比較雜，有廣告</li>
+</ul>
+
+
+<p><a href="https://zhuanlan.zhihu.com/qbitai">量子位知乎專欄</a></p>
+
+<p>優點</p>
+
+<ul>
+<li>有讚數，可以自行挑選熱門文章</li>
+<li>有標籤分類，可以選擇有興趣的標籤內容</li>
+<li>有評論區可以討論</li>
+<li>排版比較舒適，沒有廣告</li>
+</ul>
+
+
+<p>缺點</p>
+
+<ul>
+<li>文章數比較少不齊全</li>
+</ul>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uIeekq0"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/how-i-used-python-to-find-interesting-people-on-medium-be9261b924b0">在 Medium 上找到有興趣的人來追蹤</a></h3>
+    <p>我自己剛開始用 Medium 的時候，也感覺不知道要追蹤誰。最近也有幾位朋友剛開始用 Medium 有這樣的問題。所以看到這篇感覺挺有趣的，可以用類似方法不同定義去找到自己可能有興趣的使用者。</p>
+
+<p>作者自己寫  Python 抓 Medium 上面的資訊，尋找自己可能感興趣的使用者來追蹤。程式碼很簡短，有在 <a href="https://github.com/Radu-Raicea/Interesting-People-On-Medium">Github</a> 上面，一開始作者本來要用 Medium 自己的 API，不過因為功能有限，所以後來還是用爬蟲的方式來做。</p>
+
+<p>我自己是感覺 Medium 官方比較是用內容為主的推薦方式在推薦文章，所以用作者這種 CF 方式來找相同興趣的使用者，也是一種相輔相成的做法。不過我感覺台灣用戶留言的比例還是比較低的，可能要退一步改成：追蹤我的使用者還追蹤了哪些使用者？或者是：對我的文章鼓掌的使用者還對哪些文章鼓掌？可能會有比較多的結果。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/how-i-used-python-to-find-interesting-people-on-medium-be9261b924b0">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="y0FNfKl"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/intuitionmachine/google-and-ubers-best-practices-for-deep-learning-58488a8899b6">Google 及 Uber 內部，深度學習的最佳實踐 (in production)</a></h3>
+    <p>Google  以及 Uber  都有在這方面發表論文，本文簡略地從幾個角度去看 Google 以及 Uber 流程的設計，到底解決了哪些問題。在這邊我簡單的筆記，但是內容滿好的，建議閱讀原文，有能力的話閱讀論文。</p>
+
+<p>Uber</p>
+
+<ul>
+<li>專案名稱：<a href="https://eng.uber.com/michelangelo/">米開朗基羅</a></li>
+<li>數據平台，加上機器學習功能</li>
+<li>有一個叫做 Feature Store 的東西，各個團隊把自己要用的 feature 都加到
+裡面，這樣團隊之間可以共享、重複使用各個 feature，而 feature 是每天自動計算並更新的。</li>
+<li>內部的 DSL 做 feature engineering</li>
+</ul>
+
+
+<p>Google</p>
+
+<ul>
+<li><a href="http://www.kdd.org/kdd2017/papers/view/tfx-a-tensorflow-based-production-scale-machine-learning-platform">TFX 論文</a>，內有影片。</li>
+<li>自動對每個資料集做 data analysis</li>
+<li>feature engineering 雖然沒提到名稱，但應該就是用 dataprep</li>
+<li>有一個資料檢查的機制，可以提早偵測到資料錯誤的情況，而暫停之後的動作。</li>
+<li>剩下的基本就是 TensorFlow Serving。</li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/intuitionmachine/google-and-ubers-best-practices-for-deep-learning-58488a8899b6">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="GeNEyyP"></a>
+  
+  <h3 class="item__title"><a href="https://git-scm.com/2010/03/08/rerere.html">(Git) Rerere Your Boat...</a></h3>
+    <p>前兩天在推特上看到一篇 <a href="https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5">每個開發者都該知道的 Git 基礎指令</a> 。果然很基礎，連 <code>diff</code> 跟 <code>rebase</code> 都沒提到。
+（題外話，各位覺得教入門者 <code>reset</code> 跟 <code>rebase</code> 哪個危險呢？ :p）</p>
+
+<p>不過倒是讓我想起了一個我從沒用過的 Git 指令：<code>rerere</code>，不知道各位讀者有沒有人用過這個指令？歡迎到碼天狗的 [Gitter 聊天室] 分享一下經驗，也歡迎各位來交流一下少見但是好用的 Git 指令。 :D</p>
+
+<p>P.S. 懶得看英文的話，Ruby China 上也有一篇分享： <a href="https://ruby-china.org/topics/15809">你可能不知道的 git rerere</a>。</p>
+  <span class="item__footer"><a href="https://git-scm.com/2010/03/08/rerere.html">git-scm.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="pJKjFr8"></a>
+  
+  <h3 class="item__title"><a href="https://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&amp;mid=2653788392&amp;idx=1&amp;sn=e84f8546dff32030cef89fc29680db80">说说 Code Review</a></h3>
+    <blockquote><p>自己绕过一个坑不难，难的是看到别人那么走，远远地你就能告诉他/她那里有个坑</p></blockquote>
+
+<p>Code Review 的文章不少，這篇也歸納了幾個面向：排版、可讀性、極端情況、錯誤處理、測試、架構。但我覺得文章裡提到的心態更重要：</p>
+
+<blockquote><p>代码审核是工作，不要抱有情绪化</p>
+
+<p>在不违背公司 style guideline 的情况下，没必要一定让对方和你有一样的习惯。</p>
+
+<p>相互 review 的过程中还能从彼此那里学到很多编程的小技巧和好习惯</p></blockquote>
+
+<p>Code Review 是互相學習，不是找碴、挑毛病。</p>
+  <span class="item__footer"><a href="https://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&amp;mid=2653788392&amp;idx=1&amp;sn=e84f8546dff32030cef89fc29680db80">qq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OU2xtyL"></a>
+  
+  <h3 class="item__title"><a href="https://athos.blogs.balabit.com/2011/11/ioccc-vs-clean-code/">IOCCC vs Clean Code</a></h3>
+    <p>這篇舊文沒什麼新技術。只是作者嘗試整理一份 <a href="http://ioccc.org/">IOCCC</a> (The International Obfuscated C Code Contest) 上的程式碼，讓它更可讀、好懂的過程。包括：調整排版、提取函式、取有意義的名稱、……，可以在 <a href="https://github.com/attilammagyar/IOCCC-vs.-CleanCode">GitHub</a> 上找到完整過程。</p>
+
+<p>算是個很有趣的實驗過程，可以從簡單的例子中學習如何整理出<em>好讀的程式碼（clean code）</em>。學新技術學到頭昏演化的話，可以來看一下轉換心情。 XD</p>
+  <span class="item__footer"><a href="https://athos.blogs.balabit.com/2011/11/ioccc-vs-clean-code/">balabit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="7GPDW1C"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">EscapeX 強力徵求 Java 後端 / iOS / App QA 工程師</a></h3>
+    <p>EscapeX 和超過 70 位全球頂尖的好萊塢、寶萊塢藝人合作（拉丁歌王馬克安東尼、復仇者聯盟「鷹眼」傑瑞米瑞納等），建立專屬藝人與粉絲間的私密互動俱樂部，目前在世界各地有八個辦公室。我們正在積極擴充團隊，尋找對 Java 後端 / iOS / App QA 充滿熱情的夥伴，快把履歷<a rel="nofollow" href="mailto:nelson.tai@escapex.com">寄到這裏</a>吧！</p>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">104.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/101/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-10-09'>October 9th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>102 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/103/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-10-23'>October 23rd 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

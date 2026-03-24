@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 127 草東沒有權限</title>
+<meta name="description" content="本期內容涵蓋 iOS, Swift, Core Data, Go, Machine Learning, Deep Learning">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Swift, Core Data, Go, Machine Learning, Deep Learning'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/127/index.html#start">
+        Issue 127 草東沒有權限 &nbsp;<i><time class='published' datetime='2018-05-14'>May 14th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-383675"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href="https://www.douban.com/people/vinta/">God of War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 》〉》<a href="https://www.yourator.co/companies/escapex/jobs/3116">我們要找 iOS 工程師</a>《〈《</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 今年 PyCon Taiwan <a href="https://tw.pycon.org/2018/zh-hant/events/tutorials/">在台北和高雄都有開 tutorial</a> 喔。Shadowverse: uranusjr</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="kh8TuGf"></a>
+  
+  <h3 class="item__title"><a href="https://davedelong.com/blog/2018/05/09/the-laws-of-core-data/">The Laws of Core Data</a></h3>
+    <p>Dave Delong 最近寫了一篇文章說明要怎麼「正確」使用 Core Data，可說是字字珠璣句句血淚，在他的 <a href="https://twitter.com/davedelong/status/994311347247579136">Twitter</a> 上也有一連串的討論，有在用或是打算要用 Core Data 的人一定要看看。我覺得最重要的就是第一條：「Do not use Core Data as if it were a database, Core Data is an “object graph and persistence framework”」。</p>
+
+<p>話說回來，很多時候你並不需要 Core Data，或者你需要的其實是資料庫，那你就有很多其他的選擇，例如  <a href="https://github.com/ccgus/fmdb">FMDB</a> 或是 <a href="https://realm.io">Realm</a>。</p>
+  <span class="item__footer"><a href="https://davedelong.com/blog/2018/05/09/the-laws-of-core-data/">davedelong.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6AJWXVX"></a>
+  
+  <h3 class="item__title"><a href="http://martiancraft.com/blog/2018/05/dealing-with-dates/">Dealing with Dates</a></h3>
+    <p>除了 Core Data 之外，另一個時常困擾 iOS 開發者的難題大概就是日期處理吧。這一篇文章很詳細的說明了什麼叫做「日期」，它有哪些重要的元素，以及要如何正確的顯示、計算、傳遞日期。</p>
+  <span class="item__footer"><a href="http://martiancraft.com/blog/2018/05/dealing-with-dates/">martiancraft.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZVjP9ZK"></a>
+  
+  <h3 class="item__title"><a href="https://blog.gojekengineering.com/wrestling-with-a-monstrous-xcode-project-30858f1da468">Wrestling with a Monstrous Xcode Project – GO-JEK Product + Tech</a></h3>
+    <p>如果你不知道 GO-JEK 是什麼的話，我建議你先看過這篇<a href="https://blog.jumplife.com.tw/324/go-jek-%E5%8D%B0%E5%B0%BC%E7%89%88%E7%9A%84uber%E6%9C%89%E5%93%AA%E4%BA%9B%E5%80%BC%E5%BE%97%E9%97%9C%E6%B3%A8%E7%9A%84%E5%9C%B0%E6%96%B9/">詳細的介紹</a>，然後你就會明白 GO-JEK 是怎樣的一個龐然大物。因為它的業務觸角太龐大，加上日積月累的程式碼，GO-JEK 的專案編譯一次要耗掉 30 分鐘。為了解決這個讓人難以接受的問題，它們對程式碼進行重構，最終的結果讓編譯時間降低到只有三分鐘，整個架構也變得更有彈性。</p>
+  <span class="item__footer"><a href="https://blog.gojekengineering.com/wrestling-with-a-monstrous-xcode-project-30858f1da468">gojekengineering.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="g6ySwv2"></a>
+  
+  <h3 class="item__title"><a href="https://www.swiftbysundell.com/posts/delegation-in-swift">Delegation in Swift — Swift by Sundell</a></h3>
+    <p><code>Delegate</code> 算是 iOS 開發最常見的設計模式之一，它定義了一個委託人與被委託人之間的一對一關係。Sundell 的這篇文章解釋了 delegate 跟 closure 各自的優缺點，最後還引進了 configuration pattern 來簡化程式碼。我推薦可以同時閱讀這篇 <a href="https://useyourloaf.com/blog/swift-optional-protocol-methods/">Swift Optional Protocol Methods</a>，會對為什麼要引入 configuration pattern 有更深的理解。</p>
+  <span class="item__footer"><a href="https://www.swiftbysundell.com/posts/delegation-in-swift">swiftbysundell.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bs7D41t"></a>
+  
+  <h3 class="item__title"><a href="http://iosbrain.com/blog/2018/05/01/controlling-chaos-error-handling-in-swift-4-with-do-try-catch-defer-throw-throws-error-and-nserror/">Controlling chaos: Error Handling in Swift 4 with do, try, catch, defer, throw, throws, Error, and NSError – iOS Brain</a></h3>
+    <p>一篇很長很長很長但很有參考價值的文章，說明在 Swift 4 該如何處理錯誤。我們寫程式時應該隨時考慮到錯誤處理，這會讓日後的維護少掉很多麻煩。</p>
+  <span class="item__footer"><a href="http://iosbrain.com/blog/2018/05/01/controlling-chaos-error-handling-in-swift-4-with-do-try-catch-defer-throw-throws-error-and-nserror/">iosbrain.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="sIJfx6u"></a>
+  
+  <h3 class="item__title"><a href="https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/">Go: the Good, the Bad and the Ugly</a></h3>
+    <p>本週的專題是抱怨 Go。不是說 Go 很差 —— 它的設計團隊裡有很多實力高超的人，設計上很漂亮，也有不少很棒的想法。它的問題是和 Google 過度耦合，使得一些根本的概念上就有偏差，並且資源過度集中在「Google 需要」的改良，而不是「讓這個語言更好」的方向。</p>
+
+<p>這篇大致上就是列出了作者覺得 Go 好、不太好、很差的點。如果你對 Go，或者語言研究有興趣，文章裡的細節很值得一讀，不過我想另外講一個，就是如果你看文中列出的章節，就會覺得這些優缺點都有跡可詢。Google 想要讓員工能快速上手，學完就能做出貢獻，而且做出來的產品有一定水準，所以 Go 十分易學，強調執行速度，且有完整的標準庫，尤其對多工、檔案處理、網路處理的功能特別完整。另一方面，套件管理？不需要，因為 Google 內部是用 monolithic repository，所有函式庫都在你的 code base 裡。客制範型？不需要，因為我們有用到的都內建了，不會有其他需求。社群就是 Google，其他人？ ¯\_(ツ)_/¯</p>
+
+<p>Go 有許多很好的設計，但是如果你想做的事情和 Google 不完全一致，就註定要撞牆。比起例如 Rust 和 Swift 之類，雖然他們後面也是有 corporation backing，但是 Go 社群就有點孤兒感。</p>
+  <span class="item__footer"><a href="https://bluxte.net/musings/2018/04/10/go-good-bad-ugly/">bluxte.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="cl8rjBf"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go">Go 有 Generics，只是 Google 不想給你用</a></h3>
+    <p>最常聽到 Go 開發者和擁護者對 Go 沒有 generics 的辯護就是這是個 design choice，雖然主流語言有這個東西，但我們覺得這其實不好，所以你應該用 OOXX 取代。喔是喔，那為什麼 Google 搞到最後還是自己實作了一樣概念的東西，只是因為沒有語言支援，然後用 preprocessor hack 進去 ¯\_(ツ)_/¯</p>
+
+<p>(我沒研究，不過聽說 Kubernetes 裡面也有類似的 code generation tool。)</p>
+  <span class="item__footer"><a href="https://github.com/google/gvisor/blob/master/tools/go_generics/generics.go">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="12BBcED"></a>
+  
+  <h3 class="item__title"><a href="https://www.reddit.com/r/rust/comments/5penft/parallelizing_enjarify_in_go_and_rust/dcsgk7n/">If you look closely, those aren&#39;t angle brackets</a></h3>
+    <p>另一個（不是 Google）用 preprocessor hack「解決」generics 問題的人。他在 Reddit 上分享了怎麼平行化 Enjarify 的文章，被問了這個問題：</p>
+
+<blockquote><p>不好意思，可以為我解釋一下這個 Go 語法嗎？</p>
+
+<pre><code>type ImmutableTreeListᐸElementTᐳ struct {
+</code></pre>
+
+<p>我以為 Go 沒有 generics？</p></blockquote>
+
+<p>以下回答：</p>
+
+<blockquote><p>確實沒有。這是一個模板檔案，我用搜尋取代來產生三個單形 Go 檔案。</p>
+
+<p>如果你仔細看，那其實不是三角括弧，而是來自<a href="https://zh.wikipedia.org/wiki/%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8E%9F%E4%BD%8F%E6%B0%91%E9%9F%B3%E7%AF%80%E6%96%87%E5%AD%97">加拿大原住民音節文字</a>區塊的符號，Go 允許在 identifiers 使用。以 Go 的角度而言，這就是一個很長的 identifier。</p></blockquote>
+
+<p>如果你為人類制定過於嚴苛的規則，只會促使讓他們發明出更糟糕的方式達到目的 ¯\_(ツ)_/¯</p>
+  <span class="item__footer"><a href="https://www.reddit.com/r/rust/comments/5penft/parallelizing_enjarify_in_go_and_rust/dcsgk7n/">reddit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="gxOqDJQ"></a>
+  
+  <h3 class="item__title"><a href="https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/">Notes on structured concurrency, or: Go statement considered harmful</a></h3>
+    <p>當然 Go 也是有優點，其中 <code>go</code> syntax 也是不少人會舉出來的例子。不過它似乎也不是那麼好。用一個關鍵字切換 synchronous/asynchronous 實作確實是個很好的語言特點。問題在於，Goroutine 並不只是 concurrent，而是 parallel —— 被 <code>go</code> 的函式會與接下來的程式平行執行，而非一般語言 async-await 的（單執行緒）異步。</p>
+
+<p>在這篇文章中，Python 套件 <a href="https://trio.readthedocs.io/en/latest/">Trio</a> 的作者試圖解釋，為什麼它使用了一個叫做 nursery 的概念。<a href="http://trio.readthedocs.io/en/latest/reference-core.html">用 Trio 的說法</a>：</p>
+
+<blockquote><p>[Y]ou can’t start a child task unless you’re prepared to be a responsible parent.</p></blockquote>
+
+<p><code>go</code> 語法加上 channels 的管理模式（順便澄清，為 channels 提供語言層面整合是優點無誤），在本質上就和 callback-based concurrency 程式一樣，是類似 goto 的概念。這代表你的程式流程會在各區塊之間跳轉，而非線性。不論是 <code>go</code> 還是 async-await，都是為了解決邏輯不斷跳轉而產生；在單緒異步中，因為一次還是只能做一件事，問題就此解決，但是 <code>go</code> 由於隱含 parallelism，就變成解決了邏輯上的線性，卻犧牲執行上的線性。</p>
+  <span class="item__footer"><a href="https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/">vorpus.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-drumrick">
+        <div class="i" id="drumrick">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/90dce7fc-2341-4deb-9abd-fec433bdeb4e.jpeg" alt="@drumrick" width="80" /><span class="category__title__text">@drumrick</span></h2>
+            <div class="item item--issue item--link">
+  <a name="pzwRjlZ"></a>
+  
+  <h3 class="item__title"><a href="https://taiwan.googleblog.com/2018/05/2018-google-io-100.html">2018 Google I/O 發佈的 100 件事</a></h3>
+    <p>本週 2018 Google I/O 強勢登場，如果你跟我一樣沒有熬夜看轉播沒有關係，Google 台灣官方推出懶人包，連標題都相當農場，看到有興趣的主題，再去<a href="https://www.youtube.com/playlist?list=PLOU2XLYxmsIInFRc3M44HUTQc3b_YJ4-Y">播放清單</a>找來看就好了。ProductHunt 的 Twitter 幽默地<a href="https://twitter.com/ProductHunt/status/994412717330063360">改了一張圖</a>來總結這次 2018 Google I/O。</p>
+  <span class="item__footer"><a href="https://taiwan.googleblog.com/2018/05/2018-google-io-100.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="hox3yoT"></a>
+  
+  <h3 class="item__title"><a href="https://facebook.ai/developers">Facebook 2018 開發者大會</a></h3>
+    <p>除了 Google，月初 Facebook 也舉辦今年的開發者大會，在人工智慧方面也有諸多進展。</p>
+
+<ul>
+<li>PyTorch 1.0 發佈：四月就傳出 Caffe2 併入 PyTorch，如今 PyTorch 1.0 挾著 Caffe2 以及 ONNX 登場，力求從 prototype 到 production deployment 能一條龍完成。在 production deployment 方面，一直都追不上 TensorFlow EcoSystem 也是 PyTorch 使用者一直以來心中的痛。</li>
+<li>PyTorch 1.0 也包含了一些語法上的變更、更好的 Windows 支援、以及開源的 ResNet3D 模型和 NLP 套件 translate。</li>
+<li>ELF OpenGo：ELF 是用 PyTorch 實作的強化學習遊戲框架， ELF OpenGo 實作了 DeepMind 的 AlphaGo Zero 以及 AlphaZero，在韓國舉辦測試對弈中取得 14-0 全勝的戰績。</li>
+<li>另外，Facebook 用超大量的 Instagram 的圖片以及 hashtag 訓練模型，在 ImageNet 資料集上取得了成績的新高。</li>
+</ul>
+
+
+<p>除了人工智慧，當然其他主題也是內容豐富，請參考相關連結</p>
+
+<ul>
+<li><a href="https://facebook.ai/developers">Facebook AI 工具網站</a></li>
+<li><a href="https://developers.facebook.com/videos">Facebook 2018 開發者大會影片</a></li>
+</ul>
+  <span class="item__footer"><a href="https://facebook.ai/developers">facebook.ai</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eCUmhFf"></a>
+  
+  <h3 class="item__title"><a href="https://lobe.ai/">lobe：主打行動 App 的視覺化介面、自動化機器學習服務</a></h3>
+    <p>在 MLaaS 百家爭鳴的時代，AutoML 已經是基本，從 <a href="https://playground.tensorflow.org/">A Neural Network Playground</a> 開始到 <a href="https://teachablemachine.withgoogle.com">Teachable Machine</a> 已經看到視覺化編輯的可能，只是介面還是沒那麼人性化。這次看到 lobe 除了完全不用寫 Code 的介面外，還有就是主打可以輸出 TensorFlow / Keras / CoreML 的模型，直接在 App 裡做預測。目前專案在 Beta 封測的階段，可惜我申請了還沒收到邀請，後續有機會也會實測看看，先介紹給大家，有興趣的也可以申請嚐鮮。</p>
+  <span class="item__footer"><a href="https://lobe.ai/">lobe.ai</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="aVFK3Xx"></a>
+  
+  <h3 class="item__title"><a href="https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db">CatBoost vs. Light GBM vs. XGBoost</a></h3>
+    <p>這是一篇由 fast.ai 創辦人 Jeremy Howard 所推廣的廣告文，雖然我們處在 Deep Learning 稱霸的時代，但有時候 boosting 還是很好用的，它不用 GPU，而且它快。作者用 CatBoost 參加 2018 Woman in Data Science Datathon 獲得前十名，不過因為比賽已經關了，所以文中的資料是用 Kaggle 上另一個飛機延誤時間的資料集。都說是廣告文了，結論當然是 CatBoost 效果好訓練時間短，可以納入未來做 Boosting 的新選擇。</p>
+  <span class="item__footer"><a href="https://towardsdatascience.com/catboost-vs-light-gbm-vs-xgboost-5f93620723db">towardsdatascience.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SEJkStD"></a>
+  
+  <h3 class="item__title"><a href="https://idea-instructions.com">IKEA 演算法說明書</a></h3>
+    <p>一個有趣的小網站，用 IKEA 說明書的風格，解釋演算法的過程，目前只有八個演算法，希望未來會越來越多。</p>
+  <span class="item__footer"><a href="https://idea-instructions.com">idea-instructions.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="HatAITV"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">Senior Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 萬元以上。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python</li>
+<li>Experience with Python web frameworks, ie. Flask, Django, or Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">104.com.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sdGAjOz"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://mit.jobs/jobs/5979-ios-software-engineer">iOS Software Engineer at EscapeX</a></h3>
+    <p>薪資
+- 65000~100000 x 14，還可以談更高</p>
+
+<p>福利
+- 到職第一年即享有 7 天特休假 (依到職比例給假)，到職滿一年即享 10 天特休假
+- 團體保險、健康檢查、員工旅遊、公司聚餐</p>
+
+<p>要求
+- 熟悉 Objective-C 或 Swift
+- 熟悉 iOS 開發常用的 libraries 跟 tools
+- 三年以上工作經驗</p>
+
+<p>加分
+- 有想法並且能清楚表達想法
+- 不用字幕可以看懂 WWDC 或其他 Conferences 的影片</p>
+  <span class="item__footer"><a rel="nofollow" href="https://mit.jobs/jobs/5979-ios-software-engineer">mit.jobs</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/126/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-05-07'>May 7th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>127 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/128/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-05-21'>May 21st 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

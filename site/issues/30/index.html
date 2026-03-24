@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 30 聽我說，我有一個獨家的點子，只缺幾個工程師來實現它：「設計一套可以付費下載更多 RAM 的 APP」</title>
+<meta name="description" content="本期內容涵蓋 Python, Manager, DB, Career, CI, Docker">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Manager, DB, Career, CI, Docker'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/30/index.html#start">
+        Issue 30 聽我說，我有一個獨家的點子，只缺幾個工程師來實現它：「設計一套可以付費下載更多 RAM 的 APP」 &nbsp;<i><time class='published' datetime='2016-02-15'>February 15th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-98846"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 楊威利腦殘粉</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="SaZKZbt"></a>
+  
+  <h3 class="item__title"><a href="https://orator-orm.com/">Orator - An ActiveRecord ORM for Python</a></h3>
+    <p>最近出現的 ORM, 看起來挺好用的, 其實一直都有在尋找 Python 有沒有這類獨立的 ORM, 平常都用 Django 的 ORM, 綁著 Django 不好抽出來, 可是也不太喜歡 SQLAlchemy :p</p>
+
+<p>特別是最近流行 Serverless, 像是 AWS Lambda, 就很需要一個好用 ORM 來開發一些小東西。 看了 Orator 的設定文件, 簡單明暸, 覺得就是它了!</p>
+  <span class="item__footer"><a href="https://orator-orm.com/">orator-orm.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Rr0yBel"></a>
+  
+  <h3 class="item__title"><a href="https://gun.io/blog/announcing-zappa-serverless-python-aws-lambda/">Announcing Zappa - Serverless Python Web Applications</a></h3>
+    <p>因為 AWS Lambda 開始支援 Python 之後, 就開始看到一些 AWS Lambda 相關的 Python 專案出現了, 直接支援 Django 的就是 Zappa 了, 可以直接透過 <code>./manage.py</code> 來直接上傳、更新 AWS Lambda 的程式, 很容易就可以把 Django 變成 Serverless。</p>
+
+<p>雖然說我目前還是覺得在 Lambda 上面跑 Django 似乎 cost 有點高, 不過整個 <a href="https://github.com/Miserlou/Zappa">zappa</a> 把整個 API Gateway 跟 Lambda 的概念都包好了, 我覺得可以參考一下。</p>
+
+<p>文章中的 <a href="https://www.youtube.com/watch?v=plUrbPN0xc8">影片</a> 說明得滿清楚的, 不過比較好笑的是影片的第一個留言:</p>
+
+<blockquote><p>This is ridiculous. How is this even possible? I mean, I'm lost for words. How do you live with an unregistered copy of Sublime Text?﻿</p></blockquote>
+
+<p>不得不說, 老兄, 這樣真的不行啊 LOL</p>
+  <span class="item__footer"><a href="https://gun.io/blog/announcing-zappa-serverless-python-aws-lambda/">gun.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IFDkUYF"></a>
+  
+  <h3 class="item__title"><a href="https://www.thoughtworks.com/insights/blog/three-common-mistakes-first-time-tech-lead">Three Common Mistakes of the First Time Tech Lead</a></h3>
+    <p>三個新手 Tech Lead 最常犯的錯誤。</p>
+
+<ol>
+<li>Coding Full-Time</li>
+<li>Making all the Technical Decisions</li>
+<li>Forgetting about Cultivating Team Culture</li>
+</ol>
+
+
+<p>我得承認我都犯過, 不過這幾年學習下來, 我想應該都有修正了吧 :p</p>
+
+<p>不過其實因為手上專案太多, 自己太容易變成瓶頸, 為了避免變成瓶頸, 其實就得朝這方向發展, 這幾年我也是讀了很多這方面的書跟文章。不過這篇確實寫得不錯, 除了收藏之外也跟大家分享一下。</p>
+  <span class="item__footer"><a href="https://www.thoughtworks.com/insights/blog/three-common-mistakes-first-time-tech-lead">thoughtworks.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IOjNE4w"></a>
+      <a href="https://www.instagram.com/yua_mikami/"><img src="square_extra_large_1971f0b2-11b9-46e0-b8c9-ca97d0032f1d.jpg" title="本週 IG: @yua_mikami" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/yua_mikami/">本週 IG: @yua_mikami</a></h3>
+    <p>跟大家推薦, 三上悠亞, 不得了</p>
+  <span class="item__footer"><a href="https://www.instagram.com/yua_mikami/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="WSbmvla"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4">How to build stable systems.</a></h3>
+    <p>如何做好 CI, 這是初學 DevOps 的人最常問的問題。但我始終認為, CI 要從程式架構的設計與專案的準備就開始, 而且整個團隊要有建構一個穩定系統的完整概念才行。然而建構一個穩定系統, 又談何容易, <a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.ax3aydjai">Jesper L. Andersen, How to build stable systems</a> 這篇文章, 已略述一二。這裡我只要強調一個重點, "If you only ever run on windows, you are screwed." (是這篇文章說的, 不是我說的)</p>
+  <span class="item__footer"><a href="https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ezMSjeg"></a>
+  
+  <h3 class="item__title"><a href="http://www.forbes.com/sites/louiscolumbus/2016/02/10/finding-the-most-lucrative-technology-jobs-in-2016/">Finding The Most Lucrative Technology Jobs In 2016</a></h3>
+    <p>每天忙碌地 coding, 有沒有發現你的一行 code 在美國值多少錢? 看到 2016 年美國最有價值的 IT 工作, 我忍不住想介紹這分析給正在埋頭寫 code 的人看。參考這些數據, 讓你決定用哪一種語言, 寫哪一行業的應用, 選擇哪個工作角色對你未來的工作生涯最有利。我覺得, 現在在軟體業的年輕人, 明明就相當於以前台灣所謂的"科技新貴", 為何沒有相對的待遇, 令人百思不解。</p>
+  <span class="item__footer"><a href="http://www.forbes.com/sites/louiscolumbus/2016/02/10/finding-the-most-lucrative-technology-jobs-in-2016/">forbes.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rgH5jfZ"></a>
+  
+  <h3 class="item__title"><a href="https://www.brianchristner.io/how-to-setup-docker-monitoring/">How to setup Docker Monitoring</a></h3>
+    <p>當你越用越多 docker containers 時, 監控 docker 變成必要的工作之一。除了用 <a href="http://newrelic.com/docker">New Relic 公司所提供的 360度 docker visibility</a> 以外, 你也可以利用 Google 的 cAdvisor, 配合 InfluxDB 資料庫引擎, 與 Grafana 的 Metrics Dashboard 自己架設 docker 監控環境。如果你已經裝 docker, 依照<a href="https://www.brianchristner.io/how-to-setup-docker-monitoring/">本篇文章</a>的步驟, 就能快速架設完成。</p>
+  <span class="item__footer"><a href="https://www.brianchristner.io/how-to-setup-docker-monitoring/">brianchristner.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="zrEvd8E"></a>
+  
+  <h3 class="item__title"><a href="http://www.vertabelo.com/blog/technical-articles/the-reference-data-pattern-extensible-and-flexible">The Reference Data Pattern: Extensible and Flexible</a></h3>
+    <p>一項關聯在資料庫裡通常直接用一個 table 表示，但是這樣 table 數量就會隨著資料模型複雜而變多。通常這些<em>關聯屬性</em>也會出現在標題、下拉選單、或其他 UI 元件上，手動維護 table 與程式碼間的對應也非常沒有效率又容易出錯。這篇文章說明另一種方式：僅以一個 table 來記錄各種不同的關聯。</p>
+
+<p>這不算新穎的概念，例如我在 <a href="https://streetvoice.com/">StreetVoice</a> 時用了 Django 的 <a href="https://docs.djangoproject.com/en/1.9/ref/contrib/contenttypes/">contenttypes framework</a> 來同時處理一個人的歌曲、專輯、圖片、文章等不同類型作品的情況，它底層就是相同概念。</p>
+
+<p>如果下次發現你的系統中 relation table 開始多到難以維護、或是需要同時處理跨不同關聯的資料時，試試看改成這種架構吧。</p>
+  <span class="item__footer"><a href="http://www.vertabelo.com/blog/technical-articles/the-reference-data-pattern-extensible-and-flexible">vertabelo.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Cr1PRHh"></a>
+  
+  <h3 class="item__title"><a href="http://www.qxzxp.com/5309.html">一些常见的重置密码漏洞分析总汇</a></h3>
+    <p>只要有帳號的系統勢必就有重設密碼（reset password）的功能。看看前人留下了什麼樣的洞，避免自己重蹈覆轍吧。</p>
+  <span class="item__footer"><a href="http://www.qxzxp.com/5309.html">qxzxp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="aczSZTU"></a>
+  
+  <h3 class="item__title"><a href="http://media.weibo.cn/article?id=2309403939907201539934&amp;oid=3939907204912472">程序员到底是一个什么职业？</a></h3>
+    <blockquote><p>程序员首先是雇员、然后是工程师；比起创造力，工程能力对这个职位更为重要。</p></blockquote>
+
+<p>雖然很多人（我以前也是）認為編寫程式是一件充滿創意、需要天份的事情；但是在工作職位上把事情做好更重要。與其追求新奇的技術並套用在公司的專案上，替程式加上測試、讓部署可以自動化還來得更有助益些。</p>
+
+<p>當然學習新的技術、發揮創意還是很重要的，所以在工作之餘做做小專案吧！</p>
+
+<ul>
+<li><a href="https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects">Reflections from 52 weeks, 52 projects</a></li>
+<li><a href="http://www.evanlin.com/52week-52projets/">52 Weeks, 52 Projects....</a></li>
+<li><a href="http://36kr.com/p/5042761.html">开源我的 business ideas</a></li>
+</ul>
+  <span class="item__footer"><a href="http://media.weibo.cn/article?id=2309403939907201539934&amp;oid=3939907204912472">weibo.cn</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="S4ozBi9"></a>
+  
+  <h3 class="item__title"><a href="https://mp.weixin.qq.com/s?__biz=MzIwNDExMzU1Mg%3D%3D&amp;mid=401965503&amp;idx=1&amp;sn=7b4e2a731bc49bbf9b3a3ccd6597343e&amp;scene=1&amp;srcid=0114znp96J2dj6Y9Q5H6kztf&amp;ascene=1&amp;uin=MTc2NTU0Njk0Mg%3D%3D&amp;devicetype=webwx&amp;version=70000001&amp;pass_ticket=3G1DC0c5Og9Ho0Qy3JUEGqwG1pR%2BS%2F4PZ7ycVQdAh40Wh5E85nDM%2FU1wVkCpT2vl">人人都能做产品经理吗？</a></h3>
+    <p>我聽過不少工程師朋友因為不擅長或不熱愛技術，所以考慮轉職為 PM。問題是 PM 難道是技術人員的避風港或養老中心，不需要特別的能力嗎？</p>
+
+<p>這篇文章可以跟 Pinkoi 前陣子的<a href="https://www.smartm.com.tw/article/32303338cea3">徵才文章</a>搭配著看。雖然一個說的是專案經理、一個是產品經理，但在很多場合其實這兩者是交疊的。</p>
+
+<blockquote><p>顏君庭（Pinkoi共同創辦人暨執行長）：打造不需 PM，就能溝通順暢的跨部門合作文化</p></blockquote>
+
+<p>我是比較偏向微信這篇的看法，PM 需要經驗與專門能力。如果一個好的 PM 不容易找，那要讓整個團隊都具備等效的工作方式勢必更難了。換個職務類想一下：一個軟體團隊可不可以都是 developer 沒有 architect，靠 developer 互相協調出良好的架構？同理，其實 DevOps 也是類似的取捨。</p>
+
+<hr />
+
+<p>延伸閱讀：<a href="http://kevintsengtw.blogspot.tw/2015/03/coding.html">你要 Coding 多久呢？</a></p>
+
+<blockquote><p>常看到很多開發人員就會說他想要去做 SD, SA 或是 PM，好像這些職務就是程式開發人員所謂的「往上」發展之路。
+PG, SD, SA, PM，這樣的職涯發展看起來好像煞有其事也相當合理，但是一個寫了兩三年甚至四五年的程式開發人員就適合去當 SD, SA 嗎？</p></blockquote>
+  <span class="item__footer"><a href="https://mp.weixin.qq.com/s?__biz=MzIwNDExMzU1Mg%3D%3D&amp;mid=401965503&amp;idx=1&amp;sn=7b4e2a731bc49bbf9b3a3ccd6597343e&amp;scene=1&amp;srcid=0114znp96J2dj6Y9Q5H6kztf&amp;ascene=1&amp;uin=MTc2NTU0Njk0Mg%3D%3D&amp;devicetype=webwx&amp;version=70000001&amp;pass_ticket=3G1DC0c5Og9Ho0Qy3JUEGqwG1pR%2BS%2F4PZ7ycVQdAh40Wh5E85nDM%2FU1wVkCpT2vl">qq.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Xy1Nub8"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/the-lighthouse/how-a-password-changed-my-life-7af5d5f28038">How a Password Changed my Life</a></h3>
+    <p>這篇內容無關技術，但我覺得是很有趣的想法：作者遇到一個需要常常更換密碼而且不能重複的系統，所以他決定把生活目標設為密碼、於是每次輸入密碼時就像唸咒語般不斷提醒自己目標為何。他靠這種方式戒菸、調整作息、約女孩約會、求婚！感覺滿酷的。</p>
+  <span class="item__footer"><a href="https://medium.com/the-lighthouse/how-a-password-changed-my-life-7af5d5f28038">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue">
+  <a name="t-115478"></a>
+      <img src="original_ratio_extra_large_e4d3021f-11c1-4497-9f3d-66004bb50a87.jpg" title="成為貓奴的那一刻起每天都是歲末大掃除" alt="" width="730" />
+
+  <h3 class="item__title">成為貓奴的那一刻起每天都是歲末大掃除</h3>
+    <p>自從家裡進駐了兩位貓殿下之後，每天回家第一件事就是開除濕機和空氣清淨機，即便如此，只要身上有黑色的衣服、褲子或包包，還是可以在兩秒鐘之內親身體驗被貓毛覆蓋的驚人效果，所以今年我也沒有大掃除 (挖鼻)。</p>
+
+<p>講是這樣講，可是貓奴其實每天都被迫維持環境清潔（就連那個陳上進都得乖乖鏟屎了），不然要不是貓生病就是我生病啊!!!（過敏體質），但工作很累的時候還真希望周圍出現個潔癖重症患者，譬如說今天要講的這部：「<a href="http://www.taaze.tw/sing.html?pid=11100764872">潔癖男子！青山くん</a>」（以一個慢速滑球切入主題），推薦給喜歡坂本君或尼采大師的朋友，很適合開工第一天有點慵懶、有點煩躁的心情噢～</p>
+
+<p>接著來簡單介紹一下我們的青山君：</p>
+
+<ul>
+<li>是個為了潔淨而存在的謎樣生物</li>
+<li>是個為了不碰到別人而發展出高超過人技巧的天才足球選手 (蛤？)</li>
+<li>選擇理想球隊的標準是球衣的顏色</li>
+<li>選擇理想高中的標準是馬桶的種類</li>
+<li>練習前要洗澡、練習結束後要洗澡</li>
+<li>在比賽的最後五分鐘可以弄髒身體 (因為就快可以去洗澡了)</li>
+<li>毛巾非常香</li>
+</ul>
+
+
+<p>最後說一個題外話，今年動漫節從初三開始，所以其實我早就開工了 (哭)，在這邊跟各位分享兩個本屆的機密情報：</p>
+
+<ul>
+<li>平坂読（輕小說《如果有妹妹就好了。》作者）本人長得有一點點像<a href="https://goo.gl/EaCflD">阿部サダヲ</a></li>
+<li>鈴木央（漫畫《七大罪》作者）每週準時交 20 頁稿子而且沒有助手，為了要來台灣簽名甚至還提早交稿。</li>
+</ul>
+
+
+<p>以上來自 <a href="https://twitter.com/autisticcat">@autisticcat</a> 的分享！</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/29/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-02-08'>February 8th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>30 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/31/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-02-22'>February 22nd 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

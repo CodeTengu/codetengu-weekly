@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 51 小明以為自己是中產階級</title>
+<meta name="description" content="本期內容涵蓋 Python, JavaScript, iOS, Android, Machine Learning, TensorFlow, 時間管理">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, JavaScript, iOS, Android, Machine Learning, TensorFlow, 時間管理'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/51/index.html#start">
+        Issue 51 小明以為自己是中產階級 &nbsp;<i><time class='published' datetime='2016-07-11'>July 11th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-158936"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在玩「<a href="https://www.youtube.com/watch?v=AluTOOCVXVQ">Mass Effect 3</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 太熱了</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 為了工作開始看韓劇</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="hL7RJO9"></a>
+  
+  <h3 class="item__title"><a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">Is Python call-by-value or call-by-reference? Neither.</a></h3>
+    <p>官方的說法叫做 <a href="https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference">call-by-assignment</a>，也有人稱之為 <a href="http://effbot.org/zone/call-by-object.htm">call-by-object</a>。雖然看起來有點抽象，但是有人總結得很好：</p>
+
+<blockquote><p>If you pass a mutable object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.</p>
+
+<p>If you pass an immutable object to a method, you still can't rebind the outer reference, and you can't even mutate the object.</p></blockquote>
+
+<p>再補充一下，例如 <code>def foo(bar):</code> 這個 function 的參數傳遞其實是在 <code>foo</code> 的 local namespace 裡幫傳進去的物件綁定了一個叫做 <code>bar</code> 的名字（所謂的 assignment）；如果你在 <code>foo</code> 裡 re-assign 了一個新的物件給 <code>bar</code>，實際上是把 <code>bar</code> 這個名字綁定到那個新的物件。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference">How do I pass a variable by reference in Python?</a></li>
+</ul>
+  <span class="item__footer"><a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">jeffknupp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="gSrdz9t"></a>
+  
+  <h3 class="item__title"><a href="https://blogs.msdn.microsoft.com/pythonengineering/2016/06/29/idiomatic-python-eafp-versus-lbyl/">Idiomatic Python: EAFP versus LBYL</a></h3>
+    <p>跟某些語言不同，Python 對於錯誤處理的方式更偏好 EAFP（<strong>E</strong>asier to <strong>A</strong>sk <strong>F</strong>orgiveness than <strong>P</strong>ermission）而不是 LBYL（<strong>L</strong>ook <strong>B</strong>efore <strong>Y</strong>ou <strong>L</strong>eap）。簡單說，EAFP 就是 <code>try-except</code> 而 LBYL 就是 <code>if</code>。</p>
+
+<p>這篇文章的重點其實是在講「可讀性」，說得更精確一點是 <a href="https://www.python.org/dev/peps/pep-0020/">Explicit is better than implicit</a>。作者的論點是，對在讀程式碼的人來說，<code>try-except</code> 其實能夠比較直覺地意識到那段 code 要做什麼事，因為你會先看到那段 <code>try</code> 接著看到可能會發生哪些例外，而不是先看到一串複雜的 <code>if</code> 判斷式。不過 exception 的另一個重點其實是它應該要是 exceptional 的，所以也不是要你把所有的 <code>if</code> 都改用 <code>try-except</code> 吶。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/">Write Cleaner Python: Use Exceptions</a></li>
+<li><a href="https://docs.python.org/3/faq/design.html#how-fast-are-exceptions">How fast are exceptions in Python?</a></li>
+</ul>
+  <span class="item__footer"><a href="https://blogs.msdn.microsoft.com/pythonengineering/2016/06/29/idiomatic-python-eafp-versus-lbyl/">microsoft.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Bfq1J2o"></a>
+  
+  <h3 class="item__title"><a href="https://hynek.me/articles/hasattr/">hasattr() – A Dangerous Misnomer in Python 2</a></h3>
+    <p>作者強烈地建議大家不要在 Python 2 裡使用 <code>hasattr()</code>，至少是不要對用 <code>@property</code> 裝飾的 method 使用，因為一旦你的 <code>@property</code> method 會拋出任何 exception，你的 <code>hasattr()</code> 的結果永遠都會是 <code>False</code>（而那些 exception 會默默地被 catch 掉），嘖，這個 bug 也太靠北。</p>
+
+<p>不過所幸在 Python 3 就沒有這個問題了。</p>
+  <span class="item__footer"><a href="https://hynek.me/articles/hasattr/">hynek.me</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="q8mN6nN"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/cht8687/You-Dont-Need-Lodash-Underscore">You don&#39;t need Lodash.js / Underscore.js</a></h3>
+    <p>繼 <a href="http://youmightnotneedjquery.com/">You Might Not Need jQuery</a> 和 <a href="https://github.com/NamPNQ/You-Dont-Need-Javascript">You Don't Need JavaScript</a> 之後，又出現了 You don't need Lodash.js / Underscore.js 了。</p>
+
+<p>這篇文章就是在告訴你哪些 lodash 和 underscore 的功能其實 native 的 ES5 或 ES6 就支援，不過最棒的是他竟然還為了這個做了一個 ESLint plugin，喔，所有 JavaScript 的事物裡，最喜歡的就是 ESLint 了。</p>
+  <span class="item__footer"><a href="https://github.com/cht8687/You-Dont-Need-Lodash-Underscore">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="WXnVPC0"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.txqzmgmxi">Finding Time to Become a Better Developer</a></h3>
+    <p>這是一篇在談時間管理的文章，而且讀起來還挺療癒的。尤其是第 5 點，讓我想到當兵的時候讀過的「<a href="http://www.books.com.tw/products/0010520788">親愛的臥底經濟學家</a>」書裡提到的一句話：「意志力跟其他東西一樣，都是稀有資源，無法超額使用」，大家感受一下。</p>
+
+<p>對一個 developer 來說，決定在什麼時候學什麼（以及不學什麼）其實是個很重要的軟技能啊。像我最近就有意識地不太去追那些 buzzword 新技術，而是多花了一點時間在那些相對更本質、更基礎一點的知識，例如資料結構、Refactoring、SQL 以及更重要的，英語。比如說我這陣子終於找到一個適合自己的學英文的套路，就是「打電動」。媽的，打電動學英文的成就感實在太高，才兩個禮拜我就已經玩完兩款 RPG 了（質量效應 2 和 3），效果顯著啊。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://ingramchen.io/blog/2014/03/learning-deep-and-wide-not-duplicate.html">Learning deep and wide, not duplicate</a></li>
+<li><a href="http://www.ithome.com.tw/voice/99274">投資組合與技能樹</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.txqzmgmxi">freecodecamp.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="foyv4YN"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.com/good-coding-instincts-will-eventually-kick-you-in-the-teeth-2b3766897f3f#.wl0uue74a">Good coding instincts will eventually kick you in the teeth</a></h3>
+    <p>上一期 <a href="https://twitter.com/Evan_Lin">@kkdai</a> 分享了一篇關於 debug 的文章: <a href="http://www.informit.com/articles/article.aspx?p=1941206">
+"The Best Programming Advice I Ever Got" with Rob Pike</a> 是在說開始用工具 debug 之前，先在腦中思考一次程式運行整體的狀況。</p>
+
+<p>不過還是會有毫無頭緒的時候，這種情形在接手別人的 project 時特別常見，作者分享了一些他在這種情況下 debugging 的紀律跟技巧。</p>
+
+<p>其中對於用測試來 debugging 的部分，我認為的確是很好的紀律，比在 production code 上硬改跟強行 log 來得合理，而且也可以透過 mock object 的使用一次針對一個方向去猜。</p>
+
+<p>文章裡面沒有提到，但我認為更重要的是，透過這種方式 debug 完之後，你自然也有了針對這個 bug 的 test case，避免這個 bug 還會再次出現。</p>
+
+<p>註：文章裡面有提到 RTFM (read the fucking manual)，我看到 RTFM 就忍不住想說一個笑話：</p>
+
+<blockquote><p>菜鳥工程師：我要怎麼做這個 ...<br/>
+資深工程師：RTFM！<br/>
+菜鳥工程師：npm install <a href="https://www.npmjs.com/package/rtfm">RTFM</a></p></blockquote>
+  <span class="item__footer"><a href="https://medium.freecodecamp.com/good-coding-instincts-will-eventually-kick-you-in-the-teeth-2b3766897f3f#.wl0uue74a">freecodecamp.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2ifbQp9"></a>
+  
+  <h3 class="item__title"><a href="https://www.invasivecode.com/weblog/machine-learning-swift-ios/">Machine Learning for iOS in Swift</a></h3>
+    <p>文章的引言直接就說 WWDC 16 除了 Swift 3 之外，其它的更新無論是給使用者的功能或是提供給開發者的工具幾乎都跟 AI 有關。</p>
+
+<p>這幾年 Machine Learning 的趨勢化除了運算效能的提升跟成本的下降之外，最重要的還是 <a href="https://en.wikipedia.org/wiki/Artificial_neural_network">神經網路模型</a> 的應用。</p>
+
+<p>這篇文章也對於 AI, Machine Learning, Neural Network 的背景跟基礎知識做了簡單介紹，特別適合沒有相關經驗的人。</p>
+
+<p>Apple 這次在 <a href="https://developer.apple.com/library/ios/documentation/Accelerate/Reference/AccelerateFWRef/">Accelerate</a> 跟 <a href="https://developer.apple.com/metal/">Metal</a> framework 提供了 <a href="http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/">Convolutional Neural Networks</a> 在 CPU 跟 GPU 上的實作，這個模型適合處理圖片跟聲音，剛好手機裝置可以錄音跟拍照，正好可以拿來做深度學習。</p>
+
+<p>當然文章裡也用 Swift 簡單地實作了一個神經網路。</p>
+
+<p>其實我是現在才猛然注意到 Machine Learning 跟 iOS 開發有關聯，後來一想其實很合理啊，果然長期做 client side app，想法都窄了呢。</p>
+
+<p>延伸：<a href="https://www.bignerdranch.com/blog/neural-networks-in-ios-10-and-macos/">Neural Networks in iOS 10 and macOS (Big Nerd Ranch)</a></p>
+  <span class="item__footer"><a href="https://www.invasivecode.com/weblog/machine-learning-swift-ios/">invasivecode.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8tBCXeb"></a>
+  
+  <h3 class="item__title"><a href="https://littlebitesofcocoa.com/">Little Bites of Cocoa - Tips and techniques for iOS and Mac development</a></h3>
+    <p>每個平日早上 9:42 都會發出一篇 iOS 或 Mac 相關的文章，篇幅不大，比較大的 topic 可能會拆開分好幾天發。非常適合每天上班先花五分鐘看一下這個再上 Facebook。</p>
+
+<p>我覺得這系列就還不錯：<br/>
+<a href="https://littlebitesofcocoa.com/223-standard-setup">#223: Standard Setup</a><br/>
+<a href="https://littlebitesofcocoa.com/224-standard-architecture">#224: Standard Architecture</a></p>
+  <span class="item__footer"><a href="https://littlebitesofcocoa.com/">littlebitesofcocoa.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BpaBm5W"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/google-developers/no-more-findviewbyid-457457644885#.vpv5wfuy8">No More findViewById — Google Developers</a></h3>
+    <p>利用 <a href="https://developer.android.com/topic/libraries/data-binding/index.html#studio_support">Data Binding</a> 來取代 <code>findViewById()</code>，看起來比較清爽、不需要再強制轉型 view type 更保險，而且效能也提高了一些些。</p>
+
+<p>Data Binding 這個套件庫野心很大，像是在 xml 裡面 import packages 或用它的 expression language 這些功能我還是感覺蠻猶豫的，但至少就這個取代 <code>findViewById()</code> 的特性我是非常同意的，也從這個誘因開始，先把 Data Binding 的環境處理好。</p>
+  <span class="item__footer"><a href="https://medium.com/google-developers/no-more-findviewbyid-457457644885#.vpv5wfuy8">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="cjtciMk"></a>
+      <a href="https://www.instagram.com/shiraishi_yuuka/"><img src="original_ratio_extra_large_ce207574-e0cb-4365-993a-ac07a02a3c03.jpg" title="白石ゆうか (@shiraishi_yuuka) • Instagram photos and videos" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/shiraishi_yuuka/">白石ゆうか (@shiraishi_yuuka) • Instagram photos and videos</a></h3>
+    <p>本期我的部分多半是自己的書籤或是看到一半的內容分享，心得較少。
+只好先附上 IG 推薦來充數了。</p>
+  <span class="item__footer"><a href="https://www.instagram.com/shiraishi_yuuka/">instagram.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ucEZJ7n"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/playlist?list=PLXO45tsB95cKI5AIlf5TxxFPzb-0zeVZ8">Tensorflow tutorial Python (Eng Sub) 神经网络 教学 学习教程 - YouTube</a></h3>
+    <p>用 Tensorflow 建構類神經網路做 deep-learning 的教學系列影片。
+（好吧，我自己還沒開始看……）</p>
+
+<p>英語版： <a href="https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f">https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f</a></p>
+  <span class="item__footer"><a href="https://www.youtube.com/playlist?list=PLXO45tsB95cKI5AIlf5TxxFPzb-0zeVZ8">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iHHSLBk"></a>
+  
+  <h3 class="item__title"><a href="https://odie2630463.github.io/2016/07/06/scheme-nn/">用 Scheme 實作一個Tensorflow (1)</a></h3>
+    <p>在用 Tensorflow 來做 deep-learning 之前，先自己刻一個簡單版來了解它的構造吧！（大誤）</p>
+
+<p>P.S. 文中提到 <a href="https://mitpress.mit.edu/sicp/">SICP</a>，最近同事也在讀 <a href="http://www.scheme.com/tspl4/">The Scheme
+Programming Language</a>。讓我又想把 Scheme 撿回來複習一下了。</p>
+  <span class="item__footer"><a href="https://odie2630463.github.io/2016/07/06/scheme-nn/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="R0tR3fA"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@eric.programmer/function-objects-are-not-a-thing-97cd14351889#.fvbxck30p">“Function” objects are not a thing</a></h3>
+    <p><del>這又是一篇 OO 基本教義派文章。</del></p>
+
+<p>TL;DR 不要寫出當 function 用的 class/object。</p>
+
+<p><strong>到底 helper/util class 是否算不良的 OO 設計？</strong> 是個歷久不衰的話題，隨便搜尋就可以找到一堆討論文章：</p>
+
+<ul>
+<li><a href="http://oo-programming.blogspot.tw/2009/06/util-classes-must-die.html">Util Classes Must Die</a></li>
+<li><a href="http://stackoverflow.com/questions/3340032/utility-classes-are-evil">Utility classes are evil?</a></li>
+<li><a href="http://jamesjwang.blogspot.tw/2012/05/why-stateless-utility-class-with-static.html">Why stateless utility class with static methods is bad?</a></li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@eric.programmer/function-objects-are-not-a-thing-97cd14351889#.fvbxck30p">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="7jo9oaJ"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/ro31337/bigoposter">Big-O Complexities / Poster of common algorithms used in Computer Science</a></h3>
+    <p>常用演算法與資料結構的時間複雜度海報，可以印出來貼在牆上參考用。</p>
+  <span class="item__footer"><a href="https://github.com/ro31337/bigoposter">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="OM6De4d"></a>
+      <a href="https://twitter.com/ossia/status/751561367946076160"><img src="original_ratio_extra_large_dc42aa2d-78fb-4423-abc2-76be8cf4306b.jpg" title="When someone says &quot;You don&#39;t need a library for that!&quot; then shows you how to implement it manually." alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://twitter.com/ossia/status/751561367946076160">When someone says &quot;You don&#39;t need a library for that!&quot; then shows you how to implement it manually.</a></h3>
+    <p>由 <a href="https://twitter.com/saiday">@saiday</a> 提供</p>
+  <span class="item__footer"><a href="https://twitter.com/ossia/status/751561367946076160">twitter.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/50/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-07-04'>July 4th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>51 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/52/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-07-18'>July 18th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

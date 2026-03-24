@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 44 為了不讓 Google 的 AlphaGo 專美於前，微軟也將在近期推出自己的圍棋 AI，名叫 AlphaC#</title>
+<meta name="description" content="本期內容涵蓋 Python, AWS, Lambda, DynamoDB, MySQL, Commit Message, Go, JavaScript, React, CSS, Node.js, Webpack">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, AWS, Lambda, DynamoDB, MySQL, Commit Message, Go, JavaScript, React, CSS, Node.js, Webpack'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/44/index.html#start">
+        Issue 44 為了不讓 Google 的 AlphaGo 專美於前，微軟也將在近期推出自己的圍棋 AI，名叫 AlphaC# &nbsp;<i><time class='published' datetime='2016-05-23'>May 23rd 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-141173"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href="http://book.douban.com/people/vinta/">羊毛記</a>」</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 五月病發作、兼職人力仲介中</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="IKHlvvU"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/rainyear/pytips">Useful Python tips!</a></h3>
+    <p>作者每天會在這個 GitHub repo 更新一則關於 Python 的短文（所以其實你可以 watch 這個 repo），而且是用 IPython notebook！主題從 metaclass、Enum（Python 3.4 以後才有）、context manager、generator 到 threading，值得一讀。</p>
+  <span class="item__footer"><a href="https://github.com/rainyear/pytips">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="yjQs8fj"></a>
+  
+  <h3 class="item__title"><a href="http://en.clouddesignpattern.org/index.php/Main_Page">AWS Cloud Design Patterns</a></h3>
+    <p>這個 wiki 網站滿有趣的，上面列舉了很多 Amazon Web Service 的 "Cloud Design Pattern"，不過白話一點的說法其實就是 AWS 各種服務的 use case 和它們之間可以怎麼搭配，用來解決哪些問題。</p>
+  <span class="item__footer"><a href="http://en.clouddesignpattern.org/index.php/Main_Page">clouddesignpattern.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="hYUQRC2"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/aws-dynamodb-notes.html">AWS DynamoDB notes</a></h3>
+    <p>上禮拜心血來潮突然想玩一下 AWS Lambda 和 DynamoDB，也順便自動化一些 <a href="https://github.com/CodeTengu/headquarters/issues/62">CodeTengu 的例行事項</a>，然後這篇文章和延伸閱讀的那一篇就是我在過程中做的筆記，雖然有點雜亂，不過應該還是對大家有點幫助的。但是其實 AWS 的官方文件寫得很完整，就是內容實在多了點，看完都過了八年馬英九都下台了。</p>
+
+<p>AWS Lambda 毫無懸念地很容易上手，不過我沒有用最近很熱門的 <a href="https://github.com/serverless/serverless">serverless</a>（他包了太多東西了，我的需求沒那麼複雜），而是用了 <a href="https://github.com/tj">@tj</a> 大神寫的 <a href="https://github.com/apex/apex">apex</a>，簡單好用，不愧是出自名家之手啊～</p>
+
+<p>除此之外反倒是花了不少時間研究 DynamoDB 的 index 該怎麼下，有興趣的人可以看一下 <a href="http://www.slideshare.net/AmazonWebServices/design-patterns-using-amazon-dynamodb">Design Patterns using Amazon DynamoDB</a>（也有<a href="https://www.youtube.com/watch?v=PDQ3jbDyTQ4">影片</a>），豁然開朗撥雲見日吶！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://vinta.ws/code/aws-lambda-notes.html">AWS Lambda notes</a></li>
+</ul>
+  <span class="item__footer"><a href="https://vinta.ws/code/aws-dynamodb-notes.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XaCv6vI"></a>
+  
+  <h3 class="item__title"><a href="https://serversforhackers.com/mysqldump-with-modern-mysql">mysqldump with Modern MySQL</a></h3>
+    <p>這篇文章專門在講 <code>mysqldump</code>（用來備份 MySQL 資料庫的指令）那些五花八門的參數的用法。</p>
+  <span class="item__footer"><a href="https://serversforhackers.com/mysqldump-with-modern-mysql">serversforhackers.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9Tsjb0J"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/yinghau76/the-elements-of-good-commit-messages">The Elements of Good Commit Messages</a></h3>
+    <p>這個簡報在講好的 commit messages 會有哪些要素，最棒的是他舉的例子都是從各大 open source project 挖來的 "Real World Examples"。</p>
+
+<p>作者提到的好幾項都挺不錯的，其中我覺得最重要的可能就是「在 commit message 中提供 context（上下文）」，例如：</p>
+
+<ul>
+<li>error message（或者至少是 exception class）</li>
+<li>這個 bug 會在什麼情況下發生</li>
+<li>為什麼選擇這個做法（這個方式可能犧牲了什麼？）</li>
+<li>你還嘗試或考慮了哪些做法</li>
+</ul>
+
+
+<p>不過如果什麼都寫上去，正常人也是受不了，所以另外很重要的一點是要在 commit message 裡標記 issue number（票號，例如 <code>Fixes #42</code>），因為當初在專案管理系統裡可能就有很多關於這個 issue 的討論或是更詳細的前因後果，這些對 code review 和將來的 debug 可都是很重要的資訊啊。不過，程式碼背後的 why 和簡報最後提到的 reference，我覺得除了寫在 commit message 裡之外，其實更適合寫在註解裡。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://weekly.codetengu.com/issues/2#HOFqk87">How to Write a Git Commit Message</a> 在 Issue 2 分享過</li>
+</ul>
+  <span class="item__footer"><a href="https://speakerdeck.com/yinghau76/the-elements-of-good-commit-messages">speakerdeck.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="orgGVqt"></a>
+  
+  <h3 class="item__title"><a href="http://engineering.blogfoster.com/higher-order-components-theory-and-practice/">Higher Order Components: Theory and Practice</a></h3>
+    <p>High-order component 概念來自 funcitonal programming 的 high-order function ，是將一個 function 轉成另一個 function 的運算，同樣的 High-order component 能將一個 component 轉換為另一個 component ，可以減少重複的 code ，方便 compose ，在使用 React 實可用來取代 Mixin 的效果。</p>
+  <span class="item__footer"><a href="http://engineering.blogfoster.com/higher-order-components-theory-and-practice/">blogfoster.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GOZf16O"></a>
+  
+  <h3 class="item__title"><a href="https://hacks.mozilla.org/2016/05/css-coding-techniques/">CSS coding techniques</a></h3>
+    <p>這篇文章大略的講解了容易讓開發者混淆的幾個部分，以及對撰寫 CSS 的建議：</p>
+
+<ul>
+<li><a href="https://www.w3.org/TR/selectors/#specificity">CSS specification (權重)</a>
+
+<ul>
+<li>透過對權重的了解可以避免寫出的 CSS 被其他 Selector 所覆蓋，也因此可減少對 !important 的依賴</li>
+</ul>
+</li>
+<li>長度單位
+
+<ul>
+<li>em and rem</li>
+<li>vw and vh</li>
+</ul>
+</li>
+<li>使用 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes">flexbox</a> 簡單拉出 layout</li>
+<li>CSS preprocessors
+
+<ul>
+<li>Do not let nesting generate CSS rules you wouldn’t type yourself.</li>
+<li>Include vs extend</li>
+</ul>
+</li>
+</ul>
+  <span class="item__footer"><a href="https://hacks.mozilla.org/2016/05/css-coding-techniques/">mozilla.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="eDAyj3s"></a>
+  
+  <h3 class="item__title"><a href="https://blog.risingstack.com/whats-new-in-node-v6/">What&#39;s new in Node v6?</a></h3>
+    <p>Node.js 改版速度飛快，日前又發佈了 v6 版本，號稱速度較目前的 LTS 版本 (v4) 提升四倍！且支援大部分 (93 %) 重要的ES6 新特性，在十月也會變為 LTS 版本，屆時就可以將 Product 換上了。</p>
+  <span class="item__footer"><a href="https://blog.risingstack.com/whats-new-in-node-v6/">risingstack.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IvuSgda"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.22ir5a6m9">Webpack &amp; The Hot Module Replacement</a></h3>
+    <p>Webpack HMR (Hot Module Replacement) 讓瀏覽器可以在程式碼被變動時自動更新當前畫面狀態，在開發時非常方便。本篇文章介紹 HMR 的運作原理和流程。</p>
+  <span class="item__footer"><a href="https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.22ir5a6m9">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="44FkTjw"></a>
+  
+  <h3 class="item__title"><a href="https://dev.opera.com/blog/timing-attacks/">Front-End Performance: The Dark Side</a></h3>
+    <p>影片探討 performance 有時候會造成安全性問題，影片一開始會透過 string compare performance 來介紹 <a href="https://en.wikipedia.org/wiki/Timing_attack">timing attack</a> ，以及介紹透過 timing attack 來達成的攻擊。</p>
+  <span class="item__footer"><a href="https://dev.opera.com/blog/timing-attacks/">opera.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="rYGRsNV"></a>
+  
+  <h3 class="item__title"><a href="http://martinfowler.com/bliki/BeckDesignRules.html">簡單設計 4 準則（Kent Beck&#39;s 4 Rules of Simple Design）</a></h3>
+    <p>過度設計（over design）一直是個大問題，但是怎樣才叫簡單？</p>
+
+<p>極致編程（XP）的大師 Kent Beck 提出一套準則：</p>
+
+<ol>
+<li>通過所有測試（Passes the tests）</li>
+<li>清楚地表達意圖（Reveals intention）→ 易讀</li>
+<li>沒有重複（No duplication）</li>
+<li>最少元件（Fewest elements）</li>
+</ol>
+
+
+<p>當發生衝突的時候，以前面的準則為優先。</p>
+
+<p>本文是 Martin Fowler 對這份準則的詮釋與討論。</p>
+
+<p>另外還可以參考 DZone 上面的 <a href="https://dzone.com/articles/4-rules-simple-design">The 4 rules of simple design</a> 和微信上 WXCOP 无限靠谱的<a href="http://mp.weixin.qq.com/s?__biz=MzAxNjYxODg1Mg%3D%3D&amp;mid=2649652530&amp;idx=1&amp;sn=380a1da77c49d5692ee2ec1da9d203b9">简单设计原则</a> 。</p>
+  <span class="item__footer"><a href="http://martinfowler.com/bliki/BeckDesignRules.html">martinfowler.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="s5ACNeG"></a>
+      <a href="http://www.cnblogs.com/xxcanghai/archive/2016/02/14/5189353.html"><img src="original_ratio_extra_large_78b8301f-b2c8-404b-93e8-525bf3688f77.png" title="一道常被人轻视的前端 JS 面试题" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://www.cnblogs.com/xxcanghai/archive/2016/02/14/5189353.html">一道常被人轻视的前端 JS 面试题</a></h3>
+    <p>簡單的一道題目，卻蘊含了 JavaScript 無數的坑，值得一讀。至少提醒自己不要寫出模稜兩可或是不確定語意的程式碼。</p>
+
+<p>像我前兩天就踩到 JavaScript 的運算子優先順序的雷 —— <code>&lt;</code> 竟然優先於 <code>&amp;</code> ？！只能說我實在太天真了啊～ 還好不是用在 production 上的程式碼。</p>
+  <span class="item__footer"><a href="http://www.cnblogs.com/xxcanghai/archive/2016/02/14/5189353.html">cnblogs.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="VhbUtUb"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/gorilla-facebook-tsdb/">[中文導讀] Facebook 的時間序列資料庫 - Gorilla</a></h3>
+    <p>這是碼天狗策展群之一 <a href="https://twitter.com/Evan_Lin">@kkdai</a> 讀完 Facebook 的時間序列資料庫 Gorilla 論文後的心得摘要。</p>
+
+<p>不但每週有專案產出、還有時間閱讀複雜的論文，kkdai 實在很猛啊！大家可以參考一下他的<a href="https://github.com/CodeTengu/headquarters/issues/61#issuecomment-218945412">時間管理心得</a></p>
+
+<p>如果各位對於讀 CS 領域的論文有興趣的話，也可以參考 <a href="https://github.com/papers-we-love/papers-we-love">Papers We Love</a> 這個社群。</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/gorilla-facebook-tsdb/">evanlin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="K0rPJ6k"></a>
+  
+  <h3 class="item__title"><a href="https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation">如何有禮貌地拒絕會議邀請（Polite Ways to Decline a Meeting Invitation）</a></h3>
+    <p>碼農最討厭的事情之一就是無止境的莫名其妙會議來干擾自己的生產力。
+這篇文章給了是否參加會議的判準，並提供一些建議的回應方式。</p>
+
+<p>首先是評估你是否該參加該會議：</p>
+
+<ol>
+<li>評估會議的價值：事前資訊是否足夠？是否重要、有意義？</li>
+<li>你是否是正確人選：權責是否相符？你的意見可否發揮作用？</li>
+<li>衡量自己手上工作的優先順序：手上是否有其他更重要的事情？</li>
+</ol>
+
+
+<p>然後作出適當的回應：</p>
+
+<ol>
+<li>阻止你覺得根本是無用的會議</li>
+<li>推薦更適合的人選</li>
+<li>在會議前提出你的看法與建議 或是 只出席部分會議</li>
+</ol>
+
+
+<p>習慣這套準則、清楚說明拒絕原因，讓同僚習慣這樣的做法，一起打造更有效率的工作環境吧！</p>
+  <span class="item__footer"><a href="https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation">hbr.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UMmpYex"></a>
+      <a href="https://www.instagram.com/elaineyongg/"><img src="original_ratio_extra_large_5ecc41fe-5bc9-481c-9115-d56d3c09a104.jpg" title="Instagram - Elaine Yong™ (@elaineyongg)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/elaineyongg/">Instagram - Elaine Yong™ (@elaineyongg)</a></h3>
+    <p>本來不打算放 Instagram 推薦了。</p>
+
+<p>但請各位容忍五月病發作的我貼篇讓自己心情愉快的內容。</p>
+
+<p>這笑容多療癒啊～</p>
+  <span class="item__footer"><a href="https://www.instagram.com/elaineyongg/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="eAirs5C"></a>
+  
+  <h3 class="item__title"><a href="http://wiki.gkbrk.com/Hotel_Music.html">Reverse Engineering A Mysterious UDP Stream in My Hotel</a></h3>
+    <p>作者無意間在旅館發現神秘的 UDP 廣播封包，決定追根究底找出它們的來源與目的……竟然是旅館電梯的音樂！</p>
+
+<p>解謎過程很有趣，值得一看。</p>
+
+<p>由 <a href="https://twitter.com/wancw">@wancw</a> 分享。</p>
+  <span class="item__footer"><a href="http://wiki.gkbrk.com/Hotel_Music.html">gkbrk.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/43/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-05-16'>May 16th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>44 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/45/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-05-30'>May 30th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

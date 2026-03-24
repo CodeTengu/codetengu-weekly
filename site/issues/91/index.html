@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 91 如何檢查你的 Linux 作業系統是 32 位元或是 [敏感词已被屏蔽] 位元？請使用 uname -m 指令</title>
+<meta name="description" content="本期內容涵蓋 Management, Scrum, iOS, Objective-C, Python, pip, Go, Kubernetes">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Management, Scrum, iOS, Objective-C, Python, pip, Go, Kubernetes'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/91/index.html#start">
+        Issue 91 如何檢查你的 Linux 作業系統是 32 位元或是 [敏感词已被屏蔽] 位元？請使用 uname -m 指令 &nbsp;<i><time class='published' datetime='2017-06-05'>June 5th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-285899"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Singularity Sky</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 教召完領了 3500，得了毛囊炎</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 人生就是不斷地填坑</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - PyCon Taiwan 2017 倒數 4 天</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 在 <a href="https://kerbalspaceprogram.com/">KSP</a> 內登陸月球中</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a>（<a href="https://github.com/CodeTengu">Open Source 專案</a>）或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="aPgLOoq"></a>
+  
+  <h3 class="item__title"><a href="http://leadingsnowflakes.com/">The Engineering Manager Handbook</a></h3>
+    <p>最近換了工作，擔任的角色跟以往有些不同，正在積極補充一些新知，<a href="https://twitter.com/tzangms">海總理</a>就推薦了我這一本作為入門書，這本書頁數不多，言簡意賅，大致抓了一些重點：</p>
+
+<ul>
+<li>Manager 的任務是要讓整個團隊變得更好，其他事情都是基於這個前提而來。</li>
+<li>Manager 還是要偶爾寫寫程式，挑那些不會卡住別人進度或是對團隊有所幫助的任務來做。</li>
+<li>養成記錄決策的習慣，並且事後要檢視這些決策的結果。</li>
+<li>真誠的跟人分享，讓訊息流通更透明，並且取得他人的回饋。</li>
+<li>只做必要由你來做的事情，其他的事情分配給別人做，讓你的成員一起成長。</li>
+</ul>
+  <span class="item__footer"><a href="http://leadingsnowflakes.com/">leadingsnowflakes.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="conaImH"></a>
+  
+  <h3 class="item__title"><a href="http://www.mikemcgarr.com/blog/week-in-review.html">How I share information with my team</a></h3>
+    <p>Netflix 的 Engineering Manager 說明他是如何跟團隊分享資訊的，他每個禮拜都會用 Google Doc 寫一份 Week-in-Review（本週回顧），裡頭包含</p>
+
+<ul>
+<li>本週做了什麼事</li>
+<li>公司的 planning 跟 roadmaps</li>
+<li>徵人的進度</li>
+<li>產品的進度</li>
+<li>一些開會跟公司現況的資訊等等</li>
+</ul>
+
+
+<p>作者也解釋了為什麼他不把大家聚集起來開個會就好，而是採用這樣寫文件的方式，以及這樣做之後帶來的好處。</p>
+  <span class="item__footer"><a href="http://www.mikemcgarr.com/blog/week-in-review.html">mikemcgarr.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bDn5hhB"></a>
+  
+  <h3 class="item__title"><a href="https://www.raywenderlich.com/162654/scrum-one-bring-scrum-one-person-operation">Scrum Of One: How to Bring Scrum into your One-Person Operation</a></h3>
+    <p>一般人通常會覺得 Scrum 或是 Agile 這種工作流程比較適合多人團隊，如果是獨立開發者的話根本不需要這樣一套複雜流程來規範自己的工作方式。本文作者是個獨立開發者，他一開始的時候糾結於該怎麼找到適合自己的工作流程，後來嘗試對自己導入 Scrum 之後發現行程井井有條、生產力提高、考試都考一百分了！</p>
+
+<p>或許你們工程團隊沒有跑 Scrum/Agile 流程，或許你根本不是工程師，你都可以看看這篇文章，試著從中提取一些方法到日常的工作方式裡頭，一定會有幫助的！</p>
+  <span class="item__footer"><a href="https://www.raywenderlich.com/162654/scrum-one-bring-scrum-one-person-operation">raywenderlich.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qgdKaOI"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/ios-os-x-development/ios-how-to-build-a-table-view-with-multiple-cell-types-2df91a206429">iOS: How to build a Table View with multiple cell types</a></h3>
+    <p><code>UITableView</code> 的重要性我就不多說了，它隨處可見並且千變萬化，許多 UI 都是用它打造出來的。有一定經驗的 iOS 工程師也都知道，雖然它很好用，可是需要處理多種不同類型的 Cell 時就會很頭痛，很容易就會寫出又臭又長的程式碼，卻又好像沒什麼好辦法可以避免。</p>
+
+<p>本文作者用 MVVM 的概念來處理各個不同型態的 Cell，為這個問題提供了一個不錯的解法。底下的留言也很精彩，不少人一起分享他們在設計 Cell 時遇到的問題以及做法。</p>
+  <span class="item__footer"><a href="https://medium.com/ios-os-x-development/ios-how-to-build-a-table-view-with-multiple-cell-types-2df91a206429">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="PAhGqoL"></a>
+  
+  <h3 class="item__title"><a href="https://pspdfkit.com/blog/2016/swifty-objective-c/">Swifty Objective-C</a></h3>
+    <p>這是 PSPDFKit 團隊在 2016 年寫的文章，現在看來依然非常實用。這篇文章解釋了他們為何繼續使用 Objective-C 而不是 Swift、如何讓程式碼與 Swift 相容、還有如何適當的使用 C++ 讓程式碼更好維護。文中列出了許多 C++ 的小技巧，即使原本不熟悉 C++ 的人也能很快上手並從中獲益，最後他們也列出了這樣做的優點跟缺點。</p>
+  <span class="item__footer"><a href="https://pspdfkit.com/blog/2016/swifty-objective-c/">pspdfkit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="KfKyeU1"></a>
+  
+  <h3 class="item__title"><a href="http://pipenv.org">Pipenv: Sacred Marriage of Pipfile, Pip, &amp; Virtualenv</a></h3>
+    <p>如果你用過像 <a href="https://www.npmjs.com">NPM</a> 或 <a href="http://bundler.io">Bundler</a> 之類的工具，可能會覺得 Python 的開發環境管理工具略為難用，例如 requirements.txt 難以升級、沒辦法自動管理 dependency 容易留下根本沒用到的套件、virtualenv 需要各種 activate 不小心就會裝錯地方（然後又很難反安裝！）。該有的功能是都有，我之前也<a href="https://weekly.codetengu.com/issues/68?m=web#LRlqnN1">分享過</a>手動做相同流程的 workflow，但就是很麻煩啊。</p>
+
+<p>然後 Pipenv 就橫空出世！！其實它有一陣子了，但我是最近剛好開<a href="https://github.com/pycontw/quizbot-2017">新專案</a>才有機會試用。它用同樣由 <a href="https://www.kennethreitz.org">Kenneth</a> 發起的 <a href="https://github.com/pypa/pipfile">Pipfile</a> 格式取代 requirements.txt，這個格式的基本概念等同於 Bundler 的 Gemfile 與 Gemfile.lock 概念；原本手動的 Virtualenv 管理，則以 <code>pipenv run</code> 與 <code>pipenv shell</code> 取代。完美。如果你有新專案，絕對要試試這個 solution。對於已經使用 requirements.txt 的專案，Pipenv 也內建 requirements.txt → Pipfile 的 converter；我是還不敢用，不過心臟大的可以試試看 XD</p>
+  <span class="item__footer"><a href="http://pipenv.org">pipenv.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TJrJHa9"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/mitsuhiko/pipsi">pipsi = pip script installer</a></h3>
+    <p>承上篇。這類取代 Pip 的工具都有個缺點：需要安裝成 global site package。每個專案的 dependencies 可以用 virtualenv 來隔離，但有些工具就是需要 global 才能方便用，尤其有 CLI script 的工具像 <a href="https://cookiecutter.readthedocs.io/en/latest/">Cookiecutter</a>、<a href="http://flake8.pycqa.org/">Flake8</a>、<a href="http://xon.sh">Xonsh</a>。Pipsi 就是用來解決這個問題。當你執行 <code>pipsi install [套件名]</code> 時，你的套件會被裝到自己的 virtualenv 裡，然後 entry point 被 link 到 <code>~/.local/bin</code>。這在概念上類似 NPM，會讓每個套件都有獨立的 dependency tree，讓反安裝非常簡單，也不會有 version conflicts。同樣建議使用。</p>
+  <span class="item__footer"><a href="https://github.com/mitsuhiko/pipsi">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="WjHcwaE"></a>
+  
+  <h3 class="item__title"><a href="http://treyhunner.com/2016/02/how-to-merge-dictionaries-in-python/">The Idiomatic Way to Merge Dictionaries in Python</a></h3>
+    <p>前陣子聊天聊到 Python 偶爾會 imperative 到讓人討厭，尤其搭配 lambda 只能一個 expression 會讓某些事情特別拗口。例如我現在有個 dict <code>defaults</code>，想建一個新 dict 包含它，但加上一些新資訊，最 idiomatic 的寫法是這樣：</p>
+
+<pre><code class="python">user = {'name': 'TP'}
+user.update(defaults)
+</code></pre>
+
+<p>問題在 <code>update()</code> 的回傳值是 <code>None</code>，所以如果我有一堆 user dicts，想為它們每一個都加上 <code>defaults</code>，就非得寫一個獨立的 function，才能用 comprehension（或 <code>map</code>）來處理：</p>
+
+<pre><code class="python">def make_info(name):
+    user = {'name': name}
+    user.update(defaults)
+    return user
+
+names = ['Alex', 'Betty', 'Charlie', 'Dorothy']
+for info in map(make_info, names):
+    print(info)
+</code></pre>
+
+<p>這時候就會希望 Python 有比較 <a href="https://www.martinfowler.com/bliki/FluentInterface.html">fluent</a> 的 API。如果 <code>update()</code> 能夠回傳 callee，我就可以這樣寫：</p>
+
+<pre><code class="python">map(lambda n: {'name': n}.update(defaults), names)
+</code></pre>
+
+<p>可惜事與願違。</p>
+
+<p>這篇文章就是在探討各種 dict merging 語法，比較它們的語意差異和好用程度（主要是能否 inline，亦即能否用在 fluent interface）。</p>
+
+<p><strong>以下爆雷</strong></p>
+
+<p>真的沒什麼完美解——除非你用 Python 3.5 以上。關鍵字：<a href="https://www.python.org/dev/peps/pep-0448/">PEP 448</a>。終於！！淚流滿面。</p>
+  <span class="item__footer"><a href="http://treyhunner.com/2016/02/how-to-merge-dictionaries-in-python/">treyhunner.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8ffloeF"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/pycontw/unconference/issues">Unconference – PyCon Taiwan 2017</a></h3>
+    <p>約好的 (並沒有) 自肥時間。週末就是 PyCon Taiwan 啦，今年第三天我們新開了 <a href="https://tw.pycon.org/2017/events/unconference/">unconference 活動</a>，有想講的題目就上去開個新 issue 就行了，我們會幫你準備場地。只是打算來聽的人也可以進去幫喜歡的題目按個 👍 鼓勵一下。</p>
+
+<p>話說<a href="https://www.facebook.com/mosky.liu/posts/10209646506061254">有人覺得</a>我們都沒宣傳<a href="https://tw.pycon.org/2017/events/schedule/">今年的議程表</a>根本太囂張。其實不是這樣的啊，我們是體貼才低調進行，畢竟現在票都買不到了，宣傳也只會讓大家傷心吧。<del>你看這議程超精美還能和<a href="https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf">林軒田</a>老師和<a href="https://www.facebook.com/vivianchen.tw">陳縕儂</a>老師面對面但是你想來也沒辦法呢哈哈哈哈 UCCU (σ′▽‵)′▽‵)σ UCCU </del></p>
+  <span class="item__footer"><a href="https://github.com/pycontw/unconference/issues">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="1bqu8S6"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/til-2017-05-23/">為了自己的習慣，弄了一個簡單的服務 GitHub issue bookmark</a></h3>
+    <p>筆者自肥的部分又來了，這次要來介紹一個寫起來好玩的小服務．</p>
+
+<p>大家是不是常常覺得在 twitter 上面有很多鏈結都很精彩，但是缺乏以下功能:</p>
+
+<ul>
+<li>不好搜尋</li>
+<li>不容易加上任何更多的意見</li>
+<li>不容易分類</li>
+</ul>
+
+
+<p>於是我寫了一個這樣的小服務透過 Heroku 來部署的．你可以透過 IFTTT 來達成完整的功能．</p>
+
+<p>只要你在 Twitter 上面發表一個鏈結後，他就會發表到你的某個指定 repo 的 issue 上面，並且根據你的 hashtag 來加上 label．如此一來你可以快速的紀錄你感興趣的網址，然後之後再加上更多的意見與資料，並且可以很容易的搜尋到．
+有興趣就拿去用吧..</p>
+
+<p>BTW:  這當然是用 Go 開發的...</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/til-2017-05-23/">evanlin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="WDiERVI"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kelseyhightower/oscon-metrics-tutorial">kelseyhightower/oscon-metrics-tutorial: OSCON Metrics Tutorial</a></h3>
+    <p>OSCON 2017 剛剛在上週結束，而身為 Google Kubernetes 的傳教士 - Kelsey Hightower 當然有來宣傳 Kubernetes．講解的主要是如何在 Kubernetes 集群裡面來做量測並且透過該數值資料來做一些應用．並且有公佈全部的 script 在 Github 上面．</p>
+
+<p>這個 Repo 主要使用 minikube 加上 helm 來安裝與使用，大量使用到 InfluxData 的許多工具，包括了:</p>
+
+<ul>
+<li>InfluxDB: 一個 Go 開發的時間序列資料庫</li>
+<li>Telegraf: 一個可以量測的工具</li>
+<li>Chronograf: 一個可以網頁顯示資料的工具</li>
+<li>Kapacitor: 拿來做 ETL 的工具</li>
+</ul>
+
+
+<p>除了安裝這些工具外，並且透過 Kapacitor 來做 auto-scaling ．想要學這些工具的話，可以玩玩這個 repo ．透過 minikube 要學習完全無難度啊....</p>
+  <span class="item__footer"><a href="https://github.com/kelseyhightower/oscon-metrics-tutorial">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XfN8ig1"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/til-2017-05-08/">Advanced Scheduling in Kubernetes</a></h3>
+    <p>支援多種方式的排程 (Scheduling) 一直都是 Kubernetes 這種群集管理系統很重要的功能之一．而 Kubernetes 在 1.6 的時候就支援了不少種的排程方式．從透過偏好的 Affinity 來讓 Pod 自動找到適合的節點，或是透過 Taints 來讓 Pod 自動遠離某些節點．都是可以讓排程上多了更多的彈性．</p>
+
+<p>如果還沒有太多的了解，可以先看看我寫的簡單介紹..</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/til-2017-05-08/">evanlin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="G2a2SRu"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/hobby-kube/guide">hobby-kube/guide: Kubernetes clusters for the hobbyist</a></h3>
+    <p>[給業餘者的 Kubernetes 架設指南]
+這份指南裡面有清楚的指導如何架設完整功能並且安全的 Kubernetes Cluster ，
+並且把 Firewall, Authentication, Authorization 與 Storage 的規劃相關的設定都講解得相當清楚．</p>
+  <span class="item__footer"><a href="https://github.com/hobby-kube/guide">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="TR9JfwI"></a>
+  
+  <h3 class="item__title"><a href="https://blog.gopheracademy.com/advent-2016/contributing-to-the-go-project/">Contributing to the Go project</a></h3>
+    <p>2016 的舊文章，不過很實用．</p>
+
+<p>由於 Go 專案都是放在 <a href="https://www.gerritcodereview.com/">Gerrit</a> 想要貢獻給 #golang 專案，卻又不知道該如何開始？ 這篇文章提供一整個流程的簡介．</p>
+  <span class="item__footer"><a href="https://blog.gopheracademy.com/advent-2016/contributing-to-the-go-project/">gopheracademy.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-twolegsbad">
+        <div class="i" id="twolegsbad">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Two Legs Bad</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xrrZClr"></a>
+      <a href="https://www.facebook.com/photo.php?fbid=10155488092519662"><img src="original_ratio_extra_large_871ecae1-d8f4-412c-86eb-c0a2aaa6a952.jpg" title="单车和坦克更配！" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.facebook.com/photo.php?fbid=10155488092519662">单车和坦克更配！</a></h3>
+    <blockquote><p>北京小藍單車，在六月四號隆重推出「單車和坦克更配」的促銷活動，三小時內帳號被註銷。</p></blockquote>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://whogovernstw.org/2014/06/01/jaw-nian-huang-1/">中國的威權鞏固模式與台灣的民主深化危機：寫於「六四」25 週年</a></li>
+<li><a href="https://twstreetcorner.org/2014/04/14/wangyiting/">難以對話的兩種民主觀？秩序、政府效能 vs 自由、人權保障</a></li>
+</ul>
+
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 提供。</p>
+  <span class="item__footer"><a href="https://www.facebook.com/photo.php?fbid=10155488092519662">facebook.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="sGLeSs8"></a>
+  
+  <h3 class="item__title"><a href="https://np.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/">第一天上工就毀了正式環境的資料庫</a></h3>
+    <p>身為一位工程師，第一天上工的首要任務當然是設定開發環境。不過有位可憐的新手工程師，在按照教學文件把本地資料庫清空並加入測試資料時，不小心打了正式資料庫的帳號密碼，毀滅了所有的資料。最慘的是資料庫完全沒有辦法從備份回復。CTO 要他立刻走人，還告訴他會找法務跟他談談。</p>
+
+<p>之前 <a href="https://aws.amazon.com/message/680587/">AWS</a> 和 <a href="https://twitter.com/gitlabstatus/status/826591961444384768">GitLab</a> 都發生過類似的事故。</p>
+
+<p>Reddit 和 <a href="https://twitter.com/jxxf/status/871000661869154304">Twitter</a> 上的評論認為公司要負大部分的責任，而不是可憐的新手工程師。<a href="https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/dieitun/">GitLab 事件的苦主</a> 也認為這是公司政策的問題，GitLab 事件發生後沒有任何人被責備或開除。</p>
+
+<p>有一個 <a href="https://andrewsrandomthoughts.wordpress.com/2012/07/29/the-10-million-dollar-mistake/">IBM 的鄉野傳說</a>，有個年輕人做了錯誤的決定讓公司虧了 1000 萬。當他去找 CEO  Tom Watson Sr 負荊請罪時，Watson 跟他說: 『我怎麼可能讓你走呢？我們剛花了 1000 萬來教育你。』</p>
+
+<p>看來繼 <a href="http://www.worldbackupday.com/en/">3/31</a> 還有 <a href="http://checkyourbackups.work/">2/1</a> 後，6/3 也應該成為國際備份檢查日 。</p>
+
+<p>由 <a href="https://twitter.com/johnlinvc">@johnlinvc</a> 提供。</p>
+  <span class="item__footer"><a href="https://np.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/">reddit.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/90/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-05-29'>May 29th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>91 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/92/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-06-12'>June 12th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

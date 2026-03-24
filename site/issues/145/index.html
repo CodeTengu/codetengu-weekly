@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 145 小明最近升職了，他的新職稱是 Senior Over-Engineer</title>
+<meta name="description" content="本期內容涵蓋 React Native, Blockchain, JavaScript, GraphQL, Docker, Load Balancer, Travis CI">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 React Native, Blockchain, JavaScript, GraphQL, Docker, Load Balancer, Travis CI'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/145/index.html#start">
+        Issue 145 小明最近升職了，他的新職稱是 Senior Over-Engineer &nbsp;<i><time class='published' datetime='2018-10-29'>October 29th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-424223"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。或是關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a>。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Blindsight</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">我們公司在徵人</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+<li><a href="https://github.com/lucienlee">@lucienlee</a> - 🦌</li>
+<li><a href="https://github.com/hwchiu">@hwchiu</a></li>
+</ul>
+
+
+<p><a href="https://twitter.com/wanquribao/status/913168599845552128">本週標題出處</a>。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="4Dk0H2l"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/react-native-training/building-a-react-native-game-with-rxjs-5-ced0e716bc73">Building a React Native Game with RxJS 5</a></h3>
+    <p>開發 HTML5 簡易手遊，應該會是一種獨立遊戲開發的趨勢，由於 <a href="https://github.com/necolas/react-native-web">react-native for web</a> 以及微軟大力推薦自家 <a href="https://microsoft.github.io/reactxp/">reactXP</a> 的加持下，我覺得手機版跟 web 版遊戲合用一套原始碼的概念，可能會更容易被接受。繪圖的部分也許可以用 <a href="http://www.pixijs.com/">PIXI</a>，至於控制的部分是否能用 <a href="https://rxjs-dev.firebaseapp.com/">RxJS</a> 來寫，更加方便且跨平台，就看大家的個人喜好了。</p>
+  <span class="item__footer"><a href="https://medium.com/react-native-training/building-a-react-native-game-with-rxjs-5-ced0e716bc73">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-425350"></a>
+  
+  <h3 class="item__title">ICO 不求人</h3>
+    <pre><code>docker run mingder78/create-erc20-token 0x66ee73086134f147745be72335153bf780499e2e,CodetenguToken,COT,8,100000000000000
+</code></pre>
+
+<p>註：執行以上指令，將 0x66ee73086134f147745be72335153bf780499e2e 改成你自己的 Ethereum (<a href="https://ropsten.etherscan.io/">Ropsten TestNet</a>) address，產生的 Tokens 就是你的了。詳細說明，請參考 <a href="https://medium.com/taipei-ethereum-meetup/solidity-weekly-14-265f3c571ca">Solidity Weekly #14</a>。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="O80CRR7"></a>
+  
+  <h3 class="item__title"><a href="https://thoughtbot.com/upcase">Upcase: 程式學習平台從現在開始免費</a></h3>
+    <p>著名的 Ruby on Rails 公司 throughtbot 宣布旗下的程式學習平台 Upcase 從現在開始免費！ 裡面提供了許多進階的教學。還有每週 30 分鐘的各種程式新知，像是新語言和框架，或是探討各種設計模式。有興趣的人可以去挖挖寶。</p>
+  <span class="item__footer"><a href="https://thoughtbot.com/upcase">thoughtbot.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-thejian">
+        <div class="i" id="thejian">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/48b70d74-6e1e-4a1a-8a0b-3a208142de93.png" alt="@theJian" width="80" /><span class="category__title__text">@theJian</span></h2>
+            <div class="item item--issue item--link">
+  <a name="9yQu8Cd"></a>
+  
+  <h3 class="item__title"><a href="https://mathiasbynens.be/notes/prototypes">JavaScript engine fundamentals: optimizing prototypes</a></h3>
+    <p>来自 v8 团队的一篇文章. CodeTengu 前几期有分享过前篇关于 Shapes 和 Inline Cache 机制的介绍. 本篇延续着上次的内容, 着重谈了 v8 对于 prototypes 查询所做的不同于 object 的特殊优化. 没看过前篇的读者可以先看<a href="https://mathiasbynens.be/notes/shapes-ics">前篇</a>偏于理解本篇的内容.</p>
+  <span class="item__footer"><a href="https://mathiasbynens.be/notes/prototypes">mathiasbynens.be</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bQ05prr"></a>
+  
+  <h3 class="item__title"><a href="https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/">Reduce JavaScript Payloads with Code Splitting</a></h3>
+    <p>在编写复杂的 web 应用时, 随着前端代码量的增加, 打开网页所需要传输的数据量会逐渐成为整个页面的性能瓶颈. 这不仅仅指的是网络传输所需要的耗时, 更重要的是浏览器 parse JavaScript 代码是需要时间的, 特别是在 mobile 设备上这块耗时有可能会比较长. 幸运的是有很多好用的工具都支持把整个项目打包为多个 JavaScript 文件. 这样我们就可以利用好 Cache 以及按需加载来进一步优化 web 应用.</p>
+
+<p>但是还是那句老话: Premature optimization is the root of all evil. 先衡量再优化.</p>
+  <span class="item__footer"><a href="https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="U0jf1ED"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md">GraphQL Design Tutorial</a></h3>
+    <p>来自 Shopify 的一篇关于如何设计 GraphQL API 的入门. 设计 REST API 与 GraphQL API 的原则是很不同的, 不要把设计 REST API 的习惯带到 GraphQL 里来.</p>
+  <span class="item__footer"><a href="https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9MUZTR7"></a>
+  
+  <h3 class="item__title"><a href="https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide/">190 universities just launched 600 free online courses</a></h3>
+    <p>一份来自 190 个大学的 600 个免费在线课程的清单.</p>
+  <span class="item__footer"><a href="https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide/">qz.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UjkOqWE"></a>
+  
+  <h3 class="item__title"><a href="https://thedesignteam.io/confessions-of-a-flawed-designer-11746ff42675">Confessions of a Flawed Designer</a></h3>
+    <p>作者用漫画的形式列举了一些自己认为需要修正的习惯与心态. 其实大家在工作生活中应该都会有这些问题吧! 对吧?</p>
+
+<p>还是说只是我有这些问题. 但是认为大家都有确实会让我不那么自责  :)</p>
+  <span class="item__footer"><a href="https://thedesignteam.io/confessions-of-a-flawed-designer-11746ff42675">thedesignteam.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hwchiu">
+        <div class="i" id="hwchiu">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/f55ca745-ed2b-4767-95e1-063e273a0f31.png" alt="@hwchiu" width="80" /><span class="category__title__text">@hwchiu</span></h2>
+            <div class="item item--issue item--link">
+  <a name="UZsHLqi"></a>
+  
+  <h3 class="item__title"><a href="https://igene.tw/podman-intro?fbclid=IwAR0z_ud_DCxuKPBHoUiCZbuldF8iij_cJYFqQ0Pp40RoVHoy_jhDzdJfMkw">使用 Podman 來取代 Docker 指令吧！</a></h3>
+    <p>隨者這幾年容器應用的蓬勃發展， Docker 一詞幾乎已經變成容器化的代言人。然而實際上還有許許多多能夠提供類似功能的容器技術也在不停的發展，特別是當現在有愈來愈多容器化管理平台的出現，譬如 Kubernetes  等平台。</p>
+
+<p>在這些平台之中，要如何選擇底層的容器技術就是一個開放式的選項，使用者能夠針對自己的需求選擇自己想要使用的底層容器技術， Docker 只會是其中一個選項而不是一個必備的選擇。
+伴隨者 OCI 標準以及 Kubernetes 採用的 CRI 介面的發展，目前整個容器的世界有一股風向正在努力地將 Docker 從容器化的代言人位置移除，就如同 <a href="https://media.ccc.de/v/ASG2018-177-replacing_docker_with_podman">Replacing Docker with Podman</a> 中所提到的一段話語</p>
+
+<blockquote><p>I promise<br/>
+To say container registries rather than docker registries <br/>
+I promise<br/>
+To say container images rather than docker images<br/>
+I promise<br/>
+To say containers or OCI containers rather than docker containers</p></blockquote>
+
+<p>也許不久的未來， Docker 這詞會慢慢被 Container 給取代</p>
+  <span class="item__footer"><a href="https://igene.tw/podman-intro?fbclid=IwAR0z_ud_DCxuKPBHoUiCZbuldF8iij_cJYFqQ0Pp40RoVHoy_jhDzdJfMkw">igene.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="w0WDlag"></a>
+  
+  <h3 class="item__title"><a href="https://www.hwchiu.com/paper-maglve.html">Maglev: A Fast and Reliable Software Network Load Balancer</a></h3>
+    <p>Google 這家公司每次只要發表新論文的時候，通常都是一個已經在內部長期運行且有獲得良好效益的系統，舉凡 MapReduce, B4, Quic, Borg 等系統架構都是如此。</p>
+
+<p>本文仔細研讀了 Google 於 2016 發表的 Software Network Load Balancer, Maglev 的相關論文，從該篇論文中可以看到 <code>Maglev</code> 的發展由來，到底希望解決什麼問題，本來的架構有什麼缺失以及新的設計是如何解決該問題。</p>
+
+<p>除了基本的架構設計外，論文中也有效能評比的部分，譬如透過 Kernel By Pass 的理念來設計相關的應用程式，跳脫 Kernel 的框架能夠大幅度的提升軟體處理封包的效能。</p>
+
+<p>此外對於 <code>Maglev</code> 內部的 <code>Consistent Hashing</code> 有興趣想要了解的話，也可以參考<a href="http://www.evanlin.com/maglev/">[論文中文導讀] Maglev : A Fast and Reliable Software Network Load Balancer (using Consistent Hashing)</a> 來學習該 Load Balancer 內部更深層的設計</p>
+  <span class="item__footer"><a href="https://www.hwchiu.com/paper-maglve.html">hwchiu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="kNDUTXO"></a>
+  
+  <h3 class="item__title"><a href="https://www.hwchiu.com/travisci-step-job-stage.html">Travis CI 詳解，一次搞懂 Step, Job 以及 Stage 的差異及用法</a></h3>
+    <p>隨者 CI/CD (Continuous Integration, Continuous Deployment) 概念的普及，愈來愈多的開發者會對自己的 Projects 套用這類型相關的工具。這部分相關的工具與服務有非常多種，譬如 TravisCI, CirlcleCI, Drone 以及 Jenkins.</p>
+
+<p>該文章基於 TravisCI 介紹其測試流程，除了大家最常使用的 <code>Step</code> 外還介紹了更進階的概念, <code>Job</code> 以及 <code>Stage</code>. 開發者可以仔細地根據自己的需求去設計這些執行流程，藉由這些流程不但能夠更清楚的拆分每一個步驟，同時也可以滿足平行與相關依賴性的需求，讓整體專案的 CI/CD 流程更加視覺化及清楚明瞭。</p>
+  <span class="item__footer"><a href="https://www.hwchiu.com/travisci-step-job-stage.html">hwchiu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OS2xnd1"></a>
+  
+  <h3 class="item__title"><a href="https://blog.pichuang.com.tw/skopeo-the-right-way-to-manage-your-private-image-repos/">Skopeo: 管理 Container 映像檔及倉庫的方式</a></h3>
+    <p>有使用 Docker 習慣的人一定對於 Docker Hub 感到不陌生，特別是能夠跟 Github 整合並且整合出 Autobuild 功能實在好用。然後再一些 Offline 的情境下，我們需要一個 private 的容器倉庫，這時候就沒有辦法使用 Docker Hub 了。
+而此時如果又有一些需求需要再不同的容器倉庫之間進行容器映像檔的轉移或是複製，以往就是要不停地透過 <code>docker</code> 指令來 <code>image pull</code>, <code>tag</code>, <code>push</code> 非常繁瑣。</p>
+
+<p>現在這些步驟都可以透過 Skopeo 來幫忙處理了，透過這個工具可以讓你管理容器映像檔以及容器倉庫都可以更順手也更簡單，能加將時間專注在其餘跟商業邏輯有關的部分。</p>
+  <span class="item__footer"><a href="https://blog.pichuang.com.tw/skopeo-the-right-way-to-manage-your-private-image-repos/">pichuang.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/144/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-10-08'>October 8th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>145 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/146/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-11-23'>November 23rd 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

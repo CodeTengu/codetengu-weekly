@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 81 I � Unicode</title>
+<meta name="description" content="本期內容涵蓋 iOS, Android, Elasticsearch, Smart Contract, Bash script, Markdown, Programming Language">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Android, Elasticsearch, Smart Contract, Bash script, Markdown, Programming Language'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/81/index.html#start">
+        Issue 81 I � Unicode &nbsp;<i><time class='published' datetime='2017-03-27'>March 27th 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-256441"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href="https://www.douban.com/people/vinta/">Horizon: Zero Dawn</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 最近在看 <a href="http://www.taaze.tw/static_act/201302/art/">禪與摩托車維修的藝術</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 新年新專案，好刺激啊！</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Gd9aY1y"></a>
+  
+  <h3 class="item__title"><a href="https://qz.com/937038/github-now-lets-its-workers-keep-the-ip-when-they-use-company-resources-for-personal-projects/">GitHub lets workers keep the IP when they use company resources for personal projects</a></h3>
+    <p>在上班時間或用公司資產創造出來的作品，即便作品的內容跟公司無關，公司還是擁有你的作品的智慧財產權。這樣的爭議場景常常在影集或是科技名人自傳裡看到。</p>
+
+<p>現在 GitHub 提出了一個新的政策，Balanced Employee IP Agreement，讓員工擁有在上述情況下創造的個人作品的智慧財產權，這除了加強 GitHub 的文化之外，我相信對於 GitHub 在尋找強者的路上也會有更好的機會。</p>
+
+<p>這份政策也是 Open Source 的 - <a href="https://github.com/github/balanced-employee-ip-agreement">balanced-employee-ip-agreement</a>。身為一個受雇的開發者，當然樂見這樣的發展方向。</p>
+
+<p>研究了一下，以台灣來說，沒有特別簽契約的話，只要被認定是利用公司的設備和資源以及上班時間所完成的著作，大多會被認定為是受雇著作。根據著作權法第 11 條第 2 項規定，受雇著作之著作人為受雇人，著作財產權人為雇用人，因此該著作財產權歸老闆所有。</p>
+  <span class="item__footer"><a href="https://qz.com/937038/github-now-lets-its-workers-keep-the-ip-when-they-use-company-resources-for-personal-projects/">qz.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="yQfraOm"></a>
+  
+  <h3 class="item__title"><a href="http://tech.trello.com/sync-two-id-problem/">The Two ID Problem</a></h3>
+    <p>前陣子 Trello app 改版，多了 offline 的功能，而他們的技術團隊也因此寫了一篇開發這個功能時遇到的 offline ID 問題。</p>
+
+<p>只要支援離線操作，就免不了要思考有兩組 ID 的解決方式。還沒有跟 backend 溝通之前的那組 local ID 跟溝通之後新得到的 server ID，要怎麼做儲存跟對應的修改？</p>
+
+<p>Trello 團隊說明了兩種他們試過並放棄的方案：</p>
+
+<ol>
+<li>在拿到 server ID 之後將自己產生的 local ID 全部替換掉
+
+<ul>
+<li>要更新所有的關聯欄位，效能問題</li>
+<li>不安全，漏更新到欄位也不知道，後果會很嚴重</li>
+</ul>
+</li>
+<li>將 ID 的型別改為一組自定義的結構，包含 local ID 跟 server ID，並且在 client 建立一份 ID 的 mapping table
+
+<ul>
+<li>要對應修改的範圍太大</li>
+<li>得頻繁去查表，行為詭異</li>
+</ul>
+</li>
+</ol>
+
+
+<p>最後也分享了他們目前的解決方法。這種案例分享真是不錯～</p>
+  <span class="item__footer"><a href="http://tech.trello.com/sync-two-id-problem/">trello.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oXYlgDx"></a>
+  
+  <h3 class="item__title"><a href="http://www.jianshu.com/p/63aec174bdb7">硅谷和国内的 iOS 开发到底有何不同？</a></h3>
+    <p>分析中國跟矽谷的 iOS 工程師跟開發工具的差別。</p>
+
+<p>提到幾個有趣的現象：</p>
+
+<ul>
+<li>中國目前特有的工程師培訓班，  帶學員刷面試題，有計劃地弄好 GitHub 跟部落格，讓學員拿到 Offer，量產了一大批的工程師到市場上。</li>
+<li>中國與矽谷對產品經理角色定位的不同，矽谷對產品經理的要求嚴格，技術能力是必備的技能，通常都是拿來培養部門經理的接班人，中國則標準較低一些。</li>
+<li>矽谷的職涯發展較能發展出只寫程式不做管理的技術愛好者，讓其在特定領域作專精的事情，相較之下中國工程師技能樹點得較廣，不只技術領域涉獵較多，後期也會轉型管理職。這個現象可以跟 <a href="https://moz.com/rand/if-management-is-the-only-way-up-were-all-fd/">If Management is the Only Way Up, We’re All F’d</a>  一起看。</li>
+</ul>
+  <span class="item__footer"><a href="http://www.jianshu.com/p/63aec174bdb7">jianshu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="pHoY4vF"></a>
+  
+  <h3 class="item__title"><a href="https://android-developers.googleblog.com/2017/03/future-of-java-8-language-feature.html">Future of Java 8 Language Feature Support on Android</a></h3>
+    <p>去年 Android 忽然出現了 <a href="https://source.android.com/source/jack.html">Jack</a> 這套新的編譯工具，擾亂了一池春水，各大第三方套件都在討論要不要引入。</p>
+
+<p>忽然之間，Google 就放棄了，打算回到原本 javac + dx。</p>
+
+<p>官方給的理由是</p>
+
+<blockquote><p>Over time, we realized the cost of switching to Jack was too high for our community when we considered the annotation processors, bytecode analyzers and rewriters impacted.</p></blockquote>
+
+<p>簡單來說，透過 Jack 這個自己打造出來的編譯器 Google 可以直接在上面加入 Java 8 的 features 跟針對 Android 做優化，但是也因此 Java bytecode 就沒有了，社群上很多現存工具會無法支援，要重新打造一套編譯系統的門檻已經不是技術問題而是生態的問題。</p>
+
+<blockquote><p>We are currently matching Jack's feature set. That means that we support lambdas, method references, type annotations, and repeated annotations for every API level; default and static interface methods are only supported for 24 and up. <a href="https://www.reddit.com/r/androiddev/comments/5zf1xo/future_of_java_8_language_feature_support_on/">來源 (Reddit comment)</a></p></blockquote>
+
+<p>回到 javac + dx 之後的進度看似也很不錯，可喜可賀。</p>
+  <span class="item__footer"><a href="https://android-developers.googleblog.com/2017/03/future-of-java-8-language-feature.html">googleblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uwioeG6"></a>
+  
+  <h3 class="item__title"><a href="http://jeroenmols.com/blog/2017/03/08/appcrash/">Why your app should crash</a></h3>
+    <p>這篇文章以 null check 為例討論什麼情況不應該加上僅只是防止 app crash 的判斷式。</p>
+
+<p>也以 null check 為例，我在做 null check 之前會問自己一個問題，照我的設計或是參與的第三方行為，這個地方有沒有可能是 null？如果照理說不可能，那就不要 null check 啦！</p>
+
+<p>發生問題就去該找真正的問題來源，這種「我挺住了，我沒 crash」的判斷很有可能讓你的 program 進入奇怪的 state 中，加深之後想要除錯的難度～</p>
+  <span class="item__footer"><a href="http://jeroenmols.com/blog/2017/03/08/appcrash/">jeroenmols.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3ARAGpK"></a>
+  
+  <h3 class="item__title"><a href="https://news.ycombinator.com/item?id=750866">Design first, then code.</a></h3>
+    <p>2785 天以前，就有一群人在討論到底是先設計再 coding，還是不需要設計就直接 coding 的問題。其實這個問題，還是每天不斷的困擾著我們。尤其是還沒找到自己的路和方法的公司或某些創新公司，更需要仔細思考一下這個問題。</p>
+
+<p>其實，最根本問題不是 "需不需要設計"，而是 "到底多少設計，才不算太多"。在 coding 前，不可能完全沒設計，只有要設計多少的問題。</p>
+
+<p>另外，program architecture 到底要不要設計，我個人覺得如果貴公司還沒有自己的 program architecture，那當然要; 且如果設計的好，就可以重複使用。它的目的，就是能讓設計快速 (敏捷地) 實作，且能快速的抽換。也就是在本文中所提到的: Good design can try out and throw away ideas really quickly.</p>
+  <span class="item__footer"><a href="https://news.ycombinator.com/item?id=750866">ycombinator.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Dqy3aYN"></a>
+  
+  <h3 class="item__title"><a href="https://medium.appbase.io/sort-elasticsearch-a-tutorial-on-sorting-with-elasticsearch-762b6c02557f">Learn Elasticsearch Sorting in 5 minutes</a></h3>
+    <p>最近在寫 Elasticsearch 資料庫查詢程式，發現不只需要對您選用語言所使用 elasticsearch 的副程式庫要深入了解，更需要知道 Elasticsearch 查詢的語法和特性，才能將程式發揮到極致。這篇文章，讓你能在短短五分鐘內學會 Elasticsearch sort 的方法，我也對 twitter 撈來的資料，做了一個簡單的練習，如下:</p>
+
+<pre><code>GET /logstash-twitter/_search
+{
+    "query" : {
+        "bool" : {
+            "filter" : {
+                "term" : {
+                    "retweeted" : false
+                }
+            }
+        }
+    },
+    "sort" : {
+        "user.keyword": {"order": "desc"}
+    }
+}
+</code></pre>
+
+<p>如果您還不熟悉 Elasticsearch 的 Query DSL，不妨先看看這篇 3 年多以前就有的文章 <a href="http://joelabrahamsson.com/elasticsearch-101/">Elasticsearch 101</a>，就能對 Elasticsearch 查詢先有個大概的了解。</p>
+  <span class="item__footer"><a href="https://medium.appbase.io/sort-elasticsearch-a-tutorial-on-sorting-with-elasticsearch-762b6c02557f">appbase.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5QftGX7"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/zeppelin-blog/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05">The Hitchhiker’s Guide to Smart Contracts in Ethereum</a></h3>
+    <p>開發 smart contracts 環境的架設，以及部署智能合約到 Ethereum 網路，對初學者來說，的確是有點難度。這篇文章教您如何安裝 testrpc 來架設一個模擬 Ehtereum 網路以及幫你開好 10 個帳號。並介紹如何利用 truffle 這套工具，很快能產生一個新專案, 開始撰寫與測試您的 solidity 程式。</p>
+
+<p>但最後要部署到 testnet，或真正的 Ethereum 網路，還是要裝 geth 才能成功。我建議可以使用 <a href="https://github.com/paritytech/parity">Parity</a> 代替 geth，或用 docker 安裝 <a href="https://hub.docker.com/r/mingder78/instance-parity/">instance-parity</a>，可以省去大量 blocks 同步的時間。</p>
+  <span class="item__footer"><a href="https://medium.com/zeppelin-blog/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Nqkf5v7"></a>
+  
+  <h3 class="item__title"><a href="http://redsymbol.net/articles/unofficial-bash-strict-mode/">The Unofficial Bash Strict Mode</a></h3>
+    <p>寫過 JavaScript 的人<del>大概</del><strong>應該要</strong>知道什麼是 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">strict mode</a>。Strict mode 會對 JavaScript 執行環境加上較強的限制，讓你避免一些語法陷阱。這篇文章為 Bash script 提出了類似的概念，建議你把所有 Bash script 開頭都寫成下面這樣：</p>
+
+<pre><code class="bash">#!/bin/bash
+set -euo pipefail
+IFS=$'\n\t'
+</code></pre>
+
+<p>第一行沒什麼問題，大家都懂 shebang。第二行代表設定三個模式：</p>
+
+<ul>
+<li><code>-e</code>：當任何一個指令失敗（return code 不為 0），立刻結束 shell。這個大家應該很熟悉了。預設的行為是當指令失敗時，繼續往後執行。這是 interactive shell 該有的行為，但 script 這樣做很危險。</li>
+<li><code>-u</code>：禁止未定義的參數。預設的行為是把未定義的變數視為空白，但這很危險，尤其當你用變數組路徑時。</li>
+<li><code>-o pipefail</code>：會把 pipe 中的錯誤往外傳。預設模式下，使用 pipe 時會回傳最後一個指令的結果，讓你看不出來前面的指令是否失敗。</li>
+</ul>
+
+
+<p>第三行的設定就比較是個人偏好，會影響 Bash 中 for loop 拆字串的行為。不過這滿合理的，建議使用。</p>
+
+<p>和 JavaScript 一樣，不是所有現存程式都與 strict mode 相容。作者也在下面列出一些常見的狀況，並提供解法。如果你遇到什麼其他問題，歡迎回報！</p>
+  <span class="item__footer"><a href="http://redsymbol.net/articles/unofficial-bash-strict-mode/">redsymbol.net</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UQscGR2"></a>
+  
+  <h3 class="item__title"><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1202858">Bug 1202858 - 重啟 Squid 讓硬碟中所有檔案被刪除</a></h3>
+    <p>重現度：<br/>
+100%</p>
+
+<p>重現步驟：</p>
+
+<ol>
+<li>登入已安裝 Squid 的 RHEL 6.7 主機</li>
+<li>啟動 Squid <code>service squid start</code></li>
+<li>重啟 Squid <code>service squid restart</code></li>
+</ol>
+
+
+<p>實際狀況：<br/>
+機器上所有檔案被刪除。</p>
+
+<p>預期狀況：<br/>
+Squid 正常重啟。</p>
+
+<hr />
+
+<p>上一篇說了 Bash script 裡有未定義的變數很危險。這裡有個實際例子。還好 Red Hat 在正式發行之前就抓到了這個問題；Steam 可是發了正式版之後才有<a href="https://github.com/valvesoftware/steam-for-linux/issues/3671">使用者回報</a>呢。幫 QQ。</p>
+  <span class="item__footer"><a href="https://bugzilla.redhat.com/show_bug.cgi?id=1202858">redhat.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZUyQFbv"></a>
+  
+  <h3 class="item__title"><a href="https://githubengineering.com/a-formal-spec-for-github-markdown/">A formal spec for GitHub Flavored Markdown</a></h3>
+    <p>GitHub <del>終於</del>發表了他們的 Markdown specification。基本上以 <a href="http://commonmark.org">CommonMark</a> 為主，加上一些 GitHub 自己的外掛語法，但不與 CommonMark 衝突。</p>
+
+<p>對一般人這可能沒差，我已經預想這篇的點閱率應該會超低。XD 但對 <a href="https://macdown.uranusjr.com">Markdown editor 維護人</a>而言這是大新聞啊。GitHub 之前使用首席工程師 Vicent Martí 開發的<a href="https://github.com/vmg/sundown">Sundown</a>（基於 Natacha Porté 開發的 Upskirt），以及它的 Ruby binding <a href="https://github.com/vmg/redcarpet">Redcarpet</a>。這個實作非常優秀（MacDown 使用它的一個衍伸專案 <a href="https://github.com/hoedown/hoedown">Hoedown</a>），但<a href="https://github.com/MacDownApp/macdown/issues/260">有一些</a><a href="https://github.com/MacDownApp/macdown/issues/148">不直覺</a><a href="https://github.com/MacDownApp/macdown/issues/656">的行為</a>。這不是誰的錯，而很大部分來自<a href="https://daringfireball.net/projects/markdown/syntax">原始 Markdown specification</a> 不夠清楚造成的未定義行為。CommonMark 清掉了很多類似問題，但造成一些不相容語法，而 GitHub 在 Markdown 界的影響力太大，成為與 CommonMark 競爭的 <a href="https://zh.wikipedia.org/wiki/De_facto">de facto</a> standard。</p>
+
+<p>GitHub 這次的舉動讓 CommonMark 實質上一統天下了，應該會讓我們的工作輕鬆許多。期待。</p>
+  <span class="item__footer"><a href="https://githubengineering.com/a-formal-spec-for-github-markdown/">githubengineering.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="D7KEKGb"></a>
+  
+  <h3 class="item__title"><a href="http://pozorvlak.livejournal.com/94558.html">If-statements in Smalltalk</a></h3>
+    <p>在討論語言時，一個很重要的區別是了解某個功能是<strong>語法</strong>還是<strong>函式庫</strong>帶來的。Mark Dominus <a href="http://blog.plover.com/2006/09/11/">認為</a> design pattern 代表一個語言不夠高階，無法直接達成你想要的功能，而需要使用者重複描述同樣的概念。但什麼樣的功能才算是語言提供呢？作者舉了 Smalltalk 獨特的條件式實作作為例子。在大部分的語言裡，if block（包含 else 與 else if）都是語言功能，但 Smalltalk 不然。在 Smalltalk 中，條件式是這樣寫：</p>
+
+<pre><code class="smalltalk">a &lt; b
+  ifTrue: [^'a is less than b']
+  ifFalse: [^'a is greater than or equal to b']
+</code></pre>
+
+<p>下面是這段程式的解讀：</p>
+
+<ul>
+<li>Smalltalk 中 <code>Boolean</code> 有個 <code>- ifTrue: ifFalse:</code> 方法。這個方法接受兩個 block 引數（<code>[^ ...]</code> 語法）。</li>
+<li><code>Boolean</code>有兩個 concrete subclasses <code>True</code> 與 <code>False</code>。其中 <code>True</code> 的 <code>- ifTrue: ifFalse:</code> 會執行 <code>ifTrue:</code> 後面的 block，<code>False</code> 會執行 <code>ifFalse:</code> 後面那個。</li>
+<li>這一整段其實是一個 method call，<code>a &lt; b</code> 得到的 <code>Boolean</code> 實例是 callee。</li>
+</ul>
+
+
+<p>這代表 Smalltalk 中，條件式<strong>不是語言功能</strong>，而是實作 design pattern 的內建函式——因為即使 Smalltalk 標準庫沒有它，使用者也可以自己寫出等效的功能。語言功能與內建函式之間的界線其實比我們想像得更模糊，以語法 expresiveness 判斷語言夠不夠高階，也不是正確的基準。</p>
+
+<p>MIND. BLOWN.</p>
+  <span class="item__footer"><a href="http://pozorvlak.livejournal.com/94558.html">livejournal.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/80/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-03-20'>March 20th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>81 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/82/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-04-03'>April 3rd 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

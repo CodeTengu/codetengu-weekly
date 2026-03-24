@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 120 本公司不用打卡，所以上下班時間非常彈性。喔不過我們通常會在早上七點開 Daily Scrum Meeting</title>
+<meta name="description" content="本期內容涵蓋 Python, Docker, Kubernetes, Code Review, Git, Erlang, JavaScript, Node.js, Ethereum">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Docker, Kubernetes, Code Review, Git, Erlang, JavaScript, Node.js, Ethereum'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/120/index.html#start">
+        Issue 120 本公司不用打卡，所以上下班時間非常彈性。喔不過我們通常會在早上七點開 Daily Scrum Meeting &nbsp;<i><time class='published' datetime='2018-03-26'>March 26th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-370633"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="Byb7S2a"></a>
+  
+  <h3 class="item__title"><a href="https://vinta.ws/code/remotely-debug-a-python-app-inside-a-docker-container-in-visual-studio-code.html">Remotely debug a Python app inside a Docker container in Visual Studio Code</a></h3>
+    <p>之前因為開發環境都 containerized 了，但是偶爾又想要用一下 Visual Studio Code 的 Python debugger，所以就試了一下 <a href="https://code.visualstudio.com/docs/python/debugging#_remote-debugging">Remote Debugging</a> 功能，順便寫了一篇網誌記錄了跟 Flask 的 <code>--reload</code> 併用的奇技淫巧。忍不住抱怨一下，VS Code 的 Python debugger 雖然很炫炮，尤其是 <code>"debug.inlineValues": true</code>，但是啟動速度真的慢到靠北啊。</p>
+
+<p>不過就像 <a href="https://twitter.com/WanCW/status/964007392059867137">@WanCW‏</a> 說的，與其一直花時間追求開發環境和正式環境的一致，整天搞那些 configs，還不如用那些時間多寫幾個 test cases 啊。</p>
+
+<p>P.S. 這裡的 remote 主要指的是本機的某個 Docker container，當然也可以真的是遠端的某台機器。</p>
+  <span class="item__footer"><a href="https://vinta.ws/code/remotely-debug-a-python-app-inside-a-docker-container-in-visual-studio-code.html">vinta.ws</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6VVEyp0"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kennethreitz/setup.py">kennethreitz/setup.py: A Human&#39;s Ultimate Guide to setup.py</a></h3>
+    <p>也是出自 <a href="https://github.com/kennethreitz">@kennethreitz</a> 大神之手，不過這次不是什麼改變 Python 生態系的新專案，而是一個 <code>setup.py</code> 的範例，有自己的 Python package 的人可以參考看看。看了之後才知道，原來有 <code>cmdclass</code> 這麼一個用法啊。</p>
+  <span class="item__footer"><a href="https://github.com/kennethreitz/setup.py">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9UXwUPU"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=90kZRyPcRZw">Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down</a></h3>
+    <p>在你讀完八百多頁的 Kubernetes 文件之後，這個影片可能會是個很好的複習。</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=90kZRyPcRZw">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="EwmjQyK"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0">Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what?</a></h3>
+    <p>看了半天的 Kubernetes 官方文件，結果反而是在讀了這篇文章之後才終於搞清楚 <code>Service</code> 和 <code>Ingress</code> 的使用場景，嘖。</p>
+  <span class="item__footer"><a href="https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qOksL0j"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@richard534/getting-started-with-data-engineering-3d2e728d0c1f">Getting started with Data Engineering</a></h3>
+    <p>這篇文章概略地提到了作為一個 Data Engineer 可能會需要碰到的各項技術，一個人要完全掌握這些東西當然是不太可能啦，但是看了那個 Big Data Landscape 的圖還是覺得很血汗啊，大家感受一下。</p>
+
+<p>不過讀完文章之後，最大的心得反而是所謂的 Data Engineer 做的事情跟 Web Backend Developer 其實很像啊，都是圍繞著 Data 本身打轉，在技術上也有相當大的重疊，最大的差別可能是在於人家用的那套 framework 叫做 Apache Spark，逼搞夏趴。</p>
+  <span class="item__footer"><a href="https://medium.com/@richard534/getting-started-with-data-engineering-3d2e728d0c1f">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="w3VyAoH"></a>
+  
+  <h3 class="item__title"><a href="https://mtlynch.io/human-code-reviews-1/">How to Do Code Reviews Like a Human (Part One)</a></h3>
+    <p>雖然 code review 已經是老生常談了，但是這篇文章寫得真的是好。無論你是那個覺得 code review 是件苦差事的 reviewer 或是老是被要求改 code 改到往心裡去的 reviewee，又或者你們團隊根本還沒開始做 code review，本文都非常值得一讀。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://mtlynch.io/human-code-reviews-2/">How to Do Code Reviews Like a Human (Part Two)</a></li>
+</ul>
+  <span class="item__footer"><a href="https://mtlynch.io/human-code-reviews-1/">mtlynch.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="XVnc537"></a>
+  
+  <h3 class="item__title"><a href="https://youglish.com/">YouGlish - Use YouTube to improve your English pronunciation</a></h3>
+    <p>因為公司的 System Architect 是加拿大人，所以平常跟他在開會或閒聊都是全英文進行，對土台灣人如我多少還是有點不習慣，最近的困擾是關於某些單字的唸法，一般的英文單字也就算了，畢竟網路上隨便一個字典都有真人發音。但是那些我們平常在用的技術詞彙（例如 framework 或 library 的名字）就不一定在字典裡找得到了。正好前陣子 <a href="https://twitter.com/SammyLinTw/status/967789385172176896">@SammyLinTw</a> 推薦了 YouGlish 這個網站，它可以直接幫你列出 YouTube 上關於某個單字的發音片段，實用！</p>
+
+<p>大家感受一下：</p>
+
+<ul>
+<li><a href="https://youglish.com/search/etcd">etcd</a></li>
+<li><a href="https://youglish.com/search/Ethereum">Ethereum</a></li>
+<li><a href="https://youglish.com/search/kubernetes">Kubernetes</a></li>
+<li><a href="https://vimeo.com/233134524">pipenv</a></li>
+<li><a href="https://youglish.com/search/regex">regex</a></li>
+<li><a href="https://youglish.com/search/tmux">tmux</a></li>
+<li><a href="https://youglish.com/search/uwsgi">uWSGI</a></li>
+</ul>
+
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://weekly.codetengu.com/issues/3#TqJz41h">台灣工程師常唸錯的英文單字</a></li>
+</ul>
+  <span class="item__footer"><a href="https://youglish.com/">youglish.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="QZZ6t5K"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=tukOm3Afd8s">Git Rebase Interactive: A Practical Example</a></h3>
+    <p>git 指令裡面，比較難懂的就是 rebase。這個實戰 YouTube 教你簡單方法如何更改 logs 的順序或註解。注意，只能在不 conflict 的情況下來使用。也只能 rebase 本地端尚未 commit 到遠端的 logs。</p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=tukOm3Afd8s">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xHo7DY8"></a>
+  
+  <h3 class="item__title"><a href="https://www.erlang-solutions.com/blog/erlang-and-elixir-distribution-without-epmd.html">Erlang (and Elixir) distribution without epmd</a></h3>
+    <p>最近台北將會有一場 <a href="https://2018.rubyconf.tw/">Ruby 與 Elixir 的研討會</a>，不妨大家來看看 Erlang 文章吧。<a href="https://zh.wikipedia.org/wiki/Erlang">Erlang</a> 是一個非常容易寫分散式不停頓的軟體的程式語言，其中 default 用 <a href="http://erlang.org/doc/man/epmd.html">epmd</a> 來尋找分散在網路上不同的節點 (node)。這篇文章，用一個簡單的方式，教大家在 Erlang/OTP 19.0 以後的版本的程式可以跳過 epmd，讓節點更有彈性的加入同一個 network，且跟其他的節點互動。</p>
+  <span class="item__footer"><a href="https://www.erlang-solutions.com/blog/erlang-and-elixir-distribution-without-epmd.html">erlang-solutions.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="d8ggx2P"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8">Requiring modules in Node.js: Everything you need to know</a></h3>
+    <p>如果你會寫 Node.js 程式，但還是不太了解 modules 是什麼，為何要用 <code>module.exports</code>，以及 <code>require</code> 到底是怎麼運作的，你可以先看這篇文章。作者 <a href="https://medium.freecodecamp.org/@samerbuna">Samer Buna</a> 把這些問題用幾個簡單的範例做了清楚的說明。</p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8">freecodecamp.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-372128"></a>
+  
+  <h3 class="item__title">Blockchain Sharding Issues</h3>
+    <p>一群 Ethereum 開發愛好者，包括 <a href="https://www.ethereum.org/foundation">Ethereum 團隊</a> (招募中)，<a href="https://www.parity.io/">Parity</a> 成員，以及美國 <a href="http://www.initc3.org/">IC3</a> 研究員，上週在台灣聚會，探討如何解決區塊鏈目前碰到的最大難題，也就是擴充性的問題。最後還在 3/21 <a href="https://www.meetup.com/Taipei-Ethereum-Meetup/">Taipei Ethereum Meetup</a> 主辦的 <a href="http://blockcast.it/2018/03/24/taipei-ethereum-meetup-all-star-tech-talk-2018-march/">2018 以太坊全明星技術座談會</a> 中與大家分享成果。</p>
+
+<p>有興趣深入研究的人，可以先看看 <a href="https://github.com/ethereum/wiki/wiki/Sharding-FAQ">sharding FAQ</a> 再想辦法實作 <a href="https://ethresear.ch/t/sharding-phase-1-spec/1407">sharding 的規格</a>。當然，這也許只是其中一種想法或方法，而且都是在非常初期的研究階段，還有非常多的專案也在想要解決同樣的問題。我想這也是讓大家更有機會在先期就投入區塊鏈的研究，再創佳績。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="i6xY3mH"></a>
+      <a href="https://zhuanlan.zhihu.com/p/28229408"><img src="original_ratio_extra_large_99b47720-13bc-4fa6-946d-4c20b73eb341.jpg" title="瑞克和莫蒂：我酗酒、我变态，但我是个好外公" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://zhuanlan.zhihu.com/p/28229408">瑞克和莫蒂：我酗酒、我变态，但我是个好外公</a></h3>
+    <p><em>（該文有大量劇透）</em></p>
+
+<p>在 Twitter 上看到有人分享了 <a href="https://github.com/dannvix/NflxMultiSubs">dannvix/NflxMultiSubs</a>，幫 Netflix 加上「雙語字幕」功能的瀏覽器外掛。突然就想到前一陣子因為椎間盤突出在家裡休養的那段日子，除了物理治療和皮拉提斯之外，其他時間好像都是在看 Netflix 啊。說到這裡，忍不住要跟大家分享一下我印象最深的一部作品，<a href="https://www.netflix.com/title/80014749">Rick and Morty</a>。不誇張，這部真的是我這輩子看過最屌的科幻動畫，有點像是把銀河便車指南裡的英式幽默用 Futurama 和辛普森家庭取代的感覺，第一次看就看傻了我。非常推薦！每一集的片尾都有一段彩蛋，千萬不要錯過了。</p>
+
+<p>不過如果你真的不喜歡動畫，那也可以看 <a href="https://www.netflix.com/title/80119426">Dirk Gently's Holistic Detective Agency</a>，原著小說的作者正是 Douglas Adams。</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享。</p>
+  <span class="item__footer"><a href="https://zhuanlan.zhihu.com/p/28229408">zhihu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xdqXvvB"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/sindresorhus/awesome-scifi">sindresorhus/awesome-scifi: Sci-Fi worth consuming</a></h3>
+    <p>科幻迷大放送！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=400276879&amp;idx=1&amp;sn=7b6c18c6c6e0be66d7feb9b9cee27048">史上最经典的 25 部人工智能科幻作品</a></li>
+<li><a href="https://vinta.ws/blog/529">關於科幻</a></li>
+</ul>
+
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享。</p>
+  <span class="item__footer"><a href="https://github.com/sindresorhus/awesome-scifi">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/119/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-03-19'>March 19th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>120 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/121/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-04-02'>April 2nd 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

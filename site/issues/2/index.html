@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 2 There is no cloud, just other people&#39;s computers.</title>
+<meta name="description" content="本期內容涵蓋 Python, Cassandra, Git, Design Pattern, iOS, Android, Swift, AWS, API Gateway, Lambda, DynamoDB, React">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Cassandra, Git, Design Pattern, iOS, Android, Swift, AWS, API Gateway, Lambda, DynamoDB, React'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/2/index.html#start">
+        Issue 2 There is no cloud, just other people&#39;s computers. &nbsp;<i><time class='published' datetime='2015-08-10'>August 10th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-60559"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p><a href="https://twitter.com/vinta">@vinta</a> - <a href="http://vinta.ws/code/">I failed the Turing Test</a><br/>
+<a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a><br/>
+<a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a></p>
+  <span class="item__footer"></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="SKrE6s6"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=vfPtGsSJldg">Introduction to PDB</a></h3>
+    <p>pdb 是 Python 內建的互動式 debug 神器，堪稱是 Python 的定海神針，只要往 source code 裡一插，什麼魑魅魍魎都會現形。不過我們通常不會直接用 pdb，而是會使用整合了 IPython 的 <a href="https://github.com/gotcha/ipdb">ipdb</a>。其他選擇還有 <a href="https://pypi.python.org/pypi/pdbpp">pdbpp</a> 和 <a href="https://pypi.python.org/pypi/pudb">pudb</a>。</p>
+
+<p>PS. 標題的連結是影片，懶得看影片的人可以直接看延伸閱讀。</p>
+
+<p>延伸閱讀：<br/>
+<a href="http://yergler.net/2013/pdb/">In Depth PDB</a><br/>
+<a href="http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/">Python debugging tools</a></p>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=vfPtGsSJldg">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="A4qt5O9"></a>
+  
+  <h3 class="item__title"><a href="http://www.pythian.com/blog/why-move-cassandra/">Why Move to Cassandra?</a></h3>
+    <p>這陣子除了多了不少新特性的 MySQL 5.7、能見度越來越高的 PostgreSQL 和持續被唱衰的 MongoDB 之外，跟 Google BigTable、Amazon Dynamo 系出同門的 Apache Cassandra 也是一個相當熱門的 NoSQL 資料庫。這篇文章提到了 Instagram、eBay、Spotify、Comcast 等大公司改用 Cassandra 的理由和其用途。</p>
+
+<p>另外值得一提的，<a href="http://www.planetcassandra.org/apache-cassandra-use-cases/">Planet Cassandra</a> 網站上也有一個 Use Cases 專欄，列舉了世界各地、各行各業的公司使用 Cassandra 的經驗分享，從 News Feed、Recommendation Engine、Fraud Detection 到 IoT (Internet of Things)，非常實用。真希望每個 open source 專案的官方網站都可以效法一下這種做法～</p>
+
+<p>延伸閱讀：<br/>
+<a href="http://www.slideshare.net/yftzeng/mysql-postgresql">淺入淺出 MySQL &amp; PostgreSQL</a>（來自 <a href="https://www.facebook.com/yftzeng.tw">Ant</a> 的簡報）<br/>
+<a href="http://imysql.com/2015/06/23/mysql-57-new-feature-part-1.shtml">MySQL 5.7 版本新特性连载（一）</a><br/>
+<a href="http://www.oschina.net/news/64575/never-ever-mongodb">别再用 MongoDB 了！</a></p>
+  <span class="item__footer"><a href="http://www.pythian.com/blog/why-move-cassandra/">pythian.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="HOFqk87"></a>
+  
+  <h3 class="item__title"><a href="http://chris.beams.io/posts/git-commit/">How to Write a Git Commit Message</a></h3>
+    <p>作者總結了各方意見，歸納出 7 條如何（用英文）寫好 git commit messages 的規則。因為文章有點長，沒有耐心的人可以點延伸閱讀或是直接看以下重點摘要翻譯：</p>
+
+<ul>
+<li>在 commit message 裡用空行分成標題和內文</li>
+<li>在內文裡說明 what 和 why，至於 how 其實看 diff 就知道了</li>
+<li>開頭大寫</li>
+<li>標題控制在 50 個字元以內</li>
+<li>標題不要用句號結尾</li>
+<li>標題一律使用「祈使語氣」（就是原形動詞啦）</li>
+<li>內文每行控制在 72 個字元以內</li>
+</ul>
+
+
+<p>延伸閱讀：<br/>
+<a href="https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages">Format commit messages</a></p>
+  <span class="item__footer"><a href="http://chris.beams.io/posts/git-commit/">beams.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IGliZVl"></a>
+  
+  <h3 class="item__title"><a href="http://slides.com/jaceju/design-patterns-by-examples">從實例學設計模式</a></h3>
+    <p>來自 KKBOX 的 <a href="https://twitter.com/jaceju">@jaceju</a> 關於物件導向程式設計的簡報，主要在講 SOLID 原則和幾個常見的 Design Patterns。</p>
+
+<p>延伸閱讀：<br/>
+<a href="https://sourcemaking.com/design_patterns">Design Patterns</a></p>
+  <span class="item__footer"><a href="http://slides.com/jaceju/design-patterns-by-examples">slides.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jjhpZlG"></a>
+  
+  <h3 class="item__title"><a href="https://www.facebook.com/notes/willie-lin/%E5%8F%B0%E7%81%A3%E5%8B%9E%E5%B7%A5%E7%9A%84%E8%BD%89%E5%9E%8B%E6%AD%A3%E7%BE%A9/10153426725368232">台灣勞工的轉型正義</a></h3>
+    <p>作者是「政大學生勞動權益促進會」（簡稱：政大勞促會）的成員之一，前陣子政大因為不願意幫學校工讀生付勞健保費，而選擇解聘所有工讀生，校長周行一甚至還寫信給學生希望學生可以無償地幫學校勞動。這整起事件的「始作俑者」之一就是政大勞促會。作者在這篇文章中說明了即使會被視為是在「找碴」或「自我感覺良好的正義感」，爭取自己和其他人的勞動權益仍舊是重要的。</p>
+
+<p>延伸閱讀：<br/>
+<a href="https://www.facebook.com/permalink.php?story_fbid=945991635442305&amp;id=100000944336615">感謝這位政大校長，讓我們看清原來校園也有權力落差、官僚傲慢</a></p>
+  <span class="item__footer"><a href="https://www.facebook.com/notes/willie-lin/%E5%8F%B0%E7%81%A3%E5%8B%9E%E5%B7%A5%E7%9A%84%E8%BD%89%E5%9E%8B%E6%AD%A3%E7%BE%A9/10153426725368232">facebook.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="WqtUx2q"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/ChenYilong/iOS9AdaptationTips">ChenYilong/iOS9AdaptationTips</a></h3>
+    <p>升級你的 iOS App 到 iOS 9 有什麼要注意的？作者整理了以下六點，有點感人啊（甚至還有中文版本）：</p>
+
+<ol>
+<li>You'd better Convert HTTP to HTTPS</li>
+<li>iOS9 new feature in CoreLocation : background only when you need</li>
+<li>Untrusted Enterprise Developer with no option to trust</li>
+<li>Bitcode optional</li>
+<li>Privacy and Your App【URL scheme changes】</li>
+<li>Support Slide Over and Split View of iOS 9</li>
+</ol>
+  <span class="item__footer"><a href="https://github.com/ChenYilong/iOS9AdaptationTips">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lhcYt3v"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/facebook/fresco">facebook/fresco - Android 圖片下載、快取套件</a></h3>
+    <p>載入速度快、也可以套 <a href="https://github.com/square/okhttp">OkHttp</a> 當 fresco 的 network fetcher  client、文件寫得很全。</p>
+
+<p>最大的特色應該是在 Android 4.x 以下把圖片的 cache data 放在 Ashmem Heap (匿名共享內存) 而不是 Java Heap，這避免了 Java Heap 因為塞圖片造成的 OOM (Out of Memory) 跟 GC (Garbage Collector) 啟動 App 變慢。</p>
+
+<p>延伸：
+ <a href="https://github.com/square/picasso">Picasso</a>、<a href="https://github.com/bumptech/glide">Glide</a></p>
+  <span class="item__footer"><a href="https://github.com/facebook/fresco">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="G88Dj3T"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94">Swift protocol extension method dispatch</a></h3>
+    <p>Swift protocol extension 的一個你可能不會遇到，但遇到會痛不欲生的設計特性。</p>
+  <span class="item__footer"><a href="https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tCeGJXs"></a>
+  
+  <h3 class="item__title"><a href="http://www.objc.io/books/advanced-swift/">Advanced Swift</a></h3>
+    <p>我有買這本在 iOS 界引領潮流、中流砥柱的 <a href="http://www.objc.io/">objc.io</a> 出的 Advanced Swift，目前還是 pre-release，購買後新的章節推出會發 pdf 給你，也會把你加到一個 private 的 GitHub repo，裡面是原稿的 markdown。</p>
+
+<p>也因為還在 pre-release，所以錯字跟錯 code 還不算少。目前已經推出了 Strings、Optionals、Collections 三章，預計有九章。</p>
+
+<p>不愧其名 Advanced Swift，這本完全不適合當 Swift 的入門書，內容深度很夠。大概兩個禮拜出一章的時間，一章大概是 30 頁，有點像在追劇，蠻過癮的。</p>
+  <span class="item__footer"><a href="http://www.objc.io/books/advanced-swift/">objc.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mOKj4s7"></a>
+  
+  <h3 class="item__title"><a href="http://krakendev.io/blog/antipatterns-singletons?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_47">Defeating the Anti-Pattern Bully 💥 Part 1 - Singletons</a></h3>
+    <p>最熟悉的人卻傷你最深 - Singleton。</p>
+
+<p>Singleton 大概是最惡名昭彰的 pattern，從該作者在寫完 <a href="http://krakendev.io/blog/the-right-way-to-write-a-singleton">The right way to write a singleton in Swift</a> 後被大家指責你在鼓勵更多人用 Singleton 的叫罵聲中可得知。</p>
+
+<p>於是這篇就介紹了一下什麼時候可以用 Singleton，他舉了 Caching 的例子。也說明了怎麼用 Dependency Injection 替代你的 Singleton。</p>
+
+<blockquote><p>為什麼不好？<br/>
+Singleton 因為 Global state 的特性非常難被單元測試、比起 Dependency Injection，Singleton 相對難以閱讀、不符合物件導向精神的 Single responsibility principle。</p></blockquote>
+
+<p><strong><em>如果你在寫 Swift 的話，這個作者的 <a href="http://krakendev.io/blog/subclassing-can-suck-and-heres-why">If you're Subclassing, You're doing it WRONG</a> 也值得一看。</em></strong></p>
+  <span class="item__footer"><a href="http://krakendev.io/blog/antipatterns-singletons?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_47">krakendev.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XXbtZd3"></a>
+      <a href="https://rocknroll-panty.jp/"><img src="original_ratio_extra_large_f4afc6f7-4c00-4cd2-a10a-a8b66b333bca.png" title="Rock &#39;n&#39; Roll Panty" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://rocknroll-panty.jp/">Rock &#39;n&#39; Roll Panty</a></h3>
+    <p>雖然說我不是非常清楚這是在幹什麼的，但是喜歡音樂的我，真心覺得是個非常棒的企劃啊！</p>
+  <span class="item__footer"><a href="https://rocknroll-panty.jp/">rocknroll-panty.jp</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="b2CFKHf"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/jaws-stack/JAWS">JAWS: The JavaScript + AWS Stack</a></h3>
+    <p>用 JavaScript 搭配 AWS 的 S3 + API Gateway + Lambda + DynamoDB 組出來不需要 Server 的服務，（搓手，躍躍欲試）JavaScript 銳不可擋啊啊啊！</p>
+  <span class="item__footer"><a href="https://github.com/jaws-stack/JAWS">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iz7t0zc"></a>
+  
+  <h3 class="item__title"><a href="http://www.makeuseof.com/tag/automate-todoist-and-ifttt/">Automate Your Life And Job With ToDoist And IFTTT</a></h3>
+    <p>其實是去年的文章，不過最近因為看到這篇才開始使用 todoist。文章裡面有一個搭配 IFTTT 用來寄工作報告給老闆的範例，覺得很有趣，得跟大家分享一下。</p>
+  <span class="item__footer"><a href="http://www.makeuseof.com/tag/automate-todoist-and-ifttt/">makeuseof.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xnKypT3"></a>
+  
+  <h3 class="item__title"><a href="http://swizec.com/blog/using-react-in-the-real-world/swizec/6710">Using React in the real world</a></h3>
+    <p>把 React component 包成 jQuery 外掛來使用，獻給暫時沒有時間整個重寫的勞工們。</p>
+  <span class="item__footer"><a href="http://swizec.com/blog/using-react-in-the-real-world/swizec/6710">swizec.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oEaxCwr"></a>
+  
+  <h3 class="item__title"><a href="https://unsplash.it/">Unsplash it</a></h3>
+    <p>一個叫 Unsplash 的網站提供的精美 placeholder 圖片服務，看了一下 Unsplash 本身就個提供免費 (do whatever you want) 的 License 圖片的網站。</p>
+  <span class="item__footer"><a href="https://unsplash.it/">unsplash.it</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/1/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-08-03'>August 3rd 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>2 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/3/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-08-17'>August 17th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

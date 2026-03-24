@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 57 Any application that can be written in JavaScript, will eventually be written in JavaScript.</title>
+<meta name="description" content="本期內容涵蓋 JavaScript, HTML, React Native, iOS, Redux, MVVM, COSCUP, Modern Web, Go">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 JavaScript, HTML, React Native, iOS, Redux, MVVM, COSCUP, Modern Web, Go'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/57/index.html#start">
+        Issue 57 Any application that can be written in JavaScript, will eventually be written in JavaScript. &nbsp;<i><time class='published' datetime='2016-08-29'>August 29th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-177847"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://book.douban.com/people/vinta/">The Best of Isaac Asimov</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 太熱了</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - 因為工作看韓劇，同時開始追美漫</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 非典型司書</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="C4Tf05X"></a>
+  
+  <h3 class="item__title"><a href="http://jrsinclair.com/articles/2016/marvellously-mysterious-javascript-maybe-monad/">The Marvellously Mysterious JavaScript Maybe Monad</a></h3>
+    <p>如果對 Functional Programing 不熟，建議先看 <a href="http://crockford.com/">Douglas Crockford</a> 在 YUIConf 2012 的<a href="https://www.youtube.com/watch?v=dkZFtimgAcM">介紹影片</a>，以及 <a href="https://github.com/egonSchiele">Aditya Bhargava</a> 的<a href="http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html">圖解教學</a>。</p>
+
+<p>因為 JavaScript 的 Promise 其實也是一種 monad ，所以文章一開始會先重述 Promise ，以便理解 monad 的概念。</p>
+
+<p>再以凌亂的 if statement 當作例子，一步一步的套用 maybe monad ，改善 null/undefined checking 的流程。</p>
+  <span class="item__footer"><a href="http://jrsinclair.com/articles/2016/marvellously-mysterious-javascript-maybe-monad/">jrsinclair.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="HVEA0TP"></a>
+  
+  <h3 class="item__title"><a href="https://hacks.mozilla.org/2016/08/a-few-html-tips/">A few HTML tips</a></h3>
+    <p>這篇文章點出了一些 HTML 上的小建議：</p>
+
+<ul>
+<li>段落
+
+<ul>
+<li>斷行使用 &lt;p> ，避免使用 &lt;br> （ &lt;br> 適合用在詩或歌的斷句 ）</li>
+</ul>
+</li>
+<li>標題
+
+<ul>
+<li>為了表示正確的語意，必須按照順序使用 &lt;h1> ~ &lt;h6> ，如果是需要調整字型大小，可以透過 CSS 更改</li>
+<li>在次標題上避免使用較低層級的 heading ，改用一般的文字 markup 。</li>
+</ul>
+</li>
+<li>表單
+
+<ul>
+<li>placeholder 建議放入正確格式的範例而非說明</li>
+<li>使用正確的 type 在 mobile 顯示對應的鍵盤</li>
+</ul>
+</li>
+<li>使用 &lt;svg> 取代 &lt;img> ， 使得向量圖也可以透過 CSS 來改變樣式</li>
+</ul>
+  <span class="item__footer"><a href="https://hacks.mozilla.org/2016/08/a-few-html-tips/">mozilla.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="OoDc8l4"></a>
+  
+  <h3 class="item__title"><a href="https://developer.ubuntu.com/en/blog/2016/08/05/introducing-react-native-ubuntu/">Introducing React Native Ubuntu</a></h3>
+    <p>日前 Ubuntu 公布了 <a href="https://github.com/CanonicalLtd/react-native">React Native for Ubuntu</a> 的 source code ，現在可以利用 React Native 來實作 Ubuntu 的 Desktop App 了！</p>
+
+<p>有興趣的朋友可以照著<a href="https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-ubuntu.md">官方教學</a>玩玩看。</p>
+  <span class="item__footer"><a href="https://developer.ubuntu.com/en/blog/2016/08/05/introducing-react-native-ubuntu/">ubuntu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6vKFXA7"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/react-ecosystem/how-to-handle-react-context-a7592dfdcbc#.ne9adfq2q">How to Handle React Context in a Reliable Way.</a></h3>
+    <p>當需要將 properties 傳遞到多個 level 底下時， React 提供了一種方式來解決參數需要層層傳遞的問題： <a href="https://facebook.github.io/react/docs/context.html">Context</a> ，已經被一些較熱門的 libraries 使用，如 <a href="https://github.com/reactjs/react-redux">React-Redux</a> 與 <a href="https://github.com/reactjs/react-router">React-Router</a>。</p>
+
+<p>不過使用上還是有一些缺點：</p>
+
+<ul>
+<li>因為目前還在實驗階段，將來 API 很有可能會變動</li>
+<li>假設 context value 更新了，使用到該 value 的 descendant component 與 provider component 間如有其他 component 進入 shouldComponentUpdate 並 return false ，則該 descendant component 並不會 re-render ，使用上容易出錯。</li>
+</ul>
+
+
+<p>對此 <a href="https://twitter.com/dan_abramov">Dan Abramov</a> 在他的 twitter 上面給了一些<a href="https://twitter.com/dan_abramov/status/749715530454622208">意見</a></p>
+
+<p>可以藉由 High-order component 的方式，將 context 寫在較外層的 component ，這樣 API 更新時，就只需要改一個地方。</p>
+  <span class="item__footer"><a href="https://medium.com/react-ecosystem/how-to-handle-react-context-a7592dfdcbc#.ne9adfq2q">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="pPJ2SrS"></a>
+  
+  <h3 class="item__title"><a href="https://realm.io/news/slug-peter-livesey-managing-consistency-immutable-models/">Managing Consistency of Immutable Models</a></h3>
+    <p>資料不一致一直都是程式設計師的惡夢，也是 bug 最常發生的原因之一。LinkedIn 的工程師分享了他們對 Core Data 的評價，以及如何透過 immutable model 達到資料的一致性。說穿了就是「真相永遠只有一個（Single source of truth）」，建議可以配合最近很紅的 Redux 架構一起看，會有更多體會。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c">用 Objective-C 實作 Redux 架構</a></li>
+<li><a href="http://redux.js.org/docs/introduction/index.html">Redux</a></li>
+<li><a href="https://github.com/ReSwift/ReSwift">ReSwift: Unidirectional Data Flow in Swift - Inspired by Redux</a></li>
+<li><a href="http://blog.benjamin-encz.de/post/real-world-flux-ios/">Real World Flux Architecture on iOS</a></li>
+</ul>
+  <span class="item__footer"><a href="https://realm.io/news/slug-peter-livesey-managing-consistency-immutable-models/">realm.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jZ1Kg9e"></a>
+  
+  <h3 class="item__title"><a href="https://onevcat.com/2016/08/notification/">活久见的重构 - iOS 10 UserNotifications 框架解析</a></h3>
+    <p>九月即將來臨，Apple 下一代產品也將要發表，這也代表著 iOS 10 正式版要上線了。在 iOS 10 裡頭對於 notification 相關的 framework 做了一個大更動，變得對開發者更加友好了，如果你還不知道改了什麼，是時候瞭解一下了！</p>
+  <span class="item__footer"><a href="https://onevcat.com/2016/08/notification/">onevcat.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SDWYQSQ"></a>
+  
+  <h3 class="item__title"><a href="http://allegro.tech/2016/08/the-ios-bug-chase.html">The iOS bug chase</a></h3>
+    <p>遇到 bug 總是一件令人喪氣的事，尤其是遇到很難重現或者是系統的 bug 更是如此。有位開發者就遇到一個這種 bug，它是 Apple MapView 的一個老問題，存在好幾年了。多虧這位開發者，這個 bug 已經在即將正式推出的 iOS 10 被修正，他把 debug 的過程詳細的紀錄了下來，讀起來非常有趣。</p>
+  <span class="item__footer"><a href="http://allegro.tech/2016/08/the-ios-bug-chase.html">allegro.tech</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="635NJ7P"></a>
+  
+  <h3 class="item__title"><a href="http://christiantietze.de/posts/2016/08/mvvm-is-okay-for-what-it-does/">MVVM Is Quite Okay at What It Is Supposed to Do</a></h3>
+    <p>MVVM 應該是這幾年 iOS 開發最熱門的關鍵字之一，網路上對它的褒貶不一，也有不少人以此為基礎提出了所謂的「加強版」。我個人是覺得它會背負這一些罵名，一部分是因為它的名字取的不好，另一部分是因為使用者沒有完全理解它就硬把它導入到專案裡頭。</p>
+
+<p>MVVM 所描述的是關於部分 UI 的架構，更精確的說，是關於「如何回應使用者動作（View 呼叫 View Model）」以及「如何將資料顯示到畫面（View Model 通知 View）」。但因為沒有明確的說明該怎麼設計 View Model，結果很多人把原本在 View Controller 的一大坨程式碼搬到 View Model，這對程式碼完全沒有幫助啊！</p>
+
+<p>正確的作法應該是：依照需要你可能會有 Network Manager、Data Parser、Data Center、有的沒的 Service，你的 View Model 呼叫這些元件做事，然後把回傳資料轉換成適當的格式，再通知 View 更新畫面。</p>
+  <span class="item__footer"><a href="http://christiantietze.de/posts/2016/08/mvvm-is-okay-for-what-it-does/">christiantietze.de</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8U1qoDD"></a>
+  
+  <h3 class="item__title"><a href="https://theswiftdev.com/2016/08/17/xcode-8-extensions/">Xcode 8 Extensions</a></h3>
+    <p>Xcode 作為一個 IDE，它所提供的功能雖然一直都很不符合大多工程師的期待，但因為蘋果也沒有禁止我們幫 Xcode 開發 plugins，所以 plugins 生態圈也是蓬勃發展，大家也用的很開心。</p>
+
+<p>想不到在今年的 WWDC 蘋果放出了一個震撼彈，正式支援讓人開發 Xcode 套件，但也禁止舊有 plugins 執行。只是三個月過去了，大概是蘋果開放可控制的東西太少，所以目前看到的套件還是寥寥可數啊 :(</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://alcatraz.io/">Alcatraz | The Package manager for Xcode</a></li>
+</ul>
+  <span class="item__footer"><a href="https://theswiftdev.com/2016/08/17/xcode-8-extensions/">theswiftdev.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kkdai">
+        <div class="i" id="kkdai">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/2d5963f8-d765-4449-b66f-83702db58878.jpg" alt="@kkdai" width="80" /><span class="category__title__text">@kkdai</span></h2>
+            <div class="item item--issue item--link">
+  <a name="KtrvBGK"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/coscup2016/">[研討會心得][COSCUP] COSCUP 2016 上台初體驗</a></h3>
+    <p>曾經聽人提到這兩年參與大大小小研討會，越來越少看到參與者來寫心得了．
+所以就算是身為講者，我也提出了我的心得 :p</p>
+
+<p>裡面有附上兩場主要跟 Golang 有關場次的投影片，並且有把直播影片也附上，歡迎想看的人可以直接點取觀看．</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/coscup2016/">evanlin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nzlzJZk"></a>
+  
+  <h3 class="item__title"><a href="http://www.evanlin.com/modernweb-2016-2/">[研討會] Modern Web 2016 - Day2 上台日</a></h3>
+    <p>今年的 <a href="http://modernweb.tw/agenda.html#content">Modern Web 2016</a> 一共有三位碼天狗的 Curator 上台，你們有沒有參加呢？
+這是我參加第二天的心得整理 ( 內容有連接到第一天的心得 ) ，裡面也有我這次上台的投影片，希望對大家有些幫助...</p>
+  <span class="item__footer"><a href="http://www.evanlin.com/modernweb-2016-2/">evanlin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Kbty94w"></a>
+  
+  <h3 class="item__title"><a href="http://go-traps.appspot.com/">Go Traps</a></h3>
+    <p>列出了許多 Golang 的陷阱 (trap) ，舉例而言:</p>
+
+<ol>
+<li><code>range</code> 一個 slice 第一個回傳值不是 value 而是 key (最常犯 XD)</li>
+<li><code>map</code> 忘記初始化</li>
+<li>goroutine 如果沒有等待，直接結束 app 的話是不會執行的．</li>
+</ol>
+
+
+<p>試著看看你能不能看出每一個陷阱的原因吧．</p>
+  <span class="item__footer"><a href="http://go-traps.appspot.com/">go-traps.appspot.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="IJqir75"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P">GopherCon 2016 - Playlist</a></h3>
+    <p>今年最盛大的 Gopher 聚會， GopherCon 2016 在 07 月 10 ~ 11日已經結束了．
+但是影片在這八月底終於釋出．</p>
+
+<p>這裡有播放清單，快來看看:</p>
+
+<p>推薦 Session :</p>
+
+<ol>
+<li>Rob Pike - The Design of the Go Assembler</li>
+<li>Francesc Campoy - Understanding nil</li>
+<li>Daniel Whitenack - Go for Data Science</li>
+</ol>
+  <span class="item__footer"><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="C3nmnMj"></a>
+  
+  <h3 class="item__title"><a href="http://blog.nicerobot.org/posts/why-i-consider-ifelse-idiomatic-go">Why I consider if/else idiomatic Go </a></h3>
+    <p>這一篇講解了很基本的 IF / ELSE 的使用方式．特別是在 Golang 的 Error Handle 部分．
+大家在判斷回傳值中的 Error ，是否有注意到他的變數生命週期？
+有沒有想過如何寫會讓人更容易了解？</p>
+
+<p>很推薦這一篇來好好學習一下</p>
+  <span class="item__footer"><a href="http://blog.nicerobot.org/posts/why-i-consider-ifelse-idiomatic-go">nicerobot.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/56/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-08-22'>August 22nd 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>57 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/58/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-09-05'>September 5th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

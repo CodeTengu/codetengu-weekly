@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 11 一個 QA 工程師走進酒吧，點了 -1 杯啤酒，然後酒吧爆炸了</title>
+<meta name="description" content="本期內容涵蓋 Android, Functional Programming, JavaScript, Management, Perl, Python, React.js, Redux">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Android, Functional Programming, JavaScript, Management, Perl, Python, React.js, Redux'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/11/index.html#start">
+        Issue 11 一個 QA 工程師走進酒吧，點了 -1 杯啤酒，然後酒吧爆炸了 &nbsp;<i><time class='published' datetime='2015-10-12'>October 12th 2015</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-71499"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>本期 curators：</p>
+
+<ul>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - <strong>希望大家不要再跑去宜蘭玩了啦</strong></li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <strong><a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</strong></li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - <strong>熬夜是一種才能</strong></li>
+</ul>
+
+
+<p>大家可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a> 和 <a href="https://twitter.com/codetengu">Twitter</a>，有很多 weekly 看不到的內容。有任何建議或疑問也可以到 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 留個話，歡迎亂入。或是你覺得有興趣，想要來當 curator 的話也可以來聊聊，大家都是 developer 嘛，不用太客氣 👺</p>
+  <span class="item__footer"></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ldtwwIV"></a>
+  
+  <h3 class="item__title"><a href="https://www.linkedin.com/pulse/real-work-management-marcus-blankenship">The Real Work of (Software) Management</a></h3>
+    <p>從開發者轉職到管理職的人時常會有一種... 沒有實際產出的感覺, 對吧? 有時總是會忍不住跳下去寫程式, 然後對於真的管理者該做的事卻反應慢半拍。好啦, 我以前有一陣子是這樣, 不過這兩年已經改善許多了。</p>
+
+<p>這篇文章提到許多管理者該做的事情與其價值, 我覺得很不錯, 把這些事情 "具現化" 了, 大家可以參考一下, 以下列出幾點:</p>
+
+<ul>
+<li>確認加入團隊的是對的人, 並且有正確的訓練</li>
+<li>打造有生產力的工作環境, 並且確保有最棒的工具</li>
+<li>保護團隊免於組織、公司的政治或分心的事</li>
+<li>確保上層知道開發團隊創造出來的價值</li>
+<li>確保團隊的努力有朝著公司、組織的目標</li>
+</ul>
+
+
+<p>最後這篇文章的重點就是, "It's a REAL work", 大推這篇文章。</p>
+  <span class="item__footer"><a href="https://www.linkedin.com/pulse/real-work-management-marcus-blankenship">linkedin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="iV7gUr1"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/code-cartoons/a-cartoon-guide-to-flux-6157355ab207">A cartoon guide to Flux</a></h3>
+    <p>用簡單繪圖的方式來說明 Flux 的運作跟概念, 文中也透過用角色的方式, 來說明各部分的功能運作。</p>
+
+<p>最近 React.js 實在是太紅了, 而且的確是滿方便好用的。 前一陣子公司找進了一位前端, 便請她研究 React.js, 最近正準備把 <a href="http://streetvoice.com/">StreetVoice</a> 先前用 Angular.js 寫的播放器用 React.js 改寫, 應該下禮拜可以上線, 然後準備做內部分享。</p>
+
+<p>而我也一邊學習, 打算來把手上一個專案改用 React.js 改寫 (先前也是 Angular.js), 所以準備來好好研究 Flux, 雖然說最近比較紅的對應實作應該就是 <a href="https://github.com/rackt/redux">Redux</a> 了吧!?</p>
+  <span class="item__footer"><a href="https://medium.com/code-cartoons/a-cartoon-guide-to-flux-6157355ab207">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lQ3mJKV"></a>
+  
+  <h3 class="item__title"><a href="https://www.zulip.org/">Zulip</a></h3>
+    <p>這幾年似乎是因為 Slack 出來後, 開始冒出一堆工作聊天軟體, 而 Zulip 則是在 beta 的時候就被 Dropbox 買下來, 沒想到後來就開源了。</p>
+
+<p>由於 Zulip 跟 Dropbox 一樣走 Python 路線, 是用 Python 以及 Django 進行開發, 對於這類聊天軟體的技術有興趣的話可以透過 <a href="https://github.com/zulip/zulip">Zulip 的 GitHub</a> 來看他們使用什麽技術, 用了什麽套件, 來偷學一點東西。 稍稍看了一下 requirements.txt 沒想到 Django 相關的套件其實不多。</p>
+  <span class="item__footer"><a href="https://www.zulip.org/">zulip.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="xlMALm1"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/backchannel/war-stories-3696d00207ff">Five Years of Building Instagram</a></h3>
+    <p>Instagram 創辦人 Mike Krieger 打造 Instagram 這五年的心得。</p>
+
+<ul>
+<li>三個月就有一百萬個使用者: 一開始只有一台 server, 聽說他們當時還不知道有 AWS, 還是 user 跟他們說的</li>
+<li>Do the simple thing first: 一開始只專心打造 iOS, 兩年半後才開始開發 Android</li>
+<li>經歷 AWS 機房因為暴風雨斷電: 開始用 Chef</li>
+<li>被 Facebook 買下後: 從 AWS 搬進 Facebook</li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/backchannel/war-stories-3696d00207ff">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sB9BkiF"></a>
+  
+  <h3 class="item__title"><a href="https://stackstorm.com/">StackStorm aka &quot;IFTTT for Ops&quot;</a></h3>
+    <p>就像標題說的 「IFTTT for Ops」, 我想就不用多說了, 小弟對這個非常有興趣啊, 準備請我們家的 Ops 玩一下, 以後有心得跟大家報告。</p>
+
+<p>另外, 裡面提到的所謂 ChatOps, 如果還不清楚的人可以參考一下 Github 這個 <a href="https://speakerdeck.com/jnewland/chatops-at-github">ChatOps at GitHub 投影片</a>裡面提到一些做法跟概念。</p>
+
+<p>有一個重點我覺得是這句, "Everyone sees all of that happen", 像是 StreetVoice 也都用 hubot 來進行程式部署, 這樣大家才會知道發生什麽事, 哪些東西上線了, 另外, 後續如果出了什麽錯誤訊息, 也可以幫助迅速判斷問題。</p>
+
+<p>不過好像扯遠了, 倒是有人玩過 StackStorm 嗎? 如果有的話, 希望有大大可以到 <a href="https://gitter.im/codetengu/headquarters">CodeTengu 的 Gitter</a> 來發表一下心得 :p</p>
+  <span class="item__footer"><a href="https://stackstorm.com/">stackstorm.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Oco8ALw"></a>
+      <a href="https://instagram.com/xxjominxx/"><img src="original_ratio_extra_large_c85681a6-1db2-4518-b58f-34567db5caae.jpg" title="本週 IG: 趙敏瑩" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://instagram.com/xxjominxx/">本週 IG: 趙敏瑩</a></h3>
+    <p>聽說是韓國穿泳裝的女模第一把交椅, 真的很強。</p>
+
+<p>另外先打預防針一下, 整不整形有啥好在意? 我個人完全不在意這個 der, 賞心悅目才是重點。 這邊還有一篇<a href="http://www.koreaboo.com/interactive/15-photos-prove-why-this-swimsuit-model-could-be-the-hottest-of-the-summer/">敏瑩的泳裝照集錦</a></p>
+  <span class="item__footer"><a href="https://instagram.com/xxjominxx/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-adamp33">
+        <div class="i" id="adamp33">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">@adamp33</span></h2>
+            <div class="item item--issue item--link">
+  <a name="DVsZ2dH"></a>
+  
+  <h3 class="item__title"><a href="https://playbook.cio.gov/designstandards/getting-started/">美國政府公開網站 style guide</a></h3>
+    <p>作為一個前端工程師，工作上最痛苦的事情之一很有可能是與設計師的溝通，往往曾經做過的功能缺乏擴充性、一致性，無法重複使用，必須重新寫，但往往最根本的原因在於缺少一個設計準則（style guide），若能遵造設計準則，網站或是 app 的一致性就會大幅提高，重造輪子的情況也會減少。</p>
+
+<p>美國政府最近釋出公家機關網站的設計準則，裡面如何敘述一個模組的程式碼、使用情境、配色與可調整的細節，值得前端工程師和設計師一起討論。另外，旅遊聖經出版社 Lonely Planet 所公開的<a href="http://rizzo.lonelyplanet.com/styleguide/ui-components/cards">設計準則</a>也相當不錯，可以一看！</p>
+
+<p>你服務的團隊也有設計準則嗎？</p>
+  <span class="item__footer"><a href="https://playbook.cio.gov/designstandards/getting-started/">cio.gov</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GZwdZB1"></a>
+  
+  <h3 class="item__title"><a href="https://googleblog.blogspot.tw/2015/10/introducing-accelerated-mobile-pages.html">Google 推出手機版網頁加速計畫</a></h3>
+    <p>Google 開啟一項名為 Accelerated Mobile Pages (AMP) 的開源專案，針對行動裝置網頁加速創造新的 HTML spec，將內容快取（cache）在雲端，減少載入內容時間。主要對象為內容網站為主，目前 BBC、朝日新聞、BuzzFeed 等媒體都有參加此專案。</p>
+  <span class="item__footer"><a href="https://googleblog.blogspot.tw/2015/10/introducing-accelerated-mobile-pages.html">blogspot.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="E68EY4A"></a>
+  
+  <h3 class="item__title"><a href="https://speakerdeck.com/addyosmani/whats-new-in-chrome-devtools">Chrome Dev Tool 新功能！</a></h3>
+    <p>來看 Google Chrome 團隊大大 Addy Osmani 介紹 Chrome 的最近推出的新功能！</p>
+
+<ul>
+<li>console 有語法提示</li>
+<li>network 現在可以自訂傳輸速度（ throttling）</li>
+<li>color picker</li>
+<li>inspector 也可以看 event listener 了</li>
+</ul>
+  <span class="item__footer"><a href="https://speakerdeck.com/addyosmani/whats-new-in-chrome-devtools">speakerdeck.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="2JKmuI8"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/ribot-labs/approaching-android-with-mvvm-8ceec02d5442">Approaching Android with MVVM</a></h3>
+    <p>以 Android 新的 <a href="https://developer.android.com/tools/data-binding/guide.html">data binding library</a> 開發 MVVM（<a href="https://en.wikipedia.org/wiki/Model_View_ViewModel">Model-View-ViewModel</a>）架構 <a href="https://news.ycombinator.com">HackerNews</a> App 之經驗分享，包含 MVVM 架構基礎介紹。</p>
+
+<p>延伸閱讀：</p>
+
+<ol>
+<li><a href="https://medium.com/android-news/loading-images-with-data-binding-and-picasso-555dad683fdc">Loading images with data binding and Picasso</a> - Data Binding 搭配 ImageView 的實務分享</li>
+<li><a href="http://blog.stylingandroid.com/category/data-binding/">Data Binding | Styling Android</a> - 一系列的 Data Binding 教學文章</li>
+</ol>
+  <span class="item__footer"><a href="https://medium.com/ribot-labs/approaching-android-with-mvvm-8ceec02d5442">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="e9IuMCu"></a>
+  
+  <h3 class="item__title"><a href="http://learnxinyminutes.com/docs/perl6/">Learn Perl 6 in Y minutes</a></h3>
+    <p>等了 15 年，<a href="http://perl6.org/">Perl 6</a> 終於要正式問世了。</p>
+
+<p>更簡潔清楚的語法、富彈性的 function 參數宣告、靜態型別系統、具體的 OOP 支援、lazy evaluation、巨集（Macro）等……，它跟 Perl 5 已經是完全不同的新語言了。</p>
+
+<p>不知道它會不會逆勢反撲，不過有興趣的人可以從這份教學稍微體驗一下這個「新」語言。</p>
+  <span class="item__footer"><a href="http://learnxinyminutes.com/docs/perl6/">learnxinyminutes.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="V6a8EU7"></a>
+  
+  <h3 class="item__title"><a href="https://codelympics.io/blog/learning-new-programming-languages">如何學一門新程式語言</a></h3>
+    <ol>
+<li>找出一門你覺得跟新語言很像的語言，然後去確定他們<strong>真正</strong>不同之處 → 避免錯誤的偏見印象</li>
+<li>用新語言重寫寫一份你最近用熟悉的語言寫過的東西 → 讓你掌握它的優點與缺點</li>
+<li>列出第一份語言帶給你的本能習慣，練習忽略掉在新語言裡已經不重要的事情 → 不要被過去的習慣侷限新語言的可能性</li>
+</ol>
+  <span class="item__footer"><a href="https://codelympics.io/blog/learning-new-programming-languages">codelympics.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="R1E22jQ"></a>
+  
+  <h3 class="item__title"><a href="https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/">Callbacks are imperative, promises are functional</a></h3>
+    <p>如果可以只描述<strong>「想做什麼」</strong>讓編譯器或是 library 去處理<strong>「該怎麼做」</strong>，出錯的機率肯定比自己把目的轉換成動作來得低。</p>
+
+<p>我直到看完這篇文章才對這種差異比較有感覺。大家有機會試試 Reactive Programming 或是 Functional Programming 這類<a href="https://en.wikipedia.org/wiki/Declarative_programming">宣告式（Declarative）</a>的程式寫法吧。</p>
+  <span class="item__footer"><a href="https://blog.jcoglan.com/2013/03/30/callbacks-are-imperative-promises-are-functional-nodes-biggest-missed-opportunity/">jcoglan.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="npFJfFO"></a>
+  
+  <h3 class="item__title"><a href="https://www.thoughtworks.com/insights/blog/ba-practice-business-terms">BA Practice: Business Terms</a></h3>
+    <p>釐清產品領域內專業用詞（Business Terms）的定義不只有助於專案開發過程中的溝通，也可以模塑出更精準的系統架構。這份資訊可以做為新成員或使用者了解系統的起點。</p>
+
+<p>具體做法可以參考文章最末作者的心得整理。</p>
+  <span class="item__footer"><a href="https://www.thoughtworks.com/insights/blog/ba-practice-business-terms">thoughtworks.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="h7ihsHP"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="http://www.66kjobs.tw/jobs/1107">前端工程師 at Babbo</a></h3>
+    <blockquote><p>來信 <a rel="nofollow" href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#104;&#x65;&#x6c;&#x6c;&#x6f;&#64;&#98;&#97;&#x62;&#46;&#98;&#x6f;">&#x68;&#x65;&#x6c;&#x6c;&#x6f;&#x40;&#x62;&#x61;&#98;&#x2e;&#x62;&#111;</a> 請附上你的簡歷和任何可以在網路上找到你的帳號名稱。如果我們覺得你適合這份工作，我們會跟你約個時間面試（如果你不在台北，也可以先電話面試）；如果我們覺得你不太適合這個職務，也一定會回信告訴你為什麼，不會讓你的求職信石沈大海。</p></blockquote>
+
+<hr />
+
+<p>溫馨提醒：</p>
+
+<ul>
+<li><a rel="nofollow" href="http://weekly.codetengu.com/issues/6#zbbDwbF">精益技术简历之道 —— 改善技术简历的 47 条原则</a>。</li>
+<li><a rel="nofollow" href="https://drive.google.com/open?id=0B7GBorzHG0UbR1NUUzd4b05RZ2s">上班族不可侵犯的十個權益</a></li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="http://www.66kjobs.tw/jobs/1107">66kjobs.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="qbxSfBD"></a>
+  
+  <h3 class="item__title"><a href="http://healthyprog.com/">The Healthy Programmer</a></h3>
+    <p>這是一本特別寫給軟體工程師看的書，因為我們使用身體的方式很反自然。老是坐著、長期盯著螢幕、雙手一直放在鍵盤上、連路都走得比別人少 (書中提到工程師每日平均步行 4300 步，全體平均是 9700 步)，這樣真的沒問題嗎？</p>
+
+<p>好的生活方式跟技巧不只可以讓我們更健康也可以讓我們更有生產力。比方說運動後腦中會產生 <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2821174/">BDNF (Brain-derived neurotrophy factor，腦衍生神經滋長因子) 可以暫時提升人的記憶力</a>。書中提供了很多這類的知識，在這個例子，我們就可以藉此更科學的排工作流程。</p>
+
+<p>為了讓你成為一個健康的人，這本書循序漸進地先從養成習慣的技巧開始，接著做個總體測驗嚇嚇你、分析你可能需要調整的部位跟介紹技巧，還出了一個<a href="https://itunes.apple.com/us/app/the-healthy-programmer/id576258650">很醜的 iOS app</a> 可以督促你每天都要做一些讓你更健康的事情。</p>
+
+<blockquote><p>這本書的作者也是一個軟體工程師，書中的用語都很親切，比方說有 <strong>Unit Testing Your Health</strong>, <strong>Agile Dieting</strong>, <strong>Refactoring Your Fitness</strong> 等等。</p></blockquote>
+
+<p>由 <a href="https://twitter.com/saiday">@saiday</a> 分享。</p>
+  <span class="item__footer"><a href="http://healthyprog.com/">healthyprog.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/10/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2015-10-05'>October 5th 2015</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>11 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/12/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2015-10-19'>October 19th 2015</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

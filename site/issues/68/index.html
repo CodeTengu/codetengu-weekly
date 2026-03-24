@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 68 這個人老是在寫程式，是不是有 bin 啊？</title>
+<meta name="description" content="本期內容涵蓋 iOS, Android, JSON, Python, Elm, React">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 iOS, Android, JSON, Python, Elm, React'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/68/index.html#start">
+        Issue 68 這個人老是在寫程式，是不是有 bin 啊？ &nbsp;<i><time class='published' datetime='2016-11-14'>November 14th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-201800"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob">We Are Legion (We Are Bob)</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 買了文明帝國 6</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="XN6suV4"></a>
+  
+  <h3 class="item__title"><a href="http://webpro.github.io/programming-principles/">Programming Principles</a></h3>
+    <p>文章裡列了一些程式設計的原則跟模式。 (KISS, YAGNI, ...) 每條原則下會有概略的介紹跟「為什麼」、「如何做」，篇幅精簡非常值得一滑。</p>
+
+<p>這些軟體開發原則就像是口訣一樣，是不應該脫離實作的，有些比較抽象的東西過一陣子再看會有新的體悟。  <del>像楊過就很痛恨趙志敬只背口訣，不授武功的教法</del></p>
+
+<p>除非都是自己一個人寫程式，不需要討論也不參與其他人的專案開發，那也許真的不需要確切地知道這些名詞，會用就好。否則適當使用這些軟體開發裡大家都有共識的名詞，可以讓我們省下很多溝通的成本也更精確，人生苦短，不用再因為一些已經存在的問題再創造新的問題了。</p>
+  <span class="item__footer"><a href="http://webpro.github.io/programming-principles/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="pDwKESZ"></a>
+  
+  <h3 class="item__title"><a href="http://holko.pl/2016/07/07/popping-into-uiviewpropertyanimator/">Popping into UIViewPropertyAnimator</a></h3>
+    <p>iOS 10 的 <a href="https://developer.apple.com/reference/uikit/uiviewpropertyanimator">UIViewPropertyAnimator</a> 是一個重要的更新，新的 UIKit 動畫解決方案，用來取代大家習慣的那個 <code>animate(withDuration...</code> API。</p>
+
+<p>以往在 iOS 需要做到暫停、回復及透過外部狀態控制進度的動畫的時候，只有兩種選擇，官方的 <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html">Core Animation</a> 或是 Facebook 的 <a href="https://github.com/facebook/pop">POP</a>，以後就可以把這些情況的動畫交給 <code>UIViewPropertyAnimator</code> 做了。</p>
+
+<p>推薦大家可以看一下內文，裡面對 Core Animation 及 POP 有簡短且精要介紹，再更複雜一些的動畫，還是得用它們不可。</p>
+  <span class="item__footer"><a href="http://holko.pl/2016/07/07/popping-into-uiviewpropertyanimator/">holko.pl</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sxQ50G6"></a>
+  
+  <h3 class="item__title"><a href="https://engineering.nodesagency.com/articles/iOS/Understanding-code-signing-for-iOS-apps/">Understanding code signing for iOS apps</a></h3>
+    <p>對 iOS 開發者來說，第一次碰到這個複雜的 Code Signing 流程時一定都被搞得一頭霧水，但反正亂弄一通也就解決了，下次再碰到的時候可能是設定 CI 環境、換電腦開發，甚至是憑證到期時。</p>
+
+<p>雖然每次胡搞瞎搞其實也不會有什麼嚴重的不可逆的後果，頂多就是為團隊製造了一些麻煩，但了解 Code Signing 還是蠻必要的啦。</p>
+
+<p>如果你對 Code Signing 的運作沒有完全了解的話，這篇講得非常的詳細，也包含了一些大家對於 Code Signing 常見的問題跟回答。</p>
+  <span class="item__footer"><a href="https://engineering.nodesagency.com/articles/iOS/Understanding-code-signing-for-iOS-apps/">nodesagency.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sVhi84E"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@vergauwen.simon/400-faster-layouts-with-anko-da17f32c45dd#.egm2x9rgb">400% faster layouts with Anko</a></h3>
+    <p><a href="https://github.com/Kotlin/anko">Anko</a> 是一個用 <a href="https://kotlinlang.org/">Kotlin</a> 寫的函式庫，主要目的是要取代在 Android 上的 XML layout 系統。</p>
+
+<p>比起 XML，用程式碼產生視覺元件當然會比較快，畢竟 XML 是在 runtime 才被解析，所以 findViewById 後還需要再指定型別，這其實也很不安全，用 Anko 的話就沒有這個問題了。再加上我覺得程式碼比起 XML 更適合在版本控制上看 diff。</p>
+
+<p>而 Anko 是用 Kotlin 寫的，大家也知道 Kotlin 是 JetBrains 開發的語言，所以 Android Studio 裝個 <a href="https://plugins.jetbrains.com/plugin/7734">Anko Preview Plugin</a> 就可以在 IDE 直接預覽。</p>
+
+<p>其實 Kotlin 跟 Java 的整合使用一直都沒有什麼問題，從 Anko 來導入 Kotlin 到既有專案是很適合的選擇。</p>
+  <span class="item__footer"><a href="https://medium.com/@vergauwen.simon/400-faster-layouts-with-anko-da17f32c45dd#.egm2x9rgb">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SFT0nQ5"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83#.u4ee60h06">Finally understanding how references work in Android and Java</a></h3>
+    <blockquote><p>If you are an Android developer and you do not use WeakReferences, you have a problem.</p></blockquote>
+
+<p>有一個朋友對作者說了這句話，促使他寫下這篇文。</p>
+
+<p>我非常同意記憶體管理的重要性，它的影響相當深遠。當一個專案不重視記憶體管理，在導入 Rx 或是 EventBus 這類可以 observe, subscribe 的 framework 之後，你就可能得開始 debug 那些因為 leak  造成的怪事，完全不只是「我記憶體很大我不怕」這麼簡單的事情而已。</p>
+
+<p>文章介紹了四種 reference type:</p>
+
+<ul>
+<li>strong</li>
+<li>weak</li>
+<li>soft</li>
+<li>phantom</li>
+</ul>
+
+
+<p>其實這是我第一次聽到 phantom reference～</p>
+  <span class="item__footer"><a href="https://medium.com/google-developer-experts/finally-understanding-how-references-work-in-android-and-java-26a0d9c92f83#.u4ee60h06">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="BhhLigB"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/kdeldycke/awesome-falsehood">Awesome Falsehood: Curated list of falsehoods programmers believe in.</a></h3>
+    <p>整理了對於各種事情常見的錯誤假設，程式設計上這些錯誤假設帶來的問題，以及解法。</p>
+
+<p>因為每個人的成長環境使然，我們對這個世界總是有一些根據經驗得來的假設；但是當系統被放到比較大的 scale，例如原本自己用的程式要給公司用、公司內部的程式要公開、本地市場要往外拓展、台灣市場的產品要拿給全世界等等，就會發現原本的假設開始不成立。根據我自己的經驗，常見的 falsehood 包括：</p>
+
+<ul>
+<li>時區。因為台灣只有一個時區、領土很小、也沒有日光節約時間，台灣人對於時差、時間調整、跨日等方面的知識很鬆散，通常需要砍掉重練。</li>
+<li>日期。台灣人習慣 yyyy/mm/dd 格式，但世界上絕大多數地方的慣用格式都不是這樣。「噢，我知道！應該寫成 mm/dd yyyy 對吧！」<a href="https://en.wikipedia.org/wiki/Date_format_by_country">不對喔</a>。請愛用 ISO-8601。</li>
+<li>編碼。英文文本一定可以用 ASCII 編碼？<a href="https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9">錯</a>。只要把 UTF-16 放到 array 裡，就可以 O(1) 算出某個字的位置，以及字串長度？<a href="https://developer.apple.com/swift/blog/?id=30">錯</a>。（提示：你慣用的程式語言與開發框架的字串實作是錯的。除非你用 Swift，而且從來不碰 <code>NSString</code> API。）</li>
+<li>人名。中文人名的格式非常固定，所以常見到許多人對人名有不合理的假設，例如人一定有姓名、哪個要放在前面、以及應該會有合理的長度。但這其實<a href="http://www.matataiwan.com/2014/04/08/stories-behind-an-indigenous-name/">在台灣就不適用了</a>，更何況<a href="https://hk.thenewslens.com/article/53134">世界</a><a href="https://zh.wikipedia.org/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E4%BA%BA%E5%90%8D">這麼大</a>。我現在做系統都放棄治療了，只給使用者一個不限長度的 text input。</li>
+</ul>
+
+
+<p>好像太長了，先到這裡。:p 總之建議至少先把引文裡的連結全部讀過一次，你的世界會變得寬廣。</p>
+
+<p>順帶一提，我們的主編大大 @vinta 可是 Awesome 文章類型的<del>始作俑者</del><a href="https://github.com/vinta/awesome-python">創始人</a>呢。</p>
+  <span class="item__footer"><a href="https://github.com/kdeldycke/awesome-falsehood">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="E43BZjF"></a>
+  
+  <h3 class="item__title"><a href="http://seriot.ch/parsing_json.html">Parsing JSON is a Minefield</a></h3>
+    <p>說到 falsehood，我在網頁開發常遇到一個說法：「JSON 是 JavaScript 的子集」。然後就會有人利用這個特性，寫出類似<a href="http://stackoverflow.com/a/3345111/1376863">這樣的程式</a>。這是錯的。JSON 不是 JavaScript 的子集，因為它們的 key 規則不相容。</p>
+
+<p>喔，不過這不是你的錯，錯的是<del>這個世界</del> JSON spec。因為 JSON spec 本身的設計問題，JSON parser 實作需要處理非常多 edge cases。作者根據 spec 整理了一套 test suite 測試市面上主流的 JSON parsers，並整理它們的相容性。</p>
+
+<p>Spoiler alert：結果很令人哀傷。</p>
+
+<p>對了，前面那個問題的「正確」解法是這樣：</p>
+
+<pre><code class="html">&lt;script id="dumpedJson" type="application/json&gt;{{ dumped_json|safe }}&lt;/script&gt;
+&lt;script&gt;
+var data = JSON.parse(document.getElementById('dumpedJson').textContent);
+&lt;/script&gt;
+</code></pre>
+  <span class="item__footer"><a href="http://seriot.ch/parsing_json.html">seriot.ch</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="LRlqnN1"></a>
+  
+  <h3 class="item__title"><a href="https://www.kennethreitz.org/essays/a-better-pip-workflow">A Better Pip Workflow™</a></h3>
+    <p>Pip 的 requirements.txt 要不要明確指定版本號，一向都是意見分歧的話題。Kenneth 提出了一個解決方案：你應該有兩個 requirements 檔，一個盡可能讓版本號寬鬆，提供良好的 dependency management；一個指定明確版本號，用來保證 deployment 的穩定性。</p>
+
+<p>這是個極好的主意。一個檔案不夠，那你有沒有用兩個呢？根本是突破盲點的思考啊！<del>Kenneth 94 帥戀愛惹 >///&lt;</del> 不過如果你有用過 <a href="http://bundler.io">Bundler</a>，或者受它啟發的套件管理工具如 <a href="https://cocoapods.org">Cocoapods</a> 與 <a href="https://github.com/Carthage/Carthage">Carthage</a>，其實這根本是一樣的邏輯 —— Gemfile 使用寬鬆的版本號，但執行 <code>bundler install</code> 後會產生 Gemfile.lock，其中包含明確的本地函式庫版本，方便重建開發環境。只是 Pip 沒有直接提供這個行為，所以我們得手動作。</p>
+
+<p>但這個 workflow 想法還是很聰明啊。後來也有人提出了一些變種，例如把不 pin 版本號的檔案叫做 requirements.in，或有 pin 版本號的稱作 requirements.lock 等等，不過基本想法就是這樣。</p>
+
+<p>至於有 pin 版本號的檔案該不該進版本控制，就是另一個話題了。這在 Bundler 與 Cocoapods 也是長久爭論的話題，事實上也滿試狀況而定，所以就看看雙方意見，自己選擇覺得有理的一方決定吧。</p>
+  <span class="item__footer"><a href="https://www.kennethreitz.org/essays/a-better-pip-workflow">kennethreitz.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DCyVxtS"></a>
+      <a href="http://www.popularmechanics.com/technology/a21457/the-gif-is-dead-long-live-the-gif/"><img src="original_ratio_extra_large_cd33fac4-860e-46a2-adcc-13ea4407c44b.jpg" title="The Long, Remarkable History of the GIF" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="http://www.popularmechanics.com/technology/a21457/the-gif-is-dead-long-live-the-gif/">The Long, Remarkable History of the GIF</a></h3>
+    <p>GIF。讓人又愛又恨的 GIF。在 2000 年前統治網路，因為 Flash 而淡出，卻又在 2010 年後再度統治網路的 GIF。如果你像我一向從小就泡在網路上（或者比我大很多歲），說不定還會記得那個傳說中的 <a href="http://burnallgifs.org/archives/">Burn All GIFs Day</a>。這篇文章從技術開始，順著時間軸一路說出 GIF 的故事，以及圍繞著它的網際網路故事。同時是篇優秀的講古文、鄉愁文、與技術文。</p>
+  <span class="item__footer"><a href="http://www.popularmechanics.com/technology/a21457/the-gif-is-dead-long-live-the-gif/">popularmechanics.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue">
+  <a name="t-210824"></a>
+  
+  <h3 class="item__title">PyCon Taiwan 2017 志工招募</h3>
+    <p>明年的 PyCon Taiwan 也開始籌備啦！！歡迎大家一起來幫忙。這次多了個 task 想做 mobile apps，如果有這方面專長的就過來吧我們真的很需要你！</p>
+
+<p>我們預計會和 PyCon JP 的人合作，先 fork 他們的專案來改，然後加上中文翻譯。之後應該會整合回去，不過還沒有完整的計畫。<a href="https://github.com/pyconjp/pyconjp-ios">iOS</a> 用 Swift 3 (!)，<a href="https://github.com/pyconjp/pyconjp-android">Android</a> 是 Java。另外 mobile app 使用的資料庫會與 PyCon CZ 的專案整合使用 Firebase，所以也需要做後端的人幫忙，<a href="https://github.com/pycontw/pycontw2016">我們用 Django</a>。</p>
+
+<p>有興趣的人（不論 app 或其他組別）請填<a href="https://docs.google.com/forms/d/e/1FAIpQLSfnTEpD_I74Yeji6GqfI-YSZoYgg7Ax-YCEG5PNHrBusTgn4Q/formResponse">招募表格</a>，或者直接 <a href="mailto:tpchung@pycon.tw">email</a>、<a href="https://twitter.com/uranusjr">Twitter</a> 或 <a href="https://www.facebook.com/uranusjr">Facebook</a> 聯絡我。</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="bvhFTBt"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@enxebre/gitlab-consumer-driven-contracts-helm-and-kubernetes-b7235a60a1cb#.qvwn29mwl">GitLab, Consumer Driven Contracts, Helm and Kubernetes</a></h3>
+    <p>這篇在講用多種技術來實現 CI/CD，如果剛好有在用 gitlab 和 kubernetes 可以花點時間研究一下文章裡面的技術。</p>
+
+<p>除了 gitlab 跟 kubernetes 以外，還有用到 traefik 作為 proxy，helm 來管理 Kubernetes。另外，Pact 也算一個很有趣的技術，Consumer Driven Contracts Testing，幫你做兩個 service 之間的 integration test。正在煩惱 microservice 間的 integration test，或許可以參考看看 Pact。</p>
+  <span class="item__footer"><a href="https://medium.com/@enxebre/gitlab-consumer-driven-contracts-helm-and-kubernetes-b7235a60a1cb#.qvwn29mwl">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Hmua8D9"></a>
+  
+  <h3 class="item__title"><a href="https://engineering.linkedin.com/blog/2016/10/instant-messaging-at-linkedin--scaling-to-hundreds-of-thousands-">Instant Messaging at LinkedIn: Scaling to Hundreds of Thousands of Persistent Connections on One Machine</a></h3>
+    <p>Linkedin 如何實現 Instant Messaging 的技術，他們選用了 Server-sent events，搭配 Akka 和 Play framework。</p>
+
+<p>文章後半很詳敘的敘述所遇到的限制跟如何調整，對 JVM 或機器 tuning 有興趣的人建議可以深入研究。</p>
+  <span class="item__footer"><a href="https://engineering.linkedin.com/blog/2016/10/instant-messaging-at-linkedin--scaling-to-hundreds-of-thousands-">linkedin.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Aw2FTrg"></a>
+  
+  <h3 class="item__title"><a href="https://becoming-functional.com/single-page-web-apps-in-elm-535145569bed#.b18blygdp">Single Page Web Apps in Elm</a></h3>
+    <p>這篇著墨在 Client side routing，在 Elm 裡面可以使用 elm-lang/navigation 這個 package。</p>
+
+<p>Elm 在 navigation 上面的設計非常簡潔，例如將 route path 轉成 List String。接著 view function 可以對應 List String 產生相對的 Html Msg。</p>
+
+<p>等於 url 的 parse 跟 update 過程都可以轉成 Elm architecture 的一部分，讓 routing 變得相當自然。</p>
+  <span class="item__footer"><a href="https://becoming-functional.com/single-page-web-apps-in-elm-535145569bed#.b18blygdp">becoming-functional.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="gk0YizM"></a>
+  
+  <h3 class="item__title"><a href="https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.mron3jm4e">How to Use Animation to Improve UX</a></h3>
+    <p>此篇講述如何利用動畫來增進使用者體驗，像是不要只給一個 loading 的轉盤 icon。可以放畫面的框架作為動畫，讓使用者更能掌握畫面的變動，而不單單只是等待。</p>
+
+<p>描述更多狀態的改變，而不是單單地跳頁，像是可以移動 Menu bar 的 highlight 位置，做更多的畫面 scrolling。讓使用者更了解畫面配置或 UI 的 flow。</p>
+
+<p>當事情發生錯誤，或使用者完成某些任務的時候，透過動畫可以讓使用者更清楚知道那裡有問題。</p>
+  <span class="item__footer"><a href="https://uxplanet.org/how-to-use-animation-to-improve-ux-338819e93bdb#.mron3jm4e">uxplanet.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="s67A9n"></a>
+  
+  <h3 class="item__title"><a href="https://daveceddia.com/visual-guide-to-state-in-react/">A Visual Guide to State in React</a></h3>
+    <p>算是一篇 React 入門的文章，如果對於 React state 還不熟悉的朋友可以研究看看。</p>
+
+<p>非常生動地將 React state 改變的過程畫出來給你看。</p>
+
+<p>也有提供簡單的 Code 供大家參考。</p>
+  <span class="item__footer"><a href="https://daveceddia.com/visual-guide-to-state-in-react/">daveceddia.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="3dSlTay"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#116;&#122;&#97;&#x6e;&#x67;&#109;&#115;&#x40;&#115;&#116;&#x72;&#101;&#x65;&#x74;&#118;&#x6f;&#105;&#99;&#101;&#46;&#x63;&#111;&#x6d;">&#116;&#122;&#97;&#x6e;&#x67;&#x6d;&#115;&#64;&#x73;&#116;&#114;&#101;&#x65;&#116;&#118;&#x6f;&#105;&#99;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="S9tbS3S"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">PHP Developer at StreetVoice</a></h3>
+    <p>開發及維護 StreetVoice 旗下相關網站。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#x74;&#122;&#97;&#x6e;&#x67;&#x6d;&#115;&#64;&#x73;&#x74;&#114;&#x65;&#x65;&#116;&#x76;&#x6f;&#x69;&#x63;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x74;&#122;&#97;&#x6e;&#x67;&#109;&#x73;&#64;&#115;&#116;&#114;&#x65;&#x65;&#x74;&#118;&#x6f;&#105;&#x63;&#101;&#x2e;&#x63;&#111;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/67/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-11-07'>November 7th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>68 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/69/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-11-21'>November 21st 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

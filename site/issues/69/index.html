@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 69 澳門首家線上賭場上線啦</title>
+<meta name="description" content="本期內容涵蓋 Machine Learning, PHP, Elasticsearch, Kubernetes, Ethereum, Docker, iOS, macOS, Swift">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Machine Learning, PHP, Elasticsearch, Kubernetes, Ethereum, Docker, iOS, macOS, Swift'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/69/index.html#start">
+        Issue 69 澳門首家線上賭場上線啦 &nbsp;<i><time class='published' datetime='2016-11-21'>November 21st 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-201801"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href="https://www.douban.com/people/vinta/">More Than Human</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 買了文明帝國 6</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 婚後生活</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="M512Zoo"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-6-jiang-xue-xi-bi-ji-2/">林軒田教授機器學習技法 Machine Learning Techniques 第 6 講學習筆記</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>在上一講中，我們了解了如何使用 SVM 來解 Logistic Regression 的問題，一個是使用 SVM 做轉換的 Probabilistic SVM，一個是使用 SVM Kernel Trick 所啟發的 Kernel Logistic Regression。這一講我們將繼續介紹如何延伸到解 Regression 的問題。</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-6-jiang-xue-xi-bi-ji-2/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5i5jXoA"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5">20 Weird &amp; Wonderful Datasets for Machine Learning - 20 個有趣的機器學習資料集</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>大家都在講 Data Science、Machine Learning，但談這些之前有一個最重要的一環就是 Datasets，本篇文章分享了一些有趣的 Datasets 連結，沒想到居然還有 UFO 目擊報告的資料集！</p>
+
+<p>說到 Datasets，幾乎沒有看到台灣的軟體公司或是開發者在 Datasets 這一塊有開源貢獻，所以敝公司 <a href="https://www.indievox.com">iNDIEVOX</a> 近期拋磚引玉開源了 <a href="https://github.com/indievox-inc/iNDIEVOX-Dataset">iNDIEVOX Datasets</a>！這些 Datasets 可以做到 iNDIEVOX 的 <a href="https://www.indievox.com/radio/va">Valence Arousal DJ Radio</a>、<a href="https://www.indievox.com/radio/">Emotion Radio</a>、Buy Together 等功能喔！至於怎麼做，大家可以自己摸索看看，當然也可以想想看可以用這些資料做出什麼其他有趣功能，這就是開源好玩的地方～
+如果有做出什麼有趣的實驗，也請告訴我們、分享一下喔！</p>
+  <span class="item__footer"><a href="https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="CNPs0Xj"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/ZuzooVn/machine-learning-for-software-engineers">Top-down learning path: Machine Learning for Software Engineers - 給軟體工程師的機器學習手冊</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>這是一位 Mobile Developer 為了轉職學習 Machine Learning 而整理的學習筆記，學習資源真的很豐富，全部看完應該會不得了！其中我覺得「Don't feel you aren't smart enough」這一點真的蠻重要的，盡量去學學看、做做看吧！</p>
+  <span class="item__footer"><a href="https://github.com/ZuzooVn/machine-learning-for-software-engineers">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="K9GEILt"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/machine-learnings/a-humans-guide-to-machine-learning-e179f43b67a0">The Non-Technical Guide to Machine Learning &amp; Artificial Intelligence - 給非技術人員的機器學習/人工智慧指南</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>雖說是給非技術人員的機器學習/人工智慧指南，但很多資源對技術人員也是很有幫助的，文中的 News Sources 有蠻多其實說不定要懂技術才看得懂，例如：<a href="https://research.googleblog.com/">Google Research Blog</a>、<a href="https://deepmind.com/blog/">Deep Mind Blog</a> 等等，而介紹搞機器學習/人工智慧的 Startups 也很有用，可以大概了解一下目前產業在機器學習的應用上會在哪些方向。</p>
+  <span class="item__footer"><a href="https://medium.com/machine-learnings/a-humans-guide-to-machine-learning-e179f43b67a0">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dItOmyP"></a>
+  
+  <h3 class="item__title"><a href="https://hackmd.io/s/SJEH1KZgx">PHPConf 2016 筆記</a></h3>
+    <p>PHP：初級</p>
+
+<p><a href="http://2016.phpconf.tw/">PHPConf 2016</a> 在十月底已經落幕了，今年由於一些私事沒辦法參與（感謝 <a href="https://twitter.com/shengyou">@shengyou</a> 邀請參與 QA Track 會談人），只好在網路上找相關筆記來了解一下今年的會議內容，今年請了 Modern PHP 作者 <a href="https://twitter.com/codeguy">Josh Lockhart</a> 及 PHPUnit 測試框架作者 <a href="https://twitter.com/s_bergmann">Sebastian Bergmann</a> 來分享演講，現場應該很精采吧～</p>
+  <span class="item__footer"><a href="https://hackmd.io/s/SJEH1KZgx">hackmd.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="1YsBUUY"></a>
+  
+  <h3 class="item__title"><a href="http://code972.com/blog/2016/11/102-all-you-need-to-know-about-elasticsearch-5-0-index-management">All you need to know about Elasticsearch 5.0: Index management</a></h3>
+    <p>如果你還沒用過 ELK，你可以就從最新的 <a href="https://www.elastic.co/products">5.0</a> 版開始安裝和使用。新的 Elasticsearch 5.0 幾週前正式 released，它讓一個開放軟體成功轉變成商用版來運行。也就是說，不想一而再，再而三更新版本的人，現在可以正式開始使用了。但相反的，也開始會收商用版的 license 費用 (如果你願意付的話)。如果你想知道 Elasticsearch 5.0 有什麼新功能，<a href="http://code972.com/blog/2016/11/101-all-you-need-to-know-about-elasticsearch-5-0-search">All you need to know about Elasticsearch 5.0: Search</a>。它主要功能還是在幫你做全文檢索的 indices，所以本篇文章介紹一些技巧和 indices 的種類，如果有興趣研究的可以參考。</p>
+  <span class="item__footer"><a href="http://code972.com/blog/2016/11/102-all-you-need-to-know-about-elasticsearch-5-0-index-management">code972.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jmWJrY4"></a>
+  
+  <h3 class="item__title"><a href="https://renzedevries.wordpress.com/2016/11/07/using-kubernetes-minikube-for-local-test-deployments/">Using Kubernetes Minikube for Local test deployments</a></h3>
+    <p>kuberenetes cluster 有點難設定，如果不是 production 用，可以改用 <a href="https://github.com/kubernetes/minikube">minikube</a> 安裝單機版 kubernetes。本篇文章教你很快架設測試或教學用的 kubernetes 環境。如果還缺少 kubectl 指令，可以參考 <a href="http://kubernetes.io/docs/user-guide/prereqs/">here</a> 或 <a href="https://coreos.com/kubernetes/docs/latest/configure-kubectl.html">Setting up kubectl</a> 安裝。</p>
+
+<p>安裝好了 minikube， 你可以拿 <a href="https://github.com/nodesource/nsolid-kubernetes">nsolid-kubernetes</a> 原始碼來試試看。</p>
+  <span class="item__footer"><a href="https://renzedevries.wordpress.com/2016/11/07/using-kubernetes-minikube-for-local-test-deployments/">wordpress.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ZB9KM8f"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/decentralized-capital/setting-up-a-parity-ethereum-node-in-docker-and-connect-safely-f881faa17686">Running a Parity Ethereum node in Docker and connect safely</a></h3>
+    <p>如果你想學 Solidity 語言，<a href="https://www.youtube.com/watch?v=MlaLRgUYeLo&amp;feature=youtu.be">這個影片</a>由 Ethereum 發明人 <a href="https://en.wikipedia.org/wiki/Vitalik_Buterin">Vitalik Buterin</a> 親自在 <a href="https://www.meetup.com/Taipei-Ethereum-Meetup/">Taipei Ethereum Meetup</a> 教我們如何用 Solidity 語言撰寫智能合約與除錯技巧。但撰寫智能合約與開發一般電腦語言程式，最大不同之處，在於你要先有一個 Ethereum 帳號，以及一個電子錢包，每次執行一個合約，即使是測試你的程式對不對，都要定義你的 gas price，且告知你想花多少 <a href="https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/">gas</a> 來執行你的程式。</p>
+
+<p>這篇文章，就是介紹你如何用 Docker 開一個 Ethereum 電子錢包，以確保你開的帳戶和使用電子錢包匯錢時，是比較安全的。最後你只要在 <a href="https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.4+commit.4633f3de.js">browser-solidity</a> 上撰寫以及編譯程式，再 cut and paste 到電子錢包裡執行就好。對了，錢包裡還沒有半毛錢，是無法轉換成 gas 來執行你的程式，快到全家便利商店，買一點比特幣換成 Ether 匯到你剛開好的帳戶即可。</p>
+
+<pre><code>docker pull ethcore/parity:beta-release
+</code></pre>
+  <span class="item__footer"><a href="https://medium.com/decentralized-capital/setting-up-a-parity-ethereum-node-in-docker-and-connect-safely-f881faa17686">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="KfYlFn2"></a>
+  
+  <h3 class="item__title"><a href="https://engineering.nodesagency.com/articles/iOS/Understanding-code-signing-for-iOS-apps/">Understanding code signing for iOS apps</a></h3>
+    <p>Code signing 應該是絕大多數蘋果開發者心中的痛，無論是對老手或新手都是。就算最新的 Xcode 在這方面已經有所改善，搞懂 code signing 仍舊是開發者必備知識之一。這篇文章以深入淺出的方式，解釋 code signing 的原理以及每個步驟代表的意義，讀懂之後就會有種豁然開朗的感覺。</p>
+  <span class="item__footer"><a href="https://engineering.nodesagency.com/articles/iOS/Understanding-code-signing-for-iOS-apps/">nodesagency.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FpLHWVX"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/jcampbell05/xcake">Xcake: Describe and generate Xcode projects in a human readable format.</a></h3>
+    <p>如果你們的 iOS 開發團隊稍具規模，一定曾經發生過多條 branch 同時進行，最後要 merge 回去時發現 Xcode Project 檔產生衝突無法自動合併，或是能夠合併但結果卻不是完全正確。</p>
+
+<p>我曾經施行了以下方法來避免這個情況發生：</p>
+
+<ul>
+<li><a href="http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects">排序 project file 裡頭的檔案</a></li>
+<li><a href="http://nelson.logdown.com/posts/2015/10/07/automatically-resolve-xcode-project-file-merge-conflict">使用 union 的合併策略</a></li>
+<li>要求工程師先 rebase 再 merge</li>
+</ul>
+
+
+<p>理論上來說這三點應該可以避免 conflict 產生了，不過最後一點實在是太難達成，所以...你懂的 :(</p>
+
+<p>因此最近我在嘗試另一個解決辦法：不要提交 project file 就不會衝突了。在研究過一些工具像是 <a href="https://github.com/facebook/buck">Facebook - Buck</a> 跟 <a href="https://gyp.gsrc.io/">GYP - Generate Your Projects</a> 之後，我最後選擇了 Xcake 這個比較輕量化的工具。</p>
+
+<p>它有以下優點：</p>
+
+<ul>
+<li>可讀性高的設定檔</li>
+<li>可設定 Build Settings 的各個設定</li>
+<li>可設定 Build Phases 的 scripts</li>
+<li>根據檔案的目錄架構產生對應的 Group，如果你的檔案原本都丟在同一個目錄下，建議可以先用 <a href="https://github.com/venmo/synx">synx</a> 整理一下</li>
+<li>作者回應非常快速，也是因為這個原因，所以我願意使用它</li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/jcampbell05/xcake">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uvbzTHL"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/devlinkcn/ppts_for_idev2016/tree/master/PDF">PPTs for iDEV 2016</a></h3>
+    <p>前一陣子在中國大陸舉辦的 <a href="http://www.bagevent.com/event/207773">iDev 全平台開發者大會</a> 落幕了，這個活動主要面向 iOS、Mac OS 以及相關生態鏈的開發者。最近它們釋出了每個講者的投影片，大家可以找自己感興趣的議題研究研究。</p>
+  <span class="item__footer"><a href="https://github.com/devlinkcn/ppts_for_idev2016/tree/master/PDF">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3nqoiDs"></a>
+  
+  <h3 class="item__title"><a href="https://kapeli.com/dash_ios">Dash for iOS</a></h3>
+    <p>經過了一連串的事件（<a href="https://blog.kapeli.com/apple-removed-dash-from-the-app-store/">1</a>, <a href="https://blog.kapeli.com/dash-and-apple-my-side-of-the-story/">2</a>, <a href="https://blog.kapeli.com/dear-dash-users/">3</a>）之後，作者最後決定要開源 Dash for iOS 了。是說我還想不到要在手機上查看 API 文件的理由啦，不過有需要的人可以去下載原始碼然後編譯到自己手機上了，或是你單純只想要看看人家是如何開發的，這也是一個很好的學習機會。</p>
+
+<p>不過話說回來，透過閱讀它的程式碼就會發現，一個軟體是否成功跟程式碼寫得好不好，其實<a href="https://twitter.com/BalestraPatrick/status/798278284320604160">沒有直接關係</a> XD</p>
+  <span class="item__footer"><a href="https://kapeli.com/dash_ios">kapeli.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mm56B18"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/BendingSpoons/katana-swift">katana-swift</a></h3>
+    <p>Katana 是一個最近推出的 framework，它受到 <a href="https://facebook.github.io/react/">React</a> 跟 <a href="http://redux.js.org/">Redux</a> 的啟發，類似的東西還有 <a href="https://github.com/ReSwift/ReSwift">ReSwift</a>。假如你的軟體達到了一定的複雜度，的確可以試試看這些做法，它會讓程式架構更好維護、程式碼更穩定，但如果你的軟體一點都不複雜，那還是乖乖地用 MVC 架構就好了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c">用 Objective-C 實作 Redux 架構</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/BendingSpoons/katana-swift">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="arSmMyM"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer at StreetVoice</a></h3>
+    <p>開發與維護 <a rel="nofollow" href="https://streetvoice.com/">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x74;&#122;&#x61;&#x6e;&#x67;&#x6d;&#115;&#x40;&#x73;&#x74;&#114;&#x65;&#x65;&#x74;&#x76;&#111;&#x69;&#99;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x74;&#x7a;&#97;&#110;&#103;&#x6d;&#x73;&#x40;&#115;&#116;&#x72;&#x65;&#x65;&#116;&#x76;&#x6f;&#x69;&#x63;&#x65;&#46;&#99;&#111;&#109;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="e9RPLcp"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">PHP Developer at StreetVoice</a></h3>
+    <p>開發及維護 StreetVoice 旗下相關網站。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x74;&#x7a;&#x61;&#x6e;&#x67;&#x6d;&#115;&#64;&#x73;&#116;&#114;&#101;&#101;&#116;&#118;&#x6f;&#x69;&#99;&#101;&#46;&#99;&#111;&#x6d;">&#116;&#x7a;&#x61;&#x6e;&#103;&#x6d;&#115;&#64;&#115;&#x74;&#114;&#x65;&#101;&#x74;&#118;&#x6f;&#105;&#99;&#x65;&#46;&#99;&#x6f;&#x6d;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="NeRqQEt"></a>
+      <a href="https://quickdraw.withgoogle.com/"><img src="original_ratio_extra_large_a1753cd5-da23-41ae-b9b7-c16e8593673e.png" title="Quick, Draw! Google AI Experiments - 你畫我猜實驗應用程式" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://quickdraw.withgoogle.com/">Quick, Draw! Google AI Experiments - 你畫我猜實驗應用程式</a></h3>
+    <p>Google AI Experiments 推出的你畫我猜實驗小遊戲，使用 neural network 訓練機器學習辨識手繪塗鴉，辨識率非常高！不過在幫大家辨識塗鴉時，其實大家也一邊在幫 Google 餵訓練資料，未來辨識率會越來越高吧！Google 要慢慢用 AI 統治世界了嗎？</p>
+
+<p>由 <a href="https://twitter.com/fukuball">@fukuball</a> 分享。</p>
+  <span class="item__footer"><a href="https://quickdraw.withgoogle.com/">withgoogle.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/68/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-11-14'>November 14th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>69 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/70/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-11-28'>November 28th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

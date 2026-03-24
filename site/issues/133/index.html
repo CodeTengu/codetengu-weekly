@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 133 帕金森定律：完成工作所需要的時間會被自動延長至所規定的時間上限</title>
+<meta name="description" content="本期內容涵蓋 Python, Bash, AWS, Kubernetes, Terraform, JavaScript, GraphQL, Go, ORM, Haskell">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, Bash, AWS, Kubernetes, Terraform, JavaScript, GraphQL, Go, ORM, Haskell'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/133/index.html#start">
+        Issue 133 帕金森定律：完成工作所需要的時間會被自動延長至所規定的時間上限 &nbsp;<i><time class='published' datetime='2018-07-02'>July 2nd 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-395250"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Wool</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 》〉》<a href="https://www.yourator.co/companies/escapex/jobs/3116">我們要找 iOS 工程師</a>《〈《</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="4o57Xb1"></a>
+  
+  <h3 class="item__title"><a href="https://realpython.com/python37-new-features/">Cool New Features in Python 3.7</a></h3>
+    <p>Python 3.7 在前陣子釋出了，多了不少新功能，大家感受一下。</p>
+
+<p>Dataclass 都出現了，說不定過一陣子 Python 也會有 Pattern Matching 了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.python.org/downloads/release/python-370/">Python Release Python 3.7.0</a></li>
+</ul>
+  <span class="item__footer"><a href="https://realpython.com/python37-new-features/">realpython.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="MANUH3R"></a>
+  
+  <h3 class="item__title"><a href="https://mywiki.wooledge.org/BashPitfalls">Bash Pitfalls</a></h3>
+    <p>程式語言地獄的兩座高山，JavaScript 和 Bash！</p>
+
+<p>讀完這份資料才知道原來我們每天都在用一個這麼危險的東西啊！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.soasme.com/techshack.weekly/verses/5e48b1a1-284c-48f4-ba22-4c6dcfd370ae.html">Bash 使用需要避免掉坑的地方</a></li>
+</ul>
+  <span class="item__footer"><a href="https://mywiki.wooledge.org/BashPitfalls">wooledge.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ZAGiI6s"></a>
+  
+  <h3 class="item__title"><a href="https://uxplanet.org/10-small-design-mistakes-we-still-make-1cd5f60bc708">10 Small Design Mistakes We Still Make</a></h3>
+    <p>值得花時間一讀的文章，可以重新省思對產品的設計。</p>
+
+<p>隨著功能跟死線越來越近，有時候一些簡單的原則反而忘記了，這篇文章的作者提醒了十個我們忘記了的地方。</p>
+
+<p>對照一下，現在產品上那些設計值得改進呢？</p>
+  <span class="item__footer"><a href="https://uxplanet.org/10-small-design-mistakes-we-still-make-1cd5f60bc708">uxplanet.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="F2D711C"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/getamis/aws-eks-pluggable-worker-node-groups-9d7e2d977563">AWS EKS: Pluggable Worker Node Groups by Terraform</a></h3>
+    <p>推一篇敝司 smalltown 大大的文章，如果你也有在用 AWS 跟 terraform，可以參考一下這篇文章的做法。</p>
+
+<p>想找 EKS Cluster 在 AWS 上的解決方案，參考 <a href="https://github.com/getamis/vishwakarma">Vishwakarma</a> 吧！</p>
+  <span class="item__footer"><a href="https://medium.com/getamis/aws-eks-pluggable-worker-node-groups-9d7e2d977563">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uMKmjls"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@jamestthompson3/beyond-counters-using-recompose-and-rxjs-to-build-a-semi-complex-ui-4186ed6b643c">Beyond counters  —  Using recompose and RXJS 6 to build a (semi) complex UI</a></h3>
+    <p>利用 recompose 和 rxjs 做一個 UI 範例。</p>
+
+<p>沒用過的朋友，剛好可以透過這個入門，更了解 recompose 的魅力，還有 rxjs 的實際應用。</p>
+
+<p>在 React 專案中導入這兩個，能讓你的專案的某些部分，語意更精簡，架構也會比較好掌握。</p>
+  <span class="item__footer"><a href="https://medium.com/@jamestthompson3/beyond-counters-using-recompose-and-rxjs-to-build-a-semi-complex-ui-4186ed6b643c">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6ZRKuek"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/safetycultureengineering/why-we-moved-our-graphql-server-from-node-js-to-golang-645b00571535">Why we moved our GraphQL server from Node.js to Golang</a></h3>
+    <p>SafetyCulture 的 GraphQL server 從 Node.js 跳槽到 Golang 的心得。</p>
+
+<p>看起來就是比較方便的 schema generator 跟 type safe，還有較少的 memory usage。</p>
+  <span class="item__footer"><a href="https://medium.com/safetycultureengineering/why-we-moved-our-graphql-server-from-node-js-to-golang-645b00571535">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Jhs6JYA"></a>
+  
+  <h3 class="item__title"><a href="https://blog.expo.io/should-we-use-react-native-1465d8b607ac">Should we use React Native?</a></h3>
+    <p>和 React Native 整合的 Expo 親自出來回應 Airbnb 不用 RN 的事情。</p>
+
+<p>RN 有其優點，還是很適合某些開發情況。但是重要的是評估公司做 App 的目標跟手上的工程師資源。</p>
+
+<p>筆者本身從 React 跳到 React Native，要上手的開發速度非常快。不過 Expo 的問題很多，希望之後能看到 Expo 更進步。</p>
+  <span class="item__footer"><a href="https://blog.expo.io/should-we-use-react-native-1465d8b607ac">expo.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="DbU7xk3"></a>
+      <a href="https://blog.acolyer.org/2018/06/28/how-_not_-to-structure-your-database-backed-web-applications-a-study-of-performance-bugs-in-the-wild/"><img src="original_ratio_extra_large_ead59b48-cc0c-48b6-b62b-acd4ff68e927.jpeg" title="[paper] How not to structure your database-backed web applications: a study of performance bugs in the wild" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://blog.acolyer.org/2018/06/28/how-_not_-to-structure-your-database-backed-web-applications-a-study-of-performance-bugs-in-the-wild/">[paper] How not to structure your database-backed web applications: a study of performance bugs in the wild</a></h3>
+    <p>這篇論文歸納了一些網站開發常見的效能 anti-pattern，如後所列。其中主要是誤用/濫用 ORM 而帶來的影響。如果你使用 Ruby on Rails 開發，可以直接看附圖檢查一下自己的 ORM 用法。</p>
+
+<p><em>ORM API 使用問題</em></p>
+
+<ul>
+<li>Inefficient computation (IC) - 雖然效果類似，但某些 ORM API 採用比較沒效率的 SQL</li>
+<li>Unnecessary Computation (UC) - 不必要的計算（如：在迴圈裡 query）</li>
+<li>Inefficient data accessing (ID)  - 如：N+1 queries 或是一次撈太多資料</li>
+<li>Unnecessary data retrieval (UD)  - 撈根本沒用到的資料</li>
+<li>Inefficient Rendering (IR) - 沒有效率的 view/template 寫法</li>
+</ul>
+
+
+<p><em>資料庫設計問題</em></p>
+
+<ul>
+<li>Missing Fields (MF) - 其實可以存下來、不必每次計算的欄位</li>
+<li>Missing Database Indexes (MI) - 沒有 index</li>
+</ul>
+
+
+<p><em>網站設計的取捨</em></p>
+
+<ul>
+<li>Content Display Trade-offs (DT) - 內容顯示方式取捨，如：分頁與否</li>
+<li>Application Functionality Trade-offs (FT) - 功能取捨，如：很耗計算效能的區塊不一定要每一頁都顯示</li>
+</ul>
+
+
+<p>所以說，ORM /template engine 用起來很方便，還是得知道它到底做了啥才行啊。</p>
+  <span class="item__footer"><a href="https://blog.acolyer.org/2018/06/28/how-_not_-to-structure-your-database-backed-web-applications-a-study-of-performance-bugs-in-the-wild/">acolyer.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9I96Twr"></a>
+  
+  <h3 class="item__title"><a href="http://magic-haskell.com/">[書] 魔力 Haskell</a></h3>
+    <p>Haskell 是我每隔一陣子就會嘗試學習的程式語言（然後總是卡在 category theory 而放棄……）。前陣子買了《魔力 Haskell》，發現讀起來順暢許多。它從實用角度切入、順便介紹相關理論，還有套件系統（Cabal）、常用套件的介紹。</p>
+
+<p>如果你也跟我一樣學習 Haskell 老是遇到挫折，不妨試試看這本。</p>
+
+<ul>
+<li>試讀章節：<a href="https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-10.md">Functor</a>、<a href="https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-11.md">透鏡組（Lens）</a>、<a href="https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-12.md">Applicative Functor</a></li>
+<li>繁體中文譯本：<a href="https://www.tenlong.com.tw/products/9787115432834">天瓏網路書店 - 魔力Haskell</a></li>
+</ul>
+
+
+<p>或者也可以試試看 <a href="https://twitter.com/thecat/status/1012204800274919424">@thecat</a> 推薦的 <a href="https://www.vacationlabs.com/haskell/index.html">Haskell without the theory</a> 。看起來也是從實用角度切入，但我還沒讀過、暫時無法評價。</p>
+  <span class="item__footer"><a href="http://magic-haskell.com/">magic-haskell.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="h1H9gda"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/search?q=%23%E6%8E%A8%E9%96%8B%E6%BA%90">#推開源</a></h3>
+    <blockquote><p>啊！要是我早點知道有這個就好了</p></blockquote>
+
+<p>應該有不少讀者有類似的經驗吧？</p>
+
+<p>所以 <a href="https://twitter.com/Ellaeon">@Ellaeon</a> 在 Twitter 上發起了 <code>#推開源</code> 運動， 歡迎大家一起用這個 hashtag 分享更多有趣的專案吧～</p>
+
+<p>順便幫忙調查：這個主題的實體聚會有人想參加嗎？ XD</p>
+  <span class="item__footer"><a href="https://twitter.com/search?q=%23%E6%8E%A8%E9%96%8B%E6%BA%90">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="dqHL2Gn"></a>
+      <a href="https://www.instagram.com/sukiicat/"><img src="original_ratio_extra_large_d3b9d8c1-3b7d-40d2-9a7a-a8535e07b3d0.jpg" title="[IG] Suki Cat (@sukiicat)" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/sukiicat/">[IG] Suki Cat (@sukiicat)</a></h3>
+    <p>照慣例還是要來推薦一個 Instagram 帳號。這次不是美女而是貓，畢竟網際網路就是用來看貓的啊。這貓真是漂亮到讓人驚艷。</p>
+
+<p>是說，好像很少看到這樣一直在外面晃的寵物貓……</p>
+  <span class="item__footer"><a href="https://www.instagram.com/sukiicat/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/132/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-06-25'>June 25th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>133 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/134/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-07-09'>July 9th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

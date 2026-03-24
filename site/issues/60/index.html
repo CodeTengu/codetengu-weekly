@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 60 There is no place like 127.0.0.1</title>
+<meta name="description" content="本期內容涵蓋 Refactoring, JavaScript, CSS, Functional Programming">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Refactoring, JavaScript, CSS, Functional Programming'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/60/index.html#start">
+        Issue 60 There is no place like 127.0.0.1 &nbsp;<i><time class='published' datetime='2016-09-19'>September 19th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-177850"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://book.douban.com/people/vinta/">The Best of Isaac Asimov</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 太熱了</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - GCP 好用嗎？</li>
+<li><a href="https://twitter.com/wancw">@wancw</a> - comiXology 的坑好大啊～</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - 我們在找 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>
+<li><a href="https://twitter.com/hiroshiyui">@hiroshiyui</a> - 沒有人是一座孤島</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+</ul>
+
+
+<p>大家也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a> 或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="MmvvMYB"></a>
+  
+  <h3 class="item__title"><a href="http://fex.baidu.com/blog/2015/07/front-end-test/">前端自动化测试探索</a></h3>
+    <p>這篇是 <a href="https://twitter.com/vinta/">@vinta</a> 在 CodeTengu 分享過的連結, 只是沒在電子報出現過, 老實說現在連我自己都看 CodeTengu, 然後分享已經分享過的東西, 這樣好像不太對啊 (笑)</p>
+
+<p>在敝公司 StreetVoice, 後端早已經有所謂的單元測試, 有一套還算是完整的 CI / CD 流程, 也這樣跑好幾年了, 但是其實現在網站越用越多 javascript, 甚至也沒在管所謂的 no javascript fallback, 所以即便後端有足夠的測試, 有時還是免不了因為 javascript 少一個逗號, 因而某些功能壞掉。</p>
+
+<p>所以前一陣子我們家前端工程師有一些空擋時, 便請她研究一下前端測試, 不過她先朝了測試 React 元件的方向去, 不過我想的是這篇文章的方向。</p>
+
+<p>只是在看了這篇文章之後, 我才真的知道原來連像素比對的測試方式都有, 實在是太狂了, 真的是學習了, 大開眼界啊。 不過剛好這幾天也在玩 <a href="https://github.com/cobrateam/splinter">Splinter</a> 來做前端的自動化, 似乎這塊已經滿成熟的了呀。</p>
+  <span class="item__footer"><a href="http://fex.baidu.com/blog/2015/07/front-end-test/">baidu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="MKUOcIu"></a>
+  
+  <h3 class="item__title"><a href="http://amir.rachum.com/blog/2016/09/15/knowledge-debt/">Knowledge Debt</a></h3>
+    <p>現在要一個開發人員, 除了技術債之外, 還得背知識債, 我相信大部分的開發人員都有所謂知識債的困擾, 現在這個世界, 當一個開發人員, 實在是太多東西要學的了。</p>
+
+<p>所謂的知識債, 點像是 ... 你先找一個人家寫好的套件, 但是你不知道他底層是怎麼運作的, 可是你可以使用它先完成功能。 或是找到一篇文章, 先照著設定, 讓東西先可以跑。 之後再去補足不懂的地方, 或是底層的知識。</p>
+
+<p>這篇文章說到下面兩點, 我還滿認同的, 而且其實把所謂的知識債換成技術債, 我覺得一樣可行。</p>
+
+<ul>
+<li>Knowledge debt is like financial debt. It’s a tool - you need to use it wisely to make a profit.</li>
+<li>Great programmers don’t settle on not knowing; but they are also not obesessed about learning right now.</li>
+</ul>
+
+
+<p>我覺得不管是知識債或是技術債, 區別好的開發人員跟一般的開發人員, 就是看你會不會去還債了。</p>
+  <span class="item__footer"><a href="http://amir.rachum.com/blog/2016/09/15/knowledge-debt/">rachum.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Thum2My"></a>
+  
+  <h3 class="item__title"><a href="http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/">Refactoring - Not on the backlog!</a></h3>
+    <p>不知道大家有沒有重構的習慣, 以前工作如果有空擋就會想要重構, 或是調效能。 後來時常會有人跟我說沒時間重構, 導致我也覺得需要一整個區塊的時間都拿來做重構,其實我比較偏好的是一小段、一小段的做, 有點類似這篇文章, 不過沒那麼精闢 :p</p>
+
+<p>又或是特地開 issue 寫著「Refactoring」, 但實際上, 如果有東西要開發, 這個 issue 很快就又被淹沒了, 後續也很難想起來要做這件事。</p>
+
+<p>這篇文章畫了好幾張圖, 描寫著一個產品從無到有, 開始生出了一堆技術債, 接著後續開發會需要去繞開技術債, 接著又生了更多技術債, 最終導致開發速度緩慢, 心情不愉快。</p>
+
+<p>這篇文章主要的概念說的是, 每次開發某些功能時, 就先花一點時間清除掉這個功能會碰到、相關的技術債。 然後重複做這件事, 日子久了, 技術債也清的差不多了(誤, 因為會有新的技術債)</p>
+
+<p>基本上我滿認同這個方法的, 也算是我早期在開發時的做法, 每次就做一點。 不過還是要先提醒大家, 重構之前, 先寫測試, 謝謝!</p>
+  <span class="item__footer"><a href="http://ronjeffries.com/xprog/articles/refactoring-not-on-the-backlog/">ronjeffries.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SS7sv0d"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/dschep/ntfy">ntfy - A utility for sending notifications</a></h3>
+    <p>用來寄送推播通知的工具程式。</p>
+
+<p>現在被動通知這件事應該算是已經變成是基本動作了, 像是我們在 <a href="https://streetvoice.com/">StreetVoice</a> 以往跑 cronjob 跑完都透過 email 寄送通知, 後來大部分都改成送 Slack 通知。</p>
+
+<p>而 ntfy 看來滿適合拿來做個人用的工具, 因為除了 slack 之外, ntfy 還支援各種不同的 backend, 像是 pushbullet, pushover, telegram 等, 甚至還有 Linux, Mac 跟 Windows 的桌面通知。</p>
+
+<p>再來厲害的應該就是 shell 整合了, 可以自動送「跑超過 10 秒的指令」的完成通知, 這樣一下, 就可以等被通知指令完成後再回來看了啊!</p>
+
+<p>不過麻煩的應該是, 雖然它安裝上只寫著一行 pip 裝完後就可以, 但是實際上在 Mac 上, 得先裝 pyobjc, 而這個前提就是得裝整個 Xcode, 光是裝 Xcode command line tool 還不夠呢 ...</p>
+  <span class="item__footer"><a href="https://github.com/dschep/ntfy">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-uranusjr">
+        <div class="i" id="uranusjr">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/49ffd209-9957-422c-871f-936788fb377e.png" alt="@uranusjr" width="80" /><span class="category__title__text">@uranusjr</span></h2>
+            <div class="item item--issue item--link">
+  <a name="jYocOlt"></a>
+  
+  <h3 class="item__title"><a href="https://mortoray.com/2016/05/24/is-reference-counting-slower-than-gc/">Is reference counting slower than GC?</a></h3>
+    <p>作者比較了自動資源管理最常見的兩種策略：reference counting 與 garbage collection，分析它們的策略差異與 trade-offs，然後⋯⋯就沒有然後了。其實我覺得這標題有點騙人，文章內容根本沒回答問題本身啊。不過作者對這兩種管理策略的描述很全面，如果你不熟它們的運作方式，這篇應該可以解答很多疑問。</p>
+
+<p>簡單整理：（真的很簡單，千萬不要看了就不點進去讀內文）</p>
+
+<ul>
+<li>Reference counting 和 garbage collection 是完全不同的策略，其實不太能直接比較。</li>
+<li>Reference counting 會在每個 pointer assignment 造成 overhead，主要來自 CPU cores 之間的記憶體同步，以及額外的儲存空間（每個 object 都需要一點額外的位址儲存一個 counter）。</li>
+<li>Garbage collection 隔一段時間就需要 scan 記憶體，以決定要清理哪些東西。這需要大量記憶體同步，在多數實作中會造成整個程式暫時停頓，但在絕大多數應用中微不足道。</li>
+<li>Garbage collection 的速度與記憶體用量成反比（因為要 scan 的記憶體變多）。Reference counting 沒有這個問題，但 cycle detection（例如 CPython 和 D 的實作）會讓這個問題更複雜。</li>
+<li>在 reference counting 下，所有記憶體用量都是必須的（除了存 counter 的 overhead 外）；garbage collection 會讓程式的記憶體整體用量增加，因為垃圾沒有馬上被清掉。</li>
+</ul>
+  <span class="item__footer"><a href="https://mortoray.com/2016/05/24/is-reference-counting-slower-than-gc/">mortoray.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="KaSB0EJ"></a>
+  
+  <h3 class="item__title"><a href="https://www.mikeash.com/pyblog/friday-qa-2011-09-16-lets-build-reference-counting.html">Let’s Build Reference Counting</a></h3>
+    <p><del>難道我私底下是狂熱的 reference counting 信徒也要告訴你嗎？</del></p>
+
+<p>說到 reference counting，我最喜歡的 implementation 就是 Objective-C runtime 了啊。那些說什麼 reference counting 效率不好問題一堆的人都該去看看它的實作再來說嘴，是你自己不會 optimise 做出來才那麼慢好嗎。(白眼</p>
+
+<p>Mike Ash 在這篇舊文裡用一個簡化過的實作，大概解釋了 Apple 是怎麼設計他們的 reference counting 系統。推薦所有剛接觸 Objective-C、Swift、或者想了解 memory management 的人一讀。Comments 裡還釣到那時候一點也不有名的 Chris Lattner 出來吐槽他的實作和 ARC 不相容。XD</p>
+
+<p>不過如果你就只照著這篇文章的做法，那麼你的系統要嘛只能手動記憶體管理（像沒有 ARC 的 Objective-C），要嘛肯定會很慢。Objective-C，尤其 ARC 出現後，實作了一些<a href="https://www.mikeash.com/pyblog/friday-qa-2011-09-30-automatic-reference-counting.html">很瘋狂的最佳化</a>，才能達到這麼優秀的效率。但這些最佳化雖然很猛，也難逃 <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html">leaky abstraction 法則</a>，在一些 edge cases 裡會<a href="https://www.mikeash.com/pyblog/friday-qa-2014-05-09-when-an-autorelease-isnt.html">做錯事</a>，即使最有經驗的人也可能中招。</p>
+  <span class="item__footer"><a href="https://www.mikeash.com/pyblog/friday-qa-2011-09-16-lets-build-reference-counting.html">mikeash.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="ujOv6gu"></a>
+  
+  <h3 class="item__title"><a href="http://www.cringely.com/2016/05/06/15262/">Why wind turbines have three blades</a></h3>
+    <blockquote><p>我總是會問「為什麼要這麼做」，但得到的回答總是「喔因為這本來就是這樣做」。沒人知道為什麼自己為什麼要這麼做。沒有人仔細想過商業上的事情。<br/>
+— Steve Jobs</p></blockquote>
+
+<p>你有想過為什麼現代的螺旋槳和風力發電機都是三片扇葉嗎？其實在看這篇文章之前我是沒有啦。不過如果你去 Google，就會找到<a href="https://explorecuriocity.org/Explore/ArticleId/193/why-dont-wind-turbines-have-more-than-3-blades-193.aspx">很多資料</a><a href="http://news.nationalgeographic.com/news/energy/2013/05/130516-wind-energy-shadow-effect/">告訴你</a><a href="https://www.youtube.com/embed/RNPIRfxUTQ4">這是因為</a> shadow effect：當扇葉旋轉時，會帶動經過空間的空氣，進而影響到下一個扇葉對風的轉換效率。類似的概念也適用於風車間擺放的距離：如果放太近，風車就會互相干擾，讓發電效率降低。</p>
+
+<p>但航空學家 Paul Lipps 相信重要的不是發電效率，而是發電量——即使效率較低，只要扇葉夠多、風車夠密，總能量就能贏。但他設計的系統打不過大廠，並沒有受到廣泛採用，然後⋯⋯就沒有然後了，他在 2011 年因肺癌過世，後無傳人。</p>
+
+<p>把主題拉回軟體工程，這種莫名其妙的信仰也是俯拾皆是。最著名就是 Un*x 系統的 <code>/bin</code>、<code>/usr/bin</code>、<code>/usr/local/bin</code> 等路徑。有人會告訴你這是為了分類系統工具、distribution 工具、使用者工具、site 工具一堆有的沒的，但其實一開始 <code>/usr</code> 出現的原因<a href="http://lists.busybox.net/pipermail/busybox/2010-December/074114.html">只有一個</a>：Thompson 和 Ritchie 的磁碟空間用完了，所以買了個新的掛在 <code>/usr</code>，並在裡面 duplicate 了 root directory 架構。之後的系統只是盲目照抄了這個 implementation detail，並自己為這個毫無道理的區別賦予理由，當作教條遵守。這種不問原因的教條代表少了可能性，可能也讓我們錯過了更好的選擇，誰知道。</p>
+
+<p>我們需要更多 Paul Lipps。不是因為天才能看穿凡人無法克服的障礙（見<a href="https://www.reddit.com/r/technology/comments/4i5527/why_wind_turbines_have_three_blades/">標題文章的 Reddit 討論</a>；很多人提出反論），而是沒有根據的盲目信仰需要被勇敢地挑戰。</p>
+  <span class="item__footer"><a href="http://www.cringely.com/2016/05/06/15262/">cringely.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="56EbSRY"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/OaklandElle/status/773317154779181058">I’ve begun giving ominous responses to catcallers.</a></h3>
+    <p>教你怎麼應對路上亂搭訕的混蛋。以下節錄。</p>
+
+<p>「你好漂亮」<br/>
+「最危險的生物通常如此」</p>
+
+<p>「你有男朋友嗎？」<br/>
+「你知道螳螂的交配習性嗎？」</p>
+
+<p>「我可以請你吃晚餐嗎？」<br/>
+「好啊，最近的殯儀館在哪？」</p>
+
+<p>「有男人了嗎？」<br/>
+「我在衣櫥裡放了幾個當存糧。」</p>
+  <span class="item__footer"><a href="https://twitter.com/OaklandElle/status/773317154779181058">twitter.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-yhsiang">
+        <div class="i" id="yhsiang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/c002a07a-1964-4084-93a8-57ba0c3c5e82.jpeg" alt="@yhsiang" width="80" /><span class="category__title__text">@yhsiang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="lYYhNPg"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@owencm/designing-great-uis-for-progressive-web-apps-dd38c1d20f7#.qymcsup60">Designing Great UIs for Progressive Web Apps</a></h3>
+    <p>三個 Progressive Web UX 的關鍵</p>
+
+<ol>
+<li><p>永遠要在真實設備上做測試</p>
+
+<p> 可以利用 <a href="https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging3">chrome remote debugging</a></p></li>
+<li><p>從 Native apps 學習 UX</p>
+
+<p> 忘記你所有的 web design 知識，想像你在寫 native app。可以透過 <a href="https://dribbble.com/">Dribbble</a> 找靈感或者多看一下 <a href="https://material.google.com/">Material Design</a> 強化 UI 相關的知識。</p></li>
+<li><p>使用查核清單</p>
+
+<p> 作者列了十一項建議，從畫面轉移到字型都有需要注意的地方，有興趣的人再點進去看。</p></li>
+</ol>
+  <span class="item__footer"><a href="https://medium.com/@owencm/designing-great-uis-for-progressive-web-apps-dd38c1d20f7#.qymcsup60">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="olvu0yo"></a>
+  
+  <h3 class="item__title"><a href="https://css-tricks.com/building-resizeable-components-relative-css-units">Building Resizeable Components with Relative CSS Units</a></h3>
+    <p>作者示範了許多 responsive 的例子。
+利用 % 和 em，讓你的 UI 元件成比例，就可以做到動態調整的元件。</p>
+
+<p>結論</p>
+
+<ul>
+<li>使用 px 作為尺寸單位，會難以維護。</li>
+<li>使用 em 可以讓所有事情都跟著 font-size 成比例。</li>
+<li>font-size 使用 px 會造成不好的 accessibility，因為使用者可能會改預設的字型大小。</li>
+</ul>
+  <span class="item__footer"><a href="https://css-tricks.com/building-resizeable-components-relative-css-units">css-tricks.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GCjMJed"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536">So You Want to be a Functional Programmer (Part 1)</a></h3>
+    <p>近來 Functional Programming 日漸盛行。</p>
+
+<p>還在擔心 FP 只屬於理論派的朋友們，可以看看這一篇。就像李連杰的張無忌學太極拳一樣，面對 FP 就是把你過去所有學到的事情都忘掉，你就成功了一半。</p>
+
+<p>Part 1 指出了 FP 裡面很重要的兩件事情，Purity 跟 Immutability。
+Purity 就是指所有 function 都是 pure function，簡單說就是 stateless。
+Immutability 就是所有的變數都是不可變，也就是 FP 裡面其實沒有變數的概念。</p>
+
+<p>對 FP 有興趣的人可以繼續看 <a href="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a">Part 2</a></p>
+  <span class="item__footer"><a href="https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Zm83sQ0"></a>
+  
+  <h3 class="item__title"><a href="https://medium.theuxblog.com/when-card-ui-design-doesnt-work-f4343118d108?swoff=true">When Card UI Design Doesn’t Work</a></h3>
+    <p>因為 Material Design 的關係，卡片式的 UI 也越來越流行。</p>
+
+<p>作者用了許多例子和熱區比較告訴你，使用者真正關心的資訊。</p>
+
+<p>卡片式 UI 比較不建議用在，使用者不需要比較圖片或文字。</p>
+  <span class="item__footer"><a href="https://medium.theuxblog.com/when-card-ui-design-doesnt-work-f4343118d108?swoff=true">theuxblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lQqAHT1"></a>
+  
+  <h3 class="item__title"><a href="https://blog.aria.ai/post/why-use-flow/">Why Use Flow?</a></h3>
+    <p>簡單的介紹了型別系統和比較強型別及弱型別和靜態型別和動態型別的差異。</p>
+
+<p>最後再用幾個簡單的例子介紹 flow 怎麼幫助你檢查錯誤。</p>
+
+<p>如果無法轉換到 typescript 的朋友，或許 flow 可以嘗試看看。</p>
+  <span class="item__footer"><a href="https://blog.aria.ai/post/why-use-flow/">aria.ai</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="fOWX5dQ"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">Python Web Developer at StreetVoice (台北、北京、上海)</a></h3>
+    <p>開發及維護 StreetVoice 旗下相關網站。</p>
+
+<p>意者歡迎來信：<a rel="nofollow" href="&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x74;&#122;&#x61;&#110;&#x67;&#x6d;&#x73;&#64;&#x73;&#x74;&#114;&#101;&#x65;&#x74;&#x76;&#111;&#x69;&#99;&#x65;&#46;&#99;&#111;&#x6d;">&#x74;&#x7a;&#97;&#110;&#x67;&#109;&#x73;&#x40;&#x73;&#116;&#114;&#101;&#x65;&#x74;&#x76;&#x6f;&#105;&#99;&#101;&#46;&#x63;&#x6f;&#x6d;</a>。</p>
+  <span class="item__footer"><a rel="nofollow" href="https://streetvoice.com/p/jobs/">streetvoice.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/59/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-09-12'>September 12th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>60 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/61/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-09-26'>September 26th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

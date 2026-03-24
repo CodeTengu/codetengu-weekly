@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 144 軟體工程師的三大美德：懶惰、急躁和傲慢</title>
+<meta name="description" content="本期內容涵蓋 Swift, Git, Quantum Computing, Kubernetes, Memcache, DevOps, CI/CD, Go">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Swift, Git, Quantum Computing, Kubernetes, Memcache, DevOps, CI/CD, Go'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/144/index.html#start">
+        Issue 144 軟體工程師的三大美德：懶惰、急躁和傲慢 &nbsp;<i><time class='published' datetime='2018-10-08'>October 8th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-419259"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。或是關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a>。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Blindsight</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00">我們公司在徵人</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+<li><a href="http://hermitshed.com/">@theJian</a></li>
+<li><a href="https://github.com/lucienlee">@lucienlee</a> - 🦌</li>
+<li><a href="https://github.com/hwchiu">@hwchiu</a></li>
+</ul>
+
+
+<p><a href="http://wiki.c2.com/?LazinessImpatienceHubris">本週標題出處</a>。</p>
+  <span class="item__footer">彷彿致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ubc4I1N"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md">Enhancing String Literals Delimiters in Swift 5</a></h3>
+    <p>大家應該常常遇到需要在寫死的字串裡面放雙引號或是反斜線的經驗吧，特別是處理 JSON 時特別容易遇到。
+預計年底推出的 Swift 5 使用了 #"hello world"# 來處理，相當優雅且有效。
+裡面列出了<a href="https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md#prior-art">主流語言處理 raw string 的方法</a> ，可以看到每個語言的異同之處，相當有趣。</p>
+  <span class="item__footer"><a href="https://github.com/apple/swift-evolution/blob/master/proposals/0200-raw-string-escaping.md">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="QFvCv80"></a>
+  
+  <h3 class="item__title"><a href="https://floating-point-gui.de">What Every Programmer Should Know About Floating-Point Arithmetic</a></h3>
+    <p>1 + 2 = 3 ，相信大家都同意。
+那 0.1 + 0.2 呢？
+答案是 0.30000000000000004。 😂</p>
+
+<p>還不知道為什麼的人可以看看這個網站，裡面解釋了為什麼會有這樣的結果。
+要處理任何不能出錯的數字的工程師們也可以看一看。</p>
+  <span class="item__footer"><a href="https://floating-point-gui.de">floating-point-gui.de</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="2giYw4A"></a>
+  
+  <h3 class="item__title"><a href="https://ihower.tw/blog/archives/8740">Git worktree: 同時開多個工作目錄</a></h3>
+    <p>相信大家都有遇到需要在同一個 git repo 裡同時修改不同 branch 的情景。像是同事還在Code Review A branch， 但是需要用的 A 的 branch B 已經開始開發了。每次 A 有任何修改就要切branch 和 pull ，相當麻煩。</p>
+
+<p>用了 Worktree 就可以讓同一個 repo 有超過一份的 working copy。減少切 branch 的麻煩。</p>
+  <span class="item__footer"><a href="https://ihower.tw/blog/archives/8740">ihower.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-allanlei">
+        <div class="i" id="allanlei">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/6eac35ae-4739-4a76-9eef-c4449c66ed2f.jpeg" alt="@allanlei" width="80" /><span class="category__title__text">@allanlei</span></h2>
+            <div class="item item--issue item--link">
+  <a name="pVa05rt"></a>
+  
+  <h3 class="item__title"><a href="https://www.dwavesys.com/press-releases/d-wave-launches-leap-first-real-time-quantum-application-environment">D-Wave Quantum Computing</a></h3>
+    <p>Seems like a great way to get people excited in quantum computing.  It's also great to see the first language of choice is Python!</p>
+  <span class="item__footer"><a href="https://www.dwavesys.com/press-releases/d-wave-launches-leap-first-real-time-quantum-application-environment">dwavesys.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="oR6suT0"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@allanlei/auto-labeling-gke-nodes-for-xfs-support-f873a2f7dc81">Detecting XFS support on GKE hosts</a></h3>
+    <p>This demonstrates how to execute commands on the host from a pod for the purpose of XFS support detection, useful for services like mongo.</p>
+  <span class="item__footer"><a href="https://medium.com/@allanlei/auto-labeling-gke-nodes-for-xfs-support-f873a2f7dc81">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rvMtFAZ"></a>
+  
+  <h3 class="item__title"><a href="https://memcached.org/blog/nvm-caching/">Memcache extstore</a></h3>
+    <p>RAM is expensive.  Compared to SSD/nvme, it is at least 2x.  Using fast disk to extend the capacity for caching warm keys can greatly reduce server costs.</p>
+
+<p>Redis also has something similar, but alas, it is under their Enterprise offering.</p>
+  <span class="item__footer"><a href="https://memcached.org/blog/nvm-caching/">memcached.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-hwchiu">
+        <div class="i" id="hwchiu">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/f55ca745-ed2b-4767-95e1-063e273a0f31.png" alt="@hwchiu" width="80" /><span class="category__title__text">@hwchiu</span></h2>
+            <div class="item item--issue item--link">
+  <a name="JctWB6H"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@liyiho/liyi-ho-6193cb63b73f">GLB: GitHub’s open source load balancer 閱讀分析</a></h3>
+    <p>Github 於2018/08/08 發表了一篇名為 GLB 的文章，並且將 Github 內部使用的 Layer4 Load Balancer 給開源出來，並且針對其設計架構，理念以及實作細節都進行了一番探討與講解，仔細琢磨後甚至可以發現還使用了 DPDK 等 Kernel-Bypass 的技術來達到更高速的封包處理。</p>
+
+<p>本文的作者針對 Github 公開的文章進行了詳細的閱讀，並且嘗試用更簡易的方式跟大家分享該 Layer4 Load Balancer 的架構，非常適合對網路架構以及系統設計有興趣人的閱讀學習</p>
+  <span class="item__footer"><a href="https://medium.com/@liyiho/liyi-ho-6193cb63b73f">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bPOgXpM"></a>
+  
+  <h3 class="item__title"><a href="https://www.hwchiu.com/cert-manager.html">如何透過 Cert-Manager 輕鬆簡單管理 Kubernetes 中的 HTTPS 憑證</a></h3>
+    <p>在這個資訊安全意識稍微抬頭的世代，網站配有 HTTPS 可說是個基本標配。同時因為 Let's Encrypt 的出現，讓 TLS 憑證的申請變得簡單且容易上手。然而使用 Let's Encrypt 本身還是有一些限制要處理，譬如需要定期更新憑證，以及如何驗證申請者目標網域的擁有者，這部分的操作都有對應的腳本來處理。然而在 Kubernetes 叢集之中，除了手動去運行這些腳本之外，有沒有更方便的方式可以整合這一切。本文要介紹一個叫做 Cert-Manager 的解決方案，透過其原理的理解，以及實際操作的步驟來學習如何更方便的在 kubernetes 叢集內管理憑證</p>
+  <span class="item__footer"><a href="https://www.hwchiu.com/cert-manager.html">hwchiu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="qT7GgcA"></a>
+  
+  <h3 class="item__title"><a href="https://itnext.io/debug-a-go-application-in-kubernetes-from-ide-c45ad26d8785">Debug a Go Application in Kubernetes from IDE</a></h3>
+    <p>隨者微服務化概念以及容器技術的普及，愈來愈多的應用程式都會打包成容器印象檔案並且部屬在相關的容器管理平台，譬如 docker-compose, kubernetes, mesos.
+這種架構在部屬與服務上雖然能夠帶來好處，但是對開發者來說，其實也無形了增加除錯的複雜度。舉例來說，當開發的應用程式打包成 Docker 格式並且部屬於 Kubernetes 叢集上，這時候若想要進行除錯就變得相對麻煩。該應用程式運行的環境已經不是開發者的本地環境，而是 Docker 內的簡易環境，同時若要直接存取該 Docker 容器內的實際環境，也有網路連線的問題要處理，這些對於應用程式的開發者來說都是額外的問題。</p>
+
+<p>本文使用 Golang 應用程式與 Kubernetes 當作案例，介紹如何透過本地端的 IDE 來偵錯於 Kubernetes 叢集中運行的 Golang 應用程式，只要能掌握這個概念與流程，相信要切換到任何類型的程式語言都能夠如魚得水般輕鬆，從此整個開發，偵錯的流程能夠更加順利。</p>
+  <span class="item__footer"><a href="https://itnext.io/debug-a-go-application-in-kubernetes-from-ide-c45ad26d8785">itnext.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="6gZI0i1"></a>
+  
+  <h3 class="item__title"><a href="https://thenewstack.io/netdevops-the-next-frontier-in-agile-enterprise-automation/">NetDevOps: The Next Frontier in Agile Enterprise Automation?</a></h3>
+    <p>DevOps 的概念與文化這幾年席捲整個資訊產業，此外 CI/CD 的實踐更是被許多工程師以及業界視為良藥，期盼能夠為整個軟體的開發帶來穩健也強壯的生態。</p>
+
+<p>現在除了軟體開者外，網路管理這邊也掀起了一股風潮，稱之為 Networking DevOps (NetDevOps)。 網路管理相對於單純的軟體開發流程，多了些許硬體交換機的管理，這些管理包含了設定及部屬。</p>
+
+<p>本文介紹了 NetDevOps 相關概念以及探討什麼樣的環境與企業會需要 NetDevOps  這種流程。
+最後引申閱讀的部分也有許多跟 NetDevOps 相關的文章，有興趣的都可以多加閱讀來瞭解看看在非純軟的業界與開發流程上， DevOps 的文化帶來了什麼樣的衝擊</p>
+  <span class="item__footer"><a href="https://thenewstack.io/netdevops-the-next-frontier-in-agile-enterprise-automation/">thenewstack.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="kzOUtsn"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">Senior Backend Engineer at Swag</a></h3>
+    <p>To apply, please send your resume to <a rel="nofollow" href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#x68;&#x72;&#x40;&#115;&#x77;&#x61;&#x67;&#x2e;&#x6c;&#x69;&#118;&#x65;">&#104;&#114;&#64;&#x73;&#x77;&#x61;&#103;&#46;&#x6c;&#x69;&#x76;&#101;</a>.</p>
+
+<h2>Requirements</h2>
+
+<ul>
+<li>In-depth knowledge of Python or Node.js</li>
+<li>Experience with Python web frameworks (i.e., Flask, Django, or Tornado)</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of MongoDB and Redis</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+<li>Designed for modular systems</li>
+<li>Cloud environment experience</li>
+<li>Excellent communication and organizational skills</li>
+</ul>
+
+
+<h2>Plus</h2>
+
+<ul>
+<li>Worked with Python <code>asyncio</code></li>
+<li>Experience developing in Go</li>
+<li>Event-driven architecture</li>
+<li>Experience working with cluster environments and containers (i.e., Kubernetes and Docker)</li>
+<li>Development flow utilizing CI/CD </li>
+<li>Experience working with distributed systems </li>
+<li>Experience working with real-time APIs </li>
+</ul>
+
+
+<h2>薪資範圍</h2>
+
+<ul>
+<li>年薪 100 萬新台幣以上。</li>
+</ul>
+  <span class="item__footer"><a rel="nofollow" href="https://github.com/swaglive/careers/issues/5">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/143/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-10-01'>October 1st 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>144 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/145/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-10-29'>October 29th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

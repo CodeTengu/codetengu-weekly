@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 124 小明開了一間酒吧叫 Foo Bar</title>
+<meta name="description" content="本期內容涵蓋 Data Visualization, Container, Ethereum, Vim, React, JavaScript, CSS, JVM, Swift">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Data Visualization, Container, Ethereum, Vim, React, JavaScript, CSS, JVM, Swift'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/124/index.html#start">
+        Issue 124 小明開了一間酒吧叫 Foo Bar &nbsp;<i><time class='published' datetime='2018-04-23'>April 23rd 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-378262"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href="https://www.douban.com/people/vinta/">God of War</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - <a href="https://www.yourator.co/companies/escapex/jobs/3116">我們又要找 iOS 工程師啦！</a></li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - <a href="https://tw.pycon.org/2018/registration/ticket-info/">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://medium.com/@allanlei">@allanlei</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">偶爾致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="MrQCOBQ"></a>
+  
+  <h3 class="item__title"><a href="http://susielu.com/data-viz/storytelling-in-dashboards">Storytelling in Dashboards</a></h3>
+    <p><a href="https://twitter.com/datatoviz">Susie Lu</a> 介紹如何利用遊戲設計的思維與說故事的形式，來設計資料視覺化的儀表板。因此可以讓不同的使用者，從不同的角度去探索自己想要的答案，進而還能讓使用者輕鬆保存或分享當時的狀態與圖示，讓資料視覺化程式更創意，使用者體驗也會更好。</p>
+  <span class="item__footer"><a href="http://susielu.com/data-viz/storytelling-in-dashboards">susielu.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9HIpSaZ"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436">Titus, the Netflix Container Management Platform, Is Now Open Source</a></h3>
+    <p>Netflix 在幾天前終於開放它容器管理平台 <a href="https://github.com/Netflix/titus">Titus</a> 的原始碼。從 2015 年年底，一週約開啟上千個容器，到現在一週開啟上百萬個容器，Titus 在 <a href="https://medium.com/netflix-techblog/the-evolution-of-container-usage-at-netflix-3abfc096781b">Netflix 使用容器的演進過程</a>中扮演了非常重要的角色。</p>
+  <span class="item__footer"><a href="https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RrrjkIh"></a>
+  
+  <h3 class="item__title"><a href="https://softwareengineeringdaily.com/2018/04/03/gitcoin-open-source-bounties-with-kevin-owocki/">Gitcoin: Open Source Bounties with Kevin Owocki</a></h3>
+    <p><a href="https://softwareengineeringdaily.com/">Software Engineering Daily</a> 這個 Podcast 訪問 <a href="https://gitcoin.co/">Gitcoin</a> 的發明人 <a href="https://www.linkedin.com/in/owocki">Kevin Owocki</a>。Gitcoin 是一個寫在以太坊 (<a href="https://twitter.com/search?q=Ethereum">Ethereum</a>) 智能合約上的開放原始碼懸賞平台。雖然它也叫 coin，但它不是一個 ICO。</p>
+  <span class="item__footer"><a href="https://softwareengineeringdaily.com/2018/04/03/gitcoin-open-source-bounties-with-kevin-owocki/">softwareengineeringdaily.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DeHokFV"></a>
+  
+  <h3 class="item__title"><a href="https://www.cs.oberlin.edu/~kuperman/help/vim/">vim tips and tricks</a></h3>
+    <p>如題。</p>
+  <span class="item__footer"><a href="https://www.cs.oberlin.edu/~kuperman/help/vim/">oberlin.edu</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="cJ85Td0"></a>
+  
+  <h3 class="item__title"><a href="https://reactjs.org/blog/2018/03/29/react-v-16-3.html">React v16.3.0: New lifecycles and context API</a></h3>
+    <p>React 16.3 在近期發佈了，這個版本的更新主要有以下幾點。</p>
+
+<ul>
+<li><p>正式推出新的 <a href="https://reactjs.org/docs/context.html">Context API</a> ，將不再被列為實驗性的功能，使用上也更加的直覺了，支援 static type checking 和 deep updates 。</p></li>
+<li><p>提供新的 <a href="https://reactjs.org/docs/refs-and-the-dom.html">createRef API</a> ，更方便的管理  refs 功能，並且沒有 string ref API 的一些<a href="https://github.com/facebook/react/issues/1373">缺點</a>。</p></li>
+<li><p>利用 <a href="https://reactjs.org/docs/forwarding-refs.html">forwardRef API</a> 來傳遞 ref ，使得 parent component 可以更方便操作 children 內的任何 DOM ，配合 Context API 使用會非常的方便。</p></li>
+<li><p>改變 Component Lifecycle ， componentWillMount 、 componentWillReceiveProps 和 componentWillUpdate ，這些容易擾亂 React Lifecycle 的 function 將在之後的版本被剔除。</p></li>
+<li><p>提供 <a href="https://reactjs.org/docs/strict-mode.html">StrictMode Component</a> 用以檢查</p>
+
+<ul>
+<li>components 是否有 unsafe lifecycles</li>
+<li>是否有使用 legacy string ref API</li>
+<li>不預期的 side effects</li>
+</ul>
+</li>
+</ul>
+  <span class="item__footer"><a href="https://reactjs.org/blog/2018/03/29/react-v-16-3.html">reactjs.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="jQysTpo"></a>
+  
+  <h3 class="item__title"><a href="https://www.reddit.com/r/javascript/comments/8d0bg2/oracle_owns_javascript_so_apple_is_taking_down_my/">因為 Oracle 持有 JavaScript 商標， Apple 下架使用了 JavaScript 字眼的 App</a></h3>
+    <p>JavaScript 商標為 Oracle 所擁有 (US Trademark Registration No. 2416017) ，最近有開發者在 reddit 上發文表示自己的 app 因為使用了  JavaScript 字眼而收到 Apple 寄的信，大致的內容是：「你不能使用 JavaScript，因為 Oracle 擁有這個商標」。</p>
+  <span class="item__footer"><a href="https://www.reddit.com/r/javascript/comments/8d0bg2/oracle_owns_javascript_so_apple_is_taking_down_my/">reddit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8w4ydtE"></a>
+  
+  <h3 class="item__title"><a href="https://codeburst.io/awesome-checkbox-and-radio-button-css-hacks-a8c24fb15a95">Awesome Checkbox and Radio-Button CSS Hacks</a></h3>
+    <p>利用 checkbox 、 radio button 並透過 CSS 的 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">Pseudo-classes</a> 和 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors">General sibling combinator</a> 的技巧，不需要 JavaScript 也可以做出一些互動的效果！</p>
+  <span class="item__footer"><a href="https://codeburst.io/awesome-checkbox-and-radio-button-css-hacks-a8c24fb15a95">codeburst.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="GSRAJm0"></a>
+  
+  <h3 class="item__title"><a href="https://codeburst.io/mario-kart-css-7572bd2ce608">Mario Kart: CSS</a></h3>
+    <p>這篇文章也是利用上面的技巧，只利用 HTML 的 input 及 Pure CSS 來實作馬力歐賽車。</p>
+  <span class="item__footer"><a href="https://codeburst.io/mario-kart-css-7572bd2ce608">codeburst.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="R2gMe21"></a>
+  
+  <h3 class="item__title"><a href="https://www.foundationdb.org/">Apple 開源了 FoundationDB</a></h3>
+    <p>FoundationDB 是一個可以水平擴展而且支援 <a href="https://zh.wikipedia.org/zh-tw/ACID">ACID</a> 的 <a href="https://zh.wikipedia.org/wiki/NoSQL">NoSQL</a> DB。在 2015 年被 Apple 買走，並且停止開放下載。但就在 2018/4/19，Apple 將它變成了一個 <a href="https://www.openfoundry.org/tw/legal-column-list/8950-obligations-of-apache-20">Apache 2 授權</a>的開源計畫。</p>
+
+<p>它設計上的理念很有趣，核心部分是一個 key-value store，在這之上有各種不同的 layer 來提供不同的存取方式，像是 SQL 或是 message queue。這次開源的部分是核心的部分，大家可以自己寫 Layer來達成不同的目的。</p>
+  <span class="item__footer"><a href="https://www.foundationdb.org/">foundationdb.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="yl6Q2KG"></a>
+  
+  <h3 class="item__title"><a href="http://www.graalvm.org/">GraalVM</a></h3>
+    <p>GraalVM 是 Oracle 開發的開源 (GPLv2) 通用 VM，可以執行 JavaScript, Ruby, Python 和各種 JVM 和 LLVM 為基礎的程式語言，包含 Java, Scala, C++等等。裡面包含了幾個重要元件：</p>
+
+<ul>
+<li>Truffle: 用來實作動態語言的 framework, <a href="https://github.com/oracle/truffleruby">TruffleRuby</a> 就是用這個寫的。</li>
+<li>Graal: 基於 JDK 的動態編譯器</li>
+<li>Substrate VM : 可以對 Java 程式做 ahead-of-time (AOT) 編譯。並且讓 Java 程式脫離 JVM 直接執行。</li>
+</ul>
+  <span class="item__footer"><a href="http://www.graalvm.org/">graalvm.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zqS3boH"></a>
+  
+  <h3 class="item__title"><a href="https://klee.github.io/">KLEE </a></h3>
+    <p>KlEE 是一個基於 LLVM 的 Symbolic 執行引擎，可以用來尋找程式所有可能的執行路徑。也可以用來自動產生各種 test case。</p>
+  <span class="item__footer"><a href="https://klee.github.io/">github.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rjJQzZw"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/twostraws/whats-new-in-swift-4-1">Swift 4.1 新功能介紹</a></h3>
+    <p>Swift 4.1 隨著 Xcode 9.3 一起發佈了。
+包含了 conditional conformance ， Synthesized Equatable 等等方便的新功能。
+這個 playground 示範了各種實用的新功能。</p>
+  <span class="item__footer"><a href="https://github.com/twostraws/whats-new-in-swift-4-1">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="bK11YRP"></a>
+  
+  <h3 class="item__title"><a href="https://csvkit.readthedocs.io/en/1.0.3/">csvkit</a></h3>
+    <p>相當實用的 csv 處理工具。
+可以轉換 excel, json 成 csv, 讀取特定欄位，還可以用 SQL 來對 csv 做查詢。</p>
+  <span class="item__footer"><a href="https://csvkit.readthedocs.io/en/1.0.3/">readthedocs.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-jobs">
+        <div class="i" id="jobs">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">工作機會</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dmmRjOK"></a>
+  
+  <h3 class="item__title"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">Senior Backend Developer at Swag</a></h3>
+    <p>薪資：年薪新台幣 100 萬元以上。</p>
+
+<p>基本條件：</p>
+
+<ol>
+<li>In-depth knowledge of Python or NodeJS</li>
+<li>Experience with Python web frameworks ie. Flask/Django/Tornado</li>
+<li>Utilized work queues for background processing</li>
+<li>In-depth knowledge of Mongo and Redis</li>
+<li>Excellent understanding of HTTP</li>
+<li>Experience developing REST APIs</li>
+</ol>
+  <span class="item__footer"><a rel="nofollow" href="https://www.104.com.tw/job/?jobno=5y8ex">104.com.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/123/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-04-16'>April 16th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>124 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/125/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-04-30'>April 30th 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

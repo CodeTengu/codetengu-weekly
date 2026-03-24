@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 33 軟體開發領域的五大反人類的發明：JavaScript、Regular Expression、XML、Git 和 PM</title>
+<meta name="description" content="本期內容涵蓋 React.js, Django, Celery, HTTPS, HTTP Caching, Python, PHP, JavaScript, 技術面試, 機器學習">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 React.js, Django, Celery, HTTPS, HTTP Caching, Python, PHP, JavaScript, 技術面試, 機器學習'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/33/index.html#start">
+        Issue 33 軟體開發領域的五大反人類的發明：JavaScript、Regular Expression、XML、Git 和 PM &nbsp;<i><time class='published' datetime='2016-03-07'>March 7th 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-111748"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 最喜歡科幻小說了</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="cJdh4Wq"></a>
+  
+  <h3 class="item__title"><a href="http://www.blog.pythonlibrary.org/2016/03/01/python-101-all-about-imports/">Python 101: All about imports</a></h3>
+    <p>不管是學習任何一種程式語言，該語言的 package / module / import 機制可能都是我們在學完那些基本的資料型態和語法之後，首先需要掌握的知識。這篇文章就 Python 的幾種常見的 import 方式做了一個簡單的梳理，然後，你就可以接著看一下 Related Reading 裡提到的那三篇文章，非常值得一讀，例如 <code>__init__.py</code> 的作用、<code>__name__</code> 屬性以及 script 和 module 的分別。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://stackoverflow.com/questions/14132789/python-relative-imports-for-the-billionth-time">Python relative imports for the billionth time</a></li>
+<li><a href="http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html">Traps for the Unwary in Python’s Import System</a></li>
+<li><a href="https://gist.github.com/datagrok/40bf84d5870c41a77dc6">Circular imports in Python 2 and Python 3: when are they fatal? When do they work?</a></li>
+</ul>
+  <span class="item__footer"><a href="http://www.blog.pythonlibrary.org/2016/03/01/python-101-all-about-imports/">pythonlibrary.org</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="tnYW99P"></a>
+  
+  <h3 class="item__title"><a href="https://denibertovic.com/posts/celery-best-practices/">Celery - Best Practices</a></h3>
+    <p>這篇文章提到了以下幾個在使用 <a href="http://celery.readthedocs.org/en/latest/">Celery</a> 和 Django 時的最佳實踐，例如：</p>
+
+<ul>
+<li>Don't use the database as your AMQP Broker</li>
+<li>Use more Queues (ie. not just the default one)</li>
+<li>Use priority workers</li>
+<li>Use Celery's error handling mechanisms</li>
+<li>Keep track of results only if you really need them</li>
+<li>Don't pass Database/ORM objects to tasks</li>
+</ul>
+
+
+<p>除此之外，關於 <a href="http://celery.readthedocs.org/en/latest/userguide/tasks.html#database-transactions">transaction</a> 的部分也常常是個坑啊，而且其實官方的 User Guide 真的就講了很多重點啦。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://blog.balthazar-rouberol.com/celery-best-practices">Celery best practices</a></li>
+</ul>
+  <span class="item__footer"><a href="https://denibertovic.com/posts/celery-best-practices/">denibertovic.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="zLBdFp2"></a>
+  
+  <h3 class="item__title"><a href="http://ricostacruz.com/cheatsheets/react.html">React.js cheatsheet</a></h3>
+    <p>上禮拜幾乎都在寫 React，在胡亂 google 的過程中找到了一篇寫得非常不錯的速查表，建議再搭配 <a href="http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/">Execution sequence of a React component’s lifecycle methods</a>，這樣上手 React 基本上就妥當啦。</p>
+
+<p>P.S. 作者的網站上還有超多其他主題的 cheatsheet，媽的這個人到底有多閒！</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://segmentfault.com/a/1190000004470135">React.js 学习笔记之 JSX 解读</a></li>
+</ul>
+  <span class="item__footer"><a href="http://ricostacruz.com/cheatsheets/react.html">ricostacruz.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="4rFSEGE"></a>
+  
+  <h3 class="item__title"><a href="https://segmentfault.com/a/1190000004523659">HTTPS 科普扫盲帖</a></h3>
+    <p>現在大家一天到晚都在講 HTTPS，如果你的網站沒有全站 HTTPS 似乎還會被人瞧不起，但是說到底，為什麼 HTTPS 跟 HTTP 相比會更安全呢？</p>
+
+<p>看完這篇文章你就懂了！</p>
+  <span class="item__footer"><a href="https://segmentfault.com/a/1190000004523659">segmentfault.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5rKUcIc"></a>
+  
+  <h3 class="item__title"><a href="https://blog.othree.net/log/2012/12/22/cache-control-and-etag/">Cache Control 與 ETag</a></h3>
+    <p>這篇文章專門在講 HTTP 的 cache 相關的 headers，作者是 <a href="https://github.com/othree">@othree</a>，他是我看過寫技術文章寫得最好的工程師了啊。而且他的 blog 上還有很多關於 <a href="https://blog.othree.net/log/script/all/">JavaScript</a> 的文章。</p>
+
+<p>我覺得他可能就是台灣 Web 界的管仁健。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-tw">HTTP 快取</a></li>
+</ul>
+  <span class="item__footer"><a href="https://blog.othree.net/log/2012/12/22/cache-control-and-etag/">othree.net</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-tzangms">
+        <div class="i" id="tzangms">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/1ec722ab-a8e5-45a3-b6dc-3fa7276fb636.jpg" alt="@tzangms" width="80" /><span class="category__title__text">@tzangms</span></h2>
+            <div class="item item--issue item--link">
+  <a name="9bAaVDm"></a>
+  
+  <h3 class="item__title"><a href="http://firstround.com/review/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP/">The Anatomy of the Perfect Technical Interview from a Former Amazon VP</a></h3>
+    <p>前 Amazon 技術副總 Neil Roseman 分享的技術面試剖析。</p>
+
+<p>幾個月前因為覺得自己面試技巧非常不足, 所以一口氣讀了 6, 7 本面試相關的書籍, 我發現這篇文章其實也用上了許多書中看到的技巧。</p>
+
+<p>例如:</p>
+
+<ul>
+<li>一開始先介紹自己、閒聊，讓面試者放鬆</li>
+</ul>
+
+
+<blockquote><p>並不是每個人都很善於表達, 特別是內向的人, 面試也容易緊張, 讓面試者放鬆是非常必要的</p></blockquote>
+
+<ul>
+<li>發問的技巧: Probe, Dig</li>
+</ul>
+
+
+<blockquote><p>不要只聽到表面的答案, 繼續挖深</p></blockquote>
+
+<ul>
+<li>問模糊、開放性的問題, 看面試者會怎麼發問</li>
+</ul>
+
+
+<blockquote><p>我覺得這點算是面試技巧中的 "Visualize", 像是: 如果要完成 XX 任務, 得知道哪些條件、限制, 看面試者如何發問, 問出重點, 剖析問題</p></blockquote>
+
+<p>另外, 文中提到, Neil 特別喜歡聊產品設計,因為好的工程師並不單只接受指令進行開發, 而是主動參與產品的整個發展。</p>
+
+<p>最後, 「找到對的人」真的是管理工作中最重要的事, 不免再提一句名言叫:「Hire smart or manage tough」</p>
+  <span class="item__footer"><a href="http://firstround.com/review/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP/">firstround.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="b9Prlh"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/rnevius/minimal-django">Minimal Django</a></h3>
+    <p>一隻 <code>.py</code> 就可以跑的 Django 專案範例, 提供了一個 Django 可以跟 Flask 一樣小的概念, 不過其實 url router 還可以簡化成像是 flask 那樣的 decorator, 如果再補上個 wsgi 應該會更完整了。</p>
+  <span class="item__footer"><a href="https://github.com/rnevius/minimal-django">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RmlaWAW"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/whiteclover/Nagi">Nagi - Leaderboard system that helps you rank million user data.</a></h3>
+    <p>用 Python 基於 MySQL 開發的遊戲排行榜系統, 還提供了 <a href="https://github.com/whiteclover/Nagi/blob/master/design_cn.rst">中文文件</a> 做詳細的算法以及技術效能說明啊, 學習了!</p>
+  <span class="item__footer"><a href="https://github.com/whiteclover/Nagi">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="77JsU6V"></a>
+      <a href="https://www.instagram.com/linzy_minji/"><img src="original_ratio_extra_large_2eaf969a-6984-4549-865b-b2628d54bb5e.jpg" title="本週 IG: @linzy_minji" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://www.instagram.com/linzy_minji/">本週 IG: @linzy_minji</a></h3>
+    <p>Fiestar 主唱, 但 Fiestar 我還是最愛 <a href="https://www.instagram.com/kimjeii/">Jei</a> 了 ~</p>
+  <span class="item__footer"><a href="https://www.instagram.com/linzy_minji/">instagram.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-fukuball">
+        <div class="i" id="fukuball">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a7fc9e5-5265-47a8-95d5-46043f5ab845.jpg" alt="@fukuball" width="80" /><span class="category__title__text">@fukuball</span></h2>
+            <div class="item item--issue item--link">
+  <a name="hBz13Fj"></a>
+  
+  <h3 class="item__title"><a href="https://www.technologyreview.com/s/600889/google-unveils-neural-network-with-superhuman-ability-to-determine-the-location-of-almost/">Google Unveils Neural Network with “Superhuman” Ability to Determine the Location of Almost Any Image - Google 發表辨識照片拍照地點演算法 PlaNet 準確度擊敗人類</a></h3>
+    <p>Machine Learning：中級</p>
+
+<p>這是一篇 Google 剛在 2016 二月發表的一篇論文，<a href="http://www.vision.rwth-aachen.de/people/weyand">Tobias Weyand</a> 等人提出了一個基於 Neural Network 的機器學習演算法 PlaNet，這個演算法可以分析照片然後正確辨識照片的地點。</p>
+
+<p>其實這個問題非常難，如果拍照的地點沒有任何眾所皆知的地標，例如自由女神像、艾菲爾鐵塔、101 大樓等等，那就很難辨識拍照的地點。PlaNet 可以做到給定一個街景照片，然後相對精準（比起人類）的辨識拍照地點。</p>
+
+<p>其中的核心原理就像是很有經驗的旅人，可以透過建築的樣式、招牌的文字或是道路左駕右駕來辨識地點，PlaNet 透過大量的照片作為學習資料，確實比人類更有優勢可以辨識街景照片辨識地點，畢竟一個人類一生可以去旅行的地方是有限的。</p>
+
+<p>如果大家有興趣，也可以看一下<a href="http://arxiv.org/pdf/1602.05314v1.pdf">本篇論文</a>做更深入的了解。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://www.geoguessr.com/">GeoGuessr</a> - 用來實驗人類辨識街景照片地點的應用</li>
+</ul>
+  <span class="item__footer"><a href="https://www.technologyreview.com/s/600889/google-unveils-neural-network-with-superhuman-ability-to-determine-the-location-of-almost/">technologyreview.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Z046neI"></a>
+  
+  <h3 class="item__title"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-er-jiang-xue-xi-bi-ji/">林軒田教授機器學習基石 Machine Learning Foundations 第 12 講學習筆記</a></h3>
+    <p>Machine Learning：初級</p>
+
+<p>經過了 10 講的課程我們才在上一講學會了如何讓機器學習做多元分類，在這一講我們又要讓技能快速進化了！（希望大家跟我一樣感到<a href="https://www.facebook.com/%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80-386169334761145/">興奮</a>）在之前的問題中，我們只能夠讓機器笨笨地學習用直線來分類，在這短短的一講，我們將能夠學到透過非線性轉換的方式讓機器學習到如何使用非線性方程式來做分類，可能是圓圈、橢圓、雙曲線或是任何奇形怪狀的曲線，機器可以從中挑出一個最好的結果。學會了這個方法就如同打開了潘多拉的盒子啊！</p>
+  <span class="item__footer"><a href="http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-er-jiang-xue-xi-bi-ji/">fukuball.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="rdQ5YBw"></a>
+  
+  <h3 class="item__title"><a href="http://blog.turn.tw/?p=2948">簡單聊一下 one-way data flow、two-way data binding 與前端框架</a></h3>
+    <p>JavaScript：中級</p>
+
+<p>前端框架在這短短幾年的時間改變了非常多，JavaScript 新手在接觸這些框架時，往往也是在一知半解的情況下隨著時代往前，從 jQuery、Backbone.js、Angular 到現在最紅的 React，究竟這些框架為自己帶來多少開發上的益處？其實值得好好思考。</p>
+
+<p>本篇文章從 one-way data flow 以及 two-way data binding 兩個名詞及觀念上的混淆出發，慢慢闡述每個框架如何做到 one-way data flow 及 two-way data binding，清楚陳述了面對這兩個名詞時應有的觀念是什麼，這樣思考一個問題的思路正是新手邁入進階者可以學習、訓練的方向。</p>
+  <span class="item__footer"><a href="http://blog.turn.tw/?p=2948">turn.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="q7xFouD"></a>
+  
+  <h3 class="item__title"><a href="http://www.startutorial.com/articles/view/master-php-array-functions">Master PHP Array Functions - 我要成為 PHP Array 大師！</a></h3>
+    <p>PHP：初級</p>
+
+<p>寫程式時缺少不了使用 Array 作為資料結構來進行一些簡單的運算，但 PHP 因為發展的早，早期不成熟的範例程式碼充斥在網路上，也因此 PHP 新手在使用 PHP Array 時常常會使用到舊的寫法，而沒有使用 PHP 新內建的 PHP Array 操作方法，這反而有可能造成程式的效能低落。</p>
+
+<p>舉例來說，假設現在我們有許多書本的書名 String 資料存在 Array 中，當我們現在想要從書本書名含有 "Design" 這個字串的書本移出 Array，那 PHP 新手可能會這樣寫：</p>
+
+<pre><code>for ($i = 0; $i &lt; count($books); $i++) {
+    if (false !== strpos($books[$i], 'Design')) {
+        unset($books[$i]);
+    }
+}
+</code></pre>
+
+<p>但其實 PHP 有內建 <code>array_filter</code> 這個 function 可以使用，寫法就可以改成：</p>
+
+<pre><code>$books = array_filter($books, function($book) {
+    return (false === strpos($book, 'Design'));
+});
+</code></pre>
+
+<p>還在新手村的 PHP 朋友們可以進去看一下還有沒有什麼好用的 Array 操作方法吧！</p>
+  <span class="item__footer"><a href="http://www.startutorial.com/articles/view/master-php-array-functions">startutorial.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="aUAsOCf"></a>
+  
+  <h3 class="item__title"><a href="http://www.sitepoint.com/9-development-workflow-upgrades-you-should-know-about/">9 Development Workflow Upgrades You Should Know About - PHP 進階開發者需要知道的 9 個開發工具</a></h3>
+    <p>PHP：中級</p>
+
+<p>當 PHP 新手脫離新手村之後，就要開始慢慢學習讓自己工作得更快更好。這是 <a href="https://twitter.com/bitfalls">Bruno Skvorc</a> 分享的一些好用開發工具，其中 <a href="https://github.com/imsky/git-fresh">git-fresh</a>、<a href="https://github.com/tj/git-extras">git-extras</a>、<a href="https://gist.github.com/Pierstoval/1645a26ea5d2200642b6">快速切換 PHP 版本環境套件 phpv</a> 以及 <a href="https://github.com/hirak/prestissimo">Composer 同步下載套件 prestissimo</a> 都很好用！</p>
+
+<p>至於後面勸敗的 <a href="https://www.google.com.tw/search?q=Split+Keyboard&amp;lr=lang_zh-CN%7Clang_zh-TW&amp;biw=1440&amp;bih=725&amp;tbs=lr:lang_1zh-CN%7Clang_1zh-TW&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi_kuvAiKnLAhVLjZQKHTyVAjQQ_AUIBygB">拆分鍵盤</a>、<a href="https://www.google.com.tw/search?q=Treadmill+Desk&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwj7u5ShiKnLAhUHKJQKHQZCD-EQ_AUIBygB&amp;biw=1440&amp;bih=725">跑步機工作桌</a> 大家可以參考看看就好了～</p>
+  <span class="item__footer"><a href="http://www.sitepoint.com/9-development-workflow-upgrades-you-should-know-about/">sitepoint.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="ETPQImn"></a>
+  
+  <h3 class="item__title"><a href="https://ses4j.github.io/2015/12/01/the-most-useful-under-used-feature-of-email/">The most useful under-used feature of email</a></h3>
+    <p>這是個神奇的 Gmail 秘技，就是其實你可以在你的 Gmail 的 username 的部分加上 <code>+</code> 和任意的 <code>.</code> 組成新的 email 地址，而寄到這些 email 的信通通都會寄到你原本的 Gmail，簡單說就是 alias 啦。</p>
+
+<p>由 <a href="https://twitter.com/vinta">@vinta</a> 分享。</p>
+  <span class="item__footer"><a href="https://ses4j.github.io/2015/12/01/the-most-useful-under-used-feature-of-email/">github.io</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue item--link">
+  <a name="bUBZGAV"></a>
+      <a href="https://medium.com/@autisticcat/%E4%B8%80%E5%9C%98%E7%BE%8E%E5%A5%BD%E7%9A%84%E6%B7%B7%E6%BF%81%E7%A8%80%E6%B3%A5-%E7%95%B0%E7%8D%B8%E9%AD%94%E9%83%BD-88984c620430#.4p16higb9"><img src="original_ratio_extra_large_e1a6ba9b-f1a9-4551-bcb6-bd5b5c6797e3.jpg" title="一團美好的混濁稀泥 － 異獸魔都" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://medium.com/@autisticcat/%E4%B8%80%E5%9C%98%E7%BE%8E%E5%A5%BD%E7%9A%84%E6%B7%B7%E6%BF%81%E7%A8%80%E6%B3%A5-%E7%95%B0%E7%8D%B8%E9%AD%94%E9%83%BD-88984c620430#.4p16higb9">一團美好的混濁稀泥 － 異獸魔都</a></h3>
+    <p>在我心中有一部漫畫超越『獵人』的存在，它的名字叫做『異獸魔都』(ドロヘドロ)。</p>
+
+<p>老實說要寫這篇的時候我想了很久，因為林田球的作品不是三言兩語可以說盡的，如果說『獵人』具備鬼才式的開創性和世界觀，那『異獸魔都』即是擁有惡魔般的創造力和不屬於這個世界的世界觀，這樣說也許有點抽象，但就想像你在看《瘋狂麥斯》那種感官衝擊。</p>
+  <span class="item__footer"><a href="https://medium.com/@autisticcat/%E4%B8%80%E5%9C%98%E7%BE%8E%E5%A5%BD%E7%9A%84%E6%B7%B7%E6%BF%81%E7%A8%80%E6%B3%A5-%E7%95%B0%E7%8D%B8%E9%AD%94%E9%83%BD-88984c620430#.4p16higb9">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/32/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-02-29'>February 29th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>33 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/34/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-03-14'>March 14th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

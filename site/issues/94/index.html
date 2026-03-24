@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 94 好的 PM 可能就像是鬼故事，常常有人說得繪聲繪影、煞有其事，但是我從來沒遇過</title>
+<meta name="description" content="本期內容涵蓋 Python 3, Django, Apache Spark, Scala, Investment, Scrum, gRPC, Testing, iOS, Functional Programming, UUID, Container">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python 3, Django, Apache Spark, Scala, Investment, Scrum, gRPC, Testing, iOS, Functional Programming, UUID, Container'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/94/index.html#start">
+        Issue 94 好的 PM 可能就像是鬼故事，常常有人說得繪聲繪影、煞有其事，但是我從來沒遇過 &nbsp;<i><time class='published' datetime='2017-07-03'>July 3rd 2017</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-288248"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">The Call of Cthulhu</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我</li>
+<li><a href="https://g0v.social/@hiroshiyui">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 在 <a href="https://kerbalspaceprogram.com/">KSP</a> 內登陸月球中</li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/headquarters">GitHub</a>（<a href="https://github.com/CodeTengu">Open Source 專案</a>）或<a href="http://www.weibo.com/codetengu">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="6iv76o8"></a>
+  
+  <h3 class="item__title"><a href="https://www.youtube.com/watch?v=66XoCk79kjM">Python @ Instagram at PyCon 2017</a></h3>
+    <p>這個 talk 是 Instagram 的工程師分享了他們把 Instagram 從 Python 2.7 / Django 1.3 改寫成 Python 3.6 / Django 1.8 的經驗之談，很有參考價值。除了 unit tests 先行之外，還有一點很重要：只在一個 commit 裡修改多個檔案的同一個 issue，而不是一次修改同一個檔案裡的多個 issues；他們也提到了幾個在改寫的過程中踩過的地雷，不用猜了，第一名就是大家的好朋友：unicode，它會在各種地方突然冒出來甩你幾巴掌。尤其是你必須讓你的 code 同時跑在 Python 2 和 Python 3 的時候，苦啊。</p>
+
+<p>不過原來整個遷移到 Python 3 的工作主要是由 Infrastructure Engineers 負責的啊，帥氣。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/27178538">Instagram 在 PyCon 2017 的演讲摘要</a></li>
+<li><a href="https://www.youtube.com/watch?v=lx5WQjXLlq8">Django @ Instagram at Django: Under The Hood 2016</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.youtube.com/watch?v=66XoCk79kjM">youtube.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="w5QREhk"></a>
+      <a href="https://medium.com/zeitcode/django-middlewares-and-the-request-response-cycle-fcbf8efb903f"><img src="original_ratio_extra_large_af2c6382-d318-41ea-be97-ae541164782a.jpg" title="Django Middlewares and the Request/Response Cycle" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://medium.com/zeitcode/django-middlewares-and-the-request-response-cycle-fcbf8efb903f">Django Middlewares and the Request/Response Cycle</a></h3>
+    <p>類似之前分享過的 <a href="https://weekly.codetengu.com/issues/71#j0Iqslx">What happens when you type google.com into your browser and press enter?</a>，額外再了解一下自己在用的 web framework 是怎麼處理 requests 和 responses 也是挺有用的啊。</p>
+  <span class="item__footer"><a href="https://medium.com/zeitcode/django-middlewares-and-the-request-response-cycle-fcbf8efb903f">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3QTKjb1"></a>
+  
+  <h3 class="item__title"><a href="https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/">Mastering Apache Spark 2</a></h3>
+    <p>因為最近在寫 Spark，找到了這個 GitBooks 上的電子書，雖然有滿多章節都還沒寫完，但是裡頭講了不少 Spark 官方文件都沒有提到的內容。推薦給大家。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.safaribooksonline.com/library/view/high-performance-spark/9781491943199/">High Performance Spark</a></li>
+</ul>
+  <span class="item__footer"><a href="https://jaceklaskowski.gitbooks.io/mastering-apache-spark/content/">gitbooks.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="YpcZ6Ij"></a>
+  
+  <h3 class="item__title"><a href="https://developers.google.com/recaptcha/intro">Google reCAPTCHA - Invisible CAPTCHA</a></h3>
+    <p>大家可能都用過 Google reCAPTCHA 的 I'm not a robot 和叫你選圖片的 <a href="https://www.facebook.com/permalink.php?story_fbid=10211044561043029&amp;id=1025395730">Select all images with xxx</a>，以及更早之前的要你輸入一堆根本就沒有人認得出來的文字或門牌號碼的圖片驗證碼，但是除了以上的驗證方式之外，最近才發現 Google 又推出了一種 Invisible reCAPTCHA。可以直接用「點擊 submit 按鈕」這個動作來取代原本的「點擊 I'm not a robot 的 checkbox」，對使用者來說他並不需要做任何額外的驗證動作，就是按一下 submit 而已。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://blog.bitlabstudio.com/using-recaptcha-with-django-1b7aea786ad6">Using reCAPTCHA with Django</a></li>
+</ul>
+  <span class="item__footer"><a href="https://developers.google.com/recaptcha/intro">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="1MEeKhY"></a>
+  
+  <h3 class="item__title"><a href="https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy">Bogleheads investment philosophy</a></h3>
+    <p>這一篇是在講「投資」，跟程式無關。不過我們好像也不是第一次在 weekly 裡講跟寫程式無關的話題啦，讀者應該早就習慣了吼？</p>
+
+<p>這個網站是由一群認同 John Bogle 的投資理念的人建立的，自稱 Bogleheads。約翰柏格就是創立世界上第一檔指數型基金的人。上面的文章都挺好的，例如 <a href="https://www.bogleheads.org/wiki/Behavioral_pitfalls">Behavioral pitfalls</a> 或 <a href="https://www.bogleheads.org/wiki/Asset_allocation">Asset allocation</a>，大家感受一下。不過因為投資其實有不少流派，投機和投資的差別就不說了，Bogleheads 這一派是所謂的「指數化投資」，崇尚被動管理和資產配置，其他還有價值投資、成長投資、技術分析之類的，各有各的擁護者，有些甚至還會互相鄙視。雖然這種文人相輕的現象我們應該也早就見怪不怪啦：<a href="https://vinta.ws/blog/695">軟體工程師的鄙視鏈</a>。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://www.amazon.com/Random-Walk-Down-Wall-Street-ebook/dp/B00QH9NTSI/">A Random Walk Down Wall Street</a> - 我當兵的時候有讀過這本「漫步華爾街」，去年 2016 年又出了新版，似乎是時候再讀一次了啊</li>
+</ul>
+
+
+<p>題外話，因為最近是 Steam 的夏季特賣，雖然沒有人問我，但是我要自己說！如果你不知道要買什麼，就買這些：</p>
+
+<ul>
+<li><a href="http://store.steampowered.com/app/460790/Bayonetta/">Bayonetta</a></li>
+<li><a href="http://store.steampowered.com/app/8870/BioShock_Infinite/">BioShock Infinite</a></li>
+<li><a href="http://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/">Life is Strange</a></li>
+<li><a href="http://store.steampowered.com/app/524220/NieRAutomata/">NieR: Automata</a></li>
+<li><a href="http://store.steampowered.com/app/237930/Transistor/">Transistor</a></li>
+<li><a href="http://store.steampowered.com/app/314580/Saints_Row_IV_Game_of_the_Century_Edition/">Saints Row IV</a></li>
+</ul>
+  <span class="item__footer"><a href="https://www.bogleheads.org/wiki/Bogleheads%C2%AE_investment_philosophy">bogleheads.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-saiday">
+        <div class="i" id="saiday">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/fb5bc477-4368-49da-b1c3-e0f18d6aa117.jpg" alt="@saiday" width="80" /><span class="category__title__text">@saiday</span></h2>
+            <div class="item item--issue item--link">
+  <a name="lNU05zB"></a>
+  
+  <h3 class="item__title"><a href="https://enterprisepathtoagility.com/scrum-does-not-work-here-in-asia-72d7bccccb4d">Scrum does not work here in Asia</a></h3>
+    <p>雖然通篇沒提到台灣，甚至也不是主要在談論軟體產業，但這篇實在是尖銳且精準。亞洲的某些重點文化跟 Agility 本質上就有排斥反應，是從老闆、主管到員工各階級都會抗拒的那種文化排斥：</p>
+
+<ul>
+<li>生活中的所有東西都有階級順序</li>
+<li>亞洲人對維持和諧這件事非常重視，避免任何衝突發生</li>
+<li>教育方法不同，一元價值觀跟獨立思考能力的欠缺</li>
+<li>外包天堂，求快跟省成本的文化</li>
+</ul>
+
+
+<p>以下這些現象，或許大家可以體會一些？</p>
+
+<blockquote><p>在 LinkedIn 上看到那些宣稱自己是 Scrum Master 的人同時也有一個 Project Manager 的職務，他們根本沒搞懂 Scrum Master 的角色，也可能他們從頭到尾就不想搞懂，只是想製造一種我們也有跟上了所謂「敏捷開發」的趨勢哦。
+Scrum Master 這種不能實際上叫大家去做事的角色，被認為是一種比較低下的職位。</p>
+
+<p>放一個不賦權的 Product Owner，他做出的決定再被那些有真正權力的人推翻，而那些擁有權力的人宣稱自己太忙無法跟開發團隊一起協同工作。</p>
+
+<p>Sprint Planning 變成了一種簽約儀式，沒有資訊交換、沒有談判，其實跟上級交辦的事項根本沒有兩樣。
+Daily Scrum 變成了一種每天回報給主管的匯報，而不是可以快速地跟同事進行釐清跟調整的會議。</p>
+
+<p>工作之間沒有透明度，因為大家只會說那些對方想聽的話，甚至願意用加班或欺騙掩飾正在發生的問題，根本的原因是員工都認為自己是那個可以被替換的人，所以不願意曝露出負面消息。</p>
+
+<p>因為教育體系的關係，多數人沒有自我管理能力，希望被清楚地告知任務，以跟隨規則為第一原則，破壞體系的人被群體視為造反。</p></blockquote>
+
+<p>我曾經有一份工作跑過 Scrum，以當時個人的感受跟這篇文章的標準來看，我們當時做得應該是還不錯吧。那時的團隊成員特色是主動、有利他精神、自重，也不害怕製造衝突因為根本沒有人會覺得被針對。那次之後也對我的工作態度跟方式起了很大的改變。</p>
+  <span class="item__footer"><a href="https://enterprisepathtoagility.com/scrum-does-not-work-here-in-asia-72d7bccccb4d">enterprisepathtoagility.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="mudJWVh"></a>
+  
+  <h3 class="item__title"><a href="https://yami.io/grpc/">API 文件就是你的伺服器，REST 的另一個選擇：gRPC</a></h3>
+    <p>最近衝著 Modern 這個詞在上一門課程 <a href="https://www.safaribooksonline.com/library/view/modern-golang-programming/9781787125254/">Modern Golang Programming</a>。課程中是用 <a href="http://www.grpc.io/">gRPC</a> 在 Microservice 之間做溝通而在 Web API 的部分還是採用 REST，這讓我感到很疑惑，為什麼不用一套打死？</p>
+
+<p>後來我歸納出來兩者選擇的參考標準</p>
+
+<ul>
+<li>想要暴露出來的東西是 resource 就用 REST</li>
+<li>想要暴露出來的東西是 operation 就用 gRPC (RPC)</li>
+</ul>
+
+
+<p>如果你對 RPC 沒有很清楚，這篇很不錯： <a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">Do you really know why you prefer REST over RPC?</a></p>
+  <span class="item__footer"><a href="https://yami.io/grpc/">yami.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="RlYF9w9"></a>
+  
+  <h3 class="item__title"><a href="https://dev.to/milipski/test-doubles---fakes-mocks-and-stubs">Test Doubles - Fakes, Mocks and Stubs.</a></h3>
+    <p>單元測試的時候用 <a href="http://xunitpatterns.com/Test%20Double.html">Test Double</a> (測試替身) 有兩個主要原因：</p>
+
+<ul>
+<li>獨立，不讓依賴元件干擾待測程式的測試結果</li>
+<li>快</li>
+</ul>
+
+
+<p>這篇文章介紹了 Test Double 中最主流的三種類型，名詞上比較容易沒搞清楚的是 Mock 跟 Stub 吧，因為多數的 Mock Framework 都會實作 Stub。</p>
+  <span class="item__footer"><a href="https://dev.to/milipski/test-doubles---fakes-mocks-and-stubs">dev.to</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8rGvvmU"></a>
+  
+  <h3 class="item__title"><a href="https://onevcat.com/2017/06/ios-11-sdk/">开发者所需要知道的 iOS 11 SDK 新特性</a></h3>
+    <p>本篇為王巍 WWDC 的重點歸納整理，好！</p>
+
+<p>今年 WWDC 對開發者來說最重要的東西我覺得是 <a href="https://developer.apple.com/machine-learning/">Core ML</a> 系列，透過 Apple 提供的工具鍊，開發者可以拿現成的 Model 轉成 Core ML 格式，並且在 Xcode 中被高度整合，使用上非常簡單，匯入之後連 Model 對應的 API 介面都幫你產生好了。</p>
+
+<p>以下是我個人這次 WWDC 覺得也滿重要，不在文章裡面的：</p>
+
+<ul>
+<li><a href="https://developer.apple.com/documentation/swift/codable">Swift Codable</a></li>
+<li><a href="https://developer.apple.com/library/content/documentation/Swift/Conceptual/BuildingCocoaApps/AdoptingCocoaDesignPatterns.html#//apple_ref/doc/uid/TP40014216-CH7-ID12">Swift block based KVO</a></li>
+<li>UIScrollView 有 <a href="https://developer.apple.com/documentation/uikit/uiscrollview/2865772-framelayoutguide">frameLayoutGuide</a> 跟 <a href="https://developer.apple.com/documentation/uikit/uiscrollview/2865870-contentlayoutguide">contentLayoutGuide</a> property，UIScrollView 的 Auto Layout 有時候真的會搞得很麻煩啊～</li>
+<li><a href="https://developer.apple.com/documentation/code_diagnostics/undefined_behavior_sanitizer">Undefined Behavior Sanitizer</a></li>
+<li>Xcode 的 breakpoint 終於有自動完成 ...</li>
+</ul>
+  <span class="item__footer"><a href="https://onevcat.com/2017/06/ios-11-sdk/">onevcat.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="WBxP976"></a>
+  
+  <h3 class="item__title"><a href="https://medium.freecodecamp.org/functional-programming-for-android-developers-part-1-a58d40d6e742">Functional Programming for Android Developers</a></h3>
+    <p>作者是一個資深的 Android 開發者，最近在 <a href="https://elixir-lang.org/">Elixir</a> 感受到了 Functional Programming 的一些特性跟好處，寫了一篇給 Android 開發者看的 FP 科普文。</p>
+
+<p>這是他上 Fragmented 的 Podcast：<a href="https://dev.to/fragmented/083-learning-the-basics-of-functional-programing-with-anup-cowkur">083: Learning the basics of functional programing with Anup Cowkur</a></p>
+  <span class="item__footer"><a href="https://medium.freecodecamp.org/functional-programming-for-android-developers-part-1-a58d40d6e742">freecodecamp.org</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="fEEDfcW"></a>
+  
+  <h3 class="item__title"><a href="https://segment.com/blog/a-brief-history-of-the-uuid/">UUID 簡史</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a> 在各種系統中都被廣泛使用。Segment 最近開源了一個 <a href="https://github.com/segmentio/ksuid">Golang 的 UUID 函式庫</a>，也寫了一篇文章來介紹 UUID 的歷史。</p>
+  <span class="item__footer"><a href="https://segment.com/blog/a-brief-history-of-the-uuid/">segment.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="k8JoQ7g"></a>
+  
+  <h3 class="item__title"><a href="https://redditblog.com/2017/05/24/view-counting-at-reddit/">Reddit 怎麼做已讀數計算</a></h3>
+    <p>計算已讀數聽起來像是一個簡單的功能，但是當達到 Reddit 的規模時，事情就變得複雜了起來。既不能只用一個數字來存 (race condition 超嚴重)， 或是一筆一筆加 (好幾百萬筆，加到天昏地老）。這篇文章介紹了他們怎麼使用 Redis 和 Cassandra 來計算已讀數。</p>
+  <span class="item__footer"><a href="https://redditblog.com/2017/05/24/view-counting-at-reddit/">redditblog.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9ZNz9B8"></a>
+  
+  <h3 class="item__title"><a href="https://www.reddit.com/r/unix/comments/6gxduc/how_is_gnu_yes_so_fast/">GNU `yes` 工具為什麼會這麼快?</a></h3>
+    <p><code>yes</code> 是一個可以一直輸出 <code>y</code> 的工具程式，許多作業系統都有內建。
+聽起來是很簡單的程式，不過 <a href="https://github.com/coreutils/coreutils/blob/master/src/yes.c">GNU 版</a>的卻做了最佳化，讓它輸出 <code>y</code> 的速度高達 10.2GiB/s 。 另一方面 <a href="https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c">OpenBSD 版</a>的大約是 140MiB/s。背後的奧秘就在於 output buffering，也讓我們看到了簡單的程式也可以寫得很複雜。</p>
+  <span class="item__footer"><a href="https://www.reddit.com/r/unix/comments/6gxduc/how_is_gnu_yes_so_fast/">reddit.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="5zwAD83"></a>
+  
+  <h3 class="item__title"><a href="https://sysdig.com/blog/container-isolation-gone-wrong/">當 Container 不再獨立</a></h3>
+    <p>Container 應該是互相獨立，不會互相影響的。但是作者卻發現兩個簡單的 container 在同一台機器上運作時，效能會大幅降低。作者深入 Kernel 研究原因，最後也找到了真正的成因。</p>
+  <span class="item__footer"><a href="https://sysdig.com/blog/container-isolation-gone-wrong/">sysdig.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-twolegsbad">
+        <div class="i" id="twolegsbad">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Two Legs Bad</span></h2>
+            <div class="item item--issue item--link">
+  <a name="xAtheBh"></a>
+  
+  <h3 class="item__title"><a href="http://join.gov.tw/idea/detail/fab2b4a0-452f-41de-bb68-41799807c51c">政府網站統一在最下方顯示承包廠商及標案資訊 - 公共政策網路參與平臺</a></h3>
+    <blockquote><p>政府的網站絕大部份都是透過標案承包給民間軟體公司製作，但是常常廠商能力不足造成網站安全性問題一堆或是速度緩慢或是動線不流暢，造成民眾對於政府網站總是有著就是落伍的刻板印象。如果能夠要求以後政府網站都可以統一在下方顯示像是「本網站是透過 xxxx 標案，經由 ooo 公司承包製作」資訊，可以讓承包公司會對這網站更有責任感，不再只是只以到達標案需求就好的交差應付心態。</p></blockquote>
+  <span class="item__footer"><a href="http://join.gov.tw/idea/detail/fab2b4a0-452f-41de-bb68-41799807c51c">join.gov.tw</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-randomcoolstuff">
+        <div class="i" id="randomcoolstuff">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Random Cool Stuff</span></h2>
+            <div class="item item--issue item--link">
+  <a name="dWWbAv0"></a>
+  
+  <h3 class="item__title"><a href="https://stat.ripe.net/widget/routing-history#w.resource=as15562&amp;w.starttime=2017-01-15T00%3A00%3A00&amp;w.endtime=2017-06-23T00%3A00%3A00&amp;show=Maxmized">用 BGP 畫 nyancat</a></h3>
+    <p>有人花了 3072 個小時用 <a href="https://en.wikipedia.org/wiki/Border_Gateway_Protocol">BGP</a> 畫了一隻 <a href="http://www.nyan.cat/">Nyancat</a>。讓人不得不佩服。</p>
+
+<p>by @johnlinvc</p>
+  <span class="item__footer"><a href="https://stat.ripe.net/widget/routing-history#w.resource=as15562&amp;w.starttime=2017-01-15T00%3A00%3A00&amp;w.endtime=2017-06-23T00%3A00%3A00&amp;show=Maxmized">ripe.net</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/93/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2017-06-19'>June 19th 2017</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>94 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/95/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2017-07-10'>July 10th 2017</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

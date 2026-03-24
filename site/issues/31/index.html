@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 31「我是個壞女孩，我需要被懲罰」她咬著嘴唇說著，「很好」他邊說邊開始在她的筆電安裝 Windows 10 #阿宅的五十道陰影</title>
+<meta name="description" content="本期內容涵蓋 React, Django, HTTP/2, zsh, Web Workers, JavaScript, CSS, npm, iOS, GitHub, Swift, Objective-C">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 React, Django, HTTP/2, zsh, Web Workers, JavaScript, CSS, npm, iOS, GitHub, Swift, Objective-C'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/31/index.html#start">
+        Issue 31「我是個壞女孩，我需要被懲罰」她咬著嘴唇說著，「很好」他邊說邊開始在她的筆電安裝 Windows 10 #阿宅的五十道陰影 &nbsp;<i><time class='published' datetime='2016-02-22'>February 22nd 2016</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-99542"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>
+
+<p>你也可以瀏覽一下<a href="http://weekly.codetengu.com/issues">前幾期的內容</a>，有價值的東西是不會過時的。</p>
+
+<p>以下是目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 楊威利腦殘粉</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 捷運飲食推廣委員會</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 衝動型購物</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 機器學習好難</li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+<li><a href="https://twitter.com/adamp3">@adamp33</a> - <a href="http://facebook.com/sportsenglish">看棒球才是正職</a>，副業是前端工程師</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a></li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://github.com/chiahsien">@chiahsien</a> - <a href="http://nelson.logdown.com/">Nelson</a></li>
+</ul>
+
+
+<p>大家也可以 follow 一下 CodeTengu 的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a> 或 <a href="https://github.com/CodeTengu/headquarters">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊一聊，歡迎亂入 👺</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-vinta">
+        <div class="i" id="vinta">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/0f76351f-efb8-421a-b94d-7cdba7f7e716.jpg" alt="@vinta" width="80" /><span class="category__title__text">@vinta</span></h2>
+            <div class="item item--issue item--link">
+  <a name="14bbIW1"></a>
+  
+  <h3 class="item__title"><a href="http://www.ruanyifeng.com/blog/2015/03/react.html">React 入门实例教程</a></h3>
+    <p>雖然團隊裡有專職的前端工程師，但是為了讓 co-work 和 code review 能夠更順利，看樣子終究還是躲不了得學一下 React.js 吶，不然人活得好好的，為什麼要去寫 JavaScript 呢？總之就是這個禮拜正在入門 React，看了幾篇文章，剛好跟大家分享一下。太久沒有寫前端，有超多知識要補的啊。</p>
+
+<p>忍不住要說一下，第一次看到那個 <a href="https://github.com/gaearon/react-transform-boilerplate#demo">Hot Module Replacement</a> 的功能時，差點都要尿褲子了。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://github.com/petehunt/react-howto">react-howto</a> - 作者曾經是 React 核心開發者之一</li>
+<li><a href="http://facebook.github.io/react/docs/thinking-in-react.html">Thinking in React</a></li>
+<li><a href="http://christianalfoni.github.io/react-webpack-cookbook/index.html">React Webpack cookbook</a></li>
+</ul>
+  <span class="item__footer"><a href="http://www.ruanyifeng.com/blog/2015/03/react.html">ruanyifeng.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="SdMoLjS"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/andrewgodwin/channels">channels: Developer-friendly asynchrony for Django</a></h3>
+    <p>Django Channels 是 @andrewgodwin（Django 的核心開發者之一，也是 South 的作者）的新專案，目的是讓 Django 能夠原生地支援 WebSocket 和 HTTP/2 server push，看起來有點令人期待啊。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://channels.readthedocs.org/en/latest/">Django Channels documentation</a></li>
+<li><a href="http://www.aeracode.org/2016/1/3/laying-channels-groundwork/">Laying the Channels Groundwork</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/andrewgodwin/channels">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BgGa55P"></a>
+  
+  <h3 class="item__title"><a href="https://blog.cloudflare.com/http-2-for-web-developers/">HTTP/2 For Web Developers</a></h3>
+    <p>雖然之前就分享過 <a href="http://weekly.codetengu.com/issues/25?m=web#2CWyU09">Short read: How is HTTP/2 different? Should we still minify and concatenate?</a>，但是這一篇 CloudFlare blog 上的文章寫得更完整。</p>
+  <span class="item__footer"><a href="https://blog.cloudflare.com/http-2-for-web-developers/">cloudflare.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FIJtkMa"></a>
+  
+  <h3 class="item__title"><a href="https://ihower.tw/blog/archives/7259">Defensive Programming 防禦性程式設計</a></h3>
+    <p>Defensive Programming 簡單說就是指你為了確保程式在各種可預期和不可預期的情況下都不會出錯，額外做的那些檢查或處理。很多時候，Defensive Programming 是有必要的，尤其是在面對（惡意的）使用者輸入時。但是重點是你不應該濫用它（把所有的錯誤都隱藏起來），有些時候你就是得 Fail Fast，讓錯誤及早地暴露出來。</p>
+
+<p>就我自己的經驗，如果你的 API（廣義的 API，可以是 RESTful API、library 或 public methods 等）是要給其他的 developers 使用，當你在輸入的參數裡檢測到錯誤時，你應該要丟出一個 exception 告訴調用的人錯在哪裡，而不是偷偷地幫他 fall back 成某個默認值。</p>
+
+<p>如果你寫的那些 code 的唯一使用者就是你自己和你的同事，而且也不會牽涉到一般使用者的輸入，那我會說你乾脆也不用檢查了，調用的人如果輸入了非預期的參數，他自己在執行的時候就會遇到問題。而且因為<strong>他就看得到 source code 啊幹</strong>，所以他當然也應該自己找出正確的參數應該是什麼。不過，如果你的程式老是讓別人誤用，那你其實應該要考慮一下重構啦。</p>
+
+<p>最後跟大家分享一下所謂的 Conway's law（康威定律），感受一下：</p>
+
+<blockquote><p>Any organization that designs a system will produce a design whose structure is a copy of the organization's communication structure.</p></blockquote>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="http://www.ithome.com.tw/node/81659">避免隱藏錯誤的防禦性設計</a></li>
+</ul>
+  <span class="item__footer"><a href="https://ihower.tw/blog/archives/7259">ihower.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="BxTsWVo"></a>
+      <a href="https://github.com/tarruda/zsh-autosuggestions"><img src="original_ratio_extra_large_6c122c74-461a-4808-9bcb-91031d10d289.png" title="zsh-autosuggestions: Fish-like autosuggestions for zsh" alt="" width="730" /></a>
+
+  <h3 class="item__title"><a href="https://github.com/tarruda/zsh-autosuggestions">zsh-autosuggestions: Fish-like autosuggestions for zsh</a></h3>
+    <p>是一個 zsh 的指令自動補完外掛，特別的是它會在你正在輸入的游標之後直接顯示建議的指令（根據你以前輸入過的指令），用起來很爽啊！雖然剛開始用的時候，會覺得怎麼一直有東西在那邊閃來閃去。</p>
+
+<p>延伸閱讀：</p>
+
+<ul>
+<li><a href="https://github.com/unixorn/awesome-zsh-plugins#plugins">awesome-zsh-plugins</a></li>
+</ul>
+  <span class="item__footer"><a href="https://github.com/tarruda/zsh-autosuggestions">github.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-kako0507">
+        <div class="i" id="kako0507">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec91c275-fe33-4c14-b4ea-078e385f725b.jpeg" alt="@kako0507" width="80" /><span class="category__title__text">@kako0507</span></h2>
+            <div class="item item--issue item--link">
+  <a name="8d91phO"></a>
+  
+  <h3 class="item__title"><a href="https://twitter.com/sstur_/status/567937326669651969">ReactJS lifecycle chart</a></h3>
+    <p>React 有良好的 lifecycle methods， 在需要手動處理 DOM 時非常方便，可以保證 DOM 一定存在，或是在資料更新時做對應的處理，透過這個 lifecycle chart 可以更清楚的了解 lifecycle 運作流程。</p>
+  <span class="item__footer"><a href="https://twitter.com/sstur_/status/567937326669651969">twitter.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="nSCuUXD"></a>
+  
+  <h3 class="item__title"><a href="http://blog.nparashuram.com/2016/02/using-webworkers-to-make-react-faster.html">Using Webworkers to make React faster</a></h3>
+    <p>這篇文章探討將 React 的 <a href="https://facebook.github.io/react/docs/reconciliation.html">DOM reconciliations</a> (資料改變後自動運算 DOM 變化的過程，使得 API 非常的簡單，用起來就像是每次都重新 render 整個 Component 。) 過程放到 Web worker 上執行的結果，在資料較少的狀態下，因為需要在 UI thread 和 worker thread 傳輸的原因，在速度上並沒有什麼好處，但在需要 render 足夠大量的資訊時會有較快的效能。</p>
+
+<p><a href="http://web-perf.github.io/react-worker-dom/">DEMO</a></p>
+  <span class="item__footer"><a href="http://blog.nparashuram.com/2016/02/using-webworkers-to-make-react-faster.html">nparashuram.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="sqJWVd2"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/software-craftsman/functional-refactoring-in-javascript-c0fe718f4efb#.ceu36vw5y">Functional Refactoring in JavaScript</a></h3>
+    <p>在撰寫 JavaScript 時，可以利用一些 functional programing 的概念來增加 readability 或減少需要重複書寫的 code ，本篇文章會利用包裝紙盒的例子來做 Functional 重構，不過筆者一開始就先說明在這個例子裡這樣做是矯枉過正的，這個例子是為了盡可能的轉換成 functional pure expression ，並不會看到 readability 的好處。</p>
+  <span class="item__footer"><a href="https://medium.com/software-craftsman/functional-refactoring-in-javascript-c0fe718f4efb#.ceu36vw5y">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="I1jkbMl"></a>
+  
+  <h3 class="item__title"><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">CSS Variables: Why Should You Care?</a></h3>
+    <p>CSS4 非正式標準 - CSS Variables 終於在 Chrome 49 支援了， Developer 也可以在原生 css 裡寫出類似 LESS, SASS 的效果，不過還是有很多功能需要改進，像是 nesting 和 mixins 就尚未支援，且在意瀏覽器支援度的開發者，可能就要再等上幾年了。</p>
+  <span class="item__footer"><a href="https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care?hl=en">google.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="kAxsUln"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.p2fgyoy8f">Why I Left Gulp and Grunt for npm Scripts</a></h3>
+    <p>Gulp 用較簡單的 streaming 方式管理 Node.js task ，因而取代 Grunt 的地位，不過因為 Gulp 和 Grunt 這類的 task 管理上有以下幾個缺點，建議使用 npm 的 script 取代即可。</p>
+
+<ul>
+<li>必須依賴 Plugin 的作者，很可能無法即時跟上 Library 更新</li>
+<li>因為 Gulp 與 Grunt plugin 屬於另外附加的一層 code ，比較難去檢查是哪個環節出錯了</li>
+<li>讀懂所需 tool 的文件是不夠的，常常還需要了解 Gulp 和 Grunt plugin 的設定方式</li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@housecor/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8#.p2fgyoy8f">medium.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-chiahsien">
+        <div class="i" id="chiahsien">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/716d4c3c-3484-44bf-a997-1e09bfc1d5e5.jpeg" alt="@chiahsien" width="80" /><span class="category__title__text">@chiahsien</span></h2>
+            <div class="item item--issue item--link">
+  <a name="IBRKRIY"></a>
+  
+  <h3 class="item__title"><a href="https://dotblogs.com.tw/aken1215/2016/02/15/234033">iOS 憑證顯示 &quot;無效的簽發者&quot; 解決方案</a></h3>
+    <p>在情人節的時候，有一張 Apple 的<a href="https://developer.apple.com/support/certificates/expiration/">憑證過期了</a>，因為是突如其來的，所以很多開發者一時之間被搞得焦頭爛額。這篇文章是一個開發者解決憑證問題的心 (ㄒㄧㄝ ˇ) 得 (ㄌㄟˋ)，值得參考。</p>
+  <span class="item__footer"><a href="https://dotblogs.com.tw/aken1215/2016/02/15/234033">dotblogs.com.tw</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="YcyX4SH"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/blog/2111-issue-and-pull-request-templates">Issue and Pull Request templates</a></h3>
+    <p>前一陣子一群人<a href="https://github.com/dear-github/dear-github">寫了一封公開信給 GitHub</a>，最近 GitHub 對其中的一些問題做出了回應，這就是他們的答案：<strong>幫 issue 跟 pull request 設計樣板</strong>。</p>
+
+<ol>
+<li>它的命名必須是 <code>ISSUE_TEMPLATE</code> 或 <code>PULL_REQUEST_TEMPLATE</code></li>
+<li>它不需要有副檔名，不過它支援 Markdown (.md) 語法</li>
+<li>如果你覺得把檔案放在根目錄很亂的話，你可以在根目錄建立一個 <code>.github</code> 資料夾，然後放在這裡面</li>
+</ol>
+
+
+<p>我覺得這個功能超棒的，這樣一來在公司內部就可以統一 pull request 的格式了！更多詳細資料可以參考<a href="https://help.github.com/articles/helping-people-contribute-to-your-project/">官方文件</a>。</p>
+  <span class="item__footer"><a href="https://github.com/blog/2111-issue-and-pull-request-templates">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="9fcjCva"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/hollance/swift-algorithm-club">Swift Algorithm Club</a></h3>
+    <p>喜歡演算法嗎？正在學 Swift 嗎？這裡有人用 Swift 實作了許多經典且實用的演算法，值得花時間好好學習！</p>
+  <span class="item__footer"><a href="https://github.com/hollance/swift-algorithm-club">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="8dEdbQH"></a>
+  
+  <h3 class="item__title"><a href="http://krakendev.io/blog/the-right-way-to-write-a-singleton">The Right Way To Write a Singleton</a></h3>
+    <p>Singleton 其實就是一種全域變數，雖然大家都知道全域變數是不好的，應該盡可能避免，但有的時候就是無可避免會用到它。Objective-C 發展那麼久了，早就有一套公認最佳的創建 singleton 的寫法，那 Swift 呢？這篇文章列出了多組常見的寫法，並且說明哪個寫法最好。</p>
+  <span class="item__footer"><a href="http://krakendev.io/blog/the-right-way-to-write-a-singleton">krakendev.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="FtDifqE"></a>
+  
+  <h3 class="item__title"><a href="http://codevoyagers.com/2016/02/09/transitioning-from-objective-c-to-swift-in-4-steps-without-rewriting-the-existing-code/">Transitioning From Objective C to Swift in 4 Steps – Without Rewriting The Existing Code</a></h3>
+    <p>就算 Swift 還在快速變動中，還是阻擋不了一堆工程師前仆後繼的投入這個新語言的懷抱，誰叫工程師都是喜歡新玩具的呢～ Skyscanner 的工程師們跟大家分享了如何透過四個循序漸進的步驟，在使用 Objective-C 寫的專案裡頭一步步的加入 Swift，並分享轉成 Swift 之後所帶來的好處。</p>
+  <span class="item__footer"><a href="http://codevoyagers.com/2016/02/09/transitioning-from-objective-c-to-swift-in-4-steps-without-rewriting-the-existing-code/">codevoyagers.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-otakuisthenewsexy">
+        <div class="i" id="otakuisthenewsexy">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Otaku is the New Sexy</span></h2>
+            <div class="item item--issue">
+  <a name="t-118309"></a>
+      <img src="original_ratio_extra_large_f8a8be8a-9fcb-452c-bfe5-ca00f43e3916.jpg" title="「巷弄間的謎走大叔」三次元系列總整理" alt="" width="730" />
+
+  <h3 class="item__title">「巷弄間的謎走大叔」三次元系列總整理</h3>
+    <p>我發現長久以來，大家都誤用了「大叔」這個詞，好像只要超過三十歲、有鬍子或長得老、喜歡軟妹子、穿 POLO 衫會立領、有玩過紅白機、使用有刻字的陶杯、周身有股老人臭的男性都被泛稱為「大叔」。身為「熟成男生產履歷」(雖然很久沒更新了) 的編撰者，我必須在這邊提出鄭重的抗議，「大叔」可不是躺在那裡長肉就可以當的！「大叔」，是對一個男人熟成後的恭維，是為個性獨樹一格的男人頒發的勳章，除此之外的三十歲以上男性就只是三十歲以上的男性而已，請不要稱之為「大叔」，從今天起請稱他們為 "<strong>搭載 Y 染色體的容器</strong>"。今天我們就來介紹五個在日本各地謎走的大叔，然後首圖的北野 武其實沒有在裡面，我只是拿來當門神用用而已 XD。</p>
+
+<p>/// 日劇篇</p>
+
+<ul>
+<li>謎走式壹－<em>孤傲的胃袋疾走</em> <a href="http://www.tv-tokyo.co.jp/kodokunogurume/">《孤獨的美食家》</a>
+
+<blockquote><p><strong>松重 豐</strong>主演，漫畫改編，獨身主義的饕客，行走距離不到五百公尺就必須餵食的 SOHO 族<del>如果是模擬市民豈不是被煩死</del>，用豪邁的吃相抓住 "專枯" (以大叔為食的人) 的心。</p></blockquote></li>
+<li>謎走式貮－<em>自宅花草保育區巡警</em> <a href="http://goo.gl/OXUrgO">《植物男子陽台星人》</a>
+
+<blockquote><p><strong>田口 智朗</strong>主演，獨身主義的自宅警備隊，老實說我覺得這傢伙很麻煩，是那種讓人不想深交的文青大叔，尤其是那件翻領針織衫、黑框眼鏡和永澤頭的搭配彷彿強調一種不願意服從歲月的叛逆，大叔就穿得像大叔就好了嘛！</p></blockquote></li>
+<li>謎走式叁－ <em>萬年備胎之一路被甩到掛</em><a href="http://goo.gl/M7zBWA">《東京傷情故事》</a>
+
+<blockquote><p><strong>吉田 鋼太郎</strong>主演，常看日劇的人應該認識他，幾乎都演大魔王或幕後黑手之類的角色，但在這齣<del>東京景點置入性行銷的</del>日劇中一直不停地被甩，而且每集客串的都是段數很高的熟女，老是讓他請客，再給他嚐一點甜頭之後就提出自己的要求然後閃人 XD，腦海裡一直浮現龐克馬莎告白失敗的那一次<a href="http://goo.gl/H5PBZw">軟式 globe</a> 啊哈哈！</p></blockquote></li>
+<li>謎走式肆－ <em>刑警辦案式料理偵探</em><a href="http://www.nhk.or.jp/pd/kamogawa/">《鴨川食堂》</a>
+
+<blockquote><p><strong>萩原 健一</strong>主演，小說改編，場地在京都，前刑警兼主廚幫您找出記憶中的味道順便給你講一個加洋蔥的故事，聽說京都人特別喜歡午間偵探劇，這部片怎麼看都有一種說不出來的玫瑰瞳鈴眼氣息，然後萩原桑實在很有魄力。</p></blockquote></li>
+</ul>
+
+
+<p>/// 日劇 SP 篇</p>
+
+<ul>
+<li>謎走式伍－ <em>泥棒 (小偷) 式尋貓怪客</em><a href="http://www.bs-j.co.jp/official/nekomote/">《貓和凶相大叔》</a>
+
+<blockquote><p><strong>田中 要次</strong>主演，有沒有發現這些在田野間謎走的大叔都要掛一臺徠卡在身上，據說這樣可以用來區別可疑人士和時尚雅痞，但田中桑怎麼掛都。很。可。疑！即使抱著喵星人，還。是。很。可。疑！</p></blockquote></li>
+</ul>
+
+
+<p>/// 大叔的胚胎特別推薦</p>
+
+<ul>
+<li>走鐘王－<em>真的在人生的道路上謎走了</em><a href="https://www.youtube.com/watch?v=Ca69TddVwLY">《山田孝之の東京都北區赤羽》</a>
+
+<blockquote><p><strong>山田 孝之</strong>主演，相關作品是<a href="https://twitter.com/seeeeeeeeeeeeno">清野 徹</a>的紀實漫畫《東京都北区赤羽》，這個故事就是說呢，山田桑他有一天在拍戲的時候發現必須真的殺了自己，否則無法演下去，劇組發現阻止不了他，於是乎全體休兵讓他回家休息，而喜歡漫畫的他突然發現自己很嚮往清野先生筆下的生活，於是毅然決然的搬去赤羽，跟漫畫裡的其他人物生活在一起然後被罵來罵去<del>這麼中二當然會被罵阿</del>，最後發現自己果然還是最喜歡演戲溜～ 結果和赤羽的大家用一場幼稚園程度的話劇展現回鍋的決心<del>邀請了許多業界人士來看然後大家都很關心他的精神狀態</del>，本劇終。</p></blockquote></li>
+</ul>
+
+
+<p>最後推薦一個我很喜歡的日劇評論家豬大<a href="https://www.facebook.com/WangDongsDramaTalk/timeline">劇評可以毒舌，待人必要親和。</a></p>
+
+<p>以上來自 <a href="https://twitter.com/autisticcat">@autisticcat</a> 的分享！</p>
+  <span class="item__footer">CodeTengu Weekly</span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/30/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2016-02-15'>February 15th 2016</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>31 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/32/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2016-02-29'>February 29th 2016</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+

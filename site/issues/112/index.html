@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html class="header--withimage no-js" lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CodeTengu Weekly 碼天狗週刊 - Issue 112 年初時立下的三項學習計畫，現在只差四項了</title>
+<meta name="description" content="本期內容涵蓋 Python, DevOps, Blockchain, Meltdown, Machine Learning, REST, Unit Test, Compiler">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+<style>
+body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+.issue__heading,.page__header,.category__title,.issue__pager__text time { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
+</style>
+
+<link href="../../assets/publication/themes/public_1/application.css" media="all" rel="stylesheet" />
+<link href="../../assets/stylesheet.css" media="all" rel="stylesheet" />
+<script src="../../assets/publication/themes/public_1/application.js"></script>
+
+  <link rel="shortcut icon" href="../../assets/images/favicon_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" type="image/x-icon" />
+    <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" rel="apple-touch-icon" type="image/png" />
+
+      <link href="../../assets/images/apple_touch_57_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="57x57" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_72_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="72x72" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_76_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="76x76" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_114_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="114x114" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_120_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="120x120" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_144_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="144x144" rel="apple-touch-icon" type="image/png" />
+      <link href="../../assets/images/apple_touch_152_9cb88446-99f0-42a5-a8e0-00c6b7c94460.png" sizes="152x152" rel="apple-touch-icon" type="image/png" />
+
+
+  <meta property="og:title" content='本期內容涵蓋 Python, DevOps, Blockchain, Meltdown, Machine Learning, REST, Unit Test, Compiler'></meta>
+  <meta property="og:image" content="../../assets/images/composited_f617db6a-be58-4538-91ae-f2460e07d010.png">
+    <meta property="og:image:width" content="631">
+    <meta property="og:image:height" content="400">
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="navbar" role="navigation">
+    <div class="i">
+      <div class="navbar-collapse">
+        <a class="navbar-a" href="../../archives/1/index.html">Archives</a>
+        <a class="navbar-a" href="../../sponsorship/index.html">Sponsorship</a>
+      </div>
+      <a class="navbar-a navbar-brand" href="../../index.html">
+        <img src="../../assets/images/f617db6a-be58-4538-91ae-f2460e07d010.png" alt="CodeTengu Weekly 碼天狗週刊" width="256" />
+      </a>
+      <button class="navbar-a navbar-toggle"><span class="sr-only">Toggle Menu</span><span class="navbar-toggle-bar"></span><span class="navbar-toggle-bar"></span><span class="icon icon-cross"></span></button>
+    </div>
+  </div>
+    <div class="intro intro--description ">
+    <div class="i">
+      <p>CodeTengu Weekly（碼天狗週刊）是一份開發者導向的 IT 技術週刊，適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p>
+
+<p>致力於解決開發者之間的資訊不對稱。</p>
+    </div>
+  </div>
+
+</header>
+
+
+
+<article class="issue" id="start">
+  <header class="issue__heading">
+    <div class="i">
+      <h1><a href="../../issues/112/index.html#start">
+        Issue 112 年初時立下的三項學習計畫，現在只差四項了 &nbsp;<i><time class='published' datetime='2018-01-15'>January 15th 2018</time></i>
+      </a></h1>
+    </div>
+  </header>
+  <div class="issue__body">
+      <section class="category cc-helloworld">
+        <div class="i" id="helloworld">
+          <h2 class="category__title category__title--lozenge"><span class="category__title__text">Hello World</span></h2>
+            <div class="item item--issue">
+  <a name="t-351537"></a>
+  
+  <h3 class="item__title">CodeTengu Weekly 碼天狗週刊</h3>
+    <p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href="https://weekly.codetengu.com/issues">前幾期的內容</a>。</p>
+
+<p>目前的 curator 陣容：</p>
+
+<ul>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Wool</a></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
+<li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
+<li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>
+<li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://github.com/yhsiang">@yhsiang</a></li>
+<li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
+<li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
+<li><a href="https://twitter.com/wancw">@wancw</a></li>
+</ul>
+
+
+<p>你也可以關注我們的 <a href="https://www.facebook.com/codetengu">Facebook</a>、<a href="https://twitter.com/codetengu">Twitter</a>、<a href="https://github.com/CodeTengu/HyakkiYagyo">GitHub</a> 或 <a href="https://github.com/CodeTengu">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href="https://gitter.im/codetengu/headquarters">Gitter</a> 聊聊。</p>
+  <span class="item__footer">致力於解決開發者之間的資訊不對稱</span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-mingderwang">
+        <div class="i" id="mingderwang">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/ec2047d4-22dd-40f2-9609-6fa9191ca2c5.jpg" alt="@mingderwang" width="80" /><span class="category__title__text">@mingderwang</span></h2>
+            <div class="item item--issue item--link">
+  <a name="SgkQ75E"></a>
+  
+  <h3 class="item__title"><a href="https://github.com/norvig/pytudes">pytudes (Python 練習曲)</a></h3>
+    <p>有些人想學 ML，但苦於 Python 不夠熟悉，這裏剛好有一些 Python 的練習程式與教學。重點是，這 git repo 的作者是我在 <a href="https://www.theatlantic.com/technology/archive/2011/08/take-stanfords-introduction-to-artificial-intelligence-course/243113/">Stanford 網路上學人工智慧</a> 時的老師之一，<a href="http://norvig.com/">Peter Norvig</a>。這些以前 A.I. 的老師，最後幾乎都到 Google 上班 (或已經離開了)。</p>
+
+<p>註：現在要上課，也能到 <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271">UDACITY - Intro to Artificial Intelligence</a>，完全免費！</p>
+  <span class="item__footer"><a href="https://github.com/norvig/pytudes">github.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="igeHFxG"></a>
+  
+  <h3 class="item__title"><a href="https://zeit.co/now">now – Realtime global deployments</a></h3>
+    <p>談到自動部署，我想沒有比 now 還要快的了。只是跟大家開一個玩笑，CI 不是只要能快速部署就夠了，還需要搭配其他情境使用。但對於喜歡一天寫一支 SPA，或是 micro service 的人來説，這未嘗不是一個好工具。</p>
+  <span class="item__footer"><a href="https://zeit.co/now">zeit.co</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="42sSvmx"></a>
+  
+  <h3 class="item__title"><a href="https://stackshare.io/stackups/linkerd-vs-traefik">traefik or linkerd</a></h3>
+    <p>看起來 <a href="https://linkerd.io/getting-started/">linkerd</a> 想要追上 <a href="https://traefik.io/">traefik</a> 還要加把勁... 另外還有一個後起之秀 <a href="https://istio.io/">istio</a>，<a href="https://buoyant.io/2017/07/11/linkerd-istio/">整合了 linkerd</a> 在 <a href="https://trends.google.com/trends/explore?q=istio,traefik,linkerd">Google Trends 應該會超越 traefik</a>。</p>
+
+<p>如果想進一步看 linkerd 與 istio 之間的比較，可以參考 <a href="https://medium.com/@jeffzzq">Jeff Gensler</a> 的 <a href="https://medium.com/@jeffzzq/linkerd-vs-istio-my-2-1e16557891a6">Linkerd vs Istio: my 2¢</a>。</p>
+  <span class="item__footer"><a href="https://stackshare.io/stackups/linkerd-vs-traefik">stackshare.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="DWollpe"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@adrianli/rapid-ethereum-dapp-development-with-next-js-f6354400e4d4">Rapid Ethereum Dapp Development with Next.js</a></h3>
+    <p>最近以太幣跟比特幣都漲的很兇，如果先前有在玩 <a href="https://www.youtube.com/watch?v=G3psxs3gyf8&amp;feature=youtu.be">blockchain</a> 的人，應該不會後悔當時的努力了吧。現在開始寫 blockchain 應用程式還來得及，這篇文章教你如何利用 <a href="https://learnnextjs.com/">Next.js</a> 快速開發 <a href="https://www.ethereum.org/">Ethereum Dapps</a>。</p>
+  <span class="item__footer"><a href="https://medium.com/@adrianli/rapid-ethereum-dapp-development-with-next-js-f6354400e4d4">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="lvVZ9qR"></a>
+  
+  <h3 class="item__title"><a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-bigquery.html">A Billion Taxi Rides on Google&#39;s BigQuery</a></h3>
+    <p><a href="https://twitter.com/marklit82">Mark Litwintschik</a> 做了很多瘋狂的實驗，他拿了 11 億筆 6 年來紐約市搭計程車的資料，放在各式個樣的環境裏做查詢速度的比較，有 <a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-postgresql.html">PostgreSQL</a>，<a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-presto-emr.html">AWS EMR 的 Presto</a>，<a href="http://tech.marksblogg.com/all-billion-nyc-taxi-rides-elasticsearch.html">Elasticsearch</a> 與<a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-elasticsearch.html">另一個比較快的測試</a>，還有這篇用 <a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-bigquery.html">Google 的 BigQuery</a> 等。更有趣的是，他還放在 3 台 <a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-spark-raspberry-pi.html">Raspberry Pi 3</a> 安裝 HDFS 與執行 Spark，太厲害了。</p>
+  <span class="item__footer"><a href="http://tech.marksblogg.com/billion-nyc-taxi-rides-bigquery.html">marksblogg.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="UGMbcwQ"></a>
+  
+  <h3 class="item__title"><a href="https://www.blog.google/topics/shopping-payments/announcing-google-pay/">Bringing it all together with Google Pay</a></h3>
+    <p><a href="https://en.wikipedia.org/wiki/Google_Wallet">Google Wallet</a>，也許很少人在用 Google Wallet，甚至沒聽過。2011 開始上市，到 2016 幾乎沒人再談 Google  Wallet 了。剛看了一下 <a href="https://payments.google.com">Google Payment Center</a> 網站，竟然發現我在 17 Mar. 2011, 8:02 am 還真的用過，捐了 5,000 日幣給日本紅十字會。連我自己都忘記我用過了。沒成功的原因到底在哪裡? 這次直接把還有一點起色的 Android Pay 直接換名字叫 Google Pay，會成功嗎? 不管如何，誰會願意放棄這塊 payment system 大餅。</p>
+  <span class="item__footer"><a href="https://www.blog.google/topics/shopping-payments/announcing-google-pay/">blog.google</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-johnlinvc">
+        <div class="i" id="johnlinvc">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/88ef562c-de39-4b35-a430-4ae3d90b14ac.jpeg" alt="@johnlinvc" width="80" /><span class="category__title__text">@johnlinvc</span></h2>
+            <div class="item item--issue item--link">
+  <a name="WSmUlMH"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@agzmn/the-making-of-apples-emoji-how-designing-these-tiny-icons-changed-my-life-16317250a9ee">Making of Apple&#39;s emoji</a></h3>
+    <p>在程式語言🖥的文件📄裡加入 Emoji 😂似乎是最近的趨勢📈。
+Apple emoji 的設計者之一分享了他們在十年前開發第一代 emoji 的故事。</p>
+  <span class="item__footer"><a href="https://medium.com/@agzmn/the-making-of-apples-emoji-how-designing-these-tiny-icons-changed-my-life-16317250a9ee">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="P4Mnetj"></a>
+  
+  <h3 class="item__title"><a href="http://meltdownattack.com/">Meltdown</a></h3>
+    <p>最近鬧得沸沸揚揚的 Meltdown 和 Spectre 可以說是近年來前幾大的安全漏洞，影響了最近十年的 CPU。
+簡單來說就是 CPU 在亂序執行指令時，會在快取系統裡留下旁道攻擊弱點。
+Meltdown 可以由作業系統的 <a href="https://lwn.net/Articles/738975/">KAISER</a> 來避免，不過會影響效能。目前各大作業系統和雲端服務都已經開始處理了。
+Spectre 影響的範圍則大得多，大多數的程式都會需要重新編譯，目前 LLVM compiler 已經開始 <a href="http://lists.llvm.org/pipermail/llvm-commits/Week-of-Mon-20180101/513630.html">patch</a> 一部分的 Spectre 漏洞了。</p>
+  <span class="item__footer"><a href="http://meltdownattack.com/">meltdownattack.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="3EESLQR"></a>
+  
+  <h3 class="item__title"><a href="http://exercism.io/">可以用來練習各種語言的開源平台， Exercism</a></h3>
+    <p>有的時候想要學一個新的程式語言，但又不知道重哪裡開始嗎？
+除了大家都很熟的 <a href="https://leetcode.com/">leetcode</a> 之外，現在又多了一個新選項， Exercism。
+這個開源平台提供了超過30 種語言的安裝教學，各種常見的練習題。在上傳答案後，大家可以一起對上傳的答案做 code review。
+之前就想學 <a href="http://exercism.io/languages/swift/about">Swift</a>, <a href="http://exercism.io/languages/erlang/about">Erlang</a> 了嗎？ 現在就開始吧！</p>
+  <span class="item__footer"><a href="http://exercism.io/">exercism.io</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="uAXpXyI"></a>
+  
+  <h3 class="item__title"><a href="https://towardsdatascience.com/using-yelp-data-to-predict-restaurant-closure-8aafa4f72ad6">使用 Yelp 資料來預測餐廳會不會關門</a></h3>
+    <p>作者用了 Yelp 上的資料來預測餐廳會不會倒閉。 準確率高達91%。他發現決定餐廳會不會倒閉的最重要因素不是評價，而是它是不是一間連鎖店。
+我們在 iCHEF 也和凱基合作做過<a href="https://www.bnext.com.tw/article/47307/ichef-kgi-inside-big-data">類似的事</a>，幫助店家預測營運狀況。</p>
+
+<p>PS. iCHEF <a href="https://www.yourator.co/companies/iCHEF">誠徵工程師中</a></p>
+  <span class="item__footer"><a href="https://towardsdatascience.com/using-yelp-data-to-predict-restaurant-closure-8aafa4f72ad6">towardsdatascience.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+      <section class="category cc-wancw">
+        <div class="i" id="wancw">
+          <h2 class="category__title category__title--lozenge"><img src="../../assets/images/categories/3a88e360-3cdf-406a-9742-97187586b17b.jpg" alt="@wancw" width="80" /><span class="category__title__text">@wancw</span></h2>
+            <div class="item item--issue item--link">
+  <a name="JU0s6Q5"></a>
+  
+  <h3 class="item__title"><a href="https://medium.com/@CQD/%E7%BF%BB%E8%AD%AF-%E6%88%91%E6%98%AF%E9%80%99%E6%A8%A3%E6%8B%BF%E8%B5%B0%E5%A4%A7%E5%AE%B6%E7%B6%B2%E7%AB%99%E4%B8%8A%E7%9A%84%E4%BF%A1%E7%94%A8%E5%8D%A1%E8%99%9F%E8%B7%9F%E5%AF%86%E7%A2%BC%E7%9A%84-991cb6c4631e">[翻譯] 我是這樣拿走大家網站上的信用卡號跟密碼的</a></h3>
+    <p>一則簡單的寓言，提醒大家現在對 3rd-party 的過度依賴可能帶來什麼樣的安全問題。
+（想想當初的 <a href="https://www.theregister.co.uk/2016/03/23/npm_left_pad_chaos/">left-pad 事件</a>。）</p>
+
+<p>裡面也有些值得參考的技術資料：</p>
+
+<ul>
+<li>偵測 DevTool 有沒有被打開的套件 <a href="https://github.com/sindresorhus/devtools-detect">devtools-detect</a></li>
+<li>如何偵測 CSP (<a href="https://www.w3.org/TR/CSP2/">content security policy</a>)</li>
+</ul>
+  <span class="item__footer"><a href="https://medium.com/@CQD/%E7%BF%BB%E8%AD%AF-%E6%88%91%E6%98%AF%E9%80%99%E6%A8%A3%E6%8B%BF%E8%B5%B0%E5%A4%A7%E5%AE%B6%E7%B6%B2%E7%AB%99%E4%B8%8A%E7%9A%84%E4%BF%A1%E7%94%A8%E5%8D%A1%E8%99%9F%E8%B7%9F%E5%AF%86%E7%A2%BC%E7%9A%84-991cb6c4631e">medium.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="hGMf6X2"></a>
+  
+  <h3 class="item__title"><a href="https://dev.to/orkon/making-better-http-apis-72l">[TIP] 如何設計 RESTful API 避免重複建立資源</a></h3>
+    <p>開發（或使用）HTTP API 最常遇到的問題之一就是建立新的 resource，<br/>
+尤其是像訂單、文章這類沒有原生唯一識別資訊的資料。</p>
+
+<p>作者建議用先 <code>POST</code> （創建 ID） 再 <code>PUT</code> （填寫資料）的方式。<br/>
+雖然多一筆 request，但讓錯誤處理變得比較簡單。</p>
+  <span class="item__footer"><a href="https://dev.to/orkon/making-better-http-apis-72l">dev.to</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="fHhBVuu"></a>
+  
+  <h3 class="item__title"><a href="http://www.pyscoop.com/building-a-simple-blockchain-in-python/">Building a Simple Blockchain in Python</a></h3>
+    <p>搞懂區塊鏈最快的方式是啥？<br/>
+自己寫一個吧！或者……看別人寫一個。</p>
+
+<p>這篇文章以 Python 程式說明基本的區塊鏈概念，包括：</p>
+
+<ul>
+<li>區塊鍊（block &amp; blockchain）是啥東西</li>
+<li>挖礦在幹嘛（mining &amp; proof of work）</li>
+</ul>
+
+
+<p>每個 node 間的溝通則在 <a href="http://www.pyscoop.com/building-a-simple-blockchain-in-python-part-2/">Part 2</a>。</p>
+  <span class="item__footer"><a href="http://www.pyscoop.com/building-a-simple-blockchain-in-python/">pyscoop.com</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="hrmgb3m"></a>
+  
+  <h3 class="item__title"><a href="https://nesteryuk.info/2017/12/09/cost-of-stubs-in-tests.html">Cost of stubs in tests | Dmitriy Nesteryuk</a></h3>
+    <p>用了 stub 可以讓 unit test 變單純，但其實只是把麻煩全都推到 integration test 而已。
+與其完全依賴 intergration test 來找出物件互動時的問題，不如少用 stub。</p>
+
+<p>作者認為以下情況還是適合用 stub ：</p>
+
+<ol>
+<li>low-level library</li>
+<li>存取網路或外部系統的元件</li>
+</ol>
+  <span class="item__footer"><a href="https://nesteryuk.info/2017/12/09/cost-of-stubs-in-tests.html">nesteryuk.info</a></span>
+</div>
+
+              <hr class="item__line"/>
+            <div class="item item--issue item--link">
+  <a name="Sh0xIgM"></a>
+  
+  <h3 class="item__title"><a href="http://tomorrowcorporation.com/humanresourcemachine">[Game] Human Resource Machine</a></h3>
+    <p>從名稱看不太出來，這其實是個模擬 compiler 把高階指令轉換成低階動作（CPU 指令）的解謎遊戲。</p>
+
+<p>雖然現在網頁、mobile app、AI 等高階應用比較熱門；對編譯器技術有興趣的人比較少。閒暇之時不妨玩玩這個遊戲，感受一下 compiler/interpreter 是如何轉換你的程式。然後感謝願意投入這些領域的人們吧！</p>
+
+<p>它有 desktop、iOS、Android 等版本，可以從各家 app store 和 GOG、Steam 上購買。</p>
+  <span class="item__footer"><a href="http://tomorrowcorporation.com/humanresourcemachine">tomorrowcorporation.com</a></span>
+</div>
+
+        </div>
+      </section>
+
+  </div>
+</article>
+
+<div class="issue__pager">
+  <ul class="i">
+    <li class="previous">
+      <a href="../../issues/111/index.html#start">
+        <span class="icon icon-angle-left"></span>
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Previous issue</span>
+          <time class='published' datetime='2018-01-08'>January 8th 2018</time>
+        </span>
+</a>    </li>
+    <li class="issue__pager__summary"><span>112 of 146</span></li>
+    <li class="next">
+      <a href="../../issues/113/index.html#start">
+        <span class="issue__pager__text">
+          <span class="issue__pager__label">Next issue</span>
+          <time class='published' datetime='2018-01-22'>January 22nd 2018</time>
+        </span>
+        <span class="icon icon-angle-right"></span>
+</a>    </li>
+  </ul>
+</div>
+
+
+
+<footer class="footer">
+  <div class="i">
+    <p>
+      &copy;2015-2020 CodeTengu Weekly 碼天狗週刊
+        | <a href="../../sponsorship/index.html">Sponsorship</a>
+    </p>
+  </div>
+</footer>
+
+
+</body>
+</html>
+
