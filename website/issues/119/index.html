@@ -80,14 +80,14 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
 
 <ul>
 <li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href="https://www.douban.com/people/vinta/">Dirk Gently 系列</a></li>
-<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
-<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>
-<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="http://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="https://imnotyourson.com/">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="https://tzangms.com/">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>
+<li><a href="https://twitter.com/fukuball">@fukuball</a> - <a href="https://blog.fukuball.com/">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>
 <li><a href="https://github.com/mingderwang">@mingderwang</a> - Ethereum enthusiast</li>
 <li><a href="https://github.com/kako0507">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>
 <li><a href="https://twitter.com/NelsonT">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>
 <li><a href="https://twitter.com/uranusjr">@uranusjr</a> - <a href="https://uranusjr.com">Smaller Things</a> - 我要成為錯字王</li>
-<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="http://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
+<li><a href="https://twitter.com/Evan_Lin">@kkdai</a> - <a href="https://www.evanlin.com/">態度萬歲</a> - Learning Deeply....</li>
 <li><a href="https://github.com/yhsiang">@yhsiang</a></li>
 <li><a href="https://github.com/johnlinvc">@johnlinvc</a> - 挑戰自動化家中電器</li>
 <li><a href="https://medium.com/@drumrick">@drumrick</a> - 歡迎加入<a href="https://www.facebook.com/groups/kaggletw/">台灣 Kaggle 交流區</a></li>
@@ -130,11 +130,11 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="WQjrGW5"></a>
   
-  <h3 class="item__title"><a href="http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/">Clarifying the Roles of the .gemspec and Gemfile</a></h3>
+  <h3 class="item__title"><a href="https://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/">Clarifying the Roles of the .gemspec and Gemfile</a></h3>
     <p>跟上一篇差不多，不過是 Ruby + Bundler 版，作者是 Yehuda Katz，可能是這年頭最知名的套件管理專家，Bundler 和 Cargo 後面的設計都有他的身影。文章的概念和 Stufft 相同（其實這篇成文比較早，說到依賴管理 Python 還得叫 Ruby 一聲前輩），不過 Bundler 在 concrete 依賴管理上多了一個 locking 概念（又稱 version-pinning）。在這裡，Gemfile.lock 對應 requirements.txt，而 Gemfile 用來「指導 lock file 應該如何被產生」，與專職控制 abstract 依賴的 .gemspec 之間沒有明確界線——Bundler 也確實提供了防止重複的策略，亦即在 Gemfile 直接參照 .gemspec。這個思路在 Cargo 更加明顯；.gemspec 在 Rust 完全沒有等價存在，而只有控制 abstract 依賴的 Cargo.toml，以及指定 concrete 依賴的 Cargo.lock。</p>
 
 <p>Bundler 與 Cargo 的策略在概念上很好，但是實行上還是有點問題。套件管理有超過一半是在處理人的問題。如果你用 Gemfile 提供依賴，就要記得不能一起提供 Gemfile.lock，否則你實質上會是在 library 中使用 concrete 依賴，與其他函式庫的相容性變差。Cargo 採用的做法略有不同；它只會參考最上層（使用者程式）的 lock file，更深的所有依賴都只考慮 Cargo.toml，所以即使函式庫開發者提供了 lock file 也沒關係（因為它根本不考慮）。但這也代表 Cargo 的規則檔案在不同情境下，會有不同的效果——仍然很容易造成使用者困惑。</p>
-  <span class="item__footer"><a href="http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/">yehudakatz.com</a></span>
+  <span class="item__footer"><a href="https://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/">yehudakatz.com</a></span>
 </div>
 
               <hr class="item__line"/>
@@ -142,14 +142,14 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
   <a name="gELIEOM"></a>
   
   <h3 class="item__title"><a href="https://www.python.org/dev/peps/pep-0518/">PEP 518 – Specifying Minimum Build System Requirements for Python Projects</a></h3>
-    <p>Python 的套件管理在最近也有很多類似的發展。我<a href="https://weekly.codetengu.com/issues/91?m=web#KfKyeU1">之前介紹過</a>用來取代 requirements.txt 的 Pipfile 格式（以及相關的專案管理工具 Pipenv）。在 LPM 方面，則是由 <a href="https://www.python.org/dev/peps/pep-0518/">PEP 518</a> 制定了取代 setup.py 的 pyproject.toml。這個格式會從 Pip 10 開始被支援，但是如果你現在就想採用，可以用 <a href="http://flit.readthedocs.io/en/latest/pyproject_toml.html">Flit</a> 這個工具，自動根據 pyproject.toml 產生等價的 setup.py（有點類似 JavaScript 的 Babel，只是不是 transpile 程式，而是套件 metadata）。</p>
+    <p>Python 的套件管理在最近也有很多類似的發展。我<a href="https://weekly.codetengu.com/issues/91?m=web#KfKyeU1">之前介紹過</a>用來取代 requirements.txt 的 Pipfile 格式（以及相關的專案管理工具 Pipenv）。在 LPM 方面，則是由 <a href="https://www.python.org/dev/peps/pep-0518/">PEP 518</a> 制定了取代 setup.py 的 pyproject.toml。這個格式會從 Pip 10 開始被支援，但是如果你現在就想採用，可以用 <a href="https://flit.readthedocs.io/en/latest/pyproject_toml.html">Flit</a> 這個工具，自動根據 pyproject.toml 產生等價的 setup.py（有點類似 JavaScript 的 Babel，只是不是 transpile 程式，而是套件 metadata）。</p>
 
 <p>所以一個 Python 套件在未來會有<strong>三個</strong>依賴相關設定檔：pyproject.toml、Pipfile、Pipfile.lock。為什麼？前面提到的「人的問題」歸根究底起來，我覺得還是出在 abstract 與 concrete 依賴設定之間沒有很明顯的分界，使得 concrete 設定在某些狀況下要直接參照 abstract 設定。在 Python 的狀況中， LPM 只需要考慮 pyproject.toml，就永遠只會讀到 abstract 依賴；PDM 只需要考慮 Pipfile.lock，讀到的就是 concrete。同步問題則可以借鑑 Bundler 的做法，在 Pipfile 表達「加入 pyproject.toml 裡的依賴」。這樣使用者更新 lock file 時，仍然是從 Pipfilefile 的修改開始；這通常是直接參照 pyproject.toml，所以可以同步，但是如果需要脫鉤，也可以很簡單辦到。而如果你用 Pipenv，這<a href="https://docs.pipenv.org/advanced/#pipfile-vs-setup-py">只要一行就能搞定</a>：</p>
 
 <pre><code>$ pipenv install -e .
 </code></pre>
 
-<p><a href="http://glyph.twistedmatrix.com/2016/08/python-packaging.html">Python packaging is good now.</a> 誰反對？</p>
+<p><a href="https://glyph.twistedmatrix.com/2016/08/python-packaging.html">Python packaging is good now.</a> 誰反對？</p>
   <span class="item__footer"><a href="https://www.python.org/dev/peps/pep-0518/">python.org</a></span>
 </div>
 
@@ -191,9 +191,9 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="tUKCXwM"></a>
   
-  <h3 class="item__title"><a href="http://www.rexegg.com/">RexEgg</a></h3>
+  <h3 class="item__title"><a href="https://www.rexegg.com/">RexEgg</a></h3>
     <p>正規表達式 (Regex) 總是讓你摸不著頭緒嗎？這個網站解釋了許多進階技巧，還有不同語言中 Regex 的差異。工作無聊之餘可以研究一下 Regex 的博大精深。</p>
-  <span class="item__footer"><a href="http://www.rexegg.com/">rexegg.com</a></span>
+  <span class="item__footer"><a href="https://www.rexegg.com/">rexegg.com</a></span>
 </div>
 
               <hr class="item__line"/>

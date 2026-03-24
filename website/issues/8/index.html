@@ -77,9 +77,9 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
     <p>本期 curators：</p>
 
 <ul>
-<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="http://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
-<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="http://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>
-<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="http://tzangms.com/">Oceanic / 人生海海</a> - <strong>木南日菜真的很強齁</strong></li>
+<li><a href="https://twitter.com/vinta">@vinta</a> - <a href="https://vinta.ws/code/">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>
+<li><a href="https://twitter.com/saiday">@saiday</a> - <a href="https://imnotyourson.com/">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>
+<li><a href="https://twitter.com/tzangms">@tzangms</a> - <a href="https://tzangms.com/">Oceanic / 人生海海</a> - <strong>木南日菜真的很強齁</strong></li>
 </ul>
 
 
@@ -121,7 +121,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
 <p>延伸閱讀：</p>
 
 <ul>
-<li><a href="http://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script">How can you profile a Python script?</a></li>
+<li><a href="https://stackoverflow.com/questions/582336/how-can-you-profile-a-python-script">How can you profile a Python script?</a></li>
 <li><a href="https://www.airpair.com/python/posts/optimizing-python-code">Optimizing Python - a Case Study</a></li>
 </ul>
   <span class="item__footer"><a href="https://vinta.ws/code/tools-for-profiling-your-python-django-project.html">vinta.ws</a></span>
@@ -131,9 +131,9 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="3kZzoRv"></a>
   
-  <h3 class="item__title"><a href="http://www.eightypercent.net/post/layers-in-the-stack.html">Anatomy of a Modern Production Stack</a></h3>
+  <h3 class="item__title"><a href="https://www.eightypercent.net/post/layers-in-the-stack.html">Anatomy of a Modern Production Stack</a></h3>
     <p>由前 Google Compute Engine 的 Lead Architect 寫的一篇關於現代化的大規模系統應該使用哪些玩意兒，毫無懸念地是 container-based。但是老實說，與其說是「現代」倒不如說是「近未來」啊，因為文章裡頭提到的大概有一半以上的東西，我想大部份的 developer 可能都沒碰過（甚至沒聽過）。話雖如此，先了解一下歷史的車輪究竟會往哪個方向碾過去總是沒有壞處的嘛。</p>
-  <span class="item__footer"><a href="http://www.eightypercent.net/post/layers-in-the-stack.html">eightypercent.net</a></span>
+  <span class="item__footer"><a href="https://www.eightypercent.net/post/layers-in-the-stack.html">eightypercent.net</a></span>
 </div>
 
               <hr class="item__line"/>
@@ -159,7 +159,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
   <a name="iFxuNVi"></a>
   
   <h3 class="item__title"><a href="https://github.com/henriquebastos/python-decouple">python-decouple: Strict separation of settings from code</a></h3>
-    <p>根據 <a href="http://12factor.net/">The Twelve-Factor App</a> 宣言，建議你把 config 存在 environment variables，而 <code>python-decouple</code> 就是在做「從環境變數（或 <code>.env</code> 檔案）讀一個設定進來，然後 cast 成正確的 data type」這件事。</p>
+    <p>根據 <a href="https://12factor.net/">The Twelve-Factor App</a> 宣言，建議你把 config 存在 environment variables，而 <code>python-decouple</code> 就是在做「從環境變數（或 <code>.env</code> 檔案）讀一個設定進來，然後 cast 成正確的 data type」這件事。</p>
 
 <p>用一行 <code>EMAIL_USE_TLS = config('EMAIL_USE_TLS', default=False, cast=bool)</code> 漂亮地解決。</p>
 
@@ -185,7 +185,7 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
 
 <p>但我覺得值得一提的是抓出 Memory Leaks 的方法，大至 Facebook 小至獨立開發的專案其實都常常發生 Memory Leaks 而不自知，這篇文章說到他們為了找 leaks 寫了一個所謂的 <code>AllocationTracker</code> 透過不正常的 instances 數量幫助開發者早期猜到哪個物件有 leak 的可能。</p>
 
-<p>剛好我在 iOS 上也試過一種早期判斷 Memory Leaks 的方法，想法上不同，我是透過執行 Unit testing 時驗證物件會不會被 release。大家有興趣也可以參考我的做法 <a href="http://imnotyourson.com/unit-tests-that-avoid-memory-leaks/">Unit tests with memory leaks assertion</a>。</p>
+<p>剛好我在 iOS 上也試過一種早期判斷 Memory Leaks 的方法，想法上不同，我是透過執行 Unit testing 時驗證物件會不會被 release。大家有興趣也可以參考我的做法 <a href="https://imnotyourson.com/unit-tests-that-avoid-memory-leaks/">Unit tests with memory leaks assertion</a>。</p>
 
 <p>PS. 大家可能都有裝 <a href="https://try.crashlytics.com/">Crashlytics</a>，但 Crashlytics 其實是沒辦法抓到 Low-memory events 的，所以 OOMs 發生時你是不會在 crash report 上看到的。</p>
   <span class="item__footer"><a href="https://code.facebook.com/posts/1146930688654547/reducing-fooms-in-the-facebook-ios-app/">facebook.com</a></span>
@@ -195,61 +195,61 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="nc7SDIT"></a>
   
-  <h3 class="item__title"><a href="http://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">Shipping an App with App Transport Security</a></h3>
+  <h3 class="item__title"><a href="https://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">Shipping an App with App Transport Security</a></h3>
     <p>iOS 9 已經正式釋出了，App Transport Security aka "HTTP! You shall not pass! " 想必是影響開發者最大的改變，真心推薦這篇文章，將 ATS 講得很清楚。</p>
 
-<p>How critical is App Transport Security? 的<a href="http://security.stackexchange.com/a/100286">這個回答</a>更是詳列了六種你可能需要調整 ATS 白名單或開關的狀況。</p>
+<p>How critical is App Transport Security? 的<a href="https://security.stackexchange.com/a/100286">這個回答</a>更是詳列了六種你可能需要調整 ATS 白名單或開關的狀況。</p>
 
 <p>延伸閱讀：</p>
 
 <ul>
 <li><a href="https://medium.com/@hfuecks/is-your-app-ios-9-ready-da09fd2b3e61">Is your app iOS 9 ready?</a></li>
-<li>Issue 2 的中文 <a href="http://weekly.codetengu.com/issues/2#WqtUx2q">iOS9AdaptationTips</a>。</li>
+<li>Issue 2 的中文 <a href="https://weekly.codetengu.com/issues/2#WqtUx2q">iOS9AdaptationTips</a>。</li>
 </ul>
-  <span class="item__footer"><a href="http://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">timekl.com</a></span>
+  <span class="item__footer"><a href="https://timekl.com/blog/2015/08/21/shipping-an-app-with-app-transport-security/?utm_campaign=iOS%2BDev%2BWeekly&amp;utm_medium=email&amp;utm_source=iOS_Dev_Weekly_Issue_213">timekl.com</a></span>
 </div>
 
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="x9gzs43"></a>
   
-  <h3 class="item__title"><a href="http://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">Android: Looper, Handler, HandlerThread. Part I</a></h3>
-    <p>這是一個講 Android threading 的系列文章，從最常見的 <code>AsyncTask</code> 分析及什麼情況下你不該用 <code>AsyncTask</code>(你的 <code>AsyncTask</code> 直接 reference 你的 <code>Activity</code>/<code>Fragment</code>)、  Java 的<code>Thread</code> + <code>Handler</code> 跟 Android 提供的 <code>HandlerThread</code> 的差異及你應該要知道的 <a href="http://developer.android.com/reference/android/os/MessageQueue.html">MessageQueue</a> 。</p>
+  <h3 class="item__title"><a href="https://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">Android: Looper, Handler, HandlerThread. Part I</a></h3>
+    <p>這是一個講 Android threading 的系列文章，從最常見的 <code>AsyncTask</code> 分析及什麼情況下你不該用 <code>AsyncTask</code>(你的 <code>AsyncTask</code> 直接 reference 你的 <code>Activity</code>/<code>Fragment</code>)、  Java 的<code>Thread</code> + <code>Handler</code> 跟 Android 提供的 <code>HandlerThread</code> 的差異及你應該要知道的 <a href="https://developer.android.com/reference/android/os/MessageQueue.html">MessageQueue</a> 。</p>
 
-<p><a href="http://blog.nikitaog.me/2014/10/18/android-looper-handler-handlerthread-ii/">Part 2</a></p>
+<p><a href="https://blog.nikitaog.me/2014/10/18/android-looper-handler-handlerthread-ii/">Part 2</a></p>
 
 <p>延伸閱讀：</p>
 
 <ul>
-<li>附上一個 <code>HandlerThread</code> 的 <a href="http://stackoverflow.com/a/19154438/1554531">real world example</a><br/>
-書：<a href="http://www.amazon.com/Efficient-Android-Threading-Asynchronous-Applications/dp/1449364136">Efficient Android Threading: Asynchronous Processing Techniques for Android Applications</a></li>
+<li>附上一個 <code>HandlerThread</code> 的 <a href="https://stackoverflow.com/a/19154438/1554531">real world example</a><br/>
+書：<a href="https://www.amazon.com/Efficient-Android-Threading-Asynchronous-Applications/dp/1449364136">Efficient Android Threading: Asynchronous Processing Techniques for Android Applications</a></li>
 </ul>
-  <span class="item__footer"><a href="http://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">nikitaog.me</a></span>
+  <span class="item__footer"><a href="https://blog.nikitaog.me/2014/10/11/android-looper-handler-handlerthread-i/">nikitaog.me</a></span>
 </div>
 
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="swoXXYY"></a>
   
-  <h3 class="item__title"><a href="http://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">Fun with Functions – Crunchy Development</a></h3>
-    <p>這是一篇講 Swift functional programming 的範例，有<a href="http://swift.gg/2015/09/11/fun_with_functions/">簡中版本</a>，涵蓋了入門的 <a href="https://zh.wikipedia.org/wiki/%E6%9F%AF%E9%87%8C%E5%8C%96">currying</a> 以及演示了一個很好的 operator overloading 應用，我以前一直覺得這樣不好吧，一定會有報應。</p>
+  <h3 class="item__title"><a href="https://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">Fun with Functions – Crunchy Development</a></h3>
+    <p>這是一篇講 Swift functional programming 的範例，有<a href="https://swift.gg/2015/09/11/fun_with_functions/">簡中版本</a>，涵蓋了入門的 <a href="https://zh.wikipedia.org/wiki/%E6%9F%AF%E9%87%8C%E5%8C%96">currying</a> 以及演示了一個很好的 operator overloading 應用，我以前一直覺得這樣不好吧，一定會有報應。</p>
 
-<p>雖然我看過有人說現在的 funtional programming 現象就像是 20 世紀末的共產主義浪潮，信奉者散播著理想化的理念到你的國家 (codebase) 裡，一直到你的國家 (codebase) 充滿了債務 (monads)，他們又離去了。 (<a href="http://stackoverflow.com/questions/44965/what-is-a-monad">沒有人知道 monads 是什麼</a>)</p>
+<p>雖然我看過有人說現在的 funtional programming 現象就像是 20 世紀末的共產主義浪潮，信奉者散播著理想化的理念到你的國家 (codebase) 裡，一直到你的國家 (codebase) 充滿了債務 (monads)，他們又離去了。 (<a href="https://stackoverflow.com/questions/44965/what-is-a-monad">沒有人知道 monads 是什麼</a>)</p>
 
 <p>不過我還是覺得在 Swift 就是要適度的引入 functional programming 才能解放這個語言的強大跟彈性，而且在特定的情況用 functional programming 會讓閱讀性提高嘛。</p>
-  <span class="item__footer"><a href="http://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">github.io</a></span>
+  <span class="item__footer"><a href="https://alisoftware.github.io/swift/function/operator/2015/08/28/fun-with-functions/?utm_campaign=This%2BWeek%2Bin%2BSwift&amp;utm_medium=email&amp;utm_source=This_Week_in_Swift_51">github.io</a></span>
 </div>
 
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="98Z1Zlc"></a>
   
-  <h3 class="item__title"><a href="http://misko.hevery.com/code-reviewers-guide/">Guide: Writing Testable Code</a></h3>
+  <h3 class="item__title"><a href="https://misko.hevery.com/code-reviewers-guide/">Guide: Writing Testable Code</a></h3>
     <p>這是 Google 內關於加強程式可測試性 (testability) 的設計準則，沒話說，寫得真的好。<br/>
 總共有四個 flaws，都有提供 bad smells 讓我們可以憑感覺找到可以加強的地方。有重構的 before 跟 after。</p>
 
 <p>我想大家應該都有過想要寫測試但是看了想要測試的 object, method 就發現「媽的，這根本沒辦法測啊」然後轉頭又離開的情況，其實寫測試入門最先要處理的就是我們平常寫的 code 思維，而當寫出高可測試性的 code 時也直接提高了它的維護性跟品質。</p>
-  <span class="item__footer"><a href="http://misko.hevery.com/code-reviewers-guide/">hevery.com</a></span>
+  <span class="item__footer"><a href="https://misko.hevery.com/code-reviewers-guide/">hevery.com</a></span>
 </div>
 
         </div>
@@ -271,15 +271,15 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="zzn0Sfb"></a>
   
-  <h3 class="item__title"><a href="http://36kr.com/p/5037612.html">如何每年讀 60 本書?</a></h3>
-    <p>2013 年自己發憤打算讀一百本書, 不過最後其實只讀完了 60 本書, 當初讀完一本書都還拍照做個紀錄, 便把照片集結起來留個<a href="http://tzangms.com/books-i-read-in-2013/">紀錄</a>。</p>
+  <h3 class="item__title"><a href="https://36kr.com/p/5037612.html">如何每年讀 60 本書?</a></h3>
+    <p>2013 年自己發憤打算讀一百本書, 不過最後其實只讀完了 60 本書, 當初讀完一本書都還拍照做個紀錄, 便把照片集結起來留個<a href="https://tzangms.com/books-i-read-in-2013/">紀錄</a>。</p>
 
-<p>而我這兩年則是跟這篇文章中提到的一樣, 我利用通勤時間開始用 <a href="http://www.audible.com/">Audible</a> 聽有聲書, 大多時候也用 1.5 倍或是 2 倍的播放速度來聽電子書, 這樣聽書就更快了, 一本 8 小時的書, 用兩倍速的播放速度聽, 只需要 4 個小時。</p>
+<p>而我這兩年則是跟這篇文章中提到的一樣, 我利用通勤時間開始用 <a href="https://www.audible.com/">Audible</a> 聽有聲書, 大多時候也用 1.5 倍或是 2 倍的播放速度來聽電子書, 這樣聽書就更快了, 一本 8 小時的書, 用兩倍速的播放速度聽, 只需要 4 個小時。</p>
 
 <p>不過大多是聽管理類的相關書籍就是了, 後來英文聽力也提升非常多, 我一直在推薦身邊的人用這方法, 大家可以參考一下。</p>
 
 <p>另外,  文章中的 <a href="https://www.blinkist.com/en/">Blinkist</a> 也是一個不錯的讀書方法, 剛好前一陣子又開始用 Blinkist 了, 大家也可以試試。</p>
-  <span class="item__footer"><a href="http://36kr.com/p/5037612.html">36kr.com</a></span>
+  <span class="item__footer"><a href="https://36kr.com/p/5037612.html">36kr.com</a></span>
 </div>
 
               <hr class="item__line"/>
@@ -297,18 +297,18 @@ body { font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif; }
             <div class="item item--issue item--link">
   <a name="d8bs7Lb"></a>
   
-  <h3 class="item__title"><a href="http://99designs.com/tech-blog/blog/2015/09/08/book-club/">Book Club for Tech Leads</a></h3>
+  <h3 class="item__title"><a href="https://99designs.com/tech-blog/blog/2015/09/08/book-club/">Book Club for Tech Leads</a></h3>
     <p>99designs 技術團隊內部的讀書會, 主要是針對 Tech Leads, 除了書單之外。 文章中講述了他們為何要看這些書, 為何要有讀書會以及跟流程等等。</p>
-  <span class="item__footer"><a href="http://99designs.com/tech-blog/blog/2015/09/08/book-club/">99designs.com</a></span>
+  <span class="item__footer"><a href="https://99designs.com/tech-blog/blog/2015/09/08/book-club/">99designs.com</a></span>
 </div>
 
               <hr class="item__line"/>
             <div class="item item--issue item--link">
   <a name="p6PifFT"></a>
   
-  <h3 class="item__title"><a href="http://nwhitehead.github.io/pineapple/">Pineapple</a></h3>
+  <h3 class="item__title"><a href="https://nwhitehead.github.io/pineapple/">Pineapple</a></h3>
     <p>iPython for Mac</p>
-  <span class="item__footer"><a href="http://nwhitehead.github.io/pineapple/">github.io</a></span>
+  <span class="item__footer"><a href="https://nwhitehead.github.io/pineapple/">github.io</a></span>
 </div>
 
         </div>
