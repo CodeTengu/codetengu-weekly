@@ -3,6 +3,9 @@ body,
 button {
   color: #454547;
 }
+.item__list--issues .item__heading {
+  text-transform: none;
+}
 .btn {
   background-color: #000000;
   color: #fafafa;
