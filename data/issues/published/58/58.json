@@ -1,0 +1,498 @@
+{
+  "number": 58,
+  "title": "Issue 58 我審查了自己的程式碼，得到了一份更好的程式碼跟更好的自己",
+  "summary": "本期內容涵蓋 iOS, Android, git, Swagger, Docker, Elixir",
+  "url": "https://weekly.codetengu.com/issues/58",
+  "publication_status": "published",
+  "published_at": "2016-09-05T03:00:00+01:00",
+  "updated_at": "2016-09-05T08:49:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://book.douban.com/people/vinta/\">The Best of Isaac Asimov</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 因為工作看韓劇，同時開始追美漫</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Best of Isaac Asimov](https://book.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 因為工作看韓劇，同時開始追美漫\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "rDEvWyz",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "iyoches",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "nVvY4wi",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "KrDaKYH",
+              "title": "The Best of Isaac Asimov",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Wpdh3ip",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "rOliaRQ",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "RNQGjLK",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "BuZeGWT",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "hgPYyd9",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "bt4b9nX",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "KUIVBrN",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "8Lw7Mjq",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "d0cnce7",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "e4X8VJ9",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "SxY5oO8",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "N7eMxsE",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "7JMi0mY",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "Cl8dUbt",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "gthZv6b",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "Z5t2HyH",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "x25unPP",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ET12fQE",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "vaX5TnG",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "KbF2PSA",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "gSntrII",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "5yQJGSD",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "GhuWbui",
+          "type": "Link",
+          "title": "so-fancy/diff-so-fancy: Good-lookin' diffs.",
+          "url_domain": "github.com",
+          "url": "https://github.com/so-fancy/diff-so-fancy",
+          "description": "<p>前陣子有把 git remote 的 commits 在 local rebase 後再看 diff 的需求，而 git 自己帶的 diff 的輸出格式我個人真的無法欣賞，於是開始了尋找 diff 工具之旅。</p>\n\n<p>最後我的選擇是 <strong>diff-so-fancy</strong>。<br/>\n主要原因是它的輸出格式還算可以，而且不必為了看 diff 再裝一個 GUI 工具，也可以透過修改 git 的 <code>core.pager</code> 為 <code>diff-so-fancy</code> 這樣往後只需要跟以前一樣用 <code>git diff</code> 就可以了。</p>",
+          "description_markdown": "前陣子有把 git remote 的 commits 在 local rebase 後再看 diff 的需求，而 git 自己帶的 diff 的輸出格式我個人真的無法欣賞，於是開始了尋找 diff 工具之旅。\r\n\r\n最後我的選擇是 **diff-so-fancy**。  \r\n主要原因是它的輸出格式還算可以，而且不必為了看 diff 再裝一個 GUI 工具，也可以透過修改 git 的 `core.pager` 為 `diff-so-fancy` 這樣往後只需要跟以前一樣用 `git diff` 就可以了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "BozYY66",
+          "type": "Link",
+          "title": "Structs and mutation in Swift - Chris Eidhof",
+          "url_domain": "eidhof.nl",
+          "url": "http://chris.eidhof.nl/post/structs-and-mutation-in-swift/",
+          "description": "<p><a href=\"https://twitter.com/chriseidhof\">Chris Eidhof</a> 深入淺出地談 Swift struct，重點在為什麼 struct 需要 mutating function 以及它的原理，也解釋了為什麼 struct 的 mutating function 不會造成所謂災難式的 <a href=\"http://programmers.stackexchange.com/a/40314\">side-effects</a>。</p>\n\n<p>我有買作者寫的 <a href=\"https://www.objc.io/books/advanced-swift/\">Advanced Swift</a>，儘管有些篇幅對我來說真的過硬，但他的寫作風格我很喜歡，不太想教你怎麼用倒是一直在說為什麼跟還能怎麼做。</p>",
+          "description_markdown": "[Chris Eidhof](https://twitter.com/chriseidhof) 深入淺出地談 Swift struct，重點在為什麼 struct 需要 mutating function 以及它的原理，也解釋了為什麼 struct 的 mutating function 不會造成所謂災難式的 [side-effects](http://programmers.stackexchange.com/a/40314)。\r\n\r\n我有買作者寫的 [Advanced Swift](https://www.objc.io/books/advanced-swift/)，儘管有些篇幅對我來說真的過硬，但他的寫作風格我很喜歡，不太想教你怎麼用倒是一直在說為什麼跟還能怎麼做。",
+          "embedded_links": [
+            {
+              "identifier": "tgDhY5",
+              "title": "Chris Eidhof",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/chriseidhof"
+            },
+            {
+              "identifier": "UxwrZ9i",
+              "title": "side-effects",
+              "url_domain": "stackexchange.com",
+              "url": "http://programmers.stackexchange.com/a/40314"
+            },
+            {
+              "identifier": "BHuM1VD",
+              "title": "Advanced Swift",
+              "url_domain": "objc.io",
+              "url": "https://www.objc.io/books/advanced-swift/"
+            }
+          ]
+        },
+        {
+          "identifier": "dfBpDz6",
+          "type": "Link",
+          "title": "Xcode Visual Memory Debugger",
+          "url_domain": "useyourloaf.com",
+          "url": "http://useyourloaf.com/blog/xcode-visual-memory-debugger/",
+          "description": "<p>Xcode 8 的新功能：Debug Memory Graph、Runtime Issues。</p>\n\n<p>在 debug 的過程中使用 Debug Memory Graph，會暫停執行進到一個觀測的狀態，然後視覺化地把這個 app 在 heap 中的記憶體使用關係圖畫出來。</p>\n\n<p>Runtime issues 可以在我們 debug 的過程中自動幫我們找到潛在的 memory leaks。</p>\n\n<p>這些功能以往必須要進到 Instruments 裡才能做到，現在直接整合在 Xcode editor 上對基本的使用更方便了。</p>\n\n<p>WWDC session: <a href=\"https://developer.apple.com/videos/play/wwdc2016/410/\">Visual Debugging with Xcode</a></p>",
+          "description_markdown": "Xcode 8 的新功能：Debug Memory Graph、Runtime Issues。  \r\n\r\n在 debug 的過程中使用 Debug Memory Graph，會暫停執行進到一個觀測的狀態，然後視覺化地把這個 app 在 heap 中的記憶體使用關係圖畫出來。\r\n\r\nRuntime issues 可以在我們 debug 的過程中自動幫我們找到潛在的 memory leaks。\r\n\r\n這些功能以往必須要進到 Instruments 裡才能做到，現在直接整合在 Xcode editor 上對基本的使用更方便了。\r\n\r\nWWDC session: [Visual Debugging with Xcode](https://developer.apple.com/videos/play/wwdc2016/410/) ",
+          "embedded_links": [
+            {
+              "identifier": "BflH5eC",
+              "title": "Visual Debugging with Xcode",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2016/410/"
+            }
+          ]
+        },
+        {
+          "identifier": "GVZMiqg",
+          "type": "Link",
+          "title": "Using Java 8 Lambda expressions in Android",
+          "url_domain": "github.io",
+          "url": "http://mayojava.github.io/android/java/using-java8-lambda-expressions-in-android/",
+          "description": "<p>Android studio 2.1 就支援 Java 8 了 (<a href=\"https://developer.android.com/guide/platform/j8-jack.html#supported-features\">雖然目前只支援了一部份</a>，但終於有 <a href=\"https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html\">lambda expressions</a> 了)</p>\n\n<p>如果我們要用 Java 8 的話就必須改用 <a href=\"https://source.android.com/source/jack.html\">Jack toolchain</a> compiler，其實這個新一代的 compiler 是一個蠻大的改進，不只萬年老梗的編譯速度更快，也自帶或整合了一些以往要分散使用的工具 (<a href=\"http://proguard.sourceforge.net/\">ProGuard</a>、<a href=\"http://www.eclemma.org/jacoco/\">JaCoCo</a>)</p>\n\n<p>註：lambda expression 只要是 API 9 以上都兼容，大家不用擔心。</p>",
+          "description_markdown": "Android studio 2.1 就支援 Java 8 了 ([雖然目前只支援了一部份](https://developer.android.com/guide/platform/j8-jack.html#supported-features)，但終於有 [lambda expressions](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html) 了)\r\n\r\n如果我們要用 Java 8 的話就必須改用 [Jack toolchain](https://source.android.com/source/jack.html) compiler，其實這個新一代的 compiler 是一個蠻大的改進，不只萬年老梗的編譯速度更快，也自帶或整合了一些以往要分散使用的工具 ([ProGuard](http://proguard.sourceforge.net/)、[JaCoCo](http://www.eclemma.org/jacoco/))\r\n\r\n註：lambda expression 只要是 API 9 以上都兼容，大家不用擔心。",
+          "embedded_links": [
+            {
+              "identifier": "xO32w6j",
+              "title": "雖然目前只支援了一部份",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/guide/platform/j8-jack.html#supported-features"
+            },
+            {
+              "identifier": "gjbM9pn",
+              "title": "lambda expressions",
+              "url_domain": "oracle.com",
+              "url": "https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html"
+            },
+            {
+              "identifier": "olq3edv",
+              "title": "Jack toolchain",
+              "url_domain": "android.com",
+              "url": "https://source.android.com/source/jack.html"
+            },
+            {
+              "identifier": "5Bh0jFi",
+              "title": "ProGuard",
+              "url_domain": "sourceforge.net",
+              "url": "http://proguard.sourceforge.net/"
+            },
+            {
+              "identifier": "R4psup1",
+              "title": "JaCoCo",
+              "url_domain": "eclemma.org",
+              "url": "http://www.eclemma.org/jacoco/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "type": "Text",
+          "title": "10 個原因我喜歡用 Swagger spec 來定義新開發的 RESTful APIs",
+          "description": "<ul>\n<li>它可以幫我產生 18 種語言 <a href=\"https://generator.swagger.io/api/gen/servers\">generator.swagger.io server</a> 端樣板程式</li>\n<li>它可以幫我產生 34 種語言 <a href=\"https://generator.swagger.io/api/gen/clients\">generator.swagger.io client</a> 端樣板程式</li>\n<li>它可以馬上生成線上可執行的 API 文件, 例如 <a href=\"http://petstore.swagger.io/\">petstore demo</a> 還有 <a href=\"https://apis.guru/api-doc/\">APIs.guru</a></li>\n<li>它可以輸入 <a href=\"https://www.soapui.org/extension-plugins/bundled.html\">SoapUI</a> 建立測試案例</li>\n<li>它還可以用 <a href=\"http://editor.swagger.io/\">swagger-editor</a> 直接在線上編輯 Swagger spec</li>\n<li>它跟 <a href=\"https://openapis.org/\">OpenAPI</a> 合併, 應該會變成業界標準</li>\n<li>它有非常多的開源軟體及工具能跟 swagger 進行 <a href=\"https://github.com/swagger-api/swagger.io/blob/wordpress//integrations/open-source.md\">整合</a></li>\n<li>而且它本身也是開源 <a href=\"https://github.com/swagger-api\">github.com/swagger-api</a></li>\n<li>喜歡 <a href=\"http://yeoman.io/\">yeoman</a> 產生器的, 也可以用 <a href=\"https://github.com/Rebilly/generator-openapi-repo\">generator-openapi-repo</a> 產生程式碼</li>\n<li>還有跟 docker hub 一樣, 它也有 <a href=\"https://swaggerhub.com\">swagger hub</a>, 我還有理由不用 swagger 嗎?</li>\n</ul>",
+          "description_markdown": "* 它可以幫我產生 18 種語言 [generator.swagger.io server](https://generator.swagger.io/api/gen/servers) 端樣板程式\r\n* 它可以幫我產生 34 種語言 [generator.swagger.io client](https://generator.swagger.io/api/gen/clients) 端樣板程式\r\n* 它可以馬上生成線上可執行的 API 文件, 例如 [petstore demo](http://petstore.swagger.io/) 還有 [APIs.guru](https://apis.guru/api-doc/)\r\n* 它可以輸入 [SoapUI](https://www.soapui.org/extension-plugins/bundled.html) 建立測試案例\r\n* 它還可以用 [swagger-editor](http://editor.swagger.io/) 直接在線上編輯 Swagger spec\r\n* 它跟 [OpenAPI](https://openapis.org/) 合併, 應該會變成業界標準\r\n* 它有非常多的開源軟體及工具能跟 swagger 進行 [整合](https://github.com/swagger-api/swagger.io/blob/wordpress//integrations/open-source.md)\r\n* 而且它本身也是開源 [github.com/swagger-api](https://github.com/swagger-api)\r\n* 喜歡 [yeoman](http://yeoman.io/) 產生器的, 也可以用 [generator-openapi-repo](https://github.com/Rebilly/generator-openapi-repo) 產生程式碼\r\n* 還有跟 docker hub 一樣, 它也有 [swagger hub](https://swaggerhub.com), 我還有理由不用 swagger 嗎?",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "8ElM2V3",
+              "title": "generator.swagger.io server",
+              "url_domain": "swagger.io",
+              "url": "https://generator.swagger.io/api/gen/servers"
+            },
+            {
+              "identifier": "Q21f5KX",
+              "title": "generator.swagger.io client",
+              "url_domain": "swagger.io",
+              "url": "https://generator.swagger.io/api/gen/clients"
+            },
+            {
+              "identifier": "9ENzUV1",
+              "title": "petstore demo",
+              "url_domain": "swagger.io",
+              "url": "http://petstore.swagger.io/"
+            },
+            {
+              "identifier": "YGvqrm4",
+              "title": "APIs.guru",
+              "url_domain": "apis.guru",
+              "url": "https://apis.guru/api-doc/"
+            },
+            {
+              "identifier": "DxcdK9m",
+              "title": "SoapUI",
+              "url_domain": "soapui.org",
+              "url": "https://www.soapui.org/extension-plugins/bundled.html"
+            },
+            {
+              "identifier": "Tlh9ONg",
+              "title": "swagger-editor",
+              "url_domain": "swagger.io",
+              "url": "http://editor.swagger.io/"
+            },
+            {
+              "identifier": "Hw2C4oR",
+              "title": "OpenAPI",
+              "url_domain": "openapis.org",
+              "url": "https://openapis.org/"
+            },
+            {
+              "identifier": "S5dZMy3",
+              "title": "整合",
+              "url_domain": "github.com",
+              "url": "https://github.com/swagger-api/swagger.io/blob/wordpress//integrations/open-source.md"
+            },
+            {
+              "identifier": "OsDIItt",
+              "title": "github.com/swagger-api",
+              "url_domain": "github.com",
+              "url": "https://github.com/swagger-api"
+            },
+            {
+              "identifier": "txMnBvW",
+              "title": "yeoman",
+              "url_domain": "yeoman.io",
+              "url": "http://yeoman.io/"
+            },
+            {
+              "identifier": "wPOP3JX",
+              "title": "generator-openapi-repo",
+              "url_domain": "github.com",
+              "url": "https://github.com/Rebilly/generator-openapi-repo"
+            },
+            {
+              "identifier": "xhPbNAI",
+              "title": "swagger hub",
+              "url_domain": "swaggerhub.com",
+              "url": "https://swaggerhub.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "arwp31X",
+          "type": "Link",
+          "title": "OCI 对 Docker 真的没有意义？",
+          "url_domain": "qq.com",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI3OTEzNjI1OQ%3D%3D&mid=2651492692&idx=1&sn=e24efbcc6dcc5ce50773c505a13ccab9",
+          "description": "<p>這篇是看人吵架，容器技術界大亂鬥。相信折騰過一陣子 Docker 的人看了都會會心一笑。</p>\n\n<p>我個人是偏好「鏡像格式」、「容器格式」與「容器執行環境」都能抽象、解耦合、分而治之的。實在是很討厭被特定廠家綁架啊，給我一點選擇的自由吧！？</p>",
+          "description_markdown": "這篇是看人吵架，容器技術界大亂鬥。相信折騰過一陣子 Docker 的人看了都會會心一笑。\r\n\r\n我個人是偏好「鏡像格式」、「容器格式」與「容器執行環境」都能抽象、解耦合、分而治之的。實在是很討厭被特定廠家綁架啊，給我一點選擇的自由吧！？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NqIMu9u",
+          "type": "Link",
+          "title": "Elixir Isn’t Hipster",
+          "url_domain": "alexrp.com",
+          "url": "http://blog.alexrp.com/2013/02/14/elixir-isnt-hipster/",
+          "description": "<p>標題大概可以意譯為：〈Elixir 可不是個假掰、假文青（<em>意謂「只會打高空、不實用」</em>）的語言〉。雖然是篇 2013 年的舊文，然而內容、觀點放到今天來讀依然準確，為 Elixir 的特點辯護，但是不流於「賣藥」。</p>\n\n<p>如果你周遭有那種「這什麼沒聽過的怪東西啊？我才不想碰咧！我用（某某主流技術）就好了」的技術圈朋友，又或者先承認你就是這樣的朋友，我覺得這種「釋疑、但不賣藥」的行文風格，對於介紹一個相對冷門的技術是很有幫助的。</p>\n\n<p>這年頭太多 hype，久而久之，「糖來了」都變成「狼來了」，先別說別人，我自己都對賣藥文敬謝不敏。</p>",
+          "description_markdown": "標題大概可以意譯為：〈Elixir 可不是個假掰、假文青（*意謂「只會打高空、不實用」*）的語言〉。雖然是篇 2013 年的舊文，然而內容、觀點放到今天來讀依然準確，為 Elixir 的特點辯護，但是不流於「賣藥」。\r\n\r\n如果你周遭有那種「這什麼沒聽過的怪東西啊？我才不想碰咧！我用（某某主流技術）就好了」的技術圈朋友，又或者先承認你就是這樣的朋友，我覺得這種「釋疑、但不賣藥」的行文風格，對於介紹一個相對冷門的技術是很有幫助的。\r\n\r\n這年頭太多 hype，久而久之，「糖來了」都變成「狼來了」，先別說別人，我自己都對賣藥文敬謝不敏。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZAKfkwR",
+          "type": "Link",
+          "title": "Understanding Elixir's recompilation",
+          "url_domain": "milhouseonsoftware.com",
+          "url": "http://milhouseonsoftware.com/2016/08/11/understanding-elixir-recompilation/",
+          "description": "<p>本篇用很詳細的篇幅，解說了 Elixir 為什麼不同於 Erlang，有時候會需要對程式做大量重新編譯的原因所在。很有趣，讀後會對 Elixir 的運作特性又多了一分認識。</p>\n\n<p>可能是我手上的 Elixir/Phoenix 專案規模還小，還沒撞到這樣的天花板。</p>",
+          "description_markdown": "本篇用很詳細的篇幅，解說了 Elixir 為什麼不同於 Erlang，有時候會需要對程式做大量重新編譯的原因所在。很有趣，讀後會對 Elixir 的運作特性又多了一分認識。\r\n\r\n可能是我手上的 Elixir/Phoenix 專案規模還小，還沒撞到這樣的天花板。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "u8p02sR",
+          "type": "Link",
+          "title": "Rate Limiting a Phoenix API",
+          "url_domain": "danielberkompas.com",
+          "url": "http://blog.danielberkompas.com/elixir/2015/06/16/rate-limiting-a-phoenix-api.html",
+          "description": "<p>限流 (rate limiting) 這種機制在很多地方都會用到，這篇是用 Phoenix 搭配 <a href=\"https://hex.pm/packages/ex_rated\">ExRated</a> 實作 API 限流的範例。</p>",
+          "description_markdown": "限流 (rate limiting) 這種機制在很多地方都會用到，這篇是用 Phoenix 搭配 [ExRated](https://hex.pm/packages/ex_rated) 實作 API 限流的範例。",
+          "embedded_links": [
+            {
+              "identifier": "AF5uZF7",
+              "title": "ExRated",
+              "url_domain": "hex.pm",
+              "url": "https://hex.pm/packages/ex_rated"
+            }
+          ]
+        },
+        {
+          "identifier": "pgpGBG7",
+          "type": "Link",
+          "title": "5 female coders who changed the world",
+          "url_domain": "weforum.org",
+          "url": "https://www.weforum.org/agenda/2016/07/5-female-coders-who-changed-the-world",
+          "description": "<p>本文介紹了幾位在人類史上不該被忽視、遺忘的女性程式設計師。</p>\n\n<p>讀這篇文章，讓我想起了遇過的幾位優秀的女性程式設計師，撰寫程式時心思極為細膩，考慮各種例外可能，產出很可靠的程式。</p>\n\n<p>這個行業就如此文開頭引述的，投入其中的工作者性別比例失衡，我還沒有仔細找過相關的研究文獻，還不能太斬釘截鐵地指出可能是哪些原因，只是同樣覺得這現象不太合理。</p>\n\n<p>對了，如果妳看到這篇，且還不知道「<a href=\"http://www.wofoss.org/\">WoFOSS 好自由 - 台灣女子自由軟體工作小組</a>」的，真心推薦給妳。</p>",
+          "description_markdown": "本文介紹了幾位在人類史上不該被忽視、遺忘的女性程式設計師。\r\n\r\n讀這篇文章，讓我想起了遇過的幾位優秀的女性程式設計師，撰寫程式時心思極為細膩，考慮各種例外可能，產出很可靠的程式。\r\n\r\n這個行業就如此文開頭引述的，投入其中的工作者性別比例失衡，我還沒有仔細找過相關的研究文獻，還不能太斬釘截鐵地指出可能是哪些原因，只是同樣覺得這現象不太合理。\r\n\r\n對了，如果妳看到這篇，且還不知道「[WoFOSS 好自由 - 台灣女子自由軟體工作小組](http://www.wofoss.org/)」的，真心推薦給妳。",
+          "embedded_links": [
+            {
+              "identifier": "IFekIPz",
+              "title": "WoFOSS 好自由 - 台灣女子自由軟體工作小組",
+              "url_domain": "wofoss.org",
+              "url": "http://www.wofoss.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "OZRoVYc",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice (台北、北京、上海)",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者請來信：<a href=\"&#109;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#116;&#x7a;&#97;&#110;&#x67;&#x6d;&#115;&#64;&#115;&#116;&#114;&#x65;&#x65;&#116;&#118;&#x6f;&#105;&#99;&#x65;&#x2e;&#99;&#x6f;&#109;\">&#x74;&#122;&#x61;&#110;&#x67;&#109;&#115;&#64;&#115;&#x74;&#114;&#x65;&#101;&#x74;&#x76;&#111;&#x69;&#x63;&#101;&#46;&#x63;&#x6f;&#109;</a></p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者請來信：<tzangms@streetvoice.com>",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "type": "Text",
+          "title": "L10N ? I18N ? G11N ? A11Y ?",
+          "description": "<p>無意在 <a href=\"https://twitter.com/mds/status/771522490472407040\">Twitter</a> 發現一張圖才恍然大悟原來這些縮寫是這樣組成的，雖然應該很多人都知道了，但一定還有人跟我一樣不知道這些縮寫竟然是這樣組成的吧？！</p>\n\n<p>L10N = Localisation<br/>\nI18N = Internationalisation<br/>\nG11N = Globalisation<br/>\nA11Y = Accessibility</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "無意在 [Twitter](https://twitter.com/mds/status/771522490472407040) 發現一張圖才恍然大悟原來這些縮寫是這樣組成的，雖然應該很多人都知道了，但一定還有人跟我一樣不知道這些縮寫竟然是這樣組成的吧？！\r\n\r\nL10N = Localisation  \r\nI18N = Internationalisation  \r\nG11N = Globalisation  \r\nA11Y = Accessibility  \r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "y7uL1ss",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/mds/status/771522490472407040"
+            },
+            {
+              "identifier": "3uqxMPp",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ],
+          "image_original_filename": "ea18f3c0-fb1e-4665-923f-baf2cdd80817.png",
+          "image_extra_large_filename": "original_ratio_extra_large_ea18f3c0-fb1e-4665-923f-baf2cdd80817.png",
+          "image_medium_filename": "original_ratio_medium_ea18f3c0-fb1e-4665-923f-baf2cdd80817.png"
+        }
+      ]
+    }
+  ]
+}

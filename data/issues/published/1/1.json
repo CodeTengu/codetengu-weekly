@@ -1,0 +1,468 @@
+{
+  "number": 1,
+  "title": "Issue 1 創刊號：男子程序員的日常",
+  "summary": "本期內容涵蓋 Python, MySQL, Redis, Docker, Go, Xcode, Testing, Git, Objective-C, Swift, Android, Big Data, DevOps, Vim",
+  "url": "https://weekly.codetengu.com/issues/1",
+  "publication_status": "published",
+  "published_at": "2015-08-03T05:06:36+01:00",
+  "updated_at": "2016-05-22T13:06:37+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"http://vinta.ws/code/\">I failed the Turing Test</a><br/>\n<a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a><br/>\n<a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a></p>",
+          "description_markdown": "[@vinta](https://twitter.com/vinta) - [I failed the Turing Test](http://vinta.ws/code/)  \r\n[@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)  \r\n[@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/)",
+          "footer": "<p>Follow CodeTengu on <a href=\"https://www.facebook.com/codetengu\">Facebook</a> or <a href=\"https://twitter.com/codetengu\">Twitter</a>.</p>",
+          "embedded_links": [
+            {
+              "identifier": "mfUXkbO",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "PBUGNuD",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "http://vinta.ws/code/"
+            },
+            {
+              "identifier": "QEnAzZf",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "8uWQ3l8",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "GLqC7l7",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "URmeDvP",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "Dt20ree",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "SqS6aKx",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "bFiqlHa",
+          "type": "Link",
+          "title": "10 awesome features of Python that you can't use because you refuse to upgrade to Python 3",
+          "url_domain": "github.io",
+          "url": "http://asmeurer.github.io/python3-presentation/python3-presentation.pdf",
+          "description": "<p>Python 3 已經是大勢所趨，從 <a href=\"https://python3wos.appspot.com/\">Python 3 Wall of Superpowers</a> 可以看到絕大部分的熱門 packages 都已經支援 Python 3，即使沒有，你多半也可以在 GitHub 上找到 Python 3 fork。</p>\n\n<p>我前陣子才把一個公司的專案和兩個個人的 side projects 升級到 Python 3.4，利用 <a href=\"https://github.com/brettcannon/caniusepython3\">caniusepython3</a>、<a href=\"https://docs.python.org/2/library/2to3.html\">2to3</a> 和這一份 <a href=\"http://python-future.org/compatible_idioms.html\">cheat sheet</a> 可以解決大部份的瑣碎工作。不過，即使升級到 Python 3，終究還是擺脫不了 <code>UnicodeDecodeError</code> 吶。</p>",
+          "description_markdown": "Python 3 已經是大勢所趨，從 [Python 3 Wall of Superpowers](https://python3wos.appspot.com/) 可以看到絕大部分的熱門 packages 都已經支援 Python 3，即使沒有，你多半也可以在 GitHub 上找到 Python 3 fork。\r\n\r\n我前陣子才把一個公司的專案和兩個個人的 side projects 升級到 Python 3.4，利用 [caniusepython3](https://github.com/brettcannon/caniusepython3)、[2to3](https://docs.python.org/2/library/2to3.html) 和這一份 [cheat sheet](http://python-future.org/compatible_idioms.html) 可以解決大部份的瑣碎工作。不過，即使升級到 Python 3，終究還是擺脫不了 `UnicodeDecodeError` 吶。",
+          "embedded_links": [
+            {
+              "identifier": "jFZFBeY",
+              "title": "Python 3 Wall of Superpowers",
+              "url_domain": "python3wos.appspot.com",
+              "url": "https://python3wos.appspot.com/"
+            },
+            {
+              "identifier": "bwqPlrI",
+              "title": "caniusepython3",
+              "url_domain": "github.com",
+              "url": "https://github.com/brettcannon/caniusepython3"
+            },
+            {
+              "identifier": "RnvIVJu",
+              "title": "2to3",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/2/library/2to3.html"
+            },
+            {
+              "identifier": "vxkR2RX",
+              "title": "cheat sheet",
+              "url_domain": "python-future.org",
+              "url": "http://python-future.org/compatible_idioms.html"
+            }
+          ]
+        },
+        {
+          "identifier": "vqLtgon",
+          "type": "Link",
+          "title": "MySQL 索引原理及慢查询优化",
+          "url_domain": "meituan.com",
+          "url": "http://tech.meituan.com/mysql-index.html",
+          "description": "<p>中國的「美团网」的工程師分享針對 MySQL queries / indexes optimization 的實戰經驗。如果想要更有系統地學習相關知識，當然還是要讀一下聖經 <a href=\"http://www.amazon.com/gp/product/1449314287/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449314287&amp;linkCode=as2&amp;tag=vinta02c-20&amp;linkId=YQW5STAQ3U56H2KC\">High Performance MySQL</a>。</p>\n\n<p>延伸閱讀：\n<a href=\"https://www.percona.com/blog/\">MySQL Performance Blog</a></p>",
+          "description_markdown": "中國的「美团网」的工程師分享針對 MySQL queries / indexes optimization 的實戰經驗。如果想要更有系統地學習相關知識，當然還是要讀一下聖經 [High Performance MySQL](http://www.amazon.com/gp/product/1449314287/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449314287&linkCode=as2&tag=vinta02c-20&linkId=YQW5STAQ3U56H2KC)。\r\n\r\n延伸閱讀：\r\n[MySQL Performance Blog](https://www.percona.com/blog/)",
+          "embedded_links": [
+            {
+              "identifier": "f3FimyA",
+              "title": "High Performance MySQL",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/High-Performance-MySQL-Optimization-Replication/dp/1449314287"
+            },
+            {
+              "identifier": "OuiCfCJ",
+              "title": "High Performance MySQL",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/gp/product/1449314287/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1449314287&linkCode=as2&tag=vinta02c-20&linkId=YQW5STAQ3U56H2KC"
+            },
+            {
+              "identifier": "rzmLPFx",
+              "title": "MySQL Performance Blog",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/blog/"
+            }
+          ]
+        },
+        {
+          "identifier": "XIpCSwq",
+          "type": "Link",
+          "title": "如何使用 Redis",
+          "url_domain": "blogspot.tw",
+          "url": "http://cctg.blogspot.tw/2015/02/redis.html",
+          "description": "<p>關於 Redis 的科普文章，介紹了基本的資料操作指令與 Redis 的使用情境。</p>\n\n<p>Redis 可能是應用範圍最廣的 NoSQL 資料庫了，可以用在 cache、session、counter、message queue、排行榜統計、計算共同好友等等，因為支援各種常用的資料結構，甚至被稱為 data structure server。根據 Redis 作者 <a href=\"https://twitter.com/antirez/statuses/616249741035352065\">@antirez</a> 的推文，Redis 也快要有 GEO API 了。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://oldblog.antirez.com/post/take-advantage-of-redis-adding-it-to-your-stack.html\">How to take advantage of Redis just adding it to your stack</a></p>",
+          "description_markdown": "關於 Redis 的科普文章，介紹了基本的資料操作指令與 Redis 的使用情境。  \r\n\r\nRedis 可能是應用範圍最廣的 NoSQL 資料庫了，可以用在 cache、session、counter、message queue、排行榜統計、計算共同好友等等，因為支援各種常用的資料結構，甚至被稱為 data structure server。根據 Redis 作者 [@antirez](https://twitter.com/antirez/statuses/616249741035352065) 的推文，Redis 也快要有 GEO API 了。  \r\n\r\n延伸閱讀：  \r\n[How to take advantage of Redis just adding it to your stack](http://oldblog.antirez.com/post/take-advantage-of-redis-adding-it-to-your-stack.html)",
+          "embedded_links": [
+            {
+              "identifier": "vM7p2Tv",
+              "title": "@antirez",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/antirez/statuses/616249741035352065"
+            },
+            {
+              "identifier": "v3dzlhZ",
+              "title": "How to take advantage of Redis just adding it to your stack",
+              "url_domain": "antirez.com",
+              "url": "http://oldblog.antirez.com/post/take-advantage-of-redis-adding-it-to-your-stack.html"
+            }
+          ]
+        },
+        {
+          "identifier": "nVKL6Be",
+          "type": "Link",
+          "title": "闲谈集群管理模式",
+          "url_domain": "segmentfault.com",
+          "url": "http://segmentfault.com/a/1190000002882567",
+          "description": "<p>Docker 的本質是一個涵蓋了程式碼、配置和執行環境的版本管理工具。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://www.jianshu.com/notebooks/1230354/latest\">Docker 为什么</a></p>",
+          "description_markdown": "Docker 的本質是一個涵蓋了程式碼、配置和執行環境的版本管理工具。\r\n\r\n延伸閱讀：  \r\n[Docker 为什么](http://www.jianshu.com/notebooks/1230354/latest)",
+          "embedded_links": [
+            {
+              "identifier": "Or6rIwI",
+              "title": "Docker 为什么",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/notebooks/1230354/latest"
+            }
+          ]
+        },
+        {
+          "identifier": "VEfNfWB",
+          "type": "Link",
+          "title": "gor",
+          "url_domain": "github.com",
+          "url": "https://github.com/buger/gor",
+          "description": "<p>Gor 是用 Go 寫的壓力測試工具，特點是可以讓你在 staging 或 dev 機器上重現 production 環境下的流量。</p>",
+          "description_markdown": "Gor 是用 Go 寫的壓力測試工具，特點是可以讓你在 staging 或 dev 機器上重現 production 環境下的流量。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "rETH9uz",
+          "type": "Link",
+          "title": "Sourcegraph",
+          "url_domain": "sourcegraph.com",
+          "url": "https://sourcegraph.com/",
+          "description": "<p>Sourcegraph 是王垠（中國知名程序員、技術評論界的戰鬥機、語言設計界的天煞孤星）之前待過的公司所開發的程式碼靜態分析服務，用來做 code review 的神器，支援 Go、Haskell、Java、JavaScript、Python、Ruby 這幾種語言。可惜的是目前只開放託管在 GitHub 上的 open source 專案免費使用，還不支援 private repositories。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"https://www.youtube.com/watch?v=dCBQemvhEK4\">Sourcegraph: Better code reviews - YouTube</a><br/>\n<a href=\"https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack?hl=en\">Sourcegraph - Chrome Web Store</a></p>",
+          "description_markdown": "Sourcegraph 是王垠（中國知名程序員、技術評論界的戰鬥機、語言設計界的天煞孤星）之前待過的公司所開發的程式碼靜態分析服務，用來做 code review 的神器，支援 Go、Haskell、Java、JavaScript、Python、Ruby 這幾種語言。可惜的是目前只開放託管在 GitHub 上的 open source 專案免費使用，還不支援 private repositories。\r\n\r\n延伸閱讀：  \r\n[Sourcegraph: Better code reviews - YouTube](https://www.youtube.com/watch?v=dCBQemvhEK4)  \r\n[Sourcegraph - Chrome Web Store](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack?hl=en)",
+          "embedded_links": [
+            {
+              "identifier": "VnrySIc",
+              "title": "Sourcegraph: Better code reviews - YouTube",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=dCBQemvhEK4"
+            },
+            {
+              "identifier": "JfrRa1A",
+              "title": "Sourcegraph - Chrome Web Store",
+              "url_domain": "google.com",
+              "url": "https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack?hl=en"
+            }
+          ]
+        },
+        {
+          "identifier": "pF0lqgW",
+          "type": "Link",
+          "title": "数字时代的劳动与剥削",
+          "url_domain": "thoughtworkers.org",
+          "url": "http://gigix.thoughtworkers.org/2015/5/16/review-of-digital-labour/",
+          "description": "<p>作者提出了一個很有趣的論點，對於依靠 UGC (User-Generated Content) 而壯大的企業的反思。比如說你在 Facebook、Instagram 或 Twitter 上產生了有價值的內容，吸引了更多的用戶或廣告主，為這些公司帶來了利益與財富，而你並沒有拿到任何實質的報酬，其實你就是被剝削了。當然，你可以說你在這些平台上獲得了某些金錢無法比擬的東西，比如說知識、名聲或歸屬感。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://www.amazon.com/Digital-Labor-Internet-Playground-Factory/dp/0415896959\">Digital Labor: The Internet as Playground and Factory - Amazon.com</a></p>",
+          "description_markdown": "作者提出了一個很有趣的論點，對於依靠 UGC (User-Generated Content) 而壯大的企業的反思。比如說你在 Facebook、Instagram 或 Twitter 上產生了有價值的內容，吸引了更多的用戶或廣告主，為這些公司帶來了利益與財富，而你並沒有拿到任何實質的報酬，其實你就是被剝削了。當然，你可以說你在這些平台上獲得了某些金錢無法比擬的東西，比如說知識、名聲或歸屬感。\r\n\r\n延伸閱讀：  \r\n[Digital Labor: The Internet as Playground and Factory - Amazon.com](http://www.amazon.com/Digital-Labor-Internet-Playground-Factory/dp/0415896959)",
+          "embedded_links": [
+            {
+              "identifier": "UxnFuLl",
+              "title": "Digital Labor: The Internet as Playground and Factory - Amazon.com",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/Digital-Labor-Internet-Playground-Factory/dp/0415896959"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "GaAXxMj",
+          "type": "Link",
+          "title": "UI Testing with Xcode 7",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@larcus94/ui-testing-with-xcode-7-221d16bad276",
+          "description": "<p>在  <a href=\"https://github.com/kif-framework/KIF\">KIF</a> 推出 4 年之後，XCode 7 終於整合了 UI Testing bundle 來做 UI Testing。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"https://developer.apple.com/videos/wwdc/2015/?id=406\">UI Testing in Xcode WWDC session</a></p>",
+          "description_markdown": "在  [KIF](https://github.com/kif-framework/KIF) 推出 4 年之後，XCode 7 終於整合了 UI Testing bundle 來做 UI Testing。  \r\n\r\n延伸閱讀：  \r\n[UI Testing in Xcode WWDC session](https://developer.apple.com/videos/wwdc/2015/?id=406)",
+          "embedded_links": [
+            {
+              "identifier": "WFauHuw",
+              "title": "UI Testing in Xcode WWDC session",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/wwdc/2015/?id=406"
+            },
+            {
+              "identifier": "krf2Mjy",
+              "title": "KIF",
+              "url_domain": "github.com",
+              "url": "https://github.com/kif-framework/KIF"
+            }
+          ]
+        },
+        {
+          "identifier": "qnhE4My",
+          "type": "Link",
+          "title": "Enable Git's autosquash feature by default",
+          "url_domain": "github.com",
+          "url": "https://github.com/thoughtbot/dotfiles/commit/ed6f00931a075a56305bdc391e483cb8f0b35ed3",
+          "description": "<p>Enable Git's autosquash feature by default.</p>",
+          "description_markdown": "Enable Git's autosquash feature by default.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PRmkrbN",
+          "type": "Link",
+          "title": "NSOprationQueue 與 GCD 的區別與選用",
+          "url_domain": "jianshu.com",
+          "url": "http://www.jianshu.com/p/d09e2638eb27",
+          "description": "<p>最近開始慢慢將一些 GCD 轉換成 NSOperationQueue。心得是需要可以取消、設定優先級、執行狀態就使用 NSOperationQueue，反之則繼續使用 GCD。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://nshipster.com/nsoperation/\">NSOperation by NSHipster</a><br/>\n<a href=\"https://developer.apple.com/videos/wwdc/2015/?id=226\">Advanced NSOperations talk at WWDC</a></p>",
+          "description_markdown": "最近開始慢慢將一些 GCD 轉換成 NSOperationQueue。心得是需要可以取消、設定優先級、執行狀態就使用 NSOperationQueue，反之則繼續使用 GCD。\r\n\r\n延伸閱讀：  \r\n[NSOperation by NSHipster](http://nshipster.com/nsoperation/)  \r\n[Advanced NSOperations talk at WWDC](https://developer.apple.com/videos/wwdc/2015/?id=226)",
+          "embedded_links": [
+            {
+              "identifier": "U9cthfl",
+              "title": "NSOperation by NSHipster",
+              "url_domain": "nshipster.com",
+              "url": "http://nshipster.com/nsoperation/"
+            },
+            {
+              "identifier": "NVozTNL",
+              "title": "Advanced NSOperations talk at WWDC",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/wwdc/2015/?id=226"
+            }
+          ]
+        },
+        {
+          "identifier": "C0XXU2H",
+          "type": "Link",
+          "title": "Objective-C Runtime",
+          "url_domain": "yulingtianxia.com",
+          "url": "http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/",
+          "description": "<p>在 Objective C Runtime 比較常用到的是 Associated Objects 跟 Method Swizzling，但是可以在本文瞭解一下 Runtime 幫我們處理的 messages 轉發跟 @dynamic, @property 實作。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://nshipster.com/swift-objc-runtime/\">Swift &amp; the Objective-C Runtime by NSHipster</a></p>",
+          "description_markdown": "在 Objective C Runtime 比較常用到的是 Associated Objects 跟 Method Swizzling，但是可以在本文瞭解一下 Runtime 幫我們處理的 messages 轉發跟 @dynamic, @property 實作。  \r\n\r\n延伸閱讀：  \r\n[Swift & the Objective-C Runtime by NSHipster](http://nshipster.com/swift-objc-runtime/)",
+          "embedded_links": [
+            {
+              "identifier": "sUaBw0f",
+              "title": "Swift & the Objective-C Runtime by NSHipster",
+              "url_domain": "nshipster.com",
+              "url": "http://nshipster.com/swift-objc-runtime/"
+            }
+          ]
+        },
+        {
+          "identifier": "by2aaY0",
+          "type": "Link",
+          "title": "Xcode: One Weird Debugging Trick That Will Save Your Life",
+          "url_domain": "natashatherobot.com",
+          "url": "http://natashatherobot.com/xcode-debugging-trick/",
+          "description": "<p>Swift 發展至今在 Debug 上一直被大家抱怨，在它更完善之前這個 <code>po $arg1</code> 小技巧是蠻實用的啊。</p>",
+          "description_markdown": "Swift 發展至今在 Debug 上一直被大家抱怨，在它更完善之前這個 `po $arg1` 小技巧是蠻實用的啊。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "dTKTg4m",
+          "type": "Link",
+          "title": "Adaptive Auto Layout",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=taWaW2GzfCI",
+          "description": "<p>PureLayout 的作者的 Talk，主要是針對 Auto Layout 在螢幕旋轉時的 best practice，即使你沒有要支援旋轉也可以看一下關於 Auto Layout performance considerations 的部分，節錄「Activating multiple constraints at once can be more effcient than one-by-one」。</p>\n\n<p>Slides from the talk (PDF):<br/>\n<a href=\"http://tiny.cc/AdaptiveAutoLayoutSlides\">http://tiny.cc/AdaptiveAutoLayoutSlides</a></p>",
+          "description_markdown": "PureLayout 的作者的 Talk，主要是針對 Auto Layout 在螢幕旋轉時的 best practice，即使你沒有要支援旋轉也可以看一下關於 Auto Layout performance considerations 的部分，節錄「Activating multiple constraints at once can be more effcient than one-by-one」。\r\n  \r\nSlides from the talk (PDF):  \r\n[http://tiny.cc/AdaptiveAutoLayoutSlides](http://tiny.cc/AdaptiveAutoLayoutSlides)",
+          "embedded_links": [
+            {
+              "identifier": "h1AzRRz",
+              "title": "http://tiny.cc/AdaptiveAutoLayoutSlides",
+              "url_domain": "tiny.cc",
+              "url": "http://tiny.cc/AdaptiveAutoLayoutSlides"
+            }
+          ]
+        },
+        {
+          "identifier": "dQkBTER",
+          "type": "Link",
+          "title": "Should I use a Swift struct or a class?",
+          "url_domain": "sealedabstract.com",
+          "url": "http://faq.sealedabstract.com/structs_or_classes/",
+          "description": "<p>雖然說 struct 跟 class 在選擇的時候都沒什麼猶豫過，但是仔細想想是蠻有學問的，節錄自 tl;dr：</p>\n\n<ul>\n<li>If you find yourself talking to \"something else\" inside your struct code, where \"something else\" is the file system, the network, the GPS, you have made a wrong turn somewhere.</li>\n<li>If you find yourself with structs that contain structs that contain structs that contain structs, you have probably made a wrong turn somewhere. You'll discover that way the hell down there somewhere you forgot a mutating, and now you have to mark mutating for all the things.</li>\n<li>Most types don't need to be threadsafe. Most instances do. Use struct for the 10% of your types that make 90% of the instances. Use class for the 90% of your types that make up 10% of your instances.</li>\n<li>If overloading == to compare two things elementwise sounds like a great idea, use a struct. If you hesitate, use a class.</li>\n</ul>",
+          "description_markdown": "雖然說 struct 跟 class 在選擇的時候都沒什麼猶豫過，但是仔細想想是蠻有學問的，節錄自 tl;dr：\r\n\r\n- If you find yourself talking to \"something else\" inside your struct code, where \"something else\" is the file system, the network, the GPS, you have made a wrong turn somewhere.\r\n- If you find yourself with structs that contain structs that contain structs that contain structs, you have probably made a wrong turn somewhere. You'll discover that way the hell down there somewhere you forgot a mutating, and now you have to mark mutating for all the things.\r\n- Most types don't need to be threadsafe. Most instances do. Use struct for the 10% of your types that make 90% of the instances. Use class for the 90% of your types that make up 10% of your instances.\r\n- If overloading == to compare two things elementwise sounds like a great idea, use a struct. If you hesitate, use a class.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "W9Fn5I6",
+          "type": "Link",
+          "title": "Mastering \"Product Flavors\" on Android",
+          "url_domain": "brainattica.com",
+          "url": "http://blog.brainattica.com/how-to-work-with-flavours-on-android/",
+          "description": "<p>無論是切 debug 或 production 環境、 free 或 paid 版本，這都是 Gradle 的 Product Flavors 適合拿來做的事情。</p>",
+          "description_markdown": "無論是切 debug 或 production 環境、 free 或 paid 版本，這都是 Gradle 的 Product Flavors 適合拿來做的事情。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "wRyYM8W",
+          "type": "Link",
+          "title": "Building Analytics at 500px",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83",
+          "description": "<p>500px 的 Analytics Lead 說明 500px 的數據分析, 從一開始用 <a href=\"http://www.splunk.com/\">Splunk</a> 跟 MySQL, 後來採用 <a href=\"http://luigi.readthedocs.org/en/stable/\">Luigi</a> 搭配 Redshift 的做法, 一直到最後採用 <a href=\"https://www.periscope.io/\">Periscope</a> 的歷程。 數據分析是我最近在研究的方向, 本文值得一看、學習。</p>",
+          "description_markdown": "500px 的 Analytics Lead 說明 500px 的數據分析, 從一開始用 [Splunk](http://www.splunk.com/) 跟 MySQL, 後來採用 [Luigi](http://luigi.readthedocs.org/en/stable/) 搭配 Redshift 的做法, 一直到最後採用 [Periscope](https://www.periscope.io/) 的歷程。 數據分析是我最近在研究的方向, 本文值得一看、學習。",
+          "embedded_links": [
+            {
+              "identifier": "Csa3Vla",
+              "title": "Splunk",
+              "url_domain": "splunk.com",
+              "url": "http://www.splunk.com/"
+            },
+            {
+              "identifier": "Sblp7Ou",
+              "title": "Luigi",
+              "url_domain": "readthedocs.org",
+              "url": "http://luigi.readthedocs.org/en/stable/"
+            },
+            {
+              "identifier": "nxkZ6k3",
+              "title": "Periscope",
+              "url_domain": "periscope.io",
+              "url": "https://www.periscope.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "j4MSZ9r",
+          "type": "Link",
+          "title": "Technical onboarding at Hootsuite",
+          "url_domain": "hootsuite.com",
+          "url": "http://code.hootsuite.com/onboarding/",
+          "description": "<p>Hootsuite 說明他們技術人員如何 onboard, 技術上除了開發人員所熟知的 technical debt 之外, 當團隊成長也會有所謂的 team debt。</p>\n\n<p>文中提到的, 他們在 HipChat 當中開一個頻道叫 \"Who Owns It?\" 用來發問誰負責某件事, 的確是個很棒的創意。 是當公司人多的時候, 像是是非技術人員會不知道技術問題要找誰, 例如: 誰要幫新進的行銷人員開帳號? 以往可能會問技術部門負責人, 再分配下去, 但公司成長到一個狀態的時候, 技術負責人往往很容易變成瓶頸。</p>\n\n<p>另外還有提到 Hootsuite 新人 onboard 從 Day One 開始的系統化流程, 當中的 Welcome email 也是個很棒的主意。</p>",
+          "description_markdown": "Hootsuite 說明他們技術人員如何 onboard, 技術上除了開發人員所熟知的 technical debt 之外, 當團隊成長也會有所謂的 team debt。 \r\n\r\n文中提到的, 他們在 HipChat 當中開一個頻道叫 \"Who Owns It?\" 用來發問誰負責某件事, 的確是個很棒的創意。 是當公司人多的時候, 像是是非技術人員會不知道技術問題要找誰, 例如: 誰要幫新進的行銷人員開帳號? 以往可能會問技術部門負責人, 再分配下去, 但公司成長到一個狀態的時候, 技術負責人往往很容易變成瓶頸。\r\n\r\n另外還有提到 Hootsuite 新人 onboard 從 Day One 開始的系統化流程, 當中的 Welcome email 也是個很棒的主意。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "exi7ZU2",
+          "type": "Link",
+          "title": "Moya",
+          "url_domain": "moyaproject.com",
+          "url": "https://www.moyaproject.com/",
+          "description": "<p>Moya is an open source web development platform built with Python.</p>\n\n<p>官方的影片看起來非常值得一試。</p>",
+          "description_markdown": "Moya is an open source web development platform built with Python.\r\n\r\n官方的影片看起來非常值得一試。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "mq5yAuK",
+          "type": "Link",
+          "title": "Vim Awesome",
+          "url_domain": "vimawesome.com",
+          "url": "http://vimawesome.com/",
+          "description": "<p>現在什麽東西都得 Awesome 一下。</p>",
+          "description_markdown": "現在什麽東西都得 Awesome 一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "EBQmDIv",
+          "type": "Link",
+          "title": "mycli",
+          "url_domain": "mycli.net",
+          "url": "http://mycli.net/",
+          "description": "<p>Mycli is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting.</p>\n\n<p>用 pip 或是 brew 都可以裝, 我最愛這種安裝簡便的工具了啊。</p>",
+          "description_markdown": "Mycli is a command line interface for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting.\r\n\r\n用 pip 或是 brew 都可以裝, 我最愛這種安裝簡便的工具了啊。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "qwq0YWt",
+          "type": "Link",
+          "title": "True story: fixing a self-DDoS",
+          "url_domain": "commitstrip.com",
+          "url": "http://www.commitstrip.com/en/2015/07/08/true-story-fixing-a-self-ddos/",
+          "description": "<p>漫畫</p>",
+          "description_markdown": "漫畫",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "0c2b39bc-1509-4a81-a950-2d51a8056d1b.jpg",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_0c2b39bc-1509-4a81-a950-2d51a8056d1b.jpg",
+          "image_medium_filename": "twenty_by_nine_medium_0c2b39bc-1509-4a81-a950-2d51a8056d1b.jpg"
+        }
+      ]
+    }
+  ]
+}

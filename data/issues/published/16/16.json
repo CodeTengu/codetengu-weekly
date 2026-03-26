@@ -1,0 +1,416 @@
+{
+  "number": 16,
+  "title": "Issue 16 Ubuntu 是一個來自非洲祖魯語的單詞，意思是 I can't configure Debian.",
+  "summary": "本期內容涵蓋 Python, MySQL, Cassandra, Swift, iOS, MVVM, MVC, Android, C, Go, Kubernetes, Docker, Bitcoin",
+  "url": "https://weekly.codetengu.com/issues/16",
+  "publication_status": "published",
+  "published_at": "2015-11-16T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:14:25+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <strong>捷運飲食推廣委員</strong></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n本期 curators：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - **無法通過圖靈測試的程序員**\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - **捷運飲食推廣委員**\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "vKP9oHy",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "6J49GV2",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "FxNcMtD",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "hlg2KVi",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "TgucGZd",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "8jItA6Z",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ZPHDY55",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "azsSSXE",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "VxsZfpb",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Hke5aNV",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "t0hlbYL",
+          "type": "Link",
+          "title": "StackShare Featured Posts",
+          "url_domain": "stackshare.io",
+          "url": "http://stackshare.io/featured-posts",
+          "description": "<p>雖然上一期就有提到一篇 Medium 的技術團隊分享他們用了哪些技術的文章，但是其實 StackShare（和它的<a href=\"http://stackshare.io/posts\">官方 blog</a>）上還有好多篇類似的文章，有許多大大小小、各個領域的網路公司都各自分享了他們的 technology stack，最喜歡看這種文章了。</p>\n\n<p>作為一個 developer，除了參與或是自己發起 open source 專案之外，更重要的其實就是向其他人分享自己或是所屬團隊的知識、經驗、踩過的雷或是總結出來的最佳實踐，畢竟「分享」這件事對你自己和其他人都會有收穫。</p>",
+          "description_markdown": "雖然上一期就有提到一篇 Medium 的技術團隊分享他們用了哪些技術的文章，但是其實 StackShare（和它的[官方 blog](http://stackshare.io/posts)）上還有好多篇類似的文章，有許多大大小小、各個領域的網路公司都各自分享了他們的 technology stack，最喜歡看這種文章了。\r\n\r\n作為一個 developer，除了參與或是自己發起 open source 專案之外，更重要的其實就是向其他人分享自己或是所屬團隊的知識、經驗、踩過的雷或是總結出來的最佳實踐，畢竟「分享」這件事對你自己和其他人都會有收穫。",
+          "embedded_links": [
+            {
+              "identifier": "FOo0V9j",
+              "title": "官方 blog",
+              "url_domain": "stackshare.io",
+              "url": "http://stackshare.io/posts"
+            }
+          ]
+        },
+        {
+          "identifier": "DDx6BB",
+          "type": "Link",
+          "title": "PyFormat: Using % and .format() for great good!",
+          "url_domain": "pyformat.info",
+          "url": "https://pyformat.info/",
+          "description": "<p>這篇文章專門在講 Python 的 <code>str.format()</code> 各種超便利的用法，大家就別再用 <code>%</code> 來 format 字串啦！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://slott-softwarearchitect.blogspot.tw/2015/11/formatting-strings-and-strformat-family.html\">Formatting Strings and the str.format() family of functions -- Python 3.4 Notes</a></li>\n</ul>",
+          "description_markdown": "這篇文章專門在講 Python 的 `str.format()` 各種超便利的用法，大家就別再用 `%` 來 format 字串啦！\r\n\r\n延伸閱讀：\r\n\r\n- [Formatting Strings and the str.format() family of functions -- Python 3.4 Notes](http://slott-softwarearchitect.blogspot.tw/2015/11/formatting-strings-and-strformat-family.html)",
+          "embedded_links": [
+            {
+              "identifier": "uvJd4qZ",
+              "title": "Formatting Strings and the str.format() family of functions -- Python 3.4 Notes",
+              "url_domain": "blogspot.tw",
+              "url": "http://slott-softwarearchitect.blogspot.tw/2015/11/formatting-strings-and-strformat-family.html"
+            }
+          ]
+        },
+        {
+          "identifier": "Gkdp59N",
+          "type": "Link",
+          "title": "10 MySQL settings to tune after installation",
+          "url_domain": "percona.com",
+          "url": "https://www.percona.com/blog/2014/01/28/10-mysql-settings-to-tune-after-installation/",
+          "description": "<p>這是一篇來自 (Percona) MySQL Performance Blog 的文章，提到了 10 個重要的 MySQL configuration 參數，例如 <code>innodb_file_per_table</code> 和 <code>query_cache_size</code> 等等，有在用 MySQL 的人都應該要看一下。不過不是每個參數都支援在 runtime 的時候修改，這點要注意。</p>\n\n<p>底下的延伸閱讀則是由 VividCortex 發布的小手冊，也是在講一樣的主題。而且 VividCortex 的創辦人就是 High Performance MySQL 的作者。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.vividcortex.com/resources/configuring-mysql-for-performance/\">Configuring MySQL for Performance</a></li>\n</ul>",
+          "description_markdown": "這是一篇來自 (Percona) MySQL Performance Blog 的文章，提到了 10 個重要的 MySQL configuration 參數，例如 `innodb_file_per_table` 和 `query_cache_size` 等等，有在用 MySQL 的人都應該要看一下。不過不是每個參數都支援在 runtime 的時候修改，這點要注意。\r\n\r\n底下的延伸閱讀則是由 VividCortex 發布的小手冊，也是在講一樣的主題。而且 VividCortex 的創辦人就是 High Performance MySQL 的作者。\r\n\r\n延伸閱讀：\r\n\r\n- [Configuring MySQL for Performance](https://www.vividcortex.com/resources/configuring-mysql-for-performance/)",
+          "embedded_links": [
+            {
+              "identifier": "rV9iZGo",
+              "title": "Configuring MySQL for Performance",
+              "url_domain": "vividcortex.com",
+              "url": "https://www.vividcortex.com/resources/configuring-mysql-for-performance/"
+            }
+          ]
+        },
+        {
+          "identifier": "qKD478F",
+          "type": "Link",
+          "title": "Cassandra 的数据模型和 CQL",
+          "url_domain": "yangzhe1991.org",
+          "url": "http://yangzhe1991.org/blog/2015/10/datamodel-and-cql-cassandra-does-not-have-sql/",
+          "description": "<p>這是<a href=\"http://yangzhe1991.org/blog/2015/09/cassandra-introduction/\">系列文章</a>的第二篇，很詳細地說明了 Cassandra 的基本概念。另外也推薦一下這本 <a href=\"http://amzn.to/1MQ3KsT\">Learning Apache Cassandra</a>。</p>\n\n<p>雖然 <a href=\"http://www.datastax.com/dev/blog/new-in-cassandra-3-0-materialized-views\">Cassandra 3.0</a> 不久前推出了。</p>",
+          "description_markdown": "這是[系列文章](http://yangzhe1991.org/blog/2015/09/cassandra-introduction/)的第二篇，很詳細地說明了 Cassandra 的基本概念。另外也推薦一下這本 [Learning Apache Cassandra](http://amzn.to/1MQ3KsT)。\r\n\r\n雖然 [Cassandra 3.0](http://www.datastax.com/dev/blog/new-in-cassandra-3-0-materialized-views) 不久前推出了。",
+          "embedded_links": [
+            {
+              "identifier": "Tdfb3u2",
+              "title": "系列文章",
+              "url_domain": "yangzhe1991.org",
+              "url": "http://yangzhe1991.org/blog/2015/09/cassandra-introduction/"
+            },
+            {
+              "identifier": "FfR5ysw",
+              "title": "Learning Apache Cassandra",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/1MQ3KsT"
+            },
+            {
+              "identifier": "wpkJEI1",
+              "title": "Cassandra 3.0",
+              "url_domain": "datastax.com",
+              "url": "http://www.datastax.com/dev/blog/new-in-cassandra-3-0-materialized-views"
+            }
+          ]
+        },
+        {
+          "identifier": "qUtNYim",
+          "type": "Link",
+          "title": "用世界来叙事：Fallout 3",
+          "url_domain": "zhihu.com",
+          "url": "http://zhuanlan.zhihu.com/necromanov/19735387",
+          "description": "<p>因為本週的三位 curator 裡有兩位這禮拜都在玩 Fallout 4，所以如果你覺得這一期的 weekly 質量下滑了，大家就多多包涵啦！</p>\n\n<p>如果你不能理解或是有點好奇為什麼全世界的玩家都這麼期待這款遊戲，你或許可以讀一讀這篇由一位中國的遊戲設計師所寫的評論，感受一下。雖然他講的是 Fallout 3。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://zhuanlan.zhihu.com/necromanov/19793833\">不一样的路径：Fallout: New Vegas</a></li>\n</ul>",
+          "description_markdown": "因為本週的三位 curator 裡有兩位這禮拜都在玩 Fallout 4，所以如果你覺得這一期的 weekly 質量下滑了，大家就多多包涵啦！\r\n\r\n如果你不能理解或是有點好奇為什麼全世界的玩家都這麼期待這款遊戲，你或許可以讀一讀這篇由一位中國的遊戲設計師所寫的評論，感受一下。雖然他講的是 Fallout 3。\r\n\r\n延伸閱讀：\r\n\r\n- [不一样的路径：Fallout: New Vegas](http://zhuanlan.zhihu.com/necromanov/19793833)",
+          "embedded_links": [
+            {
+              "identifier": "I6q0fep",
+              "title": "不一样的路径：Fallout: New Vegas",
+              "url_domain": "zhihu.com",
+              "url": "http://zhuanlan.zhihu.com/necromanov/19793833"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "WJlnW5h",
+          "type": "Link",
+          "title": "Wrapping your callbacks in Promises",
+          "url_domain": "ios-developers.io",
+          "url": "http://blog.ios-developers.io/wrapping-your-callbacks-in-promises/",
+          "description": "<p>We code in an asynchronous world. We promise.</p>\n\n<p>這一句是 <a href=\"https://github.com/mxcl/PromiseKit\">PromiseKit</a> 的口號。</p>\n\n<p>這是一篇關於 PromiseKit 最簡單的教學文，不過說實在的 PromiseKit 差不多就是這麼簡單，不像 <a href=\"https://github.com/ReactiveCocoa/ReactiveCocoa\">ReactiveCocoa</a> 一樣包山包海、個人覺得語法上也比 <a href=\"https://github.com/BoltsFramework/Bolts-iOS\">Bolts</a> 親切一些。</p>\n\n<p>PromiseKit 就只想解決一件事情：大量的 callbacks 串接導致的閱讀性下降 aka <a href=\"http://en.wikipedia.org/wiki/Pyramid_of_doom_%28programming%29\">厄運金字塔</a> ，可以透過 <a href=\"http://wikipedia.org/wiki/Promise_%28programming%29\">promise pattern</a> 達成 callbacks chaining 來解決。</p>\n\n<p>它的文件寫得也是不錯： http://promisekit.org/introduction/</p>",
+          "description_markdown": "We code in an asynchronous world. We promise.\r\n\r\n這一句是 [PromiseKit](https://github.com/mxcl/PromiseKit) 的口號。\r\n\r\n這是一篇關於 PromiseKit 最簡單的教學文，不過說實在的 PromiseKit 差不多就是這麼簡單，不像 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) 一樣包山包海、個人覺得語法上也比 [Bolts](https://github.com/BoltsFramework/Bolts-iOS) 親切一些。\r\n\r\nPromiseKit 就只想解決一件事情：大量的 callbacks 串接導致的閱讀性下降 aka [厄運金字塔](http://en.wikipedia.org/wiki/Pyramid_of_doom_%28programming%29) ，可以透過 [promise pattern](http://wikipedia.org/wiki/Promise_%28programming%29) 達成 callbacks chaining 來解決。\r\n\r\n它的文件寫得也是不錯： http://promisekit.org/introduction/",
+          "embedded_links": [
+            {
+              "identifier": "IjxfjCw",
+              "title": "PromiseKit",
+              "url_domain": "github.com",
+              "url": "https://github.com/mxcl/PromiseKit"
+            },
+            {
+              "identifier": "JDhWQWs",
+              "title": "ReactiveCocoa",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveCocoa"
+            },
+            {
+              "identifier": "MdOxyVc",
+              "title": "Bolts",
+              "url_domain": "github.com",
+              "url": "https://github.com/BoltsFramework/Bolts-iOS"
+            },
+            {
+              "identifier": "lXavHg7",
+              "title": "厄運金字塔",
+              "url_domain": "wikipedia.org",
+              "url": "http://en.wikipedia.org/wiki/Pyramid_of_doom_%28programming%29"
+            },
+            {
+              "identifier": "mIT9ptY",
+              "title": "promise pattern",
+              "url_domain": "wikipedia.org",
+              "url": "http://wikipedia.org/wiki/Promise_%28programming%29"
+            }
+          ]
+        },
+        {
+          "identifier": "rOb6wS3",
+          "type": "Link",
+          "title": "被误解的 MVC 和被神化的 MVVM in iOS development",
+          "url_domain": "infoq.com",
+          "url": "http://www.infoq.com/cn/articles/rethinking-mvc-mvvm",
+          "description": "<p>同意，有些人會說 MVVM 可以解決自己 MVC 架構下肥大 ViewController 問題，但我非常懷疑，如果在 MVC 架構下你的 ViewController 就是肥大的，那麼只是因為加上一層稀薄的 ViewModel 幫助實在很小啊。</p>\n\n<p>大家的好朋友 objc.io 是大家認識 MVVM 的好起點 <a href=\"https://www.objc.io/issues/13-architecture/mvvm/\">Introduction to MVVM</a>。想要感受跟 FRP 風格的 MVVM 實作方式，可以參考這個 GitHub repo <a href=\"https://github.com/artsy/eidolon\">artsy/eidolon</a>。</p>\n\n<p>註：我個人寫 ViewModel 主要是為了測試。</p>",
+          "description_markdown": "同意，有些人會說 MVVM 可以解決自己 MVC 架構下肥大 ViewController 問題，但我非常懷疑，如果在 MVC 架構下你的 ViewController 就是肥大的，那麼只是因為加上一層稀薄的 ViewModel 幫助實在很小啊。\r\n\r\n大家的好朋友 objc.io 是大家認識 MVVM 的好起點 [Introduction to MVVM](https://www.objc.io/issues/13-architecture/mvvm/)。想要感受跟 FRP 風格的 MVVM 實作方式，可以參考這個 GitHub repo [artsy/eidolon](https://github.com/artsy/eidolon)。\r\n\r\n註：我個人寫 ViewModel 主要是為了測試。",
+          "embedded_links": [
+            {
+              "identifier": "VmzQT8v",
+              "title": "Introduction to MVVM",
+              "url_domain": "objc.io",
+              "url": "https://www.objc.io/issues/13-architecture/mvvm/"
+            },
+            {
+              "identifier": "nmQoguD",
+              "title": "artsy/eidolon",
+              "url_domain": "github.com",
+              "url": "https://github.com/artsy/eidolon"
+            }
+          ]
+        },
+        {
+          "identifier": "YCU2CF9",
+          "type": "Link",
+          "title": "Android development like a pro",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/rallat/android-development-like-a-pro?utm_source=Android+Weekly&utm_campaign=d55b4c77a9-Android_Weekly_173&utm_medium=email&utm_term=0_4eb677ad19-d55b4c77a9-337958501",
+          "description": "<p>這是 Twitter 的 Android 工程師給的一個 talk，一起手就先給 Fragment 一記重拳，後面花了很大篇幅仔細地介紹他是怎麼實作 MVP 架構的以及他感受的優缺點，偏重在 Scalable, Maintainable 及 Testability，會是有一點經驗的工程師很好的進階材料。</p>\n\n<p>在投影片的後段，作者也試做了 VIPER 版本的架構，這兩個架構都可以在 GitHub repo <a href=\"https://github.com/rallat/EffectiveAndroid\">rallat/EffectiveAndroid</a> 看到。</p>\n\n<p>延伸：在更早之前，Coursera 也提出了非常類似 MVVM + VIPER 架構方案，可以參考他們的 Effective Android Architecture <a href=\"https://www.youtube.com/watch?v=ATjeQnPA9t0\">研討會影片</a>、<a href=\"https://speakerdeck.com/richk/effective-android-architecture\">投影片</a> 還有 source code <a href=\"https://github.com/richk/CourseraDemoApp\">richk/CourseraDemoApp</a></p>",
+          "description_markdown": "這是 Twitter 的 Android 工程師給的一個 talk，一起手就先給 Fragment 一記重拳，後面花了很大篇幅仔細地介紹他是怎麼實作 MVP 架構的以及他感受的優缺點，偏重在 Scalable, Maintainable 及 Testability，會是有一點經驗的工程師很好的進階材料。\r\n\r\n在投影片的後段，作者也試做了 VIPER 版本的架構，這兩個架構都可以在 GitHub repo [rallat/EffectiveAndroid](https://github.com/rallat/EffectiveAndroid) 看到。\r\n\r\n延伸：在更早之前，Coursera 也提出了非常類似 MVVM + VIPER 架構方案，可以參考他們的 Effective Android Architecture [研討會影片](https://www.youtube.com/watch?v=ATjeQnPA9t0)、[投影片](https://speakerdeck.com/richk/effective-android-architecture) 還有 source code [richk/CourseraDemoApp](https://github.com/richk/CourseraDemoApp)",
+          "embedded_links": [
+            {
+              "identifier": "wkvYoaW",
+              "title": "rallat/EffectiveAndroid",
+              "url_domain": "github.com",
+              "url": "https://github.com/rallat/EffectiveAndroid"
+            },
+            {
+              "identifier": "MaJnoJ7",
+              "title": "研討會影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=ATjeQnPA9t0"
+            },
+            {
+              "identifier": "gdjezDd",
+              "title": "投影片",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/richk/effective-android-architecture"
+            },
+            {
+              "identifier": "SYUpwSS",
+              "title": "richk/CourseraDemoApp",
+              "url_domain": "github.com",
+              "url": "https://github.com/richk/CourseraDemoApp"
+            }
+          ]
+        },
+        {
+          "identifier": "Jwfb471",
+          "type": "Link",
+          "title": "你所不知道的 C 語言：指標篇",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=daV0F9Tal_w",
+          "description": "<p>相信很多訂閱者在大學的時候都<strong>好像</strong>學過 C。這是 <a href=\"https://twitter.com/jserv\">jserv</a> 在成大開的課，講得超好！  (竟然還有 <a href=\"https://www.facebook.com/JservFans\">Jserv 與他愉快的小夥伴</a> 粉絲頁可以互動)</p>\n\n<p>這堂課的共筆在 hackpad 上 <a href=\"https://embedded2015.hackpad.com/C-s0rlzR8wVtm\">你所不知道的C語言：指標篇</a>，最後我想分享一句 jserv 在課堂上講的一句話「很多人之所以 C 語言學不好，是抽象想像力不好」 #嗆我嗆夠了沒</p>",
+          "description_markdown": "相信很多訂閱者在大學的時候都**好像**學過 C。這是 [jserv](https://twitter.com/jserv) 在成大開的課，講得超好！  (竟然還有 [Jserv 與他愉快的小夥伴](https://www.facebook.com/JservFans) 粉絲頁可以互動)\r\n\r\n這堂課的共筆在 hackpad 上 [你所不知道的C語言：指標篇](https://embedded2015.hackpad.com/C-s0rlzR8wVtm)，最後我想分享一句 jserv 在課堂上講的一句話「很多人之所以 C 語言學不好，是抽象想像力不好」 #嗆我嗆夠了沒",
+          "embedded_links": [
+            {
+              "identifier": "n1f8k4Q",
+              "title": "jserv",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jserv"
+            },
+            {
+              "identifier": "m3lvk7L",
+              "title": "Jserv 與他愉快的小夥伴",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/JservFans"
+            },
+            {
+              "identifier": "Qx4OXeL",
+              "title": "你所不知道的C語言：指標篇",
+              "url_domain": "hackpad.com",
+              "url": "https://embedded2015.hackpad.com/C-s0rlzR8wVtm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "G5YnKGS",
+          "type": "Link",
+          "title": "Go 語言非常適合寫平行程式",
+          "url_domain": "toptal.com",
+          "url": "http://www.toptal.com/go/go-programming-a-step-by-step-introductory-tutorial",
+          "description": "<p>這篇適合已有其他電腦語言經驗者來讀, 不難看出 go 有很強的平行化處理能力。他用 goroutines 的方法, 讓多個 workers 同時執行同一個 function, 從 CPU 的角度來講, 他可以自動分到不同 cores 上執行。</p>\n\n<p>如果想進一步學 go 文法和內建程式庫, 可以利用<a href=\"https://gobyexample.com/\">範例來學習</a>, 裡面當你看到土撥鼠 icon 時, 可以點擊它進到 Go Playground, 直接編輯和執行。</p>\n\n<p>至於, 已經有這麼多種語言, 為何要再多學一種? 我喜歡它的安裝和執行方式簡潔。還有沒有 C 或 C++ 難懂, 但可以跑得跟 C++ 一樣快。</p>",
+          "description_markdown": "這篇適合已有其他電腦語言經驗者來讀, 不難看出 go 有很強的平行化處理能力。他用 goroutines 的方法, 讓多個 workers 同時執行同一個 function, 從 CPU 的角度來講, 他可以自動分到不同 cores 上執行。\r\n\r\n如果想進一步學 go 文法和內建程式庫, 可以利用[範例來學習](https://gobyexample.com/), 裡面當你看到土撥鼠 icon 時, 可以點擊它進到 Go Playground, 直接編輯和執行。\r\n\r\n至於, 已經有這麼多種語言, 為何要再多學一種? 我喜歡它的安裝和執行方式簡潔。還有沒有 C 或 C++ 難懂, 但可以跑得跟 C++ 一樣快。",
+          "embedded_links": [
+            {
+              "identifier": "G06hevD",
+              "title": "範例來學習",
+              "url_domain": "gobyexample.com",
+              "url": "https://gobyexample.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "YcOR5dI",
+          "type": "Link",
+          "title": "Kubernetes 會成爲雲端主流配置 containers 工具嗎?",
+          "url_domain": "meteorhacks.com",
+          "url": "https://meteorhacks.com/learn-kubernetes-the-future-of-the-cloud",
+          "description": "<p>當你學會 <a href=\"https://www.docker.com/\">Docker</a> 後, 下一個需要學的工具就是如何在雲端配置你的 docker images?</p>\n\n<p>您一則自己用 <a href=\"https://www.vagrantup.com/\">Vagrant</a> 或 Docker 架設一個 <a href=\"http://kubernetes.io/\">Kubernetes</a> cluster 在自己的電腦上測試, 或在 Google 雲端的 <a href=\"https://cloud.google.com/container-engine/\">Google Container Engine</a> 或 Red Hat 的 <a href=\"https://www.openshift.com/\">OpenShift 3</a> 直接開個 Kubernetes 環境來使用。</p>\n\n<p>這篇文章簡單介紹了 Kubernets 的基本成員 pod, service, volume, 以及 replica controller, 最新版 <a href=\"http://kubernetes.io/v1.1/index.html\">1.1</a> 還增加了 job 和 horizontal pod autoscaler (hpa) 等功能, 讓 containers 的管理變得很簡單, 而且真的很好用。只要照着程式範例做一次, 你就可以很快學會怎麼使用 Kubernetes!</p>",
+          "description_markdown": "當你學會 [Docker](https://www.docker.com/) 後, 下一個需要學的工具就是如何在雲端配置你的 docker images? \r\n\r\n您一則自己用 [Vagrant](https://www.vagrantup.com/) 或 Docker 架設一個 [Kubernetes](http://kubernetes.io/) cluster 在自己的電腦上測試, 或在 Google 雲端的 [Google Container Engine](https://cloud.google.com/container-engine/) 或 Red Hat 的 [OpenShift 3](https://www.openshift.com/) 直接開個 Kubernetes 環境來使用。\r\n\r\n這篇文章簡單介紹了 Kubernets 的基本成員 pod, service, volume, 以及 replica controller, 最新版 [1.1](http://kubernetes.io/v1.1/index.html) 還增加了 job 和 horizontal pod autoscaler (hpa) 等功能, 讓 containers 的管理變得很簡單, 而且真的很好用。只要照着程式範例做一次, 你就可以很快學會怎麼使用 Kubernetes!",
+          "embedded_links": [
+            {
+              "identifier": "WP0msdV",
+              "title": "Docker",
+              "url_domain": "docker.com",
+              "url": "https://www.docker.com/"
+            },
+            {
+              "identifier": "uuX2c86",
+              "title": "Vagrant",
+              "url_domain": "vagrantup.com",
+              "url": "https://www.vagrantup.com/"
+            },
+            {
+              "identifier": "7LOg2IU",
+              "title": "Kubernetes",
+              "url_domain": "kubernetes.io",
+              "url": "http://kubernetes.io/"
+            },
+            {
+              "identifier": "OQQlHM1",
+              "title": "Google Container Engine",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/container-engine/"
+            },
+            {
+              "identifier": "pJ7Jwa3",
+              "title": "OpenShift 3",
+              "url_domain": "openshift.com",
+              "url": "https://www.openshift.com/"
+            },
+            {
+              "identifier": "LNzIrco",
+              "title": "1.1",
+              "url_domain": "kubernetes.io",
+              "url": "http://kubernetes.io/v1.1/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "SG7ubUk",
+          "type": "Link",
+          "title": "微軟也在玩下一代比特幣 - Ethereum",
+          "url_domain": "wsj.com",
+          "url": "http://blogs.wsj.com/moneybeat/2015/10/28/bitbeat-microsoft-to-offer-ethereum-based-services-on-azure/",
+          "description": "<p>大家一定會覺得很奇怪, 這裡不是介紹跟程式開發相關的文章嗎, 爲何提比特幣呢？<a href=\"https://en.wikipedia.org/wiki/Vitalik_Buterin\">Vitalik Buterin</a>, 我想介紹的跟這位 21 歲的程式設計師兼作家有關。他讓我覺得程式設計師只能找個工作寫寫網站, 幫公司寫寫 apps, 過了一陣子所學的語言又過時了, 重頭再來一次, 這個世界, 從來沒有讓程式設計師主導過任何一件事嗎？</p>\n\n<p>這篇新聞, 不是來自於科技網站, 它是來自華爾街郵報。雖然廣告性質居多, 但不難看出這個年輕人, 將 (或應該說, 已經) 改變整個世界, 他 17 歲開始玩比特幣, 寫 Bitcoin Weekly (跟我們一樣), 但後來發明了 <a href=\"https://www.youtube.com/watch?v=TDGq4aeevgY\">Ethereum</a>, 將比特幣的技術 (blockchain) 發揮到極致, 讓這個技術不只能用在虛擬幣, 還可以寫程式, 發展出所謂的 smart contracts, 連微軟都跟它靠攏 (難得一次微軟跑最快), 其他 J.P. Morgan Chase, 花旗銀行等大公司, 都紛紛投入研究。</p>\n\n<p>我指的是程式設計師就不能改變世界嗎? 你還想錯過下一個 Google 還是 Facebook 嗎? 他 21 歲而已, 你還在等什麼?</p>",
+          "description_markdown": "大家一定會覺得很奇怪, 這裡不是介紹跟程式開發相關的文章嗎, 爲何提比特幣呢？[Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), 我想介紹的跟這位 21 歲的程式設計師兼作家有關。他讓我覺得程式設計師只能找個工作寫寫網站, 幫公司寫寫 apps, 過了一陣子所學的語言又過時了, 重頭再來一次, 這個世界, 從來沒有讓程式設計師主導過任何一件事嗎？\r\n\r\n這篇新聞, 不是來自於科技網站, 它是來自華爾街郵報。雖然廣告性質居多, 但不難看出這個年輕人, 將 (或應該說, 已經) 改變整個世界, 他 17 歲開始玩比特幣, 寫 Bitcoin Weekly (跟我們一樣), 但後來發明了 [Ethereum](https://www.youtube.com/watch?v=TDGq4aeevgY), 將比特幣的技術 (blockchain) 發揮到極致, 讓這個技術不只能用在虛擬幣, 還可以寫程式, 發展出所謂的 smart contracts, 連微軟都跟它靠攏 (難得一次微軟跑最快), 其他 J.P. Morgan Chase, 花旗銀行等大公司, 都紛紛投入研究。\r\n\r\n我指的是程式設計師就不能改變世界嗎? 你還想錯過下一個 Google 還是 Facebook 嗎? 他 21 歲而已, 你還在等什麼?",
+          "embedded_links": [
+            {
+              "identifier": "9C20ncK",
+              "title": "Vitalik Buterin",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Vitalik_Buterin"
+            },
+            {
+              "identifier": "klWqtjw",
+              "title": "Ethereum",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=TDGq4aeevgY"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

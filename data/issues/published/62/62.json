@@ -1,0 +1,673 @@
+{
+  "number": 62,
+  "title": "Issue 62 就算有九個女人也沒辦法在一個月內就讓孩子出生",
+  "summary": "本期內容涵蓋 Machine Learning, Deep Learning, PHP, Laravel, Go, Microservices, iOS, Swift",
+  "url": "https://weekly.codetengu.com/issues/62",
+  "publication_status": "published",
+  "published_at": "2016-10-03T01:00:51+01:00",
+  "updated_at": "2016-10-19T20:24:50+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，但是最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Lord of the Flies</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://www.youtube.com/watch?v=u7rSnc7mYC4\">妙蛙種子破音</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - comiXology 的坑好大啊～</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，但是最近在讀 [Lord of the Flies](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [妙蛙種子破音](https://www.youtube.com/watch?v=u7rSnc7mYC4)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@wancw](https://twitter.com/wancw) - comiXology 的坑好大啊～\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "hyIVjHw",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "W85XDKU",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "JSVWNPd",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "mDrW6XM",
+              "title": "Lord of the Flies",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "kcdzS2",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "TK9sfHo",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "hWDePtR",
+              "title": "妙蛙種子破音",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=u7rSnc7mYC4"
+            },
+            {
+              "identifier": "Nf07DYl",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "QaNqQ3N",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "b0l6qK9",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "YxcLpVm",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "fewAttD",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "vobFH1B",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "BUjkDxR",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "3ivdQhd",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "aGrXwhh",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "yaErgGQ",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "49jCjdz",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "lDhOn3w",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "tTlj5Tv",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "cfKnu3g",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "EalXafr",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ERptQLu",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Wuoq1Q3",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "BbaNiNi",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "jxu0RV",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "cPq8HE5",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "hSPVeJw",
+              "title": "Lord of the Flies",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "al4VBxi",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 4 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-4-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>前三講介紹了 SVM 的基礎及 Kernel 的概念，但這些 SVM 模型都是「Hard Margin 」，這種模型在訓練時會將所有資料點都完美分類，也因此非常容易發生 Overfitting，所以平常大家所使用市面上的 SVM 程式工具其實都不會是 Hard Margin SVM，而是可以容許一些小錯誤的「Soft Margin」SVM。</p>\n\n<p>這一講將介紹如何將原本的演算法推導到 Soft Margin SVM，基本上學完這一講，SVM 分類模型的基礎知識就已經學了大部份了～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n前三講介紹了 SVM 的基礎及 Kernel 的概念，但這些 SVM 模型都是「Hard Margin 」，這種模型在訓練時會將所有資料點都完美分類，也因此非常容易發生 Overfitting，所以平常大家所使用市面上的 SVM 程式工具其實都不會是 Hard Margin SVM，而是可以容許一些小錯誤的「Soft Margin」SVM。\r\n\r\n這一講將介紹如何將原本的演算法推導到 Soft Margin SVM，基本上學完這一講，SVM 分類模型的基礎知識就已經學了大部份了～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QEpqXpb",
+          "type": "Link",
+          "title": "How a Japanese cucumber farmer is using deep learning and TensorFlow - 使用 Deep Learning 挑選小黃瓜案例分享",
+          "url_domain": "google.com",
+          "url": "https://cloud.google.com/blog/big-data/2016/08/how-a-japanese-cucumber-farmer-is-using-deep-learning-and-tensorflow",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>大家一定都知道愛之味牛奶花生會用電腦來挑花生，但大家知道怎麼自己做一個嗎？這是一個日本工程師使用 Google TensorFlow 教電腦挑小黃瓜的真實案例，看到這樣的真實故事，真的也想自己動手做一個來玩玩看啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n大家一定都知道愛之味牛奶花生會用電腦來挑花生，但大家知道怎麼自己做一個嗎？這是一個日本工程師使用 Google TensorFlow 教電腦挑小黃瓜的真實案例，看到這樣的真實故事，真的也想自己動手做一個來玩玩看啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "JDo0m4s",
+          "type": "Link",
+          "title": "Bay Area Deep Learning School",
+          "url_domain": "bayareadlschool.org",
+          "url": "http://www.bayareadlschool.org/schedule",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上週生日從臉友的祝福中得知這個活動，講者都是 Machine Learning 相關領域有名的學者，雖然活動已經結束，但兩天的活動都有影片直播也都上傳到 Youtube 了，讓我為在苦命鬼島的大家獻上<a href=\"https://www.youtube.com/watch?v=eyovmAtoUx0\">灣區傳送門</a>。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上週生日從臉友的祝福中得知這個活動，講者都是 Machine Learning 相關領域有名的學者，雖然活動已經結束，但兩天的活動都有影片直播也都上傳到 Youtube 了，讓我為在苦命鬼島的大家獻上[灣區傳送門](https://www.youtube.com/watch?v=eyovmAtoUx0)。",
+          "embedded_links": [
+            {
+              "identifier": "XnMAAby",
+              "title": "灣區傳送門",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=eyovmAtoUx0"
+            }
+          ]
+        },
+        {
+          "identifier": "32dbPQe",
+          "type": "Link",
+          "title": "The art of using Repositories in Laravel 5.3 - Laravel Repository 模式與快取",
+          "url_domain": "omranic.com",
+          "url": "https://blog.omranic.com/the-art-of-using-repositories-in-laravel-5-3-ee20a1eacb35#.o695apoyf",
+          "description": "<p>PHP、Laravel：中級</p>\n\n<p>有在寫 Laravel 的人應該都知道在取用資料庫資料時推薦使用 Repository 模式來控管資料取用邏輯，因為將資料庫邏輯都寫在 Model 的話，可能會造成 Model 的肥大而難以維護，所以建議將相關的資料庫邏輯封裝在不同的 Repository 方便中大型專案維護。</p>\n\n<p>本篇文章便是以 Laravel Repository 模式為切入點，但重點是介紹如何在這樣的模式將資料快取起來，當然我們都可以自己寫快取邏輯，畢竟 Repository 已經是一層封裝了，要寫快取也會比較容易一些，但永遠別忘了可能已經有人寫好了相同的功能，所以作者介紹了 <a href=\"https://github.com/rinvex/repository\">Rinvex Repository</a> 這個套件，可以很直覺的在 Repository 模式將資料快取起來，而且 Cache Invalidate 也都會自動幫忙做好喔！這可就幫忙解決了電腦科學的最大難題之一耶！</p>",
+          "description_markdown": "PHP、Laravel：中級\r\n\r\n有在寫 Laravel 的人應該都知道在取用資料庫資料時推薦使用 Repository 模式來控管資料取用邏輯，因為將資料庫邏輯都寫在 Model 的話，可能會造成 Model 的肥大而難以維護，所以建議將相關的資料庫邏輯封裝在不同的 Repository 方便中大型專案維護。\r\n\r\n本篇文章便是以 Laravel Repository 模式為切入點，但重點是介紹如何在這樣的模式將資料快取起來，當然我們都可以自己寫快取邏輯，畢竟 Repository 已經是一層封裝了，要寫快取也會比較容易一些，但永遠別忘了可能已經有人寫好了相同的功能，所以作者介紹了 [Rinvex Repository](https://github.com/rinvex/repository) 這個套件，可以很直覺的在 Repository 模式將資料快取起來，而且 Cache Invalidate 也都會自動幫忙做好喔！這可就幫忙解決了電腦科學的最大難題之一耶！",
+          "embedded_links": [
+            {
+              "identifier": "40J1uEI",
+              "title": "Rinvex Repository",
+              "url_domain": "github.com",
+              "url": "https://github.com/rinvex/repository"
+            }
+          ]
+        },
+        {
+          "identifier": "1OL9Brn",
+          "type": "Link",
+          "title": "如何使用 Null Object 模式?",
+          "url_domain": "oomusou.io",
+          "url": "http://oomusou.io/dp/dp-nullobject/",
+          "description": "<p>PHP、Laravel、Design Pattern：初級</p>\n\n<p>初學者要成為進階者，就該學一些 Design Pattern。Null Object 模式算是一個比較小的 Design Pattern，但卻還蠻常見也蠻好用的，學好這個 Pattern 就可以拿來說嘴自己會 Design Pattern 了（如果不怕被笑的話）～</p>",
+          "description_markdown": "PHP、Laravel、Design Pattern：初級\r\n\r\n初學者要成為進階者，就該學一些 Design Pattern。Null Object 模式算是一個比較小的 Design Pattern，但卻還蠻常見也蠻好用的，學好這個 Pattern 就可以拿來說嘴自己會 Design Pattern 了（如果不怕被笑的話）～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "rnSbkBH",
+          "type": "Link",
+          "title": "Logspout 與 go-extpoints",
+          "url_domain": "gliderlabs.com",
+          "url": "http://gliderlabs.com/devlog/2015/new-logspout-extensible-docker-logging",
+          "description": "<p>在研究 <a href=\"http://gliderlabs.com/devlog/2015/new-logspout-extensible-docker-logging/\">Logspout</a> 這個可以把 Docker Container 的 logs 導出來的 <a href=\"https://github.com/gliderlabs/logspout\">原始碼</a> 時, 發現它使用 <a href=\"https://github.com/progrium/go-extpoints\">go-extpoints</a> 這個 <a href=\"https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/\">Go generator</a> 來實現擴充模組的功能。它也利用 <a href=\"https://github.com/gliderlabs/logspout/blob/685c7bce43a5e1dde812ea80d5ef8857db88a099/Dockerfile\">Dockerfile</a> ONBUILD 的特性, 讓使用者非常容易的抽換模組, 以這 <a href=\"https://github.com/gliderlabs/logspout/tree/685c7bce43a5e1dde812ea80d5ef8857db88a099/custom\">custom</a> build 為例, 技巧的在不安裝 go 的環境下, 重新產生客製化 logspout 的 docker image。</p>",
+          "description_markdown": "在研究 [Logspout](http://gliderlabs.com/devlog/2015/new-logspout-extensible-docker-logging/) 這個可以把 Docker Container 的 logs 導出來的 [原始碼](https://github.com/gliderlabs/logspout) 時, 發現它使用 [go-extpoints](https://github.com/progrium/go-extpoints) 這個 [Go generator](https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/) 來實現擴充模組的功能。它也利用 [Dockerfile](https://github.com/gliderlabs/logspout/blob/685c7bce43a5e1dde812ea80d5ef8857db88a099/Dockerfile) ONBUILD 的特性, 讓使用者非常容易的抽換模組, 以這 [custom](https://github.com/gliderlabs/logspout/tree/685c7bce43a5e1dde812ea80d5ef8857db88a099/custom) build 為例, 技巧的在不安裝 go 的環境下, 重新產生客製化 logspout 的 docker image。",
+          "embedded_links": [
+            {
+              "identifier": "wZKAwYL",
+              "title": "Logspout",
+              "url_domain": "gliderlabs.com",
+              "url": "http://gliderlabs.com/devlog/2015/new-logspout-extensible-docker-logging/"
+            },
+            {
+              "identifier": "1s7okof",
+              "title": "原始碼",
+              "url_domain": "github.com",
+              "url": "https://github.com/gliderlabs/logspout"
+            },
+            {
+              "identifier": "HjJnVd9",
+              "title": "go-extpoints",
+              "url_domain": "github.com",
+              "url": "https://github.com/progrium/go-extpoints"
+            },
+            {
+              "identifier": "VHTGLg2",
+              "title": "Go generator",
+              "url_domain": "gopheracademy.com",
+              "url": "https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/"
+            },
+            {
+              "identifier": "BjshTik",
+              "title": "Dockerfile",
+              "url_domain": "github.com",
+              "url": "https://github.com/gliderlabs/logspout/blob/685c7bce43a5e1dde812ea80d5ef8857db88a099/Dockerfile"
+            },
+            {
+              "identifier": "9x0156c",
+              "title": "custom",
+              "url_domain": "github.com",
+              "url": "https://github.com/gliderlabs/logspout/tree/685c7bce43a5e1dde812ea80d5ef8857db88a099/custom"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "我在看哪些 YouTube 節目",
+          "description": "<p>突然想跟大家分享，我都訂閱哪些 YouTube 在看。它們成為我生活的一部份，也是我快速學習新知識和技術的方法之一。</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/user/DigitalOceanVideos\">DigitalOcean</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA\">Gopher Academy</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCthvmTSlmIcMH93LIJNe-2w\">Linux Foundation Events</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCUlQ5VoIzE_kFbYjzUwHTKA\">Auth0</a></li>\n<li><a href=\"https://www.youtube.com/user/WolframResearch\">Wolfram</a></li>\n<li><a href=\"https://www.youtube.com/user/GotoConferences\">GOTO Conferences</a></li>\n<li><a href=\"https://www.youtube.com/user/TEDtalksDirector\">TED</a></li>\n<li><a href=\"https://www.youtube.com/user/GoogleDevelopers\">Google Developers</a></li>\n<li><a href=\"https://www.youtube.com/user/ChromeDevelopers\">Google Chrome Developers</a></li>\n<li><a href=\"https://www.youtube.com/user/TEDxTalks\">TEDx Talks</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCdDhYMT2USoLdh4SZIsu_1g\">JavaOne</a></li>\n<li><a href=\"https://www.youtube.com/user/OreillyMedia\">O'Reilly</a></li>\n<li><a href=\"https://www.youtube.com/user/googlecloudplatform\">Google Cloud</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCGN6L3tRhs92Uer3c6VxOSA\">vert.x</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg\">Devoxx</a></li>\n<li><a href=\"https://www.youtube.com/user/MITBitcoinClub\">MIT Bitcoin Club</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCVmRAQeesq4TA3rdvbz-IkQ\">Taipei Ethereum Meetup</a></li>\n<li><a href=\"https://www.youtube.com/user/GoogleTechTalks\">GoogleTechTalks</a></li>\n<li><a href=\"https://www.youtube.com/channel/UC6rYoXJ_3BbPyWx_GQDDRRQ\">Ethereum</a></li>\n<li><a href=\"https://www.youtube.com/channel/UC9ZNrGdT2aAdrNbX78lbNlQ\">Golang UK Conference</a></li>\n<li><a href=\"https://www.youtube.com/user/developerworks\">developerWorks TV</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCtpaSCkc8oYuscxQ_LUN2NQ\">The Bitcoin Report</a></li>\n<li><a href=\"https://www.youtube.com/user/jsconfeu\">JSConf</a></li>\n<li><a href=\"https://www.youtube.com/channel/UCJ5uHx90mZGlK0lC-GSmtzw\">Blockchain University</a></li>\n<li><a href=\"https://www.youtube.com/user/dotconferences\">dotconferences</a></li>\n<li><a href=\"https://www.youtube.com/user/g0vTW\">g0v.tw 台灣零時政府</a></li>\n<li><a href=\"https://www.youtube.com/user/wheelerruml\">Wheeler Ruml</a></li>\n<li><a href=\"https://www.youtube.com/user/DeepSkyVideos\">DeepSkyVideos</a></li>\n</ul>",
+          "description_markdown": "突然想跟大家分享，我都訂閱哪些 YouTube 在看。它們成為我生活的一部份，也是我快速學習新知識和技術的方法之一。\r\n\r\n* [DigitalOcean](https://www.youtube.com/user/DigitalOceanVideos)\r\n* [Gopher Academy](https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA)\r\n* [Linux Foundation Events](https://www.youtube.com/channel/UCthvmTSlmIcMH93LIJNe-2w)\r\n* [Auth0](https://www.youtube.com/channel/UCUlQ5VoIzE_kFbYjzUwHTKA)\r\n* [Wolfram](https://www.youtube.com/user/WolframResearch)\r\n* [GOTO Conferences](https://www.youtube.com/user/GotoConferences)\r\n* [TED](https://www.youtube.com/user/TEDtalksDirector)\r\n* [Google Developers](https://www.youtube.com/user/GoogleDevelopers)\r\n* [Google Chrome Developers](https://www.youtube.com/user/ChromeDevelopers)\r\n* [TEDx Talks](https://www.youtube.com/user/TEDxTalks)\r\n* [JavaOne](https://www.youtube.com/channel/UCdDhYMT2USoLdh4SZIsu_1g)\r\n* [O'Reilly](https://www.youtube.com/user/OreillyMedia)\r\n* [Google Cloud](https://www.youtube.com/user/googlecloudplatform)\r\n* [vert.x](https://www.youtube.com/channel/UCGN6L3tRhs92Uer3c6VxOSA)\r\n* [Devoxx](https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg)\r\n* [MIT Bitcoin Club](https://www.youtube.com/user/MITBitcoinClub)\r\n* [Taipei Ethereum Meetup](https://www.youtube.com/channel/UCVmRAQeesq4TA3rdvbz-IkQ)\r\n* [GoogleTechTalks](https://www.youtube.com/user/GoogleTechTalks)\r\n* [Ethereum](https://www.youtube.com/channel/UC6rYoXJ_3BbPyWx_GQDDRRQ)\r\n* [Golang UK Conference](https://www.youtube.com/channel/UC9ZNrGdT2aAdrNbX78lbNlQ)\r\n* [developerWorks TV](https://www.youtube.com/user/developerworks)\r\n* [The Bitcoin Report](https://www.youtube.com/channel/UCtpaSCkc8oYuscxQ_LUN2NQ)\r\n* [JSConf](https://www.youtube.com/user/jsconfeu)\r\n* [Blockchain University](https://www.youtube.com/channel/UCJ5uHx90mZGlK0lC-GSmtzw)\r\n* [dotconferences](https://www.youtube.com/user/dotconferences)\r\n* [g0v.tw 台灣零時政府](https://www.youtube.com/user/g0vTW)\r\n* [Wheeler Ruml](https://www.youtube.com/user/wheelerruml)\r\n* [DeepSkyVideos](https://www.youtube.com/user/DeepSkyVideos)",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "c3WlLP3",
+              "title": "DigitalOcean",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/DigitalOceanVideos"
+            },
+            {
+              "identifier": "ZImKMQa",
+              "title": "Gopher Academy",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCx9QVEApa5BKLw9r8cnOFEA"
+            },
+            {
+              "identifier": "ZqDydvT",
+              "title": "Linux Foundation Events",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCthvmTSlmIcMH93LIJNe-2w"
+            },
+            {
+              "identifier": "mDV4wd2",
+              "title": "Auth0",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCUlQ5VoIzE_kFbYjzUwHTKA"
+            },
+            {
+              "identifier": "FigXXb7",
+              "title": "Wolfram",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/WolframResearch"
+            },
+            {
+              "identifier": "7sjMf7L",
+              "title": "GOTO Conferences",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/GotoConferences"
+            },
+            {
+              "identifier": "59K36r7",
+              "title": "TED",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/TEDtalksDirector"
+            },
+            {
+              "identifier": "FZJdted",
+              "title": "Google Developers",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/GoogleDevelopers"
+            },
+            {
+              "identifier": "adWpWYp",
+              "title": "Google Chrome Developers",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/ChromeDevelopers"
+            },
+            {
+              "identifier": "uyRUIGd",
+              "title": "TEDx Talks",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/TEDxTalks"
+            },
+            {
+              "identifier": "6DlFqjx",
+              "title": "JavaOne",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCdDhYMT2USoLdh4SZIsu_1g"
+            },
+            {
+              "identifier": "oke6Iak",
+              "title": "O'Reilly",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/OreillyMedia"
+            },
+            {
+              "identifier": "8JxO3II",
+              "title": "Google Cloud",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/googlecloudplatform"
+            },
+            {
+              "identifier": "HYtacEW",
+              "title": "vert.x",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCGN6L3tRhs92Uer3c6VxOSA"
+            },
+            {
+              "identifier": "NFkpG6Q",
+              "title": "Devoxx",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg"
+            },
+            {
+              "identifier": "Xw7v56a",
+              "title": "MIT Bitcoin Club",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/MITBitcoinClub"
+            },
+            {
+              "identifier": "ndVFBx9",
+              "title": "Taipei Ethereum Meetup",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCVmRAQeesq4TA3rdvbz-IkQ"
+            },
+            {
+              "identifier": "H9rGQKg",
+              "title": "GoogleTechTalks",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/GoogleTechTalks"
+            },
+            {
+              "identifier": "Y4wyynN",
+              "title": "Ethereum",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UC6rYoXJ_3BbPyWx_GQDDRRQ"
+            },
+            {
+              "identifier": "n3BcGRS",
+              "title": "Golang UK Conference",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UC9ZNrGdT2aAdrNbX78lbNlQ"
+            },
+            {
+              "identifier": "LHpOst9",
+              "title": "developerWorks TV",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/developerworks"
+            },
+            {
+              "identifier": "FgGaiir",
+              "title": "The Bitcoin Report",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCtpaSCkc8oYuscxQ_LUN2NQ"
+            },
+            {
+              "identifier": "8opQL6v",
+              "title": "JSConf",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/jsconfeu"
+            },
+            {
+              "identifier": "ECgx24l",
+              "title": "Blockchain University",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UCJ5uHx90mZGlK0lC-GSmtzw"
+            },
+            {
+              "identifier": "zhngbFi",
+              "title": "dotconferences",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/dotconferences"
+            },
+            {
+              "identifier": "nUuo7bh",
+              "title": "g0v.tw 台灣零時政府",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/g0vTW"
+            },
+            {
+              "identifier": "J3JKHso",
+              "title": "Wheeler Ruml",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/wheelerruml"
+            },
+            {
+              "identifier": "tueXAek",
+              "title": "DeepSkyVideos",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/user/DeepSkyVideos"
+            }
+          ]
+        },
+        {
+          "identifier": "C338Pdf",
+          "type": "Link",
+          "title": "Security Enforcement of the Microservices",
+          "url_domain": "github.io",
+          "url": "http://cmoulliard.github.io/microservices-security",
+          "description": "<p>如何強化微服務的安全性，變得日趨重要。原本以為把傳統 Monolithic 程式，改用 Microservices 方式來寫，事情會變簡化，更容易橫向擴充，程式更容易重構。沒想到服務數量變多，要處理安全性問題，就變得更加複雜。所以挑選對的安全規範或正確的使用 security framework 和 API 的管理方法，反而成為改用微型服務成敗的關鍵所在。</p>\n\n<p>本文章介紹了常用的三種方法，Interceptor，Web Container，以及 Api Gateway。在不同的 frameworks 裡，基本上會提供其中一種方法，而不少公司也選用前兩種，但第三種方法卻是作者最推薦的，也幾乎成為業界的標準。選擇一套最適當的 API 管理平台，來管理你所有的服務，也比較不會被 framework 或程式語言綁死，未來即使使用 OpenShift 或 Kubernetes 來部署，也能繼續延用下去。</p>",
+          "description_markdown": "如何強化微服務的安全性，變得日趨重要。原本以為把傳統 Monolithic 程式，改用 Microservices 方式來寫，事情會變簡化，更容易橫向擴充，程式更容易重構。沒想到服務數量變多，要處理安全性問題，就變得更加複雜。所以挑選對的安全規範或正確的使用 security framework 和 API 的管理方法，反而成為改用微型服務成敗的關鍵所在。\r\n\r\n本文章介紹了常用的三種方法，Interceptor，Web Container，以及 Api Gateway。在不同的 frameworks 裡，基本上會提供其中一種方法，而不少公司也選用前兩種，但第三種方法卻是作者最推薦的，也幾乎成為業界的標準。選擇一套最適當的 API 管理平台，來管理你所有的服務，也比較不會被 framework 或程式語言綁死，未來即使使用 OpenShift 或 Kubernetes 來部署，也能繼續延用下去。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "wjR1ULa",
+          "type": "Link",
+          "title": "Introducing the Realm Mobile Platform: Realtime Sync Plus Fully Open Source Database",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/introducing-realm-mobile-platform/",
+          "description": "<p>iOS 開發過程中可以使用的資料庫種類始終是一種百花齊放的狀態，在這麼多種選擇當中，Realm 一直擁有非常高的人氣。之前它的資料庫核心的程式碼因為某些原因所以遲遲無法開源，就在最近它終於解禁，Realm 變成完全開源了。與此同時，它還推出 Realm Mobile Platform，號稱可以讓開發者不費力氣就擁有實時同步的功能（一定要看它的 demo 影片，超酷的），看來在 Parse 收掉之後我們又多了一個新選擇了！</p>",
+          "description_markdown": "iOS 開發過程中可以使用的資料庫種類始終是一種百花齊放的狀態，在這麼多種選擇當中，Realm 一直擁有非常高的人氣。之前它的資料庫核心的程式碼因為某些原因所以遲遲無法開源，就在最近它終於解禁，Realm 變成完全開源了。與此同時，它還推出 Realm Mobile Platform，號稱可以讓開發者不費力氣就擁有實時同步的功能（一定要看它的 demo 影片，超酷的），看來在 Parse 收掉之後我們又多了一個新選擇了！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vTVNUYy",
+          "type": "Link",
+          "title": "HubFramework: Spotify’s component-driven UI framework for iOS",
+          "url_domain": "github.com",
+          "url": "https://github.com/spotify/HubFramework",
+          "description": "<p>Spotify 最近這幾天釋出了它們的 component-driven UI framework，看起來是個非常酷的東西，可以讓開發者非常有彈性的動態調整 UI layout。想了解更多的話，可以看看它們團隊的 iOS Lead 前一陣子的<a href=\"https://www.youtube.com/watch?v=vuCfKjOwZdU\">這個 talk</a>。</p>",
+          "description_markdown": "Spotify 最近這幾天釋出了它們的 component-driven UI framework，看起來是個非常酷的東西，可以讓開發者非常有彈性的動態調整 UI layout。想了解更多的話，可以看看它們團隊的 iOS Lead 前一陣子的[這個 talk](https://www.youtube.com/watch?v=vuCfKjOwZdU)。",
+          "embedded_links": [
+            {
+              "identifier": "jwcpiIe",
+              "title": "這個 talk",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=vuCfKjOwZdU"
+            }
+          ]
+        },
+        {
+          "identifier": "PmLEbx3",
+          "type": "Link",
+          "title": "Swift 3.0 Released!",
+          "url_domain": "swift.org",
+          "url": "https://swift.org/blog/swift-3-0-released/",
+          "description": "<p>Swift 3.0 終於在眾多貢獻者同心協力下，正式推出 3.0 版本了，不得不承認這真是近年來開源界的一個重要里程碑。為了讓各位開發者儘快上手，官方也提供了<a href=\"https://swift.org/migration-guide/\">升級指南</a>，但難免還是有些坑要踩，例如這裡就<a href=\"https://imtx.me/archives/2064.html\">有人分享了一些經驗</a>。另外，命名方式在 Swift 3 也有了大幅度的改變，你有想過 <a href=\"http://khanlou.com/2016/09/swifty-delegates/\">Delegate methods 要怎麼命名才符合 Swift 3 風格</a>嗎？</p>",
+          "description_markdown": "Swift 3.0 終於在眾多貢獻者同心協力下，正式推出 3.0 版本了，不得不承認這真是近年來開源界的一個重要里程碑。為了讓各位開發者儘快上手，官方也提供了[升級指南](https://swift.org/migration-guide/)，但難免還是有些坑要踩，例如這裡就[有人分享了一些經驗](https://imtx.me/archives/2064.html)。另外，命名方式在 Swift 3 也有了大幅度的改變，你有想過 [Delegate methods 要怎麼命名才符合 Swift 3 風格](http://khanlou.com/2016/09/swifty-delegates/)嗎？",
+          "embedded_links": [
+            {
+              "identifier": "R2oy9As",
+              "title": "升級指南",
+              "url_domain": "swift.org",
+              "url": "https://swift.org/migration-guide/"
+            },
+            {
+              "identifier": "sjp9ySf",
+              "title": "有人分享了一些經驗",
+              "url_domain": "imtx.me",
+              "url": "https://imtx.me/archives/2064.html"
+            },
+            {
+              "identifier": "TiIs8uX",
+              "title": "Delegate methods 要怎麼命名才符合 Swift 3 風格",
+              "url_domain": "khanlou.com",
+              "url": "http://khanlou.com/2016/09/swifty-delegates/"
+            }
+          ]
+        },
+        {
+          "identifier": "7UACx2H",
+          "type": "Link",
+          "title": "Fatal Error by Soroush Khanlou & Chris Dzombak on iTunes",
+          "url_domain": "apple.com",
+          "url": "https://itunes.apple.com/us/podcast/fatal-error/id1139051496?mt=2",
+          "description": "<p>這是最近我很喜歡的一檔 Podcast，主持人是 <a href=\"http://khanlou.com/\">Soroush Khanlou</a> 跟 <a href=\"https://www.dzombak.com/\">Chris Dzombak</a>，他們的更新速度大約是兩週一次。我喜歡他們的原因是他們每次都會針對一個 iOS 開發相關的主題來討論，而且他們很認真在討論，不會在那邊東拉西扯一堆有的沒的，也不會閒聊耗時間。</p>\n\n<p>順帶一提，我用來聽 Podcast 的 app 是 <a href=\"https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8\">Overcast</a>，它是免費的，也可以透過 IAP 捐錢給作者，我喜歡它的原因是因為它可以調整播放速度，同時還能盡量保持人聲聽起來很自然，這技術真的很棒！</p>",
+          "description_markdown": "這是最近我很喜歡的一檔 Podcast，主持人是 [Soroush Khanlou](http://khanlou.com/) 跟 [Chris Dzombak](https://www.dzombak.com/)，他們的更新速度大約是兩週一次。我喜歡他們的原因是他們每次都會針對一個 iOS 開發相關的主題來討論，而且他們很認真在討論，不會在那邊東拉西扯一堆有的沒的，也不會閒聊耗時間。\r\n\r\n順帶一提，我用來聽 Podcast 的 app 是 [Overcast](https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8)，它是免費的，也可以透過 IAP 捐錢給作者，我喜歡它的原因是因為它可以調整播放速度，同時還能盡量保持人聲聽起來很自然，這技術真的很棒！",
+          "embedded_links": [
+            {
+              "identifier": "j6UbIwl",
+              "title": "Soroush Khanlou",
+              "url_domain": "khanlou.com",
+              "url": "http://khanlou.com/"
+            },
+            {
+              "identifier": "obtbhiW",
+              "title": "Chris Dzombak",
+              "url_domain": "dzombak.com",
+              "url": "https://www.dzombak.com/"
+            },
+            {
+              "identifier": "tdr17Rq",
+              "title": "Overcast",
+              "url_domain": "apple.com",
+              "url": "https://itunes.apple.com/us/app/overcast-podcast-player/id888422857?mt=8"
+            }
+          ]
+        },
+        {
+          "identifier": "vK70iXo",
+          "type": "Link",
+          "title": "Awesome iOS | LibHunt",
+          "url_domain": "libhunt.com",
+          "url": "https://ios.libhunt.com/",
+          "description": "<p>這一個網站收集了許多 iOS 的函式庫，最棒的是它還將這些函式庫分門別類，並且還告訴你各分類裡頭比較熱門的是哪幾個函式庫，實在是工程師的好朋友，建議你立刻將它加到書籤！</p>",
+          "description_markdown": "這一個網站收集了許多 iOS 的函式庫，最棒的是它還將這些函式庫分門別類，並且還告訴你各分類裡頭比較熱門的是哪幾個函式庫，實在是工程師的好朋友，建議你立刻將它加到書籤！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "uSayRQw",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice (台北、北京、上海)",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者歡迎來信：<a href=\"&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#x74;&#x7a;&#97;&#x6e;&#x67;&#x6d;&#115;&#x40;&#x73;&#x74;&#x72;&#101;&#101;&#x74;&#x76;&#x6f;&#x69;&#x63;&#101;&#46;&#x63;&#111;&#109;\">&#116;&#122;&#x61;&#110;&#103;&#x6d;&#115;&#64;&#115;&#x74;&#x72;&#101;&#101;&#116;&#118;&#x6f;&#x69;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PsLrelg",
+          "type": "Link",
+          "title": "Python backend, QA, and iOS engineers at iCHEF",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56",
+          "description": "<p>iCHEF 專注於提供簡單有效的 POS App，以提昇小餐廳的經營績效，客戶人數每年以倍數成長。現在 iCHEF 正在找 Python backend / QA / iOS 工程師，歡迎各路高手一起來打造最好用的 POS App！意者請將履歷寄到 <a href=\"&#x6d;&#x61;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#104;&#x72;&#x40;&#x69;&#x63;&#x68;&#101;&#x66;&#x2e;&#x63;&#111;&#109;&#x2e;&#116;&#119;\">&#x68;&#x72;&#x40;&#x69;&#99;&#x68;&#x65;&#x66;&#46;&#99;&#111;&#109;&#x2e;&#116;&#119;</a></p>",
+          "description_markdown": "iCHEF 專注於提供簡單有效的 POS App，以提昇小餐廳的經營績效，客戶人數每年以倍數成長。現在 iCHEF 正在找 Python backend / QA / iOS 工程師，歡迎各路高手一起來打造最好用的 POS App！意者請將履歷寄到 <hr@ichef.com.tw>",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "eAaKtUt",
+          "type": "Link",
+          "title": "軟體開發災情現場",
+          "url_domain": "gitbooks.io",
+          "url": "https://zonble.gitbooks.io/dailywtf/content/index.html",
+          "description": "<p>那些一言難盡的工程師日常。漫畫主角就是你，不信看看就知道了～</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "那些一言難盡的工程師日常。漫畫主角就是你，不信看看就知道了～\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "oQiK8SO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "9e3b60a7-b4af-48da-ab8d-e0d6622d4a9d.png",
+          "image_extra_large_filename": "original_ratio_extra_large_9e3b60a7-b4af-48da-ab8d-e0d6622d4a9d.png",
+          "image_medium_filename": "original_ratio_medium_9e3b60a7-b4af-48da-ab8d-e0d6622d4a9d.png"
+        }
+      ]
+    }
+  ]
+}

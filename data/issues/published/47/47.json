@@ -1,0 +1,498 @@
+{
+  "number": 47,
+  "title": "Issue 47 沒有什麼問題是重開機不能解決的，如果有，那就重灌",
+  "summary": "本期內容涵蓋 Python, Debugging, Design Patterns, JavaScript, ECMAScript 6, Promise, SQL, Android, Java, Code Review, 求職",
+  "url": "https://weekly.codetengu.com/issues/47",
+  "publication_status": "published",
+  "published_at": "2016-06-13T03:00:00+01:00",
+  "updated_at": "2016-06-17T10:12:12+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"http://www.books.com.tw/products/0010707194\">家畜人鴉俘</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 命剋公司的工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[家畜人鴉俘](http://www.books.com.tw/products/0010707194)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 命剋公司的工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "DHuUwRt",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "WH2eAXd",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "AVmDaeI",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "oqS3lg1",
+              "title": "家畜人鴉俘",
+              "url_domain": "books.com.tw",
+              "url": "http://www.books.com.tw/products/0010707194"
+            },
+            {
+              "identifier": "q9pM3WX",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "HinO5ZL",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ct7f5Bz",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "RRPdUaO",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "IKI8r0j",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "mvSZvGg",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "7qSY8cd",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "ys66zK",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "YjXT6An",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "aiPfFhO",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "vHykc8j",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "YnkRdl1",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "1YR8NGn",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "HFYtRt4",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "IFhsiCc",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "nC7UbMZ",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "mwPTmv9",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "PGqSSFO",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "355qTSg",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "aniaiE9",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "8m9ZrCU",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "JYqwuDe",
+              "title": "Remember Me",
+              "url_domain": "steampowered.com",
+              "url": "http://store.steampowered.com/app/228300/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "ekjTWQe",
+          "type": "Link",
+          "title": "[Python] 原来你是这样的修饰器",
+          "url_domain": "jianshu.com",
+          "url": "http://www.jianshu.com/p/98ca249b1326",
+          "description": "<p>這一篇介紹 decorator 的文章寫得還不錯，提到了帶參數、不帶參數的 decorator 的寫法和 decorator 其實也可以用來裝飾 class。不只這樣，decorator 本身也可以是一個 class ── 所謂的 <a href=\"http://stackoverflow.com/questions/9416947/python-class-based-decorator-with-parameters-that-can-decorate-a-method-or-a-fun\">class-based decorator</a>。</p>\n\n<p>除此之外，文章裡用 decorator 來做欄位的 validation 的想法好像挺不錯的啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://wiki.python.org/moin/PythonDecoratorLibrary\">PythonDecoratorLibrary</a></li>\n<li><a href=\"https://vinta.ws/code/decorator-in-python.html\">Decorator in Python</a></li>\n</ul>",
+          "description_markdown": "這一篇介紹 decorator 的文章寫得還不錯，提到了帶參數、不帶參數的 decorator 的寫法和 decorator 其實也可以用來裝飾 class。不只這樣，decorator 本身也可以是一個 class ── 所謂的 [class-based decorator](http://stackoverflow.com/questions/9416947/python-class-based-decorator-with-parameters-that-can-decorate-a-method-or-a-fun)。\r\n\r\n除此之外，文章裡用 decorator 來做欄位的 validation 的想法好像挺不錯的啊。\r\n\r\n延伸閱讀：\r\n\r\n- [PythonDecoratorLibrary](https://wiki.python.org/moin/PythonDecoratorLibrary)\r\n- [Decorator in Python](https://vinta.ws/code/decorator-in-python.html)",
+          "embedded_links": [
+            {
+              "identifier": "ds5K2SY",
+              "title": "class-based decorator",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/9416947/python-class-based-decorator-with-parameters-that-can-decorate-a-method-or-a-fun"
+            },
+            {
+              "identifier": "42RopEP",
+              "title": "PythonDecoratorLibrary",
+              "url_domain": "python.org",
+              "url": "https://wiki.python.org/moin/PythonDecoratorLibrary"
+            },
+            {
+              "identifier": "kxWi6N4",
+              "title": "Decorator in Python",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/decorator-in-python.html"
+            }
+          ]
+        },
+        {
+          "identifier": "So73Mlg",
+          "type": "Link",
+          "title": "Machete-mode Debugging",
+          "url_domain": "nedbatchelder.com",
+          "url": "http://nedbatchelder.com/text/machete.html",
+          "description": "<p>上禮拜心血來潮決定，每天上班都先看個一管技術 conference 的 talk 影片再開始工作，學學新技術也順便練一下英文，推薦所有工作量不飽和的上班族可以試試。然後再跟大家分享一下，我特別喜歡看一些歐洲 conference 的影片，因為總是有很多口音各異的講者，聽他們講程式術語別有一番風味。尤其是一些英國人，特別浮誇，一上來就吼了一段莎士比亞。</p>",
+          "description_markdown": "上禮拜心血來潮決定，每天上班都先看個一管技術 conference 的 talk 影片再開始工作，學學新技術也順便練一下英文，推薦所有工作量不飽和的上班族可以試試。然後再跟大家分享一下，我特別喜歡看一些歐洲 conference 的影片，因為總是有很多口音各異的講者，聽他們講程式術語別有一番風味。尤其是一些英國人，特別浮誇，一上來就吼了一段莎士比亞。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "H0rdlX2",
+          "type": "Link",
+          "title": "Mastering Python Design Patterns",
+          "url_domain": "amazon.com",
+          "url": "https://www.amazon.com/Mastering-Python-Design-Patterns-Kasampalis/dp/1783989327",
+          "description": "<p>最近在讀 <a href=\"https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/\">Refactoring</a>，果然這種書是要寫過一陣子程式之後才適合讀的啊（但是作者話真的超多），小時候看的時候根本沒感覺。而且一邊讀會一邊發現自己還有哪些知識需要補強，像我讀到一半就發現對作者提到的幾個 design patterns 不太熟悉，所以又決定先跑去讀 Mastering Python Design Patterns。</p>\n\n<p>Mastering Python Design Patterns 這本書不錯的地方是它在介紹每個 design pattern 的時候都會各用一個 real-life example 和一個 software example 來舉例，例如作者會告訴你某某知名的 Python library 就是用了某個 pattern。</p>",
+          "description_markdown": "最近在讀 [Refactoring](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/)，果然這種書是要寫過一陣子程式之後才適合讀的啊（但是作者話真的超多），小時候看的時候根本沒感覺。而且一邊讀會一邊發現自己還有哪些知識需要補強，像我讀到一半就發現對作者提到的幾個 design patterns 不太熟悉，所以又決定先跑去讀 Mastering Python Design Patterns。\r\n\r\nMastering Python Design Patterns 這本書不錯的地方是它在介紹每個 design pattern 的時候都會各用一個 real-life example 和一個 software example 來舉例，例如作者會告訴你某某知名的 Python library 就是用了某個 pattern。",
+          "embedded_links": [
+            {
+              "identifier": "BTn8kFU",
+              "title": "Refactoring",
+              "url_domain": "amazon.com",
+              "url": "https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672/"
+            }
+          ]
+        },
+        {
+          "identifier": "LymBrpn",
+          "type": "Link",
+          "title": "ES6 Promise 筆記",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/es6-promise-notes.html",
+          "description": "<p>這禮拜在寫 <a href=\"https://github.com/CodeTengu/lambdabaku\">LambdaBaku</a> 的時候踩了不少 <code>Promise</code> 的雷，就像所有 JavaScript 的那些容易使人犯錯的特性一樣，所以就花了一點時間研究一下 <code>Promise</code> 的用法，順便整理成筆記（這些筆記的重點向來都是 references 啊，希望大家不要錯過那些 <code>ref:</code> 底下的連結）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://weekly.codetengu.com/issues/5#INJHxjp\">JavaScript Promise 迷你书</a> - <a href=\"https://twitter.com/wancw\">@wancw</a> 在 Issue 5 分享過</li>\n<li><a href=\"https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html\">We have a problem with promises</a></li>\n</ul>\n\n\n<p>題外話，常常看到有初學者在問該學什麼程式語言比較好的時候，就會有人跳出來說什麼「語言只是工具，學什麼語言不重要」之類的屁話，誒，是在供殺小，語言怎麼可能不重要！先不要談社群風氣、學習資源和之後好不好找工作之類的實際問題，就語言本身，難道你用靜態語言寫程式的「套路」會跟用動態語言的時候一樣嗎？一定不會嘛，因為不同語言的風格、思想、原則，甚至是語言本身的設計理念都不同啊。所以，要嘛你真的厲害到看透了程式設計的本質，要嘛你就是把不同的語言都當成是同一種錘子。</p>",
+          "description_markdown": "這禮拜在寫 [LambdaBaku](https://github.com/CodeTengu/lambdabaku) 的時候踩了不少 `Promise` 的雷，就像所有 JavaScript 的那些容易使人犯錯的特性一樣，所以就花了一點時間研究一下 `Promise` 的用法，順便整理成筆記（這些筆記的重點向來都是 references 啊，希望大家不要錯過那些 `ref:` 底下的連結）。\r\n\r\n延伸閱讀：\r\n\r\n- [JavaScript Promise 迷你书](http://weekly.codetengu.com/issues/5#INJHxjp) - [@wancw](https://twitter.com/wancw) 在 Issue 5 分享過\r\n- [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)\r\n\r\n題外話，常常看到有初學者在問該學什麼程式語言比較好的時候，就會有人跳出來說什麼「語言只是工具，學什麼語言不重要」之類的屁話，誒，是在供殺小，語言怎麼可能不重要！先不要談社群風氣、學習資源和之後好不好找工作之類的實際問題，就語言本身，難道你用靜態語言寫程式的「套路」會跟用動態語言的時候一樣嗎？一定不會嘛，因為不同語言的風格、思想、原則，甚至是語言本身的設計理念都不同啊。所以，要嘛你真的厲害到看透了程式設計的本質，要嘛你就是把不同的語言都當成是同一種錘子。",
+          "embedded_links": [
+            {
+              "identifier": "w51mD7j",
+              "title": "LambdaBaku",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/lambdabaku"
+            },
+            {
+              "identifier": "kS982H5",
+              "title": "JavaScript Promise 迷你书",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/5#INJHxjp"
+            },
+            {
+              "identifier": "rbgJr14",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "6N7Yikp",
+              "title": "We have a problem with promises",
+              "url_domain": "pouchdb.com",
+              "url": "https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html"
+            }
+          ]
+        },
+        {
+          "identifier": "gZi2qq9",
+          "type": "Link",
+          "title": "We need tool support for keyset pagination — No Offset",
+          "url_domain": "use-the-index-luke.com",
+          "url": "http://use-the-index-luke.com/no-offset",
+          "description": "<p>我們都知道 <code>OFFSET</code> 和 <code>LIMIT</code> 可以在 SQL 裡做分頁，但是 <code>OFFSET</code> 有幾個缺點，一是要 skip 過的數量很大時就會效率不好（但是也不能怪他，幾乎所有我們平常用得很開心的東西，只要大到一個數量級之後效能都會不好啊，總之至少要加個 index 啦）；二是在撈下一頁的時候，如果這一批數據有增減，你用 <code>OFFSET</code> 拿到的分頁後的數據就可能不是你預期的。</p>\n\n<p>所以有另外一種不需要用到 <code>OFFSET</code> 的分頁方法叫做 Keyset pagination（又稱 seek method），簡單說就是當你要撈下一頁的時候，用目前這一頁的資料在 <code>WHERE</code> 過濾出那些你還沒看過的資料（當然還要加上你原本的 <code>WHERE</code> 條件）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://use-the-index-luke.com/sql/partial-results/fetch-next-page\">OFFSET is bad for skipping previous rows</a></li>\n<li><a href=\"https://blog.jooq.org/2013/10/26/faster-sql-paging-with-jooq-using-the-seek-method/\">Faster SQL Paging with jOOQ Using the Seek Method</a></li>\n</ul>",
+          "description_markdown": "我們都知道 `OFFSET` 和 `LIMIT` 可以在 SQL 裡做分頁，但是 `OFFSET` 有幾個缺點，一是要 skip 過的數量很大時就會效率不好（但是也不能怪他，幾乎所有我們平常用得很開心的東西，只要大到一個數量級之後效能都會不好啊，總之至少要加個 index 啦）；二是在撈下一頁的時候，如果這一批數據有增減，你用 `OFFSET` 拿到的分頁後的數據就可能不是你預期的。\r\n\r\n所以有另外一種不需要用到 `OFFSET` 的分頁方法叫做 Keyset pagination（又稱 seek method），簡單說就是當你要撈下一頁的時候，用目前這一頁的資料在 `WHERE` 過濾出那些你還沒看過的資料（當然還要加上你原本的 `WHERE` 條件）。\r\n\r\n延伸閱讀：\r\n\r\n- [OFFSET is bad for skipping previous rows](http://use-the-index-luke.com/sql/partial-results/fetch-next-page)\r\n- [Faster SQL Paging with jOOQ Using the Seek Method](https://blog.jooq.org/2013/10/26/faster-sql-paging-with-jooq-using-the-seek-method/)",
+          "embedded_links": [
+            {
+              "identifier": "bMzC06L",
+              "title": "OFFSET is bad for skipping previous rows",
+              "url_domain": "use-the-index-luke.com",
+              "url": "http://use-the-index-luke.com/sql/partial-results/fetch-next-page"
+            },
+            {
+              "identifier": "NlfSZCR",
+              "title": "Faster SQL Paging with jOOQ Using the Seek Method",
+              "url_domain": "jooq.org",
+              "url": "https://blog.jooq.org/2013/10/26/faster-sql-paging-with-jooq-using-the-seek-method/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "VRPeUqq",
+          "type": "Link",
+          "title": "Eight Ways Your Android App Can Leak Memory",
+          "url_domain": "nimbledroid.com",
+          "url": "http://blog.nimbledroid.com/2016/05/23/memory-leaks.html",
+          "description": "<p>8 種 Android App 常見的 memory leak 情境，以及該注意的地方：</p>\n\n<ol>\n<li>Static Activities</li>\n<li>Static Views</li>\n<li>Inner Classes</li>\n<li>Anonymous Classes</li>\n<li>Handlers</li>\n<li>Threads</li>\n<li>Timer Tasks</li>\n<li>Sensor Manager</li>\n</ol>\n\n\n<p>也有<a href=\"http://blog.nimbledroid.com/2016/05/23/memory-leaks-zh.html\">中文版</a></p>",
+          "description_markdown": "8 種 Android App 常見的 memory leak 情境，以及該注意的地方：\r\n\r\n1. Static Activities\r\n2. Static Views\r\n3. Inner Classes\r\n4. Anonymous Classes\r\n5. Handlers\r\n6. Threads\r\n7. Timer Tasks\r\n8. Sensor Manager\r\n\r\n也有[中文版](http://blog.nimbledroid.com/2016/05/23/memory-leaks-zh.html)",
+          "embedded_links": [
+            {
+              "identifier": "p0XUWT0",
+              "title": "中文版",
+              "url_domain": "nimbledroid.com",
+              "url": "http://blog.nimbledroid.com/2016/05/23/memory-leaks-zh.html"
+            }
+          ]
+        },
+        {
+          "identifier": "u54H9h0",
+          "type": "Link",
+          "title": "让 Code Review 成为一种习惯",
+          "url_domain": "flickering.cn",
+          "url": "http://www.flickering.cn/uncategorized/2014/08/%E8%AE%A9-code-review%E6%88%90%E4%B8%BA%E4%B8%80%E7%A7%8D%E4%B9%A0%E6%83%AF/",
+          "description": "<p>作者在騰訊廣點通參與 code review 導入的過程與心得分享。包含 code review 可以帶來哪些好處以及一個良好的 code review 文化應該是什麼樣子。</p>\n\n<p>如果你還在懷疑 code review 的好處或是在團隊中推行遇到阻礙，都值得一看。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/jaceju\">大澤木小鐵</a>的 <a href=\"https://www.facebook.com/jace.ju/posts/1047797475301945\">code review 心得</a>，其中提到了 code review 三要素 A.S.K. (Ask why, Suggestion, Knowledge) 。</li>\n</ul>",
+          "description_markdown": "作者在騰訊廣點通參與 code review 導入的過程與心得分享。包含 code review 可以帶來哪些好處以及一個良好的 code review 文化應該是什麼樣子。\r\n\r\n如果你還在懷疑 code review 的好處或是在團隊中推行遇到阻礙，都值得一看。\r\n\r\n延伸閱讀：\r\n\r\n* [大澤木小鐵](https://twitter.com/jaceju)的 [code review 心得](https://www.facebook.com/jace.ju/posts/1047797475301945)，其中提到了 code review 三要素 A.S.K. (Ask why, Suggestion, Knowledge) 。",
+          "embedded_links": [
+            {
+              "identifier": "yubWggJ",
+              "title": "大澤木小鐵",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jaceju"
+            },
+            {
+              "identifier": "kC2HyYp",
+              "title": "code review 心得",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/jace.ju/posts/1047797475301945"
+            }
+          ]
+        },
+        {
+          "identifier": "zE7NOXr",
+          "type": "Link",
+          "title": "[Tool] Find potential bugs in your services with Diffy",
+          "url_domain": "github.com",
+          "url": "https://github.com/twitter/diffy",
+          "description": "<p>繼續分享有趣的專案或工具，  這是是 Diffy —— Twitter 自家的 HTTP/API server 除錯工具。</p>\n\n<p>它會從 3 台 server（2 台執行穩定的舊版、1 台執行新版）的輸出中找出比較值得關注的差異，以判斷新版的 code 是否運作正常。</p>\n\n<p>專案放在 <a href=\"https://github.com/twitter/diffy\">https://github.com/twitter/diffy</a> ，也有 Docker 跟 docker-compose 設定可供參考。</p>",
+          "description_markdown": "繼續分享有趣的專案或工具，  這是是 Diffy —— Twitter 自家的 HTTP/API server 除錯工具。\r\n\r\n它會從 3 台 server（2 台執行穩定的舊版、1 台執行新版）的輸出中找出比較值得關注的差異，以判斷新版的 code 是否運作正常。\r\n\r\n專案放在 [https://github.com/twitter/diffy](https://github.com/twitter/diffy) ，也有 Docker 跟 docker-compose 設定可供參考。",
+          "embedded_links": [
+            {
+              "identifier": "uQaHHFp",
+              "title": "https://github.com/twitter/diffy",
+              "url_domain": "github.com",
+              "url": "https://github.com/twitter/diffy"
+            }
+          ],
+          "image_original_filename": "cbbe3079-0fbc-4e5a-b4bf-9de43c0046ee.png",
+          "image_extra_large_filename": "original_ratio_extra_large_cbbe3079-0fbc-4e5a-b4bf-9de43c0046ee.png",
+          "image_medium_filename": "original_ratio_medium_cbbe3079-0fbc-4e5a-b4bf-9de43c0046ee.png"
+        },
+        {
+          "identifier": "sMfroKS",
+          "type": "Link",
+          "title": "[求職] Questions to ask your interviewer",
+          "url_domain": "rkoutnik.com",
+          "url": "https://rkoutnik.com/articles/Questions-to-ask-your-interviewer.html",
+          "description": "<p>找工作的時候該問面試官 <em>(1)</em> 什麼問題才能切中要害，得到你想知道的資訊？作者建議問題應該具體、不要太籠統，才不會讓對方靠話術呼攏過去。也列出了一些範例供作參考，以下依個人偏好摘錄：</p>\n\n<ol>\n<li><em>(Red Flag)</em> How often are you pulled off your primary task?</li>\n<li><em>(Technical)</em> How does your development/deployment process work?</li>\n<li><em>(Culture)</em> What does it take to succeed at this company beyond “hard work”?</li>\n<li><em>(Culture)</em> If I’m not meeting expectations, how will I know?</li>\n</ol>\n\n\n<p>我自己喜歡問開發流程、部署流程、溝通工具，大概就可以知道這個團隊運作方式跟我合不合得來。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li>如果你是要代表團隊面試求職者的話，作者也寫了 <a href=\"https://rkoutnik.com/articles/How-I-Interview.html\">How I Interview</a> 。</li>\n</ul>\n\n\n<p>備註：</p>\n\n<ol>\n<li>大家不覺得中文用「面試『官』」實在太貶低求職者了嗎？</li>\n</ol>",
+          "description_markdown": "找工作的時候該問面試官 *(1)* 什麼問題才能切中要害，得到你想知道的資訊？作者建議問題應該具體、不要太籠統，才不會讓對方靠話術呼攏過去。也列出了一些範例供作參考，以下依個人偏好摘錄：\r\n\r\n1. *(Red Flag)* How often are you pulled off your primary task?\r\n2. *(Technical)* How does your development/deployment process work?\r\n3. *(Culture)* What does it take to succeed at this company beyond “hard work”?\r\n4. *(Culture)* If I’m not meeting expectations, how will I know?\r\n\r\n我自己喜歡問開發流程、部署流程、溝通工具，大概就可以知道這個團隊運作方式跟我合不合得來。\r\n\r\n延伸閱讀：\r\n\r\n* 如果你是要代表團隊面試求職者的話，作者也寫了 [How I Interview](https://rkoutnik.com/articles/How-I-Interview.html) 。\r\n\r\n備註：\r\n\r\n1. 大家不覺得中文用「面試『官』」實在太貶低求職者了嗎？",
+          "embedded_links": [
+            {
+              "identifier": "GD69pV3",
+              "title": "How I Interview",
+              "url_domain": "rkoutnik.com",
+              "url": "https://rkoutnik.com/articles/How-I-Interview.html"
+            }
+          ]
+        },
+        {
+          "identifier": "rFAxwTm",
+          "type": "Link",
+          "title": "本週 IG: 이은혜 (@eunhyeato) ",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/eunhyeato/",
+          "description": "<p>對不起，本週我又靠 IG 妹子騙了一篇。</p>",
+          "description_markdown": "對不起，本週我又靠 IG 妹子騙了一篇。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "59763f63-910a-4d57-869e-51c86474ce34.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_59763f63-910a-4d57-869e-51c86474ce34.jpg",
+          "image_medium_filename": "original_ratio_medium_59763f63-910a-4d57-869e-51c86474ce34.jpg"
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "XtBeQZk",
+          "type": "Link",
+          "title": "此處有 bug：程序員統治的黑暗世界",
+          "url_domain": "groundbreaking.tw",
+          "url": "http://groundbreaking.tw/wordpress/archives/2055",
+          "description": "<blockquote><p>在攫取收益的同時，這些互聯網企業常常拒絕對為他們工作的勞動者承擔責任。在國內，我們看到一些分享經濟「平台」以「解放手藝人」、「實現財務、時間、心靈三大自由」等口號吸引勞動者，卻並不提供國家明文規定的勞動保障。這些企業有一個常見的邏輯：他們提供的只是「平台」，在平台上提供服務的勞動者並非企業的僱員。然而隨著平台壟斷程度的提高，越來越多的勞動者實際上已經在為某個或一兩個平台全職工作。例如一個針對美國網租車司機的調查顯示，超過 90%的 司機服務於 Uber 和 Lyft 兩家平台。當勞動者實際上全職為一家公司服務，再用「平台」的說辭拒絕承認勞動僱傭關係，就純粹是企業轉移風險的手段：將收入不穩定、不可逆轉的資本投入、潛在的犯罪、突發事件的風險都轉嫁到了個人身上。</p></blockquote>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://weekly.codetengu.com/issues/1#pF0lqgW\">数字时代的劳动与剥削</a> - 在 Issue 1 有分享過</li>\n<li><a href=\"http://yuan1022.blogspot.tw/2016/06/blog-post.html\">這樣讓我失望的台大是無法變成一所更好的大學的</a></li>\n</ul>\n\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "> 在攫取收益的同時，這些互聯網企業常常拒絕對為他們工作的勞動者承擔責任。在國內，我們看到一些分享經濟「平台」以「解放手藝人」、「實現財務、時間、心靈三大自由」等口號吸引勞動者，卻並不提供國家明文規定的勞動保障。這些企業有一個常見的邏輯：他們提供的只是「平台」，在平台上提供服務的勞動者並非企業的僱員。然而隨著平台壟斷程度的提高，越來越多的勞動者實際上已經在為某個或一兩個平台全職工作。例如一個針對美國網租車司機的調查顯示，超過 90%的 司機服務於 Uber 和 Lyft 兩家平台。當勞動者實際上全職為一家公司服務，再用「平台」的說辭拒絕承認勞動僱傭關係，就純粹是企業轉移風險的手段：將收入不穩定、不可逆轉的資本投入、潛在的犯罪、突發事件的風險都轉嫁到了個人身上。\r\n\r\n延伸閱讀：\r\n\r\n- [数字时代的劳动与剥削](http://weekly.codetengu.com/issues/1#pF0lqgW) - 在 Issue 1 有分享過\r\n- [這樣讓我失望的台大是無法變成一所更好的大學的](http://yuan1022.blogspot.tw/2016/06/blog-post.html)\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "R2ubznO",
+              "title": "数字时代的劳动与剥削",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/1#pF0lqgW"
+            },
+            {
+              "identifier": "t4KEMWs",
+              "title": "這樣讓我失望的台大是無法變成一所更好的大學的",
+              "url_domain": "blogspot.tw",
+              "url": "http://yuan1022.blogspot.tw/2016/06/blog-post.html"
+            },
+            {
+              "identifier": "wG6zrt8",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "juyNCv8",
+          "type": "Link",
+          "title": "Making the world a better place",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=J-GVd_HLlps",
+          "description": "<p>這是 HBO 拍的美劇 Silicon Valley 第一季裡的一個橋段，這是一部少見地以軟體工程師為主角的電視劇，目前拍到第三季，如果你到現在都還沒看過這部美劇，那可是不行的啊，因為這部戲，真的！超！好！笑！</p>\n\n<p>聽說現在矽谷的公司已經開始<a href=\"https://wanqu.co/2016-06-12-how-silicon-valley-nails-silicon-valley.html\">禁止員工說 We're making the world a better place</a> 了。</p>\n\n<p>不過仔細一想以程式設計師為主角的作品其實也沒那麼少見，畢竟隨便一部 Cyberpunk 作品的主角其實都是程序員啊，我還看過一部男主角是軟體工程師而女主角是 DBA 的太空歌劇小說呢。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "這是 HBO 拍的美劇 Silicon Valley 第一季裡的一個橋段，這是一部少見地以軟體工程師為主角的電視劇，目前拍到第三季，如果你到現在都還沒看過這部美劇，那可是不行的啊，因為這部戲，真的！超！好！笑！\r\n\r\n聽說現在矽谷的公司已經開始[禁止員工說 We're making the world a better place](https://wanqu.co/2016-06-12-how-silicon-valley-nails-silicon-valley.html) 了。\r\n\r\n不過仔細一想以程式設計師為主角的作品其實也沒那麼少見，畢竟隨便一部 Cyberpunk 作品的主角其實都是程序員啊，我還看過一部男主角是軟體工程師而女主角是 DBA 的太空歌劇小說呢。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "hkQOVVF",
+              "title": "禁止員工說 We're making the world a better place",
+              "url_domain": "wanqu.co",
+              "url": "https://wanqu.co/2016-06-12-how-silicon-valley-nails-silicon-valley.html"
+            },
+            {
+              "identifier": "2od2FmL",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "d2c5ba9e-52cc-4d02-a62a-ee59ce464f5c.gif",
+          "image_extra_large_filename": "original_ratio_extra_large_d2c5ba9e-52cc-4d02-a62a-ee59ce464f5c.gif",
+          "image_medium_filename": "original_ratio_medium_d2c5ba9e-52cc-4d02-a62a-ee59ce464f5c.gif"
+        },
+        {
+          "identifier": "mjlAEJy",
+          "type": "Link",
+          "title": "如何用 IBM Watson 來躲掉視訊會議",
+          "url_domain": "cnn.com",
+          "url": "http://money.cnn.com/2016/05/19/technology/watson-conference-call/",
+          "description": "<p>作者利用 IBM 的 Watson API 將語音轉成文字，等到會議中出現自己的名字時再透過 HipChat 提醒自己。</p>\n\n<p>這個專案已將開源放在 GitHub 上了： <a href=\"https://github.com/joshnewlan/say_what\">joshnewlan/say_what</a>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/\">Now that's what I call a Hacker</a> - 某人把費時超過 90 秒的工作都自動化了</li>\n</ul>\n\n\n<p>由 <a href=\"https://twitter.com/WanCW\">@WanCW</a> 分享。</p>",
+          "description_markdown": "作者利用 IBM 的 Watson API 將語音轉成文字，等到會議中出現自己的名字時再透過 HipChat 提醒自己。\r\n\r\n這個專案已將開源放在 GitHub 上了： [joshnewlan/say_what](https://github.com/joshnewlan/say_what)。\r\n\r\n延伸閱讀：\r\n\r\n* [Now that's what I call a Hacker](https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/) - 某人把費時超過 90 秒的工作都自動化了\r\n\r\n由 [@WanCW](https://twitter.com/WanCW) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "YgcW5KF",
+              "title": "joshnewlan/say_what",
+              "url_domain": "github.com",
+              "url": "https://github.com/joshnewlan/say_what"
+            },
+            {
+              "identifier": "GTPYg4r",
+              "title": "Now that's what I call a Hacker",
+              "url_domain": "jitbit.com",
+              "url": "https://www.jitbit.com/alexblog/249-now-thats-what-i-call-a-hacker/"
+            },
+            {
+              "identifier": "3md8QTO",
+              "title": "@WanCW",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/WanCW"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

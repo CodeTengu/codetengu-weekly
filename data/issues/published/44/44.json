@@ -1,0 +1,487 @@
+{
+  "number": 44,
+  "title": "Issue 44 為了不讓 Google 的 AlphaGo 專美於前，微軟也將在近期推出自己的圍棋 AI，名叫 AlphaC#",
+  "summary": "本期內容涵蓋 Python, AWS, Lambda, DynamoDB, MySQL, Commit Message, Go, JavaScript, React, CSS, Node.js, Webpack",
+  "url": "https://weekly.codetengu.com/issues/44",
+  "publication_status": "published",
+  "published_at": "2016-05-23T03:00:00+01:00",
+  "updated_at": "2016-05-23T07:55:12+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">羊毛記</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 五月病發作、兼職人力仲介中</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[羊毛記](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 五月病發作、兼職人力仲介中\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "74cY2R5",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "n7MALjb",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "BmJryUN",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "U6yh46U",
+              "title": "羊毛記",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "PyPhS1c",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "teprg0X",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "LLhxJrn",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "WKOlxxh",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "kQIp7GJ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "chZqPgd",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "F9hFtNo",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "sFz1p3C",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "cLfGKUP",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "85ZihHs",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "8tgPpH0",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "v0pqpua",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "CPIVBhO",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "sVDob9i",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "k40pRH7",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hiFc2tS",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "1snNMVu",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "hZYmhh",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "JtTZrJE",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "PcdV7tR",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "IKHlvvU",
+          "type": "Link",
+          "title": "Useful Python tips!",
+          "url_domain": "github.com",
+          "url": "https://github.com/rainyear/pytips",
+          "description": "<p>作者每天會在這個 GitHub repo 更新一則關於 Python 的短文（所以其實你可以 watch 這個 repo），而且是用 IPython notebook！主題從 metaclass、Enum（Python 3.4 以後才有）、context manager、generator 到 threading，值得一讀。</p>",
+          "description_markdown": "作者每天會在這個 GitHub repo 更新一則關於 Python 的短文（所以其實你可以 watch 這個 repo），而且是用 IPython notebook！主題從 metaclass、Enum（Python 3.4 以後才有）、context manager、generator 到 threading，值得一讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yjQs8fj",
+          "type": "Link",
+          "title": "AWS Cloud Design Patterns",
+          "url_domain": "clouddesignpattern.org",
+          "url": "http://en.clouddesignpattern.org/index.php/Main_Page",
+          "description": "<p>這個 wiki 網站滿有趣的，上面列舉了很多 Amazon Web Service 的 \"Cloud Design Pattern\"，不過白話一點的說法其實就是 AWS 各種服務的 use case 和它們之間可以怎麼搭配，用來解決哪些問題。</p>",
+          "description_markdown": "這個 wiki 網站滿有趣的，上面列舉了很多 Amazon Web Service 的 \"Cloud Design Pattern\"，不過白話一點的說法其實就是 AWS 各種服務的 use case 和它們之間可以怎麼搭配，用來解決哪些問題。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "hYUQRC2",
+          "type": "Link",
+          "title": "AWS DynamoDB notes",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/aws-dynamodb-notes.html",
+          "description": "<p>上禮拜心血來潮突然想玩一下 AWS Lambda 和 DynamoDB，也順便自動化一些 <a href=\"https://github.com/CodeTengu/headquarters/issues/62\">CodeTengu 的例行事項</a>，然後這篇文章和延伸閱讀的那一篇就是我在過程中做的筆記，雖然有點雜亂，不過應該還是對大家有點幫助的。但是其實 AWS 的官方文件寫得很完整，就是內容實在多了點，看完都過了八年馬英九都下台了。</p>\n\n<p>AWS Lambda 毫無懸念地很容易上手，不過我沒有用最近很熱門的 <a href=\"https://github.com/serverless/serverless\">serverless</a>（他包了太多東西了，我的需求沒那麼複雜），而是用了 <a href=\"https://github.com/tj\">@tj</a> 大神寫的 <a href=\"https://github.com/apex/apex\">apex</a>，簡單好用，不愧是出自名家之手啊～</p>\n\n<p>除此之外反倒是花了不少時間研究 DynamoDB 的 index 該怎麼下，有興趣的人可以看一下 <a href=\"http://www.slideshare.net/AmazonWebServices/design-patterns-using-amazon-dynamodb\">Design Patterns using Amazon DynamoDB</a>（也有<a href=\"https://www.youtube.com/watch?v=PDQ3jbDyTQ4\">影片</a>），豁然開朗撥雲見日吶！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/aws-lambda-notes.html\">AWS Lambda notes</a></li>\n</ul>",
+          "description_markdown": "上禮拜心血來潮突然想玩一下 AWS Lambda 和 DynamoDB，也順便自動化一些 [CodeTengu 的例行事項](https://github.com/CodeTengu/headquarters/issues/62)，然後這篇文章和延伸閱讀的那一篇就是我在過程中做的筆記，雖然有點雜亂，不過應該還是對大家有點幫助的。但是其實 AWS 的官方文件寫得很完整，就是內容實在多了點，看完都過了八年馬英九都下台了。\r\n\r\nAWS Lambda 毫無懸念地很容易上手，不過我沒有用最近很熱門的 [serverless](https://github.com/serverless/serverless)（他包了太多東西了，我的需求沒那麼複雜），而是用了 [@tj](https://github.com/tj) 大神寫的 [apex](https://github.com/apex/apex)，簡單好用，不愧是出自名家之手啊～\r\n\r\n除此之外反倒是花了不少時間研究 DynamoDB 的 index 該怎麼下，有興趣的人可以看一下 [Design Patterns using Amazon DynamoDB](http://www.slideshare.net/AmazonWebServices/design-patterns-using-amazon-dynamodb)（也有[影片](https://www.youtube.com/watch?v=PDQ3jbDyTQ4)），豁然開朗撥雲見日吶！\r\n\r\n延伸閱讀：\r\n\r\n- [AWS Lambda notes](https://vinta.ws/code/aws-lambda-notes.html)",
+          "embedded_links": [
+            {
+              "identifier": "hdZ4RNy",
+              "title": "CodeTengu 的例行事項",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters/issues/62"
+            },
+            {
+              "identifier": "iZFCWzE",
+              "title": "serverless",
+              "url_domain": "github.com",
+              "url": "https://github.com/serverless/serverless"
+            },
+            {
+              "identifier": "vN07DQ2",
+              "title": "@tj",
+              "url_domain": "github.com",
+              "url": "https://github.com/tj"
+            },
+            {
+              "identifier": "n36HMN0",
+              "title": "apex",
+              "url_domain": "github.com",
+              "url": "https://github.com/apex/apex"
+            },
+            {
+              "identifier": "EKcW1JO",
+              "title": "Design Patterns using Amazon DynamoDB",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/AmazonWebServices/design-patterns-using-amazon-dynamodb"
+            },
+            {
+              "identifier": "qHnqr0w",
+              "title": "影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=PDQ3jbDyTQ4"
+            },
+            {
+              "identifier": "UHveEKY",
+              "title": "AWS Lambda notes",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/aws-lambda-notes.html"
+            }
+          ]
+        },
+        {
+          "identifier": "XaCv6vI",
+          "type": "Link",
+          "title": "mysqldump with Modern MySQL",
+          "url_domain": "serversforhackers.com",
+          "url": "https://serversforhackers.com/mysqldump-with-modern-mysql",
+          "description": "<p>這篇文章專門在講 <code>mysqldump</code>（用來備份 MySQL 資料庫的指令）那些五花八門的參數的用法。</p>",
+          "description_markdown": "這篇文章專門在講 `mysqldump`（用來備份 MySQL 資料庫的指令）那些五花八門的參數的用法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9Tsjb0J",
+          "type": "Link",
+          "title": "The Elements of Good Commit Messages",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/yinghau76/the-elements-of-good-commit-messages",
+          "description": "<p>這個簡報在講好的 commit messages 會有哪些要素，最棒的是他舉的例子都是從各大 open source project 挖來的 \"Real World Examples\"。</p>\n\n<p>作者提到的好幾項都挺不錯的，其中我覺得最重要的可能就是「在 commit message 中提供 context（上下文）」，例如：</p>\n\n<ul>\n<li>error message（或者至少是 exception class）</li>\n<li>這個 bug 會在什麼情況下發生</li>\n<li>為什麼選擇這個做法（這個方式可能犧牲了什麼？）</li>\n<li>你還嘗試或考慮了哪些做法</li>\n</ul>\n\n\n<p>不過如果什麼都寫上去，正常人也是受不了，所以另外很重要的一點是要在 commit message 裡標記 issue number（票號，例如 <code>Fixes #42</code>），因為當初在專案管理系統裡可能就有很多關於這個 issue 的討論或是更詳細的前因後果，這些對 code review 和將來的 debug 可都是很重要的資訊啊。不過，程式碼背後的 why 和簡報最後提到的 reference，我覺得除了寫在 commit message 裡之外，其實更適合寫在註解裡。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://weekly.codetengu.com/issues/2#HOFqk87\">How to Write a Git Commit Message</a> 在 Issue 2 分享過</li>\n</ul>",
+          "description_markdown": "這個簡報在講好的 commit messages 會有哪些要素，最棒的是他舉的例子都是從各大 open source project 挖來的 \"Real World Examples\"。\r\n\r\n作者提到的好幾項都挺不錯的，其中我覺得最重要的可能就是「在 commit message 中提供 context（上下文）」，例如：\r\n\r\n- error message（或者至少是 exception class）\r\n- 這個 bug 會在什麼情況下發生\r\n- 為什麼選擇這個做法（這個方式可能犧牲了什麼？）\r\n- 你還嘗試或考慮了哪些做法\r\n\r\n不過如果什麼都寫上去，正常人也是受不了，所以另外很重要的一點是要在 commit message 裡標記 issue number（票號，例如 `Fixes #42`），因為當初在專案管理系統裡可能就有很多關於這個 issue 的討論或是更詳細的前因後果，這些對 code review 和將來的 debug 可都是很重要的資訊啊。不過，程式碼背後的 why 和簡報最後提到的 reference，我覺得除了寫在 commit message 裡之外，其實更適合寫在註解裡。\r\n\r\n延伸閱讀：\r\n\r\n- [How to Write a Git Commit Message](http://weekly.codetengu.com/issues/2#HOFqk87) 在 Issue 2 分享過",
+          "embedded_links": [
+            {
+              "identifier": "Lx6t2EZ",
+              "title": "How to Write a Git Commit Message",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/2#HOFqk87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "orgGVqt",
+          "type": "Link",
+          "title": "Higher Order Components: Theory and Practice",
+          "url_domain": "blogfoster.com",
+          "url": "http://engineering.blogfoster.com/higher-order-components-theory-and-practice/",
+          "description": "<p>High-order component 概念來自 funcitonal programming 的 high-order function ，是將一個 function 轉成另一個 function 的運算，同樣的 High-order component 能將一個 component 轉換為另一個 component ，可以減少重複的 code ，方便 compose ，在使用 React 實可用來取代 Mixin 的效果。</p>",
+          "description_markdown": "High-order component 概念來自 funcitonal programming 的 high-order function ，是將一個 function 轉成另一個 function 的運算，同樣的 High-order component 能將一個 component 轉換為另一個 component ，可以減少重複的 code ，方便 compose ，在使用 React 實可用來取代 Mixin 的效果。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "GOZf16O",
+          "type": "Link",
+          "title": "CSS coding techniques",
+          "url_domain": "mozilla.org",
+          "url": "https://hacks.mozilla.org/2016/05/css-coding-techniques/",
+          "description": "<p>這篇文章大略的講解了容易讓開發者混淆的幾個部分，以及對撰寫 CSS 的建議：</p>\n\n<ul>\n<li><a href=\"https://www.w3.org/TR/selectors/#specificity\">CSS specification (權重)</a>\n\n<ul>\n<li>透過對權重的了解可以避免寫出的 CSS 被其他 Selector 所覆蓋，也因此可減少對 !important 的依賴</li>\n</ul>\n</li>\n<li>長度單位\n\n<ul>\n<li>em and rem</li>\n<li>vw and vh</li>\n</ul>\n</li>\n<li>使用 <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes\">flexbox</a> 簡單拉出 layout</li>\n<li>CSS preprocessors\n\n<ul>\n<li>Do not let nesting generate CSS rules you wouldn’t type yourself.</li>\n<li>Include vs extend</li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "這篇文章大略的講解了容易讓開發者混淆的幾個部分，以及對撰寫 CSS 的建議：\r\n\r\n* [CSS specification (權重)](https://www.w3.org/TR/selectors/#specificity)\r\n    * 透過對權重的了解可以避免寫出的 CSS 被其他 Selector 所覆蓋，也因此可減少對 !important 的依賴\r\n* 長度單位\r\n    * em and rem\r\n    * vw and vh\r\n* 使用 [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) 簡單拉出 layout\r\n* CSS preprocessors\r\n    * Do not let nesting generate CSS rules you wouldn’t type yourself.\r\n    * Include vs extend",
+          "embedded_links": [
+            {
+              "identifier": "kqB5LOB",
+              "title": "CSS specification (權重)",
+              "url_domain": "w3.org",
+              "url": "https://www.w3.org/TR/selectors/#specificity"
+            },
+            {
+              "identifier": "tv9l997",
+              "title": "flexbox",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes"
+            }
+          ]
+        },
+        {
+          "identifier": "eDAyj3s",
+          "type": "Link",
+          "title": "What's new in Node v6?",
+          "url_domain": "risingstack.com",
+          "url": "https://blog.risingstack.com/whats-new-in-node-v6/",
+          "description": "<p>Node.js 改版速度飛快，日前又發佈了 v6 版本，號稱速度較目前的 LTS 版本 (v4) 提升四倍！且支援大部分 (93 %) 重要的ES6 新特性，在十月也會變為 LTS 版本，屆時就可以將 Product 換上了。</p>",
+          "description_markdown": "Node.js 改版速度飛快，日前又發佈了 v6 版本，號稱速度較目前的 LTS 版本 (v4) 提升四倍！且支援大部分 (93 %) 重要的ES6 新特性，在十月也會變為 LTS 版本，屆時就可以將 Product 換上了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "IvuSgda",
+          "type": "Link",
+          "title": "Webpack & The Hot Module Replacement",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@rajaraodv/webpack-hot-module-replacement-hmr-e756a726a07#.22ir5a6m9",
+          "description": "<p>Webpack HMR (Hot Module Replacement) 讓瀏覽器可以在程式碼被變動時自動更新當前畫面狀態，在開發時非常方便。本篇文章介紹 HMR 的運作原理和流程。</p>",
+          "description_markdown": "Webpack HMR (Hot Module Replacement) 讓瀏覽器可以在程式碼被變動時自動更新當前畫面狀態，在開發時非常方便。本篇文章介紹 HMR 的運作原理和流程。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "44FkTjw",
+          "type": "Link",
+          "title": "Front-End Performance: The Dark Side",
+          "url_domain": "opera.com",
+          "url": "https://dev.opera.com/blog/timing-attacks/",
+          "description": "<p>影片探討 performance 有時候會造成安全性問題，影片一開始會透過 string compare performance 來介紹 <a href=\"https://en.wikipedia.org/wiki/Timing_attack\">timing attack</a> ，以及介紹透過 timing attack 來達成的攻擊。</p>",
+          "description_markdown": "影片探討 performance 有時候會造成安全性問題，影片一開始會透過 string compare performance 來介紹 [timing attack](https://en.wikipedia.org/wiki/Timing_attack) ，以及介紹透過 timing attack 來達成的攻擊。",
+          "embedded_links": [
+            {
+              "identifier": "AS7cBZR",
+              "title": "timing attack",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Timing_attack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "rYGRsNV",
+          "type": "Link",
+          "title": "簡單設計 4 準則（Kent Beck's 4 Rules of Simple Design）",
+          "url_domain": "martinfowler.com",
+          "url": "http://martinfowler.com/bliki/BeckDesignRules.html",
+          "description": "<p>過度設計（over design）一直是個大問題，但是怎樣才叫簡單？</p>\n\n<p>極致編程（XP）的大師 Kent Beck 提出一套準則：</p>\n\n<ol>\n<li>通過所有測試（Passes the tests）</li>\n<li>清楚地表達意圖（Reveals intention）→ 易讀</li>\n<li>沒有重複（No duplication）</li>\n<li>最少元件（Fewest elements）</li>\n</ol>\n\n\n<p>當發生衝突的時候，以前面的準則為優先。</p>\n\n<p>本文是 Martin Fowler 對這份準則的詮釋與討論。</p>\n\n<p>另外還可以參考 DZone 上面的 <a href=\"https://dzone.com/articles/4-rules-simple-design\">The 4 rules of simple design</a> 和微信上 WXCOP 无限靠谱的<a href=\"http://mp.weixin.qq.com/s?__biz=MzAxNjYxODg1Mg%3D%3D&amp;mid=2649652530&amp;idx=1&amp;sn=380a1da77c49d5692ee2ec1da9d203b9\">简单设计原则</a> 。</p>",
+          "description_markdown": "過度設計（over design）一直是個大問題，但是怎樣才叫簡單？  \r\n\r\n極致編程（XP）的大師 Kent Beck 提出一套準則：\r\n\r\n1. 通過所有測試（Passes the tests）\r\n2. 清楚地表達意圖（Reveals intention）→ 易讀\r\n3. 沒有重複（No duplication）\r\n4. 最少元件（Fewest elements）\r\n\r\n當發生衝突的時候，以前面的準則為優先。\r\n\r\n本文是 Martin Fowler 對這份準則的詮釋與討論。  \r\n\r\n另外還可以參考 DZone 上面的 [The 4 rules of simple design](https://dzone.com/articles/4-rules-simple-design) 和微信上 WXCOP 无限靠谱的[简单设计原则](http://mp.weixin.qq.com/s?__biz=MzAxNjYxODg1Mg%3D%3D&mid=2649652530&idx=1&sn=380a1da77c49d5692ee2ec1da9d203b9) 。",
+          "embedded_links": [
+            {
+              "identifier": "kvqXFSl",
+              "title": "The 4 rules of simple design",
+              "url_domain": "dzone.com",
+              "url": "https://dzone.com/articles/4-rules-simple-design"
+            },
+            {
+              "identifier": "ii4yLdV",
+              "title": "简单设计原则",
+              "url_domain": "qq.com",
+              "url": "http://mp.weixin.qq.com/s?__biz=MzAxNjYxODg1Mg%3D%3D&mid=2649652530&idx=1&sn=380a1da77c49d5692ee2ec1da9d203b9"
+            }
+          ]
+        },
+        {
+          "identifier": "s5ACNeG",
+          "type": "Link",
+          "title": "一道常被人轻视的前端 JS 面试题",
+          "url_domain": "cnblogs.com",
+          "url": "http://www.cnblogs.com/xxcanghai/archive/2016/02/14/5189353.html",
+          "description": "<p>簡單的一道題目，卻蘊含了 JavaScript 無數的坑，值得一讀。至少提醒自己不要寫出模稜兩可或是不確定語意的程式碼。</p>\n\n<p>像我前兩天就踩到 JavaScript 的運算子優先順序的雷 —— <code>&lt;</code> 竟然優先於 <code>&amp;</code> ？！只能說我實在太天真了啊～ 還好不是用在 production 上的程式碼。</p>",
+          "description_markdown": "簡單的一道題目，卻蘊含了 JavaScript 無數的坑，值得一讀。至少提醒自己不要寫出模稜兩可或是不確定語意的程式碼。\r\n\r\n像我前兩天就踩到 JavaScript 的運算子優先順序的雷 —— `<` 竟然優先於 `&` ？！只能說我實在太天真了啊～ 還好不是用在 production 上的程式碼。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "78b8301f-b2c8-404b-93e8-525bf3688f77.png",
+          "image_extra_large_filename": "original_ratio_extra_large_78b8301f-b2c8-404b-93e8-525bf3688f77.png",
+          "image_medium_filename": "original_ratio_medium_78b8301f-b2c8-404b-93e8-525bf3688f77.png"
+        },
+        {
+          "identifier": "VhbUtUb",
+          "type": "Link",
+          "title": "[中文導讀] Facebook 的時間序列資料庫 - Gorilla",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/gorilla-facebook-tsdb/",
+          "description": "<p>這是碼天狗策展群之一 <a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> 讀完 Facebook 的時間序列資料庫 Gorilla 論文後的心得摘要。</p>\n\n<p>不但每週有專案產出、還有時間閱讀複雜的論文，kkdai 實在很猛啊！大家可以參考一下他的<a href=\"https://github.com/CodeTengu/headquarters/issues/61#issuecomment-218945412\">時間管理心得</a></p>\n\n<p>如果各位對於讀 CS 領域的論文有興趣的話，也可以參考 <a href=\"https://github.com/papers-we-love/papers-we-love\">Papers We Love</a> 這個社群。</p>",
+          "description_markdown": "這是碼天狗策展群之一 [@kkdai](https://twitter.com/Evan_Lin) 讀完 Facebook 的時間序列資料庫 Gorilla 論文後的心得摘要。\r\n\r\n不但每週有專案產出、還有時間閱讀複雜的論文，kkdai 實在很猛啊！大家可以參考一下他的[時間管理心得](https://github.com/CodeTengu/headquarters/issues/61#issuecomment-218945412)\r\n\r\n如果各位對於讀 CS 領域的論文有興趣的話，也可以參考 [Papers We Love](https://github.com/papers-we-love/papers-we-love) 這個社群。",
+          "embedded_links": [
+            {
+              "identifier": "ff7GYx",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "V7Yp9ce",
+              "title": "時間管理心得",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters/issues/61#issuecomment-218945412"
+            },
+            {
+              "identifier": "8YLtoh5",
+              "title": "Papers We Love",
+              "url_domain": "github.com",
+              "url": "https://github.com/papers-we-love/papers-we-love"
+            }
+          ]
+        },
+        {
+          "identifier": "K0rPJ6k",
+          "type": "Link",
+          "title": "如何有禮貌地拒絕會議邀請（Polite Ways to Decline a Meeting Invitation）",
+          "url_domain": "hbr.org",
+          "url": "https://hbr.org/2016/05/polite-ways-to-decline-a-meeting-invitation",
+          "description": "<p>碼農最討厭的事情之一就是無止境的莫名其妙會議來干擾自己的生產力。\n這篇文章給了是否參加會議的判準，並提供一些建議的回應方式。</p>\n\n<p>首先是評估你是否該參加該會議：</p>\n\n<ol>\n<li>評估會議的價值：事前資訊是否足夠？是否重要、有意義？</li>\n<li>你是否是正確人選：權責是否相符？你的意見可否發揮作用？</li>\n<li>衡量自己手上工作的優先順序：手上是否有其他更重要的事情？</li>\n</ol>\n\n\n<p>然後作出適當的回應：</p>\n\n<ol>\n<li>阻止你覺得根本是無用的會議</li>\n<li>推薦更適合的人選</li>\n<li>在會議前提出你的看法與建議 或是 只出席部分會議</li>\n</ol>\n\n\n<p>習慣這套準則、清楚說明拒絕原因，讓同僚習慣這樣的做法，一起打造更有效率的工作環境吧！</p>",
+          "description_markdown": "碼農最討厭的事情之一就是無止境的莫名其妙會議來干擾自己的生產力。\r\n這篇文章給了是否參加會議的判準，並提供一些建議的回應方式。\r\n\r\n首先是評估你是否該參加該會議：\r\n\r\n1. 評估會議的價值：事前資訊是否足夠？是否重要、有意義？\r\n2. 你是否是正確人選：權責是否相符？你的意見可否發揮作用？\r\n3. 衡量自己手上工作的優先順序：手上是否有其他更重要的事情？\r\n\r\n然後作出適當的回應：\r\n\r\n1. 阻止你覺得根本是無用的會議\r\n2. 推薦更適合的人選\r\n3. 在會議前提出你的看法與建議 或是 只出席部分會議\r\n\r\n習慣這套準則、清楚說明拒絕原因，讓同僚習慣這樣的做法，一起打造更有效率的工作環境吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UMmpYex",
+          "type": "Link",
+          "title": "Instagram - Elaine Yong™ (@elaineyongg)",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/elaineyongg/",
+          "description": "<p>本來不打算放 Instagram 推薦了。</p>\n\n<p>但請各位容忍五月病發作的我貼篇讓自己心情愉快的內容。</p>\n\n<p>這笑容多療癒啊～</p>",
+          "description_markdown": "本來不打算放 Instagram 推薦了。  \r\n\r\n但請各位容忍五月病發作的我貼篇讓自己心情愉快的內容。\r\n\r\n這笑容多療癒啊～",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "5ecc41fe-5bc9-481c-9115-d56d3c09a104.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_5ecc41fe-5bc9-481c-9115-d56d3c09a104.jpg",
+          "image_medium_filename": "original_ratio_medium_5ecc41fe-5bc9-481c-9115-d56d3c09a104.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "eAirs5C",
+          "type": "Link",
+          "title": "Reverse Engineering A Mysterious UDP Stream in My Hotel",
+          "url_domain": "gkbrk.com",
+          "url": "http://wiki.gkbrk.com/Hotel_Music.html",
+          "description": "<p>作者無意間在旅館發現神秘的 UDP 廣播封包，決定追根究底找出它們的來源與目的……竟然是旅館電梯的音樂！</p>\n\n<p>解謎過程很有趣，值得一看。</p>\n\n<p>由 <a href=\"https://twitter.com/wancw\">@wancw</a> 分享。</p>",
+          "description_markdown": "作者無意間在旅館發現神秘的 UDP 廣播封包，決定追根究底找出它們的來源與目的……竟然是旅館電梯的音樂！\r\n\r\n解謎過程很有趣，值得一看。\r\n\r\n由 [@wancw](https://twitter.com/wancw) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "SKmUPDO",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

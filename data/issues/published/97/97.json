@@ -1,0 +1,424 @@
+{
+  "number": 97,
+  "title": "Issue 97 騙人，日出怎麼會是早上，我明明都是在晚上看到日出的",
+  "summary": "本期內容涵蓋 iOS, Android, Swift, Kotlin, Microservice, Rust, DHCP, GraphQL, ReactJS, CSS",
+  "url": "https://weekly.codetengu.com/issues/97",
+  "publication_status": "published",
+  "published_at": "2017-07-24T03:00:00+01:00",
+  "updated_at": "2017-07-24T07:54:58+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Quantum Thief</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Quantum Thief](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 總算把 Gopher Day 辦完了..  \r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "EBbHd00",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "ilL0f3M",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "hE25Zei",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "6l9J1gM",
+              "title": "The Quantum Thief",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "DeJPs6M",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "LS6yCoT",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "BrKVecr",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "OHjINjO",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "p6rYQYa",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "e5ItTvG",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "C6D7tn4",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "WbRzhni",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "mGNAnXk",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "mfU6ngk",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "oVhihWS",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "XP8cCce",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ipJ6SrM",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "GJZdYaW",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "h7Hs48p",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "rOoAfMP",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "szWb4of",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "LmxU8bP",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "FFZ6St6",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "sOQE8ti",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "Jn5NmYE",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "GrVgcDC",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "YbfRX6l",
+          "type": "Link",
+          "title": "Apple Machine Learning Journal",
+          "url_domain": "apple.com",
+          "url": "https://machinelearning.apple.com/",
+          "description": "<p>Apple 在這個月開始了 Apple Machine Learning Journal 這個 site，似乎不打算用 blog 的形式而是用比較正式的 journal 來刊登跟 Machine Learning 相關的內容。</p>\n\n<p>第一期已經出來了，Apple 真的很會寫這類的文件啊，雖然這不是我熟悉的領域，但看起來也是有所收穫。<br/>\n相信對許多人來說是個很好的資源。</p>",
+          "description_markdown": "Apple 在這個月開始了 Apple Machine Learning Journal 這個 site，似乎不打算用 blog 的形式而是用比較正式的 journal 來刊登跟 Machine Learning 相關的內容。\r\n\r\n第一期已經出來了，Apple 真的很會寫這類的文件啊，雖然這不是我熟悉的領域，但看起來也是有所收穫。  \r\n相信對許多人來說是個很好的資源。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4z1iLZS",
+          "type": "Link",
+          "title": "Reducers - Chris Eidhof",
+          "url_domain": "eidhof.nl",
+          "url": "http://chris.eidhof.nl/post/reducers/",
+          "description": "<p>又是 Chris Eidhof！總覺得他一直在幫 Swift 增加難度。<br/>\n學 Swift 的時候總是會看到一些魔幻的 code，這個是我近期看到最帥氣的。</p>\n\n<p>這篇文章的用意是對很常見的有 async task 的 project 做重構，把 async task 的 state 抽離出來，增加可測試性。<br/>\n因為是 async task，為了要處理 state 中的 side effect，作者引入了一個 Reducer 的模式，這個在 <a href=\"http://redux.js.org/docs/introduction/Motivation.html\">Redux</a>, <a href=\"https://guide.elm-lang.org/\">Elm (update function)</a> 很常見的模式，是一種很 functional 的模式。\n在這樣重構之後，測試的時候就不需要引入任何種的 Test Doubles，直接 assert input, output 就好了。</p>\n\n<p>作者還把 enum 當成 method 來用，在這個範例的條件下，理由也很說得過去，之前還真的沒想過呢。</p>\n\n<p>註：Reducer 用 higher order function 的 <code>reduce</code> 來聯想的話，很快就理解了</p>",
+          "description_markdown": "又是 Chris Eidhof！總覺得他一直在幫 Swift 增加難度。  \r\n學 Swift 的時候總是會看到一些魔幻的 code，這個是我近期看到最帥氣的。\r\n\r\n這篇文章的用意是對很常見的有 async task 的 project 做重構，把 async task 的 state 抽離出來，增加可測試性。  \r\n因為是 async task，為了要處理 state 中的 side effect，作者引入了一個 Reducer 的模式，這個在 [Redux](http://redux.js.org/docs/introduction/Motivation.html), [Elm (update function)](https://guide.elm-lang.org/) 很常見的模式，是一種很 functional 的模式。\r\n在這樣重構之後，測試的時候就不需要引入任何種的 Test Doubles，直接 assert input, output 就好了。\r\n\r\n作者還把 enum 當成 method 來用，在這個範例的條件下，理由也很說得過去，之前還真的沒想過呢。\r\n\r\n註：Reducer 用 higher order function 的 `reduce` 來聯想的話，很快就理解了  ",
+          "embedded_links": [
+            {
+              "identifier": "1b9YOJm",
+              "title": "Redux",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/docs/introduction/Motivation.html"
+            },
+            {
+              "identifier": "zav04FH",
+              "title": "Elm (update function)",
+              "url_domain": "elm-lang.org",
+              "url": "https://guide.elm-lang.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "50ANDg",
+          "type": "Link",
+          "title": "Ricky Mondello on Twitter: \"iOS 11 Beta 3 adds SFAuthenticationSession\"",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/rmondello/status/884458464470343682",
+          "description": "<p>Apple 在今年的 WWDC <a href=\"https://developer.apple.com/videos/play/wwdc2017/225/\">What's New in Safari View Controller</a> 說 iOS 11 之後的 Safari, Safari View Controller 不會再共享 cookie, local storage 了，不愧是業界最重視用戶隱私的公司。<br/>\n但這樣就讓有些事情很難做啦，特別是本來拿 Safari View Controller 來做 SSO 的，於是，嘩，iOS 11 beta 3 多了一個 <a href=\"https://developer.apple.com/documentation/safariservices/sfauthenticationsession\">SFAuthenticationSession</a>，專門處理這件事。</p>\n\n<p>有人已經做了 <a href=\"https://github.com/dvdhpkns/SFAuthenticationSession-example\">範例</a>，這個新的 API 運作起來其實真的很不錯，那麼剩下的就是開發者要關心的版本兼容問題了。</p>",
+          "description_markdown": "Apple 在今年的 WWDC [What's New in Safari View Controller](https://developer.apple.com/videos/play/wwdc2017/225/) 說 iOS 11 之後的 Safari, Safari View Controller 不會再共享 cookie, local storage 了，不愧是業界最重視用戶隱私的公司。  \r\n但這樣就讓有些事情很難做啦，特別是本來拿 Safari View Controller 來做 SSO 的，於是，嘩，iOS 11 beta 3 多了一個 [SFAuthenticationSession](https://developer.apple.com/documentation/safariservices/sfauthenticationsession)，專門處理這件事。\r\n\r\n有人已經做了 [範例](https://github.com/dvdhpkns/SFAuthenticationSession-example)，這個新的 API 運作起來其實真的很不錯，那麼剩下的就是開發者要關心的版本兼容問題了。",
+          "embedded_links": [
+            {
+              "identifier": "eZxSyAY",
+              "title": "What's New in Safari View Controller",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2017/225/"
+            },
+            {
+              "identifier": "xkih58S",
+              "title": "SFAuthenticationSession",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/documentation/safariservices/sfauthenticationsession"
+            },
+            {
+              "identifier": "S39W7CS",
+              "title": "範例",
+              "url_domain": "github.com",
+              "url": "https://github.com/dvdhpkns/SFAuthenticationSession-example"
+            }
+          ]
+        },
+        {
+          "identifier": "uEay9D",
+          "type": "Link",
+          "title": "Kotlin: Integrate it with your complex Android project (Dagger, Mockito)",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@manuelvicnt/kotlin-integrate-it-with-your-complex-android-project-dagger-mockito-a4c71a8f2574",
+          "description": "<p>Kotlin 的 100% java interoperability 是很讚的一件事情，這讓你忽然福至心靈想要在既有的 Android Java 專案導入的時候，摁摁，它就導入了。</p>\n\n<p>我想最近應該很多人已經或考慮導入 Kotlin 了，這篇是針對這個需求的主題：整合既有的 3rd party library。</p>\n\n<p><a href=\"https://twitter.com/wangyung\">@wangyung</a> 很早期就投入 Kotlin 開發，他寫了一篇 <a href=\"https://engineering.linecorp.com/tw/blog/detail/178\">為什麼我們使用 Kotlin 開發 LINE Creators Studio</a>，在 Mokito final class mocking 這個問題上，他採取的是 interface oriented，我覺得比較理想。</p>",
+          "description_markdown": "Kotlin 的 100% java interoperability 是很讚的一件事情，這讓你忽然福至心靈想要在既有的 Android Java 專案導入的時候，摁摁，它就導入了。\r\n\r\n我想最近應該很多人已經或考慮導入 Kotlin 了，這篇是針對這個需求的主題：整合既有的 3rd party library。\r\n\r\n[@wangyung](https://twitter.com/wangyung) 很早期就投入 Kotlin 開發，他寫了一篇 [為什麼我們使用 Kotlin 開發 LINE Creators Studio](https://engineering.linecorp.com/tw/blog/detail/178)，在 Mokito final class mocking 這個問題上，他採取的是 interface oriented，我覺得比較理想。",
+          "embedded_links": [
+            {
+              "identifier": "DKaPKes",
+              "title": "@wangyung",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wangyung"
+            },
+            {
+              "identifier": "mMj4m65",
+              "title": "為什麼我們使用 Kotlin 開發 LINE Creators Studio",
+              "url_domain": "linecorp.com",
+              "url": "https://engineering.linecorp.com/tw/blog/detail/178"
+            }
+          ]
+        },
+        {
+          "identifier": "o8rnK7D",
+          "type": "Link",
+          "title": "facebook/device-year-class: A library that analyzes an Android device's specifications and calculates which year the device would be considered \"high end”.",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/device-year-class",
+          "description": "<pre><code class=\"java\">if (year &gt;= 2013) {\n    // Do advanced animation\n} else if (year &gt; 2010) {\n    // Do simple animation\n} else {\n    // Phone too slow, don't do any animations\n}\n</code></pre>\n\n<p>簡單、粗暴、做得到</p>",
+          "description_markdown": "```java\r\nif (year >= 2013) {\r\n    // Do advanced animation\r\n} else if (year > 2010) {\r\n    // Do simple animation\r\n} else {\r\n    // Phone too slow, don't do any animations\r\n}\r\n```\r\n\r\n簡單、粗暴、做得到",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "4uV40iI",
+          "type": "Link",
+          "title": "How We Solved Authentication and Authorization in Our Microservice Architecture",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/technology-learning/how-we-solved-authentication-and-authorization-in-our-microservice-architecture-994539d1b6e6",
+          "description": "<p>作者分享了他們在 Microservice 架構下如何處理認證與授權的問題，我覺得這篇提到很多場景都是多產品、多子系統的公司在實務上會碰到的，像是處理跨子系統、行動版 App、開放第三方存取 API 等，很值得一讀。</p>",
+          "description_markdown": "作者分享了他們在 Microservice 架構下如何處理認證與授權的問題，我覺得這篇提到很多場景都是多產品、多子系統的公司在實務上會碰到的，像是處理跨子系統、行動版 App、開放第三方存取 API 等，很值得一讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "o3rslwR",
+          "type": "Link",
+          "title": "Rust Performance Pitfalls",
+          "url_domain": "github.io",
+          "url": "https://llogiq.github.io/2017/06/01/perf-pitfalls.html",
+          "description": "<p>本文作者列舉了一些 Rust 常見的效能坑，值得使用 Rust 語言的程式開發者參考。</p>\n\n<p>不過裡頭有些做法是拿安全換效能，我個人實在不願意這樣搞就是了…。（若不是為了安全，為什麼要用 Rust？）</p>",
+          "description_markdown": "本文作者列舉了一些 Rust 常見的效能坑，值得使用 Rust 語言的程式開發者參考。\r\n\r\n不過裡頭有些做法是拿安全換效能，我個人實在不願意這樣搞就是了…。（若不是為了安全，為什麼要用 Rust？）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Bo0lF9M",
+          "type": "Link",
+          "title": "Because Browser Diversity Is Good For The Web",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/samsung-internet-dev/because-browser-diversity-is-good-for-the-web-910d1cbcdf3b",
+          "description": "<p>作者因為一則 Twitter 回應而寫了這篇，關於瀏覽器產品的多樣性為何重要的文章。當然，我絕對明白處理多瀏覽器的相容工作很煩、有時更會覺得痛，可是我還是跟作者一樣認為，瀏覽器產品的多樣性，正是 Web 之所以為 Web 的明證。</p>\n\n<p>我們不想要回到那個 IE 獨大的時代，此時的我們也不該認為「Chrome 是『市場最大手』，網頁在它這裡看起來沒問題、能動就好」。</p>\n\n<p>（想起以前曾經為了單位網站的選單是 IE-only、而跟主管吵架的往事，我真的好衝。）</p>",
+          "description_markdown": "作者因為一則 Twitter 回應而寫了這篇，關於瀏覽器產品的多樣性為何重要的文章。當然，我絕對明白處理多瀏覽器的相容工作很煩、有時更會覺得痛，可是我還是跟作者一樣認為，瀏覽器產品的多樣性，正是 Web 之所以為 Web 的明證。\r\n\r\n我們不想要回到那個 IE 獨大的時代，此時的我們也不該認為「Chrome 是『市場最大手』，網頁在它這裡看起來沒問題、能動就好」。\r\n\r\n（想起以前曾經為了單位網站的選單是 IE-only、而跟主管吵架的往事，我真的好衝。）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4QMF1dl",
+          "type": "Link",
+          "title": "Rapid DHCP: Or, how do Macs get on the network so fast?",
+          "url_domain": "cafbit.com",
+          "url": "https://cafbit.com/entry/rapid_dhcp_or_how_do",
+          "description": "<p>以前我剛接觸到 Mac OS X （現在要改稱 macOS 了…）時，扣除那些絢麗的視覺效果不談，印象最深刻的就是它用 DHCP 設定網路組態真是爆猛無敵誇張地快，進度指示的圓圈才剛快速地跑過一輪，就好了，相較之下我在 Windows, Linux, FreeBSD 底下可要等個好幾秒，於是我就很好奇，OS X 的網路設定是怎麼做到這種效果的？這篇文章談的就是這個主題，很有趣，如果您沒看過，現在讓您看看。</p>\n\n<p>是說有人也曾跟我有同樣的好奇心嗎？</p>",
+          "description_markdown": "以前我剛接觸到 Mac OS X （現在要改稱 macOS 了…）時，扣除那些絢麗的視覺效果不談，印象最深刻的就是它用 DHCP 設定網路組態真是爆猛無敵誇張地快，進度指示的圓圈才剛快速地跑過一輪，就好了，相較之下我在 Windows, Linux, FreeBSD 底下可要等個好幾秒，於是我就很好奇，OS X 的網路設定是怎麼做到這種效果的？這篇文章談的就是這個主題，很有趣，如果您沒看過，現在讓您看看。\r\n\r\n是說有人也曾跟我有同樣的好奇心嗎？",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "PwT55Qp",
+          "type": "Link",
+          "title": "Life of a GraphQL Query — Lexing/Parsing",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cjoudrey/life-of-a-graphql-query-lexing-parsing-ca7c5045fad8",
+          "description": "<p>作者從 GraphQL Ruby 使用的 Ragel 切入，帶你理解如何解譯 GraphQL 的語法。</p>\n\n<p>處理語言的 lexing 和 parsing，算是很入門的一篇。</p>\n\n<p>作者下一篇是關於 GraphQL query 的驗證，有興趣的朋友可以繼續追蹤。</p>",
+          "description_markdown": "作者從 GraphQL Ruby 使用的 Ragel 切入，帶你理解如何解譯 GraphQL 的語法。\r\n\r\n處理語言的 lexing 和 parsing，算是很入門的一篇。\r\n\r\n作者下一篇是關於 GraphQL query 的驗證，有興趣的朋友可以繼續追蹤。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6ioFnki",
+          "type": "Link",
+          "title": "An Almost Static Stack (Building Static Sites with create-react-app)",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319",
+          "description": "<p>作者手把手地教你如何用 React 完成一個靜態網站。</p>\n\n<p>用到的 tech stack 如下：</p>\n\n<ul>\n<li>create-react-app</li>\n<li>react-router</li>\n<li>react-helmet</li>\n<li>react-snapshot</li>\n<li>styled-components</li>\n</ul>\n\n\n<p>若是你剛好都有用以上的專案，而且正在找尋靜態網站的解決方案，不妨試試作者的方法。</p>",
+          "description_markdown": "作者手把手地教你如何用 React 完成一個靜態網站。\r\n\r\n用到的 tech stack 如下：\r\n\r\n* create-react-app\r\n* react-router\r\n* react-helmet\r\n* react-snapshot\r\n* styled-components\r\n\r\n若是你剛好都有用以上的專案，而且正在找尋靜態網站的解決方案，不妨試試作者的方法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "w3W7TOt",
+          "type": "Link",
+          "title": "CSS Isn’t Black Magic",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/its-not-dark-magic-pulling-back-the-curtains-from-your-stylesheets-c8d677fa21b2",
+          "description": "<p>從瀏覽器如何產生畫面開始說起，也就是所謂的 Browser render pipeline (The pixel pipeline)。</p>\n\n<p>除了提到 CSSOM 的產生過程，後面也有提到權重、定位跟 Z-index，建議 JavaScript 寫很熟，CSS 卻一直苦手的朋友，可以用心閱讀體會！</p>",
+          "description_markdown": "從瀏覽器如何產生畫面開始說起，也就是所謂的 Browser render pipeline (The pixel pipeline)。\r\n\r\n除了提到 CSSOM 的產生過程，後面也有提到權重、定位跟 Z-index，建議 JavaScript 寫很熟，CSS 卻一直苦手的朋友，可以用心閱讀體會！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "JIrLztF",
+          "type": "Link",
+          "title": "Measuring web performance; it’s really quite simple",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/measuring-web-performance-its-really-quite-simple-adeda8f7f39e",
+          "description": "<p>一篇較長的文章，在說明如何定義好 performance，並且正確地測量網站的 performance。</p>\n\n<p>後面也有實際使用 webpagetest 測量，建議對 web performance 還不熟悉的朋友可以花時間閱讀。</p>",
+          "description_markdown": "一篇較長的文章，在說明如何定義好 performance，並且正確地測量網站的 performance。\r\n\r\n後面也有實際使用 webpagetest 測量，建議對 web performance 還不熟悉的朋友可以花時間閱讀。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "ruPgzts",
+          "type": "Link",
+          "title": "Wat",
+          "url_domain": "destroyallsoftware.com",
+          "url": "https://www.destroyallsoftware.com/talks/wat",
+          "description": "<p>這是一個五分鐘的 lightning talk，是在開一些語言 (Ruby, JavaScript) 的玩笑，但節奏的掌握好好，超好笑。</p>\n\n<p>這個作者自己有做一個 screencast 的網站 <a href=\"https://www.destroyallsoftware.com/screencasts\">Destroy All Software</a>，真材實料啊！</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "這是一個五分鐘的 lightning talk\b，是在開一些語言 (Ruby, JavaScript) 的玩笑，但節奏的掌握好好，超好笑。\r\n\r\n這個作者自己有做一個 screencast 的網站 [Destroy All Software](https://www.destroyallsoftware.com/screencasts)，真材實料啊！\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "Z3xP19G",
+              "title": "Destroy All Software",
+              "url_domain": "destroyallsoftware.com",
+              "url": "https://www.destroyallsoftware.com/screencasts"
+            },
+            {
+              "identifier": "OBB6ts5",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

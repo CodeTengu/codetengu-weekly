@@ -1,0 +1,416 @@
+{
+  "number": 53,
+  "title": "Issue 53 要 mock 的物件太多了，只好 mock 罵號",
+  "summary": "本期內容涵蓋 JavaScript, React.js, Terminal, CSS, ORM, SQL, Elm, Go, 性別",
+  "url": "https://weekly.codetengu.com/issues/53",
+  "publication_status": "published",
+  "published_at": "2016-08-01T03:00:00+01:00",
+  "updated_at": "2016-08-01T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"https://book.douban.com/people/vinta/\">奇點天空</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 為了工作開始看韓劇</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[奇點天空](https://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 為了工作開始看韓劇\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "EYVLobg",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "O7Suyng",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "jwwZdyg",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "cykRLE8",
+              "title": "奇點天空",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "viNWj03",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "M5ZjBpt",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "eZWrjIn",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "vq1pdzu",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "GX4mLEp",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "rGErVD2",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "2U78FF5",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "SfXYyvN",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "voyu4ED",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "sjLadpj",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "hYPlFci",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "VNWPb9R",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "MnjjcWc",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "y75ymu6",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "lYBl4s0",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "NinSk2Q",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "eTf8vjV",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "clVmNr7",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "sGpuYi8",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "84yOKXh",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "Z2xVJwp",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "xLxzHnc",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "HZ5siB4",
+          "type": "Link",
+          "title": "JavaScript variables lifecycle: why let is not hoisted",
+          "url_domain": "rainsoft.io",
+          "url": "https://rainsoft.io/variables-lifecycle-and-why-let-is-not-hoisted/",
+          "description": "<p><a href=\"http://www.w3schools.com/js/js_hoisting.asp\">Hoisting</a> 是 JavaScript 容易被混淆的一個機制，就像字面上的意思，是將 Declarations 提升到 Scope 的頂端，如果對這個機制不熟悉，就很可能寫出錯誤的邏輯，文內會探討 var 與 function 宣告時的 lifecycle ，分成以下三個階段：</p>\n\n<ul>\n<li>Declaration phase：在此 scope register 一個新的變數。</li>\n<li>Initialization phase：配置記憶體空間並且初始化變數值為 undefined。</li>\n<li>Assignment phase：賦予變數新的值。</li>\n</ul>\n\n\n<p>在 var 的 lifecycle，Declaration phase 與 Initialization phase 會合併在 scope 最頂端執行，而 function 則是三個 phase 同時執行， ES6 的 let 可以將 Declaration phase 與 Initialization phase 這兩個步驟 decouple ，從而打破 Hoisting 的機制。</p>",
+          "description_markdown": "[Hoisting](http://www.w3schools.com/js/js_hoisting.asp) 是 JavaScript 容易被混淆的一個機制，就像字面上的意思，是將 Declarations 提升到 Scope 的頂端，如果對這個機制不熟悉，就很可能寫出錯誤的邏輯，文內會探討 var 與 function 宣告時的 lifecycle ，分成以下三個階段：\r\n\r\n* Declaration phase：在此 scope register 一個新的變數。\r\n* Initialization phase：配置記憶體空間並且初始化變數值為 undefined。\r\n* Assignment phase：賦予變數新的值。\r\n\r\n在 var 的 lifecycle，Declaration phase 與 Initialization phase 會合併在 scope 最頂端執行，而 function 則是三個 phase 同時執行， ES6 的 let 可以將 Declaration phase 與 Initialization phase 這兩個步驟 decouple ，從而打破 Hoisting 的機制。",
+          "embedded_links": [
+            {
+              "identifier": "ac81f9A",
+              "title": "Hoisting",
+              "url_domain": "w3schools.com",
+              "url": "http://www.w3schools.com/js/js_hoisting.asp"
+            }
+          ]
+        },
+        {
+          "identifier": "9Y8le5F",
+          "type": "Link",
+          "title": "Create Apps with No Configuration",
+          "url_domain": "github.io",
+          "url": "https://facebook.github.io/react/blog/2016/07/22/create-apps-with-no-configuration.html",
+          "description": "<p><a href=\"https://github.com/gaearon\">@Dan Abramov</a> 提出一套無須任何設定，幾道簡單指令即可開始練習撰寫 React 專案，想開始入門的朋友可以試著玩玩看。</p>",
+          "description_markdown": "[@Dan Abramov](https://github.com/gaearon) 提出一套無須任何設定，幾道簡單指令即可開始練習撰寫 React 專案，想開始入門的朋友可以試著玩玩看。",
+          "embedded_links": [
+            {
+              "identifier": "91cYqhS",
+              "title": "@Dan Abramov",
+              "url_domain": "github.com",
+              "url": "https://github.com/gaearon"
+            }
+          ]
+        },
+        {
+          "identifier": "E3zV6Et",
+          "type": "Link",
+          "title": "React.js in Patterns",
+          "url_domain": "github.com",
+          "url": "https://github.com/krasimir/react-in-patterns",
+          "description": "<p>這個 repo 介紹許多使用 React 時的 Patterns 以及 Anti-Patterns ，  能幫助使用更好的方式開發 React 專案，會以以下幾個觀點切入：</p>\n\n<ul>\n<li>Communication</li>\n<li>Composition</li>\n<li>High-order Component</li>\n<li>Event Handlers</li>\n<li>Dependency injection</li>\n<li>Data Flow</li>\n</ul>",
+          "description_markdown": "這個 repo 介紹許多使用 React 時的 Patterns 以及 Anti-Patterns ，  能幫助使用更好的方式開發 React 專案，會以以下幾個觀點切入：\r\n\r\n* Communication\r\n* Composition\r\n* High-order Component\r\n* Event Handlers\r\n* Dependency injection\r\n* Data Flow\r\n\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "VF2eqg5",
+          "type": "Link",
+          "title": "Don’t add your 2 cents",
+          "url_domain": "sivers.org",
+          "url": "https://sivers.org/2c",
+          "description": "<p>當你沒什麼有用的意見時，閉嘴。說起來簡單，但卻是極度容易犯的錯誤。尤其當位置越爬越高，有時候總是會覺得好像沒有意見，<a href=\"https://zh.wikipedia.org/wiki/%E5%86%92%E5%90%8D%E9%A0%82%E6%9B%BF%E7%97%87%E5%80%99%E7%BE%A4\">好像就暴露出自己其實也不太懂</a>；隨口講幾個無關痛癢的屁點，展示出自己其實也是略懂，才不會丟臉啊。</p>\n\n<p>但這樣其實對大家都不好 —— 無謂的批評傷了創造者，而真正懂的人一聽就知道這毫無營養，對講話人的評價也相應下降。被滿足的只有自尊，以及早該遠離的同樣<a href=\"https://zh.wikipedia.org/wiki/%E8%BE%BE%E5%85%8B%E6%95%88%E5%BA%94\">草包同伴</a>。世界上要學的事情太多了，每個人都會有不懂的事情；只有看透這件事情，才不會<a href=\"http://www.appledaily.com.tw/column/article/353/rnews/20160728/917268/\">落入這個陷阱</a>。</p>",
+          "description_markdown": "當你沒什麼有用的意見時，閉嘴。說起來簡單，但卻是極度容易犯的錯誤。尤其當位置越爬越高，有時候總是會覺得好像沒有意見，[好像就暴露出自己其實也不太懂](https://zh.wikipedia.org/wiki/冒名頂替症候群)；隨口講幾個無關痛癢的屁點，展示出自己其實也是略懂，才不會丟臉啊。\r\n\r\n但這樣其實對大家都不好 —— 無謂的批評傷了創造者，而真正懂的人一聽就知道這毫無營養，對講話人的評價也相應下降。被滿足的只有自尊，以及早該遠離的同樣[草包同伴](https://zh.wikipedia.org/wiki/达克效应)。世界上要學的事情太多了，每個人都會有不懂的事情；只有看透這件事情，才不會[落入這個陷阱](http://www.appledaily.com.tw/column/article/353/rnews/20160728/917268/)。",
+          "embedded_links": [
+            {
+              "identifier": "LsceH0Z",
+              "title": "好像就暴露出自己其實也不太懂",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/冒名頂替症候群"
+            },
+            {
+              "identifier": "5iNh704",
+              "title": "草包同伴",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/达克效应"
+            },
+            {
+              "identifier": "ON1eBDF",
+              "title": "落入這個陷阱",
+              "url_domain": "appledaily.com.tw",
+              "url": "http://www.appledaily.com.tw/column/article/353/rnews/20160728/917268/"
+            }
+          ]
+        },
+        {
+          "identifier": "jpQISm5",
+          "type": "Link",
+          "title": "HyperTerm — JS/HTML/CSS Terminal",
+          "url_domain": "hyperterm.org",
+          "url": "https://hyperterm.org",
+          "description": "<p>HyperTerm 是個基於 Electron 的 terminal，目標是為三大平台提供美觀且可擴充的 command line 介面。我從用 Mac 起就一直使用內建 Terminal，確實沒有很好用，一直也有人叫我跳槽其他工具（例如 <a href=\"https://www.iterm2.com\">iTerm2</a>），可是我就一直覺得介面哪裡怪怪的，不太好看，一直不想換。</p>\n\n<p>但這個好像不錯啊，有點願意換了！現在功能還有點差，也不支援中文輸入法，所以用了一天之後送了幾個 bug reports 就先放旁邊，不過開發團隊還滿 responsive 的，也有不少 contributors，過一陣子會再看看。還有就是最近也有用 Windows，不論 Command Prompt 或 Powershell 都很難用，希望它也可以解決這個需求。</p>\n\n<p>大家也幫忙試用一下，回報點東西啊！</p>",
+          "description_markdown": "HyperTerm 是個基於 Electron 的 terminal，目標是為三大平台提供美觀且可擴充的 command line 介面。我從用 Mac 起就一直使用內建 Terminal，確實沒有很好用，一直也有人叫我跳槽其他工具（例如 [iTerm2](https://www.iterm2.com)），可是我就一直覺得介面哪裡怪怪的，不太好看，一直不想換。\r\n\r\n但這個好像不錯啊，有點願意換了！現在功能還有點差，也不支援中文輸入法，所以用了一天之後送了幾個 bug reports 就先放旁邊，不過開發團隊還滿 responsive 的，也有不少 contributors，過一陣子會再看看。還有就是最近也有用 Windows，不論 Command Prompt 或 Powershell 都很難用，希望它也可以解決這個需求。\r\n\r\n大家也幫忙試用一下，回報點東西啊！",
+          "embedded_links": [
+            {
+              "identifier": "8GdDrQH",
+              "title": "iTerm2",
+              "url_domain": "iterm2.com",
+              "url": "https://www.iterm2.com"
+            }
+          ]
+        },
+        {
+          "identifier": "Ens7FzG",
+          "type": "Link",
+          "title": "Can't code, won't code - cracking the secret of gender imbalance in STEM",
+          "url_domain": "telegraph.co.uk",
+          "url": "http://www.telegraph.co.uk/women/work/cant-code-wont-code---cracking-the-secret-of-gender-imbalance-in/",
+          "description": "<p>性別平權近年在很多領域都有大進展，除了一個例外：科技界。這篇文章描述了非男性在科技業界持續遭受，且幾乎沒有改善的受歧視處境，從高等教育領域人數、招募刻板印象、玻璃天花板、一直到 Apple 最近推出的 HealthKit 包山包海，就是沒有考慮月經、更年期、以及懷孕。</p>\n\n<p>講這種話題在台灣一向都很引戰。中文界對女性的歧視表現不太一樣，所以常聽到國情不同，我們沒這麼做，所以不是歧視。也有很多人看到女性工程師因為較低標準被錄取，而認為女性根本比較吃香，男工程師才是受壓迫。「國立私立不如兩粒」。</p>\n\n<p>是啦台灣的男工程師確實被壓迫得很慘，但這不代表其他人就比你好啊。壓迫你的是資方，別搞錯敵人了。我知道很多人不會認同，在這裡寫一小段也說服不了人。但我還是想把這篇放上來，希望有人願意讀。</p>",
+          "description_markdown": "性別平權近年在很多領域都有大進展，除了一個例外：科技界。這篇文章描述了非男性在科技業界持續遭受，且幾乎沒有改善的受歧視處境，從高等教育領域人數、招募刻板印象、玻璃天花板、一直到 Apple 最近推出的 HealthKit 包山包海，就是沒有考慮月經、更年期、以及懷孕。\r\n\r\n講這種話題在台灣一向都很引戰。中文界對女性的歧視表現不太一樣，所以常聽到國情不同，我們沒這麼做，所以不是歧視。也有很多人看到女性工程師因為較低標準被錄取，而認為女性根本比較吃香，男工程師才是受壓迫。「國立私立不如兩粒」。\r\n\r\n是啦台灣的男工程師確實被壓迫得很慘，但這不代表其他人就比你好啊。壓迫你的是資方，別搞錯敵人了。我知道很多人不會認同，在這裡寫一小段也說服不了人。但我還是想把這篇放上來，希望有人願意讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "kQyuJjG",
+          "type": "Link",
+          "title": "9 Non-Threatening Leadership Strategies for Women",
+          "url_domain": "thecooperreview.com",
+          "url": "http://thecooperreview.com/non-threatening-leadership-strategies-for-women/",
+          "description": "<p>有女上司的人，大概很多都會抱怨上司太強勢吧。女人實在是很麻煩，尤其是老女人。或者你就是那個女上司？這篇文章提出了九個領導技巧，讓女性主管更得人心，不會太具攻擊性。多學著點！</p>\n\n<p>身為女生能力太強就是錯了，沒什麼好說。就算你很厲害，也記得不要讓別人知道啊。</p>",
+          "description_markdown": "有女上司的人，大概很多都會抱怨上司太強勢吧。女人實在是很麻煩，尤其是老女人。或者你就是那個女上司？這篇文章提出了九個領導技巧，讓女性主管更得人心，不會太具攻擊性。多學著點！\r\n\r\n身為女生能力太強就是錯了，沒什麼好說。就算你很厲害，也記得不要讓別人知道啊。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4ISKEwe",
+          "type": "Link",
+          "title": "How Not to Offend Men’s Delicate Feelings When Talking About Being Harassed: A 5-Step Programme",
+          "url_domain": "theladiesfinger.com",
+          "url": "http://theladiesfinger.com/how-not-to-offend-mens-delicate-feelings-when-talking-about-being-harassed-a-5-step-programme/",
+          "description": "<p>反過來，如果在職場受到騷擾，要怎麼處理，才不會傷到男人們的自尊呢？</p>\n\n<ol>\n<li>千萬要安靜。不要讓你的受害者角色太明顯。</li>\n<li>隱藏你能得到的任何好處。</li>\n<li>避免表達你的感受。你<strong>能</strong>有什麼感受，大家已經幫你決定好了。</li>\n<li>語氣很重要。最好聽起來不太確定，不然會被誤解成你自以為。</li>\n<li>記得強調你只針對那一個人。這是個案。</li>\n</ol>\n\n\n<p>乖喔，男生就是調皮，偶爾犯點錯無傷大雅。原諒人家，不要那麼情緒化，不要無理取鬧，好嗎？</p>",
+          "description_markdown": "反過來，如果在職場受到騷擾，要怎麼處理，才不會傷到男人們的自尊呢？\r\n\r\n1. 千萬要安靜。不要讓你的受害者角色太明顯。\r\n2. 隱藏你能得到的任何好處。\r\n3. 避免表達你的感受。你**能**有什麼感受，大家已經幫你決定好了。\r\n4. 語氣很重要。最好聽起來不太確定，不然會被誤解成你自以為。\r\n5. 記得強調你只針對那一個人。這是個案。\r\n\r\n乖喔，男生就是調皮，偶爾犯點錯無傷大雅。原諒人家，不要那麼情緒化，不要無理取鬧，好嗎？",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "U7LS77P",
+          "type": "Link",
+          "title": "Structuring CSS in large projects",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/peergrade-io/structuring-css-in-large-projects-37f1695f5ec8#.ianzh4ues",
+          "description": "<p>CSS 很好寫，但是通常也很難維護。前端領域中，已經有許多人提出各種方式，企圖要解決 CSS 可維護性的問題。像是 <a href=\"https://github.com/stubbornella/oocss/wiki\">OOCSS</a>、<a href=\"https://smacss.com/\">SMACSS</a>、<a href=\"http://getbem.com/\">BEM</a>。此篇作者根據在 peergrade.io 的經驗提出三個簡單的原則。</p>\n\n<ol>\n<li>class 命名需要有前綴 (prefix)</li>\n<li>不要使用巢狀選擇器</li>\n<li>採用 BEM 命名規則</li>\n</ol>\n\n\n<p>這邊比較特別的是採用 BEM 命名規則後，可允許 1 層的巢狀選擇器。這樣可以避免重複指定區塊裡面的修改器。</p>",
+          "description_markdown": "CSS 很好寫，但是通常也很難維護。前端領域中，已經有許多人提出各種方式，企圖要解決 CSS 可維護性的問題。像是 [OOCSS](https://github.com/stubbornella/oocss/wiki)、[SMACSS](https://smacss.com/)、[BEM](http://getbem.com/)。此篇作者根據在 peergrade.io 的經驗提出三個簡單的原則。\r\n\r\n1. class 命名需要有前綴 (prefix)\r\n2. 不要使用巢狀選擇器\r\n3. 採用 BEM 命名規則\r\n\r\n這邊比較特別的是採用 BEM 命名規則後，可允許 1 層的巢狀選擇器。這樣可以避免重複指定區塊裡面的修改器。\r\n\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "MXRAUUF",
+              "title": "OOCSS",
+              "url_domain": "github.com",
+              "url": "https://github.com/stubbornella/oocss/wiki"
+            },
+            {
+              "identifier": "QGI4T4f",
+              "title": "SMACSS",
+              "url_domain": "smacss.com",
+              "url": "https://smacss.com/"
+            },
+            {
+              "identifier": "bgbHXTx",
+              "title": "BEM",
+              "url_domain": "getbem.com",
+              "url": "http://getbem.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "jYS00xp",
+          "type": "Link",
+          "title": "Coding mobile-first emails",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/cm-engineering/coding-mobile-first-emails-1513ac4673e#.n9jp7ogi1",
+          "description": "<p>如何寫出能適應各種 email client 的模板，一直以來都是設計師或前端工程師的挑戰。本篇作者一步一步教你如何設計出，適合手機上的 email 樣式。</p>\n\n<p>先從手機上的畫面開始設計，簡單的 div 和 css，確保每個 email client 都有支援。而 <code>Margin</code>，注意是大寫的 M，即使是舊版本的 Outlook 也支援這個寫法。</p>\n\n<p>接著使用 media query 製作桌面版本的樣式，這邊用到了 <code>display: table</code> 能讓我們製作出多個 column 的效果。但是這邊有幾個 client 不支援，像是 outlook 和 gmail。</p>\n\n<p>但是對於新的 outlook.com 可以使用 <code>[owa]</code> 的 attribute selector，來讓樣式成功套用在 outlook.com 上。\n配合 IE 常使用的 conditional comments 和 table element，遇到 outlook 的時候，就可以 fallback 到 html 的 table 樣式。</p>\n\n<p>最後透過 <code>calc</code>、<code>max-width</code>、<code>min-width</code> 讓 gmail 相關的 client 也可以完美的呈現之前的設計。\n<code>width: calc((Desktop Width - Mobile Width) * 100% - (Desktop Width - Mobile Width) * Breakpoint - Desktop Width);</code> 作者提供了一些公式告訴你 layout 或 column 該怎麼計算。使得這個方式能夠修正 gmail 上面的顯示。</p>\n\n<p>用以上的方式，就可以製作出適用各種 client 的 email 樣式，工作上有在製作電子報的朋友，務必花點時間閱讀！</p>",
+          "description_markdown": "如何寫出能適應各種 email client 的模板，一直以來都是設計師或前端工程師的挑戰。本篇作者一步一步教你如何設計出，適合手機上的 email 樣式。\r\n\r\n先從手機上的畫面開始設計，簡單的 div 和 css，確保每個 email client 都有支援。而 `Margin`，注意是大寫的 M，即使是舊版本的 Outlook 也支援這個寫法。\r\n\r\n接著使用 media query 製作桌面版本的樣式，這邊用到了 `display: table` 能讓我們製作出多個 column 的效果。但是這邊有幾個 client 不支援，像是 outlook 和 gmail。\r\n\r\n但是對於新的 outlook.com 可以使用 `[owa]` 的 attribute selector，來讓樣式成功套用在 outlook.com 上。\r\n配合 IE 常使用的 conditional comments 和 table element，遇到 outlook 的時候，就可以 fallback 到 html 的 table 樣式。\r\n\r\n最後透過 `calc`、`max-width`、`min-width` 讓 gmail 相關的 client 也可以完美的呈現之前的設計。\r\n`width: calc((Desktop Width - Mobile Width) * 100% - (Desktop Width - Mobile Width) * Breakpoint - Desktop Width);` 作者提供了一些公式告訴你 layout 或 column 該怎麼計算。使得這個方式能夠修正 gmail 上面的顯示。\r\n\r\n用以上的方式，就可以製作出適用各種 client 的 email 樣式，工作上有在製作電子報的朋友，務必花點時間閱讀！\r\n\r\n\r\n\r\n\r\n\r\n ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yEhFgii",
+          "type": "Link",
+          "title": "What ORMs have taught me: just learn SQL",
+          "url_domain": "wozniak.ca",
+          "url": "http://wozniak.ca/what-orms-have-taught-me-just-learn-sql",
+          "description": "<p>ORM 提供了我們一個方便的介面，而不需要學會 SQL，即可從資料庫中取得需要的資料。實際上你還是需要學會 SQL，若是 Object 有許多 attribute，ORM 的遍歷 attribute 就會帶來效能問題。除非你的 data model 簡單到不需要 join，不然 ORM 會讓你花更多時間在理解其產生的 SQL 語法。</p>\n\n<p>ORM 也會造成兩份 schema 維護的問題，作者建議還是放在 DB，然後讀到 Application 裡來用會比較好。針對 identity 和 transaction 作者也有提出見解。最後作者說使用 stored procedures 不見得是壞事，但如果你在使用 RDBMS，最好還是學會 SQL 比較好。</p>",
+          "description_markdown": "ORM 提供了我們一個方便的介面，而不需要學會 SQL，即可從資料庫中取得需要的資料。實際上你還是需要學會 SQL，若是 Object 有許多 attribute，ORM 的遍歷 attribute 就會帶來效能問題。除非你的 data model 簡單到不需要 join，不然 ORM 會讓你花更多時間在理解其產生的 SQL 語法。\r\n\r\nORM 也會造成兩份 schema 維護的問題，作者建議還是放在 DB，然後讀到 Application 裡來用會比較好。針對 identity 和 transaction 作者也有提出見解。最後作者說使用 stored procedures 不見得是壞事，但如果你在使用 RDBMS，最好還是學會 SQL 比較好。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QKpmg1k",
+          "type": "Link",
+          "title": "Let’s build a Productivity Timer App with Elm",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@NewMountain/lets-build-a-productivity-timer-app-with-elm-81718a1b4329#.rf631vwgk",
+          "description": "<p>作者因為接觸了蕃茄時間工作法，以及 Elm。決定要使用 Elm 來開發一套有關計時器的生產力工具。</p>\n\n<p>一開始作者先畫了草稿，並且擬定簡單的 Data model 跟 App message。藉由這樣的 planning，作者感受到了和 OOP programming 不一樣的方式。接著作者介紹他使用的環境跟如何開始一個簡單的專案。</p>\n\n<p>透過 update 函式的撰寫，並一一完成需要用到的函式。確保了 message 跟 model 的功能後。最後再將 view 的部分勾勒出來。就這樣作者很順利地完成了 Elm App 的開發。</p>\n\n<p>有興趣的人可以閱讀一下作者的原始碼，感受一下 Elm 是不是真的很容易閱讀呢？</p>",
+          "description_markdown": "作者因為接觸了蕃茄時間工作法，以及 Elm。決定要使用 Elm 來開發一套有關計時器的生產力工具。\r\n\r\n一開始作者先畫了草稿，並且擬定簡單的 Data model 跟 App message。藉由這樣的 planning，作者感受到了和 OOP programming 不一樣的方式。接著作者介紹他使用的環境跟如何開始一個簡單的專案。\r\n\r\n透過 update 函式的撰寫，並一一完成需要用到的函式。確保了 message 跟 model 的功能後。最後再將 view 的部分勾勒出來。就這樣作者很順利地完成了 Elm App 的開發。\r\n\r\n有興趣的人可以閱讀一下作者的原始碼，感受一下 Elm 是不是真的很容易閱讀呢？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QzoEsr5",
+          "type": "Link",
+          "title": "How to correctly use context.Context in Go 1.7",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cep21/how-to-correctly-use-context-context-in-go-1-7-8f2c0fafdf39#.2ly8qodbd",
+          "description": "<p>本篇在教你如何使用 Go 1.7 的新套件 Context。建議先讀完官方<a href=\"https://blog.golang.org/context\">介紹</a>和<a href=\"https://tip.golang.org/pkg/context/\">文件</a>。</p>\n\n<p>目前有兩種方式整合進你的 API：</p>\n\n<ol>\n<li>當做函數的第一個參數</li>\n<li>request 結構下可選擇的 config</li>\n</ol>\n\n\n<p>幾種情況正好適合使用 Context</p>\n\n<ol>\n<li>不想將東西存進 struct</li>\n<li>長時間的阻塞操作</li>\n</ol>\n\n\n<p>有些東西不適合放進 Context.Value (request-scoped values)</p>\n\n<ol>\n<li>database connection</li>\n<li>logger</li>\n</ol>\n\n\n<p>文章的後半部都在講解如何正確使用 Context.Value，有興趣的朋友可以仔細閱讀。</p>",
+          "description_markdown": "本篇在教你如何使用 Go 1.7 的新套件 Context。建議先讀完官方[介紹](https://blog.golang.org/context)和[文件](https://tip.golang.org/pkg/context/)。\r\n\r\n目前有兩種方式整合進你的 API：\r\n\r\n1. 當做函數的第一個參數\r\n2.  request 結構下可選擇的 config\r\n\r\n幾種情況正好適合使用 Context\r\n\r\n1. 不想將東西存進 struct\r\n2. 長時間的阻塞操作\r\n\r\n有些東西不適合放進 Context.Value (request-scoped values)\r\n\r\n1. database connection\r\n2. logger\r\n\r\n文章的後半部都在講解如何正確使用 Context.Value，有興趣的朋友可以仔細閱讀。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "P8OnvBc",
+              "title": "介紹",
+              "url_domain": "golang.org",
+              "url": "https://blog.golang.org/context"
+            },
+            {
+              "identifier": "RLBxr4T",
+              "title": "文件",
+              "url_domain": "golang.org",
+              "url": "https://tip.golang.org/pkg/context/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

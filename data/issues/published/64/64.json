@@ -1,0 +1,500 @@
+{
+  "number": 64,
+  "title": "Issue 64 奧卡姆剃刀法則：因為需要改的地方太多了，那就改天吧",
+  "summary": "本期內容涵蓋 Python, iOS, Ruby, Go, RESTful API, RPC, Search, UX, JavaScript, ECMAScript 6, Microservice, Node.js, Functional Programming",
+  "url": "https://weekly.codetengu.com/issues/64",
+  "publication_status": "published",
+  "published_at": "2016-10-17T03:00:00+01:00",
+  "updated_at": "2016-10-19T20:23:43+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob\">We Are Legion (We Are Bob)</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://www.youtube.com/watch?v=u7rSnc7mYC4\">妙蛙種子破音</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [We Are Legion (We Are Bob)](https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [妙蛙種子破音](https://www.youtube.com/watch?v=u7rSnc7mYC4)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "BFySgav",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "bLSzuu",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "gqCO78s",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "D6uYp6F",
+              "title": "We Are Legion (We Are Bob)",
+              "url_domain": "goodreads.com",
+              "url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob"
+            },
+            {
+              "identifier": "WYNq2hR",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "cZIe5lT",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "iG1GErX",
+              "title": "妙蛙種子破音",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=u7rSnc7mYC4"
+            },
+            {
+              "identifier": "jFc0mwh",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "wcPMxSA",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "oNf27IA",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "Scm6mqO",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "wvXQF49",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "OphFRcg",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "JleeXMw",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "TMfDFyS",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "siCux2K",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "FsDsmFA",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "2TqgMWa",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "MI9HELo",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "WddXoMA",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "hgDIfNR",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "SEADXbl",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "LTsxka",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Pgqf7kN",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "CqdQM0d",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "WtkUHVt",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "f07mDWF",
+          "type": "Link",
+          "title": "Asynchronous Python",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/asynchronous-python-45df84b82434",
+          "description": "<p>這篇文章簡單介紹了異步程式的概念，以及異步程式中的技術與 paradigms，並帶出許多常見的關鍵字，例如 greenlets、event loop、callbacks、coroutines 等等。</p>\n\n<p>異步程式並不難，但它是許多過去技術的結合，所以我們在介紹它時，常會扯到太多相關的東西；沒有相關背景知識的人會因此卻不，因為一上來就聽不懂了。這篇文章很適合當起點。看完了大概還是不會寫異步程式，但可以藉此知道一些基礎知識，把學習曲線降低後，就不會被其他文章搞得昏頭轉向。</p>",
+          "description_markdown": "這篇文章簡單介紹了異步程式的概念，以及異步程式中的技術與 paradigms，並帶出許多常見的關鍵字，例如 greenlets、event loop、callbacks、coroutines 等等。\r\n\r\n異步程式並不難，但它是許多過去技術的結合，所以我們在介紹它時，常會扯到太多相關的東西；沒有相關背景知識的人會因此卻不，因為一上來就聽不懂了。這篇文章很適合當起點。看完了大概還是不會寫異步程式，但可以藉此知道一些基礎知識，把學習曲線降低後，就不會被其他文章搞得昏頭轉向。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "nC2LxsW",
+          "type": "Link",
+          "title": "The decline of Stack Overflow",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/the-decline-of-stack-overflow-7cb69faa575d",
+          "description": "<p>你看 Stack Overflow 嗎？這是個蠢問題，現在哪個寫程式的人不看 Stack Overflow。但你有在上面問過問題嗎？你有在上面<strong>解答</strong>過別人的問題嗎？</p>\n\n<p>根據 2015 年六月的數據，Stack Overflow 目前有超過四十萬註冊使用者，以及將近十萬個問題。但根據 <a href=\"http://www.webcitation.org/6NeNOY5oR\">2013 年的研究</a>，77% 的使用者只問過一個問題，65% 只回答過一個問題，只有 8% 使用者回答超過五個問題。這個參與數據對一般網站是非常糟糕的數據，作者認為代表 Stack Overflow 的衰敗。</p>\n\n<p>就我自己的經驗，Stack Overflow 確實在許多方面有問題。它的 single sign-on 機制非常糟糕（雖然現在似乎修好了），新使用者登入之後的動線也非常不明確。即使你找到了可以回答的問題，Stack Overflow 的規則也會讓你難以完整、正確地回答，而容易被其他使用者搶快。重複的回答，即使更完整或更正確，只要速度輸人，就很容易得到負面評論、甚至 downvote。沒有得到 accepted 回答的舊問題也缺乏管理，很多問題其實早已有好的回答，但只要發問人沒有回來 accept，它們永遠都會維持 unanswered 狀態。</p>\n\n<p>如果你想問問題，情況也不太好。站上已有的問題數量很容易讓 moderators 找到相似的舊問題，進而將你的問題提報為 duplicate——即使它們並不是。Stack Overflow 完全民主、公開、存粹只靠分數決定使用者權力的規則，讓 moderators 完全不需相關領域經驗，也可以審查所有文章。只要有規則，就會有玩弄規則的人。這兩個因素結合起來，使得 Stack Overflow 充斥著專業不足，又擁有過大權力、無法制衡的 <em>privileged trolls</em>。</p>\n\n<p>當然，Stack Overflow 仍然是非常成功的網站。他為我們帶來極大量、非常有用的資源，原文下面的留言有非常多的成功案例，許多有名氣的使用者也指出它在許多方面仍然做得非常好。這些都是真的，毫無疑問。最近新推出的<a href=\"https://blog.stackoverflow.com/2016/07/introducing-stack-overflow-documentation-beta/\">文件功能</a>也能夠活用這些零碎資源，組織成更有系統的知識。這也是好事。但它最原本的目的\n——問答網站——也似乎確實走到了瓶頸，那套 Atwood <a href=\"https://blog.codinghorror.com/the-gamification/\">引以為傲</a>、從遊戲發想的完全公開、民主、有機、自治系統，在 scaling 上也顯現疲態，似乎需要重構。我們需要 Stack Overflow，過去如此，現在如此，未來也仍然如此。但它並非完美，仍然需要反省與改善。</p>",
+          "description_markdown": "你看 Stack Overflow 嗎？這是個蠢問題，現在哪個寫程式的人不看 Stack Overflow。但你有在上面問過問題嗎？你有在上面**解答**過別人的問題嗎？\r\n\r\n根據 2015 年六月的數據，Stack Overflow 目前有超過四十萬註冊使用者，以及將近十萬個問題。但根據 [2013 年的研究](http://www.webcitation.org/6NeNOY5oR)，77% 的使用者只問過一個問題，65% 只回答過一個問題，只有 8% 使用者回答超過五個問題。這個參與數據對一般網站是非常糟糕的數據，作者認為代表 Stack Overflow 的衰敗。\r\n\r\n就我自己的經驗，Stack Overflow 確實在許多方面有問題。它的 single sign-on 機制非常糟糕（雖然現在似乎修好了），新使用者登入之後的動線也非常不明確。即使你找到了可以回答的問題，Stack Overflow 的規則也會讓你難以完整、正確地回答，而容易被其他使用者搶快。重複的回答，即使更完整或更正確，只要速度輸人，就很容易得到負面評論、甚至 downvote。沒有得到 accepted 回答的舊問題也缺乏管理，很多問題其實早已有好的回答，但只要發問人沒有回來 accept，它們永遠都會維持 unanswered 狀態。\r\n\r\n如果你想問問題，情況也不太好。站上已有的問題數量很容易讓 moderators 找到相似的舊問題，進而將你的問題提報為 duplicate——即使它們並不是。Stack Overflow 完全民主、公開、存粹只靠分數決定使用者權力的規則，讓 moderators 完全不需相關領域經驗，也可以審查所有文章。只要有規則，就會有玩弄規則的人。這兩個因素結合起來，使得 Stack Overflow 充斥著專業不足，又擁有過大權力、無法制衡的 *privileged trolls*。\r\n\r\n當然，Stack Overflow 仍然是非常成功的網站。他為我們帶來極大量、非常有用的資源，原文下面的留言有非常多的成功案例，許多有名氣的使用者也指出它在許多方面仍然做得非常好。這些都是真的，毫無疑問。最近新推出的[文件功能](https://blog.stackoverflow.com/2016/07/introducing-stack-overflow-documentation-beta/)也能夠活用這些零碎資源，組織成更有系統的知識。這也是好事。但它最原本的目的\r\n——問答網站——也似乎確實走到了瓶頸，那套 Atwood [引以為傲](https://blog.codinghorror.com/the-gamification/)、從遊戲發想的完全公開、民主、有機、自治系統，在 scaling 上也顯現疲態，似乎需要重構。我們需要 Stack Overflow，過去如此，現在如此，未來也仍然如此。但它並非完美，仍然需要反省與改善。",
+          "embedded_links": [
+            {
+              "identifier": "dZdpW85",
+              "title": "2013 年的研究",
+              "url_domain": "webcitation.org",
+              "url": "http://www.webcitation.org/6NeNOY5oR"
+            },
+            {
+              "identifier": "UGiiY40",
+              "title": "文件功能",
+              "url_domain": "stackoverflow.com",
+              "url": "https://blog.stackoverflow.com/2016/07/introducing-stack-overflow-documentation-beta/"
+            },
+            {
+              "identifier": "lelTrB7",
+              "title": "引以為傲",
+              "url_domain": "codinghorror.com",
+              "url": "https://blog.codinghorror.com/the-gamification/"
+            }
+          ]
+        },
+        {
+          "identifier": "C79f2Xq",
+          "type": "Link",
+          "title": "A critical analysis of the iOS 10 lockscreen experience",
+          "url_domain": "uxdesign.cc",
+          "url": "https://uxdesign.cc/a-critical-analysis-of-the-ios-10-lockscreen-experience-726ddfba3c1a",
+          "description": "<p>iOS 10 最大的改變應該是 lock screen 吧，畢竟它是所有使用者最常看到的畫面。作者詳細分析了 iOS 9 與 10 裡 lock screen 的差別，並評價各種操作模式的優劣。幾個教訓：</p>\n\n<ul>\n<li>在可以水平捲動的視窗中加上水平滑動手勢不是個好主意。</li>\n<li><a href=\"https://www.nngroup.com/articles/ten-usability-heuristics/\">尼爾森啟發法</a>告訴我們：\n\n<ul>\n<li>好的錯誤訊息很重要，但以細心設計避免錯誤產生則更為優秀。</li>\n<li>使用者不應需要理解不同字詞、狀況、動作是否代表同一件事。</li>\n</ul>\n</li>\n<li>在不同 z-index 中加上多餘的訊息，會導致過度複雜的概念模型。</li>\n<li>過少的視覺提示與標誌可能造成錯誤使用。</li>\n</ul>",
+          "description_markdown": "iOS 10 最大的改變應該是 lock screen 吧，畢竟它是所有使用者最常看到的畫面。作者詳細分析了 iOS 9 與 10 裡 lock screen 的差別，並評價各種操作模式的優劣。幾個教訓：\r\n\r\n* 在可以水平捲動的視窗中加上水平滑動手勢不是個好主意。\r\n* [尼爾森啟發法](https://www.nngroup.com/articles/ten-usability-heuristics/)告訴我們：\r\n    * 好的錯誤訊息很重要，但以細心設計避免錯誤產生則更為優秀。\r\n    * 使用者不應需要理解不同字詞、狀況、動作是否代表同一件事。\r\n* 在不同 z-index 中加上多餘的訊息，會導致過度複雜的概念模型。\r\n* 過少的視覺提示與標誌可能造成錯誤使用。",
+          "embedded_links": [
+            {
+              "identifier": "mSZXmyt",
+              "title": "尼爾森啟發法",
+              "url_domain": "nngroup.com",
+              "url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+            }
+          ],
+          "image_original_filename": "69dd2b80-f86a-440d-844d-1869e0fbb05d.png",
+          "image_extra_large_filename": "original_ratio_extra_large_69dd2b80-f86a-440d-844d-1869e0fbb05d.png",
+          "image_medium_filename": "original_ratio_medium_69dd2b80-f86a-440d-844d-1869e0fbb05d.png"
+        },
+        {
+          "identifier": "cHaT2qb",
+          "type": "Link",
+          "title": "Ruby vs Python, the Definitive FAQ",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/ruby-vs-python-the-definitive-faq-5cb0046292be",
+          "description": "<p>該選 Python 還是 Ruby？這絕對是我看過最中肯最客觀的比較文。不服來戰。</p>",
+          "description_markdown": "該選 Python 還是 Ruby？這絕對是我看過最中肯最客觀的比較文。不服來戰。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "2Ci3MXX",
+          "type": "Link",
+          "title": "[影片] GopherCon 2016: Renee French - The Go Gopher A Character Study",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=4rw_B4yY69k&list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P&index=12",
+          "description": "<p>Rob Pike 的老婆 Renée French 也就是眾所皆知的 Gopher  圖形發明者，</p>\n\n<p>講解了 Gopher 的發明過程．這段影片沒有任何程式碼但是相當有趣．</p>\n\n<p>也可以看到許多可愛的 Gopher 圖案，還有 Gopher 圖案的設計規範與理念．</p>",
+          "description_markdown": "Rob Pike 的老婆 Renée French 也就是眾所皆知的 Gopher  圖形發明者，\r\n\r\n講解了 Gopher 的發明過程．這段影片沒有任何程式碼但是相當有趣． \r\n\r\n也可以看到許多可愛的 Gopher 圖案，還有 Gopher 圖案的設計規範與理念．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OTQ46Bx",
+          "type": "Link",
+          "title": "Take a REST with HTTP/2, Protobufs, and Swagger",
+          "url_domain": "coreos.com",
+          "url": "https://coreos.com/blog/gRPC-protobufs-swagger.html",
+          "description": "<p>GRPC 大家用了沒？ 是不是因為還不想把手邊的 RESTful API 換掉而沒有改到 GRPC ?\nCoreOS 展示如何透導入 GRPC 後，依舊有 RESTful API 並且有 Swagger 的服務。</p>\n\n<p>相關議題，其實有上 Google Cloud Platform Podcast，想聽聽訪問的可以聽聽看 CoreOS CTO 如何解釋：</p>\n\n<p><a href=\"https://www.gcppodcast.com/post/episode-43-grpc-with-brandon-philips/\">gRPC at CoreOS with Brandon Philips | Google Cloud Platform Podcast</a></p>\n\n<p>此外，如果有人想了解為何要從 Rest API 換到 GRPC  ，可以參考 <a href=\"http://www.grpc.io/faq/\">GRPC 的 FAQ</a></p>\n\n<pre><code>gRPC largely follows HTTP semantics over HTTP/2 but we explicitly allow for full-duplex streaming. We diverge from typical REST conventions as we use static paths for performance reasons during call dispatch as parsing call parameters from paths, query parameters and payload body adds latency and complexity. We have also formalized a set of errors that we believe are more directly applicable to API uses cases than the HTTP status codes.\n</code></pre>",
+          "description_markdown": "GRPC 大家用了沒？ 是不是因為還不想把手邊的 RESTful API 換掉而沒有改到 GRPC ?\r\nCoreOS 展示如何透導入 GRPC 後，依舊有 RESTful API 並且有 Swagger 的服務。\r\n\r\n相關議題，其實有上 Google Cloud Platform Podcast，想聽聽訪問的可以聽聽看 CoreOS CTO 如何解釋：\r\n\r\n[gRPC at CoreOS with Brandon Philips | Google Cloud Platform Podcast](https://www.gcppodcast.com/post/episode-43-grpc-with-brandon-philips/)\r\n\r\n\r\n此外，如果有人想了解為何要從 Rest API 換到 GRPC  ，可以參考 [GRPC 的 FAQ](http://www.grpc.io/faq/) \r\n\r\n```\r\ngRPC largely follows HTTP semantics over HTTP/2 but we explicitly allow for full-duplex streaming. We diverge from typical REST conventions as we use static paths for performance reasons during call dispatch as parsing call parameters from paths, query parameters and payload body adds latency and complexity. We have also formalized a set of errors that we believe are more directly applicable to API uses cases than the HTTP status codes.\r\n```",
+          "embedded_links": [
+            {
+              "identifier": "5B59h8b",
+              "title": "gRPC at CoreOS with Brandon Philips | Google Cloud Platform Podcast",
+              "url_domain": "gcppodcast.com",
+              "url": "https://www.gcppodcast.com/post/episode-43-grpc-with-brandon-philips/"
+            },
+            {
+              "identifier": "bmNBErN",
+              "title": "GRPC 的 FAQ",
+              "url_domain": "grpc.io",
+              "url": "http://www.grpc.io/faq/"
+            }
+          ]
+        },
+        {
+          "identifier": "RzKYgQ7",
+          "type": "Link",
+          "title": "smallnest/rpcx: rpcx is a distributed RPC service framework based on net/rpc like alibaba Dubbo and weibo Motan. One of best performance RPC frameworks.",
+          "url_domain": "github.com",
+          "url": "https://github.com/smallnest/rpcx",
+          "description": "<p>這個 RPC Service 透過分散式的方式來提供更好的 RPC 效能，甚至遠遠超過 <a href=\"http://www.grpc.io/\">GRPC</a> 與 <a href=\"http://dubbo.io/\">Alibaba Dubbo</a> 與 <a href=\"https://github.com/weibocom/motan\">Weibe Motan</a></p>\n\n<p>除了速度快，更有以下的特點:</p>\n\n<ul>\n<li>支援多種資料格式 json, protobuf, gob</li>\n<li>支援多種 discovery service: zookeeper, etcd</li>\n<li>由於根據 <code>net/rpc</code> 寫成，使用原生套件的人可以很快速的轉換過來．</li>\n<li>支援 Load Balancer</li>\n</ul>",
+          "description_markdown": "這個 RPC Service 透過分散式的方式來提供更好的 RPC 效能，甚至遠遠超過 [GRPC](http://www.grpc.io/) 與 [Alibaba Dubbo](http://dubbo.io/) 與 [Weibe Motan](https://github.com/weibocom/motan)\r\n\r\n除了速度快，更有以下的特點:\r\n\r\n- 支援多種資料格式 json, protobuf, gob\r\n- 支援多種 discovery service: zookeeper, etcd\r\n- 由於根據 `net/rpc` 寫成，使用原生套件的人可以很快速的轉換過來．\r\n- 支援 Load Balancer",
+          "embedded_links": [
+            {
+              "identifier": "CJoyEZj",
+              "title": "GRPC",
+              "url_domain": "grpc.io",
+              "url": "http://www.grpc.io/"
+            },
+            {
+              "identifier": "szhPkfE",
+              "title": "Alibaba Dubbo",
+              "url_domain": "dubbo.io",
+              "url": "http://dubbo.io/"
+            },
+            {
+              "identifier": "EhBfTxb",
+              "title": "Weibe Motan",
+              "url_domain": "github.com",
+              "url": "https://github.com/weibocom/motan"
+            }
+          ]
+        },
+        {
+          "identifier": "CpRhFqQ",
+          "type": "Link",
+          "title": "I’m joining the Go team at Google",
+          "url_domain": "spf13.com",
+          "url": "http://spf13.com/post/joining-go-team-at-google?utm_content=bufferccb52&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>Steve Francia (spf13) 也就是 viper ， cobra 與 Hugo 的作者．</p>\n\n<p>寫文章宣布他加入了 Google Golang Team ．</p>\n\n<p>長達九年在做身為自我創業 spf13 lab 的經營者，也當過 docker 顧問的 ．</p>\n\n<p>Steve Francia 也講解了，之後他在 Google Go team 的角色扮演與期許． 很值得一看．</p>",
+          "description_markdown": "Steve Francia (spf13) 也就是 viper ， cobra 與 Hugo 的作者．\r\n\r\n寫文章宣布他加入了 Google Golang Team ． \r\n\r\n長達九年在做身為自我創業 spf13 lab 的經營者，也當過 docker 顧問的 ．\r\n\r\nSteve Francia 也講解了，之後他在 Google Go team 的角色扮演與期許． 很值得一看．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Ti1zkPG",
+          "type": "Link",
+          "title": "huichen/wukong: 高度可定制的全文搜索引擎",
+          "url_domain": "github.com",
+          "url": "https://github.com/huichen/wukong",
+          "description": "<p>huichen/wukong 悟空： 簡體全文搜尋引擎\n支援簡體斷詞，變且可以客製化的全文搜尋引擎．\n至於全文搜尋引擎那麼多，為何還要做一個？ 以下來自官方的解釋:</p>\n\n<ul>\n<li>需要有客製化的全文搜尋功能</li>\n<li>要能夠垂直整合</li>\n<li>即時反應</li>\n<li>結果排序法則需要訂製</li>\n</ul>",
+          "description_markdown": "huichen/wukong 悟空： 簡體全文搜尋引擎\r\n支援簡體斷詞，變且可以客製化的全文搜尋引擎．\r\n至於全文搜尋引擎那麼多，為何還要做一個？ 以下來自官方的解釋:\r\n\r\n- 需要有客製化的全文搜尋功能\r\n- 要能夠垂直整合\r\n- 即時反應\r\n- 結果排序法則需要訂製",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "MV9PInK",
+          "type": "Link",
+          "title": "Your team needs a UX engineer",
+          "url_domain": "keithjgrant.com",
+          "url": "http://keithjgrant.com/posts/your-team-needs-a-ux-engineer.html",
+          "description": "<p>因為標題的緣故就聯想到，最近有<a href=\"http://youmightnotneedjs.com/\">你可能不需要 JS </a>跟<a href=\"http://hugogiraudel.com/2016/10/13/you-might-need-javascript/\">你可能需要 JS </a>這兩篇。</p>\n\n<p>不過這篇跟前面兩篇文章都沒關係，主要在講團隊中必須要有一個 UX 工程師。\n要注意這篇特別強調的是 UX <strong>工程師</strong>，所以這位工程師必須要會寫 js 和 css。</p>\n\n<p>作者說當團隊人數長到 4~5 個人的時候，你就必須要考慮有一位專職的 UX 工程師負責撰寫 css。\n這位 UX 工程師必須負責 CSS 和 accessibility ，還要維護團隊的 pattern library，讓其他工程師負責商業邏輯的部分。</p>\n\n<p>個人之前很幸運有跟 UX 工程師合作過，所以希望各公司也可以考慮一下 CSS Developer 或 UX Engineer 這樣的職缺。讓團隊的分工更明確，使彼此都能有更多的產出。</p>",
+          "description_markdown": "因為標題的緣故就聯想到，最近有[你可能不需要 JS ](http://youmightnotneedjs.com/)跟[你可能需要 JS ](http://hugogiraudel.com/2016/10/13/you-might-need-javascript/)這兩篇。\r\n\r\n不過這篇跟前面兩篇文章都沒關係，主要在講團隊中必須要有一個 UX 工程師。\r\n要注意這篇特別強調的是 UX **工程師**，所以這位工程師必須要會寫 js 和 css。\r\n\r\n作者說當團隊人數長到 4~5 個人的時候，你就必須要考慮有一位專職的 UX 工程師負責撰寫 css。\r\n這位 UX 工程師必須負責 CSS 和 accessibility ，還要維護團隊的 pattern library，讓其他工程師負責商業邏輯的部分。\r\n\r\n個人之前很幸運有跟 UX 工程師合作過，所以希望各公司也可以考慮一下 CSS Developer 或 UX Engineer 這樣的職缺。讓團隊的分工更明確，使彼此都能有更多的產出。\r\n\r\n\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "qXxugMU",
+              "title": "你可能不需要 JS ",
+              "url_domain": "youmightnotneedjs.com",
+              "url": "http://youmightnotneedjs.com/"
+            },
+            {
+              "identifier": "lSe7wU7",
+              "title": "你可能需要 JS ",
+              "url_domain": "hugogiraudel.com",
+              "url": "http://hugogiraudel.com/2016/10/13/you-might-need-javascript/"
+            }
+          ]
+        },
+        {
+          "identifier": "HEmEQwM",
+          "type": "Link",
+          "title": "styled-components",
+          "url_domain": "styled-components.com",
+          "url": "https://styled-components.com/",
+          "description": "<p>由 <a href=\"https://twitter.com/glenmaddern\">Glen Maddern</a> 跟 <a href=\"https://twitter.com/mxstbr\">Max Stoiber</a> 共同開發的新作品。\n有在接觸 React 社群的朋友對這兩位應該都很熟悉，前者是 <a href=\"https://github.com/css-modules/css-modules\">CSS Modules</a> 的貢獻者之一，而後者是 <a href=\"https://github.com/mxstbr/react-boilerplate\">react-boilerplate</a> 的作者。</p>\n\n<p>styled-components 利用 ES6 語法的 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals\">tagged template literals</a> 讓 <a href=\"https://speakerdeck.com/vjeux/react-css-in-js\">css-in-js</a> 的語法更接近本來寫 CSS 的時候。而且可以複寫原本元件的樣式。除了支援 media-query 也可以 inject global 的 @font-face，有在寫 css-in-js 或 react-native 的朋友，也許可以考慮用用這個新套件。</p>",
+          "description_markdown": "由 [Glen Maddern](https://twitter.com/glenmaddern) 跟 [Max Stoiber](https://twitter.com/mxstbr) 共同開發的新作品。\r\n有在接觸 React 社群的朋友對這兩位應該都很熟悉，前者是 [CSS Modules](https://github.com/css-modules/css-modules) 的貢獻者之一，而後者是 [react-boilerplate](https://github.com/mxstbr/react-boilerplate) 的作者。\r\n\r\nstyled-components 利用 ES6 語法的 [tagged template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) 讓 [css-in-js](https://speakerdeck.com/vjeux/react-css-in-js) 的語法更接近本來寫 CSS 的時候。而且可以複寫原本元件的樣式。除了支援 media-query 也可以 inject global 的 @font-face，有在寫 css-in-js 或 react-native 的朋友，也許可以考慮用用這個新套件。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "ChI1k4",
+              "title": "Glen Maddern",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/glenmaddern"
+            },
+            {
+              "identifier": "cbpvbWv",
+              "title": "Max Stoiber",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/mxstbr"
+            },
+            {
+              "identifier": "gOwyOY",
+              "title": "CSS Modules",
+              "url_domain": "github.com",
+              "url": "https://github.com/css-modules/css-modules"
+            },
+            {
+              "identifier": "iPaLSJJ",
+              "title": "react-boilerplate",
+              "url_domain": "github.com",
+              "url": "https://github.com/mxstbr/react-boilerplate"
+            },
+            {
+              "identifier": "HRbmAVI",
+              "title": "tagged template literals",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+            },
+            {
+              "identifier": "GiOMVKi",
+              "title": "css-in-js",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/vjeux/react-css-in-js"
+            }
+          ]
+        },
+        {
+          "identifier": "mlHKcRa",
+          "type": "Link",
+          "title": "Developing Transactional Microservices Using Aggregates, Event Sourcing and CQRS - Part 1",
+          "url_domain": "infoq.com",
+          "url": "https://www.infoq.com/articles/microservices-aggregates-events-cqrs-part-1-richardson",
+          "description": "<p>最近 microservice 越來越受到關注，作者 <a href=\"http://www.chrisrichardson.net/\">Chris Richardson</a> 有弄了一個 <a href=\"http://microservices.io/\">microservices.io</a> 也歡迎大家上去找答案。</p>\n\n<p>這篇作者在講怎麼解決 microservice 的 transaction 問題，過去在 monolithic 架構下，可以使用 transaction lock 的方式確保資料一致，但是在 microservice 中卻不適用。</p>\n\n<p>作者建議採用 DDD (Domain-Driven Design) Aggregates，也就是透過 aggregate 把 microservice 下面的 domain objects 視為一個單位，這邊要注意 Primary Key 的使用以及一個 Transaction 配合一個 Aggregate。最後透過 Event 來保持資料的一致性，也就是 CQRS (Command Query Responsibility Segregation) 或 Event sourcing。</p>",
+          "description_markdown": "最近 microservice 越來越受到關注，作者 [Chris Richardson](http://www.chrisrichardson.net/) 有弄了一個 [microservices.io](http://microservices.io/) 也歡迎大家上去找答案。\r\n\r\n這篇作者在講怎麼解決 microservice 的 transaction 問題，過去在 monolithic 架構下，可以使用 transaction lock 的方式確保資料一致，但是在 microservice 中卻不適用。\r\n\r\n作者建議採用 DDD (Domain-Driven Design) Aggregates，也就是透過 aggregate 把 microservice 下面的 domain objects 視為一個單位，這邊要注意 Primary Key 的使用以及一個 Transaction 配合一個 Aggregate。最後透過 Event 來保持資料的一致性，也就是 CQRS (Command Query Responsibility Segregation) 或 Event sourcing。",
+          "embedded_links": [
+            {
+              "identifier": "PmCvmOq",
+              "title": "Chris Richardson",
+              "url_domain": "chrisrichardson.net",
+              "url": "http://www.chrisrichardson.net/"
+            },
+            {
+              "identifier": "10q5SG8",
+              "title": "microservices.io",
+              "url_domain": "microservices.io",
+              "url": "http://microservices.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "nVIFRC2",
+          "type": "Link",
+          "title": "海納百川：Node.js Streams",
+          "url_domain": "blogspot.tw",
+          "url": "https://simeneer.blogspot.tw/2016/10/nodejs-streams.html",
+          "description": "<p>對 Stream 非常完整的介紹，建議還不知道 stream 是什麼的朋友務必花時間閱讀。</p>\n\n<p>當初 <a href=\"http://gulpjs.com/\">gulpjs</a> 可以快速獲得大家支持就是靠 stream 的魔法！英文好一點的朋友也可以閱讀一下 <a href=\"https://twitter.com/substack\">substack</a> 的 <a href=\"https://github.com/substack/stream-handbook\">stream handbook</a></p>",
+          "description_markdown": "對 Stream 非常完整的介紹，建議還不知道 stream 是什麼的朋友務必花時間閱讀。\r\n\r\n當初 [gulpjs](http://gulpjs.com/) 可以快速獲得大家支持就是靠 stream 的魔法！英文好一點的朋友也可以閱讀一下 [substack](https://twitter.com/substack) 的 [stream handbook](https://github.com/substack/stream-handbook)",
+          "embedded_links": [
+            {
+              "identifier": "MyG9eXD",
+              "title": "gulpjs",
+              "url_domain": "gulpjs.com",
+              "url": "http://gulpjs.com/"
+            },
+            {
+              "identifier": "SaW7zbx",
+              "title": "substack",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/substack"
+            },
+            {
+              "identifier": "Bw24FXi",
+              "title": "stream handbook",
+              "url_domain": "github.com",
+              "url": "https://github.com/substack/stream-handbook"
+            }
+          ]
+        },
+        {
+          "identifier": "LhlPcCW",
+          "type": "Link",
+          "title": "From Callback to Future -> Functor -> Monad",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/from-callback-to-future-functor-monad-6c86d9c16cb5#.uexcqdi81",
+          "description": "<p>對 Functional Programming 想深入了解的朋友，建議可以看看這篇。</p>\n\n<p>當然如果還只是入門階段，可以參考 hannahpun 的<a href=\"http://www.hannahpun.me/basic-functional-javascript2/\">從零開始認識 functional javascript </a>系列。</p>\n\n<p>而一直搞不懂 Functor 或 Monad ，但是對於 javascript 很熟的朋友，這篇會教你從 callback 的概念帶到 Future (Promise)，過程中會讓你明白什麼是 Functor 和 Monad。</p>",
+          "description_markdown": "對 Functional Programming 想深入了解的朋友，建議可以看看這篇。\r\n\r\n當然如果還只是入門階段，可以參考 hannahpun 的[從零開始認識 functional javascript ](http://www.hannahpun.me/basic-functional-javascript2/)系列。\r\n\r\n而一直搞不懂 Functor 或 Monad ，但是對於 javascript 很熟的朋友，這篇會教你從 callback 的概念帶到 Future (Promise)，過程中會讓你明白什麼是 Functor 和 Monad。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "IvrZS9f",
+              "title": "從零開始認識 functional javascript ",
+              "url_domain": "hannahpun.me",
+              "url": "http://www.hannahpun.me/basic-functional-javascript2/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

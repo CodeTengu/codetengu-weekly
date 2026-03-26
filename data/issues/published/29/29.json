@@ -1,0 +1,434 @@
+{
+  "number": 29,
+  "title": "Issue 29 如何靠寫 Java 快速致富？繼承",
+  "summary": "本期內容涵蓋 iOS, Android, TDD, Machine Learning, WordPress, Sketch, JavaScript",
+  "url": "https://weekly.codetengu.com/issues/29",
+  "publication_status": "published",
+  "published_at": "2016-02-08T06:37:06+00:00",
+  "updated_at": "2016-02-08T16:34:40+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "XAjWUAA",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "yi35IUu",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "vRjTM8N",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "2FvmeNl",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "V5VhYv",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "DWXPJUF",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "DoYfTOb",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "htyFspF",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "q4W6qye",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "VC1uchO",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "TSqFhLE",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "DK6Ag0x",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "DHsPxr9",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "atqw4f9",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "9WLi0MQ",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "eEsu3xX",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Elyy2ZD",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "xTUG8en",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "oNnHjif",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "e2J122z",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "vJJDmhd",
+          "type": "Link",
+          "title": "A Serverless REST API in Minutes with Serverless Framework ",
+          "url_domain": "codeship.com",
+          "url": "http://blog.codeship.com/a-serverless-rest-api-in-minutes/",
+          "description": "<p><a href=\"https://github.com/serverless/serverless\">Serverless Framework</a> 透過 <a href=\"https://aws.amazon.com/documentation/lambda/\">AWS Lambda</a> 跟 <a href=\"http://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html\">API Gateway</a> 的組合讓大家不需要再開機器來跑 backend。這是在 AWS Lambda 跟 API Gateway 推出之後就很多人在試的方式，現在有一套相對成熟的 framework 推出來，馬上獲得了大量的關注。</p>\n\n<p>舉出一些特色： AWS Lambda 是 Event-driven 的資源，所以只有在你的 lambda 執行的時候才算錢、不需要去處理 scale 的事情、部署應用超容易。</p>\n\n<p>Serverless framework 提供必要的框架來管理 AWS lambda 跟 API Gateway 讓開發的體驗更好，這個 framework 值得大家的關注。尤其是要從 <a href=\"http://parse.com/\">Parse</a> 出走的人。</p>",
+          "description_markdown": "[Serverless Framework](https://github.com/serverless/serverless) 透過 [AWS Lambda](https://aws.amazon.com/documentation/lambda/) 跟 [API Gateway](http://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html) 的組合讓大家不需要再開機器來跑 backend。這是在 AWS Lambda 跟 API Gateway 推出之後就很多人在試的方式，現在有一套相對成熟的 framework 推出來，馬上獲得了大量的關注。\r\n\r\n舉出一些特色： AWS Lambda 是 Event-driven 的資源，所以只有在你的 lambda 執行的時候才算錢、不需要去處理 scale 的事情、部署應用超容易。\r\n\r\nServerless framework 提供必要的框架來管理 AWS lambda 跟 API Gateway 讓開發的體驗更好，這個 framework 值得大家的關注。尤其是要從 [Parse](http://parse.com/) 出走的人。",
+          "embedded_links": [
+            {
+              "identifier": "GfNasyH",
+              "title": "Serverless Framework",
+              "url_domain": "github.com",
+              "url": "https://github.com/serverless/serverless"
+            },
+            {
+              "identifier": "LElRq2T",
+              "title": "AWS Lambda",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/documentation/lambda/"
+            },
+            {
+              "identifier": "DzETJmm",
+              "title": "API Gateway",
+              "url_domain": "amazon.com",
+              "url": "http://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html"
+            },
+            {
+              "identifier": "7GFYJgF",
+              "title": "Parse",
+              "url_domain": "parse.com",
+              "url": "http://parse.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "CvBKMZX",
+          "type": "Link",
+          "title": "Diffable and mergeable Localizable.strings",
+          "url_domain": "imnotyourson.com",
+          "url": "http://imnotyourson.com/diffable-and-mergeable-localizable-strings/",
+          "description": "<p>不曉得各位 iOS 的開發者都是怎樣處理 Localizable.strings UTF-16 編碼的 git diff 跟 merge 問題的？</p>\n\n<p>上禮拜工作 merge 時一個不小心整包 Localizable.strings 被另一個衝突的 branch 蓋掉，才開始覺得這樣下去真的不行。\n會有這樣的問題是因為 Git 預設不認 UTF-16 的編碼，會視為 binary file，然後 Apple 堅持 .strings 要用 UTF-16 編碼。所以在它身上 git diff, merge 就變得非常難用，也沒辦法在 GitHub 上面看 diff 實在很煩。</p>\n\n<p>最後發現在 build settings 有兩個神奇的屬性，<strong>Set Convert Copied Files</strong> 跟 <strong>Set Strings file Output Encoding</strong>，設好之後以後 Localizable.strings 用 UTF-8 就好勒，功能全解放！</p>",
+          "description_markdown": "不曉得各位 iOS 的開發者都是怎樣處理 Localizable.strings UTF-16 編碼的 git diff 跟 merge 問題的？\r\n\r\n上禮拜工作 merge 時一個不小心整包 Localizable.strings 被另一個衝突的 branch 蓋掉，才開始覺得這樣下去真的不行。\r\n會有這樣的問題是因為 Git 預設不認 UTF-16 的編碼，會視為 binary file，然後 Apple 堅持 .strings 要用 UTF-16 編碼。所以在它身上 git diff, merge 就變得非常難用，也沒辦法在 GitHub 上面看 diff 實在很煩。 \r\n\r\n最後發現在 build settings 有兩個神奇的屬性，**Set Convert Copied Files** 跟 **Set Strings file Output Encoding**，設好之後以後 Localizable.strings 用 UTF-8 就好勒，功能全解放！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "LZZw1yW",
+          "type": "Link",
+          "title": "Constructor Injection to TDD Networking: Is It That Easy?",
+          "url_domain": "qualitycoding.org",
+          "url": "http://qualitycoding.org/networking-constructor-injection/",
+          "description": "<p>這是 <a href=\"https://github.com/jonreid/OCMockito\">OCMokito</a> 的作者寫的 Test Driven Development (TDD) 教學。超入門、初學等級，以 TDD 的方式來介紹寫 Testing 的流程。</p>\n\n<p>有些人可能會覺得之前不是才在吵 <a href=\"http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html\">TDD is dead. Long live testing.</a>，大過年的，不要起爭議啦。</p>\n\n<p>但我覺得啦，說起 TDD：與其說是在寫測試，TDD 的重點反而是設計。而雖然我現在也沒在用 TDD 開發，但學 TDD 時得來的那些設計觀念到現在還是很受用。</p>",
+          "description_markdown": "這是 [OCMokito](https://github.com/jonreid/OCMockito) 的作者寫的 Test Driven Development (TDD) 教學。超入門、初學等級，以 TDD 的方式來介紹寫 Testing 的流程。\r\n\r\n有些人可能會覺得之前不是才在吵 [TDD is dead. Long live testing.](http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html)，大過年的，不要起爭議啦。\r\n\r\n但我覺得啦，說起 TDD：與其說是在寫測試，TDD 的重點反而是設計。而雖然我現在也沒在用 TDD 開發，但學 TDD 時得來的那些設計觀念到現在還是很受用。",
+          "embedded_links": [
+            {
+              "identifier": "jMcfzoH",
+              "title": "OCMokito",
+              "url_domain": "github.com",
+              "url": "https://github.com/jonreid/OCMockito"
+            },
+            {
+              "identifier": "xkMZgKX",
+              "title": "TDD is dead. Long live testing.",
+              "url_domain": "heinemeierhansson.com",
+              "url": "http://david.heinemeierhansson.com/2014/tdd-is-dead-long-live-testing.html"
+            }
+          ]
+        },
+        {
+          "identifier": "6PvzW0i",
+          "type": "Link",
+          "title": "Improving UX with RxJava",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@diolor/improving-ux-with-rxjava-4440a13b157f#.s16plhwdb",
+          "description": "<p>Reactive Programming 很適合拿來處理一些不可預測的狀態，這也就是為什麼都是 Frontend 在紅 Reactive Programming 了。Netflix 應該是少數在 backend 也實作 Reactive Programming 的吧？(<a href=\"http://techblog.netflix.com/2013/01/reactive-programming-at-netflix.html\">Reactive Programming at Netflix</a>)</p>\n\n<p>扯遠啦，總之 UI 操作介面跟喜怒無常的網路狀態都是很適合讓 Reactive Programming 發揮優勢的場合，這篇文章針對這兩個主題提了例子跟解法。</p>",
+          "description_markdown": "Reactive Programming 很適合拿來處理一些不可預測的狀態，這也就是為什麼都是 Frontend 在紅 Reactive Programming 了。Netflix 應該是少數在 backend 也實作 Reactive Programming 的吧？([Reactive Programming at Netflix](http://techblog.netflix.com/2013/01/reactive-programming-at-netflix.html))\r\n\r\n扯遠啦，總之 UI 操作介面跟喜怒無常的網路狀態都是很適合讓 Reactive Programming 發揮優勢的場合，這篇文章針對這兩個主題提了例子跟解法。",
+          "embedded_links": [
+            {
+              "identifier": "p8RXzvv",
+              "title": "Reactive Programming at Netflix",
+              "url_domain": "netflix.com",
+              "url": "http://techblog.netflix.com/2013/01/reactive-programming-at-netflix.html"
+            }
+          ]
+        },
+        {
+          "identifier": "BlROi9Y",
+          "type": "Link",
+          "title": "APK 瘦身实践",
+          "url_domain": "jayfeng.com",
+          "url": "http://www.jayfeng.com/2015/12/29/APK%E7%98%A6%E8%BA%AB%E5%AE%9E%E8%B7%B5/index.html",
+          "description": "<p>Android APK 瘦身的經驗談，最有效果的果然還是圖片的壓縮跟取捨，雖然有些還蠻極限操作的，但整體來說很實用！</p>\n\n<p>我是寫程式打工的，而我寫程式的原則是：</p>\n\n<p>「幹你娘 code 爆」</p>\n\n<p>沒錯，就是幹你娘 code 爆，老子才不管甚麼設計輸出圖檔三小的，每次寫的 UI code 就是姬芭一大包。顏色效果用程式寫，動畫用程式寫。所有的元件建構式都要帶 style 屬性，跟把「所見即所得」這四個字當作沒聽過一樣。</p>\n\n<p>我還記得，我刻第 25 個 UI 元件那時候，經理跑來跟我說，app 上有 26 個地方跟設計畫的不一樣，你有頭緒嗎？</p>\n\n<p>我他媽的怎麼會知道。</p>",
+          "description_markdown": "Android APK 瘦身的經驗談，最有效果的果然還是圖片的壓縮跟取捨，雖然有些還蠻極限操作的，但整體來說很實用！\r\n\r\n我是寫程式打工的，而我寫程式的原則是：\r\n\r\n「幹你娘 code 爆」  \r\n\r\n沒錯，就是幹你娘 code 爆，老子才不管甚麼設計輸出圖檔三小的，每次寫的 UI code 就是姬芭一大包。顏色效果用程式寫，動畫用程式寫。所有的元件建構式都要帶 style 屬性，跟把「所見即所得」這四個字當作沒聽過一樣。\r\n\r\n我還記得，我刻第 25 個 UI 元件那時候，經理跑來跟我說，app 上有 26 個地方跟設計畫的不一樣，你有頭緒嗎？\r\n\r\n我他媽的怎麼會知道。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "wbWBH28",
+          "type": "Link",
+          "title": "How an AI Algorithm Learned to Write Political Speeches",
+          "url_domain": "technologyreview.com",
+          "url": "http://www.technologyreview.com/view/545606/how-an-ai-algorithm-learned-to-write-political-speeches/",
+          "description": "<p>美國已故總統甘乃迪的經典名言：</p>\n\n<blockquote><p>Ask not what your country can do for you; ask what you can do for your country.</p></blockquote>\n\n<p>這句話著實有點迷惑人，但其他大部份的政治演說都有既定的形式與詞彙，我們有辦法讓機器學習寫出政治演說，做成一個政治演說產生器嗎？本篇文章就是在討論這個問題，也分享了相關程式碼在 <a href=\"https://github.com/valentin012/conspeech\">GitHub</a> 上，大家可以照著 <a href=\"https://github.com/valentin012/conspeech/blob/master/con_speech.ipynb\">iPython Notebook</a> 做做看，也許使用了這個程式，總統在備詢時就可以隨時照稿子念了吧！</p>",
+          "description_markdown": "美國已故總統甘乃迪的經典名言：\r\n\r\n> Ask not what your country can do for you; ask what you can do for your country.\r\n\r\n這句話著實有點迷惑人，但其他大部份的政治演說都有既定的形式與詞彙，我們有辦法讓機器學習寫出政治演說，做成一個政治演說產生器嗎？本篇文章就是在討論這個問題，也分享了相關程式碼在 [GitHub](https://github.com/valentin012/conspeech) 上，大家可以照著 [iPython Notebook](https://github.com/valentin012/conspeech/blob/master/con_speech.ipynb) 做做看，也許使用了這個程式，總統在備詢時就可以隨時照稿子念了吧！",
+          "embedded_links": [
+            {
+              "identifier": "ykadco8",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/valentin012/conspeech"
+            },
+            {
+              "identifier": "ahQTRAO",
+              "title": "iPython Notebook",
+              "url_domain": "github.com",
+              "url": "https://github.com/valentin012/conspeech/blob/master/con_speech.ipynb"
+            }
+          ]
+        },
+        {
+          "identifier": "jFqzj0E",
+          "type": "Link",
+          "title": "Analyzing 50k fonts using deep neural networks",
+          "url_domain": "erikbern.com",
+          "url": "http://erikbern.com/2016/01/21/analyzing-50k-fonts-using-deep-neural-networks/",
+          "description": "<p>本篇文章是 <a href=\"https://twitter.com/fulhack\">@Erik Bernhardsson</a> 一時無聊做的，首先使用 <a href=\"http://scrapy.org/\">Scrapy</a> 從網路上抓取了約莫 5 萬個字形，最後再試圖跑 deep learning 讓機器學會創造新的字型，相關的<a href=\"https://github.com/erikbern/deep-fonts/blob/master/model.py\">程式碼</a>作者也有分享出來，不過跑一次要幾週的時間，大家可以斟酌一下。</p>\n\n<p>其實關於字型相關的 Machine Learning 應用，我最近有發現一個還蠻有趣的 Project - <a href=\"http://blog.otoro.net/2015/12/28/recurrent-net-dreams-up-fake-chinese-characters-in-vector-format-with-tensorflow/\">Recurrent Net Dreams Up Fake Chinese Characters in Vector Format with TensorFlow</a>，可以用機器來創造無意義的中文假字，想出這個計劃的人真的很天才（還是很無聊？）！</p>",
+          "description_markdown": "本篇文章是 [@Erik Bernhardsson](https://twitter.com/fulhack) 一時無聊做的，首先使用 [Scrapy](http://scrapy.org/) 從網路上抓取了約莫 5 萬個字形，最後再試圖跑 deep learning 讓機器學會創造新的字型，相關的[程式碼](https://github.com/erikbern/deep-fonts/blob/master/model.py)作者也有分享出來，不過跑一次要幾週的時間，大家可以斟酌一下。\r\n\r\n其實關於字型相關的 Machine Learning 應用，我最近有發現一個還蠻有趣的 Project - [Recurrent Net Dreams Up Fake Chinese Characters in Vector Format with TensorFlow](http://blog.otoro.net/2015/12/28/recurrent-net-dreams-up-fake-chinese-characters-in-vector-format-with-tensorflow/)，可以用機器來創造無意義的中文假字，想出這個計劃的人真的很天才（還是很無聊？）！",
+          "embedded_links": [
+            {
+              "identifier": "plKxc15",
+              "title": "@Erik Bernhardsson",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fulhack"
+            },
+            {
+              "identifier": "IUpaWZi",
+              "title": "Scrapy",
+              "url_domain": "scrapy.org",
+              "url": "http://scrapy.org/"
+            },
+            {
+              "identifier": "wVh7CLR",
+              "title": "程式碼",
+              "url_domain": "github.com",
+              "url": "https://github.com/erikbern/deep-fonts/blob/master/model.py"
+            },
+            {
+              "identifier": "hnvkb8T",
+              "title": "Recurrent Net Dreams Up Fake Chinese Characters in Vector Format with TensorFlow",
+              "url_domain": "otoro.net",
+              "url": "http://blog.otoro.net/2015/12/28/recurrent-net-dreams-up-fake-chinese-characters-in-vector-format-with-tensorflow/"
+            }
+          ]
+        },
+        {
+          "identifier": "kCxh4B",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第 11 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-jiang-xue-xi-bi-ji-2/",
+          "description": "<p>在上一講中我們了解了 Logistic Regression 演算法並了解了如何使用 Logistic Regression 來預測心臟病發病機率這樣的問題，這一講中將延伸之前學過的演算法，在理論上說明 Linear Regression 以及 Logistic Regression 都可以用來解 Binary Classification 的問題。學會了 Binary Classification 之後，我們也可以用這樣的技巧來解 Multi-Classification 的問題。</p>",
+          "description_markdown": "在上一講中我們了解了 Logistic Regression 演算法並了解了如何使用 Logistic Regression 來預測心臟病發病機率這樣的問題，這一講中將延伸之前學過的演算法，在理論上說明 Linear Regression 以及 Logistic Regression 都可以用來解 Binary Classification 的問題。學會了 Binary Classification 之後，我們也可以用這樣的技巧來解 Multi-Classification 的問題。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "s4glyjU",
+          "type": "Link",
+          "title": "WordPress and Laravel",
+          "url_domain": "laravel-news.com",
+          "url": "https://laravel-news.com/2016/01/wordpress-and-laravel/",
+          "description": "<p>WordPress 目前還是世界上最受歡迎的部落格平台，很多人習慣使用 WordPress 來發佈文章、管理內容或是照片等等，雖然許多程序員近幾年來積極推廣使用 Markdown 寫作平台，但真正的文字工作者還是離不開 WordPress。因此漸漸發展出了後台管理介面使用 WordPress ，但前台使用其他 Framework 如 Laravel 等來呈現，以方便程序員開發功能。</p>\n\n<p>本篇文章就介紹了如何快速地建立後台 WordPress 前台 Laravel 的架構，據說 <a href=\"https://streetvoice.com/\">StreetVoice</a> 也有一些網站是使用這樣的架構，只是前台採用的 Framework 是 Django。</p>",
+          "description_markdown": "WordPress 目前還是世界上最受歡迎的部落格平台，很多人習慣使用 WordPress 來發佈文章、管理內容或是照片等等，雖然許多程序員近幾年來積極推廣使用 Markdown 寫作平台，但真正的文字工作者還是離不開 WordPress。因此漸漸發展出了後台管理介面使用 WordPress ，但前台使用其他 Framework 如 Laravel 等來呈現，以方便程序員開發功能。\r\n\r\n本篇文章就介紹了如何快速地建立後台 WordPress 前台 Laravel 的架構，據說 [StreetVoice](https://streetvoice.com/) 也有一些網站是使用這樣的架構，只是前台採用的 Framework 是 Django。",
+          "embedded_links": [
+            {
+              "identifier": "drXjd3q",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "ZURcraL",
+          "type": "Link",
+          "title": "tooling 让你从 jQuery 中解脱出来",
+          "url_domain": "github.io",
+          "url": "https://egoist.github.io/2016/01/19/tooling-free-you-from-jquery/",
+          "description": "<p>最近前端相關工具的發展已經複雜到讓人覺得噁心的地步，常常會讓人懷念起以前用 jQuery 寫前端那種隨插即用的暢快感。</p>\n\n<p>tooling 便是一個這樣工具，標題雖然寫「tooling 让你从 jQuery 中解脱出来」，但這標題只是個引子，tooling 想解決的問題就是要讓開發者可以回到那不用建構工具那種「顯得很方便」的開發方式。使用了 tooling 之後，不需要什麼複雜的設置，馬上就可以快速建構好 ES6、Webpack、Babel 6、React with JSX、Vue、PostCSS with PreCSS 等等前端開發環境，前端開發就是要這樣才對嘛！</p>",
+          "description_markdown": "最近前端相關工具的發展已經複雜到讓人覺得噁心的地步，常常會讓人懷念起以前用 jQuery 寫前端那種隨插即用的暢快感。\r\n\r\ntooling 便是一個這樣工具，標題雖然寫「tooling 让你从 jQuery 中解脱出来」，但這標題只是個引子，tooling 想解決的問題就是要讓開發者可以回到那不用建構工具那種「顯得很方便」的開發方式。使用了 tooling 之後，不需要什麼複雜的設置，馬上就可以快速建構好 ES6、Webpack、Babel 6、React with JSX、Vue、PostCSS with PreCSS 等等前端開發環境，前端開發就是要這樣才對嘛！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "islw2U4",
+          "type": "Link",
+          "title": "使用 Sketch 改善網頁前端與設計的標註與合作方式",
+          "url_domain": "patw.me",
+          "url": "https://blog.patw.me/archives/1114/use-sketch-to-improve-flow-of-frontend-and-design/",
+          "description": "<p>你有跟設計師合作的經驗嗎？一定常常遇到規格標示不清、太多細節導致漏看，設計師標好標滿各種距離、顏色等等也是曠日費時。若是有一個好工具來解決這樣的溝通模式，肯定讓開發時間更能有效利用。</p>\n\n<p><a href=\"https://speakerdeck.com/patw0929/shi-yong-sketch-gai-shan-cheng-shi-yu-she-ji-de-he-zuo-ji-biao-zhu-fang-shi\">投影片版</a></p>",
+          "description_markdown": "你有跟設計師合作的經驗嗎？一定常常遇到規格標示不清、太多細節導致漏看，設計師標好標滿各種距離、顏色等等也是曠日費時。若是有一個好工具來解決這樣的溝通模式，肯定讓開發時間更能有效利用。\r\n\r\n[投影片版](https://speakerdeck.com/patw0929/shi-yong-sketch-gai-shan-cheng-shi-yu-she-ji-de-he-zuo-ji-biao-zhu-fang-shi)",
+          "embedded_links": [
+            {
+              "identifier": "iCVdcAz",
+              "title": "投影片版",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/patw0929/shi-yong-sketch-gai-shan-cheng-shi-yu-she-ji-de-he-zuo-ji-biao-zhu-fang-shi"
+            }
+          ]
+        },
+        {
+          "identifier": "1B0bnHw",
+          "type": "Link",
+          "title": "一行做出離線功能的 upup.js",
+          "url_domain": "talater.com",
+          "url": "https://www.talater.com/upup/",
+          "description": "<p>如果你做的是內容型網站，提供離線閱讀是個不錯的功能，還可以利用 cache 提升載入。upup.js 將 service worker API 包裝成讓你只要一行就可以輕鬆館理 offline resource，有需要的不妨試試。</p>\n\n<p>註：<a href=\"http://caniuse.com/#search=service%20worker\">iOS Safari 目前還不支援 service worker</a></p>",
+          "description_markdown": "如果你做的是內容型網站，提供離線閱讀是個不錯的功能，還可以利用 cache 提升載入。upup.js 將 service worker API 包裝成讓你只要一行就可以輕鬆館理 offline resource，有需要的不妨試試。\r\n\r\n註：[iOS Safari 目前還不支援 service worker](http://caniuse.com/#search=service%20worker)",
+          "embedded_links": [
+            {
+              "identifier": "QUo4HKF",
+              "title": "iOS Safari 目前還不支援 service worker",
+              "url_domain": "caniuse.com",
+              "url": "http://caniuse.com/#search=service%20worker"
+            }
+          ]
+        },
+        {
+          "identifier": "aTbZPjB",
+          "type": "Link",
+          "title": "DevTools Author 為開發者工具換張臉",
+          "url_domain": "mikeking.io",
+          "url": "http://mikeking.io/devtools-author/",
+          "description": "<p>DevTools Author 利用 Google Chrome 的實驗功能，可以調整 Dev tool 的配色，讓你的開發工具不再一成不變！</p>",
+          "description_markdown": "DevTools Author 利用 Google Chrome 的實驗功能，可以調整 Dev tool 的配色，讓你的開發工具不再一成不變！\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "XFW8S6Y",
+          "type": "Link",
+          "title": "Software Development Methods Explained With Cars (Infographic)",
+          "url_domain": "toggl.com",
+          "url": "https://toggl.com/developer-methods-infographic",
+          "description": "<p>大家感受一下。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "大家感受一下。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "GMTZBVb",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "f69082cc-d38c-499d-9316-3805d57e42dd.png",
+          "image_extra_large_filename": "original_ratio_extra_large_f69082cc-d38c-499d-9316-3805d57e42dd.png",
+          "image_medium_filename": "original_ratio_medium_f69082cc-d38c-499d-9316-3805d57e42dd.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "number": 77,
+  "title": "Issue 77 清鄉是指政府派遣軍隊去清查任何可藏匿之處所，並針對可疑人士實行拘捕，必要時可立即處決",
+  "summary": "本期內容涵蓋 iOS, Android, Design, Redux, CSS, JavaScript, Python, Code",
+  "url": "https://weekly.codetengu.com/issues/77",
+  "publication_status": "published",
+  "published_at": "2017-02-27T02:00:00+00:00",
+  "updated_at": "2017-02-27T16:49:39+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href=\"https://www.douban.com/people/vinta/\">NieR: Automata</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://twitter.com/saiday/status/833915863573024768\">教召報名成功～</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩 [NieR: Automata](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [教召報名成功～](https://twitter.com/saiday/status/833915863573024768)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "mLB71gX",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "EezE3D",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "6zYqRP4",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "W5wYwLA",
+              "title": "NieR: Automata",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "CVMWlmw",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "jngO3x4",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "tFGud2q",
+              "title": "教召報名成功～",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday/status/833915863573024768"
+            },
+            {
+              "identifier": "Is5EqAi",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9X9uJBg",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "3NLahZt",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "Ntbi5I0",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "jaIm8h7",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "4dquAd5",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "l5SLjaR",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "HQ4k01N",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "zgKarcu",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "OqaET0H",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "mH0j1sN",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "chwivvK",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "25izfnf",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "XnfgIFd",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "XnSsLsY",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "LZVlFXu",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "aVIaHNX",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "P8hQJWW",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "rOa2kkg",
+          "type": "Link",
+          "title": "Lottie",
+          "url_domain": "airbnb.design",
+          "url": "http://airbnb.design/lottie/",
+          "description": "<blockquote><p>Lottie is an iOS, Android, and React Native library that renders After Effects animations in real time, allowing apps to use animations as easily as they use static images.</p></blockquote>\n\n<p>Airbnb 新 Open Source 專案，這真的把在 mobile app 上加入動畫的難易度往下拉到了新低點。 (但你需要學會用 <a href=\"http://www.adobe.com/products/aftereffects.html\">After Effect</a>)</p>\n\n<p>透過一套 After Effect 的 plugin <a href=\"https://github.com/bodymovin/bodymovin\">Bodymovin</a> 產生的 JSON 檔案，餵給 <a href=\"https://github.com/airbnb/lottie-ios\">iOS</a>, <a href=\"https://github.com/airbnb/lottie-android\">Android</a> 的 Lottie library，它就會 render 出來，除了全頁的動畫之外，lottie 還支援 cache，這很適合介面上的狀態改變加入固定動畫。</p>\n\n<p>光是看 GitHub 上面的 star 數就知道這種解決方案打到了以往 native app 支援動畫的痛點了。</p>\n\n<p>詳細的說明：<a href=\"https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e#.8gi51mcnq\">Introducing Lottie</a></p>",
+          "description_markdown": "> Lottie is an iOS, Android, and React Native library that renders After Effects animations in real time, allowing apps to use animations as easily as they use static images.\r\n\r\nAirbnb 新 Open Source 專案，這真的把在 mobile app 上加入動畫的難易度往下拉到了新低點。 (但你需要學會用 [After Effect](http://www.adobe.com/products/aftereffects.html))\r\n\r\n透過一套 After Effect 的 plugin [Bodymovin](https://github.com/bodymovin/bodymovin) 產生的 JSON 檔案，餵給 [iOS](https://github.com/airbnb/lottie-ios), [Android](https://github.com/airbnb/lottie-android) 的 Lottie library，它就會 render 出來，除了全頁的動畫之外，lottie 還支援 cache，這很適合介面上的狀態改變加入固定動畫。\r\n\r\n光是看 GitHub 上面的 star 數就知道這種解決方案打到了以往 native app 支援動畫的痛點了。\r\n\r\n詳細的說明：[Introducing Lottie](https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e#.8gi51mcnq)",
+          "embedded_links": [
+            {
+              "identifier": "TLa8l12",
+              "title": "After Effect",
+              "url_domain": "adobe.com",
+              "url": "http://www.adobe.com/products/aftereffects.html"
+            },
+            {
+              "identifier": "SIK36U0",
+              "title": "Bodymovin",
+              "url_domain": "github.com",
+              "url": "https://github.com/bodymovin/bodymovin"
+            },
+            {
+              "identifier": "7Mw7KD8",
+              "title": "iOS",
+              "url_domain": "github.com",
+              "url": "https://github.com/airbnb/lottie-ios"
+            },
+            {
+              "identifier": "1ICHujG",
+              "title": "Android",
+              "url_domain": "github.com",
+              "url": "https://github.com/airbnb/lottie-android"
+            },
+            {
+              "identifier": "egPMP8l",
+              "title": "Introducing Lottie",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e#.8gi51mcnq"
+            }
+          ]
+        },
+        {
+          "identifier": "SCjxNV8",
+          "type": "Link",
+          "title": "Overcast 3: Design walkthrough",
+          "url_domain": "marco.org",
+          "url": "https://marco.org/2017/02/20/overcast3",
+          "description": "<p><a href=\"https://twitter.com/marcoarment\">Marco Arment</a> 是 <a href=\"https://itunes.apple.com/tw/app/overcast-podcast-player/id888422857?mt=8\">Overcast</a> 的作者，比較廣為人知的身份是前 Tumblr co-founder 跟 lead developer、創立 <a href=\"https://www.instapaper.com/u\">Instapaper</a> 最後賣掉。是一個擅長獨立開發的朋友呢！</p>\n\n<p>我個人很喜歡這篇文章，它給了關於介面調整很好的例子，比起要變成什麼樣更重要的是為什麼要變成這樣。</p>\n\n<p>有根據的設計或改版，後續才可以檢討調整。</p>",
+          "description_markdown": "[Marco Arment](https://twitter.com/marcoarment) 是 [Overcast](https://itunes.apple.com/tw/app/overcast-podcast-player/id888422857?mt=8) 的作者，比較廣為人知的身份是前 Tumblr co-founder 跟 lead developer、創立 [Instapaper](https://www.instapaper.com/u) 最後賣掉。是一個擅長獨立開發的朋友呢！\r\n\r\n我個人很喜歡這篇文章，它給了關於介面調整很好的例子，比起要變成什麼樣更重要的是為什麼要變成這樣。  \r\n\r\n有根據的設計或改版，後續才可以檢討調整。",
+          "embedded_links": [
+            {
+              "identifier": "tVxqTOu",
+              "title": "Marco Arment",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/marcoarment"
+            },
+            {
+              "identifier": "qxHvbVR",
+              "title": "Overcast",
+              "url_domain": "apple.com",
+              "url": "https://itunes.apple.com/tw/app/overcast-podcast-player/id888422857?mt=8"
+            },
+            {
+              "identifier": "RadHZq8",
+              "title": "Instapaper",
+              "url_domain": "instapaper.com",
+              "url": "https://www.instapaper.com/u"
+            }
+          ]
+        },
+        {
+          "identifier": "txGPdSW",
+          "type": "Link",
+          "title": "Enumerating The Ways I Love Swift Enumerations",
+          "url_domain": "caseyliss.com",
+          "url": "https://www.caseyliss.com/2016/2/27/swift-enums",
+          "description": "<p>Enum 在 Swift 是 first-class type 這大概是跟其他語言最不一樣的基本類型吧。</p>\n\n<p>很強大的 Enum 可以有 <a href=\"https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID148\">associated value</a>, method, extension, interface，很容易讓剛學習 Swift 的人走火入魔，這篇文章舉的 Enum 的例子我覺得是很適合的。</p>\n\n<p>註：我現在在做的 Swift project，就因為剛學習 Swift 時被 Enum 的新特性過分吸引，把 model layer 都用 Enum 來處理，現在擴充實在是苦不堪言，這就是分不清楚場合硬用的下場。</p>",
+          "description_markdown": "Enum 在 Swift 是 first-class type 這大概是跟其他語言最不一樣的基本類型吧。\r\n\r\n很強大的 Enum 可以有 [associated value](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID148), method, extension, interface，很容易讓剛學習 Swift 的人走火入魔，這篇文章舉的 Enum 的例子我覺得是很適合的。\r\n\r\n註：我現在在做的 Swift project，就因為剛學習 Swift 時被 Enum 的新特性過分吸引，把 model layer 都用 Enum 來處理，現在擴充實在是苦不堪言，這就是分不清楚場合硬用的下場。",
+          "embedded_links": [
+            {
+              "identifier": "PIPjOjj",
+              "title": "associated value",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/Enumerations.html#//apple_ref/doc/uid/TP40014097-CH12-ID148"
+            }
+          ]
+        },
+        {
+          "identifier": "M3Ce9WT",
+          "type": "Link",
+          "title": "Android Security: The Forgetful Keystore",
+          "url_domain": "github.io",
+          "url": "http://doridori.github.io/android-security-the-forgetful-keystore/#sthash.Gu0or7NE.aPh46Wyh.dpbs",
+          "description": "<p>「我們的 Android app 沒有把敏感資訊存在 Keystore」\n「猴～ 你們是爛的開發團隊」</p>\n\n<p> <a href=\"https://developer.android.com/reference/java/security/KeyStore.html\">Keystore</a> 看起來就是 Android SDK 提供的最好的敏感資訊儲存方案，可是為什麼很少聽到有人在用？因為它除了有不少的 bug 之外還有奇怪的 <a href=\"https://code.google.com/p/android/issues/detail?id=61989&amp;can=1&amp;q=KeyPairGeneratorSpec&amp;colspec=ID%20Type%20Status%20Owner%20Summary%20Stars\">feature</a>。</p>\n\n<p>文末還是有整理出一些還是可以採用 Keystore 的情況，但我想大多數 app 想要存的敏感資訊在那樣的條件下都是不可行的。</p>\n\n<p>這一欄如果可以讓大家可以少走一點冤枉路，就是我最大的功德。</p>",
+          "description_markdown": "「我們的 Android app 沒有把敏感資訊存在 Keystore」\r\n「猴～ 你們是爛的開發團隊」\r\n\r\n [Keystore](https://developer.android.com/reference/java/security/KeyStore.html) 看起來就是 Android SDK 提供的最好的敏感資訊儲存方案，可是為什麼很少聽到有人在用？因為它除了有不少的 bug 之外還有奇怪的 [feature](https://code.google.com/p/android/issues/detail?id=61989&can=1&q=KeyPairGeneratorSpec&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars)。\r\n\r\n文末還是有整理出一些還是可以採用 Keystore 的情況，但我想大多數 app 想要存的敏感資訊在那樣的條件下都是不可行的。\r\n\r\n這一欄如果可以讓大家可以少走一點冤枉路，就是我最大的功德。",
+          "embedded_links": [
+            {
+              "identifier": "gP6RBjc",
+              "title": "Keystore",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/reference/java/security/KeyStore.html"
+            },
+            {
+              "identifier": "UpFWsDK",
+              "title": "feature",
+              "url_domain": "google.com",
+              "url": "https://code.google.com/p/android/issues/detail?id=61989&can=1&q=KeyPairGeneratorSpec&colspec=ID%20Type%20Status%20Owner%20Summary%20Stars"
+            }
+          ]
+        },
+        {
+          "identifier": "qda053n",
+          "type": "Link",
+          "title": "How “Effective Java” may have influenced the design of Kotlin",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@lukleDev/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974#.wqcjxjlo0",
+          "description": "<p>作者重新看了一次 <a href=\"https://www.amazon.com/gp/product/0321356683/\">Effective Java</a> 然後思考這些 items 在 <a href=\"http://kotlinlang.org/\">Kotlin</a> 上是否還適用，顯然有些書上提供的 best practice 已經在 Kotlin 設計時就採用了。</p>\n\n<p>他於是列了 Java 跟 Kotlin 的語言設計相異處跟說明，無論你有沒有開發 Kotlin 都值得一看。</p>",
+          "description_markdown": "作者重新看了一次 [Effective Java](https://www.amazon.com/gp/product/0321356683/) 然後思考這些 items 在 [Kotlin](http://kotlinlang.org/) 上是否還適用，顯然有些書上提供的 best practice 已經在 Kotlin 設計時就採用了。\r\n\r\n他於是列了 Java 跟 Kotlin 的語言設計相異處跟說明，無論你有沒有開發 Kotlin 都值得一看。",
+          "embedded_links": [
+            {
+              "identifier": "ZV105B6",
+              "title": "Effective Java",
+              "url_domain": "amazon.com",
+              "url": "https://www.amazon.com/gp/product/0321356683/"
+            },
+            {
+              "identifier": "mLR5evS",
+              "title": "Kotlin",
+              "url_domain": "kotlinlang.org",
+              "url": "http://kotlinlang.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "4s6Ri5p",
+          "type": "Link",
+          "title": "Redux 4 Ways",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/react-native-training/redux-4-ways-95a130da0cdc",
+          "description": "<p>本篇文章透過 fetch data 的畫面變化做範例，並用下面四種不同的 Redux libraries 來 handle side effect 與 asynchronous actions ：</p>\n\n<ul>\n<li><a href=\"https://github.com/gaearon/redux-thunk\">Redux Thunk</a> ：用來 delay action 的 dispatch 。</li>\n<li><a href=\"https://github.com/redux-saga/redux-saga\">Redux Saga</a> ：利用 ES6 Generators 讓 asynchronous flows 容易讀、寫與測試。</li>\n<li><a href=\"https://github.com/redux-observable/redux-observable\">Redux Observable</a> ：利用 RxJS observables 來 create asynchronous actions 與 data flow 。</li>\n<li><a href=\"https://github.com/pburtchaell/redux-promise-middleware\">Redux Promise Middleware</a> ：處理 Promises 並在 reject 觸發時返回應有狀態 (conditional optimistic updates)</li>\n</ul>",
+          "description_markdown": "本篇文章透過 fetch data 的畫面變化做範例，並用下面四種不同的 Redux libraries 來 handle side effect 與 asynchronous actions ：\r\n\r\n* [Redux Thunk](https://github.com/gaearon/redux-thunk) ：用來 delay action 的 dispatch 。\r\n* [Redux Saga](https://github.com/redux-saga/redux-saga) ：利用 ES6 Generators 讓 asynchronous flows 容易讀、寫與測試。\r\n* [Redux Observable](https://github.com/redux-observable/redux-observable) ：利用 RxJS observables 來 create asynchronous actions 與 data flow 。\r\n* [Redux Promise Middleware](https://github.com/pburtchaell/redux-promise-middleware) ：處理 Promises 並在 reject 觸發時返回應有狀態 (conditional optimistic updates)",
+          "embedded_links": [
+            {
+              "identifier": "VVuVEsn",
+              "title": "Redux Thunk",
+              "url_domain": "github.com",
+              "url": "https://github.com/gaearon/redux-thunk"
+            },
+            {
+              "identifier": "HOUv6I4",
+              "title": "Redux Saga",
+              "url_domain": "github.com",
+              "url": "https://github.com/redux-saga/redux-saga"
+            },
+            {
+              "identifier": "bT1Uts5",
+              "title": "Redux Observable",
+              "url_domain": "github.com",
+              "url": "https://github.com/redux-observable/redux-observable"
+            },
+            {
+              "identifier": "DI7kQkK",
+              "title": "Redux Promise Middleware",
+              "url_domain": "github.com",
+              "url": "https://github.com/pburtchaell/redux-promise-middleware"
+            }
+          ]
+        },
+        {
+          "identifier": "R8NRCDW",
+          "type": "Link",
+          "title": "How Flexbox works — explained with big, colorful, animated gifs",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/an-animated-guide-to-flexbox-d280cf6afc35",
+          "description": "<p>CSS flexbox layout 使得網頁排版更加的方便簡單，本篇文章利用圖形動畫來帶領初學者快速理解 flexbox ，有興趣也可以看作者的另一篇<a href=\"https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053\">進階版 flexbox property 動畫圖解</a>。</p>",
+          "description_markdown": "CSS flexbox layout 使得網頁排版更加的方便簡單，本篇文章利用圖形動畫來帶領初學者快速理解 flexbox ，有興趣也可以看作者的另一篇[進階版 flexbox property 動畫圖解](https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053)。",
+          "embedded_links": [
+            {
+              "identifier": "wsVZNDp",
+              "title": "進階版 flexbox property 動畫圖解",
+              "url_domain": "freecodecamp.com",
+              "url": "https://medium.freecodecamp.com/even-more-about-how-flexbox-works-explained-in-big-colorful-animated-gifs-a5a74812b053"
+            }
+          ]
+        },
+        {
+          "identifier": "d4Giv0v",
+          "type": "Link",
+          "title": "Variables declared using const are not immutable",
+          "url_domain": "ponyfoo.com",
+          "url": "https://ponyfoo.com/articles/const-variables-not-immutable",
+          "description": "<p>JavaScript (ES6) 的 const 可以避免 variable renferencing 新的值，但是對於像是 array 或 object 這類的 reference types ，其內部資料是可以被更動的，要達到真正的 immutable ，可以透過 Object.freeze 這個 function，來避免值得的更動，不過要注意的是，如果物件本身是 nested ，那底下的所有  reference type 物件都必須要透過 Object.freeze 來賦值。</p>",
+          "description_markdown": "JavaScript (ES6) 的 const 可以避免 variable renferencing 新的值，但是對於像是 array 或 object 這類的 reference types ，其內部資料是可以被更動的，要達到真正的 immutable ，可以透過 Object.freeze 這個 function，來避免值得的更動，不過要注意的是，如果物件本身是 nested ，那底下的所有  reference type 物件都必須要透過 Object.freeze 來賦值。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "o7Bjisa",
+          "type": "Link",
+          "title": "Optimising the front end for the browser",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/optimising-the-front-end-for-the-browser-f2f51a29c572",
+          "description": "<p>這篇文章詳細介紹瀏覽器產生網頁的各個步驟以及如何最佳化這些流程：</p>\n\n<ul>\n<li>HTML - 利用 HTML 產生 Document Object Model (DOM)</li>\n<li>CSS - 利用 CSS 產生  CSS Object Model (CSSOM)</li>\n<li>JavaScript - 執行 Script</li>\n<li>Render Tree - 透過 DOM 與 CSSOM 來組成 Render Tree</li>\n<li>Layout - 利用 Render Tree 來排列各個 Elements 的大小與位置</li>\n<li>Paint - 畫出畫面</li>\n</ul>\n\n\n<p>除了上述 Render 流程外，也透過 <a href=\"https://developers.google.com/web/fundamentals/performance/critical-rendering-path/\">Critical Rendering Path (CRP)</a> 來對  Network call 做介紹與最佳化。</p>",
+          "description_markdown": "這篇文章詳細介紹瀏覽器產生網頁的各個步驟以及如何最佳化這些流程：\r\n\r\n* HTML - 利用 HTML 產生 Document Object Model (DOM)\r\n* CSS - 利用 CSS 產生  CSS Object Model (CSSOM)\r\n* JavaScript - 執行 Script\r\n* Render Tree - 透過 DOM 與 CSSOM 來組成 Render Tree\r\n* Layout - 利用 Render Tree 來排列各個 Elements 的大小與位置\r\n* Paint - 畫出畫面\r\n\r\n除了上述 Render 流程外，也透過 [Critical Rendering Path (CRP)](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/) 來對  Network call 做介紹與最佳化。",
+          "embedded_links": [
+            {
+              "identifier": "12wVzsC",
+              "title": "Critical Rendering Path (CRP)",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "8LISlg5",
+          "type": "Link",
+          "title": "Code review checklist",
+          "url_domain": "github.io",
+          "url": "http://ana-balica.github.io/2017/02/21/code-review-checklist/",
+          "description": "<p>最近 MacDown <del>終於</del>有了固定的 contributors（除了我之外），現在 review 的時間都比自己寫的要多了，看到這篇就很有同感啊。要接受一個功能是很簡單的事情，尤其如果是認識的人，就更會有偷懶的衝動，反正他應該知道自己在做什麼吧。但即使這在當下很容易，未來卻可能後患無窮，讓你在維護和修復時耗掉更多功。這時候有這種 checklist 就最方便了，反正從頭到尾跑過一遍就好啦，省了一堆腦力。</p>\n\n<p>相關閱讀：<a href=\"https://blog.scottnonnenberg.com/top-ten-pull-request-review-mistakes/\">十個 pull request review 最常見的錯誤 <del>最後一項讓我震驚了</del></a></p>",
+          "description_markdown": "最近 MacDown ~~終於~~有了固定的 contributors（除了我之外），現在 review 的時間都比自己寫的要多了，看到這篇就很有同感啊。要接受一個功能是很簡單的事情，尤其如果是認識的人，就更會有偷懶的衝動，反正他應該知道自己在做什麼吧。但即使這在當下很容易，未來卻可能後患無窮，讓你在維護和修復時耗掉更多功。這時候有這種 checklist 就最方便了，反正從頭到尾跑過一遍就好啦，省了一堆腦力。\r\n\r\n相關閱讀：[十個 pull request review 最常見的錯誤 ~~最後一項讓我震驚了~~](https://blog.scottnonnenberg.com/top-ten-pull-request-review-mistakes/)\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "AlQUWtS",
+              "title": "十個 pull request review 最常見的錯誤 ~~最後一項讓我震驚了~~",
+              "url_domain": "scottnonnenberg.com",
+              "url": "https://blog.scottnonnenberg.com/top-ten-pull-request-review-mistakes/"
+            }
+          ]
+        },
+        {
+          "identifier": "SzSoXj5",
+          "type": "Link",
+          "title": "Forms Need Validation",
+          "url_domain": "uxdesign.cc",
+          "url": "https://uxdesign.cc/forms-need-validation-2ecbccbacea1#.cphhslcuj",
+          "description": "<p>做使用者介面的時候，最重要的就是驗證使用者的輸入。一來因為<a href=\"https://www.owasp.org/Don't_trust_user_input\">使用者輸入不可信</a>，另一方面如果使用者的輸入有問題，也必須要盡快讓使用者知道問題在哪裡，並盡可能讓人知道應該怎麼修正。</p>\n\n<p>這篇文章描述了當使用者輸入時，應該如何提示使用者的錯誤輸入，並正確呈現這些提示。作者舉出了一些常見的 validation 情境，並提出可能的提示方法。我覺得最重要的一點就是他指出不應該在使用者做出部分輸入（例如開始輸入 email，但尚未完成）時，就提示輸入無效，而要等到使用者暫停輸入、或者離開輸入框。這做起來有點麻煩，但這樣一說，就覺得的確是好做法啊！</p>",
+          "description_markdown": "做使用者介面的時候，最重要的就是驗證使用者的輸入。一來因為[使用者輸入不可信](https://www.owasp.org/Don't_trust_user_input)，另一方面如果使用者的輸入有問題，也必須要盡快讓使用者知道問題在哪裡，並盡可能讓人知道應該怎麼修正。\r\n\r\n這篇文章描述了當使用者輸入時，應該如何提示使用者的錯誤輸入，並正確呈現這些提示。作者舉出了一些常見的 validation 情境，並提出可能的提示方法。我覺得最重要的一點就是他指出不應該在使用者做出部分輸入（例如開始輸入 email，但尚未完成）時，就提示輸入無效，而要等到使用者暫停輸入、或者離開輸入框。這做起來有點麻煩，但這樣一說，就覺得的確是好做法啊！",
+          "embedded_links": [
+            {
+              "identifier": "QbJsFoa",
+              "title": "使用者輸入不可信",
+              "url_domain": "owasp.org",
+              "url": "https://www.owasp.org/Don't_trust_user_input"
+            }
+          ]
+        },
+        {
+          "identifier": "8o5vkKS",
+          "type": "Link",
+          "title": "How to break Python",
+          "url_domain": "b-list.org",
+          "url": "http://www.b-list.org/weblog/2016/nov/28/break-python/",
+          "description": "<p>如果你有寫過 Python 函式庫，大概就知道使用某些語法與內建函式庫時要特別注意，才能支援不同的 Python 版本，尤其是 Python 2。但如果想讓自己的程式<strong>無法</strong>支援某些版本，又應該怎麼辦呢？</p>\n\n<p>我知道你想說什麼。「為什麼我要這麼做？」通常是因為你不想被不想支援的使用者打交道。假設我今天做了一個函式庫，只想支援到 Python 2.7。但我並沒有用到很特別的功能，所以在 2.6 上好像也可以動⋯⋯直到使用者遇到某個 Python 2.6 的 bug，造成函式庫行為錯誤。這時候你就得處理送來的 bug report。麻煩。</p>\n\n<p>更好的做法是，讓使用者明確知道你並不想支援他現在使用的版本。所以這裡列出了各 Python 版本「不」支援的語法，讓你可以保證自己的程式在錯誤的版本中無法執行，一勞永逸。</p>",
+          "description_markdown": "如果你有寫過 Python 函式庫，大概就知道使用某些語法與內建函式庫時要特別注意，才能支援不同的 Python 版本，尤其是 Python 2。但如果想讓自己的程式**無法**支援某些版本，又應該怎麼辦呢？\r\n\r\n我知道你想說什麼。「為什麼我要這麼做？」通常是因為你不想被不想支援的使用者打交道。假設我今天做了一個函式庫，只想支援到 Python 2.7。但我並沒有用到很特別的功能，所以在 2.6 上好像也可以動⋯⋯直到使用者遇到某個 Python 2.6 的 bug，造成函式庫行為錯誤。這時候你就得處理送來的 bug report。麻煩。\r\n\r\n更好的做法是，讓使用者明確知道你並不想支援他現在使用的版本。所以這裡列出了各 Python 版本「不」支援的語法，讓你可以保證自己的程式在錯誤的版本中無法執行，一勞永逸。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "BOUBoPg",
+          "type": "Link",
+          "title": "Legacy systems are everywhere",
+          "url_domain": "postlight.com",
+          "url": "https://trackchanges.postlight.com/legacy-systems-are-everywhere-dddccf08bf6e#.pqlia52vd",
+          "description": "<p>我們軟體工程師最愛抱怨其他人（或者三年前的自己）寫的程式根本是一團垃圾，要我維護不如下地獄算了。可是上面的人就是死腦筋，不肯讓我們砍掉重練。唉唉你知道軟體就是跟其他工程不一樣啊，沒辦法像蓋房子那樣事先規劃好才動手，所以維護 legacy systems 才會那麼痛苦。</p>\n\n<p>作者最近接的專案就是這樣。專案超龐大超複雜，維護人轉了好幾手，到處都是 hacks 和技術債，還有一堆過時的技術。</p>\n\n<p>這個專案是他們幾個月前剛買的新房子。如果你略懂電工（建議這年頭技術宅最好懂一點，不然跟不上潮潮的 maker movement 會被瞧不起R），應該會對裡面的內容感到⋯⋯廢到笑，然後笑一笑怎麼我就哭了。為什麼我要維護這種爛東西，可以砍掉重練嗎。QQ</p>\n\n<p>你軟體工程師還有一絲絲可能呢，房子蓋了就蓋了，上線之後就是永遠，<a href=\"http://www.slate.com/blogs/the_eye/2014/04/17/the_citicorp_tower_design_flaw_that_could_have_wiped_out_the_skyscraper.html\">即使有可能整棟倒下來</a>，也只能硬著頭皮維護。惜福啊各位。</p>",
+          "description_markdown": "我們軟體工程師最愛抱怨其他人（或者三年前的自己）寫的程式根本是一團垃圾，要我維護不如下地獄算了。可是上面的人就是死腦筋，不肯讓我們砍掉重練。唉唉你知道軟體就是跟其他工程不一樣啊，沒辦法像蓋房子那樣事先規劃好才動手，所以維護 legacy systems 才會那麼痛苦。\r\n\r\n作者最近接的專案就是這樣。專案超龐大超複雜，維護人轉了好幾手，到處都是 hacks 和技術債，還有一堆過時的技術。\r\n\r\n這個專案是他們幾個月前剛買的新房子。如果你略懂電工（建議這年頭技術宅最好懂一點，不然跟不上潮潮的 maker movement 會被瞧不起R），應該會對裡面的內容感到⋯⋯廢到笑，然後笑一笑怎麼我就哭了。為什麼我要維護這種爛東西，可以砍掉重練嗎。QQ\r\n\r\n你軟體工程師還有一絲絲可能呢，房子蓋了就蓋了，上線之後就是永遠，[即使有可能整棟倒下來](http://www.slate.com/blogs/the_eye/2014/04/17/the_citicorp_tower_design_flaw_that_could_have_wiped_out_the_skyscraper.html)，也只能硬著頭皮維護。惜福啊各位。",
+          "embedded_links": [
+            {
+              "identifier": "f1XL8n5",
+              "title": "即使有可能整棟倒下來",
+              "url_domain": "slate.com",
+              "url": "http://www.slate.com/blogs/the_eye/2014/04/17/the_citicorp_tower_design_flaw_that_could_have_wiped_out_the_skyscraper.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "VLhF6bm",
+          "type": "Link",
+          "title": "How I Ruined Office Productivity With a Face-Replacing Slack Bot",
+          "url_domain": "zikes.me",
+          "url": "http://blog.zikes.me/post/how-i-ruined-office-productivity-with-a-slack-bot/",
+          "description": "<p>一個會把上傳到 slack 中圖片的臉換掉再重新上傳的 slack bot ...</p>\n\n<p>用 <code>go-opencv</code> 來辨識臉部位置跟貼上去，是用 golang 寫的，source code 相當精簡。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "一個會把上傳到 slack 中圖片的臉換掉再重新上傳的 slack bot ...\r\n\r\n用 `go-opencv` 來辨識臉部位置跟貼上去，是用 golang 寫的，source code 相當精簡。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "uGY81c8",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

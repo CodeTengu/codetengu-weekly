@@ -1,0 +1,520 @@
+{
+  "number": 43,
+  "title": "Issue 43 Perl 是唯一一門在 RSA 加密前後看起來一樣的語言",
+  "summary": "本期內容涵蓋 PHP, MySQL, Machine Learning, Docker, GPU, Ansible, Go, Raspberry Pi",
+  "url": "https://weekly.codetengu.com/issues/43",
+  "publication_status": "published",
+  "published_at": "2016-05-16T03:00:00+01:00",
+  "updated_at": "2016-05-16T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">銀色新生</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵 Android 工程師，<a href=\"https://www.indievox.com/h/jobs.html\">意者內洽</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[銀色新生](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵 Android 工程師，[意者內洽](https://www.indievox.com/h/jobs.html)\r\n- [@wancw](https://twitter.com/wancw) - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "VmYcWWF",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "BPJkNx",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "jsgfNqt",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "59boJ56",
+              "title": "銀色新生",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "urq8Qu6",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "DBqLagG",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "rnx3Y6w",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Mqrzh2s",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "mjnYJJJ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "vAKyNYO",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "c0YKriP",
+              "title": "意者內洽",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/h/jobs.html"
+            },
+            {
+              "identifier": "KCx0zem",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "ZYbTptG",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "CVvKUJQ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "1bdftsd",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "us1RdbT",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "kWeqiCS",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "OGCsVA5",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "1qrrjba",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "tWVy71g",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "j9La7On",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "uq0zFzZ",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "XzeZkDT",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "EPQ87Ra",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "XezTQgE",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "uL4Xt3Z",
+          "type": "Link",
+          "title": "理解 Dependency Injection 實作原理，以 PHP 為例",
+          "url_domain": "jaceju.net",
+          "url": "http://jaceju.net/2014/07/27/php-di-container/",
+          "description": "<p>PHP、Programming：中級</p>\n\n<p>當系統越來越龐大複雜時，會慢慢發現程式之間的依賴關係越來越重，不僅使得程式漸漸沒有修改的彈性，也會造成程式無法很容易地被測試。這時我們可以使用依賴注入（Dependency Injection）這個技巧來減低程式之間的藕合性。</p>\n\n<p>本篇文章用 PHP 撰寫了一個簡單的例子來說明怎麼做到依賴注入，並介紹了實務上會在大型系統使用 DI 容器來更容易地做到依賴注入，不過記得現在已經有許多 Framework 有提供很好的 DI 容器，就不需要自己再自幹一個了，這篇文章是為了幫助初學者更容易地了解 DI 的概念，如果看完文章你還是覺得一知半解，那可以看看<a href=\"https://www.youtube.com/watch?v=IKD2-MAkXyQ\">這個生動的影片</a>幫助了解。</p>",
+          "description_markdown": "PHP、Programming：中級\r\n\r\n當系統越來越龐大複雜時，會慢慢發現程式之間的依賴關係越來越重，不僅使得程式漸漸沒有修改的彈性，也會造成程式無法很容易地被測試。這時我們可以使用依賴注入（Dependency Injection）這個技巧來減低程式之間的藕合性。\r\n\r\n本篇文章用 PHP 撰寫了一個簡單的例子來說明怎麼做到依賴注入，並介紹了實務上會在大型系統使用 DI 容器來更容易地做到依賴注入，不過記得現在已經有許多 Framework 有提供很好的 DI 容器，就不需要自己再自幹一個了，這篇文章是為了幫助初學者更容易地了解 DI 的概念，如果看完文章你還是覺得一知半解，那可以看看[這個生動的影片](https://www.youtube.com/watch?v=IKD2-MAkXyQ)幫助了解。",
+          "embedded_links": [
+            {
+              "identifier": "JzR3pvI",
+              "title": "這個生動的影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=IKD2-MAkXyQ"
+            }
+          ]
+        },
+        {
+          "identifier": "F2cQd2S",
+          "type": "Link",
+          "title": "MySQL 5.7 Introduces a JSON Data Type - 簡介 MySQL 5.7 的 JSON Data Type",
+          "url_domain": "lornajane.net",
+          "url": "http://www.lornajane.net/posts/2016/mysql-5-7-json-features",
+          "description": "<p>MySQL：初級</p>\n\n<p>其實我個人蠻喜歡寫 SQL 的，比起使用 ORM 提供的 Query Builder，總是覺得 SQL 一次 Query 出想要的資料省事多了，而 MySQL 5.7 推出的新 Feature - JSON Data Type 可能又會讓 SQL 變得更好用，所以好好磨練一下寫 SQL 的技巧還是非常重要的。</p>\n\n<p>JSON Data Type 的使用時機是在你需要一些比較不需要結構化的資料時可以考慮使用，比如像是標籤、可有可無的 metadata 等等，這些資料設成自己一個資料表像割雞用牛刀，設成自己一個欄位又會造成資料表中這些欄位的資料很稀疏，這時我們就會想要用一個 JSON 文件存在一個欄位就好了。</p>\n\n<p>但僅僅將 JSON 用 String 存到資料表，並無法很簡易的 Query 出資料，而且也不能很簡易的操作資料，可能都需要先將資料撈出來之後，再用程式語言對 JSON 做操作，簡直是找自己麻煩。但如果是存成 MySQL 5.7 的 JSON Data Type，MySQL 提供了許多方法可以在 SQL Query 中操作 JSON 欄位的資料，瞧瞧這個 Query：</p>\n\n<pre><code>SELECT name, profile-&gt;\"$.direct_reports\" reports, profile-&gt;\"$.salary\" salary FROM people WHERE profile-&gt;\"$.direct_reports\" &gt;= 10;\n</code></pre>\n\n<p>很方便就可以把資料欄位的 JSON 文件當條件來查詢啊！感覺超棒的！</p>",
+          "description_markdown": "MySQL：初級\r\n\r\n其實我個人蠻喜歡寫 SQL 的，比起使用 ORM 提供的 Query Builder，總是覺得 SQL 一次 Query 出想要的資料省事多了，而 MySQL 5.7 推出的新 Feature - JSON Data Type 可能又會讓 SQL 變得更好用，所以好好磨練一下寫 SQL 的技巧還是非常重要的。\r\n\r\nJSON Data Type 的使用時機是在你需要一些比較不需要結構化的資料時可以考慮使用，比如像是標籤、可有可無的 metadata 等等，這些資料設成自己一個資料表像割雞用牛刀，設成自己一個欄位又會造成資料表中這些欄位的資料很稀疏，這時我們就會想要用一個 JSON 文件存在一個欄位就好了。\r\n\r\n但僅僅將 JSON 用 String 存到資料表，並無法很簡易的 Query 出資料，而且也不能很簡易的操作資料，可能都需要先將資料撈出來之後，再用程式語言對 JSON 做操作，簡直是找自己麻煩。但如果是存成 MySQL 5.7 的 JSON Data Type，MySQL 提供了許多方法可以在 SQL Query 中操作 JSON 欄位的資料，瞧瞧這個 Query：\r\n\r\n```\r\nSELECT name, profile->\"$.direct_reports\" reports, profile->\"$.salary\" salary FROM people WHERE profile->\"$.direct_reports\" >= 10;\r\n```\r\n\r\n很方便就可以把資料欄位的 JSON 文件當條件來查詢啊！感覺超棒的！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TxwkwBd",
+          "type": "Link",
+          "title": "Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）",
+          "url_domain": "benfrederickson.com",
+          "url": "http://www.benfrederickson.com/matrix-factorization/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>本篇文章展示了如何使用矩陣分解方法來快速做到相似音樂（藝人）功能，首先作者先使用了 LSA 這個矩陣分解方法，LSA 是 Latent Semantic Analysis 的縮寫，字面上的意思就是「潛在語意分析」，當你要分析兩個資料之間有沒有什麼潛在的語意關係（比如同意字、資料間的相似性），都可以使用這個矩陣分解方法來分析。不瞞各位說，本宅的研究論文就是使用了 LSA 來分析歌曲於歌詞之間的情意相似性，用以對歌曲推薦情意相似的歌詞，或是反過來用歌詞推薦情意相似的歌曲。</p>\n\n<p>不小心講了太多本宅的事，言歸正傳，本篇文章寫得言簡意賅，首先作者先利用使用者播放藝人歌曲建立藝人與使用者之間的關係矩陣，然後對這個矩陣進行 LSA 分解。LSA 需要指定參數說要將矩陣分解成幾個主要因子，作者選擇了 50 個因子，如此可以得到藝人跟 50 個因子的關係矩陣，以及使用者跟 50 個因子的關係矩陣。其實藝人跟 50 個因子關係矩陣的潛在意義就是藝人受到使用者歡迎的原因因子，它是抽象的，但大家可以想成藝人因為這 50 個因子，能夠與使用者關係矩陣線性組合成原本的播放矩陣，這 50 個因子造就了使用者如何播放藝人的音樂。</p>\n\n<p>得到 50 個因子的關係矩陣之後，每一個藝人都可以表示成 50 維的向量，我們就可以使用 cosin similarity 來計算每個藝人的相似程度（潛在意義就是被使用者播放的相似情況），大家可以看一下作者提供的一些結果，像是 The Beatles 推薦出 John Lennon、Paul Mccartney，真的還蠻準的。然後作者又進一步做了一些調整，因為從使用者播放藝人音樂的關係，我們可以定義這是種喜歡藝人音樂的關係，但如果使用者都不放某位藝人的音樂，那是否就代表了是一種不喜歡的關係，為了嚴謹的計算這樣的關係，他使用了 <a href=\"http://yifanhu.net/PUB/cf.pdf\">Collaborative Filtering for Implicit Feedback Datasets</a> 提出的方法來做到這點，作者有提供相關 <a href=\"https://github.com/benfred/implicit\">Source Code</a>，大家有興趣可以去玩玩看噢～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n本篇文章展示了如何使用矩陣分解方法來快速做到相似音樂（藝人）功能，首先作者先使用了 LSA 這個矩陣分解方法，LSA 是 Latent Semantic Analysis 的縮寫，字面上的意思就是「潛在語意分析」，當你要分析兩個資料之間有沒有什麼潛在的語意關係（比如同意字、資料間的相似性），都可以使用這個矩陣分解方法來分析。不瞞各位說，本宅的研究論文就是使用了 LSA 來分析歌曲於歌詞之間的情意相似性，用以對歌曲推薦情意相似的歌詞，或是反過來用歌詞推薦情意相似的歌曲。\r\n\r\n不小心講了太多本宅的事，言歸正傳，本篇文章寫得言簡意賅，首先作者先利用使用者播放藝人歌曲建立藝人與使用者之間的關係矩陣，然後對這個矩陣進行 LSA 分解。LSA 需要指定參數說要將矩陣分解成幾個主要因子，作者選擇了 50 個因子，如此可以得到藝人跟 50 個因子的關係矩陣，以及使用者跟 50 個因子的關係矩陣。其實藝人跟 50 個因子關係矩陣的潛在意義就是藝人受到使用者歡迎的原因因子，它是抽象的，但大家可以想成藝人因為這 50 個因子，能夠與使用者關係矩陣線性組合成原本的播放矩陣，這 50 個因子造就了使用者如何播放藝人的音樂。\r\n\r\n得到 50 個因子的關係矩陣之後，每一個藝人都可以表示成 50 維的向量，我們就可以使用 cosin similarity 來計算每個藝人的相似程度（潛在意義就是被使用者播放的相似情況），大家可以看一下作者提供的一些結果，像是 The Beatles 推薦出 John Lennon、Paul Mccartney，真的還蠻準的。然後作者又進一步做了一些調整，因為從使用者播放藝人音樂的關係，我們可以定義這是種喜歡藝人音樂的關係，但如果使用者都不放某位藝人的音樂，那是否就代表了是一種不喜歡的關係，為了嚴謹的計算這樣的關係，他使用了 [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf) 提出的方法來做到這點，作者有提供相關 [Source Code](https://github.com/benfred/implicit)，大家有興趣可以去玩玩看噢～",
+          "embedded_links": [
+            {
+              "identifier": "jI7GAng",
+              "title": "Collaborative Filtering for Implicit Feedback Datasets",
+              "url_domain": "yifanhu.net",
+              "url": "http://yifanhu.net/PUB/cf.pdf"
+            },
+            {
+              "identifier": "6z7WHP6",
+              "title": "Source Code",
+              "url_domain": "github.com",
+              "url": "https://github.com/benfred/implicit"
+            }
+          ],
+          "image_original_filename": "2389d02c-834c-40fe-a366-35c76f296a23.png",
+          "image_extra_large_filename": "original_ratio_extra_large_2389d02c-834c-40fe-a366-35c76f296a23.png",
+          "image_medium_filename": "original_ratio_medium_2389d02c-834c-40fe-a366-35c76f296a23.png"
+        },
+        {
+          "identifier": "m6xlDO5",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第十五講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-wu-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>在上一講中我們學習了如何推演正規化演算法來避免 Overfitting 的發生，總結前面所有的演算法加上正規化的技巧，我們會發現各種學習演算法都有一些參數需要去做調整，但到底要怎麼挑參數才能得到最好的效果呢？這一講中介紹了 Cross Validation 這個技巧來幫助我們選擇合適的參數，比起自己憑感覺挑參數客觀許多，在理論上也證明未來預測的效果會接近 Cross Validation 測試出來的結果，這是學會機器學習這門學問相當重要的一個技巧。</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n在上一講中我們學習了如何推演正規化演算法來避免 Overfitting 的發生，總結前面所有的演算法加上正規化的技巧，我們會發現各種學習演算法都有一些參數需要去做調整，但到底要怎麼挑參數才能得到最好的效果呢？這一講中介紹了 Cross Validation 這個技巧來幫助我們選擇合適的參數，比起自己憑感覺挑參數客觀許多，在理論上也證明未來預測的效果會接近 Cross Validation 測試出來的結果，這是學會機器學習這門學問相當重要的一個技巧。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "type": "Text",
+          "title": "用 docker 來玩 GPU",
+          "description": "<p>怎麼可能? Docker 不是用來分享 CPU 或記憶體資源的嗎, 怎麼可以用 Docker 來玩 GPU 呢? 答案是: 兩年前就已經有很多人在繪圖卡上試過 Docker 了。還比較過在 Docker 裡跟 Docker 外執行 <a href=\"http://www.nvidia.com.tw/object/cuda-parallel-computing-platform-tw.html\">CUDA</a> 效能相差多少。現在 nVidia 也推出官方版 <a href=\"https://hub.docker.com/r/nvidia/cuda/\">CUDA Docker images</a>, 想在 Docker 裡玩 GPU 的人, 可以 Docker pull 下來, 直接使用。</p>\n\n<p>一定有人會問, 繪圖卡不是只能用來打 games 的嗎? 為何還要支援 Docker? 如果你也這麼認為, 那你就大錯特錯了。最近不是流行 Machine Learning 或 Deep Learning 嗎? 用 GPU 可以讓運算速度快上百倍。加上 Docker 可以幫你解決很多安裝 drivers 的問題, 再加上官方版 nVidia Docker image 還提供內建 <a href=\"https://developer.nvidia.com/cuDNN\">cuDNN</a> - Deep Neural Network 附程式庫, 可以讓你事半功倍, 很快成為用 Docker 跑 Deep Learning 處理 Big Data 的資料專家。</p>",
+          "description_markdown": "怎麼可能? Docker 不是用來分享 CPU 或記憶體資源的嗎, 怎麼可以用 Docker 來玩 GPU 呢? 答案是: 兩年前就已經有很多人在繪圖卡上試過 Docker 了。還比較過在 Docker 裡跟 Docker 外執行 [CUDA](http://www.nvidia.com.tw/object/cuda-parallel-computing-platform-tw.html) 效能相差多少。現在 nVidia 也推出官方版 [CUDA Docker images](https://hub.docker.com/r/nvidia/cuda/), 想在 Docker 裡玩 GPU 的人, 可以 Docker pull 下來, 直接使用。\r\n\r\n一定有人會問, 繪圖卡不是只能用來打 games 的嗎? 為何還要支援 Docker? 如果你也這麼認為, 那你就大錯特錯了。最近不是流行 Machine Learning 或 Deep Learning 嗎? 用 GPU 可以讓運算速度快上百倍。加上 Docker 可以幫你解決很多安裝 drivers 的問題, 再加上官方版 nVidia Docker image 還提供內建 [cuDNN](https://developer.nvidia.com/cuDNN) - Deep Neural Network 附程式庫, 可以讓你事半功倍, 很快成為用 Docker 跑 Deep Learning 處理 Big Data 的資料專家。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "boMm4aa",
+              "title": "CUDA",
+              "url_domain": "nvidia.com.tw",
+              "url": "http://www.nvidia.com.tw/object/cuda-parallel-computing-platform-tw.html"
+            },
+            {
+              "identifier": "gzD2FVU",
+              "title": "CUDA Docker images",
+              "url_domain": "docker.com",
+              "url": "https://hub.docker.com/r/nvidia/cuda/"
+            },
+            {
+              "identifier": "WCkMqHT",
+              "title": "cuDNN",
+              "url_domain": "nvidia.com",
+              "url": "https://developer.nvidia.com/cuDNN"
+            }
+          ]
+        },
+        {
+          "identifier": "as8FNz6",
+          "type": "Link",
+          "title": "Automating your development environment with Ansible",
+          "url_domain": "nickhammond.com",
+          "url": "http://www.nickhammond.com/automating-development-environment-ansible/",
+          "description": "<p>每次有 RD 新進人員報到, 最高興的是又可以採買新電腦或筆電給這位新員工。但頭痛的是, 又要重新安裝一個跟其他 RD 一模一樣的開發環境給他, 不管是誰裝, 幾乎都要耗掉一天的時間, 而且還未必能用。</p>\n\n<p>所以最好的解決方法就是, 自動化安裝你的開發環境。<a href=\"https://www.ansible.com/\">Ansible</a> 也許是個人安裝自己筆電最簡單的方法, 不必像 <a href=\"https://www.chef.io/\">Chef</a> 或是 <a href=\"https://puppet.com/\">Puppet</a> 還要安裝 server, 或是用 push pull 的模式才能使用。<a href=\"http://www.nickhammond.com/automating-development-environment-ansible/\">Nick Hammond</a> 這篇文章只是一個範例, 它用 Ansible 就能在 Mac 上安裝 Ruby 的開發環境, 還順道幫他架設 pow, MySQL 和 Elasticsearch, 並且能確保跟其他工程師一模一樣的開發環境。最棒的是, 這個設定只要做一次, 以後就輕鬆了。</p>",
+          "description_markdown": "每次有 RD 新進人員報到, 最高興的是又可以採買新電腦或筆電給這位新員工。但頭痛的是, 又要重新安裝一個跟其他 RD 一模一樣的開發環境給他, 不管是誰裝, 幾乎都要耗掉一天的時間, 而且還未必能用。\r\n\r\n所以最好的解決方法就是, 自動化安裝你的開發環境。[Ansible](https://www.ansible.com/) 也許是個人安裝自己筆電最簡單的方法, 不必像 [Chef](https://www.chef.io/) 或是 [Puppet](https://puppet.com/) 還要安裝 server, 或是用 push pull 的模式才能使用。[Nick Hammond](http://www.nickhammond.com/automating-development-environment-ansible/) 這篇文章只是一個範例, 它用 Ansible 就能在 Mac 上安裝 Ruby 的開發環境, 還順道幫他架設 pow, MySQL 和 Elasticsearch, 並且能確保跟其他工程師一模一樣的開發環境。最棒的是, 這個設定只要做一次, 以後就輕鬆了。",
+          "embedded_links": [
+            {
+              "identifier": "JIlrX8N",
+              "title": "Ansible",
+              "url_domain": "ansible.com",
+              "url": "https://www.ansible.com/"
+            },
+            {
+              "identifier": "6lDx8cf",
+              "title": "Chef",
+              "url_domain": "chef.io",
+              "url": "https://www.chef.io/"
+            },
+            {
+              "identifier": "9IIHc78",
+              "title": "Puppet",
+              "url_domain": "puppet.com",
+              "url": "https://puppet.com/"
+            },
+            {
+              "identifier": "ogbv0oI",
+              "title": "Nick Hammond",
+              "url_domain": "nickhammond.com",
+              "url": "http://www.nickhammond.com/automating-development-environment-ansible/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "rTw4Wm1",
+          "type": "Link",
+          "title": "Go best practices, six years in (學習 Golang 六年後，這裡有些秘訣)",
+          "url_domain": "bourgon.org",
+          "url": "https://peter.bourgon.org/go-best-practices-2016/#development-environment",
+          "description": "<p>作者分享學習 Golang 六年後（喔！一開始就學) 的一些實際演練上的好範例．</p>\n\n<ul>\n<li><p>Development environment (環境的設定)</p>\n\n<ul>\n<li>建議把 <code>$GOPATH/bin</code> (其實也就是我們常說的 <code>$GOBIN</code> 加入你的 <code>$PATH</code> 這樣做任何事情都會相當方便．</li>\n</ul>\n</li>\n<li><p>Repository structure (專案的檔案組織架構)</p>\n\n<ul>\n<li>如果你的套件是執行檔 （舉例:  <a href=\"https://github.com/kkdai/goFBPages\">臉書相簿小幫手 :p</a> ) 把執行檔寫在主要目錄下，你其他函式庫寫在套件資料夾中．</li>\n<li>如果你的套件是函式庫   ( 舉例: <a href=\"https://github.com/kkdai/coapmq\">CoAPMQ</a> ) 就把相關執行程式的部分 ( server 或是 client 或是其他 CLI 工具) 寫在資料夾中．</li>\n</ul>\n</li>\n<li><p>Formatting and style (關於 Coding Style 部分)</p>\n\n<ul>\n<li>不論你使用 gofmt 或是 goimport 他的 style 都是正確的，但是作者也建議你應該要參考 <a href=\"https://talks.golang.org/2014/names.slide#1\">Andrew Gerrand 命名的建議</a></li>\n</ul>\n</li>\n<li><p>Configuration ( 有效的參數設定)</p>\n\n<ul>\n<li>作者建議如果要使用 <code>flag.Parse()</code> ，建議放在 <code>func main()</code> 因為這樣最直覺也最清楚．並且把所有的設定變數都在該地方存取好當作參數傳到各個函式．</li>\n</ul>\n</li>\n<li><p>Program design  (針對物件設計的討論)</p>\n\n<ul>\n<li>如果要起始一個物件( ex: foo )，比較建議的方式不是直接拿結構( <code>new(foo)</code> ) 來用，而是使用建構函數 <code>NewFoo()</code> ．</li>\n<li>有其他針對該物件的設定，可以當作建構函數的輸入參數．這樣在 <code>NewFoo()</code> 裡面可以有效地避免疏忽的初始化．比如說 <code>map</code> 沒有初始化，變數初始化．</li>\n</ul>\n</li>\n<li><p>Logging and instrumentation ( 關於 Logging )</p>\n\n<ul>\n<li>關於 Logging  的小技巧，以下幾個都還蠻有用的:\n\n<ul>\n<li>Logging 只需要紀錄意外狀況．</li>\n<li>避免太多的 Logging Level ，很多時候使用 Info 跟 Debug 已經很足夠．</li>\n<li>使用結構性的 Logging  套件，比如說 <a href=\"https://github.com/go-kit/kit/tree/master/log\">go-kit/log</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><p>Testing (關於測試)</p>\n\n<ul>\n<li>測試只測試需要被測試的部分．比如說你要測試一個空值，就不要測試極大值與極小值的部分．</li>\n</ul>\n</li>\n<li><p>Dependency management ( 套件相依管理 )</p>\n\n<ul>\n<li>這大概算是很困難的部分，不過作者也建議幾個相依套件可以給大家參考． （比如說我也很推薦的 <a href=\"https://github.com/kardianos/govendor\">govendor</a> )</li>\n</ul>\n</li>\n<li><p>Build and deploy (編譯跟部屬方面)</p>\n\n<ul>\n<li>作者建議使用 <code>go install</code> 而不要使用 <code>go build</code> ，因為它不僅僅會把相依套件都安裝好．也會把可編譯的執行檔一併複製到 <code>$GOPATH/bin</code> 的目錄下．</li>\n</ul>\n</li>\n</ul>\n\n\n<p>這篇介紹有點長，不過很推薦大家好好研讀一下本文．</p>",
+          "description_markdown": "作者分享學習 Golang 六年後（喔！一開始就學) 的一些實際演練上的好範例． \r\n\r\n- Development environment (環境的設定)\r\n  -  建議把 `$GOPATH/bin` (其實也就是我們常說的 `$GOBIN` 加入你的 `$PATH` 這樣做任何事情都會相當方便．\r\n\r\n- Repository structure (專案的檔案組織架構)\r\n  - 如果你的套件是執行檔 （舉例:  [臉書相簿小幫手 :p](https://github.com/kkdai/goFBPages) ) 把執行檔寫在主要目錄下，你其他函式庫寫在套件資料夾中．\r\n  - 如果你的套件是函式庫   ( 舉例: [CoAPMQ](https://github.com/kkdai/coapmq) ) 就把相關執行程式的部分 ( server 或是 client 或是其他 CLI 工具) 寫在資料夾中．\r\n\r\n- Formatting and style (關於 Coding Style 部分)\r\n  - 不論你使用 gofmt 或是 goimport 他的 style 都是正確的，但是作者也建議你應該要參考 [Andrew Gerrand 命名的建議](https://talks.golang.org/2014/names.slide#1)\r\n\r\n- Configuration ( 有效的參數設定)\r\n  - 作者建議如果要使用 `flag.Parse()` ，建議放在 `func main()` 因為這樣最直覺也最清楚．並且把所有的設定變數都在該地方存取好當作參數傳到各個函式．\r\n\r\n- Program design  (針對物件設計的討論)\r\n   - 如果要起始一個物件( ex: foo )，比較建議的方式不是直接拿結構( ` new(foo)` ) 來用，而是使用建構函數 `NewFoo()` ．\r\n  - 有其他針對該物件的設定，可以當作建構函數的輸入參數．這樣在 `NewFoo()` 裡面可以有效地避免疏忽的初始化．比如說 `map` 沒有初始化，變數初始化．\r\n\r\n- Logging and instrumentation ( 關於 Logging )\r\n  - 關於 Logging  的小技巧，以下幾個都還蠻有用的:\r\n     -  Logging 只需要紀錄意外狀況．\r\n     -  避免太多的 Logging Level ，很多時候使用 Info 跟 Debug 已經很足夠．\r\n     -  使用結構性的 Logging  套件，比如說 [go-kit/log](https://github.com/go-kit/kit/tree/master/log)\r\n\r\n- Testing (關於測試)\r\n   - 測試只測試需要被測試的部分．比如說你要測試一個空值，就不要測試極大值與極小值的部分．\r\n\r\n- Dependency management ( 套件相依管理 )\r\n  - 這大概算是很困難的部分，不過作者也建議幾個相依套件可以給大家參考． （比如說我也很推薦的 [govendor](https://github.com/kardianos/govendor) )\r\n\r\n- Build and deploy (編譯跟部屬方面)\r\n   - 作者建議使用 `go install ` 而不要使用 `go build` ，因為它不僅僅會把相依套件都安裝好．也會把可編譯的執行檔一併複製到 `$GOPATH/bin` 的目錄下．\r\n\r\n這篇介紹有點長，不過很推薦大家好好研讀一下本文．",
+          "embedded_links": [
+            {
+              "identifier": "aUduGEO",
+              "title": "臉書相簿小幫手 :p",
+              "url_domain": "github.com",
+              "url": "https://github.com/kkdai/goFBPages"
+            },
+            {
+              "identifier": "ocElCuR",
+              "title": "CoAPMQ",
+              "url_domain": "github.com",
+              "url": "https://github.com/kkdai/coapmq"
+            },
+            {
+              "identifier": "szlxhKF",
+              "title": "Andrew Gerrand 命名的建議",
+              "url_domain": "golang.org",
+              "url": "https://talks.golang.org/2014/names.slide#1"
+            },
+            {
+              "identifier": "kBifqbb",
+              "title": "go-kit/log",
+              "url_domain": "github.com",
+              "url": "https://github.com/go-kit/kit/tree/master/log"
+            },
+            {
+              "identifier": "5vdvHlW",
+              "title": "govendor",
+              "url_domain": "github.com",
+              "url": "https://github.com/kardianos/govendor"
+            }
+          ],
+          "image_original_filename": "b1ef0e5e-b691-48ba-a275-ea5aabfa700d.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_b1ef0e5e-b691-48ba-a275-ea5aabfa700d.jpg",
+          "image_medium_filename": "original_ratio_medium_b1ef0e5e-b691-48ba-a275-ea5aabfa700d.jpg"
+        },
+        {
+          "identifier": "JHPUOQK",
+          "type": "Link",
+          "title": "goserv - A lightweight toolkit for web applications in Go",
+          "url_domain": "goserv.it",
+          "url": "http://goserv.it/",
+          "description": "<p>不少人一直都在詢問有沒有好的 ‪#‎Golang‬ Web toolkit ，這個 goserv 看起來還不錯．剛剛在 05/03 達到 1.0 正式版的 goserv 提供以下的功能:</p>\n\n<ul>\n<li>Fast &amp; Lightweight</li>\n<li>Flexible Routing</li>\n<li>Centralized Error handling</li>\n<li>跟原生 net/http 是相容的</li>\n</ul>\n\n\n<p>並且可以很快速的架設 File Server，也可以很快速地透過 MongoDB 架設 REST Server\n大家可以看看有沒有符合需求</p>",
+          "description_markdown": "不少人一直都在詢問有沒有好的 ‪#‎Golang‬ Web toolkit ，這個 goserv 看起來還不錯．剛剛在 05/03 達到 1.0 正式版的 goserv 提供以下的功能:\r\n\r\n- Fast & Lightweight\r\n- Flexible Routing\r\n- Centralized Error handling\r\n- 跟原生 net/http 是相容的\r\n\r\n並且可以很快速的架設 File Server，也可以很快速地透過 MongoDB 架設 REST Server\r\n大家可以看看有沒有符合需求",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "cc905641-9f5a-44e7-8cb3-b6c697856905.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_cc905641-9f5a-44e7-8cb3-b6c697856905.png",
+          "image_medium_filename": "twenty_by_nine_medium_cc905641-9f5a-44e7-8cb3-b6c697856905.png"
+        },
+        {
+          "identifier": "zY4MK4H",
+          "type": "Link",
+          "title": "[podcast] Go on the Cloud with Andrew Gerrand and Chris Broadfoot",
+          "url_domain": "gcppodcast.com",
+          "url": "https://www.gcppodcast.com/post/episode-25-go-with-andrew-and-chris/",
+          "description": "<p>昨天才剛上架最新一期的 Google Cloud Platform Podcast 請到了兩個大神:</p>\n\n<p>Andrew Gerrand: 身為 Gopher 你很難沒聽過這個名字，就是 Golang 的創始團隊之一，並且專注在 Golang 使用者經驗上的持續推廣．</p>\n\n<p>Chris Broadfoot:  去年加入 Go 跟 Google Cloud Team 的 Chris 主要是負責 Go App 在 Google Cloud Platform 上面的開發．</p>\n\n<p>裡面有談到為何 Golang 受歡迎？ 為何幾乎所有重要的雲端的開發系統( Docker Kubenetes ) 都使用 Golang 作為開發語言．</p>\n\n<p>很推薦一聽....</p>\n\n<p>此外:  主持人是有來台灣參加 Golang Taiwan 的 Francesc Campoy  跟  Google Cloud team 的 Mark Mandel</p>",
+          "description_markdown": "昨天才剛上架最新一期的 Google Cloud Platform Podcast 請到了兩個大神:\r\n\r\nAndrew Gerrand: 身為 Gopher 你很難沒聽過這個名字，就是 Golang 的創始團隊之一，並且專注在 Golang 使用者經驗上的持續推廣．\r\n\r\nChris Broadfoot:  去年加入 Go 跟 Google Cloud Team 的 Chris 主要是負責 Go App 在 Google Cloud Platform 上面的開發．\r\n\r\n裡面有談到為何 Golang 受歡迎？ 為何幾乎所有重要的雲端的開發系統( Docker Kubenetes ) 都使用 Golang 作為開發語言．\r\n\r\n很推薦一聽....\r\n\r\n此外:  主持人是有來台灣參加 Golang Taiwan 的 Francesc Campoy  跟  Google Cloud team 的 Mark Mandel ",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "bb1cad0d-b4cc-4ffe-b25a-5383c7bbc454.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_bb1cad0d-b4cc-4ffe-b25a-5383c7bbc454.jpg",
+          "image_medium_filename": "original_ratio_medium_bb1cad0d-b4cc-4ffe-b25a-5383c7bbc454.jpg"
+        },
+        {
+          "identifier": "XG6eS1V",
+          "type": "Link",
+          "title": "google/zoekt: Fast trigram based code search",
+          "url_domain": "github.com",
+          "url": "https://github.com/google/zoekt",
+          "description": "<p>Zoekt ( 唸成 \"zooked\" ): Fast trigram based code search by Google\"</p>\n\n<p>背景介紹:\n這是 Google 官方釋出的 trigram based code search tool ，其實之前 <a href=\"https://swtch.com/~rsc/\">Russ Cox</a> 就有<a href=\"https://swtch.com/~rsc/regexp/regexp4.html\">寫過類似概念的東西（並且支援 REGEX) </a></p>\n\n<p>如果想簡單的瞭解 Trigram 是如何在 code search 中運作，可以看小弟我之前的<a href=\"http://www.evanlin.com/trigram-study-note/\">簡單介紹文章</a></p>",
+          "description_markdown": "Zoekt ( 唸成 \"zooked\" ): Fast trigram based code search by Google\"\r\n\r\n背景介紹: \r\n這是 Google 官方釋出的 trigram based code search tool ，其實之前 [Russ Cox](https://swtch.com/~rsc/) 就有[寫過類似概念的東西（並且支援 REGEX) ](https://swtch.com/~rsc/regexp/regexp4.html)\r\n\r\n如果想簡單的瞭解 Trigram 是如何在 code search 中運作，可以看小弟我之前的[簡單介紹文章](http://www.evanlin.com/trigram-study-note/)",
+          "embedded_links": [
+            {
+              "identifier": "PJdFoqo",
+              "title": "Russ Cox",
+              "url_domain": "swtch.com",
+              "url": "https://swtch.com/~rsc/"
+            },
+            {
+              "identifier": "ydU8n0K",
+              "title": "寫過類似概念的東西（並且支援 REGEX) ",
+              "url_domain": "swtch.com",
+              "url": "https://swtch.com/~rsc/regexp/regexp4.html"
+            },
+            {
+              "identifier": "LoXO496",
+              "title": "簡單介紹文章",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/trigram-study-note/"
+            }
+          ]
+        },
+        {
+          "identifier": "uSsYEv7",
+          "type": "Link",
+          "title": "kovetskiy/manul 透過 git submodule 來方便達成 Go Vendoring 的工具",
+          "url_domain": "github.com",
+          "url": "https://github.com/kovetskiy/manul",
+          "description": "<p><a href=\"https://blog.golang.org/go1.6\">Go 1.6</a> 之後已經預設將實驗性質的 Vendor (也就是相依套件管理功能，更多資訊請參考 <a href=\"https://github.com/golang/go/wiki/PackageManagementTools\">Wiki</a> )  功能當作預設打開了．那麼該如何有效地使用 <a href=\"https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit\">Vendoring</a> 呢?  不論是透過 <a href=\"https://github.com/tools/godep\">Godep</a> 或是透過 <a href=\"https://github.com/kardianos/govendor\">GoVendor</a> 都會複製一整份套件原始碼在你的 Golang Repo 下．難道沒有更好的方式嗎？</p>\n\n<p><a href=\"https://github.com/kovetskiy/manul\">manul</a> 就是一個這樣的工具，他使用 <code>git submodule</code> 的概念來實作．將每個相依的套件當作是 submodule 來管理，這樣一來不僅僅可以減少許多的 Repo 空間，也可以更有效地做套件版本的控管． 並且 <code>git submodule</code> 本身就支援 <code>go get</code>．</p>\n\n<p>還在煩惱套件管理嗎？ 不仿試試看這個工具吧．</p>",
+          "description_markdown": "[Go 1.6](https://blog.golang.org/go1.6) 之後已經預設將實驗性質的 Vendor (也就是相依套件管理功能，更多資訊請參考 [Wiki](https://github.com/golang/go/wiki/PackageManagementTools) )  功能當作預設打開了．那麼該如何有效地使用 [Vendoring](https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit) 呢?  不論是透過 [Godep](https://github.com/tools/godep) 或是透過 [GoVendor](https://github.com/kardianos/govendor) 都會複製一整份套件原始碼在你的 Golang Repo 下．難道沒有更好的方式嗎？\r\n\r\n[manul](https://github.com/kovetskiy/manul) 就是一個這樣的工具，他使用 `git submodule` 的概念來實作．將每個相依的套件當作是 submodule 來管理，這樣一來不僅僅可以減少許多的 Repo 空間，也可以更有效地做套件版本的控管． 並且 `git submodule` 本身就支援 `go get`．\r\n\r\n還在煩惱套件管理嗎？ 不仿試試看這個工具吧．",
+          "embedded_links": [
+            {
+              "identifier": "dqiM2wA",
+              "title": "Go 1.6",
+              "url_domain": "golang.org",
+              "url": "https://blog.golang.org/go1.6"
+            },
+            {
+              "identifier": "Hf1LJQN",
+              "title": "Wiki",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/go/wiki/PackageManagementTools"
+            },
+            {
+              "identifier": "Hex86d2",
+              "title": "Vendoring",
+              "url_domain": "google.com",
+              "url": "https://docs.google.com/document/d/1Bz5-UB7g2uPBdOx-rw5t9MxJwkfpx90cqG9AFL0JAYo/edit"
+            },
+            {
+              "identifier": "lkoSJpj",
+              "title": "Godep",
+              "url_domain": "github.com",
+              "url": "https://github.com/tools/godep"
+            },
+            {
+              "identifier": "6zXwmIv",
+              "title": "GoVendor",
+              "url_domain": "github.com",
+              "url": "https://github.com/kardianos/govendor"
+            },
+            {
+              "identifier": "Mhknq9E",
+              "title": "manul",
+              "url_domain": "github.com",
+              "url": "https://github.com/kovetskiy/manul"
+            }
+          ],
+          "image_original_filename": "b0c7ffcd-dd08-4f0d-a8a9-1c23b7bfcac5.png",
+          "image_extra_large_filename": "original_ratio_extra_large_b0c7ffcd-dd08-4f0d-a8a9-1c23b7bfcac5.png",
+          "image_medium_filename": "original_ratio_medium_b0c7ffcd-dd08-4f0d-a8a9-1c23b7bfcac5.png"
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "E5kY0KC",
+          "type": "Link",
+          "title": "GoAnimate - 資深軟體設計工程師",
+          "url_domain": "sudo.com.tw",
+          "url": "https://sudo.com.tw/companies/83/jobs/240",
+          "description": "<p>年薪範圍 NT$ 720,000 至 NT$ 1,080,000</p>",
+          "description_markdown": "年薪範圍 NT$ 720,000 至 NT$ 1,080,000",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "5Hg5jD1",
+          "type": "Link",
+          "title": "來動手玩玩 Amazon Echo 吧 ？  透過 Raspberry Pi 來模擬 Amazon Echo，並且開發個人化的 Alexa Skill ",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/amazon-echo-alexa-implement/",
+          "description": "<p>上週的 Random Cool Stuff 有提到透過 Amazon 藍芽喇叭語音控制設備 Echo 來控制你的電動車 Telsa S ．那麼本週就讓我們來動手透過 Raspberry Pi2 做一個 <del>窮人版</del> 開發者版本的 Amazon Echo 吧?</p>\n\n<p>這一篇文章整理了一些文章列表，並且敘述該如何從 Raspberry Pi 2 的設定到建立自己的開發版本的 Amzon Echo ，甚至到架設自己的伺服器與 AWS Lambda 的部分．來開發個人化的 Alexa Skill ( 也就是 Amazon Echo 上面的 App )</p>\n\n<p>其實 Amazon 所提供的<a href=\"https://github.com/amzn/alexa-avs-raspberry-pi\">手把手說明文件</a>相當的清楚，但是可能會有些問題發生的時候不知道該如何去檢查．作者提供了一些簡單的檢查方式．希望能幫助大家儘快的開發出自己的 Amazon Echo 客製化技能．</p>\n\n<p>Post  by @kkdai</p>",
+          "description_markdown": "上週的 Random Cool Stuff 有提到透過 Amazon 藍芽喇叭語音控制設備 Echo 來控制你的電動車 Telsa S ．那麼本週就讓我們來動手透過 Raspberry Pi2 做一個 ~~窮人版~~ 開發者版本的 Amazon Echo 吧?\r\n\r\n這一篇文章整理了一些文章列表，並且敘述該如何從 Raspberry Pi 2 的設定到建立自己的開發版本的 Amzon Echo ，甚至到架設自己的伺服器與 AWS Lambda 的部分．來開發個人化的 Alexa Skill ( 也就是 Amazon Echo 上面的 App )\r\n\r\n其實 Amazon 所提供的[手把手說明文件](https://github.com/amzn/alexa-avs-raspberry-pi)相當的清楚，但是可能會有些問題發生的時候不知道該如何去檢查．作者提供了一些簡單的檢查方式．希望能幫助大家儘快的開發出自己的 Amazon Echo 客製化技能．\r\n\r\nPost  by @kkdai",
+          "embedded_links": [
+            {
+              "identifier": "29Ht1lm",
+              "title": "手把手說明文件",
+              "url_domain": "github.com",
+              "url": "https://github.com/amzn/alexa-avs-raspberry-pi"
+            }
+          ],
+          "image_original_filename": "b5bf0c33-f13a-4529-9360-05dc56957887.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_b5bf0c33-f13a-4529-9360-05dc56957887.jpg",
+          "image_medium_filename": "original_ratio_medium_b5bf0c33-f13a-4529-9360-05dc56957887.jpg"
+        }
+      ]
+    }
+  ]
+}

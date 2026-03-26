@@ -1,0 +1,457 @@
+{
+  "number": 32,
+  "title": "Issue 32 維護舊系統的正確心態要像在海水浴場游泳，因為每個人都會在裡面尿尿",
+  "summary": "本期內容涵蓋 iOS, Android, JavaScript, CSS, Machine Learning, Fintech, Go",
+  "url": "https://weekly.codetengu.com/issues/32",
+  "publication_status": "published",
+  "published_at": "2016-02-29T02:00:00+00:00",
+  "updated_at": "2016-02-29T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 楊威利腦殘粉</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 楊威利腦殘粉\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "cJmR3uW",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "bXVYXPC",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "oEYUdP0",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "urItkJi",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "QxNgUUI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "gS5f6sM",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "1cKEriq",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "MdjJnzT",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "caisSa0",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "KeHzAR2",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "gNMvepH",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "Zom1fUS",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "vDu49ju",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "GBUo7PU",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "QaXsvjZ",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "CsF3nrD",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "D6saAuw",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "pdARu50",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "3y8WLao",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "Xm4HHJP",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "6EywNS",
+          "type": "Link",
+          "title": "What every iOS Developer should be doing with Instruments",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@kazmiekr/what-every-ios-developer-should-be-doing-with-instruments-d1661eeaf64f#.7it5h6ob0",
+          "description": "<p>Xcode 帶的 Instruments 是一個強大的 Profiling 工具，我認為資深的 iOS 工程師是能科學的利用 Instruments 找到程式效能瓶頸及 Memory leak，如果打開之後只會用肉眼看那是不行的！</p>\n\n<p>這篇文章很像是 Ray Wenderlich 上面 How to Use Instruments in Xcode[1] 的濃縮版，篇幅很小，重點都有講到，適合還沒有經驗的人。<br/>\n更詳細的介紹可以參考 Ray Wenderlich 新寫的教學 <a href=\"http://www.raywenderlich.com/97886/instruments-tutorial-with-swift-getting-started\">Instruments Tutorial with Swift: Getting Started</a> 或 <a href=\"https://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/\">Finding iOS Memory Leaks with Xcode’s Instruments</a>。</p>\n\n<p>[1] <a href=\"http://www.raywenderlich.com/23037/how-to-use-instruments-in-xcode\">How to Use Instruments in Xcode</a></p>",
+          "description_markdown": "Xcode 帶的 Instruments 是一個強大的 Profiling 工具，我認為資深的 iOS 工程師是能科學的利用 Instruments 找到程式效能瓶頸及 Memory leak，如果打開之後只會用肉眼看那是不行的！\r\n\r\n這篇文章很像是 Ray Wenderlich 上面 How to Use Instruments in Xcode[1] 的濃縮版，篇幅很小，重點都有講到，適合還沒有經驗的人。  \r\n更詳細的介紹可以參考 Ray Wenderlich 新寫的教學 [Instruments Tutorial with Swift: Getting Started](http://www.raywenderlich.com/97886/instruments-tutorial-with-swift-getting-started) 或 [Finding iOS Memory Leaks with Xcode’s Instruments](https://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/)。\r\n\r\n[1] [How to Use Instruments in Xcode](http://www.raywenderlich.com/23037/how-to-use-instruments-in-xcode)",
+          "embedded_links": [
+            {
+              "identifier": "huC4fsI",
+              "title": "Instruments Tutorial with Swift: Getting Started",
+              "url_domain": "raywenderlich.com",
+              "url": "http://www.raywenderlich.com/97886/instruments-tutorial-with-swift-getting-started"
+            },
+            {
+              "identifier": "ZYJzLUd",
+              "title": "Finding iOS Memory Leaks with Xcode’s Instruments",
+              "url_domain": "atomicobject.com",
+              "url": "https://spin.atomicobject.com/2016/01/25/ios-memory-leak-xcode/"
+            },
+            {
+              "identifier": "f3Migc1",
+              "title": "How to Use Instruments in Xcode",
+              "url_domain": "raywenderlich.com",
+              "url": "http://www.raywenderlich.com/23037/how-to-use-instruments-in-xcode"
+            }
+          ]
+        },
+        {
+          "identifier": "nYBqhsJ",
+          "type": "Link",
+          "title": "NSUserDefaults In Practice",
+          "url_domain": "dscoder.com",
+          "url": "http://dscoder.com/defaults.html",
+          "description": "<p>這是 Apple 的工程師寫的 <code>NSUserDefaults</code> 介紹跟 best practice。<br/>\n列一些我覺得重要的：</p>\n\n<ul>\n<li>StandardUserDefaults 裡面存的內容可以用 KVO 來觀察</li>\n<li>不需要從 NSUserDefaults 做 cache，因為它已經很快了</li>\n<li>除非你有其他 process 要用這個 defautls 或馬上要結束現在的 process，否則不需要自己執行 <code>synchronize</code> method</li>\n<li>UserDefaults 第一次被讀取的時候會把整包加載到記憶體，因此裡面放了超大的東西，那你就哭哭囉</li>\n</ul>",
+          "description_markdown": "這是 Apple 的工程師寫的 `NSUserDefaults` 介紹跟 best practice。  \r\n列一些我覺得重要的：\r\n\r\n- StandardUserDefaults 裡面存的內容可以用 KVO 來觀察\r\n- 不需要從 NSUserDefaults 做 cache，因為它已經很快了\r\n- 除非你有其他 process 要用這個 defautls 或馬上要結束現在的 process，否則不需要自己執行 `synchronize ` method\r\n-  UserDefaults 第一次被讀取的時候會把整包加載到記憶體，因此裡面放了超大的東西，那你就哭哭囉",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "X3Cg5gn",
+          "type": "Link",
+          "title": "Building Android Apps — 30 things that experience made me learn the hard way",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9#.vwh5l4kud",
+          "description": "<p>Android 開發最佳實踐清單！</p>\n\n<p><a href=\"http://square.github.io/retrofit/\">Retrofit</a>, <a href=\"https://github.com/ReactiveX/RxJava\">RxJava</a>, <a href=\"https://github.com/google/dagger\">Dagger2</a> 及 <a href=\"https://github.com/orfjackal/retrolambda\">Retrolambda</a> 儼然是現代 Android app 的四大天王了。</p>\n\n<p>他提到 <a href=\"https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d#.brjoq2i6j\">Package by features, not layers</a> ，不要用 Activities 跟 Fragments 來分 package，而是用功能或頁面來分，蠻有趣的，貌似有點道理。<br/>\n至於 Gradle 加速，我覺得這個更詳細些 <a href=\"http://zeroturnaround.com/rebellabs/making-gradle-builds-faster/\">Making Gradle builds faster</a>。</p>",
+          "description_markdown": "Android 開發最佳實踐清單！\r\n\r\n[Retrofit](http://square.github.io/retrofit/), [RxJava](https://github.com/ReactiveX/RxJava), [Dagger2](https://github.com/google/dagger) 及 [Retrolambda](https://github.com/orfjackal/retrolambda) 儼然是現代 Android app 的四大天王了。\r\n\r\n他提到 [Package by features, not layers](https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d#.brjoq2i6j) ，不要用 Activities 跟 Fragments 來分 package，而是用功能或頁面來分，蠻有趣的，貌似有點道理。  \r\n至於 Gradle 加速，我覺得這個更詳細些 [Making Gradle builds faster](http://zeroturnaround.com/rebellabs/making-gradle-builds-faster/)。",
+          "embedded_links": [
+            {
+              "identifier": "ykl6NIo",
+              "title": "Retrofit",
+              "url_domain": "github.io",
+              "url": "http://square.github.io/retrofit/"
+            },
+            {
+              "identifier": "IiYiz2e",
+              "title": "RxJava",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveX/RxJava"
+            },
+            {
+              "identifier": "WJ4YLeD",
+              "title": "Dagger2",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/dagger"
+            },
+            {
+              "identifier": "iNRNLeX",
+              "title": "Retrolambda",
+              "url_domain": "github.com",
+              "url": "https://github.com/orfjackal/retrolambda"
+            },
+            {
+              "identifier": "cnqHKdY",
+              "title": "Package by features, not layers",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/the-engineering-team/package-by-features-not-layers-2d076df1964d#.brjoq2i6j"
+            },
+            {
+              "identifier": "F1ovZEY",
+              "title": "Making Gradle builds faster",
+              "url_domain": "zeroturnaround.com",
+              "url": "http://zeroturnaround.com/rebellabs/making-gradle-builds-faster/"
+            }
+          ]
+        },
+        {
+          "identifier": "Gv8iNiQ",
+          "type": "Link",
+          "title": "Help developers with custom Lint rules",
+          "url_domain": "jeremie-martinez.com",
+          "url": "http://jeremie-martinez.com/2015/12/15/custom-lint-rules/?utm_source=Android+Weekly&utm_campaign=1cb848077c-Android_Weekly_184&utm_medium=email&utm_term=0_4eb677ad19-1cb848077c-337958501",
+          "description": "<p>原來 <a href=\"http://developer.android.com/tools/help/lint.html\">Lint</a> 是可以自己寫條件擴展的！\n如果沒有額外做排除的話，在每次 gradle build 的時候都會跑 lint，因此很適合做自己的 coding style linter。</p>\n\n<p>作者提到兩個不同的情境：</p>\n\n<ol>\n<li>為你的 library / framework 寫 lint rules</li>\n<li>團隊用的 coding style rules</li>\n</ol>\n\n\n<p>參考：<a href=\"https://github.com/googlesamples/android-custom-lint-rules\">googlesamples/android-custom-lint-rules</a></p>",
+          "description_markdown": "原來 [Lint](http://developer.android.com/tools/help/lint.html) 是可以自己寫條件擴展的！\r\n如果沒有額外做排除的話，在每次 gradle build 的時候都會跑 lint，因此很適合做自己的 coding style linter。\r\n\r\n作者提到兩個不同的情境：\r\n\r\n1. 為你的 library / framework 寫 lint rules\r\n2. 團隊用的 coding style rules\r\n\r\n參考：[googlesamples/android-custom-lint-rules](https://github.com/googlesamples/android-custom-lint-rules)",
+          "embedded_links": [
+            {
+              "identifier": "vjGRKn1",
+              "title": "Lint",
+              "url_domain": "android.com",
+              "url": "http://developer.android.com/tools/help/lint.html"
+            },
+            {
+              "identifier": "CeRbezk",
+              "title": "googlesamples/android-custom-lint-rules",
+              "url_domain": "github.com",
+              "url": "https://github.com/googlesamples/android-custom-lint-rules"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "SFEeixf",
+          "type": "Link",
+          "title": "Google AMP 專案正式上線",
+          "url_domain": "searchengineland.com",
+          "url": "http://searchengineland.com/amp-top-stories-now-live-243314",
+          "description": "<p>Google 為手機瀏覽網頁所推出的加速計畫在本週上線，只要照著<a href=\"https://www.ampproject.org/\">教學</a>做，你的內容網頁也能夠在 Chrome 手機瀏覽器獲得類似 Facebook Instant Article 的效果，而且在搜尋結果時看到支援 AMP 的圖示。</p>\n\n<p>目前 Google 表示是否採用 AMP 目前<a href=\"http://searchengineland.com/google-amp-not-yet-a-search-ranking-signal-243498\">還不是 SEO 的指標項目</a>，不過以顯示方式來看，的確比一般連結更容易被點擊。</p>",
+          "description_markdown": "Google 為手機瀏覽網頁所推出的加速計畫在本週上線，只要照著[教學](https://www.ampproject.org/)做，你的內容網頁也能夠在 Chrome 手機瀏覽器獲得類似 Facebook Instant Article 的效果，而且在搜尋結果時看到支援 AMP 的圖示。\r\n\r\n目前 Google 表示是否採用 AMP 目前[還不是 SEO 的指標項目](http://searchengineland.com/google-amp-not-yet-a-search-ranking-signal-243498)，不過以顯示方式來看，的確比一般連結更容易被點擊。",
+          "embedded_links": [
+            {
+              "identifier": "XnNbzwb",
+              "title": "教學",
+              "url_domain": "ampproject.org",
+              "url": "https://www.ampproject.org/"
+            },
+            {
+              "identifier": "Nw56XNQ",
+              "title": "還不是 SEO 的指標項目",
+              "url_domain": "searchengineland.com",
+              "url": "http://searchengineland.com/google-amp-not-yet-a-search-ranking-signal-243498"
+            }
+          ],
+          "image_original_filename": "a93fa85f-593a-416d-b6e5-74722656bdc4.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_a93fa85f-593a-416d-b6e5-74722656bdc4.jpg",
+          "image_medium_filename": "original_ratio_medium_a93fa85f-593a-416d-b6e5-74722656bdc4.jpg"
+        },
+        {
+          "identifier": "QUHzDci",
+          "type": "Link",
+          "title": "線上預覽 RWD 網頁工具",
+          "url_domain": "google.com",
+          "url": "http://design.google.com/resizer/",
+          "description": "<p>Google 的 Resizer 工具可以讓你同時在三種不同尺寸解析度下觀看網頁（桌面、平板和手機），還可以做互動，比起只有截圖的工具實用許多。</p>\n\n<p>Chrome Dev Tool 也有同樣功能的<a href=\"https://developer.chrome.com/devtools/docs/device-mode\">工具</a>，缺點則是無法一次預覽三種尺寸。</p>",
+          "description_markdown": "Google 的 Resizer 工具可以讓你同時在三種不同尺寸解析度下觀看網頁（桌面、平板和手機），還可以做互動，比起只有截圖的工具實用許多。\r\n\r\nChrome Dev Tool 也有同樣功能的[工具](https://developer.chrome.com/devtools/docs/device-mode)，缺點則是無法一次預覽三種尺寸。",
+          "embedded_links": [
+            {
+              "identifier": "EVsNOLh",
+              "title": "工具",
+              "url_domain": "chrome.com",
+              "url": "https://developer.chrome.com/devtools/docs/device-mode"
+            }
+          ]
+        },
+        {
+          "identifier": "Y3FjFJp",
+          "type": "Link",
+          "title": "使用 calc() 來實作 Responsive Email",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/the-fab-four-technique-to-create-responsive-emails-without-media-queries-baf11fdfa848#.3dpoeytgr",
+          "description": "<p>Rémi Parmentie 使用 CSS 的 <code>calc()</code> 計算屬性，搭配 <code>max-width</code> 和 <code>min-width</code>，可以在支援 <code>calc</code> 的 e-mail client 上實現自適應版型，相當神奇。解決令人頭痛的 e-mail 在不同解析度和瀏覽器的排版問題。</p>\n\n<p>而且 Gmail 的 web 版和 app、Apple Mail 和 Outlook.com 都支援，而且就算不支援還是能透過 <code>min-width</code> 和 <code>max-width</code> 做到優雅降級。</p>",
+          "description_markdown": "Rémi Parmentie 使用 CSS 的 `calc()` 計算屬性，搭配 `max-width` 和 `min-width`，可以在支援 `calc` 的 e-mail client 上實現自適應版型，相當神奇。解決令人頭痛的 e-mail 在不同解析度和瀏覽器的排版問題。\r\n\r\n而且 Gmail 的 web 版和 app、Apple Mail 和 Outlook.com 都支援，而且就算不支援還是能透過 `min-width` 和 `max-width` 做到優雅降級。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "fb1358b4-c4c6-4770-bc86-996cfd024f6b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_fb1358b4-c4c6-4770-bc86-996cfd024f6b.png",
+          "image_medium_filename": "original_ratio_medium_fb1358b4-c4c6-4770-bc86-996cfd024f6b.png"
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "type": "Text",
+          "title": "XG Boost",
+          "description": "<p>在各種指導式機械學習 (supervised machine learning) 模型當中, 目前看來, 可以說 <a href=\"https://github.com/dmlc/xgboost\">XGBoost</a> 速度最快而且正確。在 <a href=\"https://www.kaggle.com\">Kaggle</a> 的預測競賽裡, 有些問題利用 XGBoost 方法常常得到第一, 之前只有 R 版本, 後來又有 <a href=\"http://xgboost.readthedocs.org/en/latest/python/index.html\">Python</a>, Java, C++ 版本可以使用。\n有興趣瞭解 boosting trees 原理的人, 可以參考 Tianqi Chen 的 <a href=\"http://xgboost.readthedocs.org/en/latest/model.html\">Introduction to Boosted Trees</a> (複雜的公式可以跳過, 只看圖解的部分, 保證你看的懂)。\n而想要實做的人可以參考 Michaël Benesty 的 <a href=\"https://www.kaggle.com/tqchen/otto-group-product-classification-challenge/understanding-xgboost-model-on-otto-data\">Understanding XGBoost Model on Otto Dataset</a> 教學。</p>",
+          "description_markdown": "在各種指導式機械學習 (supervised machine learning) 模型當中, 目前看來, 可以說 [XGBoost](https://github.com/dmlc/xgboost) 速度最快而且正確。在 [Kaggle](https://www.kaggle.com) 的預測競賽裡, 有些問題利用 XGBoost 方法常常得到第一, 之前只有 R 版本, 後來又有 [Python](http://xgboost.readthedocs.org/en/latest/python/index.html), Java, C++ 版本可以使用。\r\n有興趣瞭解 boosting trees 原理的人, 可以參考 Tianqi Chen 的 [Introduction to Boosted Trees](http://xgboost.readthedocs.org/en/latest/model.html) (複雜的公式可以跳過, 只看圖解的部分, 保證你看的懂)。 \r\n而想要實做的人可以參考 Michaël Benesty 的 [Understanding XGBoost Model on Otto Dataset](https://www.kaggle.com/tqchen/otto-group-product-classification-challenge/understanding-xgboost-model-on-otto-data) 教學。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "2bTAVuL",
+              "title": "XGBoost",
+              "url_domain": "github.com",
+              "url": "https://github.com/dmlc/xgboost"
+            },
+            {
+              "identifier": "G7R6B2B",
+              "title": "Kaggle",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com"
+            },
+            {
+              "identifier": "PzGCSEj",
+              "title": "Python",
+              "url_domain": "readthedocs.org",
+              "url": "http://xgboost.readthedocs.org/en/latest/python/index.html"
+            },
+            {
+              "identifier": "HpN84nC",
+              "title": "Introduction to Boosted Trees",
+              "url_domain": "readthedocs.org",
+              "url": "http://xgboost.readthedocs.org/en/latest/model.html"
+            },
+            {
+              "identifier": "sePpTOm",
+              "title": "Understanding XGBoost Model on Otto Dataset",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/tqchen/otto-group-product-classification-challenge/understanding-xgboost-model-on-otto-data"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "Financial Inclusion",
+          "description": "<p>這個專有名詞我也是第一次聽到, 但在 fintech 世界裡, 確是佔 20% 最大的一片市場。在這份 <a href=\"http://pt.slideshare.net/Startupbootcamp/fin-tech-survey-2015\">2015 年 fintech 問卷調查</a> 裡可以發現, 它從前年 30% 跌到 20%, 這意味着 fintech 轉移重點到其他區隔 (這是好事, 因爲其他區隔現有的銀行就比較有意願參與)。但反觀 financial inclusion 是想要解決地球上還有 20 憶人口沒有能力或無法借款的人財務上的問題, 畢竟印度跟中國還有很大的市場可以開發。\n那跟我們寫程式的人有什麼關係呢? 還找不到新創題目的公司或個人, 可以想想在 <a href=\"http://www.bnext.com.tw/article/view/id/38232\">fintech 流行之際</a>, 我們能寫什麼程式, 能用什麼技術來讓財金界使用。(這些不包含電子商務喔), 例如 \"財務管理\", \"支付\", \"區塊鏈\" (<a href=\"https://azure.microsoft.com/en-us/blog/ethereum-blockchain-as-a-service-now-on-azure/\">Blockchain as a Service</a>), \"保險\" 等等, 如果這些現有銀行或保險公司不做或不趕快做, ApplePay, \"小米\", \"支付寶\" 之類的公司, 會很快把客戶搶光, 因爲世界就這麼點大...</p>",
+          "description_markdown": "這個專有名詞我也是第一次聽到, 但在 fintech 世界裡, 確是佔 20% 最大的一片市場。在這份 [2015 年 fintech 問卷調查](http://pt.slideshare.net/Startupbootcamp/fin-tech-survey-2015) 裡可以發現, 它從前年 30% 跌到 20%, 這意味着 fintech 轉移重點到其他區隔 (這是好事, 因爲其他區隔現有的銀行就比較有意願參與)。但反觀 financial inclusion 是想要解決地球上還有 20 憶人口沒有能力或無法借款的人財務上的問題, 畢竟印度跟中國還有很大的市場可以開發。\r\n那跟我們寫程式的人有什麼關係呢? 還找不到新創題目的公司或個人, 可以想想在 [fintech 流行之際](http://www.bnext.com.tw/article/view/id/38232), 我們能寫什麼程式, 能用什麼技術來讓財金界使用。(這些不包含電子商務喔), 例如 \"財務管理\", \"支付\", \"區塊鏈\" ([Blockchain as a Service](https://azure.microsoft.com/en-us/blog/ethereum-blockchain-as-a-service-now-on-azure/)), \"保險\" 等等, 如果這些現有銀行或保險公司不做或不趕快做, ApplePay, \"小米\", \"支付寶\" 之類的公司, 會很快把客戶搶光, 因爲世界就這麼點大... ",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "NivyHPo",
+              "title": "2015 年 fintech 問卷調查",
+              "url_domain": "slideshare.net",
+              "url": "http://pt.slideshare.net/Startupbootcamp/fin-tech-survey-2015"
+            },
+            {
+              "identifier": "JrWD3TQ",
+              "title": "fintech 流行之際",
+              "url_domain": "bnext.com.tw",
+              "url": "http://www.bnext.com.tw/article/view/id/38232"
+            },
+            {
+              "identifier": "efEWl5g",
+              "title": "Blockchain as a Service",
+              "url_domain": "microsoft.com",
+              "url": "https://azure.microsoft.com/en-us/blog/ethereum-blockchain-as-a-service-now-on-azure/"
+            }
+          ]
+        },
+        {
+          "identifier": "lLm1BEw",
+          "type": "Link",
+          "title": "Microservices in Go using Go-kit",
+          "url_domain": "heroku.com",
+          "url": "https://blog.heroku.com/archives/2016/2/19/microservices_in_go_using_go_kit",
+          "description": "<p>分散式程式開發技術已經成爲寫 microservices 架構必要的技能, 而針對 go 語言, heroku 的 <a href=\"https://github.com/go-kit/kit\">go-kit</a> 提供了程式設計師寫分散式程式一些必要的工具, 例如創造 endpoints, services, transport, circuit break, ratelimit, logging, metrics, request tracking, 以及 service discovery 和 load balancing 等。如果想了解這些專有名詞是什麼, 你可以看 Peter Bourgon 的 <a href=\"https://www.youtube.com/watch?v=1AjaZi4QuGo\">Go Kit: A Standard Library for Distributed Programming</a>。\n看完上述的 youtube, 你可以照着 <a href=\"https://blog.heroku.com/archives/2016/2/19/microservices_in_go_using_go_kit#go-kit-101\">Go-kit 101</a> 以及它所提供的<a href=\"https://github.com/heroku-examples/go-kit-ex1\">範例</a>實做。學會如何使用 go-kit, 你就可以開始寫 microservices 架構的程式了。</p>",
+          "description_markdown": "分散式程式開發技術已經成爲寫 microservices 架構必要的技能, 而針對 go 語言, heroku 的 [go-kit](https://github.com/go-kit/kit) 提供了程式設計師寫分散式程式一些必要的工具, 例如創造 endpoints, services, transport, circuit break, ratelimit, logging, metrics, request tracking, 以及 service discovery 和 load balancing 等。如果想了解這些專有名詞是什麼, 你可以看 Peter Bourgon 的 [Go Kit: A Standard Library for Distributed Programming](https://www.youtube.com/watch?v=1AjaZi4QuGo)。 \r\n看完上述的 youtube, 你可以照着 [Go-kit 101](https://blog.heroku.com/archives/2016/2/19/microservices_in_go_using_go_kit#go-kit-101) 以及它所提供的[範例](https://github.com/heroku-examples/go-kit-ex1)實做。學會如何使用 go-kit, 你就可以開始寫 microservices 架構的程式了。",
+          "embedded_links": [
+            {
+              "identifier": "26OFKea",
+              "title": "go-kit",
+              "url_domain": "github.com",
+              "url": "https://github.com/go-kit/kit"
+            },
+            {
+              "identifier": "7yCdaIP",
+              "title": "Go Kit: A Standard Library for Distributed Programming",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=1AjaZi4QuGo"
+            },
+            {
+              "identifier": "Cjt21AZ",
+              "title": "Go-kit 101",
+              "url_domain": "heroku.com",
+              "url": "https://blog.heroku.com/archives/2016/2/19/microservices_in_go_using_go_kit#go-kit-101"
+            },
+            {
+              "identifier": "TmPShti",
+              "title": "範例",
+              "url_domain": "github.com",
+              "url": "https://github.com/heroku-examples/go-kit-ex1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "1YecZ0x",
+          "type": "Link",
+          "title": "Judging the Stupidity of GitHub Projects by Stars and Forks",
+          "url_domain": "ericgreer.info",
+          "url": "http://ericgreer.info/github/funny/stupidity/2016/02/28/judging-the-stupidity-of-github-projects.html",
+          "description": "<p>這個還蠻好笑的，這個作者宣稱他在 GitHub 上找到笨蛋指標：亂用 Fork 。<br/>\nFork 數減掉有發 pull request 的人數當成分子 star 數當成分母，是這個 GitHub repo 的笨蛋率。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "這個還蠻好笑的，這個作者宣稱他在 GitHub 上找到笨蛋指標：亂用 Fork 。  \r\nFork 數減掉有發 pull request 的人數當成分子 star 數當成分母，是這個 GitHub repo 的笨蛋率。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "U5djyt3",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

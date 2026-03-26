@@ -1,0 +1,506 @@
+{
+  "number": 59,
+  "title": "Issue 59 你在每個 commit 裡修改的程式碼越多，你在 code review 時被發現的錯誤就會越少",
+  "summary": "本期內容涵蓋 Microservice, Overengineering, Security, Python, Machine Learning, Spark, PHP, Regular Expression, Testing",
+  "url": "https://weekly.codetengu.com/issues/59",
+  "publication_status": "published",
+  "published_at": "2016-09-12T03:00:00+01:00",
+  "updated_at": "2016-09-12T13:51:27+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://book.douban.com/people/vinta/\">The Best of Isaac Asimov</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - comiXology 的坑好大啊～</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Best of Isaac Asimov](https://book.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@wancw](https://twitter.com/wancw) - comiXology 的坑好大啊～\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "80IKznA",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "QfYAC7Z",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Yti6FKB",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "m22YyDq",
+              "title": "The Best of Isaac Asimov",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "xt4aofa",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "pyIJaRZ",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "G2fL0cd",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "CaAgQqu",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "tn5d4fL",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "ZznmcaB",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "SlmzCUz",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "Lr7BzK4",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "dLvtMAA",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Tftn1yT",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "npbyYEP",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "kVZbMem",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "7vfAxjd",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "XB06iUJ",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "1YwRggX",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "rK4tZcg",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "4WoxN3p",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "KKq1mgs",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "4srxmWU",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "GZwNZVc",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "xyYGMBl",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "OVoWqx",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "yq5Tu2a",
+          "type": "Link",
+          "title": "10 Modern Software Over-Engineering Mistakes",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@rdsubhas/10-modern-software-engineering-mistakes-bc67fbef4fc8#.9f2jja542",
+          "description": "<p>作者列出的這十個過度工程、過度設計的現象，不可不慎吶！雖然過度工程的分寸實在不好難捏，但是還是有一些常見徵兆，比如說你對你的程式未來的演變做了「過多的假設」，甚至是毫無根據的假設。#BornToDoOverengineering</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.codesimplicity.com/post/what-is-overengineering/\">What Is Overengineering?</a></li>\n<li><a href=\"http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to\">Write code that is easy to delete, not easy to extend</a></li>\n<li><a href=\"http://s.itho.me/modernweb/2016/tracka/Ant_ModernWeb-%E6%81%B0%E5%A6%82%E5%85%B6%E5%88%86%E7%9A%84MySQL%E8%A8%AD%E8%A8%88%E6%8A%80%E5%B7%A7_Public.pdf\">恰如其分的 MySQL 設計技巧</a> -「架構是演進的，預想但不過早調優」</li>\n</ul>",
+          "description_markdown": "作者列出的這十個過度工程、過度設計的現象，不可不慎吶！雖然過度工程的分寸實在不好難捏，但是還是有一些常見徵兆，比如說你對你的程式未來的演變做了「過多的假設」，甚至是毫無根據的假設。#BornToDoOverengineering\r\n\r\n延伸閱讀：\r\n\r\n- [What Is Overengineering?](http://www.codesimplicity.com/post/what-is-overengineering/)\r\n- [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)\r\n- [恰如其分的 MySQL 設計技巧](http://s.itho.me/modernweb/2016/tracka/Ant_ModernWeb-%E6%81%B0%E5%A6%82%E5%85%B6%E5%88%86%E7%9A%84MySQL%E8%A8%AD%E8%A8%88%E6%8A%80%E5%B7%A7_Public.pdf) -「架構是演進的，預想但不過早調優」",
+          "embedded_links": [
+            {
+              "identifier": "TIt4ttL",
+              "title": "What Is Overengineering?",
+              "url_domain": "codesimplicity.com",
+              "url": "http://www.codesimplicity.com/post/what-is-overengineering/"
+            },
+            {
+              "identifier": "cGkQm52",
+              "title": "Write code that is easy to delete, not easy to extend",
+              "url_domain": "programmingisterrible.com",
+              "url": "http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to"
+            },
+            {
+              "identifier": "f1NkjV1",
+              "title": "恰如其分的 MySQL 設計技巧",
+              "url_domain": "itho.me",
+              "url": "http://s.itho.me/modernweb/2016/tracka/Ant_ModernWeb-%E6%81%B0%E5%A6%82%E5%85%B6%E5%88%86%E7%9A%84MySQL%E8%A8%AD%E8%A8%88%E6%8A%80%E5%B7%A7_Public.pdf"
+            }
+          ]
+        },
+        {
+          "identifier": "9XGYjaV",
+          "type": "Link",
+          "title": "Walking the Microservices Path Towards Loose Coupling? Look out for These Pitfalls",
+          "url_domain": "dzone.com",
+          "url": "https://dzone.com/articles/walking-the-microservices-path-towards-loose-coupl",
+          "description": "<p>採用 Microservice 的目的就是為了解耦，讓各服務能夠彼此獨立開發、獨立部署。而重點其實就是在界定 Microservices 的 Boundaries（邊界），白話一點的說法是到底該怎麼拆分服務。</p>\n\n<p>這篇文章就列出了幾個「痛點」，當然，最麻煩的始終還是資料庫。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/\">Microservices: It’s not (only) the size that matters, it’s (also) how you use them</a></li>\n<li><a href=\"http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/\">The Hardest Part About Microservices: Your Data</a></li>\n<li><a href=\"http://www.jianshu.com/p/6ee178e15427\">微服务笔记：边界</a></li>\n</ul>",
+          "description_markdown": "採用 Microservice 的目的就是為了解耦，讓各服務能夠彼此獨立開發、獨立部署。而重點其實就是在界定 Microservices 的 Boundaries（邊界），白話一點的說法是到底該怎麼拆分服務。\r\n\r\n這篇文章就列出了幾個「痛點」，當然，最麻煩的始終還是資料庫。\r\n\r\n延伸閱讀：\r\n\r\n- [Microservices: It’s not (only) the size that matters, it’s (also) how you use them](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/)\r\n- [The Hardest Part About Microservices: Your Data](http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/)\r\n- [微服务笔记：边界](http://www.jianshu.com/p/6ee178e15427)",
+          "embedded_links": [
+            {
+              "identifier": "O4OxgXr",
+              "title": "Microservices: It’s not (only) the size that matters, it’s (also) how you use them",
+              "url_domain": "tigerteam.dk",
+              "url": "https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-2/"
+            },
+            {
+              "identifier": "hxlpvW1",
+              "title": "The Hardest Part About Microservices: Your Data",
+              "url_domain": "christianposta.com",
+              "url": "http://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/"
+            },
+            {
+              "identifier": "WYSoz0p",
+              "title": "微服务笔记：边界",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/p/6ee178e15427"
+            }
+          ]
+        },
+        {
+          "identifier": "AjBYm8k",
+          "type": "Link",
+          "title": "The Security Checklist",
+          "url_domain": "github.com",
+          "url": "https://github.com/FallibleInc/security-guide-for-developers/blob/master/security-checklist.md",
+          "description": "<p>這是一份關於 Web 和 Mobile app 的安全性或隱私權的 checklist，建議大家在服務上線前都核對一下。</p>",
+          "description_markdown": "這是一份關於 Web 和 Mobile app 的安全性或隱私權的 checklist，建議大家在服務上線前都核對一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "KcSbykQ",
+          "type": "Link",
+          "title": "Hidden features of Python",
+          "url_domain": "stackoverflow.com",
+          "url": "http://stackoverflow.com/questions/101268/hidden-features-of-python",
+          "description": "<p>這個 Stack Overflow 的一大串回答裡列出了超多可能不是每個 Python developers 都知道的小技巧。裡頭有幾個我還真的不知道，例如原來 <code>re.sub()</code> 可以接受 function 當參數、可以在 regular expression 裡寫註解（透過 <code>re.VERBOSE</code>） 以及 <code>from __future__ import braces</code>，大家可以自己在 REPL 裡試試看效果如何。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://access.redhat.com/blogs/766093/posts/2592591\">A bite of Python</a></li>\n</ul>",
+          "description_markdown": "這個 Stack Overflow 的一大串回答裡列出了超多可能不是每個 Python developers 都知道的小技巧。裡頭有幾個我還真的不知道，例如原來 `re.sub()` 可以接受 function 當參數、可以在 regular expression 裡寫註解（透過 `re.VERBOSE`） 以及 `from __future__ import braces`，大家可以自己在 REPL 裡試試看效果如何。\r\n\r\n延伸閱讀：\r\n\r\n - [A bite of Python](https://access.redhat.com/blogs/766093/posts/2592591)",
+          "embedded_links": [
+            {
+              "identifier": "QbKXkWV",
+              "title": "A bite of Python",
+              "url_domain": "redhat.com",
+              "url": "https://access.redhat.com/blogs/766093/posts/2592591"
+            }
+          ]
+        },
+        {
+          "identifier": "5TpxOwB",
+          "type": "Link",
+          "title": "Makefiles in Python projects",
+          "url_domain": "krzysztofzuraw.com",
+          "url": "http://krzysztofzuraw.com/blog/2016/makefiles-in-python-projects.html",
+          "description": "<p>當然不只是 Python，所有的語言都可以用 <code>Makefile</code>。絕大部份的情況下，你根本不需要什麼額外安裝的 build tool 或 task runner（望向 JavaScript），真的，你真的只需要一個 <code>Makefile</code> 就夠了。</p>",
+          "description_markdown": "當然不只是 Python，所有的語言都可以用 `Makefile`。絕大部份的情況下，你根本不需要什麼額外安裝的 build tool 或 task runner（望向 JavaScript），真的，你真的只需要一個 `Makefile` 就夠了。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "KACe6Ny",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 3 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-3-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上一講中我們介紹了 Dual SVM，將 SVM 問題轉換成對偶問題來做計算，但上一講中仍未完全講解為何 Dual SVM 能減少計算量增加效能，在這一講中將會從 Dual SVM 引入 Kernel 的概念，將特徵轉換透過 Kernel function 來做處理，讓 SVM 可以做到無限多維的特徵轉換。</p>\n\n<p>其實平常大家在說的 SVM，通常就是指 Kernel SVM，所以 SVM 工具通常會有提供許多種 Kernel 來讓我們做不同的轉換，每種 Kernel 會有不同的性質，可以調的參數也會不同，所以了解 Kernel function 本身是做了什麼轉換，也會比較容易明白怎麼去調參數。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上一講中我們介紹了 Dual SVM，將 SVM 問題轉換成對偶問題來做計算，但上一講中仍未完全講解為何 Dual SVM 能減少計算量增加效能，在這一講中將會從 Dual SVM 引入 Kernel 的概念，將特徵轉換透過 Kernel function 來做處理，讓 SVM 可以做到無限多維的特徵轉換。\r\n\r\n其實平常大家在說的 SVM，通常就是指 Kernel SVM，所以 SVM 工具通常會有提供許多種 Kernel 來讓我們做不同的轉換，每種 Kernel 會有不同的性質，可以調的參數也會不同，所以了解 Kernel function 本身是做了什麼轉換，也會比較容易明白怎麼去調參數。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "l5ICLh8",
+          "type": "Link",
+          "title": "Large scale matrix multiplication with pyspark",
+          "url_domain": "yodas.com",
+          "url": "https://labs.yodas.com/large-scale-matrix-multiplication-with-pyspark-or-how-to-match-two-large-datasets-of-company-1be4b1b2871e",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>本篇文章利用模糊比對公司名稱的例子來說明如何使用 <a href=\"https://spark.apache.org/docs/0.9.0/index.html\">Spark</a> 做龐大矩陣的運算，從最簡單的方法開始嘗試，然後一步步導引之後，引出做 NLP 常常會遇到的稀疏龐大矩陣運算，可能造成記憶體不足的問題，進而使用 Spark 來做到分散式運算處理，由於例子簡單，蠻適合讓大家模仿他的做法自己嘗試看看～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n本篇文章利用模糊比對公司名稱的例子來說明如何使用 [Spark](https://spark.apache.org/docs/0.9.0/index.html) 做龐大矩陣的運算，從最簡單的方法開始嘗試，然後一步步導引之後，引出做 NLP 常常會遇到的稀疏龐大矩陣運算，可能造成記憶體不足的問題，進而使用 Spark 來做到分散式運算處理，由於例子簡單，蠻適合讓大家模仿他的做法自己嘗試看看～",
+          "embedded_links": [
+            {
+              "identifier": "wjRArPR",
+              "title": "Spark",
+              "url_domain": "apache.org",
+              "url": "https://spark.apache.org/docs/0.9.0/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "ZxBfORk",
+          "type": "Link",
+          "title": "A Response To PHP- The Wrong Way",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jon.lemaitre/a-response-to-php-the-wrong-way-fe7bb253e295",
+          "description": "<p>PHP：中級</p>\n\n<p>關於 PHP 這個語言，網路上一直充斥著大量的過時資訊並且傳播著錯誤的實踐以及不安全的代碼，很容易讓 PHP 新手誤入歧途，所以有了 <a href=\"http://www.phptherightway.com/\">PHP the right way</a> 這個最佳實踐電子書，讓 PHP 新手可以有一個良好的入門之道。</p>\n\n<p>而最近也出現了一個 <a href=\"http://www.phpthewrongway.com/\">PHP the wrong way</a>，與 PHP the right way 相比，PHP the wrong way 比較偏向心法或是一些經驗法則，沒有提供比較具體的實踐或是建議，因此本篇文章作者對於 PHP the wrong way 很不以為然，簡而言之，就是認為 PHP the wrong way 是「廢文」一篇。所以其實這篇回應「廢文」的文章嚴格來說也是一篇「廢文」呢～</p>",
+          "description_markdown": "PHP：中級\r\n\r\n關於 PHP 這個語言，網路上一直充斥著大量的過時資訊並且傳播著錯誤的實踐以及不安全的代碼，很容易讓 PHP 新手誤入歧途，所以有了 [PHP the right way](http://www.phptherightway.com/) 這個最佳實踐電子書，讓 PHP 新手可以有一個良好的入門之道。\r\n\r\n而最近也出現了一個 [PHP the wrong way](http://www.phpthewrongway.com/)，與 PHP the right way 相比，PHP the wrong way 比較偏向心法或是一些經驗法則，沒有提供比較具體的實踐或是建議，因此本篇文章作者對於 PHP the wrong way 很不以為然，簡而言之，就是認為 PHP the wrong way 是「廢文」一篇。所以其實這篇回應「廢文」的文章嚴格來說也是一篇「廢文」呢～",
+          "embedded_links": [
+            {
+              "identifier": "sSzTmje",
+              "title": "PHP the right way",
+              "url_domain": "phptherightway.com",
+              "url": "http://www.phptherightway.com/"
+            },
+            {
+              "identifier": "tj5ndyM",
+              "title": "PHP the wrong way",
+              "url_domain": "phpthewrongway.com",
+              "url": "http://www.phpthewrongway.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "B6iGvs7",
+          "type": "Link",
+          "title": "Human readable regular expressions for PHP 5.3+",
+          "url_domain": "github.com",
+          "url": "https://github.com/gherkins/regexpbuilderphp",
+          "description": "<p>PHP：中級</p>\n\n<p>我個人最討厭寫 Regular Expression 了，既不直覺又難維護，但偏偏還蠻常遇到的。這個 PHP 套件某種程度解決的 Regular Expression 不直覺又難維護的問題。</p>\n\n<p>如果看 Read Me 覺得不夠詳盡的話，也可以看看 <a href=\"https://github.com/gherkins/regexpbuilderphp/wiki\">wiki</a>。</p>",
+          "description_markdown": "PHP：中級\r\n\r\n我個人最討厭寫 Regular Expression 了，既不直覺又難維護，但偏偏還蠻常遇到的。這個 PHP 套件某種程度解決的 Regular Expression 不直覺又難維護的問題。\r\n\r\n如果看 Read Me 覺得不夠詳盡的話，也可以看看 [wiki](https://github.com/gherkins/regexpbuilderphp/wiki)。",
+          "embedded_links": [
+            {
+              "identifier": "4zFxdk3",
+              "title": "wiki",
+              "url_domain": "github.com",
+              "url": "https://github.com/gherkins/regexpbuilderphp/wiki"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "SduBM58",
+          "type": "Link",
+          "title": "(影片) Don’t Build a Distributed Monolith",
+          "url_domain": "microservices.com",
+          "url": "https://www.microservices.com/talks/dont-build-a-distributed-monolith/",
+          "description": "<p>Facebook 工程師談 microservice 裡很容易犯的 anti-pattern: <strong>Distributed Monolith</strong> ，如果你懶得看影片的話，重點在於他引用的這句話：</p>\n\n<blockquote><p>The evils of too much coupling between services are far worse than the problems caused by code duplication</p></blockquote>\n\n<p>補充資料：</p>\n\n<ul>\n<li><a href=\"https://news.ycombinator.com/item?id=11220139\">Hacker News</a> 上的討論</li>\n<li><a href=\"https://www.infoq.com/news/2016/02/services-distributed-monolith\">InfoQ</a> 上的摘要</li>\n</ul>\n\n\n<p>Microservice 之間應該要能獨立地運作，連程式碼也該是如此；嘗試在 (micro)service 之間維護一份共用程式碼只會帶來更多的問題。我近三年的工作經驗也不斷驗證這個觀點（其中還包括嘗試在 server、Android、iOS App 間共用一份 core-library，那真是艱鉅的挑戰……）。</p>",
+          "description_markdown": "Facebook 工程師談 microservice 裡很容易犯的 anti-pattern: **Distributed Monolith** ，如果你懶得看影片的話，重點在於他引用的這句話：\r\n> The evils of too much coupling between services are far worse than the problems caused by code duplication\r\n\r\n補充資料：\r\n\r\n* [Hacker News](https://news.ycombinator.com/item?id=11220139) 上的討論\r\n* [InfoQ](https://www.infoq.com/news/2016/02/services-distributed-monolith) 上的摘要\r\n\r\nMicroservice 之間應該\b要能獨立地運作，連程式碼也該是如此；嘗試在 (micro)service 之間維護一份共用程式碼只會帶來更多的問題。我近三年的工作經驗也不斷驗證這個觀點（其中還包括嘗試在 server、Android、iOS App 間共用一份 core-library，那真是艱鉅的挑戰……）。\r\n\r\n\b",
+          "embedded_links": [
+            {
+              "identifier": "1C55kxB",
+              "title": "Hacker News",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=11220139"
+            },
+            {
+              "identifier": "6oILSJj",
+              "title": "InfoQ",
+              "url_domain": "infoq.com",
+              "url": "https://www.infoq.com/news/2016/02/services-distributed-monolith"
+            }
+          ]
+        },
+        {
+          "identifier": "iIXqxF2",
+          "type": "Link",
+          "title": "谈谈互联网后端基础设施 - 后端技术杂谈",
+          "url_domain": "rowkey.me",
+          "url": "http://www.rowkey.me/blog/2016/08/27/server-basic-tech-stack/",
+          "description": "<p>本文提及了快取（缓存）、資料庫（数据库）、搜尋引擎（搜索引擎）、消息队列、日誌（log）收集、資料分析、服務監控等主題，以及目前廣為採納的工具或解決方案。</p>\n\n<p>原標題說是「基礎設施」，我覺得適合拿來作為後端（backend）的鳥瞰地圖。不管用來當作培養自己技能樹的指引或是拿來檢視自家產品哪邊需要補強都是不錯的起點。</p>\n\n<p>不得不說，後端的水真是有夠深；好處就是因為要做的事情太多了，總是會有位置可去。與各位共勉之。 :)</p>",
+          "description_markdown": "本文提及了快取（缓存）、資料庫（数据库）、搜尋引擎（搜索引擎）、消息队列、日誌（log）收集、資料分析、服務監控等主題，以及目前廣為採納的工具或解決方案。\r\n\r\n原標題說是「基礎設施」，我覺得適合拿來作為後端（backend）的鳥瞰地圖。不管用來當作\b培養自己技能樹的指引或是拿來檢視自家產品哪邊需要補強都是不錯的起點。\r\n\r\n不得不說，後端的水真是有夠深；好處就是因為要做的事情太多了，總是會有位置可去。\b與各位共勉之。 :)",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "389728c3-ff9c-4f0e-ab68-1da0171948a5.png",
+          "image_extra_large_filename": "original_ratio_extra_large_389728c3-ff9c-4f0e-ab68-1da0171948a5.png",
+          "image_medium_filename": "original_ratio_medium_389728c3-ff9c-4f0e-ab68-1da0171948a5.png"
+        },
+        {
+          "identifier": "TBBAFb0",
+          "type": "Link",
+          "title": "Testing, for people who hate testing",
+          "url_domain": "eev.ee",
+          "url": "https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing/",
+          "description": "<p>如果你的系統都沒有測試，要嘛是你的系統太簡單了、要嘛就是你的膽量太大了。  假如你不喜歡、不知道如何寫測試，那花點時間看一下這篇，然後開始幫你的系統補上測試，有一天你會感謝你自己的！</p>\n\n<p>作者先談了些喜歡上（至少不要這麼討厭）寫測試的方法，然後討論該測試什麼東西以及該如何寫測試。最後也提及了軟體系統中一些較難測試的部分，如外部狀態（資料庫）、Web 頁面、GUI 等。</p>",
+          "description_markdown": "如果你的系統都沒有測試，要嘛是你的系統太簡單了、要嘛就是你的膽量太大了。\b  \b假如你不喜歡、不知道如何寫測試，那花點時間看一下這篇，然後開始幫你的系統補上測試，有一天你會感謝你自己的！\r\n\r\n作者先談了些喜歡上（至少不要這麼討厭）寫測試的方法，然後討論該測試什麼東西以及該如何寫測試。最後也提及了軟體系統中一些較難測試的部分，如外部狀態（資料庫）、Web 頁面、GUI 等。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oiiWWIf",
+          "type": "Link",
+          "title": "Falsehoods Programmers Believe About Names",
+          "url_domain": "kalzumeus.com",
+          "url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
+          "description": "<p>姓名是軟體系統中很常見的欄位，但是你知道有很多<em>理所當然</em>的假設都是錯的嗎？</p>\n\n<p>從文章中隨意挑幾個，像是：</p>\n\n<ol>\n<li>我的系統裡不會出現中文、日文、韓文、…… 名字</li>\n<li>每個人都有剛好 1 個（或 N 個）名字</li>\n<li>人名一定有辦法以 Unicode 字元表示</li>\n<li>人名是分（或不分）大小寫的</li>\n</ol>\n\n\n<p>延伸閱讀：對電話號碼的錯誤假設——<br/>\n<a href=\"https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md\">Falsehoods Programmers Believe About Phone Numbers</a></p>",
+          "description_markdown": "姓名是軟體系統中很常見的欄位，但是你知道有很多*理所當然\b*的假設都是錯的嗎？\r\n\r\n從文章中隨意挑幾個，\u001c像是：\r\n\r\n1. 我的系統裡不會出現中文、日文、韓文、…… 名字\r\n\b2. 每個人都有剛好 1 個（或 N 個）名字\r\n3. 人名一定有辦法以 Unicode 字元表示\r\n4. 人名是分（或不分）大小寫的\r\n\r\n延伸閱讀：對電話號碼的錯誤假設——  \r\n[Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md)",
+          "embedded_links": [
+            {
+              "identifier": "qSjiOlM",
+              "title": "Falsehoods Programmers Believe About Phone Numbers",
+              "url_domain": "github.com",
+              "url": "https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md"
+            }
+          ]
+        },
+        {
+          "identifier": "tQ7Eolb",
+          "type": "Link",
+          "title": "本週 IG：Jovin Chan (@jovin26)",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/jovin26/",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "ea100b33-8699-4e46-ac60-e53d0e245ff1.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_ea100b33-8699-4e46-ac60-e53d0e245ff1.jpg",
+          "image_medium_filename": "original_ratio_medium_ea100b33-8699-4e46-ac60-e53d0e245ff1.jpg"
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "FpJ5CIA",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice (台北、北京、上海)",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x74;&#122;&#97;&#110;&#x67;&#109;&#115;&#x40;&#x73;&#x74;&#x72;&#x65;&#x65;&#116;&#118;&#111;&#x69;&#x63;&#101;&#x2e;&#x63;&#111;&#109;\">&#x74;&#x7a;&#97;&#110;&#103;&#109;&#x73;&#x40;&#x73;&#x74;&#x72;&#x65;&#101;&#x74;&#x76;&#111;&#105;&#99;&#x65;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "3iCU4Fy",
+          "type": "Link",
+          "title": "Transistor on Steam",
+          "url_domain": "steampowered.com",
+          "url": "http://store.steampowered.com/app/237930/",
+          "description": "<p>上禮拜剛玩完這款遊戲，忍不住要跟大家分享一下。</p>\n\n<p>這應該是一款程序員會覺得很親切的獨立遊戲（Indie Game），比如說遊戲中的城市叫做 Cloudbank、男主角在看到某個景色之後脫口而出的第一句話是「Hello, World」、女主角使用的招式就是一個個的 <a href=\"http://transistor.gamepedia.com/Functions\">Functions</a>（裝備 Functions 還會消耗 Memory）、遊戲中的主要敵人叫做 Process 以及破關之後開始二周目稱為 <code>Recursion()</code>。畢竟這可是個 Cyberpunk 題材的遊戲呢，不過不是 Blade Runner 那種，而是 The Matrix 那種。</p>\n\n<p>但是這款遊戲真正讓人想推薦的原因其實還是它在美術和音樂兩個方面的表現簡直登峰造極，尤其是配樂，好聽到我的耳朵都要懷孕了。總之大家有空可以買來感受一下。然後如果你聽了我的建議跑去玩了，發現很喜歡，我覺得你也可以試試 <a href=\"http://store.steampowered.com/app/319630/\">Life Is Strange</a>。哎呀，Steam 上的 Overwhelmingly Positive 的評價是錯不了的。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "上禮拜剛玩完這款遊戲，忍不住要跟大家分享一下。\r\n\r\n這應該是一款程序員會覺得很親切的獨立遊戲（Indie Game），比如說遊戲中的城市叫做 Cloudbank、男主角在看到某個景色之後脫口而出的第一句話是「Hello, World」、女主角使用的招式就是一個個的 [Functions](http://transistor.gamepedia.com/Functions)（裝備 Functions 還會消耗 Memory）、遊戲中的主要敵人叫做 Process 以及破關之後開始二周目稱為 `Recursion()`。畢竟這可是個 Cyberpunk 題材的遊戲呢，不過不是 Blade Runner 那種，而是 The Matrix 那種。\r\n\r\n但是這款遊戲真正讓人想推薦的原因其實還是它在美術和音樂兩個方面的表現簡直登峰造極，尤其是配樂，好聽到我的耳朵都要懷孕了。總之大家有空可以買來感受一下。然後如果你聽了我的建議跑去玩了，發現很喜歡，我覺得你也可以試試 [Life Is Strange](http://store.steampowered.com/app/319630/)。哎呀，Steam 上的 Overwhelmingly Positive 的評價是錯不了的。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "aVyXE3Y",
+              "title": "Functions",
+              "url_domain": "gamepedia.com",
+              "url": "http://transistor.gamepedia.com/Functions"
+            },
+            {
+              "identifier": "VIdrF5A",
+              "title": "Life Is Strange",
+              "url_domain": "steampowered.com",
+              "url": "http://store.steampowered.com/app/319630/"
+            },
+            {
+              "identifier": "RgzfO4a",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "5434a6d4-6689-4364-a615-080bc4275306.png",
+          "image_extra_large_filename": "original_ratio_extra_large_5434a6d4-6689-4364-a615-080bc4275306.png",
+          "image_medium_filename": "original_ratio_medium_5434a6d4-6689-4364-a615-080bc4275306.png"
+        }
+      ]
+    }
+  ]
+}

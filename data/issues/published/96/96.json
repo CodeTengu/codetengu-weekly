@@ -1,0 +1,453 @@
+{
+  "number": 96,
+  "title": "Issue 96 ♫ 登等，登登登等，登登登等，登登登等登，登登登等登",
+  "summary": "本期內容涵蓋 JavaScript, CSS, React, iOS, Refactoring, Management",
+  "url": "https://weekly.codetengu.com/issues/96",
+  "publication_status": "published",
+  "published_at": "2017-07-17T03:00:00+01:00",
+  "updated_at": "2017-07-17T03:00:07+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Quantum Thief</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Quantum Thief](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 總算把 Gopher Day 辦完了..  \r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "RkWPpWw",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "VIimAKC",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "2KUJLfQ",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "HAYJxnw",
+              "title": "The Quantum Thief",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "x7I1dFn",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "WTjOHig",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "XieUDsT",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "8Dnyfcg",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "m7mygqj",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "fBDgLvI",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "E2uiM6g",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "SFAP0uH",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "KpMrQPf",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "zkmbiCl",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "i0htMIa",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "MiClHFN",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "sJNB0CD",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "ISLnAMp",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "NR04Ave",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "VActApb",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "uhtwLea",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "ZLZ9LKj",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Wq858t1",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "jku9N1c",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "r1NwLAK",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "kk9Bvci",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "x7AXzf7",
+          "type": "Link",
+          "title": "After one year I have more followers on Medium than after nine years on Twitter",
+          "url_domain": "unsupervisedmethods.com",
+          "url": "https://unsupervisedmethods.com/after-one-year-i-have-more-followers-on-medium-than-after-nine-years-on-twitter-eaa23cf280e0",
+          "description": "<p>為何我常常要介紹 Medium 的文章。這篇文章為例，他用了 8.5 年的 Twitter，寫了 3,200 個 tweets 才有 1,650 個 followers。但他只花 1.5 年就在 Medium，寫了 34 個 PO 文，就擁有 1,650 個 followers。我們只能說 Medium 的商業模式不錯，所以會吸引這麼多人來這裡寫文章。我相信未來公司找人，絕對會參考類似在 medium.com 有寫幾篇文章，在 github.com 有貢獻幾個開源專案，來決定否是要跟你進行面試。</p>",
+          "description_markdown": "為何我常常要介紹 Medium 的文章。這篇文章為例，他用了 8.5 年的 Twitter，寫了 3,200 個 tweets 才有 1,650 個 followers。但他只花 1.5 年就在 Medium，寫了 34 個 PO 文，就擁有 1,650 個 followers。我們只能說 Medium 的商業模式不錯，所以會吸引這麼多人來這裡寫文章。我相信未來公司找人，絕對會參考類似在 medium.com 有寫幾篇文章，在 github.com 有貢獻幾個開源專案，來決定否是要跟你進行面試。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "lXGRtaF",
+          "type": "Link",
+          "title": "I’m scared.",
+          "url_domain": "extranewsfeed.com",
+          "url": "https://extranewsfeed.com/our-2016-election-a1274f808b17",
+          "description": "<p>\"If you’re a coder, I implore you to join me in brainstorming ways to increase civic engagement.\" 這句話感動了我的心，而且他指名我們寫程式的人。從兩個層面來思考這個問題，不管是美國還是台灣，以前都覺得選完總統，不管做的好壞就讓他做做看; 不論藍綠，總是覺得有些還是做得不好。不知除了上街頭跟網路抱怨，還有什麼方法可以讓政府做得更好? 也許公民參與，未來會變成主流。但又從工作忙碌的角度來看，coders 應該也是容易爆肝的一群，我們還有時間去參與公民活動嗎？我們技術都學不完，哪有時間管政府好壞？所以我不再一直介紹技術文章，先看看這年輕人的想法。</p>",
+          "description_markdown": "\"If you’re a coder, I implore you to join me in brainstorming ways to increase civic engagement.\" 這句話感動了我的心，而且他指名我們寫程式的人。從兩個層面來思考這個問題，不管是美國還是台灣，以前都覺得選完總統，不管做的好壞就讓他做做看; 不論藍綠，總是覺得有些還是做得不好。不知除了上街頭跟網路抱怨，還有什麼方法可以讓政府做得更好? 也許公民參與，未來會變成主流。但又從工作忙碌的角度來看，coders 應該也是容易爆肝的一群，我們還有時間去參與公民活動嗎？我們技術都學不完，哪有時間管政府好壞？所以我不再一直介紹技術文章，先看看這年輕人的想法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "hlAzsIG",
+          "type": "Link",
+          "title": "亂數夠不夠亂",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mingderwang/%E4%BA%82%E6%95%B8%E5%A4%A0%E4%B8%8D%E5%A4%A0%E4%BA%82-d7db0003d363",
+          "description": "<p>虛擬幣世界，帳號是自己錢包產生的。就像銀行金庫的鑰匙 (這裡是私鑰) 都要自己管。如果亂數不夠亂，私鑰產生也有可能重複，那電子錢包的錢就有可能會被偷走。所以我才想研究一下，什麼亂數才夠亂？</p>",
+          "description_markdown": "虛擬幣世界，帳號是自己錢包產生的。就像銀行金庫的鑰匙 (這裡是私鑰) 都要自己管。如果亂數不夠亂，私鑰產生也有可能重複，那電子錢包的錢就有可能會被偷走。所以我才想研究一下，什麼亂數才夠亂？",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "gBurH56",
+          "type": "Link",
+          "title": "ES8 was Released and here are its Main New Features",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66",
+          "description": "<p>ES8 標準已經正式 release 了，這裡整理了幾個主要的 feature ，更詳細的內容可以看<a href=\"https://www.ecma-international.org/publications/standards/Ecma-262.htm\">規格書</a>。</p>",
+          "description_markdown": "ES8 標準已經正式 release 了，這裡整理了幾個主要的 feature ，更詳細的內容可以看[規格書](https://www.ecma-international.org/publications/standards/Ecma-262.htm)。",
+          "embedded_links": [
+            {
+              "identifier": "QqsSR2w",
+              "title": "規格書",
+              "url_domain": "ecma-international.org",
+              "url": "https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+            }
+          ]
+        },
+        {
+          "identifier": "ZDqB7VJ",
+          "type": "Link",
+          "title": "How to use Memoize to cache JavaScript function results and speed up your code",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/understanding-memoize-in-javascript-51d07d19430e",
+          "description": "<p><a href=\"https://en.wikipedia.org/wiki/Memoization\">Memoization</a> 是將需要昂貴計算取得 function result 儲存起來已加速執行的最佳化技術，雖然 memoize 可以運用在所有 function 上，但實際上是有一些限制的：</p>\n\n<ul>\n<li>必須是 <a href=\"https://en.wikipedia.org/wiki/Pure_function\">pure function</a></li>\n<li>必須在空間跟速度間權衡，所以 function input 最好是限制範圍的，以便更頻繁的利用 cache 下的值</li>\n<li>不需要特別為了 API call 做 memoization ，瀏覽器已經有 <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching\">HTTP caching</a> 的機制</li>\n<li>適合用在需要較大計算的 function 上</li>\n</ul>",
+          "description_markdown": "[Memoization](https://en.wikipedia.org/wiki/Memoization) 是將需要昂貴計算取得 function result 儲存起來已加速執行的最佳化技術，雖然 memoize 可以運用在所有 function 上，但實際上是有一些限制的：\r\n\r\n* 必須是 [pure function](https://en.wikipedia.org/wiki/Pure_function)\r\n* 必須在空間跟速度間權衡，所以 function input 最好是限制範圍的，以便更頻繁的利用 cache 下的值\r\n* 不需要特別為了 API call 做 memoization ，瀏覽器已經有 [HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching) 的機制\r\n* 適合用在需要較大計算的 function 上",
+          "embedded_links": [
+            {
+              "identifier": "e8M3KFi",
+              "title": "Memoization",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Memoization"
+            },
+            {
+              "identifier": "ibBZqmW",
+              "title": "pure function",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Pure_function"
+            },
+            {
+              "identifier": "DhQFMDl",
+              "title": "HTTP caching",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"
+            }
+          ]
+        },
+        {
+          "identifier": "RLbsBIY",
+          "type": "Link",
+          "title": "Webpack’s import() will soon fetch JS + CSS— Here’s how you do it today",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/faceyspacey/webpacks-import-will-soon-fetch-js-css-here-s-how-you-do-it-today-4eb5b4929852",
+          "description": "<p>Webpack 的作者 <a href=\"https://github.com/sokra\">Tobias Koppers</a> 在最近發表的文章 <a href=\"https://medium.com/webpack/the-new-css-workflow-step-1-79583bd107d7\">“The new CSS workflow (step1).”</a> 中表示， CSS 將會被實作為 first-class module ，可以直接透過 “code splitting” chunks 取得 CSS ，且呼叫 import() 時會同時取得對應的 JS 與 CSS files 。</p>\n\n<p>本篇文章會透過 <a href=\"https://github.com/faceyspacey/babel-plugin-dual-import\">Babel-Plugin-Dual-Import</a> 、 <a href=\"https://github.com/faceyspacey/extract-css-chunks-webpack-plugin\">Extract CSS Chunks Webpack Plugin</a> 以及 Promise 實作出替代方案。</p>",
+          "description_markdown": "Webpack 的作者 [Tobias Koppers](https://github.com/sokra) 在最近發表的文章 [“The new CSS workflow (step1).”](https://medium.com/webpack/the-new-css-workflow-step-1-79583bd107d7) 中表示， CSS 將會被實作為 first-class module ，可以直接透過 “code splitting” chunks 取得 CSS ，且呼叫 import() 時會同時取得對應的 JS 與 CSS files 。\r\n\r\n本篇文章會透過 [Babel-Plugin-Dual-Import](https://github.com/faceyspacey/babel-plugin-dual-import) 、 [Extract CSS Chunks Webpack Plugin](https://github.com/faceyspacey/extract-css-chunks-webpack-plugin) 以及 Promise 實作出替代方案。",
+          "embedded_links": [
+            {
+              "identifier": "vzns4EL",
+              "title": "Tobias Koppers",
+              "url_domain": "github.com",
+              "url": "https://github.com/sokra"
+            },
+            {
+              "identifier": "JzgWU7M",
+              "title": "“The new CSS workflow (step1).”",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/webpack/the-new-css-workflow-step-1-79583bd107d7"
+            },
+            {
+              "identifier": "xVgprM5",
+              "title": "Babel-Plugin-Dual-Import",
+              "url_domain": "github.com",
+              "url": "https://github.com/faceyspacey/babel-plugin-dual-import"
+            },
+            {
+              "identifier": "6QCWMcv",
+              "title": "Extract CSS Chunks Webpack Plugin",
+              "url_domain": "github.com",
+              "url": "https://github.com/faceyspacey/extract-css-chunks-webpack-plugin"
+            }
+          ]
+        },
+        {
+          "identifier": "4ZktR7w",
+          "type": "Link",
+          "title": "Ink: React for CLIs. Build and test your CLI output using components.",
+          "url_domain": "github.com",
+          "url": "https://github.com/vadimdemedes/ink",
+          "description": "<p>Ink 這套有趣的工具能讓開發者利用 React component 在 command-line interface 輸出，可以使用 div 與 span 來排版以及支援不同的顏色表示。</p>",
+          "description_markdown": "Ink 這套有趣的工具能讓開發者利用 React component 在 command-line interface 輸出，可以使用 div 與 span 來排版以及支援不同的顏色表示。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8WnE3EO",
+          "type": "Link",
+          "title": "React Pattern: Extract Child Components to Avoid Binding",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/react-pattern-extract-child-components-to-avoid-binding-e3ad8310725e",
+          "description": "<p>在寫 React 的 render function 時，為了避免不需要的重畫，各個傳入 child 的 properties 盡量不要在非必要時改變 reference 。</p>\n\n<p>文中利用 array mapping 成 DOM 的例子，說明了重複宣告 arrow function 造成的問題，可以透過拆分 child component 來解決。</p>",
+          "description_markdown": "在寫 React 的 render function 時，為了避免不需要的重畫，各個傳入 child 的 properties 盡量不要在非必要時改變 reference 。\r\n\r\n文中利用 array mapping 成 DOM 的例子，說明了重複宣告 arrow function 造成的問題，可以透過拆分 child component 來解決。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "STO2Dtm",
+          "type": "Link",
+          "title": "User Breakpoints in Xcode",
+          "url_domain": "pspdfkit.com",
+          "url": "https://pspdfkit.com/blog/2017/user-breakpoints-in-xcode/",
+          "description": "<p>Breakpoints 是個很強大的工具，我們在 debug 階段會時常用到它，但或許很多人不知道它還有很多實用的小技巧：例如你可以共享某些 breakpoint 並且提交到版本控制系統裡，讓團隊的每個人都能使用；或是把某些 breakpoint 搬到 user space，之後你開啟的每個專案都會自動套用這些 breakpoint。文末作者也列出了他們團隊有在用的幾個超實用範例，非常值得一試！</p>",
+          "description_markdown": "Breakpoints 是個很強大的工具，我們在 debug 階段會時常用到它，但或許很多人不知道它還有很多實用的小技巧：例如你可以共享某些 breakpoint 並且提交到版本控制系統裡，讓團隊的每個人都能使用；或是把某些 breakpoint 搬到 user space，之後你開啟的每個專案都會自動套用這些 breakpoint。文末作者也列出了他們團隊有在用的幾個超實用範例，非常值得一試！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "eQK2qZw",
+          "type": "Link",
+          "title": "如何確保每個人用的 CocoaPods 版本是一樣的",
+          "url_domain": "github.com",
+          "url": "https://github.com/artsy/emission/blob/3ce638a19940e457772408c38c3620470f1a76fe/Example/Podfile#L1-L6",
+          "description": "<p>CocoaPods 毫無疑問是目前 Mac/iOS 開發中，最熱門的第三方套件管理工具之一。有用過的人就會知道，當團隊成員使用的 CocoaPods 版本不一致的時候就會發生一些問題：小一點的像是 Podfile.lock 會一直發生衝突，大一點的像是不同版本對 Podfile 的解析結果不一致等等。</p>\n\n<p>既然 CocoaPods 其實只是 Ruby 的一個 gem，很理所當然的我們會直覺想到用 Bundler 來管理版本，這的確也是最被建議的做法，但問題是要怎麼確保團隊成員每個人每次都會記得要用 Bundler 來執行 CocoaPods 呢？其實你可以透過 Podfile 來解決這個問題！</p>",
+          "description_markdown": "CocoaPods 毫無疑問是目前 Mac/iOS 開發中，最熱門的第三方套件管理工具之一。有用過的人就會知道，當團隊成員使用的 CocoaPods 版本不一致的時候就會發生一些問題：小一點的像是 Podfile.lock 會一直發生衝突，大一點的像是不同版本對 Podfile 的解析結果不一致等等。\r\n\r\n既然 CocoaPods 其實只是 Ruby 的一個 gem，很理所當然的我們會直覺想到用 Bundler 來管理版本，這的確也是最被建議的做法，但問題是要怎麼確保團隊成員每個人每次都會記得要用 Bundler 來執行 CocoaPods 呢？其實你可以透過 Podfile 來解決這個問題！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "iahAz1c",
+          "type": "Link",
+          "title": "Refactoring Reveals Truths",
+          "url_domain": "khanlou.com",
+          "url": "http://khanlou.com/2017/07/refactoring-reveals-truths/",
+          "description": "<p>知名的 iOS 開發者 Khanlou 寫了一篇文章，分享一個實際的例子，說明他如何透過 refactor 來找到隱藏的 bug、挖掘該函式真正的意圖、以及如何讓設計更有彈性。我就不多做介紹了，直接去看文章就對了！</p>",
+          "description_markdown": "知名的 iOS 開發者 Khanlou 寫了一篇文章，分享一個實際的例子，說明他如何透過 refactor 來找到隱藏的 bug、挖掘該函式真正的意圖、以及如何讓設計更有彈性。我就不多做介紹了，直接去看文章就對了！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FBAOp5l",
+          "type": "Link",
+          "title": "iOS 10.3 to 11.0 API Differences",
+          "url_domain": "codeworkshop.net",
+          "url": "http://codeworkshop.net/objc-diff/sdkdiffs/ios/11.0/",
+          "description": "<p>雖然蘋果推出了新版的 API Diff 網頁，看起來也的確很賞心悅目，但我個人還是覺得以前的傳統頁面比較適合工程師閱讀，還好有這種想法的不只有我一人：）</p>",
+          "description_markdown": "雖然蘋果推出了新版的 API Diff 網頁，看起來也的確很賞心悅目，但我個人還是覺得以前的傳統頁面比較適合工程師閱讀，還好有這種想法的不只有我一人：）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6fpMtM8",
+          "type": "Link",
+          "title": "Management Philosophy",
+          "url_domain": "3002.ca",
+          "url": "https://3002.ca/posts/management-philosophy/",
+          "description": "<p>作者總結了他近年來對於管理團隊的一些想法，大致分為以下幾點：</p>\n\n<ul>\n<li>建立團員間的信任是最重要的事，你得一直努力於建立與維持團員間的信任感。</li>\n<li>取得回饋，越早越好、越常越好、並且是各方面的（好的壞的）回饋。</li>\n<li>給團員足夠的空間去成功或失敗，每個人都有潛力，不要讓團員變成只會說一步做一步的人。</li>\n<li>建立一些 SOP，不要太多也不要太少。</li>\n<li>確保團員知道我們的願景跟方向，公司的方向很有可能會改變，你的責任是確保每個成員隨時都清楚接下來的方向是什麼。</li>\n</ul>",
+          "description_markdown": "作者總結了他近年來對於管理團隊的一些想法，大致分為以下幾點：\r\n\r\n- 建立團員間的信任是最重要的事，你得一直努力於建立與維持團員間的信任感。\r\n- 取得回饋，越早越好、越常越好、並且是各方面的（好的壞的）回饋。\r\n- 給團員足夠的空間去成功或失敗，每個人都有潛力，不要讓團員變成只會說一步做一步的人。\r\n- 建立一些 SOP，不要太多也不要太少。\r\n- 確保團員知道我們的願景跟方向，公司的方向很有可能會改變，你的責任是確保每個成員隨時都清楚接下來的方向是什麼。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "nwRB5Id",
+          "type": "Link",
+          "title": "Made With ARKit (@madewithARKit)",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/madewithARKit",
+          "description": "<p>ARKit 是蘋果公司最新推出的一套 framework，現在已經有許多人用它做出令人驚嘆的成果了，這個推特帳號就是專門收集這些作品。</p>",
+          "description_markdown": "ARKit 是蘋果公司最新推出的一套 framework，現在已經有許多人用它做出令人驚嘆的成果了，這個推特帳號就是專門收集這些作品。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "gQVPRpX",
+          "type": "Link",
+          "title": "你是戒嚴時代的誰呢？",
+          "url_domain": "watchout.tw",
+          "url": "https://musou.watchout.tw/role-play/terror-30/",
+          "description": "<blockquote><p>聽說戒嚴時代治安好，經濟成長高，家家夜不閉戶、人們路不拾遺，看起來是個令人懷念的時代，現在社會是不是真的太自由了呢？《沃草》製作《你是戒嚴時代的誰呢？》專題，讓你親身體驗戒嚴時代的人生，看看你最像當時的誰！</p></blockquote>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "> 聽說戒嚴時代治安好，經濟成長高，家家夜不閉戶、人們路不拾遺，看起來是個令人懷念的時代，現在社會是不是真的太自由了呢？《沃草》製作《你是戒嚴時代的誰呢？》專題，讓你親身體驗戒嚴時代的人生，看看你最像當時的誰！\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "eL5cvxe",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        },
+        {
+          "identifier": "cSdZ5YF",
+          "type": "Link",
+          "title": "wangchunming/2017hosts",
+          "url_domain": "github.com",
+          "url": "https://github.com/wangchunming/2017hosts",
+          "description": "<blockquote><p>Repo 持有者因意外被捕，并且以扰乱公共秩序名义被警方拘留。</p></blockquote>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "> Repo 持有者因意外被捕，并且以扰乱公共秩序名义被警方拘留。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "cEynjao",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

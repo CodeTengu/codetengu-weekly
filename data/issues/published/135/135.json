@@ -1,0 +1,534 @@
+{
+  "number": 135,
+  "title": "Issue 135 數到三，我們一起說出這片土地真正的名字：「台灣」「中華民國」「中華台北」「台澎金馬個別關稅領域」「中国台湾省」",
+  "summary": "本期內容涵蓋 Kubernetes, Python, MongoDB, JavaScript, ECMAScript, CSS, Go, Concurrency",
+  "url": "https://weekly.codetengu.com/issues/135",
+  "publication_status": "published",
+  "published_at": "2018-07-23T03:00:00+01:00",
+  "updated_at": "2018-07-23T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently's Holistic Detective Agency</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently's Holistic Detective Agency](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "37uJeXV",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "bDWIuh3",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "fmpwCSd",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "BiudOWj",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "g8ejcCM",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "pENYPld",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "PkN6qwF",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "8AIxfU1",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "5ATx685",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "DA6clEw",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "cobADJw",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "NsDD6rJ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "lPciHwp",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "PRwFYLv",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "1jXBK0f",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "jB05NZf",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "QmTKKgE",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "fdPmmqf",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "2juLJeM",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "HrY3SFG",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "tnkHn6B",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "cwldN1e",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "EfZP8Ct",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "LoBS8bZ",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "UfUNjBa",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "C07QXYd",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "edVEYOT",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "w3ENOKC",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "qAUr6vt",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "GPZJ7LN",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "7Qgp0NW",
+          "type": "Link",
+          "title": "The incomplete guide to Google Kubernetes Engine",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html",
+          "description": "<p>根據前陣子搗鼓 Kubernetes 的心得寫了一篇文章，跟大家分享一下，希望有幫助。內容包含概念介紹、建立 cluster、新增 node pools、部署 ConfigMap、Deployment with LivenessProbe/ReadinessProbe、Horizontal Pod Autoscaler、Pod Disruption Budget、StatefulSet、DaemonSet，到說明 Service 和 Ingress 的關係，以及 Node Affinity 與 Pod Affinity 的應用等。</p>\n\n<p>順帶一提，就算只是架來玩玩，建議大家可以直接在 Google Kubernetes Engine 開一個 preemptible（類似 AWS 的 Spot Instances）的 k8s cluster，價格超便宜，所以就不要再用 minikube 啦。不過現在連 Amazon 也有自己的 <a href=\"https://aws.amazon.com/eks/\">managed Kubernetes</a> 了，雖然目前公司是用 GCP，但是還是比較懷念 AWS 啊～</p>",
+          "description_markdown": "根據前陣子搗鼓 Kubernetes 的心得寫了一篇文章，跟大家分享一下，希望有幫助。內容包含概念介紹、建立 cluster、新增 node pools、部署 ConfigMap、Deployment with LivenessProbe/ReadinessProbe、Horizontal Pod Autoscaler、Pod Disruption Budget、StatefulSet、DaemonSet，到說明 Service 和 Ingress 的關係，以及 Node Affinity 與 Pod Affinity 的應用等。\r\n\r\n順帶一提，就算只是架來玩玩，建議大家可以直接在 Google Kubernetes Engine 開一個 preemptible（類似 AWS 的 Spot Instances）的 k8s cluster，價格超便宜，所以就不要再用 minikube 啦。不過現在連 Amazon 也有自己的 [managed Kubernetes](https://aws.amazon.com/eks/) 了，雖然目前公司是用 GCP，但是還是比較懷念 AWS 啊～",
+          "embedded_links": [
+            {
+              "identifier": "W6VCAu1",
+              "title": "managed Kubernetes",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/eks/"
+            }
+          ]
+        },
+        {
+          "identifier": "2SVlukN",
+          "type": "Link",
+          "title": "Fluent Python",
+          "url_domain": "safaribooksonline.com",
+          "url": "https://www.safaribooksonline.com/library/view/fluent-python/9781491946237/",
+          "description": "<p>雖然 Python 也是寫了一陣子了，但是每次讀這本書還是能夠學到不少。真心推薦。</p>\n\n<p>當初學 Python 讀的是另一本 <a href=\"http://shop.oreilly.com/product/0636920028154.do\">Learning Python</a>，查了一下，哇都出到第五版了。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=k55d3ZUF3ZQ\">Luciano Ramalho - Pythonic Objects: implementing productive APIs with the Python Data Model</a></li>\n</ul>",
+          "description_markdown": "雖然 Python 也是寫了一陣子了，但是每次讀這本書還是能夠學到不少。真心推薦。\r\n\r\n當初學 Python 讀的是另一本 [Learning Python](http://shop.oreilly.com/product/0636920028154.do)，查了一下，哇都出到第五版了。\r\n\r\n延伸閱讀：\r\n\r\n- [Luciano Ramalho - Pythonic Objects: implementing productive APIs with the Python Data Model](https://www.youtube.com/watch?v=k55d3ZUF3ZQ)",
+          "embedded_links": [
+            {
+              "identifier": "wZJmpy7",
+              "title": "Learning Python",
+              "url_domain": "oreilly.com",
+              "url": "http://shop.oreilly.com/product/0636920028154.do"
+            },
+            {
+              "identifier": "FuEZblw",
+              "title": "Luciano Ramalho - Pythonic Objects: implementing productive APIs with the Python Data Model",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=k55d3ZUF3ZQ"
+            }
+          ]
+        },
+        {
+          "identifier": "CXAmLop",
+          "type": "Link",
+          "title": "A deep dive into the Pymongo MongoDB driver",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=2gee5oUAO14",
+          "description": "<p>Replica Set 通常是 MongoDB 的標準配置（再來就是 Sharding 了），這個 talk 詳細地說明了 Replica Set 是如何應對 service discovery 以及 PyMongo 和 Replica Set 之間是怎麼溝通的。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://emptysqua.re/blog/server-discovery-and-monitoring-in-pymongo-perl-and-c/\">Server Discovery And Monitoring In PyMongo, Perl, And C</a></li>\n<li><a href=\"https://vinta.ws/code/mongodb-operations-replica-set.html\">MongoDB operations: Replica Set</a></li>\n<li><a href=\"https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html\">MongoDB cookbook: Queries and Aggregations</a></li>\n</ul>",
+          "description_markdown": "Replica Set 通常是 MongoDB 的標準配置（再來就是 Sharding 了），這個 talk 詳細地說明了 Replica Set 是如何應對 service discovery 以及 PyMongo 和 Replica Set 之間是怎麼溝通的。\r\n\r\n延伸閱讀：\r\n\r\n- [Server Discovery And Monitoring In PyMongo, Perl, And C](https://emptysqua.re/blog/server-discovery-and-monitoring-in-pymongo-perl-and-c/)\r\n- [MongoDB operations: Replica Set](https://vinta.ws/code/mongodb-operations-replica-set.html)\r\n- [MongoDB cookbook: Queries and Aggregations](https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html)",
+          "embedded_links": [
+            {
+              "identifier": "qb9GMGt",
+              "title": "Server Discovery And Monitoring In PyMongo, Perl, And C",
+              "url_domain": "emptysqua.re",
+              "url": "https://emptysqua.re/blog/server-discovery-and-monitoring-in-pymongo-perl-and-c/"
+            },
+            {
+              "identifier": "w0tnRek",
+              "title": "MongoDB operations: Replica Set",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/mongodb-operations-replica-set.html"
+            },
+            {
+              "identifier": "IK6CMru",
+              "title": "MongoDB cookbook: Queries and Aggregations",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html"
+            }
+          ]
+        },
+        {
+          "identifier": "XRekriL",
+          "type": "Link",
+          "title": "Let's talk about usernames",
+          "url_domain": "b-list.org",
+          "url": "https://www.b-list.org/weblog/2018/feb/11/usernames/",
+          "description": "<p>就像我們之前提到過很多次的 <a href=\"https://weekly.codetengu.com/search?q=falsehoods\">Falsehoods</a> 系列，這篇文章也是一直不厭其煩地告訴大家，幾乎每個系統、每個網站都會有的東西：username，其實沒有你以為的那麼簡單。大家感受一下。</p>\n\n<p>作者也提到一個很重要的 <a href=\"http://habitatchronicles.com/2008/10/the-tripartite-identity-pattern/\">The Tripartite Identity Pattern</a>，把所謂的 ID 分成以下三種：</p>\n\n<ol>\n<li>System-level identifier, suitable for use as a target of foreign keys in our database</li>\n<li>Login identifier, suitable for use in performing a credential check</li>\n<li>Public identity, suitable for displaying to other users</li>\n</ol>\n\n\n<p>而不要想用同一個 identifier 搞定所有用途。</p>",
+          "description_markdown": "就像我們之前提到過很多次的 [Falsehoods](https://weekly.codetengu.com/search?q=falsehoods) 系列，這篇文章也是一直不厭其煩地告訴大家，幾乎每個系統、每個網站都會有的東西：username，其實沒有你以為的那麼簡單。大家感受一下。\r\n\r\n作者也提到一個很重要的 [The Tripartite Identity Pattern](http://habitatchronicles.com/2008/10/the-tripartite-identity-pattern/)，把所謂的 ID 分成以下三種：\r\n\r\n1. System-level identifier, suitable for use as a target of foreign keys in our database\r\n2. Login identifier, suitable for use in performing a credential check\r\n3. Public identity, suitable for displaying to other users\r\n\r\n而不要想用同一個 identifier 搞定所有用途。",
+          "embedded_links": [
+            {
+              "identifier": "xJXAvvq",
+              "title": "Falsehoods",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/search?q=falsehoods"
+            },
+            {
+              "identifier": "5faDakv",
+              "title": "The Tripartite Identity Pattern",
+              "url_domain": "habitatchronicles.com",
+              "url": "http://habitatchronicles.com/2008/10/the-tripartite-identity-pattern/"
+            }
+          ]
+        },
+        {
+          "identifier": "fECMohr",
+          "type": "Link",
+          "title": "Web Architecture 101",
+          "url_domain": "videoblocks.com",
+          "url": "https://engineering.videoblocks.com/web-architecture-101-a3224e126947",
+          "description": "<p>這篇文章淺顯易懂地解釋了一個現代的 web service 通常會具備的各項元件。不過說真的，如果你今天是一個初入門的後端工程師，你究竟得花多少時間和心力才能摸清楚這篇文章提到的東西？更別提那些更加底層的知識了，喔，這篇文章甚至也還沒提到 DevOps 的事情呢。就像之前讀到的 <a href=\"https://www.influxdata.com/blog/will-kubernetes-collapse-under-the-weight-of-its-complexity/\">Will Kubernetes Collapse Under the Weight of Its Complexity?</a>，總覺得整個態勢發展到現在，對新手（甚至是我們這種普通的 1x 工程師）似乎不是很友善啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9\">Modern Backend Developer in 2018</a></li>\n</ul>",
+          "description_markdown": "這篇文章淺顯易懂地解釋了一個現代的 web service 通常會具備的各項元件。不過說真的，如果你今天是一個初入門的後端工程師，你究竟得花多少時間和心力才能摸清楚這篇文章提到的東西？更別提那些更加底層的知識了，喔，這篇文章甚至也還沒提到 DevOps 的事情呢。就像之前讀到的 [Will Kubernetes Collapse Under the Weight of Its Complexity?](https://www.influxdata.com/blog/will-kubernetes-collapse-under-the-weight-of-its-complexity/)，總覺得整個態勢發展到現在，對新手（甚至是我們這種普通的 1x 工程師）似乎不是很友善啊。\r\n\r\n延伸閱讀：\r\n\r\n- [Modern Backend Developer in 2018](https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9)",
+          "embedded_links": [
+            {
+              "identifier": "327JMzh",
+              "title": "Will Kubernetes Collapse Under the Weight of Its Complexity?",
+              "url_domain": "influxdata.com",
+              "url": "https://www.influxdata.com/blog/will-kubernetes-collapse-under-the-weight-of-its-complexity/"
+            },
+            {
+              "identifier": "V0JjwFU",
+              "title": "Modern Backend Developer in 2018",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/tech-tajawal/modern-backend-developer-in-2018-6b3f7b5f8b9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "9Z1ze5U",
+          "type": "Link",
+          "title": "ESLint package 被植入惡意程式碼",
+          "url_domain": "eslint.org",
+          "url": "https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes",
+          "description": "<p>ESLint 其中一名維護者的 npm 帳號被盜用，並且利用該帳號發佈了夾帶惡意代碼的版本，一但安裝該版本的 ESLint ，會自動從 pastebin.com 下載並且執行程式，竊取 .npmrc 內的資訊。</p>\n\n<p>受影響的兩個 package 以及版本分別是 <code>eslint-scope@3.7.2</code> 和 <code>eslint-config-eslint@5.0.2</code>。</p>",
+          "description_markdown": "ESLint 其中一名維護者的 npm 帳號被盜用，並且利用該帳號發佈了夾帶惡意代碼的版本，一但安裝該版本的 ESLint ，會自動從 pastebin.com 下載並且執行程式，竊取 .npmrc 內的資訊。\r\n\r\n受影響的兩個 package 以及版本分別是 `eslint-scope@3.7.2` 和 `eslint-config-eslint@5.0.2`。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "wIa1L6T",
+          "type": "Link",
+          "title": "JavaScript engine fundamentals: Shapes and Inline Caches",
+          "url_domain": "mathiasbynens.be",
+          "url": "https://mathiasbynens.be/notes/shapes-ics",
+          "description": "<p>本篇文章是 JSconf EU 2018 上其中一個議程－ <a href=\"https://www.youtube.com/watch?time_continue=115&amp;v=5nmpokoRaZI\">JavaScript Engines: The Good Parts™</a> ，會探討以下幾個部分：</p>\n\n<ul>\n<li>The JavaScript engine pipeline - 簡單的帶入各個不同的 engine 運作流程</li>\n<li>JavaScript’s object model - 介紹 object 的 <a href=\"https://tc39.github.io/ecma262/#sec-property-attributes\">Property Attributes</a></li>\n<li>Optimizing property access - 介紹 engines 是如何透過 shapes 有效的存取 object</li>\n<li>Storing arrays efficiently - 介紹 array element 存儲的方式，避免更動 element 的 property attributes</li>\n</ul>",
+          "description_markdown": "本篇文章是 JSconf EU 2018 上其中一個議程－ [JavaScript Engines: The Good Parts™](https://www.youtube.com/watch?time_continue=115&v=5nmpokoRaZI) ，會探討以下幾個部分：\r\n\r\n* The JavaScript engine pipeline - 簡單的帶入各個不同的 engine 運作流程\r\n* JavaScript’s object model - 介紹 object 的 [Property Attributes](https://tc39.github.io/ecma262/#sec-property-attributes)\r\n* Optimizing property access - 介紹 engines 是如何透過 shapes 有效的存取 object\r\n* Storing arrays efficiently - 介紹 array element 存儲的方式，避免更動 element 的 property attributes",
+          "embedded_links": [
+            {
+              "identifier": "ryILav1",
+              "title": "JavaScript Engines: The Good Parts™",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?time_continue=115&v=5nmpokoRaZI"
+            },
+            {
+              "identifier": "HGk7eIW",
+              "title": "Property Attributes",
+              "url_domain": "github.io",
+              "url": "https://tc39.github.io/ecma262/#sec-property-attributes"
+            }
+          ]
+        },
+        {
+          "identifier": "JPbRGWw",
+          "type": "Link",
+          "title": "Does it mutate 😱",
+          "url_domain": "doesitmutate.xyz",
+          "url": "https://doesitmutate.xyz/",
+          "description": "<p>JavaScript 有些 function 會直接對原物件做修改，但 function 執行完也會 return 同樣的物件，在不熟悉的情況下很可能會造成 side effect 。</p>\n\n<p>這個網站列出一些 array 相關的 function ，透過簡單的例子說明執行後是否會直接修改原來的物件。</p>",
+          "description_markdown": "JavaScript 有些 function 會直接對原物件做修改，但 function 執行完也會 return 同樣的物件，在不熟悉的情況下很可能會造成 side effect 。\r\n\r\n這個網站列出一些 array 相關的 function ，透過簡單的例子說明執行後是否會直接修改原來的物件。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "kWl7pu8",
+          "type": "Link",
+          "title": "CSS Grid Layout Interface Builder",
+          "url_domain": "layoutit.com",
+          "url": "https://www.layoutit.com/grid",
+          "description": "<p>如果你不熟悉 CSS grid ，透過這個網站也可以簡單的拉出你想要的 grid layout ，並且輸出成 CSS 和 HTML 。</p>",
+          "description_markdown": "如果你不熟悉 CSS grid ，透過這個網站也可以簡單的拉出你想要的 grid layout ，並且輸出成 CSS 和 HTML 。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "MMDpzDv",
+          "type": "Link",
+          "title": "ECMAScript 2018 (ES9) 正式發布",
+          "url_domain": "ecma-international.org",
+          "url": "https://www.ecma-international.org/ecma-262/9.0/index.html",
+          "description": "<p>ES2018 正式定案，主要新增的 features 有：</p>\n\n<ul>\n<li><a href=\"https://github.com/tc39/proposal-async-iteration\">Asynchronous iteration</a></li>\n<li><a href=\"https://github.com/tc39/proposal-object-rest-spread\">Rest/Spread properties</a></li>\n<li><a href=\"https://developers.google.com/web/updates/2017/10/promise-finally\">Promise.prototype.finally</a></li>\n<li>修訂 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals\">Template literals</a> ： 取消 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates_and_escape_sequences\">escape sequences</a> 的限制</li>\n<li>以及Regular expression 相關：\n\n<ul>\n<li><a href=\"https://github.com/tc39/proposal-regexp-dotall-flag\">s (dotAll) flag</a></li>\n<li><a href=\"https://github.com/tc39/proposal-regexp-unicode-property-escapes\">Unicode property escapes (\\p{…})</a></li>\n<li><a href=\"https://github.com/tc39/proposal-regexp-lookbehind\">Lookbehind assertions</a> ：類似 JavaScript 已經支援的 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#assertions\">lookahead assertions (?=)</a></li>\n<li><a href=\"https://github.com/tc39/proposal-regexp-named-groups\">Named Capture Groups</a></li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "ES2018 正式定案，主要新增的 features 有：\r\n\r\n* [Asynchronous iteration](https://github.com/tc39/proposal-async-iteration)\r\n* [Rest/Spread properties](https://github.com/tc39/proposal-object-rest-spread)\r\n* [Promise.prototype.finally](https://developers.google.com/web/updates/2017/10/promise-finally)\r\n* 修訂 [Template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) ： 取消 [escape sequences](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates_and_escape_sequences) 的限制\r\n* 以及Regular expression 相關：\r\n    - [s (dotAll) flag](https://github.com/tc39/proposal-regexp-dotall-flag)\r\n    - [Unicode property escapes (\\p{…})](https://github.com/tc39/proposal-regexp-unicode-property-escapes)\r\n    - [Lookbehind assertions](https://github.com/tc39/proposal-regexp-lookbehind) ：類似 JavaScript 已經支援的 [lookahead assertions (?=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#assertions)\r\n    - [Named Capture Groups](https://github.com/tc39/proposal-regexp-named-groups)",
+          "embedded_links": [
+            {
+              "identifier": "99gwh32",
+              "title": "Asynchronous iteration",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-async-iteration"
+            },
+            {
+              "identifier": "UV00cPW",
+              "title": "Rest/Spread properties",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-object-rest-spread"
+            },
+            {
+              "identifier": "lWSLZiC",
+              "title": "Promise.prototype.finally",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/updates/2017/10/promise-finally"
+            },
+            {
+              "identifier": "2LutoE0",
+              "title": "Template literals",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+            },
+            {
+              "identifier": "O0rGkx5",
+              "title": "escape sequences",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates_and_escape_sequences"
+            },
+            {
+              "identifier": "9IMuecH",
+              "title": "s (dotAll) flag",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-regexp-dotall-flag"
+            },
+            {
+              "identifier": "x1n1RpM",
+              "title": "Unicode property escapes (\\p{…})",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-regexp-unicode-property-escapes"
+            },
+            {
+              "identifier": "u1I2MUs",
+              "title": "Lookbehind assertions",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-regexp-lookbehind"
+            },
+            {
+              "identifier": "l0pgwKK",
+              "title": "lookahead assertions (?=)",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp#assertions"
+            },
+            {
+              "identifier": "22LX5pN",
+              "title": "Named Capture Groups",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-regexp-named-groups"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "gGt5YAQ",
+          "type": "Link",
+          "title": "FiloSottile/mkcert: A simple zero-config tool to make locally-trusted development certificates with any names you'd like.",
+          "url_domain": "github.com",
+          "url": "https://github.com/FiloSottile/mkcert",
+          "description": "<p>自己要建置 HTTPS  Web Server 的時候，最麻煩的就是就算是寫個測試網站也得弄個  CA signed (or self-signed) 就算透過 Let's Encrypt 的來弄也要設定一下． 這個套件強調是完全不需要設定也可以快速讓你建置一個 HTTPS 內部測試用的網站．</p>\n\n<p>小八卦:</p>\n\n<p><a href=\"https://blog.filippo.io/hi/\">Filippo Valsorda</a> 原本是 CloudFlare 專門在弄 cryptography 的大大，但是因為寫了太多相關 Golang 內部 cryptography 的部份而被 Google 找進去在今年加入了 Golang 團隊．</p>",
+          "description_markdown": "自己要建置 HTTPS  Web Server 的時候，最麻煩的就是就算是寫個測試網站也得弄個  CA signed (or self-signed) 就算透過 Let's Encrypt 的來弄也要設定一下． 這個套件強調是完全不需要設定也可以快速讓你建置一個 HTTPS 內部測試用的網站．\r\n\r\n小八卦:\r\n\r\n[Filippo Valsorda](https://blog.filippo.io/hi/) 原本是 CloudFlare 專門在弄 cryptography 的大大，但是因為寫了太多相關 Golang 內部 cryptography 的部份而被 Google 找進去在今年加入了 Golang 團隊． ",
+          "embedded_links": [
+            {
+              "identifier": "Wd6xVOp",
+              "title": "Filippo Valsorda",
+              "url_domain": "filippo.io",
+              "url": "https://blog.filippo.io/hi/"
+            }
+          ]
+        },
+        {
+          "identifier": "mbRILBA",
+          "type": "Link",
+          "title": "Learning Go’s Concurrency Through Illustrations",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@trevor4e/learning-gos-concurrency-through-illustrations-8c4aff603b3",
+          "description": "<p>清楚地介紹 Go Concurrency 的部分．從 GoRoutine 到 Channel 的介紹，並且清楚解釋了 Buffered/UnBuffered channel 的差異．推薦大家好好研讀．</p>",
+          "description_markdown": "清楚地介紹 Go Concurrency 的部分．從 GoRoutine 到 Channel 的介紹，並且清楚解釋了 Buffered/UnBuffered channel 的差異．推薦大家好好研讀．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "EzzRu0q",
+          "type": "Link",
+          "title": "Golang — vgo vs dep — Dependency Management Tools Explained",
+          "url_domain": "spiralscout.com",
+          "url": "https://blog.spiralscout.com/golang-vgo-dependency-management-explained-419d143204e4",
+          "description": "<p>Russ Cox 在前幾個月提出的新的套件管理方式，就是將 Golang 引入版本控管的概念．並且開發出實驗性質的 CLI 編譯工具 vgo (等同 go 但是加入版本的概念)．</p>\n\n<p>不知道各位開始玩 vgo 了沒？ 這篇文章的作者將自己使用的專案從 Dep 轉移到 vgo ，並且提到有遇到的一些問題．如果你還在觀望 vgo 可以看看這篇文章分享的經驗，一定能給你一些對於 vgo 與 dep 的差異點．</p>",
+          "description_markdown": "Russ Cox 在前幾個月提出的新的套件管理方式，就是將 Golang 引入版本控管的概念．並且開發出實驗性質的 CLI 編譯工具 vgo (等同 go 但是加入版本的概念)．\r\n\r\n不知道各位開始玩 vgo 了沒？ 這篇文章的作者將自己使用的專案從 Dep 轉移到 vgo ，並且提到有遇到的一些問題．如果你還在觀望 vgo 可以看看這篇文章分享的經驗，一定能給你一些對於 vgo 與 dep 的差異點．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VlkPVkm",
+          "type": "Link",
+          "title": "Go in 2018 - The State of Developer Ecosystem by JetBrains",
+          "url_domain": "jetbrains.com",
+          "url": "https://www.jetbrains.com/research/devecosystem-2018/go/",
+          "description": "<p>JetBrains 2018 Developer Ecosystem Survey 與 Go 有關的幾個有趣數據:</p>\n\n<ul>\n<li>最多人用的套件管理: dep</li>\n<li>最多人用的 Web 框架: gin</li>\n<li>最多人使用的測試套件: 內建 testing</li>\n</ul>",
+          "description_markdown": "JetBrains 2018 Developer Ecosystem Survey 與 Go 有關的幾個有趣數據:\r\n\r\n- 最多人用的套件管理: dep\r\n- 最多人用的 Web 框架: gin\r\n- 最多人使用的測試套件: 內建 testing ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "7Kj6UsL",
+          "type": "Link",
+          "title": "Let’s celebrate Hugo’s 5th birthday",
+          "url_domain": "gohugo.io",
+          "url": "https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/",
+          "description": "<p>Hugo: 使用 golang 建置的部落格文件管理系統。 他強調的就是編譯文件（將 markdown 轉成網頁）的速度超快。（跟另一套知名的系統 Jekyll 相比）</p>\n\n<p>現在隨著系統開發來到第五年，版號也來到了 0.42 之後。作者團隊發布這篇文章，並且宣布 1.0 也在完成最後兩個主要功能（更快 render engine 與插件管理）後將要發行。真令人期待。</p>",
+          "description_markdown": "Hugo: 使用 golang 建置的部落格文件管理系統。 他強調的就是編譯文件（將 markdown 轉成網頁）的速度超快。（跟另一套知名的系統 Jekyll 相比）\r\n\r\n現在隨著系統開發來到第五年，版號也來到了 0.42 之後。作者團隊發布這篇文章，並且宣布 1.0 也在完成最後兩個主要功能（更快 render engine 與插件管理）後將要發行。真令人期待。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

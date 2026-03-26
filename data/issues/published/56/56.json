@@ -1,0 +1,463 @@
+{
+  "number": 56,
+  "title": "Issue 56 The best place to hide a dead body is page 2 of Google search results.",
+  "summary": "本期內容涵蓋 Go, WebSocket, Android, UI / UX, Python, Git, JavaScript, GraphQL, Elm, 演算法",
+  "url": "https://weekly.codetengu.com/issues/56",
+  "publication_status": "published",
+  "published_at": "2016-08-22T03:00:00+01:00",
+  "updated_at": "2016-08-22T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://book.douban.com/people/vinta/\">The Best of Isaac Asimov</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 因為工作看韓劇，同時開始追美漫</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Best of Isaac Asimov](https://book.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 因為工作看韓劇，同時開始追美漫\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "zdvZtCx",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "kWI8lCj",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "GhmDfPN",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "kiWfkrX",
+              "title": "The Best of Isaac Asimov",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "NpdmXyY",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "8kXDx1F",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "kSAYahp",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "QfuQRSE",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "zEgk7DA",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "ZI1mAI5",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "2WcJGbK",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "HEgq5v2",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "sX3QbRL",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "gYw2lfl",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "DpxBPkC",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "LtGG3kV",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "sR1NcyL",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "iQzLxte",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Gk1mMKJ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "7ub8jqn",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "Q23aETk",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "LugUIJ8",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "LezLth7",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Bp9Rsc5",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "4P59JA5",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "lD0CsMu",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "SZK1590",
+          "type": "Link",
+          "title": "Is this my interface or yours?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jsaito/is-this-my-interface-or-yours-b09a7a795256",
+          "description": "<p>作者從 Windows 上「我的電腦」圖示的設計切入，觀察如何在 UI 上適當使用所有格修飾名詞。文中比對了許多軟體和網站的用法，發現「使用者的東西」在不同情境下會可能稱作「我的」、「你的」、甚至直接省略冠詞，例如 Dropbox 只會單純寫「檔案」，而不會特別說明。</p>\n\n<p>整體而言：</p>\n\n<ul>\n<li>如果你想強調使用者與產品互動的關係，就用「我」，但若沒有絕對必要，最好省略。</li>\n<li>當產品問問題、引導使用者、或者描述事情時，用「你」，強調對話的感覺。</li>\n</ul>",
+          "description_markdown": "作者從 Windows 上「我的電腦」圖示的設計切入，觀察如何在 UI 上適當使用所有格修飾名詞。文中比對了許多軟體和網站的用法，發現「使用者的東西」在不同情境下會可能稱作「我的」、「你的」、甚至直接省略冠詞，例如 Dropbox 只會單純寫「檔案」，而不會特別說明。\r\n\r\n整體而言：\r\n\r\n* 如果你想強調使用者與產品互動的關係，就用「我」，但若沒有絕對必要，最好省略。\r\n* 當產品問問題、引導使用者、或者描述事情時，用「你」，強調對話的感覺。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "165375ab-9eae-4dbf-9266-6be7b8b35288.png",
+          "image_extra_large_filename": "original_ratio_extra_large_165375ab-9eae-4dbf-9266-6be7b8b35288.png",
+          "image_medium_filename": "original_ratio_medium_165375ab-9eae-4dbf-9266-6be7b8b35288.png"
+        },
+        {
+          "identifier": "W4bY7Jl",
+          "type": "Link",
+          "title": "Designing Pythonic APIs",
+          "url_domain": "noamelf.com",
+          "url": "http://noamelf.com/2016/08/05/designing-pythonic-apis/",
+          "description": "<p>寫 Python 的人應該多少都知道 <a href=\"http://docs.python-requests.org/en/master/\">Requests</a> 這個 library 吧。它很好用，但其實 Requests 能做到的事情，大都可以用內建函式庫 <a href=\"https://docs.python.org/3/library/urllib.html\"><code>urllib</code></a> 辦到。這篇文章試著探討為什麼大家都討厭內建函式庫，卻喜歡 Requests——API 設計。</p>\n\n<p>其實我不太同意文中幾個觀點。例如在簡單的 GET 與 POST 狀況下，<code>urllib</code> 不會比 Requests 長（差一行吧），這個在 comments 也有提到。Requests 在這裡確實還是比較好，但我認為主要是 GET 和 POST 的區別很 explicit，而不是短。</p>\n\n<p>有些東西則比較像是 design decision。作者認為 Requests 把 HTTP 與 JSON operations 做成強耦合是優點，但用這個講法，十年前的人就會把 XML parsing 和 HTTP 強耦合——然後現在的人就會大翻白眼，吐槽這種<a href=\"https://zh.wikipedia.org/zh-tw/SOAP\">沒人在用的協定</a>為什麼要內建。當然每個時代有各自的需求，Requests 整合 JSON parser 確實讓它成為當代最合適的工具，但我不認為這代表它的 API 較好。預設不 raise exception 的選擇也是，或許在 HTTP 上這樣設計確實不錯，但這仍然不能成為通則。一般而言，exception 通常是比 error code 與 sentinel value 更好的報錯方式，至少在寫 Python 時如此。</p>\n\n<p>另外像 <code>Response.text</code> 與 <code>Response.json()</code> 這種年輕犯下的過錯已經被<a href=\"https://speakerdeck.com/mosky/beyond-the-style-guides?slide=41\">吐槽過</a><a href=\"https://speakerdeck.com/mosky/boost-maintainability?slide=33\">很多次</a>，這裡就不多說了。</p>\n\n<p>但我還是推薦讀一下這篇文章。你不需要同意作者（我就不同意），但至少他對 Requests  與 <code>urllib</code> 設計差異的觀察還是有價值。看看兩者，下次設計 API 時就能有更多想法。不要完全照抄 Requests 就好。</p>",
+          "description_markdown": "寫 Python 的人應該多少都知道 [Requests](http://docs.python-requests.org/en/master/) 這個 library 吧。它很好用，但其實 Requests 能做到的事情，大都可以用內建函式庫 [`urllib`](https://docs.python.org/3/library/urllib.html) 辦到。這篇文章試著探討為什麼大家都討厭內建函式庫，卻喜歡 Requests——API 設計。\r\n\r\n其實我不太同意文中幾個觀點。例如在簡單的 GET 與 POST 狀況下，`urllib` 不會比 Requests 長（差一行吧），這個在 comments 也有提到。Requests 在這裡確實還是比較好，但我認為主要是 GET 和 POST 的區別很 explicit，而不是短。\r\n\r\n有些東西則比較像是 design decision。作者認為 Requests 把 HTTP 與 JSON operations 做成強耦合是優點，但用這個講法，十年前的人就會把 XML parsing 和 HTTP 強耦合——然後現在的人就會大翻白眼，吐槽這種[沒人在用的協定](https://zh.wikipedia.org/zh-tw/SOAP)為什麼要內建。當然每個時代有各自的需求，Requests 整合 JSON parser 確實讓它成為當代最合適的工具，但我不認為這代表它的 API 較好。預設不 raise exception 的選擇也是，或許在 HTTP 上這樣設計確實不錯，但這仍然不能成為通則。一般而言，exception 通常是比 error code 與 sentinel value 更好的報錯方式，至少在寫 Python 時如此。\r\n\r\n另外像 `Response.text` 與 `Response.json()` 這種年輕犯下的過錯已經被[吐槽過](https://speakerdeck.com/mosky/beyond-the-style-guides?slide=41)[很多次](https://speakerdeck.com/mosky/boost-maintainability?slide=33)，這裡就不多說了。\r\n\r\n但我還是推薦讀一下這篇文章。你不需要同意作者（我就不同意），但至少他對 Requests  與 `urllib` 設計差異的觀察還是有價值。看看兩者，下次設計 API 時就能有更多想法。不要完全照抄 Requests 就好。",
+          "embedded_links": [
+            {
+              "identifier": "27hsjb",
+              "title": "Requests",
+              "url_domain": "python-requests.org",
+              "url": "http://docs.python-requests.org/en/master/"
+            },
+            {
+              "identifier": "9TeuZnJ",
+              "title": "`urllib`",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/library/urllib.html"
+            },
+            {
+              "identifier": "eab3ugT",
+              "title": "沒人在用的協定",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/zh-tw/SOAP"
+            },
+            {
+              "identifier": "IymYZNd",
+              "title": "吐槽過",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/mosky/beyond-the-style-guides?slide=41"
+            },
+            {
+              "identifier": "bAOJwWT",
+              "title": "很多次",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/mosky/boost-maintainability?slide=33"
+            }
+          ]
+        },
+        {
+          "identifier": "dFWTDKY",
+          "type": "Link",
+          "title": "在 Mac 或 Linux 上用 command line 與 Git 開發",
+          "url_domain": "gitbook.com",
+          "url": "https://www.gitbook.com/book/yychen/basics/details",
+          "description": "<p>朋友寫的 GitBook。我覺得我沒辦法介紹得更好（絕對不是懶得寫！），就看他自己的介紹吧：</p>\n\n<blockquote><p>這本線上書主要是給不熟悉 command line 而想要在 Mac 或 Linux 上開發程式的人。內容涵蓋從最基礎的「如何打開終端機」到常用 command line 指令、使用 brew / apt-get 安裝套件, 以及基本的 git 使用。</p>\n\n<p>Mac 的部分會以開發者本身的電腦作為目標教學, 而 Linux 則是以雲端 (遠端) 主機為目標, 我們所使用的 Linux Distro 會以 Ubuntu 為主。</p></blockquote>\n\n<p>會看這個週刊的人或許也不太需要這個。如果有朋友問你怎麼入門，就試著推薦看看吧。</p>",
+          "description_markdown": "朋友寫的 GitBook。我覺得我沒辦法介紹得更好（絕對不是懶得寫！），就看他自己的介紹吧：\r\n\r\n> 這本線上書主要是給不熟悉 command line 而想要在 Mac 或 Linux 上開發程式的人。內容涵蓋從最基礎的「如何打開終端機」到常用 command line 指令、使用 brew / apt-get 安裝套件, 以及基本的 git 使用。\r\n>\r\n> Mac 的部分會以開發者本身的電腦作為目標教學, 而 Linux 則是以雲端 (遠端) 主機為目標, 我們所使用的 Linux Distro 會以 Ubuntu 為主。\r\n\r\n會看這個週刊的人或許也不太需要這個。如果有朋友問你怎麼入門，就試著推薦看看吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "eYyCBBX",
+          "type": "Link",
+          "title": "轉眼、24 年",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mosky/轉眼-24-年-ef021a692028",
+          "description": "<p>上週吃飯時有個朋友在教高中生，聽他講了很多現在高中生的問題，例如不太主動，講一步才會做一步之類的。其實我一向不喜歡這個話題，如果是「我們當年哪會這樣」的抱怨，通常都是當成老人自爽直接無視；但這不太一樣，是人家看了很多年高中生才做出的觀察，有一定的參考價值。我自己也是有接觸一些教學，雖然年紀沒那麼大、教得人也少、尤其對高中生的接觸更比不上，但就我的超小樣本，感覺並沒有很糟啊，至少不比我自己以前差。似乎不太符合他的觀察。</p>\n\n<p>遇到這種認知不匹配時，第一個要考慮的就是母群體差異：我會接觸的人也都是寫程式相關的人，或許因為 <a href=\"https://en.wikipedia.org/wiki/Self-selection_bias\">self-selection bias</a> 而和一般樣本有偏差。</p>\n\n<p>似乎也沒錯。台灣在這塊領域沒有所謂科班，學校也沒教相關的基礎知識，所以如果走上程設路（然後沒有換跑道），肯定是因為本身受到什麼啟發，產生了獨特的興趣，才會主動學這方面的東西。</p>\n\n<p>也剛好前陣子 Twitter 在流行 <a href=\"https://twitter.com/hashtag/firstsevenlanguages\">#firstsevenlanguages</a>，才回憶了一下我<del>誤入歧途</del>踏進程設的歷程：一開始是為了做喜歡東西的網頁，後來想做簡單工具，最後一根稻草是換了 Mac，發現以前習慣的軟體都沒有，只好自己寫。然後就變得好想聽聽別人的版本。你為什麼會開始寫程式？為什麼現在還在寫？</p>\n\n<p><a href=\"http://blog.djangogirls.org/post/137825610883/about-your-django-story\">你的故事是什麼？</a></p>",
+          "description_markdown": "上週吃飯時有個朋友在教高中生，聽他講了很多現在高中生的問題，例如不太主動，講一步才會做一步之類的。其實我一向不喜歡這個話題，如果是「我們當年哪會這樣」的抱怨，通常都是當成老人自爽直接無視；但這不太一樣，是人家看了很多年高中生才做出的觀察，有一定的參考價值。我自己也是有接觸一些教學，雖然年紀沒那麼大、教得人也少、尤其對高中生的接觸更比不上，但就我的超小樣本，感覺並沒有很糟啊，至少不比我自己以前差。似乎不太符合他的觀察。\r\n\r\n遇到這種認知不匹配時，第一個要考慮的就是母群體差異：我會接觸的人也都是寫程式相關的人，或許因為 [self-selection bias](https://en.wikipedia.org/wiki/Self-selection_bias) 而和一般樣本有偏差。\r\n\r\n似乎也沒錯。台灣在這塊領域沒有所謂科班，學校也沒教相關的基礎知識，所以如果走上程設路（然後沒有換跑道），肯定是因為本身受到什麼啟發，產生了獨特的興趣，才會主動學這方面的東西。\r\n\r\n也剛好前陣子 Twitter 在流行 [#firstsevenlanguages](https://twitter.com/hashtag/firstsevenlanguages)，才回憶了一下我~~誤入歧途~~踏進程設的歷程：一開始是為了做喜歡東西的網頁，後來想做簡單工具，最後一根稻草是換了 Mac，發現以前習慣的軟體都沒有，只好自己寫。然後就變得好想聽聽別人的版本。你為什麼會開始寫程式？為什麼現在還在寫？\r\n\r\n[你的故事是什麼？](http://blog.djangogirls.org/post/137825610883/about-your-django-story)",
+          "embedded_links": [
+            {
+              "identifier": "10Ru8W2",
+              "title": "self-selection bias",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Self-selection_bias"
+            },
+            {
+              "identifier": "8LOn8KV",
+              "title": "#firstsevenlanguages",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hashtag/firstsevenlanguages"
+            },
+            {
+              "identifier": "PhaZTS7",
+              "title": "你的故事是什麼？",
+              "url_domain": "djangogirls.org",
+              "url": "http://blog.djangogirls.org/post/137825610883/about-your-django-story"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "3QEDayP",
+          "type": "Link",
+          "title": "Write Code to Rewrite Your Code: jscodeshift",
+          "url_domain": "toptal.com",
+          "url": "https://www.toptal.com/javascript/write-code-to-rewrite-your-code",
+          "description": "<p>在開發的時候，為了增加效率會使用一些 framework 或 library 來加速。但是隨著 codebase 越來越大，一旦碰上了 library 的 API 改變。此時，就會開始痛苦無比的搜尋、選取、貼上來把全部的 API 做升級。厲害一點的工程師會使用正則表示式來加快這些工作的進行。但是正則表示式總是會有極限和困難的地方，可能光是寫出正確的正則表示就會花費不少時間。</p>\n\n<p>codemod 通常是此時最佳的助手，透過程式碼轉成 AST (Abstract Syntax Tree)，再藉由操作 AST 的 node 和 path得到你想要的結果。這樣做可以處理很大量的程式碼，在龐大的 codebase 下面升級 API 變得比較輕鬆。\njscodeshift 就是 javascript 的一個 codemod 工具，是 facebook 的一個開源專案。</p>\n\n<p>文章提供了三個練習：\n1. 移除所有的 console，找到 callExpression 中 object 的 identifier 是 console 將其移除。\n2. 改變 import 的 method call，找到需要 importDeclaration 和他的 localName，最後修改成需要的 property name。\n3. 把函數的參數串列改成單一 object。</p>\n\n<p>透過三個練習，對於 AST 的操作就會有基本了解，可以嘗試寫你自己的 codemod script。\n當然你有在寫 react 的話，facebook 也提供了不少 <a href=\"https://github.com/reactjs/react-codemod\">react codemod</a> 可以使用。</p>",
+          "description_markdown": "在開發的時候，為了增加效率會使用一些 framework 或 library 來加速。但是隨著 codebase 越來越大，一旦碰上了 library 的 API 改變。此時，就會開始痛苦無比的搜尋、選取、貼上來把全部的 API 做升級。厲害一點的工程師會使用正則表示式來加快這些工作的進行。但是正則表示式總是會有極限和困難的地方，可能光是寫出正確的正則表示就會花費不少時間。\r\n\r\ncodemod 通常是此時最佳的助手，透過程式碼轉成 AST (Abstract Syntax Tree)，再藉由操作 AST 的 node 和 path得到你想要的結果。這樣做可以處理很大量的程式碼，在龐大的 codebase 下面升級 API 變得比較輕鬆。\r\njscodeshift 就是 javascript 的一個 codemod 工具，是 facebook 的一個開源專案。\r\n\r\n文章提供了三個練習：\r\n1. 移除所有的 console，找到 callExpression 中 object 的 identifier 是 console 將其移除。\r\n2. 改變 import 的 method call，找到需要 importDeclaration 和他的 localName，最後修改成需要的 property name。\r\n3. 把函數的參數串列改成單一 object。\r\n\r\n透過三個練習，對於 AST 的操作就會有基本了解，可以嘗試寫你自己的 codemod script。\r\n當然你有在寫 react 的話，facebook 也提供了不少 [react codemod](https://github.com/reactjs/react-codemod) 可以使用。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "yCtKDQe",
+              "title": "react codemod",
+              "url_domain": "github.com",
+              "url": "https://github.com/reactjs/react-codemod"
+            }
+          ]
+        },
+        {
+          "identifier": "P799K4u",
+          "type": "Link",
+          "title": "GraphQL Concepts Visualized",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/apollo-stack/the-concepts-of-graphql-bc68bd819be3#.uvh6357ya",
+          "description": "<p>GraphQL 由 facebook 所推出的 language，希望能透過一次的 request 來得到想要的 data。不論背後的資料庫是使用 SQL 或是 NoSQL，通常資料間都會有相依性，而透過 GraphQL 的查詢語言來得到查詢結果樹的資料。</p>\n\n<p>文章透過圖解的方式來解說 graphql 實際上是怎麼查詢你的資料，並且還說明 <a href=\"https://github.com/apollostack/apollo-client\">apollo client</a> 是怎麼做 graphql 查詢結果樹的快取。</p>",
+          "description_markdown": "GraphQL 由 facebook 所推出的 language，希望能透過一次的 request 來得到想要的 data。不論背後的資料庫是使用 SQL 或是 NoSQL，通常資料間都會有相依性，而透過 GraphQL 的查詢語言來得到查詢結果樹的資料。\r\n\r\n文章透過圖解的方式來解說 graphql 實際上是怎麼查詢你的資料，並且還說明 [apollo client](https://github.com/apollostack/apollo-client) 是怎麼做 graphql 查詢結果樹的快取。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "u1O1Jrn",
+              "title": "apollo client",
+              "url_domain": "github.com",
+              "url": "https://github.com/apollostack/apollo-client"
+            }
+          ]
+        },
+        {
+          "identifier": "gTlpknL",
+          "type": "Link",
+          "title": "WTF, forms?",
+          "url_domain": "wtfforms.com",
+          "url": "http://wtfforms.com/",
+          "description": "<p>Bootstrap 的作者 Mark Otto 所開發的套件，提供友善的 Form control。適用 IE9 以上的瀏覽器。</p>",
+          "description_markdown": "Bootstrap 的作者 Mark Otto 所開發的套件，提供友善的 Form control。適用 IE9 以上的瀏覽器。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6PpXLtH",
+          "type": "Link",
+          "title": "Single-Page Web Apps in Elm: Part Four - Side Effects",
+          "url_domain": "linkedin.com",
+          "url": "https://www.linkedin.com/pulse/single-page-web-apps-elm-part-four-side-effects-kevin-greene",
+          "description": "<p>這篇是在介紹 Elm 如何處理 ajax request，而因為 Elm 是靜態型別的語言，所以處理 JSON 也必須事先定義好 type。雖然處理 JSON 會比 javascript 麻煩，確定能保證資料的正確性。</p>\n\n<p>作者在這篇也示範一些處理 JSON 的測試程式碼。而對 Elm 不熟的朋友也可以閱讀這系列的前三篇文章。</p>",
+          "description_markdown": "這篇是在介紹 Elm 如何處理 ajax request，而因為 Elm 是靜態型別的語言，所以處理 JSON 也必須事先定義好 type。雖然處理 JSON 會比 javascript 麻煩，確定能保證資料的正確性。\r\n\r\n作者在這篇也示範一些處理 JSON 的測試程式碼。而對 Elm 不熟的朋友也可以閱讀這系列的前三篇文章。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "htQE1QV",
+          "type": "Link",
+          "title": "萬事萬物皆是 LOG  —  系統架構也來點科普",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@poga/%E8%90%AC%E4%BA%8B%E8%90%AC%E7%89%A9%E7%9A%86%E6%98%AF-log-%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E4%B9%9F%E4%BE%86%E9%BB%9E%E7%A7%91%E6%99%AE-caf3029359f8#.xm9mvj8o2",
+          "description": "<p>台灣開源界的年度盛會 COSCUP 2016 在昨天剛結束。</p>\n\n<p>poga 演講的逐字稿，歡迎沒參與到的朋友仔細品味，有在現場的朋友還可以再次回味！</p>",
+          "description_markdown": "台灣開源界的年度盛會 COSCUP 2016 在昨天剛結束。\r\n\r\npoga 演講的逐字稿，歡迎沒參與到的朋友仔細品味，有在現場的朋友還可以再次回味！\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "g4ehofx",
+          "type": "Link",
+          "title": "本週 IG - 電獺少女 Lala",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/iremcheng/",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "41cee181-8b75-43fc-a807-16c2e8d1ba43.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_41cee181-8b75-43fc-a807-16c2e8d1ba43.jpg",
+          "image_medium_filename": "original_ratio_medium_41cee181-8b75-43fc-a807-16c2e8d1ba43.jpg"
+        },
+        {
+          "identifier": "BUAjAxx",
+          "type": "Link",
+          "title": "SOLID Go Design",
+          "url_domain": "cheney.net",
+          "url": "http://dave.cheney.net/2016/08/20/solid-go-design",
+          "description": "<p>Dave Cheney 在 <a href=\"http://golanguk.com/\">GolangUK</a> 分享如何在 Go 中實踐 SOLID 原則的文字內容。</p>\n\n<p>Chenney 認為 Go 勢必會愈來愈普及、會有愈來愈多用 Go 寫的程式碼，其中肯定有好有壞。所以不能再只考慮效能；而更要考慮如何寫出架構清晰、適合復用的高品質架構。</p>",
+          "description_markdown": "Dave Cheney 在 [GolangUK](http://golanguk.com/) 分享如何在 Go 中實踐 SOLID 原則的文字內容。\r\n\r\nChenney 認為 Go 勢必會愈來愈普及、會有愈來愈多用 Go 寫的程式碼，其中肯定有好有壞。所以不能再只考慮效能；而更要考慮如何寫出架構清晰、適合復用的高品質架構。",
+          "embedded_links": [
+            {
+              "identifier": "Auf0sjI",
+              "title": "GolangUK",
+              "url_domain": "golanguk.com",
+              "url": "http://golanguk.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "NNWNvMp",
+          "type": "Link",
+          "title": "Load Balancing Websocket Connections",
+          "url_domain": "deepstream.io",
+          "url": "https://deepstream.io/blog/load-balancing-websocket-connections/",
+          "description": "<p>WebSocket 現在已經被廣泛應用，但是你知道要對它做 load balance 有多麻煩嗎？\n看看這篇文章吧。</p>\n\n<p>如果你的服務架構在 AWS，那麼恭喜你！新的 <a href=\"https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/\">Application Load Balancer (ALB)</a> 已經幫你搞定了。</p>",
+          "description_markdown": "WebSocket 現在已經被廣泛應用，但是你知道要對它做 load balance 有多麻煩嗎？\r\n看看這篇文章吧。\r\n\r\n如果你的服務架構在 AWS，那麼恭喜你！新的 [Application Load Balancer (ALB)](https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/) 已經幫你搞定了。",
+          "embedded_links": [
+            {
+              "identifier": "kqullDr",
+              "title": "Application Load Balancer (ALB)",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/elasticloadbalancing/applicationloadbalancer/"
+            }
+          ]
+        },
+        {
+          "identifier": "vcDqBfD",
+          "type": "Link",
+          "title": "Trello Android Schema Upgrades",
+          "url_domain": "danlew.net",
+          "url": "http://blog.danlew.net/2016/08/16/trello-android-schema-upgrades/",
+          "description": "<p>Trello Android 版處理 DB migration 的方法。幫 DB migration 加上測試不是甚麼新奇的方式，但我想這樣做的人可能不是很多。</p>\n\n<p>其中， <em>測試</em> <code>DB_VERSION</code> 這個小訣竅還不錯，提醒 developer 不要漏寫測試。</p>",
+          "description_markdown": "Trello Android 版處理 DB migration 的方法。幫 DB migration 加上測試不是甚麼新奇的方式，但我想這樣做的人可能不是很多。\r\n\r\n其中， _測試_ `DB_VERSION` 這個小訣竅還不錯，提醒 developer 不要漏寫測試。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZrUZJYi",
+          "type": "Link",
+          "title": "書籍推薦 —— 演算法統治世界",
+          "url_domain": "taaze.tw",
+          "url": "http://www.taaze.tw/sing.html?pid=11100710575",
+          "description": "<p>這本技術含量比較低的科普書籍，簡要地指出資訊科技如何深深影響現代社會。特別是金融界的盛衰如何帶起一波科技技術的發展。</p>\n\n<p>順便推薦另外一本與 <em>演算法</em> 內容較為相關的科普書籍 —— <a href=\"http://www.taaze.tw/sing.html?pid=11100714027\">改變世界的九大演算法</a>；適合非技術背景的朋友瞭解這個圈子的人都在處理什麼樣的問題。</p>",
+          "description_markdown": "這本技術含量比較低的科普書籍，簡要地指出資訊科技如何深深影響現代社會。特別是金融界的盛衰如何帶起一波科技技術的發展。\r\n\r\n順便推薦另外一本與 *演算法* 內容較為相關的科普書籍 —— [改變世界的九大演算法](http://www.taaze.tw/sing.html?pid=11100714027)；適合非技術背景的朋友瞭解這個圈子的人都在處理什麼樣的問題。",
+          "embedded_links": [
+            {
+              "identifier": "TugoQOK",
+              "title": "改變世界的九大演算法",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/sing.html?pid=11100714027"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "CAoVNoz",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice (台北、北京、上海)",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者請來信：<a href=\"&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x74;&#122;&#x61;&#110;&#103;&#109;&#x73;&#64;&#115;&#x74;&#x72;&#101;&#101;&#x74;&#118;&#111;&#105;&#x63;&#x65;&#46;&#99;&#111;&#x6d;\">&#116;&#122;&#x61;&#x6e;&#103;&#109;&#115;&#x40;&#x73;&#x74;&#114;&#101;&#x65;&#116;&#x76;&#111;&#105;&#99;&#x65;&#46;&#x63;&#x6f;&#109;</a></p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者請來信：<tzangms@streetvoice.com>",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

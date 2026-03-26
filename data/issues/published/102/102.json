@@ -1,0 +1,494 @@
+{
+  "number": 102,
+  "title": "Issue 102 為什麼小明有問題都不 Google？因為他有 Bing",
+  "summary": "本期內容涵蓋 Objective-C, Swift, Machine Learning, Deep Learning, Code Review, Git, R, Recommender System",
+  "url": "https://weekly.codetengu.com/issues/102",
+  "publication_status": "published",
+  "published_at": "2017-10-16T03:00:00+01:00",
+  "updated_at": "2017-10-16T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Ready Player One</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> -  公司誠徵前端，有想做 5G 與 AI 相關方面的前端歡迎聯絡我</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 請推薦工作機會</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Ready Player One](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) -  公司誠徵前端，有想做 5G 與 AI 相關方面的前端歡迎聯絡我\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw) - 請推薦工作機會\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "zdeiVcE",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "eAAUiYm",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "8v8MRzD",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "APWviaJ",
+              "title": "Ready Player One",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "yEw1saO",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "iuywTaS",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "28DrPxJ",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "y6dskzg",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "VQ6RV9a",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "HbHRCqX",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "60iwzjm",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "v8aaNro",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "rL8agrv",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "Th5KIhU",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "Q43Zba0",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "iLxAzWw",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "uhrgXny",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "p0arLv9",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "L15tKXO",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "KWRYVki",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "y8SG7zi",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "8KeZaLC",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "atqEswW",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "DtodkYQ",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "2fO4mXk",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "IcJI3YQ",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "2n4kPYd",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "XcvQp4C",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "tWYRGFQ",
+          "type": "Link",
+          "title": "Why many developers still prefer Objective-C to Swift",
+          "url_domain": "hackingwithswift.com",
+          "url": "https://www.hackingwithswift.com/articles/27/why-many-developers-still-prefer-objective-c-to-swift",
+          "description": "<p>如今 Swift 版本已經演進到 4 了，但還是有不少工程師鍾情於 Objective-C，這是為什麼呢？本文作者採訪了多位工程師，詢問他們許多問題，諸如「為何還死守著 Objective-C、看到研討會上都是 Swift 的主題會不會感到不舒服、在社交平台上會不會羞於承認自己還在用 Objective-C」等等，滿有趣的一篇採訪。</p>\n\n<p>當然，作者接下來又寫了一篇 <a href=\"https://www.hackingwithswift.com/articles/29/why-many-developers-prefer-swift-to-objective-c\">Why many developers prefer Swift to Objective-C</a>。</p>",
+          "description_markdown": "如今 Swift 版本已經演進到 4 了，但還是有不少工程師鍾情於 Objective-C，這是為什麼呢？本文作者採訪了多位工程師，詢問他們許多問題，諸如「為何還死守著 Objective-C、看到研討會上都是 Swift 的主題會不會感到不舒服、在社交平台上會不會羞於承認自己還在用 Objective-C」等等，滿有趣的一篇採訪。\r\n\r\n當然，作者接下來又寫了一篇 [Why many developers prefer Swift to Objective-C](https://www.hackingwithswift.com/articles/29/why-many-developers-prefer-swift-to-objective-c)。",
+          "embedded_links": [
+            {
+              "identifier": "aJgRrTm",
+              "title": "Why many developers prefer Swift to Objective-C",
+              "url_domain": "hackingwithswift.com",
+              "url": "https://www.hackingwithswift.com/articles/29/why-many-developers-prefer-swift-to-objective-c"
+            }
+          ]
+        },
+        {
+          "identifier": "Xh2E5Ru",
+          "type": "Link",
+          "title": "Designing for iPhone X",
+          "url_domain": "designcode.io",
+          "url": "https://designcode.io/ios11-iphone-x",
+          "description": "<p>這大概是目前為止，我看到最詳細的設計指南了。幾乎所有你想得到的都有涵蓋到，設計師應該把這一篇列印出來貼在牆上，以便隨時參考！</p>",
+          "description_markdown": "這大概是目前為止，我看到最詳細的設計指南了。幾乎所有你想得到的都有涵蓋到，設計師應該把這一篇列印出來貼在牆上，以便隨時參考！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Pyh5I6T",
+          "type": "Link",
+          "title": "A Case For Using Storyboards on iOS",
+          "url_domain": "cobeisfresh.com",
+          "url": "https://medium.cobeisfresh.com/a-case-for-using-storyboards-on-ios-3bbe69efbdf4",
+          "description": "<p>我只有在寫自己的 side project 或 prototype 時，才會用 Storyboard 去設計介面，工作的專案裡頭還是完全用程式碼寫出介面。</p>\n\n<p>我其實有跟一些同事聊過這個話題，Storyboard 並非一無是處，只是我覺得很多人沒有正確地使用它。剛好最近看到這篇文章，作者對 Storyboard 的想法與使用方式跟我不謀而合：</p>\n\n<ul>\n<li>一個 Storyboard 裡頭只有一個 UIViewController</li>\n<li>Storyboard 用來設定 constraints，其他畫面的設定都寫在程式碼裡面</li>\n<li>不要用 Xib 設計 UIViewController</li>\n</ul>\n\n\n<p>作者也提供了一個把 UIViewController 跟對應的 Storyboard 設為同名的小技巧，可以讓開發變得更方便。</p>",
+          "description_markdown": "我只有在寫自己的 side project 或 prototype 時，才會用 Storyboard 去設計介面，工作的專案裡頭還是完全用程式碼寫出介面。\r\n\r\n我其實有跟一些同事聊過這個話題，Storyboard 並非一無是處，只是我覺得很多人沒有正確地使用它。剛好最近看到這篇文章，作者對 Storyboard 的想法與使用方式跟我不謀而合：\r\n\r\n- 一個 Storyboard 裡頭只有一個 UIViewController\r\n- Storyboard 用來設定 constraints，其他畫面的設定都寫在程式碼裡面\r\n- 不要用 Xib 設計 UIViewController\r\n\r\n作者也提供了一個把 UIViewController 跟對應的 Storyboard 設為同名的小技巧，可以讓開發變得更方便。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "I1Iooq5",
+          "type": "Link",
+          "title": "Closures: Swifty closures for UIKit and Foundation",
+          "url_domain": "github.com",
+          "url": "https://github.com/vhesener/Closures",
+          "description": "<p>這個東西把大部分的 UIKit 跟 Foundation 元件都加上 Closure 語法，讓開發者寫起來更加方便一點。這讓我想到在 Objective-C 時代很流行的 <a href=\"https://github.com/BlocksKit/BlocksKit\">BlocksKit</a>。</p>",
+          "description_markdown": "這個東西把大部分的 UIKit 跟 Foundation 元件都加上 Closure 語法，讓開發者寫起來更加方便一點。這讓我想到在 Objective-C 時代很流行的 [BlocksKit](https://github.com/BlocksKit/BlocksKit)。",
+          "embedded_links": [
+            {
+              "identifier": "Zc5ENHe",
+              "title": "BlocksKit",
+              "url_domain": "github.com",
+              "url": "https://github.com/BlocksKit/BlocksKit"
+            }
+          ]
+        },
+        {
+          "identifier": "TssjlJq",
+          "type": "Link",
+          "title": "iOS Device ID 的前世今生",
+          "url_domain": "juejin.im",
+          "url": "https://juejin.im/post/59a0162e6fb9a0249e3b3d7f",
+          "description": "<p>IMEI、UUID、UDID.... 有沒有被這些名詞搞混過？有沒有想過該如何唯一識別使用者的裝置？從以前到現在出現又消失過多少種方法？這一篇文章應該可以解答你的困惑。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"https://medium.com/the-traveled-ios-developers-guide/devicecheck-6f3eafac60e5\">iOS 11: The DeviceCheck API</a>: It’s an Apple approved, and guaranteed way, to identify your app as running on a valid Apple device while maintaining absolute user privacy.</li>\n</ul>",
+          "description_markdown": "IMEI、UUID、UDID.... 有沒有被這些名詞搞混過？有沒有想過該如何唯一識別使用者的裝置？從以前到現在出現又消失過多少種方法？這一篇文章應該可以解答你的困惑。\r\n\r\n同場加映：\r\n\r\n- [iOS 11: The DeviceCheck API](https://medium.com/the-traveled-ios-developers-guide/devicecheck-6f3eafac60e5): It’s an Apple approved, and guaranteed way, to identify your app as running on a valid Apple device while maintaining absolute user privacy.",
+          "embedded_links": [
+            {
+              "identifier": "8OH00po",
+              "title": "iOS 11: The DeviceCheck API",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/the-traveled-ios-developers-guide/devicecheck-6f3eafac60e5"
+            }
+          ]
+        },
+        {
+          "identifier": "A1JLIkr",
+          "type": "Link",
+          "title": "inessential: On Fixing that NSNull Crasher in Overcast",
+          "url_domain": "inessential.com",
+          "url": "http://inessential.com/2017/10/10/on_fixing_that_nsnull_crasher_in_overcas",
+          "description": "<p><a href=\"https://overcast.fm/\">Overcast</a> 是我很愛用的一款 podcast app，它的開發者 Marco Arment 最近在 Twitter 上邀請別人幫他想想該怎麼解決一個<a href=\"https://twitter.com/marcoarment/status/917852761873637376\">存在已久的 crash</a>。本文作者剛好看到了這則求救，並提供了一個可能的解法，而且還真的解決了問題。無論是問題還是解法都很有趣，值得一看！</p>\n\n<p>同場加映：</p>\n\n<p><a href=\"https://pspdfkit.com/\">PSPDFKit</a> 的開發者 Peter Steinberger 最近也在 Twitter 上詢問一個 <a href=\"https://twitter.com/steipete/status/919142277280358400\">UIToolbar 在 iOS 11 產生的 bug</a>，最後的解法也是很奇葩。</p>",
+          "description_markdown": "[Overcast](https://overcast.fm/) 是我很愛用的一款 podcast app，它的開發者 Marco Arment 最近在 Twitter 上邀請別人幫他想想該怎麼解決一個[存在已久的 crash](https://twitter.com/marcoarment/status/917852761873637376)。本文作者剛好看到了這則求救，並提供了一個可能的解法，而且還真的解決了問題。無論是問題還是解法都很有趣，值得一看！\r\n\r\n同場加映：\r\n\r\n[PSPDFKit](https://pspdfkit.com/) 的開發者 Peter Steinberger 最近也在 Twitter 上詢問一個 [UIToolbar 在 iOS 11 產生的 bug](https://twitter.com/steipete/status/919142277280358400)，最後的解法也是很奇葩。",
+          "embedded_links": [
+            {
+              "identifier": "Cj7NodI",
+              "title": "Overcast",
+              "url_domain": "overcast.fm",
+              "url": "https://overcast.fm/"
+            },
+            {
+              "identifier": "8gpymNk",
+              "title": "存在已久的 crash",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/marcoarment/status/917852761873637376"
+            },
+            {
+              "identifier": "ldAsXJR",
+              "title": "PSPDFKit",
+              "url_domain": "pspdfkit.com",
+              "url": "https://pspdfkit.com/"
+            },
+            {
+              "identifier": "fyP6Cfu",
+              "title": "UIToolbar 在 iOS 11 產生的 bug",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/steipete/status/919142277280358400"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "OZRl4KH",
+          "type": "Link",
+          "title": "遲來的 Google Teachable Machine 簡介",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@drumrick/c6a292100fca",
+          "description": "<p>雖然 Teachable Machine 發布已經兩週了，但是一直還沒去瞭解，藉著颱風天稍微看了一下相關資料，撰文簡單介紹一下，到底需要怎樣的技術支援，才能讓 Teachable Machine 這樣的應用誕生？</p>",
+          "description_markdown": "雖然 Teachable Machine 發布已經兩週了，但是一直還沒去瞭解，藉著颱風天稍微看了一下相關資料，撰文簡單介紹一下，到底需要怎樣的技術支援，才能讓 Teachable Machine 這樣的應用誕生？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "gImHDWL",
+          "type": "Link",
+          "title": "Kaggle 教學網誌：語意分析 in R",
+          "url_domain": "kaggle.com",
+          "url": "http://blog.kaggle.com/2017/10/05/data-science-101-sentiment-analysis-in-r-tutorial/",
+          "description": "<p>文中使用 <a href=\"https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html\">Tidytex 套件</a>，分析 1989 到 2017 年間，美國的國情咨文內容。程式碼完整，簡單的視覺化呈現結果，文末附上幾個簡單的練習，最後並條列了幾個 Kaggle 上的語料庫，以及其他可供使用字典。</p>\n\n<p>如果轉換到 Python 的部分，現在多數人使用的應該是 <a href=\"https://pypi.python.org/pypi/textblob\">textblob</a>，這個套件結合了 NLTK 以及 Google Cloud NLP 的 API，在此之上做了一層的封裝，很容易使用。</p>\n\n<p>這些都是英文的部分，中文的話 Google Cloud NLP API 是有提供中文語意的判斷，但應該是要按次數比例收費的。公開的模型通常是以簡體中文為訓練資料，而且幾乎都是使用爬蟲爬某些網站的評分內容，例如電影評論網站、或是購物網站，導致並不是很適合普通情況的使用。</p>",
+          "description_markdown": "文中使用 [Tidytex 套件](https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html)，分析 1989 到 2017 年間，美國的國情咨文內容。程式碼完整，簡單的視覺化呈現結果，文末附上幾個簡單的練習，最後並條列了幾個 Kaggle 上的語料庫，以及其他可供使用字典。\r\n\r\n如果轉換到 Python 的部分，現在多數人使用的應該是 [textblob](https://pypi.python.org/pypi/textblob)，這個套件結合了 NLTK 以及 Google Cloud NLP 的 API，在此之上做了一層的封裝，很容易使用。\r\n\r\n這些都是英文的部分，中文的話 Google Cloud NLP API 是有提供中文語意的判斷，但應該是要按次數比例收費的。公開的模型通常是以簡體中文為訓練資料，而且幾乎都是使用爬蟲爬某些網站的評分內容，例如電影評論網站、或是購物網站，導致並不是很適合普通情況的使用。",
+          "embedded_links": [
+            {
+              "identifier": "JBwdjfk",
+              "title": "Tidytex 套件",
+              "url_domain": "r-project.org",
+              "url": "https://cran.r-project.org/web/packages/tidytext/vignettes/tidytext.html"
+            },
+            {
+              "identifier": "hw4hOut",
+              "title": "textblob",
+              "url_domain": "python.org",
+              "url": "https://pypi.python.org/pypi/textblob"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "量子位",
+          "description": "<p>這是一個微信公眾號的名字，專門報導與 AI 相關的新聞。因為我習慣看文章追源頭，最近看到這邊出來幾篇不錯的文，但是沒有微信無法追蹤，令我相當苦惱，只好迂迴一下，看看量子位的文章會被轉發到哪些地方，總共找到兩個替代方案。</p>\n\n<p><a href=\"https://weiwenku.net/a/6776\">微文庫量子位微信公眾號文章</a></p>\n\n<p>優點</p>\n\n<ul>\n<li>文章齊全數量多</li>\n<li>有點擊數量顯示，可以自行挑選熱門文章</li>\n</ul>\n\n\n<p>缺點</p>\n\n<ul>\n<li>版面比較雜，有廣告</li>\n</ul>\n\n\n<p><a href=\"https://zhuanlan.zhihu.com/qbitai\">量子位知乎專欄</a></p>\n\n<p>優點</p>\n\n<ul>\n<li>有讚數，可以自行挑選熱門文章</li>\n<li>有標籤分類，可以選擇有興趣的標籤內容</li>\n<li>有評論區可以討論</li>\n<li>排版比較舒適，沒有廣告</li>\n</ul>\n\n\n<p>缺點</p>\n\n<ul>\n<li>文章數比較少不齊全</li>\n</ul>",
+          "description_markdown": "這是一個微信公眾號的名字，專門報導與 AI 相關的新聞。因為我習慣看文章追源頭，最近看到這邊出來幾篇不錯的文，但是沒有微信無法追蹤，令我相當苦惱，只好迂迴一下，看看量子位的文章會被轉發到哪些地方，總共找到兩個替代方案。\r\n\r\n[微文庫量子位微信公眾號文章](https://weiwenku.net/a/6776)\r\n\r\n優點\r\n\r\n* 文章齊全數量多\r\n* 有點擊數量顯示，可以自行挑選熱門文章\r\n\r\n缺點\r\n\r\n* 版面比較雜，有廣告\r\n\r\n[量子位知乎專欄](https://zhuanlan.zhihu.com/qbitai)\r\n\r\n優點\r\n\r\n* 有讚數，可以自行挑選熱門文章\r\n* 有標籤分類，可以選擇有興趣的標籤內容\r\n* 有評論區可以討論\r\n* 排版比較舒適，沒有廣告\r\n\r\n缺點\r\n\r\n* 文章數比較少不齊全",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "St13YMY",
+              "title": "微文庫量子位微信公眾號文章",
+              "url_domain": "weiwenku.net",
+              "url": "https://weiwenku.net/a/6776"
+            },
+            {
+              "identifier": "6LxEu3J",
+              "title": "量子位知乎專欄",
+              "url_domain": "zhihu.com",
+              "url": "https://zhuanlan.zhihu.com/qbitai"
+            }
+          ]
+        },
+        {
+          "identifier": "uIeekq0",
+          "type": "Link",
+          "title": "在 Medium 上找到有興趣的人來追蹤",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/how-i-used-python-to-find-interesting-people-on-medium-be9261b924b0",
+          "description": "<p>我自己剛開始用 Medium 的時候，也感覺不知道要追蹤誰。最近也有幾位朋友剛開始用 Medium 有這樣的問題。所以看到這篇感覺挺有趣的，可以用類似方法不同定義去找到自己可能有興趣的使用者。</p>\n\n<p>作者自己寫  Python 抓 Medium 上面的資訊，尋找自己可能感興趣的使用者來追蹤。程式碼很簡短，有在 <a href=\"https://github.com/Radu-Raicea/Interesting-People-On-Medium\">Github</a> 上面，一開始作者本來要用 Medium 自己的 API，不過因為功能有限，所以後來還是用爬蟲的方式來做。</p>\n\n<p>我自己是感覺 Medium 官方比較是用內容為主的推薦方式在推薦文章，所以用作者這種 CF 方式來找相同興趣的使用者，也是一種相輔相成的做法。不過我感覺台灣用戶留言的比例還是比較低的，可能要退一步改成：追蹤我的使用者還追蹤了哪些使用者？或者是：對我的文章鼓掌的使用者還對哪些文章鼓掌？可能會有比較多的結果。</p>",
+          "description_markdown": "我自己剛開始用 Medium 的時候，也感覺不知道要追蹤誰。最近也有幾位朋友剛開始用 Medium 有這樣的問題。所以看到這篇感覺挺有趣的，可以用類似方法不同定義去找到自己可能有興趣的使用者。\r\n\r\n作者自己寫  Python 抓 Medium 上面的資訊，尋找自己可能感興趣的使用者來追蹤。程式碼很簡短，有在 [Github](https://github.com/Radu-Raicea/Interesting-People-On-Medium) 上面，一開始作者本來要用 Medium 自己的 API，不過因為功能有限，所以後來還是用爬蟲的方式來做。\r\n\r\n我自己是感覺 Medium 官方比較是用內容為主的推薦方式在推薦文章，所以用作者這種 CF 方式來找相同興趣的使用者，也是一種相輔相成的做法。不過我感覺台灣用戶留言的比例還是比較低的，可能要退一步改成：追蹤我的使用者還追蹤了哪些使用者？或者是：對我的文章鼓掌的使用者還對哪些文章鼓掌？可能會有比較多的結果。",
+          "embedded_links": [
+            {
+              "identifier": "obult1w",
+              "title": "Github",
+              "url_domain": "github.com",
+              "url": "https://github.com/Radu-Raicea/Interesting-People-On-Medium"
+            }
+          ]
+        },
+        {
+          "identifier": "y0FNfKl",
+          "type": "Link",
+          "title": "Google 及 Uber 內部，深度學習的最佳實踐 (in production)",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/intuitionmachine/google-and-ubers-best-practices-for-deep-learning-58488a8899b6",
+          "description": "<p>Google  以及 Uber  都有在這方面發表論文，本文簡略地從幾個角度去看 Google 以及 Uber 流程的設計，到底解決了哪些問題。在這邊我簡單的筆記，但是內容滿好的，建議閱讀原文，有能力的話閱讀論文。</p>\n\n<p>Uber</p>\n\n<ul>\n<li>專案名稱：<a href=\"https://eng.uber.com/michelangelo/\">米開朗基羅</a></li>\n<li>數據平台，加上機器學習功能</li>\n<li>有一個叫做 Feature Store 的東西，各個團隊把自己要用的 feature 都加到\n裡面，這樣團隊之間可以共享、重複使用各個 feature，而 feature 是每天自動計算並更新的。</li>\n<li>內部的 DSL 做 feature engineering</li>\n</ul>\n\n\n<p>Google</p>\n\n<ul>\n<li><a href=\"http://www.kdd.org/kdd2017/papers/view/tfx-a-tensorflow-based-production-scale-machine-learning-platform\">TFX 論文</a>，內有影片。</li>\n<li>自動對每個資料集做 data analysis</li>\n<li>feature engineering 雖然沒提到名稱，但應該就是用 dataprep</li>\n<li>有一個資料檢查的機制，可以提早偵測到資料錯誤的情況，而暫停之後的動作。</li>\n<li>剩下的基本就是 TensorFlow Serving。</li>\n</ul>",
+          "description_markdown": "Google  以及 Uber  都有在這方面發表論文，本文簡略地從幾個角度去看 Google 以及 Uber 流程的設計，到底解決了哪些問題。在這邊我簡單的筆記，但是內容滿好的，建議閱讀原文，有能力的話閱讀論文。\r\n\r\nUber\r\n\r\n* 專案名稱：[米開朗基羅](https://eng.uber.com/michelangelo/)\r\n* 數據平台，加上機器學習功能\r\n* 有一個叫做 Feature Store 的東西，各個團隊把自己要用的 feature 都加到\r\n裡面，這樣團隊之間可以共享、重複使用各個 feature，而 feature 是每天自動計算並更新的。\r\n* 內部的 DSL 做 feature engineering\r\n\r\nGoogle\r\n\r\n* [TFX 論文](http://www.kdd.org/kdd2017/papers/view/tfx-a-tensorflow-based-production-scale-machine-learning-platform)，內有影片。\r\n* 自動對每個資料集做 data analysis\r\n* feature engineering 雖然沒提到名稱，但應該就是用 dataprep\r\n* 有一個資料檢查的機制，可以提早偵測到資料錯誤的情況，而暫停之後的動作。\r\n* 剩下的基本就是 TensorFlow Serving。",
+          "embedded_links": [
+            {
+              "identifier": "gThIof4",
+              "title": "米開朗基羅",
+              "url_domain": "uber.com",
+              "url": "https://eng.uber.com/michelangelo/"
+            },
+            {
+              "identifier": "gXmI7Tq",
+              "title": "TFX 論文",
+              "url_domain": "kdd.org",
+              "url": "http://www.kdd.org/kdd2017/papers/view/tfx-a-tensorflow-based-production-scale-machine-learning-platform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "GeNEyyP",
+          "type": "Link",
+          "title": "(Git) Rerere Your Boat...",
+          "url_domain": "git-scm.com",
+          "url": "https://git-scm.com/2010/03/08/rerere.html",
+          "description": "<p>前兩天在推特上看到一篇 <a href=\"https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5\">每個開發者都該知道的 Git 基礎指令</a> 。果然很基礎，連 <code>diff</code> 跟 <code>rebase</code> 都沒提到。\n（題外話，各位覺得教入門者 <code>reset</code> 跟 <code>rebase</code> 哪個危險呢？ :p）</p>\n\n<p>不過倒是讓我想起了一個我從沒用過的 Git 指令：<code>rerere</code>，不知道各位讀者有沒有人用過這個指令？歡迎到碼天狗的 [Gitter 聊天室] 分享一下經驗，也歡迎各位來交流一下少見但是好用的 Git 指令。 :D</p>\n\n<p>P.S. 懶得看英文的話，Ruby China 上也有一篇分享： <a href=\"https://ruby-china.org/topics/15809\">你可能不知道的 git rerere</a>。</p>",
+          "description_markdown": "前兩天在推特上看到一篇 [每個開發者都該知道的 Git 基礎指令](https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5) 。果然很基礎，連 `diff` 跟 `rebase` 都沒提到。\r\n（題外話，各位覺得教入門者 `reset` 跟 `rebase` 哪個危險呢？ :p）\r\n\r\n不過倒是讓我想起了一個我從沒用過的 Git 指令：`rerere`，不知道各位讀者有沒有人用過這個指令？歡迎到碼天狗的 [Gitter 聊天室] 分享一下經驗，也歡迎各位來交流一下少見但是好用的 Git 指令。 :D\r\n\r\nP.S. 懶得看英文的話，Ruby China 上也有一篇分享： [你可能不知道的 git rerere](https://ruby-china.org/topics/15809)。",
+          "embedded_links": [
+            {
+              "identifier": "NFqQKfX",
+              "title": "每個開發者都該知道的 Git 基礎指令",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5"
+            },
+            {
+              "identifier": "StjS8Ex",
+              "title": "你可能不知道的 git rerere",
+              "url_domain": "ruby-china.org",
+              "url": "https://ruby-china.org/topics/15809"
+            }
+          ]
+        },
+        {
+          "identifier": "pJKjFr8",
+          "type": "Link",
+          "title": "说说 Code Review",
+          "url_domain": "qq.com",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzA4ODgwNjk1MQ==&mid=2653788392&idx=1&sn=e84f8546dff32030cef89fc29680db80",
+          "description": "<blockquote><p>自己绕过一个坑不难，难的是看到别人那么走，远远地你就能告诉他/她那里有个坑</p></blockquote>\n\n<p>Code Review 的文章不少，這篇也歸納了幾個面向：排版、可讀性、極端情況、錯誤處理、測試、架構。但我覺得文章裡提到的心態更重要：</p>\n\n<blockquote><p>代码审核是工作，不要抱有情绪化</p>\n\n<p>在不违背公司 style guideline 的情况下，没必要一定让对方和你有一样的习惯。</p>\n\n<p>相互 review 的过程中还能从彼此那里学到很多编程的小技巧和好习惯</p></blockquote>\n\n<p>Code Review 是互相學習，不是找碴、挑毛病。</p>",
+          "description_markdown": "> 自己绕过一个坑不难，难的是看到别人那么走，远远地你就能告诉他/她那里有个坑\r\n\r\nCode Review 的文章不少，這篇也歸納了幾個面向：排版、可讀性、極端情況、錯誤處理、測試、架構。但我覺得文章裡提到的心態更重要：\r\n\r\n> 代码审核是工作，不要抱有情绪化\r\n\r\n> 在不违背公司 style guideline 的情况下，没必要一定让对方和你有一样的习惯。\r\n\r\n> 相互 review 的过程中还能从彼此那里学到很多编程的小技巧和好习惯\r\n\r\nCode Review 是互相學習，不是找碴、挑毛病。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OU2xtyL",
+          "type": "Link",
+          "title": "IOCCC vs Clean Code",
+          "url_domain": "balabit.com",
+          "url": "https://athos.blogs.balabit.com/2011/11/ioccc-vs-clean-code/",
+          "description": "<p>這篇舊文沒什麼新技術。只是作者嘗試整理一份 <a href=\"http://ioccc.org/\">IOCCC</a> (The International Obfuscated C Code Contest) 上的程式碼，讓它更可讀、好懂的過程。包括：調整排版、提取函式、取有意義的名稱、……，可以在 <a href=\"https://github.com/attilammagyar/IOCCC-vs.-CleanCode\">GitHub</a> 上找到完整過程。</p>\n\n<p>算是個很有趣的實驗過程，可以從簡單的例子中學習如何整理出<em>好讀的程式碼（clean code）</em>。學新技術學到頭昏演化的話，可以來看一下轉換心情。 XD</p>",
+          "description_markdown": "這篇舊文沒什麼新技術。只是作者嘗試整理一份 [IOCCC](http://ioccc.org/) (The International Obfuscated C Code Contest) 上的程式碼，讓它更可讀、好懂的過程。包括：調整排版、提取函式、取有意義的名稱、……，可以在 [GitHub](https://github.com/attilammagyar/IOCCC-vs.-CleanCode) 上找到完整過程。\r\n\r\n算是個很有趣的實驗過程，可以從簡單的例子中學習如何整理出*好讀的程式碼（clean code）*。學新技術學到頭昏演化的話，可以來看一下轉換心情。 XD",
+          "embedded_links": [
+            {
+              "identifier": "WA2gKA7",
+              "title": "IOCCC",
+              "url_domain": "ioccc.org",
+              "url": "http://ioccc.org/"
+            },
+            {
+              "identifier": "7TBmmca",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/attilammagyar/IOCCC-vs.-CleanCode"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "7GPDW1C",
+          "type": "Link",
+          "title": "EscapeX 強力徵求 Java 後端 / iOS / App QA 工程師",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00",
+          "description": "<p>EscapeX 和超過 70 位全球頂尖的好萊塢、寶萊塢藝人合作（拉丁歌王馬克安東尼、復仇者聯盟「鷹眼」傑瑞米瑞納等），建立專屬藝人與粉絲間的私密互動俱樂部，目前在世界各地有八個辦公室。我們正在積極擴充團隊，尋找對 Java 後端 / iOS / App QA 充滿熱情的夥伴，快把履歷<a href=\"mailto:nelson.tai@escapex.com\">寄到這裏</a>吧！</p>",
+          "description_markdown": "EscapeX 和超過 70 位全球頂尖的好萊塢、寶萊塢藝人合作（拉丁歌王馬克安東尼、復仇者聯盟「鷹眼」傑瑞米瑞納等），建立專屬藝人與粉絲間的私密互動俱樂部，目前在世界各地有八個辦公室。我們正在積極擴充團隊，尋找對 Java 後端 / iOS / App QA 充滿熱情的夥伴，快把履歷[寄到這裏](mailto:nelson.tai@escapex.com)吧！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "number": 119,
+  "title": "Issue 119 小明面試時自述他寫程式有高可預測性跟一致性，到職後果然沒有人看得懂，小明很誠實",
+  "summary": "本期內容涵蓋 Package Management, Prolog, Colaboratory, Machine Learning, Regex",
+  "url": "https://weekly.codetengu.com/issues/119",
+  "publication_status": "published",
+  "published_at": "2018-03-19T05:27:52+00:00",
+  "updated_at": "2018-03-25T11:24:53+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "60TR61v",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "djodEZv",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "L8UE9DF",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "kuTtRLZ",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "E4ZkaME",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "pLzxc9A",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "bZaJvfR",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "kAAgveh",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Gh8cNJy",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "t2J4ZV4",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "oXwCrB8",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "2nPFyWU",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "FsbTCKR",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "Z1msND3",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "adx7yEA",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Ez7kuUt",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "7jVKlC9",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "wRIvHDP",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "TRVqhC9",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "Gt9BxFH",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "5JPy0DA",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "yeZ706s",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "JOKK2iA",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "nIVWcvi",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Z6saEhn",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "pELanC7",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "G82XjpO",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "vT0fIAu",
+          "type": "Link",
+          "title": "So you want to write a package manager",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527",
+          "description": "<p>最近<a href=\"https://twitter.com/uranusjr/status/972857589619769346\">講了一些關於套件管理的事情</a>，這次就來個專題，整理一下相關的文章。</p>\n\n<p>首先是 Go 的套件管理工具 <a href=\"https://golang.github.io/dep/\">dep</a> 的主要貢獻者 <a href=\"https://github.com/sdboyer\">Sam Boyer</a> 寫的文章。從時間推算起來，這篇大致上是他為了 dep 做的一些研究整理，加上一些自己的想法。這篇文章十分完整，把套件管理從各種維度都切割、分別探討了一次，包含了你對一個套件管理所有應該知道的主題。如果你想進入套件管理這個領域，或者想知道你用套件管理工具時，系統到底做了什麼事情<del>為什麼做這麼爛</del>，這篇算是必讀。套件管理真的非常、非常難，寫不好才是正常的，不要怪開發者<del>不然你來加入啊，賭你做不出來辣</del>。</p>",
+          "description_markdown": "最近[講了一些關於套件管理的事情](https://twitter.com/uranusjr/status/972857589619769346)，這次就來個專題，整理一下相關的文章。\r\n\r\n首先是 Go 的套件管理工具 [dep](https://golang.github.io/dep/) 的主要貢獻者 [Sam Boyer](https://github.com/sdboyer) 寫的文章。從時間推算起來，這篇大致上是他為了 dep 做的一些研究整理，加上一些自己的想法。這篇文章十分完整，把套件管理從各種維度都切割、分別探討了一次，包含了你對一個套件管理所有應該知道的主題。如果你想進入套件管理這個領域，或者想知道你用套件管理工具時，系統到底做了什麼事情~~為什麼做這麼爛~~，這篇算是必讀。套件管理真的非常、非常難，寫不好才是正常的，不要怪開發者~~不然你來加入啊，賭你做不出來辣~~。",
+          "embedded_links": [
+            {
+              "identifier": "R4pL7MB",
+              "title": "講了一些關於套件管理的事情",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr/status/972857589619769346"
+            },
+            {
+              "identifier": "cI70Ew4",
+              "title": "dep",
+              "url_domain": "github.io",
+              "url": "https://golang.github.io/dep/"
+            },
+            {
+              "identifier": "8IkkioY",
+              "title": "Sam Boyer",
+              "url_domain": "github.com",
+              "url": "https://github.com/sdboyer"
+            }
+          ]
+        },
+        {
+          "identifier": "5snQOEO",
+          "type": "Link",
+          "title": "setup.py vs requirements.txt",
+          "url_domain": "caremad.io",
+          "url": "https://caremad.io/posts/2013/07/setup-vs-requirement/",
+          "description": "<p>前一篇文章提到（欸對我假設你有讀，否則話題持續不了），語言套件管理（language package manager，LPM）通常也會包含專案/應用依賴管理（project/application dependency manager，PDM）。這個想法十分合理，但也就代表管理工具需要同時考慮兩種使用狀況。在大多數情況下，這倒不是問題（也是為什麼它們會被做在一起），但有時候就會出現兩個看似衝突的規則。</p>\n\n<p>以 Python 為例，這個衝突就來自 setup.py 與 requirements.txt。這兩個檔案格式都可以被 Python 的套件管理器 Pip 接受，用來安裝依賴。這就讓大家覺得它們的功能重複，也有很多人開發了工具，專門用來同步它們。但是它們的用途並並不一樣。根據 Python 套件管理生態（Pip、Setuptools、PyPI 等等）的主要開發者 Donald Stufft，setup.py 與 requirements.txt 分別應該被用來管理 abstract 與 concrete dependencies；前者是函式庫應該有的依賴策略（因為要與其他函式庫和諧共存），後者則是應用程式的策略（為了盡可能維持應用永遠能夠正確運作）。對應到 Boyer 的術語，把 Pip 當成 LPM 使用時，應該使用 setup.py 安裝 abstract 依賴；當成 PDM 使用時，則用 requirements.txt 安裝 concrete 依賴。</p>",
+          "description_markdown": "前一篇文章提到（欸對我假設你有讀，否則話題持續不了），語言套件管理（language package manager，LPM）通常也會包含專案/應用依賴管理（project/application dependency manager，PDM）。這個想法十分合理，但也就代表管理工具需要同時考慮兩種使用狀況。在大多數情況下，這倒不是問題（也是為什麼它們會被做在一起），但有時候就會出現兩個看似衝突的規則。\r\n\r\n以 Python 為例，這個衝突就來自 setup.py 與 requirements.txt。這兩個檔案格式都可以被 Python 的套件管理器 Pip 接受，用來安裝依賴。這就讓大家覺得它們的功能重複，也有很多人開發了工具，專門用來同步它們。但是它們的用途並並不一樣。根據 Python 套件管理生態（Pip、Setuptools、PyPI 等等）的主要開發者 Donald Stufft，setup.py 與 requirements.txt 分別應該被用來管理 abstract 與 concrete dependencies；前者是函式庫應該有的依賴策略（因為要與其他函式庫和諧共存），後者則是應用程式的策略（為了盡可能維持應用永遠能夠正確運作）。對應到 Boyer 的術語，把 Pip 當成 LPM 使用時，應該使用 setup.py 安裝 abstract 依賴；當成 PDM 使用時，則用 requirements.txt 安裝 concrete 依賴。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "WQjrGW5",
+          "type": "Link",
+          "title": "Clarifying the Roles of the .gemspec and Gemfile",
+          "url_domain": "yehudakatz.com",
+          "url": "http://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/",
+          "description": "<p>跟上一篇差不多，不過是 Ruby + Bundler 版，作者是 Yehuda Katz，可能是這年頭最知名的套件管理專家，Bundler 和 Cargo 後面的設計都有他的身影。文章的概念和 Stufft 相同（其實這篇成文比較早，說到依賴管理 Python 還得叫 Ruby 一聲前輩），不過 Bundler 在 concrete 依賴管理上多了一個 locking 概念（又稱 version-pinning）。在這裡，Gemfile.lock 對應 requirements.txt，而 Gemfile 用來「指導 lock file 應該如何被產生」，與專職控制 abstract 依賴的 .gemspec 之間沒有明確界線——Bundler 也確實提供了防止重複的策略，亦即在 Gemfile 直接參照 .gemspec。這個思路在 Cargo 更加明顯；.gemspec 在 Rust 完全沒有等價存在，而只有控制 abstract 依賴的 Cargo.toml，以及指定 concrete 依賴的 Cargo.lock。</p>\n\n<p>Bundler 與 Cargo 的策略在概念上很好，但是實行上還是有點問題。套件管理有超過一半是在處理人的問題。如果你用 Gemfile 提供依賴，就要記得不能一起提供 Gemfile.lock，否則你實質上會是在 library 中使用 concrete 依賴，與其他函式庫的相容性變差。Cargo 採用的做法略有不同；它只會參考最上層（使用者程式）的 lock file，更深的所有依賴都只考慮 Cargo.toml，所以即使函式庫開發者提供了 lock file 也沒關係（因為它根本不考慮）。但這也代表 Cargo 的規則檔案在不同情境下，會有不同的效果——仍然很容易造成使用者困惑。</p>",
+          "description_markdown": "跟上一篇差不多，不過是 Ruby + Bundler 版，作者是 Yehuda Katz，可能是這年頭最知名的套件管理專家，Bundler 和 Cargo 後面的設計都有他的身影。文章的概念和 Stufft 相同（其實這篇成文比較早，說到依賴管理 Python 還得叫 Ruby 一聲前輩），不過 Bundler 在 concrete 依賴管理上多了一個 locking 概念（又稱 version-pinning）。在這裡，Gemfile.lock 對應 requirements.txt，而 Gemfile 用來「指導 lock file 應該如何被產生」，與專職控制 abstract 依賴的 .gemspec 之間沒有明確界線——Bundler 也確實提供了防止重複的策略，亦即在 Gemfile 直接參照 .gemspec。這個思路在 Cargo 更加明顯；.gemspec 在 Rust 完全沒有等價存在，而只有控制 abstract 依賴的 Cargo.toml，以及指定 concrete 依賴的 Cargo.lock。\r\n\r\nBundler 與 Cargo 的策略在概念上很好，但是實行上還是有點問題。套件管理有超過一半是在處理人的問題。如果你用 Gemfile 提供依賴，就要記得不能一起提供 Gemfile.lock，否則你實質上會是在 library 中使用 concrete 依賴，與其他函式庫的相容性變差。Cargo 採用的做法略有不同；它只會參考最上層（使用者程式）的 lock file，更深的所有依賴都只考慮 Cargo.toml，所以即使函式庫開發者提供了 lock file 也沒關係（因為它根本不考慮）。但這也代表 Cargo 的規則檔案在不同情境下，會有不同的效果——仍然很容易造成使用者困惑。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "gELIEOM",
+          "type": "Link",
+          "title": "PEP 518 – Specifying Minimum Build System Requirements for Python Projects",
+          "url_domain": "python.org",
+          "url": "https://www.python.org/dev/peps/pep-0518/",
+          "description": "<p>Python 的套件管理在最近也有很多類似的發展。我<a href=\"https://weekly.codetengu.com/issues/91?m=web#KfKyeU1\">之前介紹過</a>用來取代 requirements.txt 的 Pipfile 格式（以及相關的專案管理工具 Pipenv）。在 LPM 方面，則是由 <a href=\"https://www.python.org/dev/peps/pep-0518/\">PEP 518</a> 制定了取代 setup.py 的 pyproject.toml。這個格式會從 Pip 10 開始被支援，但是如果你現在就想採用，可以用 <a href=\"http://flit.readthedocs.io/en/latest/pyproject_toml.html\">Flit</a> 這個工具，自動根據 pyproject.toml 產生等價的 setup.py（有點類似 JavaScript 的 Babel，只是不是 transpile 程式，而是套件 metadata）。</p>\n\n<p>所以一個 Python 套件在未來會有<strong>三個</strong>依賴相關設定檔：pyproject.toml、Pipfile、Pipfile.lock。為什麼？前面提到的「人的問題」歸根究底起來，我覺得還是出在 abstract 與 concrete 依賴設定之間沒有很明顯的分界，使得 concrete 設定在某些狀況下要直接參照 abstract 設定。在 Python 的狀況中， LPM 只需要考慮 pyproject.toml，就永遠只會讀到 abstract 依賴；PDM 只需要考慮 Pipfile.lock，讀到的就是 concrete。同步問題則可以借鑑 Bundler 的做法，在 Pipfile 表達「加入 pyproject.toml 裡的依賴」。這樣使用者更新 lock file 時，仍然是從 Pipfilefile 的修改開始；這通常是直接參照 pyproject.toml，所以可以同步，但是如果需要脫鉤，也可以很簡單辦到。而如果你用 Pipenv，這<a href=\"https://docs.pipenv.org/advanced/#pipfile-vs-setup-py\">只要一行就能搞定</a>：</p>\n\n<pre><code>$ pipenv install -e .\n</code></pre>\n\n<p><a href=\"http://glyph.twistedmatrix.com/2016/08/python-packaging.html\">Python packaging is good now.</a> 誰反對？</p>",
+          "description_markdown": "Python 的套件管理在最近也有很多類似的發展。我[之前介紹過](https://weekly.codetengu.com/issues/91?m=web#KfKyeU1)用來取代 requirements.txt 的 Pipfile 格式（以及相關的專案管理工具 Pipenv）。在 LPM 方面，則是由 [PEP 518](https://www.python.org/dev/peps/pep-0518/) 制定了取代 setup.py 的 pyproject.toml。這個格式會從 Pip 10 開始被支援，但是如果你現在就想採用，可以用 [Flit](http://flit.readthedocs.io/en/latest/pyproject_toml.html) 這個工具，自動根據 pyproject.toml 產生等價的 setup.py（有點類似 JavaScript 的 Babel，只是不是 transpile 程式，而是套件 metadata）。\r\n\r\n所以一個 Python 套件在未來會有**三個**依賴相關設定檔：pyproject.toml、Pipfile、Pipfile.lock。為什麼？前面提到的「人的問題」歸根究底起來，我覺得還是出在 abstract 與 concrete 依賴設定之間沒有很明顯的分界，使得 concrete 設定在某些狀況下要直接參照 abstract 設定。在 Python 的狀況中， LPM 只需要考慮 pyproject.toml，就永遠只會讀到 abstract 依賴；PDM 只需要考慮 Pipfile.lock，讀到的就是 concrete。同步問題則可以借鑑 Bundler 的做法，在 Pipfile 表達「加入 pyproject.toml 裡的依賴」。這樣使用者更新 lock file 時，仍然是從 Pipfilefile 的修改開始；這通常是直接參照 pyproject.toml，所以可以同步，但是如果需要脫鉤，也可以很簡單辦到。而如果你用 Pipenv，這[只要一行就能搞定](https://docs.pipenv.org/advanced/#pipfile-vs-setup-py)：\r\n\r\n    $ pipenv install -e .\r\n\r\n[Python packaging is good now.](http://glyph.twistedmatrix.com/2016/08/python-packaging.html) 誰反對？",
+          "embedded_links": [
+            {
+              "identifier": "qHw6OY8",
+              "title": "之前介紹過",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/91?m=web#KfKyeU1"
+            },
+            {
+              "identifier": "ChuPnZJ",
+              "title": "PEP 518",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-0518/"
+            },
+            {
+              "identifier": "Wr79lkV",
+              "title": "Flit",
+              "url_domain": "readthedocs.io",
+              "url": "http://flit.readthedocs.io/en/latest/pyproject_toml.html"
+            },
+            {
+              "identifier": "OXQSh3G",
+              "title": "只要一行就能搞定",
+              "url_domain": "pipenv.org",
+              "url": "https://docs.pipenv.org/advanced/#pipfile-vs-setup-py"
+            },
+            {
+              "identifier": "5RpD8Dj",
+              "title": "Python packaging is good now.",
+              "url_domain": "twistedmatrix.com",
+              "url": "http://glyph.twistedmatrix.com/2016/08/python-packaging.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "k5ycNMA",
+          "type": "Link",
+          "title": "StackOverflow Developer Survey 2018",
+          "url_domain": "stackoverflow.com",
+          "url": "https://insights.stackoverflow.com/survey/2018/",
+          "description": "<p>大家的好碰友 StackOverflow 一年一度的開發者調查結果出爐了。每年他們都會對開發者們做對技術和工作方面想法的調查，今年有超過十萬人參加。調查結果顯示最熱門也是最高薪的就是 DevOps 和 Machine Learning， 所有相關的技術也都非常熱門。</p>",
+          "description_markdown": "大家的好碰友 StackOverflow 一年一度的開發者調查結果出爐了。每年他們都會對開發者們做對技術和工作方面想法的調查，今年有超過十萬人參加。調查結果顯示最熱門也是最高薪的就是 DevOps 和 Machine Learning， 所有相關的技術也都非常熱門。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9ALkVxi",
+          "type": "Link",
+          "title": "Power of Prolog",
+          "url_domain": "metalevel.at",
+          "url": "https://www.metalevel.at/prolog",
+          "description": "<p>最近看到了一題<a href=\"https://tw.appledaily.com/new/realtime/20180307/1310113/\">邏輯題</a> ，讓我決定好好研究一下一直都很想學的 <a href=\"https://zh.wikipedia.org/wiki/Prolog\">Prolog</a>。 Prolog 是一個邏輯編程語言，和一般我們熟悉的程序式語言完全不同，非常有趣。 Power of Prolog 非常詳盡的介紹了現代 Prolog。有興趣的人可以用<a href=\"https://swish.swi-prolog.org/\">線上編輯器</a> 寫寫看<a href=\"https://sites.google.com/site/prologsite/prolog-problems\">練習題</a>。</p>",
+          "description_markdown": "最近看到了一題[邏輯題](https://tw.appledaily.com/new/realtime/20180307/1310113/) ，讓我決定好好研究一下一直都很想學的 [Prolog](https://zh.wikipedia.org/wiki/Prolog)。 Prolog 是一個邏輯編程語言，和一般我們熟悉的程序式語言完全不同，非常有趣。 Power of Prolog 非常詳盡的介紹了現代 Prolog。有興趣的人可以用[線上編輯器](https://swish.swi-prolog.org/) 寫寫看[練習題](https://sites.google.com/site/prologsite/prolog-problems)。",
+          "embedded_links": [
+            {
+              "identifier": "wyxC4kq",
+              "title": "邏輯題",
+              "url_domain": "appledaily.com",
+              "url": "https://tw.appledaily.com/new/realtime/20180307/1310113/"
+            },
+            {
+              "identifier": "5vXRWzh",
+              "title": "Prolog",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/Prolog"
+            },
+            {
+              "identifier": "wFpk4i8",
+              "title": "線上編輯器",
+              "url_domain": "swi-prolog.org",
+              "url": "https://swish.swi-prolog.org/"
+            },
+            {
+              "identifier": "nzDwKzk",
+              "title": "練習題",
+              "url_domain": "google.com",
+              "url": "https://sites.google.com/site/prologsite/prolog-problems"
+            }
+          ]
+        },
+        {
+          "identifier": "7idC73Y",
+          "type": "Link",
+          "title": "Google Colab",
+          "url_domain": "google.com",
+          "url": "https://colab.research.google.com/",
+          "description": "<p>上週 @drumrick 有提到的 Colab, Colaboratory,  是 Google 新推出的免費線上 AI 開發環境。免費提供長達 12 小時的免費 Tesla K80，而且沒有次數限制。可以從 Google Drive 匯入資料，從 GitHub 匯入程式碼，還可以使用 BigQuery，整合得相當好。</p>\n\n<p>想玩 Deep Learning 但卻買不到顯卡的人可以照著下面這份<a href=\"https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d\">教學</a>免費玩看看。</p>",
+          "description_markdown": "上週 @drumrick 有提到的 Colab, Colaboratory,  是 Google 新推出的免費線上 AI 開發環境。免費提供長達 12 小時的免費 Tesla K80，而且沒有次數限制。可以從 Google Drive 匯入資料，從 GitHub 匯入程式碼，還可以使用 BigQuery，整合得相當好。\r\n\r\n想玩 Deep Learning 但卻買不到顯卡的人可以照著下面這份[教學](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)免費玩看看。",
+          "embedded_links": [
+            {
+              "identifier": "LeoM9gh",
+              "title": "教學",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d"
+            }
+          ]
+        },
+        {
+          "identifier": "tUKCXwM",
+          "type": "Link",
+          "title": "RexEgg",
+          "url_domain": "rexegg.com",
+          "url": "http://www.rexegg.com/",
+          "description": "<p>正規表達式 (Regex) 總是讓你摸不著頭緒嗎？這個網站解釋了許多進階技巧，還有不同語言中 Regex 的差異。工作無聊之餘可以研究一下 Regex 的博大精深。</p>",
+          "description_markdown": "正規表達式 (Regex) 總是讓你摸不著頭緒嗎？這個網站解釋了許多進階技巧，還有不同語言中 Regex 的差異。工作無聊之餘可以研究一下 Regex 的博大精深。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "L1y7g5f",
+          "type": "Link",
+          "title": "TensorSlow",
+          "url_domain": "github.com",
+          "url": "https://github.com/danielsabinasz/TensorSlow",
+          "description": "<p>TensorFlow 搭配 GPU 跑起來就像魔法一樣。魔法的表面是和藹可親的 Python API，背後卻是複雜的 CUDA 與 C++。有人寫了一個純 Python 的 TensorFlow，讓大家比較容易理解背後的運作原理。不過人如其名，跑的超慢。</p>",
+          "description_markdown": "TensorFlow 搭配 GPU 跑起來就像魔法一樣。魔法的表面是和藹可親的 Python API，背後卻是複雜的 CUDA 與 C++。有人寫了一個純 Python 的 TensorFlow，讓大家比較容易理解背後的運作原理。不過人如其名，跑的超慢。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "oo27GJo",
+          "type": "Link",
+          "title": "33 場議程 + PyCall 工作坊 + 雙語言之父，您不可錯過的 Ruby + Elixir 語言年度盛會",
+          "url_domain": "rubyconf.tw",
+          "url": "https://2018.rubyconf.tw/",
+          "description": "<p>自 2010 開始的 RubyConf Taiwan 是台灣最大且唯一的 Ruby 語言年會，今年和 Elixir 社群合併舉辦並更名為 RubyElixirConf Taiwan 2018，本屆大會的亮點如下：</p>\n\n<ol>\n<li>兩個語言之父（Matz / Jose）同時作為 Keynote Speaker 登場</li>\n<li>大會史上第一次的三軌共 33 場議程，講者中有多達六位的 CRuby Committer</li>\n<li>加入了 Ruby Data Workshop，介紹如何使用 PyCall 這個 Rubygem 在 Ruby 程式中呼叫 Python 程式做機器學習（Machine Learning）</li>\n</ol>\n\n\n<p>大會已開始售票，議程與講者陣容請參考：<a href=\"https://2018.rubyconf.tw\">https://2018.rubyconf.tw</a></p>",
+          "description_markdown": "自 2010 開始的 RubyConf Taiwan 是台灣最大且唯一的 Ruby 語言年會，今年和 Elixir 社群合併舉辦並更名為 RubyElixirConf Taiwan 2018，本屆大會的亮點如下：\r\n\r\n1. 兩個語言之父（Matz / Jose）同時作為 Keynote Speaker 登場\r\n2. 大會史上第一次的三軌共 33 場議程，講者中有多達六位的 CRuby Committer\r\n3. 加入了 Ruby Data Workshop，介紹如何使用 PyCall 這個 Rubygem 在 Ruby 程式中呼叫 Python 程式做機器學習（Machine Learning）\r\n\r\n大會已開始售票，議程與講者陣容請參考：[https://2018.rubyconf.tw](https://2018.rubyconf.tw)",
+          "embedded_links": [
+            {
+              "identifier": "9MrnZNA",
+              "title": "https://2018.rubyconf.tw",
+              "url_domain": "rubyconf.tw",
+              "url": "https://2018.rubyconf.tw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "UJkoWjI",
+          "type": "Link",
+          "title": "Senior Frontend Developer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/2",
+          "description": "<p>薪資範圍：年薪新台幣 100 ~ 200 萬元。</p>\n\n<p>能力需求：</p>\n\n<ol>\n<li>精通 JavaScript、CSS 與 HTML</li>\n<li>相容主流瀏覽器的前端整合開發經驗</li>\n<li>前端 framework / library 的使用經驗</li>\n<li>熟悉 React</li>\n<li>模組化開發經驗</li>\n</ol>",
+          "description_markdown": "薪資範圍：年薪新台幣 100 ~ 200 萬元。\r\n\r\n能力需求：\r\n\r\n1. 精通 JavaScript、CSS 與 HTML \r\n2. 相容主流瀏覽器的前端整合開發經驗 \r\n3. 前端 framework / library 的使用經驗 \r\n4. 熟悉 React \r\n5. 模組化開發經驗",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

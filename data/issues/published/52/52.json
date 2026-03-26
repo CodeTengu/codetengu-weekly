@@ -1,0 +1,412 @@
+{
+  "number": 52,
+  "title": "Issue 52 一週年！當一個軟體工程師宣稱他已經完成了 90% 的工作，意思是他還需要相同的時間來完成剩下的 10% 的工作",
+  "summary": "本期內容涵蓋 Haskell, Scala, ML, Scheme, AWS Lambda, Xcode, Go, 搜尋, 機器學習, 自然語言處理, 架構",
+  "url": "https://weekly.codetengu.com/issues/52",
+  "publication_status": "published",
+  "published_at": "2016-07-18T03:00:00+01:00",
+  "updated_at": "2016-07-18T03:04:12+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"https://book.douban.com/subject/4178272/\">奇點天空</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 為了工作開始看韓劇</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[奇點天空](https://book.douban.com/subject/4178272/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 為了工作開始看韓劇\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "4zYuZsu",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "RVROqU1",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "8ucX5Xn",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "fXCgpzn",
+              "title": "奇點天空",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/subject/4178272/"
+            },
+            {
+              "identifier": "cbBoexb",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "HV2KunI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "DkgTCAT",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "rQT0hps",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "l4S5CQc",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "HEdtRKk",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "7BWmAqU",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "yw4jwQb",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "SfBA4ys",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "rtWbXHi",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "qDwnxYr",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "QWnSjmB",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "MRHcr1j",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "yhR2k0Z",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "5MiTQpl",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "AZBSBCa",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "t6Meaqa",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "oM0jaXN",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "CpHPCCp",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "hRLxRfX",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "X4wceRx",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "3M4TKmV",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "sMYzn51",
+          "type": "Link",
+          "title": "Advanced programming languages",
+          "url_domain": "might.net",
+          "url": "http://matt.might.net/articles/best-programming-languages/",
+          "description": "<p>作者是猶他大學 CS 的教授，因為有很多學生會問他 <strong>接下來</strong> 應該要學哪個語言，所以有了這篇文章。</p>\n\n<p>推薦了四個他覺得進階的程式語言 (Haskell, Scala, ML, Scheme)，不只是提高視野、陶冶心靈，也在各自特定的條件下是很強大的工具。</p>\n\n<p>文章內介紹了這四個語言適合的領域、作者喜歡的語言特性、學習的資源。</p>\n\n<p>我想有不少 CodeTengu 的讀者都是有經驗的開發者，已經掌握一門以上主流的程式語言，這篇文章可以做為下一階段學習程式語言的參考，新學程式語言最棒的體驗就是可以用不同的思維來理解同一件事情，在學第二個以上的程式語言時也許不一定要以實用為主要考量，那些啟迪人心但比較不主流的語言也許也是適合你的選擇。</p>\n\n<p>在這部分我的經驗也不夠多，大家一起努力！</p>",
+          "description_markdown": "作者是猶他大學 CS 的教授，因為有很多學生會問他 **接下來** 應該要學哪個語言，所以有了這篇文章。\r\n\r\n推薦了四個他覺得進階的程式語言 (Haskell, Scala, ML, Scheme)，不只是提高視野、陶冶心靈，也在各自特定的條件下是很強大的工具。\r\n\r\n文章內介紹了這四個語言適合的領域、作者喜歡的語言特性、學習的資源。\r\n\r\n我想有不少 CodeTengu 的讀者都是有經驗的開發者，已經掌握一門以上主流的程式語言，這篇文章可以做為下一階段學習程式語言的參考，新學程式語言最棒的體驗就是可以用不同的思維來理解同一件事情，在學第二個以上的程式語言時也許不一定要以實用為主要考量，那些啟迪人心但比較不主流的語言也許也是適合你的選擇。  \r\n\r\n在這部分我的經驗也不夠多，大家一起努力！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "B2gQm9P",
+          "type": "Link",
+          "title": "Chinese Search Sharing - 中文搜尋經驗分享",
+          "url_domain": "liang2.tw",
+          "url": "https://blog.liang2.tw/2015Talk-Chinese-Search/",
+          "description": "<p>Machine Learning、Natural Language Processing：中級</p>\n\n<p>本篇簡報是 <a href=\"https://twitter.com/ccwang002\">Liang Bo Wang</a> 在 <a href=\"https://www.pinkoi.com/\">Pinkoi</a> 實習的經驗分享，負責的工作是 Pinkoi 站上的搜尋功能，從工作內容的成果來看，感覺比起許多公司的正職工程師對於搜尋功能的研究還深入許多了，Pinkoi 居然連實習生的質量都這麼好！</p>\n\n<p>說到為網站加上搜尋功能，大部份人都是想到使用 <a href=\"https://www.elastic.co/\">Elastic Search</a>，本篇簡報也是從 Elastic Search 開始介紹，然後從 ES 的原理以及不足繼續深入討論，進而引入 <a href=\"https://github.com/fxsjy/jieba\">Jieba</a> 中文斷詞，以及最後為了做到 Word to Vector 語意搜尋而使用基於 LSI 算法的 <a href=\"https://radimrehurek.com/gensim/\">gensim</a>（之前我分享的文章有不斷介紹到 gensim 的核心 LSI 算法，有興趣可以去看前幾期的 CodeTengu）。整個發展的脈絡很清楚地在這篇簡報深入淺出的分享給大家，如果大家造著去實作看看，也可以在自己的網站做到語意搜尋功能喔！</p>",
+          "description_markdown": "Machine Learning、Natural Language Processing：中級\r\n\r\n本篇簡報是 [Liang Bo Wang](https://twitter.com/ccwang002) 在 [Pinkoi](https://www.pinkoi.com/) 實習的經驗分享，負責的工作是 Pinkoi 站上的搜尋功能，從工作內容的成果來看，感覺比起許多公司的正職工程師對於搜尋功能的研究還深入許多了，Pinkoi 居然連實習生的質量都這麼好！\r\n\r\n說到為網站加上搜尋功能，大部份人都是想到使用 [Elastic Search](https://www.elastic.co/)，本篇簡報也是從 Elastic Search 開始介紹，然後從 ES 的原理以及不足繼續深入討論，進而引入 [Jieba](https://github.com/fxsjy/jieba) 中文斷詞，以及最後為了做到 Word to Vector 語意搜尋而使用基於 LSI 算法的 [gensim](https://radimrehurek.com/gensim/)（之前我分享的文章有不斷介紹到 gensim 的核心 LSI 算法，有興趣可以去看前幾期的 CodeTengu）。整個發展的脈絡很清楚地在這篇簡報深入淺出的分享給大家，如果大家造著去實作看看，也可以在自己的網站做到語意搜尋功能喔！\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "FnNI76T",
+              "title": "Liang Bo Wang",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/ccwang002"
+            },
+            {
+              "identifier": "XA8tjGk",
+              "title": "Pinkoi",
+              "url_domain": "pinkoi.com",
+              "url": "https://www.pinkoi.com/"
+            },
+            {
+              "identifier": "2GXxfz9",
+              "title": "Elastic Search",
+              "url_domain": "elastic.co",
+              "url": "https://www.elastic.co/"
+            },
+            {
+              "identifier": "a1vKR7T",
+              "title": "Jieba",
+              "url_domain": "github.com",
+              "url": "https://github.com/fxsjy/jieba"
+            },
+            {
+              "identifier": "6kLgW6U",
+              "title": "gensim",
+              "url_domain": "radimrehurek.com",
+              "url": "https://radimrehurek.com/gensim/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "THFSDuL",
+          "type": "Link",
+          "title": "Thread Sanitizer and Static Analysis",
+          "url_domain": "apple.com",
+          "url": "https://developer.apple.com/videos/play/wwdc2016/412/",
+          "description": "<p>WWDC 2016 都過去這麼多天了，各位工程師們應該把影片都看完了吧！還沒？沒關係，別的 session 可以不看，這一個一定要看，看完之後就會知道 Xcode 提供了多麼出色的工具幫我們抓蟲。</p>\n\n<p>多執行緒永遠是工程師們的惡夢，現在 Xcode 提供了出色的 Thread Sanitizer 幫忙抓出多執行緒讀寫資料時可能會產生的錯誤。另外也強化了原有的 Static Analyzer，可以幫你找出顯示介面上忘記提供多國語言的字串、檢查 Objective-C 程式碼的 nullability 一致性、以及古老的 MRR 程式碼裡頭的 memory leak（當然如果可以的話，換成 ARC 才是正解）。</p>",
+          "description_markdown": "WWDC 2016 都過去這麼多天了，各位工程師們應該把影片都看完了吧！還沒？沒關係，別的 session 可以不看，這一個一定要看，看完之後就會知道 Xcode 提供了多麼出色的工具幫我們抓蟲。\r\n\r\n多執行緒永遠是工程師們的惡夢，現在 Xcode 提供了出色的 Thread Sanitizer 幫忙抓出多執行緒讀寫資料時可能會產生的錯誤。另外也強化了原有的 Static Analyzer，可以幫你找出顯示介面上忘記提供多國語言的字串、檢查 Objective-C 程式碼的 nullability 一致性、以及古老的 MRR 程式碼裡頭的 memory leak（當然如果可以的話，換成 ARC 才是正解）。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "h4Y3GNL",
+          "type": "Link",
+          "title": "架构腐化之谜",
+          "url_domain": "thoughtworkers.org",
+          "url": "http://insights.thoughtworkers.org/architecture-corruption/",
+          "description": "<p>另一篇收在我瀏覽器書籤裡的窖藏好文，特別選在碼天狗 52 期來貼。<del>大家有沒有覺得我誠意滿點？</del></p>\n\n<p>產品大了，什麼鳥事都有，如何在爛到失控、改不動之前，重新把產品架構的「秩序」找回，是本文通篇要旨所在。過程中如何拿捏權宜利害，如何不挖東牆補西牆、治絲益棼、即使是 workaround 也要 round 的漂亮，在在考驗架構師的能耐。</p>\n\n<p>個人經驗是，做架構改進這件事，「時間」與「人心」是頭號兩大敵人。實務場景當中，新的功能還沒做完，要切時間回頭去重構、補測試，往往是 PM 為難、RD 覺得你吃飽了找麻煩、老闆說先求有再求好這件事以後再來。滿足產品用戶需求，與試圖讓產品可長可久，後者往往被推遲，久而久之，技術債累積為還不起的鉅額。</p>\n\n<p>但是如同文中所講的，架構的改進是因時、因地、因人制宜、漸次到位的，並不是一次就來個大推翻，何妨將改進架構所花的時間視為一種「投資」，投入在維持基礎建設的健全？</p>",
+          "description_markdown": "另一篇收在我瀏覽器書籤裡的窖藏好文，特別選在碼天狗 52 期來貼。~~大家有沒有覺得我誠意滿點？~~\r\n\r\n產品大了，什麼鳥事都有，如何在爛到失控、改不動之前，重新把產品架構的「秩序」找回，是本文通篇要旨所在。過程中如何拿捏權宜利害，如何不挖東牆補西牆、治絲益棼、即使是 workaround 也要 round 的漂亮，在在考驗架構師的能耐。\r\n\r\n個人經驗是，做架構改進這件事，「時間」與「人心」是頭號兩大敵人。實務場景當中，新的功能還沒做完，要切時間回頭去重構、補測試，往往是 PM 為難、RD 覺得你吃飽了找麻煩、老闆說先求有再求好這件事以後再來。滿足產品用戶需求，與試圖讓產品可長可久，後者往往被推遲，久而久之，技術債累積為還不起的鉅額。\r\n\r\n但是如同文中所講的，架構的改進是因時、因地、因人制宜、漸次到位的，並不是一次就來個大推翻，何妨將改進架構所花的時間視為一種「投資」，投入在維持基礎建設的健全？",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "3SdCR4o",
+          "type": "Link",
+          "title": "我完成了我的 Side Project -- Project52 ，現在該你了",
+          "url_domain": "github.com",
+          "url": "https://github.com/kkdai/project52",
+          "description": "<p>恭喜碼天狗到了第五十二期（話說我女兒上個月也滿了五十二週...   離題 :p ）．\n這一期應景的想說要來分享跟數字 52 有關的專案，於是就把自己在上個月完成的專案（ Project 52 ）拿來的分享一下心得．（謎之音： 可是瑞凡， @wancw 好像有分享過..  ）</p>\n\n<p>當初看到  Jefferson Lam 的這篇 slide <a href=\"https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects\">Reflections from 52 weeks, 52 projects</a>  ，剛好也覺得想要考驗自己是否有堅持的毅力， 於是就開始了這個專案 -- 在五十二個禮拜中，完成五十二個 Golang 專案．</p>\n\n<p>一開始主要都是寫自己有興趣的抓圖軟體，也透過仿效海大的 <a href=\"https://github.com/tzangms/iloveck101\">我愛卡提諾</a>  或是 lazywei 的 <a href=\"https://github.com/lazywei/iloveck101\">我愛卡提諾 Go 版</a> 來學習一些元件的使用法． 為了想要寫得更好，想要更多志同道合的人，於是也參加了 <a href=\"http://golang.kktix.cc/\">Golang TW</a> 社群．透過不斷地詢問與討論，也有機會在第十三個禮拜分享了自己現階段的<a href=\"http://www.slideshare.net/EvansLin/project52\">心得</a> ．最終在 2016 的六月中完成了這個專案，也有幸能得到在 <a href=\"http://coscup.org/2016/schedules.html#H06\">COSCUP  2016</a> 分享的機會．而<a href=\"https://github.com/kkdai\">我的 GitHub</a> 不僅僅有破百人 followed ，更在 <a href=\"http://github-awards.com/users?country=taiwan&amp;language=go\">Golang 台灣地區的開源貢獻度擠上了前十名</a>．</p>\n\n<p>當然事情沒有那麼輕鬆．除了面臨著每個禮拜沒有點子的危機之外，更有時間管理上的挑戰．每天晚上哄完小孩後挑燈夜戰，中午用餐時間人家在看新聞的時候，我在埋頭想點子，不然就是在想該怎麼寫程式．上班時間同事可能會聊天，會討論團購的東西．我卻獨自一人打開著 GitHub 不斷地詳讀人家的程式碼，企圖想出任何一個可能別人沒有想過的小專案．</p>\n\n<p>最後分享一個小故事： 老婆常常問我半夜不睡覺是不是在趕公司專案，但是我是笑著回答說：“我在寫我有興趣的專案”．</p>\n\n<p>完成這個專案，不一定會帶給你莫大的知名度或是有許多研討會的分享機會．至少，你也有了 52 個屬於你自己的專案．</p>",
+          "description_markdown": "恭喜碼天狗到了第五十二期（話說我女兒上個月也滿了五十二週...   離題 :p ）．\r\n這一期應景的想說要來分享跟數字 52 有關的專案，於是就把自己在上個月完成的專案（ Project 52 ）拿來的分享一下心得．（謎之音： 可是瑞凡， @wancw 好像有分享過..  ）\r\n\r\n當初看到  Jefferson Lam 的這篇 slide [Reflections from 52 weeks, 52 projects](https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects)  ，剛好也覺得想要考驗自己是否有堅持的毅力， 於是就開始了這個專案 -- 在五十二個禮拜中，完成五十二個 Golang 專案．\r\n\r\n一開始主要都是寫自己有興趣的抓圖軟體，也透過仿效海大的 [我愛卡提諾](https://github.com/tzangms/iloveck101)  或是 lazywei 的 [我愛卡提諾 Go 版](https://github.com/lazywei/iloveck101) 來學習一些元件的使用法． 為了想要寫得更好，想要更多志同道合的人，於是也參加了 [Golang TW](http://golang.kktix.cc/) 社群．透過不斷地詢問與討論，也有機會在第十三個禮拜分享了自己現階段的[心得](http://www.slideshare.net/EvansLin/project52) ．最終在 2016 的六月中完成了這個專案，也有幸能得到在 [COSCUP  2016](http://coscup.org/2016/schedules.html#H06) 分享的機會．而[我的 GitHub](https://github.com/kkdai) 不僅僅有破百人 followed ，更在 [Golang 台灣地區的開源貢獻度擠上了前十名](http://github-awards.com/users?country=taiwan&language=go)．\r\n\r\n當然事情沒有那麼輕鬆．除了面臨著每個禮拜沒有點子的危機之外，更有時間管理上的挑戰．每天晚上哄完小孩後挑燈夜戰，中午用餐時間人家在看新聞的時候，我在埋頭想點子，不然就是在想該怎麼寫程式．上班時間同事可能會聊天，會討論團購的東西．我卻獨自一人打開著 GitHub 不斷地詳讀人家的程式碼，企圖想出任何一個可能別人沒有想過的小專案．\r\n\r\n\r\n最後分享一個小故事： 老婆常常問我半夜不睡覺是不是在趕公司專案，但是我是笑著回答說：“我在寫我有興趣的專案”．\r\n\r\n完成這個專案，不一定會帶給你莫大的知名度或是有許多研討會的分享機會．至少，你也有了 52 個屬於你自己的專案．",
+          "embedded_links": [
+            {
+              "identifier": "2zGCP32",
+              "title": "Reflections from 52 weeks, 52 projects",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects"
+            },
+            {
+              "identifier": "470pO66",
+              "title": "我愛卡提諾",
+              "url_domain": "github.com",
+              "url": "https://github.com/tzangms/iloveck101"
+            },
+            {
+              "identifier": "JflUeVo",
+              "title": "我愛卡提諾 Go 版",
+              "url_domain": "github.com",
+              "url": "https://github.com/lazywei/iloveck101"
+            },
+            {
+              "identifier": "nnNNdkX",
+              "title": "Golang TW",
+              "url_domain": "kktix.cc",
+              "url": "http://golang.kktix.cc/"
+            },
+            {
+              "identifier": "JAPvyyN",
+              "title": "心得",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/EvansLin/project52"
+            },
+            {
+              "identifier": "Yoap3ra",
+              "title": "COSCUP  2016",
+              "url_domain": "coscup.org",
+              "url": "http://coscup.org/2016/schedules.html#H06"
+            },
+            {
+              "identifier": "AduNfae",
+              "title": "我的 GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/kkdai"
+            },
+            {
+              "identifier": "APMC2GD",
+              "title": "Golang 台灣地區的開源貢獻度擠上了前十名",
+              "url_domain": "github-awards.com",
+              "url": "http://github-awards.com/users?country=taiwan&language=go"
+            }
+          ],
+          "image_original_filename": "0827ff0f-313e-4dfc-bfb4-de89c4e249b5.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_0827ff0f-313e-4dfc-bfb4-de89c4e249b5.jpg",
+          "image_medium_filename": "original_ratio_medium_0827ff0f-313e-4dfc-bfb4-de89c4e249b5.jpg"
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "Yx5dsoW",
+          "type": "Link",
+          "title": "\"Real\" Mixins with JavaScript Classes",
+          "url_domain": "justinfagnani.com",
+          "url": "http://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/",
+          "description": "<p>Dan 最近在 Reactjs 官方出了一篇文章 <a href=\"https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html\">Mixins Considered Harmful</a>，所以推薦大家重新了解一下 Javascript 的 Mixins 是什麼。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.ga1hid7e8\">Mixins Are Dead. Long Live Composition</a></li>\n</ul>",
+          "description_markdown": "Dan 最近在 Reactjs 官方出了一篇文章 [Mixins Considered Harmful](https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html)，所以推薦大家重新了解一下 Javascript 的 Mixins 是什麼。\r\n\r\n\r\n延伸閱讀：\r\n\r\n* [Mixins Are Dead. Long Live Composition](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.ga1hid7e8)",
+          "embedded_links": [
+            {
+              "identifier": "HiN1CAW",
+              "title": "Mixins Considered Harmful",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/blog/2016/07/13/mixins-considered-harmful.html"
+            },
+            {
+              "identifier": "RzHhslS",
+              "title": "Mixins Are Dead. Long Live Composition",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750#.ga1hid7e8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "roApUlE",
+          "type": "Link",
+          "title": "3 Reasons AWS Lambda Is Not Ready for Prime Time",
+          "url_domain": "datawire.io",
+          "url": "https://www.datawire.io/3-reasons-aws-lambda-not-ready-prime-time/",
+          "description": "<p>最近用 AWS Lambda 搭配 API Gateway 的經驗不是很好，只想說一句「<strong>OK 好</strong> 」(*)。 主要缺點是可控制和可掌握的部分太少，處理 background task 還可以，拿來做 API 就……</p>\n\n<p>在我的心得文出來之前，先看一下其他人的心得吧。雖然這是幾個月前的文章了，但我覺得目前狀況沒有改善多少。作者認為以下三點是 Lambda 還不成熟的原因：</p>\n\n<ul>\n<li>Lambda is Only a Building Block</li>\n<li>Lambda Is Not Well Documented</li>\n<li>Lambda Is Terrible at Errors</li>\n</ul>\n\n\n<p>同場加映：使用 AWS ECS 的慘痛經驗—— <a href=\"http://www.appuri.com/blog/-our-docker-nightmare-on-amazon-ecs/\">Our Nightmare on Amazon ECS</a></p>\n\n<hr />\n\n<p>*: 請參考附圖（來源： <a href=\"https://fb.com/1609581499354062\">https://fb.com/1609581499354062</a> ）</p>",
+          "description_markdown": "最近用 AWS Lambda 搭配 API Gateway 的經驗不是很好，只想說一句「**OK 好** 」(*)。 主要缺點是可控制和可掌握的部分太少，處理 background task 還可以，拿來做 API 就……\r\n\r\n在我的心得文出來之前，先看一下其他人的心得吧。雖然這是幾個月前的文章了，但我覺得目前狀況沒有改善多少。作者認為以下三點是 Lambda 還不成熟的原因：\r\n\r\n- Lambda is Only a Building Block\r\n- Lambda Is Not Well Documented\r\n- Lambda Is Terrible at Errors\r\n\r\n同場加映：使用 AWS ECS 的慘痛經驗—— [Our Nightmare on Amazon ECS](http://www.appuri.com/blog/-our-docker-nightmare-on-amazon-ecs/)\r\n\r\n---\r\n\r\n*: 請參考附圖（來源： [https://fb.com/1609581499354062](https://fb.com/1609581499354062) ）",
+          "embedded_links": [
+            {
+              "identifier": "nYFT1Jh",
+              "title": "Our Nightmare on Amazon ECS",
+              "url_domain": "appuri.com",
+              "url": "http://www.appuri.com/blog/-our-docker-nightmare-on-amazon-ecs/"
+            },
+            {
+              "identifier": "G60W4Oj",
+              "title": "https://fb.com/1609581499354062",
+              "url_domain": "fb.com",
+              "url": "https://fb.com/1609581499354062"
+            }
+          ],
+          "image_original_filename": "6a76e176-e780-4426-b08f-a9d2e80fbca5.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_6a76e176-e780-4426-b08f-a9d2e80fbca5.jpg",
+          "image_medium_filename": "original_ratio_medium_6a76e176-e780-4426-b08f-a9d2e80fbca5.jpg"
+        }
+      ]
+    }
+  ]
+}

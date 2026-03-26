@@ -1,0 +1,469 @@
+{
+  "number": 55,
+  "title": "Issue 55 Life is what happens to you while you're busy making other plans.",
+  "summary": "本期內容涵蓋 iOS, Android, Machine Learning, PHP, Elixir, 重構",
+  "url": "https://weekly.codetengu.com/issues/55",
+  "publication_status": "published",
+  "published_at": "2016-08-15T03:00:00+01:00",
+  "updated_at": "2016-08-18T16:28:33+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"https://book.douban.com/people/vinta/\">奇點天空</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 為了工作開始看韓劇</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[奇點天空](https://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 為了工作開始看韓劇\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "dpoKY3u",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "4HIERYa",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "RoFxaze",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "bMRQFC9",
+              "title": "奇點天空",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "UJotMpt",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "rN0ULGI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "kySCrTz",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "T9OqAEK",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "ocYFTdV",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "x6u4m3X",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "voeSnVE",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "wt4h9ag",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "X6WBRCl",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "8NyMeT7",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "Edouy4U",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "VGge82c",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "tCtu7a8",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "cLezA50",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "wf6GGYF",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "BSvrBLZ",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "i1Hjq3Z",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "EaHHvYj",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "gLlGYVh",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "SgsMObm",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "bh8G8RH",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "rfztcqg",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "zCr57TK",
+          "type": "Link",
+          "title": "Goodbye, Object Oriented Programming",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.v71n44bdj",
+          "description": "<blockquote><p>\"The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.\"   Joe Armstrong, the creator of Erlang</p></blockquote>\n\n<p>作者是一個資深的開發者從 OOP 移情別戀到 Functional Programming，在文中對 OOP 做出了指教，從繼承、封裝，一路嗆到多型。</p>\n\n<p>雖然我對封裝的那一段不是很同意，但總體還是看到蠻多有趣的東西，而且寫得滿生動的，值得一讀。</p>",
+          "description_markdown": "> \"The problem with object-oriented languages is they’ve got all this implicit environment that they carry around with them. You wanted a banana but what you got was a gorilla holding the banana and the entire jungle.\"   Joe Armstrong, the creator of Erlang\r\n\r\n作者是一個資深的開發者從 OOP 移情別戀到 Functional Programming，在文中對 OOP 做出了指教，從繼承、封裝，一路嗆到多型。  \r\n\r\n雖然我對封裝的那一段不是很同意，但總體還是看到蠻多有趣的東西，而且寫得滿生動的，值得一讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZEZ2axo",
+          "type": "Link",
+          "title": "Reference and Value Types in Swift",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/capital-one-developers/reference-and-value-types-in-swift-de792db330b2#.2ivuzun4v",
+          "description": "<p>這篇文章深入淺出 reference type 及 value type 的完整性滿高的，適合還沒有完整概念的讀者入門。</p>\n\n<p>幫大家節省時間，以下列出一些 keyword，如果你已經都有所掌握就不需要點進去看了，嘿，就是你想的那樣。</p>\n\n<ul>\n<li>shallow copy (reference) vs. deep copy (value)</li>\n<li>heap allocated (reference) vs. stack allocated (value)</li>\n<li>Immutability of reference type and value type</li>\n</ul>\n\n\n<p>不知道為什麼，我一直想到王垠的這篇： <a href=\"http://www.yinwang.org/blog-cn/2016/06/06/swift\">Swift 语言的设计错误</a></p>",
+          "description_markdown": "這篇文章深入淺出 reference type 及 value type 的完整性滿高的，適合還沒有完整概念的讀者入門。\r\n\r\n幫大家節省時間，以下列出一些 keyword，如果你已經都有所掌握就不需要點進去看了，嘿，就是你想的那樣。  \r\n\r\n- shallow copy (reference) vs. deep copy (value)\r\n- heap allocated (reference) vs. stack allocated (value)\r\n- Immutability of reference type and value type\r\n\r\n不知道為什麼，我一直想到王垠的這篇： [Swift 语言的设计错误](http://www.yinwang.org/blog-cn/2016/06/06/swift)",
+          "embedded_links": [
+            {
+              "identifier": "sNpc0wj",
+              "title": "Swift 语言的设计错误",
+              "url_domain": "yinwang.org",
+              "url": "http://www.yinwang.org/blog-cn/2016/06/06/swift"
+            }
+          ]
+        },
+        {
+          "identifier": "4u68G2G",
+          "type": "Link",
+          "title": "Shared Web Credentials",
+          "url_domain": "apple.com",
+          "url": "https://developer.apple.com/library/ios/documentation/Security/Reference/SharedWebCredentialsRef/",
+          "description": "<p>Shared Web Credentials 不算是 iOS 的新東西，不過直到最近才看到比較多人在用，而體驗上確實蠻好的。</p>\n\n<p>如果你的服務有 web 跟 app 兩個 client，兩邊都會登入，那麼也許就值得你花點時間來實作這項功能，只要使用者在 Safari 上填過帳號密碼並儲存在 iCloud Keychain，那麼你的 app 就可以拿到這個資訊加速登入的過程。若是使用者是先在 app 登入，我們也可以把它存到 iCloud Keychain 裡去讓 Safari 去取用。</p>\n\n<p>這項功能需要在 server side 透過 <code>/apple-app-site-association/</code> endpoint 回傳一份 apple-app-site-association 的 JSON content，明示這個網站下連動的 app 的 bundle id。</p>\n\n<p>註：建議在支援 iOS 9+ 以上的 app 實作會省下比較多麻煩事，只需要 server side 是透過 HTTPS 提供 apple-app-site-association 就好了， iOS 8 還要再簽署證書。</p>",
+          "description_markdown": "Shared Web Credentials 不算是 iOS 的新東西，不過直到最近才看到比較多人在用，而體驗上確實蠻好的。\r\n\r\n如果你的服務有 web 跟 app 兩個 client，兩邊都會登入，那麼也許就值得你花點時間來實作這項功能，只要使用者在 Safari 上填過帳號密碼並儲存在 iCloud Keychain，那麼你的 app 就可以拿到這個資訊加速登入的過程。若是使用者是先在 app 登入，我們也可以把它存到 iCloud Keychain 裡去讓 Safari 去取用。\r\n\r\n這項功能需要在 server side 透過 `/apple-app-site-association/` endpoint 回傳一份 apple-app-site-association 的 JSON content，明示這個網站下連動的 app 的 bundle id。\r\n\r\n註：建議在支援 iOS 9+ 以上的 app 實作會省下比較多麻煩事，只需要 server side 是透過 HTTPS 提供 apple-app-site-association 就好了， iOS 8 還要再簽署證書。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "SrdB5eV",
+          "type": "Link",
+          "title": "Google's Awareness API in action. Make your application be User's Context-Aware.",
+          "url_domain": "inthecheesefactory.com",
+          "url": "https://inthecheesefactory.com/blog/google-awareness-api-in-action/en",
+          "description": "<p>今年 Google IO 中提到的 <a href=\"https://developers.google.com/awareness/\">Awareness API</a> 在上個月上線了， Awareness API 可以讓 app 在你預設好的條件下主動開始做事並發通知給他。</p>\n\n<p>你可以對它註冊 callback 或者是自己透過 polling 來取得使用者目前的狀態，目前有七種狀態可以被觀測：Time, Location, Place, Activity (walking, running, biking), Nearby beacons, Headphones, Weather。</p>\n\n<p>Google 在 <a href=\"http://android-developers.blogspot.tw/2016/06/create-intelligent-context-aware-apps.html\">Create Intelligent, Context-Aware Apps with the Google Awareness APIs</a> 也介紹了兩套整合 Awareness API 的 app 當作案例示範：</p>\n\n<ul>\n<li>天氣好，你又在附近的時候會主動叫你去賞屋的房地產 app (煩死了買不起啊幹)</li>\n<li>發現你跑完步、開車中、上健身房的時候會推薦你特別的播放清單的音樂 app</li>\n</ul>\n\n\n<p>雖然感覺非常的痴漢，但是如果你的 app 有合適的應用場景的話，這種主動互動的方式是很棒而且不可取代的。</p>\n\n<p>Awareness API 也特別寫了一份 <a href=\"https://developers.google.com/awareness/best-practices\">Best practices for the Awareness API</a> 建議大家不要拿來濫用，摁摁好！</p>",
+          "description_markdown": "今年 Google IO 中提到的 [Awareness API](https://developers.google.com/awareness/) 在上個月上線了， Awareness API 可以讓 app 在你預設好的條件下主動開始做事並發通知給他。  \r\n\r\n你可以對它註冊 callback 或者是自己透過 polling 來取得使用者目前的狀態，目前有七種狀態可以被觀測：Time, Location, Place, Activity (walking, running, biking), Nearby beacons, Headphones, Weather。  \r\n\r\nGoogle 在 [Create Intelligent, Context-Aware Apps with the Google Awareness APIs](http://android-developers.blogspot.tw/2016/06/create-intelligent-context-aware-apps.html) 也介紹了兩套整合 Awareness API 的 app 當作案例示範：  \r\n\r\n- 天氣好，你又在附近的時候會主動叫你去賞屋的房地產 app (煩死了買不起啊幹)\r\n- 發現你跑完步、開車中、上健身房的時候會推薦你特別的播放清單的音樂 app\r\n\r\n雖然感覺非常的痴漢，但是如果你的 app 有合適的應用場景的話，這種主動互動的方式是很棒而且不可取代的。  \r\n\r\nAwareness API 也特別寫了一份 [Best practices for the Awareness API](https://developers.google.com/awareness/best-practices) 建議大家不要拿來濫用，摁摁好！",
+          "embedded_links": [
+            {
+              "identifier": "LqW1Len",
+              "title": "Awareness API",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/awareness/"
+            },
+            {
+              "identifier": "7ds5QKP",
+              "title": "Create Intelligent, Context-Aware Apps with the Google Awareness APIs",
+              "url_domain": "blogspot.tw",
+              "url": "http://android-developers.blogspot.tw/2016/06/create-intelligent-context-aware-apps.html"
+            },
+            {
+              "identifier": "FxizPQ1",
+              "title": "Best practices for the Awareness API",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/awareness/best-practices"
+            }
+          ]
+        },
+        {
+          "identifier": "MIXhLIJ",
+          "type": "Link",
+          "title": "StateListAnimator",
+          "url_domain": "stylingandroid.com",
+          "url": "https://blog.stylingandroid.com/statelistanimator/",
+          "description": "<p>老實說我一直覺得 Android 要處理 UI element 不同狀態的視覺呈現非常麻煩，而且過程很枯燥，通常大家都是做一個 <code>drawable</code> 然後透過 <code>selector</code> 針對不同的狀態做對應的顏色變化。<br/>\n我在做這件事情的時候都非常拖延，可能是因為這樣做完之後效果也不怎麼好，就是啪啪瞬間換顏色或底色。</p>\n\n<p>一樣的做法，如果是在 <code>selector</code> 裡面放 animator 做起來就有趣一點，看起來也更舒服。</p>",
+          "description_markdown": "老實說我一直覺得 Android 要處理 UI element 不同狀態的視覺呈現非常麻煩，而且過程很枯燥，通常大家都是做一個 `drawable` 然後透過 `selector` 針對不同的狀態做對應的顏色變化。  \r\n我在做這件事情的時候都非常拖延，可能是因為這樣做完之後效果也不怎麼好，就是啪啪瞬間換顏色或底色。\r\n\r\n一樣的做法，如果是在 `selector` 裡面放 animator 做起來就有趣一點，看起來也更舒服。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "PV76UCu",
+          "type": "Link",
+          "title": "Dreaming of names with RBMs - 使用機器學習來命名吧！",
+          "url_domain": "github.io",
+          "url": "https://colinmorris.github.io/blog/dreaming-rbms",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>大家都知道命名是電腦科學最大的難題之一，其實各種事物的命名都是難題啊！身邊的朋友生了小孩子要命名都很苦惱，簡直就是人生難題！</p>\n\n<p>這個 Project 非常有趣，作者是用了 RBMs（Restricted Boltzmann Machine，一種類神經網路模型）來訓練命名機器學習模型，完成了 <a href=\"http://colinmorris.github.io/rbm/repos/\">GitHub repo generator</a>、<a href=\"http://colinmorris.github.io/rbm/geo/\">Place name generator</a>、<a href=\"http://colinmorris.github.io/rbm/actors/\">Actor name generator</a>，這跟一般的產生器不太一樣（可能只是用隨機產生），機器會根據數學原理做出合理的命名並加上自己的創意，這也就是「學會了舉一反三」，所以呈現的效果有點微妙，基本上相同的技術用到其他領域的命名應該也都沒問題，只要有訓練資料一切就好辦，哪位勇者要來做一個中文命名產生器啊？</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n大家都知道命名是電腦科學最大的難題之一，其實各種事物的命名都是難題啊！身邊的朋友生了小孩子要命名都很苦惱，簡直就是人生難題！\r\n\r\n這個 Project 非常有趣，作者是用了 RBMs（Restricted Boltzmann Machine，一種類神經網路模型）來訓練命名機器學習模型，完成了 [GitHub repo generator](http://colinmorris.github.io/rbm/repos/)、[Place name generator](http://colinmorris.github.io/rbm/geo/)、[Actor name generator](http://colinmorris.github.io/rbm/actors/)，這跟一般的產生器不太一樣（可能只是用隨機產生），機器會根據數學原理做出合理的命名並加上自己的創意，這也就是「學會了舉一反三」，所以呈現的效果有點微妙，基本上相同的技術用到其他領域的命名應該也都沒問題，只要有訓練資料一切就好辦，哪位勇者要來做一個中文命名產生器啊？",
+          "embedded_links": [
+            {
+              "identifier": "GpufaES",
+              "title": "GitHub repo generator",
+              "url_domain": "github.io",
+              "url": "http://colinmorris.github.io/rbm/repos/"
+            },
+            {
+              "identifier": "KJMozKo",
+              "title": "Place name generator",
+              "url_domain": "github.io",
+              "url": "http://colinmorris.github.io/rbm/geo/"
+            },
+            {
+              "identifier": "8bMsZ4Z",
+              "title": "Actor name generator",
+              "url_domain": "github.io",
+              "url": "http://colinmorris.github.io/rbm/actors/"
+            }
+          ]
+        },
+        {
+          "identifier": "TEjRTaJ",
+          "type": "Link",
+          "title": "An experiment in trying to predict Google rankings - 運用機器學習預測網頁在 Google 搜尋中的排序",
+          "url_domain": "searchengineland.com",
+          "url": "http://searchengineland.com/experiment-trying-predict-google-rankings-253621",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>這是一個有趣的實驗，作者嘗試使用機器學習的方法來預測網頁在 Google 關鍵字搜尋中的排序，我們直覺會想到使用迴歸模型來進行預測，不過這樣難度相當高，這意味著作者可能需要 Google 大部份的排序資料才能過訓練好夠準確的模型。</p>\n\n<p>因此作者重新定義了問題，預測網頁在 Google 關鍵字搜尋中能不能排到 top 10，將問題轉換成一個二元分類的問題。大家可以看一下作者實際是怎麼做的，雖然不能夠準確預測排序，但至少預測網頁能不能排在 top 10 其實對 SEO 也就很有幫助了，我們可以依據預測的結果調整網頁的內容，讓我們要宣傳的網頁更有機會排到 Google 關鍵字搜尋的 top 10。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n這是一個有趣的實驗，作者嘗試使用機器學習的方法來預測網頁在 Google 關鍵字搜尋中的排序，我們直覺會想到使用迴歸模型來進行預測，不過這樣難度相當高，這意味著作者可能需要 Google 大部份的排序資料才能過訓練好夠準確的模型。\r\n\r\n因此作者重新定義了問題，預測網頁在 Google 關鍵字搜尋中能不能排到 top 10，將問題轉換成一個二元分類的問題。大家可以看一下作者實際是怎麼做的，雖然不能夠準確預測排序，但至少預測網頁能不能排在 top 10 其實對 SEO 也就很有幫助了，我們可以依據預測的結果調整網頁的內容，讓我們要宣傳的網頁更有機會排到 Google 關鍵字搜尋的 top 10。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "HDiOfVy",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 2 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-2-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>第一講介紹了 Hard Margin SVM，這是 SVM 最基礎的模型，其核心概念就是可以做二元分類的線其實會有很多條，因此 SVM 定義了一條最好的二元分類線，也就是最胖的分類線，將其定義成數學模型之後就可以用 QP Solver 來解最佳解。</p>\n\n<p>第二講我們會將這個二元分類「直線」延伸到「非線性」的分類線，我們可以使用以前學過的非線性轉換來做到非線性分類線，但這會有限制，當轉換的空間越高維的時候，計算複雜度會成長得很快，因此第二講中將 SVM 的問題推廣到 SVM 的對偶問題（Dual SVM），如此計算複雜度將不再會因為特徵轉換而增加，甚至可以讓我們做到無限多維的特徵轉換！我們就來看看 Dual SVM 如何推導吧～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n第一講介紹了 Hard Margin SVM，這是 SVM 最基礎的模型，其核心概念就是可以做二元分類的線其實會有很多條，因此 SVM 定義了一條最好的二元分類線，也就是最胖的分類線，將其定義成數學模型之後就可以用 QP Solver 來解最佳解。\r\n\r\n第二講我們會將這個二元分類「直線」延伸到「非線性」的分類線，我們可以使用以前學過的非線性轉換來做到非線性分類線，但這會有限制，當轉換的空間越高維的時候，計算複雜度會成長得很快，因此第二講中將 SVM 的問題推廣到 SVM 的對偶問題（Dual SVM），如此計算複雜度將不再會因為特徵轉換而增加，甚至可以讓我們做到無限多維的特徵轉換！我們就來看看 Dual SVM 如何推導吧～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "aLHzE6I",
+          "type": "Link",
+          "title": "PHP 深入探討依賴注入",
+          "url_domain": "oomusou.io",
+          "url": "http://oomusou.io/tdd/tdd-di/",
+          "description": "<p>PHP、Programming：中級</p>\n\n<p>之前在 CodeTengu 分享了不少篇有關依賴注入（Dependency Injection）的文章，本篇文章大概是我目前看過最清楚淺顯的一篇了！從最基礎的依賴實作物件設計，再透過依賴反轉重構成依賴抽象物件設計，最後導入依賴注入方法，讓抽象依賴物件可以被置換，一步一步引領，非常建議要邁向進階物件導向程式設計的碼農朋友們閱讀這篇文章！</p>",
+          "description_markdown": "PHP、Programming：中級\r\n\r\n之前在 CodeTengu 分享了不少篇有關依賴注入（Dependency Injection）的文章，本篇文章大概是我目前看過最清楚淺顯的一篇了！從最基礎的依賴實作物件設計，再透過依賴反轉重構成依賴抽象物件設計，最後導入依賴注入方法，讓抽象依賴物件可以被置換，一步一步引領，非常建議要邁向進階物件導向程式設計的碼農朋友們閱讀這篇文章！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "Xl60yKz",
+          "type": "Link",
+          "title": "The symptoms of low internal software quality",
+          "url_domain": "plataformatec.com.br",
+          "url": "http://blog.plataformatec.com.br/2014/06/the-symptoms-of-low-internal-software-quality/",
+          "description": "<p>Plataformatec Blog 上的 Low Internal Software Quality 系列文，截自目前有以下三篇，主要講如何透過「大刀闊斧重構」或「釜底抽薪砍掉重練」來改進軟體品質：</p>\n\n<ol>\n<li><a href=\"http://blog.plataformatec.com.br/2014/06/the-symptoms-of-low-internal-software-quality/\">The symptoms of low internal software quality</a></li>\n<li><a href=\"http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-big-software-refactoring/\">Key points to consider when doing a big software refactoring</a></li>\n<li><a href=\"http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-software-rewrite/\">Key points to consider when doing a software rewrite</a></li>\n</ol>\n\n\n<p>其中以第 2 篇對我而言最受用，提示了很多處理重構時的技術面、非技術面（人事面、精神面…）應該注意的地方，推薦給大家。</p>\n\n<p>第 3 篇講砍掉重練這件事，雖然有時拋掉包袱、重新打造系統很爽，以前接到爛攤子的 legacy code 時，我也寧願這樣做；但是現在的我更佩服把既有系統透過軟工（用測試滿足相容需求、用 design patterns 形塑秩序與規範…）改造重生的工匠技藝，像是日本電視節目「大改造!! 劇的ビフォーアフター」（全能住宅改造王）那樣。</p>",
+          "description_markdown": "Plataformatec Blog 上的 Low Internal Software Quality 系列文，截自目前有以下三篇，主要講如何透過「大刀闊斧重構」或「釜底抽薪砍掉重練」來改進軟體品質：\r\n\r\n1. [The symptoms of low internal software quality](http://blog.plataformatec.com.br/2014/06/the-symptoms-of-low-internal-software-quality/)\r\n2. [Key points to consider when doing a big software refactoring](http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-big-software-refactoring/)\r\n3. [Key points to consider when doing a software rewrite](http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-software-rewrite/)\r\n\r\n其中以第 2 篇對我而言最受用，提示了很多處理重構時的技術面、非技術面（人事面、精神面…）應該注意的地方，推薦給大家。\r\n\r\n第 3 篇講砍掉重練這件事，雖然有時拋掉包袱、重新打造系統很爽，以前接到爛攤子的 legacy code 時，我也寧願這樣做；但是現在的我更佩服把既有系統透過軟工（用測試滿足相容需求、用 design patterns 形塑秩序與規範…）改造重生的工匠技藝，像是日本電視節目「大改造!! 劇的ビフォーアフター」（全能住宅改造王）那樣。",
+          "embedded_links": [
+            {
+              "identifier": "cg5UPMN",
+              "title": "The symptoms of low internal software quality",
+              "url_domain": "plataformatec.com.br",
+              "url": "http://blog.plataformatec.com.br/2014/06/the-symptoms-of-low-internal-software-quality/"
+            },
+            {
+              "identifier": "nxE5htd",
+              "title": "Key points to consider when doing a big software refactoring",
+              "url_domain": "plataformatec.com.br",
+              "url": "http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-big-software-refactoring/"
+            },
+            {
+              "identifier": "NgbynyR",
+              "title": "Key points to consider when doing a software rewrite",
+              "url_domain": "plataformatec.com.br",
+              "url": "http://blog.plataformatec.com.br/2016/07/key-points-to-consider-when-doing-a-software-rewrite/"
+            }
+          ]
+        },
+        {
+          "identifier": "xanJwYJ",
+          "type": "Link",
+          "title": "Elixir — Supervisors: A Conceptual Understanding",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@StevenLeiva1/elixir-supervisors-a-conceptual-understanding-ee0825f70cbe",
+          "description": "<p><a href=\"http://erlang.org/doc/man/supervisor.html\">Supervisor</a> 在 Erlang 與 Elixir 扮演了「子 process(-es) 監督者」的角色、是 OTP 容錯機制中的重點設計。這篇文章概觀地介紹了 supervisor 是如何運作的。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"http://learnyousomeerlang.com/supervisors\">Who Supervises The Supervisors? | Learn You Some Erlang for Great Good!</a></li>\n</ul>",
+          "description_markdown": "[Supervisor](http://erlang.org/doc/man/supervisor.html) 在 Erlang 與 Elixir 扮演了「子 process(-es) 監督者」的角色、是 OTP 容錯機制中的重點設計。這篇文章概觀地介紹了 supervisor 是如何運作的。\r\n\r\n同場加映：\r\n\r\n* [Who Supervises The Supervisors? | Learn You Some Erlang for Great Good!](http://learnyousomeerlang.com/supervisors)",
+          "embedded_links": [
+            {
+              "identifier": "2vneDas",
+              "title": "Supervisor",
+              "url_domain": "erlang.org",
+              "url": "http://erlang.org/doc/man/supervisor.html"
+            },
+            {
+              "identifier": "YXOX603",
+              "title": "Who Supervises The Supervisors? | Learn You Some Erlang for Great Good!",
+              "url_domain": "learnyousomeerlang.com",
+              "url": "http://learnyousomeerlang.com/supervisors"
+            }
+          ]
+        },
+        {
+          "identifier": "hmB1Vo5",
+          "type": "Link",
+          "title": "Building a Game with Phoenix Channels",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@miguel.coba/building-a-game-with-phoenix-channels-a3e6b390cfcc#.ii5i747bi",
+          "description": "<p>透過一個簡單的多人線上對戰遊戲範例，示範 Phoenix 的 <a href=\"http://www.phoenixframework.org/docs/channels\">Channels</a>（與 Elixir 的 <a href=\"http://elixir-lang.org/docs/stable/elixir/Agent.html\">Agent</a>） 用法，很有趣的一篇文章。</p>\n\n<p>Channels 是 Phoenix 伺服器端程式與客戶端之間達成即時互動的重要機制，假設客戶端支援時下的 HTML5 <a href=\"https://tools.ietf.org/html/rfc6455\">WebSocket</a> 協定，就優先採用它，不然就退回到傳統的 LongPolling 作法。</p>\n\n<p>外行人看熱鬧，內行人看門道，這範例遊戲本身沒有什麼吸引人的華麗聲光效果，但是總有人（有吧？有吧？）會從這些沒幾行的程式碼當中，發現類似 Facebook 為何買下 WhatsApp 所看中的那個「東西」價值之所在。</p>",
+          "description_markdown": "透過一個簡單的多人線上對戰遊戲範例，示範 Phoenix 的 [Channels](http://www.phoenixframework.org/docs/channels)（與 Elixir 的 [Agent](http://elixir-lang.org/docs/stable/elixir/Agent.html)） 用法，很有趣的一篇文章。\r\n\r\nChannels 是 Phoenix 伺服器端程式與客戶端之間達成即時互動的重要機制，假設客戶端支援時下的 HTML5 [WebSocket](https://tools.ietf.org/html/rfc6455) 協定，就優先採用它，不然就退回到傳統的 LongPolling 作法。\r\n\r\n外行人看熱鬧，內行人看門道，這範例遊戲本身沒有什麼吸引人的華麗聲光效果，但是總有人（有吧？有吧？）會從這些沒幾行的程式碼當中，發現類似 Facebook 為何買下 WhatsApp 所看中的那個「東西」價值之所在。",
+          "embedded_links": [
+            {
+              "identifier": "SXdzfzt",
+              "title": "Channels",
+              "url_domain": "phoenixframework.org",
+              "url": "http://www.phoenixframework.org/docs/channels"
+            },
+            {
+              "identifier": "fp3dhx6",
+              "title": "Agent",
+              "url_domain": "elixir-lang.org",
+              "url": "http://elixir-lang.org/docs/stable/elixir/Agent.html"
+            },
+            {
+              "identifier": "jcsasna",
+              "title": "WebSocket",
+              "url_domain": "ietf.org",
+              "url": "https://tools.ietf.org/html/rfc6455"
+            }
+          ]
+        },
+        {
+          "identifier": "iMU1ETE",
+          "type": "Link",
+          "title": "Phoenix Channels vs Rails Action Cable",
+          "url_domain": "dockyard.com",
+          "url": "https://dockyard.com/blog/2016/08/09/phoenix-channels-vs-rails-action-cable",
+          "description": "<p>接著上一篇文提到的 Phoenix Channels，最近推出的 <a href=\"http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/\">Rails 5.0</a> 也有類似 Channels 的機制，稱為 <a href=\"http://guides.rubyonrails.org/action_cable_overview.html\">Action Cable</a>。這篇文章作者拿了兩者各做出一個相同功能的聊天室系統，然後拿 <a href=\"http://tsung.erlang-projects.org/\">Tsung</a> 去暴力壓測。</p>\n\n<p>為了避免落入 flame war 的對穿腸窠臼（即使很多搞 IT 的人就愛這一味，可喜孜孜的），如同原作者結尾所講的，就請恕我不做太去脈絡化、武斷的結論了，選這篇文只為了「他山之石」的引介用意。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable\">Real-Time Rails: Implementing WebSockets in Rails 5 with Action Cable | Heroku</a></li>\n<li><a href=\"http://jargon.io/joeyschoblaska/rails-5-chess-with-action-cable-websockets\">Building a chess server in Rails 5 with Action Cable-powered WebSockets — Jargon</a></li>\n</ul>",
+          "description_markdown": "接著上一篇文提到的 Phoenix Channels，最近推出的 [Rails 5.0](http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/) 也有類似 Channels 的機制，稱為 [Action Cable](http://guides.rubyonrails.org/action_cable_overview.html)。這篇文章作者拿了兩者各做出一個相同功能的聊天室系統，然後拿 [Tsung](http://tsung.erlang-projects.org/) 去暴力壓測。\r\n\r\n為了避免落入 flame war 的對穿腸窠臼（即使很多搞 IT 的人就愛這一味，可喜孜孜的），如同原作者結尾所講的，就請恕我不做太去脈絡化、武斷的結論了，選這篇文只為了「他山之石」的引介用意。\r\n\r\n同場加映：\r\n\r\n* [Real-Time Rails: Implementing WebSockets in Rails 5 with Action Cable | Heroku](https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable)\r\n* [Building a chess server in Rails 5 with Action Cable-powered WebSockets — Jargon](http://jargon.io/joeyschoblaska/rails-5-chess-with-action-cable-websockets)",
+          "embedded_links": [
+            {
+              "identifier": "Su0cuU9",
+              "title": "Rails 5.0",
+              "url_domain": "rubyonrails.org",
+              "url": "http://weblog.rubyonrails.org/2016/6/30/Rails-5-0-final/"
+            },
+            {
+              "identifier": "qXYIjEB",
+              "title": "Action Cable",
+              "url_domain": "rubyonrails.org",
+              "url": "http://guides.rubyonrails.org/action_cable_overview.html"
+            },
+            {
+              "identifier": "tdShkr5",
+              "title": "Tsung",
+              "url_domain": "erlang-projects.org",
+              "url": "http://tsung.erlang-projects.org/"
+            },
+            {
+              "identifier": "u3ggqu9",
+              "title": "Real-Time Rails: Implementing WebSockets in Rails 5 with Action Cable | Heroku",
+              "url_domain": "heroku.com",
+              "url": "https://blog.heroku.com/real_time_rails_implementing_websockets_in_rails_5_with_action_cable"
+            },
+            {
+              "identifier": "5x4EpAd",
+              "title": "Building a chess server in Rails 5 with Action Cable-powered WebSockets — Jargon",
+              "url_domain": "jargon.io",
+              "url": "http://jargon.io/joeyschoblaska/rails-5-chess-with-action-cable-websockets"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

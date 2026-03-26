@@ -1,0 +1,494 @@
+{
+  "number": 36,
+  "title": "Issue 36 Hi, I'd like to add you to my professional network on LinkedIn.",
+  "summary": "本期內容涵蓋 SQL, Django, AJAX, SPA, Docker, thumbor, Elasticsearch, Vim, Product Manager, WebSocket, scikit-learn, ORM, 深度學習, 機器學習",
+  "url": "https://weekly.codetengu.com/issues/36",
+  "publication_status": "published",
+  "published_at": "2016-03-28T03:00:00+01:00",
+  "updated_at": "2016-06-26T19:28:21+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">神經喚術士</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - App、Server、Data，不知何時向 F* 邁進</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[神經喚術士](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw) - App、Server、Data，不知何時向 F* 邁進\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "7GwYj4z",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "CoJDJT1",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "k1pf3im",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "ZAtA61A",
+              "title": "神經喚術士",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "y6PzIAt",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "UMXnFeA",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "oBLDG47",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "YmaUQtZ",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "HNsWRHo",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "1OcazEp",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "mHk6L3q",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "llCgfdh",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "MYiLFbs",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "vke0kaW",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Fz7u4NH",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "r4DwpfI",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "UJafMcm",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "y2q57dX",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "gTo0Vox",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "hcb3dQU",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "MU7AUsT",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "IYgYYMY",
+              "title": "神經喚術士",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/do"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "RwkHllQ",
+          "type": "Link",
+          "title": "10 Easy Steps to a Complete Understanding of SQL",
+          "url_domain": "jooq.org",
+          "url": "http://blog.jooq.org/2016/03/17/10-easy-steps-to-a-complete-understanding-of-sql/",
+          "description": "<p>作者用 <code>SELECT</code> 語句的各種子句組合為題，一步一步地講解了很多 SQL 的重要概念、細節（以及那些你從來沒有搞懂過的規則），非常值得一讀，推薦給被 ORM 養大、從來沒有好好學過 SQL 的你（指）。但是老實說，SQL 真的太深邃了啊，簡直就是 DSL 界的草薙素子（這是什麼爛比喻）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.vertabelo.com/blog/notes-from-the-lab/18-best-online-resources-for-learning-sql-and-database\">18+ Best Online Resources for Learning SQL and Database Concepts</a></li>\n<li><a href=\"https://medium.com/@marin.basic02/learn-sql-by-analyzing-dump-data-from-000webhost-916b6c31d080#.9i5epx4m9\">Learn SQL by analyzing dump data from 000webhost</a> 這個教學的 data source 選得太好！</li>\n</ul>",
+          "description_markdown": "作者用 `SELECT` 語句的各種子句組合為題，一步一步地講解了很多 SQL 的重要概念、細節（以及那些你從來沒有搞懂過的規則），非常值得一讀，推薦給被 ORM 養大、從來沒有好好學過 SQL 的你（指）。但是老實說，SQL 真的太深邃了啊，簡直就是 DSL 界的草薙素子（這是什麼爛比喻）。\r\n\r\n延伸閱讀：\r\n\r\n- [18+ Best Online Resources for Learning SQL and Database Concepts](http://www.vertabelo.com/blog/notes-from-the-lab/18-best-online-resources-for-learning-sql-and-database)\r\n- [Learn SQL by analyzing dump data from 000webhost](https://medium.com/@marin.basic02/learn-sql-by-analyzing-dump-data-from-000webhost-916b6c31d080#.9i5epx4m9) 這個教學的 data source 選得太好！",
+          "embedded_links": [
+            {
+              "identifier": "VpVjbjz",
+              "title": "18+ Best Online Resources for Learning SQL and Database Concepts",
+              "url_domain": "vertabelo.com",
+              "url": "http://www.vertabelo.com/blog/notes-from-the-lab/18-best-online-resources-for-learning-sql-and-database"
+            },
+            {
+              "identifier": "cgQhIkv",
+              "title": "Learn SQL by analyzing dump data from 000webhost",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@marin.basic02/learn-sql-by-analyzing-dump-data-from-000webhost-916b6c31d080#.9i5epx4m9"
+            }
+          ]
+        },
+        {
+          "identifier": "3Is2DYo",
+          "type": "Link",
+          "title": "Easy PJAX for Django",
+          "url_domain": "github.com",
+          "url": "https://github.com/nigma/django-easy-pjax",
+          "description": "<p>最近 <a href=\"https://streetvoice.com/\">StreetVoice</a> 又在緊鑼密鼓地改版中，因為網站有音樂播放的功能，為了讓切換頁面不會中斷播放，勢必得做成 Single Page Application (SPA)，但是完全在前端處理 URL routing 和所有的資料呈現實在是太阿雜了（而且其實沒有必要，至少對我們的產品來說），所以這個時候就輪到 PJAX 出場啦！</p>\n\n<p>PJAX 是 <code>History.pushState()</code> + AJAX 的意思，效果就是你的每個頁面都可以繼續用後端 web framework 的 template rendering 的老方法，只是額外載入一個 <a href=\"https://github.com/defunkt/jquery-pjax\">jquery.pjax.js</a> 和簡單的配置，你的整個網站馬上就變成一個 SPA，所有換頁（包含表單提交）之後的內容都會自動以 AJAX 的方式載入，你甚至不需要自己寫任何一行的 <code>$.ajax()</code>，讓大家從 <a href=\"https://www.facebook.com/vinta.chen/posts/10154278049423268\">JavaScript 的修羅道</a>之中解脫了。</p>\n\n<p>不過，如果是一些相對獨立的元件（例如 Player、Modal、Search Bar、留言列表）或是有大量 UI 操作的頁面，其實還是會直接用 React 啦。</p>",
+          "description_markdown": "最近 [StreetVoice](https://streetvoice.com/) 又在緊鑼密鼓地改版中，因為網站有音樂播放的功能，為了讓切換頁面不會中斷播放，勢必得做成 Single Page Application (SPA)，但是完全在前端處理 URL routing 和所有的資料呈現實在是太阿雜了（而且其實沒有必要，至少對我們的產品來說），所以這個時候就輪到 PJAX 出場啦！\r\n\r\nPJAX 是 `History.pushState()` + AJAX 的意思，效果就是你的每個頁面都可以繼續用後端 web framework 的 template rendering 的老方法，只是額外載入一個 [jquery.pjax.js](https://github.com/defunkt/jquery-pjax) 和簡單的配置，你的整個網站馬上就變成一個 SPA，所有換頁（包含表單提交）之後的內容都會自動以 AJAX 的方式載入，你甚至不需要自己寫任何一行的 `$.ajax()`，讓大家從 [JavaScript 的修羅道](https://www.facebook.com/vinta.chen/posts/10154278049423268)之中解脫了。\r\n\r\n不過，如果是一些相對獨立的元件（例如 Player、Modal、Search Bar、留言列表）或是有大量 UI 操作的頁面，其實還是會直接用 React 啦。",
+          "embedded_links": [
+            {
+              "identifier": "G7tCq9C",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "2fVAnFj",
+              "title": "jquery.pjax.js",
+              "url_domain": "github.com",
+              "url": "https://github.com/defunkt/jquery-pjax"
+            },
+            {
+              "identifier": "kPvJmYP",
+              "title": "JavaScript 的修羅道",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/vinta.chen/posts/10154278049423268"
+            }
+          ]
+        },
+        {
+          "identifier": "YyGz9wh",
+          "type": "Link",
+          "title": "Docker thumbor and remotecv",
+          "url_domain": "docker.com",
+          "url": "https://hub.docker.com/r/apsl/thumbor/",
+          "description": "<p>這個 Docker image 封裝了一個配置好的 <a href=\"https://github.com/thumbor/thumbor\">thumbor</a> server，thumbor 其實就是一個專門負責「縮圖」的 microservice（而且還有人臉辨識的功能！），真的是個好東西吶！</p>\n\n<p>本機開發環境的配置不談（因為實在太簡單，一個 <a href=\"https://github.com/APSL/docker-thumbor/blob/master/docker-compose-examples/detector.yml\">docker-compose.yml</a> 就打死）；線上的正式環境的話，通常的使用情境會是：在你的 thumbor server（可以有很多台，然後用 nginx 做個 load balancer）之前擋一個 CDN，因為 CDN 就會把圖片 cache 住，所以你其實可以不用自己把縮圖存下來，如果還是會怕，那就 pre-warm 一下 CDN 好了。</p>\n\n<p>另外再跟大家分享一個新聞：</p>\n\n<p><a href=\"https://blog.docker.com/2016/03/docker-for-mac-windows-beta/\">Docker for Mac and Windows Beta: the simplest way to use Docker on your laptop</a></p>\n\n<p>解決了很多在 Mac 上使用 Docker 會遇到的機八問題（尤其是 file change notification！），很讓人期待啊～</p>",
+          "description_markdown": "這個 Docker image 封裝了一個配置好的 [thumbor](https://github.com/thumbor/thumbor) server，thumbor 其實就是一個專門負責「縮圖」的 microservice（而且還有人臉辨識的功能！），真的是個好東西吶！\r\n\r\n本機開發環境的配置不談（因為實在太簡單，一個 [docker-compose.yml](https://github.com/APSL/docker-thumbor/blob/master/docker-compose-examples/detector.yml) 就打死）；線上的正式環境的話，通常的使用情境會是：在你的 thumbor server（可以有很多台，然後用 nginx 做個 load balancer）之前擋一個 CDN，因為 CDN 就會把圖片 cache 住，所以你其實可以不用自己把縮圖存下來，如果還是會怕，那就 pre-warm 一下 CDN 好了。\r\n\r\n另外再跟大家分享一個新聞：\r\n\r\n[Docker for Mac and Windows Beta: the simplest way to use Docker on your laptop](https://blog.docker.com/2016/03/docker-for-mac-windows-beta/)\r\n\r\n解決了很多在 Mac 上使用 Docker 會遇到的機八問題（尤其是 file change notification！），很讓人期待啊～",
+          "embedded_links": [
+            {
+              "identifier": "6i05fIV",
+              "title": "thumbor",
+              "url_domain": "github.com",
+              "url": "https://github.com/thumbor/thumbor"
+            },
+            {
+              "identifier": "4pqYp9D",
+              "title": "docker-compose.yml",
+              "url_domain": "github.com",
+              "url": "https://github.com/APSL/docker-thumbor/blob/master/docker-compose-examples/detector.yml"
+            },
+            {
+              "identifier": "GOT1qHA",
+              "title": "Docker for Mac and Windows Beta: the simplest way to use Docker on your laptop",
+              "url_domain": "docker.com",
+              "url": "https://blog.docker.com/2016/03/docker-for-mac-windows-beta/"
+            }
+          ]
+        },
+        {
+          "identifier": "58pro30",
+          "type": "Link",
+          "title": "Building Simple Recommender Systems for Elasticsearch",
+          "url_domain": "qbox.io",
+          "url": "https://qbox.io/blog/building-simple-recommender-systems-for-elasticsearch-1",
+          "description": "<p>用 Elasticsearch 來做一個簡單的推薦系統（更準確的說法應該是一個個人化的搜尋引擎）！對於一個技術棧本來就包含 ES 的我們來說，這個點子似乎不錯，畢竟 Elasticsearch 其實也就是一個 query 和 aggregation 功能特別強大的 NoSQL 資料庫。</p>\n\n<p>雖然它的 Query DSL 在「可讀性」這件事情上就是一個徹底的悲劇。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.eventbrite.com/engineering/search-recommendation-systems-at-eventbrite/\">Search &amp; Recommendation Systems at Eventbrite</a></li>\n</ul>",
+          "description_markdown": "用 Elasticsearch 來做一個簡單的推薦系統（更準確的說法應該是一個個人化的搜尋引擎）！對於一個技術棧本來就包含 ES 的我們來說，這個點子似乎不錯，畢竟 Elasticsearch 其實也就是一個 query 和 aggregation 功能特別強大的 NoSQL 資料庫。\r\n\r\n雖然它的 Query DSL 在「可讀性」這件事情上就是一個徹底的悲劇。\r\n\r\n延伸閱讀：\r\n\r\n- [Search & Recommendation Systems at Eventbrite](https://www.eventbrite.com/engineering/search-recommendation-systems-at-eventbrite/)",
+          "embedded_links": [
+            {
+              "identifier": "wTf16oK",
+              "title": "Search & Recommendation Systems at Eventbrite",
+              "url_domain": "eventbrite.com",
+              "url": "https://www.eventbrite.com/engineering/search-recommendation-systems-at-eventbrite/"
+            }
+          ]
+        },
+        {
+          "identifier": "bcSPOHf",
+          "type": "Link",
+          "title": "Vimium",
+          "url_domain": "google.com",
+          "url": "https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb",
+          "description": "<p>雖然平常不太用 Vim，但是這個可以在 Chrome 裡面用 Vim 快速鍵的外掛實在很方便，就算你不是 Vim 的使用者也應該試試。</p>",
+          "description_markdown": "雖然平常不太用 Vim，但是這個可以在 Chrome 裡面用 Vim 快速鍵的外掛實在很方便，就算你不是 Vim 的使用者也應該試試。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "A904eG1",
+          "type": "Link",
+          "title": "How to Hire a Product Manager",
+          "url_domain": "kennorton.com",
+          "url": "https://www.kennorton.com/essays/productmanager.html",
+          "description": "<p>時常聽到 PM 跟工程師某種程度上, 似乎是死對頭的傳聞, 兩邊互相咒罵, 但我一直覺得, 如果你找到一個「對的」 PM 的話, 事情不應該是這樣的才對。</p>\n\n<p>因為我在\"類\"新創的公司裡工作, 也算是身兼 PM, 不過最近因為剛好有一些關於 PM 的疑問, 所以找了許多書跟文章來看, 想知道到底什麽才能叫做是一位好的 PM? 也方便我對照現況, 甚至可以指導 PM、給 PM 方向, 讓工程師工作的更順利。</p>\n\n<p>在讀這篇之前, 我先看了另一篇寫給 PM 的文章 \"<a href=\"https://www.kennorton.com/essays/what-to-do-in-your-first-30-days-as-product-manager.html\">What to Do in Your First 30 Days</a>\", 畢竟 PM 剛加入的初期是最重要的一段時間, 這篇文章裡面提到了一句我覺得不錯:</p>\n\n<blockquote><p>Ask everyone this question:  “What can I do to make your life easier?”</p></blockquote>\n\n<p>我覺這句話給了 PM 一個很好的起點。</p>",
+          "description_markdown": "時常聽到 PM 跟工程師某種程度上, 似乎是死對頭的傳聞, 兩邊互相咒罵, 但我一直覺得, 如果你找到一個「對的」 PM 的話, 事情不應該是這樣的才對。 \r\n\r\n因為我在\"類\"新創的公司裡工作, 也算是身兼 PM, 不過最近因為剛好有一些關於 PM 的疑問, 所以找了許多書跟文章來看, 想知道到底什麽才能叫做是一位好的 PM? 也方便我對照現況, 甚至可以指導 PM、給 PM 方向, 讓工程師工作的更順利。\r\n\r\n在讀這篇之前, 我先看了另一篇寫給 PM 的文章 \"[What to Do in Your First 30 Days](https://www.kennorton.com/essays/what-to-do-in-your-first-30-days-as-product-manager.html)\", 畢竟 PM 剛加入的初期是最重要的一段時間, 這篇文章裡面提到了一句我覺得不錯:\r\n\r\n> Ask everyone this question:  “What can I do to make your life easier?”\r\n\r\n我覺這句話給了 PM 一個很好的起點。",
+          "embedded_links": [
+            {
+              "identifier": "1siQIgE",
+              "title": "What to Do in Your First 30 Days",
+              "url_domain": "kennorton.com",
+              "url": "https://www.kennorton.com/essays/what-to-do-in-your-first-30-days-as-product-manager.html"
+            }
+          ]
+        },
+        {
+          "identifier": "E1gUpzG",
+          "type": "Link",
+          "title": "Finally, Real-Time Django Is Here: Get Started with Django Channels",
+          "url_domain": "heroku.com",
+          "url": "https://blog.heroku.com/archives/2016/3/17/in_deep_with_django_channels_the_future_of_real_time_apps_in_django",
+          "description": "<p>大概一年前就看到 Django channels 了, 不過一直到最近看到 Heroku 這篇文章才決定就是它了, 而且看來 Django channels 將會正式整進下一版的 Django。</p>\n\n<p>這篇文章提供了清楚的範例跟圖來說明即時聊天如何運作, 也可以直接部署到 Heroku 測試。 另外作者也有另外一個放 <a href=\"https://github.com/andrewgodwin/channels-examples\">channels 範例的 repo</a>, 說明也都寫的滿完整的, 非常值得一試啊!</p>",
+          "description_markdown": "大概一年前就看到 Django channels 了, 不過一直到最近看到 Heroku 這篇文章才決定就是它了, 而且看來 Django channels 將會正式整進下一版的 Django。\r\n\r\n這篇文章提供了清楚的範例跟圖來說明即時聊天如何運作, 也可以直接部署到 Heroku 測試。 另外作者也有另外一個放 [channels 範例的 repo](https://github.com/andrewgodwin/channels-examples), 說明也都寫的滿完整的, 非常值得一試啊!",
+          "embedded_links": [
+            {
+              "identifier": "mx3iyJc",
+              "title": "channels 範例的 repo",
+              "url_domain": "github.com",
+              "url": "https://github.com/andrewgodwin/channels-examples"
+            }
+          ]
+        },
+        {
+          "identifier": "RPHHFsP",
+          "type": "Link",
+          "title": "前英特尔 CEO 安迪 · 格鲁夫辞世，“偏执狂” 和 “经理人的导师” 永存",
+          "url_domain": "qq.com",
+          "url": "http://mp.weixin.qq.com/s?__biz=MjAzNzMzNTkyMQ%3D%3D&idx=4&mid=405628289&scene=0&sn=8208c7fcfdc9cef36d04dfdfee0902c8",
+          "description": "<p>上禮拜聽到 Andy Grove 去世的, 應該是僅次於 Steve Jobs 去世最令我難過的消息消息了吧, 畢竟我才剛讀完他寫的 <a href=\"http://amzn.to/25r0hgZ\">High Output Management</a> 沒多久, 應該在前幾期的 CodeTengu 也有跟大家推薦過這本書了, 是一本讀完之後還想在讀第二遍、第三遍的書。</p>\n\n<p>而這篇文章是從微信上看到的, 找了台灣的新聞網站, 都是比較隨便帶過這件事, 所以還是分享給各位在微信的這篇了, 雖然裡面部分內容直接出自於 High Output Management 這本書的序。</p>\n\n<p>我後來看了這篇: <a href=\"http://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ%3D%3D&amp;idx=1&amp;mid=401950837&amp;scene=0&amp;sn=f2162cd9154f044fe6f888b3a2a6c5e6\">今天，乔布斯崇拜的那个偏执狂离世了</a>才知道, 原來 Andy Grove 被 Steve Jobs 視為偶像啊。</p>\n\n<p>知道 Andy Grove 去世後, 我就馬上又買了他寫的另一本書 <a href=\"http://amzn.to/1q9uXTL\">Only the Paranoid Survive</a>, 又要再來拜讀大作了。</p>",
+          "description_markdown": "上禮拜聽到 Andy Grove 去世的, 應該是僅次於 Steve Jobs 去世最令我難過的消息消息了吧, 畢竟我才剛讀完他寫的 [High Output Management](http://amzn.to/25r0hgZ) 沒多久, 應該在前幾期的 CodeTengu 也有跟大家推薦過這本書了, 是一本讀完之後還想在讀第二遍、第三遍的書。\r\n\r\n而這篇文章是從微信上看到的, 找了台灣的新聞網站, 都是比較隨便帶過這件事, 所以還是分享給各位在微信的這篇了, 雖然裡面部分內容直接出自於 High Output Management 這本書的序。 \r\n\r\n我後來看了這篇: [今天，乔布斯崇拜的那个偏执狂离世了](http://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ%3D%3D&idx=1&mid=401950837&scene=0&sn=f2162cd9154f044fe6f888b3a2a6c5e6)才知道, 原來 Andy Grove 被 Steve Jobs 視為偶像啊。\r\n\r\n知道 Andy Grove 去世後, 我就馬上又買了他寫的另一本書 [Only the Paranoid Survive](http://amzn.to/1q9uXTL), 又要再來拜讀大作了。",
+          "embedded_links": [
+            {
+              "identifier": "wy6i7FS",
+              "title": "High Output Management",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/25r0hgZ"
+            },
+            {
+              "identifier": "7RdKjRn",
+              "title": "今天，乔布斯崇拜的那个偏执狂离世了",
+              "url_domain": "qq.com",
+              "url": "http://mp.weixin.qq.com/s?__biz=MzA5NzkxMzkwNQ%3D%3D&idx=1&mid=401950837&scene=0&sn=f2162cd9154f044fe6f888b3a2a6c5e6"
+            },
+            {
+              "identifier": "Ca4axDn",
+              "title": "Only the Paranoid Survive",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/1q9uXTL"
+            }
+          ]
+        },
+        {
+          "identifier": "HJVckll",
+          "type": "Link",
+          "title": "No Stack Startups",
+          "url_domain": "aweissman.com",
+          "url": "http://blog.aweissman.com/2015/05/no-stack-startups.html",
+          "description": "<p>所謂的 No stack startups 就是根本不需要開發人員也可以開始透過網路做生意的新創公司。 十年前是做生意得自己要有網站, 後來得要有 Facebook, 現在得有 IG, 而在中國得有微信。</p>\n\n<p>現在這個時代, 通通都不需要自己開發, 就透過可以 FB, 微信直接接觸到客戶, 甚至可以快速的跟客戶收款、做生意了, 而且大家其實也不在意流量是到哪邊去, 只要傳達出訊息, 或是收得到錢就可以了。</p>\n\n<p>更重要的一點就是, 你的網站、或是 App, 會比得上 Facebook 或是微信更普及嗎? 直接使用客戶已經安裝好, 而且熟悉的介面跟軟體, 是不是更快達成交易? 這時候是否還要自己開發網站跟 App 嗎? 特別又是在這個 Mobile only 的時代。</p>\n\n<p>另外, 關於這個概念我覺得可以跟這篇一起看, <a href=\"http://whoo.ps/2015/04/24/destination-everywhere\">Destination: Everywhere</a>, 裡面提到 New York Times 的首頁的流量以驚人的速度往下降, 畢竟現在大家都透過各式各樣的 SNS 在分享、閱讀新聞, 首頁似乎已經不再重要, 甚至 BuzzFeed 有專人在製作完全不會出現在 BuzzFeed 的網站上的內容。</p>\n\n<p>是不是某種程度上, 開發人員的價值越來越薄弱了? 最近剛聽完 <a href=\"http://amzn.to/1RmzJaM\">Rise of the Robots</a> 有感啊, 求生存真的越來越難了。</p>",
+          "description_markdown": "所謂的 No stack startups 就是根本不需要開發人員也可以開始透過網路做生意的新創公司。 十年前是做生意得自己要有網站, 後來得要有 Facebook, 現在得有 IG, 而在中國得有微信。\r\n\r\n現在這個時代, 通通都不需要自己開發, 就透過可以 FB, 微信直接接觸到客戶, 甚至可以快速的跟客戶收款、做生意了, 而且大家其實也不在意流量是到哪邊去, 只要傳達出訊息, 或是收得到錢就可以了。\r\n\r\n更重要的一點就是, 你的網站、或是 App, 會比得上 Facebook 或是微信更普及嗎? 直接使用客戶已經安裝好, 而且熟悉的介面跟軟體, 是不是更快達成交易? 這時候是否還要自己開發網站跟 App 嗎? 特別又是在這個 Mobile only 的時代。\r\n\r\n另外, 關於這個概念我覺得可以跟這篇一起看, [Destination: Everywhere](http://whoo.ps/2015/04/24/destination-everywhere), 裡面提到 New York Times 的首頁的流量以驚人的速度往下降, 畢竟現在大家都透過各式各樣的 SNS 在分享、閱讀新聞, 首頁似乎已經不再重要, 甚至 BuzzFeed 有專人在製作完全不會出現在 BuzzFeed 的網站上的內容。\r\n\r\n是不是某種程度上, 開發人員的價值越來越薄弱了? 最近剛聽完 [Rise of the Robots](http://amzn.to/1RmzJaM) 有感啊, 求生存真的越來越難了。",
+          "embedded_links": [
+            {
+              "identifier": "4j43qiM",
+              "title": "Destination: Everywhere",
+              "url_domain": "whoo.ps",
+              "url": "http://whoo.ps/2015/04/24/destination-everywhere"
+            },
+            {
+              "identifier": "4zAoqZs",
+              "title": "Rise of the Robots",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/1RmzJaM"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "yXkuG95",
+          "type": "Link",
+          "title": "淺談 AlphaGo 所涉及的深度學習技術",
+          "url_domain": "dotblogs.com.tw",
+          "url": "https://dotblogs.com.tw/allanyiin/2016/03/12/222215",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>日前 Google AlphaGo 擊敗了李世乭九段，成為了圍棋世界排名第二的 AlphoGo 九段，無知的人類一片啞然，甚至有人開始擔心人工智慧統治人類的一天到來，碼農們更是人人口中 Machine Learning、Deep Learning，網路上也充斥著各種討論 AlphaGo 相關技術的文章。但這些討論 AlphoGo 的文章裡，科普的文章有的錯誤百出，技術文章有的太過艱澀，這篇文章算是比較一篇比較深入潛出的文章，能夠對 AlphoGo 整體的原理有個概觀。</p>\n\n<p>若大家對 AlphaGo 整體的原理了解了，可以再搭配 <a href=\"http://www.slideshare.net/ckmarkohchang/alphago-in-depth\">AlphaGo in Depth</a> 這個投影片更深入地了解其中的演算法，相信看完後大家就能夠知道說 AlphaGo 是暴力解是多麼無知的說法了！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n日前 Google AlphaGo 擊敗了李世乭九段，成為了圍棋世界排名第二的 AlphoGo 九段，無知的人類一片啞然，甚至有人開始擔心人工智慧統治人類的一天到來，碼農們更是人人口中 Machine Learning、Deep Learning，網路上也充斥著各種討論 AlphaGo 相關技術的文章。但這些討論 AlphoGo 的文章裡，科普的文章有的錯誤百出，技術文章有的太過艱澀，這篇文章算是比較一篇比較深入潛出的文章，能夠對 AlphoGo 整體的原理有個概觀。\r\n\r\n若大家對 AlphaGo 整體的原理了解了，可以再搭配 [AlphaGo in Depth](http://www.slideshare.net/ckmarkohchang/alphago-in-depth) 這個投影片更深入地了解其中的演算法，相信看完後大家就能夠知道說 AlphaGo 是暴力解是多麼無知的說法了！",
+          "embedded_links": [
+            {
+              "identifier": "I16DFMO",
+              "title": "AlphaGo in Depth",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/ckmarkohchang/alphago-in-depth"
+            }
+          ],
+          "image_original_filename": "4be6351d-84df-4b0c-a040-87b47d987a05.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_4be6351d-84df-4b0c-a040-87b47d987a05.jpg",
+          "image_medium_filename": "original_ratio_medium_4be6351d-84df-4b0c-a040-87b47d987a05.jpg"
+        },
+        {
+          "identifier": "6FyDsdB",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第 13 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-san-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>再上一講中我們學會了讓原本的線性假設模型可以經過非線性轉換得以訓練更複雜的學習模型，理論上我們要做幾千次或幾萬次的轉換都是可行的，也可以讓我們在訓練的過程中得到非常好的效果，使用了這個方法永遠都可以讓訓練的錯誤率達到完美的 0！</p>\n\n<p>但複雜的模型卻可能會在測試時反而得到更差的結果，讓我們的學習模型無法進行準確的預測，這究竟是為什麼呢？這一講就是在探討這個問題。</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n再上一講中我們學會了讓原本的線性假設模型可以經過非線性轉換得以訓練更複雜的學習模型，理論上我們要做幾千次或幾萬次的轉換都是可行的，也可以讓我們在訓練的過程中得到非常好的效果，使用了這個方法永遠都可以讓訓練的錯誤率達到完美的 0！\r\n\r\n但複雜的模型卻可能會在測試時反而得到更差的結果，讓我們的學習模型無法進行準確的預測，這究竟是為什麼呢？這一講就是在探討這個問題。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "KaLKuI2",
+          "type": "Link",
+          "title": "Introduction to Scikit Flow - A Simplified Interface to TensorFlow",
+          "url_domain": "github.io",
+          "url": "http://terrytangyuan.github.io/2016/03/14/scikit-flow-intro/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>2015 年 11 月 Google 開源了 <a href=\"https://www.tensorflow.org/\">TensorFlow</a> 這個 Machine Learning Framework，讓研究者可以很容易地撰寫一些機器學習演算法。但在 TensorFlow 問世以前，大家要寫機器學習相關的應用幾乎都是使用 <a href=\"http://scikit-learn.org/\">Scikit-Learn</a> 這個套件，對習慣使用 Scikit-Learn 的人來說，TensorFlow 的介面是非常奇怪難懂的。Scikit Flow 提供了一些簡單的介面，讓習慣 Scikit-Learn 的人可以透過這些介面來使用 TensorFlow，裡面有幾個簡單的範例，大家可以進去感受一下～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n2015 年 11 月 Google 開源了 [TensorFlow](https://www.tensorflow.org/) 這個 Machine Learning Framework，讓研究者可以很容易地撰寫一些機器學習演算法。但在 TensorFlow 問世以前，大家要寫機器學習相關的應用幾乎都是使用 [Scikit-Learn](http://scikit-learn.org/) 這個套件，對習慣使用 Scikit-Learn 的人來說，TensorFlow 的介面是非常奇怪難懂的。Scikit Flow 提供了一些簡單的介面，讓習慣 Scikit-Learn 的人可以透過這些介面來使用 TensorFlow，裡面有幾個簡單的範例，大家可以進去感受一下～",
+          "embedded_links": [
+            {
+              "identifier": "WeqnHEk",
+              "title": "TensorFlow",
+              "url_domain": "tensorflow.org",
+              "url": "https://www.tensorflow.org/"
+            },
+            {
+              "identifier": "vpVO4gf",
+              "title": "Scikit-Learn",
+              "url_domain": "scikit-learn.org",
+              "url": "http://scikit-learn.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "Z6Meqe7",
+          "type": "Link",
+          "title": "批評 Active Record 的 13 個論點：最好用也最危險的 Anti-Pattern",
+          "url_domain": "turn.tw",
+          "url": "http://blog.turn.tw/?p=2992",
+          "description": "<p>PHP、Programming：中級</p>\n\n<p>現今的 Web Framework 幾乎都與資料庫脫離不了關係，自然幾乎都會實作到 Active Record。本篇文章提出了幾個 Active Record 可能會違反 OOP Design Pattern 的情況，有時幾乎是無可避免的，但不可諱言的是 Active Record 真的在開發資料庫相關的應用程式上帶來了很大的助益。本篇文章不是在反對使用 Active Record，提出這些注意事項反而可以讓我們知道在未來開發上會因為 Active Record 而造成什麼影響，至於要如何避免這些影響則沒有一定的答案，大家可以在開發中去取捨一個最好的做法。</p>",
+          "description_markdown": "PHP、Programming：中級\r\n\r\n現今的 Web Framework 幾乎都與資料庫脫離不了關係，自然幾乎都會實作到 Active Record。本篇文章提出了幾個 Active Record 可能會違反 OOP Design Pattern 的情況，有時幾乎是無可避免的，但不可諱言的是 Active Record 真的在開發資料庫相關的應用程式上帶來了很大的助益。本篇文章不是在反對使用 Active Record，提出這些注意事項反而可以讓我們知道在未來開發上會因為 Active Record 而造成什麼影響，至於要如何避免這些影響則沒有一定的答案，大家可以在開發中去取捨一個最好的做法。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "yPH5nY8",
+          "type": "Link",
+          "title": "階級世代：窮小孩與富小孩的機會不平等",
+          "url_domain": "books.com.tw",
+          "url": "http://www.books.com.tw/products/0010707975",
+          "description": "<p>感受一下，各位無產階級（<a href=\"http://www.appledaily.com.tw/appledaily/article/finance/20150823/36737031/\">難不成你以為你是中產階級嗎？</a>）。</p>\n\n<p>雖然說起來，軟體工程師其實是掌握著生產工具的啊。</p>",
+          "description_markdown": "感受一下，各位無產階級（[難不成你以為你是中產階級嗎？](http://www.appledaily.com.tw/appledaily/article/finance/20150823/36737031/)）。\r\n\r\n雖然說起來，軟體工程師其實是掌握著生產工具的啊。",
+          "embedded_links": [
+            {
+              "identifier": "nPrrKFZ",
+              "title": "難不成你以為你是中產階級嗎？",
+              "url_domain": "appledaily.com.tw",
+              "url": "http://www.appledaily.com.tw/appledaily/article/finance/20150823/36737031/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "C186LTL",
+          "type": "Link",
+          "title": "BallR: Interactive NBA Shot Charts with R and Shiny",
+          "url_domain": "toddwschneider.com",
+          "url": "http://toddwschneider.com/posts/ballr-interactive-nba-shot-charts-with-r-and-shiny/",
+          "description": "<p>這個 Project 使用了 NBA 提供的 API 製作了一個呈現 NBA 球員射籃位置的互動介面，可以瀏覽 1996 年以來每一個 NBA 球員的射籃位置數據，範例圖片是 Stephen Curry 在非禁區的射籃位置 Hot Zone，的確與實際情況相符啊！大家有興趣做一些 Hack 的話，可以去找 <a href=\"https://github.com/toddwschneider/ballr\">Source Code</a> 來玩玩看。</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享</p>",
+          "description_markdown": "這個 Project 使用了 NBA 提供的 API 製作了一個呈現 NBA 球員射籃位置的互動介面，可以瀏覽 1996 年以來每一個 NBA 球員的射籃位置數據，範例圖片是 Stephen Curry 在非禁區的射籃位置 Hot Zone，的確與實際情況相符啊！大家有興趣做一些 Hack 的話，可以去找 [Source Code](https://github.com/toddwschneider/ballr) 來玩玩看。\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享",
+          "embedded_links": [
+            {
+              "identifier": "Pfgtyu6",
+              "title": "Source Code",
+              "url_domain": "github.com",
+              "url": "https://github.com/toddwschneider/ballr"
+            },
+            {
+              "identifier": "ksiJkzT",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "8a16bba4-df64-4d3a-84b2-6f0798d76c3a.png",
+          "image_extra_large_filename": "original_ratio_extra_large_8a16bba4-df64-4d3a-84b2-6f0798d76c3a.png",
+          "image_medium_filename": "original_ratio_medium_8a16bba4-df64-4d3a-84b2-6f0798d76c3a.png"
+        }
+      ]
+    }
+  ]
+}

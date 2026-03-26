@@ -1,0 +1,514 @@
+{
+  "number": 33,
+  "title": "Issue 33 軟體開發領域的五大反人類的發明：JavaScript、Regular Expression、XML、Git 和 PM",
+  "summary": "本期內容涵蓋 React.js, Django, Celery, HTTPS, HTTP Caching, Python, PHP, JavaScript, 技術面試, 機器學習",
+  "url": "https://weekly.codetengu.com/issues/33",
+  "publication_status": "published",
+  "published_at": "2016-03-07T02:00:00+00:00",
+  "updated_at": "2016-03-07T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 最喜歡科幻小說了</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 最喜歡科幻小說了\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "uHekxB9",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "6jUtAcC",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "GdHabqz",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "plul54W",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "OEVacCT",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "WaxdaTB",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9c4QrjF",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "zqs9fit",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "zZIZk9z",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "aKftiNP",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "gPZlZhh",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "LQQkcnk",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "HYfpjLc",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "IJT5hy7",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "IpUorwF",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "pc1nkcZ",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "c5Ca10m",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Nft4aVt",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "xmhvEfF",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "RNvwH4d",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "cJdh4Wq",
+          "type": "Link",
+          "title": "Python 101: All about imports",
+          "url_domain": "pythonlibrary.org",
+          "url": "http://www.blog.pythonlibrary.org/2016/03/01/python-101-all-about-imports/",
+          "description": "<p>不管是學習任何一種程式語言，該語言的 package / module / import 機制可能都是我們在學完那些基本的資料型態和語法之後，首先需要掌握的知識。這篇文章就 Python 的幾種常見的 import 方式做了一個簡單的梳理，然後，你就可以接著看一下 Related Reading 裡提到的那三篇文章，非常值得一讀，例如 <code>__init__.py</code> 的作用、<code>__name__</code> 屬性以及 script 和 module 的分別。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://stackoverflow.com/questions/14132789/python-relative-imports-for-the-billionth-time\">Python relative imports for the billionth time</a></li>\n<li><a href=\"http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html\">Traps for the Unwary in Python’s Import System</a></li>\n<li><a href=\"https://gist.github.com/datagrok/40bf84d5870c41a77dc6\">Circular imports in Python 2 and Python 3: when are they fatal? When do they work?</a></li>\n</ul>",
+          "description_markdown": "不管是學習任何一種程式語言，該語言的 package / module / import 機制可能都是我們在學完那些基本的資料型態和語法之後，首先需要掌握的知識。這篇文章就 Python 的幾種常見的 import 方式做了一個簡單的梳理，然後，你就可以接著看一下 Related Reading 裡提到的那三篇文章，非常值得一讀，例如 `__init__.py` 的作用、`__name__` 屬性以及 script 和 module 的分別。\r\n\r\n延伸閱讀：\r\n\r\n- [Python relative imports for the billionth time](http://stackoverflow.com/questions/14132789/python-relative-imports-for-the-billionth-time)\r\n- [Traps for the Unwary in Python’s Import System](http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html)\r\n- [Circular imports in Python 2 and Python 3: when are they fatal? When do they work?](https://gist.github.com/datagrok/40bf84d5870c41a77dc6)",
+          "embedded_links": [
+            {
+              "identifier": "YfngyC5",
+              "title": "Python relative imports for the billionth time",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/14132789/python-relative-imports-for-the-billionth-time"
+            },
+            {
+              "identifier": "1Advk6w",
+              "title": "Traps for the Unwary in Python’s Import System",
+              "url_domain": "curiousefficiency.org",
+              "url": "http://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html"
+            },
+            {
+              "identifier": "GIjr7aF",
+              "title": "Circular imports in Python 2 and Python 3: when are they fatal? When do they work?",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/datagrok/40bf84d5870c41a77dc6"
+            }
+          ]
+        },
+        {
+          "identifier": "tnYW99P",
+          "type": "Link",
+          "title": "Celery - Best Practices",
+          "url_domain": "denibertovic.com",
+          "url": "https://denibertovic.com/posts/celery-best-practices/",
+          "description": "<p>這篇文章提到了以下幾個在使用 <a href=\"http://celery.readthedocs.org/en/latest/\">Celery</a> 和 Django 時的最佳實踐，例如：</p>\n\n<ul>\n<li>Don't use the database as your AMQP Broker</li>\n<li>Use more Queues (ie. not just the default one)</li>\n<li>Use priority workers</li>\n<li>Use Celery's error handling mechanisms</li>\n<li>Keep track of results only if you really need them</li>\n<li>Don't pass Database/ORM objects to tasks</li>\n</ul>\n\n\n<p>除此之外，關於 <a href=\"http://celery.readthedocs.org/en/latest/userguide/tasks.html#database-transactions\">transaction</a> 的部分也常常是個坑啊，而且其實官方的 User Guide 真的就講了很多重點啦。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://blog.balthazar-rouberol.com/celery-best-practices\">Celery best practices</a></li>\n</ul>",
+          "description_markdown": "這篇文章提到了以下幾個在使用 [Celery](http://celery.readthedocs.org/en/latest/) 和 Django 時的最佳實踐，例如：\r\n\r\n- Don't use the database as your AMQP Broker\r\n- Use more Queues (ie. not just the default one)\r\n- Use priority workers\r\n- Use Celery's error handling mechanisms\r\n- Keep track of results only if you really need them\r\n- Don't pass Database/ORM objects to tasks\r\n\r\n除此之外，關於 [transaction](http://celery.readthedocs.org/en/latest/userguide/tasks.html#database-transactions) 的部分也常常是個坑啊，而且其實官方的 User Guide 真的就講了很多重點啦。\r\n\r\n延伸閱讀：\r\n\r\n- [Celery best practices](https://blog.balthazar-rouberol.com/celery-best-practices)",
+          "embedded_links": [
+            {
+              "identifier": "8Crd0Ek",
+              "title": "Celery",
+              "url_domain": "readthedocs.org",
+              "url": "http://celery.readthedocs.org/en/latest/"
+            },
+            {
+              "identifier": "tsb5olc",
+              "title": "transaction",
+              "url_domain": "readthedocs.org",
+              "url": "http://celery.readthedocs.org/en/latest/userguide/tasks.html#database-transactions"
+            },
+            {
+              "identifier": "LvnSQrp",
+              "title": "Celery best practices",
+              "url_domain": "balthazar-rouberol.com",
+              "url": "https://blog.balthazar-rouberol.com/celery-best-practices"
+            }
+          ]
+        },
+        {
+          "identifier": "zLBdFp2",
+          "type": "Link",
+          "title": "React.js cheatsheet",
+          "url_domain": "ricostacruz.com",
+          "url": "http://ricostacruz.com/cheatsheets/react.html",
+          "description": "<p>上禮拜幾乎都在寫 React，在胡亂 google 的過程中找到了一篇寫得非常不錯的速查表，建議再搭配 <a href=\"http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/\">Execution sequence of a React component’s lifecycle methods</a>，這樣上手 React 基本上就妥當啦。</p>\n\n<p>P.S. 作者的網站上還有超多其他主題的 cheatsheet，媽的這個人到底有多閒！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://segmentfault.com/a/1190000004470135\">React.js 学习笔记之 JSX 解读</a></li>\n</ul>",
+          "description_markdown": "上禮拜幾乎都在寫 React，在胡亂 google 的過程中找到了一篇寫得非常不錯的速查表，建議再搭配 [Execution sequence of a React component’s lifecycle methods](http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/)，這樣上手 React 基本上就妥當啦。\r\n\r\nP.S. 作者的網站上還有超多其他主題的 cheatsheet，媽的這個人到底有多閒！\r\n\r\n延伸閱讀：\r\n\r\n- [React.js 学习笔记之 JSX 解读](https://segmentfault.com/a/1190000004470135)",
+          "embedded_links": [
+            {
+              "identifier": "94HOySP",
+              "title": "Execution sequence of a React component’s lifecycle methods",
+              "url_domain": "tutorialhorizon.com",
+              "url": "http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/"
+            },
+            {
+              "identifier": "jtVTTT8",
+              "title": "React.js 学习笔记之 JSX 解读",
+              "url_domain": "segmentfault.com",
+              "url": "https://segmentfault.com/a/1190000004470135"
+            }
+          ]
+        },
+        {
+          "identifier": "4rFSEGE",
+          "type": "Link",
+          "title": "HTTPS 科普扫盲帖",
+          "url_domain": "segmentfault.com",
+          "url": "https://segmentfault.com/a/1190000004523659",
+          "description": "<p>現在大家一天到晚都在講 HTTPS，如果你的網站沒有全站 HTTPS 似乎還會被人瞧不起，但是說到底，為什麼 HTTPS 跟 HTTP 相比會更安全呢？</p>\n\n<p>看完這篇文章你就懂了！</p>",
+          "description_markdown": "現在大家一天到晚都在講 HTTPS，如果你的網站沒有全站 HTTPS 似乎還會被人瞧不起，但是說到底，為什麼 HTTPS 跟 HTTP 相比會更安全呢？\r\n\r\n看完這篇文章你就懂了！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5rKUcIc",
+          "type": "Link",
+          "title": "Cache Control 與 ETag",
+          "url_domain": "othree.net",
+          "url": "https://blog.othree.net/log/2012/12/22/cache-control-and-etag/",
+          "description": "<p>這篇文章專門在講 HTTP 的 cache 相關的 headers，作者是 <a href=\"https://github.com/othree\">@othree</a>，他是我看過寫技術文章寫得最好的工程師了啊。而且他的 blog 上還有很多關於 <a href=\"https://blog.othree.net/log/script/all/\">JavaScript</a> 的文章。</p>\n\n<p>我覺得他可能就是台灣 Web 界的管仁健。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-tw\">HTTP 快取</a></li>\n</ul>",
+          "description_markdown": "這篇文章專門在講 HTTP 的 cache 相關的 headers，作者是 [@othree](https://github.com/othree)，他是我看過寫技術文章寫得最好的工程師了啊。而且他的 blog 上還有很多關於 [JavaScript](https://blog.othree.net/log/script/all/) 的文章。\r\n\r\n我覺得他可能就是台灣 Web 界的管仁健。\r\n\r\n延伸閱讀：\r\n\r\n- [HTTP 快取](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-tw)",
+          "embedded_links": [
+            {
+              "identifier": "XmdefrH",
+              "title": "@othree",
+              "url_domain": "github.com",
+              "url": "https://github.com/othree"
+            },
+            {
+              "identifier": "7NFK0QH",
+              "title": "JavaScript",
+              "url_domain": "othree.net",
+              "url": "https://blog.othree.net/log/script/all/"
+            },
+            {
+              "identifier": "5Ldy1Ao",
+              "title": "HTTP 快取",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-tw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "9bAaVDm",
+          "type": "Link",
+          "title": "The Anatomy of the Perfect Technical Interview from a Former Amazon VP",
+          "url_domain": "firstround.com",
+          "url": "http://firstround.com/review/The-anatomy-of-the-perfect-technical-interview-from-a-former-Amazon-VP/",
+          "description": "<p>前 Amazon 技術副總 Neil Roseman 分享的技術面試剖析。</p>\n\n<p>幾個月前因為覺得自己面試技巧非常不足, 所以一口氣讀了 6, 7 本面試相關的書籍, 我發現這篇文章其實也用上了許多書中看到的技巧。</p>\n\n<p>例如:</p>\n\n<ul>\n<li>一開始先介紹自己、閒聊，讓面試者放鬆</li>\n</ul>\n\n\n<blockquote><p>並不是每個人都很善於表達, 特別是內向的人, 面試也容易緊張, 讓面試者放鬆是非常必要的</p></blockquote>\n\n<ul>\n<li>發問的技巧: Probe, Dig</li>\n</ul>\n\n\n<blockquote><p>不要只聽到表面的答案, 繼續挖深</p></blockquote>\n\n<ul>\n<li>問模糊、開放性的問題, 看面試者會怎麼發問</li>\n</ul>\n\n\n<blockquote><p>我覺得這點算是面試技巧中的 \"Visualize\", 像是: 如果要完成 XX 任務, 得知道哪些條件、限制, 看面試者如何發問, 問出重點, 剖析問題</p></blockquote>\n\n<p>另外, 文中提到, Neil 特別喜歡聊產品設計,因為好的工程師並不單只接受指令進行開發, 而是主動參與產品的整個發展。</p>\n\n<p>最後, 「找到對的人」真的是管理工作中最重要的事, 不免再提一句名言叫:「Hire smart or manage tough」</p>",
+          "description_markdown": "前 Amazon 技術副總 Neil Roseman 分享的技術面試剖析。\r\n\r\n幾個月前因為覺得自己面試技巧非常不足, 所以一口氣讀了 6, 7 本面試相關的書籍, 我發現這篇文章其實也用上了許多書中看到的技巧。\r\n\r\n例如: \r\n\r\n* 一開始先介紹自己、閒聊，讓面試者放鬆\r\n\r\n> 並不是每個人都很善於表達, 特別是內向的人, 面試也容易緊張, 讓面試者放鬆是非常必要的\r\n\r\n* 發問的技巧: Probe, Dig \r\n\r\n> 不要只聽到表面的答案, 繼續挖深\r\n\r\n* 問模糊、開放性的問題, 看面試者會怎麼發問\r\n\r\n> 我覺得這點算是面試技巧中的 \"Visualize\", 像是: 如果要完成 XX 任務, 得知道哪些條件、限制, 看面試者如何發問, 問出重點, 剖析問題\r\n\r\n另外, 文中提到, Neil 特別喜歡聊產品設計,因為好的工程師並不單只接受指令進行開發, 而是主動參與產品的整個發展。\r\n\r\n最後, 「找到對的人」真的是管理工作中最重要的事, 不免再提一句名言叫:「Hire smart or manage tough」",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "b9Prlh",
+          "type": "Link",
+          "title": "Minimal Django",
+          "url_domain": "github.com",
+          "url": "https://github.com/rnevius/minimal-django",
+          "description": "<p>一隻 <code>.py</code> 就可以跑的 Django 專案範例, 提供了一個 Django 可以跟 Flask 一樣小的概念, 不過其實 url router 還可以簡化成像是 flask 那樣的 decorator, 如果再補上個 wsgi 應該會更完整了。</p>",
+          "description_markdown": "一隻 `.py` 就可以跑的 Django 專案範例, 提供了一個 Django 可以跟 Flask 一樣小的概念, 不過其實 url router 還可以簡化成像是 flask 那樣的 decorator, 如果再補上個 wsgi 應該會更完整了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "RmlaWAW",
+          "type": "Link",
+          "title": "Nagi - Leaderboard system that helps you rank million user data.",
+          "url_domain": "github.com",
+          "url": "https://github.com/whiteclover/Nagi",
+          "description": "<p>用 Python 基於 MySQL 開發的遊戲排行榜系統, 還提供了 <a href=\"https://github.com/whiteclover/Nagi/blob/master/design_cn.rst\">中文文件</a> 做詳細的算法以及技術效能說明啊, 學習了!</p>",
+          "description_markdown": "用 Python 基於 MySQL 開發的遊戲排行榜系統, 還提供了 [中文文件](https://github.com/whiteclover/Nagi/blob/master/design_cn.rst) 做詳細的算法以及技術效能說明啊, 學習了!",
+          "embedded_links": [
+            {
+              "identifier": "MsFRPao",
+              "title": "中文文件",
+              "url_domain": "github.com",
+              "url": "https://github.com/whiteclover/Nagi/blob/master/design_cn.rst"
+            }
+          ]
+        },
+        {
+          "identifier": "77JsU6V",
+          "type": "Link",
+          "title": "本週 IG: @linzy_minji",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/linzy_minji/",
+          "description": "<p>Fiestar 主唱, 但 Fiestar 我還是最愛 <a href=\"https://www.instagram.com/kimjeii/\">Jei</a> 了 ~</p>",
+          "description_markdown": "Fiestar 主唱, 但 Fiestar 我還是最愛 [Jei](https://www.instagram.com/kimjeii/) 了 ~",
+          "embedded_links": [
+            {
+              "identifier": "H4Hw7xR",
+              "title": "Jei",
+              "url_domain": "instagram.com",
+              "url": "https://www.instagram.com/kimjeii/"
+            }
+          ],
+          "image_original_filename": "2eaf969a-6984-4549-865b-b2628d54bb5e.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_2eaf969a-6984-4549-865b-b2628d54bb5e.jpg",
+          "image_medium_filename": "original_ratio_medium_2eaf969a-6984-4549-865b-b2628d54bb5e.jpg"
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "hBz13Fj",
+          "type": "Link",
+          "title": "Google Unveils Neural Network with “Superhuman” Ability to Determine the Location of Almost Any Image - Google 發表辨識照片拍照地點演算法 PlaNet 準確度擊敗人類",
+          "url_domain": "technologyreview.com",
+          "url": "https://www.technologyreview.com/s/600889/google-unveils-neural-network-with-superhuman-ability-to-determine-the-location-of-almost/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>這是一篇 Google 剛在 2016 二月發表的一篇論文，<a href=\"http://www.vision.rwth-aachen.de/people/weyand\">Tobias Weyand</a> 等人提出了一個基於 Neural Network 的機器學習演算法 PlaNet，這個演算法可以分析照片然後正確辨識照片的地點。</p>\n\n<p>其實這個問題非常難，如果拍照的地點沒有任何眾所皆知的地標，例如自由女神像、艾菲爾鐵塔、101 大樓等等，那就很難辨識拍照的地點。PlaNet 可以做到給定一個街景照片，然後相對精準（比起人類）的辨識拍照地點。</p>\n\n<p>其中的核心原理就像是很有經驗的旅人，可以透過建築的樣式、招牌的文字或是道路左駕右駕來辨識地點，PlaNet 透過大量的照片作為學習資料，確實比人類更有優勢可以辨識街景照片辨識地點，畢竟一個人類一生可以去旅行的地方是有限的。</p>\n\n<p>如果大家有興趣，也可以看一下<a href=\"http://arxiv.org/pdf/1602.05314v1.pdf\">本篇論文</a>做更深入的了解。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.geoguessr.com/\">GeoGuessr</a> - 用來實驗人類辨識街景照片地點的應用</li>\n</ul>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n這是一篇 Google 剛在 2016 二月發表的一篇論文，[Tobias Weyand](http://www.vision.rwth-aachen.de/people/weyand) 等人提出了一個基於 Neural Network 的機器學習演算法 PlaNet，這個演算法可以分析照片然後正確辨識照片的地點。\r\n\r\n其實這個問題非常難，如果拍照的地點沒有任何眾所皆知的地標，例如自由女神像、艾菲爾鐵塔、101 大樓等等，那就很難辨識拍照的地點。PlaNet 可以做到給定一個街景照片，然後相對精準（比起人類）的辨識拍照地點。\r\n\r\n其中的核心原理就像是很有經驗的旅人，可以透過建築的樣式、招牌的文字或是道路左駕右駕來辨識地點，PlaNet 透過大量的照片作為學習資料，確實比人類更有優勢可以辨識街景照片辨識地點，畢竟一個人類一生可以去旅行的地方是有限的。\r\n\r\n如果大家有興趣，也可以看一下[本篇論文](http://arxiv.org/pdf/1602.05314v1.pdf)做更深入的了解。\r\n\r\n延伸閱讀：\r\n\r\n- [GeoGuessr](http://www.geoguessr.com/) - 用來實驗人類辨識街景照片地點的應用",
+          "embedded_links": [
+            {
+              "identifier": "5ocef2O",
+              "title": "Tobias Weyand",
+              "url_domain": "rwth-aachen.de",
+              "url": "http://www.vision.rwth-aachen.de/people/weyand"
+            },
+            {
+              "identifier": "Sj3BAeT",
+              "title": "本篇論文",
+              "url_domain": "arxiv.org",
+              "url": "http://arxiv.org/pdf/1602.05314v1.pdf"
+            },
+            {
+              "identifier": "sVMYnVe",
+              "title": "GeoGuessr",
+              "url_domain": "geoguessr.com",
+              "url": "http://www.geoguessr.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "Z046neI",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第 12 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-er-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>經過了 10 講的課程我們才在上一講學會了如何讓機器學習做多元分類，在這一講我們又要讓技能快速進化了！（希望大家跟我一樣感到<a href=\"https://www.facebook.com/%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80-386169334761145/\">興奮</a>）在之前的問題中，我們只能夠讓機器笨笨地學習用直線來分類，在這短短的一講，我們將能夠學到透過非線性轉換的方式讓機器學習到如何使用非線性方程式來做分類，可能是圓圈、橢圓、雙曲線或是任何奇形怪狀的曲線，機器可以從中挑出一個最好的結果。學會了這個方法就如同打開了潘多拉的盒子啊！</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n經過了 10 講的課程我們才在上一講學會了如何讓機器學習做多元分類，在這一講我們又要讓技能快速進化了！（希望大家跟我一樣感到[興奮](https://www.facebook.com/%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80-386169334761145/)）在之前的問題中，我們只能夠讓機器笨笨地學習用直線來分類，在這短短的一講，我們將能夠學到透過非線性轉換的方式讓機器學習到如何使用非線性方程式來做分類，可能是圓圈、橢圓、雙曲線或是任何奇形怪狀的曲線，機器可以從中挑出一個最好的結果。學會了這個方法就如同打開了潘多拉的盒子啊！",
+          "embedded_links": [
+            {
+              "identifier": "sDpLTfi",
+              "title": "興奮",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80%E6%88%91%E5%A5%BD%E8%88%88%E5%A5%AE%E5%91%80-386169334761145/"
+            }
+          ]
+        },
+        {
+          "identifier": "rdQ5YBw",
+          "type": "Link",
+          "title": "簡單聊一下 one-way data flow、two-way data binding 與前端框架",
+          "url_domain": "turn.tw",
+          "url": "http://blog.turn.tw/?p=2948",
+          "description": "<p>JavaScript：中級</p>\n\n<p>前端框架在這短短幾年的時間改變了非常多，JavaScript 新手在接觸這些框架時，往往也是在一知半解的情況下隨著時代往前，從 jQuery、Backbone.js、Angular 到現在最紅的 React，究竟這些框架為自己帶來多少開發上的益處？其實值得好好思考。</p>\n\n<p>本篇文章從 one-way data flow 以及 two-way data binding 兩個名詞及觀念上的混淆出發，慢慢闡述每個框架如何做到 one-way data flow 及 two-way data binding，清楚陳述了面對這兩個名詞時應有的觀念是什麼，這樣思考一個問題的思路正是新手邁入進階者可以學習、訓練的方向。</p>",
+          "description_markdown": "JavaScript：中級\r\n\r\n前端框架在這短短幾年的時間改變了非常多，JavaScript 新手在接觸這些框架時，往往也是在一知半解的情況下隨著時代往前，從 jQuery、Backbone.js、Angular 到現在最紅的 React，究竟這些框架為自己帶來多少開發上的益處？其實值得好好思考。\r\n\r\n本篇文章從 one-way data flow 以及 two-way data binding 兩個名詞及觀念上的混淆出發，慢慢闡述每個框架如何做到 one-way data flow 及 two-way data binding，清楚陳述了面對這兩個名詞時應有的觀念是什麼，這樣思考一個問題的思路正是新手邁入進階者可以學習、訓練的方向。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "q7xFouD",
+          "type": "Link",
+          "title": "Master PHP Array Functions - 我要成為 PHP Array 大師！",
+          "url_domain": "startutorial.com",
+          "url": "http://www.startutorial.com/articles/view/master-php-array-functions",
+          "description": "<p>PHP：初級</p>\n\n<p>寫程式時缺少不了使用 Array 作為資料結構來進行一些簡單的運算，但 PHP 因為發展的早，早期不成熟的範例程式碼充斥在網路上，也因此 PHP 新手在使用 PHP Array 時常常會使用到舊的寫法，而沒有使用 PHP 新內建的 PHP Array 操作方法，這反而有可能造成程式的效能低落。</p>\n\n<p>舉例來說，假設現在我們有許多書本的書名 String 資料存在 Array 中，當我們現在想要從書本書名含有 \"Design\" 這個字串的書本移出 Array，那 PHP 新手可能會這樣寫：</p>\n\n<pre><code>for ($i = 0; $i &lt; count($books); $i++) {\n    if (false !== strpos($books[$i], 'Design')) {\n        unset($books[$i]);\n    }\n}\n</code></pre>\n\n<p>但其實 PHP 有內建 <code>array_filter</code> 這個 function 可以使用，寫法就可以改成：</p>\n\n<pre><code>$books = array_filter($books, function($book) {\n    return (false === strpos($book, 'Design'));\n});\n</code></pre>\n\n<p>還在新手村的 PHP 朋友們可以進去看一下還有沒有什麼好用的 Array 操作方法吧！</p>",
+          "description_markdown": "PHP：初級\r\n\r\n寫程式時缺少不了使用 Array 作為資料結構來進行一些簡單的運算，但 PHP 因為發展的早，早期不成熟的範例程式碼充斥在網路上，也因此 PHP 新手在使用 PHP Array 時常常會使用到舊的寫法，而沒有使用 PHP 新內建的 PHP Array 操作方法，這反而有可能造成程式的效能低落。\r\n\r\n舉例來說，假設現在我們有許多書本的書名 String 資料存在 Array 中，當我們現在想要從書本書名含有 \"Design\" 這個字串的書本移出 Array，那 PHP 新手可能會這樣寫：\r\n\r\n```\r\nfor ($i = 0; $i < count($books); $i++) {\r\n    if (false !== strpos($books[$i], 'Design')) {\r\n        unset($books[$i]);\r\n    }\r\n}\r\n```\r\n\r\n但其實 PHP 有內建 `array_filter` 這個 function 可以使用，寫法就可以改成：\r\n\r\n```\r\n$books = array_filter($books, function($book) {\r\n    return (false === strpos($book, 'Design'));\r\n});\r\n```\r\n\r\n還在新手村的 PHP 朋友們可以進去看一下還有沒有什麼好用的 Array 操作方法吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "aUAsOCf",
+          "type": "Link",
+          "title": "9 Development Workflow Upgrades You Should Know About - PHP 進階開發者需要知道的 9 個開發工具",
+          "url_domain": "sitepoint.com",
+          "url": "http://www.sitepoint.com/9-development-workflow-upgrades-you-should-know-about/",
+          "description": "<p>PHP：中級</p>\n\n<p>當 PHP 新手脫離新手村之後，就要開始慢慢學習讓自己工作得更快更好。這是 <a href=\"https://twitter.com/bitfalls\">Bruno Skvorc</a> 分享的一些好用開發工具，其中 <a href=\"https://github.com/imsky/git-fresh\">git-fresh</a>、<a href=\"https://github.com/tj/git-extras\">git-extras</a>、<a href=\"https://gist.github.com/Pierstoval/1645a26ea5d2200642b6\">快速切換 PHP 版本環境套件 phpv</a> 以及 <a href=\"https://github.com/hirak/prestissimo\">Composer 同步下載套件 prestissimo</a> 都很好用！</p>\n\n<p>至於後面勸敗的 <a href=\"https://www.google.com.tw/search?q=Split+Keyboard&amp;lr=lang_zh-CN%7Clang_zh-TW&amp;biw=1440&amp;bih=725&amp;tbs=lr:lang_1zh-CN%7Clang_1zh-TW&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwi_kuvAiKnLAhVLjZQKHTyVAjQQ_AUIBygB\">拆分鍵盤</a>、<a href=\"https://www.google.com.tw/search?q=Treadmill+Desk&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwj7u5ShiKnLAhUHKJQKHQZCD-EQ_AUIBygB&amp;biw=1440&amp;bih=725\">跑步機工作桌</a> 大家可以參考看看就好了～</p>",
+          "description_markdown": "PHP：中級\r\n\r\n當 PHP 新手脫離新手村之後，就要開始慢慢學習讓自己工作得更快更好。這是 [Bruno Skvorc](https://twitter.com/bitfalls) 分享的一些好用開發工具，其中 [git-fresh](https://github.com/imsky/git-fresh)、[git-extras](https://github.com/tj/git-extras)、[快速切換 PHP 版本環境套件 phpv](https://gist.github.com/Pierstoval/1645a26ea5d2200642b6) 以及 [Composer 同步下載套件 prestissimo](https://github.com/hirak/prestissimo) 都很好用！\r\n\r\n至於後面勸敗的 [拆分鍵盤](https://www.google.com.tw/search?q=Split+Keyboard&lr=lang_zh-CN%7Clang_zh-TW&biw=1440&bih=725&tbs=lr:lang_1zh-CN%7Clang_1zh-TW&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi_kuvAiKnLAhVLjZQKHTyVAjQQ_AUIBygB)、[跑步機工作桌](https://www.google.com.tw/search?q=Treadmill+Desk&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7u5ShiKnLAhUHKJQKHQZCD-EQ_AUIBygB&biw=1440&bih=725) 大家可以參考看看就好了～",
+          "embedded_links": [
+            {
+              "identifier": "16rjEUY",
+              "title": "Bruno Skvorc",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/bitfalls"
+            },
+            {
+              "identifier": "rbfMAfg",
+              "title": "git-fresh",
+              "url_domain": "github.com",
+              "url": "https://github.com/imsky/git-fresh"
+            },
+            {
+              "identifier": "9IodCjl",
+              "title": "git-extras",
+              "url_domain": "github.com",
+              "url": "https://github.com/tj/git-extras"
+            },
+            {
+              "identifier": "o7uwx9d",
+              "title": "快速切換 PHP 版本環境套件 phpv",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/Pierstoval/1645a26ea5d2200642b6"
+            },
+            {
+              "identifier": "c6dsEcA",
+              "title": "Composer 同步下載套件 prestissimo",
+              "url_domain": "github.com",
+              "url": "https://github.com/hirak/prestissimo"
+            },
+            {
+              "identifier": "mHLo7BA",
+              "title": "拆分鍵盤",
+              "url_domain": "google.com.tw",
+              "url": "https://www.google.com.tw/search?q=Split+Keyboard&lr=lang_zh-CN%7Clang_zh-TW&biw=1440&bih=725&tbs=lr:lang_1zh-CN%7Clang_1zh-TW&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi_kuvAiKnLAhVLjZQKHTyVAjQQ_AUIBygB"
+            },
+            {
+              "identifier": "3RZHL3i",
+              "title": "跑步機工作桌",
+              "url_domain": "google.com.tw",
+              "url": "https://www.google.com.tw/search?q=Treadmill+Desk&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj7u5ShiKnLAhUHKJQKHQZCD-EQ_AUIBygB&biw=1440&bih=725"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "ETPQImn",
+          "type": "Link",
+          "title": "The most useful under-used feature of email",
+          "url_domain": "github.io",
+          "url": "https://ses4j.github.io/2015/12/01/the-most-useful-under-used-feature-of-email/",
+          "description": "<p>這是個神奇的 Gmail 秘技，就是其實你可以在你的 Gmail 的 username 的部分加上 <code>+</code> 和任意的 <code>.</code> 組成新的 email 地址，而寄到這些 email 的信通通都會寄到你原本的 Gmail，簡單說就是 alias 啦。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "這是個神奇的 Gmail 秘技，就是其實你可以在你的 Gmail 的 username 的部分加上 `+` 和任意的 `.` 組成新的 email 地址，而寄到這些 email 的信通通都會寄到你原本的 Gmail，簡單說就是 alias 啦。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "MdeUPVX",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "bUBZGAV",
+          "type": "Link",
+          "title": "一團美好的混濁稀泥 － 異獸魔都",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@autisticcat/%E4%B8%80%E5%9C%98%E7%BE%8E%E5%A5%BD%E7%9A%84%E6%B7%B7%E6%BF%81%E7%A8%80%E6%B3%A5-%E7%95%B0%E7%8D%B8%E9%AD%94%E9%83%BD-88984c620430#.4p16higb9",
+          "description": "<p>在我心中有一部漫畫超越『獵人』的存在，它的名字叫做『異獸魔都』(ドロヘドロ)。</p>\n\n<p>老實說要寫這篇的時候我想了很久，因為林田球的作品不是三言兩語可以說盡的，如果說『獵人』具備鬼才式的開創性和世界觀，那『異獸魔都』即是擁有惡魔般的創造力和不屬於這個世界的世界觀，這樣說也許有點抽象，但就想像你在看《瘋狂麥斯》那種感官衝擊。</p>",
+          "description_markdown": "在我心中有一部漫畫超越『獵人』的存在，它的名字叫做『異獸魔都』(ドロヘドロ)。\r\n\r\n老實說要寫這篇的時候我想了很久，因為林田球的作品不是三言兩語可以說盡的，如果說『獵人』具備鬼才式的開創性和世界觀，那『異獸魔都』即是擁有惡魔般的創造力和不屬於這個世界的世界觀，這樣說也許有點抽象，但就想像你在看《瘋狂麥斯》那種感官衝擊。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "e1a6ba9b-f1a9-4551-bcb6-bd5b5c6797e3.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_e1a6ba9b-f1a9-4551-bcb6-bd5b5c6797e3.jpg",
+          "image_medium_filename": "original_ratio_medium_e1a6ba9b-f1a9-4551-bcb6-bd5b5c6797e3.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "number": 136,
+  "title": "Issue 136 溫馨提醒：程式是照你寫的跑，不是照你想的跑",
+  "summary": "本期內容涵蓋 Career, iOS, Python, YAML, React Native, JavaScript ",
+  "url": "https://weekly.codetengu.com/issues/136",
+  "publication_status": "published",
+  "published_at": "2018-07-30T03:00:00+01:00",
+  "updated_at": "2018-07-30T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently's Holistic Detective Agency</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently's Holistic Detective Agency](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "bvRC7c8",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "mMJ0Orw",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "CkwyS81",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "vJieJ8O",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Ze1c0S2",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "7IDcF3k",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "jNSJRJS",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "n8zePTI",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "zzVw2tx",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "hTv0IeO",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "ORJsZ5m",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "z4FIyIZ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "FJbZ0zJ",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "MbhZgb7",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "VStHB9m",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "vBjlU81",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "j9kiF6p",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "tI1UBFe",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "iJ15jei",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "OLUN6ss",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "FEc1YXP",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "oqHkb2",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "eSVjDnu",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "77BnQOg",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "con8YUG",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "DGWOmBP",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "zbf2XXN",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "TRVkAAd",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "wnLkWzW",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "CP5ksP7",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "zFiFGsN",
+          "type": "Link",
+          "title": "How To Prepare For A One-on-One Meeting As a Manager",
+          "url_domain": "knowyourcompany.com",
+          "url": "https://knowyourcompany.com/learn/guides/8-how-to-have-effective-one-on-one-meetings/4-how-to-prepare-for-a-one-on-one-meeting-as-a-manager/",
+          "description": "<p>你們公司有在定期做 one on one 面談嗎？就我所知並非每家公司都有這個制度，但我真心覺得定期有個 one on one 是件好事。可是 one on one 之後，另一個問題就來了：要談哪些東西才好？這一篇文章提出了一些建議，雖然標題說是寫給 manager 的，但我認為對參與面談的雙方都很有參考價值。</p>",
+          "description_markdown": "你們公司有在定期做 one on one 面談嗎？就我所知並非每家公司都有這個制度，但我真心覺得定期有個 one on one 是件好事。可是 one on one 之後，另一個問題就來了：要談哪些東西才好？這一篇文章提出了一些建議，雖然標題說是寫給 manager 的，但我認為對參與面談的雙方都很有參考價值。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4CP899A",
+          "type": "Link",
+          "title": "meituan/EasyReact: an easy-to-use reactive programming framework",
+          "url_domain": "github.com",
+          "url": "https://github.com/meituan/EasyReact",
+          "description": "<p>越來越多人開始接受 functional reactive programming 的概念，在 iOS 的世界最常見的就是 ReactiveCocoa 跟 RxSwift 這兩套函式庫。美團算是在中國很積極導入 ReactiveCocoa 的公司，不過它們覺得 RAC 的概念還是太複雜，要 debug 的時候也不是太容易，所以在大量借鏡這些函式庫之後，它們造出了這套 EasyReact。</p>\n\n<p>根據它們的測試，效能比 RAC 好，debug 也比較方便。我看了一下，最常用的幾個操作都有支援了，有興趣的人倒是可以嘗試看看！</p>",
+          "description_markdown": "越來越多人開始接受 functional reactive programming 的概念，在 iOS 的世界最常見的就是 ReactiveCocoa 跟 RxSwift 這兩套函式庫。美團算是在中國很積極導入 ReactiveCocoa 的公司，不過它們覺得 RAC 的概念還是太複雜，要 debug 的時候也不是太容易，所以在大量借鏡這些函式庫之後，它們造出了這套 EasyReact。\r\n\r\n根據它們的測試，效能比 RAC 好，debug 也比較方便。我看了一下，最常用的幾個操作都有支援了，有興趣的人倒是可以嘗試看看！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bRR56fB",
+          "type": "Link",
+          "title": "Number42",
+          "url_domain": "number42.de",
+          "url": "https://www.number42.de/blog/",
+          "description": "<p>Number42 的部落格，寫了一系列關於 Better iOS Project 的文章，每篇都值得看過一遍。可以參考別人的做法，看是否有值得借鏡的地方，讓自己的 iOS project 更好維護。</p>",
+          "description_markdown": "Number42 的部落格，寫了一系列關於 Better iOS Project 的文章，每篇都值得看過一遍。可以參考別人的做法，看是否有值得借鏡的地方，讓自己的 iOS project 更好維護。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VddLWJh",
+          "type": "Link",
+          "title": "RxCoordinator: Reactive navigation library for iOS based on the coordinator pattern",
+          "url_domain": "github.com",
+          "url": "https://github.com/quickbirdstudios/RxCoordinator",
+          "description": "<p>Coordinator 一直是我很喜歡的一個 pattern，在大一點的專案裡頭我都會用它。這一個 library 把 Coordinator 跟 Rx 結合在一起，無論你有沒有用到 Rx 都可以參考一下它的思路，蠻有趣的一個概念。</p>",
+          "description_markdown": "Coordinator 一直是我很喜歡的一個 pattern，在大一點的專案裡頭我都會用它。這一個 library 把 Coordinator 跟 Rx 結合在一起，無論你有沒有用到 Rx 都可以參考一下它的思路，蠻有趣的一個概念。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "8CVmI7i",
+          "type": "Link",
+          "title": "Uvicorn: The lightning-fast ASGI server.",
+          "url_domain": "uvicorn.org",
+          "url": "https://www.uvicorn.org/",
+          "description": "<p>如果你還不知道 <a href=\"https://channels.readthedocs.io/en/latest/asgi.html\">ASGI</a>，這是 Python 社群活用 async-await 語法，使得 web 程式能夠使用這些異步功能的的新協定，計畫用來取代現有的 <a href=\"https://www.python.org/dev/peps/pep-3333/\">WSGI</a>。Uvicorn 是由 Django REST Framework 作者 Tome Christie 開發的一個 ASGI 實作，如名稱暗示，與目前使用最廣泛的 ASGI 實作 <a href=\"https://github.com/django/daphne\">Daphne</a> 相比，使用了類似 <a href=\"http://gunicorn.org/\">Gunicorn</a> 的介面，並且預設使用 <a href=\"https://github.com/MagicStack/uvloop\">uvloop</a>，達到更好的效能。最近<a href=\"https://github.com/encode/uvicorn/issues/82\">終於支援 Windows 了</a>，對這個<a href=\"https://www.youtube.com/watch?v=Nv8Xxo8n9yA\">有興趣</a>的人歡迎來玩玩。</p>\n\n<p>另外說到 Python 上的 async web framework，同樣由 Tom Christie 開發的 <a href=\"https://docs.apistar.com/\">API Star</a> 很可能是領導下一波 API framework 革命的先鋒，之前有介紹過，應該持續關注啊。</p>",
+          "description_markdown": "如果你還不知道 [ASGI](https://channels.readthedocs.io/en/latest/asgi.html)，這是 Python 社群活用 async-await 語法，使得 web 程式能夠使用這些異步功能的的新協定，計畫用來取代現有的 [WSGI](https://www.python.org/dev/peps/pep-3333/)。Uvicorn 是由 Django REST Framework 作者 Tome Christie 開發的一個 ASGI 實作，如名稱暗示，與目前使用最廣泛的 ASGI 實作 [Daphne](https://github.com/django/daphne) 相比，使用了類似 [Gunicorn](http://gunicorn.org/) 的介面，並且預設使用 [uvloop](https://github.com/MagicStack/uvloop)，達到更好的效能。最近[終於支援 Windows 了](https://github.com/encode/uvicorn/issues/82)，對這個[有興趣](https://www.youtube.com/watch?v=Nv8Xxo8n9yA)的人歡迎來玩玩。\r\n\r\n另外說到 Python 上的 async web framework，同樣由 Tom Christie 開發的 [API Star](https://docs.apistar.com/) 很可能是領導下一波 API framework 革命的先鋒，之前有介紹過，應該持續關注啊。",
+          "embedded_links": [
+            {
+              "identifier": "sYUzawD",
+              "title": "ASGI",
+              "url_domain": "readthedocs.io",
+              "url": "https://channels.readthedocs.io/en/latest/asgi.html"
+            },
+            {
+              "identifier": "lt0U2DB",
+              "title": "WSGI",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-3333/"
+            },
+            {
+              "identifier": "IjhTRqP",
+              "title": "Daphne",
+              "url_domain": "github.com",
+              "url": "https://github.com/django/daphne"
+            },
+            {
+              "identifier": "9RrQsmZ",
+              "title": "Gunicorn",
+              "url_domain": "gunicorn.org",
+              "url": "http://gunicorn.org/"
+            },
+            {
+              "identifier": "9lhnk7d",
+              "title": "uvloop",
+              "url_domain": "github.com",
+              "url": "https://github.com/MagicStack/uvloop"
+            },
+            {
+              "identifier": "Wx7YLit",
+              "title": "終於支援 Windows 了",
+              "url_domain": "github.com",
+              "url": "https://github.com/encode/uvicorn/issues/82"
+            },
+            {
+              "identifier": "PzsZrru",
+              "title": "有興趣",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=Nv8Xxo8n9yA"
+            },
+            {
+              "identifier": "PFmkCHH",
+              "title": "API Star",
+              "url_domain": "apistar.com",
+              "url": "https://docs.apistar.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "feqy59y",
+          "type": "Link",
+          "title": "YAML: probably not so great after all",
+          "url_domain": "arp242.net",
+          "url": "https://arp242.net/weblog/yaml_probably_not_so_great_after_all.html",
+          "description": "<p>應該大多數人都有寫過 YAML 設定檔吧，我自己也寫了不少，還為公司的產品寫了一個 <a href=\"https://github.com/uranusjr/qtyaml\">YAML parser</a>（遮臉）。這篇文章解釋了為什麼 YAML 不是個好主意，他們聲稱的好處（可讀性、可攜性、符合動態語言型別、有一致的工具介面、易實作易用）根本都沒達到，而又太 expressive 導致問題。</p>\n\n<p>YAML 共同作者 Clark Evans <a href=\"https://news.ycombinator.com/item?id=17358548\">在 Hacker News 的回應</a>也頗值得一讀。當然在現在看起來 YAML 整個 missed the point，但考量到它其實已經存在將近 20 年（雖然是近十年才因為 Rails 和 Ansible 的關係廣為人知），第一版比 JSON 年紀更長，原始目標是取代 XML 這些因素，它其實做對了很多很多事情。Ansible 的龐大設定雖然嚴重凸顯 YAML 的缺點，但這樣被誤用也不太能說是它的錯吧。</p>\n\n<p>另一方面，如果你現在在想 JSON，原作者也有<a href=\"https://arp242.net/weblog/json_as_configuration_files-_please_dont\">另一篇文章</a>談到它的問題更大，拜託不要用它寫設定，即使是針對機器互換的設定，都有太多問題。如果你一定要選，YAML 仍然比較好一點，尤其如果你只使用它的 subset，搭配如 <a href=\"https://github.com/crdoconnor/strictyaml\">StrictYAML</a> 這種比較安全的部分實作，還是有很多合適用途。如果你不介意嘗試新的格式，最近的流行 <a href=\"https://github.com/toml-lang/toml\">TOML</a> 更適合人類讀寫，算是頗有潛力（雖然在實作上還有許多需要釐清的問題）。使用它最多的應該是 Rust 社群（因為 <a href=\"https://doc.rust-lang.org/cargo/reference/manifest.html\">Cargo 用它設定 manifest</a>），Python 社群最近也越來越有這個傾向，可以參考 <a href=\"https://www.python.org/dev/peps/pep-0518/#other-file-formats\">PEP 518 的相關討論</a>。</p>",
+          "description_markdown": "應該大多數人都有寫過 YAML 設定檔吧，我自己也寫了不少，還為公司的產品寫了一個 [YAML parser](https://github.com/uranusjr/qtyaml)（遮臉）。這篇文章解釋了為什麼 YAML 不是個好主意，他們聲稱的好處（可讀性、可攜性、符合動態語言型別、有一致的工具介面、易實作易用）根本都沒達到，而又太 expressive 導致問題。\r\n\r\nYAML 共同作者 Clark Evans [在 Hacker News 的回應](https://news.ycombinator.com/item?id=17358548)也頗值得一讀。當然在現在看起來 YAML 整個 missed the point，但考量到它其實已經存在將近 20 年（雖然是近十年才因為 Rails 和 Ansible 的關係廣為人知），第一版比 JSON 年紀更長，原始目標是取代 XML 這些因素，它其實做對了很多很多事情。Ansible 的龐大設定雖然嚴重凸顯 YAML 的缺點，但這樣被誤用也不太能說是它的錯吧。\r\n\r\n另一方面，如果你現在在想 JSON，原作者也有[另一篇文章](https://arp242.net/weblog/json_as_configuration_files-_please_dont)談到它的問題更大，拜託不要用它寫設定，即使是針對機器互換的設定，都有太多問題。如果你一定要選，YAML 仍然比較好一點，尤其如果你只使用它的 subset，搭配如 [StrictYAML](https://github.com/crdoconnor/strictyaml) 這種比較安全的部分實作，還是有很多合適用途。如果你不介意嘗試新的格式，最近的流行 [TOML](https://github.com/toml-lang/toml) 更適合人類讀寫，算是頗有潛力（雖然在實作上還有許多需要釐清的問題）。使用它最多的應該是 Rust 社群（因為 [Cargo 用它設定 manifest](https://doc.rust-lang.org/cargo/reference/manifest.html)），Python 社群最近也越來越有這個傾向，可以參考 [PEP 518 的相關討論](https://www.python.org/dev/peps/pep-0518/#other-file-formats)。",
+          "embedded_links": [
+            {
+              "identifier": "5cHTlKL",
+              "title": "YAML parser",
+              "url_domain": "github.com",
+              "url": "https://github.com/uranusjr/qtyaml"
+            },
+            {
+              "identifier": "3Xmgubi",
+              "title": "在 Hacker News 的回應",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=17358548"
+            },
+            {
+              "identifier": "FS0eRgw",
+              "title": "另一篇文章",
+              "url_domain": "arp242.net",
+              "url": "https://arp242.net/weblog/json_as_configuration_files-_please_dont"
+            },
+            {
+              "identifier": "vTtAiOT",
+              "title": "StrictYAML",
+              "url_domain": "github.com",
+              "url": "https://github.com/crdoconnor/strictyaml"
+            },
+            {
+              "identifier": "gdjmlWa",
+              "title": "TOML",
+              "url_domain": "github.com",
+              "url": "https://github.com/toml-lang/toml"
+            },
+            {
+              "identifier": "u788SKd",
+              "title": "Cargo 用它設定 manifest",
+              "url_domain": "rust-lang.org",
+              "url": "https://doc.rust-lang.org/cargo/reference/manifest.html"
+            },
+            {
+              "identifier": "oHqrM1T",
+              "title": "PEP 518 的相關討論",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-0518/#other-file-formats"
+            }
+          ]
+        },
+        {
+          "identifier": "vYxrTF7",
+          "type": "Link",
+          "title": "Recreating Python’s Slice Syntax in JavaScript Using ES6 Proxies",
+          "url_domain": "intoli.com",
+          "url": "https://intoli.com/blog/python-slicing-in-javascript/",
+          "description": "<p>Python 的 slice syntax 是個很酷的功能，如果你不熟 Python ，平常的主要語言也沒有這個語法，建議稍微研究一下，應該可以 blow your mind :p</p>\n\n<p>作者想實作一個類似的語法，讓他可以對 JavaScript 寫類似這樣的東西</p>\n\n<pre><code>array[[5, 1, -1]]\narray['5:-1']\n</code></pre>\n\n<p>達到類似效果。為了達到簡潔的實作，他提到了 proxy 和 reflect 等 JavaScript 的新功能，如果你對 JavaScript 黑魔法有興趣，這應該會是不錯的休閒讀物。</p>\n\n<p>不過說實在話，這應該是最中肯的評論：</p>\n\n<blockquote><p>You shouldn't be allowed near computers.</p></blockquote>",
+          "description_markdown": "Python 的 slice syntax 是個很酷的功能，如果你不熟 Python ，平常的主要語言也沒有這個語法，建議稍微研究一下，應該可以 blow your mind :p\r\n\r\n作者想實作一個類似的語法，讓他可以對 JavaScript 寫類似這樣的東西\r\n\r\n    array[[5, 1, -1]]\r\n    array['5:-1']\r\n\r\n達到類似效果。為了達到簡潔的實作，他提到了 proxy 和 reflect 等 JavaScript 的新功能，如果你對 JavaScript 黑魔法有興趣，這應該會是不錯的休閒讀物。\r\n\r\n不過說實在話，這應該是最中肯的評論：\r\n\r\n> You shouldn't be allowed near computers.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "YhmxRUX",
+          "type": "Link",
+          "title": "VirtEnv: Create a virtual environment with venv or virtualenv ",
+          "url_domain": "github.com",
+          "url": "https://github.com/sarugaku/virtenv",
+          "description": "<p>最近常常在不同 Python 版本之間跳，常常要重建虛擬環境（特殊理由），覺得要一直在 virtualenv 與 venv 指令之間切換實在很煩。通常我都會盡量用 venv，但是它要在 3.3 以上才存在、3.4 才真的能用（因為 <a href=\"https://docs.python.org/3/library/ensurepip.html\">ensurepip</a>）、3.6 才能自訂 prompt，在<a href=\"https://bugs.python.org/issue30811\">某些環境</a>還會壞掉，甚至明明應該是內建，但是有些人就是<a href=\"https://bugs.launchpad.net/ubuntu/+source/python3.4/+bug/1290847\">不想給你用</a>，想到都累了。所以我就自己寫了一個 wrapper 來處理這些狗屁倒灶的問題，如果偵測到 venv 會壞掉的可能性，就跳回去用 virtualenv，不用自己記得，而且順便把 prompt 自訂也帶到 3.4 與 3.5。開心。</p>\n\n<p>另外做這個工具有部份的原因也是想整合進 Pipenv。很多人問過為什麼 Pipenv 使用 virtualenv 建立虛擬環境，而不是「官方推薦」的 venv。上面提到的都是原因，而既然 virtualenv 在絕大多數狀況都會 work，現在的做法可以降低維護負擔。不過如果這個實驗成功，要整進 Pipenv 應該不是什麼難事，所以有興趣的話就幫忙測試一下吧，多一個人試用，距離整合成功就更進一步。用 pip 就可以安裝，之後把你原本用 <code>python -m venv</code> 或 <code>virtualenv</code> 的指令換成 <code>virtenv</code> 就好，很簡單的，爸脫爸脫。</p>\n\n<p>另外如果你對這個 <a href=\"https://github.com/sarugaku/\">GitHub organisation</a> 有疑問，這是 Pipenv 幾個維護者為 Pipenv 建立的，用來統一管理我們為 Pipenv 開發的低階功能與實驗性質專案。如果你在做某些事情時覺得 Pipenv 太綁手綁腳，可以試著用這個組織下面的專案拼裝，自訂性會比 Pipenv 高很多。</p>",
+          "description_markdown": "最近常常在不同 Python 版本之間跳，常常要重建虛擬環境（特殊理由），覺得要一直在 virtualenv 與 venv 指令之間切換實在很煩。通常我都會盡量用 venv，但是它要在 3.3 以上才存在、3.4 才真的能用（因為 [ensurepip](https://docs.python.org/3/library/ensurepip.html)）、3.6 才能自訂 prompt，在[某些環境](https://bugs.python.org/issue30811)還會壞掉，甚至明明應該是內建，但是有些人就是[不想給你用](https://bugs.launchpad.net/ubuntu/+source/python3.4/+bug/1290847)，想到都累了。所以我就自己寫了一個 wrapper 來處理這些狗屁倒灶的問題，如果偵測到 venv 會壞掉的可能性，就跳回去用 virtualenv，不用自己記得，而且順便把 prompt 自訂也帶到 3.4 與 3.5。開心。\r\n\r\n另外做這個工具有部份的原因也是想整合進 Pipenv。很多人問過為什麼 Pipenv 使用 virtualenv 建立虛擬環境，而不是「官方推薦」的 venv。上面提到的都是原因，而既然 virtualenv 在絕大多數狀況都會 work，現在的做法可以降低維護負擔。不過如果這個實驗成功，要整進 Pipenv 應該不是什麼難事，所以有興趣的話就幫忙測試一下吧，多一個人試用，距離整合成功就更進一步。用 pip 就可以安裝，之後把你原本用 `python -m venv` 或 `virtualenv` 的指令換成 `virtenv` 就好，很簡單的，爸脫爸脫。\r\n\r\n另外如果你對這個 [GitHub organisation](https://github.com/sarugaku/) 有疑問，這是 Pipenv 幾個維護者為 Pipenv 建立的，用來統一管理我們為 Pipenv 開發的低階功能與實驗性質專案。如果你在做某些事情時覺得 Pipenv 太綁手綁腳，可以試著用這個組織下面的專案拼裝，自訂性會比 Pipenv 高很多。",
+          "embedded_links": [
+            {
+              "identifier": "ugWu3ck",
+              "title": "ensurepip",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/library/ensurepip.html"
+            },
+            {
+              "identifier": "vBitLkD",
+              "title": "某些環境",
+              "url_domain": "python.org",
+              "url": "https://bugs.python.org/issue30811"
+            },
+            {
+              "identifier": "swkuIMd",
+              "title": "不想給你用",
+              "url_domain": "launchpad.net",
+              "url": "https://bugs.launchpad.net/ubuntu/+source/python3.4/+bug/1290847"
+            },
+            {
+              "identifier": "HeqSPY8",
+              "title": "GitHub organisation",
+              "url_domain": "github.com",
+              "url": "https://github.com/sarugaku/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "thejian",
+      "name": "@theJian",
+      "items": [
+        {
+          "identifier": "nsE2Rkz",
+          "type": "Link",
+          "title": "Why Discord is Sticking with React Native",
+          "url_domain": "discordapp.com",
+          "url": "https://blog.discordapp.com/why-discord-is-sticking-with-react-native-ccc34be0d427",
+          "description": "<p>前一阵子 Airbnb 和 Udacity 弃用 React Native 的新闻大家应该还记忆犹新。作为最早一批拥抱 React Native 的团队，Discord 的技术团队分享了他们依然在使用 React Native 的原因。在不考虑 Android 平台的情况下，React Native 在帮助缩小 Web 团队与 iOS 团队间的技术鸿沟上发挥了不错效果。iOS 团队得以重用 Web 端已有的工具以及经验。对于建设像 Discord 这样精致（40 人）的技术团队来说效果显著。</p>",
+          "description_markdown": "前一阵子 Airbnb 和 Udacity 弃用 React Native 的新闻大家应该还记忆犹新。作为最早一批拥抱 React Native 的团队，Discord 的技术团队分享了他们依然在使用 React Native 的原因。在不考虑 Android 平台的情况下，React Native 在帮助缩小 Web 团队与 iOS 团队间的技术鸿沟上发挥了不错效果。iOS 团队得以重用 Web 端已有的工具以及经验。对于建设像 Discord 这样精致（40 人）的技术团队来说效果显著。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VNn4P43",
+          "type": "Link",
+          "title": "Operators in JavaScript and Haskell",
+          "url_domain": "typeclasses.com",
+          "url": "https://typeclasses.com/javascript/operators",
+          "description": "<p>JavaScript 中一些可以用作奇技淫巧的操作符在 Haskell 中的实现。</p>",
+          "description_markdown": "JavaScript 中一些可以用作奇技淫巧的操作符在 Haskell 中的实现。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "LMLxBfA",
+          "type": "Link",
+          "title": "Essential Chrome Developer Tools: Beginner to Master",
+          "url_domain": "apsdehal.in",
+          "url": "https://apsdehal.in/blog/chrome-developer-tools-to-master",
+          "description": "<p>Chrome DevTools 的基础使用方法。概述了各个功能的作用和用法。</p>",
+          "description_markdown": "Chrome DevTools 的基础使用方法。概述了各个功能的作用和用法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8hW2AWC",
+          "type": "Link",
+          "title": "Why is Python so slow?",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/why-is-python-so-slow-e5074b6fe55b",
+          "description": "<p>Benchmark 中显示，Python 的执行速度不仅比编译型语言慢，就连在同类型的解释型语言中都是靠后的。造成这个结果的原因不光和 CPython 本身的实现有关，也与 Python 本身极其灵活的动态类型特性相关。</p>",
+          "description_markdown": "Benchmark 中显示，Python 的执行速度不仅比编译型语言慢，就连在同类型的解释型语言中都是靠后的。造成这个结果的原因不光和 CPython 本身的实现有关，也与 Python 本身极其灵活的动态类型特性相关。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OGcX556",
+          "type": "Link",
+          "title": "Browsh: the modern text-based browser",
+          "url_domain": "github.com",
+          "url": "https://github.com/browsh-org/browsh",
+          "description": "<p>字符渲染的浏览器。和 <a href=\"https://lynx.browser.org/\">lynx</a> 这类浏览器相比，有更好的显示效果。Terminal 重度用户应该会感兴趣。</p>",
+          "description_markdown": "字符渲染的浏览器。和 [lynx](https://lynx.browser.org/) 这类浏览器相比，有更好的显示效果。Terminal 重度用户应该会感兴趣。",
+          "embedded_links": [
+            {
+              "identifier": "DzxoM7V",
+              "title": "lynx",
+              "url_domain": "browser.org",
+              "url": "https://lynx.browser.org/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

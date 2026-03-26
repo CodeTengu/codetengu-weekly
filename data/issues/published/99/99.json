@@ -1,0 +1,490 @@
+{
+  "number": 99,
+  "title": "Issue 99 <attackOnJava>那一天，人類終於回想起了，曾經一度被 XML 所支配的恐懼</attackOnJava> <!-- 進擊的 Java -->",
+  "summary": "本期內容涵蓋 Spark, Python, Machine Learning, Feature Engineering, Testing, DevOps, ReactJS, JavaScript, WebAssembly, CSS",
+  "url": "https://weekly.codetengu.com/issues/99",
+  "publication_status": "published",
+  "published_at": "2017-08-07T02:00:00+01:00",
+  "updated_at": "2017-08-08T20:12:33+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Quantum Thief</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Quantum Thief](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 總算把 Gopher Day 辦完了..  \r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "ppBB7vj",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Qozfw9D",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "QHqvdOi",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Du9OfhL",
+              "title": "The Quantum Thief",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "cGddAEX",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "rvRgBIQ",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ui46RwH",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "PqXUxoE",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "M0fz29r",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "vrmUYXw",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "YTouKdb",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "9nxuKf1",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "fpeCqGF",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "cx0eE4P",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "O4zmRXV",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "w8TyaL4",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "kBnqiBn",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hkFliWj",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "K6R6dOL",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "D7XH7Iy",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "F46HPlN",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "rbvztsS",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "gqCbhYu",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "vWCkzkl",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "XXvUGR6",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "4fYA197",
+          "type": "Link",
+          "title": "Spark SQL cookbook (Python)",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/spark-sql-cookbook-pyspark.html",
+          "description": "<p>最近在為 <a href=\"https://streetvoice.com/\">StreetVoice</a> 開發一個音樂的推薦系統，採用 <a href=\"https://spark.apache.org/\">Apache Spark</a>，不過因為老是忘記 <code>DataFrame</code> 某某功能的用法，所以就乾脆仿效 O'Reilly 著名的 <a href=\"https://ssearch.oreilly.com/?q=cookbook\">Cookbook 系列</a>，幫自己寫了一篇 Spark SQL cookbook，複習、速查兩相宜啊。</p>\n\n<p>因為 Spark 支援 Scala、Java、Python 和 R，一開始是打算用 Scala 來練練功的，不過畢竟是公司的專案，考慮到後續其他人的參與和維護，好像還是採用一個團隊成員都熟悉的語言比較好吶（成熟的大人.jpg）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/spark-rdd-methods-pyspark.html\">Spark RDD methods (Python)</a></li>\n<li><a href=\"https://vinta.ws/code/spark-troubleshooting.html\">Spark troubleshooting</a></li>\n</ul>",
+          "description_markdown": "最近在為 [StreetVoice](https://streetvoice.com/) 開發一個音樂的推薦系統，採用 [Apache Spark](https://spark.apache.org/)，不過因為老是忘記 `DataFrame` 某某功能的用法，所以就乾脆仿效 O'Reilly 著名的 [Cookbook 系列](https://ssearch.oreilly.com/?q=cookbook)，幫自己寫了一篇 Spark SQL cookbook，複習、速查兩相宜啊。\r\n\r\n因為 Spark 支援 Scala、Java、Python 和 R，一開始是打算用 Scala 來練練功的，不過畢竟是公司的專案，考慮到後續其他人的參與和維護，好像還是採用一個團隊成員都熟悉的語言比較好吶（成熟的大人.jpg）。\r\n\r\n延伸閱讀：\r\n\r\n- [Spark RDD methods (Python)](https://vinta.ws/code/spark-rdd-methods-pyspark.html)\r\n- [Spark troubleshooting](https://vinta.ws/code/spark-troubleshooting.html)",
+          "embedded_links": [
+            {
+              "identifier": "qPC7GU9",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "TZTa6us",
+              "title": "Apache Spark",
+              "url_domain": "apache.org",
+              "url": "https://spark.apache.org/"
+            },
+            {
+              "identifier": "D3UmwI8",
+              "title": "Cookbook 系列",
+              "url_domain": "oreilly.com",
+              "url": "https://ssearch.oreilly.com/?q=cookbook"
+            },
+            {
+              "identifier": "frGdx7j",
+              "title": "Spark RDD methods (Python)",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/spark-rdd-methods-pyspark.html"
+            },
+            {
+              "identifier": "aNnC3Zi",
+              "title": "Spark troubleshooting",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/spark-troubleshooting.html"
+            }
+          ]
+        },
+        {
+          "identifier": "aIs3aCq",
+          "type": "Link",
+          "title": "How to Size Executors, Cores and Memory for a Spark application running in memory",
+          "url_domain": "github.io",
+          "url": "https://spoddutur.github.io/spark-notes/distribution_of_executors_cores_and_memory_for_spark_application",
+          "description": "<p>在使用 <code>spark-submit</code> 的時候可以指定 <code>--driver-memory</code>、<code>--executor-memory</code>、<code>--executor-cores</code> 或 <code>--num-executors</code> 等參數來配置你的 Spark app 可以使用的運算資源，這篇文章指出了幾個需要注意的地方以及 One executor per core 和 One executor per node 這兩種做法會有什麼問題。</p>\n\n<p>P.S. 現在 Spark 除了 Standalone 和 YARN 模式之外，也開始實驗性地支援 Kubernetes 了：<a href=\"https://github.com/apache-spark-on-k8s/spark\">apache-spark-on-k8s</a>，看樣子 k8s 真的有一統江湖之勢了啊。</p>",
+          "description_markdown": "在使用 `spark-submit` 的時候可以指定 `--driver-memory`、`--executor-memory`、`--executor-cores` 或 `--num-executors` 等參數來配置你的 Spark app 可以使用的運算資源，這篇文章指出了幾個需要注意的地方以及 One executor per core 和 One executor per node 這兩種做法會有什麼問題。\r\n\r\nP.S. 現在 Spark 除了 Standalone 和 YARN 模式之外，也開始實驗性地支援 Kubernetes 了：[apache-spark-on-k8s](https://github.com/apache-spark-on-k8s/spark)，看樣子 k8s 真的有一統江湖之勢了啊。",
+          "embedded_links": [
+            {
+              "identifier": "RIZZIFU",
+              "title": "apache-spark-on-k8s",
+              "url_domain": "github.com",
+              "url": "https://github.com/apache-spark-on-k8s/spark"
+            }
+          ]
+        },
+        {
+          "identifier": "pkG7Pxn",
+          "type": "Link",
+          "title": "Mastering Feature Engineering",
+          "url_domain": "safaribooksonline.com",
+          "url": "https://www.safaribooksonline.com/library/view/mastering-feature-engineering/9781491953235/",
+          "description": "<p>整個推薦系統的 pipeline 可以很粗略地分成 candidate generation 和 ranking 兩個部分，而 ranking 常用的模型之一就是簡單粗暴的 Logistic Regression（通常還會搭配 GBDT 或 Deep Neural Networks）。因為要用 LR 需要大量的 Feature Engineering，所以我就特地找了一本專門在講特徵工程的書，上週末去剪頭髮的時候終於讀完，正好可以推薦給大家。</p>\n\n<p>不過這本書講的是比較基礎的部分（不要想一步登天嘛），例如針對數值特徵的 Binning 或標準化、針對文字特徵的 TF-IDF 和針對類別特徵的 One-hot encoding 或 Feature hashing，對創建出非線性特徵的 Feature Construction 則沒有什麼著墨。可以搭配前幾期推薦過的「<a href=\"https://weekly.codetengu.com/issues/90#yx27hkp\">机器学习中的数据清洗与特征处理综述</a>」一起看。</p>",
+          "description_markdown": "整個推薦系統的 pipeline 可以很粗略地分成 candidate generation 和 ranking 兩個部分，而 ranking 常用的模型之一就是簡單粗暴的 Logistic Regression（通常還會搭配 GBDT 或 Deep Neural Networks）。因為要用 LR 需要大量的 Feature Engineering，所以我就特地找了一本專門在講特徵工程的書，上週末去剪頭髮的時候終於讀完，正好可以推薦給大家。\r\n\r\n不過這本書講的是比較基礎的部分（不要想一步登天嘛），例如針對數值特徵的 Binning 或標準化、針對文字特徵的 TF-IDF 和針對類別特徵的 One-hot encoding 或 Feature hashing，對創建出非線性特徵的 Feature Construction 則沒有什麼著墨。可以搭配前幾期推薦過的「[机器学习中的数据清洗与特征处理综述](https://weekly.codetengu.com/issues/90#yx27hkp)」一起看。",
+          "embedded_links": [
+            {
+              "identifier": "C0Wr1JZ",
+              "title": "机器学习中的数据清洗与特征处理综述",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/90#yx27hkp"
+            }
+          ]
+        },
+        {
+          "identifier": "rZcvfgH",
+          "type": "Link",
+          "title": "Write Explicit Tests",
+          "url_domain": "rachum.com",
+          "url": "http://amir.rachum.com/blog/2017/01/14/explicit-tests/",
+          "description": "<blockquote><p>Sometimes, normal programming good practices don’t apply to software tests. DRY in particular I don’t subscribe to for test code, because I want my tests to read like a story. - <a href=\"http://pythontesting.net/transcripts/transcript-epsiode-23-lessons-testing-tdd-kent-beck/\">Kent Beck 如是說</a>。</p></blockquote>\n\n<p>你減少了重複，但是卻帶來了耦合。寫程式真的很難啊。</p>",
+          "description_markdown": "> Sometimes, normal programming good practices don’t apply to software tests. DRY in particular I don’t subscribe to for test code, because I want my tests to read like a story. - [Kent Beck 如是說](http://pythontesting.net/transcripts/transcript-epsiode-23-lessons-testing-tdd-kent-beck/)。\r\n\r\n你減少了重複，但是卻帶來了耦合。寫程式真的很難啊。",
+          "embedded_links": [
+            {
+              "identifier": "NIPZroU",
+              "title": "Kent Beck 如是說",
+              "url_domain": "pythontesting.net",
+              "url": "http://pythontesting.net/transcripts/transcript-epsiode-23-lessons-testing-tdd-kent-beck/"
+            }
+          ]
+        },
+        {
+          "identifier": "lWL8ik8",
+          "type": "Link",
+          "title": "Strace -- The SysAdmin's Microscope",
+          "url_domain": "oracle.com",
+          "url": "https://blogs.oracle.com/ksplice/strace-the-sysadmins-microscope",
+          "description": "<p><code>strace</code> 是個可以用來觀測某個 script 或 process 在 system call 這個層面到底做了哪些事的指令，是 troubleshooting 的好幫手，尤其是用來解決在 Linux 上大家喜聞樂見的「幹你娘為什麼 xxx 跑不起來？！（20 分鐘之後）噢我權限設錯了」的問題。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/linux-commands-that-every-devops-engineer-should-know.html\">Linux commands that every DevOps engineer should know</a></li>\n</ul>\n\n\n<p>差點忘了，為了慶祝 CodeTengu Weekly 即將邁入第 100 期，<a href=\"https://github.com/CodeTengu/headquarters/issues/128\">下週！開始！休刊！</a></p>",
+          "description_markdown": "`strace` 是個可以用來觀測某個 script 或 process 在 system call 這個層面到底做了哪些事的指令，是 troubleshooting 的好幫手，尤其是用來解決在 Linux 上大家喜聞樂見的「幹你娘為什麼 xxx 跑不起來？！（20 分鐘之後）噢我權限設錯了」的問題。\r\n\r\n延伸閱讀：\r\n\r\n- [Linux commands that every DevOps engineer should know](https://vinta.ws/code/linux-commands-that-every-devops-engineer-should-know.html)\r\n\r\n差點忘了，為了慶祝 CodeTengu Weekly 即將邁入第 100 期，[下週！開始！休刊！](https://github.com/CodeTengu/headquarters/issues/128)",
+          "embedded_links": [
+            {
+              "identifier": "nAbV5gP",
+              "title": "Linux commands that every DevOps engineer should know",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/linux-commands-that-every-devops-engineer-should-know.html"
+            },
+            {
+              "identifier": "1kw8fe",
+              "title": "下週！開始！休刊！",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters/issues/128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "jVT0ZDW",
+          "type": "Link",
+          "title": "React 16 beta 發布",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/react/issues/10294",
+          "description": "<p>React 16 Beta 終於發布，在這個版本有幾個重大的改變：</p>\n\n<ul>\n<li>將 React 核心流程 — <a href=\"https://facebook.github.io/react/docs/reconciliation.html\">Reconciliation</a> ，重新寫為 Fiber 架構，可以看 <a href=\"https://twitter.com/linclark\">Lin Clark</a> 在<a href=\"https://www.youtube.com/watch?v=ZCuYPiUIONs\"> React Conf 2017 的介紹</a> ，藉由拆分 Phases ， main thread 就可以執行其他動作，而分解的過程又有各自的 priority ，較需要即時更新的畫面就可以流暢改變</li>\n<li>加入 <a href=\"https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html\">Error Boundaries</a> ，可以透過 fallback UI 避免 component tree 直接出錯而中斷</li>\n</ul>",
+          "description_markdown": "React 16 Beta 終於發布，在這個版本有幾個重大的改變：\r\n\r\n* 將 React 核心流程 — [Reconciliation](https://facebook.github.io/react/docs/reconciliation.html) ，重新寫為 Fiber 架構，可以看 [Lin Clark](https://twitter.com/linclark) 在[ React Conf 2017 的介紹](https://www.youtube.com/watch?v=ZCuYPiUIONs) ，藉由拆分 Phases ， main thread 就可以執行其他動作，而分解的過程又有各自的 priority ，較需要即時更新的畫面就可以流暢改變\r\n* 加入 [Error Boundaries](https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html) ，可以透過 fallback UI 避免 component tree 直接出錯而中斷",
+          "embedded_links": [
+            {
+              "identifier": "j7Vqi0I",
+              "title": "Reconciliation",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/docs/reconciliation.html"
+            },
+            {
+              "identifier": "p0NdOyf",
+              "title": "Lin Clark",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/linclark"
+            },
+            {
+              "identifier": "cNN2yQa",
+              "title": " React Conf 2017 的介紹",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=ZCuYPiUIONs"
+            },
+            {
+              "identifier": "p40qhp1",
+              "title": "Error Boundaries",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/blog/2017/07/26/error-handling-in-react-16.html"
+            }
+          ]
+        },
+        {
+          "identifier": "4GWCoA7",
+          "type": "Link",
+          "title": "Petition to open source Flash spec",
+          "url_domain": "github.com",
+          "url": "https://github.com/pakastin/open-source-flash",
+          "description": "<p>Adobe 宣佈在 2020 年停止支援 Flash ，在 GitHub 上出現開源 Flash 的請願書，有興趣可以給個星號代表簽署這份請願。</p>",
+          "description_markdown": "Adobe 宣佈在 2020 年停止支援 Flash ，在 GitHub 上出現開源 Flash 的請願書，有興趣可以給個星號代表簽署這份請願。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3FlhhSp",
+          "type": "Link",
+          "title": "Webpack: Implementing first-class support for WebAssembly",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/webpack/webpack-awarded-125-000-from-moss-program-f63eeaaf4e15",
+          "description": "<p>Webpack 獲得 <a href=\"https://www.mozilla.org/en-US/moss/\">Mozilla Open Source Support (MOSS)</a> 的贊助，將實作 WebAssembly 為 first-class support 。因為目前所有載入到 webpack 的 resource 都會被視為 JavaScript，所以 webpack 的架構實作勢必需要重新改寫，不過也可以因此得到其他的好處，像是先前提到 CSS bundles lazy loading 的原生支援等等。</p>",
+          "description_markdown": "Webpack 獲得 [Mozilla Open Source Support (MOSS)](https://www.mozilla.org/en-US/moss/) 的贊助，將實作 WebAssembly 為 first-class support 。因為目前所有載入到 webpack 的 resource 都會被視為 JavaScript，所以 webpack 的架構實作勢必需要重新改寫，不過也可以因此得到其他的好處，像是先前提到 CSS bundles lazy loading 的原生支援等等。",
+          "embedded_links": [
+            {
+              "identifier": "AUzTf4g",
+              "title": "Mozilla Open Source Support (MOSS)",
+              "url_domain": "mozilla.org",
+              "url": "https://www.mozilla.org/en-US/moss/"
+            }
+          ]
+        },
+        {
+          "identifier": "jlFkJ2f",
+          "type": "Link",
+          "title": "JavaScript Factory Functions with ES6+",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/javascript-scene/javascript-factory-functions-with-es6-4d224591a8b1",
+          "description": "<p>ES6 提供很多方便的語法，本篇文章介紹非常實用的 object literal syntax 和 factory function 配合使用。</p>",
+          "description_markdown": "ES6 提供很多方便的語法，本篇文章介紹非常實用的 object literal syntax 和 factory function 配合使用。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "OIGhrQz",
+          "type": "Link",
+          "title": "CSS Grid Changes Everything (About Web Layouts)",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=txZq7Laz7_4",
+          "description": "<p>Morten Rand-Hendriksen 在 WordCamp Europe ’17 展示 CSS grid 的威力。如果你已經習慣現在的前端排版思維，很難解釋 grid 有多厲害，不如直接感受一下。看看 <a href=\"http://mor10.com\">Morten 的個人網站</a>，稍微拉一下視窗觀察元件位置的響應，思考一下你會怎麼寫 markup。想好之後再打開 inspector 看看 Morten 的實作。身為從 GUI pgoramming 半路出家的網站工程師，這 markup 實在簡單到令我震驚啊！！！<del>GUI 本來就是該這麼寫啊前端落後業界二十年終於跟上了好感動。</del></p>\n\n<p>CSS grid 的主要功能就是把頁面上的各大項放到正確的位置，就像你用 graphic tools（例如 InDesign）一樣：拿著一個元件、把它放到方格畫布上某個位置；再拿另一個元件、把它放到另一個位置，以此類推。沒有 content flow、沒有 table、沒有 floating div、沒有 flexbox，就是單純的放置，和正常的圖像設計一樣。如同 Morten 在 talk 裡所說，這不是用來取代已有的排版工具，而是讓各種排版工具被用在它們本來的用途：如果你需要表格，就用 table；如果你需要浮動元件，就用 float；如果你需要並排類似元件，就用 flexbox。<strong>如果你需要排版一個頁面，就用 grid。</strong></p>\n\n<p>當然這年頭的前端技術一發表，第一排就會有人舉手說可是我的舊網站要支援 IE 所以不能用。Morten 基本上同意這件事，但 CSS grid 的用途有個 easy way out：mobile first。定義一個合理的排版（完全不用 grid）給 mobile 與所有過舊的客戶端使用，用 media query 在合適的尺寸與客戶端用 grids 顯示更花俏的排版。CSS grid 是革命性的排版變革（我完全同意），所以需要大家努力讓它儘早進入主流。</p>\n\n<p>如果你比起影片更喜歡看文章，Morten 也在 Smashing Magazine 發表了一篇詳細的 <a href=\"https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/\">write-up</a>，可以參考。如果你之前學 <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\">flexbox</a> 的時候看過 CSS-Tricks 的 cheatsheet 網頁，他們<a href=\"https://css-tricks.com/snippets/css/complete-guide-grid/\">也為 grid 寫了一個</a>，很好用喔。</p>",
+          "description_markdown": "Morten Rand-Hendriksen 在 WordCamp Europe ’17 展示 CSS grid 的威力。如果你已經習慣現在的前端排版思維，很難解釋 grid 有多厲害，不如直接感受一下。看看 [Morten 的個人網站](http://mor10.com)，稍微拉一下視窗觀察元件位置的響應，思考一下你會怎麼寫 markup。想好之後再打開 inspector 看看 Morten 的實作。身為從 GUI pgoramming 半路出家的網站工程師，這 markup 實在簡單到令我震驚啊！！！~~GUI 本來就是該這麼寫啊前端落後業界二十年終於跟上了好感動。~~\r\n\r\nCSS grid 的主要功能就是把頁面上的各大項放到正確的位置，就像你用 graphic tools（例如 InDesign）一樣：拿著一個元件、把它放到方格畫布上某個位置；再拿另一個元件、把它放到另一個位置，以此類推。沒有 content flow、沒有 table、沒有 floating div、沒有 flexbox，就是單純的放置，和正常的圖像設計一樣。如同 Morten 在 talk 裡所說，這不是用來取代已有的排版工具，而是讓各種排版工具被用在它們本來的用途：如果你需要表格，就用 table；如果你需要浮動元件，就用 float；如果你需要並排類似元件，就用 flexbox。**如果你需要排版一個頁面，就用 grid。**\r\n\r\n當然這年頭的前端技術一發表，第一排就會有人舉手說可是我的舊網站要支援 IE 所以不能用。Morten 基本上同意這件事，但 CSS grid 的用途有個 easy way out：mobile first。定義一個合理的排版（完全不用 grid）給 mobile 與所有過舊的客戶端使用，用 media query 在合適的尺寸與客戶端用 grids 顯示更花俏的排版。CSS grid 是革命性的排版變革（我完全同意），所以需要大家努力讓它儘早進入主流。\r\n\r\n如果你比起影片更喜歡看文章，Morten 也在 Smashing Magazine 發表了一篇詳細的 [write-up](https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/)，可以參考。如果你之前學 [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 的時候看過 CSS-Tricks 的 cheatsheet 網頁，他們[也為 grid 寫了一個](https://css-tricks.com/snippets/css/complete-guide-grid/)，很好用喔。",
+          "embedded_links": [
+            {
+              "identifier": "Xzr51PL",
+              "title": "Morten 的個人網站",
+              "url_domain": "mor10.com",
+              "url": "http://mor10.com"
+            },
+            {
+              "identifier": "DI9sA94",
+              "title": "write-up",
+              "url_domain": "smashingmagazine.com",
+              "url": "https://www.smashingmagazine.com/2017/06/building-production-ready-css-grid-layout/"
+            },
+            {
+              "identifier": "jjpyGN4",
+              "title": "flexbox",
+              "url_domain": "css-tricks.com",
+              "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            },
+            {
+              "identifier": "vFfkZzG",
+              "title": "也為 grid 寫了一個",
+              "url_domain": "css-tricks.com",
+              "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+            }
+          ]
+        },
+        {
+          "identifier": "xzPXUKE",
+          "type": "Link",
+          "title": "A Rebuttal For Python 3",
+          "url_domain": "eev.ee",
+          "url": "https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/",
+          "description": "<p>這篇其實很久了，但最近發現 Zed Shaw 仍然<a href=\"https://thenextweb.com/dd/2017/07/26/ruby-rails-major-coding-bootcamp-ditches-due-waning-interest/\">被當意見領袖訪問</a>，然後<a href=\"https://www.facebook.com/yftzeng.tw/posts/10207629835263355?comment_id=10207629896104876\">還有人覺得他的觀點很有道理</a>，所以再拿出來講一下。我個人是覺得如果連 Turing-complete 是什麼都搞不懂，而且還不接受自己搞不懂的事實，應該沒資格對這類議題發表意見啦。</p>\n\n<p>如果你看不懂上面一段在寫什麼，我稍微解釋一下。Zed A. Shaw 是 <em>Learn X the Hard Way</em> 系列的作者，也寫了一篇 Python 教學 <em>Learn Python the Hard Way</em>，好像有被翻譯成簡體中文叫《笨方法学 Python》。他在 2016 年底發表了一篇文章，解釋他為什麼不喜歡（目前的）Python 3，認為不適合初學者，所以不打算更新教學。其中一個理由是 <strong>Python 3 無法執行 Python 2 程式，所以不是個 Turing-complete 語言</strong>。</p>\n\n<p>！！？？？</p>\n\n<p>然後<del>霹靂星球</del> Python 社群就爆炸啦，很多人都寫了反擊文，包括上面這篇。其他還有一些理由也是很爛，族繁不及備載，大家就看 rebuttal 笑一笑吧。後來 Shaw 後來就跳出來說欸那 ger Turing-complete 很明顯 4 開玩笑 der R 尼們那摸認真肯定心裡有鬼 <del>邪教無誤</del>。嗯好喔總之我是不信啦。接著 2017 年初他就把教學更新到 Python 3 了。好不管怎樣，總之我是覺得這人已經被看破手腳技術信用破產，沒有發表公開意見的資格了啦。不過話說回來某神和某神雖然被很多人笑也是穩坐中文界大大地位，反正信者恆信啦，個人信仰我不干涉。</p>\n\n<p>註：我對 CodeDojo 把 RoR 拿出課程本身沒有意見，只是認為 TNW 跑去問 Shaw 意見這件事情非常愚蠢。</p>",
+          "description_markdown": "這篇其實很久了，但最近發現 Zed Shaw 仍然[被當意見領袖訪問](https://thenextweb.com/dd/2017/07/26/ruby-rails-major-coding-bootcamp-ditches-due-waning-interest/)，然後[還有人覺得他的觀點很有道理](https://www.facebook.com/yftzeng.tw/posts/10207629835263355?comment_id=10207629896104876)，所以再拿出來講一下。我個人是覺得如果連 Turing-complete 是什麼都搞不懂，而且還不接受自己搞不懂的事實，應該沒資格對這類議題發表意見啦。\r\n\r\n如果你看不懂上面一段在寫什麼，我稍微解釋一下。Zed A. Shaw 是 *Learn X the Hard Way* 系列的作者，也寫了一篇 Python 教學 *Learn Python the Hard Way*，好像有被翻譯成簡體中文叫《笨方法学 Python》。他在 2016 年底發表了一篇文章，解釋他為什麼不喜歡（目前的）Python 3，認為不適合初學者，所以不打算更新教學。其中一個理由是 **Python 3 無法執行 Python 2 程式，所以不是個 Turing-complete 語言**。\r\n\r\n！！？？？\r\n\r\n然後~~霹靂星球~~ Python 社群就爆炸啦，很多人都寫了反擊文，包括上面這篇。其他還有一些理由也是很爛，族繁不及備載，大家就看 rebuttal 笑一笑吧。後來 Shaw 後來就跳出來說欸那 ger Turing-complete 很明顯 4 開玩笑 der R 尼們那摸認真肯定心裡有鬼 ~~邪教無誤~~。嗯好喔總之我是不信啦。接著 2017 年初他就把教學更新到 Python 3 了。好不管怎樣，總之我是覺得這人已經被看破手腳技術信用破產，沒有發表公開意見的資格了啦。不過話說回來某神和某神雖然被很多人笑也是穩坐中文界大大地位，反正信者恆信啦，個人信仰我不干涉。\r\n\r\n註：我對 CodeDojo 把 RoR 拿出課程本身沒有意見，只是認為 TNW 跑去問 Shaw 意見這件事情非常愚蠢。",
+          "embedded_links": [
+            {
+              "identifier": "U5GGeo9",
+              "title": "被當意見領袖訪問",
+              "url_domain": "thenextweb.com",
+              "url": "https://thenextweb.com/dd/2017/07/26/ruby-rails-major-coding-bootcamp-ditches-due-waning-interest/"
+            },
+            {
+              "identifier": "NaV7lfB",
+              "title": "還有人覺得他的觀點很有道理",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/yftzeng.tw/posts/10207629835263355?comment_id=10207629896104876"
+            }
+          ]
+        },
+        {
+          "identifier": "yGQD86y",
+          "type": "Link",
+          "title": "價值 150 萬美元的引號",
+          "url_domain": "reddit.com",
+          "url": "https://www.reddit.com/r/ethtrader/comments/6qryc2/did_rexmls_ico_just_lost_6600_eth_due_to_a/",
+          "description": "<p>REXmls（一個 ICO）上週舉辦了 token sale。但他們忘了在網頁上顯示 contract 的 JavaScript 字串加上引號。正確的 contract 是 <code>0x03e4B00B607d09811b0Fa61Cf636a6460861939F</code>，因為沒有加引號而被視為數字。JavaScript 的 <code>Number</code> type 是浮點數，數字太大的時候會產生有效位問題，所以最後被 cast 成字串輸出的值是 <code>0x3e4b00b607d0980668ca6e50201576b00000000</code>，因為「長得和原本的值太像，沒人發現」（他們自己講的），結果就有 6600 ETH 轉帳變成空氣。</p>\n\n<p>很多人都在說 JavaScript 現在沒很糟了，不過我是覺得如果一個程式語言無法了解整數浮點數字串是三個意義完全不同的概念，那它似乎不應該被拿來在工作上使用。</p>",
+          "description_markdown": "REXmls（一個 ICO）上週舉辦了 token sale。但他們忘了在網頁上顯示 contract 的 JavaScript 字串加上引號。正確的 contract 是 `0x03e4B00B607d09811b0Fa61Cf636a6460861939F`，因為沒有加引號而被視為數字。JavaScript 的 `Number` type 是浮點數，數字太大的時候會產生有效位問題，所以最後被 cast 成字串輸出的值是 `0x3e4b00b607d0980668ca6e50201576b00000000`，因為「長得和原本的值太像，沒人發現」（他們自己講的），結果就有 6600 ETH 轉帳變成空氣。\r\n\r\n很多人都在說 JavaScript 現在沒很糟了，不過我是覺得如果一個程式語言無法了解整數浮點數字串是三個意義完全不同的概念，那它似乎不應該被拿來在工作上使用。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "kGusmHR",
+          "type": "Link",
+          "title": "Women will never advance doing community work",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@fox/women-will-never-advance-doing-community-work-ad342b722cce",
+          "description": "<p>雖然標題這樣下，但我覺得其實不只女性，這是社群一個很 general 的可怕矛盾。</p>\n\n<ul>\n<li>如果社群領袖持續參與社群活動，就不可能在專業生涯進展</li>\n<li>如果想在發展專業，就不可能密切參與社群活動</li>\n<li>沒辦法在社群接觸真正的意見領袖；接觸過的人如果往上爬，你就再也看不到他了</li>\n</ul>\n\n\n<p>這造成很多很弔詭的現象，例如很多在社群貢獻的人會被 underrecognised，像我們的主編 Vinta ㄉㄉ就應該要有更多人認識才對 <del>我這樣會不會太狗腿</del>；因為知名度不夠，沒辦法進入主流視野，就拿不到該有的資源。另一方面社群即使再良心立意再好對成員多有用，即使成員一個一個成長，社群本身仍然會像垃圾接案公司一樣，永遠原地踏步——因為強者練完功就會離開，留下被他們吸進來的 junior。</p>\n\n<p>搞社群一段時間的可能多少都有這類矛盾吧，像 PyCon Taiwan 最近幾年也是結婚的結婚生小孩的生小孩出國的出國開公司的開公司（對我就是在講你和你和你和你不要懷疑）。當然大家發展得這麼好作為朋友超開心的啊，但是也同時會在想這好像沒辦法成為永續的社群模式，實在令人擔心。這個問題很難看到立即的影響（跟全球暖化有點像），大概也不會有人關注這篇吧，點閱率大概會在本期墊底，不過還是希望有更多人能注意到這個現象，而不是哪天熱浪襲擊歐洲才開始動作。</p>",
+          "description_markdown": "雖然標題這樣下，但我覺得其實不只女性，這是社群一個很 general 的可怕矛盾。\r\n\r\n* 如果社群領袖持續參與社群活動，就不可能在專業生涯進展\r\n* 如果想在發展專業，就不可能密切參與社群活動\r\n* 沒辦法在社群接觸真正的意見領袖；接觸過的人如果往上爬，你就再也看不到他了\r\n\r\n這造成很多很弔詭的現象，例如很多在社群貢獻的人會被 underrecognised，像我們的主編 Vinta ㄉㄉ就應該要有更多人認識才對 ~~我這樣會不會太狗腿~~；因為知名度不夠，沒辦法進入主流視野，就拿不到該有的資源。另一方面社群即使再良心立意再好對成員多有用，即使成員一個一個成長，社群本身仍然會像垃圾接案公司一樣，永遠原地踏步——因為強者練完功就會離開，留下被他們吸進來的 junior。\r\n\r\n搞社群一段時間的可能多少都有這類矛盾吧，像 PyCon Taiwan 最近幾年也是結婚的結婚生小孩的生小孩出國的出國開公司的開公司（對我就是在講你和你和你和你不要懷疑）。當然大家發展得這麼好作為朋友超開心的啊，但是也同時會在想這好像沒辦法成為永續的社群模式，實在令人擔心。這個問題很難看到立即的影響（跟全球暖化有點像），大概也不會有人關注這篇吧，點閱率大概會在本期墊底，不過還是希望有更多人能注意到這個現象，而不是哪天熱浪襲擊歐洲才開始動作。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "NHvRnLi",
+          "type": "Link",
+          "title": "JavaScript?",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/jplur_/status/891358168688754688",
+          "description": "<p>🤔🤔🤔🤔🤔</p>\n\n<p>由 <a href=\"https://twitter.com/uranusjr\">@uranusjr</a> 分享。</p>",
+          "description_markdown": "🤔🤔🤔🤔🤔\r\n\r\n由 [@uranusjr](https://twitter.com/uranusjr) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "Q5fTG7P",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

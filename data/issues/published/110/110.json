@@ -1,0 +1,418 @@
+{
+  "number": 110,
+  "title": "Issue 110 測試案例分成兩種：「這也要測？！」和「這也能測？！」",
+  "summary": "本期內容涵蓋 Git, iOS, Kotlin, Operation, Fonts, Machine Learning",
+  "url": "https://weekly.codetengu.com/issues/110",
+  "publication_status": "published",
+  "published_at": "2017-12-18T02:00:00+00:00",
+  "updated_at": "2017-12-18T02:00:07+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "QUD1VGa",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "2MBPwcr",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "u7IzDt3",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "nkGBAzP",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "9DHmCB8",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "9Im7z2P",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "y5HOGQq",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9h16kkq",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "MN3hruX",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "MzhBK57",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Cmf357J",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "OepbSrX",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "K1MKtWb",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "j3CGYWJ",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "4lsb8FM",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "GvezKzL",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "i3LSkrP",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "KsryZYB",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "A7V0x5M",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "4obfBLY",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "4OXH72r",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "qxzxf4z",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "GYU3w2",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "4G9JQAP",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "iHunfnc",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "aaHFSe9",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "Ahq7X0y",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "NNjGNMg",
+          "type": "Link",
+          "title": "Git - git-rebase Documentation",
+          "url_domain": "git-scm.com",
+          "url": "https://git-scm.com/docs/git-rebase#git-rebase-rebaseautoStash",
+          "description": "<p>最近新發現的 <code>git pull --autostash</code>，<code>--autostash</code> 是個相見恨晚的 option。</p>\n\n<p>如果 local branch 有髒的 commit 要 pull 時就會被擋，加了這個 option 就會自動幫你 stash ，pull 完再 pop 回來。<br/>\n這個 option 在 Git 2.6 (2015/09) 就加入，但最好檢查你的 Git 版本是在 2.10+ (2016/07)，因為之前的版本 <a href=\"https://github.com/git/git/commit/33ba9c648b6753a4184e53ffb89f0a924f9f7b7e\">rebase 沒有完成的話會丟失 autostash 的東西</a>。</p>\n\n<p>實際上這個 option 是針對 rebase 的，所以你的 pull 指令必須是用 rebase 模式才行，說到 rebase 模式我也喜歡 <code>rebase=preserve</code>，rebase 的時候可以保留 merge commit。<br/>\n詳細情境可參考：<a href=\"https://stackoverflow.com/questions/11863785/make-git-pull-rebase-preserve-merge-commits/11863842\">Make git pull --rebase preserve merge commits\n</a></p>\n\n<p>與大家分享我的喜悅，不用謝我了！</p>\n\n<pre><code>git config --global pull.rebase preserve\ngit config --global rebase.autoStash true\n</code></pre>",
+          "description_markdown": "最近新發現的 `git pull --autostash`，`--autostash` 是個相見恨晚的 option。\r\n\r\n如果 local branch 有髒的 commit 要 pull 時就會被擋，加了這個 option 就會自動幫你 stash ，pull 完再 pop 回來。  \r\n這個 option 在 Git 2.6 (2015/09) 就加入，但最好檢查你的 Git 版本是在 2.10+ (2016/07)，因為之前的版本 [rebase 沒有完成的話會丟失 autostash 的東西](https://github.com/git/git/commit/33ba9c648b6753a4184e53ffb89f0a924f9f7b7e)。\r\n\r\n實際上這個 option 是針對 rebase 的，所以你的 pull 指令必須是用 rebase 模式才行，說到 rebase 模式我也喜歡 `rebase=preserve`，rebase 的時候可以保留 merge commit。  \r\n詳細情境可參考：[Make git pull --rebase preserve merge commits\r\n](https://stackoverflow.com/questions/11863785/make-git-pull-rebase-preserve-merge-commits/11863842)\r\n\r\n\r\n與大家分享我的喜悅，不用謝我了！\r\n\r\n```\r\ngit config --global pull.rebase preserve\r\ngit config --global rebase.autoStash true\r\n```",
+          "embedded_links": [
+            {
+              "identifier": "uAYVkiV",
+              "title": "rebase 沒有完成的話會丟失 autostash 的東西",
+              "url_domain": "github.com",
+              "url": "https://github.com/git/git/commit/33ba9c648b6753a4184e53ffb89f0a924f9f7b7e"
+            },
+            {
+              "identifier": "Eug6uJR",
+              "title": "Make git pull --rebase preserve merge commits\r\n",
+              "url_domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/11863785/make-git-pull-rebase-preserve-merge-commits/11863842"
+            }
+          ]
+        },
+        {
+          "identifier": "vKYo8bf",
+          "type": "Link",
+          "title": "The Flat Cache",
+          "url_domain": "khanlou.com",
+          "url": "http://khanlou.com/2017/10/the-flat-cache/",
+          "description": "<p>做 Client 有一個很典型的課題就是 memory model 的狀態同步，簡單說就是當特定物件的狀態改變時，在記憶體中表示同一個物件的物件們也要跟著改。</p>\n\n<p>其實最佳解就是建一個 client 的關聯式資料庫，記憶體中不要再存分散的 models，所有 fetch 都先寫進 DB 再派出來，後續再監聽 DB 的 changed event 改 model 狀態。<br/>\n但，弄個 DB 的成本不算低，如果沒有本地儲存的需求，又是典型的殺雞用牛刀了。</p>\n\n<p>Khanlou 提出了一個 Flat Cache 的架構來解決上面的問題，用 Swift 實作，就直接想像是一個在記憶體的關聯式資料庫。</p>\n\n<p>值得一看的是這個架構的設計跟實作的思路。</p>",
+          "description_markdown": "做 Client 有一個很典型的課題就是 memory model 的狀態同步，簡單說就是當特定物件的狀態改變時，在記憶體中表示同一個物件的物件們也要跟著改。\r\n\r\n其實最佳解就是建一個 client 的關聯式資料庫，記憶體中不要再存分散的 models，所有 fetch 都先寫進 DB 再派出來，後續再監聽 DB 的 changed event 改 model 狀態。  \r\n但，弄個 DB 的成本不算低，如果沒有本地儲存的需求，又是典型的殺雞用牛刀了。\r\n\r\nKhanlou 提出了一個 Flat Cache 的架構來解決上面的問題，用 Swift 實作，就直接想像是一個在記憶體的關聯式資料庫。\r\n\r\n值得一看的是這個架構的設計跟實作的思路。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "fXUszhi",
+          "type": "Link",
+          "title": "我是 iOS Developer，我想向公司申請一副監聽耳機",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/0xced/status/900692839557992449",
+          "description": "<p>老方法新滋味，在開發中用聲音來提示 UIViewController leaked 真的太聰明了！</p>",
+          "description_markdown": "老方法新滋味，在開發中用聲音來提示 UIViewController leaked 真的太聰明了！",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "7fef9989-3cc9-45a7-a370-a5aa3967cf90.png",
+          "image_extra_large_filename": "original_ratio_extra_large_7fef9989-3cc9-45a7-a370-a5aa3967cf90.png",
+          "image_medium_filename": "original_ratio_medium_7fef9989-3cc9-45a7-a370-a5aa3967cf90.png"
+        },
+        {
+          "identifier": "JvhFVC0",
+          "type": "Link",
+          "title": "Jake Wharton on the Android Kotlin Guides",
+          "url_domain": "fragmentedpodcast.com",
+          "url": "http://fragmentedpodcast.com/episodes/105/",
+          "description": "<p>Jake Wharton 在 Google Android framework team 推動 Kotlin，並在這期 Fragmented 談他們釋出的 <a href=\"https://android.github.io/kotlin-guides/\">Kotlin Android 開發者 style guide</a>。<br/>\n這不是一份嚴格的 guide，只涵蓋了基礎重要的部分，之後應該會釋出 format 工具。</p>\n\n<p>這份文件的 <a href=\"https://android.github.io/kotlin-guides/interop.html\">Interop guide</a> 對正在混用 Java 及\n Kotlin 的開發者會很有幫助。</p>",
+          "description_markdown": "Jake Wharton 在 Google Android framework team 推動 Kotlin，並在這期 Fragmented 談他們釋出的 [Kotlin Android 開發者 style guide](https://android.github.io/kotlin-guides/)。  \r\n這不是一份嚴格的 guide，只涵蓋了基礎重要的部分，之後應該會釋出 format 工具。\r\n\r\n這份文件的 [Interop guide](https://android.github.io/kotlin-guides/interop.html) 對正在混用 Java 及\r\n Kotlin 的開發者會很有幫助。",
+          "embedded_links": [
+            {
+              "identifier": "FA5DJAd",
+              "title": "Kotlin Android 開發者 style guide",
+              "url_domain": "github.io",
+              "url": "https://android.github.io/kotlin-guides/"
+            },
+            {
+              "identifier": "adTiZkN",
+              "title": "Interop guide",
+              "url_domain": "github.io",
+              "url": "https://android.github.io/kotlin-guides/interop.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "vOzmuIX",
+          "type": "Link",
+          "title": "Use a .dev domain? Not anymore.",
+          "url_domain": "medium.engineering",
+          "url": "https://medium.engineering/use-a-dev-domain-not-anymore-95219778e6fd",
+          "description": "<p>TL;DR Google 把 <code>.dev</code> TLD 買下來作為企業內部使用，而且把它下面的所有網域設定成強迫要求安全連線。如果你把這種網址用來當作開發用內部網址，就會出現問題，請儘速移轉。</p>\n\n<p>我設了滿多這樣的假網域，不過主要是本地開發用，因為我很懶得記各種 we framework 的 dev server 用哪個 port，就用 reverse proxy 加上 <code>/etc/hosts</code> 設定了像 <code>django.dev</code> <code>flask.dev</code> 等等。我也不知道為什麼當初會用 <code>.dev</code>，不過看起來是滿字然的選擇⋯⋯唯一問題是，這不是 best practice。</p>\n\n<p><a href=\"https://tools.ietf.org/html/rfc2606\">RFC 2606</a> 特別為了這種需求，保留了幾個永不使用的 TLDs：</p>\n\n<ul>\n<li><code>.locahost</code></li>\n<li><code>.test</code></li>\n<li><code>.example</code></li>\n<li><code>.invalid</code></li>\n</ul>\n\n\n<p>所以就我的使用意境 <code>django.locahost</code> 大概是最好的選擇。雖然長了點，但保證永遠可用。Technically correct is the best kind of correct.</p>\n\n<p>至於為什麼 TLD 可以整組被公司想買就買，這就是另一個故事了。原文順帶講了許多關於 TLD 的歷史故事和知識，我覺得寫得滿不錯，建議一讀。至於未來會不會繼續看到各種神奇的 TLD 雖然稍微不安，但好像也沒什麼辦法了。</p>",
+          "description_markdown": "TL;DR Google 把 `.dev` TLD 買下來作為企業內部使用，而且把它下面的所有網域設定成強迫要求安全連線。如果你把這種網址用來當作開發用內部網址，就會出現問題，請儘速移轉。\r\n\r\n我設了滿多這樣的假網域，不過主要是本地開發用，因為我很懶得記各種 we framework 的 dev server 用哪個 port，就用 reverse proxy 加上 `/etc/hosts` 設定了像 `django.dev` `flask.dev` 等等。我也不知道為什麼當初會用 `.dev`，不過看起來是滿字然的選擇⋯⋯唯一問題是，這不是 best practice。\r\n\r\n[RFC 2606](https://tools.ietf.org/html/rfc2606) 特別為了這種需求，保留了幾個永不使用的 TLDs：\r\n\r\n* `.locahost`\r\n* `.test`\r\n* `.example`\r\n* `.invalid`\r\n\r\n所以就我的使用意境 `django.locahost` 大概是最好的選擇。雖然長了點，但保證永遠可用。Technically correct is the best kind of correct.\r\n\r\n至於為什麼 TLD 可以整組被公司想買就買，這就是另一個故事了。原文順帶講了許多關於 TLD 的歷史故事和知識，我覺得寫得滿不錯，建議一讀。至於未來會不會繼續看到各種神奇的 TLD 雖然稍微不安，但好像也沒什麼辦法了。",
+          "embedded_links": [
+            {
+              "identifier": "r5ShV0C",
+              "title": "RFC 2606",
+              "url_domain": "ietf.org",
+              "url": "https://tools.ietf.org/html/rfc2606"
+            }
+          ]
+        },
+        {
+          "identifier": "fagcoqr",
+          "type": "Link",
+          "title": "Mosh: the mobile shell",
+          "url_domain": "mosh.org",
+          "url": "https://mosh.org",
+          "description": "<p>Mosh 是個連線到遠端 shell 的工具，基本上就類似 SSH，不過對 SSH 常見的煩惱做了幾個改進：換 IP 不會斷線、client/server 差分更新所以不會網路一卡就整個停住連 ctrl-c 都不行、讓你明確知道連線狀態不會斷線就 freeze 直到 broken pipe。如果你常用 SSH 應該很容易 appreciate 這些特點，不用特別推銷。</p>\n\n<p>實作上，當你用 Mosh 連到一個 server，是用 SSH 進行 handshake 與認證，完成之後在 server 啟動 <code>mosh-server</code> 接手，與 client 端的 <code>mosh-client</code> 繼續接下來的溝通。這代表你不需要額外跑 daemon，只要有  <code>mosh-server</code> binary，就可以輕易地把 SSH server 變成 Mosh server。方便。</p>\n\n<p>我用了一陣子還是遇到不少麻煩。Mosh 沒有 daemon 是優點也是缺點，因為無法產生 priviledged process，所以它必須使用隨機的高 port 號，如果你的 server 在 NAT 後面就會遇到問題。它的 SSH handshake 也寫死了不少行為期望，所以如果你不是用標準的 22 port，甚至用了 reverse SSH tunnel 就會很爆炸，雖然有 workaround 但就少了一大半意義，不如直接用 SSH。喔對了還有，Windows 支援不存在（只有第三方的 Google Chrome app client）。不過如果情境對，還是非常好用。</p>",
+          "description_markdown": "Mosh 是個連線到遠端 shell 的工具，基本上就類似 SSH，不過對 SSH 常見的煩惱做了幾個改進：換 IP 不會斷線、client/server 差分更新所以不會網路一卡就整個停住連 ctrl-c 都不行、讓你明確知道連線狀態不會斷線就 freeze 直到 broken pipe。如果你常用 SSH 應該很容易 appreciate 這些特點，不用特別推銷。\r\n\r\n實作上，當你用 Mosh 連到一個 server，是用 SSH 進行 handshake 與認證，完成之後在 server 啟動 `mosh-server` 接手，與 client 端的 `mosh-client` 繼續接下來的溝通。這代表你不需要額外跑 daemon，只要有  `mosh-server` binary，就可以輕易地把 SSH server 變成 Mosh server。方便。\r\n\r\n我用了一陣子還是遇到不少麻煩。Mosh 沒有 daemon 是優點也是缺點，因為無法產生 priviledged process，所以它必須使用隨機的高 port 號，如果你的 server 在 NAT 後面就會遇到問題。它的 SSH handshake 也寫死了不少行為期望，所以如果你不是用標準的 22 port，甚至用了 reverse SSH tunnel 就會很爆炸，雖然有 workaround 但就少了一大半意義，不如直接用 SSH。喔對了還有，Windows 支援不存在（只有第三方的 Google Chrome app client）。不過如果情境對，還是非常好用。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "D88IZ0y",
+          "type": "Link",
+          "title": "In Search of the Perfect Writing Font",
+          "url_domain": "ia.net",
+          "url": "https://ia.net/topics/in-search-of-the-perfect-writing-font/",
+          "description": "<p>iA <a href=\"https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace\">釋出</a>了他們為旗艦產品 iA Writer 製作的新字型，iA Writer Duospace。這字型的根本概念很有趣，嘗試在比例字的美觀與等寬字在編輯器的實用之間取得平衡，讓每個 glyph「大致等寬」。如同名稱暗示，這個字型有兩種字寬——大部分字元都一樣，但是少部分如 <code>m</code> 與 <code>w</code> 稍微寬一點，增加文稿的美觀程度，但是仍然維持類打字機編輯器讓人覺得文稿尚未完成的風格。這篇文章稍微透露了他們對字型設計的一些想法，我覺得十分有趣。難怪他們做出的編輯器完成度能夠這麼高。</p>",
+          "description_markdown": "iA [釋出](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace)了他們為旗艦產品 iA Writer 製作的新字型，iA Writer Duospace。這字型的根本概念很有趣，嘗試在比例字的美觀與等寬字在編輯器的實用之間取得平衡，讓每個 glyph「大致等寬」。如同名稱暗示，這個字型有兩種字寬——大部分字元都一樣，但是少部分如 `m` 與 `w` 稍微寬一點，增加文稿的美觀程度，但是仍然維持類打字機編輯器讓人覺得文稿尚未完成的風格。這篇文章稍微透露了他們對字型設計的一些想法，我覺得十分有趣。難怪他們做出的編輯器完成度能夠這麼高。",
+          "embedded_links": [
+            {
+              "identifier": "Tbw89Qo",
+              "title": "釋出",
+              "url_domain": "github.com",
+              "url": "https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace"
+            }
+          ]
+        },
+        {
+          "identifier": "8eCBdde",
+          "type": "Link",
+          "title": "Which word begins with “y” and looks like an axe in this picture?",
+          "url_domain": "stackexchange.com",
+          "url": "https://english.stackexchange.com/questions/395382/which-word-begins-with-y-and-looks-like-an-axe-in-this-picture",
+          "description": "<p>有什麼字是 “y” 開頭，看起來像個斧頭？</p>\n\n<p>有個網友看到他兒子的球上寫著 26 英文字母加上圖案，例如 Q 配 queen、E 配 elepant。可是為什麼 Y 配一個像斧頭的東西？他跑去 english.stackexchange.com 問，下面就熱烈討論了一番，出現了各式各樣的回應（許多層面上）。請不要浪費才能好嗎。</p>",
+          "description_markdown": "有什麼字是 “y” 開頭，看起來像個斧頭？\r\n\r\n有個網友看到他兒子的球上寫著 26 英文字母加上圖案，例如 Q 配 queen、E 配 elepant。可是為什麼 Y 配一個像斧頭的東西？他跑去 english.stackexchange.com 問，下面就熱烈討論了一番，出現了各式各樣的回應（許多層面上）。請不要浪費才能好嗎。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "HqFel12",
+          "type": "Link",
+          "title": "一日自學 GAN",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@drumrick/一日自學-gan-d21a5c2f9599",
+          "description": "<p>碼天狗過去 <a href=\"https://weekly.codetengu.com/issues/72?m=web#tFEezyl\">72</a>, <a href=\"https://weekly.codetengu.com/issues/75?m=web#XaO9aXU\">75</a>, <a href=\"https://weekly.codetengu.com/issues/92?m=web#hTnOxjT\">92</a> 期都曾經提 GAN，如果你跟我一樣錯過了李宏毅教授的課，這篇文章是我這週末學習 GAN 時記錄下來的一些連結，希望對大家有幫助。</p>",
+          "description_markdown": "碼天狗過去 [72](https://weekly.codetengu.com/issues/72?m=web#tFEezyl), [75](https://weekly.codetengu.com/issues/75?m=web#XaO9aXU), [92](https://weekly.codetengu.com/issues/92?m=web#hTnOxjT) 期都曾經提 GAN，如果你跟我一樣錯過了李宏毅教授的課，這篇文章是我這週末學習 GAN 時記錄下來的一些連結，希望對大家有幫助。",
+          "embedded_links": [
+            {
+              "identifier": "OFcwSau",
+              "title": "72",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/72?m=web#tFEezyl"
+            },
+            {
+              "identifier": "YuDLoaR",
+              "title": "75",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/75?m=web#XaO9aXU"
+            },
+            {
+              "identifier": "wZ0p5q7",
+              "title": "92",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/92?m=web#hTnOxjT"
+            }
+          ]
+        },
+        {
+          "identifier": "XY3YTQ3",
+          "type": "Link",
+          "title": "Kaggle 競賽網站冠軍排名易主！",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@drumrick/kaggler-新的冠軍產生-3a41629c59b9",
+          "description": "<p>Kaggle 這個廣為人知的機器學習競賽網站，這幾天產生了新的排名冠軍。新的冠軍用戶名為 bestfitting，僅僅 15 個月 10 場比賽，直奔冠軍寶座。本文整理了兩個來源的五個連結，分別是 bestfitting 分享四個競賽的解法，讓大家窺探這位新任 Kaggle 冠軍解決問題的思路。</p>",
+          "description_markdown": "Kaggle 這個廣為人知的機器學習競賽網站，這幾天產生了新的排名冠軍。新的冠軍用戶名為 bestfitting，僅僅 15 個月 10 場比賽，直奔冠軍寶座。本文整理了兩個來源的五個連結，分別是 bestfitting 分享四個競賽的解法，讓大家窺探這位新任 Kaggle 冠軍解決問題的思路。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bg2EusY",
+          "type": "Link",
+          "title": "TensorFlow 有安全疑慮？",
+          "url_domain": "qq.com",
+          "url": "http://tech.qq.com/a/20171215/044300.htm",
+          "description": "<p>在多處中國方面的科技媒體看到騰訊表示發現了 TensorFlow 一個嚴重的安全漏洞，回報給 Google 並且得到確認。目前英文方面沒有收集到任何消息，但是也不失為一個警惕的徵兆？先前另外一篇論文 <a href=\"https://arxiv.org/abs/1711.11008\">Security Risks in Deep Learning Implementations</a> 表示，主流深度學習框架（包含 TensorFlow, Caffe, Torch）的依賴套件們，也是存在安全漏洞的，雖然讀了以後大致上是 OpenCV 導致的。</p>",
+          "description_markdown": "在多處中國方面的科技媒體看到騰訊表示發現了 TensorFlow 一個嚴重的安全漏洞，回報給 Google 並且得到確認。目前英文方面沒有收集到任何消息，但是也不失為一個警惕的徵兆？先前另外一篇論文 [Security Risks in Deep Learning Implementations](https://arxiv.org/abs/1711.11008) 表示，主流深度學習框架（包含 TensorFlow, Caffe, Torch）的依賴套件們，也是存在安全漏洞的，雖然讀了以後大致上是 OpenCV 導致的。",
+          "embedded_links": [
+            {
+              "identifier": "6jeoBrv",
+              "title": "Security Risks in Deep Learning Implementations",
+              "url_domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/1711.11008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "vCN7flc",
+          "type": "Link",
+          "title": "But what *is* a Neural Network?",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+          "description": "<p>解釋神經網路是怎麼運作的，這樣的 YouTuber 我可以！</p>\n\n<p>由 <a href=\"http://twitter.com/saiday\">@saiday</a> 分享</p>",
+          "description_markdown": "解釋神經網路是怎麼運作的，這樣的 YouTuber 我可以！\r\n\r\n由 [@saiday](http://twitter.com/saiday) 分享",
+          "embedded_links": [
+            {
+              "identifier": "X4xN1Ft",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "http://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

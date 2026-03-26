@@ -1,0 +1,468 @@
+{
+  "number": 79,
+  "title": "Issue 79 我們將在近期推出一份新刊物：CodeTengu Lite，每期的 email 只會有主旨，沒有內容，適合大部分只看標題不看內文的讀者訂閱，敬請期待！",
+  "summary": "本期內容涵蓋 Database, API, Security, Django, Python, MySQL, Bash, Design Patterns, Unicode, React, JavaScript, Testing, Functional Programming, CSS",
+  "url": "https://weekly.codetengu.com/issues/79",
+  "publication_status": "published",
+  "published_at": "2017-03-13T02:00:00+00:00",
+  "updated_at": "2017-03-14T06:02:45+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Forever War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://twitter.com/saiday/status/833915863573024768\">教召報名成功～</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Forever War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [教召報名成功～](https://twitter.com/saiday/status/833915863573024768)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "nEcptoV",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Qk7zezP",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "1vVqHqE",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "6FUDZsM",
+              "title": "The Forever War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "zlc4mmc",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "GVLvC04",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "GX2q6hi",
+              "title": "教召報名成功～",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday/status/833915863573024768"
+            },
+            {
+              "identifier": "PUrp374",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "BHux0db",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "F9y20x6",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "V6kTu92",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Gu3bvIL",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "CYVcgcv",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "l8tm7iL",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "ETZVl4F",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "FWwxxBB",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "WCkdACU",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "6lKmPlA",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "ga9QEV7",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "GVT9Sm0",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "Tj3awLT",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "EmIRZSR",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "rYrE2oq",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "N7U25vL",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "MLYs4kj",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "kONZp04",
+          "type": "Link",
+          "title": "A Review of \"Designing Data-Intensive Applications\"",
+          "url_domain": "marksblogg.com",
+          "url": "http://tech.marksblogg.com/designing-data-intensive-applications-review.html",
+          "description": "<p>最近在讀 <a href=\"http://dataintensive.net/\">Designing Data-Intensive Applications</a> 這本書，各方評價之好，忍不住要跟大家分享。這本書幾乎涵蓋了關於資料庫和分散式系統的所有你應該知道的基礎知識，重點是還講得淺顯易懂。有興趣的人可以先看看這篇書評（嚴格來說應該叫導讀了）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://news.ycombinator.com/item?id=13417326\">What is the best online resource to learn advanced SQL?</a></li>\n</ul>",
+          "description_markdown": "最近在讀 [Designing Data-Intensive Applications](http://dataintensive.net/) 這本書，各方評價之好，忍不住要跟大家分享。這本書幾乎涵蓋了關於資料庫和分散式系統的所有你應該知道的基礎知識，重點是還講得淺顯易懂。有興趣的人可以先看看這篇書評（嚴格來說應該叫導讀了）。\r\n\r\n延伸閱讀：\r\n\r\n- [What is the best online resource to learn advanced SQL?](https://news.ycombinator.com/item?id=13417326)",
+          "embedded_links": [
+            {
+              "identifier": "peWNzW3",
+              "title": "Designing Data-Intensive Applications",
+              "url_domain": "dataintensive.net",
+              "url": "http://dataintensive.net/"
+            },
+            {
+              "identifier": "HgxPQdd",
+              "title": "What is the best online resource to learn advanced SQL?",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=13417326"
+            }
+          ],
+          "image_original_filename": "a28cd28b-15c4-4915-aa3a-d6498cc3cd22.png",
+          "image_extra_large_filename": "original_ratio_extra_large_a28cd28b-15c4-4915-aa3a-d6498cc3cd22.png",
+          "image_medium_filename": "original_ratio_medium_a28cd28b-15c4-4915-aa3a-d6498cc3cd22.png"
+        },
+        {
+          "identifier": "xcY2hEX",
+          "type": "Link",
+          "title": "Google - Cloud API Design Guide",
+          "url_domain": "google.com",
+          "url": "https://cloud.google.com/apis/design/",
+          "description": "<p>Google 出品的 API 設計規範，適用 REST 和 RPC API。</p>\n\n<p>我覺得比較有實踐意義的是 <a href=\"https://cloud.google.com/apis/design/custom_methods\">Custom Methods</a> 這個章節，是嘛，要把所有的操作邏輯都 mapping 成 REST 風格的 CRUD 根本就不現實嘛。</p>",
+          "description_markdown": "Google 出品的 API 設計規範，適用 REST 和 RPC API。\r\n\r\n我覺得比較有實踐意義的是 [Custom Methods](https://cloud.google.com/apis/design/custom_methods) 這個章節，是嘛，要把所有的操作邏輯都 mapping 成 REST 風格的 CRUD 根本就不現實嘛。",
+          "embedded_links": [
+            {
+              "identifier": "CDEmZcJ",
+              "title": "Custom Methods",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/apis/design/custom_methods"
+            }
+          ]
+        },
+        {
+          "identifier": "32LUvDZ",
+          "type": "Link",
+          "title": "Secure Web Development With Django (and Python!)",
+          "url_domain": "b-list.org",
+          "url": "http://media.b-list.org/presentations/2016/djangocon/secure-web-dev.pdf",
+          "description": "<p>這是 <a href=\"https://www.youtube.com/playlist?list=PL2NFhrDSOxgX-A4qpaf3rRaEnEe7166Ac\">DjangoCon US 2016</a> 的一個 talk，專門在講 Web 開發常常遇到的安全性問題。雖然是簡報，但是內容的份量很足。作者先解釋了老生常談的 <a href=\"https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet\">OWASP Top 10</a> 漏洞（是說這個 Top 10 都是 2013 年的版本了啊），再分別介紹這些問題在 Django 裡可以怎麼應對。作者 James Bennett 就是 Django 的 core developers 之一，所以他在簡報的最後也提到了不少 Django 曾經血淋淋地犯過的錯誤的技術決策。</p>\n\n<p>雖然說只要是成熟一點的 Web Framework 應該都能夠防範大部分常見的安全性問題（或者至少漏洞會比較快被修正），當然前提是你有啟用而且有正確地使用那些機制。不過還是有很多細節必須由 developers 自己留意。尤其是現在的系統的技術棧和 infrastructure 越來越複雜，可能出錯的地方也越多，有些甚至是非常低級的漏洞，比如說直接把 AWS root key 上傳到<a href=\"https://news.ycombinator.com/item?id=13667386\">公開的 repo</a> 或是讓 Redis、Elasticsearch、RabbitMQ 可以被 public access 而且還沒有設定 auth。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://docs.djangoproject.com/en/dev/releases/security/\">Archive of Django security issues</a></li>\n<li><a href=\"https://www.kevinlondon.com/2015/10/16/answers-to-django-security-questions.html\">Answers to Django Security Questions</a></li>\n<li><a href=\"https://www.kevinlondon.com/2015/07/26/dangerous-python-functions.html\">Dangerous Python Functions, Part 1</a></li>\n<li><a href=\"https://www.kevinlondon.com/2015/08/15/dangerous-python-functions-pt2.html\">Dangerous Python Functions, Part 2</a></li>\n</ul>",
+          "description_markdown": "這是 [DjangoCon US 2016](https://www.youtube.com/playlist?list=PL2NFhrDSOxgX-A4qpaf3rRaEnEe7166Ac) 的一個 talk，專門在講 Web 開發常常遇到的安全性問題。雖然是簡報，但是內容的份量很足。作者先解釋了老生常談的 [OWASP Top 10](https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet) 漏洞（是說這個 Top 10 都是 2013 年的版本了啊），再分別介紹這些問題在 Django 裡可以怎麼應對。作者 James Bennett 就是 Django 的 core developers 之一，所以他在簡報的最後也提到了不少 Django 曾經血淋淋地犯過的錯誤的技術決策。\r\n\r\n雖然說只要是成熟一點的 Web Framework 應該都能夠防範大部分常見的安全性問題（或者至少漏洞會比較快被修正），當然前提是你有啟用而且有正確地使用那些機制。不過還是有很多細節必須由 developers 自己留意。尤其是現在的系統的技術棧和 infrastructure 越來越複雜，可能出錯的地方也越多，有些甚至是非常低級的漏洞，比如說直接把 AWS root key 上傳到[公開的 repo](https://news.ycombinator.com/item?id=13667386) 或是讓 Redis、Elasticsearch、RabbitMQ 可以被 public access 而且還沒有設定 auth。\r\n\r\n延伸閱讀：\r\n\r\n- [Archive of Django security issues](https://docs.djangoproject.com/en/dev/releases/security/)\r\n- [Answers to Django Security Questions](https://www.kevinlondon.com/2015/10/16/answers-to-django-security-questions.html)\r\n- [Dangerous Python Functions, Part 1](https://www.kevinlondon.com/2015/07/26/dangerous-python-functions.html)\r\n- [Dangerous Python Functions, Part 2](https://www.kevinlondon.com/2015/08/15/dangerous-python-functions-pt2.html)",
+          "embedded_links": [
+            {
+              "identifier": "p3ueEId",
+              "title": "DjangoCon US 2016",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/playlist?list=PL2NFhrDSOxgX-A4qpaf3rRaEnEe7166Ac"
+            },
+            {
+              "identifier": "CTc6kCj",
+              "title": "OWASP Top 10",
+              "url_domain": "owasp.org",
+              "url": "https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet"
+            },
+            {
+              "identifier": "6sMLpug",
+              "title": "公開的 repo",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=13667386"
+            },
+            {
+              "identifier": "laaDwMB",
+              "title": "Archive of Django security issues",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/dev/releases/security/"
+            },
+            {
+              "identifier": "GbXqtU",
+              "title": "Answers to Django Security Questions",
+              "url_domain": "kevinlondon.com",
+              "url": "https://www.kevinlondon.com/2015/10/16/answers-to-django-security-questions.html"
+            },
+            {
+              "identifier": "NF3nBgA",
+              "title": "Dangerous Python Functions, Part 1",
+              "url_domain": "kevinlondon.com",
+              "url": "https://www.kevinlondon.com/2015/07/26/dangerous-python-functions.html"
+            },
+            {
+              "identifier": "LrsNHcG",
+              "title": "Dangerous Python Functions, Part 2",
+              "url_domain": "kevinlondon.com",
+              "url": "https://www.kevinlondon.com/2015/08/15/dangerous-python-functions-pt2.html"
+            }
+          ]
+        },
+        {
+          "identifier": "riihERY",
+          "type": "Link",
+          "title": "Overview of Online DDL in MySQL",
+          "url_domain": "mysql.com",
+          "url": "https://dev.mysql.com/doc/refman/5.6/en/innodb-create-index-overview.html",
+          "description": "<p>MySQL 的官方文件裡非常清楚地整理了各種 DDL (Data Definition Language) 的執行特性，例如需不需要 rebuild 整個 table 或是只需要修改 metadata，以及在執行的過程中能不能允許 DML (Data Manipulation Language)。強烈建議每次要做資料庫的 schema change 前都先檢查一下。就算你是要用 <code>pt-online-schema-change</code>。</p>\n\n<p>不過某些支援 <code>ALGORITHM=INPLACE</code> 的 DDL 的行為在 Galera Cluster 裡可能會有所不同，如果你是用 TOI (Total Order Isolation) 的話，Galera 還是會 block 寫入操作。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.slideshare.net/Codership/galera-cluster-ddl-and-schema-upgrades-220217\">Galera Cluster DDL and Schema Upgrades </a></li>\n<li><a href=\"https://www.slideshare.net/Severalnines/schema-upgrades-codershippresodec2013\">Galera Cluster Zero Downtime Schema Changes Best Practices</a></li>\n</ul>",
+          "description_markdown": "MySQL 的官方文件裡非常清楚地整理了各種 DDL (Data Definition Language) 的執行特性，例如需不需要 rebuild 整個 table 或是只需要修改 metadata，以及在執行的過程中能不能允許 DML (Data Manipulation Language)。強烈建議每次要做資料庫的 schema change 前都先檢查一下。就算你是要用 `pt-online-schema-change`。\r\n\r\n不過某些支援 `ALGORITHM=INPLACE` 的 DDL 的行為在 Galera Cluster 裡可能會有所不同，如果你是用 TOI (Total Order Isolation) 的話，Galera 還是會 block 寫入操作。\r\n\r\n延伸閱讀：\r\n\r\n- [Galera Cluster DDL and Schema Upgrades ](https://www.slideshare.net/Codership/galera-cluster-ddl-and-schema-upgrades-220217)\r\n- [Galera Cluster Zero Downtime Schema Changes Best Practices](https://www.slideshare.net/Severalnines/schema-upgrades-codershippresodec2013)",
+          "embedded_links": [
+            {
+              "identifier": "ukgOBXV",
+              "title": "Galera Cluster DDL and Schema Upgrades ",
+              "url_domain": "slideshare.net",
+              "url": "https://www.slideshare.net/Codership/galera-cluster-ddl-and-schema-upgrades-220217"
+            },
+            {
+              "identifier": "dhasf8D",
+              "title": "Galera Cluster Zero Downtime Schema Changes Best Practices",
+              "url_domain": "slideshare.net",
+              "url": "https://www.slideshare.net/Severalnines/schema-upgrades-codershippresodec2013"
+            }
+          ]
+        },
+        {
+          "identifier": "w0eu9oU",
+          "type": "Link",
+          "title": "Bash Shell Scripting",
+          "url_domain": "wikibooks.org",
+          "url": "https://en.wikibooks.org/wiki/Bash_Shell_Scripting",
+          "description": "<p>雖然平常開發和做一些 DevOps 的任務時常常需要寫 shell script，不過因為一直沒有好好地學過 Bash，每次寫起來都不是很踏實，最近終於趁著放假好好地惡補了一下 Bash 相關的知識和寫法。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.tldp.org/LDP/Bash-Beginners-Guide/html/\">Bash Guide for Beginners</a></li>\n</ul>",
+          "description_markdown": "雖然平常開發和做一些 DevOps 的任務時常常需要寫 shell script，不過因為一直沒有好好地學過 Bash，每次寫起來都不是很踏實，最近終於趁著放假好好地惡補了一下 Bash 相關的知識和寫法。\r\n\r\n延伸閱讀：\r\n\r\n- [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)",
+          "embedded_links": [
+            {
+              "identifier": "tfG6PXd",
+              "title": "Bash Guide for Beginners",
+              "url_domain": "tldp.org",
+              "url": "http://www.tldp.org/LDP/Bash-Beginners-Guide/html/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "zuOelTQ",
+          "type": "Link",
+          "title": "id Software Programming Principles",
+          "url_domain": "felipe.rs",
+          "url": "http://blog.felipe.rs/2017/02/25/id-software-programming-principles/",
+          "description": "<p>id Software 不消多說，電腦遊戲玩家幾乎不可能不知道這家公司。這篇文章摘錄了他們在 GDC 2016 發表的演說中提到的、小型團隊規模的產品開發思維：</p>\n\n<ul>\n<li>不要想著先做 prototype，不要有「先求有，再求好」的苟且心態，要想著持續產出「品質隨時都可交貨」的程式</li>\n<li>你寫的遊戲程式，要能隨時讓團隊裡的任一成員都可執行（即 CI/CD 的精神）</li>\n<li>你寫的程式，要盡可能追求讓函式簡單</li>\n<li>讓好工具幫忙你製作更好的遊戲，把時間花在尋找更好的工具永遠是件好投資</li>\n<li>自己的程式碼提交出去前要先好好測試過，維持一定品質，不要浪費其他人的時間在幫你 debug</li>\n<li>自己生的 bug 自己修，馬上修！</li>\n<li>專注在你眼前的產品，為這個產品寫程式就好，不要為了八字都還沒一撇的新作考慮程式碼重用之類的問題，等到你要開發新作品了，到時候你寫的程式品質通常會比現在更好</li>\n<li>透過封裝函式來確保設計的一致性</li>\n<li>多溝通，讓團隊其他人知道你寫的這段程式是在幹什麼，保持程式的透明，不要讓它黑箱化</li>\n<li>一種米養百樣人，每個程式設計師的養成與思維各有不同，尊重彼此差異與產出的成果</li>\n</ul>",
+          "description_markdown": "id Software 不消多說，電腦遊戲玩家幾乎不可能不知道這家公司。這篇文章摘錄了他們在 GDC 2016 發表的演說中提到的、小型團隊規模的產品開發思維：\r\n\r\n* 不要想著先做 prototype，不要有「先求有，再求好」的苟且心態，要想著持續產出「品質隨時都可交貨」的程式\r\n* 你寫的遊戲程式，要能隨時讓團隊裡的任一成員都可執行（即 CI/CD 的精神）\r\n* 你寫的程式，要盡可能追求讓函式簡單\r\n* 讓好工具幫忙你製作更好的遊戲，把時間花在尋找更好的工具永遠是件好投資\r\n* 自己的程式碼提交出去前要先好好測試過，維持一定品質，不要浪費其他人的時間在幫你 debug\r\n* 自己生的 bug 自己修，馬上修！\r\n* 專注在你眼前的產品，為這個產品寫程式就好，不要為了八字都還沒一撇的新作考慮程式碼重用之類的問題，等到你要開發新作品了，到時候你寫的程式品質通常會比現在更好\r\n* 透過封裝函式來確保設計的一致性\r\n* 多溝通，讓團隊其他人知道你寫的這段程式是在幹什麼，保持程式的透明，不要讓它黑箱化\r\n* 一種米養百樣人，每個程式設計師的養成與思維各有不同，尊重彼此差異與產出的成果",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5oI7ok0",
+          "type": "Link",
+          "title": "Design Patterns for Humans™ - An ultra-simplified explanation",
+          "url_domain": "github.com",
+          "url": "https://github.com/kamranahmedse/design-patterns-for-humans",
+          "description": "<p>以淺白的敘述講解幾種 Design Patterns，類似的資源還有<a href=\"http://www.oreilly.com.tw/product_java.php?id=a163\">《深入淺出設計模式》(Head First Design Patterns)</a> 這本書。</p>\n\n<p>Design Patterns 就像武功祕笈，你的拳腳功夫練到一定程度了，發現自己沒個套路、總像在亂打一通時，就該來翻一翻了。只是像我此類資質駑鈍之輩、知道 Design Patterns 重要、但買了<a href=\"https://www.tenlong.com.tw/products/9789572054116\">《物件導向設計模式 - 可再利用物件導向軟體之要素》</a>卻還是讀不透箇中精髓時，這類科普讀物就有很好的引導作用。</p>",
+          "description_markdown": "以淺白的敘述講解幾種 Design Patterns，類似的資源還有[《深入淺出設計模式》(Head First Design Patterns)](http://www.oreilly.com.tw/product_java.php?id=a163) 這本書。\r\n\r\nDesign Patterns 就像武功祕笈，你的拳腳功夫練到一定程度了，發現自己沒個套路、總像在亂打一通時，就該來翻一翻了。只是像我此類資質駑鈍之輩、知道 Design Patterns 重要、但買了[《物件導向設計模式 - 可再利用物件導向軟體之要素》](https://www.tenlong.com.tw/products/9789572054116)卻還是讀不透箇中精髓時，這類科普讀物就有很好的引導作用。",
+          "embedded_links": [
+            {
+              "identifier": "c4KOE1P",
+              "title": "《深入淺出設計模式》(Head First Design Patterns)",
+              "url_domain": "oreilly.com.tw",
+              "url": "http://www.oreilly.com.tw/product_java.php?id=a163"
+            },
+            {
+              "identifier": "7c7bMI8",
+              "title": "《物件導向設計模式 - 可再利用物件導向軟體之要素》",
+              "url_domain": "tenlong.com.tw",
+              "url": "https://www.tenlong.com.tw/products/9789572054116"
+            }
+          ]
+        },
+        {
+          "identifier": "zLrF3Ay",
+          "type": "Link",
+          "title": "A Programmer’s Introduction to Unicode",
+          "url_domain": "reedbeta.com",
+          "url": "http://reedbeta.com/blog/programmers-intro-to-unicode/",
+          "description": "<p>一篇講解 Unicode 的懶人包，帶過字面、BMP、編碼方式 (UTF-8, UTF-16...)、動態組字等概念，非常值得一讀。</p>\n\n<p>身為一個 IT 從業人員，搞懂字元集 (character set)、字元編碼 (character encoding) 是基本功，如果你讀到這裡，對這些主題的認知還是一張白紙，趕快去補足！我個人的經驗與建議是，可以拿個十六進位編輯器，看看一份你認為再尋常不過的 plain-text 檔案，「字」在裡頭究竟是怎麼儲存的。</p>\n\n<p>題外話，學會利用十六進位編輯器這種工具去看資料逐位元的組成，這種工夫能夠讓你在對照規格書下，瞭解某種檔案格式，也能幫你在除錯時省下不少通靈、瞎猜的時間。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"https://blog.gslin.org/archives/2013/10/01/3670/%E9%9D%9E%E5%B8%B8%E7%B6%93%E5%85%B8%E7%9A%84-utf-8/\">非常經典的 UTF-8...</a></li>\n<li><a href=\"http://local.joelonsoftware.com/wiki/The_Joel_on_Software_Translation_Project:%E8%90%AC%E5%9C%8B%E7%A2%BC\">每個軟體開發者都絕對一定要會的 Unicode 及字元集必備知識 (沒有藉口！)</a></li>\n</ul>",
+          "description_markdown": "一篇講解 Unicode 的懶人包，帶過字面、BMP、編碼方式 (UTF-8, UTF-16...)、動態組字等概念，非常值得一讀。\r\n\r\n身為一個 IT 從業人員，搞懂字元集 (character set)、字元編碼 (character encoding) 是基本功，如果你讀到這裡，對這些主題的認知還是一張白紙，趕快去補足！我個人的經驗與建議是，可以拿個十六進位編輯器，看看一份你認為再尋常不過的 plain-text 檔案，「字」在裡頭究竟是怎麼儲存的。\r\n\r\n題外話，學會利用十六進位編輯器這種工具去看資料逐位元的組成，這種工夫能夠讓你在對照規格書下，瞭解某種檔案格式，也能幫你在除錯時省下不少通靈、瞎猜的時間。\r\n\r\n同場加映：\r\n\r\n* [非常經典的 UTF-8...](https://blog.gslin.org/archives/2013/10/01/3670/%E9%9D%9E%E5%B8%B8%E7%B6%93%E5%85%B8%E7%9A%84-utf-8/)\r\n* [每個軟體開發者都絕對一定要會的 Unicode 及字元集必備知識 (沒有藉口！)](http://local.joelonsoftware.com/wiki/The_Joel_on_Software_Translation_Project:%E8%90%AC%E5%9C%8B%E7%A2%BC)",
+          "embedded_links": [
+            {
+              "identifier": "3axtGeT",
+              "title": "非常經典的 UTF-8...",
+              "url_domain": "gslin.org",
+              "url": "https://blog.gslin.org/archives/2013/10/01/3670/%E9%9D%9E%E5%B8%B8%E7%B6%93%E5%85%B8%E7%9A%84-utf-8/"
+            },
+            {
+              "identifier": "80WLkcz",
+              "title": "每個軟體開發者都絕對一定要會的 Unicode 及字元集必備知識 (沒有藉口！)",
+              "url_domain": "joelonsoftware.com",
+              "url": "http://local.joelonsoftware.com/wiki/The_Joel_on_Software_Translation_Project:%E8%90%AC%E5%9C%8B%E7%A2%BC"
+            }
+          ],
+          "image_original_filename": "d0660f15-b0e5-4099-8a9c-71280399cce1.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_d0660f15-b0e5-4099-8a9c-71280399cce1.png",
+          "image_medium_filename": "twenty_by_nine_medium_d0660f15-b0e5-4099-8a9c-71280399cce1.png"
+        },
+        {
+          "identifier": "EsM6UsP",
+          "type": "Link",
+          "title": "The Story of Firefox OS",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@bfrancis/the-story-of-firefox-os-cb5bf796e8fb#.cv3chms1o",
+          "description": "<p>本期我最想分享的一篇文章。我自己身為一個 Firefox OS 腦殘粉，見證了從專案公佈到它在市場上鎩羽而歸的過程，雖然也有很多故事與心得可講，但總是比不上這位身為專案成員的作者寫的。他從時間沿革的面向、從產品設計的面向、從參與者的面向、從市場的面向去看 B2G（Boot to Gecko，Firefox OS 的專案名稱，Gecko 是 Firefox 的 rendering engine）這個專案，以及從中習得的經驗、教訓。</p>\n\n<p>內容非常精彩，雖然文長，但是推薦給每一位同樣在做產品專案的人閱讀，不要直接 END。</p>",
+          "description_markdown": "本期我最想分享的一篇文章。我自己身為一個 Firefox OS 腦殘粉，見證了從專案公佈到它在市場上鎩羽而歸的過程，雖然也有很多故事與心得可講，但總是比不上這位身為專案成員的作者寫的。他從時間沿革的面向、從產品設計的面向、從參與者的面向、從市場的面向去看 B2G（Boot to Gecko，Firefox OS 的專案名稱，Gecko 是 Firefox 的 rendering engine）這個專案，以及從中習得的經驗、教訓。\r\n\r\n內容非常精彩，雖然文長，但是推薦給每一位同樣在做產品專案的人閱讀，不要直接 END。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "XJLe7a1",
+          "type": "Link",
+          "title": "Testing React Components Best Practices",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/selleo/testing-react-components-best-practices-2f77ac302d12#.1iusv78lv",
+          "description": "<p>對 React Component 測試有興趣的朋友，建議可以先看 <a href=\"https://engineering.classdojo.com/blog/2017/01/12/integration-testing-react-redux/\">Integration Testing React and Redux With Mocha and Enzyme</a>。</p>\n\n<p>而這篇講得比較深入，甚至搭配了 Jest 的 snapshot，並且告訴你要注意的地方。</p>\n\n<ol>\n<li>測試的組織性</li>\n<li>最小的測試確認 Component render</li>\n<li>除了 renders 以外還需要測什麼？</li>\n<li>用明確的 setup() 取代 beforeEach()</li>\n<li>測試行為</li>\n<li>使用 helper function</li>\n</ol>",
+          "description_markdown": "對 React Component 測試有興趣的朋友，建議可以先看 [Integration Testing React and Redux With Mocha and Enzyme](https://engineering.classdojo.com/blog/2017/01/12/integration-testing-react-redux/)。\r\n\r\n而這篇講得比較深入，甚至搭配了 Jest 的 snapshot，並且告訴你要注意的地方。\r\n\r\n1. 測試的組織性\r\n2. 最小的測試確認 Component render\r\n3. 除了 renders 以外還需要測什麼？\r\n4. 用明確的 setup() 取代 beforeEach()\r\n5. 測試行為\r\n6. 使用 helper function\r\n",
+          "embedded_links": [
+            {
+              "identifier": "AwHNuME",
+              "title": "Integration Testing React and Redux With Mocha and Enzyme",
+              "url_domain": "classdojo.com",
+              "url": "https://engineering.classdojo.com/blog/2017/01/12/integration-testing-react-redux/"
+            }
+          ]
+        },
+        {
+          "identifier": "cSDo8Tb",
+          "type": "Link",
+          "title": "Functional Programming (FP) By Any Other Name…",
+          "url_domain": "davidwalsh.name",
+          "url": "https://davidwalsh.name/functional-programming",
+          "description": "<p>Kyle Simpson 介紹他新的 Library，FPO。裡面提到蠻多有趣的 FP 觀念，一般 ramda 或 lodash，我們都是先定義 mapper function 才丟 array，如果想要反過來要怎麼做。可以利用 named arguments 達成，雖然許多語言都有這個語法，但是 javascript 卻沒有，所以要用其他方式來達成。</p>\n\n<p>對 FP 有興趣的可以深入一看。</p>",
+          "description_markdown": "Kyle Simpson 介紹他新的 Library，FPO。裡面提到蠻多有趣的 FP 觀念，一般 ramda 或 lodash，我們都是先定義 mapper function 才丟 array，如果想要反過來要怎麼做。可以利用 named arguments 達成，雖然許多語言都有這個語法，但是 javascript 卻沒有，所以要用其他方式來達成。\r\n\r\n對 FP 有興趣的可以深入一看。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oCVHCiE",
+          "type": "Link",
+          "title": "Creative Initiatives Made By Women, For Women",
+          "url_domain": "magenta.as",
+          "url": "https://magenta.as/creative-initiatives-made-by-women-for-women-cb406ac4ce88#.5nqlqs8gh",
+          "description": "<p>3/8 婦女節剛過，僅用此篇獻給碼天狗的女性讀者們！</p>\n\n<p>推薦所有男性讀者必看！</p>",
+          "description_markdown": "3/8 婦女節剛過，僅用此篇獻給碼天狗的女性讀者們！\r\n\r\n推薦所有男性讀者必看！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PlYv6pu",
+          "type": "Link",
+          "title": "Implementing Critical CSS on your website",
+          "url_domain": "nystudio107.com",
+          "url": "https://nystudio107.com/blog/implementing-critical-css",
+          "description": "<p>Critical CSS 是現代前端工程師必須知道的，這篇文章提到許多跟網頁 performance 有關的觀念，例如 AMP、google speed insights，也有提到 SEO 的連結。</p>\n\n<p>最後介紹他們怎麼在 CraftCMS 上面實現 Critical CSS，主要使用 critical 這個 npm package 搭配 gulp 來做 automation 的部分。</p>\n\n<p>建議還在為網站載入效能苦惱的朋友一看。</p>",
+          "description_markdown": "Critical CSS 是現代前端工程師必須知道的，這篇文章提到許多跟網頁 performance 有關的觀念，例如 AMP、google speed insights，也有提到 SEO 的連結。\r\n\r\n最後介紹他們怎麼在 CraftCMS 上面實現 Critical CSS，主要使用 critical 這個 npm package 搭配 gulp 來做 automation 的部分。\r\n\r\n建議還在為網站載入效能苦惱的朋友一看。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "hBE3fdH",
+          "type": "Link",
+          "title": "API Design: Think First, Code Later",
+          "url_domain": "ckl.io",
+          "url": "https://www.ckl.io/blog/api-design-think-first-code-later/",
+          "description": "<p>算是一篇 RESTful API 設計的最佳實踐大全，如果你不確定自己撰寫出來的 API 是不是好的設計。\n建議先停下來，把這篇文章看完，避免文章裡面提到的錯誤。相信會讓你的前端工程師更開心！</p>\n\n<p>適合學習撰寫 API Server 的朋友一看！</p>",
+          "description_markdown": "算是一篇 RESTful API 設計的最佳實踐大全，如果你不確定自己撰寫出來的 API 是不是好的設計。\r\n建議先停下來，把這篇文章看完，避免文章裡面提到的錯誤。相信會讓你的前端工程師更開心！\r\n\r\n適合學習撰寫 API Server 的朋友一看！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

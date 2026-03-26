@@ -1,0 +1,351 @@
+{
+  "number": 116,
+  "title": "Issue 116 彼得原理：在一個組織中，每個員工終將被晉升到他所不能勝任的職位",
+  "summary": "本期內容涵蓋 Erlang, Security, iOS, Swift, CI, Objective-C",
+  "url": "https://weekly.codetengu.com/issues/116",
+  "publication_status": "published",
+  "published_at": "2018-02-12T02:00:00+00:00",
+  "updated_at": "2018-02-12T16:02:37+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently's Holistic Detective Agency</a>，<a href=\"https://www.netflix.com/title/80119426\">電視劇</a>也拍得超屌！拜託看！</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently's Holistic Detective Agency](https://www.douban.com/people/vinta/)，[電視劇](https://www.netflix.com/title/80119426)也拍得超屌！拜託看！\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "RBmhNXd",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "qTZJpsh",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "YWqczKC",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "8uRy9Wp",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "OBe7MaE",
+              "title": "電視劇",
+              "url_domain": "netflix.com",
+              "url": "https://www.netflix.com/title/80119426"
+            },
+            {
+              "identifier": "RzFBZin",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "61C1Wq8",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "Ig6qQw1",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "eJiWI8Q",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "EUMw4ga",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "oRGWyUT",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "HyqzXoq",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "ANerlQF",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "xzRNo2e",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "AecTTiy",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "DXty1uE",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "yC6olfh",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "ZTtXMuW",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "wlc4Vbn",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "mmAW5Hj",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "aez8Dlt",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "g08ELmh",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "U2XSJYv",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "DGaMucG",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "iojXsbP",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "1CPKPI4",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "g9eSlci",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "Y1yP7yN",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "type": "Text",
+          "title": "A Serial of Awesome Talks by Joe Armstrong.",
+          "description": "<p>2007/4/9 <a href=\"https://www.youtube.com/watch?v=uKfKtXYLG78\">Erlang: The Movie</a></p>\n\n<p>2013/7/12 <a href=\"https://www.youtube.com/watch?v=HCwRGHj5jOE\">26 years with Erlang or How I got my grey hairs</a></p>\n\n<p>2013/5/10 <a href=\"https://www.youtube.com/watch?v=ed7A7r6DBsM\">The How and Why of Fitting Things Together - Joe Armstrong</a></p>\n\n<p>2016/9/14 <a href=\"https://www.youtube.com/watch?v=itKFrXghGuA\">Computing: The first 100 years (Joe Armstrong) - Full Stack Fest 2016</a></p>",
+          "description_markdown": "2007/4/9 [Erlang: The Movie](https://www.youtube.com/watch?v=uKfKtXYLG78)\r\n\r\n2013/7/12 [26 years with Erlang or How I got my grey hairs](https://www.youtube.com/watch?v=HCwRGHj5jOE)\r\n\r\n2013/5/10 [The How and Why of Fitting Things Together - Joe Armstrong](https://www.youtube.com/watch?v=ed7A7r6DBsM)\r\n\r\n2016/9/14 [Computing: The first 100 years (Joe Armstrong) - Full Stack Fest 2016](https://www.youtube.com/watch?v=itKFrXghGuA)",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "A0lrmgh",
+              "title": "Erlang: The Movie",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=uKfKtXYLG78"
+            },
+            {
+              "identifier": "1wrg01a",
+              "title": "26 years with Erlang or How I got my grey hairs",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=HCwRGHj5jOE"
+            },
+            {
+              "identifier": "cAf9pfl",
+              "title": "The How and Why of Fitting Things Together - Joe Armstrong",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=ed7A7r6DBsM"
+            },
+            {
+              "identifier": "phcikDW",
+              "title": "Computing: The first 100 years (Joe Armstrong) - Full Stack Fest 2016",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=itKFrXghGuA"
+            }
+          ]
+        },
+        {
+          "identifier": "wRrciZr",
+          "type": "Link",
+          "title": "ReelPhish: A Real-Time Two-Factor Phishing Tool",
+          "url_domain": "fireeye.com",
+          "url": "https://www.fireeye.com/blog/threat-research/2018/02/reelphish-real-time-two-factor-phishing-tool.html",
+          "description": "<p>原本以為萬無一失的 <a href=\"https://en.wikipedia.org/wiki/Multi-factor_authentication\">Two-Factor Authentication (2FA) 或 MFA</a> 已經可以給使用者帳號連線足夠的保護，但看了 <a href=\"https://www.fireeye.com/blog.html\">FireEye</a> 這家資安公司的這篇文章，才知道即時釣魚網站技術，還是有可能跳過這層保護。有興趣研究即時釣魚網站的方法，可以參考他們開發的 <a href=\"https://github.com/fireeye/ReelPhish\">ReelPhish</a>，一個簡單的即時釣魚網站工具。</p>",
+          "description_markdown": "原本以為萬無一失的 [Two-Factor Authentication (2FA) 或 MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) 已經可以給使用者帳號連線足夠的保護，但看了 [FireEye](https://www.fireeye.com/blog.html) 這家資安公司的這篇文章，才知道即時釣魚網站技術，還是有可能跳過這層保護。有興趣研究即時釣魚網站的方法，可以參考他們開發的 [ReelPhish](https://github.com/fireeye/ReelPhish)，一個簡單的即時釣魚網站工具。",
+          "embedded_links": [
+            {
+              "identifier": "tnrGDNZ",
+              "title": "Two-Factor Authentication (2FA) 或 MFA",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Multi-factor_authentication"
+            },
+            {
+              "identifier": "5Voc6Kt",
+              "title": "FireEye",
+              "url_domain": "fireeye.com",
+              "url": "https://www.fireeye.com/blog.html"
+            },
+            {
+              "identifier": "ed747Yg",
+              "title": "ReelPhish",
+              "url_domain": "github.com",
+              "url": "https://github.com/fireeye/ReelPhish"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "LAzHIvi",
+          "type": "Link",
+          "title": "iOS-Performance-Optimization",
+          "url_domain": "github.com",
+          "url": "https://github.com/skyming/iOS-Performance-Optimization",
+          "description": "<p>當 app 開發到一個足夠成熟的階段之後，就會開始需要優化它各方面的表現，像我手上這個案子最近一段時間就是在瘦身以及改善介面流暢度。這一份文件算是一個懶人包，整理了各種優化方向的資訊，只要找自己需要的內容看即可，我覺得非常有幫助。</p>\n\n<p>最後還是要提那句老話：「太早優化是一種罪」。</p>",
+          "description_markdown": "當 app 開發到一個足夠成熟的階段之後，就會開始需要優化它各方面的表現，像我手上這個案子最近一段時間就是在瘦身以及改善介面流暢度。這一份文件算是一個懶人包，整理了各種優化方向的資訊，只要找自己需要的內容看即可，我覺得非常有幫助。\r\n\r\n最後還是要提那句老話：「太早優化是一種罪」。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "RUbFjy9",
+          "type": "Link",
+          "title": "Binary Frameworks in Swift",
+          "url_domain": "pspdfkit.com",
+          "url": "https://pspdfkit.com/blog/2018/binary-frameworks-swift/",
+          "description": "<p>Swift 出來短短四年時間就吸引到眾多開發者的目光與參與，隱隱有取代 Objective-C 的樣子。凡是有接觸過 Swift 的人都一定會聽過 Swift 未來的一個重要里程碑就是要把 <code>ABI</code> 固定下來，到底 ABI 是什麼意思，它對一般開發者以及第三方套件的開發者來說又意味著什麼呢？</p>\n\n<p>這一篇文章是 PSPDFKit 的開發者 Peter Steinberger 寫的，內容依然維持一貫的高水準，推薦各位仔細看看，但如果你真的沒時間看這麼長的文章的話，直接給你結論：</p>\n\n<ul>\n<li>ABI 對一般的開發者來說影響不大，對 framework 開發者比較有影響</li>\n<li>如果你需要開發 framework，請使用 Objective-C，用 Swift 是自找麻煩</li>\n</ul>",
+          "description_markdown": "Swift 出來短短四年時間就吸引到眾多開發者的目光與參與，隱隱有取代 Objective-C 的樣子。凡是有接觸過 Swift 的人都一定會聽過 Swift 未來的一個重要里程碑就是要把 `ABI` 固定下來，到底 ABI 是什麼意思，它對一般開發者以及第三方套件的開發者來說又意味著什麼呢？\r\n\r\n這一篇文章是 PSPDFKit 的開發者 Peter Steinberger 寫的，內容依然維持一貫的高水準，推薦各位仔細看看，但如果你真的沒時間看這麼長的文章的話，直接給你結論：\r\n\r\n- ABI 對一般的開發者來說影響不大，對 framework 開發者比較有影響\r\n- 如果你需要開發 framework，請使用 Objective-C，用 Swift 是自找麻煩",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "GiDo2GZ",
+          "type": "Link",
+          "title": "fastlane/ci: Open source, self hosted, mobile optimized CI powered by fastlane",
+          "url_domain": "github.com",
+          "url": "https://github.com/fastlane/ci",
+          "description": "<p>鼎鼎大名的 Fastlane 我想就不需要多作介紹了，最近它把觸角延伸到 CI 這一塊。雖然還在早期的開發階段，但我相信憑藉著它在移動開發領域多年的深耕，加上背後有 Google 撐腰，未來的發展還是很令人期待的。附帶一提，它們團隊正在徵人，有興趣的可以把履歷寄到 <a href=\"mailto:fastlane@google.com\">fastlane@google.com</a>。</p>",
+          "description_markdown": "鼎鼎大名的 Fastlane 我想就不需要多作介紹了，最近它把觸角延伸到 CI 這一塊。雖然還在早期的開發階段，但我相信憑藉著它在移動開發領域多年的深耕，加上背後有 Google 撐腰，未來的發展還是很令人期待的。附帶一提，它們團隊正在徵人，有興趣的可以把履歷寄到 [fastlane@google.com](mailto:fastlane@google.com)。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Pd7xA34",
+          "type": "Link",
+          "title": "google/promises: Promises is a modern framework that provides a synchronization construct for Swift and Objective-C.",
+          "url_domain": "github.com",
+          "url": "https://github.com/google/promises",
+          "description": "<p>看到近期 Swift 的蓬勃發展，再回頭看看 Objective-C，心裡時常都會冒出「老兵不死，只是凋零」的感嘆。所以看到像 Google 這樣的大公司推出用 Objective-C 開發的 library，心中是感到很興奮的。</p>\n\n<p>Promises 不是什麼新穎的概念，其他類似的實作像是 <a href=\"https://github.com/mxcl/PromiseKit\">PromiseKit</a> 跟 <a href=\"https://github.com/BoltsFramework\">BoltsFramework</a> 也出來好久了，每個用法都差不多，有需要的就挑個看得順眼的來用吧。</p>\n\n<p>附帶一提，Google 同時也推出了 <a href=\"https://github.com/google/functional-objc\">functional-objc</a>，建議可以搭配使用。兩者相輔相成，會讓程式碼可維護性提高許多。至於我自己嘛，多年以來我都是 <a href=\"https://github.com/ReactiveCocoa/ReactiveObjC\">ReactiveObjC</a> 的愛用者：）</p>",
+          "description_markdown": "看到近期 Swift 的蓬勃發展，再回頭看看 Objective-C，心裡時常都會冒出「老兵不死，只是凋零」的感嘆。所以看到像 Google 這樣的大公司推出用 Objective-C 開發的 library，心中是感到很興奮的。\r\n\r\nPromises 不是什麼新穎的概念，其他類似的實作像是 [PromiseKit](https://github.com/mxcl/PromiseKit) 跟 [BoltsFramework](https://github.com/BoltsFramework) 也出來好久了，每個用法都差不多，有需要的就挑個看得順眼的來用吧。\r\n\r\n附帶一提，Google 同時也推出了 [functional-objc](https://github.com/google/functional-objc)，建議可以搭配使用。兩者相輔相成，會讓程式碼可維護性提高許多。至於我自己嘛，多年以來我都是 [ReactiveObjC](https://github.com/ReactiveCocoa/ReactiveObjC) 的愛用者：）",
+          "embedded_links": [
+            {
+              "identifier": "JX2SpSC",
+              "title": "PromiseKit",
+              "url_domain": "github.com",
+              "url": "https://github.com/mxcl/PromiseKit"
+            },
+            {
+              "identifier": "d2ywL8U",
+              "title": "BoltsFramework",
+              "url_domain": "github.com",
+              "url": "https://github.com/BoltsFramework"
+            },
+            {
+              "identifier": "bJVm057",
+              "title": "functional-objc",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/functional-objc"
+            },
+            {
+              "identifier": "bohzP7R",
+              "title": "ReactiveObjC",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveObjC"
+            }
+          ]
+        },
+        {
+          "identifier": "DPWhpHq",
+          "type": "Link",
+          "title": "神秘的程序员们",
+          "url_domain": "10tiao.com",
+          "url": "http://www.10tiao.com/author/index?authorId=289",
+          "description": "<p>每一篇圖文都會讓程序員會心一笑 :D</p>",
+          "description_markdown": "每一篇圖文都會讓程序員會心一笑 :D",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "number": 126,
+  "title": "Issue 126 CodeTengu_Weekly_20180507_最終版_v3.zip",
+  "summary": "本期內容涵蓋 Kotlin, Python, Golang, Kubernetes, DevOps",
+  "url": "https://weekly.codetengu.com/issues/126",
+  "publication_status": "published",
+  "published_at": "2018-05-07T03:00:00+01:00",
+  "updated_at": "2018-05-07T03:00:03+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href=\"https://www.douban.com/people/vinta/\">God of War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們又要找 iOS 工程師啦！</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - <a href=\"https://tw.pycon.org/2018/registration/ticket-info/\">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，但是最近在玩 [God of War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們又要找 iOS 工程師啦！](https://www.yourator.co/companies/escapex/jobs/3116)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - [PyCon Taiwan 熱烈售票中](https://tw.pycon.org/2018/registration/ticket-info/)。Shadowverse: uranusjr\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "EcbBtxb",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "SwlCGGu",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "hEwUjbu",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "AE1G8TY",
+              "title": "God of War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "jaE4G2z",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "knNfH2o",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "AYWvDO5",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "ji111cD",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "xaV8bfH",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "VVRGeGP",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "dBUxZwO",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "5HJ61PE",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "4QEyeTP",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "e5hSFGC",
+              "title": "我們又要找 iOS 工程師啦！",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "hsQfNMV",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "Rdt5DCb",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "GdfswzR",
+              "title": "PyCon Taiwan 熱烈售票中",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2018/registration/ticket-info/"
+            },
+            {
+              "identifier": "R1SCxzl",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "kIjwLUc",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "e4CcaNO",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "xaF6wWA",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "8OL6ckm",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "5p9bCFP",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "z1wEmJJ",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "9jMmTzz",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "6oQvtZo",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "c4d2gUQ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "LDI0TQe",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "WL32A9u",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "aBolPvZ",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "7nssCaT",
+          "type": "Link",
+          "title": "Embedding Kotlin Playground",
+          "url_domain": "jetbrains.com",
+          "url": "https://blog.jetbrains.com/kotlin/2018/04/embedding-kotlin-playground/",
+          "description": "<p>有看過 <a href=\"http://kotlinlang.org/docs/reference/basic-syntax.html\">Kotlin 文件</a> 的人應該都被它那個可以直接編輯跟執行的 embedded playground 驚豔過。</p>\n\n<p>現在你也可以嵌在自己的頁面了，除了手動加入 <code>&lt;script&gt;</code> 外，也有提供 <a href=\"https://github.com/Kotlin/kotlin-playground-wp-plugin\">WordPress plugin</a>。JetBrains 也表示他們會提交 Kotlin Playground 到 <a href=\"http://embed.ly/\">Embedly</a>，而因為 Medium 是用 Embedly 來整合嵌入內容，所以到時候 Medium 也就可以用了。</p>\n\n<p>目前支援的語言有 <code>JavaScript</code>, <code>Kotlin</code>, <code>Java</code>：</p>\n\n<p><a href=\"https://jetbrains.github.io/kotlin-playground/examples/\">Kotlin Playground demo</a></p>",
+          "description_markdown": "有看過 [Kotlin 文件](http://kotlinlang.org/docs/reference/basic-syntax.html) 的人應該都被它那個可以直接編輯跟執行的 embedded playground 驚豔過。\r\n\r\n現在你也可以嵌在自己的頁面了，除了手動加入 `<script>` 外，也有提供 [WordPress plugin](https://github.com/Kotlin/kotlin-playground-wp-plugin)。JetBrains 也表示他們會提交 Kotlin Playground 到 [Embedly](http://embed.ly/)，而因為 Medium 是用 Embedly 來整合嵌入內容，所以到時候 Medium 也就可以用了。\r\n\r\n目前支援的語言有 `JavaScript`, `Kotlin`, `Java`：\r\n\r\n[Kotlin Playground demo](https://jetbrains.github.io/kotlin-playground/examples/)",
+          "embedded_links": [
+            {
+              "identifier": "BvM7rsX",
+              "title": "Kotlin 文件",
+              "url_domain": "kotlinlang.org",
+              "url": "http://kotlinlang.org/docs/reference/basic-syntax.html"
+            },
+            {
+              "identifier": "kRIRnft",
+              "title": "WordPress plugin",
+              "url_domain": "github.com",
+              "url": "https://github.com/Kotlin/kotlin-playground-wp-plugin"
+            },
+            {
+              "identifier": "Oklgb3L",
+              "title": "Embedly",
+              "url_domain": "embed.ly",
+              "url": "http://embed.ly/"
+            },
+            {
+              "identifier": "vnHaQKh",
+              "title": "Kotlin Playground demo",
+              "url_domain": "github.io",
+              "url": "https://jetbrains.github.io/kotlin-playground/examples/"
+            }
+          ]
+        },
+        {
+          "identifier": "F5gBgOu",
+          "type": "Link",
+          "title": "Modular iOS: Strangling the Monolith",
+          "url_domain": "theappbusiness.com",
+          "url": "https://edit.theappbusiness.com/modular-ios-strangling-the-monolith-4a6843a28992",
+          "description": "<p>沒想到會在 iOS 開發看到 Monolith 這個詞。作者想要把一個 iOS app 根據功能拆成不同的 project 再用 workspace 整合起來，就像是隔壁棚的 Microservice 那樣，哇，這個夠創意！</p>\n\n<p>這個系列實在很特別，用這個角度去看 project 的設計，會重新認識一些東西。</p>",
+          "description_markdown": "沒想到會在 iOS 開發看到 Monolith 這個詞。作者想要把一個 iOS app 根據功能拆成不同的 project 再用 workspace 整合起來，就像是隔壁棚的 Microservice 那樣，哇，這個夠創意！\r\n\r\n這個系列實在很特別，用這個角度去看 project 的設計，會重新認識一些東西。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Am9L4kJ",
+          "type": "Link",
+          "title": "Structure of a Flask Project",
+          "url_domain": "lepture.com",
+          "url": "https://lepture.com/en/2018/structure-of-a-flask-project",
+          "description": "<p>作者發現很多人學 <a href=\"https://github.com/pallets/flask\">Flask</a> 會參考 DigitalOcean 的這篇 <a href=\"https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications\">How To Structure Large Flask Applications</a>。而這篇有個不好的示範，在 root <code>__init__.py</code> 就 import 了其他 package 會用到的 module 來建 instance，package 再從上層 import 來用，這樣發展下去就容易有 cyclic dependency 的可能。</p>\n\n<p>這篇在談的主要概念其實跟 Flask 無關，只是 Flask 沒有預設的 project folder structure，會需要知道一些觀念跟 best practice。文章列舉了兩種 folder structure 的建議，以正視聽。</p>",
+          "description_markdown": "作者發現很多人學 [Flask](https://github.com/pallets/flask) 會參考 DigitalOcean 的這篇 [How To Structure Large Flask Applications](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)。而這篇有個不好的示範，在 root `__init__.py` 就 import 了其他 package 會用到的 module 來建 instance，package 再從上層 import 來用，這樣發展下去就容易有 cyclic dependency 的可能。\r\n\r\n這篇在談的主要概念其實跟 Flask 無關，只是 Flask 沒有預設的 project folder structure，會需要知道一些觀念跟 best practice。文章列舉了兩種 folder structure 的建議，以正視聽。",
+          "embedded_links": [
+            {
+              "identifier": "aci0q4w",
+              "title": "Flask",
+              "url_domain": "github.com",
+              "url": "https://github.com/pallets/flask"
+            },
+            {
+              "identifier": "iGBFzev",
+              "title": "How To Structure Large Flask Applications",
+              "url_domain": "digitalocean.com",
+              "url": "https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "OOYDtxd",
+          "type": "Link",
+          "title": "GopherConSG 2018 所有演講錄影",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=H1noO30JP98&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE",
+          "description": "<p>GopherConSG  (Singapore) 2018  的全部錄影內容，前兩天才結束的 GopherConSG 2018 總算有錄影內容了．</p>\n\n<p>幾個重點推薦:</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=F8nrpe0XWRg&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=1\">Russ Cox: Go with Versions</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=5DCdjxhBpTw&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=8\">William Kennedy:  Optimize For Correctness</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=wh81Xjuq8E4&amp;list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&amp;index=11\">Chew Xuanyi: The Lost Art of Bondage</a></li>\n</ul>",
+          "description_markdown": "GopherConSG  (Singapore) 2018  的全部錄影內容，前兩天才結束的 GopherConSG 2018 總算有錄影內容了．\r\n\r\n幾個重點推薦:\r\n\r\n- [Russ Cox: Go with Versions](https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=1)\r\n- [William Kennedy:  Optimize For Correctness](https://www.youtube.com/watch?v=5DCdjxhBpTw&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=8)\r\n- [Chew Xuanyi: The Lost Art of Bondage](https://www.youtube.com/watch?v=wh81Xjuq8E4&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=11)\r\n\r\n\r\n\r\n\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "WTWyixS",
+              "title": "Russ Cox: Go with Versions",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=F8nrpe0XWRg&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=1"
+            },
+            {
+              "identifier": "yYXyWgC",
+              "title": "William Kennedy:  Optimize For Correctness",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=5DCdjxhBpTw&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=8"
+            },
+            {
+              "identifier": "sLaxsE7",
+              "title": "Chew Xuanyi: The Lost Art of Bondage",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=wh81Xjuq8E4&list=PLq2Nv-Sh8EbbIjQgDzapOFeVfv5bGOoPE&index=11"
+            }
+          ],
+          "image_original_filename": "1696f4e5-b3c4-48c6-ac3f-25bfed45edbd.png",
+          "image_extra_large_filename": "original_ratio_extra_large_1696f4e5-b3c4-48c6-ac3f-25bfed45edbd.png",
+          "image_medium_filename": "original_ratio_medium_1696f4e5-b3c4-48c6-ac3f-25bfed45edbd.png"
+        },
+        {
+          "identifier": "jLYHiSi",
+          "type": "Link",
+          "title": "Google 官方的 Kubernetes Podcast 上線啦....",
+          "url_domain": "kubernetespodcast.com",
+          "url": "https://kubernetespodcast.com/",
+          "description": "<p>如果你跟我一樣，喜歡在通勤時間聽聽科技 Podcast ．</p>\n\n<p>那麼你不能錯過這個在 KubeCon EU 2018 公布的官方 Kubernetes podcast．</p>\n\n<p>為何會到現在才有官方的 Kubernetes Podcast? 因為其實一開始 Kubernetes 這個題材都是放在 <a href=\"https://www.gcppodcast.com/\">Google Cloud Platform 的 Podcast</a> 之中． 但是隨著市場越來越大 (AWS EKS,  Azure AKS 的上線) ，其實還真的蠻需要有個專門討論 Kubernetes 的地方．</p>\n\n<p>第一期找來的 Kubernetes Community Head - Paris Pittman  來討論，大約的議題如下:</p>\n\n<ul>\n<li>身為   Community Head 的責任．</li>\n<li>Kubernetes 社群各種討論管道</li>\n<li>並且討論 Kubernetes 許多功能是如何在社群裡面決定</li>\n</ul>\n\n\n<p>蠻多有趣的內容</p>",
+          "description_markdown": "如果你跟我一樣，喜歡在通勤時間聽聽科技 Podcast ．\r\n\r\n那麼你不能錯過這個在 KubeCon EU 2018 公布的官方 Kubernetes podcast．\r\n\r\n為何會到現在才有官方的 Kubernetes Podcast? 因為其實一開始 Kubernetes 這個題材都是放在 [Google Cloud Platform 的 Podcast](https://www.gcppodcast.com/) 之中． 但是隨著市場越來越大 (AWS EKS,  Azure AKS 的上線) ，其實還真的蠻需要有個專門討論 Kubernetes 的地方．\r\n\r\n第一期找來的 Kubernetes Community Head - Paris Pittman  來討論，大約的議題如下:\r\n\r\n- 身為   Community Head 的責任．\r\n- Kubernetes 社群各種討論管道\r\n- 並且討論 Kubernetes 許多功能是如何在社群裡面決定\r\n\r\n蠻多有趣的內容",
+          "embedded_links": [
+            {
+              "identifier": "tf2Ealp",
+              "title": "Google Cloud Platform 的 Podcast",
+              "url_domain": "gcppodcast.com",
+              "url": "https://www.gcppodcast.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "9PtTdlM",
+          "type": "Link",
+          "title": "Prometheus 2.0 ",
+          "url_domain": "sched.com",
+          "url": "https://kccnceu18.sched.com/event/DshP",
+          "description": "<p>KubeCon/CNCF EU 2018 keynote : Prometheus 2.0 announcement</p>\n\n<p>重點整理:</p>\n\n<ul>\n<li>更好的 TSDB 支援</li>\n<li>更低的 (接近 1/2 ) CPU/MEM 消耗</li>\n<li>監控的 process 如果死掉，會加上 termination marker</li>\n</ul>",
+          "description_markdown": "KubeCon/CNCF EU 2018 keynote : Prometheus 2.0 announcement   \r\n\r\n重點整理:\r\n\r\n- 更好的 TSDB 支援\r\n- 更低的 (接近 1/2 ) CPU/MEM 消耗\r\n- 監控的 process 如果死掉，會加上 termination marker",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tcESpzK",
+          "type": "Link",
+          "title": "Google 開源他們內部在使用的 container runtime 具有 user space sandbox kernel ",
+          "url_domain": "googleblog.com",
+          "url": "https://cloudplatform.googleblog.com/2018/05/Open-sourcing-gVisor-a-sandboxed-container-runtime.html",
+          "description": "<p>五月的各大科技論壇開始了，遠在歐洲的 KubeCon EU 最大的新聞就是 Google 開源了他們的 user space sandbox kernel  container runtime  \"gVisor\"</p>\n\n<p>針對了 container 安全性比較疲弱的缺點， Google 開源他們內部使用許久的 container runtime ．</p>\n\n<p>補充:</p>\n\n<ol>\n<li>如果 gVisor PM 的講解還不是很清楚的話，可以看看 <a href=\"https://www.youtube.com/watch?v=TJJT8wc0T_c\">Ian Lewis 所講解的 gVisor 針對安全性提升的 demo</a></li>\n</ol>",
+          "description_markdown": "五月的各大科技論壇開始了，遠在歐洲的 KubeCon EU 最大的新聞就是 Google 開源了他們的 user space sandbox kernel  container runtime  \"gVisor\" \r\n\r\n針對了 container 安全性比較疲弱的缺點， Google 開源他們內部使用許久的 container runtime ．\r\n\r\n補充:\r\n\r\n1. 如果 gVisor PM 的講解還不是很清楚的話，可以看看 [Ian Lewis 所講解的 gVisor 針對安全性提升的 demo](https://www.youtube.com/watch?v=TJJT8wc0T_c)",
+          "embedded_links": [
+            {
+              "identifier": "R52vKMg",
+              "title": "Ian Lewis 所講解的 gVisor 針對安全性提升的 demo",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=TJJT8wc0T_c"
+            }
+          ]
+        },
+        {
+          "identifier": "E0QMyEf",
+          "type": "Link",
+          "title": "Open Source at Google Cloud Platform with Sarah Novotny | Google Cloud Platform Podcast",
+          "url_domain": "gcppodcast.com",
+          "url": "https://www.gcppodcast.com/post/episode-125-open-source-at-google-cloud-platform-with-sarah-novotny/",
+          "description": "<p>最近聽的另外一個 Tech Podcast: GCP Podcast</p>\n\n<p>採訪的人  Sarah Novotny 職稱相當有趣，叫做 \"Head of Open Source Strategy for Google Cloud Platform\"</p>\n\n<p>這個職稱要負責管理 GCP 相關元件的開源策略，並且要幫忙經營相關的開源並且讓公司能夠透過開源來獲利．</p>\n\n<p>這個人同時也是 Kubernetes 開源的推手與策略管理的頭，這邊採訪同時也討論到 CNCF 相關運作 (Sarah) 同時也參加 CNCF 相關會議與運作．</p>\n\n<p>想知道 Google 內部如何透過開源來賺錢嗎? 這篇可以聽聽看</p>",
+          "description_markdown": "最近聽的另外一個 Tech Podcast: GCP Podcast\r\n\r\n採訪的人  Sarah Novotny 職稱相當有趣，叫做 \"Head of Open Source Strategy for Google Cloud Platform\" \r\n\r\n這個職稱要負責管理 GCP 相關元件的開源策略，並且要幫忙經營相關的開源並且讓公司能夠透過開源來獲利．\r\n\r\n這個人同時也是 Kubernetes 開源的推手與策略管理的頭，這邊採訪同時也討論到 CNCF 相關運作 \b(Sarah) 同時也參加 CNCF 相關會議與運作．\r\n\r\n想知道 Google 內部如何透過開源來賺錢嗎? 這篇可以聽聽看",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "allanlei",
+      "name": "@allanlei",
+      "items": [
+        {
+          "identifier": "m6yAbD9",
+          "type": "Link",
+          "title": "Kubernetes on Digitial Ocean",
+          "url_domain": "digitalocean.com",
+          "url": "https://www.digitalocean.com/products/kubernetes/",
+          "description": "<p>Digital Ocean has taken notice of rise of Kubernetes and is now also planning to offer it as a service.  This is great news for companys who are looking to cost save or developer just wanting to startup a basic cluster without breaking the bank.  $5 for 1CPU,2 5GB disk, and 1TB bandwith is pretty hard to beat.  Combine it with their other offerings like Load Balance, Spaces, Block Storage and its quite hard to beat.</p>\n\n<p>Hopefully Digital Ocean gives the big cloud providers a run for their money.</p>\n\n<p>PS: They are open for early access.  Go sign up!</p>",
+          "description_markdown": "Digital Ocean has taken notice of rise of Kubernetes and is now also planning to offer it as a service.  This is great news for companys who are looking to cost save or developer just wanting to startup a basic cluster without breaking the bank.  $5 for 1CPU,2 5GB disk, and 1TB bandwith is pretty hard to beat.  Combine it with their other offerings like Load Balance, Spaces, Block Storage and its quite hard to beat.\r\n\r\nHopefully Digital Ocean gives the big cloud providers a run for their money.\r\n\r\nPS: They are open for early access.  Go sign up!",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NJ8EmLN",
+          "type": "Link",
+          "title": "Integrated Geolocation on Google Load Balancers",
+          "url_domain": "google.com",
+          "url": "https://cloud.google.com/compute/docs/load-balancing/http/backend-service#user-defined-request-headers",
+          "description": "<p>Google introduced support for custom HTTP headers on their load balancers and provide some pre-defined variables, notibly geolocation related headers such as <code>client_city_lat_long</code> for latitude, longitude.  With this, backend servers no long need to load a large (and probably licenced) database to resolve an IP address.</p>",
+          "description_markdown": "Google introduced support for custom HTTP headers on their load balancers and provide some pre-defined variables, notibly geolocation related headers such as `client_city_lat_long` for latitude, longitude.  With this, backend servers no long need to load a large (and probably licenced) database to resolve an IP address.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8lkttYC",
+          "type": "Link",
+          "title": "kubectl port-forward to non-pods",
+          "url_domain": "kubernetes.io",
+          "url": "https://kubernetes.io/docs/tasks/access-application-cluster/port-forward-access-application-cluster/",
+          "description": "<p>It's finally here!  Port forwarding to something other than a pod.  As of 1.10, you can forward to Pods, Deployments, Services, almost anything with a selector.  All that is left is <a href=\"https://github.com/kubernetes/kubernetes/issues/43962\">binding to something other than <code>localhost</code></a>.</p>",
+          "description_markdown": "It's finally here!  Port forwarding to something other than a pod.  As of 1.10, you can forward to Pods, Deployments, Services, almost anything with a selector.  All that is left is [binding to something other than `localhost`](https://github.com/kubernetes/kubernetes/issues/43962).",
+          "embedded_links": [
+            {
+              "identifier": "qMqGTbJ",
+              "title": "binding to something other than `localhost`",
+              "url_domain": "github.com",
+              "url": "https://github.com/kubernetes/kubernetes/issues/43962"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "qatVeT2",
+          "type": "Link",
+          "title": "Senior Backend Developer at Swag",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5y8ex",
+          "description": "<p>薪資：年薪新台幣 100 萬元以上。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python or Node.js</li>\n<li>Experience with Python web frameworks, ie. Flask/Django/Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 萬元以上。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python or Node.js\r\n2. Experience with Python web frameworks, ie. Flask/Django/Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of MongoDB, Redis, and Kubernetes\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "2GihXaH",
+          "type": "Link",
+          "title": "Stack Overflow for Teams",
+          "url_domain": "stackoverflow.com",
+          "url": "https://stackoverflow.com/teams",
+          "description": "<p>Stack Overflow 的新服務，應該是極少數在技術部門導入但不用訓練成本的工具了吧</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "Stack Overflow 的新服務，應該是極少數在技術部門導入但不用訓練成本的工具了吧\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "tB9OCiG",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

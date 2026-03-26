@@ -1,0 +1,595 @@
+{
+  "number": 41,
+  "title": "Issue 41 一邊喊著找不到人才，一邊要求租稅優惠，聽到調高基本工資就說不利產業發展、企業恐外移，全台灣最沒有競爭力的就是這些老闆了",
+  "summary": "本期內容涵蓋 SQL, Python, Django, Slack, iOS, Android, React.js, Elixir, Erlang",
+  "url": "https://weekly.codetengu.com/issues/41",
+  "publication_status": "published",
+  "published_at": "2016-05-02T03:00:00+01:00",
+  "updated_at": "2016-05-02T19:13:18+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">平面國</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵 Android 工程師，<a href=\"https://www.indievox.com/h/jobs.html\">意者內洽</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[平面國](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵 Android 工程師，[意者內洽](https://www.indievox.com/h/jobs.html)\r\n- [@wancw](https://twitter.com/wancw) - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Ygp4Kcm",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "idadY6r",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "x2mPl0I",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "lfnzBg3",
+              "title": "平面國",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "B9wnqex",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "GSQsIKf",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "6VXWEvS",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "bWTwFHi",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "jHC7Y7E",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "azRJBdk",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "lH0hm7B",
+              "title": "意者內洽",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/h/jobs.html"
+            },
+            {
+              "identifier": "QctBk9Q",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "VxywuJQ",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "kfuUvt9",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "eFBEEnZ",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Wnogxr7",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "SYrHlPL",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "zU4WIOt",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "UsciCBm",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "MQgtlA3",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "t3J6Fvd",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "wiBlgPG",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "mxmOAo7",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "NDPQ7UD",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "qlD3ku4",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "u43FUwa",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "DY77Hjg",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "jC1MQjR",
+          "type": "Link",
+          "title": "SQL Exercises",
+          "url_domain": "wikibooks.org",
+          "url": "https://en.wikibooks.org/wiki/SQL_Exercises",
+          "description": "<p>\"Real World\" 的 SQL 練習題，前陣子在複習 SQL 的時候有拿來練練手，是個不錯的教材，推薦給同樣被 ORM 慣壞的你（誒，這句話好像前幾期就說過了？）。</p>\n\n<p>P.S. 雖然跟主題無關，但是忍不住跟大家分享一下，我這禮拜都在玩 <a href=\"http://store.steampowered.com/app/8870/\">BioShock Infinite</a>，幹你娘真的超好玩，大家有空可以感受感受，這才叫做數位藝術吶。</p>",
+          "description_markdown": "\"Real World\" 的 SQL 練習題，前陣子在複習 SQL 的時候有拿來練練手，是個不錯的教材，推薦給同樣被 ORM 慣壞的你（誒，這句話好像前幾期就說過了？）。\r\n\r\nP.S. 雖然跟主題無關，但是忍不住跟大家分享一下，我這禮拜都在玩 [BioShock Infinite](http://store.steampowered.com/app/8870/)，幹你娘真的超好玩，大家有空可以感受感受，這才叫做數位藝術吶。",
+          "embedded_links": [
+            {
+              "identifier": "LjaRfbn",
+              "title": "BioShock Infinite",
+              "url_domain": "steampowered.com",
+              "url": "http://store.steampowered.com/app/8870/"
+            }
+          ]
+        },
+        {
+          "identifier": "kDx208T",
+          "type": "Link",
+          "title": "Best practices working with Django models in Python",
+          "url_domain": "steelkiwi.com",
+          "url": "http://steelkiwi.com/blog/best-practices-working-django-models-python/",
+          "description": "<p>這篇文章列出了 25 個 Django <code>Model</code> 和 <code>ModelForm</code> 的 best practices，雖然多到有點瑣碎，但是每一項確實都是值得遵循的做法。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://docs.djangoproject.com/en/dev/topics/db/optimization/\">Django database access optimization</a></li>\n</ul>",
+          "description_markdown": "這篇文章列出了 25 個 Django `Model` 和 `ModelForm` 的 best practices，雖然多到有點瑣碎，但是每一項確實都是值得遵循的做法。\r\n\r\n延伸閱讀：\r\n\r\n- [Django database access optimization](https://docs.djangoproject.com/en/dev/topics/db/optimization/)",
+          "embedded_links": [
+            {
+              "identifier": "CBD5T6w",
+              "title": "Django database access optimization",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/dev/topics/db/optimization/"
+            }
+          ]
+        },
+        {
+          "identifier": "8DcQi19",
+          "type": "Link",
+          "title": "React 最佳实践 —— 那些 React 没告诉你但很重要的事",
+          "url_domain": "segmentfault.com",
+          "url": "https://segmentfault.com/a/1190000005013207",
+          "description": "<p>這篇文章（和延伸閱讀裡的第一篇）特別提到了「在 React 裡怎麼處理跟後端要資料」這件事的幾個做法。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://andrewhfarmer.com/react-ajax-best-practices/\">React AJAX Best Practices</a></li>\n<li><a href=\"https://blog.risingstack.com/react-js-best-practices-for-2016/\">React.js Best Practices for 2016</a></li>\n</ul>",
+          "description_markdown": "這篇文章（和延伸閱讀裡的第一篇）特別提到了「在 React 裡怎麼處理跟後端要資料」這件事的幾個做法。\r\n\r\n延伸閱讀：\r\n\r\n- [React AJAX Best Practices](http://andrewhfarmer.com/react-ajax-best-practices/)\r\n- [React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/)",
+          "embedded_links": [
+            {
+              "identifier": "Fg2OkoS",
+              "title": "React AJAX Best Practices",
+              "url_domain": "andrewhfarmer.com",
+              "url": "http://andrewhfarmer.com/react-ajax-best-practices/"
+            },
+            {
+              "identifier": "aByEybU",
+              "title": "React.js Best Practices for 2016",
+              "url_domain": "risingstack.com",
+              "url": "https://blog.risingstack.com/react-js-best-practices-for-2016/"
+            }
+          ]
+        },
+        {
+          "identifier": "kYIrHc6",
+          "type": "Link",
+          "title": "Help!ful Things YOU Can Do for New Developers",
+          "url_domain": "eventbrite.com",
+          "url": "https://www.eventbrite.com/engineering/helpful-things-you-can-do-for-new-developers/",
+          "description": "<p>因為公司前陣子來了幾位新同事，有 PMs 也有 developers，為了讓新人能夠更快上手、讓彼此的合作更加順暢，似乎也是需要一點小技巧的啊。正好就看到這篇文章，作者列出了一份「你可以為 junior 工程師做的事」的清單，以她當初還是新手時所受到的幫助為例，真的都是很務實的建議啊，例如：</p>\n\n<ul>\n<li>Explain jargon that new developers might not know or understand.</li>\n<li>Walk new engineers through the code base.</li>\n<li>Give them read access to your database in a way that they know what data is available to them.</li>\n<li>Let new engineers watch you debug, and explain what you’re doing.</li>\n<li>Don’t give them lines to copy/paste into the code.</li>\n<li>Explain your expectations and time estimations for projects clearly.</li>\n</ul>",
+          "description_markdown": "因為公司前陣子來了幾位新同事，有 PMs 也有 developers，為了讓新人能夠更快上手、讓彼此的合作更加順暢，似乎也是需要一點小技巧的啊。正好就看到這篇文章，作者列出了一份「你可以為 junior 工程師做的事」的清單，以她當初還是新手時所受到的幫助為例，真的都是很務實的建議啊，例如：\r\n\r\n- Explain jargon that new developers might not know or understand.\r\n- Walk new engineers through the code base.\r\n- Give them read access to your database in a way that they know what data is available to them.\r\n- Let new engineers watch you debug, and explain what you’re doing.\r\n- Don’t give them lines to copy/paste into the code.\r\n- Explain your expectations and time estimations for projects clearly.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZhLkZW7",
+          "type": "Link",
+          "title": "Being A Developer After 40",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/being-a-developer-after-40-3c5dd112210c",
+          "description": "<p>作者是一個 42 歲的軟體工程師，以一個見證了無數技術的更迭與炒作的過來人身份，給了很多中肯的建議。這篇文章寫得真的好。</p>",
+          "description_markdown": "作者是一個 42 歲的軟體工程師，以一個見證了無數技術的更迭與炒作的過來人身份，給了很多中肯的建議。這篇文章寫得真的好。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "cFmF3JQ",
+          "type": "Link",
+          "title": "JonSnow: Google Play review watcher, delivering to your slack channel",
+          "url_domain": "github.com",
+          "url": "https://github.com/saiday/JonSnow",
+          "description": "<p>在 iOS 社群裡有一個 <a href=\"https://launchkit.io/\">LaunchKit</a> 的 Review Monitor 服務，精美而且免費，我用它將 App Store 上的新評論都接到公司的 slack channel 裡面。Android 社群中是有一些類似的服務沒錯，但是全部都要收費，而且功能還沒有很齊全，所以後來也就沒有使用了。</p>\n\n<p>上禮拜我們公司上線了新版的 Android app (<a href=\"https://play.google.com/store/apps/details?id=com.streetvoice.streetvoice&amp;hl=zh_TW\">StreetVoice</a>)，我覺得大家一定會稱讚我們，急著想要把 Google Play 上的評論接進 Slack 裡面，而既然市面上沒有好的 review monitor 的選擇，就只好自己做一個。</p>\n\n<p>功能很簡單，就是爬一下 Google Play 的 reviews，而我將這個工具做了 <a href=\"https://blog.heroku.com/archives/2014/8/7/heroku-button\">Heroku button</a> 的整合 (<a href=\"https://twitter.com/tzangms\">@tzangms</a> 介紹的！)，只要按一個按鈕，填入要 monitor 的 app_id 跟 slack channel incoming hook，你就自己 host 這個服務了，完全不需要寫 code。使用的方式都在 Heroku 免費的條件內，所以也不需要付費。</p>\n\n<p>PS. CodeTengu 一直都有幫大家推廣 Open Source Project 的計畫，但是好像太少提而沒什麼人知道，如果你有自己的 Open Source Project 想要透過 CodeTengu 做推廣，你可以透過各種管道 (<a href=\"http://gitter.im/CodeTengu/headquarters\">gitter</a>, <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> ..) 讓我們知道。</p>",
+          "description_markdown": "在 iOS 社群裡有一個 [LaunchKit](https://launchkit.io/) 的 Review Monitor 服務，精美而且免費，我用它將 App Store 上的新評論都接到公司的 slack channel 裡面。Android 社群中是有一些類似的服務沒錯，但是全部都要收費，而且功能還沒有很齊全，所以後來也就沒有使用了。\r\n\r\n上禮拜我們公司上線了新版的 Android app ([StreetVoice](https://play.google.com/store/apps/details?id=com.streetvoice.streetvoice&hl=zh_TW))，我覺得大家一定會稱讚我們，急著想要把 Google Play 上的評論接進 Slack 裡面，而既然市面上沒有好的 review monitor 的選擇，就只好自己做一個。\r\n\r\n功能很簡單，就是爬一下 Google Play 的 reviews，而我將這個工具做了 [Heroku button](https://blog.heroku.com/archives/2014/8/7/heroku-button) 的整合 ([@tzangms](https://twitter.com/tzangms) 介紹的！)，只要按一個按鈕，填入要 monitor 的 app_id 跟 slack channel incoming hook，你就自己 host 這個服務了，完全不需要寫 code。使用的方式都在 Heroku 免費的條件內，所以也不需要付費。\r\n\r\nPS. CodeTengu 一直都有幫大家推廣 Open Source Project 的計畫，但是好像太少提而沒什麼人知道，如果你有自己的 Open Source Project 想要透過 CodeTengu 做推廣，你可以透過各種管道 ([gitter](http://gitter.im/CodeTengu/headquarters), [GitHub](https://github.com/CodeTengu/headquarters) ..) 讓我們知道。",
+          "embedded_links": [
+            {
+              "identifier": "kcMG1Cu",
+              "title": "LaunchKit",
+              "url_domain": "launchkit.io",
+              "url": "https://launchkit.io/"
+            },
+            {
+              "identifier": "ptcWY5b",
+              "title": "StreetVoice",
+              "url_domain": "google.com",
+              "url": "https://play.google.com/store/apps/details?id=com.streetvoice.streetvoice&hl=zh_TW"
+            },
+            {
+              "identifier": "ITrUQr6",
+              "title": "Heroku button",
+              "url_domain": "heroku.com",
+              "url": "https://blog.heroku.com/archives/2014/8/7/heroku-button"
+            },
+            {
+              "identifier": "ahrw9EJ",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "xGWH4Jz",
+              "title": "gitter",
+              "url_domain": "gitter.im",
+              "url": "http://gitter.im/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "UPUwMFW",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            }
+          ]
+        },
+        {
+          "identifier": "TDgYcu3",
+          "type": "Link",
+          "title": "The Trouble with Manager Objects",
+          "url_domain": "sandofsky.com",
+          "url": "https://sandofsky.com/blog/manager-classes.html",
+          "description": "<p>你的 codebase 裡面有充斥著大量 <code>Manager</code> 或是 <code>Utils</code> 物件嗎？</p>\n\n<p><a href=\"https://en.m.wikipedia.org/wiki/Single_responsibility_principle\">Single responsibility principle</a> (A class should have only one reason to change) 是一個很玄的東西，聽起來像廢話但是大家總是做不好。遵照 SRP 的理念，我們可以問自己這些 <code>Manager</code>、<code>Utils</code> 的責任到底是什麼，它負責了超過一件事情嗎？它可以拆得更精確嗎？</p>\n\n<p>作者有提到一點我很同意，在 OO 的概念裡面，應該是對該 model object 做操作，而不是把被操作的物件跟動作都丟給所謂的 <code>Manager</code> 來處理，畢竟這樣的話，你很可能把你的 model 弱化成 entity 了。</p>\n\n<p>另外，<code>Manager</code> 這個詞代表什麼都可能做，其實也就是光從名字上是很難理解它到底在做什麼的，在這裡推薦大家這個經典的 stackoverflow 問題 <a href=\"http://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager\">Naming Classes - How to avoid calling everything a “&lt;WhatEver>Manager”?</a>，裡面有很多名詞可以挑選，雖然說有些真的是太偏門了。</p>",
+          "description_markdown": "你的 codebase 裡面有充斥著大量 `Manager` 或是 `Utils` 物件嗎？\r\n\r\n[Single responsibility principle](https://en.m.wikipedia.org/wiki/Single_responsibility_principle) (A class should have only one reason to change) 是一個很玄的東西，聽起來像廢話但是大家總是做不好。遵照 SRP 的理念，我們可以問自己這些 `Manager`、`Utils` 的責任到底是什麼，它負責了超過一件事情嗎？它可以拆得更精確嗎？\r\n\r\n作者有提到一點我很同意，在 OO 的概念裡面，應該是對該 model object 做操作，而不是把被操作的物件跟動作都丟給所謂的 `Manager` 來處理，畢竟這樣的話，你很可能把你的 model 弱化成 entity 了。\r\n\r\n另外，`Manager` 這個詞代表什麼都可能做，其實也就是光從名字上是很難理解它到底在做什麼的，在這裡推薦大家這個經典的 stackoverflow 問題 [Naming Classes - How to avoid calling everything a “<WhatEver>Manager”?](http://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager)，裡面有很多名詞可以挑選，雖然說有些真的是太偏門了。",
+          "embedded_links": [
+            {
+              "identifier": "N2nAhuA",
+              "title": "Single responsibility principle",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.m.wikipedia.org/wiki/Single_responsibility_principle"
+            },
+            {
+              "identifier": "Llp3sp6",
+              "title": "Naming Classes - How to avoid calling everything a “<WhatEver>Manager”?",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/1866794/naming-classes-how-to-avoid-calling-everything-a-whatevermanager"
+            }
+          ]
+        },
+        {
+          "identifier": "LBOh6yb",
+          "type": "Link",
+          "title": "Automatic memory leak detection on iOS",
+          "url_domain": "facebook.com",
+          "url": "https://code.facebook.com/posts/583946315094347",
+          "description": "<p>Facebook 針對 iOS 的 memory leaks 開源了三個項目 <a href=\"https://github.com/facebook/FBRetainCycleDetector\">FBRetainCycleDetector</a>、<a href=\"https://github.com/facebook/FBAllocationTracker\">FBAllocationTracker</a>、<a href=\"https://github.com/facebook/FBMemoryProfiler\">FBMemoryProfiler</a>。</p>\n\n<p>前兩個是這套工具的基石，透過 objC 強大的 <code>runtime</code>framework，不斷的在記憶體中檢查 retain cycles。Facebook 說他們利用這兩個項目建造了一個自動化檢測 memory leaks 並發修復通知給引入 retain cycle 的工程師的系統。</p>\n\n<p>而 FBMemoryProfiler 也是利用前兩個項目做到了基本上可以取代 Xcode 提供的 Instrument allocation 的工具，裝在你的 debug build 上，可以隨時做快速地檢測。</p>\n\n<p>其實偶爾會聽到人家說，現在記憶體都那麼大，不用怕啦。我覺得不是這樣子的，memory leaks 除了字面上的該釋放而未釋放之外，他還會有一些可怕的 side effects 呀，比方說透過 Notification、KVO 或 FRP tools 引入的 observer 它 leak 了，那它還是有可能會被觸發一直做事情，就可能會有可怕的事情發生。</p>",
+          "description_markdown": "Facebook 針對 iOS 的 memory leaks 開源了三個項目 [FBRetainCycleDetector](https://github.com/facebook/FBRetainCycleDetector)、[FBAllocationTracker](https://github.com/facebook/FBAllocationTracker)、[FBMemoryProfiler](https://github.com/facebook/FBMemoryProfiler)。\r\n\r\n前兩個是這套工具的基石，透過 objC 強大的 `runtime`framework，不斷的在記憶體中檢查 retain cycles。Facebook 說他們利用這兩個項目建造了一個自動化檢測 memory leaks 並發修復通知給引入 retain cycle 的工程師的系統。\r\n\r\n而 FBMemoryProfiler 也是利用前兩個項目做到了基本上可以取代 Xcode 提供的 Instrument allocation 的工具，裝在你的 debug build 上，可以隨時做快速地檢測。\r\n\r\n其實偶爾會聽到人家說，現在記憶體都那麼大，不用怕啦。我覺得不是這樣子的，memory leaks 除了字面上的該釋放而未釋放之外，他還會有一些可怕的 side effects 呀，比方說透過 Notification、KVO 或 FRP tools 引入的 observer 它 leak 了，那它還是有可能會被觸發一直做事情，就可能會有可怕的事情發生。",
+          "embedded_links": [
+            {
+              "identifier": "1xTxMwn",
+              "title": "FBRetainCycleDetector",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/FBRetainCycleDetector"
+            },
+            {
+              "identifier": "vZdiekO",
+              "title": "FBAllocationTracker",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/FBAllocationTracker"
+            },
+            {
+              "identifier": "TuKJH4f",
+              "title": "FBMemoryProfiler",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/FBMemoryProfiler"
+            }
+          ]
+        },
+        {
+          "identifier": "HMYsnBp",
+          "type": "Link",
+          "title": "Avoiding cold starts on Android",
+          "url_domain": "github.io",
+          "url": "http://saulmm.github.io/avoding-android-cold-starts",
+          "description": "<p>code start: 你的 app 不在記憶體裡的啟動，是花最多時間的啟動情況。</p>\n\n<p>作者再一次宣稱 Android app 不應該在 code start 的時候使用像 iOS 一樣的 splash screens，因為這樣做會拖慢開啟的時間、增加 app 的大小。</p>\n\n<p>我們可以透過 <code>android:windowBackground</code> 跟 <code>&lt;layer-list&gt;</code> 搭配的技巧合理地在我們的 app 載入到記憶體的這段期間做點事情，在 <a href=\"http://www.google.com/design/spec/patterns/launch-screens.html#\">Material design guides</a> 提到的兩種啟動畫面: placeholder、 branded 都可以透過這個技巧來實作。</p>",
+          "description_markdown": "code start: 你的 app 不在記憶體裡的啟動，是花最多時間的啟動情況。\r\n\r\n作者再一次宣稱 Android app 不應該在 code start 的時候使用像 iOS 一樣的 splash screens，因為這樣做會拖慢開啟的時間、增加 app 的大小。\r\n\r\n我們可以透過 `android:windowBackground ` 跟 `<layer-list>` 搭配的技巧合理地在我們的 app 載入到記憶體的這段期間做點事情，在 [Material design guides](http://www.google.com/design/spec/patterns/launch-screens.html#) 提到的兩種啟動畫面: placeholder、 branded 都可以透過這個技巧來實作。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "rvNdlPE",
+              "title": "Material design guides",
+              "url_domain": "google.com",
+              "url": "http://www.google.com/design/spec/patterns/launch-screens.html#"
+            }
+          ]
+        },
+        {
+          "identifier": "c3swH4B",
+          "type": "Link",
+          "title": "Meaningful Motion with Shared Element Transition and Circular Reveal Animation",
+          "url_domain": "thedroidsonroids.com",
+          "url": "http://www.thedroidsonroids.com/blog/android/meaningful-motion-with-shared-element-transition-and-circular-reveal-animation/",
+          "description": "<p>Material Design 真的是很不錯，其中的 circular reveal animation 不只看起來舒服，而且對使用者的認知體驗也是加分的。</p>\n\n<p>這是一個關於 circular reveal animation 的教學，而關於 transitions 你也可以輔助<a href=\"http://developer.android.com/training/material/animations.html\">官方的教程</a> 使用。</p>",
+          "description_markdown": "Material Design 真的是很不錯，其中的 circular reveal animation 不只看起來舒服，而且對使用者的認知體驗也是加分的。\r\n\r\n這是一個關於 circular reveal animation 的教學，而關於 transitions 你也可以輔助[官方的教程](http://developer.android.com/training/material/animations.html) 使用。",
+          "embedded_links": [
+            {
+              "identifier": "4pw4ET5",
+              "title": "官方的教程",
+              "url_domain": "android.com",
+              "url": "http://developer.android.com/training/material/animations.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "uZPdUTW",
+          "type": "Link",
+          "title": "What's coming in Elixir 1.3",
+          "url_domain": "tuvistavie.com",
+          "url": "http://tuvistavie.com/2016/elixir-1-3/",
+          "description": "<p>這篇介紹了 Elixir 1.3 的新特性，其中很多語法上的更動讓 Elixir 程式得以撰寫的更精鍊易讀，有些輔助工具的更動則讓程式碼測試、建置變得更方便，我個人讀來是非常喜孜孜，期待 1.3 版正式釋出。</p>\n\n<p>文章作者 Daniel Perez 另外做了一份<a href=\"http://tuvistavie.com/tokyo.ex/\">簡報版</a>發表在 <a href=\"http://beam-lang.connpass.com/event/29050/\">tokyo.ex</a> 聚會上，再追了一下才知道日本有 <a href=\"http://beam-lang.connpass.com/\">beam-lang.tokyo</a> 這樣一個社群，頭一次看到對基於 BEAM VM 的程式語言統稱為 beam-lang，我這個愛用文字哏的人覺得還蠻有意思的。</p>",
+          "description_markdown": "這篇介紹了 Elixir 1.3 的新特性，其中很多語法上的更動讓 Elixir 程式得以撰寫的更精鍊易讀，有些輔助工具的更動則讓程式碼測試、建置變得更方便，我個人讀來是非常喜孜孜，期待 1.3 版正式釋出。\r\n\r\n文章作者 Daniel Perez 另外做了一份[簡報版](http://tuvistavie.com/tokyo.ex/)發表在 [tokyo.ex](http://beam-lang.connpass.com/event/29050/) 聚會上，再追了一下才知道日本有 [beam-lang.tokyo](http://beam-lang.connpass.com/) 這樣一個社群，頭一次看到對基於 BEAM VM 的程式語言統稱為 beam-lang，我這個愛用文字哏的人覺得還蠻有意思的。",
+          "embedded_links": [
+            {
+              "identifier": "o11XECJ",
+              "title": "簡報版",
+              "url_domain": "tuvistavie.com",
+              "url": "http://tuvistavie.com/tokyo.ex/"
+            },
+            {
+              "identifier": "tqfAmGR",
+              "title": "tokyo.ex",
+              "url_domain": "connpass.com",
+              "url": "http://beam-lang.connpass.com/event/29050/"
+            },
+            {
+              "identifier": "zoCCsYU",
+              "title": "beam-lang.tokyo",
+              "url_domain": "connpass.com",
+              "url": "http://beam-lang.connpass.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "cOhQwym",
+          "type": "Link",
+          "title": "Comparing Elixir and Erlang variables",
+          "url_domain": "plataformatec.com.br",
+          "url": "http://blog.plataformatec.com.br/2016/01/comparing-elixir-and-erlang-variables/",
+          "description": "<p>在 Erlang 裡，變數只能被賦值一次，是不可變的 (immutable)。但是在 Elixir 裡，我們卻<em>彷彿可以</em>像是用 C, Ruby 之類的語言，對變數「重新賦值」，而這也是從 Erlang 跳過來 Elixir 的人最可能會覺得離經叛道、一時無法接受的地方。事實上，Elixir 是對變數「重新綁定」(rebinding) 而非「重新賦值」，變數先前被賦予的資料仍舊存在記憶體的某個位置，重新綁定後的變數只是指向了另一份不同位置的新資料。</p>\n\n<p>這篇文章，是 Elixir 之父 José Valim 談論 Elixir 與 Erlang 對變數處理設計的相異點。我推薦搭配 <a href=\"http://selfrecursion.com/2015/05/16/immutability-in-elixir/\">Immutability in Elixir - Self Recursion</a> 這篇，以及 <a href=\"http://www.evanmiller.org/elixir-ram-and-the-template-of-doom.html\">Elixir RAM and the Template of Doom</a> 這篇一起看。</p>",
+          "description_markdown": "在 Erlang 裡，變數只能被賦值一次，是不可變的 (immutable)。但是在 Elixir 裡，我們卻_彷彿可以_像是用 C, Ruby 之類的語言，對變數「重新賦值」，而這也是從 Erlang 跳過來 Elixir 的人最可能會覺得離經叛道、一時無法接受的地方。事實上，Elixir 是對變數「重新綁定」(rebinding) 而非「重新賦值」，變數先前被賦予的資料仍舊存在記憶體的某個位置，重新綁定後的變數只是指向了另一份不同位置的新資料。\r\n\r\n這篇文章，是 Elixir 之父 José Valim 談論 Elixir 與 Erlang 對變數處理設計的相異點。我推薦搭配 [Immutability in Elixir - Self Recursion](http://selfrecursion.com/2015/05/16/immutability-in-elixir/) 這篇，以及 [Elixir RAM and the Template of Doom](http://www.evanmiller.org/elixir-ram-and-the-template-of-doom.html) 這篇一起看。",
+          "embedded_links": [
+            {
+              "identifier": "2BQEXiX",
+              "title": "Immutability in Elixir - Self Recursion",
+              "url_domain": "selfrecursion.com",
+              "url": "http://selfrecursion.com/2015/05/16/immutability-in-elixir/"
+            },
+            {
+              "identifier": "WMRkgGc",
+              "title": "Elixir RAM and the Template of Doom",
+              "url_domain": "evanmiller.org",
+              "url": "http://www.evanmiller.org/elixir-ram-and-the-template-of-doom.html"
+            }
+          ]
+        },
+        {
+          "identifier": "gtE4ntt",
+          "type": "Link",
+          "title": "Unicode and Elixir",
+          "url_domain": "github.io",
+          "url": "http://wobh.github.io/uniex/2016/04/25/unicode-elixir-01-intro.html",
+          "description": "<p>早期因為讀了蔡學鏞的<a href=\"http://www.ithome.com.tw/node/48785\">文章</a>開始接觸 Erlang 時，看到「而且 Erlang 居然還不支援 Unicode，這是個相當大的缺點」這句，心就涼了半截。以我主修的圖書資訊學來說，拿程式來處理文字資料，是最基本的功夫，這當中對於 character set, character encoding 的處理自然是不可免的，尤其在臺灣這個至今還會遇到活化石 <a href=\"https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BA%94%E7%A2%BC\">Big5</a> 的地方，程式語言的內建機制若沒有現成的字元編碼處理能力，用起來就會顯得綁手綁腳，自然會影響使用意願。</p>\n\n<p>事實上，Erlang 對 Unicode 與 UTF-* 的支援，隨著歷次更版漸漸在改進，所以情況已經與早先大不同了。回頭看  Elixir，可能是因為後起之秀的關係，對 Unicode 與 UTF-8 的支援已經很完善，官網對此也有專門的一份文件 <a href=\"http://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html\"> Binaries, strings and char lists </a> 說明。那麼，Elixir 針對 Unicode 支援的內部實作又是如何呢？標題這系列文有不錯的探討，截自本期出刊，已經寫到第三篇：</p>\n\n<ol>\n<li><a href=\"http://wobh.github.io/uniex/2016/04/25/unicode-elixir-01-intro.html\">Unicode and Elixir, part 1: Introduction</a></li>\n<li><a href=\"http://wobh.github.io/uniex/2016/04/28/unicode-elixir-02-where-elixir-does-unicode.html\">Unicode and Elixir part 2: Where Elixir defines and uses Unicode</a></li>\n<li><a href=\"http://wobh.github.io/uniex/2016/04/30/elixir-unicode-source.html\">Unicode and Elixir part 3: Elixir's Unicode source</a></li>\n</ol>",
+          "description_markdown": "早期因為讀了蔡學鏞的[文章](http://www.ithome.com.tw/node/48785)開始接觸 Erlang 時，看到「而且 Erlang 居然還不支援 Unicode，這是個相當大的缺點」這句，心就涼了半截。以我主修的圖書資訊學來說，拿程式來處理文字資料，是最基本的功夫，這當中對於 character set, character encoding 的處理自然是不可免的，尤其在臺灣這個至今還會遇到活化石 [Big5](https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BA%94%E7%A2%BC) 的地方，程式語言的內建機制若沒有現成的字元編碼處理能力，用起來就會顯得綁手綁腳，自然會影響使用意願。\r\n\r\n事實上，Erlang 對 Unicode 與 UTF-* 的支援，隨著歷次更版漸漸在改進，所以情況已經與早先大不同了。回頭看  Elixir，可能是因為後起之秀的關係，對 Unicode 與 UTF-8 的支援已經很完善，官網對此也有專門的一份文件 [ Binaries, strings and char lists ](http://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html) 說明。那麼，Elixir 針對 Unicode 支援的內部實作又是如何呢？標題這系列文有不錯的探討，截自本期出刊，已經寫到第三篇：\r\n\r\n1. [Unicode and Elixir, part 1: Introduction](http://wobh.github.io/uniex/2016/04/25/unicode-elixir-01-intro.html)\r\n2. [Unicode and Elixir part 2: Where Elixir defines and uses Unicode](http://wobh.github.io/uniex/2016/04/28/unicode-elixir-02-where-elixir-does-unicode.html)\r\n3. [Unicode and Elixir part 3: Elixir's Unicode source](http://wobh.github.io/uniex/2016/04/30/elixir-unicode-source.html)",
+          "embedded_links": [
+            {
+              "identifier": "J6cVuiC",
+              "title": "文章",
+              "url_domain": "ithome.com.tw",
+              "url": "http://www.ithome.com.tw/node/48785"
+            },
+            {
+              "identifier": "O0R22S5",
+              "title": "Big5",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E4%BA%94%E7%A2%BC"
+            },
+            {
+              "identifier": "5UVzIJw",
+              "title": " Binaries, strings and char lists ",
+              "url_domain": "elixir-lang.org",
+              "url": "http://elixir-lang.org/getting-started/binaries-strings-and-char-lists.html"
+            },
+            {
+              "identifier": "4JTIUns",
+              "title": "Unicode and Elixir, part 1: Introduction",
+              "url_domain": "github.io",
+              "url": "http://wobh.github.io/uniex/2016/04/25/unicode-elixir-01-intro.html"
+            },
+            {
+              "identifier": "eTfnHHv",
+              "title": "Unicode and Elixir part 2: Where Elixir defines and uses Unicode",
+              "url_domain": "github.io",
+              "url": "http://wobh.github.io/uniex/2016/04/28/unicode-elixir-02-where-elixir-does-unicode.html"
+            },
+            {
+              "identifier": "aSg72hc",
+              "title": "Unicode and Elixir part 3: Elixir's Unicode source",
+              "url_domain": "github.io",
+              "url": "http://wobh.github.io/uniex/2016/04/30/elixir-unicode-source.html"
+            }
+          ]
+        },
+        {
+          "identifier": "oLIvTvl",
+          "type": "Link",
+          "title": "Erlang 程式開發原則：該錯的放它錯",
+          "url_domain": "wordpress.com",
+          "url": "https://yauhsien.wordpress.com/2015/06/25/erlang-%e7%a8%8b%e5%bc%8f%e9%96%8b%e7%99%bc%e5%8e%9f%e5%89%87%ef%bc%9a%e8%a9%b2%e9%8c%af%e7%9a%84%e6%94%be%e5%ae%83%e9%8c%af/",
+          "description": "<p>從講求防禦式程式設計的 paradigm 轉來學習 Erlang 與 Elixir 時，相信很多人，包括我在內，一開始也不習慣「放乎去」這樣的思維。但是就因為函數式語言追求函式求值結果的單純，所以對於 business logic 上的可能複數狀況，則應該反思在函數規劃上是否還不夠「純粹」，至於各種外部因素的錯誤，則應交給 supervisor, BEAM 與 OS 去處理，函數就只應負責如實求值就好。</p>\n\n<p>在 Stack Overflow 上頭這則 <a href=\"http://stackoverflow.com/questions/32815326/non-defensive-programming-in-erlang\">Non-defensive programming in Erlang</a> 問答，講得很清楚，也值得大家一讀。</p>",
+          "description_markdown": "從講求防禦式程式設計的 paradigm 轉來學習 Erlang 與 Elixir 時，相信很多人，包括我在內，一開始也不習慣「放乎去」這樣的思維。但是就因為函數式語言追求函式求值結果的單純，所以對於 business logic 上的可能複數狀況，則應該反思在函數規劃上是否還不夠「純粹」，至於各種外部因素的錯誤，則應交給 supervisor, BEAM 與 OS 去處理，函數就只應負責如實求值就好。\r\n\r\n在 Stack Overflow 上頭這則 [Non-defensive programming in Erlang](http://stackoverflow.com/questions/32815326/non-defensive-programming-in-erlang) 問答，講得很清楚，也值得大家一讀。",
+          "embedded_links": [
+            {
+              "identifier": "wuuwjVW",
+              "title": "Non-defensive programming in Erlang",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/32815326/non-defensive-programming-in-erlang"
+            }
+          ]
+        },
+        {
+          "identifier": "Svtv0qg",
+          "type": "Link",
+          "title": "How Etsy Formats Currency",
+          "url_domain": "codeascraft.com",
+          "url": "https://codeascraft.com/2016/04/19/how-etsy-formats-currency/",
+          "description": "<p>對，就是那個文創商品的電商平台 Etsy。文中介紹了他們在幾個處理貨幣顯示格式上的常見問題處理，相信會對處理電子商務的開發者很有幫助。</p>",
+          "description_markdown": "對，就是那個文創商品的電商平台 Etsy。文中介紹了他們在幾個處理貨幣顯示格式上的常見問題處理，相信會對處理電子商務的開發者很有幫助。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "TEQJ3yR",
+          "type": "Link",
+          "title": "Sudo_ 前端工程師 / Web Front-end Engineer",
+          "url_domain": "sudo.com.tw",
+          "url": "https://sudo.com.tw/companies/21/jobs/403",
+          "description": "<p>年薪 NT$ 520,000 至 NT$ 780,000</p>",
+          "description_markdown": "年薪 NT$ 520,000 至 NT$ 780,000",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "eDz4wxT",
+          "type": "Link",
+          "title": "五一勞工運動誕生之日 1886 芝加哥乾草市場悲劇記事",
+          "url_domain": "coolloud.org.tw",
+          "url": "http://www.coolloud.org.tw/node/85210",
+          "description": "<p>本期碼天狗出刊，適逢勞動節補假日，選輯這篇苦勞網文章，算是應景歷史故事，可瞭解勞動節的由來。</p>\n\n<p>同時也有一點小感慨，最近每次讀到 PTT 的 <a href=\"https://www.ptt.cc/bbs/Soft_Job/index.html\">Soft_Job</a> 看板出現勞動條件、環境太誇張的文，都不免省思自己對勞動法規、權益等議題還不夠瞭解、不夠關注。要改善 IT 業的環境，這其實也是很重要的一環。</p>\n\n<p>由 <a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> 分享。</p>",
+          "description_markdown": "本期碼天狗出刊，適逢勞動節補假日，選輯這篇苦勞網文章，算是應景歷史故事，可瞭解勞動節的由來。\r\n\r\n同時也有一點小感慨，最近每次讀到 PTT 的 [Soft_Job][1] 看板出現勞動條件、環境太誇張的文，都不免省思自己對勞動法規、權益等議題還不夠瞭解、不夠關注。要改善 IT 業的環境，這其實也是很重要的一環。\r\n\r\n由 [@hiroshiyui](https://twitter.com/hiroshiyui) 分享。\r\n\r\n[1]: https://www.ptt.cc/bbs/Soft_Job/index.html",
+          "embedded_links": [
+            {
+              "identifier": "zEWWS85",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "wVOXYg6",
+              "title": "Soft_Job",
+              "url_domain": "ptt.cc",
+              "url": "https://www.ptt.cc/bbs/Soft_Job/index.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

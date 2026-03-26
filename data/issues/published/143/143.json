@@ -1,0 +1,421 @@
+{
+  "number": 143,
+  "title": "Issue 143 Roses Are Red. Violets Are Blue. Unexpected '{' on Line 32.",
+  "summary": "本期內容涵蓋 Swift, Machine Learning, iOS, Redis, NLP, JavaScript, AngularJS, ReactJS, Blockchain",
+  "url": "https://weekly.codetengu.com/issues/143",
+  "publication_status": "published",
+  "published_at": "2018-10-01T04:24:52+01:00",
+  "updated_at": "2018-10-01T10:12:26+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。或是關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a>。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Blindsight</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://github.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n</ul>\n\n\n<p><a href=\"https://www.reddit.com/r/ProgrammerHumor/comments/7uyafj/roses_are_red_violets_are_blue/\">本週標題出處</a>。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。或是關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo)。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Blindsight](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Runtime 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@wancw](https://github.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n\r\n[本週標題出處](https://www.reddit.com/r/ProgrammerHumor/comments/7uyafj/roses_are_red_violets_are_blue/)。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "HeyqyJC",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "BVsn0yl",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "CkrMLkR",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "GvaEq2J",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "MXzSJRr",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "GXdHNhE",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "WY0uRx5",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "zlAsXKE",
+              "title": "Blindsight",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "q7819Bi",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "XDaVZos",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "nog9zmp",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Dc0r0m9",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "iWKzkWj",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "94m5C6F",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "KIka0OI",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "2yyreba",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "6PxCslL",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "CejwkB1",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "5wpd7ST",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "xVCa4Zk",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "TVAZDFr",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "Zm7skOy",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "DQ2Savp",
+              "title": "@wancw",
+              "url_domain": "github.com",
+              "url": "https://github.com/wancw"
+            },
+            {
+              "identifier": "l75W05l",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "IAzmViD",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "jBJ6Ygm",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "nAU1mzb",
+              "title": "本週標題出處",
+              "url_domain": "reddit.com",
+              "url": "https://www.reddit.com/r/ProgrammerHumor/comments/7uyafj/roses_are_red_violets_are_blue/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "mJxe4Go",
+          "type": "Link",
+          "title": "Private properties in protocols",
+          "url_domain": "github.io",
+          "url": "http://alisoftware.github.io/swift/protocols/2018/09/02/protocols-private-properties/",
+          "description": "<p>Swift 的 Protocol 是個很好用的概念，但它還在不斷的完善中，也還有不少限制存在，例如不能在 Protocol 裡頭宣告 private property。</p>\n\n<p>作者舉了一個蠻常見的場景說明為什麼這會是個問題，如果是我們自己專案裡頭遇到，或許我們可以跟團隊成員說好「這些 property 不能亂動」，但是一來這樣實在太不保險，而來如果我們是在開發一個 library 給其他人用的話，我們也無法保證其他人會怎麼用它。</p>\n\n<p>所以要怎麼在 Protocol 宣告 private property 呢？作者提供了一個小技巧：用一個中間物件把它包起來。蠻取巧的一個作法，或許你正好需要！</p>",
+          "description_markdown": "Swift 的 Protocol 是個很好用的概念，但它還在不斷的完善中，也還有不少限制存在，例如不能在 Protocol 裡頭宣告 private property。\r\n\r\n作者舉了一個蠻常見的場景說明為什麼這會是個問題，如果是我們自己專案裡頭遇到，或許我們可以跟團隊成員說好「這些 property 不能亂動」，但是一來這樣實在太不保險，而來如果我們是在開發一個 library 給其他人用的話，我們也無法保證其他人會怎麼用它。\r\n\r\n所以要怎麼在 Protocol 宣告 private property 呢？作者提供了一個小技巧：用一個中間物件把它包起來。蠻取巧的一個作法，或許你正好需要！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "cfhUH5d",
+          "type": "Link",
+          "title": "NSFWDetector: A NSFW (aka porn) detector with CoreML",
+          "url_domain": "github.com",
+          "url": "https://github.com/lovoo/NSFWDetector",
+          "description": "<p>利用 CoreML 做機器學習，讓程式可以辨識出不雅的圖片。我想到可以用在一個場景：如果你的 app 允許使用者上傳圖片的話，可以用這個套件在上傳前先檢查，節省後續人工檢查每一則發文的成本。</p>\n\n<p>如果你好奇它的訓練資料的話，<a href=\"https://github.com/lovoo/NSFWDetector/issues/16\">這裡也有提供</a> XD</p>",
+          "description_markdown": "利用 CoreML 做機器學習，讓程式可以辨識出不雅的圖片。我想到可以用在一個場景：如果你的 app 允許使用者上傳圖片的話，可以用這個套件在上傳前先檢查，節省後續人工檢查每一則發文的成本。\r\n\r\n如果你好奇它的訓練資料的話，[這裡也有提供](https://github.com/lovoo/NSFWDetector/issues/16) XD",
+          "embedded_links": [
+            {
+              "identifier": "EsZOwOI",
+              "title": "這裡也有提供",
+              "url_domain": "github.com",
+              "url": "https://github.com/lovoo/NSFWDetector/issues/16"
+            }
+          ]
+        },
+        {
+          "identifier": "UogStrp",
+          "type": "Link",
+          "title": "Access Control Management with Swift",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/ios-os-x-development/access-control-management-with-swift-cc3c3d68cbc3",
+          "description": "<p>當你的產品功能跟使用者權限有關的時候，你或許一開始會先用粗暴有用的做法，在 User model 裡頭加入一堆 boolean property，然後在業務邏輯的地方判斷 <code>if (user.propertyA) { doSomething(); }</code>。</p>\n\n<p>隨著產品逐步變大，你會發現 User model 裡頭的 boolean property 越加越多，業務邏輯要判斷的東西也越來越多，更有可能這一堆權限判斷會散落在各個不同檔案裡。</p>\n\n<p>想想就覺得可怕，是吧？（或許你正在面對這一坨可怕的邏輯？😨）本文作者提供了一個處理使用者存取權限的思路，或許會對你現在或將來有幫助！</p>",
+          "description_markdown": "當你的產品功能跟使用者權限有關的時候，你或許一開始會先用粗暴有用的做法，在 User model 裡頭加入一堆 boolean property，然後在業務邏輯的地方判斷 `if (user.propertyA) { doSomething(); }`。\r\n\r\n隨著產品逐步變大，你會發現 User model 裡頭的 boolean property 越加越多，業務邏輯要判斷的東西也越來越多，更有可能這一堆權限判斷會散落在各個不同檔案裡。\r\n\r\n想想就覺得可怕，是吧？（或許你正在面對這一坨可怕的邏輯？😨）本文作者提供了一個處理使用者存取權限的思路，或許會對你現在或將來有幫助！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "O0DVNJR",
+          "type": "Link",
+          "title": "Swift & Fika 2018",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PLKNt6c4Ajv2tgrX4wVgoHLSMuP-3sC2M9",
+          "description": "<p>Swift &amp; Fika 是一個在斯德哥爾摩舉辦的 Swift Conference，今年的場次剛結束不久，新鮮的影片就上 Youtube 了，只能說主辦單位真的很有心，不知道中午吃便當的時候要看什麼的話，就來看看 Swift 吧。</p>",
+          "description_markdown": "Swift & Fika 是一個在斯德哥爾摩舉辦的 Swift Conference，今年的場次剛結束不久，新鮮的影片就上 Youtube 了，只能說主辦單位真的很有心，不知道中午吃便當的時候要看什麼的話，就來看看 Swift 吧。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "8bSCCxF",
+          "type": "Link",
+          "title": "Don't talk CRUD",
+          "url_domain": "codecoding.net",
+          "url": "https://codecoding.net/ruby/on/rails/2018/09/14/dont-talk-crud.html",
+          "description": "<p>CRUD 是資料操作、framework 的基本操作，但它們不應該直接被用在 API、URL 乃至於使用者介面上。</p>\n\n<p>應該盡量採用客戶、使用者的慣用語，也就是所謂的 <a href=\"https://en.wikipedia.org/wiki/Domain-driven_design\">Domain-driven design</a>。畢竟解決（客戶、使用者的）問題才是開發程式的重點。</p>",
+          "description_markdown": "CRUD 是資料操作、framework 的基本操作，但它們不應該直接被用在 API、URL 乃至於使用者介面上。\r\n\r\n應該盡量採用客戶、使用者的慣用語，也就是所謂的 [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design)。畢竟解決（客戶、使用者的）問題才是開發程式的重點。",
+          "embedded_links": [
+            {
+              "identifier": "qLUXjw",
+              "title": "Domain-driven design",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Domain-driven_design"
+            }
+          ]
+        },
+        {
+          "identifier": "RhchigI",
+          "type": "Link",
+          "title": "Redis 系列 -- Redis 4.0 深入持久化",
+          "url_domain": "cnblogs.com",
+          "url": "https://www.cnblogs.com/wdliu/p/9377278.html",
+          "description": "<p>網路上能找到的 Redis persistence 文件，多半只介紹 RDB 與 AOF 兩種形式和比較。這篇是少數仔細地介紹了 4.0 新增的 AOF 混合 RDB 形式的文章，而且對 3 種 persistence 形式的使用與運作都有清楚說明。</p>\n\n<p><a href=\"https://yq.aliyun.com/articles/193034\">Redis 4.0 之 RDB-AOF 混合持久化</a> 則進一步從 source code 分析了這種新的 persistence 形式。</p>",
+          "description_markdown": "網路上能找到的 Redis persistence 文件，多半只介紹 RDB 與 AOF 兩種形式和比較。這篇是少數仔細地介紹了 4.0 新增的 AOF 混合 RDB 形式的文章，而且對 3 種 persistence 形式的使用與運作都有清楚說明。\r\n\r\n[Redis 4.0 之 RDB-AOF 混合持久化](https://yq.aliyun.com/articles/193034) 則進一步從 source code 分析了這種新的 persistence 形式。",
+          "embedded_links": [
+            {
+              "identifier": "cqPzGjw",
+              "title": "Redis 4.0 之 RDB-AOF 混合持久化",
+              "url_domain": "aliyun.com",
+              "url": "https://yq.aliyun.com/articles/193034"
+            }
+          ]
+        },
+        {
+          "identifier": "3c2wQ2b",
+          "type": "Link",
+          "title": "Towards Natural Language Semantic Code Search",
+          "url_domain": "githubengineering.com",
+          "url": "https://githubengineering.com/towards-natural-language-semantic-code-search/",
+          "description": "<p>GitHub 已經能做到以文字語意搜尋程式碼了，以後除了 Stack Overflow 又多了一個地方可以找範例程式 <del>來抄襲</del> 了。</p>\n\n<p>懶得看文章的，也可以直接在 <a href=\"https://experiments.github.com/semantic-code-search\">這裡</a> 試試看目前的效果。</p>",
+          "description_markdown": "GitHub 已經能做到以文字語意搜尋程式碼了，以後除了 Stack Overflow 又多了一個地方可以找範例程式 ~~來抄襲~~ 了。\r\n\r\n懶得看文章的，也可以直接在 [這裡](https://experiments.github.com/semantic-code-search) 試試看目前的效果。",
+          "embedded_links": [
+            {
+              "identifier": "mdnWWr4",
+              "title": "這裡",
+              "url_domain": "github.com",
+              "url": "https://experiments.github.com/semantic-code-search"
+            }
+          ]
+        },
+        {
+          "identifier": "7uEKmv9",
+          "type": "Link",
+          "title": "保護專注力",
+          "url_domain": "othree.net",
+          "url": "https://blog.othree.net/log/2018/09/26/zone-of-zero/",
+          "description": "<p>進入專注狀態（或所謂 <a href=\"https://zh.wikipedia.org/wiki/%E5%BF%83%E6%B5%81%E7%90%86%E8%AB%96\">Flow</a>）是很難的事情，參考一下 othree 如何確保自己的專注力吧。</p>\n\n<p>裡面提到 AshWu 的 <a href=\"https://medium.com/@hSATAC/%E5%A6%82%E4%BD%95%E5%9C%A8-context-switch-%E9%96%93%E7%B6%AD%E6%8C%81%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B-8b910e468076\">如何在 Context Switch 間維持自己的生產力</a> 也是很有參考價值，特別是 <strong>管理精力</strong> 一段：</p>\n\n<blockquote><p>調整你的生活作息，讓自己有良好的睡眠品質；養成固定運動的習慣，增強體力；將精力最好的時段保留下來給自己，其他的時間給別人；藉由建立儀式性的行為，讓自己能快速進入高專注的狀態；找到能讓自己快速回復精力的活動；避免把自己燃燒殆盡、而是追求能快速的充電完畢，重返工作。</p></blockquote>",
+          "description_markdown": "進入專注狀態（或所謂 [Flow](https://zh.wikipedia.org/wiki/%E5%BF%83%E6%B5%81%E7%90%86%E8%AB%96)）是很難的事情，參考一下 othree 如何確保自己的專注力吧。\r\n\r\n裡面提到 AshWu 的 [如何在 Context Switch 間維持自己的生產力](https://medium.com/@hSATAC/%E5%A6%82%E4%BD%95%E5%9C%A8-context-switch-%E9%96%93%E7%B6%AD%E6%8C%81%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B-8b910e468076) 也是很有參考價值，特別是 **管理精力** 一段：\r\n\r\n> 調整你的生活作息，讓自己有良好的睡眠品質；養成固定運動的習慣，增強體力；將精力最好的時段保留下來給自己，其他的時間給別人；藉由建立儀式性的行為，讓自己能快速進入高專注的狀態；找到能讓自己快速回復精力的活動；避免把自己燃燒殆盡、而是追求能快速的充電完畢，重返工作。",
+          "embedded_links": [
+            {
+              "identifier": "wwwUtAv",
+              "title": "Flow",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%BF%83%E6%B5%81%E7%90%86%E8%AB%96"
+            },
+            {
+              "identifier": "UmcR84",
+              "title": "如何在 Context Switch 間維持自己的生產力",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@hSATAC/%E5%A6%82%E4%BD%95%E5%9C%A8-context-switch-%E9%96%93%E7%B6%AD%E6%8C%81%E8%87%AA%E5%B7%B1%E7%9A%84%E7%94%9F%E7%94%A2%E5%8A%9B-8b910e468076"
+            }
+          ]
+        },
+        {
+          "identifier": "vyTLhwl",
+          "type": "Link",
+          "title": "微前端的那些事儿 | microfrontends",
+          "url_domain": "microfrontend.cn",
+          "url": "https://microfrontend.cn/",
+          "description": "<p>我離網頁前端開發的世界已遠，沒想到類似微服務的架構也在前端發生了。</p>\n\n<p><del>果然 IT 人員就是在不同領域、用不同語言不斷地重複同樣的事情啊</del></p>",
+          "description_markdown": "我離網頁前端開發的世界已遠，沒想到類似微服務的架構也在前端發生了。\r\n\r\n~~果然 IT 人員就是在不同領域、用不同語言不斷地重複同樣的事情啊~~",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "lucienlee",
+      "name": "@lucienlee",
+      "items": [
+        {
+          "identifier": "4DTvSy8",
+          "type": "Link",
+          "title": "Use React in Cycle.js and vice-versa",
+          "url_domain": "staltz.com",
+          "url": "https://staltz.com/use-react-in-cyclejs-and-vice-versa.html",
+          "description": "<p>[Frontend]</p>\n\n<p>Cycle.js 是個 functional 及 reactive 的前端框架。第一次聽到他的朋友，你可以暫且非常粗略地把它想像成是個有 view layer 的 RxJS。<br/>\nCycle.js 過去以學習門檻高、整合困難而導致少有應用在大型項目的案例。原因在於要開始使用前你必須先掌握 reactive 事件流的思維；而與現有專案整合上，因為他有自己的開發方式/范式，讓你一但使用 Cycle.js ，你就得接受 Reactive for everything 這件事，較難與 react 跟 vue 這樣 view layer 框架直接整合。</p>\n\n<p>作者 André Staltz 16年曾經公開 diss 過 React ，但考量到工程成本與社群發展上，能相互借用對方的積累對整個開發生態是更好的，而如今由於 React 16.4 <code>Context</code> 和 <code>forwardRef</code> API 的成熟，Cycle.js 與 React 能更無痛地整合在一起，或許是個可以嘗試將 Cycle.js 試在 production 的好時機，因為遇到實在不行的狀況，你還是能借用龐大的 react 社群中各種輪子解決問題。</p>\n\n<p><code>#工程化的成本包含忍受隔壁的同事說求不更新，學不動了</code></p>",
+          "description_markdown": "[Frontend]  \r\n\r\nCycle.js 是個 functional 及 reactive 的前端框架。第一次聽到他的朋友，你可以暫且非常粗略地把它想像成是個有 view layer 的 RxJS。  \r\nCycle.js 過去以學習門檻高、整合困難而導致少有應用在大型項目的案例。原因在於要開始使用前你必須先掌握 reactive 事件流的思維；而與現有專案整合上，因為他有自己的開發方式/范式，讓你一但使用 Cycle.js ，你就得接受 Reactive for everything 這件事，較難與 react 跟 vue 這樣 view layer 框架直接整合。\r\n\r\n作者 André Staltz 16年曾經公開 diss 過 React ，但考量到工程成本與社群發展上，能相互借用對方的積累對整個開發生態是更好的，而如今由於 React 16.4 `Context` 和 `forwardRef` API 的成熟，Cycle.js 與 React 能更無痛地整合在一起，或許是個可以嘗試將 Cycle.js 試在 production 的好時機，因為遇到實在不行的狀況，你還是能借用龐大的 react 社群中各種輪子解決問題。\r\n\r\n`#工程化的成本包含忍受隔壁的同事說求不更新，學不動了`",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "db4r6Nt",
+          "type": "Link",
+          "title": "A comparison between Angular and React and their core languages",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/a-comparison-between-angular-and-react-and-their-core-languages-9de52f485a76",
+          "description": "<p>[Frontend]</p>\n\n<p>雖然原文主旨談的是 Angular 與 React 的比較，但我其實覺得文中與討論串 JavaScript VS TypeScript 與\nStatically and Dynamically-typed languages 的爭論才是全文的亮點。有趣的是，文中提到一篇靜態、動態型別對於開發速度影響的論文。裡頭提到，靜態型別反而有機會因為花時間在修復 type error 而導致開發速度比較慢，從論文中開發時間的分佈圖來看，可以猜想工程師的經驗會影響靜態型別是否拖慢開發速度。</p>\n\n<p>從我個人使用 TypeScript 的經驗來看，的確去熟悉第三方套件內部的型別會需要花更多時間預讀、TypeScript 對多層泛型跟多層 HOC 中的 type error report 目前十分不好讀，容易花許多時間在 trace error 邵，另外在資料 pipe 處理中，如果有結構上的變化，很多時候得很囉嗦地宣告只差一點點的型別。但不得不說，透過靜態型別能提昇程式可讀性，因為型別為封裝的元件提供了接口聲明，能讓工程師整合起來比較方便，重構上也比較不容易寫出預期不一樣的錯誤。</p>\n\n<p>題外話，上文中的 André Stalt 也是堅定的靜態型別派，他也有寫過<a href=\"https://staltz.com/all-js-libraries-should-be-authored-in-typescript.html\">文章</a>討論過這件事，有興趣可以一起讀一讀</p>\n\n<p><code>#戰型別語言絕對是百年戰爭</code>, <code>#但還是希望大家寫套件能行個方便補個 .d.ts</code></p>",
+          "description_markdown": "[Frontend]  \r\n\r\n雖然原文主旨談的是 Angular 與 React 的比較，但我其實覺得文中與討論串 JavaScript VS TypeScript 與\r\nStatically and Dynamically-typed languages 的爭論才是全文的亮點。有趣的是，文中提到一篇靜態、動態型別對於開發速度影響的論文。裡頭提到，靜態型別反而有機會因為花時間在修復 type error 而導致開發速度比較慢，從論文中開發時間的分佈圖來看，可以猜想工程師的經驗會影響靜態型別是否拖慢開發速度。\r\n\r\n從我個人使用 TypeScript 的經驗來看，的確去熟悉第三方套件內部的型別會需要花更多時間預讀、TypeScript 對多層泛型跟多層 HOC 中的 type error report 目前十分不好讀，容易花許多時間在 trace error 邵，另外在資料 pipe 處理中，如果有結構上的變化，很多時候得很囉嗦地宣告只差一點點的型別。但不得不說，透過靜態型別能提昇程式可讀性，因為型別為封裝的元件提供了接口聲明，能讓工程師整合起來比較方便，重構上也比較不容易寫出預期不一樣的錯誤。\r\n\r\n題外話，上文中的 André Stalt 也是堅定的靜態型別派，他也有寫過[文章](https://staltz.com/all-js-libraries-should-be-authored-in-typescript.html)討論過這件事，有興趣可以一起讀一讀\r\n\r\n`#戰型別語言絕對是百年戰爭`, `#但還是希望大家寫套件能行個方便補個 .d.ts`",
+          "embedded_links": [
+            {
+              "identifier": "sOoctXc",
+              "title": "文章",
+              "url_domain": "staltz.com",
+              "url": "https://staltz.com/all-js-libraries-should-be-authored-in-typescript.html"
+            }
+          ]
+        },
+        {
+          "identifier": "xLMlD41",
+          "type": "Link",
+          "title": "Basic Primer: Blockchain Consensus Protocol",
+          "url_domain": "blockgeeks.com",
+          "url": "https://blockgeeks.com/guides/blockchain-consensus/",
+          "description": "<p>[Blockchain]</p>\n\n<p>區塊鏈中最重要的概念在於－－如何創造<em>共識</em>，不管是證明價值轉移、資料不被竄改或是合約被公正執行，其背後的概念都是我們如何用技術手段，創造一個取得共識的方法。也因此了解區塊鏈中各種共識方案，是入門的基礎之基礎，這篇文章快速介紹了幾個常見的共識算法，包含 POW, POS, DPOS, dBFT ，有興趣可以延伸了解一下其他沒提到的<a href=\"https://thecoinoffering.com/learn/blockchain-consensus-systems/\">共識算法</a>。</p>",
+          "description_markdown": "[Blockchain]  \r\n\r\n區塊鏈中最重要的概念在於－－如何創造*共識*，不管是證明價值轉移、資料不被竄改或是合約被公正執行，其背後的概念都是我們如何用技術手段，創造一個取得共識的方法。也因此了解區塊鏈中各種共識方案，是入門的基礎之基礎，這篇文章快速介紹了幾個常見的共識算法，包含 POW, POS, DPOS, dBFT ，有興趣可以延伸了解一下其他沒提到的[共識算法](https://thecoinoffering.com/learn/blockchain-consensus-systems/)。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "4L5OLQb",
+              "title": "共識算法",
+              "url_domain": "thecoinoffering.com",
+              "url": "https://thecoinoffering.com/learn/blockchain-consensus-systems/"
+            }
+          ]
+        },
+        {
+          "identifier": "JltMiVd",
+          "type": "Link",
+          "title": "Finite and Infinite Games",
+          "url_domain": "kk.org",
+          "url": "https://kk.org/cooltools/finite-and-infi/",
+          "description": "<p>[Life]</p>\n\n<p><em>Finite and Infinite Games</em> / <em>有限與無限的遊戲</em>，是最近影響我最多的一本哲學書，裡邊提到了世界上只有兩種遊戲－－「有限遊戲」與「無限遊戲」，進而引領大家思考世界上各種互動的本質是什麼。這裡擷取幾個片段，讓大家感受一下什麼是有限與無限遊戲：</p>\n\n<blockquote><p>世界上只有兩種類型的「遊戲」，「有限的遊戲」和「無限的遊戲」。 有限的遊戲，其目的在於贏得勝利；無限的遊戲，卻旨在讓遊戲永遠進行下去。 有限的遊戲在邊界內玩，無限的遊戲玩的就是邊界。 有限的遊戲具有一個確定的開始和結束，擁有特定的贏家，規則的存在就是為了保證遊戲會結束。 無限的遊戲既沒有確定的開始和結束，也沒有贏家，它的目的在於將更多的人帶入到遊戲本身中來，從而延續遊戲。</p></blockquote>\n\n<hr />\n\n<blockquote><p>無限遊戲參與者放眼未來，並不著眼於勝利，而是著眼於繼續比賽，過去將需要被不斷地重新解讀。無限遊戲參與者並不對抗他人的行動，而是發起自己的行動，使得他人能夠發起自己的行動進行回應。</p></blockquote>\n\n<hr />\n\n<blockquote><p>姑且說有限遊戲參與者為了權力（power）而參賽，無限遊戲參與者憑借力量（strength）參賽。</p></blockquote>\n\n<p>往大的說，這本書能讓你對社會上的競爭博奕有另一種思考；往小地說，你能以一個新的角度來看待隔壁小明遇到的職場鬥爭。而我自己則是從區塊鏈、新創競爭、組織管理上得到許多印鑑的想法，祝大家能認清自己正在玩什麼樣的遊戲，並成為自己想要的玩家。</p>\n\n<p>連結附上的是 Wired 雜誌創辦人 Kevin Kelly 的推薦，有興趣的人可以在買實體書<del>或是網路上找到神祕的 pdf </del>來看看。</p>\n\n<p><code>#說起來割韭菜是個有限還是無限遊戲呢？😜</code></p>",
+          "description_markdown": "[Life]  \r\n\r\n*Finite and Infinite Games* / *有限與無限的遊戲*，是最近影響我最多的一本哲學書，裡邊提到了世界上只有兩種遊戲－－「有限遊戲」與「無限遊戲」，進而引領大家思考世界上各種互動的本質是什麼。這裡擷取幾個片段，讓大家感受一下什麼是有限與無限遊戲：\r\n\r\n> 世界上只有兩種類型的「遊戲」，「有限的遊戲」和「無限的遊戲」。 有限的遊戲，其目的在於贏得勝利；無限的遊戲，卻旨在讓遊戲永遠進行下去。 有限的遊戲在邊界內玩，無限的遊戲玩的就是邊界。 有限的遊戲具有一個確定的開始和結束，擁有特定的贏家，規則的存在就是為了保證遊戲會結束。 無限的遊戲既沒有確定的開始和結束，也沒有贏家，它的目的在於將更多的人帶入到遊戲本身中來，從而延續遊戲。\r\n\r\n---\r\n\r\n> 無限遊戲參與者放眼未來，並不著眼於勝利，而是著眼於繼續比賽，過去將需要被不斷地重新解讀。無限遊戲參與者並不對抗他人的行動，而是發起自己的行動，使得他人能夠發起自己的行動進行回應。\r\n\r\n---\r\n\r\n> 姑且說有限遊戲參與者為了權力（power）而參賽，無限遊戲參與者憑借力量（strength）參賽。\r\n\r\n往大的說，這本書能讓你對社會上的競爭博奕有另一種思考；往小地說，你能以一個新的角度來看待隔壁小明遇到的職場鬥爭。而我自己則是從區塊鏈、新創競爭、組織管理上得到許多印鑑的想法，祝大家能認清自己正在玩什麼樣的遊戲，並成為自己想要的玩家。\r\n\r\n連結附上的是 Wired 雜誌創辦人 Kevin Kelly 的推薦，有興趣的人可以在買實體書~~或是網路上找到神祕的 pdf ~~來看看。\r\n\r\n`#說起來割韭菜是個有限還是無限遊戲呢？😜`",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "3WMEHGU",
+          "type": "Link",
+          "title": "Senior Backend Engineer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/5",
+          "description": "<p>To apply, please send your resume to <a href=\"&#109;&#97;&#x69;&#x6c;&#116;&#111;&#x3a;&#118;&#x69;&#110;&#116;&#x61;&#64;&#x73;&#119;&#x61;&#x67;&#46;&#x6c;&#x69;&#x76;&#101;\">&#118;&#x69;&#110;&#x74;&#97;&#64;&#115;&#x77;&#97;&#103;&#x2e;&#x6c;&#x69;&#x76;&#x65;</a>.</p>\n\n<h2>Requirements</h2>\n\n<ul>\n<li>In-depth knowledge of Python or Node.js</li>\n<li>Experience with Python web frameworks (i.e., Flask, Django, or Tornado)</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of MongoDB and Redis</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n<li>Designed for modular systems</li>\n<li>Cloud environment experience</li>\n<li>Excellent communication and organizational skills</li>\n</ul>\n\n\n<h2>Plus</h2>\n\n<ul>\n<li>Worked with Python <code>asyncio</code></li>\n<li>Experience developing in Go</li>\n<li>Event-driven architecture</li>\n<li>Experience working with cluster environments and containers (i.e., Kubernetes and Docker)</li>\n<li>Development flow utilizing CI/CD </li>\n<li>Experience working with distributed systems </li>\n<li>Experience working with real-time APIs </li>\n</ul>\n\n\n<h2>薪資範圍</h2>\n\n<ul>\n<li>年薪 100 萬新台幣以上。</li>\n</ul>",
+          "description_markdown": "To apply, please send your resume to <vinta@swag.live>.\r\n\r\n## Requirements\r\n\r\n* In-depth knowledge of Python or Node.js\r\n* Experience with Python web frameworks (i.e., Flask, Django, or Tornado)\r\n* Utilized work queues for background processing\r\n* In-depth knowledge of MongoDB and Redis\r\n* Excellent understanding of HTTP\r\n* Experience developing REST APIs\r\n* Designed for modular systems\r\n* Cloud environment experience\r\n* Excellent communication and organizational skills\r\n\r\n## Plus\r\n\r\n* Worked with Python `asyncio`\r\n* Experience developing in Go\r\n* Event-driven architecture\r\n* Experience working with cluster environments and containers (i.e., Kubernetes and Docker)\r\n* Development flow utilizing CI/CD \r\n* Experience working with distributed systems \r\n* Experience working with real-time APIs \r\n\r\n## 薪資範圍\r\n\r\n* 年薪 100 萬新台幣以上。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

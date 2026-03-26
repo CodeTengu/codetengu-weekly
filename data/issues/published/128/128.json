@@ -1,0 +1,482 @@
+{
+  "number": 128,
+  "title": "Issue 128 聽說桐島 rm -rf /* 了",
+  "summary": "本期內容涵蓋 React.js, JavaScript, Blockchain, Ethereum, CSS, Git, GraphQL, gRPC, Swift, TensorFlow",
+  "url": "https://weekly.codetengu.com/issues/128",
+  "publication_status": "published",
+  "published_at": "2018-05-21T03:00:00+01:00",
+  "updated_at": "2018-05-21T03:00:07+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩<a href=\"https://www.douban.com/people/vinta/\">命運石之門 0</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 今年 PyCon Taiwan <a href=\"https://tw.pycon.org/2018/zh-hant/events/tutorials/\">在台北和高雄都有開 tutorial</a> 喔。Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩[命運石之門 0](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 今年 PyCon Taiwan [在台北和高雄都有開 tutorial](https://tw.pycon.org/2018/zh-hant/events/tutorials/) 喔。Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "SimDibI",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "1B3EAee",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "xHeexZi",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "mZ9fs7a",
+              "title": "命運石之門 0",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "fzZvVxz",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "iMENLUh",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "XGVXsh6",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "BAEzEfj",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "N68pkOo",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "lGBpl0i",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "amwaE9D",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "tmLowYm",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "H3i5SJo",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "Bjjxbg6",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "BBysckq",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "8dTCXIq",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "g8v0C9d",
+              "title": "在台北和高雄都有開 tutorial",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2018/zh-hant/events/tutorials/"
+            },
+            {
+              "identifier": "sFAmKv2",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "PtFP0By",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "rIUBn2C",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "mtZS9q2",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "NYut8Lg",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "9s5geaB",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "LHjf6Rt",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "9KiNZl9",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "pHh04ja",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "q7K1SBu",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "SopkXoc",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "8AzXptc",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "lwbBagR",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "kPy0Beu",
+          "type": "Link",
+          "title": "React Binding Patterns: 5 Approaches for Handling `this`",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/react-binding-patterns-5-approaches-for-handling-this-92c651b5af56",
+          "description": "<p>寫 React 的人，除非你還在用 React.createClass，否則你必須自己把你的 function bind 到 this。或用 ES6 改寫 arrow function，不外乎本文中這 5 種寫法。</p>",
+          "description_markdown": "寫 React 的人，除非你還在用 React.createClass，否則你必須自己把你的 function bind 到 this。或用 ES6 改寫 arrow function，不外乎本文中這 5 種寫法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "u9qb2wZ",
+          "type": "Link",
+          "title": "Putting EU Citizens in Control of Their Data",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/read-write-participate/putting-eu-citizens-in-control-of-their-data-4696c7e88ae5",
+          "description": "<p>再過幾天 May 25, 2018，歐盟在 2016 年底公吿的 GDPR (General Data Protection Regulation) 即將生效。即使你的網站沒有涉及到歐洲用戶，如何正確收集或處理網路上個資，是每ㄧ位開發者都應該正視的問題。</p>\n\n<p><a href=\"https://twitter.com/r3bl_\">Aleksandar Todorović</a> 指出，GDPR 施行目的是要 “focuses on ensuring that users know, understand, and consent to the data collected about them,” 讓使用者更清楚了解與同意被網站或手機軟體所收集的資料。表面上是對公司的規定，實質上是要喚醒每個人要回掌控自己資料的權益。也藉此讓公司重新思考，以最少資料為原則來收集客戶資料。想要了解更多 GDPR 相關資訊，可以參考 <a href=\"https://eureka.eu.com/gdpr/\">https://eureka.eu.com/gdpr/</a>。</p>",
+          "description_markdown": "再過幾天 May 25, 2018，歐盟在 2016 年底公吿的 GDPR (General Data Protection Regulation) 即將生效。即使你的網站沒有涉及到歐洲用戶，如何正確收集或處理網路上個資，是每ㄧ位開發者都應該正視的問題。\r\n\r\n[Aleksandar Todorović](https://twitter.com/r3bl_) 指出，GDPR 施行目的是要 “focuses on ensuring that users know, understand, and consent to the data collected about them,” 讓使用者更清楚了解與同意被網站或手機軟體所收集的資料。表面上是對公司的規定，實質上是要喚醒每個人要回掌控自己資料的權益。也藉此讓公司重新思考，以最少資料為原則來收集客戶資料。想要了解更多 GDPR 相關資訊，可以參考 [https://eureka.eu.com/gdpr/](https://eureka.eu.com/gdpr/)。",
+          "embedded_links": [
+            {
+              "identifier": "uaseEWO",
+              "title": "Aleksandar Todorović",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/r3bl_"
+            },
+            {
+              "identifier": "5aVmLf1",
+              "title": "https://eureka.eu.com/gdpr/",
+              "url_domain": "eureka.eu.com",
+              "url": "https://eureka.eu.com/gdpr/"
+            }
+          ]
+        },
+        {
+          "identifier": "QakGuiB",
+          "type": "Link",
+          "title": "Someone in 2010 bought 2 pizzas with 10,000 bitcoins — which today would be worth $100 million",
+          "url_domain": "businessinsider.com",
+          "url": "http://uk.businessinsider.com/bitcoin-pizza-10000-100-million-2017-11",
+          "description": "<p>\"Bitcoin Pizza Day\" 快到了!!! (May 22)</p>\n\n<p>對了，COSCUP 2018，Blockchain track，也正在 call for papers，5/25 截止喔。歡迎投稿，請註明「投給 \"Taipei Ethereum Meetup\" session」。</p>",
+          "description_markdown": "\"Bitcoin Pizza Day\" 快到了!!! (May 22)\r\n\r\n對了，COSCUP 2018，Blockchain track，也正在 call for papers，5/25 截止喔。歡迎投稿，請註明「投給 \"Taipei Ethereum Meetup\" session」。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "\"Ethereum interests me because it can do things and because it's a platform.\"",
+          "description": "<p>Apple 的共同創辦人 <a href=\"https://en.wikipedia.org/wiki/Steve_Wozniak\">Steve Wozniak</a> 前幾天在維也納舉辦的 <a href=\"https://www.wearedevelopers.com/\">WeAreDevelopers</a> 大會中，面對 5000 多名開發者，把 Ethereum 比喻成跟 Apple 一樣，它是一個 \"平台\"，造就未來網路上互信的平台。大家因此可以在上面寫程式，直接做交易。有興趣看原文者，可以在此 <a href=\"https://www.youtube.com/watch?v=KxwSEipest4&amp;t=2s\">YouTube 連結</a>，從約 7:30 分處開始看起。</p>",
+          "description_markdown": "Apple 的共同創辦人 [Steve Wozniak](https://en.wikipedia.org/wiki/Steve_Wozniak) 前幾天在維也納舉辦的 [WeAreDevelopers](https://www.wearedevelopers.com/) 大會中，面對 5000 多名開發者，把 Ethereum 比喻成跟 Apple 一樣，它是一個 \"平台\"，造就未來網路上互信的平台。大家因此可以在上面寫程式，直接做交易。有興趣看原文者，可以在此 [YouTube 連結](https://www.youtube.com/watch?v=KxwSEipest4&t=2s)，從約 7:30 分處開始看起。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "sblvcv5",
+              "title": "Steve Wozniak",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Steve_Wozniak"
+            },
+            {
+              "identifier": "niE2PyV",
+              "title": "WeAreDevelopers",
+              "url_domain": "wearedevelopers.com",
+              "url": "https://www.wearedevelopers.com/"
+            },
+            {
+              "identifier": "LqdIiE2",
+              "title": "YouTube 連結",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=KxwSEipest4&t=2s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "mkd6Dpo",
+          "type": "Link",
+          "title": "A Guide To The State Of Print Stylesheets In 2018",
+          "url_domain": "smashingmagazine.com",
+          "url": "https://www.smashingmagazine.com/2018/05/print-stylesheets-in-2018/",
+          "description": "<p>很實用的一篇文章，作者是 Rachel Andrew，各位都知道 CSS Grid 的話，應該有看過她的 <a href=\"https://www.youtube.com/watch?v=N5Lt1SLqBmQ\">Talk</a>。</p>\n\n<p>前半段再讓你思考，為何你的頁面要加上適用列印的 style，後面則是一步一步提點會需要用到那些 CSS 屬性。</p>\n\n<p>對於需要用網頁呈現發票樣式的您，可以好好閱讀這篇，相信會收穫滿滿。</p>",
+          "description_markdown": "很實用的一篇文章，作者是 Rachel Andrew，各位都知道 CSS Grid 的話，應該有看過她的 [Talk](https://www.youtube.com/watch?v=N5Lt1SLqBmQ)。\r\n\r\n前半段再讓你思考，為何你的頁面要加上適用列印的 style，後面則是一步一步提點會需要用到那些 CSS 屬性。\r\n\r\n對於需要用網頁呈現發票樣式的您，可以好好閱讀這篇，相信會收穫滿滿。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "FzQ15mO",
+              "title": "Talk",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=N5Lt1SLqBmQ"
+            }
+          ]
+        },
+        {
+          "identifier": "9LDGUfJ",
+          "type": "Link",
+          "title": "Data-Forge",
+          "url_domain": "data-forge-js.com",
+          "url": "http://www.data-forge-js.com/",
+          "description": "<p>一套受到 Panda 跟 LINQ 啟發處理資料的 JS 套件，API 看起都蠻好懂的，也有 DataFrame。</p>\n\n<p>有興趣的可以看一下 <a href=\"https://github.com/data-forge/data-forge-ts/blob/master/docs/guide.md\">Guide</a> 跟 <a href=\"https://github.com/data-forge/data-forge-ts/blob/master/docs/concepts.md\">Key concepts</a>。</p>",
+          "description_markdown": "一套受到 Panda 跟 LINQ 啟發處理資料的 JS 套件，API 看起都蠻好懂的，也有 DataFrame。\r\n\r\n有興趣的可以看一下 [Guide](https://github.com/data-forge/data-forge-ts/blob/master/docs/guide.md) 跟 [Key concepts](https://github.com/data-forge/data-forge-ts/blob/master/docs/concepts.md)。",
+          "embedded_links": [
+            {
+              "identifier": "OUsPlA1",
+              "title": "Guide",
+              "url_domain": "github.com",
+              "url": "https://github.com/data-forge/data-forge-ts/blob/master/docs/guide.md"
+            },
+            {
+              "identifier": "Jq0mT5X",
+              "title": "Key concepts",
+              "url_domain": "github.com",
+              "url": "https://github.com/data-forge/data-forge-ts/blob/master/docs/concepts.md"
+            }
+          ]
+        },
+        {
+          "identifier": "JEPqDCJ",
+          "type": "Link",
+          "title": "Moving Fast and Securing Things",
+          "url_domain": "slack.engineering",
+          "url": "https://slack.engineering/moving-fast-and-securing-things-540e6c5ae58a",
+          "description": "<p>介紹 Slack 怎麼做安全開發生命週期，並且開源了他們的工具 <a href=\"https://github.com/slackhq/goSDL\">goSDL</a>。</p>\n\n<p>一個 PHP 的網頁應用，需要回答一些問題，之後就幫你自動開好追蹤的票，不過只支援 JIRA 跟 Trello。</p>\n\n<p>有用這兩套和 Slack 的朋友們，可以玩玩看這個開發工具。</p>",
+          "description_markdown": "介紹 Slack 怎麼做安全開發生命週期，並且開源了他們的工具 [goSDL](https://github.com/slackhq/goSDL)。\r\n\r\n一個 PHP 的網頁應用，需要回答一些問題，之後就幫你自動開好追蹤的票，不過只支援 JIRA 跟 Trello。\r\n\r\n有用這兩套和 Slack 的朋友們，可以玩玩看這個開發工具。",
+          "embedded_links": [
+            {
+              "identifier": "k3UudjD",
+              "title": "goSDL",
+              "url_domain": "github.com",
+              "url": "https://github.com/slackhq/goSDL"
+            }
+          ]
+        },
+        {
+          "identifier": "rSa3TW4",
+          "type": "Link",
+          "title": "Reasonable Form Handling",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sharifsbeat/reasonable-form-handling-d117d52ebc8a",
+          "description": "<p>用 ReasonML 為例子，講解 Form Component 中會需要做得事情，像是 Validation 跟 Form data management。</p>\n\n<p>一步一步教你做出 Form Validation，還有 Form component。</p>\n\n<p>當然其實已經有些 ReasonML 的套件你可以參考，<a href=\"https://github.com/Astrocoders/reform\">ReForm</a> 和 <a href=\"https://github.com/alexfedoseev/re-formality\">Formality</a>.</p>",
+          "description_markdown": "用 ReasonML 為例子，講解 Form Component 中會需要做得事情，像是 Validation 跟 Form data management。\r\n\r\n一步一步教你做出 Form Validation，還有 Form component。\r\n\r\n當然其實已經有些 ReasonML 的套件你可以參考，[ReForm](https://github.com/Astrocoders/reform) 和 [Formality](https://github.com/alexfedoseev/re-formality).\r\n",
+          "embedded_links": [
+            {
+              "identifier": "7XLf3uI",
+              "title": "ReForm",
+              "url_domain": "github.com",
+              "url": "https://github.com/Astrocoders/reform"
+            },
+            {
+              "identifier": "glsc2i8",
+              "title": "Formality",
+              "url_domain": "github.com",
+              "url": "https://github.com/alexfedoseev/re-formality"
+            }
+          ]
+        },
+        {
+          "identifier": "6HA3Ccz",
+          "type": "Link",
+          "title": "The G-Unit Stack: Go, GraphQL, and gRPC",
+          "url_domain": "iheanyi.com",
+          "url": "https://iheanyi.com/journal/2018/05/12/the-g-unit-stack-go-graphql-and-grpc/",
+          "description": "<p>用 GraphQL 作為 API Gateway 透過 gRPC 跟後面的其他服務溝通。</p>\n\n<p>直接看 <a href=\"https://github.com/iheanyi/go-grpc-graphql-simple-example\">code</a>。</p>",
+          "description_markdown": "用 GraphQL 作為 API Gateway 透過 gRPC 跟後面的其他服務溝通。\r\n\r\n直接看 [code](https://github.com/iheanyi/go-grpc-graphql-simple-example)。",
+          "embedded_links": [
+            {
+              "identifier": "QycJKl6",
+              "title": "code",
+              "url_domain": "github.com",
+              "url": "https://github.com/iheanyi/go-grpc-graphql-simple-example"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "3xzxcDa",
+          "type": "Link",
+          "title": "Git 底層指令",
+          "url_domain": "git-scm.com",
+          "url": "https://git-scm.com/book/zh-tw/v1/Git-%E5%85%A7%E9%83%A8%E5%8E%9F%E7%90%86-%E5%BA%95%E5%B1%A4%E5%91%BD%E4%BB%A4-Plumbing-%E5%92%8C%E9%AB%98%E5%B1%A4%E5%91%BD%E4%BB%A4-Porcelain",
+          "description": "<p>大家常常用的 Git 命令有哪些呢？add, commit, log, (blame? XD) 這些我們常用的命令其實都是所謂的高階 (Porcelain) 命令，專門給人類使用的。有另外一組專門給 script 用的低階 (Plumbing) 命令，這組命令和 Git 的的運作原理息息相關。對 Git 原理有興趣的人可以看看。</p>",
+          "description_markdown": "大家常常用的 Git 命令有哪些呢？add, commit, log, (blame? XD) 這些我們常用的命令其實都是所謂的高階 (Porcelain) 命令，專門給人類使用的。有另外一組專門給 script 用的低階 (Plumbing) 命令，這組命令和 Git 的的運作原理息息相關。對 Git 原理有興趣的人可以看看。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "lGtdIix",
+          "type": "Link",
+          "title": "Git Protocol v2",
+          "url_domain": "googleblog.com",
+          "url": "https://opensource.googleblog.com/2018/05/introducing-git-protocol-version-2.html",
+          "description": "<p>現在 Git 的資料傳輸協定 (pull, fetch, clone 時候用的）有一些效能上的問題。當 fetch 的時候，server 會回應所有的 ref 資料，當 branch/tag 多的時候就會很慢 (Chromium 有 50 萬個)。新版的 v2 協定只會回應 fetch 相關的 ref 資料，讓速度變快了不少。</p>\n\n<p>不過實作上遇到一個問題，當初沒想過會有一個不相容的新版，所以沒有辦法讓舊 server 相容新 protocol。\n後來使用了一個 <a href=\"https://public-inbox.org/git/20090605171627.d92f6060.vsu@altlinux.ru/\">bug</a> 來繞過這個問題。</p>\n\n<p>這個故事值得讓所有寫公開 API 的人引以為鑑，多加一個無用的版本 prefix/field 可以讓未來的你感謝自己。</p>",
+          "description_markdown": "現在 Git 的資料傳輸協定 (pull, fetch, clone 時候用的）有一些效能上的問題。當 fetch 的時候，server 會回應所有的 ref 資料，當 branch/tag 多的時候就會很慢 (Chromium 有 50 萬個)。新版的 v2 協定只會回應 fetch 相關的 ref 資料，讓速度變快了不少。\r\n\r\n不過實作上遇到一個問題，當初沒想過會有一個不相容的新版，所以沒有辦法讓舊 server 相容新 protocol。\r\n後來使用了一個 [bug](https://public-inbox.org/git/20090605171627.d92f6060.vsu@altlinux.ru/) 來繞過這個問題。\r\n\r\n這個故事值得讓所有寫公開 API 的人引以為鑑，多加一個無用的版本 prefix/field 可以讓未來的你感謝自己。 ",
+          "embedded_links": [
+            {
+              "identifier": "89wsljR",
+              "title": "bug",
+              "url_domain": "public-inbox.org",
+              "url": "https://public-inbox.org/git/20090605171627.d92f6060.vsu@altlinux.ru/"
+            }
+          ]
+        },
+        {
+          "identifier": "Vj9dD9g",
+          "type": "Link",
+          "title": "Swift for TensorFlow",
+          "url_domain": "tensorflow.org",
+          "url": "https://www.tensorflow.org/community/swift",
+          "description": "<p>Swift 的發明人Chris Lattner 到 Google Brain 工作會發生什麼呢？</p>\n\n<p>當然就是用 Swift 來寫 AI !</p>\n\n<p>Google 開源了一版修改過的 Swift ，內建 TensorFlow。可以自動把 Eager Execution 的 code 變成 TF Graph 來加快運算速度。內建 <a href=\"https://zh.wikipedia.org/wiki/%E8%87%AA%E5%8B%95%E5%BE%AE%E5%88%86\">Automatic differentiation</a>。可以直接 import Python 的 Pandas 等函式庫直接使用。而且有一個 Sound 的 type system，再也沒有打錯字重 train 這回事。簡直就是超棒。</p>\n\n<p>最終目標是  merge 回 upstream，讓普通的 Swift 也可以有這些功能。不過現在還沒有 stable，歡迎大家一起來踩雷。</p>",
+          "description_markdown": "Swift 的發明人Chris Lattner 到 Google Brain 工作會發生什麼呢？\r\n\r\n當然就是用 Swift 來寫 AI ! \r\n\r\nGoogle 開源了一版修改過的 Swift ，內建 TensorFlow。可以自動把 Eager Execution 的 code 變成 TF Graph 來加快運算速度。內建 [Automatic differentiation](https://zh.wikipedia.org/wiki/%E8%87%AA%E5%8B%95%E5%BE%AE%E5%88%86)。可以直接 import Python 的 Pandas 等函式庫直接使用。而且有一個 Sound 的 type system，再也沒有打錯字重 train 這回事。簡直就是超棒。\r\n\r\n最終目標是  merge 回 upstream，讓普通的 Swift 也可以有這些功能。不過現在還沒有 stable，歡迎大家一起來踩雷。",
+          "embedded_links": [
+            {
+              "identifier": "bSvFCbi",
+              "title": "Automatic differentiation",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E8%87%AA%E5%8B%95%E5%BE%AE%E5%88%86"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "mPm2zzs",
+          "type": "Link",
+          "title": "Finally, the CfP of COSCUP 2018 is here!",
+          "url_domain": "coscup.org",
+          "url": "http://blog.coscup.org/2018/04/coscup-2018-cfp-is-open.html",
+          "description": "<p>今年 COSCUP 我們很榮幸再度與 GNOME.Asia Summit 合作舉辦聯合研討會，除此之外加上 16 個由社群發起的議程軌及 COSCUP 籌辦的特別軌，讓今年的 COSCUP 平行議程軌數一舉達到 15 個之多，大家選行程又要大傷腦筋！感謝許許多多的社群夥伴協力促使這樣規模的 COSCUP 誕生。</p>\n\n<p>一如往常，COSCUP 徵求各式各樣與自由 / 開源軟體相關的演講，歡迎各方俠女豪傑於 5 月 25 日前透過表單投稿，在經過社群審稿後我們預定於七月初公布完整的議程表。</p>\n\n<p><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform\">現在就投稿吧！</a></p>",
+          "description_markdown": "今年 COSCUP 我們很榮幸再度與 GNOME.Asia Summit 合作舉辦聯合研討會，除此之外加上 16 個由社群發起的議程軌及 COSCUP 籌辦的特別軌，讓今年的 COSCUP 平行議程軌數一舉達到 15 個之多，大家選行程又要大傷腦筋！感謝許許多多的社群夥伴協力促使這樣規模的 COSCUP 誕生。\r\n\r\n一如往常，COSCUP 徵求各式各樣與自由 / 開源軟體相關的演講，歡迎各方俠女豪傑於 5 月 25 日前透過表單投稿，在經過社群審稿後我們預定於七月初公布完整的議程表。\r\n\r\n[現在就投稿吧！](https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform)",
+          "embedded_links": [
+            {
+              "identifier": "dvwnMh8",
+              "title": "現在就投稿吧！",
+              "url_domain": "google.com",
+              "url": "https://docs.google.com/forms/d/e/1FAIpQLSfKnffsc_Ke2ZEP3fInJkAwEzXFUM24HZ7dYYluoGLmHMQjZw/viewform"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "sDsAn8u",
+          "type": "Link",
+          "title": "Senior Backend Developer at Swag",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5y8ex",
+          "description": "<p>薪資：年薪新台幣 100 萬元以上。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python</li>\n<li>Experience with Python web frameworks, ie. Flask, Django, or Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 萬元以上。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python\r\n2. Experience with Python web frameworks, ie. Flask, Django, or Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of MongoDB, Redis, and Kubernetes\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

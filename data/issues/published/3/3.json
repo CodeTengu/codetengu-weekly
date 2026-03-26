@@ -1,0 +1,379 @@
+{
+  "number": 3,
+  "title": "Issue 3 如何產生一個隨機字串？讓新手退出 vim",
+  "summary": "本期內容涵蓋 Android, Django, Go, Growth Hacking, JavaScript, MySQL, Python, Swift",
+  "url": "https://weekly.codetengu.com/issues/3",
+  "publication_status": "published",
+  "published_at": "2015-08-17T03:00:00+01:00",
+  "updated_at": "2018-03-25T10:59:48+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"http://vinta.ws/code/\">I failed the Turing Test</a> - <strong>Web Developer / DevOps</strong></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <strong>iOS / Android Developer</strong></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - <strong>身體裡留著衝動購物血液的男人</strong></li>\n</ul>\n\n\n<p>歡迎關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，保證每天更新。</p>",
+          "description_markdown": "本期 curators：\r\n\r\n* [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](http://vinta.ws/code/) - **Web Developer / DevOps**  \r\n* [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - **iOS / Android Developer**  \r\n* [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - **身體裡留著衝動購物血液的男人**  \r\n\r\n歡迎關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，保證每天更新。",
+          "footer": "<p>聽說下一期會有新的 curator 加入</p>",
+          "embedded_links": [
+            {
+              "identifier": "ldIlC6S",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "GZ25PLB",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "http://vinta.ws/code/"
+            },
+            {
+              "identifier": "QlalW",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "nDU1RZw",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "zQ2RxMC",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "ADB2sKN",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "u5qMABu",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "HqRsUNO",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "gmvb3eT",
+          "type": "Link",
+          "title": "qyuhen/book - C、Go、Python 学习笔记",
+          "url_domain": "github.com",
+          "url": "https://github.com/qyuhen/book",
+          "description": "<p>由中國的程序員「雨痕」所發表的程式語言學習筆記，有 C、Go、Python 三個 PDF 檔案。雖然名為筆記，但是內容的質量非常高，完全有程式語言書籍的水準（其實寫得比很多實際出版的書都還要好）。而且我當初學 Golang 就是看他的學習筆記入門的。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://pan.baidu.com/s/1bnnaJaZ\">Python 高级编程</a>（影片，講者是豆瓣的工程師 <a href=\"https://github.com/dongweiming\">@dongweiming</a>）</li>\n</ul>",
+          "description_markdown": "由中國的程序員「雨痕」所發表的程式語言學習筆記，有 C、Go、Python 三個 PDF 檔案。雖然名為筆記，但是內容的質量非常高，完全有程式語言書籍的水準（其實寫得比很多實際出版的書都還要好）。而且我當初學 Golang 就是看他的學習筆記入門的。\r\n\r\n延伸閱讀：\r\n\r\n- [Python 高级编程](http://pan.baidu.com/s/1bnnaJaZ)（影片，講者是豆瓣的工程師 [@dongweiming](https://github.com/dongweiming)）",
+          "embedded_links": [
+            {
+              "identifier": "JkIoWZH",
+              "title": "Python 高级编程",
+              "url_domain": "baidu.com",
+              "url": "http://pan.baidu.com/s/1bnnaJaZ"
+            },
+            {
+              "identifier": "HlDMBuE",
+              "title": "@dongweiming",
+              "url_domain": "github.com",
+              "url": "https://github.com/dongweiming"
+            }
+          ]
+        },
+        {
+          "identifier": "y5M1YMk",
+          "type": "Link",
+          "title": "High Performance Django",
+          "url_domain": "highperformancedjango.com",
+          "url": "https://highperformancedjango.com/",
+          "description": "<p>市面上真的沒有幾本好的 Django 的書，可能也是因為 Django 的官方文件就已經相當完善了。我讀過的寫得算不錯的書，除了 <a href=\"http://twoscoopspress.org/products/two-scoops-of-django-1-8\">Two Scoops of Django: Best Practices for Django</a> 之外，就是這本 High Performance Django 了。</p>\n\n<p>這本書的字數其實不多，但是涵蓋的主題很廣，從 CDN、load balancer、web accelerator（例如 Varnish）、WSGI servers、asynchronous tasks、caches、templates 到 databases，在每個章節裡，作者都會給出很多關鍵字，讓你知道可以用什麼方法、工具或服務去解決某個組件的 performance 問題。</p>",
+          "description_markdown": "市面上真的沒有幾本好的 Django 的書，可能也是因為 Django 的官方文件就已經相當完善了。我讀過的寫得算不錯的書，除了 [Two Scoops of Django: Best Practices for Django](http://twoscoopspress.org/products/two-scoops-of-django-1-8) 之外，就是這本 High Performance Django 了。\r\n\r\n這本書的字數其實不多，但是涵蓋的主題很廣，從 CDN、load balancer、web accelerator（例如 Varnish）、WSGI servers、asynchronous tasks、caches、templates 到 databases，在每個章節裡，作者都會給出很多關鍵字，讓你知道可以用什麼方法、工具或服務去解決某個組件的 performance 問題。",
+          "embedded_links": [
+            {
+              "identifier": "J7xcNYu",
+              "title": "Two Scoops of Django: Best Practices for Django",
+              "url_domain": "twoscoopspress.org",
+              "url": "http://twoscoopspress.org/products/two-scoops-of-django-1-8"
+            }
+          ]
+        },
+        {
+          "identifier": "sZ4l3Og",
+          "type": "Link",
+          "title": "MySQL 数据库开发的三十六条军规",
+          "url_domain": "infoq.com",
+          "url": "http://www.infoq.com/cn/presentations/wsz-mysql-development",
+          "description": "<p>時任赶集网的首席 DBA 石展在 QCon 2013 年的演講影片，懶得看影片（或是聽不懂講者的口音）的人可以直接看延伸閱讀的台灣工程師整理的文字版。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://blog.jimmylu.idv.tw/2013/03/conf-talk-mysql.html\">MySQL 資料庫開發的三十六條軍規</a></li>\n</ul>",
+          "description_markdown": "時任赶集网的首席 DBA 石展在 QCon 2013 年的演講影片，懶得看影片（或是聽不懂講者的口音）的人可以直接看延伸閱讀的台灣工程師整理的文字版。\r\n\r\n延伸閱讀：\r\n\r\n- [MySQL 資料庫開發的三十六條軍規](http://blog.jimmylu.idv.tw/2013/03/conf-talk-mysql.html)",
+          "embedded_links": [
+            {
+              "identifier": "t4D1gQ2",
+              "title": "MySQL 資料庫開發的三十六條軍規",
+              "url_domain": "jimmylu.idv.tw",
+              "url": "http://blog.jimmylu.idv.tw/2013/03/conf-talk-mysql.html"
+            }
+          ]
+        },
+        {
+          "identifier": "hty2mbM",
+          "type": "Link",
+          "title": "hashicorp/consul - Service Discovery",
+          "url_domain": "github.com",
+          "url": "https://github.com/hashicorp/consul",
+          "description": "<p>Consul 是由 HashiCorp（就是開發 <a href=\"https://www.vagrantup.com/\">Vagrant</a> 的那家公司）開源的一款 service discovery 工具（包含 health checking 和 key/value storage 的功能），搭配 <a href=\"https://github.com/hashicorp/consul-template\">consul-template</a> 使用的話，可以做到一有新的機器起來或是有機器掛掉，就自動更新 HAProxy 的 config 這一類的事情，實在帥氣。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/service-discovery-with-consul-and-consul-template.html\">Service Discovery with Consul and consul-template</a></li>\n</ul>",
+          "description_markdown": "Consul 是由 HashiCorp（就是開發 [Vagrant](https://www.vagrantup.com/) 的那家公司）開源的一款 service discovery 工具（包含 health checking 和 key/value storage 的功能），搭配 [consul-template](https://github.com/hashicorp/consul-template) 使用的話，可以做到一有新的機器起來或是有機器掛掉，就自動更新 HAProxy 的 config 這一類的事情，實在帥氣。\r\n\r\n延伸閱讀：\r\n\r\n- [Service Discovery with Consul and consul-template](https://vinta.ws/code/service-discovery-with-consul-and-consul-template.html)",
+          "embedded_links": [
+            {
+              "identifier": "QeCGjrM",
+              "title": "Vagrant",
+              "url_domain": "vagrantup.com",
+              "url": "https://www.vagrantup.com/"
+            },
+            {
+              "identifier": "3NgqZ3v",
+              "title": "consul-template",
+              "url_domain": "github.com",
+              "url": "https://github.com/hashicorp/consul-template"
+            },
+            {
+              "identifier": "mHP8k0W",
+              "title": "Service Discovery with Consul and consul-template",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/service-discovery-with-consul-and-consul-template.html"
+            }
+          ]
+        },
+        {
+          "identifier": "TqJz41h",
+          "type": "Link",
+          "title": "台灣工程師常唸錯的英文單字",
+          "url_domain": "privism.org",
+          "url": "http://blog.privism.org/2012/06/blog-post.html",
+          "description": "<p>這篇文章非常實用而且駭人聽聞，看完才知道 null 不唸「怒偶」而 cache 其實跟 cash 同音，我他媽都嚇死了。還有一些作者沒講到的，但是大家也常常亂唸的有 JSON（其實是唸成 Jason）和 YAML，這已經不是腔調的問題了，而是我們根本就唸錯了啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.zhihu.com/question/19739907\">IT 圈里有哪些经常被读错的词？</a></li>\n</ul>",
+          "description_markdown": "這篇文章非常實用而且駭人聽聞，看完才知道 null 不唸「怒偶」而 cache 其實跟 cash 同音，我他媽都嚇死了。還有一些作者沒講到的，但是大家也常常亂唸的有 JSON（其實是唸成 Jason）和 YAML，這已經不是腔調的問題了，而是我們根本就唸錯了啊。\r\n\r\n延伸閱讀：\r\n\r\n- [IT 圈里有哪些经常被读错的词？](http://www.zhihu.com/question/19739907)",
+          "embedded_links": [
+            {
+              "identifier": "aVFKRIg",
+              "title": "IT 圈里有哪些经常被读错的词？",
+              "url_domain": "zhihu.com",
+              "url": "http://www.zhihu.com/question/19739907"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "etjY3Ai",
+          "type": "Link",
+          "title": "Android 項目中如何用好構建神器 Gradle？",
+          "url_domain": "csdn.net",
+          "url": "http://www.csdn.net/article/2015-08-10/2825420",
+          "description": "<p>工欲善其事、必先利其器，從 Gradle 入門到加速技巧。</p>",
+          "description_markdown": "工欲善其事、必先利其器，從 Gradle 入門到加速技巧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "V3zHWyM",
+          "type": "Link",
+          "title": "Architecting Android… The evolution",
+          "url_domain": "fernandocejas.com",
+          "url": "http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/?utm_campaign=Android%2BAuthority&utm_medium=web&utm_source=Android_Authority_28",
+          "description": "<p>作者概略介紹了先進的 Android 架構應該怎麼設計。</p>\n\n<p>利用 <a href=\"https://github.com/ReactiveX/RxJava\">RxJava</a> 實作 <a href=\"https://en.wikipedia.org/wiki/Functional_reactive_programming\">FRP</a>、透過 <a href=\"http://google.github.io/dagger/\">Dagger 2</a> 設計 <a href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Dependency Injection</a>、介紹了 <a href=\"https://github.com/orfjackal/retrolambda\">Retrolambda</a> 使用心得、Gradle 設定等等。</p>",
+          "description_markdown": "作者概略介紹了先進的 Android 架構應該怎麼設計。  \r\n\r\n利用 [RxJava](https://github.com/ReactiveX/RxJava) 實作 [FRP](https://en.wikipedia.org/wiki/Functional_reactive_programming)、透過 [Dagger 2](http://google.github.io/dagger/) 設計 [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection)、介紹了 [Retrolambda](https://github.com/orfjackal/retrolambda) 使用心得、Gradle 設定等等。",
+          "embedded_links": [
+            {
+              "identifier": "TaDCO46",
+              "title": "RxJava",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveX/RxJava"
+            },
+            {
+              "identifier": "Z8G3e7a",
+              "title": "FRP",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Functional_reactive_programming"
+            },
+            {
+              "identifier": "9EAFnBJ",
+              "title": "Dagger 2",
+              "url_domain": "github.io",
+              "url": "http://google.github.io/dagger/"
+            },
+            {
+              "identifier": "HxlIxUR",
+              "title": "Dependency Injection",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Dependency_injection"
+            },
+            {
+              "identifier": "BcINX18",
+              "title": "Retrolambda",
+              "url_domain": "github.com",
+              "url": "https://github.com/orfjackal/retrolambda"
+            }
+          ]
+        },
+        {
+          "identifier": "thBIDJ9",
+          "type": "Link",
+          "title": "Android Tips Round-Up, Part 1",
+          "url_domain": "danlew.net",
+          "url": "http://blog.danlew.net/2014/03/30/android-tips-round-up-part-1/",
+          "description": "<p>Android 實用 APIs 整理，掃一遍看看有沒有不知道的吧。</p>",
+          "description_markdown": "Android 實用 APIs 整理，掃一遍看看有沒有不知道的吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "7DPIhHz",
+          "type": "Link",
+          "title": "Swift code conventions and guidelines",
+          "url_domain": "appsfoundation.com",
+          "url": "https://www.appsfoundation.com/post/swift-code-convention-and-guidelines",
+          "description": "<p>Swift 實戰前必讀。</p>",
+          "description_markdown": "Swift 實戰前必讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xYJ3gEh",
+          "type": "Link",
+          "title": "Swift 2 + Xcode 7: Unit Testing Access Made Easy!!!!",
+          "url_domain": "natashatherobot.com",
+          "url": "http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/",
+          "description": "<p>Swift 2 新加入的 <code>@testable</code> 真的太棒了，終於想要在 Swift 寫 Tests 了！</p>\n\n<p>PS. 要在 build settings 裡將 <code>Enable Testability</code> option 設成 YES，default 是 NO。</p>",
+          "description_markdown": "Swift 2 新加入的 `@testable` 真的太棒了，終於想要在 Swift 寫 Tests 了！\r\n\r\nPS. 要在 build settings 裡將 `Enable Testability` option 設成 YES，default 是 NO。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "k8CFlQk",
+          "type": "Link",
+          "title": "The Definitive Guide to Growth Hacking",
+          "url_domain": "quicksprout.com",
+          "url": "http://www.quicksprout.com/the-definitive-guide-to-growth-hacking/",
+          "description": "<p>這一陣子 Growth Hacking 這個名詞越來越熱門，這篇是我最近找到比較完整的介紹，一共十個章節，從 Growth Hacking 這個名詞的起源開始、怎樣的人適合當 Growth Hacker、如何留住使用者、相關工具等，都有詳盡的介紹。</p>",
+          "description_markdown": "這一陣子 Growth Hacking 這個名詞越來越熱門，這篇是我最近找到比較完整的介紹，一共十個章節，從 Growth Hacking 這個名詞的起源開始、怎樣的人適合當 Growth Hacker、如何留住使用者、相關工具等，都有詳盡的介紹。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "440d3330-b037-4a23-b5fc-f628645f21fc.png",
+          "image_extra_large_filename": "original_ratio_extra_large_440d3330-b037-4a23-b5fc-f628645f21fc.png",
+          "image_medium_filename": "original_ratio_medium_440d3330-b037-4a23-b5fc-f628645f21fc.png"
+        },
+        {
+          "identifier": "rtJzF1u",
+          "type": "Link",
+          "title": "Average Manager vs. Great Manager",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/the-year-of-the-looking-glass/average-manager-vs-great-manager-cf8a2e30907d",
+          "description": "<p>用簡單的漫畫來說明一般的主管跟好的主管的差別，工作幾年的勞工們後應該都可以有所體會。</p>",
+          "description_markdown": "用簡單的漫畫來說明一般的主管跟好的主管的差別，工作幾年的勞工們後應該都可以有所體會。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "f7eab1c7-d02b-447f-95da-2345a42d729b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_f7eab1c7-d02b-447f-95da-2345a42d729b.png",
+          "image_medium_filename": "original_ratio_medium_f7eab1c7-d02b-447f-95da-2345a42d729b.png"
+        },
+        {
+          "identifier": "Yz7DaVE",
+          "type": "Link",
+          "title": "前端工程師必須學會的現代化前端開發工具",
+          "url_domain": "miniasp.com",
+          "url": "http://blog.miniasp.com/post/2015/08/13/essential-frontend-tools-2015.aspx",
+          "description": "<p>不得不說，現在前端的世界簡直就是爆炸式的在前進中，沒有跟上腳步的人，應該可以透過這篇稍微抓住一下現在前端開發的生態及大致的樣貌。</p>",
+          "description_markdown": "不得不說，現在前端的世界簡直就是爆炸式的在前進中，沒有跟上腳步的人，應該可以透過這篇稍微抓住一下現在前端開發的生態及大致的樣貌。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "1WWhACG",
+          "type": "Link",
+          "title": "This 90-Day Plan Turns Engineers into Remarkable Managers",
+          "url_domain": "firstround.com",
+          "url": "http://firstround.com/review/this-90-day-plan-turns-engineers-into-remarkable-managers/",
+          "description": "<p>從工程師變成卓越主管的 90 天的計畫。</p>",
+          "description_markdown": "從工程師變成卓越主管的 90 天的計畫。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "MplB8qa",
+          "type": "Link",
+          "title": "他們以為這是照相機",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/samkalidi/status/631356641561047040/photo/1",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "4a88a5e3-fa8d-4ac7-9b43-6cea703594d2.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_4a88a5e3-fa8d-4ac7-9b43-6cea703594d2.jpg",
+          "image_medium_filename": "original_ratio_medium_4a88a5e3-fa8d-4ac7-9b43-6cea703594d2.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "8D6hXel",
+          "type": "Link",
+          "title": "Mr. Robot",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Ug4fRXGyIak",
+          "description": "<p>美劇，主角是一個有社交障礙的中二陰鬱程序員，被心儀的女同事邀請去參加派對，到了門口卻遲遲不敢進去（有沒有很有代入感？！）。然後就突然被一個企圖顛覆整個資本主義社會的駭客組織招募了。雖然主角是個碼農（fuck yeah），但是整部戲充滿抑鬱和冷冽的風格，好看到讓人起雞皮疙瘩。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享</p>",
+          "description_markdown": "美劇，主角是一個有社交障礙的中二陰鬱程序員，被心儀的女同事邀請去參加派對，到了門口卻遲遲不敢進去（有沒有很有代入感？！）。然後就突然被一個企圖顛覆整個資本主義社會的駭客組織招募了。雖然主角是個碼農（fuck yeah），但是整部戲充滿抑鬱和冷冽的風格，好看到讓人起雞皮疙瘩。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享",
+          "embedded_links": [
+            {
+              "identifier": "4talwoD",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "c695c9c4-f1ea-4ef6-b5e4-0a5dac30e01f.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_c695c9c4-f1ea-4ef6-b5e4-0a5dac30e01f.jpg",
+          "image_medium_filename": "original_ratio_medium_c695c9c4-f1ea-4ef6-b5e4-0a5dac30e01f.jpg"
+        }
+      ]
+    }
+  ]
+}

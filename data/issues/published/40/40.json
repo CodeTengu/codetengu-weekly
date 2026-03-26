@@ -1,0 +1,468 @@
+{
+  "number": 40,
+  "title": "Issue 40 // Do not remove this comment or code will break",
+  "summary": "本期內容涵蓋 SQL, Android, JavaScript, Career, 2FA, DC/OS, FRP",
+  "url": "https://weekly.codetengu.com/issues/40",
+  "publication_status": "published",
+  "published_at": "2016-04-25T04:14:46+01:00",
+  "updated_at": "2016-05-01T15:22:40+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">平面國</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵 Android 工程師，<a href=\"https://www.indievox.com/h/jobs.html\">意者內洽</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[平面國](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵 Android 工程師，[意者內洽](https://www.indievox.com/h/jobs.html)\r\n- [@wancw](https://twitter.com/wancw) - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "VllgTfe",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "FeQYyip",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "FGiYX0p",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "bortNSN",
+              "title": "平面國",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "89mcFku",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "ZVf0dp9",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ShwNTju",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "wdTlHzc",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "fGK0xci",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "DVPb47i",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "BjsdOSA",
+              "title": "意者內洽",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/h/jobs.html"
+            },
+            {
+              "identifier": "FLIuS9F",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "1OudTxN",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "TGvNeXg",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "BY3th6H",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "tmU7qj7",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "wPRiUOA",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "uV9xyO",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "250szwA",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "RkKYHxQ",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "uVNREM3",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "vziZhi3",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "oSUEewm",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "RVcgEtU",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "c7WOrFL",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "jf3Kaey",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "WtRiKXU",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "type": "Text",
+          "title": "21st-century cowrie shells - 21世紀的 \"貝\" 幣",
+          "description": "<p>智能合約 (smart contract) 與數位代幣 (token) 的應用, 會從少數人開始使用, 比如說是開發者, 進而在公司內部開始應用, 例如年終獎金, 只發比特幣, 不再發現金了, 最後還是會變成每個人都能發行自己的 tokens; 就像網站一樣, 一開始政府與研究單位先有, 再來才是各行各業, 最後演進到部落格, 每個人都可以很簡單的架設自己的網頁。</p>\n\n<p>但網頁是在 1993 NCSA 發明了 <a href=\"http://www.ncsa.illinois.edu/enabling/mosaic\">Mosaic</a> 瀏覽器之後, 才讓一般人開始對 Internet 覺得好用而感到興趣, 也才有今天所有的一切, smart phones, web apps 等等, 但卻花了 20 年以上的時間才被所有人類接受。不過智能合約或許不必那麼久, 大概只要兩三年的時間, 就會被廣泛應用。所以當年 web 瀏覽器可以說是 killer app, 改變了人類的生活; 而 2016 的今天, 下一個 killer app 是什麼？我覺得是 Wallet ” 電子錢包“, 它是你跟未來數位生活的介面, 就跟瀏覽器是你跟 Internet 的介面一樣, 你可以研發一個萬用的“電子錢包\", 可以跟當年 <a href=\"https://en.wikipedia.org/wiki/Netscape\">Netscape</a> 公司一樣, 再一次改變世界!</p>\n\n<p>但切記, 當有了 smart contracts 的應用, 你的錢包就不只是錢包, 就像 web 瀏覽器不再只是拿來瀏覽網頁。</p>",
+          "description_markdown": "智能合約 (smart contract) 與數位代幣 (token) 的應用, 會從少數人開始使用, 比如說是開發者, 進而在公司內部開始應用, 例如年終獎金, 只發比特幣, 不再發現金了, 最後還是會變成每個人都能發行自己的 tokens; 就像網站一樣, 一開始政府與研究單位先有, 再來才是各行各業, 最後演進到部落格, 每個人都可以很簡單的架設自己的網頁。\r\n\r\n但網頁是在 1993 NCSA 發明了 [Mosaic](http://www.ncsa.illinois.edu/enabling/mosaic) 瀏覽器之後, 才讓一般人開始對 Internet 覺得好用而感到興趣, 也才有今天所有的一切, smart phones, web apps 等等, 但卻花了 20 年以上的時間才被所有人類接受。不過智能合約或許不必那麼久, 大概只要兩三年的時間, 就會被廣泛應用。所以當年 web 瀏覽器可以說是 killer app, 改變了人類的生活; 而 2016 的今天, 下一個 killer app 是什麼？我覺得是 Wallet ” 電子錢包“, 它是你跟未來數位生活的介面, 就跟瀏覽器是你跟 Internet 的介面一樣, 你可以研發一個萬用的“電子錢包\", 可以跟當年 [Netscape](https://en.wikipedia.org/wiki/Netscape) 公司一樣, 再一次改變世界! \r\n\r\n但切記, 當有了 smart contracts 的應用, 你的錢包就不只是錢包, 就像 web 瀏覽器不再只是拿來瀏覽網頁。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "UFiJF0Q",
+              "title": "Mosaic",
+              "url_domain": "illinois.edu",
+              "url": "http://www.ncsa.illinois.edu/enabling/mosaic"
+            },
+            {
+              "identifier": "tuegUJf",
+              "title": "Netscape",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Netscape"
+            }
+          ]
+        },
+        {
+          "identifier": "Lu3Iydx",
+          "type": "Link",
+          "title": "Using 2 factor authentication for SSH",
+          "url_domain": "arm-blog.com",
+          "url": "http://www.arm-blog.com/using-2-factor-authentication-for-ssh/",
+          "description": "<p>想讓你的 servers 更安全一些嗎? 最有效果的方法是把 ssh login 再增加一個 2FA (two-factor authentication) 認證 。本連結教你如何利用 Android 或 iOS 手機上的 Google Authenticator 軟體幫你每一分鐘產生一次新密碼, 再加上你原本 ssh 的  password 就更加安全了。</p>\n\n<p>同樣這個 2FA 方法也可以用在 Amazon <a href=\"https://aws.amazon.com/iam/details/mfa/\">AWS 帳號認證</a> , 還有常被用來當 <a href=\"https://blockchain.info/de/wallet/google-authenticator\">數位錢包的身份確認</a>, 當然 Google 的帳號也可以用 Google Authenticator 來做 <a href=\"https://support.google.com/accounts/topic/28786\">2 - 步確認</a>。所以同一個 2FA 軟體, 到處都可以使用。</p>",
+          "description_markdown": "想讓你的 servers 更安全一些嗎? 最有效果的方法是把 ssh login 再增加一個 2FA (two-factor authentication) 認證 。本連結教你如何利用 Android 或 iOS 手機上的 Google Authenticator 軟體幫你每一分鐘產生一次新密碼, 再加上你原本 ssh 的  password 就更加安全了。\r\n\r\n同樣這個 2FA 方法也可以用在 Amazon [AWS 帳號認證](https://aws.amazon.com/iam/details/mfa/) , 還有常被用來當 [數位錢包的身份確認](https://blockchain.info/de/wallet/google-authenticator), 當然 Google 的帳號也可以用 Google Authenticator 來做 [2 - 步確認](https://support.google.com/accounts/topic/28786)。所以同一個 2FA 軟體, 到處都可以使用。",
+          "embedded_links": [
+            {
+              "identifier": "oFSy8jo",
+              "title": "AWS 帳號認證",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/iam/details/mfa/"
+            },
+            {
+              "identifier": "kCeCEev",
+              "title": "數位錢包的身份確認",
+              "url_domain": "blockchain.info",
+              "url": "https://blockchain.info/de/wallet/google-authenticator"
+            },
+            {
+              "identifier": "TEIV02r",
+              "title": "2 - 步確認",
+              "url_domain": "google.com",
+              "url": "https://support.google.com/accounts/topic/28786"
+            }
+          ]
+        },
+        {
+          "identifier": "BAl3m1a",
+          "type": "Link",
+          "title": "什麼是 DC/OS ?",
+          "url_domain": "mesosphere.com",
+          "url": "https://docs.mesosphere.com/overview/",
+          "description": "<p>全名是 Datacenter Operating System, 也就是 \"資料中心的作業系統\"。雖然名稱好像是用在 Datacenter, 但我們也可以套用在自己的公司裡, 來執行 docker containers, big data 或傳統的應用程式。它其實就是 Mesos + Dockers + GUI + CLI, 就像我以前用 <a href=\"https://blog.pivotal.io/big-data-pivotal/products/1-command-15-minute-install-hadoop-in-memory-data-grid-sql-analytic-data-warehouse\">Vagrant 玩 Hadoop</a>, 或 Mesos + Marathon (用 <a href=\"https://github.com/mesosphere/playa-mesos\">Playa Mesos</a>), 我們也可以用 <a href=\"https://github.com/dcos/dcos-vagrant/tree/v0.6.0\">Vagrant 來安裝 DC/OS</a>, 瞭解它的原理之後, 再考慮是否可以導入公司資訊中心。</p>",
+          "description_markdown": "全名是 Datacenter Operating System, 也就是 \"資料中心的作業系統\"。雖然名稱好像是用在 Datacenter, 但我們也可以套用在自己的公司裡, 來執行 docker containers, big data 或傳統的應用程式。它其實就是 Mesos + Dockers + GUI + CLI, 就像我以前用 [Vagrant 玩 Hadoop](https://blog.pivotal.io/big-data-pivotal/products/1-command-15-minute-install-hadoop-in-memory-data-grid-sql-analytic-data-warehouse), 或 Mesos + Marathon (用 [Playa Mesos](https://github.com/mesosphere/playa-mesos)), 我們也可以用 [Vagrant 來安裝 DC/OS](https://github.com/dcos/dcos-vagrant/tree/v0.6.0), 瞭解它的原理之後, 再考慮是否可以導入公司資訊中心。",
+          "embedded_links": [
+            {
+              "identifier": "8y2I1wx",
+              "title": "Vagrant 玩 Hadoop",
+              "url_domain": "pivotal.io",
+              "url": "https://blog.pivotal.io/big-data-pivotal/products/1-command-15-minute-install-hadoop-in-memory-data-grid-sql-analytic-data-warehouse"
+            },
+            {
+              "identifier": "ZpVXb3X",
+              "title": "Playa Mesos",
+              "url_domain": "github.com",
+              "url": "https://github.com/mesosphere/playa-mesos"
+            },
+            {
+              "identifier": "GaynkKP",
+              "title": "Vagrant 來安裝 DC/OS",
+              "url_domain": "github.com",
+              "url": "https://github.com/dcos/dcos-vagrant/tree/v0.6.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "RSubhaj",
+          "type": "Link",
+          "title": "React Native: A year in review",
+          "url_domain": "facebook.com",
+          "url": "https://code.facebook.com/posts/597378980427792/react-native-a-year-in-review/",
+          "description": "<p>Facebook 在今年的 <a href=\"https://www.fbf8.com/\">F8 - Facebook Developer Conference</a> 上宣布 Microsoft 正將 React Native 加入 Ｗindows 生態系，讓開發者可以使用 React Native 開發 Windows PC 、 Windows Phone 、 Xbox 軟體，也會提供一些開源的工具如 Visual Studio Code 和 Code Push 上的 React Native extension ，另外， Samsung 也在實作自家平台 Tizen 的 React Native porting。</p>\n\n<p>React Native 雖然是新的一套開發方式，但在短短一年內已累積龐大的生態系與許多實際上架 App。</p>\n\n<p>不同於以往 \"Write Once, Run Everywere\" 的概念，React Native 並不是真的跨平台， 而是希望能在維持 native code 的效能下，使用同一套開發方式去實作不同平台的 App，達到 \"Learn Once, Write Everywere\" 的精神，而因為程式邏輯方面可以利用 JavaScript 實作，在實際開發時，iOS 與 Android App 都可以達到蠻高程度的 code sharing 。</p>",
+          "description_markdown": "Facebook 在今年的 [F8 - Facebook Developer Conference](https://www.fbf8.com/) 上宣布 Microsoft 正將 React Native 加入 Ｗindows 生態系，讓開發者可以使用 React Native 開發 Windows PC 、 Windows Phone 、 Xbox 軟體，也會提供一些開源的工具如 Visual Studio Code 和 Code Push 上的 React Native extension ，另外， Samsung 也在實作自家平台 Tizen 的 React Native porting。\r\n\r\nReact Native 雖然是新的一套開發方式，但在短短一年內已累積龐大的生態系與許多實際上架 App。\r\n\r\n不同於以往 \"Write Once, Run Everywere\" 的概念，React Native 並不是真的跨平台， 而是希望能在維持 native code 的效能下，使用同一套開發方式去實作不同平台的 App，達到 \"Learn Once, Write Everywere\" 的精神，而因為程式邏輯方面可以利用 JavaScript 實作，在實際開發時，iOS 與 Android App 都可以達到蠻高程度的 code sharing 。",
+          "embedded_links": [
+            {
+              "identifier": "f6sAe44",
+              "title": "F8 - Facebook Developer Conference",
+              "url_domain": "fbf8.com",
+              "url": "https://www.fbf8.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "6JJp32K",
+          "type": "Link",
+          "title": "Webpack — The Confusing Parts",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9#.w2zc634od",
+          "description": "<p>自從 Webpack 出現後，Gulp 和 Grunt 漸漸地被 Npm + Webpack 取代，因為 Ｗebpack 功能強大，本篇文章探討幾個容易讓開發者混淆的點：</p>\n\n<ol>\n<li><p>Development Vs Production</p>\n\n<ul>\n<li>Webpack 有很多功能，有些屬於 Development ，有些屬於 Production ，有些則是共用，所以在實作上通常會分成兩個 config 檔，透過 npm 的 scripts 來 run webpack 。</li>\n</ul>\n</li>\n<li><p>webpack CLI Vs webpack-dev-server</p>\n\n<ul>\n<li>webpack CLI 較適合 production build</li>\n<li>webpack-dev-server 為 Node.js server ，支援一些方便開發的功能，如： Hot Module Replacement (HMR)</li>\n</ul>\n</li>\n<li><p>“entry” — String Vs Array Vs Object</p>\n\n<ul>\n<li>光是 app 的 entry point ，就有很多種設定方式，因為支援多個 bundle file，所以可以透過 array 與 object 來指定 entry。</li>\n</ul>\n</li>\n<li><p>output — “path” Vs “publicPath”</p>\n\n<ul>\n<li>path 表示儲存 result 的路徑</li>\n<li>publicPath 用於讓 Webpack’s plugins update  CSS, HTML 檔案內的 URL 。</li>\n</ul>\n</li>\n<li><p>Loaders And Chaining Loaders</p>\n\n<ul>\n<li>各種不同的 loaders 使 webpack 可以 import 各個相對應格式的 file ，有些 file 需要透過多個 loader 來多次轉換才能 import 。</li>\n</ul>\n</li>\n<li><p>Loaders Themselves Can Be Configured</p>\n\n<ul>\n<li>loader 可以透過 queryset 的方式來設定參數</li>\n</ul>\n</li>\n<li><p>The .babelrc file</p>\n\n<ul>\n<li>當 babel-loader 需要設定較多參數時，可以另外寫個 .babelrc ， babel-loader 會自動讀取來設定參數。</li>\n</ul>\n</li>\n<li><p>Plugins</p>\n\n<ul>\n<li>Plugin 可以對產出的 bundle file 再做進一步的處理。</li>\n</ul>\n</li>\n<li><p>Loaders Vs Plugins</p>\n\n<ul>\n<li>Loaders 在 bundle 產生之前運作</li>\n<li>Plugin 則在 bundle 產生過程後運作</li>\n</ul>\n</li>\n<li><p>Resolving File Extensions</p>\n\n<ul>\n<li>在 resolve extensions 加入空字串，是為了可以 import 沒有 extension 的 file 。</li>\n</ul>\n</li>\n</ol>",
+          "description_markdown": "自從 Webpack 出現後，Gulp 和 Grunt 漸漸地被 Npm + Webpack 取代，因為 Ｗebpack 功能強大，本篇文章探討幾個容易讓開發者混淆的點：\r\n\r\n1. Development Vs Production\r\n    * Webpack 有很多功能，有些屬於 Development ，有些屬於 Production ，有些則是共用，所以在實作上通常會分成兩個 config 檔，透過 npm 的 scripts 來 run webpack 。\r\n\r\n2. webpack CLI Vs webpack-dev-server\r\n    * webpack CLI 較適合 production build\r\n    * webpack-dev-server 為 Node.js server ，支援一些方便開發的功能，如： Hot Module Replacement (HMR)\r\n\r\n3. “entry” — String Vs Array Vs Object\r\n   *  光是 app 的 entry point ，就有很多種設定方式，因為支援多個 bundle file，所以可以透過 array 與 object 來指定 entry。\r\n\r\n4. output — “path” Vs “publicPath”\r\n    * path 表示儲存 result 的路徑\r\n    * publicPath 用於讓 Webpack’s plugins update  CSS, HTML 檔案內的 URL 。\r\n\r\n5. Loaders And Chaining Loaders\r\n    * 各種不同的 loaders 使 webpack 可以 import 各個相對應格式的 file ，有些 file 需要透過多個 loader 來多次轉換才能 import 。\r\n\r\n6. Loaders Themselves Can Be Configured\r\n   * loader 可以透過 queryset 的方式來設定參數\r\n\r\n7. The .babelrc file\r\n    * 當 babel-loader 需要設定較多參數時，可以另外寫個 .babelrc ， babel-loader 會自動讀取來設定參數。\r\n\r\n8. Plugins\r\n    *  Plugin 可以對產出的 bundle file 再做進一步的處理。\r\n\r\n9. Loaders Vs Plugins\r\n    * Loaders 在 bundle 產生之前運作\r\n    * Plugin 則在 bundle 產生過程後運作\r\n\r\n10. Resolving File Extensions\r\n    * 在 resolve extensions 加入空字串，是為了可以 import 沒有 extension 的 file 。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "cmtdgwG",
+          "type": "Link",
+          "title": "Functional Reactive Game Programming – RxJS Breakout",
+          "url_domain": "manu.ninja",
+          "url": "https://manu.ninja/functional-reactive-game-programming-rxjs-breakout",
+          "description": "<p>越來越多人利用 Reactive Programming 概念來撰寫 UI 程式， 本篇作者利用 <a href=\"http://reactivex.io/\">Reactive Extension</a> 實作出類似 <a href=\"https://www.google.com.tw/search?q=Atari+Breakout&amp;source=lnms&amp;tbm=isch\">Atari Breakout</a> 的遊戲。</p>\n\n<p>Reactive Programming 可以將任何 Event 視為 Stream 從而簡單的做操作，如果對這個領域還不熟悉，可以看看 <a href=\"http://staltz.com/\">André Staltz</a> 的<a href=\"https://gist.github.com/staltz/868e7e9bc2a7b8c1f754\">介紹</a></p>",
+          "description_markdown": "越來越多人利用 Reactive Programming 概念來撰寫 UI 程式， 本篇作者利用 [Reactive Extension](http://reactivex.io/) 實作出類似 [Atari Breakout](https://www.google.com.tw/search?q=Atari+Breakout&source=lnms&tbm=isch) 的遊戲。\r\n\r\nReactive Programming 可以將任何 Event 視為 Stream 從而簡單的做操作，如果對這個領域還不熟悉，可以看看 [André Staltz](http://staltz.com/) 的[介紹](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)",
+          "embedded_links": [
+            {
+              "identifier": "lGvMl6G",
+              "title": "Reactive Extension",
+              "url_domain": "reactivex.io",
+              "url": "http://reactivex.io/"
+            },
+            {
+              "identifier": "BiA0y76",
+              "title": "Atari Breakout",
+              "url_domain": "google.com.tw",
+              "url": "https://www.google.com.tw/search?q=Atari+Breakout&source=lnms&tbm=isch"
+            },
+            {
+              "identifier": "D8wr8mu",
+              "title": "André Staltz",
+              "url_domain": "staltz.com",
+              "url": "http://staltz.com/"
+            },
+            {
+              "identifier": "JmiGPBd",
+              "title": "介紹",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754"
+            }
+          ]
+        },
+        {
+          "identifier": "Okjkh9P",
+          "type": "Link",
+          "title": "Introducing React Storybook",
+          "url_domain": "kadira.io",
+          "url": "https://voice.kadira.io/introducing-react-storybook-ec27f28de1e2#.puk0n19ow",
+          "description": "<p>在開發 React 時常會將一個大的 Component 分割成許多小的 Component ， React Storybook 可以讓開發者不需執行 App 獨立開發各個 Component ，直接顯示在 Storybook 上，只要簡單的步驟就可以將 Component 設定好並執行，且不會污染原有的環境，有簡潔風格的 UI 介面，支援 Hot Module Reloading ，可在各種 React App 下執行。</p>",
+          "description_markdown": "在開發 React 時常會將一個大的 Component 分割成許多小的 Component ， React Storybook 可以讓開發者不需執行 App 獨立開發各個 Component ，直接顯示在 Storybook 上，只要簡單的步驟就可以將 Component 設定好並執行，且不會污染原有的環境，有簡潔風格的 UI 介面，支援 Hot Module Reloading ，可在各種 React App 下執行。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "cGP11OY",
+          "type": "Link",
+          "title": "OrmHate",
+          "url_domain": "martinfowler.com",
+          "url": "http://martinfowler.com/bliki/OrmHate.html",
+          "description": "<p>上期的副標讓我想起這篇文章，ORM 派與（半）手刻 SQL 派的爭論一直是 IT 界不停歇的週期性熱門話題。但到底為什麼 SQL/ORM 這麼難用？不如讓我們重溫一下大師的看法。</p>\n\n<p>Martin Fowler 認為 Database(Relational) ↔ Memory(Object) 間的雙向對映本身就是一個非常複雜的問題。當你希望一套工具可以適用各種狀況時，自然會得到一個龐大肥腫的 ORM 工具。例如同樣解決雙向同步的 MVC 框架亦常有類似問題；更何況因為跨越系統邊界而更複雜難解的 object-realtional 問題。</p>\n\n<p>關於要不要用 ORM，大師的建議如下：</p>\n\n<ol>\n<li><em>原則上</em> 不要自己刻 ORM。畢竟這問題太複雜，沒必要讓自己再深陷泥沼。</li>\n<li>或是分離資料庫讀/寫，把雙向同步問題轉成單向資料流、需要的時候直接使用 SQL。這部分可以參考 <a href=\"http://martinfowler.com/bliki/CQRS.html\">Command Query Responsibility Segregation</a> 模式。\n（是否覺得把 雙向同步問題 轉成 單向資料流 這方法有點熟悉？這正是 Flux 的特點）</li>\n</ol>\n\n\n<p>衍伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://blog.turn.tw/?p=2992\">批評 ACTIVE RECORD 的13個論點：最好用也最危險的 ANTI-PATTERN</a></li>\n</ul>",
+          "description_markdown": "上期的副標讓我想起這篇文章，ORM 派與（半）手刻 SQL 派的爭論一直是 IT 界不停歇的週期性熱門話題。但到底為什麼 SQL/ORM 這麼難用？不如讓我們重溫一下大師的看法。\r\n\r\nMartin Fowler 認為 Database(Relational) ↔ Memory(Object) 間的雙向對映本身就是一個非常複雜的問題。當你希望一套工具可以適用各種狀況時，自然會得到一個龐大肥腫的 ORM 工具。例如同樣解決雙向同步的 MVC 框架亦常有類似問題；更何況因為跨越系統邊界而更複雜難解的 object-realtional 問題。\r\n\r\n關於要不要用 ORM，大師的建議如下：\r\n\r\n1. *原則上* 不要自己刻 ORM。畢竟這問題太複雜，沒必要讓自己再深陷泥沼。\r\n2. 或是分離資料庫讀/寫，把雙向同步問題轉成單向資料流、需要的時候直接使用 SQL。這部分可以參考 [Command Query Responsibility Segregation](http://martinfowler.com/bliki/CQRS.html) 模式。\r\n（是否覺得把 雙向同步問題 轉成 單向資料流 這方法有點熟悉？這正是 Flux 的特點）\r\n\r\n衍伸閱讀：\r\n\r\n- [批評 ACTIVE RECORD 的13個論點：最好用也最危險的 ANTI-PATTERN](http://blog.turn.tw/?p=2992)",
+          "embedded_links": [
+            {
+              "identifier": "KgRJ7gk",
+              "title": "Command Query Responsibility Segregation",
+              "url_domain": "martinfowler.com",
+              "url": "http://martinfowler.com/bliki/CQRS.html"
+            },
+            {
+              "identifier": "bQDi6rE",
+              "title": "批評 ACTIVE RECORD 的13個論點：最好用也最危險的 ANTI-PATTERN",
+              "url_domain": "turn.tw",
+              "url": "http://blog.turn.tw/?p=2992"
+            }
+          ]
+        },
+        {
+          "identifier": "kFS45vj",
+          "type": "Link",
+          "title": "Java 8 in Android N Preview",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sergii/java-8-in-android-n-preview-76184e2ab7ad",
+          "description": "<p>各位，我們終於可以在 Android 上用 Java 8 啦！</p>\n\n<p>這篇是實際在 Android N Preview 上使用 Java 8 的心得文。<br/>\n不多說，各位自己看吧。</p>",
+          "description_markdown": "各位，我們終於可以在 Android 上用 Java 8 啦！\r\n\r\n這篇是實際在 Android N Preview 上使用 Java 8 的心得文。  \r\n不多說，各位自己看吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QrPYlrH",
+          "type": "Link",
+          "title": "Valve/fingerprintjs2: Modern & flexible browser fingerprinting library",
+          "url_domain": "github.com",
+          "url": "https://github.com/Valve/fingerprintjs2",
+          "description": "<p>從本期開始我想介紹一些個人覺得有趣的專案。<br/>\n<del>（順便清一下自己的 study list）</del></p>\n\n<p>fingerprintJS 根據瀏覽器特性（User-Agent、螢幕解析度、安裝的 plug-in 等等）算出 hash 值，不透過 cookie 就可以識別不同的使用者。（但由於手機瀏覽器的特性，很容易得到接近的 fingerprint 值）</p>\n\n<p>P.S. 本來要介紹的是 <a href=\"http://valve.github.io/fingerprintjs/\">Fingerprintjs</a>，剛剛才發現已經被 Fingerprintjs2 取代了。</p>",
+          "description_markdown": "從本期開始我想介紹一些個人覺得有趣的專案。  \r\n~~（順便清一下自己的 study list）~~\r\n\r\nfingerprintJS 根據瀏覽器特性（User-Agent、螢幕解析度、安裝的 plug-in 等等）算出 hash 值，不透過 cookie 就可以識別不同的使用者。（但由於手機瀏覽器的特性，很容易得到接近的 fingerprint 值）\r\n\r\nP.S. 本來要介紹的是 [Fingerprintjs](http://valve.github.io/fingerprintjs/)，剛剛才發現已經被 Fingerprintjs2 取代了。",
+          "embedded_links": [
+            {
+              "identifier": "d2BbW5u",
+              "title": "Fingerprintjs",
+              "url_domain": "github.io",
+              "url": "http://valve.github.io/fingerprintjs/"
+            }
+          ]
+        },
+        {
+          "identifier": "VnYXJZY",
+          "type": "Link",
+          "title": "Head Hunter 不會告訴你的事情！",
+          "url_domain": "blogspot.tw",
+          "url": "http://53973000.blogspot.tw/2016/04/head-hunter.html",
+          "description": "<p>工作一段時間之後，工作機會的來源幾乎都是靠朋友跟 Head Hunter 介紹。不像朋友介紹，Head Hunter 其實只是在商言商的仲介，先搞清楚這點才不至於吃虧。</p>\n\n<p>作者建議如下：</p>\n\n<p>對 Head Hunter 的認知：</p>\n\n<ol>\n<li>別把 Head Hunter 當媽，先清楚他們的服務內容</li>\n<li>顧問費用是建立在年薪的計算基準</li>\n<li>在他們與公司的合作契約中，大多不會討論勞動條件</li>\n</ol>\n\n\n<p>透過 Head Hunter 找工作時，仍應：</p>\n\n<ol>\n<li>個人對這公司先做研究</li>\n<li>列一份勞動條件問題表：工作時間、加班補休、請假規則、賠償條款、合約終止注意事項</li>\n</ol>\n\n\n<p>（其實這些是去任何公司面試時都該做的事前準備）</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li>不是有期限的合約就是定期契約喔，不要被呼攏了。請看 <a href=\"http://momoge.blogspot.tw/2016/04/005.html\">一年一簽很無聊，懂嗎？那統統叫不定期契約啦！</a></li>\n</ul>",
+          "description_markdown": "工作一段時間之後，工作機會的來源幾乎都是靠朋友跟 Head Hunter 介紹。不像朋友介紹，Head Hunter 其實只是在商言商的仲介，先搞清楚這點才不至於吃虧。\r\n\r\n作者建議如下：\r\n\r\n對 Head Hunter 的認知：\r\n\r\n1. 別把 Head Hunter 當媽，先清楚他們的服務內容\r\n2. 顧問費用是建立在年薪的計算基準\r\n3. 在他們與公司的合作契約中，大多不會討論勞動條件\r\n\r\n透過 Head Hunter 找工作時，仍應：\r\n\r\n1. 個人對這公司先做研究\r\n2. 列一份勞動條件問題表：工作時間、加班補休、請假規則、賠償條款、合約終止注意事項\r\n\r\n（其實這些是去任何公司面試時都該做的事前準備）\r\n\r\n延伸閱讀：\r\n\r\n- 不是有期限的合約就是定期契約喔，不要被呼攏了。請看 [一年一簽很無聊，懂嗎？那統統叫不定期契約啦！](http://momoge.blogspot.tw/2016/04/005.html)",
+          "embedded_links": [
+            {
+              "identifier": "P8bcg54",
+              "title": "一年一簽很無聊，懂嗎？那統統叫不定期契約啦！",
+              "url_domain": "blogspot.tw",
+              "url": "http://momoge.blogspot.tw/2016/04/005.html"
+            }
+          ]
+        },
+        {
+          "identifier": "E7kQ1HX",
+          "type": "Link",
+          "title": "本期 IG - GUNDAMSTAGRAM (@gundamstagram)",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/gundamstagram/",
+          "description": "<p>雖然食色性也，但也不能一直貼美女照片。這次分享一下不同調性的 Instagram 帳號。</p>\n\n<p>這個帳號專門貼鋼彈模型照片，造一台鋼彈應該是每個工程師的夢想吧？！（握拳）</p>",
+          "description_markdown": "雖然食色性也，但也不能一直貼美女照片。這次分享一下不同調性的 Instagram 帳號。\r\n\r\n這個帳號專門貼鋼彈模型照片，造一台鋼彈應該是每個工程師的夢想吧？！（握拳）",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "e54e64f6-4fd8-4095-863b-157587f14953.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_e54e64f6-4fd8-4095-863b-157587f14953.jpg",
+          "image_medium_filename": "original_ratio_medium_e54e64f6-4fd8-4095-863b-157587f14953.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "beXNcWE",
+          "type": "Link",
+          "title": "Uptime Funk - (Uptown Funk parody) - YouTube",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=SYRlTISvjww",
+          "description": "<p>Don’t reboot it just patch!</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "Don’t reboot it just patch!\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "CgP9BbL",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

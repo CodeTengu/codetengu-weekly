@@ -1,0 +1,540 @@
+{
+  "number": 120,
+  "title": "Issue 120 本公司不用打卡，所以上下班時間非常彈性。喔不過我們通常會在早上七點開 Daily Scrum Meeting",
+  "summary": "本期內容涵蓋 Python, Docker, Kubernetes, Code Review, Git, Erlang, JavaScript, Node.js, Ethereum",
+  "url": "https://weekly.codetengu.com/issues/120",
+  "publication_status": "published",
+  "published_at": "2018-03-26T03:00:00+01:00",
+  "updated_at": "2018-03-26T10:34:20+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "WLlaEjs",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "BCnDuf4",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ef0aqXg",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Li7KkbQ",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "YZxuIYh",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "ba50NK8",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "THPSny7",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "jBGhgKh",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "1P4HRA9",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "o8SkBQi",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "INXh9IA",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Ppp2YsQ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "rLCzqAB",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "qKEaPLE",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "KjxQdW6",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "BUbST83",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "uBvGCQt",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "naR7zAX",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1IcynWI",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "1oCNRJK",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "a94HEKD",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "DUYuxKJ",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "xUxXc8z",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "zq4DFA",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "qoppl2D",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "8KTPnwT",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "zQ4DeGo",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "Byb7S2a",
+          "type": "Link",
+          "title": "Remotely debug a Python app inside a Docker container in Visual Studio Code",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/remotely-debug-a-python-app-inside-a-docker-container-in-visual-studio-code.html",
+          "description": "<p>之前因為開發環境都 containerized 了，但是偶爾又想要用一下 Visual Studio Code 的 Python debugger，所以就試了一下 <a href=\"https://code.visualstudio.com/docs/python/debugging#_remote-debugging\">Remote Debugging</a> 功能，順便寫了一篇網誌記錄了跟 Flask 的 <code>--reload</code> 併用的奇技淫巧。忍不住抱怨一下，VS Code 的 Python debugger 雖然很炫炮，尤其是 <code>\"debug.inlineValues\": true</code>，但是啟動速度真的慢到靠北啊。</p>\n\n<p>不過就像 <a href=\"https://twitter.com/WanCW/status/964007392059867137\">@WanCW‏</a> 說的，與其一直花時間追求開發環境和正式環境的一致，整天搞那些 configs，還不如用那些時間多寫幾個 test cases 啊。</p>\n\n<p>P.S. 這裡的 remote 主要指的是本機的某個 Docker container，當然也可以真的是遠端的某台機器。</p>",
+          "description_markdown": "之前因為開發環境都 containerized 了，但是偶爾又想要用一下 Visual Studio Code 的 Python debugger，所以就試了一下 [Remote Debugging](https://code.visualstudio.com/docs/python/debugging#_remote-debugging) 功能，順便寫了一篇網誌記錄了跟 Flask 的 `--reload` 併用的奇技淫巧。忍不住抱怨一下，VS Code 的 Python debugger 雖然很炫炮，尤其是 `\"debug.inlineValues\": true`，但是啟動速度真的慢到靠北啊。\r\n\r\n不過就像 [@WanCW‏](https://twitter.com/WanCW/status/964007392059867137) 說的，與其一直花時間追求開發環境和正式環境的一致，整天搞那些 configs，還不如用那些時間多寫幾個 test cases 啊。\r\n\r\nP.S. 這裡的 remote 主要指的是本機的某個 Docker container，當然也可以真的是遠端的某台機器。",
+          "embedded_links": [
+            {
+              "identifier": "XJ38dyo",
+              "title": "Remote Debugging",
+              "url_domain": "visualstudio.com",
+              "url": "https://code.visualstudio.com/docs/python/debugging#_remote-debugging"
+            },
+            {
+              "identifier": "C54TT0W",
+              "title": "@WanCW‏",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/WanCW/status/964007392059867137"
+            }
+          ]
+        },
+        {
+          "identifier": "6VVEyp0",
+          "type": "Link",
+          "title": "kennethreitz/setup.py: A Human's Ultimate Guide to setup.py",
+          "url_domain": "github.com",
+          "url": "https://github.com/kennethreitz/setup.py",
+          "description": "<p>也是出自 <a href=\"https://github.com/kennethreitz\">@kennethreitz</a> 大神之手，不過這次不是什麼改變 Python 生態系的新專案，而是一個 <code>setup.py</code> 的範例，有自己的 Python package 的人可以參考看看。看了之後才知道，原來有 <code>cmdclass</code> 這麼一個用法啊。</p>",
+          "description_markdown": "也是出自 [@kennethreitz](https://github.com/kennethreitz) 大神之手，不過這次不是什麼改變 Python 生態系的新專案，而是一個 `setup.py` 的範例，有自己的 Python package 的人可以參考看看。看了之後才知道，原來有 `cmdclass` 這麼一個用法啊。",
+          "embedded_links": [
+            {
+              "identifier": "jAafZBj",
+              "title": "@kennethreitz",
+              "url_domain": "github.com",
+              "url": "https://github.com/kennethreitz"
+            }
+          ]
+        },
+        {
+          "identifier": "9UXwUPU",
+          "type": "Link",
+          "title": "Kubernetes Deconstructed: Understanding Kubernetes by Breaking It Down",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=90kZRyPcRZw",
+          "description": "<p>在你讀完八百多頁的 Kubernetes 文件之後，這個影片可能會是個很好的複習。</p>",
+          "description_markdown": "在你讀完八百多頁的 Kubernetes 文件之後，這個影片可能會是個很好的複習。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "EwmjQyK",
+          "type": "Link",
+          "title": "Kubernetes NodePort vs LoadBalancer vs Ingress? When should I use what?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/google-cloud/kubernetes-nodeport-vs-loadbalancer-vs-ingress-when-should-i-use-what-922f010849e0",
+          "description": "<p>看了半天的 Kubernetes 官方文件，結果反而是在讀了這篇文章之後才終於搞清楚 <code>Service</code> 和 <code>Ingress</code> 的使用場景，嘖。</p>",
+          "description_markdown": "看了半天的 Kubernetes 官方文件，結果反而是在讀了這篇文章之後才終於搞清楚 `Service` 和 `Ingress` 的使用場景，嘖。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "qOksL0j",
+          "type": "Link",
+          "title": "Getting started with Data Engineering",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@richard534/getting-started-with-data-engineering-3d2e728d0c1f",
+          "description": "<p>這篇文章概略地提到了作為一個 Data Engineer 可能會需要碰到的各項技術，一個人要完全掌握這些東西當然是不太可能啦，但是看了那個 Big Data Landscape 的圖還是覺得很血汗啊，大家感受一下。</p>\n\n<p>不過讀完文章之後，最大的心得反而是所謂的 Data Engineer 做的事情跟 Web Backend Developer 其實很像啊，都是圍繞著 Data 本身打轉，在技術上也有相當大的重疊，最大的差別可能是在於人家用的那套 framework 叫做 Apache Spark，逼搞夏趴。</p>",
+          "description_markdown": "這篇文章概略地提到了作為一個 Data Engineer 可能會需要碰到的各項技術，一個人要完全掌握這些東西當然是不太可能啦，但是看了那個 Big Data Landscape 的圖還是覺得很血汗啊，大家感受一下。\r\n\r\n不過讀完文章之後，最大的心得反而是所謂的 Data Engineer 做的事情跟 Web Backend Developer 其實很像啊，都是圍繞著 Data 本身打轉，在技術上也有相當大的重疊，最大的差別可能是在於人家用的那套 framework 叫做 Apache Spark，逼搞夏趴。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "w3VyAoH",
+          "type": "Link",
+          "title": "How to Do Code Reviews Like a Human (Part One)",
+          "url_domain": "mtlynch.io",
+          "url": "https://mtlynch.io/human-code-reviews-1/",
+          "description": "<p>雖然 code review 已經是老生常談了，但是這篇文章寫得真的是好。無論你是那個覺得 code review 是件苦差事的 reviewer 或是老是被要求改 code 改到往心裡去的 reviewee，又或者你們團隊根本還沒開始做 code review，本文都非常值得一讀。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://mtlynch.io/human-code-reviews-2/\">How to Do Code Reviews Like a Human (Part Two)</a></li>\n</ul>",
+          "description_markdown": "雖然 code review 已經是老生常談了，但是這篇文章寫得真的是好。無論你是那個覺得 code review 是件苦差事的 reviewer 或是老是被要求改 code 改到往心裡去的 reviewee，又或者你們團隊根本還沒開始做 code review，本文都非常值得一讀。\r\n\r\n延伸閱讀：\r\n\r\n- [How to Do Code Reviews Like a Human (Part Two)](https://mtlynch.io/human-code-reviews-2/)",
+          "embedded_links": [
+            {
+              "identifier": "BAbSm9v",
+              "title": "How to Do Code Reviews Like a Human (Part Two)",
+              "url_domain": "mtlynch.io",
+              "url": "https://mtlynch.io/human-code-reviews-2/"
+            }
+          ]
+        },
+        {
+          "identifier": "XVnc537",
+          "type": "Link",
+          "title": "YouGlish - Use YouTube to improve your English pronunciation",
+          "url_domain": "youglish.com",
+          "url": "https://youglish.com/",
+          "description": "<p>因為公司的 System Architect 是加拿大人，所以平常跟他在開會或閒聊都是全英文進行，對土台灣人如我多少還是有點不習慣，最近的困擾是關於某些單字的唸法，一般的英文單字也就算了，畢竟網路上隨便一個字典都有真人發音。但是那些我們平常在用的技術詞彙（例如 framework 或 library 的名字）就不一定在字典裡找得到了。正好前陣子 <a href=\"https://twitter.com/SammyLinTw/status/967789385172176896\">@SammyLinTw</a> 推薦了 YouGlish 這個網站，它可以直接幫你列出 YouTube 上關於某個單字的發音片段，實用！</p>\n\n<p>大家感受一下：</p>\n\n<ul>\n<li><a href=\"https://youglish.com/search/etcd\">etcd</a></li>\n<li><a href=\"https://youglish.com/search/Ethereum\">Ethereum</a></li>\n<li><a href=\"https://youglish.com/search/kubernetes\">Kubernetes</a></li>\n<li><a href=\"https://vimeo.com/233134524\">pipenv</a></li>\n<li><a href=\"https://youglish.com/search/regex\">regex</a></li>\n<li><a href=\"https://youglish.com/search/tmux\">tmux</a></li>\n<li><a href=\"https://youglish.com/search/uwsgi\">uWSGI</a></li>\n</ul>\n\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://weekly.codetengu.com/issues/3#TqJz41h\">台灣工程師常唸錯的英文單字</a></li>\n</ul>",
+          "description_markdown": "因為公司的 System Architect 是加拿大人，所以平常跟他在開會或閒聊都是全英文進行，對土台灣人如我多少還是有點不習慣，最近的困擾是關於某些單字的唸法，一般的英文單字也就算了，畢竟網路上隨便一個字典都有真人發音。但是那些我們平常在用的技術詞彙（例如 framework 或 library 的名字）就不一定在字典裡找得到了。正好前陣子 [@SammyLinTw](https://twitter.com/SammyLinTw/status/967789385172176896) 推薦了 YouGlish 這個網站，它可以直接幫你列出 YouTube 上關於某個單字的發音片段，實用！\r\n\r\n大家感受一下：\r\n\r\n* [etcd](https://youglish.com/search/etcd)\r\n* [Ethereum](https://youglish.com/search/Ethereum)\r\n* [Kubernetes](https://youglish.com/search/kubernetes)\r\n* [pipenv](https://vimeo.com/233134524)\r\n* [regex](https://youglish.com/search/regex)\r\n* [tmux](https://youglish.com/search/tmux)\r\n* [uWSGI](https://youglish.com/search/uwsgi)\r\n\r\n延伸閱讀：\r\n\r\n- [台灣工程師常唸錯的英文單字](https://weekly.codetengu.com/issues/3#TqJz41h)",
+          "embedded_links": [
+            {
+              "identifier": "Rl58OSc",
+              "title": "@SammyLinTw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/SammyLinTw/status/967789385172176896"
+            },
+            {
+              "identifier": "O2QblE",
+              "title": "etcd",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/etcd"
+            },
+            {
+              "identifier": "UNzlf6v",
+              "title": "Ethereum",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/Ethereum"
+            },
+            {
+              "identifier": "4xmQJIL",
+              "title": "Kubernetes",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/kubernetes"
+            },
+            {
+              "identifier": "JcxC8UP",
+              "title": "pipenv",
+              "url_domain": "vimeo.com",
+              "url": "https://vimeo.com/233134524"
+            },
+            {
+              "identifier": "TmQwBD",
+              "title": "regex",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/regex"
+            },
+            {
+              "identifier": "56VWgyt",
+              "title": "tmux",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/tmux"
+            },
+            {
+              "identifier": "OsMbovF",
+              "title": "uWSGI",
+              "url_domain": "youglish.com",
+              "url": "https://youglish.com/search/uwsgi"
+            },
+            {
+              "identifier": "OXsIp7q",
+              "title": "台灣工程師常唸錯的英文單字",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/3#TqJz41h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "QZZ6t5K",
+          "type": "Link",
+          "title": "Git Rebase Interactive: A Practical Example",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=tukOm3Afd8s",
+          "description": "<p>git 指令裡面，比較難懂的就是 rebase。這個實戰 YouTube 教你簡單方法如何更改 logs 的順序或註解。注意，只能在不 conflict 的情況下來使用。也只能 rebase 本地端尚未 commit 到遠端的 logs。</p>",
+          "description_markdown": "git 指令裡面，比較難懂的就是 rebase。這個實戰 YouTube 教你簡單方法如何更改 logs 的順序或註解。注意，只能在不 conflict 的情況下來使用。也只能 rebase 本地端尚未 commit 到遠端的 logs。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xHo7DY8",
+          "type": "Link",
+          "title": "Erlang (and Elixir) distribution without epmd",
+          "url_domain": "erlang-solutions.com",
+          "url": "https://www.erlang-solutions.com/blog/erlang-and-elixir-distribution-without-epmd.html",
+          "description": "<p>最近台北將會有一場 <a href=\"https://2018.rubyconf.tw/\">Ruby 與 Elixir 的研討會</a>，不妨大家來看看 Erlang 文章吧。<a href=\"https://zh.wikipedia.org/wiki/Erlang\">Erlang</a> 是一個非常容易寫分散式不停頓的軟體的程式語言，其中 default 用 <a href=\"http://erlang.org/doc/man/epmd.html\">epmd</a> 來尋找分散在網路上不同的節點 (node)。這篇文章，用一個簡單的方式，教大家在 Erlang/OTP 19.0 以後的版本的程式可以跳過 epmd，讓節點更有彈性的加入同一個 network，且跟其他的節點互動。</p>",
+          "description_markdown": "最近台北將會有一場 [Ruby 與 Elixir 的研討會](https://2018.rubyconf.tw/)，不妨大家來看看 Erlang 文章吧。[Erlang](https://zh.wikipedia.org/wiki/Erlang) 是一個非常容易寫分散式不停頓的軟體的程式語言，其中 default 用 [epmd](http://erlang.org/doc/man/epmd.html) 來尋找分散在網路上不同的節點 (node)。這篇文章，用一個簡單的方式，教大家在 Erlang/OTP 19.0 以後的版本的程式可以跳過 epmd，讓節點更有彈性的加入同一個 network，且跟其他的節點互動。",
+          "embedded_links": [
+            {
+              "identifier": "tmcWLqX",
+              "title": "Ruby 與 Elixir 的研討會",
+              "url_domain": "rubyconf.tw",
+              "url": "https://2018.rubyconf.tw/"
+            },
+            {
+              "identifier": "zapt66e",
+              "title": "Erlang",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/Erlang"
+            },
+            {
+              "identifier": "mI1MKV6",
+              "title": "epmd",
+              "url_domain": "erlang.org",
+              "url": "http://erlang.org/doc/man/epmd.html"
+            }
+          ]
+        },
+        {
+          "identifier": "d8ggx2P",
+          "type": "Link",
+          "title": "Requiring modules in Node.js: Everything you need to know",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/requiring-modules-in-node-js-everything-you-need-to-know-e7fbd119be8",
+          "description": "<p>如果你會寫 Node.js 程式，但還是不太了解 modules 是什麼，為何要用 <code>module.exports</code>，以及 <code>require</code> 到底是怎麼運作的，你可以先看這篇文章。作者 <a href=\"https://medium.freecodecamp.org/@samerbuna\">Samer Buna</a> 把這些問題用幾個簡單的範例做了清楚的說明。</p>",
+          "description_markdown": "如果你會寫 Node.js 程式，但還是不太了解 modules 是什麼，為何要用 `module.exports`，以及 `require` 到底是怎麼運作的，你可以先看這篇文章。作者 [Samer Buna](https://medium.freecodecamp.org/@samerbuna) 把這些問題用幾個簡單的範例做了清楚的說明。",
+          "embedded_links": [
+            {
+              "identifier": "vWiVBHj",
+              "title": "Samer Buna",
+              "url_domain": "freecodecamp.org",
+              "url": "https://medium.freecodecamp.org/@samerbuna"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "Blockchain Sharding Issues",
+          "description": "<p>一群 Ethereum 開發愛好者，包括 <a href=\"https://www.ethereum.org/foundation\">Ethereum 團隊</a> (招募中)，<a href=\"https://www.parity.io/\">Parity</a> 成員，以及美國 <a href=\"http://www.initc3.org/\">IC3</a> 研究員，上週在台灣聚會，探討如何解決區塊鏈目前碰到的最大難題，也就是擴充性的問題。最後還在 3/21 <a href=\"https://www.meetup.com/Taipei-Ethereum-Meetup/\">Taipei Ethereum Meetup</a> 主辦的 <a href=\"http://blockcast.it/2018/03/24/taipei-ethereum-meetup-all-star-tech-talk-2018-march/\">2018 以太坊全明星技術座談會</a> 中與大家分享成果。</p>\n\n<p>有興趣深入研究的人，可以先看看 <a href=\"https://github.com/ethereum/wiki/wiki/Sharding-FAQ\">sharding FAQ</a> 再想辦法實作 <a href=\"https://ethresear.ch/t/sharding-phase-1-spec/1407\">sharding 的規格</a>。當然，這也許只是其中一種想法或方法，而且都是在非常初期的研究階段，還有非常多的專案也在想要解決同樣的問題。我想這也是讓大家更有機會在先期就投入區塊鏈的研究，再創佳績。</p>",
+          "description_markdown": "一群 Ethereum 開發愛好者，包括 [Ethereum 團隊](https://www.ethereum.org/foundation) (招募中)，[Parity](https://www.parity.io/) 成員，以及美國 [IC3](http://www.initc3.org/) 研究員，上週在台灣聚會，探討如何解決區塊鏈目前碰到的最大難題，也就是擴充性的問題。最後還在 3/21 [Taipei Ethereum Meetup](https://www.meetup.com/Taipei-Ethereum-Meetup/) 主辦的 [2018 以太坊全明星技術座談會](http://blockcast.it/2018/03/24/taipei-ethereum-meetup-all-star-tech-talk-2018-march/) 中與大家分享成果。\r\n\r\n有興趣深入研究的人，可以先看看 [sharding FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ) 再想辦法實作 [sharding 的規格](https://ethresear.ch/t/sharding-phase-1-spec/1407)。當然，這也許只是其中一種想法或方法，而且都是在非常初期的研究階段，還有非常多的專案也在想要解決同樣的問題。我想這也是讓大家更有機會在先期就投入區塊鏈的研究，再創佳績。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "CJAQqJZ",
+              "title": "Ethereum 團隊",
+              "url_domain": "ethereum.org",
+              "url": "https://www.ethereum.org/foundation"
+            },
+            {
+              "identifier": "TLoMOP1",
+              "title": "Parity",
+              "url_domain": "parity.io",
+              "url": "https://www.parity.io/"
+            },
+            {
+              "identifier": "6QlNpeU",
+              "title": "IC3",
+              "url_domain": "initc3.org",
+              "url": "http://www.initc3.org/"
+            },
+            {
+              "identifier": "MaVYKjg",
+              "title": "Taipei Ethereum Meetup",
+              "url_domain": "meetup.com",
+              "url": "https://www.meetup.com/Taipei-Ethereum-Meetup/"
+            },
+            {
+              "identifier": "QH5ybu",
+              "title": "2018 以太坊全明星技術座談會",
+              "url_domain": "blockcast.it",
+              "url": "http://blockcast.it/2018/03/24/taipei-ethereum-meetup-all-star-tech-talk-2018-march/"
+            },
+            {
+              "identifier": "9JO3LjO",
+              "title": "sharding FAQ",
+              "url_domain": "github.com",
+              "url": "https://github.com/ethereum/wiki/wiki/Sharding-FAQ"
+            },
+            {
+              "identifier": "bMjLHW5",
+              "title": "sharding 的規格",
+              "url_domain": "ethresear.ch",
+              "url": "https://ethresear.ch/t/sharding-phase-1-spec/1407"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "i6xY3mH",
+          "type": "Link",
+          "title": "瑞克和莫蒂：我酗酒、我变态，但我是个好外公",
+          "url_domain": "zhihu.com",
+          "url": "https://zhuanlan.zhihu.com/p/28229408",
+          "description": "<p><em>（該文有大量劇透）</em></p>\n\n<p>在 Twitter 上看到有人分享了 <a href=\"https://github.com/dannvix/NflxMultiSubs\">dannvix/NflxMultiSubs</a>，幫 Netflix 加上「雙語字幕」功能的瀏覽器外掛。突然就想到前一陣子因為椎間盤突出在家裡休養的那段日子，除了物理治療和皮拉提斯之外，其他時間好像都是在看 Netflix 啊。說到這裡，忍不住要跟大家分享一下我印象最深的一部作品，<a href=\"https://www.netflix.com/title/80014749\">Rick and Morty</a>。不誇張，這部真的是我這輩子看過最屌的科幻動畫，有點像是把銀河便車指南裡的英式幽默用 Futurama 和辛普森家庭取代的感覺，第一次看就看傻了我。非常推薦！每一集的片尾都有一段彩蛋，千萬不要錯過了。</p>\n\n<p>不過如果你真的不喜歡動畫，那也可以看 <a href=\"https://www.netflix.com/title/80119426\">Dirk Gently's Holistic Detective Agency</a>，原著小說的作者正是 Douglas Adams。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "*（該文有大量劇透）*\r\n\r\n在 Twitter 上看到有人分享了 [dannvix/NflxMultiSubs](https://github.com/dannvix/NflxMultiSubs)，幫 Netflix 加上「雙語字幕」功能的瀏覽器外掛。突然就想到前一陣子因為椎間盤突出在家裡休養的那段日子，除了物理治療和皮拉提斯之外，其他時間好像都是在看 Netflix 啊。說到這裡，忍不住要跟大家分享一下我印象最深的一部作品，[Rick and Morty](https://www.netflix.com/title/80014749)。不誇張，這部真的是我這輩子看過最屌的科幻動畫，有點像是把銀河便車指南裡的英式幽默用 Futurama 和辛普森家庭取代的感覺，第一次看就看傻了我。非常推薦！每一集的片尾都有一段彩蛋，千萬不要錯過了。\r\n\r\n不過如果你真的不喜歡動畫，那也可以看 [Dirk Gently's Holistic Detective Agency](https://www.netflix.com/title/80119426)，原著小說的作者正是 Douglas Adams。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "alUg2QQ",
+              "title": "dannvix/NflxMultiSubs",
+              "url_domain": "github.com",
+              "url": "https://github.com/dannvix/NflxMultiSubs"
+            },
+            {
+              "identifier": "gMfk1KQ",
+              "title": "Rick and Morty",
+              "url_domain": "netflix.com",
+              "url": "https://www.netflix.com/title/80014749"
+            },
+            {
+              "identifier": "41XddPN",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "netflix.com",
+              "url": "https://www.netflix.com/title/80119426"
+            },
+            {
+              "identifier": "BT56EyC",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "99b47720-13bc-4fa6-946d-4c20b73eb341.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_99b47720-13bc-4fa6-946d-4c20b73eb341.jpg",
+          "image_medium_filename": "original_ratio_medium_99b47720-13bc-4fa6-946d-4c20b73eb341.jpg"
+        },
+        {
+          "identifier": "xdqXvvB",
+          "type": "Link",
+          "title": "sindresorhus/awesome-scifi: Sci-Fi worth consuming",
+          "url_domain": "github.com",
+          "url": "https://github.com/sindresorhus/awesome-scifi",
+          "description": "<p>科幻迷大放送！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=400276879&amp;idx=1&amp;sn=7b6c18c6c6e0be66d7feb9b9cee27048\">史上最经典的 25 部人工智能科幻作品</a></li>\n<li><a href=\"https://vinta.ws/blog/529\">關於科幻</a></li>\n</ul>\n\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "科幻迷大放送！\r\n\r\n延伸閱讀：\r\n\r\n- [史上最经典的 25 部人工智能科幻作品](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=400276879&idx=1&sn=7b6c18c6c6e0be66d7feb9b9cee27048)\r\n- [關於科幻](https://vinta.ws/blog/529)\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "9MokO9C",
+              "title": "史上最经典的 25 部人工智能科幻作品",
+              "url_domain": "qq.com",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=400276879&idx=1&sn=7b6c18c6c6e0be66d7feb9b9cee27048"
+            },
+            {
+              "identifier": "lNxfRv6",
+              "title": "關於科幻",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/blog/529"
+            },
+            {
+              "identifier": "Jx3vNhs",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

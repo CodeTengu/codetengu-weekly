@@ -1,0 +1,422 @@
+{
+  "number": 73,
+  "title": "Issue 73 Merge branch 'develop'",
+  "summary": "本期內容涵蓋 Ethereum, Node.js, Jenkins, JavaScript, React.js, Progressive Web App, Functional Programming, PostgreSQL, Go",
+  "url": "https://weekly.codetengu.com/issues/73",
+  "publication_status": "published",
+  "published_at": "2016-12-19T02:00:00+00:00",
+  "updated_at": "2016-12-19T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Player of Games</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [The Player of Games](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 希望在離開台北之前可以見證到捷運禁止飲食廢止\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "z8971f4",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "ENR5qL9",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "qz80Bt",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "twQ49nq",
+              "title": "The Player of Games",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "CuAjsVK",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "jiiWnvX",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "gXU7klQ",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "7LWVpHw",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "ucjljnO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "nn4tsDc",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "yNJ4VI9",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "4RZbVRh",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Uhx5kHb",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "2i81RGU",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "1w1IHAj",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "tLGWKjv",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "v2NsPOr",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "gOnGiJX",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "A9nLdPq",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "INEhEe",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "E313myn",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "i4K347u",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "jhpdfUr",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "bDHwZ1E",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "HCOIozC",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "1u2fFkC",
+          "type": "Link",
+          "title": "Scanning Live Ethereum Contracts for the \"Unchecked-Send\" Bug",
+          "url_domain": "hackingdistributed.com",
+          "url": "http://hackingdistributed.com/2016/06/16/scanning-live-ethereum-contracts-for-bugs/",
+          "description": "<p>智能合約安全嗎？我也常被問到，怎麼寫智能合約才安全？其實是因為一般軟體處理的是 data (資料)，智能合約處理的是 value (價值)；因此，小小的錯誤，就有可能造成非常大的損失。因此正確的程式寫法或安全的設計模式 (<a href=\"http://medium.com/@billgleim/contract-security-design-patterns-and-reputation-74d455162adb\">Secure Design Patterns</a>)，在智能合約裡變得更加重要。不巧的是，剛開始 <a href=\"https://solidity.readthedocs.io/en/develop/\">Solidity</a> 的範例程式，也跟 C++ 的教科書一樣，為了方便讀者學習，拿掉許多檢查錯誤的程式碼。這樣的錯誤示範，更嚴重的影響到後來陸續開發出來的合約，<a href=\"https://github.com/slockit/DAO\">theDAO</a> 是最典型一個有程式漏洞的智能合約，它也是有史以來最大的眾籌募資 (1.5 億美金)，但沒多久就被駭客偷走了 5,300 萬美元。</p>\n\n<p>這篇文章，簡單的介紹什麼是有問題的程式寫法，當然也建議怎麼寫最好。目前這種問題的解決方法，就是利用工具來檢查這些錯誤的寫法，找出程式裡的安全漏洞，還有研究怎麼樣的設計模式，能避免類似的問題再次發生。</p>",
+          "description_markdown": "智能合約安全嗎？我也常被問到，怎麼寫智能合約才安全？其實是因為一般軟體處理的是 data (資料)，智能合約處理的是 value (價值)；因此，小小的錯誤，就有可能造成非常大的損失。因此正確的程式寫法或安全的設計模式 ([Secure Design Patterns](http://medium.com/@billgleim/contract-security-design-patterns-and-reputation-74d455162adb))，在智能合約裡變得更加重要。不巧的是，剛開始 [Solidity](https://solidity.readthedocs.io/en/develop/) 的範例程式，也跟 C++ 的教科書一樣，為了方便讀者學習，拿掉許多檢查錯誤的程式碼。這樣的錯誤示範，更嚴重的影響到後來陸續開發出來的合約，[theDAO](https://github.com/slockit/DAO) 是最典型一個有程式漏洞的智能合約，它也是有史以來最大的眾籌募資 (1.5 億美金)，但沒多久就被駭客偷走了 5,300 萬美元。\r\n\r\n這篇文章，簡單的介紹什麼是有問題的程式寫法，當然也建議怎麼寫最好。目前這種問題的解決方法，就是利用工具來檢查這些錯誤的寫法，找出程式裡的安全漏洞，還有研究怎麼樣的設計模式，能避免類似的問題再次發生。",
+          "embedded_links": [
+            {
+              "identifier": "r2zoHOc",
+              "title": "Secure Design Patterns",
+              "url_domain": "medium.com",
+              "url": "http://medium.com/@billgleim/contract-security-design-patterns-and-reputation-74d455162adb"
+            },
+            {
+              "identifier": "LBgPxCG",
+              "title": "Solidity",
+              "url_domain": "readthedocs.io",
+              "url": "https://solidity.readthedocs.io/en/develop/"
+            },
+            {
+              "identifier": "Au4G3GR",
+              "title": "theDAO",
+              "url_domain": "github.com",
+              "url": "https://github.com/slockit/DAO"
+            }
+          ]
+        },
+        {
+          "identifier": "NO3MzrN",
+          "type": "Link",
+          "title": "Debugging Node.js in Chrome DevTools",
+          "url_domain": "svbtle.com",
+          "url": "https://mattdesl.svbtle.com/debugging-nodejs-in-chrome-devtools",
+          "description": "<p>介紹大家一個簡單易用的 <a href=\"https://nodejs.org/en/\">node.js</a> 開發、除錯以及 profiling 工具，<a href=\"https://www.npmjs.com/package/devtool\">devtool</a>。它功能之多，真的很難用言語形容。你們可以自己下載下來用用看，就知道它真的有多好用了。</p>",
+          "description_markdown": "介紹大家一個簡單易用的 [node.js](https://nodejs.org/en/) 開發、除錯以及 profiling 工具，[devtool](https://www.npmjs.com/package/devtool)。它功能之多，真的很難用言語形容。你們可以自己下載下來用用看，就知道它真的有多好用了。",
+          "embedded_links": [
+            {
+              "identifier": "920agf6",
+              "title": "node.js",
+              "url_domain": "nodejs.org",
+              "url": "https://nodejs.org/en/"
+            },
+            {
+              "identifier": "j3524vG",
+              "title": "devtool",
+              "url_domain": "npmjs.com",
+              "url": "https://www.npmjs.com/package/devtool"
+            }
+          ]
+        },
+        {
+          "identifier": "7T1XEtF",
+          "type": "Link",
+          "title": "Jenkins Pipelines: What I Wish I Knew Starting Out",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/garbage-collection/jenkins-pipelines-what-i-wish-i-knew-starting-out-6e3d4eb2ff5b",
+          "description": "<p>初學 <a href=\"https://jenkins.io\">Jenkins</a> 者可能會覺得門檻很高，尤其是新的 2.0，最好用的應該是 <a href=\"https://jenkins.io/doc/book/pipeline/getting-started/\">Jenkins Pipeline</a> 功能，但又要學一個語言叫 <a href=\"http://groovy-lang.org\">Groovy</a> 才能使用。</p>\n\n<p>這篇文章介紹為何他們選擇 Jenkins pipelines 當他們連續部署 (continuous deployment) 的工具，在使用過程中，他們也踩了不少雷。因此藉由分享他們的使用經驗，希望能省下大家學習與嘗試錯誤的時間。如果大家想更近一步的學習，可以從 <a href=\"https://jenkins.io/doc/pipeline/examples/\">Pipeline Examples</a> 找到更多範例與樂趣。</p>",
+          "description_markdown": "初學 [Jenkins](https://jenkins.io) 者可能會覺得門檻很高，尤其是新的 2.0，最好用的應該是 [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/getting-started/) 功能，但又要學一個語言叫 [Groovy](http://groovy-lang.org) 才能使用。\r\n\r\n這篇文章介紹為何他們選擇 Jenkins pipelines 當他們連續部署 (continuous deployment) 的工具，在使用過程中，他們也踩了不少雷。因此藉由分享他們的使用經驗，希望能省下大家學習與嘗試錯誤的時間。如果大家想更近一步的學習，可以從 [Pipeline Examples](https://jenkins.io/doc/pipeline/examples/) 找到更多範例與樂趣。",
+          "embedded_links": [
+            {
+              "identifier": "RyVNq1r",
+              "title": "Jenkins",
+              "url_domain": "jenkins.io",
+              "url": "https://jenkins.io"
+            },
+            {
+              "identifier": "RfA4s3b",
+              "title": "Jenkins Pipeline",
+              "url_domain": "jenkins.io",
+              "url": "https://jenkins.io/doc/book/pipeline/getting-started/"
+            },
+            {
+              "identifier": "JK3Fttk",
+              "title": "Groovy",
+              "url_domain": "groovy-lang.org",
+              "url": "http://groovy-lang.org"
+            },
+            {
+              "identifier": "AneslWA",
+              "title": "Pipeline Examples",
+              "url_domain": "jenkins.io",
+              "url": "https://jenkins.io/doc/pipeline/examples/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "AtN7vFR",
+          "type": "Link",
+          "title": "The Inner Workings Of Virtual DOM",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@rajaraodv/the-inner-workings-of-virtual-dom-666ee7ad47cf",
+          "description": "<p>Preact 是 lightweight 版本的 React library ，本篇文章會透過流程圖一步一步仔細探討 Preact 在 create 、 update 、 remove DOM 的流程，以及跟 React lifecycle 的關聯。</p>",
+          "description_markdown": "Preact 是 lightweight 版本的 React library ，本篇文章會透過流程圖一步一步仔細探討 Preact 在 create 、 update 、 remove DOM 的流程，以及跟 React lifecycle 的關聯。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6rejyXN",
+          "type": "Link",
+          "title": "Learning Progressive Web Apps Step by Step",
+          "url_domain": "github.com",
+          "url": "https://github.com/ragingwind/learning-pwa",
+          "description": "<p>Progressive Web App 透過 <a href=\"https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/#app_shell\">App Shell</a> 的概念讓使用者在任何環境都可以順暢瀏覽網頁，這裡提供一個懶人包，除了介紹外，也有幾個 boilerplates 與 generators 方便玩玩第一個 PWA 網頁。</p>",
+          "description_markdown": "Progressive Web App 透過 [App Shell](https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/#app_shell) 的概念讓使用者在任何環境都可以順暢瀏覽網頁，這裡提供一個懶人包，除了介紹外，也有幾個 boilerplates 與 generators 方便玩玩第一個 PWA 網頁。",
+          "embedded_links": [
+            {
+              "identifier": "VeakQex",
+              "title": "App Shell",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/#app_shell"
+            }
+          ]
+        },
+        {
+          "identifier": "dF8z5Go",
+          "type": "Link",
+          "title": "HTML Interactive Form Validation",
+          "url_domain": "webkit.org",
+          "url": "https://webkit.org/blog/7099/html-interactive-form-validation/",
+          "description": "<p>HTML5 的 form validation 終於被實作在 Webkit 上，將來的 Safari 瀏覽器終於也可以使用原生的 validation attributes 以及 JavaScript API ，文內提供幾個簡單的例子以及 DEMO 。</p>",
+          "description_markdown": "HTML5 的 form validation 終於被實作在 Webkit 上，將來的 Safari 瀏覽器終於也可以使用原生的 validation attributes 以及 JavaScript API ，文內提供幾個簡單的例子以及 DEMO 。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Fxa55yW",
+          "type": "Link",
+          "title": "Writing Efficient JavaScript",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@xilefmai/efficient-javascript-14a11651d563#.dbjhxrsts",
+          "description": "<p>本篇文章提出了一些 rule ，經由 JIT compiler 的角度探討，透過確保 compiler  正確執行一些 code optimization ，以及撰寫更有效率的指令，來提升程式的效能，概念都非常簡單，值得一讀。</p>",
+          "description_markdown": "本篇文章提出了一些 rule ，經由 JIT compiler 的角度探討，透過確保 compiler  正確執行一些 code optimization ，以及撰寫更有效率的指令，來提升程式的效能，概念都非常簡單，值得一讀。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "qZ3hjww",
+          "type": "Link",
+          "title": "Functional Programming Patterns",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt",
+          "description": "<p>非常值得一看的 Slide，重新把 functional programming 的基礎再重新走過一次。搭配一些簡單的範例，讓你更了解 functional programming 的優點。投影片以 typed language 作為主要範例，所以 clojure 或 javascript 的朋友如果沒有 haskell 或相關家族的語言經歷，可能會沒那麼容易體會。</p>",
+          "description_markdown": "非常值得一看的 Slide，重新把 functional programming 的基礎再重新走過一次。搭配一些簡單的範例，讓你更了解 functional programming 的優點。投影片以 typed language 作為主要範例，所以 clojure 或 javascript 的朋友如果沒有 haskell 或相關家族的語言經歷，可能會沒那麼容易體會。 ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PqoDMef",
+          "type": "Link",
+          "title": "How SAML Authentication Works",
+          "url_domain": "auth0.com",
+          "url": "https://auth0.com/blog/how-saml-authentication-works/",
+          "description": "<p>企業中常常使用 SAML 作為 Single Sign-On (SSO) 的協定。文中介紹了 SAML 的優點，並且簡單講解了 SAML 是如何運作。</p>\n\n<p>其實只需要看前面說明的部分，就可以了解 SAML 的運作，後面的篇幅在介紹如何使用 Auh0 的 SAML 功能。\n有在尋找 Single Sign-On 解法的朋友也可以參考 <a href=\"http://openid.net/connect/\">OpenID Connect</a>，不是之前曾經熱門過一陣子的 openid 2.0，他們是不同的協定。openid connect 是基於 Oauth2 加上了 JWT (JSON Web Token)，也可以達成 SSO 的功能。想了解更多的朋友，我會在 <a href=\"http://golang.kktix.cc/events/gtg19\">GTG19 (Golang Taiwan Gathering #19)</a> 有更多的介紹。</p>",
+          "description_markdown": "企業中常常使用 SAML 作為 Single Sign-On (SSO) 的協定。文中介紹了 SAML 的優點，並且簡單講解了 SAML 是如何運作。\r\n\r\n其實只需要看前面說明的部分，就可以了解 SAML 的運作，後面的篇幅在介紹如何使用 Auh0 的 SAML 功能。\r\n有在尋找 Single Sign-On 解法的朋友也可以參考 [OpenID Connect](http://openid.net/connect/)，不是之前曾經熱門過一陣子的 openid 2.0，他們是不同的協定。openid connect 是基於 Oauth2 加上了 JWT (JSON Web Token)，也可以達成 SSO 的功能。想了解更多的朋友，我會在 [GTG19 (Golang Taiwan Gathering #19)](http://golang.kktix.cc/events/gtg19) 有更多的介紹。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "4xJrjon",
+              "title": "OpenID Connect",
+              "url_domain": "openid.net",
+              "url": "http://openid.net/connect/"
+            },
+            {
+              "identifier": "DGxLht0",
+              "title": "GTG19 (Golang Taiwan Gathering #19)",
+              "url_domain": "kktix.cc",
+              "url": "http://golang.kktix.cc/events/gtg19"
+            }
+          ]
+        },
+        {
+          "identifier": "tz2IDXP",
+          "type": "Link",
+          "title": "Trying out Postgres Bloom indexes",
+          "url_domain": "cybertec.at",
+          "url": "http://www.cybertec.at/trying-out-postgres-bloom-indexes/",
+          "description": "<p>Postgres 9.6 新增了一個功能叫 Bloom indexes，可以先閱讀過前一篇 <a href=\"http://www.cybertec.at/so-what-are-bloom-indexes-for-postgres/\">So what are Bloom indexes for Postgres?</a> 來了解其作用。</p>\n\n<p>這篇主要真的實驗了 Bloom indexes 的效果。就這篇的測試資料來說，結果算是很不錯。但在 summary 裡面有提到一些問題，所以使用上還是有要注意的地方。</p>",
+          "description_markdown": "Postgres 9.6 新增了一個功能叫 Bloom indexes，可以先閱讀過前一篇 [So what are Bloom indexes for Postgres?](http://www.cybertec.at/so-what-are-bloom-indexes-for-postgres/) 來了解其作用。\r\n\r\n這篇主要真的實驗了 Bloom indexes 的效果。就這篇的測試資料來說，結果算是很不錯。但在 summary 裡面有提到一些問題，所以使用上還是有要注意的地方。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "gfpEbab",
+              "title": "So what are Bloom indexes for Postgres?",
+              "url_domain": "cybertec.at",
+              "url": "http://www.cybertec.at/so-what-are-bloom-indexes-for-postgres/"
+            }
+          ]
+        },
+        {
+          "identifier": "6FzB6md",
+          "type": "Link",
+          "title": "The Saga of Go Dependency Management",
+          "url_domain": "gopheracademy.com",
+          "url": "https://blog.gopheracademy.com/advent-2016/saga-go-dependency-management",
+          "description": "<p>說明了 golang 套件管理的發展，以及目前成立了一個套件管理委員會。說明委員會的任務，還有他們第一次開會完的一些目標。</p>\n\n<p>看起來 golang 的管理套件會採取和其他現代化的套件管理工具類似的做法。像是 SemVer、扁平的相依性、兩個檔案，一個作為套件版本號，另一個作為 lock 檔案。</p>\n\n<p>這篇蠻適合剛接觸 golang 的新手了解目前 golang 發展的情況。</p>",
+          "description_markdown": "說明了 golang 套件管理的發展，以及目前成立了一個套件管理委員會。說明委員會的任務，還有他們第一次開會完的一些目標。\r\n\r\n看起來 golang 的管理套件會採取和其他現代化的套件管理工具類似的做法。像是 SemVer、扁平的相依性、兩個檔案，一個作為套件版本號，另一個作為 lock 檔案。\r\n\r\n這篇蠻適合剛接觸 golang 的新手了解目前 golang 發展的情況。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "g7ZzvGw",
+          "type": "Link",
+          "title": "For User Engagement, Forget Flow. It’s All About Fiero",
+          "url_domain": "prototypr.io",
+          "url": "https://blog.prototypr.io/for-user-engagement-forget-flow-its-all-about-fiero-80500e4c1d8e#.2qgyggsde",
+          "description": "<p>Flow 是使用者體驗裡面常提到的，通常包括四個元素。</p>\n\n<ol>\n<li>明確的目標</li>\n<li>回饋</li>\n<li>挑戰與鍛鍊的平衡</li>\n<li>低風險的失敗</li>\n</ol>\n\n\n<p>但是作者說明前兩個很容易，但是一般對於非遊戲化的系統，要做到遊戲化根本上缺少了第三項。\n所以在嘗試遊戲化的過程中，你很難達到 flow 的設計精神。</p>\n\n<p>作者說，重要的其實是 Fiero (成就感)，當你越過任何難過時候達成的感受，才是讓你不斷努力的原因。\n下次在你的設計中，試著嘗試加入一些成就感的體驗吧。</p>",
+          "description_markdown": "Flow 是使用者體驗裡面常提到的，通常包括四個元素。\r\n\r\n1. 明確的目標\r\n2. 回饋\r\n3. 挑戰與鍛鍊的平衡\r\n4. 低風險的失敗\r\n\r\n但是作者說明前兩個很容易，但是一般對於非遊戲化的系統，要做到遊戲化根本上缺少了第三項。\r\n所以在嘗試遊戲化的過程中，你很難達到 flow 的設計精神。\r\n\r\n作者說，重要的其實是 Fiero (成就感)，當你越過任何難過時候達成的感受，才是讓你不斷努力的原因。\r\n下次在你的設計中，試著嘗試加入一些成就感的體驗吧。\r\n\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VUI0vvU",
+          "type": "Link",
+          "title": "Webpack Performance Budgets",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/webpack/webpack-performance-budgets-13d4880fbf6d#.wxh0hbbxo",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "number": 103,
+  "title": "Issue 103 If 判斷式就是窮人版的決策樹",
+  "summary": "本期內容涵蓋 PostgreSQL, Rust, JSON API, Golang, Kubernetes, Machine Learning, MongoDB",
+  "url": "https://weekly.codetengu.com/issues/103",
+  "publication_status": "published",
+  "published_at": "2017-10-23T03:00:00+01:00",
+  "updated_at": "2017-10-23T03:00:03+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Ready Player One</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 請推薦工作機會</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Ready Player One](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw) - 請推薦工作機會\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "F0nXJOM",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Fi7k6ID",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "rIRIKb6",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "R71jESy",
+              "title": "Ready Player One",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "V8YN5pm",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "sSrBzUY",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "7ArtvoD",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "OUwYrVd",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Tj8ishw",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "sVjeMvb",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "hSsPvYo",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "RauaAGZ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "j3xN6lN",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "3UopWpz",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "AR26rgB",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "mGLfIKi",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ZBV2EwD",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "3eJGmqb",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "OK15GIA",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ffFkWX4",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "Iottx6d",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "Nt2DgEB",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "rYdYo2s",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "s4X4fEr",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "vaeiU4O",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "muU7Y1a",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "JjB55g9",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "pxUnxo2",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "cECTxxG",
+          "type": "Link",
+          "title": "The Internals of PostgreSQL : Introduction",
+          "url_domain": "interdb.jp",
+          "url": "http://www.interdb.jp/pg/index.html",
+          "description": "<p>一個詳實講解 PostgreSQL 運作機制的網站，其實這是鈴木啓修さん (SUZUKI Hironobu) 很佛心地將他的著作《<a href=\"https://www.amazon.co.jp/PostgreSQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774153923\">PostgreSQL全機能バイブル</a>》幾乎整本的翻譯為英文，放到這個網站上，很具參考價值。</p>\n\n<p>就我可能有點受到同溫層影響，而得到一個或許是刻板印象的印象，PostgreSQL 在 Rails 開發社群裡，還蠻常見到它被選用為後端資料庫系統的，不過我自己之所以用起 PostgreSQL 反倒是中途一度跑去寫 PHP 時，為了處理專案中某個惱人的樹狀資料結構，而發現 PostgreSQL 的 <a href=\"https://www.postgresql.org/docs/current/static/ltree.html\">ltree</a> 特好用，就此成為愛用者。然而我就也只是個只知基本操作的 PostgreSQL 用戶，在工作中碰到資料庫效能瓶頸時，方知我對 PostgreSQL 內部運作機制一無所知，這本書正巧起了個很豐富的知識補充作用。如果您也有跟我類似的背景，這本 PostgreSQL 線上電子書或許也會適合您一讀。</p>",
+          "description_markdown": "一個詳實講解 PostgreSQL 運作機制的網站，其實這是鈴木啓修さん (SUZUKI Hironobu) 很佛心地將他的著作《[PostgreSQL全機能バイブル](https://www.amazon.co.jp/PostgreSQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774153923)》幾乎整本的翻譯為英文，放到這個網站上，很具參考價值。\r\n\r\n就我可能有點受到同溫層影響，而得到一個或許是刻板印象的印象，PostgreSQL 在 Rails 開發社群裡，還蠻常見到它被選用為後端資料庫系統的，不過我自己之所以用起 PostgreSQL 反倒是中途一度跑去寫 PHP 時，為了處理專案中某個惱人的樹狀資料結構，而發現 PostgreSQL 的 [ltree](https://www.postgresql.org/docs/current/static/ltree.html) 特好用，就此成為愛用者。然而我就也只是個只知基本操作的 PostgreSQL 用戶，在工作中碰到資料庫效能瓶頸時，方知我對 PostgreSQL 內部運作機制一無所知，這本書正巧起了個很豐富的知識補充作用。如果您也有跟我類似的背景，這本 PostgreSQL 線上電子書或許也會適合您一讀。",
+          "embedded_links": [
+            {
+              "identifier": "3CugSV5",
+              "title": "PostgreSQL全機能バイブル",
+              "url_domain": "amazon.co.jp",
+              "url": "https://www.amazon.co.jp/PostgreSQL%E5%85%A8%E6%A9%9F%E8%83%BD%E3%83%90%E3%82%A4%E3%83%96%E3%83%AB-%E9%88%B4%E6%9C%A8-%E5%95%93%E4%BF%AE/dp/4774153923"
+            },
+            {
+              "identifier": "UYqzlVs",
+              "title": "ltree",
+              "url_domain": "postgresql.org",
+              "url": "https://www.postgresql.org/docs/current/static/ltree.html"
+            }
+          ]
+        },
+        {
+          "identifier": "JsFNqTD",
+          "type": "Link",
+          "title": "給 C++ 使用者的 Rust 簡介",
+          "url_domain": "electronic.blue",
+          "url": "https://electronic.blue/blog/2016/10/10-rust-an-introduction/",
+          "description": "<p>Rust 在產品定位上是 system programming language，在這個領域的市場霸主是 C/C++，這系列文章是針對已有 C++ 基礎知識的人士寫的，以等價、類比概念來介紹 Rust。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"https://github.com/nrc/r4cppp\">Rust for C++ programmers</a> 另一份類似的介紹、教學文。</li>\n<li><a href=\"https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&amp;mid=2653162576&amp;idx=1&amp;sn=921c4a9574d4a9ece3bf9ed4ff02b582&amp;chksm=8b49313ebc3eb828255121186d58e170c86c1d3f7c91560fac9646109738606a640e2f26efde&amp;scene=21#wechat_redirect\">我们为什么要选择小众语言 Rust 来实现 TiKV？</a> <a href=\"https://www.pingcap.com/\">PingCAP</a> 聯合創始人兼 CTO 黄东旭的文章，描述他們選擇 Rust 來開發 TiKV 的決策歷程。</li>\n</ul>",
+          "description_markdown": "Rust 在產品定位上是 system programming language，在這個領域的市場霸主是 C/C++，這系列文章是針對已有 C++ 基礎知識的人士寫的，以等價、類比概念來介紹 Rust。\r\n\r\n同場加映：\r\n\r\n* [Rust for C++ programmers](https://github.com/nrc/r4cppp) 另一份類似的介紹、教學文。\r\n* [我们为什么要选择小众语言 Rust 来实现 TiKV？](https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162576&idx=1&sn=921c4a9574d4a9ece3bf9ed4ff02b582&chksm=8b49313ebc3eb828255121186d58e170c86c1d3f7c91560fac9646109738606a640e2f26efde&scene=21#wechat_redirect) [PingCAP](https://www.pingcap.com/) 聯合創始人兼 CTO 黄东旭的文章，描述他們選擇 Rust 來開發 TiKV 的決策歷程。",
+          "embedded_links": [
+            {
+              "identifier": "8dsQlOo",
+              "title": "Rust for C++ programmers",
+              "url_domain": "github.com",
+              "url": "https://github.com/nrc/r4cppp"
+            },
+            {
+              "identifier": "2JjPzFV",
+              "title": "我们为什么要选择小众语言 Rust 来实现 TiKV？",
+              "url_domain": "qq.com",
+              "url": "https://mp.weixin.qq.com/s?__biz=MzA5NzkxMzg1Nw==&mid=2653162576&idx=1&sn=921c4a9574d4a9ece3bf9ed4ff02b582&chksm=8b49313ebc3eb828255121186d58e170c86c1d3f7c91560fac9646109738606a640e2f26efde&scene=21#wechat_redirect"
+            },
+            {
+              "identifier": "vaDbMud",
+              "title": "PingCAP",
+              "url_domain": "pingcap.com",
+              "url": "https://www.pingcap.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "Gu8SKB7",
+          "type": "Link",
+          "title": "JSON API — A specification for building APIs in JSON",
+          "url_domain": "jsonapi.org",
+          "url": "http://jsonapi.org/",
+          "description": "<p>在學著刻 API 的時候，發現這個名稱不怎麼特別的（畢竟在這時代 server-side 只要會吐 JSON 的就叫 API）、不酷不炫不潮不夯的東西（在 2013 年就已經略具雛型了，2015 年中推出 1.0 版…）。</p>\n\n<p>簡單說，這個 JSON API 就是一份 API 實作規範、準則，照著實作，您的 API 產品基本方方面面就大致上可說是五臟俱全。對於想要做 API 產品而怕莫衷一是、掛一漏萬的人來說，這個  JSON API 是很不錯的進入點、地基。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"http://www.jianshu.com/p/0c593988c759\">JSON API 1.0 核心开发者自述 | 你所不知道的那些技术细节</a></li>\n<li><a href=\"http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/\">How and why should you use JSON API in your Rails API?</a> <em>（附註：JSON API 不只是 Ruby &amp; Rails 這個小圈圈裡的一小撮人在搞的東西，您可以在 <a href=\"http://jsonapi.org/implementations/\">JSON API — Implementations</a> 找到各種當代製作 Web API 產品的流行語言之相關實作）</em></li>\n</ul>",
+          "description_markdown": "在學著刻 API 的時候，發現這個名稱不怎麼特別的（畢竟在這時代 server-side 只要會吐 JSON 的就叫 API）、不酷不炫不潮不夯的東西（在 2013 年就已經略具雛型了，2015 年中推出 1.0 版…）。\r\n\r\n簡單說，這個 JSON API 就是一份 API 實作規範、準則，照著實作，您的 API 產品基本方方面面就大致上可說是五臟俱全。對於想要做 API 產品而怕莫衷一是、掛一漏萬的人來說，這個  JSON API 是很不錯的進入點、地基。\r\n\r\n同場加映：\r\n\r\n* [JSON API 1.0 核心开发者自述 | 你所不知道的那些技术细节](http://www.jianshu.com/p/0c593988c759)\r\n* [How and why should you use JSON API in your Rails API?](http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/) _（附註：JSON API 不只是 Ruby & Rails 這個小圈圈裡的一小撮人在搞的東西，您可以在 [JSON API — Implementations](http://jsonapi.org/implementations/) 找到各種當代製作 Web API 產品的流行語言之相關實作）_",
+          "embedded_links": [
+            {
+              "identifier": "vtf9EKo",
+              "title": "JSON API 1.0 核心开发者自述 | 你所不知道的那些技术细节",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/p/0c593988c759"
+            },
+            {
+              "identifier": "vbvJZXt",
+              "title": "How and why should you use JSON API in your Rails API?",
+              "url_domain": "arkency.com",
+              "url": "http://blog.arkency.com/2016/02/how-and-why-should-you-use-json-api-in-your-rails-api/"
+            },
+            {
+              "identifier": "xr6nPF2",
+              "title": "JSON API — Implementations",
+              "url_domain": "jsonapi.org",
+              "url": "http://jsonapi.org/implementations/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "VplsgCZ",
+          "type": "Link",
+          "title": "How refactoring my C++ application into a Go library made it better in every way",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@brendanleglaunec/how-refactoring-my-c-application-into-a-go-library-made-it-better-in-every-way-b99aa15fcfdf",
+          "description": "<p>Cmeradar 後端工程師解釋當初開發過程中，如何把 C++ 的部份重構改成 Go</p>\n\n<p>Cmeradar 這個套件很有趣，他會掃描你網路區段中是否有 RTSP server (port 554) 然後直接試著連接到 server 並且提供可用的 RTSP 鏈結 (可用 VLC 播放)． 有興趣的人可以看看相關實現的部分...</p>\n\n<p>當然如果你想自己弄 Golang RTSP client 可以看看以下這個鏈結 透過 <a href=\"https://buff.ly/2g3KEsW\">joy4</a></p>",
+          "description_markdown": "Cmeradar 後端工程師解釋當初開發過程中，如何把 C++ 的部份重構改成 Go \r\n\r\nCmeradar 這個套件很有趣，他會掃描你網路區段中是否有 RTSP server (port 554) 然後直接試著連接到 server 並且提供可用的 RTSP 鏈結 (可用 VLC 播放)． 有興趣的人可以看看相關實現的部分...\r\n\r\n當然如果你想自己弄 Golang RTSP client 可以看看以下這個鏈結 透過 [joy4](https://buff.ly/2g3KEsW)",
+          "embedded_links": [
+            {
+              "identifier": "lOU81Gc",
+              "title": "joy4",
+              "url_domain": "buff.ly",
+              "url": "https://buff.ly/2g3KEsW"
+            }
+          ]
+        },
+        {
+          "identifier": "Yq06wRM",
+          "type": "Link",
+          "title": "NVIDIA/k8s-device-plugin: NVIDIA device plugin for Kubernetes",
+          "url_domain": "github.com",
+          "url": "https://github.com/NVIDIA/k8s-device-plugin",
+          "description": "<p>https://github.com/NVIDIA/k8s-device-plugin</p>\n\n<p>Kubernetes 在設計上有著相當程度的擴充性，在當初有 plugin 的架構就可以看出來． 比如說: Network Plugin 讓 CNI 可以輕鬆地整合． 1.8 版剛開放 alpha 的新功能 \"Device Plugin\" 更強，可以讓 GPU, 高效能網卡, FPGAs 甚至是 InfiniBand 輕鬆的整合在 Kubernetes 之中</p>\n\n<p>原本在 Kubernetes 內預設只能抓取到 CPU 與 Memory 的狀態（不然，就得很辛苦.. 你懂的)  但是透過了 Device Plugin 你就做以下的事情:</p>\n\n<ul>\n<li>輕易的讓 Kubernetes 內所有的 container 可以存取該裝置</li>\n<li>輕易抓取到 GPU (或是高效率網卡) 的訊息</li>\n<li>透過 Kubernetes 的 Health check 來檢查裝置狀態</li>\n</ul>\n\n\n<p>有興趣的可以再看看  Kuberentes <a href=\"https://kubernetes.io/docs/concepts/cluster-administration/device-plugins/\">文件</a></p>\n\n<p>題外話: <a href=\"https://buzzorange.com/techorange/2017/10/17/adam-jamie-cpu-gpu-compare/\">CPU 與 GPU 到底差在哪？ (XDD)  </a></p>",
+          "description_markdown": "https://github.com/NVIDIA/k8s-device-plugin\r\n\r\nKubernetes 在設計上有著相當程度的擴充性，在當初有 plugin 的架構就可以看出來． 比如說: Network Plugin 讓 CNI 可以輕鬆地整合． 1.8 版剛開放 alpha 的新功能 \"Device Plugin\" 更強，可以讓 GPU, 高效能網卡, FPGAs 甚至是 InfiniBand 輕鬆的整合在 Kubernetes 之中\r\n\r\n原本在 Kubernetes 內預設只能抓取到 CPU 與 Memory 的狀態（不然，就得很辛苦.. 你懂的)  但是透過了 Device Plugin 你就做以下的事情:\r\n\r\n- 輕易的讓 Kubernetes 內所有的 container 可以存取該裝置\r\n- 輕易抓取到 GPU (或是高效率網卡) 的訊息\r\n- 透過 Kubernetes 的 Health check 來檢查裝置狀態\r\n\r\n有興趣的可以再看看  Kuberentes [文件](https://kubernetes.io/docs/concepts/cluster-administration/device-plugins/)  \r\n\r\n題外話: [CPU 與 GPU 到底差在哪？ (XDD)  ](https://buzzorange.com/techorange/2017/10/17/adam-jamie-cpu-gpu-compare/)",
+          "embedded_links": [
+            {
+              "identifier": "eTSawXd",
+              "title": "文件",
+              "url_domain": "kubernetes.io",
+              "url": "https://kubernetes.io/docs/concepts/cluster-administration/device-plugins/"
+            },
+            {
+              "identifier": "q4lZ98i",
+              "title": "CPU 與 GPU 到底差在哪？ (XDD)  ",
+              "url_domain": "buzzorange.com",
+              "url": "https://buzzorange.com/techorange/2017/10/17/adam-jamie-cpu-gpu-compare/"
+            }
+          ]
+        },
+        {
+          "identifier": "n2KJ6ag",
+          "type": "Link",
+          "title": "Machine Learning Platform meetup – Netflix TechBlog",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/netflix-techblog/machine-learning-platform-meetup-ddec090f3c17",
+          "description": "<p>什麼樣的 Meetup 講者包括 Google, Twitter, Uber, Facebook 與 Netflix？\n當然就是由 Netflix 所舉辦的 Machine Learning Platform Meetup</p>\n\n<p>裡面包括了兩套剛剛 Open-Source 強大的工具 <a href=\"https://github.com/Netflix/vectorflow\">Netflix/vectorFlow</a> 與 <a href=\"https://github.com/uber/horovod\">Uber/Horovod</a></p>\n\n<p>五篇 talk 包含了三套系統與兩個 Machine Learning 的經驗分享..\n不愧是第二外星科技產生的公司 (Netflix) 舉辦的 Meetup</p>",
+          "description_markdown": "什麼樣的 Meetup 講者包括 Google, Twitter, Uber, Facebook 與 Netflix？\r\n當然就是由 Netflix 所舉辦的 Machine Learning Platform Meetup\r\n\r\n裡面包括了兩套剛剛 Open-Source 強大的工具 [Netflix/vectorFlow](https://github.com/Netflix/vectorflow) 與 [Uber/Horovod](https://github.com/uber/horovod)\r\n\r\n五篇 talk 包含了三套系統與兩個 Machine Learning 的經驗分享..\r\n不愧是第二外星科技產生的公司 (Netflix) 舉辦的 Meetup",
+          "embedded_links": [
+            {
+              "identifier": "C7aXJ1l",
+              "title": "Netflix/vectorFlow",
+              "url_domain": "github.com",
+              "url": "https://github.com/Netflix/vectorflow"
+            },
+            {
+              "identifier": "9C4YvlS",
+              "title": "Uber/Horovod",
+              "url_domain": "github.com",
+              "url": "https://github.com/uber/horovod"
+            }
+          ]
+        },
+        {
+          "identifier": "UogXm9y",
+          "type": "Link",
+          "title": "如何基于 Go 搭建一个大数据平台",
+          "url_domain": "qq.com",
+          "url": "https://mp.weixin.qq.com/s/AbOUe4XaTwWPlHq7TRvOug",
+          "description": "<p>這篇文章講解了七牛如何使用 Golang 打造他們的大數據平台服務 (Pandora)\n裡面包括了簡單的架構圖，與可能會遇到的問題，包括了:</p>\n\n<ul>\n<li>高吞吐 (high throughput）與低延遲 (Low latency)</li>\n<li>高可用 (HA) 與水平擴展 (Scale-out)</li>\n<li>自動化營運 (Automation)</li>\n</ul>\n\n\n<p>文章的本文真正提到 Golang 的優點部分並不多，\n但是許多內容提到建置一個大數據平台應該要有哪些要注意的地方．\n很值得好好研究．</p>",
+          "description_markdown": "這篇文章講解了七牛如何使用 Golang 打造他們的大數據平台服務 (Pandora)\r\n裡面包括了簡單的架構圖，與可能會遇到的問題，包括了:\r\n\r\n- 高吞吐 (high throughput）與低延遲 (Low latency)\r\n- 高可用 (HA) 與水平擴展 (Scale-out)\r\n- 自動化營運 (Automation)\r\n\r\n文章的本文真正提到 Golang 的優點部分並不多，\r\n但是許多內容提到建置一個大數據平台應該要有哪些要注意的地方．\r\n很值得好好研究．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "K5dRQbv",
+          "type": "Link",
+          "title": "[中文導讀] Are You a Software Architect?",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/SoftewareArchitect/",
+          "description": "<p>之前在網路上有個有趣的討論，\n究竟前端工程師需不需要了解演算法．</p>\n\n<p>這就讓我思考到，那麼一個軟體架構師需要哪些能力呢？ 這篇文章可以來了解一下...\n不論你已經是軟體架構師，或是你正想將你的專業領域網軟體架構師來邁進，都建議來看一下．</p>",
+          "description_markdown": "之前在網路上有個有趣的討論，\r\n究竟前端工程師需不需要了解演算法．\r\n\r\n這就讓我思考到，那麼一個軟體架構師需要哪些能力呢？ 這篇文章可以來了解一下...\r\n不論你已經是軟體架構師，或是你正想將你的專業領域網軟體架構師來邁進，都建議來看一下．",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "peVj2xR",
+          "type": "Link",
+          "title": "Working with TIme Zones",
+          "url_domain": "w3.org",
+          "url": "https://www.w3.org/TR/timezone/",
+          "description": "<p>最近<a href=\"https://join.gov.tw/idea/detail/90028e3c-f785-438a-836b-25b0b8fb8e1b\">把台灣的時區改成 +9 的提案</a> 引起不少討論。本篇就是 W3C 對處理時區的建議。有處理過就知道台灣沒有日光節約時間真是超幸福的。不然 stackoverflow 上<a href=\"https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices\">處理日光節約時間的提問</a> 就不會這麼熱門了。要是真的改時區的話，台灣的工程師需求大概會增加 20% 吧ＸＤ</p>",
+          "description_markdown": "最近[把台灣的時區改成 +9 的提案](https://join.gov.tw/idea/detail/90028e3c-f785-438a-836b-25b0b8fb8e1b) 引起不少討論。本篇就是 W3C 對處理時區的建議。有處理過就知道台灣沒有日光節約時間真是超幸福的。不然 stackoverflow 上[處理日光節約時間的提問](https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices) 就不會這麼熱門了。要是真的改時區的話，台灣的工程師需求大概會增加 20% 吧ＸＤ",
+          "embedded_links": [
+            {
+              "identifier": "JuFeu5z",
+              "title": "把台灣的時區改成 +9 的提案",
+              "url_domain": "join.gov.tw",
+              "url": "https://join.gov.tw/idea/detail/90028e3c-f785-438a-836b-25b0b8fb8e1b"
+            },
+            {
+              "identifier": "KGvvV3h",
+              "title": "處理日光節約時間的提問",
+              "url_domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/2532729/daylight-saving-time-and-time-zone-best-practices"
+            }
+          ]
+        },
+        {
+          "identifier": "wM8a9KB",
+          "type": "Link",
+          "title": "Mongodb Stale Read",
+          "url_domain": "aphyr.com",
+          "url": "https://aphyr.com/posts/322-jepsen-mongodb-stale-reads",
+          "description": "<p>最近在處理一些mongodb 的問題。發現這篇關於 mongodb 一致性(consistency) 的文。裡面分析了為什麼mongodb 2.6 即使在最高的 write concern, MAJORITY 下也會產生 dirty read。也就是沒辦法保證讀取自己剛剛寫入的值會得到一樣的結果。</p>",
+          "description_markdown": "最近在處理一些mongodb 的問題。發現這篇關於 mongodb 一致性(consistency) 的文。裡面分析了為什麼mongodb 2.6 即使在最高的 write concern, MAJORITY 下也會產生 dirty read。也就是沒辦法保證讀取自己剛剛寫入的值會得到一樣的結果。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "GfrDGw0",
+          "type": "Link",
+          "title": "Apple 如何偵測 Hey Siri",
+          "url_domain": "apple.com",
+          "url": "https://machinelearning.apple.com/2017/10/01/hey-siri.html",
+          "description": "<p>最新一期 Apple Machine Learning  journal (blog ?) ，講解了他們怎麼用 Deep Neural Network (DNN) 來偵測 Hey Siri。特別有趣的是在行動裝置的電力和處理能力限制下，先在比較不耗電 coprocessor 上用一個小的 network 來偵測可能的事件，機率高的話再開啟主要的處理器來做精準的偵測。這也解釋了為什麼有 coprocessor 的 iPhone 能在任何時候都聽到使用者的呼喚，但是又不把手機的店吃光光。</p>",
+          "description_markdown": "最新一期 Apple Machine Learning  journal (blog ?) ，講解了他們怎麼用 Deep Neural Network (DNN) 來偵測 Hey Siri。特別有趣的是在行動裝置的電力和處理能力限制下，先在比較不耗電 coprocessor 上用一個小的 network 來偵測可能的事件，機率高的話再開啟主要的處理器來做精準的偵測。這也解釋了為什麼有 coprocessor 的 iPhone 能在任何時候都聽到使用者的呼喚，但是又不把手機的店吃光光。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "8MJaOkp",
+          "type": "Link",
+          "title": " 迴紋針製造器",
+          "url_domain": "decisionproblem.com",
+          "url": "http://www.decisionproblem.com/paperclips/index2.html",
+          "description": "<p>AI 界有一個有名的思想實驗，<a href=\"https://wiki.lesswrong.com/wiki/Paperclip_maximizer\">Paperclip maximizer</a>。 內容是關於如果讓一個製造迴紋針的 AI 無限制的發展會發生什麼事。\n現在有人把它做成了一個 web game !</p>\n\n<p>PS. 他使用了 Local Storage，你可以安心地關掉它去睡覺，明天再繼續製造迴紋針。</p>",
+          "description_markdown": "AI 界有一個有名的思想實驗，[Paperclip maximizer](https://wiki.lesswrong.com/wiki/Paperclip_maximizer)。 內容是關於如果讓一個製造迴紋針的 AI 無限制的發展會發生什麼事。\r\n現在有人把它做成了一個 web game !\r\n\r\nPS. 他使用了 Local Storage，你可以安心地關掉它去睡覺，明天再繼續製造迴紋針。",
+          "embedded_links": [
+            {
+              "identifier": "9zQsB33",
+              "title": "Paperclip maximizer",
+              "url_domain": "lesswrong.com",
+              "url": "https://wiki.lesswrong.com/wiki/Paperclip_maximizer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

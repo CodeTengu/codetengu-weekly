@@ -1,0 +1,544 @@
+{
+  "number": 5,
+  "title": "Issue 5 遇到了一個問題，決定用 thread 來解決，嗯，在現有我兩個問了題",
+  "summary": "本期內容涵蓋 Elasticsearch, Functional Programming, Git, GitHub, JavaScript, Machine Learning, Node.js, Python",
+  "url": "https://weekly.codetengu.com/issues/5",
+  "publication_status": "published",
+  "published_at": "2015-08-31T03:00:00+01:00",
+  "updated_at": "2016-05-21T06:33:37+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - <strong>熬夜是一種才能</strong></li>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"http://vinta.ws/code/\">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>坦然一個人吃燒肉、逛超市的真大叔</strong></li>\n</ul>\n\n\n<p>歡迎關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，保證每天更新。</p>",
+          "description_markdown": "本期 curators：\r\n\r\n* [@wancw](https://twitter.com/wancw) - **熬夜是一種才能**\r\n* [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](http://vinta.ws/code/) - **無法通過圖靈測試的程序員**  \r\n* [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **坦然一個人吃燒肉、逛超市的真大叔**\r\n\r\n歡迎關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，保證每天更新。",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "GoHSF0P",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "fzG08hK",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "JwluXZo",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "http://vinta.ws/code/"
+            },
+            {
+              "identifier": "RkdsZG4",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "TtInnbB",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "xtZcMj3",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Wn5k3hC",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "3DzDpeL",
+          "type": "Link",
+          "title": "Python Anti-Patterns",
+          "url_domain": "quantifiedcode.com",
+          "url": "http://docs.quantifiedcode.com/python-code-patterns/",
+          "description": "<p>由 QuantifiedCode 的人所寫的小手冊，列舉了很多 Python 的 anti-patterns 和 bad practices，包含正確性、可讀性、可維護性等主題，基本上是一套加強版的 coding style guideline。而 <a href=\"https://www.quantifiedcode.com/\">QuantifiedCode</a> 就是一個在做 Python 程式碼質量檢測的服務。類似的服務還有 <a href=\"https://landscape.io/\">Landscape</a>，而且 Landscape 在 GitHub 上還有 open source 針對 Django 和 Celery 的 pylint 外掛。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://google-styleguide.googlecode.com/svn/trunk/pyguide.html\">Google Python Style Guide</a></li>\n<li><a href=\"https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/\">Django Coding Style</a></li>\n</ul>",
+          "description_markdown": "由 QuantifiedCode 的人所寫的小手冊，列舉了很多 Python 的 anti-patterns 和 bad practices，包含正確性、可讀性、可維護性等主題，基本上是一套加強版的 coding style guideline。而 [QuantifiedCode](https://www.quantifiedcode.com/) 就是一個在做 Python 程式碼質量檢測的服務。類似的服務還有 [Landscape](https://landscape.io/)，而且 Landscape 在 GitHub 上還有 open source 針對 Django 和 Celery 的 pylint 外掛。\r\n\r\n延伸閱讀：\r\n\r\n* [Google Python Style Guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html)\r\n* [Django Coding Style](https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/)",
+          "embedded_links": [
+            {
+              "identifier": "EbULJcf",
+              "title": "QuantifiedCode",
+              "url_domain": "quantifiedcode.com",
+              "url": "https://www.quantifiedcode.com/"
+            },
+            {
+              "identifier": "uQ1n2bN",
+              "title": "Landscape",
+              "url_domain": "landscape.io",
+              "url": "https://landscape.io/"
+            },
+            {
+              "identifier": "VSWcHkx",
+              "title": "Google Python Style Guide",
+              "url_domain": "googlecode.com",
+              "url": "https://google-styleguide.googlecode.com/svn/trunk/pyguide.html"
+            },
+            {
+              "identifier": "JgwanDG",
+              "title": "Django Coding Style",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/"
+            }
+          ]
+        },
+        {
+          "identifier": "Nf3vqv8",
+          "type": "Link",
+          "title": "Mock yourself, not your tests",
+          "url_domain": "github.io",
+          "url": "http://hernantz.github.io/mock-yourself-not-your-tests.html",
+          "description": "<p>這篇文章說的是：「不用什麼都 mock，你應該放膽在測試中使用（由 object factory 產生的）真實物件。」好吧，那其實就是 integration test 了。在 Python 和 Django 中比較常用的工具是 <a href=\"https://github.com/rbarrois/factory_boy\">factory_boy</a>，雖然我比較喜歡 <a href=\"http://model-mommy.readthedocs.org/en/latest/\">model_mommy</a>，用起來卡爽快。</p>\n\n<p>過度 mock 的壞處是你其實在測試中做了過多的假設，從而忽略了多個元件之間是否真的能夠正常互動，而且更可能造成 \"測試通過了但是你的程式實際上是壞的\" 的處境。我們都會說開發環境應該要跟正式環境盡可能地一致，而你其實也應該在測試裡使用真的在正式環境裡執行的程式碼。</p>\n\n<p>如果你覺得以上的言論都他媽在放屁，那你很可能是個激進的 <a href=\"https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/\">Mock 主義者</a>。當然 mock 還是有其優勢，例如它可以隔絕外部依賴、大幅提升測試的執行速度和強迫你把物件之間的 API 切得更乾淨。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://ingramchen.io/blog/2014/04/how-i-do-test-driven-development.html\">Test Driven Development 經驗整理</a> by <a href=\"https://twitter.com/ingramchen\">@ingramchen</a></li>\n<li><a href=\"http://www.dotblogs.com.tw/hatelove/archive/2014/05/03/relative-articles-of-dhh-tdd-is-dead.aspx\">TDD is dead. Long live testing. 懶人包整理</a> - 去年的史詩級筆戰</li>\n</ul>",
+          "description_markdown": "這篇文章說的是：「不用什麼都 mock，你應該放膽在測試中使用（由 object factory 產生的）真實物件。」好吧，那其實就是 integration test 了。在 Python 和 Django 中比較常用的工具是 [factory_boy](https://github.com/rbarrois/factory_boy)，雖然我比較喜歡 [model_mommy](http://model-mommy.readthedocs.org/en/latest/)，用起來卡爽快。\r\n\r\n過度 mock 的壞處是你其實在測試中做了過多的假設，從而忽略了多個元件之間是否真的能夠正常互動，而且更可能造成 \"測試通過了但是你的程式實際上是壞的\" 的處境。我們都會說開發環境應該要跟正式環境盡可能地一致，而你其實也應該在測試裡使用真的在正式環境裡執行的程式碼。\r\n\r\n如果你覺得以上的言論都他媽在放屁，那你很可能是個激進的 [Mock 主義者](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)。當然 mock 還是有其優勢，例如它可以隔絕外部依賴、大幅提升測試的執行速度和強迫你把物件之間的 API 切得更乾淨。\r\n\r\n延伸閱讀：\r\n\r\n* [Test Driven Development 經驗整理](http://ingramchen.io/blog/2014/04/how-i-do-test-driven-development.html) by [@ingramchen](https://twitter.com/ingramchen)\r\n* [TDD is dead. Long live testing. 懶人包整理](http://www.dotblogs.com.tw/hatelove/archive/2014/05/03/relative-articles-of-dhh-tdd-is-dead.aspx) - 去年的史詩級筆戰",
+          "embedded_links": [
+            {
+              "identifier": "Ei2J2de",
+              "title": "factory_boy",
+              "url_domain": "github.com",
+              "url": "https://github.com/rbarrois/factory_boy"
+            },
+            {
+              "identifier": "ZsSxILC",
+              "title": "model_mommy",
+              "url_domain": "readthedocs.org",
+              "url": "http://model-mommy.readthedocs.org/en/latest/"
+            },
+            {
+              "identifier": "7Q34S42",
+              "title": "Mock 主義者",
+              "url_domain": "wordpress.com",
+              "url": "https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/"
+            },
+            {
+              "identifier": "jAw8meM",
+              "title": "Test Driven Development 經驗整理",
+              "url_domain": "ingramchen.io",
+              "url": "http://ingramchen.io/blog/2014/04/how-i-do-test-driven-development.html"
+            },
+            {
+              "identifier": "4AWl3Fp",
+              "title": "@ingramchen",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/ingramchen"
+            },
+            {
+              "identifier": "EifaoI3",
+              "title": "TDD is dead. Long live testing. 懶人包整理",
+              "url_domain": "dotblogs.com.tw",
+              "url": "http://www.dotblogs.com.tw/hatelove/archive/2014/05/03/relative-articles-of-dhh-tdd-is-dead.aspx"
+            }
+          ]
+        },
+        {
+          "identifier": "U4RAjub",
+          "type": "Link",
+          "title": "faker - a Python package that generates fake data for you",
+          "url_domain": "github.com",
+          "url": "https://github.com/joke2k/faker",
+          "description": "<p>上一期 @fukuball 介紹了一個用來產生假資料的 PHP library，我大 Python 當然也有類似的東西可以用，因為系出同門，所以也叫 <code>faker</code>，而且支援繁體、簡體中文的在地化。</p>\n\n<p>然後，忍不住自己提一下，如果你寫 Python，基本上所有你可能會用到的第三方 libraries 在 <a href=\"https://github.com/vinta/awesome-python\">awesome-python</a> 上都可以找到。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.mockaroo.com/\">Mockaroo</a> - 線上的假資料產生器，可以直接輸出 SQL / JSON / CSV / Excel 格式</li>\n<li><a href=\"https://github.com/typicode/json-server\">JSON Server</a> - 可以根據一個靜態的 .json 檔案，快速生成一組活跳跳的 APIs</li>\n</ul>",
+          "description_markdown": "上一期 @fukuball 介紹了一個用來產生假資料的 PHP library，我大 Python 當然也有類似的東西可以用，因為系出同門，所以也叫 `faker`，而且支援繁體、簡體中文的在地化。\r\n\r\n然後，忍不住自己提一下，如果你寫 Python，基本上所有你可能會用到的第三方 libraries 在 [awesome-python](https://github.com/vinta/awesome-python) 上都可以找到。\r\n\r\n延伸閱讀：\r\n\r\n* [Mockaroo](https://www.mockaroo.com/) - 線上的假資料產生器，可以直接輸出 SQL / JSON / CSV / Excel 格式\r\n* [JSON Server](https://github.com/typicode/json-server) - 可以根據一個靜態的 .json 檔案，快速生成一組活跳跳的 APIs",
+          "embedded_links": [
+            {
+              "identifier": "hKuFYkQ",
+              "title": "awesome-python",
+              "url_domain": "github.com",
+              "url": "https://github.com/vinta/awesome-python"
+            },
+            {
+              "identifier": "ffoZyFc",
+              "title": "Mockaroo",
+              "url_domain": "mockaroo.com",
+              "url": "https://www.mockaroo.com/"
+            },
+            {
+              "identifier": "ieQumc4",
+              "title": "JSON Server",
+              "url_domain": "github.com",
+              "url": "https://github.com/typicode/json-server"
+            }
+          ]
+        },
+        {
+          "identifier": "iyVvjNo",
+          "type": "Link",
+          "title": "Elasticsearch 心得報告",
+          "url_domain": "logdown.com",
+          "url": "http://suitingtseng.logdown.com/posts/2015/08/15/elasticsearch",
+          "description": "<p>由 Gogolook（就是做 Whoscall 的那家公司）的 Data Engineer 所分享的 Elasticsearch 實戰經驗，從 configuration 的優化到 indexing 的實用技巧，有用 ES 的人都可以看一下。說到這個，我當初研究 Elasticsearch 的時候是看這本書 <a href=\"http://shop.oreilly.com/product/0636920028505.do\">Elasticsearch: The Definitive Guide</a>，不過我後來才發現其實整本書的內容在 <a href=\"https://www.elastic.co/guide/en/elasticsearch/guide/master/index.html\">Elastic 官方網站</a>上就看得到啊，哭哭。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/using-elasticsearch-dsl-with-python.html\">Use elasticsearch-dsl with Python</a></li>\n</ul>",
+          "description_markdown": "由 Gogolook（就是做 Whoscall 的那家公司）的 Data Engineer 所分享的 Elasticsearch 實戰經驗，從 configuration 的優化到 indexing 的實用技巧，有用 ES 的人都可以看一下。說到這個，我當初研究 Elasticsearch 的時候是看這本書 [Elasticsearch: The Definitive Guide](http://shop.oreilly.com/product/0636920028505.do)，不過我後來才發現其實整本書的內容在 [Elastic 官方網站](https://www.elastic.co/guide/en/elasticsearch/guide/master/index.html)上就看得到啊，哭哭。\r\n\r\n延伸閱讀：\r\n\r\n* [Use elasticsearch-dsl with Python](https://vinta.ws/code/using-elasticsearch-dsl-with-python.html)",
+          "embedded_links": [
+            {
+              "identifier": "gDrbx7H",
+              "title": "Elasticsearch: The Definitive Guide",
+              "url_domain": "oreilly.com",
+              "url": "http://shop.oreilly.com/product/0636920028505.do"
+            },
+            {
+              "identifier": "Ldqjl3E",
+              "title": "Elastic 官方網站",
+              "url_domain": "elastic.co",
+              "url": "https://www.elastic.co/guide/en/elasticsearch/guide/master/index.html"
+            },
+            {
+              "identifier": "mGRkfqJ",
+              "title": "Use elasticsearch-dsl with Python",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/using-elasticsearch-dsl-with-python.html"
+            }
+          ]
+        },
+        {
+          "identifier": "vvozy8y",
+          "type": "Link",
+          "title": "GitHub Advanced Code Search",
+          "url_domain": "github.com",
+          "url": "https://github.com/search/advanced",
+          "description": "<p>我們都知道 GitHub 有個搜尋功能，除了可以搜尋 user 和 repo 之外，有些人可能不知道其實也能搜尋 source code 的內容。更方便的是，它可以用「程式語言」、「副檔名」或「路徑名稱」作為過濾條件。例如 \"<a href=\"https://github.com/search?utf8=%E2%9C%93&amp;q=tearDown+path%3Atests+language%3Apython&amp;type=Code\">tearDown path:tests language:python</a>\" 可以找到「在 <code>tests/</code> 這個目錄底下的 Python 程式碼所包含 <code>tearDown</code> 的內容」，這個功能在你不知道某個 method 的合適用法或是在寫 configuration 的時候尤其實用，大家感受一下。</p>\n\n<p>PS. 常常在 GitHub 上看 code 的朋友，可以裝一下 <a href=\"https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc\">Octotree</a> 和 <a href=\"https://chrome.google.com/webstore/detail/avatars-for-github/pgjmdbklnfklcjfbonjfkdhaonlfogbb\">Avatars for Github</a>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://help.github.com/articles/searching-code/\">Searching Code - GitHub Help</a></li>\n<li><a href=\"https://github.com/tiimgreen/github-cheat-sheet\">GitHub Cheat Sheet</a></li>\n</ul>",
+          "description_markdown": "我們都知道 GitHub 有個搜尋功能，除了可以搜尋 user 和 repo 之外，有些人可能不知道其實也能搜尋 source code 的內容。更方便的是，它可以用「程式語言」、「副檔名」或「路徑名稱」作為過濾條件。例如 \"[tearDown path:tests language:python](https://github.com/search?utf8=%E2%9C%93&q=tearDown+path%3Atests+language%3Apython&type=Code)\" 可以找到「在 `tests/` 這個目錄底下的 Python 程式碼所包含 `tearDown` 的內容」，這個功能在你不知道某個 method 的合適用法或是在寫 configuration 的時候尤其實用，大家感受一下。\r\n\r\nPS. 常常在 GitHub 上看 code 的朋友，可以裝一下 [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc) 和 [Avatars for Github](https://chrome.google.com/webstore/detail/avatars-for-github/pgjmdbklnfklcjfbonjfkdhaonlfogbb)。\r\n\r\n延伸閱讀：\r\n\r\n* [Searching Code - GitHub Help](https://help.github.com/articles/searching-code/)\r\n* [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet)",
+          "embedded_links": [
+            {
+              "identifier": "hdY2M8X",
+              "title": "tearDown path:tests language:python",
+              "url_domain": "github.com",
+              "url": "https://github.com/search?utf8=%E2%9C%93&q=tearDown+path%3Atests+language%3Apython&type=Code"
+            },
+            {
+              "identifier": "pD2laby",
+              "title": "Octotree",
+              "url_domain": "google.com",
+              "url": "https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc"
+            },
+            {
+              "identifier": "JVn53Al",
+              "title": "Avatars for Github",
+              "url_domain": "google.com",
+              "url": "https://chrome.google.com/webstore/detail/avatars-for-github/pgjmdbklnfklcjfbonjfkdhaonlfogbb"
+            },
+            {
+              "identifier": "HvkgSVW",
+              "title": "Searching Code - GitHub Help",
+              "url_domain": "github.com",
+              "url": "https://help.github.com/articles/searching-code/"
+            },
+            {
+              "identifier": "sD8gMMK",
+              "title": "GitHub Cheat Sheet",
+              "url_domain": "github.com",
+              "url": "https://github.com/tiimgreen/github-cheat-sheet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "6sTPDOX",
+          "type": "Link",
+          "title": "Eigenstyle Principal Component Analysis and Fashion",
+          "url_domain": "thehackerati.com",
+          "url": "http://blog.thehackerati.com/post/126701202241/eigenstyle",
+          "description": "<p><a href=\"https://zh.wikipedia.org/zh-hant/%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90\">主成分分析</a>方法已經普遍使用在圖片相關應用的特徵萃取上，將圖片原本大量的資訊量降維成較少量的重要特徵，而電腦就可以用這些少量的重要特徵來做運算，比如使用在人臉辨識上。而 Eigenstyle 則是將主成分分析應用在服裝上，將從 Amazon 上抓取下來的服裝圖片萃取出重要的特徵，如此就可以用這些重要特徵來猜測使用者對服裝的喜好，甚至利用這些重要特徵隨機產生新的服裝設計！作者還將原始碼分享在 <a href=\"https://github.com/graceavery/Eigenstyle\">GitHub</a> 上，有興趣的人可以去抓下來玩玩看！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://setosa.io/ev/principal-component-analysis/\">Principal Component Analysis</a></li>\n<li><a href=\"http://joelgrus.com/2013/06/24/t-shirts-feminism-parenting-and-data-science-part-2-eigenshirts/\">T-Shirts, Feminism, Parenting, and Data Science, Part 2: Eigenshirts</a></li>\n</ul>",
+          "description_markdown": "[主成分分析](https://zh.wikipedia.org/zh-hant/%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90)方法已經普遍使用在圖片相關應用的特徵萃取上，將圖片原本大量的資訊量降維成較少量的重要特徵，而電腦就可以用這些少量的重要特徵來做運算，比如使用在人臉辨識上。而 Eigenstyle 則是將主成分分析應用在服裝上，將從 Amazon 上抓取下來的服裝圖片萃取出重要的特徵，如此就可以用這些重要特徵來猜測使用者對服裝的喜好，甚至利用這些重要特徵隨機產生新的服裝設計！作者還將原始碼分享在 [GitHub](https://github.com/graceavery/Eigenstyle) 上，有興趣的人可以去抓下來玩玩看！\r\n\r\n延伸閱讀：\r\n\r\n* [Principal Component Analysis](http://setosa.io/ev/principal-component-analysis/)\r\n* [T-Shirts, Feminism, Parenting, and Data Science, Part 2: Eigenshirts](http://joelgrus.com/2013/06/24/t-shirts-feminism-parenting-and-data-science-part-2-eigenshirts/)",
+          "embedded_links": [
+            {
+              "identifier": "3xOUjGd",
+              "title": "主成分分析",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/zh-hant/%E4%B8%BB%E6%88%90%E5%88%86%E5%88%86%E6%9E%90"
+            },
+            {
+              "identifier": "tTWa9II",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/graceavery/Eigenstyle"
+            },
+            {
+              "identifier": "eK9hRU2",
+              "title": "Principal Component Analysis",
+              "url_domain": "setosa.io",
+              "url": "http://setosa.io/ev/principal-component-analysis/"
+            },
+            {
+              "identifier": "a6xWJwm",
+              "title": "T-Shirts, Feminism, Parenting, and Data Science, Part 2: Eigenshirts",
+              "url_domain": "joelgrus.com",
+              "url": "http://joelgrus.com/2013/06/24/t-shirts-feminism-parenting-and-data-science-part-2-eigenshirts/"
+            }
+          ]
+        },
+        {
+          "identifier": "kh4MXK4",
+          "type": "Link",
+          "title": "圖解機器學習",
+          "url_domain": "r2d3.us",
+          "url": "http://www.r2d3.us/%E5%9C%96%E8%A7%A3%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E7%AC%AC%E4%B8%80%E7%AB%A0/",
+          "description": "<p>這是由 <a href=\"https://twitter.com/stephaniejyee\">@stephaniejyee</a> 及 <a href=\"http://twitter.com/tonyhschu/\">@tonyhschu</a> 所發起的一個計劃，試圖將機器學習演算法利用視覺化及淺顯的方式來呈現這門學問的精神給大眾了解。本篇文章利用視差滾動的方式，配合精準的動畫，藉由機器學習區別紐約市和舊金山市房屋的這個例子，介紹了<a href=\"https://zh.wikipedia.org/zh-hant/%E5%86%B3%E7%AD%96%E6%A0%91\">決策樹</a>演算法的核心思想。如各位碼農對這個計劃有興趣，也可以 follow 一下 <a href=\"https://twitter.com/r2d3us\">@r2d3us</a>！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://scikit-learn.org/stable/modules/tree.html\">Decision Trees</a> in scikit-learn</li>\n</ul>",
+          "description_markdown": "這是由 [@stephaniejyee](https://twitter.com/stephaniejyee) 及 [@tonyhschu](http://twitter.com/tonyhschu/) 所發起的一個計劃，試圖將機器學習演算法利用視覺化及淺顯的方式來呈現這門學問的精神給大眾了解。本篇文章利用視差滾動的方式，配合精準的動畫，藉由機器學習區別紐約市和舊金山市房屋的這個例子，介紹了[決策樹](https://zh.wikipedia.org/zh-hant/%E5%86%B3%E7%AD%96%E6%A0%91)演算法的核心思想。如各位碼農對這個計劃有興趣，也可以 follow 一下 [@r2d3us](https://twitter.com/r2d3us)！\r\n\r\n延伸閱讀：\r\n\r\n* [Decision Trees](http://scikit-learn.org/stable/modules/tree.html) in scikit-learn",
+          "embedded_links": [
+            {
+              "identifier": "DWW4FXw",
+              "title": "@stephaniejyee",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/stephaniejyee"
+            },
+            {
+              "identifier": "ET1ZLqT",
+              "title": "@tonyhschu",
+              "url_domain": "twitter.com",
+              "url": "http://twitter.com/tonyhschu/"
+            },
+            {
+              "identifier": "ozaNJvZ",
+              "title": "決策樹",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/zh-hant/%E5%86%B3%E7%AD%96%E6%A0%91"
+            },
+            {
+              "identifier": "ZAdwLHJ",
+              "title": "@r2d3us",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/r2d3us"
+            },
+            {
+              "identifier": "1n2CmNo",
+              "title": "Decision Trees",
+              "url_domain": "scikit-learn.org",
+              "url": "http://scikit-learn.org/stable/modules/tree.html"
+            }
+          ]
+        },
+        {
+          "identifier": "4NnPtlJ",
+          "type": "Link",
+          "title": "林軒田教授 Machine Learning Foundations 第二講 學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-machine-learning-foundations-di-er-jiang-xue-xi-bi-ji/",
+          "description": "<p>本篇文章整理了台灣大學林軒田教授所教授的機器學習基石（Machine Learning Foundations）課程的第二講，主要內容是介紹感知學習模型演算法（Perceptrons Learning Algorithm），這個算法是一種最簡單形式的人工神經網絡算法，是一種二元線性分類器，可以用來解是非題，比如讓機器回覆是否核發信用卡這樣的問題。</p>\n\n<p>延伸閱讀：\n1. <a href=\"http://wizmann.tk/ml-foundations-pla.html\">機器學習基石 - PLA算法初步</a></p>",
+          "description_markdown": "本篇文章整理了台灣大學林軒田教授所教授的機器學習基石（Machine Learning Foundations）課程的第二講，主要內容是介紹感知學習模型演算法（Perceptrons Learning Algorithm），這個算法是一種最簡單形式的人工神經網絡算法，是一種二元線性分類器，可以用來解是非題，比如讓機器回覆是否核發信用卡這樣的問題。\r\n\r\n延伸閱讀：\r\n1. [機器學習基石 - PLA算法初步](http://wizmann.tk/ml-foundations-pla.html)",
+          "embedded_links": [
+            {
+              "identifier": "qpqUCJH",
+              "title": "機器學習基石 - PLA算法初步",
+              "url_domain": "wizmann.tk",
+              "url": "http://wizmann.tk/ml-foundations-pla.html"
+            }
+          ]
+        },
+        {
+          "identifier": "nPyN9MZ",
+          "type": "Link",
+          "title": "6 Rules of thumb to build blazing fast web server applications",
+          "url_domain": "loige.co",
+          "url": "http://loige.co/6-rules-of-thumb-to-build-blazing-fast-web-applications/",
+          "description": "<p>天下武功，唯快不破。如果一個網路應用程式用起來很頓，那離成功之路可能會很遙遠，各位勞苦功高的碼農們永遠記得不要考驗使用者的耐性。本篇文章列出了要創造一個妖壽快的網路應用程式需要考量的幾個要點（主要是關於後端的效能），雖然是用 PHP 來舉例，但道理可以通用在各種其他程式語言。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.c2.com/cgi/wiki?PrematureOptimization\">Premature optimization</a> by Cunningham &amp; Cunningham, Inc</li>\n<li><a href=\"https://www.digitalocean.com/company/blog/horizontally-scaling-php-applications/\">Horizontally Scaling PHP Applications: A Practical Overview</a> by Digital Ocean</li>\n<li><a href=\"http://highscalability.com/blog/2014/3/17/intuitively-showing-how-to-scale-a-web-application-using-a-c.html\">Intuitively Showing How To Scale A Web Application Using A Coffee Shop As An Example</a> by HighScalability</li>\n</ul>",
+          "description_markdown": "天下武功，唯快不破。如果一個網路應用程式用起來很頓，那離成功之路可能會很遙遠，各位勞苦功高的碼農們永遠記得不要考驗使用者的耐性。本篇文章列出了要創造一個妖壽快的網路應用程式需要考量的幾個要點（主要是關於後端的效能），雖然是用 PHP 來舉例，但道理可以通用在各種其他程式語言。\r\n\r\n延伸閱讀：\r\n\r\n* [Premature optimization](http://www.c2.com/cgi/wiki?PrematureOptimization) by Cunningham & Cunningham, Inc\r\n* [Horizontally Scaling PHP Applications: A Practical Overview](https://www.digitalocean.com/company/blog/horizontally-scaling-php-applications/) by Digital Ocean\r\n* [Intuitively Showing How To Scale A Web Application Using A Coffee Shop As An Example](http://highscalability.com/blog/2014/3/17/intuitively-showing-how-to-scale-a-web-application-using-a-c.html) by HighScalability",
+          "embedded_links": [
+            {
+              "identifier": "tyT61Z",
+              "title": "Premature optimization",
+              "url_domain": "c2.com",
+              "url": "http://www.c2.com/cgi/wiki?PrematureOptimization"
+            },
+            {
+              "identifier": "kJN18I9",
+              "title": "Horizontally Scaling PHP Applications: A Practical Overview",
+              "url_domain": "digitalocean.com",
+              "url": "https://www.digitalocean.com/company/blog/horizontally-scaling-php-applications/"
+            },
+            {
+              "identifier": "kB7Yjv1",
+              "title": "Intuitively Showing How To Scale A Web Application Using A Coffee Shop As An Example",
+              "url_domain": "highscalability.com",
+              "url": "http://highscalability.com/blog/2014/3/17/intuitively-showing-how-to-scale-a-web-application-using-a-c.html"
+            }
+          ]
+        },
+        {
+          "identifier": "sR1OqY0",
+          "type": "Link",
+          "title": "Making string concatenation readable in PHP",
+          "url_domain": "murze.be",
+          "url": "https://murze.be/2015/08/making-string-concatenation-readable-in-php/",
+          "description": "<p>各位用生命在打拚的 PHP 碼農們，關於 PHP 的字串串接方式我想各位一定不陌生，也就是使用 <code>.</code> 這個運算子，但當要串接複雜的字串及變數時，如果沒有好好思考一下撰寫的方式，很容易就會寫出讓自己眼睛脫窗流血的程式碼，我們在 Issue #4 的 <a href=\"http://weekly.codetengu.com/issues/4#gP0Loub\">Writing highly readable code</a> 曾經說過<em>一個想要從低階碼農晉升到高階碼農的碼農朋友們的首要之務就是要讓寫出來的 Code 可以讓其他碼農朋友們也可以容易讀懂</em>，好好琢磨一下字串的串接語法也是一個好的開始。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://php.net/manual/en/function.sprintf.php\">sprintf</a> in PHP</li>\n</ul>",
+          "description_markdown": "各位用生命在打拚的 PHP 碼農們，關於 PHP 的字串串接方式我想各位一定不陌生，也就是使用 `.` 這個運算子，但當要串接複雜的字串及變數時，如果沒有好好思考一下撰寫的方式，很容易就會寫出讓自己眼睛脫窗流血的程式碼，我們在 Issue #4 的 [Writing highly readable code](http://weekly.codetengu.com/issues/4#gP0Loub ) 曾經說過*一個想要從低階碼農晉升到高階碼農的碼農朋友們的首要之務就是要讓寫出來的 Code 可以讓其他碼農朋友們也可以容易讀懂*，好好琢磨一下字串的串接語法也是一個好的開始。\r\n\r\n延伸閱讀：\r\n\r\n* [sprintf](http://php.net/manual/en/function.sprintf.php) in PHP",
+          "embedded_links": [
+            {
+              "identifier": "v94XC4H",
+              "title": "Writing highly readable code",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/4#gP0Loub"
+            },
+            {
+              "identifier": "YqTjkF1",
+              "title": "sprintf",
+              "url_domain": "php.net",
+              "url": "http://php.net/manual/en/function.sprintf.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "G0vE2EO",
+          "type": "Link",
+          "title": "How to undo (almost) anything with Git",
+          "url_domain": "github.com",
+          "url": "https://github.com/blog/2019-how-to-undo-almost-anything-with-git",
+          "description": "<p>人總是有手賤、犯蠢的時候，還好有 Git 這個好物讓你能彌補不小心犯下的錯。（可惜還是沒辦法避免偷看路上的正妹被女友抓到時的窘境）</p>\n\n<p>GitHub 這篇文章列出常見狀況的補救措施，不過是復原已經 push 出去的修改、更動本地的修改等等……。特別是 <code>git reflog</code> 這個好東西。絕對要學起來，以後你會感謝你自己的。</p>\n\n<p>別忘了溫習一下 Issue #2 的 <a href=\"http://weekly.codetengu.com/issues/2#HOFqk87\">How to Write a Git Commit Message</a></p>",
+          "description_markdown": "人總是有手賤、犯蠢的時候，還好有 Git 這個好物讓你能彌補不小心犯下的錯。（可惜還是沒辦法避免偷看路上的正妹被女友抓到時的窘境）\r\n\r\nGitHub 這篇文章列出常見狀況的補救措施，不過是復原已經 push 出去的修改、更動本地的修改等等……。特別是 `git reflog` 這個好東西。絕對要學起來，以後你會感謝你自己的。\r\n\r\n別忘了溫習一下 Issue #2 的 [How to Write a Git Commit Message](http://weekly.codetengu.com/issues/2#HOFqk87)",
+          "embedded_links": [
+            {
+              "identifier": "masBjKp",
+              "title": "How to Write a Git Commit Message",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/2#HOFqk87"
+            }
+          ]
+        },
+        {
+          "identifier": "xBxnxVt",
+          "type": "Link",
+          "title": "Functional Reactive Programming Introduction for PLSM",
+          "url_domain": "google.com",
+          "url": "https://docs.google.com/presentation/d/19l2JHu8jXHVwPxto57crXrbRGReUn6WcvD5Ez92zyqo/edit",
+          "description": "<p>在大家受不了 Node.js 的 callback 地獄之後，Promise 或是 Reactive Programming 這類東西變成一股新的潮流。Promise 其實就是把 callback 的程式碼結構拉直，寫起來比較好看也有彈性。（好啦，這樣有點太小看它了）Reactive Programming 就比較玄一點，有點像 Observer pattern、但又不太一樣；更別說還有 <em>Functional Reactive Programming</em>。</p>\n\n<p>這份投影片介紹了 Functional Reactive Programming 以及一點（non-functional） Reactive Programming 還有他們差異。光看投影片可能有點難懂，請搭配 <a href=\"http://www.meetup.com/Functional-Thursday/\">Functional Thursday</a> 的影片 —— <a href=\"https://youtu.be/bhAJrI_Ogss\">FRP Introduction for PLSM</a>一起觀看。</p>\n\n<p>註：接下來的趨勢應該就是 <code>async/await</code> 了，JavaScript（ES7）、Python 3.5 都已經把它納入標準了。而 JavaScript 在這條路上的演化可以參考 <a href=\"https://thomashunter.name/blog/the-long-road-to-asyncawait-in-javascript/\">The long road to Async/Await in JavaScript</a>。</p>",
+          "description_markdown": "在大家受不了 Node.js 的 callback 地獄之後，Promise 或是 Reactive Programming 這類東西變成一股新的潮流。Promise 其實就是把 callback 的程式碼結構拉直，寫起來比較好看也有彈性。（好啦，這樣有點太小看它了）Reactive Programming 就比較玄一點，有點像 Observer pattern、但又不太一樣；更別說還有 *Functional Reactive Programming*。\r\n\r\n這份投影片介紹了 Functional Reactive Programming 以及一點（non-functional） Reactive Programming 還有他們差異。光看投影片可能有點難懂，請搭配 [Functional Thursday](http://www.meetup.com/Functional-Thursday/) 的影片 —— [FRP Introduction for PLSM](https://youtu.be/bhAJrI_Ogss)一起觀看。\r\n\r\n註：接下來的趨勢應該就是 `async/await` 了，JavaScript（ES7）、Python 3.5 都已經把它納入標準了。而 JavaScript 在這條路上的演化可以參考 [The long road to Async/Await in JavaScript](https://thomashunter.name/blog/the-long-road-to-asyncawait-in-javascript/)。",
+          "embedded_links": [
+            {
+              "identifier": "a3xIb6U",
+              "title": "Functional Thursday",
+              "url_domain": "meetup.com",
+              "url": "http://www.meetup.com/Functional-Thursday/"
+            },
+            {
+              "identifier": "xh9kRVu",
+              "title": "FRP Introduction for PLSM",
+              "url_domain": "youtu.be",
+              "url": "https://youtu.be/bhAJrI_Ogss"
+            },
+            {
+              "identifier": "dOz4nbW",
+              "title": "The long road to Async/Await in JavaScript",
+              "url_domain": "thomashunter.name",
+              "url": "https://thomashunter.name/blog/the-long-road-to-asyncawait-in-javascript/"
+            }
+          ]
+        },
+        {
+          "identifier": "INJHxjp",
+          "type": "Link",
+          "title": "JavaScript Promise 迷你书（中文版）",
+          "url_domain": "github.io",
+          "url": "http://liubin.github.io/promises-book/",
+          "description": "<p>在 async/await 還沒來到、Reactive Programming 還沒摸透之前，先來看看 Promise 吧。這本迷你書涵括 Promise 的概念、基本用法到測試等進階應用，是入門者必備的參考資料。</p>",
+          "description_markdown": "在 async/await 還沒來到、Reactive Programming 還沒摸透之前，先來看看 Promise 吧。這本迷你書涵括 Promise 的概念、基本用法到測試等進階應用，是入門者必備的參考資料。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "50fQaEF",
+          "type": "Link",
+          "title": "[Android] 善用 Gradle 建立安全的 keystore 設定",
+          "url_domain": "mosil.biz",
+          "url": "http://blog.mosil.biz/2015/08/android-keystore-info-extra-from-build-gradle/",
+          "description": "<p>密碼或是任何機密資訊都不應該放在 source code repository 裡面<em>（註）</em>，但是你絕對不會想要每次 build 要上架的 APK 都手動輸入 key store 跟 key 的密碼。這篇文章給你清楚、簡單的範例教你解決這個兩難問題。</p>\n\n<p>註：這是常識對吧？對吧？！</p>",
+          "description_markdown": "密碼或是任何機密資訊都不應該放在 source code repository 裡面*（註）*，但是你絕對不會想要每次 build 要上架的 APK 都手動輸入 key store 跟 key 的密碼。這篇文章給你清楚、簡單的範例教你解決這個兩難問題。\r\n\r\n註：這是常識對吧？對吧？！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8rml0yW",
+          "type": "Link",
+          "title": "公司強迫離職但不願意資遣 - 對抗全紀錄",
+          "url_domain": "ptt.cc",
+          "url": "https://www.ptt.cc/bbs/Salary/M.1440261331.A.CC4.html",
+          "description": "<p>提升技術能力之外懂得如何捍衛自己的權利也很重要，畢竟台灣滿滿的慣老闆。</p>\n\n<p>公司不肯資遣、用手段逼你離職時的應對方法：</p>\n\n<ol>\n<li>申請調解，寄出存證信函終止勞動契約</li>\n<li>調解 → 申請離職證明 → 申請失業給付</li>\n<li>向法扶會申請協助 → 上法院</li>\n</ol>",
+          "description_markdown": "提升技術能力之外懂得如何捍衛自己的權利也很重要，畢竟台灣滿滿的慣老闆。\r\n\r\n公司不肯資遣、用手段逼你離職時的應對方法：  \r\n\r\n1. 申請調解，寄出存證信函終止勞動契約  \r\n2. 調解 → 申請離職證明 → 申請失業給付  \r\n3. 向法扶會申請協助 → 上法院",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "gbyvSly",
+          "type": "Link",
+          "title": "Dreamsome - 有詩意的程序員諷刺漫畫",
+          "url_domain": "dreamsome.org",
+          "url": "http://dreamsome.org/",
+          "description": "<p>這個網站收錄了很多理工科或軟體工程師看了會會心一笑的極短篇漫畫，作者是一個在阿里巴巴工作的程序員。雖然沒有 <a href=\"http://xkcd.com/\">xkcd</a> 那麼深邃（畢竟 xkcd 的作者 Randall Munroe <a href=\"http://mangatalk.net/2012/xkcd/\">根本就是個天才</a>），但是仍舊相當有趣，其中我最喜歡的是這一篇「<a href=\"http://dreamsome.org/1018/\">奇怪的时刻</a>」，在向鬥陣俱樂部（Fight Club）致敬的同時又抖了一個絕妙的包袱。</p>\n\n<p>如果你喜歡這種風格的漫畫，我推薦你也可以看看「<a href=\"https://www.facebook.com/photo.php?fbid=10153247312083268\">塔希里亚故事集</a>」。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享</p>",
+          "description_markdown": "這個網站收錄了很多理工科或軟體工程師看了會會心一笑的極短篇漫畫，作者是一個在阿里巴巴工作的程序員。雖然沒有 [xkcd](http://xkcd.com/) 那麼深邃（畢竟 xkcd 的作者 Randall Munroe [根本就是個天才](http://mangatalk.net/2012/xkcd/)），但是仍舊相當有趣，其中我最喜歡的是這一篇「[奇怪的时刻](http://dreamsome.org/1018/)」，在向鬥陣俱樂部（Fight Club）致敬的同時又抖了一個絕妙的包袱。\r\n\r\n如果你喜歡這種風格的漫畫，我推薦你也可以看看「[塔希里亚故事集](https://www.facebook.com/photo.php?fbid=10153247312083268)」。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享",
+          "embedded_links": [
+            {
+              "identifier": "zZlJwFc",
+              "title": "xkcd",
+              "url_domain": "xkcd.com",
+              "url": "http://xkcd.com/"
+            },
+            {
+              "identifier": "ZsMMso6",
+              "title": "根本就是個天才",
+              "url_domain": "mangatalk.net",
+              "url": "http://mangatalk.net/2012/xkcd/"
+            },
+            {
+              "identifier": "pqL31oc",
+              "title": "奇怪的时刻",
+              "url_domain": "dreamsome.org",
+              "url": "http://dreamsome.org/1018/"
+            },
+            {
+              "identifier": "6Kfmjf4",
+              "title": "塔希里亚故事集",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/photo.php?fbid=10153247312083268"
+            },
+            {
+              "identifier": "qGLzntr",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "367819e7-aa49-4c44-93e8-021e172519e6.png",
+          "image_extra_large_filename": "original_ratio_extra_large_367819e7-aa49-4c44-93e8-021e172519e6.png",
+          "image_medium_filename": "original_ratio_medium_367819e7-aa49-4c44-93e8-021e172519e6.png"
+        }
+      ]
+    }
+  ]
+}

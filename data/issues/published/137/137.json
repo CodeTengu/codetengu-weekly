@@ -1,0 +1,376 @@
+{
+  "number": 137,
+  "title": "Issue 137 為什麼都要半夜工作，莫非越晚越有靈感？不，不是靈感，我靠的是白天無所事事的愧疚感",
+  "summary": "本期內容涵蓋 Blockchain, Machine Learning, Kubernetes, Python, Git, JavaScript",
+  "url": "https://weekly.codetengu.com/issues/137",
+  "publication_status": "published",
+  "published_at": "2018-08-06T03:00:00+01:00",
+  "updated_at": "2018-08-06T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Blindsight</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Blindsight](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "wN767YA",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "dATr9Aq",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ANz1cf7",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Qpp5hXZ",
+              "title": "Blindsight",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "y4Ga6bS",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "tXZ4BLc",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "6d5YVop",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "pv62k4A",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "HD4SjYj",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "XrBNOAv",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "HZ4T1O6",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "VjTWGfP",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Q3rkWPU",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "cOkeLzu",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "ETsTL4A",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "TUKiAXb",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ZjER32h",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "dOFMWOO",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "QqGvxWg",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "tHp1m3s",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "AOYXs4u",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "Cvb9pml",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "ade9VWA",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "SktYXwD",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "fSxB3Ey",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "UHQJzQw",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "cTRGJen",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Z4GgkSL",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "guGh4gl",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "PcifuhH",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "Jrwyggg",
+          "type": "Link",
+          "title": "Blockchain Games: The BIGGEST TROJAN HORSE ‘experts’ won’t see coming — (and the startling implications you’d never guess)",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/loom-network/blockchain-games-the-biggest-trojan-horse-that-experts-won-t-see-coming-and-the-startling-1846eb412aba",
+          "description": "<p>本文介紹為何遊戲可以跟區塊鏈結合，區塊鏈遊戲會帶給遊戲玩家哪些跟現在完全不一樣的體驗和好處。另一方面遊戲開發商又能如何利用區塊鏈本身的經濟性，來獲取更合理的分潤。</p>",
+          "description_markdown": "本文介紹為何遊戲可以跟區塊鏈結合，區塊鏈遊戲會帶給遊戲玩家哪些跟現在完全不一樣的體驗和好處。另一方面遊戲開發商又能如何利用區塊鏈本身的經濟性，來獲取更合理的分潤。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "RDNPUqX",
+          "type": "Link",
+          "title": "Data's day of reckoning",
+          "url_domain": "oreilly.com",
+          "url": "https://www.oreilly.com/ideas/datas-day-of-reckoning",
+          "description": "<p>一個人臉識別的新創公司 Kairos 表示，他們不會與執法公司做生意。他們的首席執行長 Kairos 說到 “在任何形式的執法或政府監視系統中使用商業人臉識別都是錯誤的。” 這是本文提到的例子之一。Google 公司也重新聲明對人工智慧的處理原則 <a href=\"https://ai.google/principles\">Artificial Intelligence at Google - Our Principles</a>，看得出來未來人類終將要面對這數據的清算日。</p>\n\n<p>因此，在開發或使用 AI 技術的過程中，道德和安全方面的問題更凸顯其重要。未來的生活會更好，還是會變成一場惡夢，都取決於我們自己。</p>",
+          "description_markdown": "一個人臉識別的新創公司 Kairos 表示，他們不會與執法公司做生意。他們的首席執行長 Kairos 說到 “在任何形式的執法或政府監視系統中使用商業人臉識別都是錯誤的。” 這是本文提到的例子之一。Google 公司也重新聲明對人工智慧的處理原則 [Artificial Intelligence at Google - Our Principles](https://ai.google/principles)，看得出來未來人類終將要面對這數據的清算日。\r\n\r\n因此，在開發或使用 AI 技術的過程中，道德和安全方面的問題更凸顯其重要。未來的生活會更好，還是會變成一場惡夢，都取決於我們自己。",
+          "embedded_links": [
+            {
+              "identifier": "XuV11gM",
+              "title": "Artificial Intelligence at Google - Our Principles",
+              "url_domain": "ai.google",
+              "url": "https://ai.google/principles"
+            }
+          ]
+        },
+        {
+          "identifier": "bp2C6TC",
+          "type": "Link",
+          "title": "How to write upgradable smart contracts in solidity !",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/quillhash/how-to-write-upgradable-smart-contracts-in-solidity-d8f1b95a0e9a",
+          "description": "<p>如何寫一個可以更新新版的智能合約？其實方法很多，而且如果你用 <a href=\"https://www.truffleframework.com/\">trufflei framework</a> 開發以太坊智能合約，基本上不必自己考慮更新部署的問題，truffle migrate 會幫你搞定。</p>\n\n<p>本文作者利用一個簡單的範例，教你如何實作一個可以更新部署的智能合約。雖然不敢保證它沒有瑕疵及安全上的顧慮，但還是把概念介紹得非常清楚，值得初學者一讀。</p>",
+          "description_markdown": "如何寫一個可以更新新版的智能合約？其實方法很多，而且如果你用 [trufflei framework](https://www.truffleframework.com/) 開發以太坊智能合約，基本上不必自己考慮更新部署的問題，truffle migrate 會幫你搞定。\r\n\r\n本文作者利用一個簡單的範例，教你如何實作一個可以更新部署的智能合約。雖然不敢保證它沒有瑕疵及安全上的顧慮，但還是把概念介紹得非常清楚，值得初學者一讀。",
+          "embedded_links": [
+            {
+              "identifier": "QRex4SQ",
+              "title": "trufflei framework",
+              "url_domain": "truffleframework.com",
+              "url": "https://www.truffleframework.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "allanlei",
+      "name": "@allanlei",
+      "items": [
+        {
+          "identifier": "S4Al0A3",
+          "type": "Link",
+          "title": "OpenAI Five",
+          "url_domain": "openai.com",
+          "url": "https://blog.openai.com/openai-five/",
+          "description": "<p>Watching the 1v1 last year during the International 7 was amazing, making some of the Pros think \"Is this for real?\"  This time around, it seems like they are getting ready for team play 5v5 for the Internation 8. It's great to see them target games as its something many people can relate to.</p>\n\n<p>On a infrastructure note, OpenAI is moving from Azure to GCP with a whopping 128,000 CPU preemptive and 256 P100s in the cluster for the play.</p>",
+          "description_markdown": "Watching the 1v1 last year during the International 7 was amazing, making some of the Pros think \"Is this for real?\"  This time around, it seems like they are getting ready for team play 5v5 for the Internation 8. It's great to see them target games as its something many people can relate to.\r\n\r\nOn a infrastructure note, OpenAI is moving from Azure to GCP with a whopping 128,000 CPU preemptive and 256 P100s in the cluster for the play.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "laGH1ca",
+          "type": "Link",
+          "title": "knative",
+          "url_domain": "github.com",
+          "url": "https://github.com/knative/",
+          "description": "<p>knative provides the building blocks for serverless on Kubernetes.  It is suppose to ease and abstract away the commonly executed tasks so that the end cluster is portable.</p>\n\n<p>Most looking forward to the Eventing System.  Instead of listening to something like Cloud PubSub for event changes, listen to a CRD instead, giving the benefit of the listener not needing the drivers for Pubsub.</p>",
+          "description_markdown": "knative provides the building blocks for serverless on Kubernetes.  It is suppose to ease and abstract away the commonly executed tasks so that the end cluster is portable.\r\n\r\nMost looking forward to the Eventing System.  Instead of listening to something like Cloud PubSub for event changes, listen to a CRD instead, giving the benefit of the listener not needing the drivers for Pubsub.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "GYxOCHC",
+          "type": "Link",
+          "title": "toasted-marshmallow - A Faster Marshmallow",
+          "url_domain": "github.com",
+          "url": "https://github.com/lyft/toasted-marshmallow",
+          "description": "<p>A JIT'ed implementation of Marshmallow with support for even pypy and cython.  Marshmallow itself is great for handling the serialization/deserialization of data.  It also has the added benefit of integration with Swagger based on the schemas defined for serde.</p>",
+          "description_markdown": "A JIT'ed implementation of Marshmallow with support for even pypy and cython.  Marshmallow itself is great for handling the serialization/deserialization of data.  It also has the added benefit of integration with Swagger based on the schemas defined for serde.",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "thejian",
+      "name": "@theJian",
+      "items": [
+        {
+          "identifier": "GT4C4QE",
+          "type": "Link",
+          "title": "Methodologies for measuring project health",
+          "url_domain": "nadiaeghbal.com",
+          "url": "https://nadiaeghbal.com/project-health",
+          "description": "<p>衡量一个开源项目维护状态好坏的一些可能的方法。以 contributors 为指标，我们可以通过几个方面进行评估。从社区吸引用户和保留用户的能力，contributors 中长期贡献者和短期贡献者的人数关系，核心代码贡献者的数量。或者，跳出 contributors 的局限，转而从 pr 和 commits 入手分析。活跃频繁的 merge 也代表了项目的健康程度。</p>",
+          "description_markdown": "衡量一个开源项目维护状态好坏的一些可能的方法。以 contributors 为指标，我们可以通过几个方面进行评估。从社区吸引用户和保留用户的能力，contributors 中长期贡献者和短期贡献者的人数关系，核心代码贡献者的数量。或者，跳出 contributors 的局限，转而从 pr 和 commits 入手分析。活跃频繁的 merge 也代表了项目的健康程度。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "diVEoAW",
+          "type": "Link",
+          "title": "10 Common Git Problems and How to Fix Them",
+          "url_domain": "citizen428.net",
+          "url": "https://citizen428.net/10-common-git-problems-and-how-to-fix-them-e8d809299f08",
+          "description": "<p>10 个使用 git 时常遇到的问题。对于我这种记不住命令的人来说，我的办法是：统统写入 <a href=\"https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases\">alias</a></p>",
+          "description_markdown": "10 个使用 git 时常遇到的问题。对于我这种记不住命令的人来说，我的办法是：统统写入 [alias](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases)",
+          "embedded_links": [
+            {
+              "identifier": "jRJ64xS",
+              "title": "alias",
+              "url_domain": "git-scm.com",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases"
+            }
+          ]
+        },
+        {
+          "identifier": "SGtl1y4",
+          "type": "Link",
+          "title": "Call operator vs pipeline",
+          "url_domain": "github.com",
+          "url": "https://gist.github.com/jakearchibald/4202cae11022defd7c13b37005704e36",
+          "description": "<p>一个对 JavaScript 中的 pipeline operator(<code>|&gt;</code>) 和 call operator(<code>::</code>) 的 pros/cons 的讨论。对于熟悉 FP 的人来说，pipeline operator 应该是很自然易读的。</p>\n\n<p>延伸阅读:</p>\n\n<p><a href=\"https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch1.md/#communication\">Functional-Light-JS</a></p>\n\n<p><a href=\"https://youtu.be/lsd2-TCgHEs\">Class-based Tree Shaking - HTTP203</a></p>",
+          "description_markdown": "一个对 JavaScript 中的 pipeline operator(`|>`) 和 call operator(`::`) 的 pros/cons 的讨论。对于熟悉 FP 的人来说，pipeline operator 应该是很自然易读的。\r\n\r\n延伸阅读:\r\n\r\n[Functional-Light-JS](https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch1.md/#communication)\r\n\r\n[Class-based Tree Shaking - HTTP203](https://youtu.be/lsd2-TCgHEs)",
+          "embedded_links": [
+            {
+              "identifier": "g3BIOk7",
+              "title": "Functional-Light-JS",
+              "url_domain": "github.com",
+              "url": "https://github.com/getify/Functional-Light-JS/blob/master/manuscript/ch1.md/#communication"
+            },
+            {
+              "identifier": "ocob11v",
+              "title": "Class-based Tree Shaking - HTTP203",
+              "url_domain": "youtu.be",
+              "url": "https://youtu.be/lsd2-TCgHEs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "EIub8X2",
+          "type": "Link",
+          "title": "The hotel bathroom puzzle",
+          "url_domain": "wordpress.com",
+          "url": "https://nevalalee.wordpress.com/2015/11/27/the-hotel-bathroom-puzzle/",
+          "description": "<p>对于一间拥有两扇分别通往两个卧室的浴室，设计一种方式确保当一方屋主在使用时，另一方无法进去，当无人使用时双方可自由进入。\n个人有两个方案： 一种是使用三扇门，另一种是使用两扇滑门，在浴室内通过锁扣将两扇门扣在一起使之无法滑动，从而同时锁住两个入口。</p>",
+          "description_markdown": "对于一间拥有两扇分别通往两个卧室的浴室，设计一种方式确保当一方屋主在使用时，另一方无法进去，当无人使用时双方可自由进入。\r\n个人有两个方案： 一种是使用三扇门，另一种是使用两扇滑门，在浴室内通过锁扣将两扇门扣在一起使之无法滑动，从而同时锁住两个入口。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

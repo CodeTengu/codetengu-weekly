@@ -1,0 +1,506 @@
+{
+  "number": 83,
+  "title": "Issue 83 你從什麼時候開始產生了我沒使用 Monkey Patch 的錯覺？",
+  "summary": "本期內容涵蓋 Machine Learning, Recommender System, Spark, Python, Django, JavaScript, ECMAScript 6, Node.js, RESTful API, React.js, CSS",
+  "url": "https://weekly.codetengu.com/issues/83",
+  "publication_status": "published",
+  "published_at": "2017-04-10T03:00:00+01:00",
+  "updated_at": "2017-04-10T03:00:07+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Forever War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 最近在看<a href=\"http://www.taaze.tw/static_act/201302/art/\">禪與摩托車維修的藝術</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵會寫 HTML &amp; CSS 的網頁設計師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Forever War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 最近在看[禪與摩托車維修的藝術](http://www.taaze.tw/static_act/201302/art/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵會寫 HTML & CSS 的網頁設計師\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "j89TQRr",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "dF4tiy3",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "9WTPx6x",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "AnHy2Wv",
+              "title": "The Forever War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Lx6rKR3",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "syahW3B",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "XYpkrm5",
+              "title": "禪與摩托車維修的藝術",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/static_act/201302/art/"
+            },
+            {
+              "identifier": "jQ52mfg",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "j8pn8c8",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "gtDd6G9",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "8WPPSmf",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "RiIPfsf",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "fXIJthT",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "pa0u7C5",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "gJ1A0WL",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "MEswXFi",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "OX6wk3W",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "MTp9fDX",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "JQukm0H",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "JAx5S97",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "VhhJwuO",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "GfSahb3",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "j7hq69Q",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "XQ6V0CT",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "2xQ8V2X",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "Zzs8q6u",
+          "type": "Link",
+          "title": "推荐系统实践",
+          "url_domain": "duokan.com",
+          "url": "http://www.duokan.com/book/12892",
+          "description": "<p>已經八百年沒讀過中文的技術書了，最近終於讀完<a href=\"https://github.com/xlvector\">項亮</a>的「推荐系统实践」，果然中文書讀起來還是親切啊。作者項亮之前就是在 Hulu 開發推薦系統，偶爾也會在 <a href=\"https://zhuanlan.zhihu.com/resyschina\">ResysChina</a> 看到他的文章。</p>\n\n<p>跟其他書不同，這本書特別著重在談 implicit feedbacks。畢竟你在真實世界裡能夠得到的絕大部分數據都會是隱式反饋，不管你的用戶量有多大。這本書主要在講 Collaborative Filtering 和 Matrix Factorization，雖然有點舊了（2012 年出版，現在所有人都跑去搞 Deep Learning 了），但是旁徵博引了不少正統方式之外的改良做法（例如對熱門物品的懲罰、考慮時間對用戶偏好的影響或是如何針對隱式反饋選擇負樣本），而且非常強調模型的評估。不過如果這本書可以再版的話，期待作者可以在「推荐系统实例」的章節多說一點啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://tech.hulu.com/blog/2011/09/19/recommendation-system.html\">Hulu's Recommendation System</a></li>\n<li><a href=\"http://www.springer.com/gp/book/9781489976369\">Recommender Systems Handbook (2015)</a> 最近才發現這本書出了第二版！</li>\n</ul>\n\n\n<p>P.S. 然後雖然跟主題無關，但是說到 Hulu，忍不住想提一下我前陣子剛看完的日本 Hulu 製作的日劇「<a href=\"http://www.hulu.jp/sumusumu\">住住</a>」。嗯是的，其實我就是為了說這件事才在上面硬是提到 Hulu 的。主演是二階堂富美和搞笑藝人笨蛋主義、若林（奧黛麗裡不壯的那個），他們在劇中飾演自己，故事基本上就是同住在一棟公寓裡的三人互相串門子的超普通日常，不是開玩笑真的超普通，但是重點是竟然出乎意料的好看！負責編劇的<a href=\"http://jp.hjenglish.com/new/p912727/?op\">笨蛋主義</a>真的太有才華啦。</p>",
+          "description_markdown": "已經八百年沒讀過中文的技術書了，最近終於讀完[項亮](https://github.com/xlvector)的「推荐系统实践」，果然中文書讀起來還是親切啊。作者項亮之前就是在 Hulu 開發推薦系統，偶爾也會在 [ResysChina](https://zhuanlan.zhihu.com/resyschina) 看到他的文章。\r\n\r\n跟其他書不同，這本書特別著重在談 implicit feedbacks。畢竟你在真實世界裡能夠得到的絕大部分數據都會是隱式反饋，不管你的用戶量有多大。這本書主要在講 Collaborative Filtering 和 Matrix Factorization，雖然有點舊了（2012 年出版，現在所有人都跑去搞 Deep Learning 了），但是旁徵博引了不少正統方式之外的改良做法（例如對熱門物品的懲罰、考慮時間對用戶偏好的影響或是如何針對隱式反饋選擇負樣本），而且非常強調模型的評估。不過如果這本書可以再版的話，期待作者可以在「推荐系统实例」的章節多說一點啊。\r\n\r\n延伸閱讀：\r\n\r\n- [Hulu's Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)\r\n- [Recommender Systems Handbook (2015)](http://www.springer.com/gp/book/9781489976369) 最近才發現這本書出了第二版！\r\n\r\nP.S. 然後雖然跟主題無關，但是說到 Hulu，忍不住想提一下我前陣子剛看完的日本 Hulu 製作的日劇「[住住](http://www.hulu.jp/sumusumu)」。嗯是的，其實我就是為了說這件事才在上面硬是提到 Hulu 的。主演是二階堂富美和搞笑藝人笨蛋主義、若林（奧黛麗裡不壯的那個），他們在劇中飾演自己，故事基本上就是同住在一棟公寓裡的三人互相串門子的超普通日常，不是開玩笑真的超普通，但是重點是竟然出乎意料的好看！負責編劇的[笨蛋主義](http://jp.hjenglish.com/new/p912727/?op)真的太有才華啦。",
+          "embedded_links": [
+            {
+              "identifier": "GpnPQ4O",
+              "title": "項亮",
+              "url_domain": "github.com",
+              "url": "https://github.com/xlvector"
+            },
+            {
+              "identifier": "d5fbZZD",
+              "title": "ResysChina",
+              "url_domain": "zhihu.com",
+              "url": "https://zhuanlan.zhihu.com/resyschina"
+            },
+            {
+              "identifier": "jQLIalE",
+              "title": "Hulu's Recommendation System",
+              "url_domain": "hulu.com",
+              "url": "http://tech.hulu.com/blog/2011/09/19/recommendation-system.html"
+            },
+            {
+              "identifier": "tvEQLwx",
+              "title": "Recommender Systems Handbook (2015)",
+              "url_domain": "springer.com",
+              "url": "http://www.springer.com/gp/book/9781489976369"
+            },
+            {
+              "identifier": "w6Y71Kv",
+              "title": "住住",
+              "url_domain": "hulu.jp",
+              "url": "http://www.hulu.jp/sumusumu"
+            },
+            {
+              "identifier": "2QG8nAe",
+              "title": "笨蛋主義",
+              "url_domain": "hjenglish.com",
+              "url": "http://jp.hjenglish.com/new/p912727/?op"
+            }
+          ]
+        },
+        {
+          "identifier": "OlnZjzO",
+          "type": "Link",
+          "title": "A Gentle Introduction to Recommender Systems with Implicit Feedback",
+          "url_domain": "jessesw.com",
+          "url": "https://jessesw.com/Rec-System/",
+          "description": "<p>這篇文章非常詳盡地介紹了 ALS (Alternating Least Squares) 這個在推薦系統中常用的演算法，屬於矩陣分解的一種（也正是降維），也被稱為 Latent Factor Model。例如在 <a href=\"https://spark.apache.org/docs/latest/ml-collaborative-filtering.html\">Spark ML</a> 中關於推薦系統的部分也（只）實作了這個演算法，因為 ALS 天生就適合並行運算。</p>\n\n<p>除了說明適用顯式數據的 ALS 演算法之外，這篇文章大部分的篇幅都在講來自 <a href=\"http://yifanhu.net/PUB/cf.pdf\">Collaborative Filtering for Implicit Feedback Datasets</a> 這篇論文的針對隱式數據的改良做法（已經看過八百多篇文章和簡報提到這篇論文啦），雖然計算方式大同小異，不過這兩者對模型的假設差異挺大的。除此之外，作者也提到了一般機器學習中常見的把 dataset 隨機拆分成 traning/testing sets 的做法對 ALS 這種模型會有什麼問題。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/\">Implicit Recommender Systems: Biased Matrix Factorization</a></li>\n<li><a href=\"http://www.benfrederickson.com/matrix-factorization/\">Finding Similar Music using Matrix Factorization</a></li>\n</ul>",
+          "description_markdown": "這篇文章非常詳盡地介紹了 ALS (Alternating Least Squares) 這個在推薦系統中常用的演算法，屬於矩陣分解的一種（也正是降維），也被稱為 Latent Factor Model。例如在 [Spark ML](https://spark.apache.org/docs/latest/ml-collaborative-filtering.html) 中關於推薦系統的部分也（只）實作了這個演算法，因為 ALS 天生就適合並行運算。\r\n\r\n除了說明適用顯式數據的 ALS 演算法之外，這篇文章大部分的篇幅都在講來自 [Collaborative Filtering for Implicit Feedback Datasets](http://yifanhu.net/PUB/cf.pdf) 這篇論文的針對隱式數據的改良做法（已經看過八百多篇文章和簡報提到這篇論文啦），雖然計算方式大同小異，不過這兩者對模型的假設差異挺大的。除此之外，作者也提到了一般機器學習中常見的把 dataset 隨機拆分成 traning/testing sets 的做法對 ALS 這種模型會有什麼問題。\r\n\r\n延伸閱讀：\r\n\r\n- [Implicit Recommender Systems: Biased Matrix Factorization](http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/)\r\n- [Finding Similar Music using Matrix Factorization](http://www.benfrederickson.com/matrix-factorization/)",
+          "embedded_links": [
+            {
+              "identifier": "ncCpyAx",
+              "title": "Spark ML",
+              "url_domain": "apache.org",
+              "url": "https://spark.apache.org/docs/latest/ml-collaborative-filtering.html"
+            },
+            {
+              "identifier": "Vb2xrBT",
+              "title": "Collaborative Filtering for Implicit Feedback Datasets",
+              "url_domain": "yifanhu.net",
+              "url": "http://yifanhu.net/PUB/cf.pdf"
+            },
+            {
+              "identifier": "KVpLMmI",
+              "title": "Implicit Recommender Systems: Biased Matrix Factorization",
+              "url_domain": "github.io",
+              "url": "http://activisiongamescience.github.io/2016/01/11/Implicit-Recommender-Systems-Biased-Matrix-Factorization/"
+            },
+            {
+              "identifier": "8xlBLjK",
+              "title": "Finding Similar Music using Matrix Factorization",
+              "url_domain": "benfrederickson.com",
+              "url": "http://www.benfrederickson.com/matrix-factorization/"
+            }
+          ]
+        },
+        {
+          "identifier": "kOxuVxW",
+          "type": "Link",
+          "title": "Evaluating recommender systems",
+          "url_domain": "fastml.com",
+          "url": "http://fastml.com/evaluating-recommender-systems/",
+          "description": "<p>所有機器學習的問題中，除了 data 和 algorithm 之外，最重要的一件事可能就是如何評估你的模型的好壞。針對不同的問題或模型，適合的評估方式也不同，例如你總不好用 RMSE 來評估 classifier 或是對一個只有正樣本的 dataset 使用 AUC。</p>\n\n<p>大部分的推薦系統最終呈現的方式都是推薦給用戶 K 個他最可能感興趣的東西，是所謂的 Top-K recommendation 問題，而不是為了預測他究竟會對某個物品打幾分。這篇文章就介紹了專門針對 Top-K 推薦排序問題的評估方式：MAP (Mean Average Precision) 和 NDCG (Normalized Discounted Cumulative Gain)，來自 <a href=\"https://en.wikipedia.org/wiki/Learning_to_rank\">Learning to rank</a> 領域。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.quora.com/How-do-you-measure-and-evaluate-the-quality-of-recommendation-engines\">How do you measure and evaluate the quality of recommendation engines?</a></li>\n<li><a href=\"https://blurkerlab.blogspot.tw/2008/01/blog-post_25.html\">如何評估推薦系統</a></li>\n<li><a href=\"https://www.zhihu.com/question/30643044\">精确率、召回率、F1 值、ROC、AUC 各自的优缺点是什么？</a></li>\n</ul>",
+          "description_markdown": "所有機器學習的問題中，除了 data 和 algorithm 之外，最重要的一件事可能就是如何評估你的模型的好壞。針對不同的問題或模型，適合的評估方式也不同，例如你總不好用 RMSE 來評估 classifier 或是對一個只有正樣本的 dataset 使用 AUC。\r\n\r\n大部分的推薦系統最終呈現的方式都是推薦給用戶 K 個他最可能感興趣的東西，是所謂的 Top-K recommendation 問題，而不是為了預測他究竟會對某個物品打幾分。這篇文章就介紹了專門針對 Top-K 推薦排序問題的評估方式：MAP (Mean Average Precision) 和 NDCG (Normalized Discounted Cumulative Gain)，來自 [Learning to rank](https://en.wikipedia.org/wiki/Learning_to_rank) 領域。\r\n\r\n延伸閱讀：\r\n\r\n- [How do you measure and evaluate the quality of recommendation engines?](https://www.quora.com/How-do-you-measure-and-evaluate-the-quality-of-recommendation-engines)\r\n- [如何評估推薦系統](https://blurkerlab.blogspot.tw/2008/01/blog-post_25.html)\r\n- [精确率、召回率、F1 值、ROC、AUC 各自的优缺点是什么？](https://www.zhihu.com/question/30643044)",
+          "embedded_links": [
+            {
+              "identifier": "TQE121l",
+              "title": "Learning to rank",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Learning_to_rank"
+            },
+            {
+              "identifier": "oToiFGT",
+              "title": "How do you measure and evaluate the quality of recommendation engines?",
+              "url_domain": "quora.com",
+              "url": "https://www.quora.com/How-do-you-measure-and-evaluate-the-quality-of-recommendation-engines"
+            },
+            {
+              "identifier": "Ame3SgJ",
+              "title": "如何評估推薦系統",
+              "url_domain": "blogspot.tw",
+              "url": "https://blurkerlab.blogspot.tw/2008/01/blog-post_25.html"
+            },
+            {
+              "identifier": "wgGFM2r",
+              "title": "精确率、召回率、F1 值、ROC、AUC 各自的优缺点是什么？",
+              "url_domain": "zhihu.com",
+              "url": "https://www.zhihu.com/question/30643044"
+            }
+          ]
+        },
+        {
+          "identifier": "D8bv75F",
+          "type": "Link",
+          "title": "Spark ML 算法原理剖析以及具体的源码实现分析",
+          "url_domain": "github.com",
+          "url": "https://github.com/endymecy/spark-ml-source-analysis",
+          "description": "<p><a href=\"https://github.com/endymecy\">@endymecy</a> 針對 Spark ML 提供的各項工具和模型的非常透徹的講解，例如這一篇在講 <a href=\"https://github.com/endymecy/spark-ml-source-analysis/blob/master/%E6%8E%A8%E8%8D%90/ALS.md\">ALS</a>，老實說讀完真的有點感動。</p>",
+          "description_markdown": "[@endymecy](https://github.com/endymecy) 針對 Spark ML 提供的各項工具和模型的非常透徹的講解，例如這一篇在講 [ALS](https://github.com/endymecy/spark-ml-source-analysis/blob/master/%E6%8E%A8%E8%8D%90/ALS.md)，老實說讀完真的有點感動。",
+          "embedded_links": [
+            {
+              "identifier": "tkzsRkW",
+              "title": "@endymecy",
+              "url_domain": "github.com",
+              "url": "https://github.com/endymecy"
+            },
+            {
+              "identifier": "k4uYhZR",
+              "title": "ALS",
+              "url_domain": "github.com",
+              "url": "https://github.com/endymecy/spark-ml-source-analysis/blob/master/%E6%8E%A8%E8%8D%90/ALS.md"
+            }
+          ]
+        },
+        {
+          "identifier": "m6Gfme0",
+          "type": "Link",
+          "title": "Django Apps Checklist",
+          "url_domain": "djangoappschecklist.com",
+          "url": "http://djangoappschecklist.com/",
+          "description": "<p>在發佈你的 Django app 之前非常適合參考的 checklist，推薦給所有打算（或已經）open source 你的 Django app 的人。掃了一下這份清單，忍不住會想如果每一個第三方的 libraries 都能夠做到這樣就好啦，雖然自己的 app 可能連一半的勾都打不上。</p>\n\n<p>順帶一提，<a href=\"https://docs.djangoproject.com/en/1.11/releases/1.11/\">Django 1.11</a> 在前陣子發佈了，這可是最後一個支援 Python 2 的版本啦，歷史的巨輪完全沒有要停止的意思，大家好自為之。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://djangopackages.org/\">Django Packages: Reusable apps, sites and tools directory</a></li>\n</ul>",
+          "description_markdown": "在發佈你的 Django app 之前非常適合參考的 checklist，推薦給所有打算（或已經）open source 你的 Django app 的人。掃了一下這份清單，忍不住會想如果每一個第三方的 libraries 都能夠做到這樣就好啦，雖然自己的 app 可能連一半的勾都打不上。\r\n\r\n順帶一提，[Django 1.11](https://docs.djangoproject.com/en/1.11/releases/1.11/) 在前陣子發佈了，這可是最後一個支援 Python 2 的版本啦，歷史的巨輪完全沒有要停止的意思，大家好自為之。\r\n\r\n延伸閱讀：\r\n\r\n- [Django Packages: Reusable apps, sites and tools directory](https://djangopackages.org/)",
+          "embedded_links": [
+            {
+              "identifier": "WrmepEl",
+              "title": "Django 1.11",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/1.11/releases/1.11/"
+            },
+            {
+              "identifier": "6a6i339",
+              "title": "Django Packages: Reusable apps, sites and tools directory",
+              "url_domain": "djangopackages.org",
+              "url": "https://djangopackages.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "LlZ2GzP",
+          "type": "Link",
+          "title": "ES6 modules support lands in browsers: is it time to rethink bundling?",
+          "url_domain": "contentful.com",
+          "url": "https://www.contentful.com/blog/2017/04/04/es6-modules-support-lands-in-browsers-is-it-time-to-rethink-bundling/",
+          "description": "<p><code>&lt;script type=module&gt;</code> 已經在 Edge 和 Safari Technology Preview 上實作，未來可以直接在瀏覽器使用 import 與 export 語法，而 <code>nomodule</code> attribute (目前只有 Safari Technology Preview 支援) 則可以讓瀏覽器識別為是 fallback script，避免重複執行同樣邏輯。</p>\n\n<p>而 module 和原本 script 的差別有：</p>\n\n<ul>\n<li>module 預設就是 strict mode</li>\n<li>每個 module 都是一個 local scope</li>\n<li>module 會在 browser parse HTML 完成後才被載入執行</li>\n</ul>",
+          "description_markdown": "`<script type=module>` 已經在 Edge 和 Safari Technology Preview 上實作，未來可以直接在瀏覽器使用 import 與 export 語法，而 `nomodule` attribute (目前只有 Safari Technology Preview 支援) 則可以讓瀏覽器識別為是 fallback script，避免重複執行同樣邏輯。\r\n\r\n而 module 和原本 script 的差別有：\r\n\r\n* module 預設就是 strict mode\r\n* 每個 module 都是一個 local scope\r\n* module 會在 browser parse HTML 完成後才被載入執行",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "p9xYtBO",
+          "type": "Link",
+          "title": "Sometimes undefined is defined",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@bmeurer/sometimes-undefined-is-defined-7701e1c9eff8",
+          "description": "<p>JavaScript 中，和 <code>null</code> 、<code>true</code> 、<code>false</code> 這些 keywords 不同，<code>undefined</code> 是 global object 的一個 property ，本篇文章透過幾個不同的 trick ，將 <code>undefined</code> 設為 local variable ，而在需要使用 <code>undefined</code> 時，也可以考慮使用較安全的 <code>void 0</code> 來取代。</p>",
+          "description_markdown": "JavaScript 中，和 `null` 、`true` 、`false` 這些 keywords 不同，`undefined` 是 global object 的一個 property ，本篇文章透過幾個不同的 trick ，將 `undefined` 設為 local variable ，而在需要使用 `undefined` 時，也可以考慮使用較安全的 `void 0` 來取代。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "wEgwljC",
+          "type": "Link",
+          "title": "Preload, Prefetch And Priorities in Chrome",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf",
+          "description": "<p>本篇文章介紹 <a href=\"https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ\">Prefetch</a> 以及 <a href=\"https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/\">Preload</a> 在 Chrome 的差異以及載入的優先權， Prefetch 的作用在於通知瀏覽器在閒置時期預先載入可能會使用到的資源， Preload 則是用在強制載入極可能在當下頁面使用的資源，並且不會 block window 的 onload event ，以達到減少(加快) <a href=\"https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive\">Time to Interactive (TTI ，指的是載入到可以互動所需的時間)</a> 的效果。</p>",
+          "description_markdown": "本篇文章介紹 [Prefetch](https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ) 以及 [Preload](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/) 在 Chrome 的差異以及載入的優先權， Prefetch 的作用在於\b通知瀏覽器在閒置時期預先載入可能會使用到的資源， Preload 則是用在強制載入極可能在當下頁面使用的資源，並且不會 block window 的 onload event ，以達到減少(加快) [Time to Interactive (TTI ，指的是載入到可以互動所需的時間)](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive) 的效果。",
+          "embedded_links": [
+            {
+              "identifier": "olgJ49M",
+              "title": "Prefetch",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/docs/Web/HTTP/Link_prefetching_FAQ"
+            },
+            {
+              "identifier": "vRapit1",
+              "title": "Preload",
+              "url_domain": "smashingmagazine.com",
+              "url": "https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/"
+            },
+            {
+              "identifier": "FjONH4Q",
+              "title": "Time to Interactive (TTI ，指的是載入到可以互動所需的時間)",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive"
+            }
+          ]
+        },
+        {
+          "identifier": "RgLuiTV",
+          "type": "Link",
+          "title": "6 Reasons Why JavaScript’s Async/Await Blows Promises Away",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9",
+          "description": "<p>Node.js 在 7.6 版開始支援 async/await 語法，文中會從和 Promise 的比較來探討使用 async/await 的幾個理由：</p>\n\n<ul>\n<li>clean: 不需要透過 promise 的 then ，寫出來的邏輯也比較容易讀懂</li>\n<li>Error handling: try catch 即可處理透過 async/await 產生的 asynchronous errors</li>\n<li>Conditionals: async/await 的寫法減少很多巢狀的層次，當需要處理非同步資料的時候比較不容易產生混淆</li>\n<li>Intermediate values: 透過 await 可以非常簡單的取得非同步資料</li>\n<li>Error stacks: 在較複雜的邏輯更簡單的呈現錯誤產生的地方</li>\n<li>Debugging: 這裡指的是利用直接 return value 的 arrow function 的情況，因為沒有 block statement ，透過 await 方式可以更容易下 breakpoint</li>\n</ul>",
+          "description_markdown": "Node.js 在 7.6 版開始支援 async/await 語法，文中會從和 Promise 的比較來探討使用 async/await 的幾個理由：\r\n\r\n* clean: 不需要透過 promise 的 then ，寫出來的邏輯也比較容易讀懂\r\n* Error handling: try catch 即可處理透過 async/await 產生的 asynchronous errors\r\n* Conditionals: async/await 的寫法減少很多巢狀的層次，當需要處理非同步資料的時候比較不容易產生混淆\r\n* Intermediate values: 透過 await 可以非常簡單的取得非同步資料\r\n\b* Error stacks: 在較複雜的邏輯更簡單的呈現錯誤產生的地方\r\n* Debugging: 這裡指的是利用直接 return value 的 arrow function 的情況，因為沒有 block statement ，透過 await 方式可以更容易下 breakpoint",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "eRYSw2X",
+          "type": "Link",
+          "title": "Setting up a Web API for Success",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/salesforce-engineering/setting-up-a-web-api-for-success-ff039f76d322",
+          "description": "<p>一篇關於怎樣才算是成功的 Web API。從 5 個方面來說：</p>\n\n<ol>\n<li>嚴肅地開發每個 API</li>\n<li>淺顯易懂</li>\n<li>自動文件化</li>\n<li>相信 Acceptance Tests</li>\n<li>Log, Monitor and Alert</li>\n</ol>\n\n\n<p>其實是一篇老生常談了，但是要真正五項都做到是相當困難，若你有那一項沒做到，來參考 Salesforce 工程師的意見吧。</p>",
+          "description_markdown": "一篇關於怎樣才算是成功的 Web API。從 5 個方面來說：\r\n\r\n1. 嚴肅地開發每個 API\r\n2. 淺顯易懂\r\n3. 自動文件化\r\n4. 相信 Acceptance Tests\r\n5. Log, Monitor and Alert\r\n\r\n其實是一篇老生常談了，但是要真正五項都做到是相當困難，若你有那一項沒做到，來參考 Salesforce 工程師的意見吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "E8iiPlH",
+          "type": "Link",
+          "title": "The 100% Correct Coding Style Guide",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/the-100-correct-coding-style-guide-5b594a1655f0",
+          "description": "<p>用工具來幫你做到一致地 coding style 吧！文末提供了各種語言可用的工具。</p>",
+          "description_markdown": "用工具來幫你做到一致地 coding style 吧！文末提供了各種語言可用的工具。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "suW1Ec0",
+          "type": "Link",
+          "title": "React is Slow, React is Fast: Optimizing React Apps in Practice",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba",
+          "description": "<p>有在寫 React 的朋友，不管熟不熟 React 如何優化都建議看看這篇，很詳細的一篇介紹。</p>",
+          "description_markdown": "有在寫 React 的朋友，不管熟不熟 React 如何優化都建議看看這篇，很詳細的一篇介紹。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yUypaNe",
+          "type": "Link",
+          "title": "What are Container Queries?",
+          "url_domain": "codepen.io",
+          "url": "http://codepen.io/tomhodgins/post/what-are-container-queries",
+          "description": "<p>作者提出 Element Query 跟 Container Query 來解決 Scoped style 的問題。對於 CSS methodology 、CSS in JS 或 CSS modules 有研究的朋友，建議可以看看這篇。</p>",
+          "description_markdown": "作者提出 Element Query 跟 Container Query 來解決 Scoped style 的問題。對於 CSS methodology 、CSS in JS 或 CSS modules 有研究的朋友，建議可以看看這篇。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "type": "Text",
+          "title": "好國好民",
+          "description": "<p>因為剛過不久的 4 月 7 日是鄭南榕自焚的紀念日，在去年被行政院訂為「言論自由日」，跟大家分享一下冷知識：電影「超級大國民」海報上的 2 1 手勢，指的是<a href=\"https://zh.wikipedia.org/wiki/%E6%87%B2%E6%B2%BB%E5%8F%9B%E4%BA%82%E6%A2%9D%E4%BE%8B\">懲治叛亂條例</a>第二條第一項，唯一死刑。</p>\n\n<p>「<a href=\"https://zh.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95#.E8.A2.AB.E6.8E.A7.E5.8F.9B.E4.BA.82\">鄭南榕涉嫌叛亂</a>」</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "因為剛過不久的 4 月 7 日是鄭南榕自焚的紀念日，在去年被行政院訂為「言論自由日」，跟大家分享一下冷知識：電影「超級大國民」海報上的 2 1 手勢，指的是[懲治叛亂條例](https://zh.wikipedia.org/wiki/%E6%87%B2%E6%B2%BB%E5%8F%9B%E4%BA%82%E6%A2%9D%E4%BE%8B)第二條第一項，唯一死刑。\r\n\r\n「[鄭南榕涉嫌叛亂](https://zh.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95#.E8.A2.AB.E6.8E.A7.E5.8F.9B.E4.BA.82)」\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "footer": "<p>1989 年 4 月 7 日上午 7 時 30 分</p>",
+          "embedded_links": [
+            {
+              "identifier": "bCEShDc",
+              "title": "懲治叛亂條例",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E6%87%B2%E6%B2%BB%E5%8F%9B%E4%BA%82%E6%A2%9D%E4%BE%8B"
+            },
+            {
+              "identifier": "o3gOwPN",
+              "title": "鄭南榕涉嫌叛亂",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E9%84%AD%E5%8D%97%E6%A6%95#.E8.A2.AB.E6.8E.A7.E5.8F.9B.E4.BA.82"
+            },
+            {
+              "identifier": "bJS1xL6",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "3ff1f2fa-5f48-497f-a01a-95d6188b33e8.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_3ff1f2fa-5f48-497f-a01a-95d6188b33e8.jpg",
+          "image_medium_filename": "original_ratio_medium_3ff1f2fa-5f48-497f-a01a-95d6188b33e8.jpg"
+        }
+      ]
+    }
+  ]
+}

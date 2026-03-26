@@ -1,0 +1,486 @@
+{
+  "number": 84,
+  "title": "Issue 84 哇！是擅長 Over-engineering 的朋友呢！",
+  "summary": "本期內容涵蓋 Management, DevOps, Django, Phoenix, Elixir, Microservice, Chatbot, Go",
+  "url": "https://weekly.codetengu.com/issues/84",
+  "publication_status": "published",
+  "published_at": "2017-04-17T03:00:00+01:00",
+  "updated_at": "2017-04-17T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Forever War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 最近在看<a href=\"http://www.taaze.tw/static_act/201302/art/\">禪與摩托車維修的藝術</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵會寫 HTML &amp; CSS 的網頁設計師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Forever War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 最近在看[禪與摩托車維修的藝術](http://www.taaze.tw/static_act/201302/art/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵會寫 HTML & CSS 的網頁設計師\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "v4Th9aO",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "wWCIdap",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "qkjCVjB",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "wzb0evo",
+              "title": "The Forever War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "iJT5sGJ",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "9Qi29pL",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "dEbTcUE",
+              "title": "禪與摩托車維修的藝術",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/static_act/201302/art/"
+            },
+            {
+              "identifier": "8Ygg2yl",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "HudcHJH",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "rYPnMXV",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "UqsBC8U",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "FdyxuxD",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Unx7TCU",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "GeYuA8u",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "sPOnnPH",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "ROwvTzI",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "k3X5viO",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "k7ZIuPg",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "M8F6FdV",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "nx2AaZU",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "nVlY1eH",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "PFa1kMu",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ILeJeIX",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "jxcfbhO",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "gRZ1nNh",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "LiXzzjU",
+          "type": "Link",
+          "title": "IT'S NOT A PROMOTION - IT'S A CAREER CHANGE",
+          "url_domain": "fractio.nl",
+          "url": "http://fractio.nl/2014/09/19/not-a-promotion-a-career-change/",
+          "description": "<p>「管理職並不是升職, 而是轉換職業」 雖然這篇主題是這個，不過當中有兩個重點讓我覺得非常有趣，而且一語中地，真的是釐清我多年無法清楚說明的事。</p>\n\n<ol>\n<li>The Dunning-Kruger effect</li>\n<li>Systemic undervaluation of non-technical skills</li>\n</ol>\n\n\n<p>而我最感興趣的就是 The Dunning-Kruger effect 了, 我便去找一下 Wikipedia 上的簡述:「達克效應是一種認知偏差，能力欠缺的人有一種虛幻的自我優越感，錯誤地認為自己比真實情況更加優秀。」</p>\n\n<p>例如就軟體工程師來說, 常常會有以下狀況:</p>\n\n<ul>\n<li>覺得自己懂的比其他人多、其他人什麼都不懂、覺得自己超強</li>\n<li>覺得非技術性的工作都很廢</li>\n<li>覺得管理沒什麼技術性可言, 廢</li>\n</ul>\n\n\n<p>就我的個人經驗來看, 大部分 junior 工程師都會落入這種狀況, 會了一些東西之後, 覺得自己很強, 但是根本就還很菜, 因為很多東西都知道的太少, 設計時考慮的太少, 所以常會想出不夠周全的作法, 然後還覺得「有這麼難嗎?」</p>\n\n<p>不過除了 D-K Effect 之外, 本文我真的是畫了很多重點, 值得看個幾遍, 像我也是在透過這篇評量過去的自己, 畢竟大家都 junior 過 (笑)</p>",
+          "description_markdown": "「管理職並不是升職, 而是轉換職業」 雖然這篇主題是這個，不過當中有兩個重點讓我覺得非常有趣，而且一語中地，真的是釐清我多年無法清楚說明的事。\r\n\r\n1. The Dunning-Kruger effect\r\n2. Systemic undervaluation of non-technical skills\r\n\r\n而我最感興趣的就是 The Dunning-Kruger effect 了, 我便去找一下 Wikipedia 上的簡述:「達克效應是一種認知偏差，能力欠缺的人有一種虛幻的自我優越感，錯誤地認為自己比真實情況更加優秀。」\r\n\r\n例如就軟體工程師來說, 常常會有以下狀況:\r\n\r\n* 覺得自己懂的比其他人多、其他人什麼都不懂、覺得自己超強\r\n* 覺得非技術性的工作都很廢\r\n* 覺得管理沒什麼技術性可言, 廢\r\n\r\n就我的個人經驗來看, 大部分 junior 工程師都會落入這種狀況, 會了一些東西之後, 覺得自己很強, 但是根本就還很菜, 因為很多東西都知道的太少, 設計時考慮的太少, 所以常會想出不夠周全的作法, 然後還覺得「有這麼難嗎?」\r\n\r\n不過除了 D-K Effect 之外, 本文我真的是畫了很多重點, 值得看個幾遍, 像我也是在透過這篇評量過去的自己, 畢竟大家都 junior 過 (笑)",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "N5GEpS3",
+          "type": "Link",
+          "title": "On-call at any size",
+          "url_domain": "increment.com",
+          "url": "https://increment.com/on-call/on-call-at-any-size/",
+          "description": "<p>On-call 這件事, 在不同團隊大小會有不同作法, 從 <a href=\"https://streetvoice.com/\">StreetVoice</a> 早期只有我一個人在 On-call, 大概這樣經歷了 5 ~ 6 年, 一直到最近才換成我們系統工程師 <a href=\"https://twitter.com/Seanhsu0102\">Seanhsu0102</a> 為第一線。</p>\n\n<p>慢慢人比較多了, 前一陣子便開始思考用 PagerDuty 來做 rotate, 跟多層 On-call 的機制 (但是太忙還沒搞 XD)</p>\n\n<p>On-call rotate 這件事我在第一份工作也碰過, 當時是第一線, 搞不定會有資深工程師可以求救, 而經理則是只會收到 mail, 除非在 30 分鐘或一小時後, 如果還沒解決時, 經理才會收到簡訊或手機通知, 看事情嚴重度。</p>\n\n<p>這篇提到許多該做的機制、觀念跟對應的工具, 像是 log aggregator, error aggregator 等等, 值得一看, StreetVoice 大概只做到了 80% 左右(?)</p>\n\n<p>當然, 有個足夠有經驗的人可以通靈當然是最棒的 (笑)</p>",
+          "description_markdown": "On-call 這件事, 在不同團隊大小會有不同作法, 從 [StreetVoice](https://streetvoice.com/) 早期只有我一個人在 On-call, 大概這樣經歷了 5 ~ 6 年, 一直到最近才換成我們系統工程師 [Seanhsu0102](https://twitter.com/Seanhsu0102) 為第一線。\r\n\r\n慢慢人比較多了, 前一陣子便開始思考用 PagerDuty 來做 rotate, 跟多層 On-call 的機制 (但是太忙還沒搞 XD)\r\n\r\nOn-call rotate 這件事我在第一份工作也碰過, 當時是第一線, 搞不定會有資深工程師可以求救, 而經理則是只會收到 mail, 除非在 30 分鐘或一小時後, 如果還沒解決時, 經理才會收到簡訊或手機通知, 看事情嚴重度。\r\n\r\n這篇提到許多該做的機制、觀念跟對應的工具, 像是 log aggregator, error aggregator 等等, 值得一看, StreetVoice 大概只做到了 80% 左右(?)\r\n\r\n當然, 有個足夠有經驗的人可以通靈當然是最棒的 (笑)",
+          "embedded_links": [
+            {
+              "identifier": "DytlMlR",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "cO88wpk",
+              "title": "Seanhsu0102",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Seanhsu0102"
+            }
+          ]
+        },
+        {
+          "identifier": "9nJFh9n",
+          "type": "Link",
+          "title": "Culture at Spotify",
+          "url_domain": "spotify.com",
+          "url": "https://labs.spotify.com/2017/03/29/dare-to-be-different-part-2/",
+          "description": "<p>矽谷的公司常會強調所謂的 Culture, 但是 Culture 到底是什麼, 怎麼說清楚講明白? 其實好像真的有點難, 或是常常講跟沒講一樣。</p>\n\n<p>Spotify 這篇我覺得至少有滿明確的方向, 挺好的。</p>",
+          "description_markdown": "矽谷的公司常會強調所謂的 Culture, 但是 Culture 到底是什麼, 怎麼說清楚講明白? 其實好像真的有點難, 或是常常講跟沒講一樣。\r\n\r\nSpotify 這篇我覺得至少有滿明確的方向, 挺好的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "rqnVkt6",
+          "type": "Link",
+          "title": "DjangoQL - Advanced search language for Django",
+          "url_domain": "github.com",
+          "url": "https://github.com/ivelum/djangoql",
+          "description": "<p>滿有趣的一個 project, 對於工程師來說好像可以幫上一點忙。</p>",
+          "description_markdown": "滿有趣的一個 project, 對於工程師來說好像可以幫上一點忙。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "e2FsaUC",
+          "type": "Link",
+          "title": "\"It's Just Emulation!\" - The Challenge of Selling Old Games",
+          "url_domain": "gdcvault.com",
+          "url": "http://www.gdcvault.com/play/1023470/-It-s-Just-Emulation",
+          "description": "<p>講者 Frank Cifaldi (<a href=\"https://twitter.com/frankcifaldi\">@frankcifaldi</a>) 是 Digital Eclipse 這間公司的一員，也是 <a href=\"http://gamehistory.org/\">Video Game History Foundation</a> 的創始成員之一。Digital Eclipse 承製了 CAPCOM 的「<a href=\"http://www.capcom.co.jp/RCC/\">洛克人傳奇合輯</a>」 (Mega Man Legacy Collection / Rockman Classics Collection)，運用了模擬器技術讓這系列<del>老掉牙</del>經典遊戲重新在當代的遊戲機上發行。</p>\n\n<p>以講者對經典遊戲的熱愛，以及製作這款遊戲的經驗，他認為模擬器這東西長期被污名化，是時候該還它一個公道了。演講中除了列舉一些遊戲廠商與模擬器社群之間既敵視、又默默在吃後者豆腐的事蹟稍加挖苦，再以老電影不斷在各種記錄媒體上重現與傳承的例子，來譬喻模擬器其實可以視為「老遊戲的放映機」，對陪伴我們走過許多時光的經典遊戲來說，是一種數位典藏與近用的絕佳手段。</p>\n\n<p>這段演講影片非常精彩，我很推薦對電玩遊戲有愛的大家花點時間收看。</p>",
+          "description_markdown": "講者 Frank Cifaldi ([@frankcifaldi](https://twitter.com/frankcifaldi)) 是 Digital Eclipse 這間公司的一員，也是 [Video Game History Foundation](http://gamehistory.org/) 的創始成員之一。Digital Eclipse 承製了 CAPCOM 的「[洛克人傳奇合輯](http://www.capcom.co.jp/RCC/)」 (Mega Man Legacy Collection / Rockman Classics Collection)，運用了模擬器技術讓這系列~~老掉牙~~經典遊戲重新在當代的遊戲機上發行。\r\n\r\n以講者對經典遊戲的熱愛，以及製作這款遊戲的經驗，他認為模擬器這東西長期被污名化，是時候該還它一個公道了。演講中除了列舉一些遊戲廠商與模擬器社群之間既敵視、又默默在吃後者豆腐的事蹟稍加挖苦，再以老電影不斷在各種記錄媒體上重現與傳承的例子，來譬喻模擬器其實可以視為「老遊戲的放映機」，對陪伴我們走過許多時光的經典遊戲來說，是一種數位典藏與近用的絕佳手段。\r\n\r\n這段演講影片非常精彩，我很推薦對電玩遊戲有愛的大家花點時間收看。",
+          "embedded_links": [
+            {
+              "identifier": "5GVwAl1",
+              "title": "@frankcifaldi",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/frankcifaldi"
+            },
+            {
+              "identifier": "7GFkCu5",
+              "title": "Video Game History Foundation",
+              "url_domain": "gamehistory.org",
+              "url": "http://gamehistory.org/"
+            },
+            {
+              "identifier": "9Kmxuxt",
+              "title": "洛克人傳奇合輯",
+              "url_domain": "capcom.co.jp",
+              "url": "http://www.capcom.co.jp/RCC/"
+            }
+          ]
+        },
+        {
+          "identifier": "QeVgGWA",
+          "type": "Link",
+          "title": "I made an NES emulator. Here’s what I learned about the original Nintendo.",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@fogleman/i-made-an-nes-emulator-here-s-what-i-learned-about-the-original-nintendo-2e078c9b28fe",
+          "description": "<p>緊接著這篇還是在介紹模擬器，主因是我最近在嘗試讓家中的初代 <a href=\"https://www.raspberrypi.org/products/model-b/\">Raspberry Pi Model B</a> 能夠跑一些老主機上頭的經典遊戲，跌跌撞撞之間學到一堆冷知識。這篇就是在講，作者透過親身實作了一個紅白機（當然，<a href=\"https://en.wikipedia.org/wiki/Nintendo_Entertainment_System\">歐美版</a>的外殼並不是紅白色）模擬器，從中瞭解到紅白機的諸元運作方式，對於有志於開發紅白機模擬器的人來說，是一篇很不錯的觀念引導文。</p>\n\n<p>此外，我自己所謂跌跌撞撞的經驗，主要是一開始認為「初代 Raspberry Pi 規格再怎麼不濟，模擬紅白機應該還是綽綽有餘，用它做個『自我流 <a href=\"https://www.nintendo.co.jp/clv/\">Nintendo Classic Mini Family Computer</a>』是可行的」結果紅白機並不是如憨人所想這麼簡單的東西，多支援一塊特殊處理晶片，多支援一種特殊 <a href=\"https://wiki.nesdev.com/w/index.php/Mapper\">mapper</a>，處理起來的程式複雜度就又不知增加多少倍，而模擬器本身又是一種 CPU intensive 的程式，要在玩家的感官可接受的限度內，「翻譯」這些經典遊戲的程式到現代的硬體上，追求翻譯的精準度 (<a href=\"http://emulation-general.wikia.com/wiki/Emulation_Accuracy\">accuracy</a>)，就需要耗費極大的 CPU 運算成本。</p>\n\n<p>同場加映：</p>\n\n<ul>\n<li><a href=\"https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/\">Accuracy takes power: one man’s 3GHz quest to build a perfect SNES emulator</a></li>\n<li><a href=\"https://news.ycombinator.com/item?id=13052487\">LaiNES – Cycle-accurate NES emulator in around 1000 lines of code</a></li>\n</ul>",
+          "description_markdown": "緊接著這篇還是在介紹模擬器，主因是我最近在嘗試讓家中的初代 [Raspberry Pi Model B](https://www.raspberrypi.org/products/model-b/) 能夠跑一些老主機上頭的經典遊戲，跌跌撞撞之間學到一堆冷知識。這篇就是在講，作者透過親身實作了一個紅白機（當然，[歐美版](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System)的外殼並不是紅白色）模擬器，從中瞭解到紅白機的諸元運作方式，對於有志於開發紅白機模擬器的人來說，是一篇很不錯的觀念引導文。\r\n\r\n此外，我自己所謂跌跌撞撞的經驗，主要是一開始認為「初代 Raspberry Pi 規格再怎麼不濟，模擬紅白機應該還是綽綽有餘，用它做個『自我流 [Nintendo Classic Mini Family Computer](https://www.nintendo.co.jp/clv/)』是可行的」結果紅白機並不是如憨人所想這麼簡單的東西，多支援一塊特殊處理晶片，多支援一種特殊 [mapper](https://wiki.nesdev.com/w/index.php/Mapper)，處理起來的程式複雜度就又不知增加多少倍，而模擬器本身又是一種 CPU intensive 的程式，要在玩家的感官可接受的限度內，「翻譯」這些經典遊戲的程式到現代的硬體上，追求翻譯的精準度 ([accuracy](http://emulation-general.wikia.com/wiki/Emulation_Accuracy))，就需要耗費極大的 CPU 運算成本。\r\n\r\n同場加映：\r\n\r\n* [Accuracy takes power: one man’s 3GHz quest to build a perfect SNES emulator](https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/)\r\n* [LaiNES – Cycle-accurate NES emulator in around 1000 lines of code](https://news.ycombinator.com/item?id=13052487)",
+          "embedded_links": [
+            {
+              "identifier": "oCZiKqV",
+              "title": "Raspberry Pi Model B",
+              "url_domain": "raspberrypi.org",
+              "url": "https://www.raspberrypi.org/products/model-b/"
+            },
+            {
+              "identifier": "4z07qxo",
+              "title": "歐美版",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Nintendo_Entertainment_System"
+            },
+            {
+              "identifier": "mAGNx5j",
+              "title": "Nintendo Classic Mini Family Computer",
+              "url_domain": "nintendo.co.jp",
+              "url": "https://www.nintendo.co.jp/clv/"
+            },
+            {
+              "identifier": "re4LicK",
+              "title": "mapper",
+              "url_domain": "nesdev.com",
+              "url": "https://wiki.nesdev.com/w/index.php/Mapper"
+            },
+            {
+              "identifier": "3Jy8GuY",
+              "title": "accuracy",
+              "url_domain": "wikia.com",
+              "url": "http://emulation-general.wikia.com/wiki/Emulation_Accuracy"
+            },
+            {
+              "identifier": "AkU8RfU",
+              "title": "Accuracy takes power: one man’s 3GHz quest to build a perfect SNES emulator",
+              "url_domain": "arstechnica.com",
+              "url": "https://arstechnica.com/gaming/2011/08/accuracy-takes-power-one-mans-3ghz-quest-to-build-a-perfect-snes-emulator/"
+            },
+            {
+              "identifier": "SVHvFwG",
+              "title": "LaiNES – Cycle-accurate NES emulator in around 1000 lines of code",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=13052487"
+            }
+          ]
+        },
+        {
+          "identifier": "8VF2pxW",
+          "type": "Link",
+          "title": "Phoenix 1.3 is pure love for API development",
+          "url_domain": "swanros.com",
+          "url": "http://swanros.com/phoenix-1-3-is-pure-love-for-api-development/",
+          "description": "<p>這篇介紹了 Phoenix 這個 Elixir 的 Web 開發框架，在 1.3 版（到截稿為止還在 rc1）一些設計上的改變。其中對於專案目錄結構的變動，是最顯著的，我覺得這是 Phoenix 擺脫「Ruby on Rails 仿品」的包袱、更朝向 Elixir way 來設計，是很重要的一步。</p>\n\n<p>此外，新增的 <code>action_fallback</code> 讓程式寫起來更具表述力，也更加精簡，透過這個 callback 可以把很多程式的後續處理集中在一起，對於像是 API 返回呼叫結果之類的場合很有幫助。</p>\n\n<p>雖然 Phoenix 1.3 可能不是一個會讓人覺得酷炫潮夯、大刀闊斧的新改版，但的確是一個往好的設計方向去做的新版，各位手邊如果還有一些 1.3 之前的專案，現在就可以開始試著轉移到 1.3 了。</p>",
+          "description_markdown": "這篇介紹了 Phoenix 這個 Elixir 的 Web 開發框架，在 1.3 版（到截稿為止還在 rc1）一些設計上的改變。其中對於專案目錄結構的變動，是最顯著的，我覺得這是 Phoenix 擺脫「Ruby on Rails 仿品」的包袱、更朝向 Elixir way 來設計，是很重要的一步。\r\n\r\n此外，新增的 `action_fallback` 讓程式寫起來更具表述力，也更加精簡，透過這個 callback 可以把很多程式的後續處理集中在一起，對於像是 API 返回呼叫結果之類的場合很有幫助。\r\n\r\n雖然 Phoenix 1.3 可能不是一個會讓人覺得酷炫潮夯、大刀闊斧的新改版，但的確是一個往好的設計方向去做的新版，各位手邊如果還有一些 1.3 之前的專案，現在就可以開始試著轉移到 1.3 了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "EEoHPxO",
+          "type": "Link",
+          "title": "Building a CQRS/ES web application in Elixir using Phoenix",
+          "url_domain": "10consulting.com",
+          "url": "https://10consulting.com/2017/01/04/building-a-cqrs-web-application-in-elixir-using-phoenix/",
+          "description": "<p>自從我來到目前這個需要「在有限時間內，處理瞬間巨量請求」的工作後，就開始去找這方面的資料來看。其中 <a href=\"https://martinfowler.com/bliki/CQRS.html\">CQRS</a> 與 <a href=\"https://martinfowler.com/eaaDev/EventSourcing.html\">Event Sourcing</a> 是我自己曾悶著頭想，但過了好一陣子，才發現早已有人提出來的兩種架構設計方法。</p>\n\n<p>這篇文章作者詳細介紹了以 Phoenix 實作出 CQRS/ES 架構的應用程式實戰經驗，且是以傘形組織方式 (<a href=\"https://elixirschool.com/lessons/advanced/umbrella-projects/\">Umbrella</a>) 把每個元件分而治之，整個開發環節都帶過了一次，對想要拿 Phoenix 做大事業的人是一份很好的參考學習範例，推薦給大家。</p>",
+          "description_markdown": "自從我來到目前這個需要「在有限時間內，處理瞬間巨量請求」的工作後，就開始去找這方面的資料來看。其中 [CQRS](https://martinfowler.com/bliki/CQRS.html) 與 [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) 是我自己曾悶著頭想，但過了好一陣子，才發現早已有人提出來的兩種架構設計方法。\r\n\r\n這篇文章作者詳細介紹了以 Phoenix 實作出 CQRS/ES 架構的應用程式實戰經驗，且是以傘形組織方式 ([Umbrella](https://elixirschool.com/lessons/advanced/umbrella-projects/)) 把每個元件分而治之，整個開發環節都帶過了一次，對想要拿 Phoenix 做大事業的人是一份很好的參考學習範例，推薦給大家。",
+          "embedded_links": [
+            {
+              "identifier": "fuxSNnE",
+              "title": "CQRS",
+              "url_domain": "martinfowler.com",
+              "url": "https://martinfowler.com/bliki/CQRS.html"
+            },
+            {
+              "identifier": "BaTUwrx",
+              "title": "Event Sourcing",
+              "url_domain": "martinfowler.com",
+              "url": "https://martinfowler.com/eaaDev/EventSourcing.html"
+            },
+            {
+              "identifier": "dwfA7R2",
+              "title": "Umbrella",
+              "url_domain": "elixirschool.com",
+              "url": "https://elixirschool.com/lessons/advanced/umbrella-projects/"
+            }
+          ]
+        },
+        {
+          "identifier": "qB3kTiZ",
+          "type": "Link",
+          "title": "Man, ‘splained: 40-Plus Years of Man Page History — Truss",
+          "url_domain": "truss.works",
+          "url": "https://truss.works/blog/2016/12/9/man-splained",
+          "description": "<p>在泛 UNIX/UNIX-clone 系統上混，絕對少不了去<del>找男人</del>翻 man(ual) pages 的機會，但是 man 的歷史緣由、來龍去脈以及如何編寫，其實我自己也不求甚解<del>（而且說實在的，groff 看了一眼就覺得阿雜，怎麼還能要求我去寫）</del>，我想跟我一樣對 man 既熟悉又陌生的人並不少，而這篇考古文，就概略地介紹了 man 這玩意兒，可說是 man 的科普文。</p>\n\n<p>本期最後一篇，給大家介紹這個有點 geek 趣味的文章。</p>",
+          "description_markdown": "在泛 UNIX/UNIX-clone 系統上混，絕對少不了去~~找男人~~翻 man(ual) pages 的機會，但是 man 的歷史緣由、來龍去脈以及如何編寫，其實我自己也不求甚解~~（而且說實在的，groff 看了一眼就覺得阿雜，怎麼還能要求我去寫）~~，我想跟我一樣對 man 既熟悉又陌生的人並不少，而這篇考古文，就概略地介紹了 man 這玩意兒，可說是 man 的科普文。\r\n\r\n本期最後一篇，給大家介紹這個有點 geek 趣味的文章。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "BQtwiCK",
+          "type": "Link",
+          "title": "kkdai/LineBotBabyLuis: A baby NLU chatbot using LUIS",
+          "url_domain": "github.com",
+          "url": "https://github.com/kkdai/LineBotBabyLuis",
+          "description": "<p>大家好，這一次我會自肥自己兩個小 Chatbot 分享給大家（附帶原始碼) ．也希望讓大家了解一下如何使用 Golang 來架設 Chatbot ．</p>\n\n<p>LineBotBabyLuis: 就是當初寫好專案 <a href=\"https://github.com/kkdai/luis\">luis go sdk</a> 之後說要寫一個會自我學習的 chatbot 的 POC 小專案．</p>\n\n<p>這個 Chatbot 具有自我學習的功能（其實不過就是每次問他，他不認識的，就會請你告訴他是哪個 intent )</p>\n\n<p>透過微軟 LUIS 的功能，這個 chatbot 就算沒有任何資料庫也能夠做到自我學習．並且不斷累積知識的功能．</p>\n\n<p>想學學 LUIS 怎麼使用的人（透過 Golang API ) 也可以看看．</p>\n\n<p>之後會再寫個中文部落格來介紹這個....</p>",
+          "description_markdown": "大家好，這一次我會自肥自己兩個小 Chatbot 分享給大家（附帶原始碼) ．也希望讓大家了解一下如何使用 Golang 來架設 Chatbot ．\r\n\r\nLineBotBabyLuis: 就是當初寫好專案 [luis go sdk](https://github.com/kkdai/luis) 之後說要寫一個會自我學習的 chatbot 的 POC 小專案．\r\n\r\n這個 Chatbot 具有自我學習的功能（其實不過就是每次問他，他不認識的，就會請你告訴他是哪個 intent ) \r\n\r\n透過微軟 LUIS 的功能，這個 chatbot 就算沒有任何資料庫也能夠做到自我學習．並且不斷累積知識的功能．\r\n\r\n想學學 LUIS 怎麼使用的人（透過 Golang API ) 也可以看看．\r\n\r\n之後會再寫個中文部落格來介紹這個....\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "By8ETZO",
+              "title": "luis go sdk",
+              "url_domain": "github.com",
+              "url": "https://github.com/kkdai/luis"
+            }
+          ],
+          "image_original_filename": "8a35a077-1e15-4631-aac1-e5d36dc3c7d3.jpg",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_8a35a077-1e15-4631-aac1-e5d36dc3c7d3.jpg",
+          "image_medium_filename": "twenty_by_nine_medium_8a35a077-1e15-4631-aac1-e5d36dc3c7d3.jpg"
+        },
+        {
+          "identifier": "970Jnls",
+          "type": "Link",
+          "title": "kkdai/LineBotAnimal: Line Bot Animal photo classification",
+          "url_domain": "github.com",
+          "url": "https://github.com/kkdai/LineBotAnimal",
+          "description": "<p>為了 Chatbot Day 準備的聊天機器人第二彈</p>\n\n<p>功能很簡單: 就是你上傳動物照片，他就會告訴你是什麼動物．</p>\n\n<p>背後的機器學習模型就是鼎鼎大名的 Tensorflow Inception</p>\n\n<p>細節就會在 04/27 的 IThome Chatbot Day  會講解....</p>\n\n<p>註解: Tensorflow Inception 就是一個透過 CNN 建立出來的動物資料庫分類器</p>\n\n<p>參考: <a href=\"https://github.com/tensorflow/models/tree/master/inception\">https://github.com/tensorflow/models/tree/master/inception</a></p>",
+          "description_markdown": "為了 Chatbot Day 準備的聊天機器人第二彈 \r\n\r\n功能很簡單: 就是你上傳動物照片，他就會告訴你是什麼動物．\r\n\r\n背後的機器學習模型就是鼎鼎大名的 Tensorflow Inception \r\n\r\n細節就會在 04/27 的 IThome Chatbot Day  會講解....  \r\n\r\n註解: Tensorflow Inception 就是一個透過 CNN 建立出來的動物資料庫分類器\r\n\r\n參考: [https://github.com/tensorflow/models/tree/master/inception](https://github.com/tensorflow/models/tree/master/inception)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "XHRpYbk",
+              "title": "https://github.com/tensorflow/models/tree/master/inception",
+              "url_domain": "github.com",
+              "url": "https://github.com/tensorflow/models/tree/master/inception"
+            }
+          ],
+          "image_original_filename": "9f4c7625-6b86-4302-bb9a-cbec272cfe5c.PNG",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_9f4c7625-6b86-4302-bb9a-cbec272cfe5c.PNG",
+          "image_medium_filename": "twenty_by_nine_medium_9f4c7625-6b86-4302-bb9a-cbec272cfe5c.PNG"
+        },
+        {
+          "identifier": "sMs0nAO",
+          "type": "Link",
+          "title": "Automatic Stackdriver Tracing for gRPC · Go, the unwritten parts",
+          "url_domain": "rakyll.org",
+          "url": "https://rakyll.org/grpc-trace/",
+          "description": "<p>這篇講解了如何透過 Golang 來撰寫一個使用 stackdriver （也就是 Google 之前所併購的線上分散式追蹤 distributed tracing 的工具) 來查看在 gRPC 下問是否有任何問題．</p>\n\n<p>想要試試看 Open Source 的 distributed tracing ? 那麼可以試試看最近進入 <a href=\"http://cncf.io\">CNCF</a> 的 Open Tracing ．  官方的部落格有一個<a href=\"https://medium.com/opentracing/tracing-http-request-latency-in-go-with-opentracing-7cc1282a100a#.vi1v0ftnv\">範例讓你學習如何用 Golang 透過 Open Tracing 來追蹤 http latency </a>．</p>\n\n<p>名詞解釋: CNCF (Cloud Native Computing Foundation) 是由 Google, Intel, CoreOS 與華為 等等各家網路 大公司所組成的協會．主要選取一些優秀的服務來推廣適合作為 Cloud Native Computing 之用.. 目前裡面的軟體有: Kubernetes, Prometheus, Fluentd 與 GPRC .. 等等 Cloud Native 上重要的服務</p>",
+          "description_markdown": "這篇講解了如何透過 Golang 來撰寫一個使用 stackdriver （也就是 Google 之前所併購的線上分散式追蹤 distributed tracing 的工具) 來查看在 gRPC 下問是否有任何問題．\r\n\r\n想要試試看 Open Source 的 distributed tracing ? 那麼可以試試看最近進入 [CNCF](http://cncf.io) 的 Open Tracing ．  官方的部落格有一個[範例讓你學習如何用 Golang 透過 Open Tracing 來追蹤 http latency ](https://medium.com/opentracing/tracing-http-request-latency-in-go-with-opentracing-7cc1282a100a#.vi1v0ftnv)．\r\n\r\n名詞解釋: CNCF (Cloud Native Computing Foundation) 是由 Google, Intel, CoreOS 與華為 等等各家網路 大公司所組成的協會．主要選取一些優秀的服務來推廣適合作為 Cloud Native Computing 之用.. 目前裡面的軟體有: Kubernetes, Prometheus, Fluentd 與 GPRC .. 等等 Cloud Native 上重要的服務\r\n",
+          "embedded_links": [
+            {
+              "identifier": "WzND5Ru",
+              "title": "CNCF",
+              "url_domain": "cncf.io",
+              "url": "http://cncf.io"
+            },
+            {
+              "identifier": "hI60sIM",
+              "title": "範例讓你學習如何用 Golang 透過 Open Tracing 來追蹤 http latency ",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/opentracing/tracing-http-request-latency-in-go-with-opentracing-7cc1282a100a#.vi1v0ftnv"
+            }
+          ]
+        },
+        {
+          "identifier": "d8T5Ra2",
+          "type": "Link",
+          "title": "Linux, Netlink, and Go — Part 1: netlink – Medium",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8",
+          "description": "<p>這篇文章看了好幾天，終於看完． 透過 #Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 \"Netlink\"</p>\n\n<p>本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink</p>\n\n<p>[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．</p>\n\n<p>Netlink Socket 優點:</p>\n\n<ol>\n<li>透過 UDP 沒有 ioctl 的 kernel round trip time</li>\n<li>可以一次發給同一個 group 中的 user process</li>\n</ol>\n\n\n<p>缺點:</p>\n\n<ol>\n<li>UDP 老問題.. 你不確定對方有沒有收到</li>\n<li>由於透過 socket 其實感覺不如 ioctl 那麼的直覺</li>\n</ol>\n\n\n<p>這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看</p>\n\n<p>BTW: Prometheus 的 node_exporter 感覺很好用??</p>\n\n<p><a href=\"https://github.com/mdlayher/netlink\">Netlink Go package</a>:</p>\n\n<p>關於 Netlink Socket 可以<a href=\"http://daydreamer.idv.tw/rewrite.php/read-47.html\">參考</a></p>",
+          "description_markdown": "這篇文章看了好幾天，終於看完． 透過 #Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 \"Netlink\"\r\n\r\n本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink\r\n\r\n[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．\r\n\r\nNetlink Socket 優點: \r\n\r\n1. 透過 UDP 沒有 ioctl 的 kernel round trip time\r\n2. 可以一次發給同一個 group 中的 user process\r\n\r\n缺點:\r\n\r\n1. UDP 老問題.. 你不確定對方有沒有收到\r\n2. 由於透過 socket 其實感覺不如 ioctl 那麼的直覺\r\n\r\n這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看\r\n\r\nBTW: Prometheus 的 node_exporter 感覺很好用??\r\n\r\n[Netlink Go package](https://github.com/mdlayher/netlink): \r\n\r\n關於 Netlink Socket 可以[參考](http://daydreamer.idv.tw/rewrite.php/read-47.html)",
+          "embedded_links": [
+            {
+              "identifier": "FSnjHLN",
+              "title": "Netlink Go package",
+              "url_domain": "github.com",
+              "url": "https://github.com/mdlayher/netlink"
+            },
+            {
+              "identifier": "C9eFLvi",
+              "title": "參考",
+              "url_domain": "daydreamer.idv.tw",
+              "url": "http://daydreamer.idv.tw/rewrite.php/read-47.html"
+            }
+          ]
+        },
+        {
+          "identifier": "8xjtmLb",
+          "type": "Link",
+          "title": "leandromoreira/digital_video_introduction: A hands-on introduction to video technology: image, video, codec (av1, h264, h265) and more (ffmpeg encoding).",
+          "url_domain": "github.com",
+          "url": "https://github.com/leandromoreira/digital_video_introduction",
+          "description": "<p> [關於影像處理的完整介紹]</p>\n\n<p>裡面包含圖片，各種影像格式 av1, h264, h265 的編碼格式與一些基礎原理外．也有 ffmpeg 的相關操作． 對於想要惡補或是回顧的人會有趣．\n裡面的解釋都很清楚，有大量的圖片作為輔助．相當的棒！</p>",
+          "description_markdown": " [關於影像處理的完整介紹]\r\n\r\n裡面包含圖片，各種影像格式 av1, h264, h265 的編碼格式與一些基礎原理外．也有 ffmpeg 的相關操作． 對於想要惡補或是回顧的人會有趣．\r\n裡面的解釋都很清楚，有大量的圖片作為輔助．相當的棒！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

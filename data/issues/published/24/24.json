@@ -1,0 +1,502 @@
+{
+  "number": 24,
+  "title": "Issue 24 國民黨不倒，台灣不會好",
+  "summary": "本期內容涵蓋 Growth Hacking, Hiring, JavaScript, React, CSS, Xcode plugins, Objective-C, RxSwift",
+  "url": "https://weekly.codetengu.com/issues/24",
+  "publication_status": "published",
+  "published_at": "2016-01-11T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:27:33+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/)\r\n- [@wancw](https://twitter.com/wancw) - 求職中的 Full-stack Developer，意者內洽\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "CEDSj0q",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "1tw0KNB",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "PIMNZJS",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "bw17QjU",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "qk7235s",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "5YZFMDA",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "l5BC41D",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "8eekTBS",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "WVqw59K",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "KmHuiOs",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "bfX3g6g",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "uY4A90I",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "Kpk0hLh",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "ekzPKNE",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "N5JKICW",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "cTTUros",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "8XzjFPH",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "B6yd7o0",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "S13wfbr",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "bgpvcSN",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "mfFhPxr",
+          "type": "Link",
+          "title": "Growth Hacking 不只是 Creative Marketing，別忽略背後的資料科學與方法論",
+          "url_domain": "tempo.tw",
+          "url": "http://tempo.tw/post/136933600485/growth-hacking-%E4%B8%8D%E5%8F%AA%E6%98%AF-creative",
+          "description": "<p>最近 Growth Hacking 鬧的沸沸揚揚的,  Cubie 創辦人 <a href=\"https://twitter.com/tempofeng\">@tempofeng</a> 的這篇文章, 我覺得非常有見地, 不愧是 tempo 哥。</p>",
+          "description_markdown": "最近 Growth Hacking 鬧的沸沸揚揚的,  Cubie 創辦人 [@tempofeng](https://twitter.com/tempofeng) 的這篇文章, 我覺得非常有見地, 不愧是 tempo 哥。",
+          "embedded_links": [
+            {
+              "identifier": "51n4tkt",
+              "title": "@tempofeng",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tempofeng"
+            }
+          ]
+        },
+        {
+          "identifier": "N86CDVg",
+          "type": "Link",
+          "title": "Mature Developers - 成熟的開發者",
+          "url_domain": "squeakyvessel.com",
+          "url": "http://squeakyvessel.com/2015/05/12/mature-developers/",
+          "description": "<p>成熟的開發者有哪些特質? 我個人覺得這篇值得一看, 特別是 Tech Lead 這個角色, 或是正在準備成為 Tech Lead 的人, 看看自己是否滿分? 或是還有哪些點得加強一下。</p>",
+          "description_markdown": "成熟的開發者有哪些特質? 我個人覺得這篇值得一看, 特別是 Tech Lead 這個角色, 或是正在準備成為 Tech Lead 的人, 看看自己是否滿分? 或是還有哪些點得加強一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "RlzMS0d",
+          "type": "Link",
+          "title": "Learnings from Building reread.io",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/jolly-good-notes/learnings-from-building-reread-io-46f57871e124#.3r2p85z1f",
+          "description": "<p>這是 <a href=\"reread.io\">reread.io</a> 的作者 <a href=\"https://twitter.com/winstonyw\">@winstonyw</a> 寫的文章, reread.io 是一個 Pocket 的工具。 因為很多人都跟作者一樣, 存了很多文章進 Pocket, 但是也不會去讀, 或是忘記。 而 reread.io 則是可以每天寄一封 email 給你自己, 幫助你可以讀完先前存下來的東西。</p>\n\n<p>我先前雖然已經從 <a href=\"https://tzangms.com/from-pocket-to-instapaper/\">Pocket 跳槽到 Instapaper 了</a>, 不過因為 Pocket 還是有很多書籤, 所以一直有用 reread.io 來閱讀以及清理先前存下來的文章。</p>\n\n<p>reread.io 是作者的 weekend project, 這篇則是在紀錄他從開發後, 開始作一些行銷的東做紀錄, 甚至被 Pocket 聯絡, 邀請他去講 reread.io。</p>\n\n<p>雖然 reread.io 沒有爆發式的成長, 或是很漂亮的數據, 不過我覺得 side project 就是要拿來這樣玩, 可以從中學到很多東西, 驗證你的想法, 學習如何行銷自己的作品。</p>\n\n<p>最後 reread.io 居然 <a href=\"https://github.com/jollygoodcode/reread\">Open Source</a> 了! 大家去看看文章吧!</p>",
+          "description_markdown": "這是 [reread.io](reread.io) 的作者 [@winstonyw](https://twitter.com/winstonyw) 寫的文章, reread.io 是一個 Pocket 的工具。 因為很多人都跟作者一樣, 存了很多文章進 Pocket, 但是也不會去讀, 或是忘記。 而 reread.io 則是可以每天寄一封 email 給你自己, 幫助你可以讀完先前存下來的東西。\r\n\r\n我先前雖然已經從 [Pocket 跳槽到 Instapaper 了](https://tzangms.com/from-pocket-to-instapaper/), 不過因為 Pocket 還是有很多書籤, 所以一直有用 reread.io 來閱讀以及清理先前存下來的文章。\r\n\r\nreread.io 是作者的 weekend project, 這篇則是在紀錄他從開發後, 開始作一些行銷的東做紀錄, 甚至被 Pocket 聯絡, 邀請他去講 reread.io。\r\n\r\n雖然 reread.io 沒有爆發式的成長, 或是很漂亮的數據, 不過我覺得 side project 就是要拿來這樣玩, 可以從中學到很多東西, 驗證你的想法, 學習如何行銷自己的作品。\r\n\r\n最後 reread.io 居然 [Open Source](https://github.com/jollygoodcode/reread) 了! 大家去看看文章吧!",
+          "embedded_links": [
+            {
+              "identifier": "ZUhPxxZ",
+              "title": "@winstonyw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/winstonyw"
+            },
+            {
+              "identifier": "FJFzP7n",
+              "title": "Pocket 跳槽到 Instapaper 了",
+              "url_domain": "tzangms.com",
+              "url": "https://tzangms.com/from-pocket-to-instapaper/"
+            },
+            {
+              "identifier": "RPsxaSh",
+              "title": "Open Source",
+              "url_domain": "github.com",
+              "url": "https://github.com/jollygoodcode/reread"
+            }
+          ]
+        },
+        {
+          "identifier": "fJz5LxD",
+          "type": "Link",
+          "title": "‘Give Away Your Legos’ and Other Commandments for Scaling Startups",
+          "url_domain": "firstround.com",
+          "url": "http://firstround.com/review/give-away-your-legos-and-other-commandments-for-scaling-startups/",
+          "description": "<p>Molly Graham, 現任 Quip 的 COO, 之前待過 Google, Facebook, 都經歷過公司員工人數快速成長爆發的時期。</p>\n\n<blockquote><p>If you personally want to grow as fast as your company, you have to give away your job every couple months.</p></blockquote>\n\n<p>公司人數成長太快, 快到每幾個月, 你就得放掉手上的工作, 交給別人, 往更高更宏觀的工作方向走, 如果放不掉手上的工作, 沒跟著公司成長的速度, 很容易就會變成公司瓶頸。</p>\n\n<p>文章裡面也提到很多關於招人以及公司文化, 我覺得挺有趣的, 要是在這種爆發的公司一定會很焦慮, 但是也會很有挑戰性吧 (笑)</p>\n\n<p>其中也提到一個會讓人會心一笑的點:</p>\n\n<blockquote><p>A week ago, someone might have told you they hate their Legos and want to get rid of them. But as soon as you hire someone else, they suddenly want to hang on to all of them.</p></blockquote>",
+          "description_markdown": "Molly Graham, 現任 Quip 的 COO, 之前待過 Google, Facebook, 都經歷過公司員工人數快速成長爆發的時期。\r\n\r\n> If you personally want to grow as fast as your company, you have to give away your job every couple months.\r\n\r\n公司人數成長太快, 快到每幾個月, 你就得放掉手上的工作, 交給別人, 往更高更宏觀的工作方向走, 如果放不掉手上的工作, 沒跟著公司成長的速度, 很容易就會變成公司瓶頸。 \r\n\r\n文章裡面也提到很多關於招人以及公司文化, 我覺得挺有趣的, 要是在這種爆發的公司一定會很焦慮, 但是也會很有挑戰性吧 (笑)\r\n\r\n\r\n其中也提到一個會讓人會心一笑的點:\r\n\r\n> A week ago, someone might have told you they hate their Legos and want to get rid of them. But as soon as you hire someone else, they suddenly want to hang on to all of them.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FiTyQFe",
+          "type": "Link",
+          "title": "本週 IG: @90_allie",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/90_allie/",
+          "description": "<p>因為這電子報系統好像沒辦法放動態 gif 檔, 只好直接貼連結了:</p>\n\n<p><a href=\"http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif\">http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif</a></p>\n\n<p>上面這個是最近韓國網民瘋傳的棒球啦啦隊的動態 GIF, 一看就覺得戀愛了, 所以就去找了一下她的資料, 跟大家分享一下。</p>",
+          "description_markdown": "因為這電子報系統好像沒辦法放動態 gif 檔, 只好直接貼連結了:\r\n\r\n[http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif](http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif)\r\n\r\n上面這個是最近韓國網民瘋傳的棒球啦啦隊的動態 GIF, 一看就覺得戀愛了, 所以就去找了一下她的資料, 跟大家分享一下。",
+          "embedded_links": [
+            {
+              "identifier": "avolLd4",
+              "title": "http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif",
+              "url_domain": "koreaboo.com",
+              "url": "http://cdn.koreaboo.com/wp-content/uploads/2016/01/loi.gif"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "cVBRZvt",
+          "type": "Link",
+          "title": "台灣真的有這麼多公司使用 React.js？",
+          "url_domain": "ptt.cc",
+          "url": "https://www.ptt.cc/bbs/Soft_Job/M.1451695803.A.2B4.html",
+          "description": "<p>一篇面試文在台灣前端圈引起討論，這位牛人面試了 22 家公司的前端職位，從過程中不難看出技術走向，同時也對於台灣網路公司普遍對於前端知識的缺乏，能有一個前端團隊的公司相當稀少，更遑論面試時能夠評估一個前端工程師的能力。</p>\n\n<p>另外也從中看到技術趨勢的轉變之快，React.js 公開後約一年多的時間，在前端圈子中幾乎成為「新潮」的代名詞，許多公司紛紛採用，連 Yahoo! 也不例外。這幾年追逐 framework 的情況越來越盛，backbone.js、angularJS 到 React.js，更迭速度之快，更讓人覺得投資在語言本身，打好基礎才是不變應萬變之道。</p>",
+          "description_markdown": "一篇面試文在台灣前端圈引起討論，這位牛人面試了 22 家公司的前端職位，從過程中不難看出技術走向，同時也對於台灣網路公司普遍對於前端知識的缺乏，能有一個前端團隊的公司相當稀少，更遑論面試時能夠評估一個前端工程師的能力。\r\n\r\n另外也從中看到技術趨勢的轉變之快，React.js 公開後約一年多的時間，在前端圈子中幾乎成為「新潮」的代名詞，許多公司紛紛採用，連 Yahoo! 也不例外。這幾年追逐 framework 的情況越來越盛，backbone.js、angularJS 到 React.js，更迭速度之快，更讓人覺得投資在語言本身，打好基礎才是不變應萬變之道。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5Mv0s9W",
+          "type": "Link",
+          "title": "用純 CSS 實現滾動視差（Parallax Scrolling）",
+          "url_domain": "keithclark.co.uk",
+          "url": "http://keithclark.co.uk/articles/pure-css-parallax-websites/",
+          "description": "<p>一般的滾動視差網頁都是以 JavaScript 來處理畫面元素移動速度，但你有想過用 CSS 的 3D 視角來做嗎？這一篇教你如何用 translate3d 和 perspective 屬性達到滾動式差的效果，相當神奇！</p>",
+          "description_markdown": "一般的滾動視差網頁都是以 JavaScript 來處理畫面元素移動速度，但你有想過用 CSS 的 3D 視角來做嗎？這一篇教你如何用 translate3d 和 perspective 屬性達到滾動式差的效果，相當神奇！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "C2p0ubm",
+          "type": "Link",
+          "title": "colorfilter.css",
+          "url_domain": "github.io",
+          "url": "http://lukyvj.github.io/colofilter.css/",
+          "description": "<p>Spotify 的音樂清單中，多以雙色的照片來呈現風格，一個開源專案利用 CSS 的 <code>mix-blend-mode</code> 與 <code>filter</code> 屬性做出類似的效果，內建多種組合，而且相當好上手。</p>\n\n<p><a href=\"http://codepen.io/collection/AGpJpm/\">demo</a></p>",
+          "description_markdown": "Spotify 的音樂清單中，多以雙色的照片來呈現風格，一個開源專案利用 CSS 的 `mix-blend-mode` 與 `filter` 屬性做出類似的效果，內建多種組合，而且相當好上手。\r\n\r\n[demo](http://codepen.io/collection/AGpJpm/)",
+          "embedded_links": [
+            {
+              "identifier": "Bc5VEhJ",
+              "title": "demo",
+              "url_domain": "codepen.io",
+              "url": "http://codepen.io/collection/AGpJpm/"
+            }
+          ],
+          "image_original_filename": "db93ac13-9945-475b-aed8-d9434cb14d51.png",
+          "image_extra_large_filename": "original_ratio_extra_large_db93ac13-9945-475b-aed8-d9434cb14d51.png",
+          "image_medium_filename": "original_ratio_medium_db93ac13-9945-475b-aed8-d9434cb14d51.png"
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "bRgBbzE",
+          "type": "Link",
+          "title": "DVTPlugInCompatibilityUUIDifier",
+          "url_domain": "github.com",
+          "url": "https://github.com/mralexgray/DVTPlugInCompatibilityUUIDifier",
+          "description": "<p>Xcode 絕對是大多數 Mac / iOS 開發者的首選 IDE，但不可否認的它真的很陽春。還好有許多熱心的開發者貢獻了一大堆 plugins，幫 Xcode 加上了許多實用的功能。只是由於先天架構的限制，只要 Xcode  版本更新，原有的 plugins 就會失效。不過再也不用擔心了，只要安裝了這個 plugin（它其實是一隻看門狗），就會自動升級所有 plugins 的相容性！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://nelson.logdown.com/posts/2015/10/06/essential-xcode-plugins\">必備的 Xcode plugins</a></li>\n</ul>",
+          "description_markdown": "Xcode 絕對是大多數 Mac / iOS 開發者的首選 IDE，但不可否認的它真的很陽春。還好有許多熱心的開發者貢獻了一大堆 plugins，幫 Xcode 加上了許多實用的功能。只是由於先天架構的限制，只要 Xcode  版本更新，原有的 plugins 就會失效。不過再也不用擔心了，只要安裝了這個 plugin（它其實是一隻看門狗），就會自動升級所有 plugins 的相容性！\r\n\r\n延伸閱讀：\r\n\r\n- [必備的 Xcode plugins](http://nelson.logdown.com/posts/2015/10/06/essential-xcode-plugins)",
+          "embedded_links": [
+            {
+              "identifier": "gOkDcG4",
+              "title": "必備的 Xcode plugins",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2015/10/06/essential-xcode-plugins"
+            }
+          ]
+        },
+        {
+          "identifier": "cHpNRYl",
+          "type": "Link",
+          "title": "Difference between nullable, __nullable and _Nullable in Objective-C",
+          "url_domain": "stackoverflow.com",
+          "url": "http://stackoverflow.com/a/33682230",
+          "description": "<p>前幾天在跟同事討論要統一程式碼風格，就聊到了要使用 <code>nullable</code>、<code>__nullable</code>、還是 <code>__Nullable</code>。StackOverflow 上的這篇文章講解的很清楚，值得把它記錄下來以便隨時參考。</p>",
+          "description_markdown": "前幾天在跟同事討論要統一程式碼風格，就聊到了要使用 `nullable`、`__nullable`、還是 `__Nullable`。StackOverflow 上的這篇文章講解的很清楚，值得把它記錄下來以便隨時參考。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "k4yDL4Q",
+          "type": "Link",
+          "title": "Upgrading to RxSwift - Artsy Engineering",
+          "url_domain": "github.io",
+          "url": "http://artsy.github.io/blog/2015/12/08/reactive-cocoa-to-rxswift/",
+          "description": "<p>任職於 Artsy 的 Ash Furrow 是一位 Functional Reactive Programming 的愛好者，他寫了一本 <a href=\"https://leanpub.com/iosfrp\">Functional Reactive Programming on iOS</a> 教大家如何用 ReactiveCocoa 寫 FRP。</p>\n\n<p>不過在 Swift 推出之後，雖然 ReactiveCocoa 也有跟著推出 Swift 版本，他卻棄而改用 RxSwift，這篇文章解釋了他這麼做的理由。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://reactivex.io/\">ReactiveX API</a></li>\n<li><a href=\"http://rxmarbles.com/\">Interactive diagrams of Rx Observables</a></li>\n</ul>",
+          "description_markdown": "任職於 Artsy 的 Ash Furrow 是一位 Functional Reactive Programming 的愛好者，他寫了一本 [Functional Reactive Programming on iOS](https://leanpub.com/iosfrp) 教大家如何用 ReactiveCocoa 寫 FRP。\r\n\r\n不過在 Swift 推出之後，雖然 ReactiveCocoa 也有跟著推出 Swift 版本，他卻棄而改用 RxSwift，這篇文章解釋了他這麼做的理由。\r\n\r\n延伸閱讀：\r\n\r\n- [ReactiveX API](http://reactivex.io/)\r\n- [Interactive diagrams of Rx Observables](http://rxmarbles.com/)",
+          "embedded_links": [
+            {
+              "identifier": "7DsCjm6",
+              "title": "Functional Reactive Programming on iOS",
+              "url_domain": "leanpub.com",
+              "url": "https://leanpub.com/iosfrp"
+            },
+            {
+              "identifier": "weKj9vf",
+              "title": "ReactiveX API",
+              "url_domain": "reactivex.io",
+              "url": "http://reactivex.io/"
+            },
+            {
+              "identifier": "2nnjniA",
+              "title": "Interactive diagrams of Rx Observables",
+              "url_domain": "rxmarbles.com",
+              "url": "http://rxmarbles.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "tqlORIo",
+          "type": "Link",
+          "title": "Open source Swift: weekly brief",
+          "url_domain": "jessesquires.com",
+          "url": "http://www.jessesquires.com/",
+          "description": "<p>Swift 不愧是最受矚目的程式語言，打從它開放原始碼之後，建議與修改就源源不絕襲來，一般人很難跟得上它更新的進度。還好國外有位熱心工程師，幫我們整理了 Swift 社群的每週更新摘要，只要看一下就可以大致瞭解該週又有什麼變化。</p>",
+          "description_markdown": "Swift 不愧是最受矚目的程式語言，打從它開放原始碼之後，建議與修改就源源不絕襲來，一般人很難跟得上它更新的進度。還好國外有位熱心工程師，幫我們整理了 Swift 社群的每週更新摘要，只要看一下就可以大致瞭解該週又有什麼變化。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "J3SzdN",
+          "type": "Link",
+          "title": "解耦神器 —— 统跳协议和 Rewrite 引擎",
+          "url_domain": "pingguohe.net",
+          "url": "http://pingguohe.net/2015/11/24/Navigator-and-Rewrite.html",
+          "description": "<p>中國大陸的天貓 app 是一個龐然大物，它們的流量規模已達千萬等級，並且至少有十個團隊在直接維護天貓 app。當團隊跟產品長到這麼大之後，整個架構的好壞將直接影響團隊們是否能夠順利合作、功能是否能夠輕易修改。這篇文章分享了天貓如何設計架構讓界面解耦，以及如何在任意頁面之間跳轉。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/\">Improve your iOS Architecture with FlowControllers</a></li>\n<li><a href=\"https://www.objc.io/issues/13-architecture/viper/\">Architecting iOS Apps with VIPER</a></li>\n</ul>",
+          "description_markdown": "中國大陸的天貓 app 是一個龐然大物，它們的流量規模已達千萬等級，並且至少有十個團隊在直接維護天貓 app。當團隊跟產品長到這麼大之後，整個架構的好壞將直接影響團隊們是否能夠順利合作、功能是否能夠輕易修改。這篇文章分享了天貓如何設計架構讓界面解耦，以及如何在任意頁面之間跳轉。\r\n\r\n延伸閱讀：\r\n\r\n- [Improve your iOS Architecture with FlowControllers](http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/)\r\n- [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/)",
+          "embedded_links": [
+            {
+              "identifier": "4csskWy",
+              "title": "Improve your iOS Architecture with FlowControllers",
+              "url_domain": "merowing.info",
+              "url": "http://merowing.info/2016/01/improve-your-ios-architecture-with-flowcontrollers/"
+            },
+            {
+              "identifier": "l9DlaKX",
+              "title": "Architecting iOS Apps with VIPER",
+              "url_domain": "objc.io",
+              "url": "https://www.objc.io/issues/13-architecture/viper/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "5BAWVX8",
+          "type": "Link",
+          "title": "立委投票「超級」指南：真正重要的事，你為什麼還不關心？",
+          "url_domain": "thenewslens.com",
+          "url": "http://www.thenewslens.com/post/266665/",
+          "description": "<p>這個禮拜六 1 月 16 日就是選舉日啦，大家記得一定要去投票吶！</p>",
+          "description_markdown": "這個禮拜六 1 月 16 日就是選舉日啦，大家記得一定要去投票吶！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NHd6d17",
+          "type": "Link",
+          "title": "立委投票指南",
+          "url_domain": "g0v.tw",
+          "url": "http://vote.ly.g0v.tw/",
+          "description": "<p>我相信大家對於要投給哪一組總統候選人，心裡都應該已經有個底了。不過，如果你是那種「<strong>完全不想投給民進黨，卻又<a href=\"https://www.ptt.cc/bbs/Gossiping/M.1451382113.A.C7F.html\">覺得想投給國民黨的自己似乎有點可恥</a>，所以乾脆把票投給<a href=\"https://www.ptt.cc/bbs/Gossiping/M.1451750458.A.DE3.html\">宋楚瑜</a>好了（可是心裡還是有點掙扎）</strong>」的人，在這裡告訴你一個解套的辦法：其實你可以不要去投票。</p>\n\n<p>至於立委選舉，如果你也還沒決定要投給誰，你可以參考看看這一份由 g0v 製作的「立委投票指南」。你可以在上面看到每一位立委對於各個法案的表決，哪些人反對、哪些人贊成。例如底下的這兩項表決，大家可以點進去感受一下：</p>\n\n<ul>\n<li><a href=\"http://vote.ly.g0v.tw/vote/08-02-YS-17-065/\">反對刪除軍公教 18%、總統國務機要費的立委</a></li>\n<li><a href=\"http://vote.ly.g0v.tw/vote/08-02-YS-03-008/\">反對調高基本工資的立委</a></li>\n</ul>",
+          "description_markdown": "我相信大家對於要投給哪一組總統候選人，心裡都應該已經有個底了。不過，如果你是那種「**完全不想投給民進黨，卻又[覺得想投給國民黨的自己似乎有點可恥](https://www.ptt.cc/bbs/Gossiping/M.1451382113.A.C7F.html)，所以乾脆把票投給[宋楚瑜](https://www.ptt.cc/bbs/Gossiping/M.1451750458.A.DE3.html)好了（可是心裡還是有點掙扎）**」的人，在這裡告訴你一個解套的辦法：其實你可以不要去投票。\r\n\r\n至於立委選舉，如果你也還沒決定要投給誰，你可以參考看看這一份由 g0v 製作的「立委投票指南」。你可以在上面看到每一位立委對於各個法案的表決，哪些人反對、哪些人贊成。例如底下的這兩項表決，大家可以點進去感受一下：\r\n\r\n- [反對刪除軍公教 18%、總統國務機要費的立委](http://vote.ly.g0v.tw/vote/08-02-YS-17-065/)\r\n- [反對調高基本工資的立委](http://vote.ly.g0v.tw/vote/08-02-YS-03-008/)",
+          "embedded_links": [
+            {
+              "identifier": "eytcD6u",
+              "title": "覺得想投給國民黨的自己似乎有點可恥",
+              "url_domain": "ptt.cc",
+              "url": "https://www.ptt.cc/bbs/Gossiping/M.1451382113.A.C7F.html"
+            },
+            {
+              "identifier": "hfiFG2C",
+              "title": "宋楚瑜",
+              "url_domain": "ptt.cc",
+              "url": "https://www.ptt.cc/bbs/Gossiping/M.1451750458.A.DE3.html"
+            },
+            {
+              "identifier": "xYVFE7A",
+              "title": "反對刪除軍公教 18%、總統國務機要費的立委",
+              "url_domain": "g0v.tw",
+              "url": "http://vote.ly.g0v.tw/vote/08-02-YS-17-065/"
+            },
+            {
+              "identifier": "IuZri0P",
+              "title": "反對調高基本工資的立委",
+              "url_domain": "g0v.tw",
+              "url": "http://vote.ly.g0v.tw/vote/08-02-YS-03-008/"
+            }
+          ]
+        },
+        {
+          "identifier": "d2CMBl",
+          "type": "Link",
+          "title": "2016 各政黨重視勞工權益評分表",
+          "url_domain": "facebook.com",
+          "url": "https://www.facebook.com/TWlaboruprising/photos/a.464538283671120.1073741828.432318856893063/503570569767891/?type=3&theater",
+          "description": "<p>如果你也還沒決定要把政黨票投給哪一個政黨，你可以看看這一份「<a href=\"http://kmt.exposed/property.html\">前三大政黨資產比較表</a>」和「<a href=\"https://goo.gl/AcaiFu\">2016 各政黨重視勞工權益評分表</a>」，然後感受一下自己無產階級的身份、那些加班卻沒有加班費的夜晚和這社會上的貧富差距，再來好好地決定你要投給哪一個政黨。</p>\n\n<p>以上來自 <a href=\"https://twitter.com/vinta\">@vinta</a> 的分享。</p>",
+          "description_markdown": "如果你也還沒決定要把政黨票投給哪一個政黨，你可以看看這一份「[前三大政黨資產比較表](http://kmt.exposed/property.html)」和「[2016 各政黨重視勞工權益評分表](https://goo.gl/AcaiFu)」，然後感受一下自己無產階級的身份、那些加班卻沒有加班費的夜晚和這社會上的貧富差距，再來好好地決定你要投給哪一個政黨。\r\n\r\n以上來自 [@vinta](https://twitter.com/vinta) 的分享。",
+          "embedded_links": [
+            {
+              "identifier": "5UGq5Ry",
+              "title": "前三大政黨資產比較表",
+              "url_domain": "kmt.exposed",
+              "url": "http://kmt.exposed/property.html"
+            },
+            {
+              "identifier": "OiBjdPS",
+              "title": "2016 各政黨重視勞工權益評分表",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/AcaiFu"
+            },
+            {
+              "identifier": "uJpcex",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "af9eoO5",
+          "type": "Link",
+          "title": " 要去哪裡搭訕一個不愛出門的好女人？",
+          "url_domain": "hsfideas.tw",
+          "url": "https://twobservers.hsfideas.tw/?LOC=REG",
+          "description": "<p>答案就是 1 月 16 日的投票所！</p>\n\n<p>可是要怎麼跟她搭話呢？身為一個不愛出門的好女人，讓我告訴你吧少年，在投票所當<a href=\"https://twobservers.hsfideas.tw/?LOC=REG\">監票人員</a>就是你的正解了！而且成為志工選填自己要去監票的投票所，還會馬上得到任務夥伴的資料呢！試想如果真的發生停電這種鳥事，馬上打開手電筒的你豈不是既帥氣又冷靜，再說，平常像個叛逆之子 (主圖漫畫) 但認真起來主持正義的少年可是很有魅力的。</p>\n\n<p>新井英樹的《叛逆之子》，描寫一名孤兒小學生重返社會後，積極反抗各種僵化的社會體制，是一部讓人看了既熱血又不停捏著冷汗放不開的作品，在這特別的時刻，推薦給叛逆的你。</p>\n\n<p>前進吧！少年，今年，你的桃花開在投票所啊！</p>\n\n<p>但是如果她特別關心 KMT 的票數就算再正都要忍住啊！</p>\n\n<p>以上來自 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 的分享！</p>",
+          "description_markdown": "答案就是 1 月 16 日的投票所！\r\n\r\n可是要怎麼跟她搭話呢？身為一個不愛出門的好女人，讓我告訴你吧少年，在投票所當[監票人員](https://twobservers.hsfideas.tw/?LOC=REG)就是你的正解了！而且成為志工選填自己要去監票的投票所，還會馬上得到任務夥伴的資料呢！試想如果真的發生停電這種鳥事，馬上打開手電筒的你豈不是既帥氣又冷靜，再說，平常像個叛逆之子 (主圖漫畫) 但認真起來主持正義的少年可是很有魅力的。\r\n\r\n新井英樹的《叛逆之子》，描寫一名孤兒小學生重返社會後，積極反抗各種僵化的社會體制，是一部讓人看了既熱血又不停捏著冷汗放不開的作品，在這特別的時刻，推薦給叛逆的你。\r\n\r\n前進吧！少年，今年，你的桃花開在投票所啊！\r\n\r\n但是如果她特別關心 KMT 的票數就算再正都要忍住啊！\r\n\r\n以上來自 [@autisticcat](https://twitter.com/autisticcat) 的分享！",
+          "embedded_links": [
+            {
+              "identifier": "YQNaGF7",
+              "title": "監票人員",
+              "url_domain": "hsfideas.tw",
+              "url": "https://twobservers.hsfideas.tw/?LOC=REG"
+            },
+            {
+              "identifier": "6MZSUQT",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ],
+          "image_original_filename": "6187f732-f8cb-4b92-a31d-769af6603c0c.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_6187f732-f8cb-4b92-a31d-769af6603c0c.jpeg",
+          "image_medium_filename": "original_ratio_medium_6187f732-f8cb-4b92-a31d-769af6603c0c.jpeg"
+        }
+      ]
+    }
+  ]
+}

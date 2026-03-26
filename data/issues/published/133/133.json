@@ -1,0 +1,417 @@
+{
+  "number": 133,
+  "title": "Issue 133 帕金森定律：完成工作所需要的時間會被自動延長至所規定的時間上限",
+  "summary": "本期內容涵蓋 Python, Bash, AWS, Kubernetes, Terraform, JavaScript, GraphQL, Go, ORM, Haskell",
+  "url": "https://weekly.codetengu.com/issues/133",
+  "publication_status": "published",
+  "published_at": "2018-07-02T05:38:07+01:00",
+  "updated_at": "2018-07-02T05:38:12+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "cBjeQLf",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "I5s8jut",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Wf8CKX8",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "nfkFVM7",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "RkTdx4o",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "e4NUVGL",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "qvHfL9Q",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Q0iz2Eu",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "vWdXobM",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "nvEsz7V",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "z0k6pCN",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "HeOgPHA",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "KVjzV0l",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "y5UT7Ob",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "8EeAPxy",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "oF1Zoyr",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "DAwIuSQ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "vCduikT",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "wCPNBvV",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "Uq0ckS1",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "nNBxydM",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "g4IAmPr",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "SK8LCzc",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "dHKWj82",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "HgkrQOj",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "lG3vXYt",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "DC7aIj9",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "BvlFq1z",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "wtPSGQU",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "ko3xUI4",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "4o57Xb1",
+          "type": "Link",
+          "title": "Cool New Features in Python 3.7",
+          "url_domain": "realpython.com",
+          "url": "https://realpython.com/python37-new-features/",
+          "description": "<p>Python 3.7 在前陣子釋出了，多了不少新功能，大家感受一下。</p>\n\n<p>Dataclass 都出現了，說不定過一陣子 Python 也會有 Pattern Matching 了。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.python.org/downloads/release/python-370/\">Python Release Python 3.7.0</a></li>\n</ul>",
+          "description_markdown": "Python 3.7 在前陣子釋出了，多了不少新功能，大家感受一下。\r\n\r\nDataclass 都出現了，說不定過一陣子 Python 也會有 Pattern Matching 了。\r\n\r\n延伸閱讀：\r\n\r\n- [Python Release Python 3.7.0](https://www.python.org/downloads/release/python-370/)",
+          "embedded_links": [
+            {
+              "identifier": "plBxyLC",
+              "title": "Python Release Python 3.7.0",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/downloads/release/python-370/"
+            }
+          ]
+        },
+        {
+          "identifier": "MANUH3R",
+          "type": "Link",
+          "title": "Bash Pitfalls",
+          "url_domain": "wooledge.org",
+          "url": "https://mywiki.wooledge.org/BashPitfalls",
+          "description": "<p>程式語言地獄的兩座高山，JavaScript 和 Bash！</p>\n\n<p>讀完這份資料才知道原來我們每天都在用一個這麼危險的東西啊！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.soasme.com/techshack.weekly/verses/5e48b1a1-284c-48f4-ba22-4c6dcfd370ae.html\">Bash 使用需要避免掉坑的地方</a></li>\n</ul>",
+          "description_markdown": "程式語言地獄的兩座高山，JavaScript 和 Bash！\r\n\r\n讀完這份資料才知道原來我們每天都在用一個這麼危險的東西啊！\r\n\r\n延伸閱讀：\r\n\r\n- [Bash 使用需要避免掉坑的地方](https://www.soasme.com/techshack.weekly/verses/5e48b1a1-284c-48f4-ba22-4c6dcfd370ae.html)",
+          "embedded_links": [
+            {
+              "identifier": "gwjCXIW",
+              "title": "Bash 使用需要避免掉坑的地方",
+              "url_domain": "soasme.com",
+              "url": "https://www.soasme.com/techshack.weekly/verses/5e48b1a1-284c-48f4-ba22-4c6dcfd370ae.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "ZAGiI6s",
+          "type": "Link",
+          "title": "10 Small Design Mistakes We Still Make",
+          "url_domain": "uxplanet.org",
+          "url": "https://uxplanet.org/10-small-design-mistakes-we-still-make-1cd5f60bc708",
+          "description": "<p>值得花時間一讀的文章，可以重新省思對產品的設計。</p>\n\n<p>隨著功能跟死線越來越近，有時候一些簡單的原則反而忘記了，這篇文章的作者提醒了十個我們忘記了的地方。</p>\n\n<p>對照一下，現在產品上那些設計值得改進呢？</p>",
+          "description_markdown": "值得花時間一讀的文章，可以重新省思對產品的設計。\r\n\r\n隨著功能跟死線越來越近，有時候一些簡單的原則反而忘記了，這篇文章的作者提醒了十個我們忘記了的地方。\r\n\r\n對照一下，現在產品上那些設計值得改進呢？\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "F2D711C",
+          "type": "Link",
+          "title": "AWS EKS: Pluggable Worker Node Groups by Terraform",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/getamis/aws-eks-pluggable-worker-node-groups-9d7e2d977563",
+          "description": "<p>推一篇敝司 smalltown 大大的文章，如果你也有在用 AWS 跟 terraform，可以參考一下這篇文章的做法。</p>\n\n<p>想找 EKS Cluster 在 AWS 上的解決方案，參考 <a href=\"https://github.com/getamis/vishwakarma\">Vishwakarma</a> 吧！</p>",
+          "description_markdown": "推一篇敝司 smalltown 大大的文章，如果你也有在用 AWS 跟 terraform，可以參考一下這篇文章的做法。\r\n\r\n想找 EKS Cluster 在 AWS 上的解決方案，參考 [Vishwakarma](https://github.com/getamis/vishwakarma) 吧！\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "42bmFOj",
+              "title": "Vishwakarma",
+              "url_domain": "github.com",
+              "url": "https://github.com/getamis/vishwakarma"
+            }
+          ]
+        },
+        {
+          "identifier": "uMKmjls",
+          "type": "Link",
+          "title": "Beyond counters  —  Using recompose and RXJS 6 to build a (semi) complex UI",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jamestthompson3/beyond-counters-using-recompose-and-rxjs-to-build-a-semi-complex-ui-4186ed6b643c",
+          "description": "<p>利用 recompose 和 rxjs 做一個 UI 範例。</p>\n\n<p>沒用過的朋友，剛好可以透過這個入門，更了解 recompose 的魅力，還有 rxjs 的實際應用。</p>\n\n<p>在 React 專案中導入這兩個，能讓你的專案的某些部分，語意更精簡，架構也會比較好掌握。</p>",
+          "description_markdown": "利用 recompose 和 rxjs 做一個 UI 範例。\r\n\r\n沒用過的朋友，剛好可以透過這個入門，更了解 recompose 的魅力，還有 rxjs 的實際應用。\r\n\r\n在 React 專案中導入這兩個，能讓你的專案的某些部分，語意更精簡，架構也會比較好掌握。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6ZRKuek",
+          "type": "Link",
+          "title": "Why we moved our GraphQL server from Node.js to Golang",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/safetycultureengineering/why-we-moved-our-graphql-server-from-node-js-to-golang-645b00571535",
+          "description": "<p>SafetyCulture 的 GraphQL server 從 Node.js 跳槽到 Golang 的心得。</p>\n\n<p>看起來就是比較方便的 schema generator 跟 type safe，還有較少的 memory usage。</p>",
+          "description_markdown": "SafetyCulture 的 GraphQL server 從 Node.js 跳槽到 Golang 的心得。\r\n\r\n看起來就是比較方便的 schema generator 跟 type safe，還有較少的 memory usage。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Jhs6JYA",
+          "type": "Link",
+          "title": "Should we use React Native?",
+          "url_domain": "expo.io",
+          "url": "https://blog.expo.io/should-we-use-react-native-1465d8b607ac",
+          "description": "<p>和 React Native 整合的 Expo 親自出來回應 Airbnb 不用 RN 的事情。</p>\n\n<p>RN 有其優點，還是很適合某些開發情況。但是重要的是評估公司做 App 的目標跟手上的工程師資源。</p>\n\n<p>筆者本身從 React 跳到 React Native，要上手的開發速度非常快。不過 Expo 的問題很多，希望之後能看到 Expo 更進步。</p>",
+          "description_markdown": "和 React Native 整合的 Expo 親自出來回應 Airbnb 不用 RN 的事情。\r\n\r\nRN 有其優點，還是很適合某些開發情況。但是重要的是評估公司做 App 的目標跟手上的工程師資源。\r\n\r\n筆者本身從 React 跳到 React Native，要上手的開發速度非常快。不過 Expo 的問題很多，希望之後能看到 Expo 更進步。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "DbU7xk3",
+          "type": "Link",
+          "title": "[paper] How not to structure your database-backed web applications: a study of performance bugs in the wild",
+          "url_domain": "acolyer.org",
+          "url": "https://blog.acolyer.org/2018/06/28/how-_not_-to-structure-your-database-backed-web-applications-a-study-of-performance-bugs-in-the-wild/",
+          "description": "<p>這篇論文歸納了一些網站開發常見的效能 anti-pattern，如後所列。其中主要是誤用/濫用 ORM 而帶來的影響。如果你使用 Ruby on Rails 開發，可以直接看附圖檢查一下自己的 ORM 用法。</p>\n\n<p><em>ORM API 使用問題</em></p>\n\n<ul>\n<li>Inefficient computation (IC) - 雖然效果類似，但某些 ORM API 採用比較沒效率的 SQL</li>\n<li>Unnecessary Computation (UC) - 不必要的計算（如：在迴圈裡 query）</li>\n<li>Inefficient data accessing (ID)  - 如：N+1 queries 或是一次撈太多資料</li>\n<li>Unnecessary data retrieval (UD)  - 撈根本沒用到的資料</li>\n<li>Inefficient Rendering (IR) - 沒有效率的 view/template 寫法</li>\n</ul>\n\n\n<p><em>資料庫設計問題</em></p>\n\n<ul>\n<li>Missing Fields (MF) - 其實可以存下來、不必每次計算的欄位</li>\n<li>Missing Database Indexes (MI) - 沒有 index</li>\n</ul>\n\n\n<p><em>網站設計的取捨</em></p>\n\n<ul>\n<li>Content Display Trade-offs (DT) - 內容顯示方式取捨，如：分頁與否</li>\n<li>Application Functionality Trade-offs (FT) - 功能取捨，如：很耗計算效能的區塊不一定要每一頁都顯示</li>\n</ul>\n\n\n<p>所以說，ORM /template engine 用起來很方便，還是得知道它到底做了啥才行啊。</p>",
+          "description_markdown": "這篇論文歸納了一些網站開發常見的效能 anti-pattern，如後所列。其中主要是誤用/濫用 ORM 而帶來的影響。如果你使用 Ruby on Rails 開發，可以直接看附圖檢查一下自己的 ORM 用法。\r\n\r\n*ORM API 使用問題*\r\n\r\n- Inefficient computation (IC) - 雖然效果類似，但某些 ORM API 採用比較沒效率的 SQL\r\n- Unnecessary Computation (UC) - 不必要的計算（如：在迴圈裡 query）\r\n- Inefficient data accessing (ID)  - 如：N+1 queries 或是一次撈太多資料\r\n- Unnecessary data retrieval (UD)  - 撈根本沒用到的資料\r\n- Inefficient Rendering (IR) - 沒有效率的 view/template 寫法\r\n\r\n*資料庫設計問題*\r\n\r\n- Missing Fields (MF) - 其實可以存下來、不必每次計算的欄位\r\n- Missing Database Indexes (MI) - 沒有 index\r\n\r\n*網站設計的取捨*\r\n\r\n- Content Display Trade-offs (DT) - 內容顯示方式取捨，如：分頁與否\r\n- Application Functionality Trade-offs (FT) - 功能取捨，如：很耗計算效能的區塊不一定要每一頁都顯示\r\n\r\n所以說，ORM /template engine 用起來很方便，還是得知道它到底做了啥才行啊。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "ead59b48-cc0c-48b6-b62b-acd4ff68e927.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_ead59b48-cc0c-48b6-b62b-acd4ff68e927.jpeg",
+          "image_medium_filename": "original_ratio_medium_ead59b48-cc0c-48b6-b62b-acd4ff68e927.jpeg"
+        },
+        {
+          "identifier": "9I96Twr",
+          "type": "Link",
+          "title": "[書] 魔力 Haskell",
+          "url_domain": "magic-haskell.com",
+          "url": "http://magic-haskell.com/",
+          "description": "<p>Haskell 是我每隔一陣子就會嘗試學習的程式語言（然後總是卡在 category theory 而放棄……）。前陣子買了《魔力 Haskell》，發現讀起來順暢許多。它從實用角度切入、順便介紹相關理論，還有套件系統（Cabal）、常用套件的介紹。</p>\n\n<p>如果你也跟我一樣學習 Haskell 老是遇到挫折，不妨試試看這本。</p>\n\n<ul>\n<li>試讀章節：<a href=\"https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-10.md\">Functor</a>、<a href=\"https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-11.md\">透鏡組（Lens）</a>、<a href=\"https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-12.md\">Applicative Functor</a></li>\n<li>繁體中文譯本：<a href=\"https://www.tenlong.com.tw/products/9787115432834\">天瓏網路書店 - 魔力Haskell</a></li>\n</ul>\n\n\n<p>或者也可以試試看 <a href=\"https://twitter.com/thecat/status/1012204800274919424\">@thecat</a> 推薦的 <a href=\"https://www.vacationlabs.com/haskell/index.html\">Haskell without the theory</a> 。看起來也是從實用角度切入，但我還沒讀過、暫時無法評價。</p>",
+          "description_markdown": "Haskell 是我每隔一陣子就會嘗試學習的程式語言（然後總是卡在 category theory 而放棄……）。前陣子買了《魔力 Haskell》，發現讀起來順暢許多。它從實用角度切入、順便介紹相關理論，還有套件系統（Cabal）、常用套件的介紹。\r\n\r\n如果你也跟我一樣學習 Haskell 老是遇到挫折，不妨試試看這本。\r\n\r\n- 試讀章節：[Functor](https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-10.md)、[透鏡組（Lens）](https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-11.md)、[Applicative Functor](https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-12.md)\r\n- 繁體中文譯本：[天瓏網路書店 - 魔力Haskell](https://www.tenlong.com.tw/products/9787115432834)\r\n\r\n或者也可以試試看 [@thecat](https://twitter.com/thecat/status/1012204800274919424) 推薦的 [Haskell without the theory](https://www.vacationlabs.com/haskell/index.html) 。看起來也是從實用角度切入，但我還沒讀過、暫時無法評價。",
+          "embedded_links": [
+            {
+              "identifier": "boCBLvw",
+              "title": "Functor",
+              "url_domain": "github.com",
+              "url": "https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-10.md"
+            },
+            {
+              "identifier": "1IaZqWi",
+              "title": "透鏡組（Lens）",
+              "url_domain": "github.com",
+              "url": "https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-11.md"
+            },
+            {
+              "identifier": "tnIYwXB",
+              "title": "Applicative Functor",
+              "url_domain": "github.com",
+              "url": "https://github.com/winterland1989/magic-haskell/blob/gh-pages/demo/magic-haskell-12.md"
+            },
+            {
+              "identifier": "O2NOWLl",
+              "title": "天瓏網路書店 - 魔力Haskell",
+              "url_domain": "tenlong.com.tw",
+              "url": "https://www.tenlong.com.tw/products/9787115432834"
+            },
+            {
+              "identifier": "MykeZvA",
+              "title": "@thecat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/thecat/status/1012204800274919424"
+            },
+            {
+              "identifier": "XjpXAiZ",
+              "title": "Haskell without the theory",
+              "url_domain": "vacationlabs.com",
+              "url": "https://www.vacationlabs.com/haskell/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "h1H9gda",
+          "type": "Link",
+          "title": "#推開源",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/search?q=%23%E6%8E%A8%E9%96%8B%E6%BA%90",
+          "description": "<blockquote><p>啊！要是我早點知道有這個就好了</p></blockquote>\n\n<p>應該有不少讀者有類似的經驗吧？</p>\n\n<p>所以 <a href=\"https://twitter.com/Ellaeon\">@Ellaeon</a> 在 Twitter 上發起了 <code>#推開源</code> 運動， 歡迎大家一起用這個 hashtag 分享更多有趣的專案吧～</p>\n\n<p>順便幫忙調查：這個主題的實體聚會有人想參加嗎？ XD</p>",
+          "description_markdown": "> 啊！要是我早點知道有這個就好了\r\n\r\n應該有不少讀者有類似的經驗吧？  \r\n\r\n所以 [@Ellaeon](https://twitter.com/Ellaeon) 在 Twitter 上發起了 `#推開源` 運動， 歡迎大家一起用這個 hashtag 分享更多有趣的專案吧～\r\n\r\n順便幫忙調查：這個主題的實體聚會有人想參加嗎？ XD",
+          "embedded_links": [
+            {
+              "identifier": "bzZOndA",
+              "title": "@Ellaeon",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Ellaeon"
+            }
+          ]
+        },
+        {
+          "identifier": "dqHL2Gn",
+          "type": "Link",
+          "title": "[IG] Suki Cat (@sukiicat)",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/sukiicat/",
+          "description": "<p>照慣例還是要來推薦一個 Instagram 帳號。這次不是美女而是貓，畢竟網際網路就是用來看貓的啊。這貓真是漂亮到讓人驚艷。</p>\n\n<p>是說，好像很少看到這樣一直在外面晃的寵物貓……</p>",
+          "description_markdown": "照慣例還是要來推薦一個 Instagram 帳號。這次不是美女而是貓，畢竟網際網路就是用來看貓的啊。這貓真是漂亮到讓人驚艷。\r\n\r\n是說，好像很少看到這樣一直在外面晃的寵物貓……",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "d3b9d8c1-3b7d-40d2-9a7a-a8535e07b3d0.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_d3b9d8c1-3b7d-40d2-9a7a-a8535e07b3d0.jpg",
+          "image_medium_filename": "original_ratio_medium_d3b9d8c1-3b7d-40d2-9a7a-a8535e07b3d0.jpg"
+        }
+      ]
+    }
+  ]
+}

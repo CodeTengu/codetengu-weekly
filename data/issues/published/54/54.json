@@ -1,0 +1,507 @@
+{
+  "number": 54,
+  "title": "Issue 54 歡迎大家來到碼天狗的烘焙雞，（狀態列跑馬燈）最佳觀看解析度為 800x600，建議使用 IE 5.0 以上瀏覽器",
+  "summary": "本期內容涵蓋 DevOps, Kubernetes, Objective-C, Redux, Design Patterns, Swift, Go, 管理",
+  "url": "https://weekly.codetengu.com/issues/54",
+  "publication_status": "published",
+  "published_at": "2016-08-08T03:00:00+01:00",
+  "updated_at": "2016-08-08T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"https://book.douban.com/people/vinta/\">奇點天空</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 為了工作開始看韓劇</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[奇點天空](https://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 為了工作開始看韓劇\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "eC8HaIE",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "jhvxMyM",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "qFyuaPS",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "7RQUlFU",
+              "title": "奇點天空",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Yp4iGng",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "OGNtjYc",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "N2YX59a",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "xRToHG1",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "hRjhwN7",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "33aI2Ar",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "r5YtB0C",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "RaZpCWM",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "tZ354W0",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "cAhHw5a",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "aZjFbEY",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "QO5qTBY",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "SeANgsF",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "SPJ6HhY",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "85L2WdT",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "PGQi1Ra",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "w9fUn7z",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "XTIHkA2",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "KeElcb6",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "wZclDip",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "vdePaHQ",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "ZewOlLE",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "YdcnDsM",
+          "type": "Link",
+          "title": "The Foundation of Technical Leadership",
+          "url_domain": "alistapart.com",
+          "url": "http://alistapart.com/article/the-foundation-of-technical-leadership",
+          "description": "<p>這篇應該是這半年來看過最切合心聲的技術主管文了, 大推!</p>",
+          "description_markdown": "這篇應該是這半年來看過最切合心聲的技術主管文了, 大推!",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "IjzPaCQ",
+          "type": "Link",
+          "title": "minikube 線上教學",
+          "url_domain": "hackpad.com",
+          "url": "https://taipeidevopsmeetup.hackpad.com/minikube-qElonIZUsWN",
+          "description": "<p>每次都介紹別人的文章, 趁爸爸節寫一篇自己的教學網頁來讓大家利用 <a href=\"https://github.com/kubernetes/minikube\">minikube</a> 簡單的設定, 安裝一個 <a href=\"http://kubernetes.io/\">kubernetes</a> 的學習環境。kubernetes 可以讓你在本機或雲端, 甚至多台主機同時管理和安裝部署 dockers, 需要更進一步了解 kubectl 指令的人可以在安裝好環境之後, 利用這 <a href=\"http://k8s.info/cs.html\">cheat sheet</a>。</p>",
+          "description_markdown": "每次都介紹別人的文章, 趁爸爸節寫一篇自己的教學網頁來讓大家利用 [minikube](https://github.com/kubernetes/minikube) 簡單的設定, 安裝一個 [kubernetes](http://kubernetes.io/) 的學習環境。kubernetes 可以讓你在本機或雲端, 甚至多台主機同時管理和安裝部署 dockers, 需要更進一步了解 kubectl 指令的人可以在安裝好環境之後, 利用這 [cheat sheet](http://k8s.info/cs.html)。",
+          "embedded_links": [
+            {
+              "identifier": "3BlTSlx",
+              "title": "minikube",
+              "url_domain": "github.com",
+              "url": "https://github.com/kubernetes/minikube"
+            },
+            {
+              "identifier": "i14vPo2",
+              "title": "kubernetes",
+              "url_domain": "kubernetes.io",
+              "url": "http://kubernetes.io/"
+            },
+            {
+              "identifier": "C4YpLTz",
+              "title": "cheat sheet",
+              "url_domain": "k8s.info",
+              "url": "http://k8s.info/cs.html"
+            }
+          ]
+        },
+        {
+          "identifier": "mgOuzum",
+          "type": "Link",
+          "title": "Hour Of Code 冰雪奇緣介紹",
+          "url_domain": "junyiacademy.org",
+          "url": "https://www.junyiacademy.org/computer-science-a/ihc/ihcsz/ihcsz-a/v/hdwNH45QuMY",
+          "description": "<p>我也要介紹冰雪奇緣, 看完連結裡的影片說明後, 就可以帶你的小孩 (如果沒有小孩 , 帶你女朋友, 或另一半) 來玩 <a href=\"https://code.org/\">hour of code</a>。不管是憤怒鳥或冰雪奇緣, 過關後就能得到寫程式的證書喔! 爸爸節快樂...</p>",
+          "description_markdown": "我也要介紹冰雪奇緣, 看完連結裡的影片說明後, 就可以帶你的小孩 (如果沒有小孩 , 帶你女朋友, 或另一半) 來玩 [hour of code](https://code.org/)。不管是憤怒鳥或冰雪奇緣, 過關後就能得到寫程式的證書喔! 爸爸節快樂...",
+          "embedded_links": [
+            {
+              "identifier": "rxxwj0x",
+              "title": "hour of code",
+              "url_domain": "code.org",
+              "url": "https://code.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "iqEuCQR",
+          "type": "Link",
+          "title": "用 Objective-C 實作 Redux 架構",
+          "url_domain": "logdown.com",
+          "url": "http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c",
+          "description": "<p>最近因為工作上的需要，所以找了一些資料來研究該如何管理 app 的程式狀態，讓每個頁面在存取資料時可以維持資料的一致性，結果讓我找到了 Redux 這個架構。</p>\n\n<p>最初是 Facebook 提出了 Flux 架構，而 Redux 是其改良版，因為它簡單好懂好實作所以提出之後就大受歡迎。這個架構提出的時候是針對網站設計的，後來有人把這個概念搬到 Swift 實作，但我一直沒找到有人分享 Objective-C 的實作心得，所以我就自己動手做了一遍並寫了這麼一篇心得，用起來的感覺其實滿舒服的。</p>\n\n<p>另外工商服務一下，敝公司正在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它優秀人才</a>，歡迎來跟我當同事！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://redux.js.org/docs/introduction/index.html\">Redux 官方文件</a></li>\n<li><a href=\"https://github.com/ReSwift/ReSwift\">ReSwift</a></li>\n<li><a href=\"http://blog.benjamin-encz.de/post/real-world-flux-ios/\">Real World Flux Architecture on iOS</a></li>\n</ul>",
+          "description_markdown": "最近因為工作上的需要，所以找了一些資料來研究該如何管理 app 的程式狀態，讓每個頁面在存取資料時可以維持資料的一致性，結果讓我找到了 Redux 這個架構。\r\n\r\n最初是 Facebook 提出了 Flux 架構，而 Redux 是其改良版，因為它簡單好懂好實作所以提出之後就大受歡迎。這個架構提出的時候是針對網站設計的，後來有人把這個概念搬到 Swift 實作，但我一直沒找到有人分享 Objective-C 的實作心得，所以我就自己動手做了一遍並寫了這麼一篇心得，用起來的感覺其實滿舒服的。\r\n\r\n另外工商服務一下，敝公司正在找 [iOS 工程師與其它優秀人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事！\r\n\r\n延伸閱讀：\r\n\r\n- [Redux 官方文件](http://redux.js.org/docs/introduction/index.html)\r\n- [ReSwift](https://github.com/ReSwift/ReSwift)\r\n- [Real World Flux Architecture on iOS](http://blog.benjamin-encz.de/post/real-world-flux-ios/)",
+          "embedded_links": [
+            {
+              "identifier": "nKuIS0p",
+              "title": "iOS 工程師與其它優秀人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "rX9VnVy",
+              "title": "Redux 官方文件",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/docs/introduction/index.html"
+            },
+            {
+              "identifier": "2HSEatr",
+              "title": "ReSwift",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReSwift/ReSwift"
+            },
+            {
+              "identifier": "Gjp6Q9d",
+              "title": "Real World Flux Architecture on iOS",
+              "url_domain": "benjamin-encz.de",
+              "url": "http://blog.benjamin-encz.de/post/real-world-flux-ios/"
+            }
+          ]
+        },
+        {
+          "identifier": "FpTKit9",
+          "type": "Link",
+          "title": "图说设计模式 — Graphic Design Patterns",
+          "url_domain": "readthedocs.io",
+          "url": "http://design-patterns.readthedocs.io/zh_CN/latest/",
+          "description": "<p>Design patterns 這種東西，在小時候懵懵懂懂剛接觸程式設計的時候覺得它很重要，但看完之後卻無法體會它的重要性，也不知道該怎麼運用。長大之後碰的程式多了，才越發瞭解它的重要性，也越覺得該學的東西還有很多。</p>\n\n<p>這個網站列出了 16 個常用的 design patterns，並且針對每個 pattern 的定義、背後動機、優缺點、使用情境、代碼分析等等，都有詳細說明。獻給所有覺得自己不懂 design patterns 的人，你並不孤單。</p>",
+          "description_markdown": "Design patterns 這種東西，在小時候懵懵懂懂剛接觸程式設計的時候覺得它很重要，但看完之後卻無法體會它的重要性，也不知道該怎麼運用。長大之後碰的程式多了，才越發瞭解它的重要性，也越覺得該學的東西還有很多。\r\n\r\n這個網站列出了 16 個常用的 design patterns，並且針對每個 pattern 的定義、背後動機、優缺點、使用情境、代碼分析等等，都有詳細說明。獻給所有覺得自己不懂 design patterns 的人，你並不孤單。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bUpM0e0",
+          "type": "Link",
+          "title": "Enums as configuration: the anti-pattern",
+          "url_domain": "jessesquires.com",
+          "url": "http://www.jessesquires.com/enums-as-configs/",
+          "description": "<p>相信很多開發者一定都有用過 <code>enum</code> 來列出所有選項，然後再用 <code>switch-case</code> 來判斷每個選項並做出後續動作，通常在做 UI 相關的設定最常見到這種做法。但是作者認為這不是一個好作法，理由是：</p>\n\n<ul>\n<li>你在 <code>switch-case</code> 漏了幾個選項，compiler 也不會有 error，但有可能你的程式就這麼錯了。</li>\n<li>如果你修改或刪除了幾個選項，其他用到的程式碼也要跟著改，不然可能會導致錯誤結果或編譯失敗。</li>\n<li>使用者只能用固定的這幾個選項，無法自行新增，這樣不夠彈性。</li>\n</ul>\n\n\n<p>所以作者認為不應該使用 <code>enum</code> 作為設定選項，而是要設計一個 configuration object，所有可以讓使用者調整的設定都包在裡面，開發者只要接受這個 object 並做出相對應的調整即可。像是 <code>URLSession</code> 跟 <code>URLSessionConfiguration</code> 就是很好的例子。</p>",
+          "description_markdown": "相信很多開發者一定都有用過 `enum` 來列出所有選項，然後再用 `switch-case` 來判斷每個選項並做出後續動作，通常在做 UI 相關的設定最常見到這種做法。但是作者認為這不是一個好作法，理由是：\r\n\r\n- 你在 `switch-case` 漏了幾個選項，compiler 也不會有 error，但有可能你的程式就這麼錯了。\r\n- 如果你修改或刪除了幾個選項，其他用到的程式碼也要跟著改，不然可能會導致錯誤結果或編譯失敗。\r\n- 使用者只能用固定的這幾個選項，無法自行新增，這樣不夠彈性。\r\n\r\n所以作者認為不應該使用 `enum` 作為設定選項，而是要設計一個 configuration object，所有可以讓使用者調整的設定都包在裡面，開發者只要接受這個 object 並做出相對應的調整即可。像是 `URLSession` 跟 `URLSessionConfiguration` 就是很好的例子。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "qLc4lPG",
+          "type": "Link",
+          "title": "Writing High-Performance Swift Code",
+          "url_domain": "github.com",
+          "url": "https://github.com/apple/swift/blob/master/docs/OptimizationTips.rst",
+          "description": "<p>Swift 官方 repository 所提供的最佳化奇技淫巧，它的目標讀者是編譯器跟標準函式庫的開發者，所以有些方法不適合用在一般的程式開發，但多瞭解一下也是好的。</p>",
+          "description_markdown": "Swift 官方 repository 所提供的最佳化奇技淫巧，它的目標讀者是編譯器跟標準函式庫的開發者，所以有些方法不適合用在一般的程式開發，但多瞭解一下也是好的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "cXVzO06",
+          "type": "Link",
+          "title": "Design patterns for safe timer usage",
+          "url_domain": "cocoawithlove.com",
+          "url": "http://www.cocoawithlove.com/blog/2016/07/30/timer-problems.html",
+          "description": "<p>Timer 絕對是 iOS 開發過程中最常用的到元件之一，它看起來非常的簡單，用法也是很直覺，但它的坑卻是意外的多。這篇文章列出了使用 Timer 的一些正確姿勢，帶你躲過一個又一個的地雷。雖然文章是用 Swift 3 寫成，不過它的概念是共通的。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.jianshu.com/p/d23b9fd84bcb\">iOS不同场景下的定时方法</a></li>\n<li><a href=\"http://www.jianshu.com/p/2fe076e5e255\">小心NSTimer中的循环引用</a></li>\n</ul>",
+          "description_markdown": "Timer 絕對是 iOS 開發過程中最常用的到元件之一，它看起來非常的簡單，用法也是很直覺，但它的坑卻是意外的多。這篇文章列出了使用 Timer 的一些正確姿勢，帶你躲過一個又一個的地雷。雖然文章是用 Swift 3 寫成，不過它的概念是共通的。\r\n\r\n延伸閱讀：\r\n\r\n- [iOS不同场景下的定时方法](http://www.jianshu.com/p/d23b9fd84bcb)\r\n- [小心NSTimer中的循环引用](http://www.jianshu.com/p/2fe076e5e255)",
+          "embedded_links": [
+            {
+              "identifier": "YHKcckC",
+              "title": "iOS不同场景下的定时方法",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/p/d23b9fd84bcb"
+            },
+            {
+              "identifier": "htp4r18",
+              "title": "小心NSTimer中的循环引用",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/p/2fe076e5e255"
+            }
+          ]
+        },
+        {
+          "identifier": "twi9Isp",
+          "type": "Link",
+          "title": "LFLiveKit",
+          "url_domain": "github.com",
+          "url": "https://github.com/LaiFengiOS/LFLiveKit",
+          "description": "<p>一個 iOS 的 RTMP streaming SDK，支援了不少功能，現在直播那麼紅，或許有人開發上正好需要。</p>",
+          "description_markdown": "一個 iOS 的 RTMP streaming SDK，支援了不少功能，現在直播那麼紅，或許有人開發上正好需要。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "kAqQS1K",
+          "type": "Link",
+          "title": "Write in Go (Fall 2014) - YouTube",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=LJvEIjRBSDA",
+          "description": "<p>孩子的教育不能等... 父親節的今天．快讓你的小孩搭配著冰雪奇緣的主題曲來學 Go．  XDDD</p>",
+          "description_markdown": "孩子的教育不能等... 父親節的今天．快讓你的小孩搭配著冰雪奇緣的主題曲來學 Go．  XDDD",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "f2f6d84c-34ba-4e71-bd28-eb033a7f2654.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_f2f6d84c-34ba-4e71-bd28-eb033a7f2654.jpeg",
+          "image_medium_filename": "original_ratio_medium_f2f6d84c-34ba-4e71-bd28-eb033a7f2654.jpeg"
+        },
+        {
+          "identifier": "zF3BDP1",
+          "type": "Link",
+          "title": "BuntDB is a fast, embeddable, in-memory key/value database for Go with custom indexing and geospatial support",
+          "url_domain": "github.com",
+          "url": "https://github.com/tidwall/buntdb",
+          "description": "<p>參考著 BoltDB 並且使用一樣的 Raft Consensus 做一致性管理． BuntDB 打著以下特點 (跟 BoltDB 有些許的不同處):</p>\n\n<ul>\n<li>支援自訂索引</li>\n<li>適合 geospatial data 處理</li>\n<li>BuntDB 使用 Memory ，而 BoltDB 使用檔案存取資料．</li>\n<li>作者說針對一致性的管理上， <a href=\"https://github.com/tidwall/raft-boltdb#benchmarks\">BuntDB 有改寫過 Raft 並且比 BoltDB 的 Raft 更快 ( 令人相當驚訝... )</a></li>\n</ul>\n\n\n<p>想瞭解更多的與 BoltDB 的差異可以看看<a href=\"https://hn.algolia.com/story/12125416/buntdb-fast-embeddable-in-memory-key-value-database-for-go-with-geospatial\">原作者在 HN 上面的討論</a> ..</p>",
+          "description_markdown": "參考著 BoltDB 並且使用一樣的 Raft Consensus 做一致性管理． BuntDB 打著以下特點 (跟 BoltDB 有些許的不同處):\r\n\r\n- 支援自訂索引\r\n- 適合 geospatial data 處理\r\n- BuntDB 使用 Memory ，而 BoltDB 使用檔案存取資料．\r\n- 作者說針對一致性的管理上， [BuntDB 有改寫過 Raft 並且比 BoltDB 的 Raft 更快 ( 令人相當驚訝... )](https://github.com/tidwall/raft-boltdb#benchmarks)\r\n\r\n想瞭解更多的與 BoltDB 的差異可以看看[原作者在 HN 上面的討論](https://hn.algolia.com/story/12125416/buntdb-fast-embeddable-in-memory-key-value-database-for-go-with-geospatial) ..",
+          "embedded_links": [
+            {
+              "identifier": "7PQVsgm",
+              "title": "BuntDB 有改寫過 Raft 並且比 BoltDB 的 Raft 更快 ( 令人相當驚訝... )",
+              "url_domain": "github.com",
+              "url": "https://github.com/tidwall/raft-boltdb#benchmarks"
+            },
+            {
+              "identifier": "bBcrxFc",
+              "title": "原作者在 HN 上面的討論",
+              "url_domain": "algolia.com",
+              "url": "https://hn.algolia.com/story/12125416/buntdb-fast-embeddable-in-memory-key-value-database-for-go-with-geospatial"
+            }
+          ],
+          "image_original_filename": "b45dbed9-718b-4aa8-b1f2-c5c8b5284fd2.png",
+          "image_extra_large_filename": "original_ratio_extra_large_b45dbed9-718b-4aa8-b1f2-c5c8b5284fd2.png",
+          "image_medium_filename": "original_ratio_medium_b45dbed9-718b-4aa8-b1f2-c5c8b5284fd2.png"
+        },
+        {
+          "identifier": "3es0xMS",
+          "type": "Link",
+          "title": " I Love Go; I Hate Go",
+          "url_domain": "dtrace.org",
+          "url": "http://dtrace.org/blogs/ahl/2016/08/02/i-love-go-i-hate-go/",
+          "description": "<p>Delphix 的 CTO - <a href=\"https://twitter.com/ahl\">Adam Leventhal</a> 分享他對 ‪Golang‬ 的又愛又恨的情緒．</p>\n\n<p>喜愛的部分包含著:  Gofmt ， Go 很直覺， Toolchain 很強大．\n討厭的部分包含著: Go 沒有 Assertion ， Go compiler omits frame pointers ...</p>\n\n<p>雖然有愛也有恨，但是 Adam Leventhal 也說到你不能因為一些小小的缺點就跟你的愛人分手． Golang 依舊有許多令人讚賞的地方，快來仔細看看這篇介紹吧..</p>",
+          "description_markdown": "Delphix 的 CTO - [Adam Leventhal](https://twitter.com/ahl) 分享他對 ‪Golang‬ 的又愛又恨的情緒．\r\n\r\n喜愛的部分包含著:  Gofmt ， Go 很直覺， Toolchain 很強大．\r\n討厭的部分包含著: Go 沒有 Assertion ， Go compiler omits frame pointers ...\r\n\r\n雖然有愛也有恨，但是 Adam Leventhal 也說到你不能因為一些小小的缺點就跟你的愛人分手． Golang 依舊有許多令人讚賞的地方，快來仔細看看這篇介紹吧..\r\n",
+          "embedded_links": [
+            {
+              "identifier": "cPLzj8d",
+              "title": "Adam Leventhal",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/ahl"
+            }
+          ]
+        },
+        {
+          "identifier": "BqYwmjV",
+          "type": "Link",
+          "title": "dgryski/talks: consistent hashing in go",
+          "url_domain": "github.com",
+          "url": "https://github.com/dgryski/talks/blob/master/consistent-hashing/slides.md",
+          "description": "<p><a href=\"https://github.com/dgryski\">Damian Gryski</a> 身為 Books.com 的資深工程師．dgryski 除了是重度的 Golang 愛好者外，還喜歡讀很多資訊科學的論文與研究各種進階的資料結構．</p>\n\n<p>這份 Talk 從原來的問題 Load Balancer 或是 K/V 存放的問題來出發．介紹了一開始的解決方式 Hashing Mod N ，再來探討 Consistent Hashing 如何解決 Hashing Mod N 與的節點新增與刪除帶來變動的問題，最後帶到 Jump Hashing 與 Maglev Hashing ． 想要好好瞭解 Ring Hashing 資料結構能如何幫你解決 Load Balancer 問題的話，一定得好好的閱讀這篇．</p>",
+          "description_markdown": "[Damian Gryski](https://github.com/dgryski) 身為 Books.com 的資深工程師．dgryski 除了是重度的 Golang 愛好者外，還喜歡讀很多資訊科學的論文與研究各種進階的資料結構．\r\n\r\n這份 Talk 從原來的問題 Load Balancer 或是 K/V 存放的問題來出發．介紹了一開始的解決方式 Hashing Mod N ，再來探討 Consistent Hashing 如何解決 Hashing Mod N 與的節點新增與刪除帶來變動的問題，最後帶到 Jump Hashing 與 Maglev Hashing ． 想要好好瞭解 Ring Hashing 資料結構能如何幫你解決 Load Balancer 問題的話，一定得好好的閱讀這篇．",
+          "embedded_links": [
+            {
+              "identifier": "lMoT0qm",
+              "title": "Damian Gryski",
+              "url_domain": "github.com",
+              "url": "https://github.com/dgryski"
+            }
+          ],
+          "image_original_filename": "2e6b0385-b365-4fed-b61d-5bf16390b665.JPG",
+          "image_extra_large_filename": "original_ratio_extra_large_2e6b0385-b365-4fed-b61d-5bf16390b665.JPG",
+          "image_medium_filename": "original_ratio_medium_2e6b0385-b365-4fed-b61d-5bf16390b665.JPG"
+        },
+        {
+          "identifier": "r1nNR7j",
+          "type": "Link",
+          "title": "uber/ringpop-go: Scalable, fault-tolerant application-layer sharding for Go applications",
+          "url_domain": "github.com",
+          "url": "https://github.com/uber/ringpop-go",
+          "description": "<p><a href=\"http://uber.github.io/ringpop/\">Uber RingPop</a> 是他們在去年開源的一個應用架構．  本來是使用 Node.JS 來做開發的，這次推薦的是 Golang 版本的．</p>\n\n<p>RingPop 具有相當多的功能，簡單條列如下:</p>\n\n<ul>\n<li>透過 <a href=\"https://en.wikipedia.org/wiki/Gossip_protocol\">Gossip</a> 來傳遞資訊</li>\n<li>透過 <a href=\"https://en.wikipedia.org/wiki/Consistent_hashing\">Consistent Hashing</a> 來分散保存使用者資訊</li>\n<li>資訊透過 <a href=\"https://github.com/google/farmhash\">Google farmhash</a> 作為 Consistent Hashing 的 Hash Function</li>\n</ul>\n\n\n<p>透過這些方式可以建置出具有可擴展性，分散式的應用程式架構．</p>\n\n<p>想瞭解更多資訊，可以查看以下鏈結:</p>\n\n<ul>\n<li><a href=\"http://www.slideshare.net/Codemotion/jeff-wolki-explorations-in-cooperative-distributed-systems-with-ubers-ringpop\">Slideshare for Uber Ringpop</a></li>\n<li><a href=\"https://eng.uber.com/intro-to-ringpop/\">Uber Blog: Introduction RingPop</a></li>\n<li><a href=\"http://basho.com/posts/technical/ubers-ringpop-and-riak/\">影片介紹與 Slide </a></li>\n<li><a href=\"http://dataology.blogspot.tw/2015/12/uber.html\">車聯網的即時服務架構-以Uber為例</a></li>\n<li><a href=\"http://dataology.blogspot.tw/2015/12/uber.html\">Uber 四年时间增长近 40 倍，背后架构揭秘</a></li>\n</ul>",
+          "description_markdown": "[Uber RingPop](http://uber.github.io/ringpop/) 是他們在去年開源的一個應用架構．  本來是使用 Node.JS 來做開發的，這次推薦的是 Golang 版本的．\r\n\r\nRingPop 具有相當多的功能，簡單條列如下:\r\n\r\n- 透過 [Gossip](https://en.wikipedia.org/wiki/Gossip_protocol) 來傳遞資訊\r\n- 透過 [Consistent Hashing](https://en.wikipedia.org/wiki/Consistent_hashing) 來分散保存使用者資訊\r\n- 資訊透過 [Google farmhash](https://github.com/google/farmhash) 作為 Consistent Hashing 的 Hash Function\r\n\r\n透過這些方式可以建置出具有可擴展性，分散式的應用程式架構．\r\n\r\n想瞭解更多資訊，可以查看以下鏈結:\r\n\r\n- [Slideshare for Uber Ringpop](http://www.slideshare.net/Codemotion/jeff-wolki-explorations-in-cooperative-distributed-systems-with-ubers-ringpop)\r\n- [Uber Blog: Introduction RingPop](https://eng.uber.com/intro-to-ringpop/) \r\n- [影片介紹與 Slide ](http://basho.com/posts/technical/ubers-ringpop-and-riak/)\r\n- [車聯網的即時服務架構-以Uber為例](http://dataology.blogspot.tw/2015/12/uber.html)\r\n- [Uber 四年时间增长近 40 倍，背后架构揭秘](http://dataology.blogspot.tw/2015/12/uber.html)",
+          "embedded_links": [
+            {
+              "identifier": "3AmBTjI",
+              "title": "Uber RingPop",
+              "url_domain": "github.io",
+              "url": "http://uber.github.io/ringpop/"
+            },
+            {
+              "identifier": "cGWimBC",
+              "title": "Gossip",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Gossip_protocol"
+            },
+            {
+              "identifier": "RNe5GxU",
+              "title": "Consistent Hashing",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Consistent_hashing"
+            },
+            {
+              "identifier": "pkzdTJL",
+              "title": "Google farmhash",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/farmhash"
+            },
+            {
+              "identifier": "i49zfaE",
+              "title": "Slideshare for Uber Ringpop",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/Codemotion/jeff-wolki-explorations-in-cooperative-distributed-systems-with-ubers-ringpop"
+            },
+            {
+              "identifier": "llPstDE",
+              "title": "Uber Blog: Introduction RingPop",
+              "url_domain": "uber.com",
+              "url": "https://eng.uber.com/intro-to-ringpop/"
+            },
+            {
+              "identifier": "vpuokgG",
+              "title": "影片介紹與 Slide ",
+              "url_domain": "basho.com",
+              "url": "http://basho.com/posts/technical/ubers-ringpop-and-riak/"
+            },
+            {
+              "identifier": "vHxtC12",
+              "title": "Uber 四年时间增长近 40 倍，背后架构揭秘",
+              "url_domain": "blogspot.tw",
+              "url": "http://dataology.blogspot.tw/2015/12/uber.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "number": 108,
+  "title": "Issue 108 聽說多數公司會故意招募一個能力不足的員工只是為了鼓舞大家的士氣，讓其他人在遇到瓶頸時還保有信心。真是無稽之談，我待的公司就沒看到這樣的人。",
+  "summary": "本期內容涵蓋 JavaScript, Redux, Game, PostgreSQL, SSH Key, API Design, Career",
+  "url": "https://weekly.codetengu.com/issues/108",
+  "publication_status": "published",
+  "published_at": "2017-12-04T02:00:00+00:00",
+  "updated_at": "2017-12-04T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 諸君，賺錢有數，性命要顧</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 諸君，賺錢有數，性命要顧\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "5m57lDn",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "WXNidVZ",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "lo1osnv",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "QONnEe5",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "hakUUNG",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "pU1Qw25",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "jb7x0BY",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "UIFXekD",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "tozv1fn",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "qHI9FQ4",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "xV5uS2S",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "n9m8X13",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "U00QEOD",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "pt5Ovvl",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "9mzTEGg",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "jjnfFfB",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ozW5XAh",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "bvqg335",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "R06IUr3",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "IlVZWxn",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "Va8dvPN",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "TKpsxRe",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "r95wMN9",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "Zo0kJMF",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "kyEZtZR",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "i2FimWE",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "NqaQOd",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "y14iEa9",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "qFthqx9",
+          "type": "Link",
+          "title": "JavaScript hacks for ES6 hipsters",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/javascript-hacks-for-es6-hipsters-67d633ce8ace",
+          "description": "<p>本篇文章透過幾個例子，利用 ES6 的 <a href=\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment\">Destructuring Assignment</a> 、  <a href=\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer\">Shorthand Property Names</a> 以及 <a href=\"https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator\">Spread Operator</a> 來撰寫更方便的語法。</p>",
+          "description_markdown": "本篇文章透過幾個例子，利用 ES6 的 [Destructuring Assignment](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) 、  [Shorthand Property Names](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer) 以及 [Spread Operator](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator) 來撰寫更方便的語法。",
+          "embedded_links": [
+            {
+              "identifier": "HEDCKkL",
+              "title": "Destructuring Assignment",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"
+            },
+            {
+              "identifier": "UlJhlhb",
+              "title": "Shorthand Property Names",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer"
+            },
+            {
+              "identifier": "ik0tojQ",
+              "title": "Spread Operator",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_operator"
+            }
+          ]
+        },
+        {
+          "identifier": "DIkqWJH",
+          "type": "Link",
+          "title": "Totally Tooling Tips: Accessibility Testing",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=56zCnwj58e4",
+          "description": "<p>這個簡短的教學透過 Chrome dev tools 的 Audit panel Accessibility 的檢查，可以分析網頁後給予簡單建議來改進網站的易用性。</p>",
+          "description_markdown": "這個簡短的教學透過 Chrome dev tools 的 Audit panel Accessibility 的檢查，可以分析網頁後給予簡單建議來改進網站的易用性。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "1TA55aN",
+          "type": "Link",
+          "title": "New in VS Code: Inline Change Review",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/fhinkel/new-in-vs-code-inline-change-review-d43df04ea264",
+          "description": "<p>VSCode 1.18 版加入了 Expandable Git annotations ，可以直接在編輯器上面展開 annotations 觀察和 git 上版本差異，並且可以直接對部分區塊做 stage 以及 revert 等等的操作。</p>",
+          "description_markdown": "VSCode 1.18 版加入了 Expandable Git annotations ，可以直接在編輯器上面展開 annotations 觀察和 git 上版本差異，並且可以直接對部分區塊做 stage 以及 revert 等等的操作。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Bij3KjO",
+          "type": "Link",
+          "title": "The most unknown redux performance trick",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jidefr/the-most-unknown-redux-performance-trick-986fdfe871fa",
+          "description": "<p>如果你有使用 React/Redux 做開發，這篇文章探討 <a href=\"https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options\">redux connect function</a> 較容易被遺漏的第三個參數內加入areStatesEqual option 的使用方式。</p>",
+          "description_markdown": "如果你有使用 React/Redux 做開發，這篇文章探討 [redux connect function](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options) 較容易被遺漏的第三個參數內加入areStatesEqual option 的使用方式。",
+          "embedded_links": [
+            {
+              "identifier": "85SMmJh",
+              "title": "redux connect function",
+              "url_domain": "github.com",
+              "url": "https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "LDxbsHc",
+          "type": "Link",
+          "title": "Digging for treasure in Aladdin’s source code",
+          "url_domain": "gamehistory.org",
+          "url": "https://gamehistory.org/aladdin-source-code/",
+          "description": "<p>迪士尼的阿拉丁動畫曾經改編為電子遊戲，發行在好幾個平台上，我玩過的是 PC (MS-DOS) 版，這是一款人物動作非常細膩的遊戲，至今仍舊讓我印象深刻。Video Game History Foundation 很幸運地取得了此款游戲的 Sega Genesis <em>（臺灣俗稱 \"SEGA\" 的那款黑色 16-bit 遊戲機）</em> 版本原始碼、素材與開發工具，結果在原始碼當中，找到了一些正式版遊戲裡沒有用上的素材。透過一些工具輔助，他們順利 build 出使用這些未登場素材的遊戲。整個「重組」過程非常有趣，與大家分享。</p>\n\n<p>後來我再翻了一下網上資料，發現維基百科上有這個 <a href=\"https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code\">List of commercial video games with available source code</a> 條目，類似阿拉丁這樣後來有釋出原始碼的商業發行遊戲還不少，或許這些歷史遺產會有不少地方值得想要學習製作電玩的人參考。</p>",
+          "description_markdown": "迪士尼的阿拉丁動畫曾經改編為電子遊戲，發行在好幾個平台上，我玩過的是 PC (MS-DOS) 版，這是一款人物動作非常細膩的遊戲，至今仍舊讓我印象深刻。Video Game History Foundation 很幸運地取得了此款游戲的 Sega Genesis *（臺灣俗稱 \"SEGA\" 的那款黑色 16-bit 遊戲機）* 版本原始碼、素材與開發工具，結果在原始碼當中，找到了一些正式版遊戲裡沒有用上的素材。透過一些工具輔助，他們順利 build 出使用這些未登場素材的遊戲。整個「重組」過程非常有趣，與大家分享。\r\n\r\n後來我再翻了一下網上資料，發現維基百科上有這個 [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code) 條目，類似阿拉丁這樣後來有釋出原始碼的商業發行遊戲還不少，或許這些歷史遺產會有不少地方值得想要學習製作電玩的人參考。",
+          "embedded_links": [
+            {
+              "identifier": "JBWV9Fo",
+              "title": "List of commercial video games with available source code",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code"
+            }
+          ]
+        },
+        {
+          "identifier": "onXiDPT",
+          "type": "Link",
+          "title": "PostgreSQL Configuration for Humans",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/ongres/postgresql-configuration-for-humans",
+          "description": "<p>這份投影片有很多非常實用的 PostgreSQL 設定指引，含金量高，雖然作者很明顯地是為了宣傳他們家的 PostgreSQL 設定工具，但是絕大部份篇幅都是佛心來著的、交代了很多重要設定的概念。老實講，PostgreSQL 的設定參數多如牛毛，不可能在一份投影片裡完全講完，但是裡頭提到的可說是最重要的幾項了。推薦給同樣使用 PostgreSQL 的大家。</p>",
+          "description_markdown": "這份投影片有很多非常實用的 PostgreSQL 設定指引，含金量高，雖然作者很明顯地是為了宣傳他們家的 PostgreSQL 設定工具，但是絕大部份篇幅都是佛心來著的、交代了很多重要設定的概念。老實講，PostgreSQL 的設定參數多如牛毛，不可能在一份投影片裡完全講完，但是裡頭提到的可說是最重要的幾項了。推薦給同樣使用 PostgreSQL 的大家。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "hymMpCR",
+          "type": "Link",
+          "title": "Upgrade your SSH keys!",
+          "url_domain": "g3rt.nl",
+          "url": "https://blog.g3rt.nl/upgrade-your-ssh-keys.html",
+          "description": "<p>我不清楚各位讀者的 SSH keys 加密演算法強度如何，但是就我能看到、摸到的機器，普遍都還是採用 DSA/RSA 1024 或 RSA 2048，文中認為這樣的強度已經有點不足，此文作者建議大家可以透過文中指引，把您的 SSH keys 加密演算法強度升級。</p>",
+          "description_markdown": "我不清楚各位讀者的 SSH keys 加密演算法強度如何，但是就我能看到、摸到的機器，普遍都還是採用 DSA/RSA 1024 或 RSA 2048，文中認為這樣的強度已經有點不足，此文作者建議大家可以透過文中指引，把您的 SSH keys 加密演算法強度升級。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "gOeVwuW",
+          "type": "Link",
+          "title": "A handy guide to financial support for open source.",
+          "url_domain": "github.com",
+          "url": "https://github.com/nayafia/lemonade-stand",
+          "description": "<p>這個主題很殘酷也很現實。</p>\n\n<p>記得我前陣子看過一則 tweet，大意是這樣：</p>\n\n<ul>\n<li>場景A：知名 A 廠又推出新款產品 → 眾人：\"Shut up and take my money!\"</li>\n<li>場景B：眾人每天都會用到的開源軟體社群請大家捐款贊助 → 眾人：「呵呵，才不要咧！」</li>\n</ul>\n\n\n<p>補充我看到的另外一個場景 C：雲端業者把開源軟體包裝為 SaaS，大家每個月甘心繳雲端稅，可是這個軟體本身卻慘澹經營苦哈哈。</p>\n\n<p>這份 GitHub repo 就是針對這個議題，整理出一些想要採用開源方式釋出作品，又想要維持財務健康的方法。</p>\n\n<p>順道一提，雖然開放文化基金會並沒有請我宣傳，但是身為長期捐款人，我想至少在這裡、我暫時要告別碼天狗 curator 的最後一期，請容我借個版面再次宣傳一下「<a href=\"http://ocf.tw/300\">開源 300 壯士</a>」這個專案，懇請大家考慮，每週少喝一杯手搖飲料，加入這個定期捐款專案，就可以幫助很多開放文化、開源活動。</p>",
+          "description_markdown": "這個主題很殘酷也很現實。\r\n\r\n記得我前陣子看過一則 tweet，大意是這樣：\r\n\r\n* 場景A：知名 A 廠又推出新款產品 → 眾人：\"Shut up and take my money!\"\r\n* 場景B：眾人每天都會用到的開源軟體社群請大家捐款贊助 → 眾人：「呵呵，才不要咧！」\r\n\r\n補充我看到的另外一個場景 C：雲端業者把開源軟體包裝為 SaaS，大家每個月甘心繳雲端稅，可是這個軟體本身卻慘澹經營苦哈哈。\r\n\r\n這份 GitHub repo 就是針對這個議題，整理出一些想要採用開源方式釋出作品，又想要維持財務健康的方法。\r\n\r\n順道一提，雖然開放文化基金會並沒有請我宣傳，但是身為長期捐款人，我想至少在這裡、我暫時要告別碼天狗 curator 的最後一期，請容我借個版面再次宣傳一下「[開源 300 壯士](http://ocf.tw/300)」這個專案，懇請大家考慮，每週少喝一杯手搖飲料，加入這個定期捐款專案，就可以幫助很多開放文化、開源活動。",
+          "embedded_links": [
+            {
+              "identifier": "4HDa0NZ",
+              "title": "開源 300 壯士",
+              "url_domain": "ocf.tw",
+              "url": "http://ocf.tw/300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "AhRz7Vx",
+          "type": "Link",
+          "title": "User experience design for APIs",
+          "url_domain": "keras.io",
+          "url": "https://blog.keras.io/user-experience-design-for-apis.html",
+          "description": "<p>在 mobile APP、前後端分離盛行的現在，制定 API 是很常見的工作內容。</p>\n\n<p>除了考慮邏輯、效能等面向，使用者體驗（UX）也是很重要的一環。\n作者列出了設計 API （在 UX 上）的三條規則：</p>\n\n<ol>\n<li>要考慮完整的 workflows （而非單一 API）；</li>\n<li>降低 API 使用者的理解負擔；</li>\n<li>提供有用的回饋——包含詳細的錯誤訊息、預防各種易犯的錯誤、乃至於提供詢問管道。</li>\n</ol>",
+          "description_markdown": "在 mobile APP、前後端分離盛行的現在，制定 API 是很常見的工作內容。\r\n\r\n除了考慮邏輯、效能等面向，使用者體驗（UX）也是很重要的一環。\r\n作者列出了設計 API （在 UX 上）的三條規則：\r\n\r\n1. 要考慮完整的 workflows （而非單一 API）；\r\n2. 降低 API 使用者的理解負擔；\r\n3. 提供有用的回饋——包含詳細的錯誤訊息、預防各種易犯的錯誤、乃至於提供詢問管道。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "I5edw6m",
+          "type": "Link",
+          "title": "Using a logbook to improve your programming",
+          "url_domain": "routley.io",
+          "url": "https://routley.io/tech/2017/11/23/logbook.html",
+          "description": "<p>經常看到有人建議工程師撰寫網誌，來整理自己所學、以增進技術。</p>\n\n<p>如果覺得公開發表的壓力太大，可以試試看這篇文章提到的日誌方法：<br/>\n在著手開發或除錯前，先整理問題、解法，最後再紀錄解法的成果、可加強之術。</p>\n\n<p>網友 <a href=\"https://twitter.com/AlbertHuang314\">@AlbertHuang314</a> 也有一篇類似的心得——<a href=\"http://alberthuang314.blogspot.com/2012/12/blog-post_12.html\">寫實驗紀錄或工作日誌的重要性</a> 。</p>",
+          "description_markdown": "經常看到有人建議工程師撰寫網誌，來整理自己所學、以增進技術。\r\n\r\n如果覺得公開發表的壓力太大，可以試試看這篇文章提到的日誌方法：  \r\n在著手開發或除錯前，先整理問題、解法，最後再紀錄解法的成果、可加強之術。\r\n\r\n網友 [@AlbertHuang314](https://twitter.com/AlbertHuang314) 也有一篇類似的心得——[寫實驗紀錄或工作日誌的重要性](http://alberthuang314.blogspot.com/2012/12/blog-post_12.html) 。",
+          "embedded_links": [
+            {
+              "identifier": "MfRyXrz",
+              "title": "@AlbertHuang314",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/AlbertHuang314"
+            },
+            {
+              "identifier": "gqeAcAt",
+              "title": "寫實驗紀錄或工作日誌的重要性",
+              "url_domain": "blogspot.com",
+              "url": "http://alberthuang314.blogspot.com/2012/12/blog-post_12.html"
+            }
+          ]
+        },
+        {
+          "identifier": "76ditr3",
+          "type": "Link",
+          "title": "「最後，你有沒有問題想問我們？」 - 看板 Salary - 批踢踢實業坊",
+          "url_domain": "ptt.cc",
+          "url": "https://www.ptt.cc/bbs/Salary/M.1510233851.A.EED.html",
+          "description": "<p>面試除了公司在衡量應徵者，也是面試者評價公司的好機會。<br/>\n文章裡列出的七則問題，都可以加深對於公司甚至於自己的理解。</p>\n\n<p>對於前陣子頻繁面試的我來說，這篇文章可是相見恨晚啊。<br/>\n（雖然我其實完全憑直覺在衡量公司，哈哈）</p>\n\n<p>年關快到了，可能有不少人開始或準備物色新的工作。<br/>\n希望大家都能找到理想的工作啊。 :)</p>",
+          "description_markdown": "面試除了公司在衡量應徵者，也是面試者評價公司的好機會。  \r\n文章裡列出的七則問題，都可以加深對於公司甚至於自己的理解。\r\n\r\n對於前陣子頻繁面試的我來說，這篇文章可是相見恨晚啊。  \r\n（雖然我其實完全憑直覺在衡量公司，哈哈）\r\n\r\n年關快到了，可能有不少人開始或準備物色新的工作。  \r\n希望大家都能找到理想的工作啊。 :)",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "1gwh9oi",
+          "type": "Link",
+          "title": "Jupyter + Cling: Interactive C++ : Standard C++",
+          "url_domain": "isocpp.org",
+          "url": "https://isocpp.org/blog/2017/11/jupyter-cling-interactive-cpp",
+          "description": "<p>分享這篇只是想分享一下我的驚訝。<br/>\n原來現在已經可以在 Jupyter Notebook 裡面直接寫 C++ （script?）了啊</p>\n\n<p>P.S. 不知道有多少讀者平常以 C++ 為主力語言呢？</p>",
+          "description_markdown": "分享這篇只是想分享一下我的驚訝。  \r\n原來現在已經可以在 Jupyter Notebook 裡面直接寫 C++ （script?）了啊\r\n\r\nP.S. 不知道有多少讀者平常以 C++ 為主力語言呢？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3ZJTiUw",
+          "type": "Link",
+          "title": "鼎惠 🐻 (@v_19981010) • Instagram photos and videos",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/v_19981010/",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "74473b30-283a-4624-afcb-8054a35f2bf2.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_74473b30-283a-4624-afcb-8054a35f2bf2.jpg",
+          "image_medium_filename": "original_ratio_medium_74473b30-283a-4624-afcb-8054a35f2bf2.jpg"
+        }
+      ]
+    }
+  ]
+}

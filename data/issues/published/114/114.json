@@ -1,0 +1,419 @@
+{
+  "number": 114,
+  "title": "Issue 114 沒有人比中國的影音網站更認同「台灣不是中國的一部分」了：此视频仅限中国地区播放，您所在的地区无法观看",
+  "summary": "本期內容涵蓋 Management, Ethereum, Kotlin, Ruby, Rust, Tmux, Machine Learning",
+  "url": "https://weekly.codetengu.com/issues/114",
+  "publication_status": "published",
+  "published_at": "2018-01-29T02:00:00+00:00",
+  "updated_at": "2018-01-29T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently's Holistic Detective Agency</a>，<a href=\"https://www.netflix.com/title/80119426\">電視劇</a>也拍得超屌！拜託看！</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently's Holistic Detective Agency](https://www.douban.com/people/vinta/)，[電視劇](https://www.netflix.com/title/80119426)也拍得超屌！拜託看！\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "eFR7uvs",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "INQjY1q",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "eIOD1iv",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "58zvp3o",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "InRra6K",
+              "title": "電視劇",
+              "url_domain": "netflix.com",
+              "url": "https://www.netflix.com/title/80119426"
+            },
+            {
+              "identifier": "DmbnZOH",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "F0O8Zi6",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "QUkXhgJ",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "bGrUdZI",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "h5sZ5H0",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "7mHuG0a",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "o6oKxpE",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "ncljv2y",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "ErGQR3P",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "kNww6ki",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "WyUhVaE",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "1wwzHVZ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "O7TNzlz",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "KbXIuVf",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "B5a8tuV",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "6mI3UKo",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "K14MWpm",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "ArZwmQg",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "9jqXWq4",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "qp7Zwe8",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "jyUt1fh",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "GGvB8VD",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "jJOTVT0",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "AOXt8jK",
+          "type": "Link",
+          "title": "The Secrets of Patreon’s High Performance Product Teams",
+          "url_domain": "usejournal.com",
+          "url": "https://blog.usejournal.com/the-secrets-of-patreons-high-performance-product-teams-5cf796a21b51",
+          "description": "<p>這篇在講最近很紅的 <a href=\"https://www.patreon.com/\">Patreon</a>，他們怎麼工作、高度自主。講怎麼營造積極的團隊，所以這篇基本上也算是在講團隊、公司文化：直率、坦白、爭辯 ... 等等。</p>\n\n<p>我覺得文化面來說，這篇很棒，Startup 就該這樣，當你找一群聰明、有熱情的人一起工作的時候，營造出這樣的環境，這樣工作起來一定很開心。</p>\n\n<p>但我覺得，產品也要做的起來，做的火紅，整體的環境跟氣氛才能整個跟上，所以這篇一開始也就提到了 Goal &amp; Vision，你得先定義成功，才能放出自走砲。</p>",
+          "description_markdown": "這篇在講最近很紅的 [Patreon](https://www.patreon.com/)，他們怎麼工作、高度自主。講怎麼營造積極的團隊，所以這篇基本上也算是在講團隊、公司文化：直率、坦白、爭辯 ... 等等。 \r\n\r\n我覺得文化面來說，這篇很棒，Startup 就該這樣，當你找一群聰明、有熱情的人一起工作的時候，營造出這樣的環境，這樣工作起來一定很開心。\r\n\r\n但我覺得，產品也要做的起來，做的火紅，整體的環境跟氣氛才能整個跟上，所以這篇一開始也就提到了 Goal & Vision，你得先定義成功，才能放出自走砲。",
+          "embedded_links": [
+            {
+              "identifier": "cwJcF1l",
+              "title": "Patreon",
+              "url_domain": "patreon.com",
+              "url": "https://www.patreon.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "Kvmjz8Z",
+          "type": "Link",
+          "title": "One on One Meeting Questions Great Managers Ask Their Teams",
+          "url_domain": "getlighthouse.com",
+          "url": "https://getlighthouse.com/blog/one-on-one-meeting-questions-great-managers-ask/",
+          "description": "<p>1-on-1 有多重要? 在我先前聽的一本有聲書 <a href=\"http://amzn.to/2GqohJR\">The Hard Thing About Hard Things</a> 中, Ben Horowitz 知道他公司有一位主管有六個月沒跟他的團隊進行 1-on-1, 他就要 fire 掉這位主管。</p>\n\n<p>對了，<a href=\"http://amzn.to/2GqohJR\">The Hard Thing About Hard Things</a> 這本書很棒，也很適合用聽的，我當時一邊聽一邊覺得創業實在是太苦太苦了，然後覺得自己好輕鬆啊 ~</p>\n\n<p>回到正題，1-on-1 的難題主要是在於你不知道問什麼，通常就是問工作上的事，或是未來目標，但是常常會獲得這種回應「還好啊，沒什麼問題」或是「目標嗎？不知道誒還沒認真想過」等等，所以有時候你會接不下去 XD</p>\n\n<p>而這篇列出了幾個 80 幾個問題，分別針對不同方向，像是處理情緒問題，職涯發展問題等等，我覺得這篇文章是個非常好的起點，還沒做 1-on-1 的人可以參考一下。</p>",
+          "description_markdown": "1-on-1 有多重要? 在我先前聽的一本有聲書 [The Hard Thing About Hard Things](http://amzn.to/2GqohJR) 中, Ben Horowitz 知道他公司有一位主管有六個月沒跟他的團隊進行 1-on-1, 他就要 fire 掉這位主管。 \r\n\r\n對了，[The Hard Thing About Hard Things](http://amzn.to/2GqohJR) 這本書很棒，也很適合用聽的，我當時一邊聽一邊覺得創業實在是太苦太苦了，然後覺得自己好輕鬆啊 ~ \r\n\r\n回到正題，1-on-1 的難題主要是在於你不知道問什麼，通常就是問工作上的事，或是未來目標，但是常常會獲得這種回應「還好啊，沒什麼問題」或是「目標嗎？不知道誒還沒認真想過」等等，所以有時候你會接不下去 XD\r\n\r\n而這篇列出了幾個 80 幾個問題，分別針對不同方向，像是處理情緒問題，職涯發展問題等等，我覺得這篇文章是個非常好的起點，還沒做 1-on-1 的人可以參考一下。",
+          "embedded_links": [
+            {
+              "identifier": "1drUK0w",
+              "title": "The Hard Thing About Hard Things",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/2GqohJR"
+            }
+          ]
+        },
+        {
+          "identifier": "IhQ50rm",
+          "type": "Link",
+          "title": "Rapid Ethereum Dapp Development with Next.js",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@adrianli/rapid-ethereum-dapp-development-with-next-js-f6354400e4d4",
+          "description": "<p>我最近真的很投入加密貨幣跟區塊鏈這兩個領域，雖然都沒有太大的進展，但是還是有做一些研究啦。而先前就陸續看到幾個 DApp 的字眼, 一直看了這篇才知道智能合約可以這麼玩。可能是我老了，開始覺得這些東西很新奇，但很有趣啊 ~ 以前還在寫程式的時候一定一頭就栽進去，一陣亂搞...</p>\n\n<p>然後又看到 <a href=\"https://twitter.com/gasolin\">@gasolin</a> 寫的這篇 <a href=\"https://gasolin.gitbooks.io/learn-ethereum-dapp/content/\">Ethereum 區塊鏈！智能合約 (Smart Contract) 與分散式網頁應用 (DApp) 入門</a>，雖然還在進行中，但是非常期待!</p>",
+          "description_markdown": "我最近真的很投入加密貨幣跟區塊鏈這兩個領域，雖然都沒有太大的進展，但是還是有做一些研究啦。而先前就陸續看到幾個 DApp 的字眼, 一直看了這篇才知道智能合約可以這麼玩。可能是我老了，開始覺得這些東西很新奇，但很有趣啊 ~ 以前還在寫程式的時候一定一頭就栽進去，一陣亂搞...\r\n\r\n然後又看到 [@gasolin](https://twitter.com/gasolin) 寫的這篇 [Ethereum 區塊鏈！智能合約 (Smart Contract) 與分散式網頁應用 (DApp) 入門](https://gasolin.gitbooks.io/learn-ethereum-dapp/content/)，雖然還在進行中，但是非常期待!",
+          "embedded_links": [
+            {
+              "identifier": "vo9THko",
+              "title": "@gasolin",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/gasolin"
+            },
+            {
+              "identifier": "rhfVBb2",
+              "title": "Ethereum 區塊鏈！智能合約 (Smart Contract) 與分散式網頁應用 (DApp) 入門",
+              "url_domain": "gitbooks.io",
+              "url": "https://gasolin.gitbooks.io/learn-ethereum-dapp/content/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "9Mthr2V",
+          "type": "Link",
+          "title": "Kotlin: The Problem with null",
+          "url_domain": "arturdryomov.online",
+          "url": "http://arturdryomov.online/posts/kotlin-the-problem-with-null/",
+          "description": "<p>Java 的「<a href=\"https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare\">Billion Dollar Mistake</a>」，<code>NullPointerException</code>，拖累了一整代人的生產力。Kotlin 型別預設 non-nullable，除非你特別用 <code>?</code> 字尾指名；如果你將一個變數指名為 nullable，在每一個使用 context 前就一定要檢查它是否為 null，否則 compiler 會直接報錯。我們再也不用煩惱 <code>NullPointerException</code> 了，可喜可賀可喜可賀。</p>\n\n<p>事情沒那麼簡單。雖然 Kotlin compiler 保證你不會忘記檢查 null，Kotlin 本身仍然需要跑在 JVM 上。你自己的程式安全了，但依賴的上游套件（通常是用 Java 寫的）與它們的 API 是否安全，仍然毫無保證。你還是要自己小心。</p>\n\n<p>Kotlin 被形容成一個 practical 的語言。比起它在 iOS 的同類 Swift，Kotlin 在很多地方看得出妥協，不如 Swift 那麼「美麗」。純粹主義者會因此不喜歡它，但這個策略讓 Kotlin 能夠直接取用廣大的 Java（與其他 JVM 語言）資源。蘋果對 macOS/iOS 開發生態有更完整的控制，可以勇敢破壞既有生態，更有本錢讓 Swift 純粹；Kotlin 不論在推廣和 adaption 問題上，都更需要既有 JVM 生態的支援，所以走了這條路。</p>\n\n<p>本文最後有一段 Chris Lattner 的評論，描述 Kotlin 與 Swift 在表面語法如此相似，卻在底層想法有很大差異的原因，也很十分值得思考。Kotlin 的首要目標是跑在 JVM 上，而 Swift 不需跑在 Objective-C runtime 上，所以比較不需考慮與 Objective-C 的相容。好像理所當然，可是<a href=\"https://news.ycombinator.com/item?id=16138950\">為什麼他把 language-agnostic 的 JVM 與 Objective-C runtime 相比</a>，而不是例如地位似乎更相符的 LLVM？</p>",
+          "description_markdown": "Java 的「[Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)」，`NullPointerException`，拖累了一整代人的生產力。Kotlin 型別預設 non-nullable，除非你特別用 `?` 字尾指名；如果你將一個變數指名為 nullable，在每一個使用 context 前就一定要檢查它是否為 null，否則 compiler 會直接報錯。我們再也不用煩惱 `NullPointerException` 了，可喜可賀可喜可賀。\r\n\r\n事情沒那麼簡單。雖然 Kotlin compiler 保證你不會忘記檢查 null，Kotlin 本身仍然需要跑在 JVM 上。你自己的程式安全了，但依賴的上游套件（通常是用 Java 寫的）與它們的 API 是否安全，仍然毫無保證。你還是要自己小心。\r\n\r\nKotlin 被形容成一個 practical 的語言。比起它在 iOS 的同類 Swift，Kotlin 在很多地方看得出妥協，不如 Swift 那麼「美麗」。純粹主義者會因此不喜歡它，但這個策略讓 Kotlin 能夠直接取用廣大的 Java（與其他 JVM 語言）資源。蘋果對 macOS/iOS 開發生態有更完整的控制，可以勇敢破壞既有生態，更有本錢讓 Swift 純粹；Kotlin 不論在推廣和 adaption 問題上，都更需要既有 JVM 生態的支援，所以走了這條路。\r\n\r\n本文最後有一段 Chris Lattner 的評論，描述 Kotlin 與 Swift 在表面語法如此相似，卻在底層想法有很大差異的原因，也很十分值得思考。Kotlin 的首要目標是跑在 JVM 上，而 Swift 不需跑在 Objective-C runtime 上，所以比較不需考慮與 Objective-C 的相容。好像理所當然，可是[為什麼他把 language-agnostic 的 JVM 與 Objective-C runtime 相比](https://news.ycombinator.com/item?id=16138950)，而不是例如地位似乎更相符的 LLVM？",
+          "embedded_links": [
+            {
+              "identifier": "9qj2h0T",
+              "title": "Billion Dollar Mistake",
+              "url_domain": "infoq.com",
+              "url": "https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare"
+            },
+            {
+              "identifier": "OntT76k",
+              "title": "為什麼他把 language-agnostic 的 JVM 與 Objective-C runtime 相比",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=16138950"
+            }
+          ]
+        },
+        {
+          "identifier": "jphBg2n",
+          "type": "Link",
+          "title": "A criticism of Ruby",
+          "url_domain": "madhadron.com",
+          "url": "http://madhadron.com/posts/2013-02-25-a-criticism-of-ruby.html",
+          "description": "<p>作者就幾個面向分析了 Ruby 在語言設計上的選擇，挑出他不同意的地方，嘗試排除個人品味，專注在他認為真正錯誤的設計。</p>\n\n<p>雖然我十分喜歡 Ruby 的很多部分，但也一直覺得這語言在很多基本的設計都走錯路了。其中有幾項我覺得還算是有 trade-off 可爭論（例如 mixin），但是例如 module 設計、block/proc/lambda 等等，就確實是很根本的問題，且幾乎無法換到任何好處，單純只是缺點。</p>\n\n<p>不論你喜不喜歡 Ruby，甚至根本不關心，這篇還是滿值得一讀，能幫助了解很多關於程式語法的想法。雖然程式語言的選擇在很多層面上是品味問題，但在「語言本身」還是有優劣之分。有些語言就是設計得比較差。Ruby 整體來說並不差勁，但也因為這樣，討論它哪裡沒做好才更有價值。</p>",
+          "description_markdown": "作者就幾個面向分析了 Ruby 在語言設計上的選擇，挑出他不同意的地方，嘗試排除個人品味，專注在他認為真正錯誤的設計。\r\n\r\n雖然我十分喜歡 Ruby 的很多部分，但也一直覺得這語言在很多基本的設計都走錯路了。其中有幾項我覺得還算是有 trade-off 可爭論（例如 mixin），但是例如 module 設計、block/proc/lambda 等等，就確實是很根本的問題，且幾乎無法換到任何好處，單純只是缺點。\r\n\r\n不論你喜不喜歡 Ruby，甚至根本不關心，這篇還是滿值得一讀，能幫助了解很多關於程式語法的想法。雖然程式語言的選擇在很多層面上是品味問題，但在「語言本身」還是有優劣之分。有些語言就是設計得比較差。Ruby 整體來說並不差勁，但也因為這樣，討論它哪裡沒做好才更有價值。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tiW4Sd9",
+          "type": "Link",
+          "title": "Learning Rust With Entirely Too Many Linked Lists",
+          "url_domain": "cglab.ca",
+          "url": "http://cglab.ca/~abeinges/blah/too-many-lists/book/README.html",
+          "description": "<p>算是 Rust 的中級教學，用 linked list 當主題，重點放在 Rust 的記憶體管理與 ownership，了解這些概念和相關工具要怎麼實際使用。</p>\n\n<p>很多人說 Rust 太難，但我一直覺得它是把所有你該有的程式技巧都放在 type system，大部分甚至直接在 compile time 保證。如果你寫不出能跑的程式，代表本來基礎知識就不夠，需要加強。不過正常人的程設知識都有缺陷，所以說 Rust 很難也是沒錯。就像大學老師必修課完全不調分一樣，你要說錯嘛也沒有，但是大家就是當光光。</p>\n\n<p>Anyway，如果你對 Rust 有興趣，但是一進到 ownership 就看得頭昏腦脹，這個教學應該會很有幫助。雖然裡面用的 Rust 版本<a href=\"https://github.com/rust-unofficial/too-many-lists/issues/70\">有點舊需要更新</a>，但也就是原本有些功能是 nightly 現在 stable 就能用的差別而已，所有概念還是完全通用。</p>",
+          "description_markdown": "算是 Rust 的中級教學，用 linked list 當主題，重點放在 Rust 的記憶體管理與 ownership，了解這些概念和相關工具要怎麼實際使用。\r\n\r\n很多人說 Rust 太難，但我一直覺得它是把所有你該有的程式技巧都放在 type system，大部分甚至直接在 compile time 保證。如果你寫不出能跑的程式，代表本來基礎知識就不夠，需要加強。不過正常人的程設知識都有缺陷，所以說 Rust 很難也是沒錯。就像大學老師必修課完全不調分一樣，你要說錯嘛也沒有，但是大家就是當光光。\r\n\r\nAnyway，如果你對 Rust 有興趣，但是一進到 ownership 就看得頭昏腦脹，這個教學應該會很有幫助。雖然裡面用的 Rust 版本[有點舊需要更新](https://github.com/rust-unofficial/too-many-lists/issues/70)，但也就是原本有些功能是 nightly 現在 stable 就能用的差別而已，所有概念還是完全通用。",
+          "embedded_links": [
+            {
+              "identifier": "cc9eQC",
+              "title": "有點舊需要更新",
+              "url_domain": "github.com",
+              "url": "https://github.com/rust-unofficial/too-many-lists/issues/70"
+            }
+          ]
+        },
+        {
+          "identifier": "tIExUR2",
+          "type": "Link",
+          "title": "Practical Tmux",
+          "url_domain": "mutelight.org",
+          "url": "https://mutelight.org/practical-tmux",
+          "description": "<p>如果我說 Tmux 比 Screen 好用會不會太引戰。會？管你的。不過 Tmux 同時也是設定檔殺人的代表，超爛的預設值、一天到晚變的指令集、意義不明的設定名和語法，Screen 比起來真是天使。不過如果你現在開始決定要用 Tmux，這篇應該可以讓你省掉一些從頭開始調設定檔的時間。</p>\n\n<p>到底是腦子接線多錯才會覺得 window 編號從 0 開始是個好主意啊？這是在設快捷鍵不是寫程式欸。</p>",
+          "description_markdown": "如果我說 Tmux 比 Screen 好用會不會太引戰。會？管你的。不過 Tmux 同時也是設定檔殺人的代表，超爛的預設值、一天到晚變的指令集、意義不明的設定名和語法，Screen 比起來真是天使。不過如果你現在開始決定要用 Tmux，這篇應該可以讓你省掉一些從頭開始調設定檔的時間。\r\n\r\n到底是腦子接線多錯才會覺得 window 編號從 0 開始是個好主意啊？這是在設快捷鍵不是寫程式欸。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "335Tzpl",
+          "type": "Link",
+          "title": "Facebook 開源 Detectron",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebookresearch/Detectron",
+          "description": "<p>這週最令人興奮的事情就是 Facebook 開源 Detectron 了吧？！基於 Caffe2，架構於 ResNeXt、ResNet、FPN、VGG16 之上，實作了 Mask R-CNN 等六種物體偵測的演算法，同時公佈了<a href=\"https://github.com/facebookresearch/Detectron/blob/master/MODEL_ZOO.md\">超多 pre-trained model 的 baseline performance</a>。還有一個特點：不直持 CPU。如果你有興趣嘗鮮，也可以專注<a href=\"https://www.jiqizhixin.com/articles/Detectron\">機器之心的 Detectron 精讀系列</a>。</p>",
+          "description_markdown": "這週最令人興奮的事情就是 Facebook 開源 Detectron 了吧？！基於 Caffe2，架構於 ResNeXt、ResNet、FPN、VGG16 之上，實作了 Mask R-CNN 等六種物體偵測的演算法，同時公佈了[超多 pre-trained model 的 baseline performance](https://github.com/facebookresearch/Detectron/blob/master/MODEL_ZOO.md)。還有一個特點：不直持 CPU。如果你有興趣嘗鮮，也可以專注[機器之心的 Detectron 精讀系列](https://www.jiqizhixin.com/articles/Detectron)。",
+          "embedded_links": [
+            {
+              "identifier": "a8Bjlvy",
+              "title": "超多 pre-trained model 的 baseline performance",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebookresearch/Detectron/blob/master/MODEL_ZOO.md"
+            },
+            {
+              "identifier": "SLw3wIG",
+              "title": "機器之心的 Detectron 精讀系列",
+              "url_domain": "jiqizhixin.com",
+              "url": "https://www.jiqizhixin.com/articles/Detectron"
+            }
+          ]
+        },
+        {
+          "identifier": "5yntXy4",
+          "type": "Link",
+          "title": "Kaggle 網站上的教學課程",
+          "url_domain": "kaggle.com",
+          "url": "https://www.kaggle.com/learn",
+          "description": "<p>不知道這個網頁是什麼時候上線的，之前 Kaggle 的學習課程是經由 email 訂閱，然後轉址到 Kaggle 上面特定的 Kernel 作為教學內容，這次則是看到 Kaggle 獨立出一個區塊來放教學課程。課程方面有 Machine Learning、R、Data Visualization、Deep Learning，除了 R 課程以外，都使用 Python 語言。學習過程可以在 Kaggle 上面用 Notebook 完成，程度適合完全沒基礎的初學者。</p>",
+          "description_markdown": "不知道這個網頁是什麼時候上線的，之前 Kaggle 的學習課程是經由 email 訂閱，然後轉址到 Kaggle 上面特定的 Kernel 作為教學內容，這次則是看到 Kaggle 獨立出一個區塊來放教學課程。課程方面有 Machine Learning、R、Data Visualization、Deep Learning，除了 R 課程以外，都使用 Python 語言。學習過程可以在 Kaggle 上面用 Notebook 完成，程度適合完全沒基礎的初學者。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "2017 回顧文系列",
+          "description": "<p>最近看了一些 2017 回顧文系列，統一在這邊分享三篇以及摘要筆記</p>\n\n<ul>\n<li><p>第一篇是機器學習著名部落格 WildML 上發表的，<a href=\"http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/\">AI and Deep Learning in 2017 - A Year in Review</a>，<a href=\"https://medium.com/@drumrick/2017-%E5%9B%9E%E9%A1%A7%E6%96%87%E6%91%98%E8%A6%81%E7%B3%BB%E5%88%97%E4%B8%80-wildml-20223e97890a\">摘要筆記</a></p></li>\n<li><p>第二篇是 <a href=\"http://pytorch.org/2018/01/19/a-year-in.html\">PyTorch 的生日文</a>，<a href=\"https://medium.com/@drumrick/2017-%E5%9B%9E%E9%A1%A7%E6%96%87%E6%91%98%E8%A6%81%E7%B3%BB%E5%88%97%E4%BA%8C-pytorch-dff8dcb12bc\">摘要筆記</a></p></li>\n<li>第三篇是 Google Brain 的 2017 回顧，有<a href=\"https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html\">上篇</a>跟<a href=\"https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on_12.html\">下篇</a>，<a href=\"https://medium.com/@drumrick/2017-%E5%9B%9E%E9%A1%A7%E6%96%87%E6%91%98%E8%A6%81%E7%B3%BB%E5%88%97%E4%B8%89-google-brain-b3a3ba9bd8a\">摘要筆記</a></li>\n</ul>",
+          "description_markdown": "最近看了一些 2017 回顧文系列，統一在這邊分享三篇以及摘要筆記\r\n\r\n* 第一篇是機器學習著名部落格 WildML 上發表的，[AI and Deep Learning in 2017 - A Year in Review](http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/)，[摘要筆記](https://medium.com/@drumrick/2017-回顧文摘要系列一-wildml-20223e97890a)\r\n\r\n* 第二篇是 [PyTorch 的生日文](http://pytorch.org/2018/01/19/a-year-in.html)，[摘要筆記](https://medium.com/@drumrick/2017-回顧文摘要系列二-pytorch-dff8dcb12bc)\r\n* 第三篇是 Google Brain 的 2017 回顧，有[上篇](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html)跟[下篇](https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on_12.html)，[摘要筆記](https://medium.com/@drumrick/2017-回顧文摘要系列三-google-brain-b3a3ba9bd8a)",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "tU6xOcf",
+              "title": "AI and Deep Learning in 2017 - A Year in Review",
+              "url_domain": "wildml.com",
+              "url": "http://www.wildml.com/2017/12/ai-and-deep-learning-in-2017-a-year-in-review/"
+            },
+            {
+              "identifier": "vO4e6gW",
+              "title": "摘要筆記",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick/2017-回顧文摘要系列一-wildml-20223e97890a"
+            },
+            {
+              "identifier": "YJxdso",
+              "title": "PyTorch 的生日文",
+              "url_domain": "pytorch.org",
+              "url": "http://pytorch.org/2018/01/19/a-year-in.html"
+            },
+            {
+              "identifier": "PRO5Y41",
+              "title": "摘要筆記",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick/2017-回顧文摘要系列二-pytorch-dff8dcb12bc"
+            },
+            {
+              "identifier": "717gyKe",
+              "title": "上篇",
+              "url_domain": "googleblog.com",
+              "url": "https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on.html"
+            },
+            {
+              "identifier": "z146ZDF",
+              "title": "下篇",
+              "url_domain": "googleblog.com",
+              "url": "https://research.googleblog.com/2018/01/the-google-brain-team-looking-back-on_12.html"
+            },
+            {
+              "identifier": "kLFS37e",
+              "title": "摘要筆記",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick/2017-回顧文摘要系列三-google-brain-b3a3ba9bd8a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

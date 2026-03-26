@@ -1,0 +1,413 @@
+{
+  "number": 34,
+  "title": "Issue 34 阿嬤從小就告誡我：不要跟那些電腦裡有安裝 Axure RP 的人當朋友，他們都不是好東西",
+  "summary": "本期內容涵蓋 Android, Web Bluetooth API, UDP, Multithreading, JavaScript, React.js, Functional Programming, iOS, Swift",
+  "url": "https://weekly.codetengu.com/issues/34",
+  "publication_status": "published",
+  "published_at": "2016-03-14T02:00:00+00:00",
+  "updated_at": "2016-03-14T02:00:06+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 楊威利腦殘粉</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - App、Server、Data，不知何時向 F* 邁進</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 楊威利腦殘粉\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw) - App、Server、Data，不知何時向 F* 邁進\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "MuPLWY6",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "QXpRNKE",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "tV4HTqm",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "uksnmvj",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "B7bngoi",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "MVWyn2j",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "2jy9btp",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "lStBGfE",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "uaifjen",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "m4c731S",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "5TJwM2P",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "Ggv8PRN",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "aVTE2K9",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "xMfyAVQ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "o2Rc44E",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "h155mvJ",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "3IOuY0l",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "SLEZhAh",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "JnK74uH",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "pzq3V9s",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "gNwkAqB",
+          "type": "Link",
+          "title": "React.js Conf: The Good Parts",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@nikhilaravi/react-js-conf-the-good-parts-4748d2daadad#.1bi0yncnw",
+          "description": "<p>Facebook 2013 年才將 React.js 開源，但在這短短的兩年多已經成為擁有龐大生態系的 library ，在加上 React Native - Learn Once, Write Everywere. 的概念，讓網頁前端開發者也可以快速的開發 native mobile app ，最近官方將 React.js Conf 2016 的影片 放上 <a href=\"https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY\">youtube</a> ，沒有時間看的朋友，可以先看看這篇，筆者整理了一些關於 React 的議題與資源。</p>",
+          "description_markdown": "Facebook 2013 年才將 React.js 開源，但在這短短的兩年多已經成為擁有龐大生態系的 library ，在加上 React Native - Learn Once, Write Everywere. 的概念，讓網頁前端開發者也可以快速的開發 native mobile app ，最近官方將 React.js Conf 2016 的影片 放上 [youtube](https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY) ，沒有時間看的朋友，可以先看看這篇，筆者整理了一些關於 React 的議題與資源。",
+          "embedded_links": [
+            {
+              "identifier": "AyU1PJ7",
+              "title": "youtube",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/playlist?list=PLb0IAmt7-GS0M8Q95RIc2lOM6nc77q1IY"
+            }
+          ]
+        },
+        {
+          "identifier": "1qjMniM",
+          "type": "Link",
+          "title": "Choosing Vanilla JavaScript in 2016",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/vanilla-javascript/choosing-vanilla-javascript-in-2016-6f38a8302ee5#.d2q5hri98",
+          "description": "<p>JavaScript 在近幾年的變化非常大，ECMAScript 6 的各個新特性讓很多情況下，不需要透過 third party library 就可以輕易開發，本篇文章列出幾個實用的實作方式，不過目前還是建議透過 <a href=\"https://babeljs.io/\">Babel</a> 轉換成較舊的語法，來保證瀏覽器相容性。</p>",
+          "description_markdown": "JavaScript 在近幾年的變化非常大，ECMAScript 6 的各個新特性讓很多情況下，不需要透過 third party library 就可以輕易開發，本篇文章列出幾個實用的實作方式，不過目前還是建議透過 [Babel](https://babeljs.io/) 轉換成較舊的語法，來保證瀏覽器相容性。",
+          "embedded_links": [
+            {
+              "identifier": "JUF3Nu8",
+              "title": "Babel",
+              "url_domain": "babeljs.io",
+              "url": "https://babeljs.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "JXWGmAh",
+          "type": "Link",
+          "title": "react-makes-you-sad",
+          "url_domain": "github.com",
+          "url": "https://github.com/gaearon/react-makes-you-sad",
+          "description": "<p>在使用 React 時如果不是很了解其特性，Redux 的作者 <a href=\"https://github.com/gaearon\">@gaearon</a> 將 React實作的一些建議製作成 Flow Diagram ，希望就此幫助所有利用 React 的開發者可以重新找到正確的方式。</p>",
+          "description_markdown": "在使用 React 時如果不是很了解其特性，Redux 的作者 [@gaearon](https://github.com/gaearon) 將 React實作的一些建議製作成 Flow Diagram ，希望就此幫助所有利用 React 的開發者可以重新找到正確的方式。",
+          "embedded_links": [
+            {
+              "identifier": "7K1C37v",
+              "title": "@gaearon",
+              "url_domain": "github.com",
+              "url": "https://github.com/gaearon"
+            }
+          ]
+        },
+        {
+          "identifier": "ElvY1Cc",
+          "type": "Link",
+          "title": "Functional Programming for JavaScript People",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@chetcorcos/functional-programming-for-javascript-people-1915d8775504#.b7eyneny0",
+          "description": "<p>在撰寫 JavaScript 時，非常建議了解 functional programming 的概念，因為 function 的 independent 特性，使得程式更不容易出錯，在很多時候也可以較容易的增加可讀性。這篇文章將很多 functional 實用的概念都點出來了，值得前端開發者詳細研讀。</p>",
+          "description_markdown": "在撰寫 JavaScript 時，非常建議了解 functional programming 的概念，因為 function 的 independent 特性，使得程式更不容易出錯，在很多時候也可以較容易的增加可讀性。這篇文章將很多 functional 實用的概念都點出來了，值得前端開發者詳細研讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TjBfVAH",
+          "type": "Link",
+          "title": "Arrow functions vs. bind()",
+          "url_domain": "2ality.com",
+          "url": "http://www.2ality.com/2016/02/arrow-functions-vs-bind.html",
+          "description": "<p>ECMAScript 6 的 arrow function 和一般的 function 不同，會自動綁定 this，在撰寫時就不用像過去使用 bind 來帶入 this ，也可以用更簡單易懂的表示法來實作 Partial evaluation。</p>",
+          "description_markdown": "ECMAScript 6 的 arrow function 和一般的 function 不同，會自動綁定 this，在撰寫時就不用像過去使用 bind 來帶入 this ，也可以用更簡單易懂的表示法來實作 Partial evaluation。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "nhdVpVG",
+          "type": "Link",
+          "title": "Issues Cloning Spec repo - GitHub taking a very long time to download changes to the Specs Repo",
+          "url_domain": "github.com",
+          "url": "https://github.com/CocoaPods/CocoaPods/issues/4989#issuecomment-193772935",
+          "description": "<p>有在使用 CocoaPods 的人應該有發現在上個星期，下載或設定 pods 的速度會異常的慢。原因是因為 CocoaPods 太熱門（吞吐量是 Github 網站前五大），然後它的檔案又超級多（一個目錄裡頭有 16k+ 個子目錄），加上它又用了比較不適當的方法去 fetch，種種原因加起來造成 Github 整個網站的效率變差。因此 Github 就自動對它執行流量管制，CocoaPods 的使用者就悲劇了。</p>\n\n<p>在這個 Issue 裡頭有很多人都跳出來討論，包括 Github 員工、Homebrew 維護者、Travis CI 維護者，還有 CocoaPods 維護者。Github 的員工講到了一些 Git 比較細節的部份，也提到 CocoaPods 的設計不適合使用 Git，最後也提供了不少修改建議給 CocoaPods。</p>",
+          "description_markdown": "有在使用 CocoaPods 的人應該有發現在上個星期，下載或設定 pods 的速度會異常的慢。原因是因為 CocoaPods 太熱門（吞吐量是 Github 網站前五大），然後它的檔案又超級多（一個目錄裡頭有 16k+ 個子目錄），加上它又用了比較不適當的方法去 fetch，種種原因加起來造成 Github 整個網站的效率變差。因此 Github 就自動對它執行流量管制，CocoaPods 的使用者就悲劇了。\r\n\r\n在這個 Issue 裡頭有很多人都跳出來討論，包括 Github 員工、Homebrew 維護者、Travis CI 維護者，還有 CocoaPods 維護者。Github 的員工講到了一些 Git 比較細節的部份，也提到 CocoaPods 的設計不適合使用 Git，最後也提供了不少修改建議給 CocoaPods。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Yd2oS3n",
+          "type": "Link",
+          "title": "Oddities of UIStackView",
+          "url_domain": "angelolloqui.com",
+          "url": "http://angelolloqui.com/blog/36-Oddities-of-UIStackView",
+          "description": "<p>UIStackView 實在是超級好用，有在使用 AutoLayout 建立畫面的工程師一定有深刻的體會（是說這個年頭還有人不用 AutoLayout 的嗎？）。但好用歸好用，它還是有一些細節需要注意，一個不小心就會踩到坑。本篇文章雖然不長，但它列出一些平時很容易忽略的問題，值得一讀。</p>",
+          "description_markdown": "UIStackView 實在是超級好用，有在使用 AutoLayout 建立畫面的工程師一定有深刻的體會（是說這個年頭還有人不用 AutoLayout 的嗎？）。但好用歸好用，它還是有一些細節需要注意，一個不小心就會踩到坑。本篇文章雖然不長，但它列出一些平時很容易忽略的問題，值得一讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "dxHMnrK",
+          "type": "Link",
+          "title": "MLeaksFinder：精准 iOS 内存泄露检测工具",
+          "url_domain": "github.io",
+          "url": "http://wereadteam.github.io/2016/02/22/MLeaksFinder/",
+          "description": "<p>記憶體管理絕對是每個工程師都得重視的議題，也絕對是大家都遇過的痛。在 Mac/iOS 的開發世界，最常用來檢查 memory leak 的方式，不外乎就是使用 Instruments 工具，或者很土砲的在每個 <code>dealloc</code> 裡頭印 log，藉此來找到哪個物件沒有被正確釋放。但不論是使用哪個方法，步驟都很繁雜，讓人感覺不是那麼愉快。</p>\n\n<p>MLeaksFinder 這一款工具提供了一個更為簡單，並且更直觀的方式來找到 memory leak。雖然它目前只支援 <code>UIViewController</code> 跟 <code>UIView</code>，但你可以透過很簡單的設定讓它也支援其他 objects。簡單易用好上手，絕對值得一試。</p>",
+          "description_markdown": "記憶體管理絕對是每個工程師都得重視的議題，也絕對是大家都遇過的痛。在 Mac/iOS 的開發世界，最常用來檢查 memory leak 的方式，不外乎就是使用 Instruments 工具，或者很土砲的在每個 `dealloc` 裡頭印 log，藉此來找到哪個物件沒有被正確釋放。但不論是使用哪個方法，步驟都很繁雜，讓人感覺不是那麼愉快。\r\n\r\nMLeaksFinder 這一款工具提供了一個更為簡單，並且更直觀的方式來找到 memory leak。雖然它目前只支援 `UIViewController` 跟 `UIView`，但你可以透過很簡單的設定讓它也支援其他 objects。簡單易用好上手，絕對值得一試。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ww7X2Q9",
+          "type": "Link",
+          "title": "#8 VIPER to be or not to be? – swifting.io",
+          "url_domain": "swifting.io",
+          "url": "https://swifting.io/blog/2016/03/07/8-viper-to-be-or-not-to-be/",
+          "description": "<p>目前比較常聽到、同時也是比較多人使用的架構，不外乎就是 MVC、MVP、MVVM，相對來說 VIPER 獲得的關愛真的少了許多。這篇文章的作者詳細的說明了他們團隊為何使用 VIPER、如何實作、以及獲得哪些好處。</p>\n\n<p>這篇文章很棒的點在於，他們真的寫得很詳細：有程式碼、架構圖、相關工具、以及大量的參考資料。還在思考要選擇什麼架構，或是想要 refactor 的人，都應該看一下這篇！</p>",
+          "description_markdown": "目前比較常聽到、同時也是比較多人使用的架構，不外乎就是 MVC、MVP、MVVM，相對來說 VIPER 獲得的關愛真的少了許多。這篇文章的作者詳細的說明了他們團隊為何使用 VIPER、如何實作、以及獲得哪些好處。\r\n\r\n這篇文章很棒的點在於，他們真的寫得很詳細：有程式碼、架構圖、相關工具、以及大量的參考資料。還在思考要選擇什麼架構，或是想要 refactor 的人，都應該看一下這篇！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tgitRrL",
+          "type": "Link",
+          "title": "View controller lifecycle behaviors",
+          "url_domain": "irace.me",
+          "url": "http://irace.me/lifecycle-behaviors",
+          "description": "<p>在很久以前蘋果就開放讓大家都可以輕易的新增或移除 child view controller，這讓我們可以把一個很複雜的 view controller 切割成多個 sub-view controller，除了降低程式碼複雜度之外，也讓程式碼更容易重複使用。但 view controller 真的只能拿來處理畫面嗎？<del>當然不是，我的 VC 超肥的，什麼事都放在裡面處理!</del></p>\n\n<p>由於 view controller 可透過 child view controller 合成的特性，再加上 parent / child view controller 的 life cycle 是一致的，所以就有人想到可以在 child view controller 的 life cycle 裡頭放入額外的行為，藉此實現 <a href=\"https://en.wikipedia.org/wiki/Aspect-oriented_programming\">AOP</a>。</p>\n\n<p>沒有畫面的 view controller？一開始聽起來或許有點奇怪，但仔細想想之後會覺得這種作法很酷！</p>",
+          "description_markdown": "在很久以前蘋果就開放讓大家都可以輕易的新增或移除 child view controller，這讓我們可以把一個很複雜的 view controller 切割成多個 sub-view controller，除了降低程式碼複雜度之外，也讓程式碼更容易重複使用。但 view controller 真的只能拿來處理畫面嗎？~~當然不是，我的 VC 超肥的，什麼事都放在裡面處理!~~\r\n\r\n由於 view controller 可透過 child view controller 合成的特性，再加上 parent / child view controller 的 life cycle 是一致的，所以就有人想到可以在 child view controller 的 life cycle 裡頭放入額外的行為，藉此實現 [AOP](https://en.wikipedia.org/wiki/Aspect-oriented_programming)。\r\n\r\n沒有畫面的 view controller？一開始聽起來或許有點奇怪，但仔細想想之後會覺得這種作法很酷！",
+          "embedded_links": [
+            {
+              "identifier": "lJNDBMW",
+              "title": "AOP",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Aspect-oriented_programming"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "HulrsHl",
+          "type": "Link",
+          "title": "本週 IG - PANTIPA (@pantipa.a)",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/pantipa.a/",
+          "description": "<p>沒這麼泰國的泰國妹子</p>",
+          "description_markdown": "沒這麼泰國的泰國妹子",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "d22d7659-0fb1-4920-98fd-333e4f63aea3.jpg",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_d22d7659-0fb1-4920-98fd-333e4f63aea3.jpg",
+          "image_medium_filename": "twenty_by_nine_medium_d22d7659-0fb1-4920-98fd-333e4f63aea3.jpg"
+        },
+        {
+          "identifier": "UpNl3zr",
+          "type": "Link",
+          "title": "Dev.Opera — An introduction to the Web Bluetooth API",
+          "url_domain": "opera.com",
+          "url": "https://dev.opera.com/articles/web-bluetooth-intro/",
+          "description": "<p>最近正好在幫忙建置一套藍牙 BLE 裝置的 SDK，除了收集廣播（advertising）訊息，免不了要跟透過 GATT 跟裝置溝通、交換資訊。對於一直在 Web/App 等純軟體領域發展的我來跟天書一樣。</p>\n\n<p>本來以為這大概是 mobile App 才會遇上的事情，沒想到現在連 browser 都要提供藍牙 API  了……但回頭想想，如果物聯網真的如預期中的發展起來，這也是不可避免的趨勢吧。</p>\n\n<p>如果你也跟我一樣在 Android 上面開發自己的藍牙應用，千萬不要錯過 <a href=\"https://altbeacon.github.io/android-beacon-library/\">Android Beacon Library</a>。</p>\n\n<p>另外補充一篇我前陣子用來補充基礎知識的 <a href=\"http://lihgong.blogspot.tw/2014/10/gatt-protocol.html\">GATT protocol 簡介</a>，如果你跟我一樣是新手的話，可以參考一下。</p>",
+          "description_markdown": "最近正好在幫忙建置一套藍牙 BLE 裝置的 SDK，除了收集廣播（advertising）訊息，免不了要跟透過 GATT 跟裝置溝通、交換資訊。對於一直在 Web/App 等純軟體領域發展的我來跟天書一樣。\r\n\r\n本來以為這大概是 mobile App 才會遇上的事情，沒想到現在連 browser 都要提供藍牙 API  了……但回頭想想，如果物聯網真的如預期中的發展起來，這也是不可避免的趨勢吧。\r\n\r\n如果你也跟我一樣在 Android 上面開發自己的藍牙應用，千萬不要錯過 [Android Beacon Library](https://altbeacon.github.io/android-beacon-library/)。\r\n\r\n另外補充一篇我前陣子用來補充基礎知識的 [GATT protocol 簡介](http://lihgong.blogspot.tw/2014/10/gatt-protocol.html)，如果你跟我一樣是新手的話，可以參考一下。",
+          "embedded_links": [
+            {
+              "identifier": "rFiGAKq",
+              "title": "Android Beacon Library",
+              "url_domain": "github.io",
+              "url": "https://altbeacon.github.io/android-beacon-library/"
+            },
+            {
+              "identifier": "1txZaai",
+              "title": "GATT protocol 簡介",
+              "url_domain": "blogspot.tw",
+              "url": "http://lihgong.blogspot.tw/2014/10/gatt-protocol.html"
+            }
+          ]
+        },
+        {
+          "identifier": "QCVnHej",
+          "type": "Link",
+          "title": "云风的 BLOG: 可靠 UDP 传输",
+          "url_domain": "codingnow.com",
+          "url": "http://blog.codingnow.com/2016/03/reliable_udp.html",
+          "description": "<p>前陣子因緣際會又回去用 C/C++ 寫了個 TCP/UDP server，發現自己已經把底層的東西忘得差不多了。我想現在除非要開發 framework/library，大概沒多少人會用到 <code>socket()</code>、<code>bind()</code>、<code>send()</code> ……這些 function 了吧？更別說還在搞自己的 protocol 了。</p>\n\n<p>如果你不幸（？）地也是這個領域的開發者，可能或多或少也嘗試過用 UDP 硬幹出一套可靠的傳輸協定。看一下別人是怎麼做的吧。</p>",
+          "description_markdown": "前陣子因緣際會又回去用 C/C++ 寫了個 TCP/UDP server，發現自己已經把底層的東西忘得差不多了。我想現在除非要開發 framework/library，大概沒多少人會用到 `socket()`、`bind()`、`send()` ……這些 function 了吧？更別說還在搞自己的 protocol 了。\r\n\r\n如果你不幸（？）地也是這個領域的開發者，可能或多或少也嘗試過用 UDP 硬幹出一套可靠的傳輸協定。看一下別人是怎麼做的吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "1jrCncz",
+          "type": "Link",
+          "title": "How I manage tasks and projects with Todoist",
+          "url_domain": "bellebethcooper.com",
+          "url": "http://blog.bellebethcooper.com/todoist.html",
+          "description": "<p><a href=\"https://todoist.com/\">Todoist</a> 是我目前用過最滿意的 To-do list 服務，但我沒嘗試過用來管理軟體開發。大家一起來感受一下。</p>",
+          "description_markdown": "[Todoist](https://todoist.com/) 是我目前用過最滿意的 To-do list 服務，但我沒嘗試過用來管理軟體開發。大家一起來感受一下。",
+          "embedded_links": [
+            {
+              "identifier": "uCN0AVI",
+              "title": "Todoist",
+              "url_domain": "todoist.com",
+              "url": "https://todoist.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "GxssnaO",
+          "type": "Link",
+          "title": "The Deadlock Empire",
+          "url_domain": "github.io",
+          "url": "https://deadlockempire.github.io/",
+          "description": "<p>Multithreading 是所有 developer 的惡夢，有沒有想過反過來扮演 scheduler 讓 multithreading 城市陷入死結（dead lock）是什麼感覺？ XD</p>\n\n<p>The Deadlock Empire 就是一個這樣的遊戲，從中能比較具體地了解到多緒程式有多少容易出錯的地方、又該怎麼的避免。</p>",
+          "description_markdown": "Multithreading 是所有 developer 的惡夢，有沒有想過反過來扮演 scheduler 讓 multithreading 城市陷入死結（dead lock）是什麼感覺？ XD\r\n\r\nThe Deadlock Empire 就是一個這樣的遊戲，從中能比較具體地了解到多緒程式有多少容易出錯的地方、又該怎麼的避免。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "type": "Text",
+          "title": "唸作落語，讀作腐女。",
+          "description": "<p>落語，是一門逐漸式微、歷史悠久的日式傳統娛樂，在昭和全盛時期，名門的寄席下一位難求是常有的事情，落語的表演方式有點像是相聲，票房全看表演者的魅力，在一個大家越來越少跨入劇場的時代，逐漸演變成需要被傳承、需要被保護的一門傳統技藝。作為一門專業技藝，必然會演化出許多門派及繁文褥節，要成為一名演出家，首先必須是「男性」，至今也是如此，以日本來說許多傳統技藝都有性別的門檻，當然在追求兩性平等的現代會引來許多爭議，但在腐女興起的現代，所有女性禁止的地方就是新的天堂啊！為了推廣這門傳統技藝，請放心把一切都交給腐女吧！嗯！\n<a href=\"https://medium.com/@autisticcat/%E5%94%B8%E4%BD%9C%E8%90%BD%E8%AA%9E-%E8%AE%80%E4%BD%9C%E8%85%90%E5%A5%B3-882326300446#.7p2b1qm75\">read more</a></p>",
+          "description_markdown": "落語，是一門逐漸式微、歷史悠久的日式傳統娛樂，在昭和全盛時期，名門的寄席下一位難求是常有的事情，落語的表演方式有點像是相聲，票房全看表演者的魅力，在一個大家越來越少跨入劇場的時代，逐漸演變成需要被傳承、需要被保護的一門傳統技藝。作為一門專業技藝，必然會演化出許多門派及繁文褥節，要成為一名演出家，首先必須是「男性」，至今也是如此，以日本來說許多傳統技藝都有性別的門檻，當然在追求兩性平等的現代會引來許多爭議，但在腐女興起的現代，所有女性禁止的地方就是新的天堂啊！為了推廣這門傳統技藝，請放心把一切都交給腐女吧！嗯！\r\n[read more](https://medium.com/@autisticcat/%E5%94%B8%E4%BD%9C%E8%90%BD%E8%AA%9E-%E8%AE%80%E4%BD%9C%E8%85%90%E5%A5%B3-882326300446#.7p2b1qm75)",
+          "footer": "<p>以上來自 <a href=\"https://medium.com/@autisticcat\">＠autisticcat</a></p>",
+          "embedded_links": [
+            {
+              "identifier": "AFloax9",
+              "title": "read more",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@autisticcat/%E5%94%B8%E4%BD%9C%E8%90%BD%E8%AA%9E-%E8%AE%80%E4%BD%9C%E8%85%90%E5%A5%B3-882326300446#.7p2b1qm75"
+            },
+            {
+              "identifier": "7Ab2Icy",
+              "title": "＠autisticcat",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@autisticcat"
+            }
+          ],
+          "image_original_filename": "ed7ed45f-1dba-43c5-9fdf-f6a9b9b841e3.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_ed7ed45f-1dba-43c5-9fdf-f6a9b9b841e3.jpg",
+          "image_medium_filename": "original_ratio_medium_ed7ed45f-1dba-43c5-9fdf-f6a9b9b841e3.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "number": 118,
+  "title": "Issue 118 如果非要在中國國家主席的任期加上一個期限，我希望是一萬年",
+  "summary": "本期內容涵蓋 Kotlin, CocoaPods, TiDB, Golang, Machine Learning, Keras",
+  "url": "https://weekly.codetengu.com/issues/118",
+  "publication_status": "published",
+  "published_at": "2018-03-12T02:00:00+00:00",
+  "updated_at": "2018-03-12T02:13:44+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "pqdOj48",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "GZtjelm",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Bp60geZ",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "DO5f3me",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "PpoV7zu",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "CupWcT0",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "64lCXFm",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "lJs8zcj",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "nHiDkQx",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "QH0wxzI",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "P7w1BvT",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "7jySZE8",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "AUtjnfz",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "T8sxdW1",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "R5yL4Jl",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "5olTb42",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "WWudNiH",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "aLrHOAz",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "P2JFtFO",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "z9vKAZM",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "aYhym42",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "xEolEUP",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "K1V5SlD",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "BSoWuaq",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "tp0Eamq",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "gsG3Mla",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "pVob9eW",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "8B0tcHm",
+          "type": "Link",
+          "title": "系統設計入門",
+          "url_domain": "github.com",
+          "url": "https://github.com/kevingo/system-design-primer-zh-tw/blob/master/README-zh-TW.md",
+          "description": "<p><a href=\"https://twitter.com/kevingo\">@kevingo</a> 發起的 The System Design Primer 繁體中文翻譯計畫。</p>\n\n<p>直接引用內容：</p>\n\n<blockquote><p>學習如何設計可擴展的系統會幫助你成為一個更好的工程師。<br/>\n系統設計是一個廣泛的主題。在網路上，關於系統設計的資源也是不計其數。<br/>\n本專案將許多資源進行分門別類，幫助你學習如何建構可擴展的系統。</p></blockquote>\n\n<p>內容豐富，分類精確，大推！</p>",
+          "description_markdown": "[@kevingo](https://twitter.com/kevingo) 發起的 The System Design Primer 繁體中文翻譯計畫。\r\n\r\n直接引用內容：\r\n\r\n> 學習如何設計可擴展的系統會幫助你成為一個更好的工程師。  \r\n> 系統設計是一個廣泛的主題。在網路上，關於系統設計的資源也是不計其數。  \r\n> 本專案將許多資源進行分門別類，幫助你學習如何建構可擴展的系統。\r\n\r\n內容豐富，分類精確，大推！",
+          "embedded_links": [
+            {
+              "identifier": "r0qyXrP",
+              "title": "@kevingo",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/kevingo"
+            }
+          ]
+        },
+        {
+          "identifier": "WcvZiMU",
+          "type": "Link",
+          "title": "From AutoValue to Kotlin data class",
+          "url_domain": "proandroiddev.com",
+          "url": "https://proandroiddev.com/from-autovalue-to-kotlin-data-class-2978dfb1ed5",
+          "description": "<p>這篇文章只講了從 Java + <a href=\"https://github.com/google/auto/tree/master/value\">AutoValue</a> 轉移到 Kotlin data class 的過程以及實務上用到 Parcelable 的解決方案。如果沒有很清楚 AutoValue，可以看一下 Jack Wharton 的 <a href=\"http://jakewharton.com/auto-value-extensions-ny-android-meetup/\">AutoValue Extensions</a> 介紹。</p>\n\n<p>很多人寫 Kotlin 就是從導入 data class 開始，而用了 data class 幾乎是免費得到了 Java 實作了 AutoValue 的成果，因此從 AutoValue 的角度回頭去看 data class 我覺得更好理解。</p>\n\n<ul>\n<li>immutability</li>\n<li>value types</li>\n</ul>\n\n\n<p>註: 其實無論AutoValue或 data class 都不是真正的 value types，在目前的 JVM 只有 primitive types (int, float, boolean, ..)，你無法定義自己的的 value types，<a href=\"http://cr.openjdk.java.net/~dlsmith/values.html\">似乎 Java 10 才會有直接的 value type</a>，但這不知道要等多久。</p>",
+          "description_markdown": "這篇文章只講了從 Java + [AutoValue](https://github.com/google/auto/tree/master/value) 轉移到 Kotlin data class 的過程以及實務上用到 Parcelable 的解決方案。如果沒有很清楚 AutoValue，可以看一下 Jack Wharton 的 [AutoValue Extensions](http://jakewharton.com/auto-value-extensions-ny-android-meetup/) 介紹。\r\n\r\n很多人寫 Kotlin 就是從導入 data class 開始，而用了 data class 幾乎是免費得到了 Java 實作了 AutoValue 的成果，因此從 AutoValue 的角度回頭去看 data class 我覺得更好理解。   \r\n\r\n- immutability \r\n- value types\r\n\r\n註: 其實無論AutoValue或 data class 都不是真正的 value types，在目前的 JVM 只有 primitive types (int, float, boolean, ..)，你無法定義自己的的 value types，[似乎 Java 10 才會有直接的 value type](http://cr.openjdk.java.net/~dlsmith/values.html)，但這不知道要等多久。",
+          "embedded_links": [
+            {
+              "identifier": "6D2rQtk",
+              "title": "AutoValue",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/auto/tree/master/value"
+            },
+            {
+              "identifier": "9tqReHS",
+              "title": "AutoValue Extensions",
+              "url_domain": "jakewharton.com",
+              "url": "http://jakewharton.com/auto-value-extensions-ny-android-meetup/"
+            },
+            {
+              "identifier": "4L0YNMK",
+              "title": "似乎 Java 10 才會有直接的 value type",
+              "url_domain": "java.net",
+              "url": "http://cr.openjdk.java.net/~dlsmith/values.html"
+            }
+          ]
+        },
+        {
+          "identifier": "D3DVhha",
+          "type": "Link",
+          "title": "the tldr; on Kotlin’s let, apply, also, with and run functions",
+          "url_domain": "proandroiddev.com",
+          "url": "https://proandroiddev.com/the-tldr-on-kotlins-let-apply-also-with-and-run-functions-6253f06d152b",
+          "description": "<p>對一個正在用或學習 Kotlin 的人來說，了解 Kotlin standard library <a href=\"https://github.com/JetBrains/kotlin/blob/master/libraries/stdlib/src/kotlin/util/Standard.kt\">Standard.kt</a> 提供的函式擴展方法，就能寫出 (看懂) 更 Kolin 風格的程式碼。如果你本來就對 Functional Programming 有概念，會覺得非常熟悉。</p>\n\n<p>這篇少提了 <a href=\"https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-if.html\">takeIf</a> 跟 <a href=\"https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-unless.html\">takeUnless</a>，也是很常用的 function extension。</p>",
+          "description_markdown": "對一個正在用或學習 Kotlin 的人來說，了解 Kotlin standard library [Standard.kt](https://github.com/JetBrains/kotlin/blob/master/libraries/stdlib/src/kotlin/util/Standard.kt) 提供的函式擴展方法，就能寫出 (看懂) 更 Kolin 風格的程式碼。如果你本來就對 Functional Programming 有概念，會覺得非常熟悉。  \r\n\r\n這篇少提了 [takeIf](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-if.html) 跟 [takeUnless](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-unless.html)，也是很常用的 function extension。",
+          "embedded_links": [
+            {
+              "identifier": "XXf1kWp",
+              "title": "Standard.kt",
+              "url_domain": "github.com",
+              "url": "https://github.com/JetBrains/kotlin/blob/master/libraries/stdlib/src/kotlin/util/Standard.kt"
+            },
+            {
+              "identifier": "R3Z9JCv",
+              "title": "takeIf",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-if.html"
+            },
+            {
+              "identifier": "c4sieE0",
+              "title": "takeUnless",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/take-unless.html"
+            }
+          ]
+        },
+        {
+          "identifier": "XJy5YGh",
+          "type": "Link",
+          "title": "Swift Static Library support by DanToml",
+          "url_domain": "github.com",
+          "url": "https://github.com/CocoaPods/CocoaPods/pull/6966",
+          "description": "<p>各位寫 Swift 並且用 CocoaPods 來管理依賴的朋友們有福了。<br/>\nCocoaPods 準備支援 Swift Static Library 了，這也就意味你不需要再用 Dynamic Frameworks 了！</p>\n\n<p>看到這裡還沒興奮起來的人可以參考我之前發在 105 期的 <a href=\"https://weekly.codetengu.com/issues/105#t-338405\">CocoaPods 的 use_framework! 是在 use 什麼 framework？</a></p>\n\n<p>有人已經搶先測試，app launch time 從 2 秒減少到 0.5 秒、app bundle size 從 102 MB 減少到 90 MB。 (<a href=\"https://twitter.com/alloy/status/972503674009288705\">tweet</a>)</p>",
+          "description_markdown": "各位寫 Swift 並且用 CocoaPods 來管理依賴的朋友們有福了。  \r\nCocoaPods 準備支援 Swift Static Library 了，這也就意味你不需要再用 Dynamic Frameworks 了！  \r\n\r\n看到這裡還沒興奮起來的人可以參考我之前發在 105 期的 [CocoaPods 的 use_framework! 是在 use 什麼 framework？](https://weekly.codetengu.com/issues/105#t-338405)\r\n\r\n有人已經搶先測試，app launch time 從 2 秒減少到 0.5 秒、app bundle size 從 102 MB 減少到 90 MB。 ([tweet](https://twitter.com/alloy/status/972503674009288705))",
+          "embedded_links": [
+            {
+              "identifier": "oAXBL9T",
+              "title": "CocoaPods 的 use_framework! 是在 use 什麼 framework？",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/105#t-338405"
+            },
+            {
+              "identifier": "WwAQvNM",
+              "title": "tweet",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/alloy/status/972503674009288705"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "BtUAAJt",
+          "type": "Link",
+          "title": "TiDB: Performance-tuning a distributed NewSQL database",
+          "url_domain": "infoworld.com",
+          "url": "https://www.infoworld.com/article/3258810/sql/tidb-performance-tuning-a-distributed-newsql-database.html",
+          "description": "<p><a href=\"https://github.com/pingcap/tidb\">TiDB</a> 一個透過 Golang 開發的 Distributed SQL Database ．</p>\n\n<p>你可以像使用 RDB 一樣使用 SQL 來查詢，卻有可以具有分散式資料庫 (Distributed DB) 的高可用性 ( HA: high availability) 與資料儲存的分割性．</p>\n\n<p>這篇文章由淺入深的介紹了 TiDB 的架構與運作原理，有興趣的都可以看看</p>",
+          "description_markdown": "[TiDB](https://github.com/pingcap/tidb) 一個透過 Golang 開發的 Distributed SQL Database ． \r\n\r\n你可以像使用 RDB 一樣使用 SQL 來查詢，卻有可以具有分散式資料庫 (Distributed DB) 的高可用性 ( HA: high availability) 與資料儲存的分割性． \r\n\r\n這篇文章由淺入深的介紹了 TiDB 的架構與運作原理，有興趣的都可以看看 ",
+          "embedded_links": [
+            {
+              "identifier": "Wu1bN90",
+              "title": "TiDB",
+              "url_domain": "github.com",
+              "url": "https://github.com/pingcap/tidb"
+            }
+          ],
+          "image_original_filename": "b2208eee-51a0-4908-9f6b-c73fab926f70.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_b2208eee-51a0-4908-9f6b-c73fab926f70.jpg",
+          "image_medium_filename": "original_ratio_medium_b2208eee-51a0-4908-9f6b-c73fab926f70.jpg"
+        },
+        {
+          "identifier": "pc1bHnZ",
+          "type": "Link",
+          "title": "A curated selection of blog posts on Go",
+          "url_domain": "github.com",
+          "url": "https://github.com/enocom/gopher-reading-list",
+          "description": "<p>一份很好的閱讀清單。不僅僅由淺入深，還有分門別類的清單。很推薦閱讀。</p>",
+          "description_markdown": "一份很好的閱讀清單。不僅僅由淺入深，還有分門別類的清單。很推薦閱讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vthY1J1",
+          "type": "Link",
+          "title": "An argument for value receiver constructors - Tit Petric",
+          "url_domain": "scene-si.org",
+          "url": "https://scene-si.org/2018/03/08/an-argument-for-value-receiver-constructors/",
+          "description": "<p>在 Golang 裡面你都怎麼來建置你的 receiver constructors?  是透過 <code>&amp;YourStruct{}</code> 還是 <code>new(YourStruct)</code>?</p>\n\n<p>這篇文章分享了哪樣比較快，並且從記憶體裡面探討為何該這麼做，看完可以讓你的服務更快喔..</p>",
+          "description_markdown": "在 Golang 裡面你都怎麼來建置你的 receiver constructors?  是透過 `&YourStruct{}` 還是 `new(YourStruct)`?\r\n\r\n這篇文章分享了哪樣比較快，並且從記憶體裡面探討為何該這麼做，看完可以讓你的服務更快喔..  ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xN68UDl",
+          "type": "Link",
+          "title": "Google Understanding Go Interfaces @GopherChina 2017",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=F4wUrj6pmSI",
+          "description": "<p>分享一下去年 GopherChina 的舊影片． \"Understanding Go Interface\"</p>\n\n<p>這場由 Francesc 帶來的演講，講解了一個相當好用的概念． 透過 Interface 來將你的代碼更加的抽象化，這些概念能知道，但是最近在開發上就深刻感受到強大</p>\n\n<p>分享給大家.</p>\n\n<p>( 小爆點： 第一個發問的人真有趣... lol</p>",
+          "description_markdown": "分享一下去年 GopherChina 的舊影片． \"Understanding Go Interface\"\r\n\r\n這場由 Francesc 帶來的演講，講解了一個相當好用的概念． 透過 Interface 來將你的代碼更加的抽象化，這些概念能知道，但是最近在開發上就深刻感受到強大\r\n\r\n分享給大家.\r\n\r\n( 小爆點： 第一個發問的人真有趣... lol",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "LmsH9jB",
+          "type": "Link",
+          "title": "Interfaces in Go - Tit Petric",
+          "url_domain": "scene-si.org",
+          "url": "https://scene-si.org/2018/02/28/interfaces-in-go/",
+          "description": "<p>Interfaces 的設計架構在 Golang 裡面是相當強大的設計理念． 透過越少的架構設計，越能夠將你的程式碼更加的抽象化．</p>\n\n<p>如果你不是很了解該如何使用 Interfaces 的設計方式，可以看看這篇文章．</p>\n\n<p>透過由大家熟悉的物件導向的設計方式，慢慢將設計理念與想法轉換到 interfaces ． 你會發現寫出來的代碼具有更抽象的概念，並且有更多的應用場景．</p>",
+          "description_markdown": "Interfaces 的設計架構在 Golang 裡面是相當強大的設計理念． 透過越少的架構設計，越能夠將你的程式碼更加的抽象化．\r\n\r\n如果你不是很了解該如何使用 Interfaces 的設計方式，可以看看這篇文章．\r\n\r\n透過由大家熟悉的物件導向的設計方式，慢慢將設計理念與想法轉換到 interfaces ． 你會發現寫出來的代碼具有更抽象的概念，並且有更多的應用場景．\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "NFRrd9o",
+          "type": "Link",
+          "title": "精美的 deeplearning.ai 課程筆記，獲得吳恩達親自轉貼！",
+          "url_domain": "slideshare.net",
+          "url": "https://www.slideshare.net/TessFerrandez/notes-from-coursera-deep-learning-courses-by-andrew-ng",
+          "description": "<p>一微軟的工程師 Tess Ferrandez，研讀了吳恩達以 deeplearning.ai 為名在 Coursera 開設的深度學習系列課程後，製作精美的筆記並分享在<a href=\"https://twitter.com/TessFerrandez/status/970633360312762368\">推特</a>上，連吳恩達都親自在各個社交平台上轉貼。因為只有 28 頁，是真的畫得密密麻麻，要全螢幕才能看得清楚，如果你也剛上完課，拿出來複習用倒是不錯。</p>\n\n<p><a href=\"https://machinelearningflashcards.com\">Machine Learning Flashcards</a> 是另外一個跟機器學習相關的精美小抄，300 張售價 12 美元，中國網民們也相當勤勞地翻譯的簡體中文，而且還被原作在推特上分享了！</p>",
+          "description_markdown": "一微軟的工程師 Tess Ferrandez，研讀了吳恩達以 deeplearning.ai 為名在 Coursera 開設的深度學習系列課程後，製作精美的筆記並分享在[推特](https://twitter.com/TessFerrandez/status/970633360312762368)上，連吳恩達都親自在各個社交平台上轉貼。因為只有 28 頁，是真的畫得密密麻麻，要全螢幕才能看得清楚，如果你也剛上完課，拿出來複習用倒是不錯。\r\n\r\n[Machine Learning Flashcards](https://machinelearningflashcards.com) 是另外一個跟機器學習相關的精美小抄，300 張售價 12 美元，中國網民們也相當勤勞地翻譯的簡體中文，而且還被原作在推特上分享了！",
+          "embedded_links": [
+            {
+              "identifier": "HE4KIZS",
+              "title": "推特",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/TessFerrandez/status/970633360312762368"
+            },
+            {
+              "identifier": "Oy1WnTP",
+              "title": "Machine Learning Flashcards",
+              "url_domain": "machinelearningflashcards.com",
+              "url": "https://machinelearningflashcards.com"
+            }
+          ]
+        },
+        {
+          "identifier": "KQyW1Qz",
+          "type": "Link",
+          "title": "18 種 GANs 的 Keras 實作，獲得 Keras 作者轉貼！",
+          "url_domain": "github.com",
+          "url": "https://github.com/eriklindernoren/Keras-GAN",
+          "description": "<p>上面是做筆記被老師轉貼，現在這個是用套件寫實作，寫到被套件作者轉貼。</p>\n\n<p>去年底開始因為工作的緣故，開始研究各種 GANs，自己也用 PyTorch 實作著各種變形。結果突然看到這麼一個 repo，用 Keras 實作了幾乎所有主要應用的 GANs，而且連 Keras 作者 François Chollet 都在自己的推特上轉貼。</p>\n\n<p>另外 Keras 的簡中文件現在有了<a href=\"https://keras.io/zh/\">官方版本</a>，雖然說一直都有民間版本，但這個官方的版本呢，感覺品質還是比較好的，而且這也是由 François Chollet 在推特上號招 Keras 的中文使用者們一同合作而產生的。</p>",
+          "description_markdown": "上面是做筆記被老師轉貼，現在這個是用套件寫實作，寫到被套件作者轉貼。\r\n\r\n去年底開始因為工作的緣故，開始研究各種 GANs，自己也用 PyTorch 實作著各種變形。結果突然看到這麼一個 repo，用 Keras 實作了幾乎所有主要應用的 GANs，而且連 Keras 作者 François Chollet 都在自己的推特上轉貼。\r\n\r\n另外 Keras 的簡中文件現在有了[官方版本](https://keras.io/zh/)，雖然說一直都有民間版本，但這個官方的版本呢，感覺品質還是比較好的，而且這也是由 François Chollet 在推特上號招 Keras 的中文使用者們一同合作而產生的。",
+          "embedded_links": [
+            {
+              "identifier": "HIuwu9Z",
+              "title": "官方版本",
+              "url_domain": "keras.io",
+              "url": "https://keras.io/zh/"
+            }
+          ]
+        },
+        {
+          "identifier": "rVxRfpP",
+          "type": "Link",
+          "title": "Google 發表 Neural Network 論文，連帶發佈 Lucid 視覺化套件。",
+          "url_domain": "googleblog.com",
+          "url": "https://research.googleblog.com/2018/03/the-building-blocks-of-interpretability.html",
+          "description": "<p>自從 Neural Network 在多項研究上有重大突破後，關於它的『可解釋性』就一直受到質疑，Google 這位老大哥在這件事情的努力上當然也從來沒鬆懈過。這次發佈的 Lucid 是基於 2015 年的 DeepDream，那個當時看起來很噁心，現在看起來還是很噁心的外星圖片們，似乎多了點邏輯。</p>\n\n<p>這次的發佈更讓我印象深刻的是整個配套，首先是基於 DeepDream，一個大家雖然看不懂但是很有記憶點的基礎，發展 Lucid 來做更進一步的解釋，而在 <a href=\"https://distill.pub/2018/building-blocks/\">distill</a> 上面發表，讓讀者直接跟範例資料互動，最後在 <a href=\"https://github.com/tensorflow/lucid\">github</a> 上公開的程式碼不只是範例而已，直接自帶最新的服務 <a href=\"https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb\">Colab 的 ipython notebook</a>，讓使用者完全不用處理任何硬軟體的相依性，直接開始操作。將好奇，瞭解，嘗試，執行各個動作之間的門檻降到最低！這絕對是任何套件或是論文發佈到目前為止，最流暢的使用者體驗。</p>",
+          "description_markdown": "自從 Neural Network 在多項研究上有重大突破後，關於它的『可解釋性』就一直受到質疑，Google 這位老大哥在這件事情的努力上當然也從來沒鬆懈過。這次發佈的 Lucid 是基於 2015 年的 DeepDream，那個當時看起來很噁心，現在看起來還是很噁心的外星圖片們，似乎多了點邏輯。\r\n\r\n這次的發佈更讓我印象深刻的是整個配套，首先是基於 DeepDream，一個大家雖然看不懂但是很有記憶點的基礎，發展 Lucid 來做更進一步的解釋，而在 [distill](https://distill.pub/2018/building-blocks/) 上面發表，讓讀者直接跟範例資料互動，最後在 [github](https://github.com/tensorflow/lucid) 上公開的程式碼不只是範例而已，直接自帶最新的服務 [Colab 的 ipython notebook](https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb)，讓使用者完全不用處理任何硬軟體的相依性，直接開始操作。將好奇，瞭解，嘗試，執行各個動作之間的門檻降到最低！這絕對是任何套件或是論文發佈到目前為止，最流暢的使用者體驗。",
+          "embedded_links": [
+            {
+              "identifier": "wiIbj8J",
+              "title": "distill",
+              "url_domain": "distill.pub",
+              "url": "https://distill.pub/2018/building-blocks/"
+            },
+            {
+              "identifier": "F8YTShj",
+              "title": "github",
+              "url_domain": "github.com",
+              "url": "https://github.com/tensorflow/lucid"
+            },
+            {
+              "identifier": "4uZoXiT",
+              "title": "Colab 的 ipython notebook",
+              "url_domain": "google.com",
+              "url": "https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb"
+            }
+          ]
+        },
+        {
+          "identifier": "MJ3H0zS",
+          "type": "Link",
+          "title": "CVPR 2018 的影像辨識競賽資料集：iNaturalist",
+          "url_domain": "google.com",
+          "url": "https://sites.google.com/view/fgvc5/competitions/inaturalist",
+          "description": "<p>目前資料量最大、最常用的影像資料集應該就是 ImageNet 了<br/>\nImageNet 包含 200 個類別，超過 51 萬張影像</p>\n\n<p>而 iNaturalist 2018 包含 8000 個類別，45 萬張影像。<br/>\n比起去年 iNaturalist 2017的 5000 個類別，67.5 萬張影像，<br/>\n長尾的現象肯定更加嚴重，兩個資料集是有重疊的，<br/>\n但官方將不會提供對應表，也沒有說明數量上為何有如此的差異。</p>\n\n<p>大家蓄勢待發了嗎？感覺 GPU 溫度又要居高不下了啊！</p>",
+          "description_markdown": "目前資料量最大、最常用的影像資料集應該就是 ImageNet 了  \r\nImageNet 包含 200 個類別，超過 51 萬張影像\r\n  \r\n而 iNaturalist 2018 包含 8000 個類別，45 萬張影像。  \r\n比起去年 iNaturalist 2017的 5000 個類別，67.5 萬張影像，  \r\n長尾的現象肯定更加嚴重，兩個資料集是有重疊的，  \r\n但官方將不會提供對應表，也沒有說明數量上為何有如此的差異。  \r\n\r\n大家蓄勢待發了嗎？感覺 GPU 溫度又要居高不下了啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Fmi7Rgf",
+          "type": "Link",
+          "title": "製作一個正確率大於 95% 的假新聞辨識模型的歷程",
+          "url_domain": "towardsdatascience.com",
+          "url": "https://towardsdatascience.com/i-trained-fake-news-detection-ai-with-95-accuracy-and-almost-went-crazy-d10589aa57c",
+          "description": "<p>這不是一篇技術文，完全沒有提到模型怎麼建立，參數怎麼調，但是真實描述了做機器學習研究或產品過程中的各種折磨。「分辨新聞的真假」一句話很簡單，但是從定義題目的基本：「什麼是假新聞」就不是那麼絕對，開始觀察資料以後就發現，對問題的了解跟資料呈現的樣貌不盡相同，由於認知到應該找不到合適的資料做為實驗的資料集，決定自己標記資料，然後發現使用的技術方法不同，需要的標記方式也不同，於是重新標，第一次做完模型正確率只有 70%，猜測是訓練資料不夠，再繼續標，直到得到自己滿意的正確率為止。</p>\n\n<p>這段過程其實是相當需要經驗的，常常也被其他職位的人忽略，但是如果這個階段做得不正確，往往後面做的努力都會白費。</p>\n\n<p>雖然標題說正確率有 95%，但作者也開門見山的說，用在真實資料的準確率應該更低，畢竟這只是有限資料集的實踐結果而已。</p>",
+          "description_markdown": "這不是一篇技術文，完全沒有提到模型怎麼建立，參數怎麼調，但是真實描述了做機器學習研究或產品過程中的各種折磨。「分辨新聞的真假」一句話很簡單，但是從定義題目的基本：「什麼是假新聞」就不是那麼絕對，開始觀察資料以後就發現，對問題的了解跟資料呈現的樣貌不盡相同，由於認知到應該找不到合適的資料做為實驗的資料集，決定自己標記資料，然後發現使用的技術方法不同，需要的標記方式也不同，於是重新標，第一次做完模型正確率只有 70%，猜測是訓練資料不夠，再繼續標，直到得到自己滿意的正確率為止。\r\n\r\n這段過程其實是相當需要經驗的，常常也被其他職位的人忽略，但是如果這個階段做得不正確，往往後面做的努力都會白費。\r\n\r\n雖然標題說正確率有 95%，但作者也開門見山的說，用在真實資料的準確率應該更低，畢竟這只是有限資料集的實踐結果而已。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "Q1AFZJc",
+          "type": "Link",
+          "title": "Senior System Developer at Vynca",
+          "url_domain": "google.com",
+          "url": "https://drive.google.com/file/d/1J__upMm_J8b0GlOAxHQ9HjKUC63ixoMV/view",
+          "description": "<p>薪資：</p>\n\n<ul>\n<li>月薪為台幣 120,000 以上, 依照能力敘薪</li>\n<li>薪資結構為 12 個月, 獎金依公司營運狀況發放</li>\n<li>新創公司的員工股票選擇權</li>\n</ul>\n\n\n<p>基本條件：</p>\n\n<ul>\n<li>熟悉至少一種程式語言</li>\n<li>熟悉網際網路基本知識</li>\n<li>熟悉 HTTP 的運作以及 RESTFul API 設計</li>\n<li>熟悉撰寫測試如 Unit test, Integration test, End-to-End test</li>\n<li>熟悉系統效能調效如 Network tuning, SQL query tuning, Capacity planning</li>\n</ul>\n\n\n<p><a href=\"https://drive.google.com/file/d/1J__upMm_J8b0GlOAxHQ9HjKUC63ixoMV/view\">詳細說明</a></p>",
+          "description_markdown": "薪資：\r\n\r\n* 月薪為台幣 120,000 以上, 依照能力敘薪\r\n* 薪資結構為 12 個月, 獎金依公司營運狀況發放\r\n* 新創公司的員工股票選擇權\r\n\r\n基本條件：\r\n\r\n* 熟悉至少一種程式語言\r\n* 熟悉網際網路基本知識\r\n* 熟悉 HTTP 的運作以及 RESTFul API 設計\r\n* 熟悉撰寫測試如 Unit test, Integration test, End-to-End test\r\n* 熟悉系統效能調效如 Network tuning, SQL query tuning, Capacity planning\r\n  \r\n[詳細說明](https://drive.google.com/file/d/1J__upMm_J8b0GlOAxHQ9HjKUC63ixoMV/view)",
+          "embedded_links": [
+            {
+              "identifier": "TBgCyZD",
+              "title": "詳細說明",
+              "url_domain": "google.com",
+              "url": "https://drive.google.com/file/d/1J__upMm_J8b0GlOAxHQ9HjKUC63ixoMV/view"
+            }
+          ]
+        },
+        {
+          "identifier": "k6dq0j4",
+          "type": "Link",
+          "title": "Senior Frontend Developer at Swag",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5y8ew",
+          "description": "<p>薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>精通 JavaScript、CSS 與 HTML</li>\n<li>相容主流瀏覽器的前端整合開發經驗</li>\n<li>前端 framework / library 的使用經驗</li>\n<li>熟悉 React</li>\n<li>模組化開發經驗</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。\r\n\r\n基本條件：\r\n\r\n1. 精通 JavaScript、CSS 與 HTML \r\n2. 相容主流瀏覽器的前端整合開發經驗 \r\n3. 前端 framework / library 的使用經驗 \r\n4. 熟悉 React \r\n5. 模組化開發經驗",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "uCEAUvQ",
+          "type": "Link",
+          "title": "Senior Backend Developer at Swag",
+          "url_domain": "facebook.com",
+          "url": "https://www.facebook.com/groups/616369245163622/permalink/1218104558323418/",
+          "description": "<p>薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python or NodeJS</li>\n<li>Experience with Python web frameworks ie. Flask/Django/Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of Mongo and Redis</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 ~ 200 萬元，強者上限可議。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python or NodeJS\r\n2. Experience with Python web frameworks ie. Flask/Django/Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of Mongo and Redis\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "3CnItxW",
+          "type": "Link",
+          "title": "Buy Me A Coffee — Free, Fast and Friendly Way to Receive Donations",
+          "url_domain": "buymeacoffee.com",
+          "url": "https://www.buymeacoffee.com/",
+          "description": "<p>如果你看到很好的 GitHub repo 或是一篇很好的文章，你會如何贊助該貢獻者?</p>\n\n<p>這個網站很有趣，提供了一個付費的管道給你喜歡的作者．</p>\n\n<p>我是從 <a href=\"https://github.com/dgryski/go-perfbook\">Go Perf-book</a> 這個 GitHub repo 看到的， <a href=\"https://github.com/dgryski\">Damian Gryski</a> 是一位 Golang 的演算法大神，他就有申請這個．</p>\n\n<p>如果你是部落格的作家或是開源專案的貢獻者，不仿看看這個吧．</p>\n\n<p>由 <a href=\"https://twitter.com/Evan_Lin\">@Evan_Lin</a> 提供．</p>",
+          "description_markdown": "如果你看到很好的 GitHub repo 或是一篇很好的文章，你會如何贊助該貢獻者?\r\n\r\n這個網站很有趣，提供了一個付費的管道給你喜歡的作者． \r\n\r\n我是從 [Go Perf-book](https://github.com/dgryski/go-perfbook) 這個 GitHub repo 看到的， [Damian Gryski](https://github.com/dgryski) 是一位 Golang 的演算法大神，他就有申請這個．\r\n\r\n如果你是部落格的作家或是開源專案的貢獻者，不仿看看這個吧．\r\n\r\n由 [@Evan_Lin](https://twitter.com/Evan_Lin) 提供．",
+          "embedded_links": [
+            {
+              "identifier": "6LDL9Pl",
+              "title": "Go Perf-book",
+              "url_domain": "github.com",
+              "url": "https://github.com/dgryski/go-perfbook"
+            },
+            {
+              "identifier": "xjh2KYE",
+              "title": "Damian Gryski",
+              "url_domain": "github.com",
+              "url": "https://github.com/dgryski"
+            },
+            {
+              "identifier": "eyfoCRO",
+              "title": "@Evan_Lin",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            }
+          ],
+          "image_original_filename": "fa416e59-5258-4d57-a9f9-65f5aaa08b4b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_fa416e59-5258-4d57-a9f9-65f5aaa08b4b.png",
+          "image_medium_filename": "original_ratio_medium_fa416e59-5258-4d57-a9f9-65f5aaa08b4b.png"
+        },
+        {
+          "identifier": "NKecD8q",
+          "type": "Link",
+          "title": "Let's Learn About Waveforms",
+          "url_domain": "pudding.cool",
+          "url": "https://pudding.cool/2018/02/waveforms/",
+          "description": "<p>是一個互動式的網頁，用示波形來解釋聲音，從最簡單的傳遞到合成。這種形式的解說真的是不得了。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "是一個互動式的網頁，用示波形來解釋聲音，從最簡單的傳遞到合成。這種形式的解說真的是不得了。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "qlnCQcu",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

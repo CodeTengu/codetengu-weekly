@@ -1,0 +1,487 @@
+{
+  "number": 122,
+  "title": "Issue 122 整天都在網路上看人家的文件，但還沒有自己寫過 - 文件就像是青春期的性愛幻想",
+  "summary": "本期內容涵蓋 API Design, Kotlin, Python, CI, RAC, Swift, DevOps, Microservice, msgpack, zstd",
+  "url": "https://weekly.codetengu.com/issues/122",
+  "publication_status": "published",
+  "published_at": "2018-04-09T03:00:00+01:00",
+  "updated_at": "2018-04-09T16:40:44+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們又要找 iOS  工程師啦！</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們又要找 iOS  工程師啦！](https://www.yourator.co/companies/escapex/jobs/3116)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Al8YJwZ",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "WsbeMWL",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ATeykni",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "83mrMJm",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Occ7j9A",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "xckMb7t",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "HONvJHm",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "k8ei8B8",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Kll3cOJ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "A1vdG2L",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Q9kuRKP",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "DZMsDJO",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "mkDnNJg",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "3Rm6yzx",
+              "title": "我們又要找 iOS  工程師啦！",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "dVOVVcw",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "9FvjeBL",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Ddep1lz",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "O65b1On",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "96GRcHc",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "423Awql",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "swrsnY9",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "9q3EwBn",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "FjjPyvR",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "XXNXyFY",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "oQdWH6x",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "3TYQm8B",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Z6bOrAq",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "eoyNjTQ",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "F7Z82f1",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "69BRuxT",
+          "type": "Link",
+          "title": "APIs as infrastructure: future-proofing Stripe with versioning",
+          "url_domain": "stripe.com",
+          "url": "https://stripe.com/blog/api-versioning",
+          "description": "<p>Stripe 分享設計 REST API 版本的經驗跟方法。</p>\n\n<p>其中最有趣的部分是 Stripe 不再主要地採用 URL 夾帶 API 版本 (<code>v1/endpoint</code>) 而是採用日期 (<code>2018-04-01</code>) 的 API 版本化方式。其原因是大版本 API 升級是痛苦的，對 API developer 跟 client developer 來說都是。</p>\n\n<p>他們透過一套自己的 DSL 來描述每一個 endpoint、撰寫 version change (包含與上一版的相容轉換方法)、紀錄 version changes list。<br/>\n當一個舊版的 API request 進來會從最新版的實作開始，透過 version changes list 一步一步退版本直到符合這個 request 的 API 版本。<br/>\n這樣的方法就像是 DB 的 migration，只是他是倒過來的、針對的是你的 API endpoint。</p>\n\n<p>有兩個很明顯的好處，不用管舊版的實作可以快速滾動升級，跟做完之後就有免費的 changelog。</p>",
+          "description_markdown": "Stripe 分享設計 REST API 版本的經驗跟方法。\r\n\r\n其中最有趣的部分是 Stripe 不再主要地採用 URL 夾帶 API 版本 (`v1/endpoint`) 而是採用日期 (`2018-04-01`) 的 API 版本化方式。其原因是大版本 API 升級是痛苦的，對 API developer 跟 client developer 來說都是。\r\n\r\n他們透過一套自己的 DSL 來描述每一個 endpoint、撰寫 version change (包含與上一版的相容轉換方法)、紀錄 version changes list。  \r\n當一個舊版的 API request 進來會從最新版的實作開始，透過 version changes list 一步一步退版本直到符合這個 request 的 API 版本。  \r\n這樣的方法就像是 DB 的 migration，只是他是倒過來的、針對的是你的 API endpoint。\r\n\r\n有兩個很明顯的好處，不用管舊版的實作可以快速滾動升級，跟做完之後就有免費的 changelog。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Ny6l0Lp",
+          "type": "Link",
+          "title": "Who will steal Android from Google?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@steve.yegge/who-will-steal-android-from-google-af3622b6252e",
+          "description": "<p>Steve Yegge 換工作了，對前公司正常能量釋放中。開頭就來了這句：</p>\n\n<blockquote><p>Android’s dev stack is the world’s biggest poo sandwich.</p></blockquote>\n\n<p>當然，他在 Google 並不是開發 Android 的，但他對 Android 生態的觀察還是滿犀利的。特別是 <a href=\"https://flutter.io\">Flutter</a> 的部分：</p>\n\n<blockquote><p>“Oh yeah? Well you can’t compete with us, because we’re going to compete with us!” and they launched Flutter, which is a 100% serious Android development stack that competes with native Android.</p></blockquote>\n\n<p>結論是想要在他的新公司嘗試用 React Native，畢竟這種大公司大 app 總是為了 build time 所苦。然後他也鼓勵有後端經驗的開發者學習 mobile 開發，因為現在這種全端人才實在太少了，奇貨可居。</p>\n\n<p>Steve Yegge 的文筆還是那麼流暢，如果懷念他的憤怒可以看這篇的上一篇 <a href=\"https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84\">Why I left Google to join Grab</a>。</p>",
+          "description_markdown": "Steve Yegge 換工作了，對前公司正常能量釋放中。開頭就來了這句：\r\n\r\n> Android’s dev stack is the world’s biggest poo sandwich.\r\n\r\n當然，他在 Google 並不是開發 Android 的，但他對 Android 生態的觀察還是滿犀利的。特別是 [Flutter](https://flutter.io) 的部分：\r\n\r\n> “Oh yeah? Well you can’t compete with us, because we’re going to compete with us!” and they launched Flutter, which is a 100% serious Android development stack that competes with native Android.\r\n\r\n結論是想要在他的新公司嘗試用 React Native，畢竟這種大公司大 app 總是為了 build time 所苦。然後他也鼓勵有後端經驗的開發者學習 mobile 開發，因為現在這種全端人才實在太少了，奇貨可居。\r\n\r\nSteve Yegge 的文筆還是那麼流暢，如果懷念他的憤怒可以看這篇的上一篇 [Why I left Google to join Grab](https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84)。",
+          "embedded_links": [
+            {
+              "identifier": "P2SVJlK",
+              "title": "Flutter",
+              "url_domain": "flutter.io",
+              "url": "https://flutter.io"
+            },
+            {
+              "identifier": "tUsDZ2F",
+              "title": "Why I left Google to join Grab",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@steve.yegge/why-i-left-google-to-join-grab-86dfffc0be84"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "Nullability annotations 之亂！",
+          "description": "<p>最近用 Kotlin 調用 Android SDK，明明看到它的 .java 有 <code>@Nullable</code> 的標註，但 Kotlin 的類型推導卻給了我 <a href=\"https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types\">Platform Type</a>，檢查發現在 bytecode <code>@Nullable</code> 就被抽掉了。原因是 Android SDK 用的是 <code>android.annotation.Nullable</code>，這個 annotation 並不是公開的 API (<a href=\"https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/annotation/Nullable.java#40\">AOSP Nullable</a>)</p>\n\n<p>那問題就來了，如果我要重新做人在 Java code 裡標註 nullability，我應該用哪套 package 的 <code>@Nullable</code>？JetBrains 的 <code>org.jetbrains.annotations.Nullable</code> 、 JDK 的 <code>javax.annotation.Nullable</code>  還是 Android 的 <code>android.support.annotation.Nullable</code>？</p>\n\n<p>先講結論，寫 Android 用 <code>android.support.annotation.Nullable</code> 因為 Android Studio 的 Lint 只認這個。不是寫 Android 的話就看你的 nullness analysis 工具用哪一套。</p>\n\n<p>Kotlin 開發過程也苦惱過同樣的問題，Kotlin 的 null-safety types 跟對 Java 的兼容性就是魚與熊掌。務實如 Kotlin 這個語言嘗試了很多做法，最後妥協在什麼 package 的 nullness annotation 都參考，如果沒有標註，就 infer Platform Type 給你，你自己管吧。 (<a href=\"https://blog.jetbrains.com/kotlin/2015/04/upcoming-change-more-null-safety-for-java/\">More Null-safety for Java</a> 是他們不斷嘗試解決的過程)</p>\n\n<p>是說，為什麼會有這麼多套的 nullness annotations？<br/>\n啊，沒有錯啦，因為大家都不相容嘛哈哈哈哈</p>",
+          "description_markdown": "最近用 Kotlin 調用 Android SDK，明明看到它的 .java 有 `@Nullable` 的標註，但 Kotlin 的類型推導卻給了我 [Platform Type](https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types)，檢查發現在 bytecode `@Nullable` 就被抽掉了。原因是 Android SDK 用的是 `android.annotation.Nullable`，這個 annotation 並不是公開的 API ([AOSP Nullable](https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/annotation/Nullable.java#40))\r\n\r\n那問題就來了，如果我要重新做人在 Java code 裡標註 nullability，我應該用哪套 package 的 `@Nullable`？JetBrains 的 `org.jetbrains.annotations.Nullable` 、 JDK 的 `javax.annotation.Nullable`  還是 Android 的 `android.support.annotation.Nullable`？\r\n\r\n先講結論，寫 Android 用 `android.support.annotation.Nullable` 因為 Android Studio 的 Lint 只認這個。不是寫 Android 的話就看你的 nullness analysis 工具用哪一套。\r\n\r\nKotlin 開發過程也苦惱過同樣的問題，Kotlin 的 null-safety types 跟對 Java 的兼容性就是魚與熊掌。務實如 Kotlin 這個語言嘗試了很多做法，最後妥協在什麼 package 的 nullness annotation 都參考，如果沒有標註，就 infer Platform Type 給你，你自己管吧。 ([More Null-safety for Java](https://blog.jetbrains.com/kotlin/2015/04/upcoming-change-more-null-safety-for-java/) 是他們不斷嘗試解決的過程)\r\n\r\n是說，為什麼會有這麼多套的 nullness annotations？  \r\n啊，沒有錯啦，因為大家都不相容嘛哈哈哈哈",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "BSKvsgl",
+              "title": "Platform Type",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/reference/java-interop.html#null-safety-and-platform-types"
+            },
+            {
+              "identifier": "EKCXj0Z",
+              "title": "AOSP Nullable",
+              "url_domain": "googlesource.com",
+              "url": "https://android.googlesource.com/platform/frameworks/base/+/refs/heads/master/core/java/android/annotation/Nullable.java#40"
+            },
+            {
+              "identifier": "Yi2YFtv",
+              "title": "More Null-safety for Java",
+              "url_domain": "jetbrains.com",
+              "url": "https://blog.jetbrains.com/kotlin/2015/04/upcoming-change-more-null-safety-for-java/"
+            }
+          ]
+        },
+        {
+          "identifier": "dyp6Dyf",
+          "type": "Link",
+          "title": "Python，你到底是在__底線__什麼啦！ ",
+          "url_domain": "aji.tw",
+          "url": "https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/",
+          "description": "<p>Python 在變數上有許多 underscore (<code>_</code>) 的語法跟命名習慣，這篇解釋了這四種形式：</p>\n\n<ul>\n<li><code>foo_</code></li>\n<li><code>_foo</code></li>\n<li><code>__foo__</code></li>\n<li><code>__foo</code></li>\n</ul>\n\n\n<p>對我這個剛學習的人有很大幫助。</p>",
+          "description_markdown": "Python 在變數上有許多 underscore (`_`) 的語法跟命名習慣，這篇解釋了這四種形式：  \r\n\r\n- `foo_`\r\n- `_foo`\r\n- `__foo__`\r\n- `__foo`\r\n\r\n對我這個剛學習的人有很大幫助。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "A462iUl",
+          "type": "Link",
+          "title": "Technical Note TN2387: In-App Purchase Best Practices",
+          "url_domain": "apple.com",
+          "url": "https://developer.apple.com/library/content/technotes/tn2387/_index.html",
+          "description": "<p>接下來有段時間可以重新整理某專案裡頭的 IAP 相關程式碼與流程，所以找了不少參考資料，最權威的當然就是蘋果自家的文件囉。除了這個之外，底下這些也很適合參考：</p>\n\n<ul>\n<li><a href=\"https://developer.apple.com/library/content/technotes/tn2413/_index.html\">Technical Note TN2413: In-App Purchase FAQ</a></li>\n<li><a href=\"https://developer.apple.com/videos/play/wwdc2014/303/\">Optimizing In-App Purchases - WWDC 2014 - Videos - Apple Developer</a></li>\n<li><a href=\"https://developer.apple.com/videos/play/wwdc2014/305/\">Preventing Unauthorized Purchases with Receipts - WWDC 2014 - Videos - Apple Developer</a></li>\n<li><a href=\"https://developer.apple.com/videos/play/wwdc2017/305/\">Advanced StoreKit - WWDC 2017 - Videos - Apple Developer</a></li>\n<li><a href=\"https://developer.apple.com/videos/play/wwdc2017/303/\">What's New in StoreKit - WWDC 2017 - Videos - Apple Developer</a></li>\n</ul>\n\n\n<p>我也打算把 StoreKit 包起來，讓其他地方的程式碼可以更優雅地使用它，所以也參考了其他 library 的做法，看起來這幾個算是做得滿漂亮的。</p>\n\n<ul>\n<li><a href=\"https://github.com/jinSasaki/InAppPurchase\">InAppPurchase: A Simple and Lightweight framework for In App Purchase</a></li>\n<li><a href=\"https://github.com/mattt/CargoBay\">CargoBay: The Essential StoreKit Companion</a></li>\n<li><a href=\"https://github.com/RealArtistsShip/IAPManager\">IAPManager: Ultralight StoreKit - iOS macOS</a></li>\n</ul>",
+          "description_markdown": "接下來有段時間可以重新整理某專案裡頭的 IAP 相關程式碼與流程，所以找了不少參考資料，最權威的當然就是蘋果自家的文件囉。除了這個之外，底下這些也很適合參考：\r\n\r\n- [Technical Note TN2413: In-App Purchase FAQ](https://developer.apple.com/library/content/technotes/tn2413/_index.html)\r\n- [Optimizing In-App Purchases - WWDC 2014 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2014/303/)\r\n- [Preventing Unauthorized Purchases with Receipts - WWDC 2014 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2014/305/)\r\n- [Advanced StoreKit - WWDC 2017 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2017/305/)\r\n- [What's New in StoreKit - WWDC 2017 - Videos - Apple Developer](https://developer.apple.com/videos/play/wwdc2017/303/)\r\n\r\n我也打算把 StoreKit 包起來，讓其他地方的程式碼可以更優雅地使用它，所以也參考了其他 library 的做法，看起來這幾個算是做得滿漂亮的。\r\n\r\n- [InAppPurchase: A Simple and Lightweight framework for In App Purchase](https://github.com/jinSasaki/InAppPurchase)\r\n- [CargoBay: The Essential StoreKit Companion](https://github.com/mattt/CargoBay)\r\n- [IAPManager: Ultralight StoreKit - iOS macOS](https://github.com/RealArtistsShip/IAPManager)",
+          "embedded_links": [
+            {
+              "identifier": "olvINzk",
+              "title": "Technical Note TN2413: In-App Purchase FAQ",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/content/technotes/tn2413/_index.html"
+            },
+            {
+              "identifier": "7lJ6Hjn",
+              "title": "Optimizing In-App Purchases - WWDC 2014 - Videos - Apple Developer",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2014/303/"
+            },
+            {
+              "identifier": "OahoXcD",
+              "title": "Preventing Unauthorized Purchases with Receipts - WWDC 2014 - Videos - Apple Developer",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2014/305/"
+            },
+            {
+              "identifier": "j1FyfX7",
+              "title": "Advanced StoreKit - WWDC 2017 - Videos - Apple Developer",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2017/305/"
+            },
+            {
+              "identifier": "CQ4Tggl",
+              "title": "What's New in StoreKit - WWDC 2017 - Videos - Apple Developer",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2017/303/"
+            },
+            {
+              "identifier": "PPYxzgf",
+              "title": "InAppPurchase: A Simple and Lightweight framework for In App Purchase",
+              "url_domain": "github.com",
+              "url": "https://github.com/jinSasaki/InAppPurchase"
+            },
+            {
+              "identifier": "ehQp2pw",
+              "title": "CargoBay: The Essential StoreKit Companion",
+              "url_domain": "github.com",
+              "url": "https://github.com/mattt/CargoBay"
+            },
+            {
+              "identifier": "qudAJGR",
+              "title": "IAPManager: Ultralight StoreKit - iOS macOS",
+              "url_domain": "github.com",
+              "url": "https://github.com/RealArtistsShip/IAPManager"
+            }
+          ]
+        },
+        {
+          "identifier": "mQdIgd4",
+          "type": "Link",
+          "title": "Release 1.0.0.alpha.1 - First fastlane.ci alpha",
+          "url_domain": "github.com",
+          "url": "https://github.com/fastlane/ci/releases/tag/1.0.0.alpha.1",
+          "description": "<p>之前曾經提過的 fastlane.ci 已經按照進度推出 1.0.0 alpha 了，它跟 fastlane 完美的整合，打從一開始就是為了 iOS/Android 開發流程打造，並且 100% 採用 MIT 授權開放原始碼，你可以自架伺服器來運行它。雖然只是 alpha 版，但已經算是堪用了，有興趣的可以玩玩看。</p>",
+          "description_markdown": "之前曾經提過的 fastlane.ci 已經按照進度推出 1.0.0 alpha 了，它跟 fastlane 完美的整合，打從一開始就是為了 iOS/Android 開發流程打造，並且 100% 採用 MIT 授權開放原始碼，你可以自架伺服器來運行它。雖然只是 alpha 版，但已經算是堪用了，有興趣的可以玩玩看。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "LVKxo64",
+          "type": "Link",
+          "title": "iOS Developers Ship 29% Fewer Apps In 2017, The First Ever Decline – And More Trends To Watch",
+          "url_domain": "appfigures.com",
+          "url": "https://blog.appfigures.com/ios-developers-ship-less-apps-for-first-time/",
+          "description": "<p>除了標題講的那樣之外，這篇文章也提供了一些其他數據，例如使用 non-native 開發的比重有多少，以及最多人選擇的 non-native 開發方式等等。蠻有趣的一篇觀察，有些數據或許可以做為你下一個 app 開發方向的參考依據。</p>",
+          "description_markdown": "除了標題講的那樣之外，這篇文章也提供了一些其他數據，例如使用 non-native 開發的比重有多少，以及最多人選擇的 non-native 開發方式等等。蠻有趣的一篇觀察，有些數據或許可以做為你下一個 app 開發方向的參考依據。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "g0fMul6",
+          "type": "Link",
+          "title": "GitHub - shuaiwang007/RAC: RAC 的常用用法，提高开发效率",
+          "url_domain": "github.com",
+          "url": "https://github.com/shuaiwang007/RAC",
+          "description": "<p>在我們公司的專案裡頭，ReactiveObjC 佔了蠻重要的一個角色，所以熟悉 RAC 的各種用法是很重要的（當然不會 RAC 也沒關係啦，<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們會教你！</a>）。前幾天在亂逛網路時，發現了這個 repo，裡頭把最常用的 RAC 功能都詳細解說了一遍，不管是當作速查表或是當作新手上工補充教材，都非常合適啊！</p>\n\n<p>順便追加一個<a href=\"https://github.com/ValiantCat/FRPCheatSheeta\">速查表</a>，裡頭包含了 ReactiveObjC / ReactiveSwift / RxSwift。</p>",
+          "description_markdown": "在我們公司的專案裡頭，ReactiveObjC 佔了蠻重要的一個角色，所以熟悉 RAC 的各種用法是很重要的（當然不會 RAC 也沒關係啦，[我們會教你！](https://www.yourator.co/companies/escapex/jobs/3116)）。前幾天在亂逛網路時，發現了這個 repo，裡頭把最常用的 RAC 功能都詳細解說了一遍，不管是當作速查表或是當作新手上工補充教材，都非常合適啊！\r\n\r\n順便追加一個[速查表](https://github.com/ValiantCat/FRPCheatSheeta)，裡頭包含了 ReactiveObjC / ReactiveSwift / RxSwift。",
+          "embedded_links": [
+            {
+              "identifier": "FgWB2Wq",
+              "title": "我們會教你！",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "6yQlXBT",
+              "title": "速查表",
+              "url_domain": "github.com",
+              "url": "https://github.com/ValiantCat/FRPCheatSheeta"
+            }
+          ]
+        },
+        {
+          "identifier": "JNmpvOY",
+          "type": "Link",
+          "title": "Tips to become a better Swift (iOS) Developer",
+          "url_domain": "developerinsider.in",
+          "url": "https://www.developerinsider.in/tips-to-become-a-better-swift-ios-developer/",
+          "description": "<p>很多人推崇 Swift 的一個理由是它比較簡單，但我一直認為這是一個假象。我覺得 Swift 好上手，但它易學難精，一個不小心就會寫出不優雅或是效能不夠好的程式碼。這篇文章裡頭透過大量的程式碼片段說明如何成為更好的 Swift 工程師，值得初學者參考。</p>",
+          "description_markdown": "很多人推崇 Swift 的一個理由是它比較簡單，但我一直認為這是一個假象。我覺得 Swift 好上手，但它易學難精，一個不小心就會寫出不優雅或是效能不夠好的程式碼。這篇文章裡頭透過大量的程式碼片段說明如何成為更好的 Swift 工程師，值得初學者參考。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QVukUfk",
+          "type": "Link",
+          "title": "SwiftTips: A collection of Swift tips & tricks that I've shared on Twitter",
+          "url_domain": "github.com",
+          "url": "https://github.com/JohnSundell/SwiftTips",
+          "description": "<p>看完之後或許你會懷疑這真的是你平常在寫的 Swift 嗎？恩..... 真的是易學難精 Orz</p>",
+          "description_markdown": "看完之後或許你會懷疑這真的是你平常在寫的 Swift 嗎？恩..... 真的是易學難精 Orz",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "allanlei",
+      "name": "@allanlei",
+      "items": [
+        {
+          "identifier": "FPYxeP5",
+          "type": "Link",
+          "title": "Mastering Chaos",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+          "description": "<p>Josh Evans (of Netflix at the time) gave a great talk of Netflix's road to where they are now. He talks through problems they've experienced creating large distributed systems, what microservices are and are not, and how embracing chaos can affect design decisions.</p>",
+          "description_markdown": "Josh Evans (of Netflix at the time) gave a great talk of Netflix's road to where they are now. He talks through problems they've experienced creating large distributed systems, what microservices are and are not, and how embracing chaos can affect design decisions.\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "zrYWl0w",
+          "type": "Link",
+          "title": "Storing Redis values with msgpack",
+          "url_domain": "msgpack.org",
+          "url": "https://msgpack.org/index.html",
+          "description": "<blockquote><p>It's like JSON. but fast and small.</p></blockquote>\n\n<p>When there is a need to store data structures in Redis, the go to way is to serialize in JSON.  For those cases, why not use msgpack?</p>\n\n<ul>\n<li>Serialized size is smaller with msgpack and smaller means memory savings</li>\n<li><a href=\"https://github.com/msgpack/msgpack-python#extended-types\">Able to serialize custom types via Ext</a></li>\n<li><a href=\"https://redis.io/commands/eval#available-libraries\">Redis lua supports it out of the box</a></li>\n</ul>\n\n\n<p>Critics of msgpack, including the author themself, says it is still not as good as JSON+Compression, but for the use case of redis, there wouldn't (normally) be compression.</p>\n\n<p>Seems like a straight-forward method to save on resource with limited drawbacks.</p>",
+          "description_markdown": "> It's like JSON. but fast and small.\r\n\r\nWhen there is a need to store data structures in Redis, the go to way is to serialize in JSON.  For those cases, why not use msgpack?\r\n\r\n* Serialized size is smaller with msgpack and smaller means memory savings\r\n* [Able to serialize custom types via Ext](https://github.com/msgpack/msgpack-python#extended-types)\r\n* [Redis lua supports it out of the box](https://redis.io/commands/eval#available-libraries)\r\n\r\nCritics of msgpack, including the author themself, says it is still not as good as JSON+Compression, but for the use case of redis, there wouldn't (normally) be compression.\r\n\r\nSeems like a straight-forward method to save on resource with limited drawbacks.",
+          "embedded_links": [
+            {
+              "identifier": "5YvRnd9",
+              "title": "Able to serialize custom types via Ext",
+              "url_domain": "github.com",
+              "url": "https://github.com/msgpack/msgpack-python#extended-types"
+            },
+            {
+              "identifier": "Kcbps6V",
+              "title": "Redis lua supports it out of the box",
+              "url_domain": "redis.io",
+              "url": "https://redis.io/commands/eval#available-libraries"
+            }
+          ]
+        },
+        {
+          "identifier": "nosnnsl",
+          "type": "Link",
+          "title": "ZStandard for better Compression of REST APIs",
+          "url_domain": "github.io",
+          "url": "https://facebook.github.io/zstd/",
+          "description": "<p>A lossless compression algorithm by Yann Collet at Facebook (also the worked on lz4) that aims to offer faster compressions and at higher ratio compared to current libraries like zlib.</p>\n\n<p>The special feature in ZStandard I think will be very beneficial is the use of a pre-train dictionary aimed for the use of small payloads where the data is normally too small to generate any valuable compression context.  JSON payloads from REST APIs fit this use case pretty well having many small payloads &lt;100KB.</p>\n\n<p>Having run a very simple test against our own APIs, I was looking at 20% better compression compared to gzip using a pre-train dictionary. Don't take my word for it, try it out for yourself!</p>",
+          "description_markdown": "A lossless compression algorithm by Yann Collet at Facebook (also the worked on lz4) that aims to offer faster compressions and at higher ratio compared to current libraries like zlib.\r\n\r\nThe special feature in ZStandard I think will be very beneficial is the use of a pre-train dictionary aimed for the use of small payloads where the data is normally too small to generate any valuable compression context.  JSON payloads from REST APIs fit this use case pretty well having many small payloads <100KB.\r\n\r\nHaving run a very simple test against our own APIs, I was looking at 20% better compression compared to gzip using a pre-train dictionary. Don't take my word for it, try it out for yourself!",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "Thui7Z1",
+          "type": "Link",
+          "title": "Senior Frontend Developer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/2",
+          "description": "<p>薪資範圍：年薪新台幣 100 萬元以上。</p>\n\n<p>能力需求：</p>\n\n<ol>\n<li>精通 JavaScript、CSS 與 HTML</li>\n<li>相容主流瀏覽器的前端整合開發經驗</li>\n<li>前端 framework / library 的使用經驗</li>\n<li>熟悉 React</li>\n<li>模組化開發經驗</li>\n</ol>",
+          "description_markdown": "薪資範圍：年薪新台幣 100 萬元以上。\r\n\r\n能力需求：\r\n\r\n1. 精通 JavaScript、CSS 與 HTML \r\n2. 相容主流瀏覽器的前端整合開發經驗 \r\n3. 前端 framework / library 的使用經驗 \r\n4. 熟悉 React \r\n5. 模組化開發經驗",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

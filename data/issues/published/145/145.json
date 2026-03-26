@@ -1,0 +1,409 @@
+{
+  "number": 145,
+  "title": "Issue 145 小明最近升職了，他的新職稱是 Senior Over-Engineer",
+  "summary": "本期內容涵蓋 React Native, Blockchain, JavaScript, GraphQL, Docker, Load Balancer, Travis CI",
+  "url": "https://weekly.codetengu.com/issues/145",
+  "publication_status": "published",
+  "published_at": "2018-10-29T04:22:25+00:00",
+  "updated_at": "2018-10-29T04:52:50+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。或是關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a>。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Blindsight</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n<li><a href=\"https://github.com/hwchiu\">@hwchiu</a></li>\n</ul>\n\n\n<p><a href=\"https://twitter.com/wanquribao/status/913168599845552128\">本週標題出處</a>。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。或是關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo)。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Blindsight](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Runtime 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n- [@hwchiu](https://github.com/hwchiu)\r\n\r\n[本週標題出處](https://twitter.com/wanquribao/status/913168599845552128)。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "1CbWQtl",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "soTu67E",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "WI6nDiT",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "VdAscOt",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "96QqkmI",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "XTZLcYz",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "jzrpZO1",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "AZflJB9",
+              "title": "Blindsight",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "wV9JjJN",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "k7gHbBr",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "vwM0MDM",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "RB2P7vs",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "z3ZLddz",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "svpCS4J",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "caBrG47",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "qu6Zflq",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "fHcqmH1",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "8jaIRQi",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "Lrff6zs",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "7TWLzNp",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "5i63Rc1",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "xA5rAKv",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "nIzqzLO",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "f1s8d0c",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "ZLAeNrj",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "XdCYi83",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "s3ADXA3",
+              "title": "@hwchiu",
+              "url_domain": "github.com",
+              "url": "https://github.com/hwchiu"
+            },
+            {
+              "identifier": "fdQ8GCt",
+              "title": "本週標題出處",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wanquribao/status/913168599845552128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "4Dk0H2l",
+          "type": "Link",
+          "title": "Building a React Native Game with RxJS 5",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/react-native-training/building-a-react-native-game-with-rxjs-5-ced0e716bc73",
+          "description": "<p>開發 HTML5 簡易手遊，應該會是一種獨立遊戲開發的趨勢，由於 <a href=\"https://github.com/necolas/react-native-web\">react-native for web</a> 以及微軟大力推薦自家 <a href=\"https://microsoft.github.io/reactxp/\">reactXP</a> 的加持下，我覺得手機版跟 web 版遊戲合用一套原始碼的概念，可能會更容易被接受。繪圖的部分也許可以用 <a href=\"http://www.pixijs.com/\">PIXI</a>，至於控制的部分是否能用 <a href=\"https://rxjs-dev.firebaseapp.com/\">RxJS</a> 來寫，更加方便且跨平台，就看大家的個人喜好了。</p>",
+          "description_markdown": "開發 HTML5 簡易手遊，應該會是一種獨立遊戲開發的趨勢，由於 [react-native for web](https://github.com/necolas/react-native-web) 以及微軟大力推薦自家 [reactXP](https://microsoft.github.io/reactxp/) 的加持下，我覺得手機版跟 web 版遊戲合用一套原始碼的概念，可能會更容易被接受。繪圖的部分也許可以用 [PIXI](http://www.pixijs.com/)，至於控制的部分是否能用 [RxJS](https://rxjs-dev.firebaseapp.com/) 來寫，更加方便且跨平台，就看大家的個人喜好了。",
+          "embedded_links": [
+            {
+              "identifier": "T9LwBNQ",
+              "title": "react-native for web",
+              "url_domain": "github.com",
+              "url": "https://github.com/necolas/react-native-web"
+            },
+            {
+              "identifier": "SRCs4ss",
+              "title": "reactXP",
+              "url_domain": "github.io",
+              "url": "https://microsoft.github.io/reactxp/"
+            },
+            {
+              "identifier": "moSr9yy",
+              "title": "PIXI",
+              "url_domain": "pixijs.com",
+              "url": "http://www.pixijs.com/"
+            },
+            {
+              "identifier": "ox4Xlha",
+              "title": "RxJS",
+              "url_domain": "firebaseapp.com",
+              "url": "https://rxjs-dev.firebaseapp.com/"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "ICO 不求人",
+          "description": "<pre><code>docker run mingder78/create-erc20-token 0x66ee73086134f147745be72335153bf780499e2e,CodetenguToken,COT,8,100000000000000\n</code></pre>\n\n<p>註：執行以上指令，將 0x66ee73086134f147745be72335153bf780499e2e 改成你自己的 Ethereum (<a href=\"https://ropsten.etherscan.io/\">Ropsten TestNet</a>) address，產生的 Tokens 就是你的了。詳細說明，請參考 <a href=\"https://medium.com/taipei-ethereum-meetup/solidity-weekly-14-265f3c571ca\">Solidity Weekly #14</a>。</p>",
+          "description_markdown": "```\r\ndocker run mingder78/create-erc20-token 0x66ee73086134f147745be72335153bf780499e2e,CodetenguToken,COT,8,100000000000000\r\n```\r\n註：執行以上指令，將 0x66ee73086134f147745be72335153bf780499e2e 改成你自己的 Ethereum ([Ropsten TestNet](https://ropsten.etherscan.io/)) address，產生的 Tokens 就是你的了。詳細說明，請參考 [Solidity Weekly #14](https://medium.com/taipei-ethereum-meetup/solidity-weekly-14-265f3c571ca)。",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "L0j3pGY",
+              "title": "Ropsten TestNet",
+              "url_domain": "etherscan.io",
+              "url": "https://ropsten.etherscan.io/"
+            },
+            {
+              "identifier": "x11Vvj5",
+              "title": "Solidity Weekly #14",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/taipei-ethereum-meetup/solidity-weekly-14-265f3c571ca"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "O80CRR7",
+          "type": "Link",
+          "title": "Upcase: 程式學習平台從現在開始免費",
+          "url_domain": "thoughtbot.com",
+          "url": "https://thoughtbot.com/upcase",
+          "description": "<p>著名的 Ruby on Rails 公司 throughtbot 宣布旗下的程式學習平台 Upcase 從現在開始免費！ 裡面提供了許多進階的教學。還有每週 30 分鐘的各種程式新知，像是新語言和框架，或是探討各種設計模式。有興趣的人可以去挖挖寶。</p>",
+          "description_markdown": "著名的 Ruby on Rails 公司 throughtbot 宣布旗下的程式學習平台 Upcase 從現在開始免費！ 裡面提供了許多進階的教學。還有每週 30 分鐘的各種程式新知，像是新語言和框架，或是探討各種設計模式。有興趣的人可以去挖挖寶。 ",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "thejian",
+      "name": "@theJian",
+      "items": [
+        {
+          "identifier": "9yQu8Cd",
+          "type": "Link",
+          "title": "JavaScript engine fundamentals: optimizing prototypes",
+          "url_domain": "mathiasbynens.be",
+          "url": "https://mathiasbynens.be/notes/prototypes",
+          "description": "<p>来自 v8 团队的一篇文章. CodeTengu 前几期有分享过前篇关于 Shapes 和 Inline Cache 机制的介绍. 本篇延续着上次的内容, 着重谈了 v8 对于 prototypes 查询所做的不同于 object 的特殊优化. 没看过前篇的读者可以先看<a href=\"https://mathiasbynens.be/notes/shapes-ics\">前篇</a>偏于理解本篇的内容.</p>",
+          "description_markdown": "来自 v8 团队的一篇文章. CodeTengu 前几期有分享过前篇关于 Shapes 和 Inline Cache 机制的介绍. 本篇延续着上次的内容, 着重谈了 v8 对于 prototypes 查询所做的不同于 object 的特殊优化. 没看过前篇的读者可以先看[前篇](https://mathiasbynens.be/notes/shapes-ics)偏于理解本篇的内容.",
+          "embedded_links": [
+            {
+              "identifier": "Ph8ZsL5",
+              "title": "前篇",
+              "url_domain": "mathiasbynens.be",
+              "url": "https://mathiasbynens.be/notes/shapes-ics"
+            }
+          ]
+        },
+        {
+          "identifier": "bQ05prr",
+          "type": "Link",
+          "title": "Reduce JavaScript Payloads with Code Splitting",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting/",
+          "description": "<p>在编写复杂的 web 应用时, 随着前端代码量的增加, 打开网页所需要传输的数据量会逐渐成为整个页面的性能瓶颈. 这不仅仅指的是网络传输所需要的耗时, 更重要的是浏览器 parse JavaScript 代码是需要时间的, 特别是在 mobile 设备上这块耗时有可能会比较长. 幸运的是有很多好用的工具都支持把整个项目打包为多个 JavaScript 文件. 这样我们就可以利用好 Cache 以及按需加载来进一步优化 web 应用.</p>\n\n<p>但是还是那句老话: Premature optimization is the root of all evil. 先衡量再优化.</p>",
+          "description_markdown": "在编写复杂的 web 应用时, 随着前端代码量的增加, 打开网页所需要传输的数据量会逐渐成为整个页面的性能瓶颈. 这不仅仅指的是网络传输所需要的耗时, 更重要的是浏览器 parse JavaScript 代码是需要时间的, 特别是在 mobile 设备上这块耗时有可能会比较长. 幸运的是有很多好用的工具都支持把整个项目打包为多个 JavaScript 文件. 这样我们就可以利用好 Cache 以及按需加载来进一步优化 web 应用.\r\n\r\n但是还是那句老话: Premature optimization is the root of all evil. 先衡量再优化.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "U0jf1ED",
+          "type": "Link",
+          "title": "GraphQL Design Tutorial",
+          "url_domain": "github.com",
+          "url": "https://github.com/Shopify/graphql-design-tutorial/blob/master/TUTORIAL.md",
+          "description": "<p>来自 Shopify 的一篇关于如何设计 GraphQL API 的入门. 设计 REST API 与 GraphQL API 的原则是很不同的, 不要把设计 REST API 的习惯带到 GraphQL 里来.</p>",
+          "description_markdown": "来自 Shopify 的一篇关于如何设计 GraphQL API 的入门. 设计 REST API 与 GraphQL API 的原则是很不同的, 不要把设计 REST API 的习惯带到 GraphQL 里来.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9MUZTR7",
+          "type": "Link",
+          "title": "190 universities just launched 600 free online courses",
+          "url_domain": "qz.com",
+          "url": "https://qz.com/1437623/600-free-online-courses-you-can-take-from-universities-worldwide/",
+          "description": "<p>一份来自 190 个大学的 600 个免费在线课程的清单.</p>",
+          "description_markdown": "一份来自 190 个大学的 600 个免费在线课程的清单.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UjkOqWE",
+          "type": "Link",
+          "title": "Confessions of a Flawed Designer",
+          "url_domain": "thedesignteam.io",
+          "url": "https://thedesignteam.io/confessions-of-a-flawed-designer-11746ff42675",
+          "description": "<p>作者用漫画的形式列举了一些自己认为需要修正的习惯与心态. 其实大家在工作生活中应该都会有这些问题吧! 对吧?</p>\n\n<p>还是说只是我有这些问题. 但是认为大家都有确实会让我不那么自责  :)</p>",
+          "description_markdown": "作者用漫画的形式列举了一些自己认为需要修正的习惯与心态. 其实大家在工作生活中应该都会有这些问题吧! 对吧?\r\n\r\n还是说只是我有这些问题. 但是认为大家都有确实会让我不那么自责  :)\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hwchiu",
+      "name": "@hwchiu",
+      "items": [
+        {
+          "identifier": "UZsHLqi",
+          "type": "Link",
+          "title": "使用 Podman 來取代 Docker 指令吧！",
+          "url_domain": "igene.tw",
+          "url": "https://igene.tw/podman-intro?fbclid=IwAR0z_ud_DCxuKPBHoUiCZbuldF8iij_cJYFqQ0Pp40RoVHoy_jhDzdJfMkw",
+          "description": "<p>隨者這幾年容器應用的蓬勃發展， Docker 一詞幾乎已經變成容器化的代言人。然而實際上還有許許多多能夠提供類似功能的容器技術也在不停的發展，特別是當現在有愈來愈多容器化管理平台的出現，譬如 Kubernetes  等平台。</p>\n\n<p>在這些平台之中，要如何選擇底層的容器技術就是一個開放式的選項，使用者能夠針對自己的需求選擇自己想要使用的底層容器技術， Docker 只會是其中一個選項而不是一個必備的選擇。\n伴隨者 OCI 標準以及 Kubernetes 採用的 CRI 介面的發展，目前整個容器的世界有一股風向正在努力地將 Docker 從容器化的代言人位置移除，就如同 <a href=\"https://media.ccc.de/v/ASG2018-177-replacing_docker_with_podman\">Replacing Docker with Podman</a> 中所提到的一段話語</p>\n\n<blockquote><p>I promise<br/>\nTo say container registries rather than docker registries <br/>\nI promise<br/>\nTo say container images rather than docker images<br/>\nI promise<br/>\nTo say containers or OCI containers rather than docker containers</p></blockquote>\n\n<p>也許不久的未來， Docker 這詞會慢慢被 Container 給取代</p>",
+          "description_markdown": "隨者這幾年容器應用的蓬勃發展， Docker 一詞幾乎已經變成容器化的代言人。然而實際上還有許許多多能夠提供類似功能的容器技術也在不停的發展，特別是當現在有愈來愈多容器化管理平台的出現，譬如 Kubernetes  等平台。   \r\n\r\n在這些平台之中，要如何選擇底層的容器技術就是一個開放式的選項，使用者能夠針對自己的需求選擇自己想要使用的底層容器技術， Docker 只會是其中一個選項而不是一個必備的選擇。\r\n伴隨者 OCI 標準以及 Kubernetes 採用的 CRI 介面的發展，目前整個容器的世界有一股風向正在努力地將 Docker 從容器化的代言人位置移除，就如同 [Replacing Docker with Podman](https://media.ccc.de/v/ASG2018-177-replacing_docker_with_podman) 中所提到的一段話語\r\n\r\n> I promise  \r\n> To say container registries rather than docker registries   \r\n> I promise  \r\n> To say container images rather than docker images  \r\n> I promise  \r\n> To say containers or OCI containers rather than docker containers\r\n\r\n也許不久的未來， Docker 這詞會慢慢被 Container 給取代",
+          "embedded_links": [
+            {
+              "identifier": "6tL5ctf",
+              "title": "Replacing Docker with Podman",
+              "url_domain": "ccc.de",
+              "url": "https://media.ccc.de/v/ASG2018-177-replacing_docker_with_podman"
+            }
+          ]
+        },
+        {
+          "identifier": "w0WDlag",
+          "type": "Link",
+          "title": "Maglev: A Fast and Reliable Software Network Load Balancer",
+          "url_domain": "hwchiu.com",
+          "url": "https://www.hwchiu.com/paper-maglve.html",
+          "description": "<p>Google 這家公司每次只要發表新論文的時候，通常都是一個已經在內部長期運行且有獲得良好效益的系統，舉凡 MapReduce, B4, Quic, Borg 等系統架構都是如此。</p>\n\n<p>本文仔細研讀了 Google 於 2016 發表的 Software Network Load Balancer, Maglev 的相關論文，從該篇論文中可以看到 <code>Maglev</code> 的發展由來，到底希望解決什麼問題，本來的架構有什麼缺失以及新的設計是如何解決該問題。</p>\n\n<p>除了基本的架構設計外，論文中也有效能評比的部分，譬如透過 Kernel By Pass 的理念來設計相關的應用程式，跳脫 Kernel 的框架能夠大幅度的提升軟體處理封包的效能。</p>\n\n<p>此外對於 <code>Maglev</code> 內部的 <code>Consistent Hashing</code> 有興趣想要了解的話，也可以參考<a href=\"http://www.evanlin.com/maglev/\">[論文中文導讀] Maglev : A Fast and Reliable Software Network Load Balancer (using Consistent Hashing)</a> 來學習該 Load Balancer 內部更深層的設計</p>",
+          "description_markdown": "Google 這家公司每次只要發表新論文的時候，通常都是一個已經在內部長期運行且有獲得良好效益的系統，舉凡 MapReduce, B4, Quic, Borg 等系統架構都是如此。  \r\n\r\n本文仔細研讀了 Google 於 2016 發表的 Software Network Load Balancer, Maglev 的相關論文，從該篇論文中可以看到 `Maglev` 的發展由來，到底希望解決什麼問題，本來的架構有什麼缺失以及新的設計是如何解決該問題。  \r\n\r\n除了基本的架構設計外，論文中也有效能評比的部分，譬如透過 Kernel By Pass 的理念來設計相關的應用程式，跳脫 Kernel 的框架能夠大幅度的提升軟體處理封包的效能。\r\n\r\n此外對於 `Maglev` 內部的 `Consistent Hashing` 有興趣想要了解的話，也可以參考[[論文中文導讀] Maglev : A Fast and Reliable Software Network Load Balancer (using Consistent Hashing)](http://www.evanlin.com/maglev/) 來學習該 Load Balancer 內部更深層的設計",
+          "embedded_links": [
+            {
+              "identifier": "NIRRzzp",
+              "title": "論文中文導讀] Maglev : A Fast and Reliable Software Network Load Balancer (using Consistent Hashing)",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/maglev/"
+            }
+          ]
+        },
+        {
+          "identifier": "kNDUTXO",
+          "type": "Link",
+          "title": "Travis CI 詳解，一次搞懂 Step, Job 以及 Stage 的差異及用法",
+          "url_domain": "hwchiu.com",
+          "url": "https://www.hwchiu.com/travisci-step-job-stage.html",
+          "description": "<p>隨者 CI/CD (Continuous Integration, Continuous Deployment) 概念的普及，愈來愈多的開發者會對自己的 Projects 套用這類型相關的工具。這部分相關的工具與服務有非常多種，譬如 TravisCI, CirlcleCI, Drone 以及 Jenkins.</p>\n\n<p>該文章基於 TravisCI 介紹其測試流程，除了大家最常使用的 <code>Step</code> 外還介紹了更進階的概念, <code>Job</code> 以及 <code>Stage</code>. 開發者可以仔細地根據自己的需求去設計這些執行流程，藉由這些流程不但能夠更清楚的拆分每一個步驟，同時也可以滿足平行與相關依賴性的需求，讓整體專案的 CI/CD 流程更加視覺化及清楚明瞭。</p>",
+          "description_markdown": "隨者 CI/CD (Continuous Integration, Continuous Deployment) 概念的普及，愈來愈多的開發者會對自己的 Projects 套用這類型相關的工具。這部分相關的工具與服務有非常多種，譬如 TravisCI, CirlcleCI, Drone 以及 Jenkins.\r\n\r\n該文章基於 TravisCI 介紹其測試流程，除了大家最常使用的 `Step` 外還介紹了更進階的概念, `Job` 以及 `Stage`. 開發者可以仔細地根據自己的需求去設計這些執行流程，藉由這些流程不但能夠更清楚的拆分每一個步驟，同時也可以滿足平行與相關依賴性的需求，讓整體專案的 CI/CD 流程更加視覺化及清楚明瞭。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OS2xnd1",
+          "type": "Link",
+          "title": "Skopeo: 管理 Container 映像檔及倉庫的方式",
+          "url_domain": "pichuang.com.tw",
+          "url": "https://blog.pichuang.com.tw/skopeo-the-right-way-to-manage-your-private-image-repos/",
+          "description": "<p>有使用 Docker 習慣的人一定對於 Docker Hub 感到不陌生，特別是能夠跟 Github 整合並且整合出 Autobuild 功能實在好用。然後再一些 Offline 的情境下，我們需要一個 private 的容器倉庫，這時候就沒有辦法使用 Docker Hub 了。\n而此時如果又有一些需求需要再不同的容器倉庫之間進行容器映像檔的轉移或是複製，以往就是要不停地透過 <code>docker</code> 指令來 <code>image pull</code>, <code>tag</code>, <code>push</code> 非常繁瑣。</p>\n\n<p>現在這些步驟都可以透過 Skopeo 來幫忙處理了，透過這個工具可以讓你管理容器映像檔以及容器倉庫都可以更順手也更簡單，能加將時間專注在其餘跟商業邏輯有關的部分。</p>",
+          "description_markdown": "有使用 Docker 習慣的人一定對於 Docker Hub 感到不陌生，特別是能夠跟 Github 整合並且整合出 Autobuild 功能實在好用。然後再一些 Offline 的情境下，我們需要一個 private 的容器倉庫，這時候就沒有辦法使用 Docker Hub 了。\r\n而此時如果又有一些需求需要再不同的容器倉庫之間進行容器映像檔的轉移或是複製，以往就是要不停地透過 `docker` 指令來 `image pull`, `tag`, `push` 非常繁瑣。\r\n\r\n現在這些步驟都可以透過 Skopeo 來幫忙處理了，透過這個工具可以讓你管理容器映像檔以及容器倉庫都可以更順手也更簡單，能加將時間專注在其餘跟商業邏輯有關的部分。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

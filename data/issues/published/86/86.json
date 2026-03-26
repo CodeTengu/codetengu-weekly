@@ -1,0 +1,443 @@
+{
+  "number": 86,
+  "title": "Issue 86 聽說有些人家裡的日曆上 5 月 1 日寫的不是「勞動節」而是「階級複製節」喔",
+  "summary": "本期內容涵蓋 Deep Learning, Natural Language Processing, Machine Learning, PHP, Laravel, iOS, Swift, ReactiveCocoa, CSS, JavaScript, UI",
+  "url": "https://weekly.codetengu.com/issues/86",
+  "publication_status": "published",
+  "published_at": "2017-05-01T03:00:00+01:00",
+  "updated_at": "2017-05-01T03:00:08+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Singularity Sky</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 最近在看<a href=\"http://www.taaze.tw/static_act/201302/art/\">禪與摩托車維修的藝術</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 在這裡寫歡迎挖角真的有用嗎🤔 有讀者留意過這一區塊嗎 XD</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - <a href=\"https://tw.pycon.org/2017/zh-hant/registration/ticket-info/\">PyCon Taiwan 2017 門票熱賣中</a></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>（<a href=\"https://github.com/CodeTengu\">Open Source 專案</a>）或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Singularity Sky](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 最近在看[禪與摩托車維修的藝術](http://www.taaze.tw/static_act/201302/art/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 在這裡寫歡迎挖角真的有用嗎🤔 有讀者留意過這一區塊嗎 XD\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - [PyCon Taiwan 2017 門票熱賣中](https://tw.pycon.org/2017/zh-hant/registration/ticket-info/)\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters)（[Open Source 專案](https://github.com/CodeTengu)）或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "M3F0J0t",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "ntSkR64",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Xg0fRrZ",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "KayqB0e",
+              "title": "Singularity Sky",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "oHHeEUg",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "npvZ011",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ijMlUsH",
+              "title": "禪與摩托車維修的藝術",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/static_act/201302/art/"
+            },
+            {
+              "identifier": "HJfjoRk",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9WavhG9",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "xr8ZD4A",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "QP21WKv",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Kouiu9k",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "N723YqK",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "HLVe8I2",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "tEgZ8cl",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "zdooFDO",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "ytAlMEb",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "AMQDHab",
+              "title": "PyCon Taiwan 2017 門票熱賣中",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2017/zh-hant/registration/ticket-info/"
+            },
+            {
+              "identifier": "XuuTund",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hXjW6dP",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "TkB64yQ",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "jL7PyG2",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "k7KpyMH",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "9Lrhbij",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "kBy8Ddw",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "RNQCsrv",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "WMoqvW2",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "qH7OPMe",
+          "type": "Link",
+          "title": "Neural Networks Tutorial – A Pathway to Deep Learning",
+          "url_domain": "adventuresinmachinelearning.com",
+          "url": "http://adventuresinmachinelearning.com/neural-networks-tutorial/",
+          "description": "<p>Neural Networks、Deep Learning：初級</p>\n\n<p>工程師要懂 Deep Learning 一下子就跳進艱深的演算法可能不是明智之舉，這個教材從 Deep Learning 最簡單單元開始教起，先教你怎麼寫一個神經元，之後再寫看看類神經網，而 Deep Learning 其實也只是類神經網中的一個較深入的領域，了解基礎會讓你對 Deep Learning 各種模型的精神更有體會。</p>",
+          "description_markdown": "Neural Networks、Deep Learning：初級\r\n\r\n工程師要懂 Deep Learning 一下子就跳進艱深的演算法可能不是明智之舉，這個教材從 Deep Learning 最簡單單元開始教起，先教你怎麼寫一個神經元，之後再寫看看類神經網，而 Deep Learning 其實也只是類神經網中的一個較深入的領域，了解基礎會讓你對 Deep Learning 各種模型的精神更有體會。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VcleCzJ",
+          "type": "Link",
+          "title": "深语人工智能 DeepNLP",
+          "url_domain": "deepnlp.org",
+          "url": "http://www.deepnlp.org/demo/",
+          "description": "<p>最近查一些資料發現了這個中文 NLP 好物！看了 <a href=\"http://www.deepnlp.org/demo/\">demo</a> 簡直嚇得我屁滾尿流！不僅中文斷詞、詞性精準，還可以為長文產生相同語意的<a href=\"http://www.deepnlp.org/paragraph/\">大綱短文</a>，語句居然還很通順，記者要抄 ptt 又更方便了，考試都考 100 分呢！</p>\n\n<p>目前 API 使用免費（雖然不穩定），但重點他們也有 <a href=\"https://github.com/rockingdingo/deepnlp\">Open Source</a> 喔！幹！超棒的啦！</p>\n\n<p>ps. 預載模型沒有網站展示的效果好，但 Open Source 大家都可以幫忙改得更好。</p>",
+          "description_markdown": "最近查一些資料發現了這個中文 NLP 好物！看了 [demo](http://www.deepnlp.org/demo/) 簡直嚇得我屁滾尿流！不僅中文斷詞、詞性精準，還可以為長文產生相同語意的[大綱短文](http://www.deepnlp.org/paragraph/)，語句居然還很通順，記者要抄 ptt 又更方便了，考試都考 100 分呢！\r\n\r\n目前 API 使用免費（雖然不穩定），但重點他們也有 [Open Source](https://github.com/rockingdingo/deepnlp) 喔！幹！超棒的啦！\r\n\r\nps. 預載模型沒有網站展示的效果好，但 Open Source 大家都可以幫忙改得更好。",
+          "embedded_links": [
+            {
+              "identifier": "4YaV9Tv",
+              "title": "demo",
+              "url_domain": "deepnlp.org",
+              "url": "http://www.deepnlp.org/demo/"
+            },
+            {
+              "identifier": "dQJcfMd",
+              "title": "大綱短文",
+              "url_domain": "deepnlp.org",
+              "url": "http://www.deepnlp.org/paragraph/"
+            },
+            {
+              "identifier": "LJLM1kv",
+              "title": "Open Source",
+              "url_domain": "github.com",
+              "url": "https://github.com/rockingdingo/deepnlp"
+            }
+          ],
+          "image_original_filename": "afe257e5-54a0-402c-84bd-28ef57b7520f.png",
+          "image_extra_large_filename": "original_ratio_extra_large_afe257e5-54a0-402c-84bd-28ef57b7520f.png",
+          "image_medium_filename": "original_ratio_medium_afe257e5-54a0-402c-84bd-28ef57b7520f.png"
+        },
+        {
+          "identifier": "lzJHPll",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 10 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-10-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上一講介紹了 Decision Tree，如同之前介紹的 blending 算法，我們也可以進一步使用在 Decision Tree 上，這就是這一講要介紹的 Random Forest。</p>\n\n<p>Random Forest 每次會用類似 Bagging 的方法取得一個新的 Decision Tree，再將所有的 Decision Tree 結合起來。這個方法可以很容易地平行化運算，且不僅能夠保持個別 Decision Tree 的差異性，還能減少 Decision Tree fully grown 的 overfitting。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上一講介紹了 Decision Tree，如同之前介紹的 blending 算法，我們也可以進一步使用在 Decision Tree 上，這就是這一講要介紹的 Random Forest。\r\n\r\nRandom Forest 每次會用類似 Bagging 的方法取得一個新的 Decision Tree，再將所有的 Decision Tree 結合起來。這個方法可以很容易地平行化運算，且不僅能夠保持個別 Decision Tree 的差異性，還能減少 Decision Tree fully grown 的 overfitting。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3tJyg53",
+          "type": "Link",
+          "title": "Simply Boost Laravel Performance In Production",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/teknomuslim/simply-boost-laravel-performance-in-production-7e5c63e32ffd",
+          "description": "<p>Laravel：初級</p>\n\n<p>當你的 Laravel 專案要上 Production 前，有哪些簡單的要點可以讓你的 Laravel 網站效能提升呢？這篇文章指出幾個簡單小撇步，把它放到自己的 Check List 吧！</p>",
+          "description_markdown": "Laravel：初級\r\n\r\n當你的 Laravel 專案要上 Production 前，有哪些簡單的要點可以讓你的 Laravel 網站效能提升呢？這篇文章指出幾個簡單小撇步，把它放到自己的 Check List 吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "69sNpux",
+          "type": "Link",
+          "title": "分析 PHP 程式碼品質",
+          "url_domain": "jaceju.net",
+          "url": "http://jaceju.net/2017-01-11-php-quality-analysis/",
+          "description": "<p>PHP：中級</p>\n\n<p>之前曾經在 CodeTengu 介紹過 <a href=\"https://github.com/jmolivas/phpqa\">PHPQA</a> 這個工具包，如果大家想看進一步的介紹可以看<a href=\"https://twitter.com/jaceju\">鐵哥</a>的這篇文章喔～</p>",
+          "description_markdown": "PHP：中級\r\n\r\n之前曾經在 CodeTengu 介紹過 [PHPQA](https://github.com/jmolivas/phpqa) 這個工具包，如果大家想看進一步的介紹可以看[鐵哥](https://twitter.com/jaceju)的這篇文章喔～",
+          "embedded_links": [
+            {
+              "identifier": "DGX2PLL",
+              "title": "PHPQA",
+              "url_domain": "github.com",
+              "url": "https://github.com/jmolivas/phpqa"
+            },
+            {
+              "identifier": "H2Gy3ff",
+              "title": "鐵哥",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jaceju"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "xpT3aoV",
+          "type": "Link",
+          "title": "再看关于 Storyboard 的一些争论",
+          "url_domain": "onevcat.com",
+          "url": "https://onevcat.com/2017/04/storyboard-argue/",
+          "description": "<p>「到底該不該用 Storyboard」這個話題打從 Storyboard 推出就一直爭論不休，這麼多年過去了，Storyboard 有不少改進，但依然有不少缺陷，所以它應該會跟「要用 Tab 還是 Space」一樣繼續三不五時就被拿出來討論吧 :D 喵神的這篇文章清晰的說明了他的觀點，底下的回應也值得一看。</p>\n\n<p>至於我個人嘛～ 我自己寫好玩的專案會用，我經手過的公司專案不曾用過，手寫 UI 程式碼寫到抓狂的時候會特別想用。</p>",
+          "description_markdown": "「到底該不該用 Storyboard」這個話題打從 Storyboard 推出就一直爭論不休，這麼多年過去了，Storyboard 有不少改進，但依然有不少缺陷，所以它應該會跟「要用 Tab 還是 Space」一樣繼續三不五時就被拿出來討論吧 :D 喵神的這篇文章清晰的說明了他的觀點，底下的回應也值得一看。\r\n\r\n至於我個人嘛～ 我自己寫好玩的專案會用，我經手過的公司專案不曾用過，手寫 UI 程式碼寫到抓狂的時候會特別想用。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ImaYxd0",
+          "type": "Link",
+          "title": "RWDevCon 2016 Vault",
+          "url_domain": "raywenderlich.com",
+          "url": "https://store.raywenderlich.com/products/rwdevcon-2016-vault",
+          "description": "<p>RayWenderlich 這個網站提供大量 iOS 相關主題的 tutorial，近年來它們也會舉辦 iOS 相關的研討會，前一陣子剛辦完 2017 年的，所以就把去年的資料分享出來給大家免費下載。</p>\n\n<p>既然提到了研討會，順便分享另一個 <a href=\"https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers#skillscasts\">iOS Con 2017 - The conference for iOS and Swift Developers</a> 的影片。</p>",
+          "description_markdown": "RayWenderlich 這個網站提供大量 iOS 相關主題的 tutorial，近年來它們也會舉辦 iOS 相關的研討會，前一陣子剛辦完 2017 年的，所以就把去年的資料分享出來給大家免費下載。\r\n\r\n既然提到了研討會，順便分享另一個 [iOS Con 2017 - The conference for iOS and Swift Developers](https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers#skillscasts) 的影片。",
+          "embedded_links": [
+            {
+              "identifier": "RtdGErH",
+              "title": "iOS Con 2017 - The conference for iOS and Swift Developers",
+              "url_domain": "skillsmatter.com",
+              "url": "https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers#skillscasts"
+            }
+          ]
+        },
+        {
+          "identifier": "d00Zkd2",
+          "type": "Link",
+          "title": "ReactiveCocoa 原始碼詳解",
+          "url_domain": "draveness.me",
+          "url": "http://draveness.me/",
+          "description": "<p><a href=\"https://github.com/ReactiveCocoa/ReactiveObjC\">ReactiveCocoa</a> 是我個人非常喜歡，也在專案中大量使用的一個 framework，對我而言它解決了程式開發會遇到的兩大難題：</p>\n\n<ul>\n<li>Chaining async actions</li>\n<li>Data binding</li>\n</ul>\n\n\n<p>這個部落格裡頭有許多文章在講解 ReactiveCocoa 各元件的設計，看完之後會對這套 framework 有更深的理解。</p>\n\n<p>附帶一提，這裏指的是舊版的 ReactiveCocoa，為了日後更好維護，現在已經改名如下：</p>\n\n<ul>\n<li>ReactiveObjc：舊版也就是 Objective-C 版的 ReactiveCocoa，還有在維護喔</li>\n<li>ReactiveSwift：以最新版 Swift 開發的 Reactive 核心，盡可能跟 Cocoa 無關</li>\n<li>ReactiveCocoa：以 ReactiveSwift 為基礎，加上 Cocoa extension</li>\n</ul>",
+          "description_markdown": "[ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveObjC) 是我個人非常喜歡，也在專案中大量使用的一個 framework，對我而言它解決了程式開發會遇到的兩大難題：\r\n\r\n- Chaining async actions\r\n- Data binding\r\n\r\n這個部落格裡頭有許多文章在講解 ReactiveCocoa 各元件的設計，看完之後會對這套 framework 有更深的理解。\r\n\r\n附帶一提，這裏指的是舊版的 ReactiveCocoa，為了日後更好維護，現在已經改名如下：\r\n\r\n- ReactiveObjc：舊版也就是 Objective-C 版的 ReactiveCocoa，還有在維護喔\r\n- ReactiveSwift：以最新版 Swift 開發的 Reactive 核心，盡可能跟 Cocoa 無關\r\n- ReactiveCocoa：以 ReactiveSwift 為基礎，加上 Cocoa extension\r\n",
+          "embedded_links": [
+            {
+              "identifier": "GdDXZC9",
+              "title": "ReactiveCocoa",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveObjC"
+            }
+          ]
+        },
+        {
+          "identifier": "zk2s6jw",
+          "type": "Link",
+          "title": "Swift with a hundred engineers",
+          "url_domain": "skilled.io",
+          "url": "https://www.skilled.io/u/swiftsummit/swift-with-a-hundred-engineers",
+          "description": "<p>Uber 是最早擁抱 Swift 的公司之一，它們甚至把整個 app 都用 Swift 重寫。相信只要是工程師都會跟我一樣，好奇這麼龐大的工程團隊（他們有數百位工程師）加上這麼複雜且擁有超多使用者的 app，是如何一步步轉換到 Swift 的呢？</p>\n\n<p>在這個演講裏頭，Uber 的架構師分享了他們的經驗，讓大家知道他們在使用 Swift 時得到的好處、壞處、以及噁心之處！</p>",
+          "description_markdown": "Uber 是最早擁抱 Swift 的公司之一，它們甚至把整個 app 都用 Swift 重寫。相信只要是工程師都會跟我一樣，好奇這麼龐大的工程團隊\b（他們有數百位工程師）加上這麼複雜且擁有超多使用者的 app，是如何一步步轉換到 Swift 的呢？\r\n\r\n在這個演講裏頭，Uber 的架構師分享了他們的經驗，讓大家知道他們在使用 Swift 時得到的好處、壞處、以及噁心之處！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NBkIsuO",
+          "type": "Link",
+          "title": "基于 ReSwift 和 App Coordinator 的 iOS 架构",
+          "url_domain": "infoq.com",
+          "url": "http://www.infoq.com/cn/articles/ios-arch-based-on-reswift-and-app-coordinator",
+          "description": "<p>當專案或是業務需求越來越龐大的時候，調整架構就是一個不得不面對的問題。我之前在自己<a href=\"http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c\">部落格的文章</a>也有提過，MVC/MVVM/VIPER/Coordinator 的著眼點都在於如何拿到資料跟 UI 互動，它們不管你的資料是怎麼管理的，這一陣子看了不少關於 iOS 架構設計的文章，這次分享的這篇跟我目前的做法最像：使用 VIPER 或 Coordinator + MVVM 管理 UI 互動，使用 Redux 管理單一資料來源。</p>\n\n<p>最後，不能免俗的要再度提醒一次：沒有最好的架構，只有最適合的架構！</p>",
+          "description_markdown": "當專案或是業務需求越來越龐大的時候，調整架構就是一個不得不面對的問題。我之前在自己[部落格的文章](http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c)也有提過，MVC/MVVM/VIPER/Coordinator 的著眼點都在於如何拿到資料跟 UI 互動，它們不管你的資料是怎麼管理的，這一陣子看了不少關於 iOS 架構設計的文章，這次分享的這篇跟我目前的做法最像：使用 VIPER 或 Coordinator + MVVM 管理 UI 互動，使用 Redux 管理單一資料來源。\r\n\r\n最後，不能免俗的要再度提醒一次：沒有最好的架構，只有最適合的架構！",
+          "embedded_links": [
+            {
+              "identifier": "K3gE6vt",
+              "title": "部落格的文章",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "JljNv6q",
+          "type": "Link",
+          "title": "Stop using CSS in JavaScript for web development",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/stop-using-css-in-javascript-for-web-development-fa32fb873dcc",
+          "description": "<p>有在寫 React 的人應該都熟悉 css in javascript 這個 pattern，而許多套件也如雨後春筍般出現。</p>\n\n<p>本文作者以 styled-component 為主，提出大多數人使用這個套件時的迷思。</p>\n\n<ul>\n<li>解決全域命名的問題</li>\n<li>用 styled-component 使 Code 更簡潔</li>\n<li>讓你更專注於語意</li>\n<li>很簡單的擴展你的樣式</li>\n<li>很容易做出條件式的元件</li>\n<li>能更好的組織 code</li>\n</ul>\n\n\n<p>如果這些有符合你當初選擇 styled-component 的原因，請仔細看作者的反駁，看你同意嗎？\n至於剩下 7, 8, 9 請自行閱讀囉。</p>\n\n<p>結論是 Shadow DOM 還不夠成熟，建議你可以使用 BEM 來解決命名衝突的問題，比較懶的開發者可以考慮 CSS Modules，但如果你是 react-native 的開發者，styled-component 是不錯的選擇。</p>",
+          "description_markdown": "有在寫 React 的人應該都熟悉 css in javascript 這個 pattern，而許多套件也如雨後春筍般出現。\r\n\r\n本文作者以 styled-component 為主，提出大多數人使用這個套件時的迷思。\r\n\r\n* 解決全域命名的問題\r\n* 用 styled-component 使 Code 更簡潔\r\n* 讓你更專注於語意\r\n* 很簡單的擴展你的樣式\r\n* 很容易做出條件式的元件\r\n* 能更好的組織 code\r\n\r\n如果這些有符合你當初選擇 styled-component 的原因，請仔細看作者的反駁，看你同意嗎？\r\n至於剩下 7, 8, 9 請自行閱讀囉。\r\n\r\n結論是 Shadow DOM 還不夠成熟，建議你可以使用 BEM 來解決命名衝突的問題，比較懶的開發者可以考慮 CSS Modules，但如果你是 react-native 的開發者，styled-component 是不錯的選擇。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6cgZKDr",
+          "type": "Link",
+          "title": "A Better Way to Code",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0",
+          "description": "<p>D3 作者最近正在做的專案 d3.express。提供強大的介面，讓你做資料分析跟視覺呈現。雖然還沒上線，但是這篇文章展現的功能，實在令人相當期待。</p>",
+          "description_markdown": "D3 作者最近正在做的專案 d3.express。提供強大的介面，讓你做資料分析跟視覺呈現。雖然還沒上線，但是這篇文章展現的功能，實在令人相當期待。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8BhQoWd",
+          "type": "Link",
+          "title": "Shneiderman’s Eight Golden Rules Will Help You Design Better Interfaces",
+          "url_domain": "interaction-design.org",
+          "url": "https://www.interaction-design.org/literature/article/shneiderman-s-eight-golden-rules-will-help-you-design-better-interfaces",
+          "description": "<p>馬里蘭大學的 HCI 實驗室的教授 Shneiderman 在他的書 (Designing the User Interface: Strategies for Effective Human-Computer Interaction) 中提出的 8 個原則。</p>\n\n<p>接著看 Apple 怎麼將這八個原則實踐在產品上。</p>\n\n<p>另外還有 <a href=\"https://public-media.interaction-design.org/pdf/Shneiderman.s.Eight.Golden.Rules.Worksheet.pdf\">worksheet</a> 可以檢查你的 UI 有沒有做到這些。</p>",
+          "description_markdown": "馬里蘭大學的 HCI 實驗室的教授 Shneiderman 在他的書 (Designing the User Interface: Strategies for Effective Human-Computer Interaction) 中提出的 8 個原則。\r\n\r\n接著看 Apple 怎麼將這八個原則實踐在產品上。\r\n\r\n另外還有 [worksheet](https://public-media.interaction-design.org/pdf/Shneiderman.s.Eight.Golden.Rules.Worksheet.pdf) 可以檢查你的 UI 有沒有做到這些。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "6rNopSl",
+              "title": "worksheet",
+              "url_domain": "interaction-design.org",
+              "url": "https://public-media.interaction-design.org/pdf/Shneiderman.s.Eight.Golden.Rules.Worksheet.pdf"
+            }
+          ]
+        },
+        {
+          "identifier": "TIb6Lrn",
+          "type": "Link",
+          "title": "Introducing Sizzy — A tool for developing responsive websites crazy-fast",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@kitze/introducing-sizzy-a-tool-for-developing-responsive-websites-crazy-fast-39a8c0061992",
+          "description": "<p>一個好用的工具，可以讓同時呈現你的網站在不同 resolution 下的樣子。雖然之前已經有不少類似的網站或工具，但可能不適合你，或許你還在找適合的工具，那可以試試看這個。</p>",
+          "description_markdown": "一個好用的工具，可以讓同時呈現你的網站在不同 resolution 下的樣子。雖然之前已經有不少類似的網站或工具，但可能不適合你，或許你還在找適合的工具，那可以試試看這個。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "cFlraq9",
+          "type": "Link",
+          "title": "蔡英文勞動政策追蹤平台",
+          "url_domain": "twreporter.org",
+          "url": "https://tsai-tracker.twreporter.org/",
+          "description": "<blockquote><p>從蔡英文 2016 年 5 月 20 日上任以來，她承諾的勞動政見實現了多少，你知道嗎？《報導者》特別製作「蔡英文勞動政策追蹤大平台」，邀請大家一起來監督，讓政治人物的政見不再淪為沒有人追蹤的空頭支票。</p></blockquote>",
+          "description_markdown": "> 從蔡英文 2016 年 5 月 20 日上任以來，她承諾的勞動政見實現了多少，你知道嗎？《報導者》特別製作「蔡英文勞動政策追蹤大平台」，邀請大家一起來監督，讓政治人物的政見不再淪為沒有人追蹤的空頭支票。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "number": 130,
+  "title": "Issue 130 中國自古以來就是生產瓷器的大國，近代更是以一種名為「敏感瓷」的瓷器聞名於世",
+  "summary": "本期內容涵蓋 Programming, Code Review, Scrum, MongoDB, NoSQL, IPFS, Kotlin, Swift, Objective-C, Go, SRE, DevOps, Kubernetes, Data Engineering",
+  "url": "https://weekly.codetengu.com/issues/130",
+  "publication_status": "published",
+  "published_at": "2018-06-04T03:00:00+01:00",
+  "updated_at": "2018-06-04T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href=\"https://www.douban.com/people/vinta/\">Detroit: Become Human</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩 [Detroit: Become Human](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "dZVypgC",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "aUUbz4Y",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ttIZqlk",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Kh87Xz5",
+              "title": "Detroit: Become Human",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "S73AmPe",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "fRshsF0",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "D04Ww3g",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "lKWWbwm",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "VhExPjQ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "sT4j81z",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Ngod5Hc",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "sbFGnjg",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "iRM23qK",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "QG91DbD",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "sC8tM2E",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "GSXaNWo",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Qmdo44C",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "L9ibqeE",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "bgl7gd4",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "3mQiCWv",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "HrXyPTh",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "v7XCB3b",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "rs3G0em",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "YCLYT4W",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "yswuNMM",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "SKIp4zA",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "nY7xRpB",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "RiGZRsI",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "oUkWd7J",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "UJmHJFq",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "rgOnfkD",
+          "type": "Link",
+          "title": "Write code that's easy to delete, and easy to debug too.",
+          "url_domain": "programmingisterrible.com",
+          "url": "https://programmingisterrible.com/post/173883533613/code-to-debug",
+          "description": "<p><a href=\"https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to\">Write code that is easy to delete, not easy to extend.</a> 的最新續篇，同樣非常值得一讀。而且就像作者說的，<strong>programming is terrible</strong>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://weekly.codetengu.com/issues/59#yq5Tu2a\">10 Modern Software Over-Engineering Mistakes</a></li>\n<li><a href=\"https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction\">The Wrong Abstraction</a></li>\n</ul>",
+          "description_markdown": "[Write code that is easy to delete, not easy to extend.](https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to) 的最新續篇，同樣非常值得一讀。而且就像作者說的，**programming is terrible**。\r\n\r\n延伸閱讀：\r\n\r\n- [10 Modern Software Over-Engineering Mistakes](https://weekly.codetengu.com/issues/59#yq5Tu2a)\r\n- [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)",
+          "embedded_links": [
+            {
+              "identifier": "kMco1a9",
+              "title": "Write code that is easy to delete, not easy to extend.",
+              "url_domain": "programmingisterrible.com",
+              "url": "https://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to"
+            },
+            {
+              "identifier": "Frvaztf",
+              "title": "10 Modern Software Over-Engineering Mistakes",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/59#yq5Tu2a"
+            },
+            {
+              "identifier": "dHGFDVa",
+              "title": "The Wrong Abstraction",
+              "url_domain": "sandimetz.com",
+              "url": "https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction"
+            }
+          ]
+        },
+        {
+          "identifier": "OYSVD7",
+          "type": "Link",
+          "title": "Dimagi's Code Review Policies",
+          "url_domain": "github.com",
+          "url": "https://github.com/dimagi/code-review",
+          "description": "<p>在 code review 的時候應該明確地區分出 <strong>Merge blocker</strong> 和 <strong>I personally prefer A over B, but no strong opinion.</strong> 這兩種反饋。</p>\n\n<p>在 code review 中發現的問題，如果是會顯著地影響程式碼品質、效能或是可讀性，那的確是需要被修正；但是如果 code review 到後來，雙方一來一往都只是在修改一些無關痛癢的小問題時，reviewer 應該問問自己是不是陷入完美主義的陷阱裡了。在大多數的情況下，其實完全可以先 merge 並部署上線，確認測試完畢之後，再請該作者另外開一個新的 pull request 進行那些優先權沒有那麼高（但是你實在看不順眼）的修改。畢竟曠日費時的 code review 對整個團隊的效率和士氣都不會有什麼正面幫助，尤其當你有同事處在不同的時區或是 remote 工作時。</p>\n\n<p>不過我指的不是 coding style 這種層面的修改，不應該浪費寶貴的 code review 時間在那些程式就可以檢查出來的問題，編輯器 linter 或是 pre-commit-hooks 都是好東西，再不然在 CI 做 auto-format 也行。</p>\n\n<p>其他 curator 也都分享過不少關於 <a href=\"https://weekly.codetengu.com/search?q=code+review\">Code Review</a> 的文章，例如：</p>\n\n<ul>\n<li><a href=\"https://weekly.codetengu.com/issues/63#jXMRF0D\">How to successfully grow a code review culture</a> >> 大推！</li>\n<li><a href=\"https://weekly.codetengu.com/issues/120#w3VyAoH\">How to Do Code Reviews Like a Human (Part One)</a></li>\n<li><a href=\"https://weekly.codetengu.com/issues/102#pJKjFr8\">说说 Code Review</a></li>\n</ul>",
+          "description_markdown": "在 code review 的時候應該明確地區分出 **Merge blocker** 和 **I personally prefer A over B, but no strong opinion.** 這兩種反饋。\r\n\r\n在 code review 中發現的問題，如果是會顯著地影響程式碼品質、效能或是可讀性，那的確是需要被修正；但是如果 code review 到後來，雙方一來一往都只是在修改一些無關痛癢的小問題時，reviewer 應該問問自己是不是陷入完美主義的陷阱裡了。在大多數的情況下，其實完全可以先 merge 並部署上線，確認測試完畢之後，再請該作者另外開一個新的 pull request 進行那些優先權沒有那麼高（但是你實在看不順眼）的修改。畢竟曠日費時的 code review 對整個團隊的效率和士氣都不會有什麼正面幫助，尤其當你有同事處在不同的時區或是 remote 工作時。\r\n\r\n不過我指的不是 coding style 這種層面的修改，不應該浪費寶貴的 code review 時間在那些程式就可以檢查出來的問題，編輯器 linter 或是 pre-commit-hooks 都是好東西，再不然在 CI 做 auto-format 也行。\r\n\r\n其他 curator 也都分享過不少關於 [Code Review](https://weekly.codetengu.com/search?q=code+review) 的文章，例如：\r\n\r\n- [How to successfully grow a code review culture](https://weekly.codetengu.com/issues/63#jXMRF0D) >> 大推！\r\n- [How to Do Code Reviews Like a Human (Part One)](https://weekly.codetengu.com/issues/120#w3VyAoH)\r\n- [说说 Code Review](https://weekly.codetengu.com/issues/102#pJKjFr8)",
+          "embedded_links": [
+            {
+              "identifier": "SdcRBMx",
+              "title": "Code Review",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/search?q=code+review"
+            },
+            {
+              "identifier": "gI7S08G",
+              "title": "How to successfully grow a code review culture",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/63#jXMRF0D"
+            },
+            {
+              "identifier": "buLmVAM",
+              "title": "How to Do Code Reviews Like a Human (Part One)",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/120#w3VyAoH"
+            },
+            {
+              "identifier": "ysNeprZ",
+              "title": "说说 Code Review",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/102#pJKjFr8"
+            }
+          ]
+        },
+        {
+          "identifier": "UAiZV6m",
+          "type": "Link",
+          "title": "Why Scrum is the Wrong Way to Build Software",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@ard_adam/why-scrum-is-the-wrong-way-to-build-software-99d8994409e5",
+          "description": "<p>標題都說得這麼明白了，大家自己感受一下，有什麼想說的話不要憋在心裡。</p>",
+          "description_markdown": "標題都說得這麼明白了，大家自己感受一下，有什麼想說的話不要憋在心裡。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FAYDcQ8",
+          "type": "Link",
+          "title": "Specify arrayFilters for Array Update Operations in MongoDB",
+          "url_domain": "mongodb.com",
+          "url": "https://docs.mongodb.com/manual/reference/operator/update/positional-filtered/",
+          "description": "<p>雖然之前一直在嫌棄 MongoDB，但是它的 aggregation 功能其實挺強大的（即便寫起來有點惱人）。除此之外，MongoDB 3.6 才引入的新特性 <code>arrayFilters</code> 也是把 MongoDB 對 array 的更新操作強化了不少，甚至還支援好幾層的 nested array。</p>\n\n<ul>\n<li><a href=\"https://thecodebarbarian.com/a-nodejs-perspective-on-mongodb-36-array-filters.html\">A Node.js Perspective on MongoDB 3.6: Array Filters</a></li>\n<li><a href=\"https://docs.mongodb.com/manual/release-notes/3.6/\">Release Notes for MongoDB 3.6</a></li>\n<li><a href=\"https://docs.mongodb.com/manual/release-notes/3.4/\">Release Notes for MongoDB 3.4</a></li>\n</ul>",
+          "description_markdown": "雖然之前一直在嫌棄 MongoDB，但是它的 aggregation 功能其實挺強大的（即便寫起來有點惱人）。除此之外，MongoDB 3.6 才引入的新特性 `arrayFilters` 也是把 MongoDB 對 array 的更新操作強化了不少，甚至還支援好幾層的 nested array。\r\n\r\n- [A Node.js Perspective on MongoDB 3.6: Array Filters](https://thecodebarbarian.com/a-nodejs-perspective-on-mongodb-36-array-filters.html)\r\n- [Release Notes for MongoDB 3.6](https://docs.mongodb.com/manual/release-notes/3.6/)\r\n- [Release Notes for MongoDB 3.4](https://docs.mongodb.com/manual/release-notes/3.4/)",
+          "embedded_links": [
+            {
+              "identifier": "2Tyejlt",
+              "title": "A Node.js Perspective on MongoDB 3.6: Array Filters",
+              "url_domain": "thecodebarbarian.com",
+              "url": "https://thecodebarbarian.com/a-nodejs-perspective-on-mongodb-36-array-filters.html"
+            },
+            {
+              "identifier": "kKB0Twe",
+              "title": "Release Notes for MongoDB 3.6",
+              "url_domain": "mongodb.com",
+              "url": "https://docs.mongodb.com/manual/release-notes/3.6/"
+            },
+            {
+              "identifier": "YeYhbUC",
+              "title": "Release Notes for MongoDB 3.4",
+              "url_domain": "mongodb.com",
+              "url": "https://docs.mongodb.com/manual/release-notes/3.4/"
+            }
+          ]
+        },
+        {
+          "identifier": "vTAR7e5",
+          "type": "Link",
+          "title": "IPFS: The (Very Slow) Distributed Permanent Web",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/ipfs-the-very-slow-distributed-permanent-web.html",
+          "description": "<p>前陣子終於有機會玩了一下 IPFS (InterPlanetary File System)，也順手把使用方式和在過程中遇到的問題都記錄下來了，跟大家分享一下。不過說起來，這個技術在好幾年前就開始發展了，但是最近實際試用了一陣子發現還是非常不成熟啊，至少跟他們當初描繪的那個願景相比有很大一段距離。</p>",
+          "description_markdown": "前陣子終於有機會玩了一下 IPFS (InterPlanetary File System)，也順手把使用方式和在過程中遇到的問題都記錄下來了，跟大家分享一下。不過說起來，這個技術在好幾年前就開始發展了，但是最近實際試用了一陣子發現還是非常不成熟啊，至少跟他們當初描繪的那個願景相比有很大一段距離。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "jJRwDhB",
+          "type": "Link",
+          "title": "How to shuffle songs?",
+          "url_domain": "spotify.com",
+          "url": "https://labs.spotify.com/2014/02/28/how-to-shuffle-songs/",
+          "description": "<p>「我覺得你們的隨機不隨機。」</p>\n\n<p>這是 Spotify 在 2014 年對隨機播放的研究跟改進，並分享了他們實作方法。</p>\n\n<p>實際上，簡單精美的 <a href=\"https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle\">Fisher Yates shuffle</a> 隨機演算法就做到了很好的隨機。所以是用戶、產品經理錯了嗎？這些不懂隨機性的人太愚蠢了，以為自己帶著一顆炸彈上飛機就會減小遇到恐怖份子炸飛機的機率。</p>\n\n<p>執著於隨機這個詞的實作與用戶想要的東西是不同的，畢竟，誰想要一個真正隨機的播放列表呢？他們想要的是歌曲被打亂分配。他們想要用不同的順序來聽音樂。</p>\n\n<p>iPod 推出的時候，也遇過這個問題，Steve Jobs 也表示他們改變了隨機算法，讓它不真正隨機，回應了大家的質疑 (<a href=\"http://www.dailymail.co.uk/home/moslive/article-1334712/Humans-concept-randomness-hard-understand.html\">And now for something completely random</a>)。</p>\n\n<p>如果你覺得用戶提出這樣的問題是他們不理解隨機，或許是你不懂胖虎。</p>",
+          "description_markdown": "「我覺得你們的隨機不隨機。」  \r\n\r\n這是 Spotify 在 2014 年對隨機播放的研究跟改進，並分享了他們實作方法。\r\n\r\n實際上，簡單精美的 [Fisher Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) 隨機演算法就做到了很好的隨機。所以是用戶、產品經理錯了嗎？這些不懂隨機性的人太愚蠢了，以為自己帶著一顆炸彈上飛機就會減小遇到恐怖份子炸飛機的機率。\r\n\r\n執著於隨機這個詞的實作與用戶想要的東西是不同的，畢竟，誰想要一個真正隨機的播放列表呢？他們想要的是歌曲被打亂分配。他們想要用不同的順序來聽音樂。\r\n\r\niPod 推出的時候，也遇過這個問題，Steve Jobs 也表示他們改變了隨機算法，讓它不真正隨機，回應了大家的質疑 ([And now for something completely random](http://www.dailymail.co.uk/home/moslive/article-1334712/Humans-concept-randomness-hard-understand.html))。\r\n\r\n如果你覺得用戶提出這樣的問題是他們不理解隨機，或許是你不懂胖虎。",
+          "embedded_links": [
+            {
+              "identifier": "nCLjMmU",
+              "title": "Fisher Yates shuffle",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle"
+            },
+            {
+              "identifier": "C8NcYDm",
+              "title": "And now for something completely random",
+              "url_domain": "dailymail.co.uk",
+              "url": "http://www.dailymail.co.uk/home/moslive/article-1334712/Humans-concept-randomness-hard-understand.html"
+            }
+          ]
+        },
+        {
+          "identifier": "yo5RK8D",
+          "type": "Link",
+          "title": "Sealed classes opened my mind",
+          "url_domain": "codeascraft.com",
+          "url": "https://codeascraft.com/2018/04/12/sealed-classes-opened-my-mind/",
+          "description": "<p>Kotlin 的 <code>sealed class</code> 是一個很有趣的設計，完全可以把它當成 Enum，那 Kotlin 的 <code>Enum</code> 又是幹嘛的？這又是 Kotlin 務實的地方，為了跟 Java 的互操作性，Kotlin 的 <code>Enum</code> 可以被當成 Java 的 <code>Enum</code> 用。總之，把 <code>sealed class</code> 當成更強大的 Enum 就對了，他跟 Swift 的 <code>Enum</code> 基本上可以當成一樣的東西。</p>\n\n<p>接受了這種 <code>sealed class</code> 導向的概念之後，可能會對你設計的產生化學反應，比方說將有 state 的物件都用 <code>sealed class</code> 來包裝狀態跟對應行為。</p>\n\n<p>最近有感而發覺得 Swift 跟 Kotlin 有了強大的 Enum 就可以取代部分 <a href=\"https://sourcemaking.com/design_patterns/visitor\">Visitor Pattern</a> 的使用機會。指的是在一個有限集合下根據特定類別做不同的事情的情況。</p>",
+          "description_markdown": "Kotlin 的 `sealed class` 是一個很有趣的設計，完全可以把它當成 Enum，那 Kotlin 的 `Enum` 又是幹嘛的？這又是 Kotlin 務實的地方，為了跟 Java 的互操作性，Kotlin 的 `Enum` 可以被當成 Java 的 `Enum` 用。總之，把 `sealed class` 當成更強大的 Enum 就對了，他跟 Swift 的 `Enum` 基本上可以當成一樣的東西。\r\n\r\n接受了這種 `sealed class` 導向的概念之後，可能會對你設計的產生化學反應，比方說將有 state 的物件都用 `sealed class` 來包裝狀態跟對應行為。\r\n\r\n最近有感而發覺得 Swift 跟 Kotlin 有了強大的 Enum 就可以取代部分 [Visitor Pattern](https://sourcemaking.com/design_patterns/visitor) 的使用機會。指的是在一個有限集合下根據特定類別做不同的事情的情況。",
+          "embedded_links": [
+            {
+              "identifier": "LwkWTpd",
+              "title": "Visitor Pattern",
+              "url_domain": "sourcemaking.com",
+              "url": "https://sourcemaking.com/design_patterns/visitor"
+            }
+          ]
+        },
+        {
+          "identifier": "qrx71zk",
+          "type": "Link",
+          "title": "Making illegal states unrepresentable",
+          "url_domain": "oleb.net",
+          "url": "https://oleb.net/blog/2018/03/making-illegal-states-unrepresentable/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS%2BDev%2BWeekly%2BIssue%2B345",
+          "description": "<p>Ole Begemann 在討論用 Swift 設計 API 時透過類型資訊包裝狀態，因為你希望其他人在用你的 API 的時候從 method name, input 跟 output 就可以知道這是什麼，要怎麼用，會回傳給你什麼。</p>\n\n<p>Swift 的類型相較 Objective-C 更靈活也更易用，它可以怎樣幫助我們的 API 設計。</p>\n\n<p>文章中舉了 <code>NSURLSession</code> 的 API 為例，他的  completion handler 會帶 <code>(Data?, URLResponse?, Error?)</code> 參數，沒有狀態的包裝。更甚至，在特定情況下你會同時得到 response 跟 error。這樣的 API 設計可以怎樣變得更好？</p>",
+          "description_markdown": "Ole Begemann 在討論用 Swift 設計 API 時透過類型資訊包裝狀態，因為你希望其他人在用你的 API 的時候從 method name, input 跟 output 就可以知道這是什麼，要怎麼用，會回傳給你什麼。\r\n\r\nSwift 的類型相較 Objective-C 更靈活也更易用，它可以怎樣幫助我們的 API 設計。\r\n\r\n文章中舉了 `NSURLSession` 的 API 為例，他的  completion handler 會帶 `(Data?, URLResponse?, Error?)` 參數，沒有狀態的包裝。更甚至，在特定情況下你會同時得到 response 跟 error。這樣的 API 設計可以怎樣變得更好？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "b4736kL",
+          "type": "Link",
+          "title": "Lightweight Generics in Objective-C",
+          "url_domain": "imnotyourson.com",
+          "url": "https://imnotyourson.com/lightweight-generics-in-objective-c/",
+          "description": "<p>Apple 在 WWDC 2015 為 Objective-C 引入了 Lightweight Generics，命名帶了 Lightweight 因為這不是一個語言層面的升級而是透過 LLVM 的支持。</p>\n\n<p>這是同事在 Objective-C 的專案引入 Swift 的時候一起引入的，就是為了 Objective-C 跟 Swift 的互操作性。除此之外，使用 Lightweight Generics 也可以讓 Objective-C 代碼更具可讀性和 compiler 的檢查。</p>\n\n<p>我一直到現在才知道這件事，真的是太遜了。</p>",
+          "description_markdown": "Apple 在 WWDC 2015 為 Objective-C 引入了 Lightweight Generics，命名帶了 Lightweight 因為這不是一個語言層面的升級而是透過 LLVM 的支持。\r\n\r\n這是同事在 Objective-C 的專案引入 Swift 的時候一起引入的，就是為了 Objective-C 跟 Swift 的互操作性。除此之外，使用 Lightweight Generics 也可以讓 Objective-C 代碼更具可讀性和 compiler 的檢查。\r\n\r\n我一直到現在才知道這件事，真的是太遜了。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "iMnbMb9",
+          "type": "Link",
+          "title": "你了解 SRE 跟 DevOps 的差別嗎? 來聽聽 Google SRE 與 Google DevOps 來討論彼此工作的差異吧",
+          "url_domain": "gcppodcast.com",
+          "url": "https://www.gcppodcast.com/post/episode-127-sre-vs-devops-with-liz-fong-jones-and-seth-vargo/",
+          "description": "<p>你了解 SRE 跟 DevOps 的差別嗎? 來聽聽 Google SRE 與 Google DevOps 來討論彼此工作的差異吧．</p>\n\n<p>這一集的 GCP Podcast 實在太有趣了．而且相當實用．</p>\n\n<p>DevOps 在這十年間被大家廣泛的討論．讓開發與維運工程師再也不是各自工作．而Google 在 2016 出版的書籍 \"Site Reliability Engineering: How Google Runs Production Systems\" 之後，全球掀起了 SRE 的熱潮．</p>\n\n<p>但是 SRE 跟 DevOps 之間的差異到底是什麼呢? 這段採訪分別請來了 Google 的 SRE 與 DevOps （是的，不像其他公司 SRE 跟 DevOps 只會澤一存在，他們共存在 Google) 來討論他們的工作內容．並且分享他們主要工作價值．</p>\n\n<p>這裡簡單分享一下擷取出來的主要工作價值，也就能了解 SRE 與 DevOps 的差異:</p>\n\n<ul>\n<li>DevOps: 讓工程師在工作上能夠高興為最高宗旨．</li>\n<li>SRE: 讓客戶在使用服務上能夠滿意為最高宗旨．</li>\n</ul>",
+          "description_markdown": "你了解 SRE 跟 DevOps 的差別嗎? 來聽聽 Google SRE 與 Google DevOps 來討論彼此工作的差異吧．\r\n\r\n這一集的 GCP Podcast 實在太有趣了．而且相當實用．\r\n\r\nDevOps 在這十年間被大家廣泛的討論．讓開發與維運工程師再也不是各自工作．而Google 在 2016 出版的書籍 \"Site Reliability Engineering: How Google Runs Production Systems\" 之後，全球掀起了 SRE 的熱潮．\r\n\r\n但是 SRE 跟 DevOps 之間的差異到底是什麼呢? 這段採訪分別請來了 Google 的 SRE 與 DevOps （是的，不像其他公司 SRE 跟 DevOps 只會澤一存在，他們共存在 Google) 來討論他們的工作內容．並且分享他們主要工作價值．\r\n\r\n這裡簡單分享一下擷取出來的主要工作價值，也就能了解 SRE 與 DevOps 的差異:\r\n\r\n- DevOps: 讓工程師在工作上能夠高興為最高宗旨．\r\n- SRE: 讓客戶在使用服務上能夠滿意為最高宗旨．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZYOigh7",
+          "type": "Link",
+          "title": "sindresorhus/awesome: Curated list of awesome lists",
+          "url_domain": "github.com",
+          "url": "https://github.com/sindresorhus/awesome",
+          "description": "<p>最近的 GitHub Trend 前幾名幾乎都是 curated list (俗稱 awesome list)</p>\n\n<ul>\n<li><a href=\"https://github.com/CyC2018/Interview-Notebook\">軟體工程師面試建議文章</a></li>\n<li><a href=\"https://github.com/davideu%E2%80%A6/architecture.of.internet-product\">各大網路公司 (百度，淘寶... ) 架構相關介紹文件</a></li>\n<li><a href=\"https://github.com/xingshaocheng/architect-awesome\">後端架構師需要懂的相關文章</a></li>\n</ul>\n\n\n<p>話說.. 怎麼最近那麼多 awesome 出來?</p>",
+          "description_markdown": "最近的 GitHub Trend 前幾名幾乎都是 curated list (俗稱 awesome list)\r\n\r\n- [軟體工程師面試建議文章](https://github.com/CyC2018/Interview-Notebook)\r\n- [各大網路公司 (百度，淘寶... ) 架構相關介紹文件](https://github.com/davideu…/architecture.of.internet-product)\r\n- [後端架構師需要懂的相關文章](https://github.com/xingshaocheng/architect-awesome)\r\n\r\n話說.. 怎麼最近那麼多 awesome 出來?",
+          "embedded_links": [
+            {
+              "identifier": "MBrIRsR",
+              "title": "軟體工程師面試建議文章",
+              "url_domain": "github.com",
+              "url": "https://github.com/CyC2018/Interview-Notebook"
+            },
+            {
+              "identifier": "pontkZq",
+              "title": "各大網路公司 (百度，淘寶... ) 架構相關介紹文件",
+              "url_domain": "github.com",
+              "url": "https://github.com/davideu…/architecture.of.internet-product"
+            },
+            {
+              "identifier": "TFnHDTm",
+              "title": "後端架構師需要懂的相關文章",
+              "url_domain": "github.com",
+              "url": "https://github.com/xingshaocheng/architect-awesome"
+            }
+          ]
+        },
+        {
+          "identifier": "py9nM0H",
+          "type": "Link",
+          "title": "An Analysis of vgo",
+          "url_domain": "sdboyer.io",
+          "url": "https://sdboyer.io/vgo/intro/",
+          "description": "<p>Sam Boyer 身為 另外一套「實驗性質的」套件管理程式 dep 主要開發者之一，對於 Russ Cox 提出的 vgo 一直提出令人深思的意見。</p>\n\n<p>本篇文章（導論）將提出 MVS(minimal version selection) 可能有一些場景不適用。並且提出一個結合 gps (dep 使用的演算法） 修改而成的方向。</p>\n\n<p>一連有六篇文章，令人期待。</p>",
+          "description_markdown": "Sam Boyer 身為 另外一套「實驗性質的」套件管理程式 dep 主要開發者之一，對於 Russ Cox 提出的 vgo 一直提出令人深思的意見。\r\n\r\n本篇文章（導論）將提出 MVS(minimal version selection) 可能有一些場景不適用。並且提出一個結合 gps (dep 使用的演算法） 修改而成的方向。\r\n\r\n一連有六篇文章，令人期待。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Oeqzsb3",
+          "type": "Link",
+          "title": "Google 開源了 user-kernel sandbox: gVisor 讓你更安全地跑你的 Container",
+          "url_domain": "kubernetespodcast.com",
+          "url": "https://kubernetespodcast.com/episode/003-gvisor/",
+          "description": "<p>Kubernetes Google Podcast: gVisor, with Nicolas Lacasse and Yoshi Tamura.</p>\n\n<p>Google 在 Kubecon 前開源了 user-space kernel \"gVisor\" ，主要就是要解決 docker container 下太多的 system kernel call 造成 host 相當程度的危險． 於是 Google 做了 gVisor 一個基於 OS 上面的 sandbox 並且全部使用 golang 實作了 2000+ 個 system call (全部 3000+ )．</p>\n\n<p>這篇訪談也討論到，建議以下的人都可以使用:</p>\n\n<ul>\n<li>對於目前自己 Container app 不確定會不會影響到 host 安全</li>\n<li>想要將自己 App 從 VM 搬離，但是又怕直接到 container 影響系統安全</li>\n<li>想要研究 Kernel code 但是又不想要 K Linux source code XD</li>\n</ul>\n\n\n<p>很推薦大家聽聽..</p>",
+          "description_markdown": "Kubernetes Google Podcast: gVisor, with Nicolas Lacasse and Yoshi Tamura.\r\n\r\nGoogle 在 Kubecon 前開源了 user-space kernel \"gVisor\" ，主要就是要解決 docker container 下太多的 system kernel call 造成 host 相當程度的危險． 於是 Google 做了 gVisor 一個基於 OS 上面的 sandbox 並且全部使用 golang 實作了 2000+ 個 system call (全部 3000+ )．\r\n\r\n這篇訪談也討論到，建議以下的人都可以使用:\r\n\r\n- 對於目前自己 Container app 不確定會不會影響到 host 安全\r\n- 想要將自己 App 從 VM 搬離，但是又怕直接到 container 影響系統安全\r\n- 想要研究 Kernel code 但是又不想要 K Linux source code XD\r\n\r\n很推薦大家聽聽..",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5NJh3fy",
+          "type": "Link",
+          "title": "Uber's Data Platform with Zhenxiao Luo",
+          "url_domain": "softwareengineeringdaily.com",
+          "url": "https://softwareengineeringdaily.com/2018/05/24/ubers-data-platform-with-zhenxiao-luo/",
+          "description": "<p>Uber 來介紹他們的資料處理平臺． 主要是要處理大量的 Nested Structure 方面的資料．</p>\n\n<p>我們都以為 Uber 資料應該都是 Geolocation 的資料， Uber 除了自己的服務外．也將服務提供給其他公司與產品 (Uber Eats ... ) 再這樣運用下，除了一般的地圖資料下，還會加上一些額外的 Nested Structure 資料．</p>\n\n<p>此外在此篇採訪中有提到一個很酷的服務 <a href=\"https://prestodb.io/\">Presto</a> ，一個可以透過 SQL 的方式來查詢 SQL (MySQL, PostgresSQL) 與 NoSQL (Hive, Hadoop, Cassandra ..) 甚至可以透過 join 的指令來合併查詢跨資料庫層級 (ex: MySQL 與 Hive) 的資料．感覺相當好用．</p>\n\n<p>也有提到一個有趣的東西 <a href=\"https://parquet.apache.org/\">Apache Parquet</a> 一個基於 HDFS 之上的資料格式．可以很轉換成 ProtoBuf 或是其他資料格式化文字．</p>\n\n<p>蠻值得一聽的．</p>",
+          "description_markdown": "Uber 來介紹他們的資料處理平臺． 主要是要處理大量的 Nested Structure 方面的資料．\r\n\r\n我們都以為 Uber 資料應該都是 Geolocation 的資料， Uber 除了自己的服務外．也將服務提供給其他公司與產品 (Uber Eats ... ) 再這樣運用下，除了一般的地圖資料下，還會加上一些額外的 Nested Structure 資料．\r\n\r\n此外在此篇採訪中有提到一個很酷的服務 [Presto](https://prestodb.io/) ，一個可以透過 SQL 的方式來查詢 SQL (MySQL, PostgresSQL) 與 NoSQL (Hive, Hadoop, Cassandra ..) 甚至可以透過 join 的指令來合併查詢跨資料庫層級 (ex: MySQL 與 Hive) 的資料．感覺相當好用．\r\n\r\n也有提到一個有趣的東西 [Apache Parquet](https://parquet.apache.org/) 一個基於 HDFS 之上的資料格式．可以很轉換成 ProtoBuf 或是其他資料格式化文字．\r\n\r\n蠻值得一聽的．",
+          "embedded_links": [
+            {
+              "identifier": "Iag4Ej0",
+              "title": "Presto",
+              "url_domain": "prestodb.io",
+              "url": "https://prestodb.io/"
+            },
+            {
+              "identifier": "hOS7Tm9",
+              "title": "Apache Parquet",
+              "url_domain": "apache.org",
+              "url": "https://parquet.apache.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "iuJlCHf",
+          "type": "Link",
+          "title": "Android Developer at StreetVoice",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5ocnw",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> Android app，開發流程包含 Code Review、Unit Tests、CI/CD。經驗不限，希望你是喜歡在工作上做技術決定的人。</p>\n\n<p>你會接觸到：</p>\n\n<ul>\n<li>音訊串流</li>\n<li>Unit Tests</li>\n<li>SQLite, Realm</li>\n<li>DSP</li>\n<li>Kotlin</li>\n</ul>\n\n\n<p>聯絡方式： <a href=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#115;&#116;&#97;&#110;&#x40;&#115;&#116;&#114;&#x65;&#x65;&#x74;&#x76;&#111;&#x69;&#99;&#101;&#46;&#99;&#111;&#109;\">&#115;&#116;&#x61;&#x6e;&#x40;&#115;&#116;&#x72;&#x65;&#101;&#x74;&#x76;&#111;&#105;&#99;&#x65;&#46;&#99;&#111;&#109;</a></p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) Android app，開發流程包含 Code Review、Unit Tests、CI/CD。經驗不限，希望你是喜歡在工作上做技術決定的人。\r\n\r\n你會接觸到：  \r\n\r\n- 音訊串流  \r\n- Unit Tests  \r\n- SQLite, Realm\r\n- DSP  \r\n- Kotlin  \r\n\r\n\b聯絡方式： <stan@streetvoice.com>",
+          "embedded_links": [
+            {
+              "identifier": "lbcFasH",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "IeVKb0B",
+          "type": "Link",
+          "title": "外行員的海賊王專題",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/channel/UCeBekLhn6TBwndp8Y-w49RA/videos",
+          "description": "<p>最近睡覺前都在看 YouTuber 講海賊王，忍不住跟大家分享一下，這個男人真的是用生命在看海賊王的。他對漫畫細節的考據和腦補的能力，完全會讓你懷疑你們看的究竟是不是同一部漫畫。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享！</p>",
+          "description_markdown": "最近睡覺前都在看 YouTuber 講海賊王，忍不住跟大家分享一下，這個男人真的是用生命在看海賊王的。他對漫畫細節的考據和腦補的能力，完全會讓你懷疑你們看的究竟是不是同一部漫畫。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享！",
+          "embedded_links": [
+            {
+              "identifier": "lcb5vzp",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "b81f87f4-5461-4d77-97a7-612652cf5cfc.png",
+          "image_extra_large_filename": "original_ratio_extra_large_b81f87f4-5461-4d77-97a7-612652cf5cfc.png",
+          "image_medium_filename": "original_ratio_medium_b81f87f4-5461-4d77-97a7-612652cf5cfc.png"
+        },
+        {
+          "identifier": "Nblp6wO",
+          "type": "Link",
+          "title": "每步都有伏笔！说说《战神》中那些值得注意的剧情和细节",
+          "url_domain": "vgtime.com",
+          "url": "https://www.vgtime.com/topic/947413.jhtml",
+          "description": "<p>如果你也有玩戰神，一定要看看這篇文章！當然，內含大量劇透～</p>\n\n<p>是說前陣子才玩完戰神，現在接著玩 Detroit: Become Human，反而覺得有點索然無味啊......</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享！</p>",
+          "description_markdown": "如果你也有玩戰神，一定要看看這篇文章！當然，內含大量劇透～\r\n\r\n是說前陣子才玩完戰神，現在接著玩 Detroit: Become Human，反而覺得有點索然無味啊......\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享！",
+          "embedded_links": [
+            {
+              "identifier": "YgECyUo",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

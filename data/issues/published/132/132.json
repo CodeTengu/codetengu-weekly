@@ -1,0 +1,434 @@
+{
+  "number": 132,
+  "title": "Issue 132 帕金森瑣碎定理：一群人會花費大量時間討論無關緊要的瑣事，但是對真正重大的事情至若罔聞",
+  "summary": "本期內容涵蓋 Blockchain, Ethereum, JavaScript, GraphQL, Swift, React Native",
+  "url": "https://weekly.codetengu.com/issues/132",
+  "publication_status": "published",
+  "published_at": "2018-06-25T03:00:00+01:00",
+  "updated_at": "2018-06-25T03:00:06+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "hkQdcMn",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "WoSwbrc",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ZZf54f6",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "JvbK0Xq",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ClYLstx",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "xw3sFRR",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "HUfTSTr",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "otnrqX2",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Tx6HgLz",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "qV07Hxt",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Uq1jlCB",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Xmi3KJ6",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Np9GUdn",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "66UzVQl",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "YtWDvCo",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "JJ2gnzA",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "JqdMdrJ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "LovcCl0",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "AFVfhE6",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "RbceSQ4",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "5Q0ERsc",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "weDdHoG",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "MKxpJxq",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "VB7kYsx",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "bJYzR4S",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "cfCL8oq",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "dxbZ1Zc",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "qjxjcqE",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "gX2ybCe",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "usH9i2D",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "WP77iYW",
+          "type": "Link",
+          "title": "The US startup is disappearing",
+          "url_domain": "qz.com",
+          "url": "https://qz.com/1309824/the-us-startup-company-is-disappearing-and-thats-bad-for-the-economy/",
+          "description": "<p>美國已經不流行 startup 了嗎？從 1985 年新創公司佔所有美國公司的 13%，到 2014 年已經降至 8%。造成這現象的原因，未明 ...（但作者有其見解）</p>",
+          "description_markdown": "美國已經不流行 startup 了嗎？從 1985 年新創公司佔所有美國公司的 13%，到 2014 年已經降至 8%。造成這現象的原因，未明 ...（但作者有其見解）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3nZBRiA",
+          "type": "Link",
+          "title": "工程師視角：什麼是區塊鏈的 Smart Contract？",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/taipei-ethereum-meetup/%E5%B7%A5%E7%A8%8B%E5%B8%AB%E8%A6%96%E8%A7%92-%E4%BB%80%E9%BA%BC%E6%98%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E7%9A%84-smart-contract-d488308f461d",
+          "description": "<p>作者，Yuren Ju，利用 JVM 的概念，說明了 Ethereum Smart Contract 底層的運作原理。他也提到，雖然區塊鏈和 Smart Contract 都還是非常早期的發展，但很期待去中心化的思維，可以回頭來思考我們已經做過的服務，有哪些可以再透過去中心化架構，提出新的解決方案。</p>",
+          "description_markdown": "作者，Yuren Ju，利用 JVM 的概念，說明了 Ethereum Smart Contract 底層的運作原理。他也提到，雖然區塊鏈和 Smart Contract 都還是非常早期的發展，但很期待去中心化的思維，可以回頭來思考我們已經做過的服務，有哪些可以再透過去中心化架構，提出新的解決方案。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6CKauoQ",
+          "type": "Link",
+          "title": "Beginner’s Guide to Smart Contracts Security (1)  —  Using online tools to do security audit",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/taipei-ethereum-meetup/beginners-guide-to-smart-contracts-security-e4715ac0dccb",
+          "description": "<p>作者，李婷婷，以實作的方式帶大家如何利用線上工具，找出並解決智能合約資安漏洞的問題。另一個問題 Callstack Depth Attack Vulnerability，還沒公佈解法。如果想要進一步研究什麼是 call-stack attack 的人，可以先看看 <a href=\"http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf\">Making Smart Contracts Smarter</a> 這篇論文，再試著先解解看問題。</p>",
+          "description_markdown": "作者，李婷婷，以實作的方式帶大家如何利用線上工具，找出並解決智能合約資安漏洞的問題。另一個問題 Callstack Depth Attack Vulnerability，還沒公佈解法。如果想要進一步研究什麼是 call-stack attack 的人，可以先看看 [Making Smart Contracts Smarter](http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf) 這篇論文，再試著先解解看問題。",
+          "embedded_links": [
+            {
+              "identifier": "8SAioFE",
+              "title": "Making Smart Contracts Smarter",
+              "url_domain": "nus.edu.sg",
+              "url": "http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf"
+            }
+          ]
+        },
+        {
+          "identifier": "7k0Sbd6",
+          "type": "Link",
+          "title": "Building the 2018 World Cup GraphQL API",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mesirii/building-the-2018-world-cup-graphql-api-fab40ccecb9e",
+          "description": "<p>最近想當一個快速的 fullstack 工程師，免不了要會這三樣東西。1. 部署用 <a href=\"https://zeit.co/now\">zeit.now</a>。2. 前端用 <a href=\"https://nextjs.org/\">next.js</a> 的 React。3. 後端用 <a href=\"https://www.prisma.io/\">prisma (舊名 Graphcool)</a> 的 GraphQL。當然前端不用 Javascript 或 React 還有其他選擇。</p>\n\n<p>以這篇如何製作 2018 世足賽 GraphQL API 為例，可以看到他也是用 now 部署，以及提供 GraphQL API，而非 RESTful API。</p>\n\n<p>註：我所謂的快速 fullstack 工程師，就是不想等 back-end 幫你改 RESTful API，也不想等 DevOps 的 Ops 幫你部署，全部一手包辦。</p>",
+          "description_markdown": "最近想當一個快速的 fullstack 工程師，免不了要會這三樣東西。1. 部署用 [zeit.now](https://zeit.co/now)。2. 前端用 [next.js](https://nextjs.org/) 的 React。3. 後端用 [prisma (舊名 Graphcool)](https://www.prisma.io/) 的 GraphQL。當然前端不用 Javascript 或 React 還有其他選擇。\r\n\r\n以這篇如何製作 2018 世足賽 GraphQL API 為例，可以看到他也是用 now 部署，以及提供 GraphQL API，而非 RESTful API。\r\n\r\n註：我所謂的快速 fullstack 工程師，就是不想等 back-end 幫你改 RESTful API，也不想等 DevOps 的 Ops 幫你部署，全部一手包辦。",
+          "embedded_links": [
+            {
+              "identifier": "aV4mi3D",
+              "title": "zeit.now",
+              "url_domain": "zeit.co",
+              "url": "https://zeit.co/now"
+            },
+            {
+              "identifier": "VhwFdny",
+              "title": "next.js",
+              "url_domain": "nextjs.org",
+              "url": "https://nextjs.org/"
+            },
+            {
+              "identifier": "EEpKymZ",
+              "title": "prisma (舊名 Graphcool)",
+              "url_domain": "prisma.io",
+              "url": "https://www.prisma.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "m0s5zMj",
+          "type": "Link",
+          "title": "iPlayground.io",
+          "url_domain": "iplayground.io",
+          "url": "https://iplayground.io/",
+          "description": "<p>身為一個 iOS/Mac 開發者，你也跟我一樣羨慕國外有那麼多的研討會、感嘆為什麼台灣都沒有嗎？有這種想法的不只是你跟我，還有很多開發者也是這樣想，所以有一群熱血的人就決定要舉辦一個面向 iOS/Mac 開發的技術研討會，現在正在強力徵求講者。</p>\n\n<p>想要分享自身經驗的人，趕快去投稿吧！單純只想參加的人，也別忘了先把日期預留下來喔！</p>",
+          "description_markdown": "身為一個 iOS/Mac 開發者，你也跟我一樣羨慕國外有那麼多的研討會、感嘆為什麼台灣都沒有嗎？有這種想法的不只是你跟我，還有很多開發者也是這樣想，所以有一群熱血的人就決定要舉辦一個面向 iOS/Mac 開發的技術研討會，現在正在強力徵求講者。\r\n\r\n想要分享自身經驗的人，趕快去投稿吧！單純只想參加的人，也別忘了先把日期預留下來喔！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "juUNies",
+          "type": "Link",
+          "title": "老司机 x 知识小集 x SwiftGG WWDC 18 专题目录",
+          "url_domain": "juejin.im",
+          "url": "https://juejin.im/post/5b1d284df265da6e572b3d87",
+          "description": "<p>WWDC 2018 前不久落幕了，不知道各位開發者對這次的感想如何呢？有開始看 session 了嗎？這裡有一份精美的筆記，先看過一遍再去看感興趣的 session 會更好吸收喔。</p>\n\n<p>也有人整理了一份<a href=\"https://mjtsai.com/blog/2018/06/04/wwdc-2018-links/\">懶人包</a>，內容也是非常齊全！</p>",
+          "description_markdown": "WWDC 2018 前不久落幕了，不知道各位開發者對這次的感想如何呢？有開始看 session 了嗎？這裡有一份精美的筆記，先看過一遍再去看感興趣的 session 會更好吸收喔。\r\n\r\n也有人整理了一份[懶人包](https://mjtsai.com/blog/2018/06/04/wwdc-2018-links/)，內容也是非常齊全！",
+          "embedded_links": [
+            {
+              "identifier": "g3GdRLb",
+              "title": "懶人包",
+              "url_domain": "mjtsai.com",
+              "url": "https://mjtsai.com/blog/2018/06/04/wwdc-2018-links/"
+            }
+          ]
+        },
+        {
+          "identifier": "aVnUe5S",
+          "type": "Link",
+          "title": "Changes after WWDC 2018 - App Store Review Guidelines History",
+          "url_domain": "appstorereviewguidelineshistory.com",
+          "url": "http://www.appstorereviewguidelineshistory.com/articles/2018-06-04-wwdc2018/",
+          "description": "<p>每年 WWDC 之後，蘋果的 App Store Review Guidelines 都會更新，開發者們就得留意這次又更新了哪些條款，及早做出相對應的調整。這個網站很清楚地列出本次又更新哪些東西，我最喜歡的是底下這點：</p>\n\n<ul>\n<li>Apps now must clearly describe new features and changes in the “What’s New” section of the App Store. Several of the large social network companies have been using a practice where they reuse a generic update text for every release and then enable new features remotely on a per-user basis. This appears to no longer be permitted.</li>\n</ul>\n\n\n<p>另外，條款還新增了一個 Developer Code of Conduct，看完之後感覺很有趣，難道 reviewer 時常被罵嗎？（是說被罵也不意外啦，誰叫你們 reviewer 的素質這麼參差不齊）</p>",
+          "description_markdown": "每年 WWDC 之後，蘋果的 App Store Review Guidelines 都會更新，開發者們就得留意這次又更新了哪些條款，及早做出相對應的調整。這個網站很清楚地列出本次又更新哪些東西，我最喜歡的是底下這點：\r\n\r\n- Apps now must clearly describe new features and changes in the “What’s New” section of the App Store. Several of the large social network companies have been using a practice where they reuse a generic update text for every release and then enable new features remotely on a per-user basis. This appears to no longer be permitted.\r\n\r\n另外，條款還新增了一個 Developer Code of Conduct，看完之後感覺很有趣，難道 reviewer 時常被罵嗎？（是說被罵也不意外啦，誰叫你們 reviewer 的素質這麼參差不齊）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "znqVCvG",
+          "type": "Link",
+          "title": "React Native at Airbnb",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c",
+          "description": "<p>Airbnb 算是少數幾個嘗試 React Native 的先驅之一，它們也分享過許多導入的經驗。經過了兩年的嘗試，它們決定要放棄 React Native，回到原生開發的方式。這一系列文章（總共五篇）說明了它們為何要導入、中間踩到什麼坑、為什麼成果不如預期、接下來的計劃等心得，非常值得正在使用或打算使用 React Native 的人參考。</p>\n\n<p>當然，它們的心得也只是一個參考，每個團隊的組成跟運作方式不同，結果也會不同。例如 <a href=\"http://artsy.github.io/series/react-native-at-artsy/\">Artsy</a> 就用得很開心，並且正在全面轉向 React Native 的懷抱。React Native 本身還是很不錯的，Facebook 也很積極的改善它，它們正計畫<a href=\"http://facebook.github.io/react-native/blog/\">重構整個 React Native</a>！</p>",
+          "description_markdown": "Airbnb 算是少數幾個嘗試 React Native 的先驅之一，它們也分享過許多導入的經驗。經過了兩年的嘗試，它們決定要放棄 React Native，回到原生開發的方式。這一系列文章（總共五篇）說明了它們為何要導入、中間踩到什麼坑、為什麼成果不如預期、接下來的計劃等心得，非常值得正在使用或打算使用 React Native 的人參考。\r\n\r\n當然，它們的心得也只是一個參考，每個團隊的組成跟運作方式不同，結果也會不同。例如 [Artsy](http://artsy.github.io/series/react-native-at-artsy/) 就用得很開心，並且正在全面轉向 React Native 的懷抱。React Native 本身還是很不錯的，Facebook 也很積極的改善它，它們正計畫[重構整個 React Native](http://facebook.github.io/react-native/blog/)！",
+          "embedded_links": [
+            {
+              "identifier": "nyk5wbb",
+              "title": "Artsy",
+              "url_domain": "github.io",
+              "url": "http://artsy.github.io/series/react-native-at-artsy/"
+            },
+            {
+              "identifier": "kNUzdVH",
+              "title": "重構整個 React Native",
+              "url_domain": "github.io",
+              "url": "http://facebook.github.io/react-native/blog/"
+            }
+          ]
+        },
+        {
+          "identifier": "pWLs9eV",
+          "type": "Link",
+          "title": "ReSwift in Practice",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@tobi_86596/reswift-in-practice-1512e0f59eb5",
+          "description": "<p>React + Redux 的架構對網站開發者來說一定不會陌生，但是對 mobile app 開發者來說就不是那麼熟悉了。雖然有 <a href=\"https://github.com/ReSwift/ReSwift\">ReSwift</a> 這個框架，網路上看到的討論還是偏少，除了官方的 sample project 之外也很難找到實際使用的心得（我猜一來是使用的人還不多，二來是真的要寫會寫很長一篇，所以大家懶得寫）。本文作者用了一個真實世界比較會遇到的情境作為案例，說明該如何一步步的使用 ReSwift 開發。</p>\n\n<p>我在公司的專案上，也用 Objective-C 實作 Redux 架構，我自己的感想是「不要照本宣科」，有些概念對 mobile app 開發來說有點畫蛇添足。舉例來說我覺得 Middleware 沒任何好處，真的要處理非同步 action 就等非同步結果回傳之後再 dispatch action 就好。另一個相關的例子是不要把任何動作都定義成 action，只有會改動到 state 的才能當作 action。</p>\n\n<p>還有很多心得可以講，不過這樣篇幅就太長了，有興趣研究架構的人<a href=\"https://www.104.com.tw/job/?jobno=5lvga&amp;jobsource=\">歡迎來跟我當同事</a>！</p>",
+          "description_markdown": "React + Redux 的架構對網站開發者來說一定不會陌生，但是對 mobile app 開發者來說就不是那麼熟悉了。雖然有 [ReSwift](https://github.com/ReSwift/ReSwift) 這個框架，網路上看到的討論還是偏少，除了官方的 sample project 之外也很難找到實際使用的心得（我猜一來是使用的人還不多，二來是真的要寫會寫很長一篇，所以大家懶得寫）。本文作者用了一個真實世界比較會遇到的情境作為案例，說明該如何一步步的使用 ReSwift 開發。\r\n\r\n我在公司的專案上，也用 Objective-C 實作 Redux 架構，我自己的感想是「不要照本宣科」，有些概念對 mobile app 開發來說有點畫蛇添足。舉例來說我覺得 Middleware 沒任何好處，真的要處理非同步 action 就等非同步結果回傳之後再 dispatch action 就好。另一個相關的例子是不要把任何動作都定義成 action，只有會改動到 state 的才能當作 action。\r\n\r\n還有很多心得可以講，不過這樣篇幅就太長了，有興趣研究架構的人[歡迎來跟我當同事](https://www.104.com.tw/job/?jobno=5lvga&jobsource=)！",
+          "embedded_links": [
+            {
+              "identifier": "nmdPJf4",
+              "title": "ReSwift",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReSwift/ReSwift"
+            },
+            {
+              "identifier": "pr6X8LL",
+              "title": "歡迎來跟我當同事",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/job/?jobno=5lvga&jobsource="
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "thejian",
+      "name": "@theJian",
+      "items": [
+        {
+          "identifier": "cM8tnXD",
+          "type": "Link",
+          "title": "Upcoming ESNext features - Part 1",
+          "url_domain": "nec.is",
+          "url": "https://nec.is/writing/upcoming-esnext-features-part-1/",
+          "description": "<p>盘点一些 ECMAScript 新特性的 proposal。除了 pipeline operator，另一个个人很期望的特性就是 <a href=\"https://github.com/tc39/proposal-pattern-matching\">pattern matching</a> 了。</p>",
+          "description_markdown": "盘点一些 ECMAScript 新特性的 proposal。除了 pipeline operator，另一个个人很期望的特性就是 [pattern matching](https://github.com/tc39/proposal-pattern-matching) 了。",
+          "embedded_links": [
+            {
+              "identifier": "YUhmLSA",
+              "title": "pattern matching",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-pattern-matching"
+            }
+          ]
+        },
+        {
+          "identifier": "wcZvG6K",
+          "type": "Link",
+          "title": "JavaScript engine fundamentals: Shapes and Inline Caches",
+          "url_domain": "mathiasbynens.be",
+          "url": "https://mathiasbynens.be/notes/shapes-ics",
+          "description": "<p>Mathias 和 Benedikt 在 JSConf EU 2018 演讲的主题。介绍了 JavaScript Engine 中的一些基础知识，包括 shapes (hidden classes) 和 inline caches。对于想要进一步优化代码的 JavaScript 开发者来说了解 JavaScript Engine 的内部原理是必由之路。</p>",
+          "description_markdown": "Mathias 和 Benedikt 在 JSConf EU 2018 演讲的主题。介绍了 JavaScript Engine 中的一些基础知识，包括 shapes (hidden classes) 和 inline caches。对于想要进一步优化代码的 JavaScript 开发者来说了解 JavaScript Engine 的内部原理是必由之路。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "e118Lwc",
+          "type": "Link",
+          "title": "Using JavaScript modules on the web",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/web/fundamentals/primers/modules",
+          "description": "<p>ES modules 在主流的现代浏览器中都得到了支持。但这并不意味着你应该摆脱 bundlers 了，考虑到性能继续使用 bundlers 打包是更保险的做法。不过在 development 环境下，切换到 ES modules，简化 transpile 的流程也许能帮助你更好更快的开发。</p>",
+          "description_markdown": "ES modules 在主流的现代浏览器中都得到了支持。但这并不意味着你应该摆脱 bundlers 了，考虑到性能继续使用 bundlers 打包是更保险的做法。不过在 development 环境下，切换到 ES modules，简化 transpile 的流程也许能帮助你更好更快的开发。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ftwPKjZ",
+          "type": "Link",
+          "title": "Image Inconsistencies: How and When Browsers Download Images",
+          "url_domain": "csswizardry.com",
+          "url": "https://csswizardry.com/2018/06/image-inconsistencies-how-and-when-browsers-download-images/",
+          "description": "<p><code>background-image</code> 和 <code>&lt;img /&gt;</code> 两种写法会怎样影响图像文件的下载时机呢？乍一眼应该会觉得 <code>background-image</code> 应该至少要等待 CSSOM 构建完成才能开始下载，而 <code>&lt;img /&gt;</code> 需要的是 DOM。如果再考虑上 <code>display: none</code> 的影响呢？作者观察了不同浏览器各自的处理方式。</p>",
+          "description_markdown": "`background-image` 和 `<img />` 两种写法会怎样影响图像文件的下载时机呢？乍一眼应该会觉得 `background-image` 应该至少要等待 CSSOM 构建完成才能开始下载，而 `<img />` 需要的是 DOM。如果再考虑上 `display: none` 的影响呢？作者观察了不同浏览器各自的处理方式。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

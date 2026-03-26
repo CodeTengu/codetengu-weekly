@@ -1,0 +1,409 @@
+{
+  "number": 80,
+  "title": "Issue 80 HTTP 牽到 443 還是 HTTP",
+  "summary": "本期內容涵蓋 Python, Serverless, Management, Design, ReactJS, NodeJS, Career, Golang, YARN, TensorFlow",
+  "url": "https://weekly.codetengu.com/issues/80",
+  "publication_status": "published",
+  "published_at": "2017-03-20T03:15:57+00:00",
+  "updated_at": "2017-03-20T21:12:27+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Forever War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://twitter.com/saiday/status/833915863573024768\">教召報名成功～</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Forever War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [教召報名成功～](https://twitter.com/saiday/status/833915863573024768)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "swKBDxL",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Tl2xg16",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Nb95mcb",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "tSGsAPa",
+              "title": "The Forever War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "7Q4C41w",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "n1va2QM",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ldNNS5V",
+              "title": "教召報名成功～",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday/status/833915863573024768"
+            },
+            {
+              "identifier": "3vlZdw1",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "KNIlidl",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Cx3HQeG",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "t6f7nq0",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "ykb7TbJ",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "7BJ7mk0",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "k0qOGKm",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "H7HBfn7",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "HRzkiEK",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "3zPUckn",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "aveXVlH",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "3YX3JjP",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "DGjvCQQ",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "I2hffRU",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "cDuFUZU",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ad3Nyp5",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "laKlPVM",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "H1rzSup",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "RWD6lp",
+          "type": "Link",
+          "title": "Are Product Managers the New Software Engineers?",
+          "url_domain": "hired.com",
+          "url": "https://hired.com/blog/highlights/product-managers-new-software-engineers/",
+          "description": "<p>先前軟體工程師搶手, 現在 PM 正夯?</p>\n\n<p>好文一篇, 直接節錄一下這篇文章的幾個重點:</p>\n\n<ul>\n<li>2016 年美國的產品經理的薪資 5.9% 的成長, 原本就比資料科學的薪資高, 去年的平均薪資成長幅度更比資料科學相關職缺的薪資成長  2.3% 還高</li>\n<li>成熟的市場拉高了薪資, 好的產品經理比起好的開發者難找</li>\n<li>產品出身的 CEO 開始取代了技術出身的 CEO</li>\n</ul>",
+          "description_markdown": "先前軟體工程師搶手, 現在 PM 正夯? \r\n\r\n好文一篇, 直接節錄一下這篇文章的幾個重點:\r\n\r\n* 2016 年美國的產品經理的薪資 5.9% 的成長, 原本就比資料科學的薪資高, 去年的平均薪資成長幅度更比資料科學相關職缺的薪資成長  2.3% 還高\r\n* 成熟的市場拉高了薪資, 好的產品經理比起好的開發者難找\r\n* 產品出身的 CEO 開始取代了技術出身的 CEO",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "SfnQirn",
+          "type": "Link",
+          "title": "Not Your Father’s Python: Amazing Powerful Frameworks",
+          "url_domain": "signifai.io",
+          "url": "https://blog.signifai.io/not-your-fathers-python-amazing-powerful-frameworks/",
+          "description": "<p>帶點歷史回顧, 滿好讀的一篇文章, 從 Python 的 GIL 開始講起, 原來在 90 年代就有人試著移除 GIL, 換來多執行緒的執行速度提升, 但是結果卻是單執行緒的速度卻慢上一倍。</p>\n\n<p>後來提到了 Twisted 跟 Tornado 的突破, 到後來的 asyncio, 接著比較了幾個 async 的 Framework, 甚至比 go 還快 (?)</p>\n\n<p>看來 Python 3 越來越有譜了啊 ~</p>",
+          "description_markdown": "帶點歷史回顧, 滿好讀的一篇文章, 從 Python 的 GIL 開始講起, 原來在 90 年代就有人試著移除 GIL, 換來多執行緒的執行速度提升, 但是結果卻是單執行緒的速度卻慢上一倍。\r\n\r\n後來提到了 Twisted 跟 Tornado 的突破, 到後來的 asyncio, 接著比較了幾個 async 的 Framework, 甚至比 go 還快 (?)\r\n\r\n看來 Python 3 越來越有譜了啊 ~ ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "srmFISk",
+          "type": "Link",
+          "title": "Managers: let your reports fail ",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/the-mission/managers-let-your-reports-fail-e409a096fccd#.5k0eevm43",
+          "description": "<p>這篇的下面這段又提醒了我一次, 其實我以前這類心態很重, 雖然狀況越來越好了, 但是還是不時會跑出來, 但是應該算是克制的還行。</p>\n\n<pre><code>You may be tempted to handle the ‘hard’ stuff — like jumping into the fray whenever workloads get overwhelming or when higher executives are watching results. You may be tempted to think that only you can truly champion the team.\n\nAfter all, a screw-up from your team could reflect poorly on you, and you’re good at your job, so you aren’t about to let that happen. And in the end, the team (with you at the front) ships the results and gets accolades, so everything’s great, right?\n\nWrong.\n\nThe reality is - you’re stealing. You’re stealing opportunity from your team members to step up and face tasks that scare them.\n</code></pre>\n\n<p>去年年底跟 <a href=\"https://twitter.com/vinta\">@vinta</a> 跟 <a href=\"https://twitter.com/saiday\">@saiday</a> 聊他們都不約而同的分別跟我說「我攬了太多事情在身上」, 我前一陣子似乎才真的知道他們真正的意思。</p>\n\n<p>另外, 很喜歡 Sheryl Sandberg 說的下面這句話:</p>\n\n<blockquote><p>“Leadership is about making others better as a result of your presence, and making sure that impact lasts in your absence.”</p></blockquote>\n\n<p>這句話的真意, 等你要休長假的時候就知道了 XD</p>",
+          "description_markdown": "這篇的下面這段又提醒了我一次, 其實我以前這類心態很重, 雖然狀況越來越好了, 但是還是不時會跑出來, 但是應該算是克制的還行。\r\n\r\n```\r\nYou may be tempted to handle the ‘hard’ stuff — like jumping into the fray whenever workloads get overwhelming or when higher executives are watching results. You may be tempted to think that only you can truly champion the team.\r\n\r\nAfter all, a screw-up from your team could reflect poorly on you, and you’re good at your job, so you aren’t about to let that happen. And in the end, the team (with you at the front) ships the results and gets accolades, so everything’s great, right?\r\n\r\nWrong.\r\n\r\nThe reality is - you’re stealing. You’re stealing opportunity from your team members to step up and face tasks that scare them.\r\n```\r\n\r\n去年年底跟 [@vinta](https://twitter.com/vinta) 跟 [@saiday](https://twitter.com/saiday) 聊他們都不約而同的分別跟我說「我攬了太多事情在身上」, 我前一陣子似乎才真的知道他們真正的意思。\r\n\r\n另外, 很喜歡 Sheryl Sandberg 說的下面這句話:\r\n\r\n> “Leadership is about making others better as a result of your presence, and making sure that impact lasts in your absence.”\r\n\r\n這句話的真意, 等你要休長假的時候就知道了 XD ",
+          "embedded_links": [
+            {
+              "identifier": "sm6vi93",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "V5rdGdv",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        },
+        {
+          "identifier": "bKDFz0C",
+          "type": "Link",
+          "title": "可口可樂的 Serverless 之旅",
+          "url_domain": "ithome.com.tw",
+          "url": "http://www.ithome.com.tw/news/112431",
+          "description": "<p>難得推一下 IThome 的文章, 看了分類還是篇「新聞」? 看來 IOT 真的很適合用 AWS Lambda 啊 ~</p>\n\n<p>不過這篇我覺得比較推的是在講 CI/CD 跟 DevOps 這塊, 以前都覺得 SV 的開發流程沒什麼, 但看多了之後就覺得 SV 真的算是滿完善的, 不是我要說 XD</p>",
+          "description_markdown": "難得推一下 IThome 的文章, 看了分類還是篇「新聞」? 看來 IOT 真的很適合用 AWS Lambda 啊 ~\r\n\r\n不過這篇我覺得比較推的是在講 CI/CD 跟 DevOps 這塊, 以前都覺得 SV 的開發流程沒什麼, 但看多了之後就覺得 SV 真的算是滿完善的, 不是我要說 XD",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "ZjeHejr",
+          "type": "Link",
+          "title": "The best YouTube channels for designers and developers",
+          "url_domain": "uxdesign.cc",
+          "url": "https://uxdesign.cc/the-best-youtube-channels-for-designers-and-developers-eda97b38d46a",
+          "description": "<p>針對 UI/UX Designer 或是前端工程師，這邊收錄很多相關的 YouTube channels ，看到喜歡的就訂閱吧！</p>",
+          "description_markdown": "針對 UI/UX Designer 或是前端工程師，這邊收錄很多相關的 YouTube channels ，看到喜歡的就訂閱吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "HbmSZgU",
+          "type": "Link",
+          "title": "Functional setState is the future of React",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/functional-setstate-is-the-future-of-react-374f30401b6b",
+          "description": "<p>如果你是 React 的開發者，那你一定用過 setState ，但 <a href=\"https://facebook.github.io/react/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous\">state 的更新可能是非同步的</a>，所以當有多個 setState 執行的情況，計算過的資料有可能是不正確的，而 setState 這個 function 其實也可以帶入 function 作為參數，這樣多個 setState 在 react 內部被批次執行的情況下，就會按照順序執行，建議大家都可以試著用這種方式來更新 state 。</p>",
+          "description_markdown": "如果你是 React 的開發者，那你一定用過 setState ，但 [state 的更新可能是非同步的](https://facebook.github.io/react/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous)，所以當有多個 setState 執行的情況，計算過的資料有可能是不正確的，而 setState 這個 function 其實也可以帶入 function 作為參數，這樣多個 setState 在 react 內部被批次執行的情況下，就會按照順序執行，建議大家都可以試著用這種方式來更新 state 。",
+          "embedded_links": [
+            {
+              "identifier": "ISbH5Sz",
+              "title": "state 的更新可能是非同步的",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous"
+            }
+          ]
+        },
+        {
+          "identifier": "ira7zSf",
+          "type": "Link",
+          "title": "Before you bury yourself in packages, learn the Node.js runtime itself",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/before-you-bury-yourself-in-packages-learn-the-node-js-runtime-itself-f9031fbd8b69",
+          "description": "<p>不同於別的 tutorial 介紹 ecosystem，本篇文章探討 Node.js 的 runtime ，文內有不同關於大家必須了解的 Node.js 相關問題，以及幫助學習 JavaScript 的方向，像是語言特性以及 ES6 ，以及對 Event Loop 的理解都是非常重要的。</p>",
+          "description_markdown": "不同於別的 tutorial 介紹 ecosystem，本篇文章探討 Node.js 的 runtime ，文內有不同關於大家必須了解的 Node.js 相關問題，以及幫助學習 JavaScript 的方向，像是語言特性以及 ES6 ，以及對 Event Loop 的理解都是非常重要的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "2RpQe4J",
+          "type": "Link",
+          "title": "Introducing React Loadable",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@thejameskyle/react-loadable-2674c59de178",
+          "description": "<p>有別於基於 Route-based 的 code splitting ， Component-based splitting 進一步將一些像是 modals 、 tabs 等等隱藏的 component 分離，待使用者需要時才 loading 。可以透過 <a href=\"https://github.com/tc39/proposal-dynamic-import\">dynamic import</a> 來實作，但還要解決 import failed 以及 server-side rendering 的支援，透過 React Loadable 這套 third party library 可以方便的處理這些事。</p>",
+          "description_markdown": "有別於基於 Route-based 的 code splitting ， Component-based splitting 進一步將一些像是 modals 、 tabs 等等隱藏的 component 分離，待使用者需要時才 loading 。可以透過 [dynamic import](https://github.com/tc39/proposal-dynamic-import) 來實作，但還要解決 import failed 以及 server-side rendering 的支援，透過 React Loadable 這套 third party library 可以方便的處理這些事。",
+          "embedded_links": [
+            {
+              "identifier": "z8Dod1I",
+              "title": "dynamic import",
+              "url_domain": "github.com",
+              "url": "https://github.com/tc39/proposal-dynamic-import"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "WwZPWRN",
+          "type": "Link",
+          "title": "Why I Don't Talk to Google Recruiters (為何我再也不跟 Google 的招募人員講話了)",
+          "url_domain": "yegor256.com",
+          "url": "http://www.yegor256.com/2017/02/21/say-no-to-google-recruiters.html",
+          "description": "<p>這篇文章很有趣，其實是前幾個禮拜看到的文章，內容就是提到說因為招募的人都不是要雇用自己的單位．淪落到每次去面試都是考一些不是自己熟悉的部分，面試官也只是為了刁難而刁難失去了面試的精髓．</p>\n\n<p>又把它翻出來看．因為最近一堆大神在自己的 Twitter 上面自嘲說即使是像自己工作了那麼多年，寫程式依舊需要 Google 或是依舊不會在白板上面寫出一些演算法考題</p>\n\n<p>以下收集大神自嘲列表:</p>\n\n<ol>\n<li><p><a href=\"https://twitter.com/dhh/status/834146806594433025\">DHH</a> (Ruby on Rails 發明人、Basecamp 創辦人兼 CTO) 自嘲不會在白板上面寫 Bubble Sort</p></li>\n<li><p><a href=\"https://twitter.com/tdierks/status/835912924329836545\">Tim Dierks</a> 身為 Google Security 的 Lead  並且有三十年的程式經驗也說自己需要 Google 才能拿到 Python String 的長度</p></li>\n</ol>\n\n\n<p>歡迎提供其他大神自嘲 Tweet</p>",
+          "description_markdown": "這篇文章很有趣，其實是前幾個禮拜看到的文章，內容就是提到說因為招募的人都不是要雇用自己的單位．淪落到每次去面試都是考一些不是自己熟悉的部分，面試官也只是為了刁難而刁難失去了面試的精髓．\r\n\r\n又把它翻出來看．因為最近一堆大神在自己的 Twitter 上面自嘲說即使是像自己工作了那麼多年，寫程式依舊需要 Google 或是依舊不會在白板上面寫出一些演算法考題\r\n\r\n以下收集大神自嘲列表:\r\n\r\n1. [DHH](https://twitter.com/dhh/status/834146806594433025) (Ruby on Rails 發明人、Basecamp 創辦人兼 CTO) 自嘲不會在白板上面寫 Bubble Sort\r\n\r\n2. [Tim Dierks](https://twitter.com/tdierks/status/835912924329836545) 身為 Google Security 的 Lead  並且有三十年的程式經驗也說自己需要 Google 才能拿到 Python String 的長度\r\n\r\n歡迎提供其他大神自嘲 Tweet  ",
+          "embedded_links": [
+            {
+              "identifier": "Do6GE0X",
+              "title": "DHH",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/dhh/status/834146806594433025"
+            },
+            {
+              "identifier": "7HHhk1S",
+              "title": "Tim Dierks",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tdierks/status/835912924329836545"
+            }
+          ]
+        },
+        {
+          "identifier": "5jsZPwG",
+          "type": "Link",
+          "title": "Linux, Netlink, and Go — Part 1: netlink – Medium",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mdlayher/linux-netlink-and-go-part-1-netlink-4781aaeeaca8#.th74209kd",
+          "description": "<p>透過 Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 \"Netlink\"</p>\n\n<p>本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink</p>\n\n<p>[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．</p>\n\n<p>Netlink Socket 優點:</p>\n\n<ol>\n<li>透過 UDP 沒有 ioctl 的 kernel round trip time</li>\n<li>可以一次發給同一個 group 中的 user process</li>\n</ol>\n\n\n<p>缺點:</p>\n\n<ol>\n<li>UDP 老問題.. 你不確定對方有沒有收到</li>\n<li>由於透過 socket 其實感覺不如 ioctl 那麼的直覺</li>\n</ol>\n\n\n<p>這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看</p>\n\n<p>BTW: Prometheus 的 node_exporter 感覺很好用??</p>\n\n<p><a href=\"https://github.com/mdlayher/netlink\">Netlink Go package</a>:</p>\n\n<p>關於 Netlink Socket 可以<a href=\"http://daydreamer.idv.tw/rewrite.php/read-47.html\">參考</a></p>",
+          "description_markdown": "透過 Golang 來介紹 Linux 中與 Kernel 溝通的另外一種方式 \"Netlink\"\r\n\r\n本文的作者原來是在看 Prometheus 的一個工具 node_exporter 的時候發現一個跟 WiFi 的有關的 issue ，看了幾個禮拜後發現是 ioctl 太慢了... 於是就決定要換成 Netlink\r\n\r\n[科普]  Netlink Socket 是一種在透過 kernel 來傳遞訊息的方式，但是跟一般常用的 ioctl 不同的是 Netlink 透過 udp 來傳遞，不需要像 ioctl 一樣需要有透過 response ，所以他的速度比較快．\r\n\r\nNetlink Socket 優點: \r\n\r\n1. 透過 UDP 沒有 ioctl 的 kernel round trip time\r\n2. 可以一次發給同一個 group 中的 user process\r\n\r\n缺點:\r\n\r\n1. UDP 老問題.. 你不確定對方有沒有收到\r\n2. 由於透過 socket 其實感覺不如 ioctl 那麼的直覺\r\n\r\n這篇文章也附上透過 Go 來實作 Netlink 的 github 可以看看\r\n\r\nBTW: Prometheus 的 node_exporter 感覺很好用??\r\n\r\n[Netlink Go package](https://github.com/mdlayher/netlink): \r\n\r\n關於 Netlink Socket 可以[參考](http://daydreamer.idv.tw/rewrite.php/read-47.html)",
+          "embedded_links": [
+            {
+              "identifier": "1baM02C",
+              "title": "Netlink Go package",
+              "url_domain": "github.com",
+              "url": "https://github.com/mdlayher/netlink"
+            },
+            {
+              "identifier": "IR4QRBr",
+              "title": "參考",
+              "url_domain": "daydreamer.idv.tw",
+              "url": "http://daydreamer.idv.tw/rewrite.php/read-47.html"
+            }
+          ]
+        },
+        {
+          "identifier": "FOyAeBk",
+          "type": "Link",
+          "title": "fatih/gomodifytags: Go tool to modify struct field tags",
+          "url_domain": "github.com",
+          "url": "https://github.com/fatih/gomodifytags?utm_content=buffer6c7b4&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>vim-go 出了一個更好的工具，就是 GoAddTags 可以幫你直接在資料內加上 Structure Tag (json, xml, bson)</p>\n\n<p>可以很快速地增加，減少或是更改內容． 再也不會不小心打錯 structure tag 了</p>",
+          "description_markdown": "vim-go 出了一個更好的工具，就是 GoAddTags 可以幫你直接在資料內加上 Structure Tag (json, xml, bson) \r\n\r\n可以很快速地增加，減少或是更改內容． 再也不會不小心打錯 structure tag 了",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yQUIa1d",
+          "type": "Link",
+          "title": "Apache Hadoop YARN: Yet another resource negotiator | the morning paper",
+          "url_domain": "acolyer.org",
+          "url": "https://blog.acolyer.org/2017/01/09/apache-hadoop-yarn-yet-another-resource-negotiator/",
+          "description": "<p>Morning Paper 是一個會每天讀一篇論文，然後幫你寫導讀跟介紹的網站． 裡面論文的精彩程度是每個做軟體工程師不可不讀的．</p>\n\n<p>之前一系列的 Deep Learning 之後，作者準備要來好好讀讀分散式系統了． 所選的第一篇論文就是這篇 Hadoop YARN 的論文．</p>\n\n<p>YARN 是從 Hadoop 2.0 之後從 Hadoop 中抽出來的架構．本篇論文裡面的 YARN 還無法解決 SPOF ．  (Hadoop 2.4 之後有支援 HA)</p>\n\n<p>本篇論文也有討論到底 Mesos 跟 YARN 有什麼差異:</p>\n\n<p>Mesos -> Offer-based approach\nYARN  -> Request-based approach</p>\n\n<p><strong>同場加映:</strong></p>\n\n<p>有沒有辦法把 Mesos 跟 Hadoop YARN  一起用呢?  可以看看<a href=\"http://www.gegugu.com/2016/01/04/6372.html\">這篇文章</a></p>",
+          "description_markdown": "Morning Paper 是一個會每天讀一篇論文，然後幫你寫導讀跟介紹的網站． 裡面論文的精彩程度是每個做軟體工程師不可不讀的．\r\n\r\n之前一系列的 Deep Learning 之後，作者準備要來好好讀讀分散式系統了． 所選的第一篇論文就是這篇 Hadoop YARN 的論文．\r\n\r\nYARN 是從 Hadoop 2.0 之後從 Hadoop 中抽出來的架構．本篇論文裡面的 YARN 還無法解決 SPOF ．  (Hadoop 2.4 之後有支援 HA)\r\n\r\n本篇論文也有討論到底 Mesos 跟 YARN 有什麼差異:\r\n\r\nMesos -> Offer-based approach\r\nYARN  -> Request-based approach\r\n\r\n**同場加映:**\r\n\r\n有沒有辦法把 Mesos 跟 Hadoop YARN  一起用呢?  可以看看[這篇文章](http://www.gegugu.com/2016/01/04/6372.html)",
+          "embedded_links": [
+            {
+              "identifier": "2C1GsKV",
+              "title": "這篇文章",
+              "url_domain": "gegugu.com",
+              "url": "http://www.gegugu.com/2016/01/04/6372.html"
+            }
+          ]
+        },
+        {
+          "identifier": "1EPulS0",
+          "type": "Link",
+          "title": "Stanford University: Tensorflow for Deep Learning Research",
+          "url_domain": "stanford.edu",
+          "url": "http://web.stanford.edu/class/cs20si/syllabus.html?1488584322269=1",
+          "description": "<p>Stanford 在今年一月有公開他們的 TensorFlow 課程，內容相當的廣泛並且有相當多的資訊可以參考． 這個鏈結中有相關的課堂投影片與筆記．</p>\n\n<p>如果覺得這個太複雜，幾個簡單的資訊分享一下:</p>\n\n<ol>\n<li><p><a href=\"https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/\">Google Codelab - Tensorflow for Poets:</a>\n就算你不是資料科學家也可以跑跑這個 codelab ，隨著一步步的指導可以很快速地學會怎麼在本地端透過 docker 來跑跑 Tensorflow 運算一個結果．</p></li>\n<li><p><a href=\"https://github.com/kazunori279/TensorFlow-Intro/blob/master/0.%20Preparation.ipynb#\">Google Tensorflow-Intro Codelab</a>:\n今天在 Google 開放比較豐富的內容，這個 codelab 你會學到使用 BigQuery, Google Cloud 跟一些簡單的 Deep Learning 概念．並且透過 Jupyter Notebook 來跑跑看一些 Deep Learning 的範例．</p></li>\n</ol>",
+          "description_markdown": "Stanford 在今年一月有公開他們的 TensorFlow 課程，內容相當的廣泛並且有相當多的資訊可以參考． 這個鏈結中有相關的課堂投影片與筆記．\r\n\r\n如果覺得這個太複雜，幾個簡單的資訊分享一下:\r\n\r\n1. [Google Codelab - Tensorflow for Poets:](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/)\r\n就算你不是資料科學家也可以跑跑這個 codelab ，隨著一步步的指導可以很快速地學會怎麼在本地端透過 docker 來跑跑 Tensorflow 運算一個結果．\r\n\r\n2. [Google Tensorflow-Intro Codelab](https://github.com/kazunori279/TensorFlow-Intro/blob/master/0.%20Preparation.ipynb#): \r\n今天在 Google 開放比較豐富的內容，這個 codelab 你會學到使用 BigQuery, Google Cloud 跟一些簡單的 Deep Learning 概念．並且透過 Jupyter Notebook 來跑跑看一些 Deep Learning 的範例．\r\n",
+          "embedded_links": [
+            {
+              "identifier": "4ueGERl",
+              "title": "Google Codelab - Tensorflow for Poets:",
+              "url_domain": "google.com",
+              "url": "https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/"
+            },
+            {
+              "identifier": "m79BqtH",
+              "title": "Google Tensorflow-Intro Codelab",
+              "url_domain": "github.com",
+              "url": "https://github.com/kazunori279/TensorFlow-Intro/blob/master/0.%20Preparation.ipynb#"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

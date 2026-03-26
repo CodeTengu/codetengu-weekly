@@ -1,0 +1,502 @@
+{
+  "number": 12,
+  "title": "Issue 12 聽說 Hadoop 工程師睡不著的時候都會 Map/Reduce 羊",
+  "summary": "本期內容涵蓋 Python, Docker, Android, iOS, Vim, Machine Learning, PHP",
+  "url": "https://weekly.codetengu.com/issues/12",
+  "publication_status": "published",
+  "published_at": "2015-10-19T03:00:00+01:00",
+  "updated_at": "2016-05-13T17:01:37+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 都各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <strong>捷運飲食推廣員</strong></li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>最近交了一個很正的女朋友，大家都很生氣</strong></li>\n</ul>\n\n\n<p>至於挑選出 curator 的方式從疊疊樂、脫衣麻將、電椅大風吹到俄羅斯輪盤都有可能，在可預見的未來，我們的 curator 人數應該會越來越少，所以希望各位不怕死的朋友們可以考慮來當當看 curator。</p>\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 都各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n本期 curators：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - **無法通過圖靈測試的程序員**\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - **捷運飲食推廣員**\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **最近交了一個很正的女朋友，大家都很生氣**\r\n\r\n至於挑選出 curator 的方式從疊疊樂、脫衣麻將、電椅大風吹到俄羅斯輪盤都有可能，在可預見的未來，我們的 curator 人數應該會越來越少，所以希望各位不怕死的朋友們可以考慮來當當看 curator。\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "fdMFl0Y",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "Y5dNK6D",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "VtbrWY",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "e6l0s85",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "mIAZPh",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "gasqIlA",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "yNST0u5",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "cufWE1Z",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "puInTfV",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "dyGORvD",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "sdj95TB",
+          "type": "Link",
+          "title": "Safari Books Online",
+          "url_domain": "safaribooksonline.com",
+          "url": "https://www.safaribooksonline.com/home/",
+          "description": "<p>Safari 是 O'Reilly Media（歐萊禮）旗下的電子書平台，包含 O'Reilly、Addison-Wesley、Apress、Manning、Packt 這幾家常見的出版社的書在上面都有。每個月 39 美金吃到飽，全站的書（包含很多 Early Release 的書）都可以看到爽，除了可以在網站上閱讀之外，也可以下載到 iOS 和 Android 裝置上看。如果你像我一樣只看電子書的話，根本找不到理由不用這個服務，因為實在太划算了。畢竟在 Amazon 上隨便買本書就不只 39 美金了。</p>\n\n<p>第一次註冊的帳號有 10 天的 free trial，功能跟付費用戶完全一樣，大家可以去感受一下。它最棒的功能就是可以對網站上「<strong>所有的書</strong>」的內容做全文檢索，點進去就是直接到那本書的那個段落，整個體驗好到尿褲子。</p>\n\n<p>另外，Packt 最近也有個 <a href=\"https://www.packtpub.com/packt/offers/pythonweek/\">Python Week 2015</a> 的活動，很多 Python 的書都在大特價。</p>",
+          "description_markdown": "Safari 是 O'Reilly Media（歐萊禮）旗下的電子書平台，包含 O'Reilly、Addison-Wesley、Apress、Manning、Packt 這幾家常見的出版社的書在上面都有。每個月 39 美金吃到飽，全站的書（包含很多 Early Release 的書）都可以看到爽，除了可以在網站上閱讀之外，也可以下載到 iOS 和 Android 裝置上看。如果你像我一樣只看電子書的話，根本找不到理由不用這個服務，因為實在太划算了。畢竟在 Amazon 上隨便買本書就不只 39 美金了。\r\n\r\n第一次註冊的帳號有 10 天的 free trial，功能跟付費用戶完全一樣，大家可以去感受一下。它最棒的功能就是可以對網站上「**所有的書**」的內容做全文檢索，點進去就是直接到那本書的那個段落，整個體驗好到尿褲子。\r\n\r\n另外，Packt 最近也有個 [Python Week 2015](https://www.packtpub.com/packt/offers/pythonweek/) 的活動，很多 Python 的書都在大特價。",
+          "embedded_links": [
+            {
+              "identifier": "sO6dqJT",
+              "title": "Python Week 2015",
+              "url_domain": "packtpub.com",
+              "url": "https://www.packtpub.com/packt/offers/pythonweek/"
+            }
+          ]
+        },
+        {
+          "identifier": "5cNpls9",
+          "type": "Link",
+          "title": "Writing Idiomatic Python Book",
+          "url_domain": "jeffknupp.com",
+          "url": "https://www.jeffknupp.com/writing-idiomatic-python-ebook/",
+          "description": "<p>這是一本教你如何寫出更加 Pythonic 程式碼（還會告訴你為什麼這麼寫比較好）的電子書，建議大家直接買 Python 3 的版本，因為其實你完全可以在 Python 2.7 使用絕大部份 Python 3 的新語法和新特性。當然，如果是 Python 3.5 才新增的 <code>%</code> 和 <code>async/await</code> 的話，那就沒辦法了。</p>\n\n<p>這本書的作者就是 <a href=\"https://www.jeffknupp.com/\">Jeff Knupp</a>，知名的 Python developer，他的部落格也有很多高質量的技術文章，非常推薦。</p>\n\n<p>P.S. 值得一提的是，雖然這本電子書才賣 $9.99 美元，但是作者說如果你真的負擔不起這個價錢，你就發個 email 跟他說，他就免費送你一本，完全是在做功德啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://book.pythontips.com/en/latest/\">Intermediate Python</a> - <a href=\"http://weekly.codetengu.com/issues/4#WTELtcv\">@tzangms</a> 之前有提到過這本書</li>\n</ul>",
+          "description_markdown": "這是一本教你如何寫出更加 Pythonic 程式碼（還會告訴你為什麼這麼寫比較好）的電子書，建議大家直接買 Python 3 的版本，因為其實你完全可以在 Python 2.7 使用絕大部份 Python 3 的新語法和新特性。當然，如果是 Python 3.5 才新增的 `%` 和 `async/await` 的話，那就沒辦法了。\r\n\r\n這本書的作者就是 [Jeff Knupp](https://www.jeffknupp.com/)，知名的 Python developer，他的部落格也有很多高質量的技術文章，非常推薦。\r\n\r\nP.S. 值得一提的是，雖然這本電子書才賣 $9.99 美元，但是作者說如果你真的負擔不起這個價錢，你就發個 email 跟他說，他就免費送你一本，完全是在做功德啊。\r\n\r\n延伸閱讀：\r\n\r\n- [Intermediate Python](http://book.pythontips.com/en/latest/) - [@tzangms](http://weekly.codetengu.com/issues/4#WTELtcv) 之前有提到過這本書",
+          "embedded_links": [
+            {
+              "identifier": "r7lWvbm",
+              "title": "Jeff Knupp",
+              "url_domain": "jeffknupp.com",
+              "url": "https://www.jeffknupp.com/"
+            },
+            {
+              "identifier": "T3maF0S",
+              "title": "Intermediate Python",
+              "url_domain": "pythontips.com",
+              "url": "http://book.pythontips.com/en/latest/"
+            },
+            {
+              "identifier": "OjwnNQI",
+              "title": "@tzangms",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/4#WTELtcv"
+            }
+          ]
+        },
+        {
+          "identifier": "NF31TaC",
+          "type": "Link",
+          "title": "CAP 理论十二年回顾：\"规则\" 变了",
+          "url_domain": "infoq.com",
+          "url": "http://www.infoq.com/cn/articles/cap-twelve-years-later-how-the-rules-have-changed",
+          "description": "<p>有人說「CAP 定理」就像是分散式系統的相對論，每個人都聽過，但是能夠給出一個精確解釋的人卻不多（更不要提什麼是 Paxos 了），但是你看完這篇文章一定就會懂了。本文的作者正是當年提出 CAP 理論的 Eric Brewer。</p>\n\n<p>基本上在一個分散式（分布式）的系統裡，P 是無可避免的，所以真正的問題是：一旦發生了 P，到底 C 還是 A 對你來說比較重要？作者有提到一個從 ATM 領錢的例子，我們都會直覺地認為 Consistency 對這種跟錢有關的業務是最重要的，所以 ATM 的網路一旦中斷了，就不應該讓用戶提款。但是實際上銀行還是選擇了 Availability 讓用戶能夠提款（但是限制提款金額，降低風險），然後透過事後的審計消除這個問題。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.julianbrowne.com/article/viewer/brewers-cap-theorem\">Brewer's CAP Theorem</a></li>\n<li><a href=\"http://highscalability.com/blog/2013/5/1/myth-eric-brewer-on-why-banks-are-base-not-acid-availability.html\">Myth: Eric Brewer On Why Banks Are BASE Not ACID - Availability Is Revenue</a></li>\n</ul>",
+          "description_markdown": "有人說「CAP 定理」就像是分散式系統的相對論，每個人都聽過，但是能夠給出一個精確解釋的人卻不多（更不要提什麼是 Paxos 了），但是你看完這篇文章一定就會懂了。本文的作者正是當年提出 CAP 理論的 Eric Brewer。\r\n\r\n基本上在一個分散式（分布式）的系統裡，P 是無可避免的，所以真正的問題是：一旦發生了 P，到底 C 還是 A 對你來說比較重要？作者有提到一個從 ATM 領錢的例子，我們都會直覺地認為 Consistency 對這種跟錢有關的業務是最重要的，所以 ATM 的網路一旦中斷了，就不應該讓用戶提款。但是實際上銀行還是選擇了 Availability 讓用戶能夠提款（但是限制提款金額，降低風險），然後透過事後的審計消除這個問題。\r\n\r\n延伸閱讀：\r\n\r\n- [Brewer's CAP Theorem](http://www.julianbrowne.com/article/viewer/brewers-cap-theorem)\r\n- [Myth: Eric Brewer On Why Banks Are BASE Not ACID - Availability Is Revenue](http://highscalability.com/blog/2013/5/1/myth-eric-brewer-on-why-banks-are-base-not-acid-availability.html)",
+          "embedded_links": [
+            {
+              "identifier": "DVgKBa9",
+              "title": "Brewer's CAP Theorem",
+              "url_domain": "julianbrowne.com",
+              "url": "http://www.julianbrowne.com/article/viewer/brewers-cap-theorem"
+            },
+            {
+              "identifier": "OEi8jXv",
+              "title": "Myth: Eric Brewer On Why Banks Are BASE Not ACID - Availability Is Revenue",
+              "url_domain": "highscalability.com",
+              "url": "http://highscalability.com/blog/2013/5/1/myth-eric-brewer-on-why-banks-are-base-not-acid-availability.html"
+            }
+          ]
+        },
+        {
+          "identifier": "yPVLv4j",
+          "type": "Link",
+          "title": "关于 Web 安全，99% 的网站都忽略了这些",
+          "url_domain": "wilddog.com",
+          "url": "https://blog.wilddog.com/?p=290",
+          "description": "<p>這是一篇講 web 資訊安全的科普文章，概略地介紹了 XSS、CSRF 等在瀏覽器中常見的攻擊手法，而一個主要的預防方式就是正確地使用 HTTP headers，這個部分的資訊在 <a href=\"http://devco.re/blog/category/%E6%8A%80%E8%A1%93%E5%B0%88%E6%AC%84/\">DEVCORE 的技術專欄</a>中有更詳細的解說，值得一讀。</p>\n\n<p>P.S. 本文作者所任職的是一家做 BaaS（Backend as a Service，類似 <a href=\"https://parse.com/\">Parse</a>）服務的 startup，但是有趣的是這家公司竟然還辦了一個<a href=\"https://hacker.wilddog.com/\">搖滾音樂節</a>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.freebuf.com/articles/web/73669.html\">Python 安全编码与代码审计</a></li>\n</ul>",
+          "description_markdown": "這是一篇講 web 資訊安全的科普文章，概略地介紹了 XSS、CSRF 等在瀏覽器中常見的攻擊手法，而一個主要的預防方式就是正確地使用 HTTP headers，這個部分的資訊在 [DEVCORE 的技術專欄](http://devco.re/blog/category/%E6%8A%80%E8%A1%93%E5%B0%88%E6%AC%84/)中有更詳細的解說，值得一讀。\r\n\r\nP.S. 本文作者所任職的是一家做 BaaS（Backend as a Service，類似 [Parse](https://parse.com/)）服務的 startup，但是有趣的是這家公司竟然還辦了一個[搖滾音樂節](https://hacker.wilddog.com/)。\r\n\r\n延伸閱讀：\r\n\r\n- [Python 安全编码与代码审计](http://www.freebuf.com/articles/web/73669.html)",
+          "embedded_links": [
+            {
+              "identifier": "Dd6OOI",
+              "title": "DEVCORE 的技術專欄",
+              "url_domain": "devco.re",
+              "url": "http://devco.re/blog/category/%E6%8A%80%E8%A1%93%E5%B0%88%E6%AC%84/"
+            },
+            {
+              "identifier": "pB8GHBF",
+              "title": "Parse",
+              "url_domain": "parse.com",
+              "url": "https://parse.com/"
+            },
+            {
+              "identifier": "2B49VQC",
+              "title": "搖滾音樂節",
+              "url_domain": "wilddog.com",
+              "url": "https://hacker.wilddog.com/"
+            },
+            {
+              "identifier": "fwmRe7c",
+              "title": "Python 安全编码与代码审计",
+              "url_domain": "freebuf.com",
+              "url": "http://www.freebuf.com/articles/web/73669.html"
+            }
+          ]
+        },
+        {
+          "identifier": "q7LUbes",
+          "type": "Link",
+          "title": "大家都用 Docker 來幹麻？",
+          "url_domain": "github.com",
+          "url": "https://github.com/DevOpsTW/AMA/issues/2",
+          "description": "<p>這是我前陣子在 <a href=\"https://www.facebook.com/groups/DevOpsTaiwan/\">DevOps Taiwan</a> 的 AMA repo 上問的問題，一直覺得很好奇，希望有相關經驗的程序員們可以來分享一下在大小團隊裡針對 Docker 的 use cases。</p>\n\n<p>AMA 就是 Ask Me Anything 的縮寫，典故來自 Reddit 的一個討論版，上面會不定期地有名人或擁有特殊經歷的人現身讓網友問他或她任何問題。然後不知道從什麼時候開始，有一些知名的程序員也在他們自己的 GitHub 上開了一個 AMA repo，讓大家問他們任何問題，最近也開始有一些組織開設了 AMA。</p>\n\n<p>P.S. 我越來越相信所有關於 developers 的事情最終都可以在 GitHub 上解決了。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://github.com/sindresorhus/amas\">awesome-amas</a></li>\n<li><a href=\"https://github.com/rubytaiwan/AMA\">Ruby Taiwan AMA</a></li>\n</ul>",
+          "description_markdown": "這是我前陣子在 [DevOps Taiwan](https://www.facebook.com/groups/DevOpsTaiwan/) 的 AMA repo 上問的問題，一直覺得很好奇，希望有相關經驗的程序員們可以來分享一下在大小團隊裡針對 Docker 的 use cases。\r\n\r\nAMA 就是 Ask Me Anything 的縮寫，典故來自 Reddit 的一個討論版，上面會不定期地有名人或擁有特殊經歷的人現身讓網友問他或她任何問題。然後不知道從什麼時候開始，有一些知名的程序員也在他們自己的 GitHub 上開了一個 AMA repo，讓大家問他們任何問題，最近也開始有一些組織開設了 AMA。\r\n\r\nP.S. 我越來越相信所有關於 developers 的事情最終都可以在 GitHub 上解決了。\r\n\r\n延伸閱讀：\r\n\r\n- [awesome-amas](https://github.com/sindresorhus/amas)\r\n- [Ruby Taiwan AMA](https://github.com/rubytaiwan/AMA)",
+          "embedded_links": [
+            {
+              "identifier": "qRaixUE",
+              "title": "DevOps Taiwan",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/DevOpsTaiwan/"
+            },
+            {
+              "identifier": "GtefB5z",
+              "title": "awesome-amas",
+              "url_domain": "github.com",
+              "url": "https://github.com/sindresorhus/amas"
+            },
+            {
+              "identifier": "4iD9zHa",
+              "title": "Ruby Taiwan AMA",
+              "url_domain": "github.com",
+              "url": "https://github.com/rubytaiwan/AMA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "wF1kx77",
+          "type": "Link",
+          "title": "Fragmented - An Android Developer Podcast",
+          "url_domain": "fragmentedpodcast.com",
+          "url": "http://fragmentedpodcast.com/",
+          "description": "<p>這是一個專門在聊 Android development 的 Podcast 頻道，內容很充實錄音的品質也很好。討論內容主要是針對 Android 開發上的知識、架構、工具，我聽了幾集很是驚喜。主持人是經驗豐富的 Android 開發者，可以舉出很多實際上的例子然後分析討論或是給出一些 Android 開發的 best practice。</p>\n\n<p>如果不知道要從哪一集先開始聽，我覺得這兩集都很不錯：</p>\n\n<ul>\n<li><a href=\"http://fragmentedpodcast.com/episodes/11/\">The Fowler Road to a Clean Architecture</a></li>\n<li><a href=\"http://fragmentedpodcast.com/episodes/6/\">Becoming a Better Developer and Creating Successful Open Source Projects</a></li>\n</ul>\n\n\n<p>聽說通勤的時間最適合拿來聽 Podcast 了，大家可以試試看，雖然我都是在睡覺前聽。</p>",
+          "description_markdown": "這是一個專門在聊 Android development 的 Podcast 頻道，內容很充實錄音的品質也很好。討論內容主要是針對 Android 開發上的知識、架構、工具，我聽了幾集很是驚喜。主持人是經驗豐富的 Android 開發者，可以舉出很多實際上的例子然後分析討論或是給出一些 Android 開發的 best practice。  \r\n\r\n如果不知道要從哪一集先開始聽，我覺得這兩集都很不錯：\r\n\r\n- [The Fowler Road to a Clean Architecture](http://fragmentedpodcast.com/episodes/11/)\r\n- [Becoming a Better Developer and Creating Successful Open Source Projects](http://fragmentedpodcast.com/episodes/6/)\r\n\r\n聽說通勤的時間最適合拿來聽 Podcast 了，大家可以試試看，雖然我都是在睡覺前聽。",
+          "embedded_links": [
+            {
+              "identifier": "koQzqKZ",
+              "title": "The Fowler Road to a Clean Architecture",
+              "url_domain": "fragmentedpodcast.com",
+              "url": "http://fragmentedpodcast.com/episodes/11/"
+            },
+            {
+              "identifier": "poXr3yH",
+              "title": "Becoming a Better Developer and Creating Successful Open Source Projects",
+              "url_domain": "fragmentedpodcast.com",
+              "url": "http://fragmentedpodcast.com/episodes/6/"
+            }
+          ]
+        },
+        {
+          "identifier": "uNOif9K",
+          "type": "Link",
+          "title": "给 Android 开发者的 RxJava 详解",
+          "url_domain": "gank.io",
+          "url": "http://gank.io/post/560e15be2dca930e00da1083",
+          "description": "<p>RxJava 熱大概也好一陣子了，這篇是我看過最完整的中文介紹。從基本的介紹到與 <a href=\"https://github.com/square/retrofit\">Retrofit</a> 的結合、<a href=\"https://github.com/JakeWharton/RxBinding\">RxBinding</a> 的擴充，滿滿的實戰味道。</p>\n\n<p>作者文末的寫作動機我覺得有必要引言給大家參考：</p>\n\n<blockquote><p>與兩三年前的境況不同，中國現在已經不缺初級 Android 工程師，但中級和高級工程師嚴重供不應求。因此我決定從今天開始不定期地發佈我的技術分享，只希望能夠和大家共同提升，通過我們的成長來解決一點點國內互聯網公司人才稀缺的困境，也提升各位技術黨的收入。</p></blockquote>",
+          "description_markdown": "RxJava 熱大概也好一陣子了，這篇是我看過最完整的中文介紹。從基本的介紹到與 [Retrofit](https://github.com/square/retrofit) 的結合、[RxBinding](https://github.com/JakeWharton/RxBinding) 的擴充，滿滿的實戰味道。\r\n\r\n作者文末的寫作動機我覺得有必要引言給大家參考：\r\n\r\n> 與兩三年前的境況不同，中國現在已經不缺初級 Android 工程師，但中級和高級工程師嚴重供不應求。因此我決定從今天開始不定期地發佈我的技術分享，只希望能夠和大家共同提升，通過我們的成長來解決一點點國內互聯網公司人才稀缺的困境，也提升各位技術黨的收入。",
+          "embedded_links": [
+            {
+              "identifier": "3GSV6u3",
+              "title": "Retrofit",
+              "url_domain": "github.com",
+              "url": "https://github.com/square/retrofit"
+            },
+            {
+              "identifier": "vVLu4yl",
+              "title": "RxBinding",
+              "url_domain": "github.com",
+              "url": "https://github.com/JakeWharton/RxBinding"
+            }
+          ]
+        },
+        {
+          "identifier": "4iBApUa",
+          "type": "Link",
+          "title": "Minimum Viable iOS Engineer",
+          "url_domain": "redqueencoder.com",
+          "url": "http://redqueencoder.com/minimum-viable-ios-engineer/",
+          "description": "<p>雖然標題是 Minimum Viable iOS Engineer，但是內容跟 iOS 沒什麼關係，只剛好因為作者是一個 iOS 工程師。作者是一個曾經會因為要學的新東西太多而焦慮的工程師最後坦然接受「是啊，我不可能學會所有的東西」並且提出他的建議「如果你有想做的事情要做而你一個人無法全部做完，那就找其他人一起幫忙」。</p>\n\n<p>如果你想學的東西一直學不起來，就表示目前的你實際上沒有那麼需要它。通常上把想學的東西放到你公司的工作中是最快的方式，說到這個我就想說大家知道為什麼 <a href=\"https://github.com/RestKit/RestKit\">RestKit</a> 後來都不太更新了嗎，因為作者說他現在的工作沒有整 RestKit，幹！</p>\n\n<blockquote><p>We have reached a point with the platform where we can’t know everything.\nDon't feel bad if you are struggling to keep up. We all are!</p></blockquote>",
+          "description_markdown": "雖然標題是 Minimum Viable iOS Engineer，但是內容跟 iOS 沒什麼關係，只剛好因為作者是一個 iOS 工程師。作者是一個曾經會因為要學的新東西太多而焦慮的工程師最後坦然接受「是啊，我不可能學會所有的東西」並且提出他的建議「如果你有想做的事情要做而你一個人無法全部做完，那就找其他人一起幫忙」。\r\n\r\n如果你想學的東西一直學不起來，就表示目前的你實際上沒有那麼需要它。通常上把想學的東西放到你公司的工作中是最快的方式，說到這個我就想說大家知道為什麼 [RestKit](https://github.com/RestKit/RestKit) 後來都不太更新了嗎，因為作者說他現在的工作沒有整 RestKit，幹！\r\n\r\n>We have reached a point with the platform where we can’t know everything.\r\nDon't feel bad if you are struggling to keep up. We all are!",
+          "embedded_links": [
+            {
+              "identifier": "AcK5Rxp",
+              "title": "RestKit",
+              "url_domain": "github.com",
+              "url": "https://github.com/RestKit/RestKit"
+            }
+          ]
+        },
+        {
+          "identifier": "e8Orlmi",
+          "type": "Link",
+          "title": "How To Create an Xcode Plugin",
+          "url_domain": "raywenderlich.com",
+          "url": "http://www.raywenderlich.com/94020/creating-an-xcode-plugin-part-1",
+          "description": "<p>這禮拜 <a href=\"https://twitter.com/NelsonT\">@nelson</a> 推薦了他自己寫的 Xcode plugin <a href=\"https://github.com/chiahsien/AutoHighlightSymbol\">AutoHighlightSymbol</a> ，一個可以高光標示 cursor 所在位置的其他 symbols 的外掛。我決定也要研究一下試著自己寫一個 plugin 看看。</p>\n\n<p>大家的好朋友 Apple 是沒有關於 Xcode plugin 官方文件的，真不上道啊。這份 Ray Wenderlich 的教學是目前看來比較完整的，然後還有這份 <a href=\"https://github.com/kattrali/Xcode-Plugin-Template\">Xcode-Plugin-Template</a> 是一個基本 plugin 的樣板。</p>\n\n<p>註：大家也可以試試看 <a href=\"https://www.jetbrains.com/objc/\">AppCode</a>，它的編輯器功能跟 refactor 真的很棒，還可以檢查你沒有使用到的 import，我不知道為什麼 Xcode 都出到 7 了還是沒有這麼基本的功能，而且如果你同時也開發 Android 的話不用記兩套 IDE 的快捷鍵也是一個好處。</p>",
+          "description_markdown": "這禮拜 [@nelson](https://twitter.com/NelsonT) 推薦了他自己寫的 Xcode plugin [AutoHighlightSymbol](https://github.com/chiahsien/AutoHighlightSymbol) ，一個可以高光標示 cursor 所在位置的其他 symbols 的外掛。我決定也要研究一下試著自己寫一個 plugin 看看。  \r\n\r\n大家的好朋友 Apple 是沒有關於 Xcode plugin 官方文件的，真不上道啊。這份 Ray Wenderlich 的教學是目前看來比較完整的，然後還有這份 [Xcode-Plugin-Template](https://github.com/kattrali/Xcode-Plugin-Template) 是一個基本 plugin 的樣板。\r\n\r\n註：大家也可以試試看 [AppCode](https://www.jetbrains.com/objc/)，它的編輯器功能跟 refactor 真的很棒，還可以檢查你沒有使用到的 import，我不知道為什麼 Xcode 都出到 7 了還是沒有這麼基本的功能，而且如果你同時也開發 Android 的話不用記兩套 IDE 的快捷鍵也是一個好處。",
+          "embedded_links": [
+            {
+              "identifier": "TuljDEQ",
+              "title": "@nelson",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "8narUMm",
+              "title": "AutoHighlightSymbol",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien/AutoHighlightSymbol"
+            },
+            {
+              "identifier": "YEvdmE7",
+              "title": "Xcode-Plugin-Template",
+              "url_domain": "github.com",
+              "url": "https://github.com/kattrali/Xcode-Plugin-Template"
+            },
+            {
+              "identifier": "YzbujU1",
+              "title": "AppCode",
+              "url_domain": "jetbrains.com",
+              "url": "https://www.jetbrains.com/objc/"
+            }
+          ]
+        },
+        {
+          "identifier": "zNTJIFH",
+          "type": "Link",
+          "title": "Vim Videos - Flarfnoogins",
+          "url_domain": "derekwyatt.org",
+          "url": "http://derekwyatt.org/vim/tutorials/",
+          "description": "<p>以前我沒有 VIM 基礎，記得當時在 Xcode 裝了 <a href=\"https://github.com/XVimProject/XVim\">XVim</a> 之後幾度很挫折的刪了又裝刪了又裝。直到我後來習慣看 screencast 學新東西，看到那些人操作編輯器行雲流水談笑間指標滑來滑去一下選一下刪，我就會把他們的動作記起來然後去查他們是怎麼做到的，就這樣慢慢學起了一些 VI 的基本操作。</p>\n\n<p>這個網站的作者也是用 screencast 的方式教你學 VIM，而且分成初階、中階、進階，大家應該都能從中學到一些東西。</p>",
+          "description_markdown": "以前我沒有 VIM 基礎，記得當時在 Xcode 裝了 [XVim](https://github.com/XVimProject/XVim) 之後幾度很挫折的刪了又裝刪了又裝。直到我後來習慣看 screencast 學新東西，看到那些人操作編輯器行雲流水談笑間指標滑來滑去一下選一下刪，我就會把他們的動作記起來然後去查他們是怎麼做到的，就這樣慢慢學起了一些 VI 的基本操作。\r\n\r\n這個網站的作者也是用 screencast 的方式教你學 VIM，而且分成初階、中階、進階，大家應該都能從中學到一些東西。",
+          "embedded_links": [
+            {
+              "identifier": "yG4odtN",
+              "title": "XVim",
+              "url_domain": "github.com",
+              "url": "https://github.com/XVimProject/XVim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "ce46x8d",
+          "type": "Link",
+          "title": "A Tour of Machine Learning Algorithms - 機器學習演算法導覽",
+          "url_domain": "machinelearningmastery.com",
+          "url": "http://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/?__s=a5exp2awamyscfakide3",
+          "description": "<p>各位剛接觸機器學習的碼農們一定都感覺得到機器學習的演算法真的是他媽的多，所以常常讓人不知道要從哪裡開始。本篇文章建議我們可以用這些演算法的結構相似性或學習方法來分類各個演算法，如果各位碼農沒有時間仔細讀，那可以看看 TL;DR：</p>\n\n<ol>\n<li>Regression: linear regression, logistic regression and stepwise regression.</li>\n<li>Instance-based Methods: k-nearest neighbor, learning vector quantization and self-organizing map.</li>\n<li>Decision Tree Learning: C4.5, CART and ID3.</li>\n<li>Kernel Methods: support vector machine, radial basis network and linear discriminant analysis.</li>\n<li>Artificial Neural Networks: perceptron, hopfield and back-propagation.</li>\n</ol>\n\n\n<p>了解各個機器學習演算法的結構相似性或學習方法可以幫助我們選擇對的演算法來解決問題，其實這跟 Issue 7 的 <a href=\"http://weekly.codetengu.com/issues/7#qN7haXK\">林軒田教授機器學習基石 Machine Learning Foundations 第三講 學習筆記</a> 及 Issue 4 的 <a href=\"http://weekly.codetengu.com/issues/4#jSSlFcH\">Machine Learning Map: Choosing the right estimator</a> 這兩篇的概念很類似喔！可以複習一下～</p>",
+          "description_markdown": "各位剛接觸機器學習的碼農們一定都感覺得到機器學習的演算法真的是他媽的多，所以常常讓人不知道要從哪裡開始。本篇文章建議我們可以用這些演算法的結構相似性或學習方法來分類各個演算法，如果各位碼農沒有時間仔細讀，那可以看看 TL;DR：\r\n\r\n1. Regression: linear regression, logistic regression and stepwise regression.\r\n2. Instance-based Methods: k-nearest neighbor, learning vector quantization and self-organizing map.\r\n3. Decision Tree Learning: C4.5, CART and ID3.\r\n4. Kernel Methods: support vector machine, radial basis network and linear discriminant analysis.\r\n5. Artificial Neural Networks: perceptron, hopfield and back-propagation.\r\n\r\n了解各個機器學習演算法的結構相似性或學習方法可以幫助我們選擇對的演算法來解決問題，其實這跟 Issue 7 的 [林軒田教授機器學習基石 Machine Learning Foundations 第三講 學習筆記](http://weekly.codetengu.com/issues/7#qN7haXK) 及 Issue 4 的 [Machine Learning Map: Choosing the right estimator](http://weekly.codetengu.com/issues/4#jSSlFcH) 這兩篇的概念很類似喔！可以複習一下～",
+          "embedded_links": [
+            {
+              "identifier": "DRds9cv",
+              "title": "林軒田教授機器學習基石 Machine Learning Foundations 第三講 學習筆記",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/7#qN7haXK"
+            },
+            {
+              "identifier": "3nlnRWG",
+              "title": "Machine Learning Map: Choosing the right estimator",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/4#jSSlFcH"
+            }
+          ]
+        },
+        {
+          "identifier": "wUSnZTX",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第五講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-wu-jiang-xue-xi-bi-ji/",
+          "description": "<p>在第四講中我們了解了在有限假設集合的情況下機器學習是可能的，而第五講就是想要將有限假設集合可以推廣出去，讓我們在無限的假設集合裡也可以透過一些理論慢慢收斂到一個多項式集合，如此我們就可以放心的利用機器學習來解決我們所面對的一些問題。</p>\n\n<p>我們目前只學到 PLA 演算法，接下來都是在證明 PLA 這樣的機器學習方法的確有理論的支持證明學習到的技巧將來會有效，需要一堆數學理論與證明，想學機器學習真的不是那麼好混的！</p>",
+          "description_markdown": "在第四講中我們了解了在有限假設集合的情況下機器學習是可能的，而第五講就是想要將有限假設集合可以推廣出去，讓我們在無限的假設集合裡也可以透過一些理論慢慢收斂到一個多項式集合，如此我們就可以放心的利用機器學習來解決我們所面對的一些問題。\r\n\r\n我們目前只學到 PLA 演算法，接下來都是在證明 PLA 這樣的機器學習方法的確有理論的支持證明學習到的技巧將來會有效，需要一堆數學理論與證明，想學機器學習真的不是那麼好混的！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "gsrxPnb",
+          "type": "Link",
+          "title": "How to write unmaintainable PHP code - 如何寫出無法維護的 PHP 程式碼",
+          "url_domain": "phpied.com",
+          "url": "http://www.phpied.com/how-to-write-unmaintainable-php-code-2009/",
+          "description": "<p>時機歹歹，其實現在失業率一直是居高不下的，尤其是年輕人更是淒慘，根據報導今年 6 月 20 至 24 歲青年失業率高達 12.27％，所以各位碼農們如何保住自己的飯碗也是個很重要的課題。本篇文章介紹了一個永遠保住工作的暗黑兵法，那就是寫出別人無法維護的 PHP 程式碼！我真的沒想到我會在 CodeTengu Weekly 唆使別人寫出無法維護的程式碼，哈哈，換個角度想，如果知道如何寫出無法維護的程式碼，那我們其實也可以反過來避免寫出無法維護的程式碼啊！</p>",
+          "description_markdown": "時機歹歹，其實現在失業率一直是居高不下的，尤其是年輕人更是淒慘，根據報導今年 6 月 20 至 24 歲青年失業率高達 12.27％，所以各位碼農們如何保住自己的飯碗也是個很重要的課題。本篇文章介紹了一個永遠保住工作的暗黑兵法，那就是寫出別人無法維護的 PHP 程式碼！我真的沒想到我會在 CodeTengu Weekly 唆使別人寫出無法維護的程式碼，哈哈，換個角度想，如果知道如何寫出無法維護的程式碼，那我們其實也可以反過來避免寫出無法維護的程式碼啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yGDwCJv",
+          "type": "Link",
+          "title": "The Beginner's Guide to Contributing to a GitHub Project - 初學者要如何參與貢獻 GitHub Project",
+          "url_domain": "akrabat.com",
+          "url": "http://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project",
+          "description": "<p>取之於開源碼，用之於開源碼，貢獻於開源碼，我們都從開源專案中得到許多，因此也希望能為開源專案貢獻自己的一份心力。本篇文章介紹了初學者要如何參與貢獻 GitHub Project，雖然這些準則是基於 Zend Framework、Slim Framework 等開源專案整理出來，但其實都可以應用在其他的開源專案中，但記得還是要讀一下開源專案的 README 看看有沒有什麼要特別注意的地方。如果各位碼農沒有時間仔細讀，那可以看看 TL;DR：</p>\n\n<ol>\n<li>Fork the project &amp; clone locally.</li>\n<li>Create an upstream remote and sync your local copy before you branch.</li>\n<li>Branch for each separate piece of work.</li>\n<li>Do the work, write <a href=\"https://blogs.gnome.org/danni/2011/10/25/a-guide-to-writing-git-commit-messages/\">good commit messages</a>, and read the CONTRIBUTING file if there is one.</li>\n<li>Push to your origin repository.</li>\n<li>Create a new PR in GitHub.</li>\n<li>Respond to any <a href=\"http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code\">code review</a> feedback.</li>\n</ol>",
+          "description_markdown": "取之於開源碼，用之於開源碼，貢獻於開源碼，我們都從開源專案中得到許多，因此也希望能為開源專案貢獻自己的一份心力。本篇文章介紹了初學者要如何參與貢獻 GitHub Project，雖然這些準則是基於 Zend Framework、Slim Framework 等開源專案整理出來，但其實都可以應用在其他的開源專案中，但記得還是要讀一下開源專案的 README 看看有沒有什麼要特別注意的地方。如果各位碼農沒有時間仔細讀，那可以看看 TL;DR：\r\n\r\n1. Fork the project & clone locally.\r\n2. Create an upstream remote and sync your local copy before you branch.\r\n3. Branch for each separate piece of work.\r\n4. Do the work, write [good commit messages](https://blogs.gnome.org/danni/2011/10/25/a-guide-to-writing-git-commit-messages/), and read the CONTRIBUTING file if there is one.\r\n5. Push to your origin repository.\r\n6. Create a new PR in GitHub.\r\n7. Respond to any [code review](http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code) feedback.",
+          "embedded_links": [
+            {
+              "identifier": "coW16il",
+              "title": "good commit messages",
+              "url_domain": "gnome.org",
+              "url": "https://blogs.gnome.org/danni/2011/10/25/a-guide-to-writing-git-commit-messages/"
+            },
+            {
+              "identifier": "VeMmuP1",
+              "title": "code review",
+              "url_domain": "lornajane.net",
+              "url": "http://www.lornajane.net/posts/2015/code-reviews-before-you-even-run-the-code"
+            }
+          ]
+        },
+        {
+          "identifier": "Qm6BIdz",
+          "type": "Link",
+          "title": "New in PHP 7: null coalesce operator - PHP 7 的新玩意：null coalesce operator",
+          "url_domain": "lornajane.net",
+          "url": "http://www.lornajane.net/posts/2015/new-in-php-7-null-coalesce-operator",
+          "description": "<p>在 PHP 5 各位碼農們可以使用三元運算子來做一些判斷運算，比如 <code>echo $count ? $count : 10; // outputs 10</code>，在 PHP 7 有一個新的 <code>??</code>  運算子可以使用，這個運算子就叫做 <code>null coalesce operator</code>，本篇文章用一個簡單的例子來說明 <code>??</code>  運算子如何使用。</p>",
+          "description_markdown": "在 PHP 5 各位碼農們可以使用三元運算子來做一些判斷運算，比如 `echo $count ? $count : 10; // outputs 10`，在 PHP 7 有一個新的 `??`  運算子可以使用，這個運算子就叫做 `null coalesce operator`，本篇文章用一個簡單的例子來說明 `??`  運算子如何使用。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "4rHaiWg",
+          "type": "Link",
+          "title": "资深 PHP 开发工程师 at Shop123",
+          "url_domain": "shop123.com",
+          "url": "http://www.shop123.com/jobs/",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "hE6TE8D",
+          "type": "Link",
+          "title": "後端工程師 at Babbo（月薪 70K ～ 140K 台幣）",
+          "url_domain": "66kjobs.tw",
+          "url": "http://www.66kjobs.tw/jobs/1106",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vFpf3yZ",
+          "type": "Link",
+          "title": "前端工程師 at Babbo（月薪 70K ～ 140K 台幣）",
+          "url_domain": "66kjobs.tw",
+          "url": "http://www.66kjobs.tw/jobs/1107",
+          "description": "",
+          "description_markdown": "",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "u2qPJ32",
+          "type": "Link",
+          "title": "Anime in History (@AniHistory)",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/AniHistory",
+          "description": "<p>這個 Twitter 帳號所發佈的內容都是來自傳說中的 US National Anime Archives（美國國家檔案館的 Anime 部門）的珍貴歷史照片，在目前所揭露出來的影像紀錄中，你可能會在看到一張愛因斯坦與碇源堂的合照，或是在一張充滿歷史感的埃及金字塔的照片中發現空條承太郎與他快樂的夥伴們、在 1947 年的可口可樂的廣告文宣中看到干物妹小埋，也可能在一幅 40 年代的拉斯維加斯的街景裡看到一旁的大樓上閃著的是笑臉男的霓虹燈。</p>\n\n<p>這下子我們終於可以確定，歷史上第一位獨自飛越大西洋的女飛行員 Amelia Mary Earhart 的真實身份其實就是風之谷的娜烏西卡。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "這個 Twitter 帳號所發佈的內容都是來自傳說中的 US National Anime Archives（美國國家檔案館的 Anime 部門）的珍貴歷史照片，在目前所揭露出來的影像紀錄中，你可能會在看到一張愛因斯坦與碇源堂的合照，或是在一張充滿歷史感的埃及金字塔的照片中發現空條承太郎與他快樂的夥伴們、在 1947 年的可口可樂的廣告文宣中看到干物妹小埋，也可能在一幅 40 年代的拉斯維加斯的街景裡看到一旁的大樓上閃著的是笑臉男的霓虹燈。\r\n\r\n這下子我們終於可以確定，歷史上第一位獨自飛越大西洋的女飛行員 Amelia Mary Earhart 的真實身份其實就是風之谷的娜烏西卡。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "4v3ySru",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "b88daa4a-e59b-4568-998f-e1c95c186dea.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_b88daa4a-e59b-4568-998f-e1c95c186dea.jpg",
+          "image_medium_filename": "original_ratio_medium_b88daa4a-e59b-4568-998f-e1c95c186dea.jpg"
+        }
+      ]
+    }
+  ]
+}

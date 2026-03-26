@@ -1,0 +1,472 @@
+{
+  "number": 4,
+  "title": "Issue 4 新來的 Designer 趁特價的時候幫自己買了一本 GoF Design Patterns",
+  "summary": "本期內容涵蓋 Android, Elasticsearch, iOS, JavaScript, Machine Learning, PHP, Python, Swift",
+  "url": "https://weekly.codetengu.com/issues/4",
+  "publication_status": "published",
+  "published_at": "2015-08-24T03:00:00+01:00",
+  "updated_at": "2016-05-21T06:33:18+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>坦然一個人吃燒肉、逛超市的真大叔</strong></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - <strong>我愛金貞敏</strong></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <strong>捷運飲食推廣委員會</strong></li>\n</ul>\n\n\n<p>歡迎關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，保證每天更新。</p>",
+          "description_markdown": "本期 curators：\r\n\r\n* [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **坦然一個人吃燒肉、逛超市的真大叔**\r\n* [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - **我愛金貞敏**  \r\n* [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - **捷運飲食推廣委員會**  \r\n\r\n歡迎關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，保證每天更新。",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "zcMp8ao",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "vgxRctR",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "BLkkUfe",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "8ZjfiC0",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "hcZR5kv",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "gRA1k4D",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "3euF3qD",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "BbiKKep",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "9V8YS7K",
+          "type": "Link",
+          "title": "Android - Handling Scrolls with CoordinatorLayout",
+          "url_domain": "codepath.com",
+          "url": "https://guides.codepath.com/android/Handling-Scrolls-with-CoordinatorLayout",
+          "description": "<p>Material design 中出色的<a href=\"http://www.google.com/design/spec/patterns/scrolling-techniques.html\">滾動效果</a>一直都廣受好評，這篇教學用 CoordinatorLayout 實作了三個相當熱門的效果 <a href=\"http://imgur.com/zF9GGsK.gif\">Floating Action Button meets Snackbar</a>、<a href=\"http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRTM1M1lCWWZiN2c/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm\">可延展的 Toolbar</a>、<a href=\"http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXNQY3dNdVlYeTQ/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm\">垂直視差捲動效果</a>。都不需要 Animation codes 唷。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://github.com/ksoichiro/Android-ObservableScrollView\">Android-ObservableScrollView</a></li>\n</ul>",
+          "description_markdown": "Material design 中出色的[滾動效果](http://www.google.com/design/spec/patterns/scrolling-techniques.html)一直都廣受好評，這篇教學用 CoordinatorLayout 實作了三個相當熱門的效果 [Floating Action Button meets Snackbar](http://imgur.com/zF9GGsK.gif)、[可延展的 Toolbar](http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRTM1M1lCWWZiN2c/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm)、[垂直視差捲動效果](http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXNQY3dNdVlYeTQ/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm)。都不需要 Animation codes 唷。\r\n\r\n延伸閱讀：\r\n\r\n- [Android-ObservableScrollView](https://github.com/ksoichiro/Android-ObservableScrollView)",
+          "embedded_links": [
+            {
+              "identifier": "Aq7oJxK",
+              "title": "滾動效果",
+              "url_domain": "google.com",
+              "url": "http://www.google.com/design/spec/patterns/scrolling-techniques.html#"
+            },
+            {
+              "identifier": "yJLOhqk",
+              "title": "滾動效果",
+              "url_domain": "google.com",
+              "url": "http://www.google.com/design/spec/patterns/scrolling-techniques.html"
+            },
+            {
+              "identifier": "CPsBhNk",
+              "title": "Floating Action Button meets Snackbar",
+              "url_domain": "imgur.com",
+              "url": "http://imgur.com/zF9GGsK.gif"
+            },
+            {
+              "identifier": "IjnHGlx",
+              "title": "可延展的 Toolbar",
+              "url_domain": "googleapis.com",
+              "url": "http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQsRTM1M1lCWWZiN2c/patterns-scrolling-techniques-flexible_space_xhdpi_003.webm"
+            },
+            {
+              "identifier": "y6YBIeT",
+              "title": "垂直視差捲動效果",
+              "url_domain": "googleapis.com",
+              "url": "http://material-design.storage.googleapis.com/publish/material_v_4/material_ext_publish/0B6Okdz75tqQscXNQY3dNdVlYeTQ/patterns-scrolling-techniques_flex_space_image_xhdpi_003.webm"
+            },
+            {
+              "identifier": "tPrBH45",
+              "title": "Android-ObservableScrollView",
+              "url_domain": "github.com",
+              "url": "https://github.com/ksoichiro/Android-ObservableScrollView"
+            }
+          ]
+        },
+        {
+          "identifier": "30mdJ0l",
+          "type": "Link",
+          "title": "Android - Curved Motion – Part 1",
+          "url_domain": "stylingandroid.com",
+          "url": "http://blog.stylingandroid.com/curved-motion-part-1/?utm_campaign=Android%2BAuthority&utm_medium=email&utm_source=Android_Authority_29",
+          "description": "<p>如果你的 Android app 也有 master、detail 的頁面且特定的 view 在頁面切換之間位置、大小改變了，Android 5.0 (API level 21) 提供的動畫 motion patterns <a href=\"http://developer.android.com/training/material/animations.html#CurvedMotion\">Curved Motion</a> 是最好的解決方案。</p>",
+          "description_markdown": "如果你的 Android app 也有 master、detail 的頁面且特定的 view 在頁面切換之間位置、大小改變了，Android 5.0 (API level 21) 提供的動畫 motion patterns [Curved Motion](http://developer.android.com/training/material/animations.html#CurvedMotion) 是最好的解決方案。",
+          "embedded_links": [
+            {
+              "identifier": "VeNHGJk",
+              "title": "Curved Motion",
+              "url_domain": "android.com",
+              "url": "http://developer.android.com/training/material/animations.html#CurvedMotion"
+            }
+          ]
+        },
+        {
+          "identifier": "2d0U79J",
+          "type": "Link",
+          "title": "Thoughts on iOS build tools",
+          "url_domain": "krausefx.com",
+          "url": "https://krausefx.com/blog/ios-tools?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_211",
+          "description": "<p><a href=\"http://fastlane.tools/\">Fastlane</a> release 了新的工具 <a href=\"https://github.com/fastlane/gym\">gym</a>，這對有使用 <a href=\"https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88\">CI</a> 的 iOS 開發者是一個值得關注的工具。作者在這篇文裡提到了 xcodebuild 及 <a href=\"https://github.com/nomad/shenzhen\">shenzhen</a> 的問題 (不曉得為甚麼漏了 <a href=\"https://github.com/facebook/xctool\">xctool</a>)。</p>\n\n<p>gym 有著 fastlane 工具一貫的風格，夠高階超省事，最後會包裝簽名成最終的 ipa 檔。</p>\n\n<p>PS. 現在還不是很穩定，但值得關注，之後在 CI 上跑 release 的 build 改成 gym 會方便很多。</p>",
+          "description_markdown": "[Fastlane](http://fastlane.tools/) release 了新的工具 [gym](https://github.com/fastlane/gym)，這對有使用 [CI](https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88) 的 iOS 開發者是一個值得關注的工具。作者在這篇文裡提到了 xcodebuild 及 [shenzhen](https://github.com/nomad/shenzhen) 的問題 (不曉得為甚麼漏了 [xctool](https://github.com/facebook/xctool))。  \r\n\r\ngym 有著 fastlane 工具一貫的風格，夠高階超省事，最後會包裝簽名成最終的 ipa 檔。\r\n\r\nPS. 現在還不是很穩定，但值得關注，之後在 CI 上跑 release 的 build 改成 gym 會方便很多。",
+          "embedded_links": [
+            {
+              "identifier": "OUXnsMq",
+              "title": "Fastlane",
+              "url_domain": "fastlane.tools",
+              "url": "http://fastlane.tools/"
+            },
+            {
+              "identifier": "3SjPwbh",
+              "title": "gym",
+              "url_domain": "github.com",
+              "url": "https://github.com/fastlane/gym"
+            },
+            {
+              "identifier": "DVUFuxm",
+              "title": "CI",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88"
+            },
+            {
+              "identifier": "jo90PQU",
+              "title": "shenzhen",
+              "url_domain": "github.com",
+              "url": "https://github.com/nomad/shenzhen"
+            },
+            {
+              "identifier": "3KLrad0",
+              "title": "xctool",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/xctool"
+            }
+          ]
+        },
+        {
+          "identifier": "pEBwzXo",
+          "type": "Link",
+          "title": "A Practical Introduction to Functional Programming - Now with Swift!",
+          "url_domain": "harlankellaway.com",
+          "url": "http://harlankellaway.com/blog/2015/08/10/swift-functional-programming-intro/",
+          "description": "<blockquote><p>When people talk about functional programming, they mention a dizzying number of 「functional」 characteristics...Ignore all that. Functional code is characterised by one thing: the absence of side effects. It doesn't rely on data outside the current function, and it doesn't change data that exists outside the current function. Every other 「functional」 thing can be derived from this property. Use it as a guide rope as you learn.\n– Mary Rose Cook on learning about functional programming</p></blockquote>\n\n<p>經典 Functional Programming 入門範例 Swift 版本。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.objc.io/books/fpinswift/\">Functional Programming in Swift Book</a></li>\n</ul>",
+          "description_markdown": "> When people talk about functional programming, they mention a dizzying number of 「functional」 characteristics...Ignore all that. Functional code is characterised by one thing: the absence of side effects. It doesn't rely on data outside the current function, and it doesn't change data that exists outside the current function. Every other 「functional」 thing can be derived from this property. Use it as a guide rope as you learn.\r\n– Mary Rose Cook on learning about functional programming\r\n\r\n經典 Functional Programming 入門範例 Swift 版本。\r\n\r\n延伸閱讀：\r\n\r\n- [Functional Programming in Swift Book](http://www.objc.io/books/fpinswift/)",
+          "embedded_links": [
+            {
+              "identifier": "fGispBH",
+              "title": "Functional Programming in Swift Book",
+              "url_domain": "objc.io",
+              "url": "http://www.objc.io/books/fpinswift/"
+            }
+          ]
+        },
+        {
+          "identifier": "zQijdHz",
+          "type": "Link",
+          "title": "Lazy Initialization with Swift",
+          "url_domain": "mikebuss.com",
+          "url": "http://mikebuss.com/2014/06/22/lazy-initialization-swift/",
+          "description": "<p>我一直都是 Lazy initialzation 的腦粉， Swift 的 <code>lazy</code> modifier  的設計也太讚了，完全就是被當成一等公民。</p>",
+          "description_markdown": "我一直都是 Lazy initialzation 的腦粉， Swift 的 `lazy` modifier  的設計也太讚了，完全就是被當成一等公民。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "WTELtcv",
+          "type": "Link",
+          "title": "Intermediate Python",
+          "url_domain": "pythontips.com",
+          "url": "http://book.pythontips.com/",
+          "description": "<p>免費的電子書，講進階一點的 Python，看到這個我實在慚愧，有空得好好讀一下。 可以去 <a href=\"https://gumroad.com/l/intermediate_python\">Gumroad</a> 花 $10 USD 買一下電子書格式的版本。</p>",
+          "description_markdown": "免費的電子書，講進階一點的 Python，看到這個我實在慚愧，有空得好好讀一下。 可以去 [Gumroad](https://gumroad.com/l/intermediate_python) 花 $10 USD 買一下電子書格式的版本。",
+          "embedded_links": [
+            {
+              "identifier": "NIehZ8x",
+              "title": "Gumroad",
+              "url_domain": "gumroad.com",
+              "url": "https://gumroad.com/l/intermediate_python"
+            }
+          ]
+        },
+        {
+          "identifier": "hnz9DXW",
+          "type": "Link",
+          "title": "使用 Elasticsearch 及 Kibana 進行巨量資料搜尋及視覺化",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/tw_dsconf/elasticsearch-kibana",
+          "description": "<p>據說是 Gogolook 資料分析第一把交椅所做的投影片，由於前一陣子公司內也建好了 ELK（Elasticsearch + Logstash + Kibana）開始在做一些資料分析跟視覺化，所以對這類主題頗有興趣，也想知道其他人怎麼做這件事。</p>\n\n<p>像是在 CodeTengu Weekly 第一期中我也分享過了 <a href=\"https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83\">Building Analytics at 500px</a>，對這類主題有興趣也可以一併看看。</p>",
+          "description_markdown": "據說是 Gogolook 資料分析第一把交椅所做的投影片，由於前一陣子公司內也建好了 ELK（Elasticsearch + Logstash + Kibana）開始在做一些資料分析跟視覺化，所以對這類主題頗有興趣，也想知道其他人怎麼做這件事。\r\n\r\n像是在 CodeTengu Weekly 第一期中我也分享過了 [Building Analytics at 500px](https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83)，對這類主題有興趣也可以一併看看。",
+          "embedded_links": [
+            {
+              "identifier": "eF2qPmY",
+              "title": "Building Analytics at 500px",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@samson_hu/building-analytics-at-500px-92e9a7005c83"
+            }
+          ]
+        },
+        {
+          "identifier": "uNPOyoc",
+          "type": "Link",
+          "title": "django-flat-theme",
+          "url_domain": "github.com",
+          "url": "https://github.com/elky/django-flat-theme",
+          "description": "<p>Django Admin 的 UI 一直以來幾乎都沒有變化，也很多人嘗試想去改造它，不過目前看到最簡單也漂亮的應該就屬這個 Django Flat Theme 了吧。</p>",
+          "description_markdown": "Django Admin 的 UI 一直以來幾乎都沒有變化，也很多人嘗試想去改造它，不過目前看到最簡單也漂亮的應該就屬這個 Django Flat Theme 了吧。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "cf5c38f4-33bf-484f-bfd5-1e30d79a4a84.png",
+          "image_extra_large_filename": "original_ratio_extra_large_cf5c38f4-33bf-484f-bfd5-1e30d79a4a84.png",
+          "image_medium_filename": "original_ratio_medium_cf5c38f4-33bf-484f-bfd5-1e30d79a4a84.png"
+        },
+        {
+          "identifier": "yq0oy7J",
+          "type": "Link",
+          "title": "What's happening in frontend now? ",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/koba04/whats-happening-in-frontend-now",
+          "description": "<p>上一期有分享了一篇<a href=\"http://cur.at/Yz7DaVE?m=web\">前端工程師必須學會的現代化前端開發工具</a>，這次也是類似主題，不過這次是投影片，用許多圖表，以及簡易的程式碼來說明，非常清楚。而且從一路從 jQuery、Backbone.js 講到了 React.js、Flux、Redux，前端翻新的速度實在是可怕啊。</p>",
+          "description_markdown": "上一期有分享了一篇[前端工程師必須學會的現代化前端開發工具](http://cur.at/Yz7DaVE?m=web)，這次也是類似主題，不過這次是投影片，用許多圖表，以及簡易的程式碼來說明，非常清楚。而且從一路從 jQuery、Backbone.js 講到了 React.js、Flux、Redux，前端翻新的速度實在是可怕啊。",
+          "embedded_links": [
+            {
+              "identifier": "uqBqfiD",
+              "title": "前端工程師必須學會的現代化前端開發工具",
+              "url_domain": "cur.at",
+              "url": "http://cur.at/Yz7DaVE?m=web"
+            }
+          ]
+        },
+        {
+          "identifier": "S3prD36",
+          "type": "Link",
+          "title": "金貞敏",
+          "url_domain": "instagram.com",
+          "url": "https://instagram.com/kimjungmin0111/",
+          "description": "<p>老實說其實我一直以來都有在看韓妝教室，這是一個韓國的美妝節目。 因為實在是太愛其中一位主持人 金貞敏 了，今天剛好發現她的 Instagram，想說跟大家分享一下。</p>",
+          "description_markdown": "老實說其實我一直以來都有在看韓妝教室，這是一個韓國的美妝節目。 因為實在是太愛其中一位主持人 金貞敏 了，今天剛好發現她的 Instagram，想說跟大家分享一下。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "2e676e48-9d3a-455f-af84-79c1b0973b08.jpg",
+          "image_extra_large_filename": "square_extra_large_2e676e48-9d3a-455f-af84-79c1b0973b08.jpg",
+          "image_medium_filename": "square_medium_2e676e48-9d3a-455f-af84-79c1b0973b08.jpg"
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "MzJ04gI",
+          "type": "Link",
+          "title": "林軒田教授 Machine Learning Foundations 第一講 學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/machine-learning-foundations-by-lin-xuan-tian-di-jiang-xue-xi-bi-ji/",
+          "description": "<p>機器學習（Machine Learning）是一門很深的課程，要直接跳進來學習其實並不容易，因此系統性由淺而深的學習過程還是必須的。這一系列部落格文章計劃將 <a href=\"https://www.coursera.org/\">Coursera</a> 上臺灣大學<a href=\"http://www.csie.ntu.edu.tw/~htlin/\">林軒田</a>教授所教授的<a href=\"https://www.coursera.org/course/ntumlone\">機器學習基石（Machine Learning Foundations）</a>課程整理成心得，並對照林教授的投影片作說明，希望對有心學習 Machine Learning 的碼農們有些幫助。而第一講的內容基本上就是說明機器學習究竟是什麼、何時可以使用到機器學習，並由人的學習經驗推廣到機器如何學習，整理出機器學習的概觀。</p>",
+          "description_markdown": "機器學習（Machine Learning）是一門很深的課程，要直接跳進來學習其實並不容易，因此系統性由淺而深的學習過程還是必須的。這一系列部落格文章計劃將 [Coursera](https://www.coursera.org/) 上臺灣大學[林軒田](http://www.csie.ntu.edu.tw/~htlin/)教授所教授的[機器學習基石（Machine Learning Foundations）](https://www.coursera.org/course/ntumlone)課程整理成心得，並對照林教授的投影片作說明，希望對有心學習 Machine Learning 的碼農們有些幫助。而第一講的內容基本上就是說明機器學習究竟是什麼、何時可以使用到機器學習，並由人的學習經驗推廣到機器如何學習，整理出機器學習的概觀。",
+          "embedded_links": [
+            {
+              "identifier": "Qw5EC8m",
+              "title": "Coursera",
+              "url_domain": "coursera.org",
+              "url": "https://www.coursera.org/"
+            },
+            {
+              "identifier": "G8FZEr3",
+              "title": "林軒田",
+              "url_domain": "ntu.edu.tw",
+              "url": "http://www.csie.ntu.edu.tw/~htlin/"
+            },
+            {
+              "identifier": "lgIypaQ",
+              "title": "機器學習基石（Machine Learning Foundations）",
+              "url_domain": "coursera.org",
+              "url": "https://www.coursera.org/course/ntumlone"
+            }
+          ]
+        },
+        {
+          "identifier": "XuPapfZ",
+          "type": "Link",
+          "title": "Baidu explains how it’s mastering Mandarin with deep learning",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/s-c-a-l-e/how-baidu-mastered-mandarin-with-deep-learning-and-lots-of-data-1d94032564a5",
+          "description": "<p>今年八月，百度的資深研發工程師 <a href=\"https://twitter.com/awnihannun\">Awni Hannun</a> 在著名的 <a href=\"http://innsbigdata.org/\">International Neural Network Society Conference on Big Data</a> 發表了一個新的中文語音辨識機器學習模型，根據實驗結果可以達到 94% 的正確率，據稱是目前現有語音辨識系統中，中文辨識率最高的系統。本篇文章訪問了 Awni Hannun，從問答中可以一窺中文語音辨識機器學習目前的發展現況。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://gigaom.com/2014/12/18/baidu-claims-deep-learning-breakthrough-with-deep-speech/\">Baidu claims deep learning breakthrough with Deep Speech</a></li>\n</ul>",
+          "description_markdown": "今年八月，百度的資深研發工程師 [Awni Hannun](https://twitter.com/awnihannun) 在著名的 [International Neural Network Society Conference on Big Data](http://innsbigdata.org/) 發表了一個新的中文語音辨識機器學習模型，根據實驗結果可以達到 94% 的正確率，據稱是目前現有語音辨識系統中，中文辨識率最高的系統。本篇文章訪問了 Awni Hannun，從問答中可以一窺中文語音辨識機器學習目前的發展現況。\r\n\r\n延伸閱讀：\r\n\r\n- [Baidu claims deep learning breakthrough with Deep Speech](https://gigaom.com/2014/12/18/baidu-claims-deep-learning-breakthrough-with-deep-speech/)",
+          "embedded_links": [
+            {
+              "identifier": "ynUYo7A",
+              "title": "Awni Hannun",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/awnihannun"
+            },
+            {
+              "identifier": "l2vuVUF",
+              "title": "International Neural Network Society Conference on Big Data",
+              "url_domain": "innsbigdata.org",
+              "url": "http://innsbigdata.org/"
+            },
+            {
+              "identifier": "LDPALIf",
+              "title": "Baidu claims deep learning breakthrough with Deep Speech",
+              "url_domain": "gigaom.com",
+              "url": "https://gigaom.com/2014/12/18/baidu-claims-deep-learning-breakthrough-with-deep-speech/"
+            }
+          ]
+        },
+        {
+          "identifier": "jSSlFcH",
+          "type": "Link",
+          "title": "Machine Learning Map: Choosing the right estimator",
+          "url_domain": "scikit-learn.org",
+          "url": "http://scikit-learn.org/stable/tutorial/machine_learning_map/",
+          "description": "<p>當我們要使用機器學習來解決一個問題的時候，其中一個最難的問題就是不知道要用什麼機器學習方法，機器學習實在有太多種演算法，也有很多工具可以使用。<a href=\"http://scikit-learn\">scikit-learn</a> 這個 Python 著名的機器學習工具就提供了一個簡單的 flowchart，指引各位在機器學習之海迷途的碼農們一個方向，我們可以很簡單地依據 flowchart 的指示來界定我們目前遇到的問題需要用什麼機器學習方法來解決，大致上所有個問題可分成四大類，分類（classification）、分群（clustering）、迴歸（regression）、降維（dimensionality reduction），請各位碼農們看看機器學習地圖，看看自己現在要解決的問題要怎麼走吧！</p>",
+          "description_markdown": "當我們要使用機器學習來解決一個問題的時候，其中一個最難的問題就是不知道要用什麼機器學習方法，機器學習實在有太多種演算法，也有很多工具可以使用。[scikit-learn](http://scikit-learn) 這個 Python 著名的機器學習工具就提供了一個簡單的 flowchart，指引各位在機器學習之海迷途的碼農們一個方向，我們可以很簡單地依據 flowchart 的指示來界定我們目前遇到的問題需要用什麼機器學習方法來解決，大致上所有個問題可分成四大類，分類（classification）、分群（clustering）、迴歸（regression）、降維（dimensionality reduction），請各位碼農們看看機器學習地圖，看看自己現在要解決的問題要怎麼走吧！",
+          "embedded_links": [
+            {
+              "identifier": "CqG4jtM",
+              "title": "scikit-learn",
+              "url_domain": ".scikit-learn",
+              "url": "http://scikit-learn"
+            }
+          ]
+        },
+        {
+          "identifier": "gP0Loub",
+          "type": "Link",
+          "title": "Writing highly readable code",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@dylanbr/writing-highly-readable-code-94da94d5d636",
+          "description": "<p>一個想要從低階碼農晉升到高階碼農的碼農朋友們的首要之務就是要讓寫出來的 Code 可以讓其他碼農朋友們也可以容易讀懂（Readable），本篇文章就展示了如何從擠成一團像坨屎的 PHP Code 重構（refector）成易讀易懂的好 Code。易讀易懂的 Code 主要有四大要點，Style、Structure、Naming、Comments 缺一不可，作者一一重構之後，有許多碼農技癢進行進一步重構，也都很有參考的價值，有興趣可以參閱一下延伸閱讀。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://ryanwinchester.ca/post/refactoring-code-for-readability\">Refactoring Code For Readability</a></li>\n<li><a href=\"https://murze.be/2015/08/refactoring-code-for-readability/\">Further refactoring code for readability</a></li>\n</ul>",
+          "description_markdown": "一個想要從低階碼農晉升到高階碼農的碼農朋友們的首要之務就是要讓寫出來的 Code 可以讓其他碼農朋友們也可以容易讀懂（Readable），本篇文章就展示了如何從擠成一團像坨屎的 PHP Code 重構（refector）成易讀易懂的好 Code。易讀易懂的 Code 主要有四大要點，Style、Structure、Naming、Comments 缺一不可，作者一一重構之後，有許多碼農技癢進行進一步重構，也都很有參考的價值，有興趣可以參閱一下延伸閱讀。\r\n\r\n延伸閱讀：\r\n\r\n- [Refactoring Code For Readability](http://ryanwinchester.ca/post/refactoring-code-for-readability)  \r\n- [Further refactoring code for readability](https://murze.be/2015/08/refactoring-code-for-readability/)",
+          "embedded_links": [
+            {
+              "identifier": "p1598vy",
+              "title": "Refactoring Code For Readability",
+              "url_domain": "ryanwinchester.ca",
+              "url": "http://ryanwinchester.ca/post/refactoring-code-for-readability"
+            },
+            {
+              "identifier": "68t1KB4",
+              "title": "Further refactoring code for readability",
+              "url_domain": "murze.be",
+              "url": "https://murze.be/2015/08/refactoring-code-for-readability/"
+            }
+          ]
+        },
+        {
+          "identifier": "osNd7Fh",
+          "type": "Link",
+          "title": "Faker - a PHP library that generates fake data for you",
+          "url_domain": "github.com",
+          "url": "https://github.com/fzaninotto/Faker",
+          "description": "<p>寫應用程式的時候我們常常需要一些假資料來讓整個應用程式看起來煞有其事的樣子，也許參加 Hackathon 比賽或是 Demo 時這些假資料就是可以騙過評審的一些關鍵點，Faker 這個 PHP 套件就可以用來產生非常像樣的假資料，當需要假資料時就使用 Faker 吧！而且 Facker 還有在地化功能，只是中文資料目前沒有人貢獻。個人覺得 Faker 最酷的地方就是可以與 ORM 配合，並直接產生出有假資料的 model object，目前 Laravel 5.1 已經內建 Facker 了噢！（感謝 <a href=\"https://www.facebook.com/killtw\">@Karl Li</a>指正）</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://search.cpan.org/~jasonk/Data-Faker-0.07/\">Perl's Data::Faker</a></li>\n<li><a href=\"https://rubygems.org/gems/faker\">ruby's Faker</a></li>\n</ul>",
+          "description_markdown": "寫應用程式的時候我們常常需要一些假資料來讓整個應用程式看起來煞有其事的樣子，也許參加 Hackathon 比賽或是 Demo 時這些假資料就是可以騙過評審的一些關鍵點，Faker 這個 PHP 套件就可以用來產生非常像樣的假資料，當需要假資料時就使用 Faker 吧！而且 Facker 還有在地化功能，只是中文資料目前沒有人貢獻。個人覺得 Faker 最酷的地方就是可以與 ORM 配合，並直接產生出有假資料的 model object，目前 Laravel 5.1 已經內建 Facker 了噢！（感謝 [@Karl Li](https://www.facebook.com/killtw)指正）\r\n\r\n延伸閱讀：\r\n\r\n- [Perl's Data::Faker](http://search.cpan.org/~jasonk/Data-Faker-0.07/)\r\n- [ruby's Faker](https://rubygems.org/gems/faker)",
+          "embedded_links": [
+            {
+              "identifier": "tH67ecq",
+              "title": "Laravel",
+              "url_domain": "laravel.tw",
+              "url": "http://laravel.tw/"
+            },
+            {
+              "identifier": "AlOcwCT",
+              "title": "@Karl Li",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/killtw"
+            },
+            {
+              "identifier": "5w9A3Cs",
+              "title": "Perl's Data::Faker",
+              "url_domain": "cpan.org",
+              "url": "http://search.cpan.org/~jasonk/Data-Faker-0.07/"
+            },
+            {
+              "identifier": "BFf9phC",
+              "title": "ruby's Faker",
+              "url_domain": "rubygems.org",
+              "url": "https://rubygems.org/gems/faker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "fKJJkIG",
+          "type": "Link",
+          "title": "Is the Ballmer Peak real?",
+          "url_domain": "stackexchange.com",
+          "url": "http://skeptics.stackexchange.com/questions/2795/is-the-ballmer-peak-real",
+          "description": "<p>傳說中血液酒精濃度在 0.12% - 0.14% 之間的工程師比平常更勇猛、更睿智、考試都考一百分，這個現象被稱為 <a href=\"http://www.explainxkcd.com/wiki/index.php/323:_Ballmer_Peak\">Ballmer Peak</a>。</p>\n\n<p>這串討論很認真的想證明 Ballmer Peak 不只是一個笑話而是有所根據的。其中最讓人想要拿出來嘴砲的是 Ballmer Peak 的影響變數除了酒精濃度之外還有程式語言的複雜度。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 分享</p>",
+          "description_markdown": "傳說中血液酒精濃度在 0.12% - 0.14% 之間的工程師比平常更勇猛、更睿智、考試都考一百分，這個現象被稱為 [Ballmer Peak](http://www.explainxkcd.com/wiki/index.php/323:_Ballmer_Peak)。\r\n\r\n這串討論很認真的想證明 Ballmer Peak 不只是一個笑話而是有所根據的。其中最讓人想要拿出來嘴砲的是 Ballmer Peak 的影響變數除了酒精濃度之外還有程式語言的複雜度。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 分享",
+          "embedded_links": [
+            {
+              "identifier": "xaLiewM",
+              "title": "Ballmer Peak",
+              "url_domain": "explainxkcd.com",
+              "url": "http://www.explainxkcd.com/wiki/index.php/323:_Ballmer_Peak"
+            },
+            {
+              "identifier": "lUNeif",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ],
+          "image_original_filename": "7992e68b-94f8-4760-af7e-0da242a7627c.png",
+          "image_extra_large_filename": "original_ratio_extra_large_7992e68b-94f8-4760-af7e-0da242a7627c.png",
+          "image_medium_filename": "original_ratio_medium_7992e68b-94f8-4760-af7e-0da242a7627c.png"
+        }
+      ]
+    }
+  ]
+}

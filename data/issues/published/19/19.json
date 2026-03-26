@@ -1,0 +1,503 @@
+{
+  "number": 19,
+  "title": "Issue 19 我早年都是用 vim 寫程式，也說不上特別喜歡，主要是當時還不知道怎麼退出 vim",
+  "summary": "本期內容涵蓋 Python, JavaScript, Node.js, Linux, Docker, Ansible, Agile, Code Review, PHP 7, 人才招聘",
+  "url": "https://weekly.codetengu.com/issues/19",
+  "publication_status": "published",
+  "published_at": "2015-12-07T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:19:53+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是<a href=\"https://github.com/CodeTengu/headquarters\">目前的 curator 陣容</a>：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 泰國不得了</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近交了一個很正的女朋友，大家都很生氣</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是[目前的 curator 陣容](https://github.com/CodeTengu/headquarters)：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 泰國不得了\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近交了一個很正的女朋友，大家都很生氣\r\n- [@wancw](https://twitter.com/wancw) - 求職中的 Full-stack Developer，意者內洽\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "32hzC7W",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Ss5EJHC",
+              "title": "目前的 curator 陣容",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "kEQsdbv",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "m8hRB2m",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "NOpjhFa",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "vEcMCIM",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "JRPTyFm",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "HV0OBRV",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "4v4qjmn",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "6UkhItP",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "JLTPmiB",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "mmraM8B",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "iDFZlUK",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "u0yCtd3",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "5TP97XQ",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "v8qIB4u",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "NAwZyNU",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "80zB6bq",
+          "type": "Link",
+          "title": "Python List Comprehensions: Explained Visually",
+          "url_domain": "treyhunner.com",
+          "url": "http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/",
+          "description": "<p>說到 Python 常常被拿出來說嘴的語法糖 list comprehensions，我前幾天正好看到這篇佛心的文章，作者用了各種色彩斑斕的例子和程式碼為初學者說明什麼是 list comprehensions（還他媽做了 GIF 動圖），如果你最近在學 Python，看不懂 list comprehensions 到底在寫殺小，推薦你看看。</p>\n\n<p>P.S. 就怕大家不知道，其實 Python 也有 set comprehensions 和 dict comprehensions。</p>",
+          "description_markdown": "說到 Python 常常被拿出來說嘴的語法糖 list comprehensions，我前幾天正好看到這篇佛心的文章，作者用了各種色彩斑斕的例子和程式碼為初學者說明什麼是 list comprehensions（還他媽做了 GIF 動圖），如果你最近在學 Python，看不懂 list comprehensions 到底在寫殺小，推薦你看看。\r\n\r\nP.S. 就怕大家不知道，其實 Python 也有 set comprehensions 和 dict comprehensions。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "iGTALqR",
+          "type": "Link",
+          "title": "Must See JavaScript Dev Tools That Put Other Dev Tools to Shame",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/javascript-scene/must-see-javascript-dev-tools-that-put-other-dev-tools-to-shame-aca6d3e3d925#.mgzytijlh",
+          "description": "<p>因為最近又打算來玩一下 Node.js，但是因為 JavaScript 界總是一代新人換舊人，所以決定從這篇文章開始，來熟悉一下現在 JS（主要是 backend）主流的開發工具鏈。</p>\n\n<p>是說現在 JavaScript 的 intelligent code completion 外掛除了 Tern 之外就沒有別的了嗎？以前用過真的不是很智能啊。</p>",
+          "description_markdown": "因為最近又打算來玩一下 Node.js，但是因為 JavaScript 界總是一代新人換舊人，所以決定從這篇文章開始，來熟悉一下現在 JS（主要是 backend）主流的開發工具鏈。\r\n\r\n是說現在 JavaScript 的 intelligent code completion 外掛除了 Tern 之外就沒有別的了嗎？以前用過真的不是很智能啊。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ypbazTi",
+          "type": "Link",
+          "title": "Linux Performance Analysis in 60,000 Milliseconds",
+          "url_domain": "netflix.com",
+          "url": "http://techblog.netflix.com/2015/11/linux-performance-analysis-in-60s.html",
+          "description": "<p>這是來自 Netflix Performance Engineering team 的文章（不是我在說，<a href=\"http://techblog.netflix.com/\">Netflix Tech Blog</a> 上真的有不少好東西）。這篇文章是在說：假設你要 SSH 進去某台 server 調查 performance 的問題，在登入後的 60 秒內，你可以做什麼來快速定位到問題可能出自哪裡？可能是 CPU、memory、disk 或是 network？</p>\n\n<p>我上禮拜才在想說要去問我們 team 的 SysAdmin 類似的問題，結果今天就看到這篇文章了，嘖嘖。題外話，團隊裡有一個厲害的 SysAdmin / DevOps 真的很棒啊，自從他來了之後我們的開發流程和生產力可都是超英趕美呢！建議各位老闆或技術主管，不要再找一些沒用的廢物 PM 了，找一個 SysAdmin / DevOps 比較實在啦！</p>",
+          "description_markdown": "這是來自 Netflix Performance Engineering team 的文章（不是我在說，[Netflix Tech Blog](http://techblog.netflix.com/) 上真的有不少好東西）。這篇文章是在說：假設你要 SSH 進去某台 server 調查 performance 的問題，在登入後的 60 秒內，你可以做什麼來快速定位到問題可能出自哪裡？可能是 CPU、memory、disk 或是 network？\r\n\r\n我上禮拜才在想說要去問我們 team 的 SysAdmin 類似的問題，結果今天就看到這篇文章了，嘖嘖。題外話，團隊裡有一個厲害的 SysAdmin / DevOps 真的很棒啊，自從他來了之後我們的開發流程和生產力可都是超英趕美呢！建議各位老闆或技術主管，不要再找一些沒用的廢物 PM 了，找一個 SysAdmin / DevOps 比較實在啦！",
+          "embedded_links": [
+            {
+              "identifier": "uecTNrV",
+              "title": "Netflix Tech Blog",
+              "url_domain": "netflix.com",
+              "url": "http://techblog.netflix.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "2ypNM7C",
+          "type": "Link",
+          "title": "vinta/HAL-9000",
+          "url_domain": "github.com",
+          "url": "https://github.com/vinta/HAL-9000",
+          "description": "<p>因為前陣子看了 IFTTT 的那篇 <a href=\"http://weekly.codetengu.com/issues/14#3TWHzgG\">Developing with Docker</a>，深受啟發，遂決定也如法炮製一番，還順手加了幾個屁功能。現在我就是拿 HAL 來管理我的整個開發環境和 dotfiles（主要就是 Docker、Go、Node.js 以及大家的好朋友 Python 君）。</p>\n\n<p>雖然不見得會有什麼太高的技術含量，但是身為一個 developer，寫一些給自己用（通常也都可以順便給別人用）的 side project 其實是一件很愉快的事啊。因為不是為了賺錢，也沒有時程的壓力，甚至是在 project 裡加上一些對人類文明的進展完全沒有幫助（只是因為你爽）的功能。我之前還寫了一個用來在網頁上的中英文之間插入空格的 <a href=\"https://github.com/vinta/paranoid-auto-spacing\">Chrome 外掛</a>，但是我花了最多時間的除了處理如何正確地判斷要在哪個 DOM node 裡加上空格之外（畢竟 HTML 可是有各種巢狀嵌套的結構），就是在幫選項頁面的每個選單和按鈕加上快打旋風的特效（撥瀏海）。</p>",
+          "description_markdown": "因為前陣子看了 IFTTT 的那篇 [Developing with Docker](http://weekly.codetengu.com/issues/14#3TWHzgG)，深受啟發，遂決定也如法炮製一番，還順手加了幾個屁功能。現在我就是拿 HAL 來管理我的整個開發環境和 dotfiles（主要就是 Docker、Go、Node.js 以及大家的好朋友 Python 君）。\r\n\r\n雖然不見得會有什麼太高的技術含量，但是身為一個 developer，寫一些給自己用（通常也都可以順便給別人用）的 side project 其實是一件很愉快的事啊。因為不是為了賺錢，也沒有時程的壓力，甚至是在 project 裡加上一些對人類文明的進展完全沒有幫助（只是因為你爽）的功能。我之前還寫了一個用來在網頁上的中英文之間插入空格的 [Chrome 外掛](https://github.com/vinta/paranoid-auto-spacing)，但是我花了最多時間的除了處理如何正確地判斷要在哪個 DOM node 裡加上空格之外（畢竟 HTML 可是有各種巢狀嵌套的結構），就是在幫選項頁面的每個選單和按鈕加上快打旋風的特效（撥瀏海）。",
+          "embedded_links": [
+            {
+              "identifier": "ss6Vlos",
+              "title": "Developing with Docker",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/14#3TWHzgG"
+            },
+            {
+              "identifier": "J4nnJ8t",
+              "title": "Chrome 外掛",
+              "url_domain": "github.com",
+              "url": "https://github.com/vinta/paranoid-auto-spacing"
+            }
+          ]
+        },
+        {
+          "identifier": "ym0cSxR",
+          "type": "Link",
+          "title": "Ansible: Up and Running",
+          "url_domain": "amzn.to",
+          "url": "http://amzn.to/1LWgk9c",
+          "description": "<p>因為 <a href=\"https://github.com/vinta/HAL-9000\">HAL</a> 有用到 Ansible，所以我花了幾碗牛肉麵的時間讀完了這本 Ansible: Up and Running（跟大家分享一下，就算你們不想知道：其實我習慣在吃飯的時候讀書）。不得不說，跟不長進的 SaltStack 比起來，Ansible 才像是一個用 Python 寫出來的簡潔、優雅的 configuration management 工具嘛！</p>\n\n<p>對 Ansible 有興趣的朋友，我會推薦這本書（雖然目前為止關於 Ansible 的我也只讀過這本），不過對於如何運用一個 CM 工具所需要的知識，其實書上都提到了啊（對圍觀的眾人使出「相信我之術」）。</p>",
+          "description_markdown": "因為 [HAL](https://github.com/vinta/HAL-9000) 有用到 Ansible，所以我花了幾碗牛肉麵的時間讀完了這本 Ansible: Up and Running（跟大家分享一下，就算你們不想知道：其實我習慣在吃飯的時候讀書）。不得不說，跟不長進的 SaltStack 比起來，Ansible 才像是一個用 Python 寫出來的簡潔、優雅的 configuration management 工具嘛！\r\n\r\n對 Ansible 有興趣的朋友，我會推薦這本書（雖然目前為止關於 Ansible 的我也只讀過這本），不過對於如何運用一個 CM 工具所需要的知識，其實書上都提到了啊（對圍觀的眾人使出「相信我之術」）。",
+          "embedded_links": [
+            {
+              "identifier": "quu8ANC",
+              "title": "HAL",
+              "url_domain": "github.com",
+              "url": "https://github.com/vinta/HAL-9000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "s83g9q7",
+          "type": "Link",
+          "title": "What is an Agile Leader?",
+          "url_domain": "crisp.se",
+          "url": "http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader",
+          "description": "<p>最近一、兩年我開始減少寫程式的工作份量, 專注在管理, 領導相關的議題, 不過也一直在摸索、學習。</p>\n\n<p>而在前一陣子看到這篇真是驚為天人, 搭配最近自身的經驗, 覺得實在是非常棒的一篇文章, 我誠心推薦給大家, 雖然文章很長, 但真的棒。 本來想節錄重點, 但是這篇文章幾乎都是重點, 就不幫大家節錄了。</p>",
+          "description_markdown": "最近一、兩年我開始減少寫程式的工作份量, 專注在管理, 領導相關的議題, 不過也一直在摸索、學習。\r\n\r\n而在前一陣子看到這篇真是驚為天人, 搭配最近自身的經驗, 覺得實在是非常棒的一篇文章, 我誠心推薦給大家, 雖然文章很長, 但真的棒。 本來想節錄重點, 但是這篇文章幾乎都是重點, 就不幫大家節錄了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "M8yNjj3",
+          "type": "Link",
+          "title": "從 Pocket 跳槽改用 Instapaper",
+          "url_domain": "tzangms.com",
+          "url": "https://tzangms.com/from-pocket-to-instapaper/",
+          "description": "<p>因為現在讀的東西稍微不一樣, 不像以前讀的都是程式碼、技術相關的文章, 而是比較常讀一些管理、領導、創業或是時間管理的相關文章, 所以對於「筆記」以及「畫重點」這種需求似乎多了起來, 跟大家分享一下心得。</p>",
+          "description_markdown": "因為現在讀的東西稍微不一樣, 不像以前讀的都是程式碼、技術相關的文章, 而是比較常讀一些管理、領導、創業或是時間管理的相關文章, 所以對於「筆記」以及「畫重點」這種需求似乎多了起來, 跟大家分享一下心得。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vtY0Vjl",
+          "type": "Link",
+          "title": "有聲書推薦: Talent Rules!",
+          "url_domain": "amzn.to",
+          "url": "http://amzn.to/1PMhaxf",
+          "description": "<p>最近除了在幫 <a href=\"http://streetvoice.com/\">StreetVoice</a> 面試各種程式設計師的職缺之外, 也在幫集團面試 MIS 主管。 面試主管職缺壓力比以往大, 可能是因為大部分的人都比我大、比我資深, 所以這一輪下來, 開始覺得得精進一下相關的技能。</p>\n\n<p>所以為了精進自己的面試的技巧跟方式, 買了好幾本關於面試技巧的書籍, 雖然說以前就聽過幾本, 像是 <a href=\"http://amzn.to/1PMhZ9d\">Who</a> 這本其實也很不錯, 但是沒真的認真體驗、思考以及實踐的話, 看再多書也都只是表面, 最近讀了這本之後覺得方向更明確了。</p>\n\n<p>雖然說主管思維其實很好辨識, 但是到底該問什麽問題, 該怎麼問, 才能能確認這個人的 Performance 到底如何? 聽完這本書前三個章節就可以有非常大的收穫。</p>\n\n<p>最近幫自己設定最重要的目標就是 Recruit, 其他都再說, 像是本週我貼的第一篇文章 <a href=\"http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader\">What is an Agile Leader?</a> 裡面提到的各種事情, 基本上都是立於你招募到好人才為前提, 這是我這一陣子的體會, 大家可以感受一下。</p>",
+          "description_markdown": "最近除了在幫 [StreetVoice](http://streetvoice.com/) 面試各種程式設計師的職缺之外, 也在幫集團面試 MIS 主管。 面試主管職缺壓力比以往大, 可能是因為大部分的人都比我大、比我資深, 所以這一輪下來, 開始覺得得精進一下相關的技能。 \r\n\r\n所以為了精進自己的面試的技巧跟方式, 買了好幾本關於面試技巧的書籍, 雖然說以前就聽過幾本, 像是 [Who](http://amzn.to/1PMhZ9d) 這本其實也很不錯, 但是沒真的認真體驗、思考以及實踐的話, 看再多書也都只是表面, 最近讀了這本之後覺得方向更明確了。 \r\n\r\n雖然說主管思維其實很好辨識, 但是到底該問什麽問題, 該怎麼問, 才能能確認這個人的 Performance 到底如何? 聽完這本書前三個章節就可以有非常大的收穫。\r\n\r\n最近幫自己設定最重要的目標就是 Recruit, 其他都再說, 像是本週我貼的第一篇文章 [What is an Agile Leader?](http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader) 裡面提到的各種事情, 基本上都是立於你招募到好人才為前提, 這是我這一陣子的體會, 大家可以感受一下。",
+          "embedded_links": [
+            {
+              "identifier": "OoIIdvv",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "http://streetvoice.com/"
+            },
+            {
+              "identifier": "2ul3x2j",
+              "title": "Who",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/1PMhZ9d"
+            },
+            {
+              "identifier": "Sh1ECpX",
+              "title": "What is an Agile Leader?",
+              "url_domain": "crisp.se",
+              "url": "http://blog.crisp.se/2015/11/10/henrikkniberg/what-is-an-agile-leader"
+            }
+          ]
+        },
+        {
+          "identifier": "pMFRkgx",
+          "type": "Link",
+          "title": "本週 IG: hongz_wannika",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/hongz_wannika/",
+          "description": "<p>天氣冷, 真的想去泰國</p>",
+          "description_markdown": "天氣冷, 真的想去泰國",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "e8d0f5c1-b1bc-425f-921c-bf8d53a06178.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_e8d0f5c1-b1bc-425f-921c-bf8d53a06178.jpg",
+          "image_medium_filename": "original_ratio_medium_e8d0f5c1-b1bc-425f-921c-bf8d53a06178.jpg"
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "NSVQR2b",
+          "type": "Link",
+          "title": "IPFS – Content Addressed, Versioned, P2P File System",
+          "url_domain": "acolyer.org",
+          "url": "http://blog.acolyer.org/2015/10/05/ipfs-content-addressed-versioned-p2p-file-system/",
+          "description": "<p>行星際檔案系統——<a href=\"https://github.com/ipfs/ipfs\">IPFS</a> 是分散式的 P2P 檔案系統，它以內容來<em>定址</em>，讓 Web 從去中心化轉成真正的分散式。這篇文章摘要了 IPFS 所使用的技術，包括來自 Kademlia 與 BitTorrent 的 DHT、類似 Git 的物件模型等，適合當作了解技術細節的入門；實作範例可以參考官方提供的 prototype：<a href=\"https://github.com/ipfs/go-ipfs\">IPFS implementation in Go</a>。</p>\n\n<p>我一直相信分散式檔案存取系統是未來的發展方向，期望 IPFS 能引起廣泛的應用。</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"https://blog.gslin.org/archives/2015/10/26/6084/ipfs-%E5%88%86%E6%95%A3%E5%BC%8F-web-%E6%9C%8D%E5%8B%99%EF%BC%8C%E4%BB%A5%E5%8F%8A-ipfspics-%E5%9C%96%E7%89%87%E5%84%B2%E5%AD%98/\">IPFS 分散式 Web 服務，以及 ipfspics 圖片儲存 | Gea-Suan Lin's BLOG</a></li>\n<li><a href=\"http://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/\">Why The Internet Needs IPFS Before It's Too Late | TechCrunch</a></li>\n</ol>",
+          "description_markdown": "行星際檔案系統——[IPFS](https://github.com/ipfs/ipfs) 是分散式的 P2P 檔案系統，它以內容來*定址*，讓 Web 從去中心化轉成真正的分散式。這篇文章摘要了 IPFS 所使用的技術，包括來自 Kademlia 與 BitTorrent 的 DHT、類似 Git 的物件模型等，適合當作了解技術細節的入門；實作範例可以參考官方提供的 prototype：[IPFS implementation in Go](https://github.com/ipfs/go-ipfs)。\r\n\r\n我一直相信分散式檔案存取系統是未來的發展方向，期望 IPFS 能引起廣泛的應用。\r\n\r\n延伸閱讀：\r\n\r\n1. [IPFS 分散式 Web 服務，以及 ipfspics 圖片儲存 | Gea-Suan Lin's BLOG](https://blog.gslin.org/archives/2015/10/26/6084/ipfs-%E5%88%86%E6%95%A3%E5%BC%8F-web-%E6%9C%8D%E5%8B%99%EF%BC%8C%E4%BB%A5%E5%8F%8A-ipfspics-%E5%9C%96%E7%89%87%E5%84%B2%E5%AD%98/)\r\n2. [Why The Internet Needs IPFS Before It's Too Late | TechCrunch](http://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "QVXakSE",
+              "title": "IPFS",
+              "url_domain": "github.com",
+              "url": "https://github.com/ipfs/ipfs"
+            },
+            {
+              "identifier": "8RiHxDS",
+              "title": "IPFS implementation in Go",
+              "url_domain": "github.com",
+              "url": "https://github.com/ipfs/go-ipfs"
+            },
+            {
+              "identifier": "vMdOWUw",
+              "title": "IPFS 分散式 Web 服務，以及 ipfspics 圖片儲存 | Gea-Suan Lin's BLOG",
+              "url_domain": "gslin.org",
+              "url": "https://blog.gslin.org/archives/2015/10/26/6084/ipfs-%E5%88%86%E6%95%A3%E5%BC%8F-web-%E6%9C%8D%E5%8B%99%EF%BC%8C%E4%BB%A5%E5%8F%8A-ipfspics-%E5%9C%96%E7%89%87%E5%84%B2%E5%AD%98/"
+            },
+            {
+              "identifier": "bIyIiiV",
+              "title": "Why The Internet Needs IPFS Before It's Too Late | TechCrunch",
+              "url_domain": "techcrunch.com",
+              "url": "http://techcrunch.com/2015/10/04/why-the-internet-needs-ipfs-before-its-too-late/"
+            }
+          ]
+        },
+        {
+          "identifier": "SGRf2Qp",
+          "type": "Link",
+          "title": "Code Review 指南",
+          "url_domain": "psjay.com",
+          "url": "http://blog.psjay.com/posts/code-review-guide/",
+          "description": "<p>嗯，又是另外一篇 code review 的指南。這篇比較著重於進行 code review 的時機與方式，同時也提到如何寫出便於 review 的 code 和 commit message。</p>\n\n<p>如果你之前錯過了的話，可以再看看 <a href=\"https://twitter.com/vinta\">@vinta</a> 在 <a href=\"http://weekly.codetengu.com/issues/6#NxbcXSP\">CodeTengu Issue #6</a> 提到的這兩篇：</p>\n\n<ul>\n<li><a href=\"http://kevinlondon.com/2015/05/05/code-review-best-practices.html\">Code Review Best Practice</a></li>\n<li><a href=\"https://github.com/thoughtbot/guides/tree/master/code-review\">A guide for reviewing code and having your code reviewed</a></li>\n</ul>",
+          "description_markdown": "嗯，又是另外一篇 code review 的指南。這篇比較著重於進行 code review 的時機與方式，同時也提到如何寫出便於 review 的 code 和 commit message。\r\n\r\n如果你之前錯過了的話，可以再看看 [@vinta](https://twitter.com/vinta) 在 [CodeTengu Issue #6](http://weekly.codetengu.com/issues/6#NxbcXSP) 提到的這兩篇：\r\n\r\n- [Code Review Best Practice](http://kevinlondon.com/2015/05/05/code-review-best-practices.html)\r\n- [A guide for reviewing code and having your code reviewed](https://github.com/thoughtbot/guides/tree/master/code-review)",
+          "embedded_links": [
+            {
+              "identifier": "9fNFACg",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ahnjlbb",
+              "title": "CodeTengu Issue #6",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/6#NxbcXSP"
+            },
+            {
+              "identifier": "tGMIkej",
+              "title": "Code Review Best Practice",
+              "url_domain": "kevinlondon.com",
+              "url": "http://kevinlondon.com/2015/05/05/code-review-best-practices.html"
+            },
+            {
+              "identifier": "jBeuD9p",
+              "title": "A guide for reviewing code and having your code reviewed",
+              "url_domain": "github.com",
+              "url": "https://github.com/thoughtbot/guides/tree/master/code-review"
+            }
+          ]
+        },
+        {
+          "identifier": "C9hFdyL",
+          "type": "Link",
+          "title": "One Weird Trick to Write Better Code",
+          "url_domain": "etodd.io",
+          "url": "http://etodd.io/2015/09/28/one-weird-trick-better-code/",
+          "description": "<p>作者以他自己的小作品 Ninja Wars 和 Doom 3 的程式碼為例，列出了幾則通用的編程訣竅：</p>\n\n<ol>\n<li>避免全域變數</li>\n<li>物件導向的設計</li>\n<li>偏好組合勝於繼承</li>\n<li>優化效能的資料排列方法</li>\n</ol>\n\n\n<p>然後歸納出一個更通用的準則：混用物件導向和函數式編程。設計切合需求的資料結構、然後撰寫函數時盡可能不影響封裝的物件，最好能寫成純函數。</p>",
+          "description_markdown": "作者以他自己的小作品 Ninja Wars 和 Doom 3 的程式碼為例，列出了幾則通用的編程訣竅：\r\n\r\n1. 避免全域變數\r\n2. 物件導向的設計\r\n3. 偏好組合勝於繼承\r\n4. 優化效能的資料排列方法\r\n\r\n然後歸納出一個更通用的準則：混用物件導向和函數式編程。設計切合需求的資料結構、然後撰寫函數時盡可能不影響封裝的物件，最好能寫成純函數。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "wyzG0wL",
+          "type": "Link",
+          "title": "ES6 Overview in 350 Bullet Points",
+          "url_domain": "ponyfoo.com",
+          "url": "https://ponyfoo.com/articles/es6",
+          "description": "<p>用 350 條項目列出 ES6 的新特性。可以當作某種 cheat sheet ，如果你對 ES6 以前的 JavaScript 已經夠熟的話。</p>",
+          "description_markdown": "用 350 條項目列出 ES6 的新特性。可以當作某種 cheat sheet ，如果你對 ES6 以前的 JavaScript 已經夠熟的話。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vvkA7EA",
+          "type": "Link",
+          "title": "更多關於 PHP 7 新功能的介紹...",
+          "url_domain": "gslin.org",
+          "url": "https://blog.gslin.org/archives/2015/12/05/6178/%e6%9b%b4%e5%a4%9a%e9%97%9c%e6%96%bc-php-7-%e6%96%b0%e5%8a%9f%e8%83%bd%e7%9a%84%e4%bb%8b%e7%b4%b9/",
+          "description": "<p>其實我很久沒寫 PHP 了，已經不太熟悉 PHP 的生態系。但我想 <a href=\"http://php.net/archive/2015.php#id2015-12-03-1\">PHP 7 正式推出</a>肯定是件大事。如果你是用 PHP 的網站開發者，來看看到底 PHP 7 改了什麼東西吧。</p>",
+          "description_markdown": "其實我很久沒寫 PHP 了，已經不太熟悉 PHP 的生態系。但我想 [PHP 7 正式推出](http://php.net/archive/2015.php#id2015-12-03-1)肯定是件大事。如果你是用 PHP 的網站開發者，來看看到底 PHP 7 改了什麼東西吧。",
+          "embedded_links": [
+            {
+              "identifier": "k5PuY3N",
+              "title": "PHP 7 正式推出",
+              "url_domain": "php.net",
+              "url": "http://php.net/archive/2015.php#id2015-12-03-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "xGH7Gfm",
+          "type": "Link",
+          "title": "tkosuga/boyfriend_require",
+          "url_domain": "github.com",
+          "url": "https://github.com/tkosuga/boyfriend_require",
+          "description": "<p>這個當年在 GitHub 開 repo 徵求男友的日本女程序員，這麼多年過去了，不知道她找到男朋友了沒？</p>\n\n<p>P.S. 看不懂日文的人，可以去找找其他人 fork 的版本，<a href=\"https://github.com/sheen-aa/boyfriend_require/blob/master/translations/Chinese/boyfriend_require_zh-CN.txt\">中文</a>和<a href=\"https://github.com/agrimm/boyfriend_require/blob/master/README-en.md\">英文</a>的版本都有喔。</p>\n\n<p>以上來自 <a href=\"https://twitter.com/vinta\">@vinta</a> 的分享。</p>",
+          "description_markdown": "這個當年在 GitHub 開 repo 徵求男友的日本女程序員，這麼多年過去了，不知道她找到男朋友了沒？\r\n\r\nP.S. 看不懂日文的人，可以去找找其他人 fork 的版本，[中文](https://github.com/sheen-aa/boyfriend_require/blob/master/translations/Chinese/boyfriend_require_zh-CN.txt)和[英文](https://github.com/agrimm/boyfriend_require/blob/master/README-en.md)的版本都有喔。\r\n\r\n以上來自 [@vinta](https://twitter.com/vinta) 的分享。",
+          "embedded_links": [
+            {
+              "identifier": "EbZ9Zv0",
+              "title": "中文",
+              "url_domain": "github.com",
+              "url": "https://github.com/sheen-aa/boyfriend_require/blob/master/translations/Chinese/boyfriend_require_zh-CN.txt"
+            },
+            {
+              "identifier": "smoCTa6",
+              "title": "英文",
+              "url_domain": "github.com",
+              "url": "https://github.com/agrimm/boyfriend_require/blob/master/README-en.md"
+            },
+            {
+              "identifier": "GptO9Lw",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "TMi7zXn",
+          "type": "Link",
+          "title": "成為廢土王者的一拳超人",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=OjxFTDzeG6A",
+          "description": "<p>《一拳超人》紅到讓一個好端端的社會人瞬間變身為每週一固定在線上點刷新的屁孩這件事，應該不用再特別強調了。但是在 Fallout 4 裡造一個埼玉就很值得提一下了。這部作品 (一拳超人，不是 Fallout 4) 基本上顛覆了 JUMP 王道戰鬥漫畫的核心設定，有看《爆漫王》的人應該都知道「主角的成長」在這類型的作品中是不可或缺的要素，然而埼玉劈頭就是個怪力王者，而且平常長得就像 8 歲小孩 (或是一個畫技不好的大人) 畫的友藏，稍微拿出點實力的話每個人就會在五秒鐘之內去領便當了，老實說要是沒有「華麗戰鬥畫面擔當」傑諾斯，這部作品根本就會變成 *<a href=\"http://goo.gl/kWHLRV\">搞笑漫畫日和</a>了吧！？</p>\n\n<p>*註一：那個連結是最近也很紅的小松先生模仿搞笑漫畫日和的世界末日</p>\n\n<p>回到《一拳超人》，其實它是一部<a href=\"http://tonarinoyj.jp/manga/onepanman/\">在網路上連載的作品</a>，由於每回交稿量都不太一定，加上常常出現大場面動作電影般的跨頁分鏡，有時候都覺得做成翻頁動畫會不會好一點？其實在日本，線上連載已經成為一股趨勢，許多大手 (也就是名家) 都有線上作品，有興趣的話以後再來介紹。至於台版單行本，目前出到第 6 集，封面是生龍活虎的 PURI-PURI PRISONER 唷！</p>\n\n<p>喜歡村田雄介的話，必須不免俗地介紹他就是《光速蒙面俠 21》的作者，但結束連載之後這位漫畫家似乎就美好地壞掉了！？除了《一拳超人》之外，目前村田桑還以 ONE 的名稱連載了<a href=\"http://tonarinoyj.jp/manga/makai/\">《魔界的歐吉桑》</a>和<a href=\"http://urasunday.com/mobupsycho100/index.html\">《モブサイコ 100》</a>(這我實在不知道怎麼翻譯)，這兩部都更新地很勤，還有<a href=\"https://twitter.com/NEBU_KURO\">推特</a>也是。記得沒錯的話《魔界的歐吉桑》在網路上應該找得到漢化版。</p>\n\n<p>如果問我有一天真人電影適合找誰來演的話，身為《熟成男生產履歷》的編撰者，我認為山内圭哉應該蠻適合的。</p>\n\n<p>知道你又想問：<a href=\"https://goo.gl/wSFTbN\">山內圭哉是誰？</a></p>\n\n<p>以上來自 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 的分享！</p>",
+          "description_markdown": "《一拳超人》紅到讓一個好端端的社會人瞬間變身為每週一固定在線上點刷新的屁孩這件事，應該不用再特別強調了。但是在 Fallout 4 裡造一個埼玉就很值得提一下了。這部作品 (一拳超人，不是 Fallout 4) 基本上顛覆了 JUMP 王道戰鬥漫畫的核心設定，有看《爆漫王》的人應該都知道「主角的成長」在這類型的作品中是不可或缺的要素，然而埼玉劈頭就是個怪力王者，而且平常長得就像 8 歲小孩 (或是一個畫技不好的大人) 畫的友藏，稍微拿出點實力的話每個人就會在五秒鐘之內去領便當了，老實說要是沒有「華麗戰鬥畫面擔當」傑諾斯，這部作品根本就會變成 *[搞笑漫畫日和](http://goo.gl/kWHLRV)了吧！？\r\n\r\n*註一：那個連結是最近也很紅的小松先生模仿搞笑漫畫日和的世界末日\r\n\r\n回到《一拳超人》，其實它是一部[在網路上連載的作品](http://tonarinoyj.jp/manga/onepanman/)，由於每回交稿量都不太一定，加上常常出現大場面動作電影般的跨頁分鏡，有時候都覺得做成翻頁動畫會不會好一點？其實在日本，線上連載已經成為一股趨勢，許多大手 (也就是名家) 都有線上作品，有興趣的話以後再來介紹。至於台版單行本，目前出到第 6 集，封面是生龍活虎的 PURI-PURI PRISONER 唷！\r\n\r\n喜歡村田雄介的話，必須不免俗地介紹他就是《光速蒙面俠 21》的作者，但結束連載之後這位漫畫家似乎就美好地壞掉了！？除了《一拳超人》之外，目前村田桑還以 ONE 的名稱連載了[《魔界的歐吉桑》](http://tonarinoyj.jp/manga/makai/)和[《モブサイコ 100》](http://urasunday.com/mobupsycho100/index.html)(這我實在不知道怎麼翻譯)，這兩部都更新地很勤，還有[推特](https://twitter.com/NEBU_KURO)也是。記得沒錯的話《魔界的歐吉桑》在網路上應該找得到漢化版。\r\n\r\n如果問我有一天真人電影適合找誰來演的話，身為《熟成男生產履歷》的編撰者，我認為山内圭哉應該蠻適合的。\r\n\r\n知道你又想問：[山內圭哉是誰？](https://goo.gl/wSFTbN)\r\n\r\n以上來自 [@autisticcat](https://twitter.com/autisticcat) 的分享！",
+          "embedded_links": [
+            {
+              "identifier": "MvJTYPg",
+              "title": "搞笑漫畫日和",
+              "url_domain": "goo.gl",
+              "url": "http://goo.gl/kWHLRV"
+            },
+            {
+              "identifier": "jbldr9N",
+              "title": "在網路上連載的作品",
+              "url_domain": "tonarinoyj.jp",
+              "url": "http://tonarinoyj.jp/manga/onepanman/"
+            },
+            {
+              "identifier": "ulefcAJ",
+              "title": "《魔界的歐吉桑》",
+              "url_domain": "tonarinoyj.jp",
+              "url": "http://tonarinoyj.jp/manga/makai/"
+            },
+            {
+              "identifier": "wFXuLRL",
+              "title": "《モブサイコ 100》",
+              "url_domain": "urasunday.com",
+              "url": "http://urasunday.com/mobupsycho100/index.html"
+            },
+            {
+              "identifier": "U4Z5iPY",
+              "title": "推特",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NEBU_KURO"
+            },
+            {
+              "identifier": "FnUHqHn",
+              "title": "山內圭哉是誰？",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/wSFTbN"
+            },
+            {
+              "identifier": "8nNWZa2",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ],
+          "image_original_filename": "a474fe34-852b-4385-b2dc-9782dde646e2.png",
+          "image_extra_large_filename": "original_ratio_extra_large_a474fe34-852b-4385-b2dc-9782dde646e2.png",
+          "image_medium_filename": "original_ratio_medium_a474fe34-852b-4385-b2dc-9782dde646e2.png"
+        }
+      ]
+    }
+  ]
+}

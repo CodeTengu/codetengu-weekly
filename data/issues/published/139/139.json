@@ -1,0 +1,355 @@
+{
+  "number": 139,
+  "title": "Issue 139 他們在 release 的前一天爆炸",
+  "summary": "本期內容涵蓋 PHP, Design Pattern, DevOps, Terraform",
+  "url": "https://weekly.codetengu.com/issues/139",
+  "publication_status": "published",
+  "published_at": "2018-08-27T07:50:01+01:00",
+  "updated_at": "2018-08-27T07:50:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在重讀「<a href=\"https://www.douban.com/people/vinta/\">沙丘</a>」系列</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在重讀「[沙丘](https://www.douban.com/people/vinta/)」系列\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "YDCWQOG",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "2FrLAQK",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "yuZl9mS",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "ar2stwA",
+              "title": "沙丘",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "NAbBoCY",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "tN5ZFid",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "os54HW2",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "fTuZ7IW",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "YMrljAT",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "GJhB6r",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "pXGcPRm",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "aMJ4hiJ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "oIthKn1",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "tzbXHVc",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "4qKtdVm",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "Zt7Ev50",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "UsVq4X9",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "LQsHxDE",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "bFGgTz5",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "BgstTNc",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "53y0PuB",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "eOUUq6u",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "VqxWBcE",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "uZoeXJW",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "VMENmoK",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "5PQuurv",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "WyEBOVk",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "uijGMlt",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "BeOZYkX",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "RUUF85n",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "obfPsrd",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "lx81R7q",
+          "type": "Link",
+          "title": "8 resources to learn about SOLID design principles",
+          "url_domain": "barryvanveen.nl",
+          "url": "https://barryvanveen.nl/blog/51-8-resources-to-learn-about-solid-design-principles",
+          "description": "<p>PHP：中級 / Design Pattern：初級</p>\n\n<p>有人曾經問過 Laravel 的作者 Taylor Otwell：如果想成為更棒的 PHP 工程師，你會怎麼建議？</p>\n\n<blockquote><p> 學習出色的 Design Pattern。這不只適用在 PHP。你可以在任何程式語言使用這些 pattern。尤其是 SOLID。把這五個徹底學好，它會把你帶到新的境界，我每次寫 code 幾乎都在想這 5 點。</p></blockquote>\n\n<p>的確 Design Pattern 的重點心法即是在 SOLID（Single Responsibility Principle、Open Closed Principle、Least Knowledge Principle、 Interface Segregation Principle、Dependency Inversion Principle），每隔一段時間應該都要回頭檢視看看自己是否有將 SOLID 放在心中去寫 code，雖然有時趕產品開發常常會忽略掉而留下技術債，但就從回顧中去勉勵自己多看、多想、多練習。本篇文章羅列了一些平實易讀的資源，分享給大家。</p>",
+          "description_markdown": "PHP：中級 / Design Pattern：初級\r\n\r\n有人曾經問過 Laravel 的作者 Taylor Otwell：如果想成為更棒的 PHP 工程師，你會怎麼建議？\r\n\r\n>  學習出色的 Design Pattern。這不只適用在 PHP。你可以在任何程式語言使用這些 pattern。尤其是 SOLID。把這五個徹底學好，它會把你帶到新的境界，我每次寫 code 幾乎都在想這 5 點。\r\n\r\n的確 Design Pattern 的重點心法即是在 SOLID（Single Responsibility Principle、Open Closed Principle、Least Knowledge Principle、 Interface Segregation Principle、Dependency Inversion Principle），每隔一段時間應該都要回頭檢視看看自己是否有將 SOLID 放在心中去寫 code，雖然有時趕產品開發常常會忽略掉而留下技術債，但就從回顧中去勉勵自己多看、多想、多練習。本篇文章羅列了一些平實易讀的資源，分享給大家。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "a8WdjAf",
+          "type": "Link",
+          "title": " More code comments",
+          "url_domain": "matthiasnoback.nl",
+          "url": "https://matthiasnoback.nl/2018/08/more-code-comments/",
+          "description": "<p>PHP：中級 / Programming：初級</p>\n\n<p>這是作者在 Twitter 上看到一篇討論程式註解的 tweet 之後寫下的文章，重點就是在討論註解這件事，當寫下註解的時候，可以去思考如何用一個概念來說明要註解的內容，如此可能就可以不必寫下註解，例如：</p>\n\n<pre><code>if ($date-&gt;hour &lt; 9 || $date-&gt;hour &gt; 17) { //Off-hours?\n}\n</code></pre>\n\n<p>可以改成</p>\n\n<pre><code>if ($this-&gt;isAnOffHour($date-&gt;hour)) {\n}\n</code></pre>\n\n<p>如此不僅不需要註解，甚至程式碼也變得更容易閱讀了。作者基本上贊成這個 tweet，不過他也提出了自己雖然也常遵循這樣的原則，不過卻也還是常寫下程式註解，當然我想這都是不可避免的（不然幹嘛有註解這樣的設計呢？），雖然我們要遵循好的設計原則，但卻也不是就完全不能寫註解，當真的需要寫下註解的時候，還是放心地寫吧！</p>",
+          "description_markdown": "PHP：中級 / Programming：初級\r\n\r\n這是作者在 Twitter 上看到一篇討論程式註解的 tweet 之後寫下的文章，重點就是在討論註解這件事\b，當寫下註解的時候，可以去思考如何用一個概念來說明要註解的內容，如此可能就可以不必寫下註解，例如：\r\n\r\n```\r\nif ($date->hour < 9 || $date->hour > 17) { //Off-hours?\r\n}\r\n```\r\n\r\n可以改成\r\n\r\n```\r\nif ($this->isAnOffHour($date->hour)) {\r\n}\r\n```\r\n\r\n如此不僅不需要註解，甚至程式碼也變得更容易閱讀了。作者基本上贊成這個 tweet，不過他也提出了自己雖然也常遵循這樣的原則，不過卻也還是常寫下程式註解，當然我想這都是不可避免的（不然幹嘛有註解這樣的設計呢？），雖然我們要遵循好的設計原則，但卻也不是就完全不能寫註解，當真的需要寫下註解的時候，還是放心地寫吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "X0RegK6",
+          "type": "Link",
+          "title": "Building a PHP Framework: Part 1 – Why? Seriously, Why?",
+          "url_domain": "developmentmatt.com",
+          "url": "https://developmentmatt.com/building-a-php-framework-part-1-why-seriously-why/",
+          "description": "<p>PHP：中級 / Web Application：中級</p>\n\n<p>這一系列文章作者帶著讀者一步一步搭建一個 Web Framework，或許有人會問：為何要學做一個 Web Framework 呢？直接用現成的就好了啊！</p>\n\n<p>其實在搭建的過程當中可以學習到許多有關 Web Application 的知識及 Design Pattern，這可以讓自己對於 Web Application 的技術的掌握更扎實。像之前被批評的量產炮灰型 XXX Framework 工程師課程所產出的工程師其實就是少了這些基本知識，以至於只能學其一二，不能舉一反三。</p>\n\n<p>個人覺得這一系列文章寫得還蠻淺顯易懂的，雖然還沒完全完成，不過可以期待後續，回想起自己以前也幹過自幹 Framework 的傻事，的確很有成就感也能學到許多，不過要用到 production 還是三思啊！</p>",
+          "description_markdown": "PHP：中級 / Web Application：中級\r\n\r\n這一系列文章作者帶著讀者一步一步搭建一個 Web Framework，或許有人會問：為何要學做一個 Web Framework 呢？直接用現成的就好了啊！\r\n\r\n其實在搭建的過程當中可以學習到許多有關 Web Application 的知識及 Design Pattern，這可以讓自己對於 Web Application 的技術的掌握更扎實。像之前被批評的量產炮灰型 XXX Framework 工程師課程所產出的工程師其實就是少了這些基本知識，以至於只能學其一二，不能舉一反三。\r\n\r\n個人覺得這一系列文章寫得還蠻淺顯易懂的，雖然還沒完全完成，不過可以期待後續，回想起自己以前也幹過自幹 Framework 的傻事，的確很有成就感也能學到許多，不過要用到 production 還是三思啊！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "awJE08I",
+          "type": "Link",
+          "title": "Introduction to Terraform ",
+          "url_domain": "terraform.io",
+          "url": "https://www.terraform.io/intro/index.html",
+          "description": "<p>應該有些人聽過 Terraform，可能也有些人用過。敝公司也正在導入。不過這玩意到底是什麼呢？\n簡單來說就是用宣告式的方法來設定雲端系統 (像是 AWS, GCP, Azure 等等)。</p>\n\n<p>好處是整個系統都是用程式碼定義 (Infrastructure as Code) 。並且強制使用不可修改的 instance，讓系統的可重現性大幅提高。可以減少在 staging 會動，到 production 就升天的窘境。在這種伺服器會被關掉重開的情況下，也會讓大家在設計的時候就考慮到高可用性，減少水平擴展的困難度。</p>",
+          "description_markdown": "應該有些人聽過 Terraform，可能也有些人用過。敝公司也正在導入。不過這玩意到底是什麼呢？\r\n簡單來說就是用宣告式的方法來設定雲端系統 (像是 AWS, GCP, Azure 等等)。\r\n\r\n好處是整個系統都是用程式碼定義 (Infrastructure as Code) 。並且強制使用不可修改的 instance，讓系統的可重現性大幅提高。可以減少在 staging 會動，到 production 就升天的窘境。在這種伺服器會被關掉重開的情況下，也會讓大家在設計的時候就考慮到高可用性，減少水平擴展的困難度。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "e2lJkNt",
+          "type": "Link",
+          "title": "Terratest: 雲端系統也能寫 unit test",
+          "url_domain": "github.com",
+          "url": "https://github.com/gruntwork-io/terratest",
+          "description": "<p>把雲端的的設定都寫成 Code 了，再來呢？有 Code 的地方就一定會有 Bug，這是無法改變的宿命。抓 Bug 並且讓它不再出現的最好方法就是寫 Test。不過設定要怎麼寫 Test 呢？</p>\n\n<p>Terratest 來拯救咧！</p>\n\n<p>這個 Gruntwork 開發的開源測試工具可以把你的雲端系統整個 deploy 到一個全新的環境，再自動跑我們寫的 test case ，像是 API test, ssh 連線等等。測完之後再自動把整個測試系統砍掉。讓改 infra code 不再心驚膽顫。</p>",
+          "description_markdown": "把雲端的的設定都寫成 Code 了，再來呢？有 Code 的地方就一定會有 Bug，這是無法改變的宿命。抓 Bug 並且讓它不再出現的最好方法就是寫 Test。不過設定要怎麼寫 Test 呢？\r\n\r\nTerratest 來拯救咧！\r\n\r\n這個 Gruntwork 開發的開源測試工具可以把你的雲端系統整個 deploy 到一個全新的環境，再自動跑我們寫的 test case ，像是 API test, ssh 連線等等。測完之後再自動把整個測試系統砍掉。讓改 infra code 不再心驚膽顫。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Lxh2t9",
+          "type": "Link",
+          "title": "Terragrunt: 把 Terraform 的設定抽到乾 (DRY)",
+          "url_domain": "github.com",
+          "url": "https://github.com/gruntwork-io/terragrunt",
+          "description": "<p>Infra code 寫好測滿之後，再來就要開始一層一層 deploy 出去，先是寫 dev 的設定，再來寫 staging 的設定，再來寫 alpha 的設定，差不多寫到 beta 的設定就崩潰了，連 production 都還沒到。每個環境都有點像，又都有點不像。好一點的只有 scale 不一樣，慘一點的要和一大堆 legacy 奮戰。</p>\n\n<p>Terragrunt 可以幫我們省很多複製貼上的工，讓每個環境都只需要訂參數，沿用一樣的設定，減少複製貼上產生錯誤的機率。也強制降低每個環境間的差異。</p>",
+          "description_markdown": "Infra code 寫好測滿之後，再來就要開始一層一層 deploy 出去，先是寫 dev 的設定，再來寫 staging 的設定，再來寫 alpha 的設定，差不多寫到 beta 的設定就崩潰了，連 production 都還沒到。每個環境都有點像，又都有點不像。好一點的只有 scale 不一樣，慘一點的要和一大堆 legacy 奮戰。\r\n\r\nTerragrunt 可以幫我們省很多複製貼上的工，讓每個環境都只需要訂參數，沿用一樣的設定，減少複製貼上產生錯誤的機率。也強制降低每個環境間的差異。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oiWu55M",
+          "type": "Link",
+          "title": "\tWhy Do Keynote Speakers Keep Suggesting That Improving Security Is Possible? ",
+          "url_domain": "usenix.org",
+          "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/mickens",
+          "description": "<p>一個娛樂性非常高的 talk。讓我們能夠好好想想在 Hype Driven Development  下對電腦安全造成的影響。</p>",
+          "description_markdown": "一個娛樂性非常高的 talk。讓我們能夠好好想想在 Hype Driven Development  下對電腦安全造成的影響。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "w60BCAw",
+          "type": "Link",
+          "title": "iPlayground 2018",
+          "url_domain": "kktix.cc",
+          "url": "https://iplayground.kktix.cc/events/iplayground2018",
+          "description": "<p>想聽 iOS 的最新開發技術？想聽和 Apple 奮戰的血淚談？想尋找新的工作機會？10/20 - 10/21 在台大管理學院舉辦的 iPlayground 2018 讓你三個願望一次滿足。</p>\n\n<p>目前熱烈<a href=\"https://cfp.iplayground.io/events/iplayground_2018\">徵稿</a>與<a href=\"https://iplayground.kktix.cc/events/iplayground2018\">售票</a>中。快來參與吧。</p>",
+          "description_markdown": "想聽 iOS 的最新開發技術？想聽和 Apple 奮戰的血淚談？想尋找新的工作機會？10/20 - 10/21 在台大管理學院舉辦的 iPlayground 2018 讓你三個願望一次滿足。\r\n\r\n目前熱烈[徵稿](https://cfp.iplayground.io/events/iplayground_2018)與[售票](https://iplayground.kktix.cc/events/iplayground2018)中。快來參與吧。",
+          "embedded_links": [
+            {
+              "identifier": "SkkRzu2",
+              "title": "徵稿",
+              "url_domain": "iplayground.io",
+              "url": "https://cfp.iplayground.io/events/iplayground_2018"
+            },
+            {
+              "identifier": "uUE01Or",
+              "title": "售票",
+              "url_domain": "kktix.cc",
+              "url": "https://iplayground.kktix.cc/events/iplayground2018"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "3e04zx3",
+          "type": "Link",
+          "title": "Senior Backend Engineer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/5",
+          "description": "<h2>必備</h2>\n\n<ul>\n<li>In-depth knowledge of Python, NodeJS </li>\n<li>Experience with Python web frameworks ie. Flask/Django/Tornado </li>\n<li>Utilized work queues for background processing </li>\n<li>In-depth knowledge of MongoDB and Redis </li>\n<li>Excellent understanding of HTTP </li>\n<li>Experience developing REST APIs </li>\n<li>Designed for modular systems </li>\n<li>Cloud environment experience</li>\n<li>Excellent communication and organizational skills</li>\n</ul>\n\n\n<h2>加分</h2>\n\n<ul>\n<li>Worked with Python <code>asyncio</code></li>\n<li>Experience developing in Go </li>\n<li>Event-driven architecture </li>\n<li>Experience working with cluster environments and/or containers. ie. Kubernetes, Docker </li>\n<li>Development flow utilizing CI/CD </li>\n<li>Experience working with distributed systems </li>\n<li>Experience working with real-time APIs </li>\n</ul>\n\n\n<h2>薪資範圍</h2>\n\n<ul>\n<li>年薪 100 萬新台幣以上。</li>\n</ul>",
+          "description_markdown": "## 必備\r\n\r\n* In-depth knowledge of Python, NodeJS \r\n* Experience with Python web frameworks ie. Flask/Django/Tornado \r\n* Utilized work queues for background processing \r\n* In-depth knowledge of MongoDB and Redis \r\n* Excellent understanding of HTTP \r\n* Experience developing REST APIs \r\n* Designed for modular systems \r\n* Cloud environment experience\r\n* Excellent communication and organizational skills\r\n\r\n## 加分\r\n\r\n* Worked with Python `asyncio`\r\n* Experience developing in Go \r\n* Event-driven architecture \r\n* Experience working with cluster environments and/or containers. ie. Kubernetes, Docker \r\n* Development flow utilizing CI/CD \r\n* Experience working with distributed systems \r\n* Experience working with real-time APIs \r\n\r\n## 薪資範圍\r\n\r\n* 年薪 100 萬新台幣以上。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

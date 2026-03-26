@@ -1,0 +1,490 @@
+{
+  "number": 28,
+  "title": "Issue 28 新年特刊：♫ 每條大街小巷，每個工程師的嘴裡，見面第一句話，就是不要 Deploy ♫ ",
+  "summary": "本期內容涵蓋 Testing, Kubeunetes, Code Review, Django, Python, TensorFlow, Swift",
+  "url": "https://weekly.codetengu.com/issues/28",
+  "publication_status": "published",
+  "published_at": "2016-02-04T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:33:40+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "iaBS726",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "nauH6hA",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ahDSrs6",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "x3IHTuo",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "XxdcBQo",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "v0kbfyb",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Mdj1u9w",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "e3FOZjA",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "EWaMEBk",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Xsl71Ie",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "PBtDauI",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "Hc6e2yG",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "e71oa1n",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "r1bny25",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "8wxVVRe",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "UJp1Rgb",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "RQ4PHYz",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "MkzD8un",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ns8n8XX",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "evkud5j",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "c8H60mw",
+          "type": "Link",
+          "title": "Doing Terrible Things To Your Code",
+          "url_domain": "codinghorror.com",
+          "url": "http://blog.codinghorror.com/doing-terrible-things-to-your-code/",
+          "description": "<p>這篇文章講的是寫出一支健壯的程式的最好辦法：毫無懸念地，就是「測試」，尤其是針對「邊界值」、「特殊值」的測試。如果你覺得所謂的邊界值就只是 0、-1、9999999999999 或是最大最小值加一減一之類的數值的話，那就太天真了。</p>\n\n<p>大家可以讀讀底下的這幾篇文章，好好地感受一下真實世界的邊界值：</p>\n\n<ul>\n<li><a href=\"http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/\">Falsehoods Programmers Believe About Names</a></li>\n<li><a href=\"http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time\">Falsehoods Programmers Believe About Time</a></li>\n<li><a href=\"http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time\">More Falsehoods Programmers Believe About Time</a></li>\n<li><a href=\"http://wiesmann.codiferes.net/wordpress/?p=15187&amp;lang=en\">Falsehoods Programmers Believe About Geography</a></li>\n<li><a href=\"https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/\">Falsehoods Programmers Believe About Addresses</a></li>\n<li><a href=\"https://gist.github.com/garbados/f82604ea639e0e47bf44\">Falsehoods Programmers Believe About Gender</a></li>\n</ul>\n\n\n<p>P.S. 本文的作者是 Jeff Atwood，就是跟 Joel Spolsky 一起創立 Stack Overflow 的人，是個很幽默的程序員啊～</p>",
+          "description_markdown": "這篇文章講的是寫出一支健壯的程式的最好辦法：毫無懸念地，就是「測試」，尤其是針對「邊界值」、「特殊值」的測試。如果你覺得所謂的邊界值就只是 0、-1、9999999999999 或是最大最小值加一減一之類的數值的話，那就太天真了。\r\n\r\n大家可以讀讀底下的這幾篇文章，好好地感受一下真實世界的邊界值：\r\n\r\n- [Falsehoods Programmers Believe About Names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)\r\n- [Falsehoods Programmers Believe About Time](http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time)\r\n- [More Falsehoods Programmers Believe About Time](http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time)\r\n- [Falsehoods Programmers Believe About Geography](http://wiesmann.codiferes.net/wordpress/?p=15187&lang=en)\r\n- [Falsehoods Programmers Believe About Addresses](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/)\r\n- [Falsehoods Programmers Believe About Gender](https://gist.github.com/garbados/f82604ea639e0e47bf44)\r\n\r\nP.S. 本文的作者是 Jeff Atwood，就是跟 Joel Spolsky 一起創立 Stack Overflow 的人，是個很幽默的程序員啊～",
+          "embedded_links": [
+            {
+              "identifier": "xomxcny",
+              "title": "Falsehoods Programmers Believe About Names",
+              "url_domain": "kalzumeus.com",
+              "url": "http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/"
+            },
+            {
+              "identifier": "GITKVLD",
+              "title": "Falsehoods Programmers Believe About Time",
+              "url_domain": "infiniteundo.com",
+              "url": "http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time"
+            },
+            {
+              "identifier": "mof4i6L",
+              "title": "More Falsehoods Programmers Believe About Time",
+              "url_domain": "infiniteundo.com",
+              "url": "http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time"
+            },
+            {
+              "identifier": "eYEooCe",
+              "title": "Falsehoods Programmers Believe About Geography",
+              "url_domain": "codiferes.net",
+              "url": "http://wiesmann.codiferes.net/wordpress/?p=15187&lang=en"
+            },
+            {
+              "identifier": "hHMfIc9",
+              "title": "Falsehoods Programmers Believe About Addresses",
+              "url_domain": "mjt.me.uk",
+              "url": "https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/"
+            },
+            {
+              "identifier": "AY4eSMZ",
+              "title": "Falsehoods Programmers Believe About Gender",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/garbados/f82604ea639e0e47bf44"
+            }
+          ]
+        },
+        {
+          "identifier": "ItUtCL7",
+          "type": "Link",
+          "title": "Kubernetes 架构浅析",
+          "url_domain": "jolestar.com",
+          "url": "http://jolestar.com/kubernetes-architecture/",
+          "description": "<p>最近在研究 Kubeunetes，看到這篇文章把 Kubeunetes 的各個元件解釋得挺清楚的，跟大家分享一下。</p>\n\n<p>不過那個 kube-proxy 的性能問題看起來有點慘吶，雖然好像是聽說這個問題會在 1.1 改善。</p>",
+          "description_markdown": "最近在研究 Kubeunetes，看到這篇文章把 Kubeunetes 的各個元件解釋得挺清楚的，跟大家分享一下。\r\n\r\n不過那個 kube-proxy 的性能問題看起來有點慘吶，雖然好像是聽說這個問題會在 1.1 改善。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "eVJby3T",
+          "type": "Link",
+          "title": "Design Patterns & Refactoring",
+          "url_domain": "sourcemaking.com",
+          "url": "https://sourcemaking.com/",
+          "description": "<p>這個網站真的不得了，有點像 GoF 的 <a href=\"http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8\">Design patterns</a> 跟 Martin Fowler 的 <a href=\"http://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology-ebook/dp/B007WTFWJ6\">Refactoring</a> 這兩本書的集合。\n網站設計的很好，一節的內容量不多很適合零散閱讀，且範例充足。\n最令人激賞的是他章節的編排，從 Design Patterns 開始講起，接著是 Anti Patterns，再來是 Refactoring，有沒有一種很濃烈的既視感。</p>\n\n<p>如果對這些 Topic 還沒有很有把握的，我想這個網站會是一個很棒的入口吧。對有經驗的人來說，這個網站的資源來當作索引也是再適合不過了。</p>\n\n<p>題外話：有些人在問問題或是在解說自己程式的時候其他人不容易進入他的 context 裡，可能是他還沒有掌握到那些對應的專門詞彙，如果是這樣的話 Design Patterns 的介紹中都有那些常見的詞彙可以趁機多看多感受，當然啦，也有可能是個人的抽象化能力真的太差了。</p>",
+          "description_markdown": "這個網站真的不得了，有點像 GoF 的 [Design patterns](http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8) 跟 Martin Fowler 的 [Refactoring](http://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology-ebook/dp/B007WTFWJ6) 這兩本書的集合。\r\n網站設計的很好，一節的內容量不多很適合零散閱讀，且範例充足。\r\n最令人激賞的是他章節的編排，從 Design Patterns 開始講起，接著是 Anti Patterns，再來是 Refactoring，有沒有一種很濃烈的既視感。\r\n\r\n如果對這些 Topic 還沒有很有把握的，我想這個網站會是一個很棒的入口吧。對有經驗的人來說，這個網站的資源來當作索引也是再適合不過了。\r\n\r\n題外話：有些人在問問題或是在解說自己程式的時候其他人不容易進入他的 context 裡，可能是他還沒有掌握到那些對應的專門詞彙，如果是這樣的話 Design Patterns 的介紹中都有那些常見的詞彙可以趁機多看多感受，當然啦，也有可能是個人的抽象化能力真的太差了。",
+          "embedded_links": [
+            {
+              "identifier": "da3pxwd",
+              "title": "Design patterns",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented-ebook/dp/B000SEIBB8"
+            },
+            {
+              "identifier": "hoLLQJU",
+              "title": "Refactoring",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Technology-ebook/dp/B007WTFWJ6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "iGmwVww",
+          "type": "Link",
+          "title": "創下單月 45TB 流量紀錄的個人專案: MyAudioCast",
+          "url_domain": "tzangms.com",
+          "url": "https://tzangms.com/the-record-of-myaudiocast/",
+          "description": "<p>MyAudioCast 是我在五年前開始的 side project, 雖然今年年初決定收攤了, 不過寫了一篇當初做 Podcast hosting 的紀錄和一些心得, 對於想做個人專案、或是創業的人, 也許可以有一些東西可以參考或是討論。</p>",
+          "description_markdown": "MyAudioCast 是我在五年前開始的 side project, 雖然今年年初決定收攤了, 不過寫了一篇當初做 Podcast hosting 的紀錄和一些心得, 對於想做個人專案、或是創業的人, 也許可以有一些東西可以參考或是討論。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "zVYxyJ0",
+          "type": "Link",
+          "title": "On code review ",
+          "url_domain": "glen.nu",
+          "url": "http://glen.nu/ramblings/oncodereview.php",
+          "description": "<p>可能因為最近太忙, 我其實有點脫離 Code review 這件事, 對我的團隊們實在感到抱歉, 不過也因為感到抱歉, 也一直有在思考 Code review 這件事如何改進, 或是思考因為我的延遲所造成的問題。</p>\n\n<p>對於這篇文章說的事情, 正好寫出的我的一些想法, 也針對了 Reviewer 跟 Submitter 兩方都給了建議, 我覺得應該列進公司內部的 Guideline。</p>\n\n<p>我以下簡單針對兩方列出最重要的一點</p>\n\n<p>給 Reviewer</p>\n\n<blockquote><p>儘快 Code Review! 否則拖了一天之後就又會一直拖, 特別是對於有拖延症的人, 像是我 (笑), 太晚做 Code Review 有什麼問題? Submitter 會容易忘記先前的內容, 重新進入狀況也會造成 context-switch。</p></blockquote>\n\n<p>給 Submitter</p>\n\n<blockquote><p>送出前好好看過自己的 Code, 不管是在 commit 或是開 Pull Request, 後續又持續修改送 commit 上去時, Reviewer 不知道到底是否可以 review 了沒, 可能還得問一聲, 這在我團隊有時也會發生, 所以時間就會拉長, 減少產出。</p></blockquote>\n\n<p>最後, 對於我的團隊們, 我得致上最高的歉意, 請原諒我最近這麼忙 (哭)</p>",
+          "description_markdown": "可能因為最近太忙, 我其實有點脫離 Code review 這件事, 對我的團隊們實在感到抱歉, 不過也因為感到抱歉, 也一直有在思考 Code review 這件事如何改進, 或是思考因為我的延遲所造成的問題。\r\n\r\n對於這篇文章說的事情, 正好寫出的我的一些想法, 也針對了 Reviewer 跟 Submitter 兩方都給了建議, 我覺得應該列進公司內部的 Guideline。 \r\n\r\n我以下簡單針對兩方列出最重要的一點\r\n\r\n給 Reviewer\r\n\r\n> 儘快 Code Review! 否則拖了一天之後就又會一直拖, 特別是對於有拖延症的人, 像是我 (笑), 太晚做 Code Review 有什麼問題? Submitter 會容易忘記先前的內容, 重新進入狀況也會造成 context-switch。\r\n\r\n給 Submitter\r\n\r\n> 送出前好好看過自己的 Code, 不管是在 commit 或是開 Pull Request, 後續又持續修改送 commit 上去時, Reviewer 不知道到底是否可以 review 了沒, 可能還得問一聲, 這在我團隊有時也會發生, 所以時間就會拉長, 減少產出。\r\n\r\n最後, 對於我的團隊們, 我得致上最高的歉意, 請原諒我最近這麼忙 (哭)",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "DXZc3Sb",
+          "type": "Link",
+          "title": "The Phoenix Project",
+          "url_domain": "amzn.to",
+          "url": "http://amzn.to/1nMV2Y1",
+          "description": "<p>這是我最近在聽的一本書, 應該是我聽過最有趣，也最切身的一本有聲書了, 好聽到不能自己! 非常想推薦給大家, 不習慣聽有聲書的朋友們也可以看看 <a href=\"http://amzn.to/1o66Cx3\">Kindle 版本</a>, 不過我得說一下, 有聲書實在是生動、有趣多了!</p>\n\n<p>這本書是在說一個在一家大公司的中階的技術主管 Bill, 有一天接到 CEO 秘書打來一聽電話, 要他去見 CEO。 沒想到 CEO 希望他可以接下工程副總的職位,  只是原本職缺的人卻不知道為何突然消失了, 除此之外, Bill 根本不想接, 因為他很滿意他現在的工作, 特別是不知道原本的人是因為被炒魷魚還是自行離職的。 總之太突然, 但是還是被強迫的接下來這個工作。</p>\n\n<p>Bill 接下這個工作後, 就開始一堆狗屁倒灶的事情席捲而來, 故事就由此展開, 什麼系統故障, 安全性問題都一起發生。 不過除了一堆狗屁事情之外, 裡面也持續提到軟體開發、流程、敏捷、架構、部署, 還有目標以及價值 ... 等等, 真心推薦 IT 從業人員, 特別是目前已經在管理階級的人可以讀一下, 搞不好也會有切身體會 XD</p>\n\n<p>總結來說, 這本書就是在說, 很多公司把 IT 就只當作是個部門, 而且是非常獨立的部門來對待, 要做什麼就交代下去, 也不聽取 IT 意見, 不把 IT 當作企業命脈的一部份, 現在哪家具有一定規模的公司不需要 IT 呢?</p>\n\n<p>由於這本書的內容, 實在是跟我現在的狀況太過相像, 所以聽起來特別有感覺, 哈哈哈。</p>\n\n<p>當然, 我避免讓我的團隊們有同樣的感受, 讓他們專注開發、學習新技術。 而我也希望我可以像故事中主角, 最後克服了一堆問題, 克服萬難啊!</p>",
+          "description_markdown": "這是我最近在聽的一本書, 應該是我聽過最有趣，也最切身的一本有聲書了, 好聽到不能自己! 非常想推薦給大家, 不習慣聽有聲書的朋友們也可以看看 [Kindle 版本](http://amzn.to/1o66Cx3), 不過我得說一下, 有聲書實在是生動、有趣多了!\r\n\r\n這本書是在說一個在一家大公司的中階的技術主管 Bill, 有一天接到 CEO 秘書打來一聽電話, 要他去見 CEO。 沒想到 CEO 希望他可以接下工程副總的職位,  只是原本職缺的人卻不知道為何突然消失了, 除此之外, Bill 根本不想接, 因為他很滿意他現在的工作, 特別是不知道原本的人是因為被炒魷魚還是自行離職的。 總之太突然, 但是還是被強迫的接下來這個工作。\r\n\r\nBill 接下這個工作後, 就開始一堆狗屁倒灶的事情席捲而來, 故事就由此展開, 什麼系統故障, 安全性問題都一起發生。 不過除了一堆狗屁事情之外, 裡面也持續提到軟體開發、流程、敏捷、架構、部署, 還有目標以及價值 ... 等等, 真心推薦 IT 從業人員, 特別是目前已經在管理階級的人可以讀一下, 搞不好也會有切身體會 XD \r\n\r\n總結來說, 這本書就是在說, 很多公司把 IT 就只當作是個部門, 而且是非常獨立的部門來對待, 要做什麼就交代下去, 也不聽取 IT 意見, 不把 IT 當作企業命脈的一部份, 現在哪家具有一定規模的公司不需要 IT 呢?\r\n\r\n由於這本書的內容, 實在是跟我現在的狀況太過相像, 所以聽起來特別有感覺, 哈哈哈。 \r\n\r\n當然, 我避免讓我的團隊們有同樣的感受, 讓他們專注開發、學習新技術。 而我也希望我可以像故事中主角, 最後克服了一堆問題, 克服萬難啊! ",
+          "embedded_links": [
+            {
+              "identifier": "Bfwd2I3",
+              "title": "Kindle 版本",
+              "url_domain": "amzn.to",
+              "url": "http://amzn.to/1o66Cx3"
+            }
+          ]
+        },
+        {
+          "identifier": "1NtvpPJ",
+          "type": "Link",
+          "title": "Django StackOverflow Trace",
+          "url_domain": "github.com",
+          "url": "https://github.com/emre/django-stackoverflow-trace",
+          "description": "<p>這是我最近看到一個對 Django 非常實用的一個套件, 準備來用上 StreetVoice, 我覺得不管是對自己開發或是團隊來說都是很棒的一個工具。</p>\n\n<p>舉例來說, 應該很多 Developer 寫程式碰到錯誤時, 完全沒有一點線索的時候, 可能都會直接複製錯誤訊息、或是 Exception 直接到 Google 搜尋, 而且最常出現的都是 StackOverflow 的結果頁面, 對吧?</p>\n\n<p>這個工具再讓你開發發生錯誤的時候, 直接幫你用錯誤訊息, 直接找 StackOverflow 的搜尋結果給你 XD</p>\n\n<p>我的天啊 ~ 各位! 我們生產力要大增了啊!!!</p>",
+          "description_markdown": "這是我最近看到一個對 Django 非常實用的一個套件, 準備來用上 StreetVoice, 我覺得不管是對自己開發或是團隊來說都是很棒的一個工具。\r\n\r\n舉例來說, 應該很多 Developer 寫程式碰到錯誤時, 完全沒有一點線索的時候, 可能都會直接複製錯誤訊息、或是 Exception 直接到 Google 搜尋, 而且最常出現的都是 StackOverflow 的結果頁面, 對吧? \r\n\r\n這個工具再讓你開發發生錯誤的時候, 直接幫你用錯誤訊息, 直接找 StackOverflow 的搜尋結果給你 XD \r\n\r\n我的天啊 ~ 各位! 我們生產力要大增了啊!!!",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "1620ebc3-fcbd-43b5-ab56-8d9b970fc282.png",
+          "image_extra_large_filename": "original_ratio_extra_large_1620ebc3-fcbd-43b5-ab56-8d9b970fc282.png",
+          "image_medium_filename": "original_ratio_medium_1620ebc3-fcbd-43b5-ab56-8d9b970fc282.png"
+        },
+        {
+          "identifier": "48ZSuwR",
+          "type": "Link",
+          "title": "Python Warehouse - 新世代的 PyPI 上線",
+          "url_domain": "python.org",
+          "url": "https://warehouse.python.org/",
+          "description": "<p>有用 Python 的人應該都知道 PyPI, 就在上禮拜, 下一個世代的的 PyPI - Python Warehouse 終於上線了, 新的界面實在是很漂亮啊, 非常的清爽。</p>\n\n<p>根據我先前在的 Pocket 書籤, 似乎是在 4 年前就開始這個計畫了, 雖然翻回去已經找不到了, 不過 Warehouse 也 <a href=\"https://github.com/pypa/warehouse\">open source 在 github 上了</a> , 看了一下是用 Pyramid 作為開發框架。</p>\n\n<p>另外想提一下, 看了下 github 上面的原始碼, 除了 Python 的東西之外, 還有看到 <code>Gulpfile.js</code>, <code>bower.js</code>, <code>package.json</code>, <code>Dockerfile</code>, 還有 Heroku 用的 <code>Procfile</code>, <code>runtime.txt</code>, 想感嘆一聲, 現在的專案真的越來越複雜了啊。</p>\n\n<p>更別說還要弄個  <code>.travis.yml</code> 甚至 coverage 設定, 不過 <a href=\"https://streetvoice.com/\">StreetVoice</a> 網站本身其實也差不多狀態了 ...</p>",
+          "description_markdown": "有用 Python 的人應該都知道 PyPI, 就在上禮拜, 下一個世代的的 PyPI - Python Warehouse 終於上線了, 新的界面實在是很漂亮啊, 非常的清爽。\r\n\r\n根據我先前在的 Pocket 書籤, 似乎是在 4 年前就開始這個計畫了, 雖然翻回去已經找不到了, 不過 Warehouse 也 [open source 在 github 上了](https://github.com/pypa/warehouse) , 看了一下是用 Pyramid 作為開發框架。\r\n\r\n另外想提一下, 看了下 github 上面的原始碼, 除了 Python 的東西之外, 還有看到 `Gulpfile.js`, `bower.js`, `package.json`, `Dockerfile`, 還有 Heroku 用的 `Procfile`, `runtime.txt`, 想感嘆一聲, 現在的專案真的越來越複雜了啊。\r\n\r\n更別說還要弄個  `.travis.yml` 甚至 coverage 設定, 不過 [StreetVoice](https://streetvoice.com/) 網站本身其實也差不多狀態了 ... ",
+          "embedded_links": [
+            {
+              "identifier": "cqSdxhN",
+              "title": "open source 在 github 上了",
+              "url_domain": "github.com",
+              "url": "https://github.com/pypa/warehouse"
+            },
+            {
+              "identifier": "CmYM0aH",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "xoVenoN",
+          "type": "Link",
+          "title": "\"A Neural Algorithm of Artistic Style\" by TensorFlow - TensorFlow 火力展示",
+          "url_domain": "github.com",
+          "url": "https://github.com/ckmarkoh/neuralart_tensorflow",
+          "description": "<p>最近台北市公佈主燈福祿猴的廬山真面目之後，引起了各界的撻伐，這個美感喪失、極具爭議性的作品卻引起了台灣各界英雄好漢的無限創意，紛紛將自己改編的福祿猴延伸創作貼上了「<a href=\"s://www.facebook.com/groups/foolmonkey/\">野生福祿猴</a>」粉絲專頁供大家點評。</p>\n\n<p>其中一個「<a href=\"https://www.facebook.com/photo.php?fbid=10206003934397442&amp;set=gm.1685341441680299&amp;type=3&amp;theater\">梵谷星空福祿猴</a>」讓我眼睛一亮，因為這個作品是用機器學習創作的！作者 <a href=\"https://www.facebook.com/ckmarkoh.chang\">Mark Chang</a> 使用了 TensorFlow 實作了 <a href=\"http://arxiv.org/abs/1508.06576\">A Neural Algorithm of Artistic Style</a> 這篇論文，讓機器可以學習訓練資料的繪畫風格重新創作，就展示圖片看起來效果的確蠻好的～</p>\n\n<p>其實 A Neural Algorithm of Artistic Style 論文發表後，GitHub 上就有不少實作這篇論文的 Repo（我都列在延伸閱讀了），而這個 Repo 的特別之處在於它是使用 TensorFlow 實作的，充分展現了 TensorFlow 的火力，而且還是台灣人寫的，不推不行啊！</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"http://www.slideshare.net/ckmarkohchang/a-neural-algorithm-of-artistic-style\">NeuralArt 電腦作畫</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=qzGuYuCpy1M\">20151221 MLDM Monday --- Neural Art 電腦作畫</a></li>\n<li><a href=\"https://github.com/jcjohnson/neural-style\">Torch implementation of neural style algorithm</a></li>\n<li><a href=\"https://github.com/kaishengtai/neuralart\">An implementation of the paper 'A Neural Algorithm of Artistic Style'</a></li>\n<li><a href=\"https://github.com/andersbll/neural_artistic_style\">Neural Artistic Style in Python</a></li>\n</ol>",
+          "description_markdown": "最近台北市公佈主燈福祿猴的廬山真面目之後，引起了各界的撻伐，這個美感喪失、極具爭議性的作品卻引起了台灣各界英雄好漢的無限創意，紛紛將自己改編的福祿猴延伸創作貼上了「[野生福祿猴](s://www.facebook.com/groups/foolmonkey/)」粉絲專頁供大家點評。\r\n\r\n其中一個「[梵谷星空福祿猴](https://www.facebook.com/photo.php?fbid=10206003934397442&set=gm.1685341441680299&type=3&theater)」讓我眼睛一亮，因為這個作品是用機器學習創作的！作者 [Mark Chang](https://www.facebook.com/ckmarkoh.chang) 使用了 TensorFlow 實作了 [A Neural Algorithm of Artistic Style](http://arxiv.org/abs/1508.06576) 這篇論文，讓機器可以學習訓練資料的繪畫風格重新創作，就展示圖片看起來效果的確蠻好的～\r\n\r\n其實 A Neural Algorithm of Artistic Style 論文發表後，GitHub 上就有不少實作這篇論文的 Repo（我都列在延伸閱讀了），而這個 Repo 的特別之處在於它是使用 TensorFlow 實作的，充分展現了 TensorFlow 的火力，而且還是台灣人寫的，不推不行啊！\r\n\r\n延伸閱讀：\r\n\r\n1. [NeuralArt 電腦作畫](http://www.slideshare.net/ckmarkohchang/a-neural-algorithm-of-artistic-style)\r\n2. [20151221 MLDM Monday --- Neural Art 電腦作畫](https://www.youtube.com/watch?v=qzGuYuCpy1M)\r\n3. [Torch implementation of neural style algorithm](https://github.com/jcjohnson/neural-style)\r\n4. [An implementation of the paper 'A Neural Algorithm of Artistic Style'](https://github.com/kaishengtai/neuralart)\r\n5. [Neural Artistic Style in Python](https://github.com/andersbll/neural_artistic_style)",
+          "embedded_links": [
+            {
+              "identifier": "cZqgGls",
+              "title": "梵谷星空福祿猴",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/photo.php?fbid=10206003934397442&set=gm.1685341441680299&type=3&theater"
+            },
+            {
+              "identifier": "sg9UwoF",
+              "title": "Mark Chang",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/ckmarkoh.chang"
+            },
+            {
+              "identifier": "fUlpZMK",
+              "title": "A Neural Algorithm of Artistic Style",
+              "url_domain": "arxiv.org",
+              "url": "http://arxiv.org/abs/1508.06576"
+            },
+            {
+              "identifier": "5wtHhmQ",
+              "title": "NeuralArt 電腦作畫",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/ckmarkohchang/a-neural-algorithm-of-artistic-style"
+            },
+            {
+              "identifier": "3MIec3X",
+              "title": "20151221 MLDM Monday --- Neural Art 電腦作畫",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=qzGuYuCpy1M"
+            },
+            {
+              "identifier": "2vPwWZc",
+              "title": "Torch implementation of neural style algorithm",
+              "url_domain": "github.com",
+              "url": "https://github.com/jcjohnson/neural-style"
+            },
+            {
+              "identifier": "mZmIs2P",
+              "title": "An implementation of the paper 'A Neural Algorithm of Artistic Style'",
+              "url_domain": "github.com",
+              "url": "https://github.com/kaishengtai/neuralart"
+            },
+            {
+              "identifier": "A14LbQ4",
+              "title": "Neural Artistic Style in Python",
+              "url_domain": "github.com",
+              "url": "https://github.com/andersbll/neural_artistic_style"
+            }
+          ],
+          "image_original_filename": "78ced317-3eef-40bd-8253-141faf351403.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_78ced317-3eef-40bd-8253-141faf351403.jpg",
+          "image_medium_filename": "original_ratio_medium_78ced317-3eef-40bd-8253-141faf351403.jpg"
+        },
+        {
+          "identifier": "F3bokqE",
+          "type": "Link",
+          "title": "類別建構子設計之道",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@c9s/%E9%A1%9E%E5%88%A5%E5%BB%BA%E6%A7%8B%E5%AD%90%E8%A8%AD%E8%A8%88%E4%B9%8B%E9%81%93-ee77f7429291#.i5tp2vkyb",
+          "description": "<p>使用物件導向開發方式開發時，當 code base 一大，常常會有類別髒掉（與其他類別相依性太高或是類別的 property 在 run time 時被非預期地修改），要避免這樣的問題除了用 Design Pattern 重構之外，程序員本身的經驗也會是一個關鍵。</p>\n\n<p>在這個問題上，<a href=\"https://twitter.com/c9s\">@c9s</a> 提供了一個簡易的原則方法讓大家開發時可以朝著這個方向思考與設計，多少能夠避免類別髒掉的問題，大家參考一下。</p>",
+          "description_markdown": "使用物件導向開發方式開發時，當 code base 一大，常常會有類別髒掉（與其他類別相依性太高或是類別的 property 在 run time 時被非預期地修改），要避免這樣的問題除了用 Design Pattern 重構之外，程序員本身的經驗也會是一個關鍵。\r\n\r\n在這個問題上，[@c9s](https://twitter.com/c9s) 提供了一個簡易的原則方法讓大家開發時可以朝著這個方向思考與設計，多少能夠避免類別髒掉的問題，大家參考一下。",
+          "embedded_links": [
+            {
+              "identifier": "xycXaU4",
+              "title": "@c9s",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/c9s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "uAjiTWq",
+          "type": "Link",
+          "title": "A simple tip to reduce App Store rejections",
+          "url_domain": "launchkit.io",
+          "url": "https://library.launchkit.io/a-simple-tip-to-reduce-app-store-rejections-4517ca505e44#.9psv7h881",
+          "description": "<p>除了幫變數取名字之外，最困擾 iOS 開發者的大概就是送審的 app 常會莫名其妙被退件，而且蘋果的審核又是有名的慢，這樣來回個兩三次，大概一個月就過去了 Orz</p>\n\n<p>這篇文章告訴你如何善用審核資料表單，盡可能的提供足夠的資訊給審核人員，讓他們能在充分理解你的 app 的情況下審核，藉此降低審核人員的疑慮。</p>",
+          "description_markdown": "除了幫變數取名字之外，最困擾 iOS 開發者的大概就是送審的 app 常會莫名其妙被退件，而且蘋果的審核又是有名的慢，這樣來回個兩三次，大概一個月就過去了 Orz\r\n\r\n這篇文章告訴你如何善用審核資料表單，盡可能的提供足夠的資訊給審核人員，讓他們能在充分理解你的 app 的情況下審核，藉此降低審核人員的疑慮。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "kZx1GsA",
+          "type": "Link",
+          "title": "Introducing Freddy, an Open-Source Framework for Parsing JSON in Swift",
+          "url_domain": "bignerdranch.com",
+          "url": "https://www.bignerdranch.com/blog/introducing-freddy-an-open-source-framework-for-parsing-json-in-swift/",
+          "description": "<p>不像在 Objective-C 底下的 JSON parser 只有少數幾個 library 被廣為人知，Swift 的 JSON parser 目前正處於百花爭鳴、群雄割據的階段。The Big Nerd Ranch 的人經過一番研究之後，發現市面上的 JSON parser 都還無法滿足他們的需求，所以他們就自己寫了一個，主要目標有以下三點：</p>\n\n<ol>\n<li>盡可能的安全</li>\n<li>符合 Swift 語言習慣</li>\n<li>速度快（現在很多 Swift 實作的 JSON parser 速度都不怎麼樣）</li>\n</ol>\n\n\n<p>有需要的人可以參考看看！</p>",
+          "description_markdown": "不像在 Objective-C 底下的 JSON parser 只有少數幾個 library 被廣為人知，Swift 的 JSON parser 目前正處於百花爭鳴、群雄割據的階段。The Big Nerd Ranch 的人經過一番研究之後，發現市面上的 JSON parser 都還無法滿足他們的需求，所以他們就自己寫了一個，主要目標有以下三點：\r\n\r\n1. 盡可能的安全\r\n2. 符合 Swift 語言習慣\r\n3. 速度快（現在很多 Swift 實作的 JSON parser 速度都不怎麼樣）\r\n\r\n有需要的人可以參考看看！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "kB7GEMP",
+          "type": "Link",
+          "title": "年会上的程序员们……",
+          "url_domain": "chuansong.me",
+          "url": "http://chuansong.me/n/2274837",
+          "description": "<p>這是一個最近在網路上瘋傳的漫畫，出自於中國設計師<a href=\"https://twitter.com/arthur369\">西乔</a>的作品《<a href=\"http://blog.xiqiao.info/category/programmers\">神秘的程序员们</a>》，如同她丈夫霍炬所說的，關於程序員管理及工程的書籍汗牛充棟，但關於程序員的漫畫幾乎沒有，也因此他們有了將程序員的日常改編成漫畫的想法。</p>\n\n<p>目前這部漫畫已經連載五年多了吧，隨著這部漫畫的讀者範圍擴大，內容也開始不僅侷限在單純好玩的故事，像是管理問題、常見陷阱、公司困境及一些感情生活等等也都成了漫畫的題材，讓更多和程序員打交道的非程序員也能願意看這部漫畫。也許透過這部漫畫也能讓更多和程序員打交道的人能理解這群既傲慢又謙虛、既開放又封閉、性格滿是缺陷卻又神秘的程序員們吧！</p>\n\n<p>底下附上了《神秘的程序员们》各期漫畫搜集的傳送門，大家前往感受一下吧！</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"http://chuansong.me/account/coderstory\">《神秘的程序员们》傳送門</a></li>\n<li><a href=\"http://blog.xiqiao.info/category/programmers\">西乔部落格</a></li>\n<li><a href=\"http://www.cxyym.com/category/mysterious_programmer/\">霍炬部落格</a></li>\n</ol>\n\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "這是一個最近在網路上瘋傳的漫畫，出自於中國設計師[西乔](https://twitter.com/arthur369)的作品《[神秘的程序员们](http://blog.xiqiao.info/category/programmers)》，如同她丈夫霍炬所說的，關於程序員管理及工程的書籍汗牛充棟，但關於程序員的漫畫幾乎沒有，也因此他們有了將程序員的日常改編成漫畫的想法。\r\n\r\n目前這部漫畫已經連載五年多了吧，隨著這部漫畫的讀者範圍擴大，內容也開始不僅侷限在單純好玩的故事，像是管理問題、常見陷阱、公司困境及一些感情生活等等也都成了漫畫的題材，讓更多和程序員打交道的非程序員也能願意看這部漫畫。也許透過這部漫畫也能讓更多和程序員打交道的人能理解這群既傲慢又謙虛、既開放又封閉、性格滿是缺陷卻又神秘的程序員們吧！\r\n\r\n底下附上了《神秘的程序员们》各期漫畫搜集的傳送門，大家前往感受一下吧！\r\n\r\n延伸閱讀：\r\n\r\n1. [《神秘的程序员们》傳送門](http://chuansong.me/account/coderstory)\r\n2. [西乔部落格](http://blog.xiqiao.info/category/programmers)\r\n3. [霍炬部落格](http://www.cxyym.com/category/mysterious_programmer/)\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "8Mm6zcS",
+              "title": "西乔",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/arthur369"
+            },
+            {
+              "identifier": "zV5VPqX",
+              "title": "《神秘的程序员们》傳送門",
+              "url_domain": "chuansong.me",
+              "url": "http://chuansong.me/account/coderstory"
+            },
+            {
+              "identifier": "4FQx1kT",
+              "title": "西乔部落格",
+              "url_domain": "xiqiao.info",
+              "url": "http://blog.xiqiao.info/category/programmers"
+            },
+            {
+              "identifier": "jOTsDFw",
+              "title": "霍炬部落格",
+              "url_domain": "cxyym.com",
+              "url": "http://www.cxyym.com/category/mysterious_programmer/"
+            },
+            {
+              "identifier": "kITr6lO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "449f767c-a25b-4f2d-b71e-65993751b665.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_449f767c-a25b-4f2d-b71e-65993751b665.jpeg",
+          "image_medium_filename": "original_ratio_medium_449f767c-a25b-4f2d-b71e-65993751b665.jpeg"
+        }
+      ]
+    }
+  ]
+}

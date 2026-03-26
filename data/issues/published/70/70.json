@@ -1,0 +1,454 @@
+{
+  "number": 70,
+  "title": "Issue 70 恭迎 Final Fantasy XV 上市，故下週的 CodeTengu Weekly 將再度停刊一次",
+  "summary": "本期內容涵蓋 Management, Open Source, CSS, Markdown, Node.js, Profiling, Elixir, Phoenix",
+  "url": "https://weekly.codetengu.com/issues/70",
+  "publication_status": "published",
+  "published_at": "2016-11-28T02:00:00+00:00",
+  "updated_at": "2016-11-28T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">More Than Human</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 買了文明帝國 6</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [More Than Human](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 買了文明帝國 6\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "p766XBp",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "HGZwKy5",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "2n1EilB",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "6xdUPMN",
+              "title": "More Than Human",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ue0bkhh",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "wvdWXpz",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "fEVRwZL",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "fTtOb7q",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "zKtjUjY",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "6pHf2L2",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "RRoOgoC",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "lorKVcI",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "e8CSc9q",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "xUsEn1E",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "ck8dnD4",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "xrnvQ8G",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "NrQnbHX",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "X09YSGj",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "Pf6LsDu",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "AyvNtng",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "l9rq2R3",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "P43JqGr",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ILfrTGr",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "NDzV70x",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "FoJw1r8",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "MFOmVZl",
+          "type": "Link",
+          "title": "Managing Engineers in less than 200 characters",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/managing-engineers-in-less-than-200-characters-edb35e4199e4#.a9fr403ra",
+          "description": "<p>Hire <strong>motivated</strong> people. Trust them. Set <strong>high standards</strong> for everything. <strong>Lead</strong> by example. <strong>Get out of their way</strong> and let them be the <strong>heroes of the day</strong>. That’s it.</p>\n\n<p>在看了一大堆跟管理有關的文章, 其實大部分的前提都預設在「你找到對的人」, 這篇其實也是。</p>\n\n<p>這篇第一句就是 <code>Hire motivated people.</code> 其實真的就是這樣, 只是對的人不好找, 要辨識出對的人也不容易。</p>",
+          "description_markdown": "Hire **motivated** people. Trust them. Set **high standards** for everything. **Lead** by example. **Get out of their way** and let them be the **heroes of the day**. That’s it.\r\n\r\n在看了一大堆跟管理有關的文章, 其實大部分的前提都預設在「你找到對的人」, 這篇其實也是。 \r\n\r\n這篇第一句就是 `Hire motivated people.` 其實真的就是這樣, 只是對的人不好找, 要辨識出對的人也不容易。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "SsdFW36",
+          "type": "Link",
+          "title": "Sidekiq on Indie Hackers",
+          "url_domain": "indiehackers.com",
+          "url": "https://www.indiehackers.com/businesses/sidekiq",
+          "description": "<p>Sidekiq 的作者 open source 了 Sidekiq 不過另外提供了 Pro 跟 Enterprise 版本來盈利, 並支持他繼續開發 Sidekiq。</p>\n\n<p>作者文中提到關於 open source 專案的困境的確很有見地:</p>\n\n<ol>\n<li>start project with much enthusiasm</li>\n<li>build something valuable, give away for free</li>\n<li>get overwhelmed with support requests and issues</li>\n<li>burn out and walk away</li>\n</ol>\n\n\n<p>因為我有 open source 幾個專案, 其實大概可以體會 XD 很多 issues 都沒時間回了, 嗚嗚。</p>\n\n<p>所以 Sidekiq 的作者開始就計畫著盈利, 這篇文章講了他的收費策略 (我覺得挺有道理的), 像是你買好用的套件, 總不會只用一個月就從你架構拔除, 所以他用年來賣, 還有因為信用卡要容易刷, 所以定價不能訂太超過。</p>\n\n<p>最後就一人公司, 專門做這件事了, 好像也挺不錯的。</p>",
+          "description_markdown": "Sidekiq 的作者 open source 了 Sidekiq 不過另外提供了 Pro 跟 Enterprise 版本來盈利, 並支持他繼續開發 Sidekiq。 \r\n\r\n作者文中提到關於 open source 專案的困境的確很有見地:\r\n\r\n1. start project with much enthusiasm\r\n2. build something valuable, give away for free\r\n3. get overwhelmed with support requests and issues\r\n4. burn out and walk away\r\n\r\n因為我有 open source 幾個專案, 其實大概可以體會 XD 很多 issues 都沒時間回了, 嗚嗚。\r\n\r\n所以 Sidekiq 的作者開始就計畫著盈利, 這篇文章講了他的收費策略 (我覺得挺有道理的), 像是你買好用的套件, 總不會只用一個月就從你架構拔除, 所以他用年來賣, 還有因為信用卡要容易刷, 所以定價不能訂太超過。\r\n\r\n最後就一人公司, 專門做這件事了, 好像也挺不錯的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6PErXC",
+          "type": "Link",
+          "title": "Recalibrate Your Productivity Sensors",
+          "url_domain": "tombartel.de",
+          "url": "http://tombartel.de/2016/07/05/recalibrate-your-productivity-sensors/",
+          "description": "<blockquote><p>Management is about communication</p></blockquote>\n\n<p>我從技術開發人員轉為管理職後, 最容易感受到就是\"生產力\"這件事, 因為當你真的做管理者該做的事的時候, 跟以往寫程式最大的差異就是, 你看不太到你做完的事情。</p>\n\n<p>這篇文章提到, 你團隊的生產力就是你的生產力, 所以你應該要衡量的是團隊的生產力, 而不是你個人的生產力。我說: 如果你花很多時間寫程式, 那就是在逃避 XD</p>\n\n<blockquote><p>I am tempted to say that the more time you spend away from your desk, the better, but that is an oversimplification, of course. Quiet time to think and strategize is also important.</p></blockquote>\n\n<p>本文後面也列了許多有生產力的管理者該做的事, 這一、兩年已經可以體會, 雖然還得多練習。</p>",
+          "description_markdown": "> Management is about communication\r\n\r\n我從技術開發人員轉為管理職後, 最容易感受到就是\"生產力\"這件事, 因為當你真的做管理者該做的事的時候, 跟以往寫程式最大的差異就是, 你看不太到你做完的事情。\r\n\r\n這篇文章提到, 你團隊的生產力就是你的生產力, 所以你應該要衡量的是團隊的生產力, 而不是你個人的生產力。我說: 如果你花很多時間寫程式, 那就是在逃避 XD\r\n\r\n> I am tempted to say that the more time you spend away from your desk, the better, but that is an oversimplification, of course. Quiet time to think and strategize is also important.\r\n\r\n本文後面也列了許多有生產力的管理者該做的事, 這一、兩年已經可以體會, 雖然還得多練習。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "OpBIEfW",
+          "type": "Link",
+          "title": "The 100% correct way to do CSS breakpoints",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862",
+          "description": "<p>現今網頁技術配合各種不同螢幕大小的 device 呈現適當的畫面 (Responsive Web Design) ，本篇文章提出一些 設定 CSS media query 的 breakpoint 的建議。</p>",
+          "description_markdown": "現今網頁技術配合各種不同螢幕大小的 device 呈現適當的畫面 (Responsive Web Design) ，本篇文章提出一些 設定 CSS media query 的 breakpoint 的建議。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TuGc4bR",
+          "type": "Link",
+          "title": "Generate Google Slides from markdown",
+          "url_domain": "github.com",
+          "url": "https://github.com/googlesamples/md2googleslides",
+          "description": "<p>又一套支援 Markdown 的 presentation 工具： md2googleslides\n只需要簡單的指令就可以直接將 md 檔轉換並上傳成 google slides</p>\n\n<p>也順便推薦一下其他好用的前端簡報工具：</p>\n\n<ul>\n<li><a href=\"http://lab.hakim.se/reveal-js/\">reveal.js</a></li>\n<li><a href=\"http://formidable.com/open-source/spectacle/\">Spectacle</a></li>\n</ul>",
+          "description_markdown": "又一套支援 Markdown 的 presentation 工具： md2googleslides\r\n只需要簡單的指令就可以直接將 md 檔轉換並上傳成 google slides\r\n\r\n也順便推薦一下其他好用的前端簡報工具：\r\n\r\n* [reveal.js](http://lab.hakim.se/reveal-js/)\r\n* [Spectacle](http://formidable.com/open-source/spectacle/)",
+          "embedded_links": [
+            {
+              "identifier": "Cx3g1EN",
+              "title": "reveal.js",
+              "url_domain": "hakim.se",
+              "url": "http://lab.hakim.se/reveal-js/"
+            },
+            {
+              "identifier": "8TZC65y",
+              "title": "Spectacle",
+              "url_domain": "formidable.com",
+              "url": "http://formidable.com/open-source/spectacle/"
+            }
+          ]
+        },
+        {
+          "identifier": "64sXEuA",
+          "type": "Link",
+          "title": "Node.js Tutorial Videos: Debugging, Async, Memory Leaks, CPU Profiling",
+          "url_domain": "risingstack.com",
+          "url": "https://blog.risingstack.com/node-js-tutorial-debugging-async-memory-leaks-cpu-profiling/",
+          "description": "<p>本篇會透過影片來介紹如何解決在開發 Node.js 可能會遇到的幾個痛點：</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=XbB5_fHHxRc\">Debugging</a>\n\n<ul>\n<li>透過 debug module 和 Chrome DevTools 來解決 issues 。</li>\n</ul>\n</li>\n<li><a href=\"https://www.youtube.com/watch?v=ca7HAqbfd90\">Async programming</a>\n\n<ul>\n<li>介紹 asynchronous 操作的 error handling 與如何同時處理多個 callback 。</li>\n</ul>\n</li>\n<li><a href=\"https://www.youtube.com/watch?v=gL2GGcV_f20\">Memory Leaks 與 CPU Profiling</a>\n\n<ul>\n<li>透過 v8-profiler 來做 CPU Profiling 與 Memory Heapdumps ，並使用  Chrome DevTools 來分析。</li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "本篇會透過影片來介紹如何解決在開發 Node.js 可能會遇到的幾個痛點：\r\n\r\n* [Debugging](https://www.youtube.com/watch?v=XbB5_fHHxRc)\r\n    * 透過 debug module 和 Chrome DevTools 來解決 issues 。\r\n* [Async programming](https://www.youtube.com/watch?v=ca7HAqbfd90)\r\n    * 介紹 asynchronous 操作的 error handling 與如何同時處理多個 callback 。\r\n* [Memory Leaks 與 CPU Profiling](https://www.youtube.com/watch?v=gL2GGcV_f20)\r\n    * 透過 v8-profiler 來做 CPU Profiling 與 Memory Heapdumps ，並使用  Chrome DevTools 來分析。",
+          "embedded_links": [
+            {
+              "identifier": "AC5umNS",
+              "title": "Debugging",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=XbB5_fHHxRc"
+            },
+            {
+              "identifier": "9IphWng",
+              "title": "Async programming",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=ca7HAqbfd90"
+            },
+            {
+              "identifier": "NsIRxNP",
+              "title": "Memory Leaks 與 CPU Profiling",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=gL2GGcV_f20"
+            }
+          ]
+        },
+        {
+          "identifier": "77fvcVF",
+          "type": "Link",
+          "title": "Building a Shop with Sub-Second Page Loads: Lessons Learned",
+          "url_domain": "baqend.com",
+          "url": "https://medium.baqend.com/building-a-shop-with-sub-second-page-loads-lessons-learned-4bb1be3ed07",
+          "description": "<p>網頁讀取的 latency 直接影響使用者的滿意度與網站利潤，影響網頁 latency 的原因主要有：</p>\n\n<ul>\n<li>Backend processing\n\n<ul>\n<li>透過 load balancing 來分散 request ， 各個 application server 竟可能最小化 shared state 。</li>\n</ul>\n</li>\n<li>Network latency</li>\n<li>Frontend processing\n\n<ul>\n<li>影響 frontend processing performace的最主要因素為 <a href=\"https://developers.google.com/web/fundamentals/performance/critical-rendering-path/\">critical rendering path (CRP)</a> ，文內會詳細介紹 CRP 流程與最佳化 CRP 的幾個概念。</li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "網頁讀取的 latency 直接影響使用者的滿意度與網站利潤，影響網頁 latency 的原因主要有：\r\n\r\n* Backend processing\r\n    * 透過 load balancing 來分散 request ， 各個 application server 竟可能最小化 shared state 。\r\n* Network latency\r\n* Frontend processing\r\n    * 影響 frontend processing performace的最主要因素為 [critical rendering path (CRP)](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/) ，文內會詳細介紹 CRP 流程與最佳化 CRP 的幾個概念。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "VAbz2MF",
+              "title": "critical rendering path (CRP)",
+              "url_domain": "google.com",
+              "url": "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "hQLeAZw",
+          "type": "Link",
+          "title": "Writing a Profiler",
+          "url_domain": "wordpress.com",
+          "url": "https://benoitgirard.wordpress.com/2012/03/30/writing-a-profiler/",
+          "description": "<p>Profiler 是軟體開發現場最倚賴的效能量測工具之一，協助我們找出瓶頸所在。本文先是介紹了 profiler 的兩大型態之原理與差異，之後著重在較不影響程式執行流程的採樣型 (sampling) profiler，介紹其實作的概念。</p>\n\n<p>之所以最近會去找這類的文章，也是因為在產品效能調校的過程中，我這個半路出家、非本科的碼農突然對 profiler 的工作原理好奇了起來，而這是其中一篇我覺得寫得很不錯的科普文，分享給大家。</p>",
+          "description_markdown": "Profiler 是軟體開發現場最倚賴的效能量測工具之一，協助我們找出瓶頸所在。本文先是介紹了 profiler 的兩大型態之原理與差異，之後著重在較不影響程式執行流程的採樣型 (sampling) profiler，介紹其實作的概念。\r\n\r\n之所以最近會去找這類的文章，也是因為在產品效能調校的過程中，我這個半路出家、非本科的碼農突然對 profiler 的工作原理好奇了起來，而這是其中一篇我覺得寫得很不錯的科普文，分享給大家。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "eO4uFXM",
+          "type": "Link",
+          "title": "How GameCube/Wii emulator Dolphin got a turbocharge",
+          "url_domain": "pcgamer.com",
+          "url": "http://www.pcgamer.com/how-gamecubewii-emulator-dolphin-got-a-turbocharge/",
+          "description": "<p>這篇專訪了 <a href=\"https://dolphin-emu.org/\">Dolphin</a> 這個 GameCube 與 Wii 的模擬器開源專案，其效能突飛猛進的功臣 Fiora Aeterna，談及一些模擬器的相容度改進手法，進而改善模擬效能與正確度。</p>\n\n<p>特別值得一提的是，Fiora Aeterna 她起初之所以想對這個專案做出貢獻，是因為 Dolphin 已經有個同為女性的專案成員，才讓她比較能卸下心防。科技圈的性別議題，包括性別比例失衡在內，還是有很多地方值得我們關注、並投入心力改善。</p>",
+          "description_markdown": "這篇專訪了 [Dolphin](https://dolphin-emu.org/) 這個 GameCube 與 Wii 的模擬器開源專案，其效能突飛猛進的功臣 Fiora Aeterna，談及一些模擬器的相容度改進手法，進而改善模擬效能與正確度。\r\n\r\n特別值得一提的是，Fiora Aeterna 她起初之所以想對這個專案做出貢獻，是因為 Dolphin 已經有個同為女性的專案成員，才讓她比較能卸下心防。科技圈的性別議題，包括性別比例失衡在內，還是有很多地方值得我們關注、並投入心力改善。",
+          "embedded_links": [
+            {
+              "identifier": "7ao2uTD",
+              "title": "Dolphin",
+              "url_domain": "dolphin-emu.org",
+              "url": "https://dolphin-emu.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "drdeLr0",
+          "type": "Link",
+          "title": "Changelog.com is Open Source",
+          "url_domain": "changelog.com",
+          "url": "https://changelog.com/posts/changelog-is-open-source",
+          "description": "<p><a href=\"http://weekly.codetengu.com/issues/67?m=web#CZNrnRo\">先前</a>提過 <a href=\"https://changelog.com/\">Changelog</a> 的網站改版，會將他們開發的這個網站 CMS 開源，現在已經釋出。本文大略地介紹這個 CMS 的特點，並希望這個 CMS 能作為一個登上 production 環境的 Elixir/Phoenix 成品供他人借鏡學習。</p>\n\n<p>在此斗膽佔個版面，由衷地表達我對他們的敬意與謝意。</p>",
+          "description_markdown": "[先前](http://weekly.codetengu.com/issues/67?m=web#CZNrnRo)提過 [Changelog](https://changelog.com/) 的網站改版，會將他們開發的這個網站 CMS 開源，現在已經釋出。本文大略地介紹這個 CMS 的特點，並希望這個 CMS 能作為一個登上 production 環境的 Elixir/Phoenix 成品供他人借鏡學習。\r\n\r\n在此斗膽佔個版面，由衷地表達我對他們的敬意與謝意。",
+          "embedded_links": [
+            {
+              "identifier": "say0rqB",
+              "title": "先前",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/67?m=web#CZNrnRo"
+            },
+            {
+              "identifier": "5YFEROD",
+              "title": "Changelog",
+              "url_domain": "changelog.com",
+              "url": "https://changelog.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "rzpan0i",
+          "type": "Link",
+          "title": "What I learned migrating a Rails app to Elixir/Phoenix",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@stueccles/what-i-learned-migrating-a-rails-app-to-elixir-phoenix-f707436749aa#.sk7vdzool",
+          "description": "<p>本文作者分享了他將一個 Rails app 轉換到 Elixir/Phoenix 的經驗談，其中不免有兩者設計哲學上的差異適應，我自己也遇過不少相同的情境，讀來心有戚戚焉，當中最大者當屬從 ORM (ActiveRecord) 轉換到一個函數式的資料庫處理介面，以及衍生的「model 不盡然是您以前在 Rails 裡想的那個 model」。</p>\n\n<p>如果您也是一個已有 Rails 基礎、想學 Phoenix 的開發者，這篇文章頗有引導的作用。</p>",
+          "description_markdown": "本文作者分享了他將一個 Rails app 轉換到 Elixir/Phoenix 的經驗談，其中不免有兩者設計哲學上的差異適應，我自己也遇過不少相同的情境，讀來心有戚戚焉，當中最大者當屬從 ORM (ActiveRecord) 轉換到一個函數式的資料庫處理介面，以及衍生的「model 不盡然是您以前在 Rails 裡想的那個 model」。\r\n\r\n如果您也是一個已有 Rails 基礎、想學 Phoenix 的開發者，這篇文章頗有引導的作用。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "ldwqS3I",
+          "type": "Link",
+          "title": "Web Developers at Dcard",
+          "url_domain": "dcard.today",
+          "url": "https://join.dcard.today/",
+          "description": "<p>Dcard 是一支致力於讓分享更自由，讓資訊流動更美好的國際團隊。在這邊你將負責開發與維護 Dcard 的核心命脈，並提供使用者啵棒的網站體驗，你會和在 GitHub 上破萬的大神、很年輕的奶奶、剛深造回來的小神童及淡水阿莫比司一起合作，若你對參與改變、創造有興趣，對新鮮的事物保有好奇，不要猶豫！一起加入我們打出千萬人喜愛的產品，創造出更好的 Dcard Experience！</p>\n\n<p>履歷請寄到： <a href=\"&#x6d;&#x61;&#105;&#108;&#x74;&#111;&#x3a;&#x77;&#101;&#x6c;&#99;&#111;&#x6d;&#101;&#64;&#100;&#x63;&#x61;&#114;&#x64;&#x2e;&#99;&#99;\">&#x77;&#101;&#x6c;&#99;&#x6f;&#109;&#x65;&#x40;&#x64;&#99;&#x61;&#x72;&#100;&#x2e;&#99;&#x63;</a> 或到 <a href=\"http://join.dcard.today\">http://join.dcard.today</a></p>",
+          "description_markdown": "Dcard 是一支致力於讓分享更自由，讓資訊流動更美好的國際團隊。在這邊你將負責開發與維護 Dcard 的核心命脈，並提供使用者啵棒的網站體驗，你會和在 GitHub 上破萬的大神、很年輕的奶奶、剛深造回來的小神童及淡水阿莫比司一起合作，若你對參與改變、創造有興趣，對新鮮的事物保有好奇，不要猶豫！一起加入我們打出千萬人喜愛的產品，創造出更好的 Dcard Experience！\r\n\r\n履歷請寄到： <welcome@dcard.cc> 或到 <http://join.dcard.today>",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Q4AWciW",
+          "type": "Link",
+          "title": "Python Developers at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。</p>\n\n<p>意者歡迎來信：<a href=\"&#109;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#116;&#122;&#97;&#110;&#103;&#x6d;&#x73;&#64;&#115;&#x74;&#x72;&#101;&#101;&#x74;&#118;&#111;&#105;&#99;&#x65;&#46;&#99;&#x6f;&#109;\">&#x74;&#x7a;&#97;&#110;&#x67;&#109;&#x73;&#x40;&#115;&#116;&#x72;&#101;&#101;&#116;&#x76;&#111;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a>。</p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+            {
+              "identifier": "3ndoTbL",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "mcGHCxr",
+          "type": "Link",
+          "title": "PHP Developers at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#116;&#x7a;&#x61;&#x6e;&#103;&#109;&#x73;&#x40;&#x73;&#x74;&#x72;&#x65;&#x65;&#x74;&#x76;&#x6f;&#105;&#99;&#101;&#46;&#x63;&#x6f;&#x6d;\">&#116;&#x7a;&#x61;&#x6e;&#103;&#x6d;&#x73;&#64;&#115;&#x74;&#x72;&#x65;&#x65;&#x74;&#118;&#111;&#105;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "c2qMBWO",
+          "type": "Link",
+          "title": "FINAL FANTASY XV – 101 Trailer Extended Cut",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=jFia3ZEpZJk",
+          "description": "<p>為了慶祝 Final Fantasy XV 即將在本週的 11 月 29 日上市，所以下禮拜的 CodeTengu Weekly 將再次停刊一週（誤）。</p>\n\n<p><a href=\"https://www.facebook.com/uacgfansclub/photos/pb.766265613442017.-2207520000.1480270883./1189759421092632/\">Square Enix 已經幫大家把假條都準備好了</a>。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "為了慶祝 Final Fantasy XV 即將在本週的 11 月 29 日上市，所以下禮拜的 CodeTengu Weekly 將再次停刊一週（誤）。\r\n\r\n[Square Enix 已經幫大家把假條都準備好了](https://www.facebook.com/uacgfansclub/photos/pb.766265613442017.-2207520000.1480270883./1189759421092632/)。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "Lw57Jzp",
+              "title": "Square Enix 已經幫大家把假條都準備好了",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/uacgfansclub/photos/pb.766265613442017.-2207520000.1480270883./1189759421092632/"
+            },
+            {
+              "identifier": "v0Gdak5",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "64b9a090-2ab5-4b52-8f34-de56d3923fa1.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_64b9a090-2ab5-4b52-8f34-de56d3923fa1.jpg",
+          "image_medium_filename": "original_ratio_medium_64b9a090-2ab5-4b52-8f34-de56d3923fa1.jpg"
+        }
+      ]
+    }
+  ]
+}

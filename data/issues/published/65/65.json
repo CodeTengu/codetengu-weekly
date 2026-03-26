@@ -1,0 +1,574 @@
+{
+  "number": 65,
+  "title": "Issue 65 上班的人太多，下班的人太少 #職場不等式",
+  "summary": "本期內容涵蓋 iOS, Android, JWT, Docker, Blockchain, JavaScript, Yarn, ECMAScript 6",
+  "url": "https://weekly.codetengu.com/issues/65",
+  "publication_status": "published",
+  "published_at": "2016-10-24T03:00:00+01:00",
+  "updated_at": "2016-10-24T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob\">We Are Legion (We Are Bob)</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 買了文明帝國 6 ...</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [We Are Legion (We Are Bob)](https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 買了文明帝國 6 ...\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "tNX2buF",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "WV8rJLk",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Ps0vnIn",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "7It3HTj",
+              "title": "We Are Legion (We Are Bob)",
+              "url_domain": "goodreads.com",
+              "url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob"
+            },
+            {
+              "identifier": "rOuuhA6",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "L8PMBat",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "Z2IRiMc",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "KoLPxfJ",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "3HpBFmE",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "tFU673n",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "NEXVFDK",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "gEHY0k4",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "OlJPYhy",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "C6UyW5S",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "jIkqLkH",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "QQ26jCP",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "Ckcu1tJ",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "UC8UYcx",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "3RGtzGt",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "LHEnRzB",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1KuDXbY",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "4DSCe6M",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "BJHuGMI",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "RwNq0HG",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "8UEFrZ5",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "olg4HS",
+          "type": "Link",
+          "title": "Why vacation at tech companies should be mandatory: better code, happier people",
+          "url_domain": "sourcegraph.com",
+          "url": "https://text.sourcegraph.com/why-vacation-at-tech-companies-should-be-mandatory-better-code-happier-people-d1b549681291#.25rwr0wnl",
+          "description": "<blockquote><p>If you know your team will have to maintain your work while you’re gone, you’ll produce better systems and code.</p></blockquote>\n\n<p>軟體公司應該強迫員工休假，對大家都有好處。</p>\n\n<p>對公司的好處引援的例子是金融業為了防止員工在內部做一些偷雞摸狗的事情，強迫休假讓每個人平時做的事情交給他的職務代理人，防止一些不好的事情藏在日常的工作之中。<br/>\n體現在軟體業上，如果員工意識到自己寫的東西要給大家維護 (而且是自己不在的時候)，那他平常就會更把寫出好的 code 當成一回事。</p>\n\n<p>另一個好處跟 Travis CI 之前討論過的休假政策調整一樣 (<a href=\"http://www.paperplanes.de/2014/12/10/from-open-to-minimum-vacation-policy.html\">From Open (Unlimited) to Minimum Vacation Policy</a>)，讓員工因為強迫休假而沒有虧欠感。</p>\n\n<p>Travis CI 在調整成最低休假政策之後，有 25 天帶薪休假日。<br/>\n如果是在台灣，以勞基法規定第一年沒有特休、滿一年七天到滿第三年才有 10 天特休，中間還不能換公司，就算改成強迫休假也是辦公椅都還沒涼，人又回來了，對公司藏污納垢的排除非常不利啊，希望各位資方在這件事也要硬起來。</p>",
+          "description_markdown": "> If you know your team will have to maintain your work while you’re gone, you’ll produce better systems and code.\r\n\r\n軟體公司應該強迫員工休假，對大家都有好處。\r\n\r\n對公司的好處引援的例子是金融業為了防止員工在內部做一些偷雞摸狗的事情，強迫休假讓每個人平時做的事情交給他的職務代理人，防止一些不好的事情藏在日常的工作之中。  \r\n體現在軟體業上，如果員工意識到自己寫的東西要給大家維護 (而且是自己不在的時候)，那他平常就會更把寫出好的 code 當成一回事。\r\n\r\n另一個好處跟 Travis CI 之前討論過的休假政策調整一樣 ([From Open (Unlimited) to Minimum Vacation Policy](http://www.paperplanes.de/2014/12/10/from-open-to-minimum-vacation-policy.html))，讓員工因為強迫休假而沒有虧欠感。 \r\n\r\nTravis CI 在調整成最低休假政策之後，有 25 天帶薪休假日。  \r\n如果是在台灣，以勞基法規定第一年沒有特休、滿一年七天到滿第三年才有 10 天特休，中間還不能換公司，就算改成強迫休假也是辦公椅都還沒涼，人又回來了，對公司藏污納垢的排除非常不利啊，希望各位資方在這件事也要硬起來。",
+          "embedded_links": [
+            {
+              "identifier": "9GaV42f",
+              "title": "From Open (Unlimited) to Minimum Vacation Policy",
+              "url_domain": "paperplanes.de",
+              "url": "http://www.paperplanes.de/2014/12/10/from-open-to-minimum-vacation-policy.html"
+            }
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "Core Data in iOS 10",
+          "description": "<p>這次 Core Data 在 iOS 10 的更新做了很多使用上跟 APIs 的改善，以往被批評的部分幾乎都做了調整。</p>\n\n<p>首先是 Core Data stack，這是剛入門的人最慘烈的痛，只是想要弄個 persistent store 為什麼要逼我設定  <a href=\"https://developer.apple.com/reference/coredata/nsmanagedobjectmodel\">NSManagedObjectModel</a>, <a href=\"https://developer.apple.com/reference/coredata/nspersistentstorecoordinator\">NSPersistentStoreCoordinator</a>, <a href=\"https://developer.apple.com/reference/coredata/nsmanagedobjectcontext\">NSManagedObjectContext</a>，而且沒有主流的 best practice，很可能在還沒有原因的情況就選擇了不一樣的 Core Data stack 實作方式，可以參考 <a href=\"https://www.bignerdranch.com/blog/introducing-the-big-nerd-ranch-core-data-stack/\">Big Nerd Ranch Core Data Stack</a> 列舉的幾種常見設定。</p>\n\n<p>現在有了一個新類別 <a href=\"https://developer.apple.com/reference/coredata/nspersistentcontainer\">NSPersistentContainer</a>，我們可以透過它設定一開始的 Core Data stack，而它也只是封裝了以往使用的東西，帶了一些預設的值跟行為而已。fetch 的行為也直接透過 <code>NSPersistentContainer</code> 操作就可以，非常方便。</p>\n\n<p>詳細閱讀： <a href=\"https://swifting.io/blog/2016/09/25/25-core-data-in-ios10-nspersistentcontainer/\">Core Data in iOS10: NSPersistentContainer</a></p>\n\n<p>這次 Xcode 8 也解決了以往在 <code>xcdatamodel</code> 的介面定義好 entity 後得自己建立對應的 NSManagedObject subclass 的問題，透過 codegen，在新增或變更後就產生一份給你。其實就是陽春版的 <a href=\"https://github.com/rentzsch/mogenerator\">mogenerator</a>。</p>\n\n<p>併發的問題也可以透過一個新的類別 <a href=\"https://developer.apple.com/reference/coredata/nsquerygenerationtoken\">NSQueryGenerationToken</a> 來處理，讓以往繁瑣的事情變簡單。</p>\n\n<p>延伸閱讀：<a href=\"https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatNewCoreData2016/ReleaseNotes.html#//apple_ref/doc/uid/TP40017342-CH1-DontLinkElementID_3\">NSQueryGenerationToken 官方使用範例</a></p>\n\n<p>Core Data 經過這次的大調整後，導入門檻終於降到一個合理高度了，已經採用 Core Data 的朋友下次做新的專案也可以用新的方法囉！</p>",
+          "description_markdown": "這次 Core Data 在 iOS 10 的更新做了很多使用上跟 APIs 的改善，以往被批評的部分幾乎都做了調整。\r\n\r\n首先是 Core Data stack，這是剛入門的人最慘烈的痛，只是想要弄個 persistent store 為什麼要逼我設定  [NSManagedObjectModel](https://developer.apple.com/reference/coredata/nsmanagedobjectmodel), [NSPersistentStoreCoordinator](https://developer.apple.com/reference/coredata/nspersistentstorecoordinator), [NSManagedObjectContext](https://developer.apple.com/reference/coredata/nsmanagedobjectcontext)，而且沒有主流的 best practice，很可能在還沒有原因的情況就選擇了不一樣的 Core Data stack 實作方式，可以參考 [Big Nerd Ranch Core Data Stack](https://www.bignerdranch.com/blog/introducing-the-big-nerd-ranch-core-data-stack/) 列舉的幾種常見設定。  \r\n\r\n現在有了一個新類別 [NSPersistentContainer](https://developer.apple.com/reference/coredata/nspersistentcontainer)，我們可以透過它設定一開始的 Core Data stack，而它也只是封裝了以往使用的東西，帶了一些預設的值跟行為而已。fetch 的行為也直接透過 `NSPersistentContainer` 操作就可以，非常方便。\r\n\r\n詳細閱讀： [Core Data in iOS10: NSPersistentContainer](https://swifting.io/blog/2016/09/25/25-core-data-in-ios10-nspersistentcontainer/)\r\n\r\n這次 Xcode 8 也解決了以往在 `xcdatamodel` 的介面定義好 entity 後得自己建立對應的 NSManagedObject subclass 的問題，透過 codegen，在新增或變更後就產生一份給你。其實就是陽春版的 [mogenerator](https://github.com/rentzsch/mogenerator)。\r\n\r\n併發的問題也可以透過一個新的類別 [NSQueryGenerationToken](https://developer.apple.com/reference/coredata/nsquerygenerationtoken) 來處理，讓以往繁瑣的事情變簡單。\r\n\r\n延伸閱讀：[NSQueryGenerationToken 官方使用範例](https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatNewCoreData2016/ReleaseNotes.html#//apple_ref/doc/uid/TP40017342-CH1-DontLinkElementID_3)\r\n\r\nCore Data 經過這次的大調整後，導入門檻終於降到一個合理高度了，已經採用 Core Data 的朋友下次做新的專案也可以用新的方法囉！",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "7ufsFWu",
+              "title": "NSManagedObjectModel",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/reference/coredata/nsmanagedobjectmodel"
+            },
+            {
+              "identifier": "y3XKjUh",
+              "title": "NSPersistentStoreCoordinator",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/reference/coredata/nspersistentstorecoordinator"
+            },
+            {
+              "identifier": "TlIdfpB",
+              "title": "NSManagedObjectContext",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/reference/coredata/nsmanagedobjectcontext"
+            },
+            {
+              "identifier": "jg3fIxI",
+              "title": "Big Nerd Ranch Core Data Stack",
+              "url_domain": "bignerdranch.com",
+              "url": "https://www.bignerdranch.com/blog/introducing-the-big-nerd-ranch-core-data-stack/"
+            },
+            {
+              "identifier": "OxCMFV7",
+              "title": "NSPersistentContainer",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/reference/coredata/nspersistentcontainer"
+            },
+            {
+              "identifier": "OA7E7bd",
+              "title": "Core Data in iOS10: NSPersistentContainer",
+              "url_domain": "swifting.io",
+              "url": "https://swifting.io/blog/2016/09/25/25-core-data-in-ios10-nspersistentcontainer/"
+            },
+            {
+              "identifier": "ejho4xS",
+              "title": "mogenerator",
+              "url_domain": "github.com",
+              "url": "https://github.com/rentzsch/mogenerator"
+            },
+            {
+              "identifier": "f0CMYoq",
+              "title": "NSQueryGenerationToken",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/reference/coredata/nsquerygenerationtoken"
+            },
+            {
+              "identifier": "cWS6fyE",
+              "title": "NSQueryGenerationToken 官方使用範例",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/prerelease/content/releasenotes/General/WhatNewCoreData2016/ReleaseNotes.html#//apple_ref/doc/uid/TP40017342-CH1-DontLinkElementID_3"
+            }
+          ]
+        },
+        {
+          "identifier": "KCYALXU",
+          "type": "Link",
+          "title": "Real World Swift Performance",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/real-world-swift-performance/",
+          "description": "<p>這是一個只有 15 分鐘的 talk，內容蠻有趣，在談 Swift 的 struct, class, protocol, enum, generic 如何影響效能。</p>\n\n<p>結論是 struct 套 protocol 會對效能造成大量影響 (與不套 protocol 的差異為慢了 1300% ~ 15000%)，原因是 protocol 用了一種 Existential Container 的結構來處理 struct，而這個結構又有一個 three word buffer 的設計，假如 struct 超過這個設計限制，就會被分配到 heap 上 (就是這個情況效能差異達到 15000%)，再由 Existential Container 儲存的 protocol 方法調用實體方法，效能就是在這些地方喪失的。</p>\n\n<p>而泛型因為在 compile time 就可以知道型別，編譯器可以做優化，所以沒有太大的效能問題。</p>\n\n<p>其實這個 talk 是從今年的 WWDC Session 416 <a href=\"https://developer.apple.com/videos/play/wwdc2016/416/\">Understanding Swift Performance</a> 濃縮一部分出來的，所以省略了很多細節，說明的部分會聽不懂是正常的。</p>",
+          "description_markdown": "這是一個只有 15 分鐘的 talk，內容蠻有趣，在談 Swift 的 struct, class, protocol, enum, generic 如何影響效能。\r\n\r\n結論是 struct 套 protocol 會對效能造成大量影響 (與不套 protocol 的差異為慢了 1300% ~ 15000%)，原因是 protocol 用了一種 Existential Container 的結構來處理 struct，而這個結構又有一個 three word buffer 的設計，假如 struct 超過這個設計限制，就會被分配到 heap 上 (就是這個情況效能差異達到 15000%)，再由 Existential Container 儲存的 protocol 方法調用實體方法，效能就是在這些地方喪失的。\r\n\r\n而泛型因為在 compile time 就可以知道型別，編譯器可以做優化，所以沒有太大的效能問題。\r\n\r\n其實這個 talk 是從今年的 WWDC Session 416 [Understanding Swift Performance](https://developer.apple.com/videos/play/wwdc2016/416/) 濃縮一部分出來的，所以省略了很多細節，說明的部分會聽不懂是正常的。",
+          "embedded_links": [
+            {
+              "identifier": "yW8Hg65",
+              "title": "Understanding Swift Performance",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/videos/play/wwdc2016/416/"
+            }
+          ]
+        },
+        {
+          "identifier": "ob1wbVm",
+          "type": "Link",
+          "title": "JRebel for Android",
+          "url_domain": "zeroturnaround.com",
+          "url": "https://zeroturnaround.com/software/jrebel-for-android/",
+          "description": "<p>近期都在開發 Android，而整個 Android 開發的環節最讓我有意見的就是 build app 的時間。</p>\n\n<p>Gradle 優化過後，公司的專案 build 的時間還是接近一分半鐘，這個時間長到足夠讓我把注意力分散又集中在那些奇奇怪怪的影片或動態了。向我的同事抱怨這個困擾之後，他推薦我用了 JRebel，驚為天人！太晚發現了！</p>\n\n<p>簡單來說就是實作了 hot swapping <a href=\"https://en.wikipedia.org/wiki/Hot_swapping\">[wiki]</a>，而且除非有改動到 inheritance, interface 或是 AndroidManifest，多數的情況下新 patch 的 build 會直接 reload 當前的 Activity，超棒的！</p>\n\n<p>「蛤，那跟 <a href=\"https://developer.android.com/studio/run/index.html#instant-run\">Instant Run</a> 有什麼不一樣？」<br/>\n「比較快啊！」</p>\n\n<p>延伸：<a href=\"https://zeroturnaround.com/rebellabs/jrebel-for-android-and-instant-run-compared/\">JRebel for Android and Instant Run: Hot Swaps, Warm Swaps, Cold Swaps, all the Swaps!</a></p>",
+          "description_markdown": "近期都在開發 Android，而整個 Android 開發的環節最讓我有意見的就是 build app 的時間。\r\n\r\nGradle 優化過後，公司的專案 build 的時間還是接近一分半鐘，這個時間長到足夠讓我把注意力分散又集中在那些奇奇怪怪的影片或動態了。向我的同事抱怨這個困擾之後，他推薦我用了 JRebel，驚為天人！太晚發現了！\r\n\r\n簡單來說就是實作了 hot swapping [[wiki]](https://en.wikipedia.org/wiki/Hot_swapping)，而且除非有改動到 inheritance, interface 或是 AndroidManifest，多數的情況下新 patch 的 build 會直接 reload 當前的 Activity，超棒的！\r\n\r\n「蛤，那跟 [Instant Run](https://developer.android.com/studio/run/index.html#instant-run) 有什麼不一樣？」  \r\n「比較快啊！」  \r\n\r\n延伸：[JRebel for Android and Instant Run: Hot Swaps, Warm Swaps, Cold Swaps, all the Swaps!](https://zeroturnaround.com/rebellabs/jrebel-for-android-and-instant-run-compared/)",
+          "embedded_links": [
+            {
+              "identifier": "9WUu6pN",
+              "title": "wiki]",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Hot_swapping"
+            },
+            {
+              "identifier": "z7v9MA0",
+              "title": "Instant Run",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/studio/run/index.html#instant-run"
+            },
+            {
+              "identifier": "iQg6Tw3",
+              "title": "JRebel for Android and Instant Run: Hot Swaps, Warm Swaps, Cold Swaps, all the Swaps!",
+              "url_domain": "zeroturnaround.com",
+              "url": "https://zeroturnaround.com/rebellabs/jrebel-for-android-and-instant-run-compared/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "SANtjvO",
+          "type": "Link",
+          "title": "JWT authentication with Vert.x, Keycloak and Angular 2",
+          "url_domain": "paulbakker.io",
+          "url": "http://paulbakker.io/java/jwt-keycloak-angular2/",
+          "description": "<p>傳統上，幾乎每個網站應用程式，都自己寫客戶資料管理，含認證與授權等功能。到目前為止，很多人的專案應該都是這樣做的，但想寫好這個部分，又要能重複使用，真談何容易? 加上系統如果還需提供 RESTful API，又要會管理 <a href=\"https://jwt.io/\">JWT</a> tokens 或 OpenID 連線，甚至帳號還想跟多家 <a href=\"https://oauth.net/articles/authentication/\">OAuth 2.0</a> 提供商整合，例如 FB，Google，github，twitter 等，幾乎是小公司或小開發團隊無法在有限的時間內達成的任務。</p>\n\n<p>看看這篇文章，建議用開源的 <a href=\"http://www.keycloak.org/\">KeyCloak</a> (Single sign-on) SSO 軟體，來幫你做到幾乎所有使用者及 tokens 授權與認證的管裡，專心做你商業邏輯的部分吧!</p>",
+          "description_markdown": "傳統上，幾乎每個網站應用程式，都自己寫客戶資料管理，含認證與授權等功能。到目前為止，很多人的專案應該都是這樣做的，但想寫好這個部分，又要能重複使用，真談何容易? 加上系統如果還需提供 RESTful API，又要會管理 [JWT](https://jwt.io/) tokens 或 OpenID 連線，甚至帳號還想跟多家 [OAuth 2.0](https://oauth.net/articles/authentication/) 提供商整合，例如 FB，Google，github，twitter 等，幾乎是小公司或小開發團隊無法在有限的時間內達成的任務。\r\n\r\n看看這篇文章，建議用開源的 [KeyCloak](http://www.keycloak.org/) (Single sign-on) SSO 軟體，來幫你做到幾乎所有使用者及 tokens 授權與認證的管裡，專心做你商業邏輯的部分吧!",
+          "embedded_links": [
+            {
+              "identifier": "jqfnsUl",
+              "title": "JWT",
+              "url_domain": "jwt.io",
+              "url": "https://jwt.io/"
+            },
+            {
+              "identifier": "vCu6gPK",
+              "title": "OAuth 2.0",
+              "url_domain": "oauth.net",
+              "url": "https://oauth.net/articles/authentication/"
+            },
+            {
+              "identifier": "j0toqTo",
+              "title": "KeyCloak",
+              "url_domain": "keycloak.org",
+              "url": "http://www.keycloak.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "mpS8x4W",
+          "type": "Link",
+          "title": "Use Docker Machine with the Azure driver",
+          "url_domain": "microsoft.com",
+          "url": "https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-docker-machine/",
+          "description": "<p>雖然 <a href=\"https://docs.docker.com/machine/\">docker-machine</a> 不是只能在微軟 Azure 雲端開 Docker 主機，但台灣還是很多 Windows 的使用者，不妨用這最快的方法，在他們已經購買的 Azure 雲上，來使用 Docker。而如果想用別家雲端部署，也只有 <a href=\"https://docs.docker.com/machine/drivers/\">drivers</a> 不同，docker-machine 還支援 <a href=\"https://docs.docker.com/machine/drivers/aws/\">Amazon AWS</a>，<a href=\"https://docs.docker.com/machine/drivers/digital-ocean/\">Digital Ocean</a>，<a href=\"https://docs.docker.com/machine/drivers/gce/\">Google Computer Engine</a>，<a href=\"https://docs.docker.com/machine/drivers/openstack/\">OpenStack</a>，<a href=\"https://docs.docker.com/machine/drivers/hyper-v/\">微軟 Hyper-V</a>，<a href=\"https://docs.docker.com/machine/drivers/soft-layer/\">IBM Softlayer</a>，還有本機的虛擬主機 <a href=\"https://docs.docker.com/machine/drivers/virtualbox/\">Oracle VirtualBox</a>，或其他像 VMware vSphere、Fusion、或 vCloud Air 等。</p>\n\n<p>Mac 或 Windows 使用者，如果已經裝過 <a href=\"https://www.docker.com/products/docker-toolbox\">Docker Toolbox</a>，就會附贈 docker-machine 指令。 如果只想裝 docker-machine 也可只<a href=\"https://docs.docker.com/machine/install-machine/\">安裝 docker-machine</a>。 以前使用 boot2docker 的人，也可以利用 <a href=\"https://docs.docker.com/machine/migrate-to-machine/\">升級</a> 方式，把自己本機的 Docker engine 改成 docker-machine，如此一來，不管是要部署 containers 到本地或雲端，變成一件非常簡單的事。</p>\n\n<p>簡單的測試過 <a href=\"https://hub.docker.com/_/hello-world/\">docker run hello-world</a> 沒問題後，就可以開始使用 docker。但建議多用 <a href=\"https://docs.docker.com/compose/\">docker-compose</a> 來做部署, 而非單純用 docker 指令。</p>",
+          "description_markdown": "雖然 [docker-machine](https://docs.docker.com/machine/) 不是只能在微軟 Azure 雲端開 Docker 主機，但台灣還是很多 Windows 的使用者，不妨用這最快的方法，在他們已經購買的 Azure 雲上，來使用 Docker。而如果想用別家雲端部署，也只有 [drivers](https://docs.docker.com/machine/drivers/) 不同，docker-machine 還支援 [Amazon AWS](https://docs.docker.com/machine/drivers/aws/)，[Digital Ocean](https://docs.docker.com/machine/drivers/digital-ocean/)，[Google Computer Engine](https://docs.docker.com/machine/drivers/gce/)，[OpenStack](https://docs.docker.com/machine/drivers/openstack/)，[微軟 Hyper-V](https://docs.docker.com/machine/drivers/hyper-v/)，[IBM Softlayer](https://docs.docker.com/machine/drivers/soft-layer/)，還有本機的虛擬主機 [Oracle VirtualBox](https://docs.docker.com/machine/drivers/virtualbox/)，或其他像 VMware vSphere、Fusion、或 vCloud Air 等。\r\n\r\nMac 或 Windows 使用者，如果已經裝過 [Docker Toolbox](https://www.docker.com/products/docker-toolbox)，就會附贈 docker-machine 指令。 如果只想裝 docker-machine 也可只[安裝 docker-machine](https://docs.docker.com/machine/install-machine/)。 以前使用 boot2docker 的人，也可以利用 [升級](https://docs.docker.com/machine/migrate-to-machine/) 方式，把自己本機的 Docker engine 改成 docker-machine，如此一來，不管是要部署 containers 到本地或雲端，變成一件非常簡單的事。\r\n\r\n簡單的測試過 [docker run hello-world](https://hub.docker.com/_/hello-world/) 沒問題後，就可以開始使用 docker。但建議多用 [docker-compose](https://docs.docker.com/compose/) 來做部署, 而非單純用 docker 指令。",
+          "embedded_links": [
+            {
+              "identifier": "gJd0P5q",
+              "title": "docker-machine",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/"
+            },
+            {
+              "identifier": "Vp32MZD",
+              "title": "drivers",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/"
+            },
+            {
+              "identifier": "HAH3OnE",
+              "title": "Amazon AWS",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/aws/"
+            },
+            {
+              "identifier": "ykceHSz",
+              "title": "Digital Ocean",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/digital-ocean/"
+            },
+            {
+              "identifier": "KaqRn5e",
+              "title": "Google Computer Engine",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/gce/"
+            },
+            {
+              "identifier": "NFsxoWg",
+              "title": "OpenStack",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/openstack/"
+            },
+            {
+              "identifier": "IAADqX",
+              "title": "微軟 Hyper-V",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/hyper-v/"
+            },
+            {
+              "identifier": "4ZCkRuo",
+              "title": "IBM Softlayer",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/soft-layer/"
+            },
+            {
+              "identifier": "qzXuVOk",
+              "title": "Oracle VirtualBox",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/drivers/virtualbox/"
+            },
+            {
+              "identifier": "u32mqv8",
+              "title": "Docker Toolbox",
+              "url_domain": "docker.com",
+              "url": "https://www.docker.com/products/docker-toolbox"
+            },
+            {
+              "identifier": "gD2Z47D",
+              "title": "安裝 docker-machine",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/install-machine/"
+            },
+            {
+              "identifier": "pmJxEEp",
+              "title": "升級",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/machine/migrate-to-machine/"
+            },
+            {
+              "identifier": "dYrjx9Z",
+              "title": "docker run hello-world",
+              "url_domain": "docker.com",
+              "url": "https://hub.docker.com/_/hello-world/"
+            },
+            {
+              "identifier": "GCgZjEn",
+              "title": "docker-compose",
+              "url_domain": "docker.com",
+              "url": "https://docs.docker.com/compose/"
+            }
+          ]
+        },
+        {
+          "identifier": "AZ1br4J",
+          "type": "Link",
+          "title": "Interview with Status: A Mobile Light Client Ethereum Messaging App",
+          "url_domain": "ethnews.com",
+          "url": "http://www.ethnews.com/interview-with-status-a-mobile-light-client-ethereum-messaging-app",
+          "description": "<p><a href=\"https://status.im/\">Status</a> 是一個利用 <a href=\"https://www.ethereum.org/\">Ethereum</a> 開放原始碼的電子錢包 <a href=\"https://github.com/ethereum/mist\">Mist</a>，開發出來的一個輕量手機聊天軟體。其最終目的還是希望能做出一個聊天軟體，除了聊天以外，還能做支付，以及執行智能合約。從這公司訪談可以看出，總部在新加坡的這個 8 人團隊，花了很長的時間，希望能找到一個讓 <a href=\"http://www.investopedia.com/terms/b/blockchain.asp\">blockchain</a> 能夠輕量化到可以在手機上執行，確又要能保證資料的安全與正確性的方法。</p>\n\n<p>它幾乎是善用了 blockchain 本身的加密特性，還有 Ethereum 本身的 P2P 技術，巧妙地發展出一個新一代的聊天軟體。很明顯，未來的手機，絕對不只是聊天而已，它還能做我們平常做的所有事情，這類的軟體可以讓我們拭目以待。</p>\n\n<p>有興趣開發類似的軟體的人，可以到 <a href=\"https://github.com/status-im\">status-im</a> GitHub 做協同開發。</p>",
+          "description_markdown": "[Status](https://status.im/) 是一個利用 [Ethereum](https://www.ethereum.org/) 開放原始碼的電子錢包 [Mist](https://github.com/ethereum/mist)，開發出來的一個輕量手機聊天軟體。其最終目的還是希望能做出一個聊天軟體，除了聊天以外，還能做支付，以及執行智能合約。從這公司訪談可以看出，總部在新加坡的這個 8 人團隊，花了很長的時間，希望能找到一個讓 [blockchain](http://www.investopedia.com/terms/b/blockchain.asp) 能夠輕量化到可以在手機上執行，確又要能保證資料的安全與正確性的方法。\r\n\r\n它幾乎是善用了 blockchain 本身的加密特性，還有 Ethereum 本身的 P2P 技術，巧妙地發展出一個新一代的聊天軟體。很明顯，未來的手機，絕對不只是聊天而已，它還能做我們平常做的所有事情，這類的軟體可以讓我們拭目以待。\r\n\r\n有興趣開發類似的軟體的人，可以到 [status-im](https://github.com/status-im) GitHub 做協同開發。",
+          "embedded_links": [
+            {
+              "identifier": "WH5x69q",
+              "title": "Status",
+              "url_domain": "status.im",
+              "url": "https://status.im/"
+            },
+            {
+              "identifier": "I46P7YK",
+              "title": "Ethereum",
+              "url_domain": "ethereum.org",
+              "url": "https://www.ethereum.org/"
+            },
+            {
+              "identifier": "s4A4gdi",
+              "title": "Mist",
+              "url_domain": "github.com",
+              "url": "https://github.com/ethereum/mist"
+            },
+            {
+              "identifier": "ZQv7bWT",
+              "title": "blockchain",
+              "url_domain": "investopedia.com",
+              "url": "http://www.investopedia.com/terms/b/blockchain.asp"
+            },
+            {
+              "identifier": "R7jIvvO",
+              "title": "status-im",
+              "url_domain": "github.com",
+              "url": "https://github.com/status-im"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "2dH54oA",
+          "type": "Link",
+          "title": "Yarn: A new package manager for JavaScript",
+          "url_domain": "facebook.com",
+          "url": "https://code.facebook.com/posts/1840075619545360",
+          "description": "<p>JavaScript 實作中常常會使用到不同的相依套件，這些套件通常會透過 package manager 來管理，近幾年最熱門的就是 npm 了，Facebook 最近發表了一套新的套件管理 - Yarn ，用以改善 consistency、security 與 performance 的問題。</p>\n\n<p><a href=\"https://medium.freecodecamp.com/npm-vs-yarn-benchmark-9b456de4aa96\">這篇文章</a>對 install 的效能做了一些比較。</p>\n\n<p>而 Yarn 除了速度比 npm 快以外，lockfile 也是很重要的一個功能，npm 裡重複的相依套件，在不同的環境下可能有不同的檔案結構，造成有時會發生有些 bug 只在特定電腦的狀況，透過 Yarn 的 lockfile 就可以將相依套件鎖定版本，確保每個環境的結構都是一樣的。</p>",
+          "description_markdown": "JavaScript 實作中常常會使用到不同的相依套件，這些套件通常會透過 package manager 來管理，近幾年最熱門的就是 npm 了，Facebook 最近發表了一套新的套件管理 - Yarn ，用以改善 consistency、security 與 performance 的問題。\r\n\r\n[這篇文章](https://medium.freecodecamp.com/npm-vs-yarn-benchmark-9b456de4aa96)對 install 的效能做了一些比較。\r\n\r\n而 Yarn 除了速度比 npm 快以外，lockfile 也是很重要的一個功能，npm 裡重複的相依套件，在不同的環境下可能有不同的檔案結構，造成有時會發生有些 bug 只在特定電腦的狀況，透過 Yarn 的 lockfile 就可以將相依套件鎖定版本，確保每個環境的結構都是一樣的。",
+          "embedded_links": [
+            {
+              "identifier": "no3yy6G",
+              "title": "這篇文章",
+              "url_domain": "freecodecamp.com",
+              "url": "https://medium.freecodecamp.com/npm-vs-yarn-benchmark-9b456de4aa96"
+            }
+          ],
+          "image_original_filename": "9fcea3b8-0916-404c-ac61-f3670ed8a65d.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_9fcea3b8-0916-404c-ac61-f3670ed8a65d.png",
+          "image_medium_filename": "twenty_by_nine_medium_9fcea3b8-0916-404c-ac61-f3670ed8a65d.png"
+        },
+        {
+          "identifier": "ZIQoyoV",
+          "type": "Link",
+          "title": "A Javascript journey with only six characters",
+          "url_domain": "jazcash.com",
+          "url": "http://jazcash.com/a-javascript-journey-with-only-six-characters",
+          "description": "<p>透過  \"[\" 、 \"]\" 、 \"(\" 、 \")\"、 \"!\" 和 \"+\" 這六個字元就可以寫 JavaScript ！</p>\n\n<p>三個基本的規則：</p>\n\n<ul>\n<li>\"!\" 用來轉換成 Boolean</li>\n<li>\"+\" 用來轉換成 Number</li>\n<li>\"[]\" 用來轉換成 String</li>\n</ul>\n\n\n<p>文內會經過不同轉換讓大家理解是如何得到各個英文字母，也可以透過 <a href=\"http://www.jsfuck.com/\">JSFuck</a>，自動轉換程式碼。</p>",
+          "description_markdown": "透過  \"[\" 、 \"]\" 、 \"(\" 、 \")\"、 \"!\" 和 \"+\" 這六個字元就可以寫 JavaScript ！\r\n\r\n三個基本的規則：\r\n\r\n* \"!\" 用來轉換成 Boolean\r\n* \"+\" 用來轉換成 Number\r\n* \"[]\" 用來轉換成 String\r\n\r\n文內會經過不同轉換讓大家理解是如何得到各個英文字母，也可以透過 [JSFuck](http://www.jsfuck.com/)，自動轉換程式碼。",
+          "embedded_links": [
+            {
+              "identifier": "URE0oMH",
+              "title": "JSFuck",
+              "url_domain": "jsfuck.com",
+              "url": "http://www.jsfuck.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "2sbcxyc",
+          "type": "Link",
+          "title": "Tesseract.js: Pure Javascript OCR for 62 Languages",
+          "url_domain": "projectnaptha.com",
+          "url": "http://tesseract.projectnaptha.com/",
+          "description": "<p>Tesseract.js 是一套 Pure JavaScript 的文字辨識 library ，因為是 Pure JavaScript ，所以不只可以在 NodeJS 上執行，也可以單獨運行在瀏覽器上。</p>\n\n<p><a href=\"https://github.com/naptha/tesseract.js\">Source Code</a></p>",
+          "description_markdown": "Tesseract.js 是一套 Pure JavaScript 的文字辨識 library ，因為是 Pure JavaScript ，所以不只可以在 NodeJS 上執行，也可以單獨運行在瀏覽器上。\r\n\r\n[Source Code](https://github.com/naptha/tesseract.js)",
+          "embedded_links": [
+            {
+              "identifier": "a65YZGN",
+              "title": "Source Code",
+              "url_domain": "github.com",
+              "url": "https://github.com/naptha/tesseract.js"
+            }
+          ]
+        },
+        {
+          "identifier": "lSjHadk",
+          "type": "Link",
+          "title": "ES proposal: global",
+          "url_domain": "2ality.com",
+          "url": "http://www.2ality.com/2016/09/global.html",
+          "description": "<p>JavaScript 已經可以運行在許多不同的平台，而存取 global variable 的方式也各有所不同，本篇文章會簡略介紹存取方式以及 ES6 新的變數宣告方式，以及存取 global 的 polyfill 。</p>",
+          "description_markdown": "JavaScript 已經可以運行在許多不同的平台，而存取 global variable 的方式也各有所不同，本篇文章會簡略介紹存取方式以及 ES6 新的變數宣告方式，以及存取 global 的 polyfill 。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "YBwkzo3",
+          "type": "Link",
+          "title": "Python Web Developer (後端) at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x74;&#x7a;&#x61;&#x6e;&#x67;&#x6d;&#115;&#x40;&#x73;&#x74;&#114;&#x65;&#101;&#x74;&#118;&#x6f;&#x69;&#99;&#x65;&#46;&#x63;&#x6f;&#x6d;\">&#116;&#122;&#x61;&#110;&#103;&#109;&#115;&#x40;&#x73;&#x74;&#114;&#101;&#101;&#116;&#x76;&#x6f;&#x69;&#99;&#x65;&#x2e;&#99;&#111;&#x6d;</a>。</p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+            {
+              "identifier": "wuHS03X",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

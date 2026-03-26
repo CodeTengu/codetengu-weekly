@@ -1,0 +1,395 @@
+{
+  "number": 121,
+  "title": "Issue 121 請問 TRUNCATE TABLE 是 DDL 還是 DML，請搶答！",
+  "summary": "本期內容涵蓋 Management, Machine Learning, Deep Learning, Blockchain, Ethereum, PHP, Laravel, CSS, JavaScript, React",
+  "url": "https://weekly.codetengu.com/issues/121",
+  "publication_status": "published",
+  "published_at": "2018-04-02T03:00:00+01:00",
+  "updated_at": "2018-04-02T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 誰能告訴我到底該怎麼處理螢幕觸控壞掉的 iPad Mini 2\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "L0yuuuh",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "XYziWmI",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "EIhJTuz",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "vSzn59u",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "B11FGFB",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "bhVR8dJ",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "qILcaO7",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "nJiWmGk",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "uoOPzmL",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "H0DUyR",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "sPUGIyC",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "3RTLYZK",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "oi2d0Ai",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "IQYYDEo",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "T7LjmYl",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "xJvJJWZ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "mq9Fdx6",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "zp5nazi",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "C661Hur",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "RayTbvo",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "eAkNs0f",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "VvEq3Of",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "Ixw3qer",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "uk5vUOs",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "sGhlaHw",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "hsnarEs",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "6dlolv1",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "79tt7Tu",
+          "type": "Link",
+          "title": "Share your Manager README",
+          "url_domain": "matthewnewkirk.com",
+          "url": "https://matthewnewkirk.com/2017/09/20/share-your-manager-readme/",
+          "description": "<p>這一兩年來因為技術相關事務越來越少，也越來越忙，所以相對的，跟技術同事們也都比較少接觸，這其實真的不太好，不過也因此了解了，所謂的 Engagement 這詞的真正含義，像我這樣就是太不 Engagement 了!  ( 什麼鬼 )</p>\n\n<p>所以最近的 1 on 1 了解到這件事之後，我開始問每個人說:「是不是會因為覺得我很忙所以不敢找我？」 「拜託，以後有事想講看到我在就馬上抓住我，Slack 也行，或是直接看我的 Google 日曆，直接 Booking 時間」</p>\n\n<p>不過其實最棒的還是直接攤開你身為主管的 README，身為技術人應該都會看 GitHub 上面發現新套件，使用之前應該都會看過他的 README。</p>\n\n<blockquote><p>其實主管們也該提供一下 README，讓大家知道怎麼使用你。 你期待的是什麼，你怎麼看事情，怎麼評估價值 ... 等等。</p></blockquote>\n\n<p>除了這一篇外還有另外兩篇可以參考一下，其實本來這週我也想附上我的 README，但是實在是沒有太多時間。 也許大家期待一下下週。</p>\n\n<ul>\n<li><a href=\"https://docs.google.com/presentation/d/1PE2OmkVykdZYF2QzmJ-ZUHqBAxnnsbnMsd19z3qLWNI/edit#slide=id.gcb9a0b074_1_0\">Scott Burns README</a></li>\n<li><a href=\"https://docs.google.com/document/d/1sx5ssYb_xMrmwPpyjD5xP7RvQ7cHweDYlRGn2SXztKw/edit#heading=h.g1q7u9cc1uha\">Manager README - Oren Ellenbogen</a></li>\n</ul>\n\n\n<p>另外這篇文章還有一個很大的收穫就是 DRI: Directly Responsible Individuals</p>",
+          "description_markdown": "這一兩年來因為技術相關事務越來越少，也越來越忙，所以相對的，跟技術同事們也都比較少接觸，這其實真的不太好，不過也因此了解了，所謂的 Engagement 這詞的真正含義，像我這樣就是太不 Engagement 了!  ( 什麼鬼 )\r\n\r\n所以最近的 1 on 1 了解到這件事之後，我開始問每個人說:「是不是會因為覺得我很忙所以不敢找我？」 「拜託，以後有事想講看到我在就馬上抓住我，Slack 也行，或是直接看我的 Google 日曆，直接 Booking 時間」\r\n\r\n不過其實最棒的還是直接攤開你身為主管的 README，身為技術人應該都會看 GitHub 上面發現新套件，使用之前應該都會看過他的 README。 \r\n\r\n> 其實主管們也該提供一下 README，讓大家知道怎麼使用你。 你期待的是什麼，你怎麼看事情，怎麼評估價值 ... 等等。\r\n\r\n除了這一篇外還有另外兩篇可以參考一下，其實本來這週我也想附上我的 README，但是實在是沒有太多時間。 也許大家期待一下下週。\r\n\r\n* [Scott Burns README](https://docs.google.com/presentation/d/1PE2OmkVykdZYF2QzmJ-ZUHqBAxnnsbnMsd19z3qLWNI/edit#slide=id.gcb9a0b074_1_0)\r\n* [Manager README - Oren Ellenbogen](https://docs.google.com/document/d/1sx5ssYb_xMrmwPpyjD5xP7RvQ7cHweDYlRGn2SXztKw/edit#heading=h.g1q7u9cc1uha)\r\n\r\n另外這篇文章還有一個很大的收穫就是 DRI: Directly Responsible Individuals",
+          "embedded_links": [
+            {
+              "identifier": "QwvlGvv",
+              "title": "Scott Burns README",
+              "url_domain": "google.com",
+              "url": "https://docs.google.com/presentation/d/1PE2OmkVykdZYF2QzmJ-ZUHqBAxnnsbnMsd19z3qLWNI/edit#slide=id.gcb9a0b074_1_0"
+            },
+            {
+              "identifier": "PcZlZHM",
+              "title": "Manager README - Oren Ellenbogen",
+              "url_domain": "google.com",
+              "url": "https://docs.google.com/document/d/1sx5ssYb_xMrmwPpyjD5xP7RvQ7cHweDYlRGn2SXztKw/edit#heading=h.g1q7u9cc1uha"
+            }
+          ]
+        },
+        {
+          "identifier": "ze8cg9N",
+          "type": "Link",
+          "title": "Apple's corporate innovation? The 'directly responsible individual'",
+          "url_domain": "blogspot.tw",
+          "url": "http://chemjobber.blogspot.tw/2011/10/apples-corporate-innovation-directly.html",
+          "description": "<p>在上一篇看到的 DRI 其實還滿讓我好奇的，不過原來我早就知道這件事了，早期在研究如何進行更好的會議的時候就知道這件事。</p>\n\n<p>除了開會前要有 Agenda 之外，開完會還需要有決定好要做什麽的 Action list, 而每則 Action list 都必須要有一個負責人跟結束時間。 不然會議的事情很常會落入，不知道誰要負責，不知道什麼時候結束的狀況。</p>\n\n<p>而 DRI: Directly Responsible Individual 則是 Steve Jobs 在 Apple 開會都會用的方式，其實好像很簡單，但其實也沒有那麼簡單，因為我 run 過一段時間，有時候自己都會覺得困難而放棄。</p>\n\n<p>例如: 有一件事你不確定是前端還是後端，或是都有，這時要交給誰負責？ 甚至怎麼設定完成日期？ 或是 ... 現在還不知道某個功能的瓶頸，負責人應該是 Dev 還是 Ops? (我知道 DevOps 就解決了嘛)</p>\n\n<p>所以，我這邊先前有發生過同一個狀況好幾次，某個產品原本有兩個工程師，因為我們走 Free style，自己撿 issue，所以以前也就不會指定誰負責，但是其中有人離職之後，剩下一個工程師的產出還比兩個工程師還要好上很多。 因為只有他負責了 ... XD</p>\n\n<p>DRI 看似簡單，但其實還是有一些「眉角」，除非你在一個非常小的團隊， 所以下面兩篇也可以參考一下:</p>\n\n<ul>\n<li><a href=\"https://medium.com/@mmamet/directly-responsible-individuals-f5009f465da4\">Directly Responsible Individuals</a> - 這篇是 TripAdvisor 的產品副總寫的</li>\n<li><a href=\"https://www.quora.com/How-well-does-Apples-Directly-Responsible-Individual-DRI-model-work-in-practice\">How well does Apple's Directly Responsible Individual (DRI) model work in practice?</a> - 這篇有一則回答是在 Apple 工作過的員工所提出的，我覺得非常棒</li>\n</ul>",
+          "description_markdown": "在上一篇看到的 DRI 其實還滿讓我好奇的，不過原來我早就知道這件事了，早期在研究如何進行更好的會議的時候就知道這件事。\r\n\r\n除了開會前要有 Agenda 之外，開完會還需要有決定好要做什麽的 Action list, 而每則 Action list 都必須要有一個負責人跟結束時間。 不然會議的事情很常會落入，不知道誰要負責，不知道什麼時候結束的狀況。\r\n\r\n而 DRI: Directly Responsible Individual 則是 Steve Jobs 在 Apple 開會都會用的方式，其實好像很簡單，但其實也沒有那麼簡單，因為我 run 過一段時間，有時候自己都會覺得困難而放棄。\r\n\r\n例如: 有一件事你不確定是前端還是後端，或是都有，這時要交給誰負責？ 甚至怎麼設定完成日期？ 或是 ... 現在還不知道某個功能的瓶頸，負責人應該是 Dev 還是 Ops? (我知道 DevOps 就解決了嘛)\r\n\r\n所以，我這邊先前有發生過同一個狀況好幾次，某個產品原本有兩個工程師，因為我們走 Free style，自己撿 issue，所以以前也就不會指定誰負責，但是其中有人離職之後，剩下一個工程師的產出還比兩個工程師還要好上很多。 因為只有他負責了 ... XD\r\n\r\nDRI 看似簡單，但其實還是有一些「眉角」，除非你在一個非常小的團隊， 所以下面兩篇也可以參考一下:\r\n\r\n* [Directly Responsible Individuals](https://medium.com/@mmamet/directly-responsible-individuals-f5009f465da4) - 這篇是 TripAdvisor 的產品副總寫的\r\n* [How well does Apple's Directly Responsible Individual (DRI) model work in practice?](https://www.quora.com/How-well-does-Apples-Directly-Responsible-Individual-DRI-model-work-in-practice) - 這篇有一則回答是在 Apple 工作過的員工所提出的，我覺得非常棒",
+          "embedded_links": [
+            {
+              "identifier": "WUXSnpB",
+              "title": "Directly Responsible Individuals",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@mmamet/directly-responsible-individuals-f5009f465da4"
+            },
+            {
+              "identifier": "OoqkrVp",
+              "title": "How well does Apple's Directly Responsible Individual (DRI) model work in practice?",
+              "url_domain": "quora.com",
+              "url": "https://www.quora.com/How-well-does-Apples-Directly-Responsible-Individual-DRI-model-work-in-practice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "QTyGPEe",
+          "type": "Link",
+          "title": "Tom-Chang-Deep-Lyrics | 基於 LSTM 深度學習方法研發而成的張雨生歌詞產生模型，致敬張雨生",
+          "url_domain": "fukuball.com",
+          "url": "https://blog.fukuball.com/ji-yu-lstm-shen-du-xue-xi-fang-fa-yan-fa-er-cheng-de-zhang-yu-sheng-ge-ci-chan-sheng-mo-xing-zhi-jing-zhang-yu-sheng/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>之前看到〈<a href=\"http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw\">『致敬赵雷』基于TensorFlow让机器生成赵雷曲风的歌词</a>〉這篇文章覺得非常有趣，因此一直都想自己動手試試看，中國有趙雷，那台灣要找什麼值得紀念的音樂人來作這個歌詞機器學習模型呢？我想<a href=\"https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%A8%E7%94%9F\">張雨生</a>應該會是台灣非常值得令人紀念的音樂人之一了。</p>\n\n<p>程式的基礎我使用了之前在 GitHub 上有點小小貢獻的一個 Project 作為程式碼基礎，這個 Project 是 <a href=\"https://github.com/hit-computer/char-rnn-tf\">char-rnn-tf</a>，可以用於生成一段中文文本（訓練與料是英文時也可以用於生成英文），訓練語料庫我收集了張雨生的百餘首歌詞，由於這樣的歌詞語料還是有些不足，因此也加入了林夕、其他著名歌詞、新詩作為輔助，整個語料庫大致包含 74856 個字、2612 個不重複字（其實語料庫還是不足）。</p>\n\n<p>演算法基本上就是 LSTM，細節在此就不多加著墨，若有興趣可以在<a href=\"https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html\">這篇文章</a>了解一下，相關程式碼我放在這邊：<a href=\"https://github.com/fukuball/Tom-Chang-Deep-Lyrics\">Tom-Chang-Deep-Lyrics</a>，如何安裝環境、如何訓練、如何生成歌詞，基本上都寫在 Readme 了，大家可以前往瞧瞧。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n之前看到〈[『致敬赵雷』基于TensorFlow让机器生成赵雷曲风的歌词](http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw)〉這篇文章覺得非常有趣，因此一直都想自己動手試試看，中國有趙雷，那台灣要找什麼值得紀念的音樂人來作這個歌詞機器學習模型呢？我想[張雨生](https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%A8%E7%94%9F)應該會是台灣非常值得令人紀念的音樂人之一了。\r\n\r\n程式的基礎我使用了之前在 GitHub 上有點小小貢獻的一個 Project 作為程式碼基礎，這個 Project 是 [char-rnn-tf](https://github.com/hit-computer/char-rnn-tf)，可以用於生成一段中文文本（訓練與料是英文時也可以用於生成英文），訓練語料庫我收集了張雨生的百餘首歌詞，由於這樣的歌詞語料還是有些不足，因此也加入了林夕、其他著名歌詞、新詩作為輔助，整個語料庫大致包含 74856 個字、2612 個不重複字（其實語料庫還是不足）。\r\n\r\n演算法基本上就是 LSTM，細節在此就不多加著墨，若有興趣可以在[這篇文章](https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html)了解一下，相關程式碼我放在這邊：[Tom-Chang-Deep-Lyrics](https://github.com/fukuball/Tom-Chang-Deep-Lyrics)，如何安裝環境、如何訓練、如何生成歌詞，基本上都寫在 Readme 了，大家可以前往瞧瞧。",
+          "embedded_links": [
+            {
+              "identifier": "ZCZQKY6",
+              "title": "『致敬赵雷』基于TensorFlow让机器生成赵雷曲风的歌词",
+              "url_domain": "qq.com",
+              "url": "http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw"
+            },
+            {
+              "identifier": "i4Bqk8Y",
+              "title": "張雨生",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%BC%B5%E9%9B%A8%E7%94%9F"
+            },
+            {
+              "identifier": "ke18eSN",
+              "title": "char-rnn-tf",
+              "url_domain": "github.com",
+              "url": "https://github.com/hit-computer/char-rnn-tf"
+            },
+            {
+              "identifier": "Ny3a3fO",
+              "title": "這篇文章",
+              "url_domain": "mcknote.com",
+              "url": "https://brohrer.mcknote.com/zh-Hant/how_machine_learning_works/how_rnns_lstm_work.html"
+            },
+            {
+              "identifier": "AaoPmi2",
+              "title": "Tom-Chang-Deep-Lyrics",
+              "url_domain": "github.com",
+              "url": "https://github.com/fukuball/Tom-Chang-Deep-Lyrics"
+            }
+          ]
+        },
+        {
+          "identifier": "6Or7L12",
+          "type": "Link",
+          "title": "GAN with Keras: Application to Image Deblurring",
+          "url_domain": "sicara.com",
+          "url": "https://blog.sicara.com/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>GAN 可能會是未來 Machine Learning 會有長足進展的最有影響力的演算法，不過複雜度實在是太高，我個人也沒有時間去自己實作好好理解這個算法。本篇文章用圖片去模糊這個例子去實踐了 GAN，有空應該要好好來跟著實作一遍啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\nGAN 可能會是未來 Machine Learning 會有長足進展的最有影響力的演算法，不過複雜度實在是太高，我個人也沒有時間去自己實作好好理解這個算法。本篇文章用圖片去模糊這個例子去實踐了 GAN，有空應該要好好來跟著實作一遍啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PRtf5EV",
+          "type": "Link",
+          "title": "【Ethereum 智能合約開發筆記】透過 MetaMask 使用 web3 和使用 EthJS 呼叫合約",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@anderson.c/ethereum-%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84%E9%96%8B%E7%99%BC%E7%AD%86%E8%A8%98-%E9%80%8F%E9%81%8E-metamask-%E4%BD%BF%E7%94%A8-web3-ethjs-64b73aa8d3a",
+          "description": "<p>Ethereum：初級</p>\n\n<p>個人覺得 Ethereum Developer 除了懂 Smart Contract 怎麼寫之外，也應該要知道怎麼寫 Dapp，Smart Contract 就像是後端，而 Dapp 就是前端了，Ethereum Developer 不該只局限於其中一個領域，這篇算是一個非常簡易的前端入門，如何接上在前端接上 Smart Contract 與之互動，其實不難啊！</p>",
+          "description_markdown": "Ethereum：初級\r\n\r\n個人覺得 Ethereum Developer 除了懂 Smart Contract 怎麼寫之外，也應該要知道怎麼寫 Dapp，Smart Contract 就像是後端，而 Dapp 就是前端了，Ethereum Developer 不該只局限於其中一個領域，這篇算是一個非常簡易的前端入門，如何接上在前端接上 Smart Contract 與之互動，其實不難啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "cXyWi3S",
+          "type": "Link",
+          "title": "Getting Started with Signed Routes in Laravel",
+          "url_domain": "laravel-news.com",
+          "url": "https://laravel-news.com/signed-routes",
+          "description": "<p>Laravel：初級</p>\n\n<p>Laravel 5.6 出了一個新的 feature  - signed URLs，可以做到像是 S3 的  signed URLs 那樣，暫時給予使用者 access 特定資源的權限，其實要做這樣的功能並不難，但就跟登入登出一樣，做了幾次就會覺得煩、做到懷疑人生，web framework 本身就該提供這樣的功能啊！升級 Laravel 5.6 讓您馬上擁有！</p>",
+          "description_markdown": "Laravel：初級\r\n\r\nLaravel 5.6 出了一個新的 feature  - signed URLs，可以做到像是 S3 的  signed URLs 那樣，暫時給予使用者 access 特定資源的權限，其實要做這樣的功能並不難，但就跟登入登出一樣，做了幾次就會覺得煩、做到懷疑人生，web framework 本身就該提供這樣的功能啊！升級 Laravel 5.6 讓您馬上擁有！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "UomEW4C",
+          "type": "Link",
+          "title": "The world’s first code-free sparkline typeface",
+          "url_domain": "aftertheflood.co",
+          "url": "https://aftertheflood.co/projects/sparks/",
+          "description": "<p>可以顯示迷你 Bar Chart, Line Chart 的字型。而且他是開源的！</p>",
+          "description_markdown": "可以顯示迷你 Bar Chart, Line Chart 的字型。而且他是開源的！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "VvXWkEq",
+          "type": "Link",
+          "title": "Learn to combine RxJs sequences with super intuitive interactive diagrams",
+          "url_domain": "angularindepth.com",
+          "url": "https://blog.angularindepth.com/learn-to-combine-rxjs-sequences-with-super-intuitive-interactive-diagrams-20fce8e6511",
+          "description": "<p>利用互動的圖片教你認識 Rxjs 的一些用法，例如 merge, mergeAll, concat 等</p>\n\n<p>包括使用可編輯的程式碼，適合想要入門學習 Rxjs 的朋友。</p>",
+          "description_markdown": "利用互動的圖片教你認識 Rxjs 的一些用法，例如 merge, mergeAll, concat 等\r\n\r\n包括使用可編輯的程式碼，適合想要入門學習 Rxjs 的朋友。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ppNt3af",
+          "type": "Link",
+          "title": "Speedier Server-Side Rendering in React 16 with Component Caching",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@reactcomponentcaching/speedier-server-side-rendering-in-react-16-with-component-caching-e8aa677929b1",
+          "description": "<p>Server Side Rendering 已經成為 React 的顯學之一，過去有許多公司導入這樣記述，並且提出各樣的方法解決 React 的 SSR 問題。</p>\n\n<p>Sasha Aickin 在 2016 的時候就有提過 React Component Cache 的方式，而隨著 React 16 的推出。React 已經改進了 SSR 的效能，所以作者決定推出這個方便使用的 library。</p>\n\n<p>主要有幾個特色：</p>\n\n<ol>\n<li>兩種類型的 Caching</li>\n<li>支援 Stream method</li>\n<li>支援 Redis 或 Memcached</li>\n</ol>\n\n\n<p>有在玩 SSR 的朋友們，不仿試看看！</p>",
+          "description_markdown": "Server Side Rendering 已經成為 React 的顯學之一，過去有許多公司導入這樣記述，並且提出各樣的方法解決 React 的 SSR 問題。\r\n\r\nSasha Aickin 在 2016 的時候就有提過 React Component Cache 的方式，而隨著 React 16 的推出。React 已經改進了 SSR 的效能，所以作者決定推出這個方便使用的 library。\r\n\r\n主要有幾個特色：\r\n\r\n1. 兩種類型的 Caching\r\n2. 支援 Stream method\r\n3. 支援 Redis 或 Memcached\r\n\r\n有在玩 SSR 的朋友們，不仿試看看！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "KEcOvJg",
+          "type": "Link",
+          "title": "Working with the new CSS Typed Object Model",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/web/updates/2018/03/cssom",
+          "description": "<p>Chrome 66 將會支援 CSS typed OM。</p>\n\n<p>隨著 Type system 在前端越來越受到重視，像是 typescript、flow、Elm、PureScript、ReasonML，而 CSS 的 Object Model 也可以導入 type。type 可以幫助我們減少 bug 跟更好的錯誤處理！</p>\n\n<p>有興趣的朋友，可以多多了解！</p>",
+          "description_markdown": "Chrome 66 將會支援 CSS typed OM。\r\n\r\n隨著 Type system 在前端越來越受到重視，像是 typescript、flow、Elm、PureScript、ReasonML，而 CSS 的 Object Model 也可以導入 type。type 可以幫助我們減少 bug 跟更好的錯誤處理！\r\n\r\n有興趣的朋友，可以多多了解！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "iAUwyyo",
+          "type": "Link",
+          "title": "Senior Frontend Developer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/2",
+          "description": "<p>薪資範圍：年薪新台幣 100 ~ 200 萬元。</p>\n\n<p>能力需求：</p>\n\n<ol>\n<li>精通 JavaScript、CSS 與 HTML</li>\n<li>相容主流瀏覽器的前端整合開發經驗</li>\n<li>前端 framework / library 的使用經驗</li>\n<li>熟悉 React</li>\n<li>模組化開發經驗</li>\n</ol>",
+          "description_markdown": "薪資範圍：年薪新台幣 100 ~ 200 萬元。\r\n\r\n能力需求：\r\n\r\n1. 精通 JavaScript、CSS 與 HTML \r\n2. 相容主流瀏覽器的前端整合開發經驗 \r\n3. 前端 framework / library 的使用經驗 \r\n4. 熟悉 React \r\n5. 模組化開發經驗",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

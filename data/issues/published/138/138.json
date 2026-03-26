@@ -1,0 +1,433 @@
+{
+  "number": 138,
+  "title": "Issue 138 大家都是透過犯錯在學習，小明常常在複習，小明很棒",
+  "summary": "本期內容涵蓋 HLS, iOS, Android, DevOps, Career, Frontend, Blockchain",
+  "url": "https://weekly.codetengu.com/issues/138",
+  "publication_status": "published",
+  "published_at": "2018-08-20T03:00:00+01:00",
+  "updated_at": "2018-08-22T10:37:44+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在重讀「<a href=\"https://www.douban.com/people/vinta/\">沙丘</a>」系列</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在重讀「[沙丘](https://www.douban.com/people/vinta/)」系列\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "3cjZlrD",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "rIg3Wpw",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "VaBLLXm",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "GnHUaJu",
+              "title": "沙丘",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "lFWRnY7",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "IX3gEmI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "fBmsLA5",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "AVyS0L7",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Cy1hWSc",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "cYKtC5H",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "uyeSLtz",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Aco5nNh",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "wCuPfHG",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "hKLaYBJ",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "4yKDK79",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "uelH51d",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "QyxhYRp",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "gksiVyG",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "rIL4A1L",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "WR423sP",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "Te04gYO",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "FQqTWox",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "7MNPnUo",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "pKFYwqX",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "7E6UDyU",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "Ex4qeWP",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "FzaMNwk",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "kigOYXd",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "bp0y6u4",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "8q197v4",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "J20ksV1",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "GAoy5qn",
+          "type": "Link",
+          "title": "Faster HLS preparation – google-exoplayer",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/google-exoplayer/faster-hls-preparation-f6611aa15ea6",
+          "description": "<p>雖然這是 ExoPlayer 的 Chunkless preparation 特性的介紹文，但其實主要都是在談 HLS 的 master playlist。<br/>\n跟 <a href=\"https://medium.com/google-exoplayer/hls-playback-in-exoplayer-a33959a47be7\">HLS playback in ExoPlayer (General good practices)</a> 這篇可以當成是 HLS 轉檔的一個最佳實踐指標。</p>\n\n<p>如果你們在 Android 是用 ExoPlayer （應該都是吧？）在播放 HLS 可以看看你們的 master playlist 是不是已經提供足夠的 CODEC 資訊，如果有的話，升級、啟動 Chunkless preparation 就可以了。</p>\n\n<p>離題：最近在開發 HLS 的功能，對於要不要採用 HLS AES Encryption 實在是猶豫不決，如果有先行者願意給我建議的話，我們來聊聊嘛 (;´༎ຶД༎ຶ`)</p>",
+          "description_markdown": "雖然這是 ExoPlayer 的 Chunkless preparation 特性的介紹文，但其實主要都是在談 HLS 的 master playlist。  \r\n跟 [HLS playback in ExoPlayer (General good practices)](https://medium.com/google-exoplayer/hls-playback-in-exoplayer-a33959a47be7) 這篇可以當成是 HLS 轉檔的一個最佳實踐指標。\r\n\r\n如果你們在 Android 是用 ExoPlayer （應該都是吧？）在播放 HLS 可以看看你們的 master playlist 是不是已經提供足夠的 CODEC 資訊，如果有的話，升級、啟動 Chunkless preparation 就可以了。\r\n\r\n離題：最近在開發 HLS 的功能，對於要不要採用 HLS AES Encryption 實在是猶豫不決，如果有先行者願意給我建議的話，我們來聊聊嘛 (;´༎ຶД༎ຶ`)",
+          "embedded_links": [
+            {
+              "identifier": "gnezMa4",
+              "title": "HLS playback in ExoPlayer (General good practices)",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/google-exoplayer/hls-playback-in-exoplayer-a33959a47be7"
+            }
+          ]
+        },
+        {
+          "identifier": "68qxCIi",
+          "type": "Link",
+          "title": "DVIA (Damn Vulnerable iOS App)",
+          "url_domain": "damnvulnerableiosapp.com",
+          "url": "http://damnvulnerableiosapp.com/",
+          "description": "<p>一個充滿了安全漏洞的 app，是一個可以合法練習入侵技巧的材料。</p>\n\n<p>作者是資安專家 <a href=\"https://twitter.com/prateekg147\">@prateekg147</a>，除了提供材料之外，這一包裡面也已經涵蓋了挑戰的題目跟教學。</p>\n\n<p>沒有絕對安全的程式，但如果因為沒有資安觀念把敏感資訊存在 <code>NSUserDefaults</code>、<code>plist</code>  或 DB 裡面被整包端走，那也是說不過去。</p>\n\n<p>除了 iOS 外，有人也收集了 <a href=\"https://github.com/The-Art-of-Hacking/art-of-hacking/tree/master/vulnerable_servers\">Vulnerable Apps, Servers, and Websites</a> 這類可以練習侵入技巧的模擬環境，可惜還沒有 Android 的相關專案？</p>",
+          "description_markdown": "一個充滿了安全漏洞的 app，是一個可以合法練習入侵技巧的材料。\r\n\r\n作者是資安專家 [@prateekg147](https://twitter.com/prateekg147)，除了提供材料之外，這一包裡面也已經涵蓋了挑戰的題目跟教學。\r\n\r\n沒有絕對安全的程式，但如果因為沒有資安觀念把敏感資訊存在 `NSUserDefaults`、`plist`  或 DB 裡面被整包端走，那也是說不過去。\r\n\r\n除了 iOS 外，有人也收集了 [Vulnerable Apps, Servers, and Websites](https://github.com/The-Art-of-Hacking/art-of-hacking/tree/master/vulnerable_servers) 這類可以練習侵入技巧的模擬環境，可惜還沒有 Android 的相關專案？",
+          "embedded_links": [
+            {
+              "identifier": "y4wqTot",
+              "title": "@prateekg147",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/prateekg147"
+            },
+            {
+              "identifier": "zAbxxWz",
+              "title": "Vulnerable Apps, Servers, and Websites",
+              "url_domain": "github.com",
+              "url": "https://github.com/The-Art-of-Hacking/art-of-hacking/tree/master/vulnerable_servers"
+            }
+          ]
+        },
+        {
+          "identifier": "OLyrSPg",
+          "type": "Link",
+          "title": "How does Firebase initialize on Android?",
+          "url_domain": "googleblog.com",
+          "url": "https://firebase.googleblog.com/2016/12/how-does-firebase-initialize-on-android.html",
+          "description": "<p>應該不是只有我在 Android 整合 Firebase 的時候疑惑過為什麼只需要把 <code>google-services.json</code> 擺到定位就一切就緒了吧？</p>\n\n<p>原來是透過 <del>濫用</del>  <a href=\"https://developer.android.com/reference/android/content/ContentProvider\">ContentProvider</a> 達成的。  這樣的用法完全不是你所認識的 ContentProvider。</p>",
+          "description_markdown": "應該不是只有我在 Android 整合 Firebase 的時候疑惑過為什麼只需要把 `google-services.json` 擺到定位就一切就緒了吧？\r\n\r\n原來是透過 ~~濫用~~  [ContentProvider](https://developer.android.com/reference/android/content/ContentProvider) 達成的。  這樣的用法完全不是你所認識的 ContentProvider。",
+          "embedded_links": [
+            {
+              "identifier": "YgAcqbC",
+              "title": "ContentProvider",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/reference/android/content/ContentProvider"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "9e2jp01",
+          "type": "Link",
+          "title": "朴素的 DevOps 价值观",
+          "url_domain": "qq.com",
+          "url": "https://mp.weixin.qq.com/s/r54IpCLMofoH5DGxwqZe8g",
+          "description": "<p>常跟朋友在說：「DevOps 是一種心態而不是特定的技術」，包含架構規劃、技術選擇，都與之息息相關。文章內容沒什麼太新的東西；不過我覺得文章開頭的圖可以擺在身邊，不時翻出來自我檢視。</p>",
+          "description_markdown": "常跟朋友在說：「DevOps 是一種心態而不是特定的技術」，包含架構規劃、技術選擇，都與之息息相關。文章內容沒什麼太新的東西；不過我覺得文章開頭的圖可以擺在身邊，不時翻出來自我檢視。\r\n",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "2a7aade4-b5c9-4934-87ad-3bb112ddcab2.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_2a7aade4-b5c9-4934-87ad-3bb112ddcab2.jpg",
+          "image_medium_filename": "original_ratio_medium_2a7aade4-b5c9-4934-87ad-3bb112ddcab2.jpg"
+        },
+        {
+          "identifier": "sxA7FaB",
+          "type": "Link",
+          "title": "7 best practices for operating containers",
+          "url_domain": "google.com",
+          "url": "https://cloud.google.com/blog/products/gcp/7-best-practices-operating-containers",
+          "description": "<ul>\n<li>採用原生的 log 機制，GKE 有 Stackdrive Logging、Amazon EKS</li>\n<li>確保 containers 是無狀態（stateless）、不會修改的（immutable）</li>\n<li>避免特權 containers（可直接存取 host 環境）</li>\n<li>container 內的程式不要以 root 身份執行</li>\n<li>讓程式易於監控，例如使用 <a href=\"https://prometheus.io/docs/instrumenting/clientlibs/\">Prometheus client libraries</a></li>\n<li>提供程式的<a href=\"https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/\">健康與就緒狀況</a></li>\n<li>根據你的情境，仔細挑選 image 版號。看是要用 <code>latest</code> 永遠用最新版或是寫死 <code>X.Y.Z</code> 鎖定在特定版本，人工決定更新時機。</li>\n</ul>\n\n\n<p>更詳細的內容可以看 <a href=\"https://cloud.google.com/solutions/best-practices-for-operating-containers\">Best Practices for Operating Containers</a> 。</p>",
+          "description_markdown": "- 採用原生的 log 機制，GKE 有 Stackdrive Logging、Amazon EKS \r\n- 確保 containers 是無狀態（stateless）、不會修改的（immutable）\r\n- 避免特權 containers（可直接存取 host 環境）\r\n- container 內的程式不要以 root 身份執行\r\n- 讓程式易於監控，例如使用 [Prometheus client libraries](https://prometheus.io/docs/instrumenting/clientlibs/)\r\n- 提供程式的[健康與就緒狀況](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/)\r\n- 根據你的情境，仔細挑選 image 版號。看是要用 `latest` 永遠用最新版或是寫死 `X.Y.Z` 鎖定在特定版本，人工決定更新時機。\r\n\r\n更詳細的內容可以看 [Best Practices for Operating Containers](https://cloud.google.com/solutions/best-practices-for-operating-containers) 。",
+          "embedded_links": [
+            {
+              "identifier": "BeKdj1u",
+              "title": "Prometheus client libraries",
+              "url_domain": "prometheus.io",
+              "url": "https://prometheus.io/docs/instrumenting/clientlibs/"
+            },
+            {
+              "identifier": "iAoiOl4",
+              "title": "健康與就緒狀況",
+              "url_domain": "kubernetes.io",
+              "url": "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/"
+            },
+            {
+              "identifier": "UC93rUH",
+              "title": "Best Practices for Operating Containers",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/solutions/best-practices-for-operating-containers"
+            }
+          ]
+        },
+        {
+          "identifier": "HXUAPIb",
+          "type": "Link",
+          "title": "How to Fall Asleep in 120 Seconds",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/s/story/combat-tested-training-unwind-and-sleep-anywhere-in-120-seconds-27d5307b7606",
+          "description": "<p>據說是在軍隊裡實際使用的快速入睡法，有需要的人可以試試看。</p>\n\n<p><em>P.S. 這是 Medium 付費會員文章</em></p>",
+          "description_markdown": "據說是在軍隊裡實際使用的快速入睡法，有需要的人可以試試看。\r\n\r\n_P.S. 這是 Medium 付費會員文章_",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "IGGIUZQ",
+          "type": "Link",
+          "title": "Markov Chains explained visually",
+          "url_domain": "setosa.io",
+          "url": "http://setosa.io/ev/markov-chains/",
+          "description": "<p>互動式圖片解說馬可夫鍊。</p>\n\n<p>（好吧，我只是單純喜歡這種可自訂的互動式圖像解說</p>",
+          "description_markdown": "互動式圖片解說馬可夫鍊。\r\n\r\n（好吧，我只是單純喜歡這種可自訂的互動式圖像解說",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "YXlc9xR",
+          "type": "Link",
+          "title": "年過 30 想轉業該怎麼做？中年轉職來得及嗎？",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@selenaceline/career-change-easy-or-not-3f48a7fca59d",
+          "description": "<blockquote><p><em>最怕你永遠無法下定決心踏出第一步，那不管過多久還是會保持現狀。</em></p>\n\n<p>不過，現狀也沒什麼不好。只要問你自己，「這是你要的嗎？」而你心甘情願繼續走下去，那就沒問題了。</p></blockquote>\n\n<p>花了近一年多在職場上繞來繞去最後又重作馮婦的我，看到這段真是心有戚戚焉啊。獻給有類似困惑的人。</p>",
+          "description_markdown": "> _最怕你永遠無法下定決心踏出第一步，那不管過多久還是會保持現狀。_\r\n> \r\n> 不過，現狀也沒什麼不好。只要問你自己，「這是你要的嗎？」而你心甘情願繼續走下去，那就沒問題了。\r\n\r\n花了近一年多在職場上繞來繞去最後又重作馮婦的我，看到這段真是心有戚戚焉啊。獻給有類似困惑的人。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "lucienlee",
+      "name": "@lucienlee",
+      "items": [
+        {
+          "identifier": "GaVTbxw",
+          "type": "Link",
+          "title": "Announcing TypeScript 3.0",
+          "url_domain": "microsoft.com",
+          "url": "https://blogs.msdn.microsoft.com/typescript/2018/07/30/announcing-typescript-3-0/",
+          "description": "<p>【Frontend】<br/>\nTypeScript 默默來到了第五個年頭，最近 release 的 3.0 ，雖然沒有什麼 breaking change，語法上導入了原本寫 JS 很習慣的 rest and spread parameter，但更重要的是錯誤訊息、JSX 支持以及 editor 快捷功能的改進，TypeScript 開發體驗變得更舒適了呢！</p>",
+          "description_markdown": "【Frontend】  \r\nTypeScript 默默來到了第五個年頭，最近 release 的 3.0 ，雖然沒有什麼 breaking change，語法上導入了原本寫 JS 很習慣的 rest and spread parameter，但更重要的是錯誤訊息、JSX 支持以及 editor 快捷功能的改進，TypeScript 開發體驗變得更舒適了呢！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "uPT7vFJ",
+          "type": "Link",
+          "title": "`s` (`dotAll`) flag for regular expressions • Exploring ES2018 and ES2019",
+          "url_domain": "exploringjs.com",
+          "url": "http://exploringjs.com/es2018-es2019/ch_regexp-dotall-flag.html",
+          "description": "<p>【Frontend】<br/>\n很多人從沒發現每個語言的正則式其實略有不同，尤其 JS 的正則式又與其他人落差更多。在 ES 2018 中，JavaScript 終於導入了 <code>dotAll</code> flag，讓我們可以輕易地匹配所有符號，試著想想在現今的JS中，你會怎麼做到匹配所有字元包含<em>換行</em>、Emoji 呢？</p>",
+          "description_markdown": "【Frontend】  \r\n很多人從沒發現每個語言的正則式其實略有不同，尤其 JS 的正則式又與其他人落差更多。在 ES 2018 中，JavaScript 終於導入了 `dotAll` flag，讓我們可以輕易地匹配所有符號，試著想想在現今的JS中，你會怎麼做到匹配所有字元包含*換行*、Emoji 呢？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yLbA929",
+          "type": "Link",
+          "title": "ERC860: Custodian-Client Contract Standard",
+          "url_domain": "github.com",
+          "url": "https://github.com/ethereum/EIPs/issues/860",
+          "description": "<p>【Blockchain】<br/>\nEthereum ERC 860 提出了一個雙層的 smart contract 結構，可以透過  Custodian-Client 的結構來做到會員、票券系統，與 ERC 721 不同的地方在於 custodian 與 client 之間可以共享 state ，可以做到更細緻的管控。</p>",
+          "description_markdown": "【Blockchain】  \r\nEthereum ERC 860 提出了一個雙層的 smart contract 結構，可以透過  Custodian-Client 的結構來做到會員、票券系統，與 ERC 721 不同的地方在於 custodian 與 client 之間可以共享 state ，可以做到更細緻的管控。 ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OaEtiGF",
+          "type": "Link",
+          "title": "InterviewMap",
+          "url_domain": "yuchengkai.cn",
+          "url": "https://yuchengkai.cn/docs/",
+          "description": "<p>【Career】<br/>\n最近恰好自己面試了幾位工程師，也跟幾位有面試新人的朋友交流發現，有許多工程師用得一手好框架，但對許多基礎知識不甚扎實。或許這些人是個能搬磚的工程師，但不代表你是個能獨當一面的工程師－－能理解原理，去改造、補洞、優化自己寫的程式。希望這一份涵蓋 JS、網路、瀏覽器相關、性能優化、安全、Git、數據結構、演算法的前端面試考題集，能讓大家更好準備下一次面試。</p>\n\n<p>不過當然，你是不是個好工程師，不代表你能不能賺大錢。</p>",
+          "description_markdown": "【Career】  \r\n最近恰好自己面試了幾位工程師，也跟幾位有面試新人的朋友交流發現，有許多工程師用得一手好框架，但對許多基礎知識不甚扎實。或許這些人是個能搬磚的工程師，但不代表你是個能獨當一面的工程師－－能理解原理，去改造、補洞、優化自己寫的程式。希望這一份涵蓋 JS、網路、瀏覽器相關、性能優化、安全、Git、數據結構、演算法的前端面試考題集，能讓大家更好準備下一次面試。\r\n\r\n不過當然，你是不是個好工程師，不代表你能不能賺大錢。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "TMsEzdK",
+          "type": "Link",
+          "title": "Senior Backend Developer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/5",
+          "description": "<p>薪資：年薪新台幣 100 萬元以上。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python</li>\n<li>Experience with Python web frameworks, ie. Flask, Django, or Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of MongoDB, Redis, and Kubernetes</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 萬元以上。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python\r\n2. Experience with Python web frameworks, ie. Flask, Django, or Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of MongoDB, Redis, and Kubernetes\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

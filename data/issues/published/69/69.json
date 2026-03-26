@@ -1,0 +1,611 @@
+{
+  "number": 69,
+  "title": "Issue 69 澳門首家線上賭場上線啦",
+  "summary": "本期內容涵蓋 Machine Learning, PHP, Elasticsearch, Kubernetes, Ethereum, Docker, iOS, macOS, Swift",
+  "url": "https://weekly.codetengu.com/issues/69",
+  "publication_status": "published",
+  "published_at": "2016-11-21T02:00:00+00:00",
+  "updated_at": "2016-11-21T02:00:06+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">More Than Human</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 買了文明帝國 6</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [More Than Human](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 買了文明帝國 6\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "AUbwX7X",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "NIz12G8",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "PSXbwzf",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "jG5ptFv",
+              "title": "More Than Human",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "54m9dG6",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "rjOUssK",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "VmKSykx",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "FcHh77H",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "BHZ7snT",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "O978yHn",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "b4HUSoa",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "fhQEdor",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "AJVOcBg",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "HeSBuiV",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "XUauPDb",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "mOH30sF",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "m4rs8OL",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "F3aSmDF",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "2IMLZGc",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "ALrFOJP",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ulnOBte",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "R4H04Jq",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "6IwSoOT",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "jQMY7rp",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "LLNIgc4",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "M512Zoo",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 6 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-6-jiang-xue-xi-bi-ji-2/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>在上一講中，我們了解了如何使用 SVM 來解 Logistic Regression 的問題，一個是使用 SVM 做轉換的 Probabilistic SVM，一個是使用 SVM Kernel Trick 所啟發的 Kernel Logistic Regression。這一講我們將繼續介紹如何延伸到解 Regression 的問題。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n在上一講中，我們了解了如何使用 SVM 來解 Logistic Regression 的問題，一個是使用 SVM 做轉換的 Probabilistic SVM，一個是使用 SVM Kernel Trick 所啟發的 Kernel Logistic Regression。這一講我們將繼續介紹如何延伸到解 Regression 的問題。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5i5jXoA",
+          "type": "Link",
+          "title": "20 Weird & Wonderful Datasets for Machine Learning - 20 個有趣的機器學習資料集",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>大家都在講 Data Science、Machine Learning，但談這些之前有一個最重要的一環就是 Datasets，本篇文章分享了一些有趣的 Datasets 連結，沒想到居然還有 UFO 目擊報告的資料集！</p>\n\n<p>說到 Datasets，幾乎沒有看到台灣的軟體公司或是開發者在 Datasets 這一塊有開源貢獻，所以敝公司 <a href=\"https://www.indievox.com\">iNDIEVOX</a> 近期拋磚引玉開源了 <a href=\"https://github.com/indievox-inc/iNDIEVOX-Dataset\">iNDIEVOX Datasets</a>！這些 Datasets 可以做到 iNDIEVOX 的 <a href=\"https://www.indievox.com/radio/va\">Valence Arousal DJ Radio</a>、<a href=\"https://www.indievox.com/radio/\">Emotion Radio</a>、Buy Together 等功能喔！至於怎麼做，大家可以自己摸索看看，當然也可以想想看可以用這些資料做出什麼其他有趣功能，這就是開源好玩的地方～\n如果有做出什麼有趣的實驗，也請告訴我們、分享一下喔！</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n大家都在講 Data Science、Machine Learning，但談這些之前有一個最重要的一環就是 Datasets，本篇文章分享了一些有趣的 Datasets 連結，沒想到居然還有 UFO 目擊報告的資料集！\r\n\r\n說到 Datasets，幾乎沒有看到台灣的軟體公司或是開發者在 Datasets 這一塊有開源貢獻，所以敝公司 [iNDIEVOX](https://www.indievox.com) 近期拋磚引玉開源了 [iNDIEVOX Datasets](https://github.com/indievox-inc/iNDIEVOX-Dataset)！這些 Datasets 可以做到 iNDIEVOX 的 [Valence Arousal DJ Radio](https://www.indievox.com/radio/va)、[Emotion Radio](https://www.indievox.com/radio/)、Buy Together 等功能喔！至於怎麼做，大家可以自己摸索看看，當然也可以想想看可以用這些資料做出什麼其他有趣功能，這就是開源好玩的地方～\r\n如果有做出什麼有趣的實驗，也請告訴我們、分享一下喔！",
+          "embedded_links": [
+            {
+              "identifier": "VnSovrk",
+              "title": "iNDIEVOX",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com"
+            },
+            {
+              "identifier": "OCQonu5",
+              "title": "iNDIEVOX Datasets",
+              "url_domain": "github.com",
+              "url": "https://github.com/indievox-inc/iNDIEVOX-Dataset"
+            },
+            {
+              "identifier": "vZBw0iR",
+              "title": "Valence Arousal DJ Radio",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/radio/va"
+            },
+            {
+              "identifier": "I3pHo6b",
+              "title": "Emotion Radio",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/radio/"
+            }
+          ]
+        },
+        {
+          "identifier": "CNPs0Xj",
+          "type": "Link",
+          "title": "Top-down learning path: Machine Learning for Software Engineers - 給軟體工程師的機器學習手冊",
+          "url_domain": "github.com",
+          "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>這是一位 Mobile Developer 為了轉職學習 Machine Learning 而整理的學習筆記，學習資源真的很豐富，全部看完應該會不得了！其中我覺得「Don't feel you aren't smart enough」這一點真的蠻重要的，盡量去學學看、做做看吧！</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n這是一位 Mobile Developer 為了轉職學習 Machine Learning 而整理的學習筆記，學習資源真的很豐富，全部看完應該會不得了！其中我覺得「Don't feel you aren't smart enough」這一點真的蠻重要的，盡量去學學看、做做看吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "K9GEILt",
+          "type": "Link",
+          "title": "The Non-Technical Guide to Machine Learning & Artificial Intelligence - 給非技術人員的機器學習/人工智慧指南",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/machine-learnings/a-humans-guide-to-machine-learning-e179f43b67a0",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>雖說是給非技術人員的機器學習/人工智慧指南，但很多資源對技術人員也是很有幫助的，文中的 News Sources 有蠻多其實說不定要懂技術才看得懂，例如：<a href=\"https://research.googleblog.com/\">Google Research Blog</a>、<a href=\"https://deepmind.com/blog/\">Deep Mind Blog</a> 等等，而介紹搞機器學習/人工智慧的 Startups 也很有用，可以大概了解一下目前產業在機器學習的應用上會在哪些方向。</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n雖說是給非技術人員的機器學習/人工智慧指南，但很多資源對技術人員也是很有幫助的，文中的 News Sources 有蠻多其實說不定要懂技術才看得懂，例如：[Google Research Blog](https://research.googleblog.com/)、[Deep Mind Blog](https://deepmind.com/blog/) 等等，而介紹搞機器學習/人工智慧的 Startups 也很有用，可以大概了解一下目前產業在機器學習的應用上會在哪些方向。",
+          "embedded_links": [
+            {
+              "identifier": "78iLvBe",
+              "title": "Google Research Blog",
+              "url_domain": "googleblog.com",
+              "url": "https://research.googleblog.com/"
+            },
+            {
+              "identifier": "KZaaDGT",
+              "title": "Deep Mind Blog",
+              "url_domain": "deepmind.com",
+              "url": "https://deepmind.com/blog/"
+            }
+          ]
+        },
+        {
+          "identifier": "dItOmyP",
+          "type": "Link",
+          "title": "PHPConf 2016 筆記",
+          "url_domain": "hackmd.io",
+          "url": "https://hackmd.io/s/SJEH1KZgx",
+          "description": "<p>PHP：初級</p>\n\n<p><a href=\"http://2016.phpconf.tw/\">PHPConf 2016</a> 在十月底已經落幕了，今年由於一些私事沒辦法參與（感謝 <a href=\"https://twitter.com/shengyou\">@shengyou</a> 邀請參與 QA Track 會談人），只好在網路上找相關筆記來了解一下今年的會議內容，今年請了 Modern PHP 作者 <a href=\"https://twitter.com/codeguy\">Josh Lockhart</a> 及 PHPUnit 測試框架作者 <a href=\"https://twitter.com/s_bergmann\">Sebastian Bergmann</a> 來分享演講，現場應該很精采吧～</p>",
+          "description_markdown": "PHP：初級\r\n\r\n[PHPConf 2016](http://2016.phpconf.tw/) 在十月底已經落幕了，今年由於一些私事沒辦法參與（感謝 [@shengyou](https://twitter.com/shengyou) 邀請參與 QA Track 會談人），只好在網路上找相關筆記來了解一下今年的會議內容，今年請了 Modern PHP 作者 [Josh Lockhart](https://twitter.com/codeguy) 及 PHPUnit 測試框架作者 [Sebastian Bergmann](https://twitter.com/s_bergmann) 來分享演講，現場應該很精采吧～",
+          "embedded_links": [
+            {
+              "identifier": "wGwN1bl",
+              "title": "PHPConf 2016",
+              "url_domain": "phpconf.tw",
+              "url": "http://2016.phpconf.tw/"
+            },
+            {
+              "identifier": "KhiPGae",
+              "title": "@shengyou",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/shengyou"
+            },
+            {
+              "identifier": "DBWsBwD",
+              "title": "Josh Lockhart",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codeguy"
+            },
+            {
+              "identifier": "wNwLw6M",
+              "title": "Sebastian Bergmann",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/s_bergmann"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "1YsBUUY",
+          "type": "Link",
+          "title": "All you need to know about Elasticsearch 5.0: Index management",
+          "url_domain": "code972.com",
+          "url": "http://code972.com/blog/2016/11/102-all-you-need-to-know-about-elasticsearch-5-0-index-management",
+          "description": "<p>如果你還沒用過 ELK，你可以就從最新的 <a href=\"https://www.elastic.co/products\">5.0</a> 版開始安裝和使用。新的 Elasticsearch 5.0 幾週前正式 released，它讓一個開放軟體成功轉變成商用版來運行。也就是說，不想一而再，再而三更新版本的人，現在可以正式開始使用了。但相反的，也開始會收商用版的 license 費用 (如果你願意付的話)。如果你想知道 Elasticsearch 5.0 有什麼新功能，<a href=\"http://code972.com/blog/2016/11/101-all-you-need-to-know-about-elasticsearch-5-0-search\">All you need to know about Elasticsearch 5.0: Search</a>。它主要功能還是在幫你做全文檢索的 indices，所以本篇文章介紹一些技巧和 indices 的種類，如果有興趣研究的可以參考。</p>",
+          "description_markdown": "如果你還沒用過 ELK，你可以就從最新的 [5.0](https://www.elastic.co/products) 版開始安裝和使用。新的 Elasticsearch 5.0 幾週前正式 released，它讓一個開放軟體成功轉變成商用版來運行。也就是說，不想一而再，再而三更新版本的人，現在可以正式開始使用了。但相反的，也開始會收商用版的 license 費用 (如果你願意付的話)。如果你想知道 Elasticsearch 5.0 有什麼新功能，[All you need to know about Elasticsearch 5.0: Search](http://code972.com/blog/2016/11/101-all-you-need-to-know-about-elasticsearch-5-0-search)。它主要功能還是在幫你做全文檢索的 indices，所以本篇文章介紹一些技巧和 indices 的種類，如果有興趣研究的可以參考。",
+          "embedded_links": [
+            {
+              "identifier": "6DecUQW",
+              "title": "5.0",
+              "url_domain": "elastic.co",
+              "url": "https://www.elastic.co/products"
+            },
+            {
+              "identifier": "sck8wUv",
+              "title": "All you need to know about Elasticsearch 5.0: Search",
+              "url_domain": "code972.com",
+              "url": "http://code972.com/blog/2016/11/101-all-you-need-to-know-about-elasticsearch-5-0-search"
+            }
+          ]
+        },
+        {
+          "identifier": "jmWJrY4",
+          "type": "Link",
+          "title": "Using Kubernetes Minikube for Local test deployments",
+          "url_domain": "wordpress.com",
+          "url": "https://renzedevries.wordpress.com/2016/11/07/using-kubernetes-minikube-for-local-test-deployments/",
+          "description": "<p>kuberenetes cluster 有點難設定，如果不是 production 用，可以改用 <a href=\"https://github.com/kubernetes/minikube\">minikube</a> 安裝單機版 kubernetes。本篇文章教你很快架設測試或教學用的 kubernetes 環境。如果還缺少 kubectl 指令，可以參考 <a href=\"http://kubernetes.io/docs/user-guide/prereqs/\">here</a> 或 <a href=\"https://coreos.com/kubernetes/docs/latest/configure-kubectl.html\">Setting up kubectl</a> 安裝。</p>\n\n<p>安裝好了 minikube， 你可以拿 <a href=\"https://github.com/nodesource/nsolid-kubernetes\">nsolid-kubernetes</a> 原始碼來試試看。</p>",
+          "description_markdown": "kuberenetes cluster 有點難設定，如果不是 production 用，可以改用 [minikube](https://github.com/kubernetes/minikube) 安裝單機版 kubernetes。本篇文章教你很快架設測試或教學用的 kubernetes 環境。如果還缺少 kubectl 指令，可以參考 [here](http://kubernetes.io/docs/user-guide/prereqs/) 或 [Setting up kubectl](https://coreos.com/kubernetes/docs/latest/configure-kubectl.html) 安裝。\r\n\r\n安裝好了 minikube， 你可以拿 [nsolid-kubernetes](https://github.com/nodesource/nsolid-kubernetes) 原始碼來試試看。",
+          "embedded_links": [
+            {
+              "identifier": "4uX9xYJ",
+              "title": "minikube",
+              "url_domain": "github.com",
+              "url": "https://github.com/kubernetes/minikube"
+            },
+            {
+              "identifier": "TRPI0fP",
+              "title": "here",
+              "url_domain": "kubernetes.io",
+              "url": "http://kubernetes.io/docs/user-guide/prereqs/"
+            },
+            {
+              "identifier": "wkobJSr",
+              "title": "Setting up kubectl",
+              "url_domain": "coreos.com",
+              "url": "https://coreos.com/kubernetes/docs/latest/configure-kubectl.html"
+            },
+            {
+              "identifier": "uUi3542",
+              "title": "nsolid-kubernetes",
+              "url_domain": "github.com",
+              "url": "https://github.com/nodesource/nsolid-kubernetes"
+            }
+          ]
+        },
+        {
+          "identifier": "ZB9KM8f",
+          "type": "Link",
+          "title": "Running a Parity Ethereum node in Docker and connect safely",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/decentralized-capital/setting-up-a-parity-ethereum-node-in-docker-and-connect-safely-f881faa17686",
+          "description": "<p>如果你想學 Solidity 語言，<a href=\"https://www.youtube.com/watch?v=MlaLRgUYeLo&amp;feature=youtu.be\">這個影片</a>由 Ethereum 發明人 <a href=\"https://en.wikipedia.org/wiki/Vitalik_Buterin\">Vitalik Buterin</a> 親自在 <a href=\"https://www.meetup.com/Taipei-Ethereum-Meetup/\">Taipei Ethereum Meetup</a> 教我們如何用 Solidity 語言撰寫智能合約與除錯技巧。但撰寫智能合約與開發一般電腦語言程式，最大不同之處，在於你要先有一個 Ethereum 帳號，以及一個電子錢包，每次執行一個合約，即使是測試你的程式對不對，都要定義你的 gas price，且告知你想花多少 <a href=\"https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/\">gas</a> 來執行你的程式。</p>\n\n<p>這篇文章，就是介紹你如何用 Docker 開一個 Ethereum 電子錢包，以確保你開的帳戶和使用電子錢包匯錢時，是比較安全的。最後你只要在 <a href=\"https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.4+commit.4633f3de.js\">browser-solidity</a> 上撰寫以及編譯程式，再 cut and paste 到電子錢包裡執行就好。對了，錢包裡還沒有半毛錢，是無法轉換成 gas 來執行你的程式，快到全家便利商店，買一點比特幣換成 Ether 匯到你剛開好的帳戶即可。</p>\n\n<pre><code>docker pull ethcore/parity:beta-release\n</code></pre>",
+          "description_markdown": "如果你想學 Solidity 語言，[這個影片](https://www.youtube.com/watch?v=MlaLRgUYeLo&feature=youtu.be)由 Ethereum 發明人 [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin) 親自在 [Taipei Ethereum Meetup](https://www.meetup.com/Taipei-Ethereum-Meetup/) 教我們如何用 Solidity 語言撰寫智能合約與除錯技巧。但撰寫智能合約與開發一般電腦語言程式，最大不同之處，在於你要先有一個 Ethereum 帳號，以及一個電子錢包，每次執行一個合約，即使是測試你的程式對不對，都要定義你的 gas price，且告知你想花多少 [gas](https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/) 來執行你的程式。\r\n\r\n這篇文章，就是介紹你如何用 Docker 開一個 Ethereum 電子錢包，以確保你開的帳戶和使用電子錢包匯錢時，是比較安全的。最後你只要在 [browser-solidity](https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.4+commit.4633f3de.js) 上撰寫以及編譯程式，再 cut and paste 到電子錢包裡執行就好。對了，錢包裡還沒有半毛錢，是無法轉換成 gas 來執行你的程式，快到全家便利商店，買一點比特幣換成 Ether 匯到你剛開好的帳戶即可。\r\n\r\n```\r\ndocker pull ethcore/parity:beta-release\r\n```",
+          "embedded_links": [
+            {
+              "identifier": "oq4CObe",
+              "title": "這個影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=MlaLRgUYeLo&feature=youtu.be"
+            },
+            {
+              "identifier": "6xqsArZ",
+              "title": "Vitalik Buterin",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Vitalik_Buterin"
+            },
+            {
+              "identifier": "M00GnOT",
+              "title": "Taipei Ethereum Meetup",
+              "url_domain": "meetup.com",
+              "url": "https://www.meetup.com/Taipei-Ethereum-Meetup/"
+            },
+            {
+              "identifier": "jYwH7B2",
+              "title": "gas",
+              "url_domain": "cryptocompare.com",
+              "url": "https://www.cryptocompare.com/coins/guides/what-is-the-gas-in-ethereum/"
+            },
+            {
+              "identifier": "4xkr0TV",
+              "title": "browser-solidity",
+              "url_domain": "github.io",
+              "url": "https://ethereum.github.io/browser-solidity/#version=soljson-v0.4.4+commit.4633f3de.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "KfYlFn2",
+          "type": "Link",
+          "title": "Understanding code signing for iOS apps",
+          "url_domain": "nodesagency.com",
+          "url": "https://engineering.nodesagency.com/articles/iOS/Understanding-code-signing-for-iOS-apps/",
+          "description": "<p>Code signing 應該是絕大多數蘋果開發者心中的痛，無論是對老手或新手都是。就算最新的 Xcode 在這方面已經有所改善，搞懂 code signing 仍舊是開發者必備知識之一。這篇文章以深入淺出的方式，解釋 code signing 的原理以及每個步驟代表的意義，讀懂之後就會有種豁然開朗的感覺。</p>",
+          "description_markdown": "Code signing 應該是絕大多數蘋果開發者心中的痛，無論是對老手或新手都是。就算最新的 Xcode 在這方面已經有所改善，搞懂 code signing 仍舊是開發者必備知識之一。這篇文章以深入淺出的方式，解釋 code signing 的原理以及每個步驟代表的意義，讀懂之後就會有種豁然開朗的感覺。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FpLHWVX",
+          "type": "Link",
+          "title": "Xcake: Describe and generate Xcode projects in a human readable format.",
+          "url_domain": "github.com",
+          "url": "https://github.com/jcampbell05/xcake",
+          "description": "<p>如果你們的 iOS 開發團隊稍具規模，一定曾經發生過多條 branch 同時進行，最後要 merge 回去時發現 Xcode Project 檔產生衝突無法自動合併，或是能夠合併但結果卻不是完全正確。</p>\n\n<p>我曾經施行了以下方法來避免這個情況發生：</p>\n\n<ul>\n<li><a href=\"http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects\">排序 project file 裡頭的檔案</a></li>\n<li><a href=\"http://nelson.logdown.com/posts/2015/10/07/automatically-resolve-xcode-project-file-merge-conflict\">使用 union 的合併策略</a></li>\n<li>要求工程師先 rebase 再 merge</li>\n</ul>\n\n\n<p>理論上來說這三點應該可以避免 conflict 產生了，不過最後一點實在是太難達成，所以...你懂的 :(</p>\n\n<p>因此最近我在嘗試另一個解決辦法：不要提交 project file 就不會衝突了。在研究過一些工具像是 <a href=\"https://github.com/facebook/buck\">Facebook - Buck</a> 跟 <a href=\"https://gyp.gsrc.io/\">GYP - Generate Your Projects</a> 之後，我最後選擇了 Xcake 這個比較輕量化的工具。</p>\n\n<p>它有以下優點：</p>\n\n<ul>\n<li>可讀性高的設定檔</li>\n<li>可設定 Build Settings 的各個設定</li>\n<li>可設定 Build Phases 的 scripts</li>\n<li>根據檔案的目錄架構產生對應的 Group，如果你的檔案原本都丟在同一個目錄下，建議可以先用 <a href=\"https://github.com/venmo/synx\">synx</a> 整理一下</li>\n<li>作者回應非常快速，也是因為這個原因，所以我願意使用它</li>\n</ul>",
+          "description_markdown": "如果你們的 iOS 開發團隊稍具規模，一定曾經發生過多條 branch 同時進行，最後要 merge 回去時發現 Xcode Project 檔產生衝突無法自動合併，或是能夠合併但結果卻不是完全正確。\r\n\r\n我曾經施行了以下方法來避免這個情況發生：\r\n\r\n- [排序 project file 裡頭的檔案](http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects)\r\n- [使用 union 的合併策略](http://nelson.logdown.com/posts/2015/10/07/automatically-resolve-xcode-project-file-merge-conflict)\r\n- 要求工程師先 rebase 再 merge\r\n\r\n理論上來說這三點應該可以避免 conflict 產生了，不過最後一點實在是太難達成，所以...你懂的 :(\r\n\r\n因此最近我在嘗試另一個解決辦法：不要提交 project file 就不會衝突了。在研究過一些工具像是 [Facebook - Buck](https://github.com/facebook/buck) 跟 [GYP - Generate Your Projects](https://gyp.gsrc.io/) 之後，我最後選擇了 Xcake 這個比較輕量化的工具。\r\n\r\n它有以下優點：\r\n\r\n- 可讀性高的設定檔\r\n- 可設定 Build Settings 的各個設定\r\n- 可設定 Build Phases 的 scripts\r\n- 根據檔案的目錄架構產生對應的 Group，如果你的檔案原本都丟在同一個目錄下，建議可以先用 [synx](https://github.com/venmo/synx) 整理一下\r\n- 作者回應非常快速，也是因為這個原因，所以我願意使用它",
+          "embedded_links": [
+            {
+              "identifier": "AZITGTs",
+              "title": "排序 project file 裡頭的檔案",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2014/01/27/easy-version-control-mechanism-for-xcode-projects"
+            },
+            {
+              "identifier": "CYTC4MN",
+              "title": "使用 union 的合併策略",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2015/10/07/automatically-resolve-xcode-project-file-merge-conflict"
+            },
+            {
+              "identifier": "3zNjFa2",
+              "title": "Facebook - Buck",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/buck"
+            },
+            {
+              "identifier": "uurXM5A",
+              "title": "GYP - Generate Your Projects",
+              "url_domain": "gsrc.io",
+              "url": "https://gyp.gsrc.io/"
+            },
+            {
+              "identifier": "T44WyVX",
+              "title": "synx",
+              "url_domain": "github.com",
+              "url": "https://github.com/venmo/synx"
+            }
+          ]
+        },
+        {
+          "identifier": "uvbzTHL",
+          "type": "Link",
+          "title": "PPTs for iDEV 2016",
+          "url_domain": "github.com",
+          "url": "https://github.com/devlinkcn/ppts_for_idev2016/tree/master/PDF",
+          "description": "<p>前一陣子在中國大陸舉辦的 <a href=\"http://www.bagevent.com/event/207773\">iDev 全平台開發者大會</a> 落幕了，這個活動主要面向 iOS、Mac OS 以及相關生態鏈的開發者。最近它們釋出了每個講者的投影片，大家可以找自己感興趣的議題研究研究。</p>",
+          "description_markdown": "前一陣子在中國大陸舉辦的 [iDev 全平台開發者大會](http://www.bagevent.com/event/207773) 落幕了，這個活動主要面向 iOS、Mac OS 以及相關生態鏈的開發者。最近它們釋出了每個講者的投影片，大家可以找自己感興趣的議題研究研究。",
+          "embedded_links": [
+            {
+              "identifier": "JRm8uq0",
+              "title": "iDev 全平台開發者大會",
+              "url_domain": "bagevent.com",
+              "url": "http://www.bagevent.com/event/207773"
+            }
+          ]
+        },
+        {
+          "identifier": "3nqoiDs",
+          "type": "Link",
+          "title": "Dash for iOS",
+          "url_domain": "kapeli.com",
+          "url": "https://kapeli.com/dash_ios",
+          "description": "<p>經過了一連串的事件（<a href=\"https://blog.kapeli.com/apple-removed-dash-from-the-app-store/\">1</a>, <a href=\"https://blog.kapeli.com/dash-and-apple-my-side-of-the-story/\">2</a>, <a href=\"https://blog.kapeli.com/dear-dash-users/\">3</a>）之後，作者最後決定要開源 Dash for iOS 了。是說我還想不到要在手機上查看 API 文件的理由啦，不過有需要的人可以去下載原始碼然後編譯到自己手機上了，或是你單純只想要看看人家是如何開發的，這也是一個很好的學習機會。</p>\n\n<p>不過話說回來，透過閱讀它的程式碼就會發現，一個軟體是否成功跟程式碼寫得好不好，其實<a href=\"https://twitter.com/BalestraPatrick/status/798278284320604160\">沒有直接關係</a> XD</p>",
+          "description_markdown": "經過了一連串的事件（[1](https://blog.kapeli.com/apple-removed-dash-from-the-app-store/), [2](https://blog.kapeli.com/dash-and-apple-my-side-of-the-story/), [3](https://blog.kapeli.com/dear-dash-users/)）之後，作者最後決定要開源 Dash for iOS 了。是說我還想不到要在手機上查看 API 文件的理由啦，不過有需要的人可以去下載原始碼然後編譯到自己手機上了，或是你單純只想要看看人家是如何開發的，這也是一個很好的學習機會。\r\n\r\n不過話說回來，透過閱讀它的程式碼就會發現，一個軟體是否成功跟程式碼寫得好不好，其實[沒有直接關係](https://twitter.com/BalestraPatrick/status/798278284320604160) XD",
+          "embedded_links": [
+            {
+              "identifier": "ExvRsPX",
+              "title": "1",
+              "url_domain": "kapeli.com",
+              "url": "https://blog.kapeli.com/apple-removed-dash-from-the-app-store/"
+            },
+            {
+              "identifier": "xEBnod6",
+              "title": "2",
+              "url_domain": "kapeli.com",
+              "url": "https://blog.kapeli.com/dash-and-apple-my-side-of-the-story/"
+            },
+            {
+              "identifier": "60b2JwK",
+              "title": "3",
+              "url_domain": "kapeli.com",
+              "url": "https://blog.kapeli.com/dear-dash-users/"
+            },
+            {
+              "identifier": "aWmuUX4",
+              "title": "沒有直接關係",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/BalestraPatrick/status/798278284320604160"
+            }
+          ]
+        },
+        {
+          "identifier": "mm56B18",
+          "type": "Link",
+          "title": "katana-swift",
+          "url_domain": "github.com",
+          "url": "https://github.com/BendingSpoons/katana-swift",
+          "description": "<p>Katana 是一個最近推出的 framework，它受到 <a href=\"https://facebook.github.io/react/\">React</a> 跟 <a href=\"http://redux.js.org/\">Redux</a> 的啟發，類似的東西還有 <a href=\"https://github.com/ReSwift/ReSwift\">ReSwift</a>。假如你的軟體達到了一定的複雜度，的確可以試試看這些做法，它會讓程式架構更好維護、程式碼更穩定，但如果你的軟體一點都不複雜，那還是乖乖地用 MVC 架構就好了。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c\">用 Objective-C 實作 Redux 架構</a></li>\n</ul>",
+          "description_markdown": "Katana 是一個最近推出的 framework，它受到 [React](https://facebook.github.io/react/) 跟 [Redux](http://redux.js.org/) 的啟發，類似的東西還有 [ReSwift](https://github.com/ReSwift/ReSwift)。假如你的軟體達到了一定的複雜度，的確可以試試看這些做法，它會讓程式架構更好維護、程式碼更穩定，但如果你的軟體一點都不複雜，那還是乖乖地用 MVC 架構就好了。\r\n\r\n延伸閱讀：\r\n\r\n- [用 Objective-C 實作 Redux 架構](http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c)",
+          "embedded_links": [
+            {
+              "identifier": "SwR2a8z",
+              "title": "React",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/"
+            },
+            {
+              "identifier": "66oY6f1",
+              "title": "Redux",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/"
+            },
+            {
+              "identifier": "LLizP3e",
+              "title": "ReSwift",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReSwift/ReSwift"
+            },
+            {
+              "identifier": "SGXqbaI",
+              "title": "用 Objective-C 實作 Redux 架構",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "arSmMyM",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x74;&#122;&#97;&#110;&#x67;&#109;&#115;&#x40;&#115;&#116;&#114;&#x65;&#x65;&#x74;&#118;&#x6f;&#x69;&#99;&#101;&#x2e;&#99;&#111;&#x6d;\">&#x74;&#122;&#97;&#110;&#x67;&#109;&#115;&#64;&#x73;&#116;&#114;&#x65;&#x65;&#116;&#x76;&#111;&#105;&#x63;&#101;&#x2e;&#99;&#x6f;&#x6d;</a>。</p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+            {
+              "identifier": "3IuS2mU",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "e9RPLcp",
+          "type": "Link",
+          "title": "PHP Developer at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x74;&#x7a;&#97;&#110;&#x67;&#x6d;&#115;&#x40;&#115;&#x74;&#x72;&#101;&#101;&#116;&#x76;&#111;&#x69;&#x63;&#x65;&#x2e;&#x63;&#111;&#x6d;\">&#116;&#x7a;&#97;&#110;&#x67;&#109;&#115;&#x40;&#115;&#x74;&#x72;&#101;&#101;&#116;&#118;&#x6f;&#105;&#x63;&#101;&#x2e;&#x63;&#x6f;&#109;</a>。</p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "NeRqQEt",
+          "type": "Link",
+          "title": "Quick, Draw! Google AI Experiments - 你畫我猜實驗應用程式",
+          "url_domain": "withgoogle.com",
+          "url": "https://quickdraw.withgoogle.com/",
+          "description": "<p>Google AI Experiments 推出的你畫我猜實驗小遊戲，使用 neural network 訓練機器學習辨識手繪塗鴉，辨識率非常高！不過在幫大家辨識塗鴉時，其實大家也一邊在幫 Google 餵訓練資料，未來辨識率會越來越高吧！Google 要慢慢用 AI 統治世界了嗎？</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "Google AI Experiments 推出的你畫我猜實驗小遊戲，使用 neural network 訓練機器學習辨識手繪塗鴉，辨識率非常高！不過在幫大家辨識塗鴉時，其實大家也一邊在幫 Google 餵訓練資料，未來辨識率會越來越高吧！Google 要慢慢用 AI 統治世界了嗎？\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "sMTDLXl",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "a1753cd5-da23-41ae-b9b7-c16e8593673e.png",
+          "image_extra_large_filename": "original_ratio_extra_large_a1753cd5-da23-41ae-b9b7-c16e8593673e.png",
+          "image_medium_filename": "original_ratio_medium_a1753cd5-da23-41ae-b9b7-c16e8593673e.png"
+        }
+      ]
+    }
+  ]
+}

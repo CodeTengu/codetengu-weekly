@@ -1,0 +1,565 @@
+{
+  "number": 115,
+  "title": "Issue 115 我給你一個禮拜的時間查問題，明天就要修復",
+  "summary": "本期內容涵蓋 Python, MongoDB, Spark, Kubernetes, Golang, Machine Learning, Blockchain, JavaScript",
+  "url": "https://weekly.codetengu.com/issues/115",
+  "publication_status": "published",
+  "published_at": "2018-02-05T02:00:00+00:00",
+  "updated_at": "2018-07-23T08:05:52+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently's Holistic Detective Agency</a>，<a href=\"https://www.netflix.com/title/80119426\">電視劇</a>也拍得超屌！拜託看！</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 我最近居然開始在挖礦跟研究區塊鏈了呢</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "只要命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently's Holistic Detective Agency](https://www.douban.com/people/vinta/)，[電視劇](https://www.netflix.com/title/80119426)也拍得超屌！拜託看！\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 我最近居然開始在挖礦跟研究區塊鏈了呢\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "cPF86G7",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "FVch1fh",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "tvgCPP7",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "DoLpJCw",
+              "title": "Dirk Gently's Holistic Detective Agency",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "dtWuduZ",
+              "title": "電視劇",
+              "url_domain": "netflix.com",
+              "url": "https://www.netflix.com/title/80119426"
+            },
+            {
+              "identifier": "TDqgyHN",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "NAhrAkw",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "pzznrR3",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "tMm86Ke",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "rhZHHbZ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "Ft2VtOk",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "XTBl7vM",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "MEUsUfd",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "n0S2dgy",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "yzk94aC",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "zU10Cax",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "v8v0Gu4",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "OnjJIPs",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "R42MqUc",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "FVCEUaa",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "ZjVKiYw",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "Kg3l1t",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "P7CKgyX",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "xyIKxKe",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "jGUtZTZ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "lhecMON",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "LJMpEsv",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "QK57kRO",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "bIuEJrM",
+          "type": "Link",
+          "title": "Timezone in Python: Offset-naive and Offset-aware datetimes",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/timezone-in-python-offset-naive-and-offset-aware-datetimes.html",
+          "description": "<p>關於 datetime 和 timezone 的處理可能是每個軟體工程師遲早都會遭遇的難題之一，以前一直沒有搞得很清楚，前陣子總算有時間稍微整理了一下 timezone 在 Python 裡需要注意的地方。跟大家分享一下。</p>\n\n<p>之前幾期的 issues 裡，其他 curator 也都不約而同分享過 <a href=\"https://weekly.codetengu.com/search?q=Falsehood\">Falsehoods Programmers Believe About XXX</a>，其中就有幾個主題是「時間」，有興趣的人可以翻一下。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://opensource.com/article/17/5/understanding-datetime-python-primer\">Understanding datetime in Python: A Primer</a></li>\n<li><a href=\"https://julien.danjou.info/blog/2015/python-and-timezones\">Timezones and Python</a></li>\n<li><a href=\"https://weekly.codetengu.com/issues/103#peVj2xR\">Working with Time Zones</a></li>\n</ul>",
+          "description_markdown": "關於 datetime 和 timezone 的處理可能是每個軟體工程師遲早都會遭遇的難題之一，以前一直沒有搞得很清楚，前陣子總算有時間稍微整理了一下 timezone 在 Python 裡需要注意的地方。跟大家分享一下。\r\n\r\n之前幾期的 issues 裡，其他 curator 也都不約而同分享過 [Falsehoods Programmers Believe About XXX](https://weekly.codetengu.com/search?q=Falsehood)，其中就有幾個主題是「時間」，有興趣的人可以翻一下。\r\n\r\n延伸閱讀：\r\n\r\n- [Understanding datetime in Python: A Primer](https://opensource.com/article/17/5/understanding-datetime-python-primer)\r\n- [Timezones and Python](https://julien.danjou.info/blog/2015/python-and-timezones)\r\n- [Working with Time Zones](https://weekly.codetengu.com/issues/103#peVj2xR)",
+          "embedded_links": [
+            {
+              "identifier": "XPgfpAc",
+              "title": "Falsehoods Programmers Believe About XXX",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/search?q=Falsehood"
+            },
+            {
+              "identifier": "DE9PIl0",
+              "title": "Understanding datetime in Python: A Primer",
+              "url_domain": "opensource.com",
+              "url": "https://opensource.com/article/17/5/understanding-datetime-python-primer"
+            },
+            {
+              "identifier": "9O18ryV",
+              "title": "Timezones and Python",
+              "url_domain": "danjou.info",
+              "url": "https://julien.danjou.info/blog/2015/python-and-timezones"
+            },
+            {
+              "identifier": "A8YDsmZ",
+              "title": "Working with Time Zones",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/103#peVj2xR"
+            }
+          ]
+        },
+        {
+          "identifier": "VQbkpwF",
+          "type": "Link",
+          "title": "MongoDB Query Performance over Ranges & Indexes that Help",
+          "url_domain": "mlab.com",
+          "url": "https://blog.mlab.com/2012/06/cardinal-ins/",
+          "description": "<p>上禮拜換了新工作，負責解的第一個 issue 就是改善某個複雜的 MongoDB aggregation 的效能。雖然對 MongoDB 還不是很熟（只有在第一份工作用過一陣子，而且後來就改用 PostgreSQL 了），不過遇到 slow query 問題的起手式基本上都是先 <code>explain</code> 一下，從 <code>queryPlanner</code> 和 <code>executionStats</code> 欄位可以知道哪個 stage 的哪個 query 用了哪個 index、掃描了多少數據和回傳了多少數據。最後透過修改了 query 的寫法並且加了一個「欄位順序正確」的 compound index，總算成功地把執行時間從 1.x 秒降到 0.01x 秒。</p>\n\n<p>這篇文章講的就是「欄位順序」對 MongoDB 的 compound index 的影響。作者還給出了一個簡單的判斷方式：</p>\n\n<blockquote><p>The order of fields in an index should be:</p>\n\n<ul>\n<li>First, fields on which you will query for exact values.</li>\n<li>Second, fields on which you will sort.</li>\n<li>Finally, fields on which you will query for a range of values.</li>\n</ul>\n</blockquote>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/\">Optimizing MongoDB Compound Indexes</a></li>\n<li><a href=\"https://stackoverflow.com/questions/33545339/how-does-the-order-of-compound-indexes-matter-in-mongodb-performance-wise\">How does the order of compound indexes matter in MongoDB performance-wise?</a></li>\n<li><a href=\"https://docs.mongodb.com/manual/reference/explain-results/\">MongoDB CRUD Concepts > Explain Results</a></li>\n</ul>",
+          "description_markdown": "上禮拜換了新工作，負責解的第一個 issue 就是改善某個複雜的 MongoDB aggregation 的效能。雖然對 MongoDB 還不是很熟（只有在第一份工作用過一陣子，而且後來就改用 PostgreSQL 了），不過遇到 slow query 問題的起手式基本上都是先 `explain` 一下，從 `queryPlanner` 和 `executionStats` 欄位可以知道哪個 stage 的哪個 query 用了哪個 index、掃描了多少數據和回傳了多少數據。最後透過修改了 query 的寫法並且加了一個「欄位順序正確」的 compound index，總算成功地把執行時間從 1.x 秒降到 0.01x 秒。\r\n\r\n這篇文章講的就是「欄位順序」對 MongoDB 的 compound index 的影響。作者還給出了一個簡單的判斷方式：\r\n\r\n> The order of fields in an index should be:\r\n>\r\n> - First, fields on which you will query for exact values.\r\n> - Second, fields on which you will sort.\r\n> - Finally, fields on which you will query for a range of values.\r\n\r\n延伸閱讀：\r\n\r\n- [Optimizing MongoDB Compound Indexes](https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/)\r\n- [How does the order of compound indexes matter in MongoDB performance-wise?](https://stackoverflow.com/questions/33545339/how-does-the-order-of-compound-indexes-matter-in-mongodb-performance-wise)\r\n- [MongoDB CRUD Concepts > Explain Results](https://docs.mongodb.com/manual/reference/explain-results/)",
+          "embedded_links": [
+            {
+              "identifier": "zcMomxz",
+              "title": "Optimizing MongoDB Compound Indexes",
+              "url_domain": "emptysqua.re",
+              "url": "https://emptysqua.re/blog/optimizing-mongodb-compound-indexes/"
+            },
+            {
+              "identifier": "LENrZ3x",
+              "title": "How does the order of compound indexes matter in MongoDB performance-wise?",
+              "url_domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/33545339/how-does-the-order-of-compound-indexes-matter-in-mongodb-performance-wise"
+            },
+            {
+              "identifier": "Jd18Bj5",
+              "title": "MongoDB CRUD Concepts > Explain Results",
+              "url_domain": "mongodb.com",
+              "url": "https://docs.mongodb.com/manual/reference/explain-results/"
+            }
+          ]
+        },
+        {
+          "identifier": "MZu52S6",
+          "type": "Link",
+          "title": "Spark 2.x Troubleshooting Guide",
+          "url_domain": "slideshare.net",
+          "url": "https://www.slideshare.net/jcmia1/a-beginners-guide-on-troubleshooting-spark-applications",
+          "description": "<p>這份簡報和延伸閱讀的那篇文章列出了許多 Apache Spark 在使用上常見的問題和解法，這陣子在<a href=\"https://vinta.ws/code/tag/recommender-system\">用 Spark 做推薦系統</a>的時候，幾乎把這些地雷都踩過了，如果可以早一點讀過這些資料就好啦。</p>\n\n<p>題外話，如果你也是用 Google Cloud Dataproc 跑 Spark cluster 的話，千萬記得可以用 <a href=\"https://cloud.google.com/preemptible-vms/\">Preemptible VMs</a>，能夠省下不少費用。不要像我一樣白白被多收了好幾百塊美金，心寒啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://weekly.codetengu.com/issues/100#5scJDEg\">Spark 技术在唯品会财务系统重构中的实践总结</a></li>\n</ul>",
+          "description_markdown": "這份簡報和延伸閱讀的那篇文章列出了許多 Apache Spark 在使用上常見的問題和解法，這陣子在[用 Spark 做推薦系統](https://vinta.ws/code/tag/recommender-system)的時候，幾乎把這些地雷都踩過了，如果可以早一點讀過這些資料就好啦。\r\n\r\n題外話，如果你也是用 Google Cloud Dataproc 跑 Spark cluster 的話，千萬記得可以用 [Preemptible VMs](https://cloud.google.com/preemptible-vms/)，能夠省下不少費用。不要像我一樣白白被多收了好幾百塊美金，心寒啊。\r\n\r\n延伸閱讀：\r\n\r\n- [Spark 技术在唯品会财务系统重构中的实践总结](https://weekly.codetengu.com/issues/100#5scJDEg)",
+          "embedded_links": [
+            {
+              "identifier": "McWgYhs",
+              "title": "用 Spark 做推薦系統",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/tag/recommender-system"
+            },
+            {
+              "identifier": "kLmL1aJ",
+              "title": "Preemptible VMs",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/preemptible-vms/"
+            },
+            {
+              "identifier": "HYPKN5K",
+              "title": "Spark 技术在唯品会财务系统重构中的实践总结",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/100#5scJDEg"
+            }
+          ]
+        },
+        {
+          "identifier": "FC2hUFJ",
+          "type": "Link",
+          "title": "Learning at work",
+          "url_domain": "jvns.ca",
+          "url": "https://jvns.ca/blog/2017/08/06/learning-at-work/",
+          "description": "<p>這篇文章是 Stripe 的工程師分享的「如何在工作中學習」的文章。不過重點其實不是如何學習，而是「在工作中」學習。</p>\n\n<p>畢竟要求每個工程師都應該在下班之後還要花很多時間學新技術、開發 side project 或是貢獻 open source 專案其實是不太現實的嘛。而且一天工作 8 小時，但是可以真的進入 mindflow 專心寫程式的時間可能連 4 小時都不到（我承認我超少）。有時候可能是狀態不對或是你就是欠缺完成任務所需要的知識，這時候與其硬幹、用 workaround 或是產出一些自己都不明所以只是剛好能動的程式碼，那還不如好好地利用上班時間，仔細鑽研一下你要解決的問題、搞懂那些你之前沒搞清楚的東西。再不然也可以重新審視一遍那個你剛剛解決的 bug 的 root cause，因為每個 bug 其實都是一個學習的契機啊。</p>\n\n<p>就像陈皓說的「<a href=\"https://coolshell.cn/articles/5686.html\">多些时间能少写些代码</a>」，共勉之。</p>",
+          "description_markdown": "這篇文章是 Stripe 的工程師分享的「如何在工作中學習」的文章。不過重點其實不是如何學習，而是「在工作中」學習。\r\n\r\n畢竟要求每個工程師都應該在下班之後還要花很多時間學新技術、開發 side project 或是貢獻 open source 專案其實是不太現實的嘛。而且一天工作 8 小時，但是可以真的進入 mindflow 專心寫程式的時間可能連 4 小時都不到（我承認我超少）。有時候可能是狀態不對或是你就是欠缺完成任務所需要的知識，這時候與其硬幹、用 workaround 或是產出一些自己都不明所以只是剛好能動的程式碼，那還不如好好地利用上班時間，仔細鑽研一下你要解決的問題、搞懂那些你之前沒搞清楚的東西。再不然也可以重新審視一遍那個你剛剛解決的 bug 的 root cause，因為每個 bug 其實都是一個學習的契機啊。\r\n\r\n就像陈皓說的「[多些时间能少写些代码](https://coolshell.cn/articles/5686.html)」，共勉之。",
+          "embedded_links": [
+            {
+              "identifier": "C2ya8Cp",
+              "title": "多些时间能少写些代码",
+              "url_domain": "coolshell.cn",
+              "url": "https://coolshell.cn/articles/5686.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "3v899eN",
+          "type": "Link",
+          "title": "[好文介紹] Scaling Kubernetes to 2,500 Nodes",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/til-openai-5000/",
+          "description": "<p>最近比較忙碌，都只能夜深人靜才能好好的來閱讀一些文章來充實自己．(公司牛人多到像牧場，只好不斷努力 lol)</p>\n\n<p>OpenAI 最近有一篇技術文章，相當的值得一讀．就是他們分享他們如何管理超過 2500 個節點． 當然我們都知道，</p>\n\n<p>Kubernetes 自從 1.6 之後就號稱可以乘載 5000 個節點以上，但是從 數十台到 2500 台的路上，難道不會遇到一些問題嗎? 這篇文章分享了，他們遇到的問題，試著要解決與懷疑的地方，最後找到真正的問題．這篇文章適合所有 DevOp 好好的熟讀．</p>\n\n<p>(公司目前在找 FE/BE Engineer, Data scientist 有興趣的可以來聯絡我喔</p>",
+          "description_markdown": "最近比較忙碌，都只能夜深人靜才能好好的來閱讀一些文章來充實自己．(公司牛人多到像牧場，只好不斷努力 lol)\r\n\r\nOpenAI 最近有一篇技術文章，相當的值得一讀．就是他們分享他們如何管理超過 2500 個節點． 當然我們都知道，\r\n\r\nKubernetes 自從 1.6 之後就號稱可以乘載 5000 個節點以上，但是從 數十台到 2500 台的路上，難道不會遇到一些問題嗎? 這篇文章分享了，他們遇到的問題，試著要解決與懷疑的地方，最後找到真正的問題．這篇文章適合所有 DevOp 好好的熟讀．\r\n\r\n(公司目前在找 FE/BE Engineer, Data scientist 有興趣的可以來聯絡我喔",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Fa9mV3h",
+          "type": "Link",
+          "title": "The State of Go 1.10",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/signin?return_to=%2Fcampoy%2Fthe-state-of-go-1-dot-10",
+          "description": "<p>Francesc Campoy 在 FOSDEM 上面講解 Go 1.10 上面修改的部分與未來方向..</p>\n\n<p>對了 FOSDEM 2018 有很多好的 講題</p>",
+          "description_markdown": "Francesc Campoy 在 FOSDEM 上面講解 Go 1.10 上面修改的部分與未來方向..\r\n\r\n對了 FOSDEM 2018 有很多好的 講題",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bjhItSQ",
+          "type": "Link",
+          "title": "[論文導讀] The Case for Learned Index Structures",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/til-paper-learning-index/",
+          "description": "<p>剛好最近有幾次機會可以去工研院開會的路上，在高鐵的路途上可以好好的來欣賞這篇文章．這篇文章是由 Google Brain 的大神 Jeff Dean 連署的論文之一．講的是透過 NN 的方式來讓大家熟知的 B-Tree, Hashing table 甚至是 Bloom Filter 更有效率...</p>\n\n<p>2018 年第一篇好好閱讀的論文，當然要獻給有深度而且相當有趣的這篇文章．<a href=\"https://arxiv.org/abs/1712.01208\">The Case for Learned Index Structures</a> ．主要的原因有以下:</p>\n\n<ul>\n<li>這篇是講解一個新的機器學習的新領域（至少是相當有趣的觀點）</li>\n<li>雖然有些限制跟品質的降低，但是讓我們對於 AI/Deep Learning 有了一個新領域的想法...</li>\n<li>這篇是被稱為<a href=\"https://www.quora.com/What-are-all-the-Jeff-Dean-facts\">世界上最聰明的人</a> Google Brain 的主持人 - Jeff Dean 的論文 (編按: <a href=\"https://www.quora.com/What-are-all-the-Jeff-Dean-facts\">這篇 Quora 有許多關於 Jeff Dean 的敘述文，相當的有趣</a>  XD)</li>\n</ul>\n\n\n<p>Jeff Dean 是誰? 快來看他的 Quora<a href=\"https://www.quora.com/What-are-all-the-Jeff-Dean-facts\">https://www.quora.com/What-are-all-the-Jeff-Dean-facts</a></p>\n\n<ul>\n<li>他看得懂, 也寫 Binary code</li>\n<li>他的 PIN code 是 Pi 末四碼</li>\n</ul>\n\n\n<p>這系列導讀，我寫了上下集．下集在<a href=\"http://www.evanlin.com/til-paper-learning-index2/\">這裡</a>．</p>",
+          "description_markdown": "剛好最近有幾次機會可以去工研院開會的路上，在高鐵的路途上可以好好的來欣賞這篇文章．這篇文章是由 Google Brain 的大神 Jeff Dean 連署的論文之一．講的是透過 NN 的方式來讓大家熟知的 B-Tree, Hashing table 甚至是 Bloom Filter 更有效率...\r\n\r\n2018 年第一篇好好閱讀的論文，當然要獻給有深度而且相當有趣的這篇文章．[The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208) ．主要的原因有以下:\r\n\r\n- 這篇是講解一個新的機器學習的新領域（至少是相當有趣的觀點）\r\n- 雖然有些限制跟品質的降低，但是讓我們對於 AI/Deep Learning 有了一個新領域的想法...\r\n- 這篇是被稱為[世界上最聰明的人](https://www.quora.com/What-are-all-the-Jeff-Dean-facts) Google Brain 的主持人 - Jeff Dean 的論文 (編按: [這篇 Quora 有許多關於 Jeff Dean 的敘述文，相當的有趣](https://www.quora.com/What-are-all-the-Jeff-Dean-facts)  XD)\r\n\r\nJeff Dean 是誰? 快來看他的 Quora<https://www.quora.com/What-are-all-the-Jeff-Dean-facts>\r\n\r\n- 他看得懂, 也寫 Binary code\r\n- 他的 PIN code 是 Pi 末四碼\r\n\r\n這系列導讀，我寫了上下集．下集在[這裡](http://www.evanlin.com/til-paper-learning-index2/)．",
+          "embedded_links": [
+            {
+              "identifier": "Gi0VPFs",
+              "title": "The Case for Learned Index Structures",
+              "url_domain": "arxiv.org",
+              "url": "https://arxiv.org/abs/1712.01208"
+            },
+            {
+              "identifier": "TE6KdwL",
+              "title": "這篇 Quora 有許多關於 Jeff Dean 的敘述文，相當的有趣",
+              "url_domain": "quora.com",
+              "url": "https://www.quora.com/What-are-all-the-Jeff-Dean-facts"
+            },
+            {
+              "identifier": "ZREZvRK",
+              "title": "這裡",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/til-paper-learning-index2/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "guwfHBc",
+          "type": "Link",
+          "title": "Stimulus Framework",
+          "url_domain": "github.com",
+          "url": "https://github.com/stimulusjs/stimulus",
+          "description": "<p>百家爭鳴的 FE 界又多了一個名門之後。<a href=\"http://rubyonrails.org/\">Ruby on Rails</a> 的開發者 <a href=\"https://twitter.com/dhh\">DHH</a> 最近推出了新的 JavaScript framework, Stimulus.</p>\n\n<p>設計的核心概念相當有趣，相較於 React.js (不含 redux) 專注在 MVC 中的 View ，Stimulus 專注在 MVC 中的 Controller 部分，把 Model 的 data 和 View 都交還給 HTML 本身。延伸了之前的 <a href=\"https://github.com/turbolinks/turbolinks\">turbolinks</a> 的概念，和伺服器的溝通不是透過 JSON, 而是直接回傳 HTML。裡面也可以看到很多 DHH 的 <a href=\"http://david.heinemeierhansson.com/2012/rails-is-omakase.html\">Rails 哲學</a>，<a href=\"https://zh.wikipedia.org/wiki/%E7%BA%A6%E5%AE%9A%E4%BC%98%E4%BA%8E%E9%85%8D%E7%BD%AE\">慣例大於設定</a>，讓常做的事變得簡單。</p>\n\n<p>有興趣的人可以照<a href=\"https://stimulusjs.org/handbook/origin\">教學</a>裝來玩玩看，不過官方推薦使用的<a href=\"https://glitch.com/\">線上編輯器 glitch</a> 真的有 glitch，沒辦法跑 Stimulus 用到的 <a href=\"https://babeljs.io/docs/plugins/transform-class-properties/\">babel-plugin-transform-class-properties</a>。要玩的人還是在自己的電腦上裝 吧。</p>",
+          "description_markdown": "百家爭鳴的 FE 界又多了一個名門之後。[Ruby on Rails](http://rubyonrails.org/) 的開發者 [DHH](https://twitter.com/dhh) 最近推出了新的 JavaScript framework, Stimulus.\r\n\r\n設計的核心概念相當有趣，相較於 React.js (不含 redux) 專注在 MVC 中的 View ，Stimulus 專注在 MVC 中的 Controller 部分，把 Model 的 data 和 View 都交還給 HTML 本身。延伸了之前的 [turbolinks](https://github.com/turbolinks/turbolinks) 的概念，和伺服器的溝通不是透過 JSON, 而是直接回傳 HTML。裡面也可以看到很多 DHH 的 [Rails 哲學](http://david.heinemeierhansson.com/2012/rails-is-omakase.html)，[慣例大於設定](https://zh.wikipedia.org/wiki/%E7%BA%A6%E5%AE%9A%E4%BC%98%E4%BA%8E%E9%85%8D%E7%BD%AE)，讓常做的事變得簡單。\r\n\r\n有興趣的人可以照[教學](https://stimulusjs.org/handbook/origin)裝來玩玩看，不過官方推薦使用的[線上編輯器 glitch](https://glitch.com/) 真的有 glitch，沒辦法跑 Stimulus 用到的 [babel-plugin-transform-class-properties](https://babeljs.io/docs/plugins/transform-class-properties/)。要玩的人還是在自己的電腦上裝 吧。",
+          "embedded_links": [
+            {
+              "identifier": "cNuU6P5",
+              "title": "Ruby on Rails",
+              "url_domain": "rubyonrails.org",
+              "url": "http://rubyonrails.org/"
+            },
+            {
+              "identifier": "mQRn2fV",
+              "title": "DHH",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/dhh"
+            },
+            {
+              "identifier": "QhKJSeW",
+              "title": "turbolinks",
+              "url_domain": "github.com",
+              "url": "https://github.com/turbolinks/turbolinks"
+            },
+            {
+              "identifier": "4iMl3Jn",
+              "title": "Rails 哲學",
+              "url_domain": "heinemeierhansson.com",
+              "url": "http://david.heinemeierhansson.com/2012/rails-is-omakase.html"
+            },
+            {
+              "identifier": "z8Cc7oW",
+              "title": "慣例大於設定",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E7%BA%A6%E5%AE%9A%E4%BC%98%E4%BA%8E%E9%85%8D%E7%BD%AE"
+            },
+            {
+              "identifier": "Zidpdm8",
+              "title": "教學",
+              "url_domain": "stimulusjs.org",
+              "url": "https://stimulusjs.org/handbook/origin"
+            },
+            {
+              "identifier": "evOJfO9",
+              "title": "線上編輯器 glitch",
+              "url_domain": "glitch.com",
+              "url": "https://glitch.com/"
+            },
+            {
+              "identifier": "cEcuuV2",
+              "title": "babel-plugin-transform-class-properties",
+              "url_domain": "babeljs.io",
+              "url": "https://babeljs.io/docs/plugins/transform-class-properties/"
+            }
+          ]
+        },
+        {
+          "identifier": "rvbd2mi",
+          "type": "Link",
+          "title": "軟體複雜度正在殺死我們",
+          "url_domain": "simplethread.com",
+          "url": "https://www.simplethread.com/software-complexity-killing-us/",
+          "description": "<p>身為程式設計師，最重要的工作是什麼呢？寫出好 Code？</p>\n\n<p>作者認為程式設計師最重要的工作就是產生(商業)價值。做購物網站最重要的就是能購物，而不是與 babel 和 npm 對戰。和<a href=\"https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9#%E5%95%8F%E9%A1%8C%E4%B9%8B%E6%89%80%E5%9C%A8%EF%BC%8D%E9%8A%80%E5%BD%88%E8%88%87%E8%BB%9F%E9%AB%94%E5%B0%88%E6%A1%88\">沒有銀彈</a>提到的一樣，很多時候開發軟體的附屬複雜性還是太高，讓我們花了很多不必要的時間。最近 <a href=\"https://ifttt.com/\">IFTTT</a> 等低程式碼平台的流行 ，讓我們軟體工程師必須要反思：我們有把時間花在最重要的事情上嗎？還是都拿來做一些附屬性的工作 (修 dependency 等等)？畢竟很多的工作用 IFTTT 瞬間就搞定了，自己來做卻連 npm install 都還沒跑完。</p>\n\n<p>好的程式應該要像 <a href=\"https://en.wikipedia.org/wiki/Larry_Wall\">Larry Wall</a> 說的一樣</p>\n\n<blockquote><p>Easy things should be easy, and hard things should be possible.</p></blockquote>",
+          "description_markdown": "身為程式設計師，最重要的工作是什麼呢？寫出好 Code？\r\n\r\n作者認為程式設計師最重要的工作就是產生(商業)價值。做購物網站最重要的就是能購物，而不是與 babel 和 npm 對戰。和[沒有銀彈](https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9#%E5%95%8F%E9%A1%8C%E4%B9%8B%E6%89%80%E5%9C%A8%EF%BC%8D%E9%8A%80%E5%BD%88%E8%88%87%E8%BB%9F%E9%AB%94%E5%B0%88%E6%A1%88)提到的一樣，很多時候開發軟體的附屬複雜性還是太高，讓我們花了很多不必要的時間。最近 [IFTTT](https://ifttt.com/) 等低程式碼平台的流行 ，讓我們軟體工程師必須要反思：我們有把時間花在最重要的事情上嗎？還是都拿來做一些附屬性的工作 (修 dependency 等等)？畢竟很多的工作用 IFTTT 瞬間就搞定了，自己來做卻連 npm install 都還沒跑完。\r\n\r\n好的程式應該要像 [Larry Wall](https://en.wikipedia.org/wiki/Larry_Wall) 說的一樣\r\n\r\n> Easy things should be easy, and hard things should be possible. ",
+          "embedded_links": [
+            {
+              "identifier": "mV7L2jH",
+              "title": "沒有銀彈",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9#%E5%95%8F%E9%A1%8C%E4%B9%8B%E6%89%80%E5%9C%A8%EF%BC%8D%E9%8A%80%E5%BD%88%E8%88%87%E8%BB%9F%E9%AB%94%E5%B0%88%E6%A1%88"
+            },
+            {
+              "identifier": "O0ZgL10",
+              "title": "IFTTT",
+              "url_domain": "ifttt.com",
+              "url": "https://ifttt.com/"
+            },
+            {
+              "identifier": "dGIJA0Q",
+              "title": "Larry Wall",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Larry_Wall"
+            }
+          ]
+        },
+        {
+          "identifier": "lovQqPJ",
+          "type": "Link",
+          "title": "Chaos Engineering",
+          "url_domain": "principlesofchaos.org",
+          "url": "http://principlesofchaos.org/",
+          "description": "<p>在這個 micro service 與 distributed system 當道的世代，容錯變的越來越重要。 Netflix 之前推出的 <a href=\"https://github.com/Netflix/chaosmonkey\">Chaos Monkey</a> 帶來了一個嶄新的概念。如果我自己在系統裡隨機產生各個問題，不就能知道系統夠不夠穩定嗎？Chaos Monkey 如其名，會隨機在雲端服務上關掉 VM 或 Container，強迫系統在設計時就考慮到最糟的情況。</p>\n\n<p>Chaos Engineering 延伸了這個想法。先定義一個可測量的穩定狀態，再列出可能會有的各種錯誤。在實驗組中手動產生各種錯誤，再和對照組比較，就能找出系統中的各個脆弱的部分。</p>\n\n<p>PS. Do not try this at home (production)</p>\n\n<p>PS2. 雖然真正穩固的系統都在 production 上做測試，包含 Netflix &amp; Uber</p>",
+          "description_markdown": "在這個 micro service 與 distributed system 當道的世代，容錯變的越來越重要。 Netflix 之前推出的 [Chaos Monkey](https://github.com/Netflix/chaosmonkey) 帶來了一個嶄新的概念。如果我自己在系統裡隨機產生各個問題，不就能知道系統夠不夠穩定嗎？Chaos Monkey 如其名，會隨機在雲端服務上關掉 VM 或 Container，強迫系統在設計時就考慮到最糟的情況。\r\n\r\nChaos Engineering 延伸了這個想法。先定義一個可測量的穩定狀態，再列出可能會有的各種錯誤。在實驗組中手動產生各種錯誤，再和對照組比較，就能找出系統中的各個脆弱的部分。\r\n\r\nPS. Do not try this at home (production)\r\n\r\nPS2. 雖然真正穩固的系統都在 production 上做測試，包含 Netflix & Uber\r\n",
+          "embedded_links": [
+            {
+              "identifier": "FdMzla3",
+              "title": "Chaos Monkey",
+              "url_domain": "github.com",
+              "url": "https://github.com/Netflix/chaosmonkey"
+            }
+          ]
+        },
+        {
+          "identifier": "9bpcPoG",
+          "type": "Link",
+          "title": "Blockshell",
+          "url_domain": "github.com",
+          "url": "https://github.com/daxeel/blockshell",
+          "description": "<p>Blockchain 正熱門 (雖然 Cryptocurrency 大跌中)，想要研究它的基本原理嗎？</p>\n\n<p>有人寫了一個基礎的 CLI 可以讓你體會一下什麼是 Block？什麼是 Chain？還有 Mining 和 Proof of Work 等等基礎概念。研究完就可以去寫白皮書來 ICO 了（誤）。</p>",
+          "description_markdown": "Blockchain 正熱門 (雖然 Cryptocurrency 大跌中)，想要研究它的基本原理嗎？\r\n\r\n有人寫了一個基礎的 CLI 可以讓你體會一下什麼是 Block？什麼是 Chain？還有 Mining 和 Proof of Work 等等基礎概念。研究完就可以去寫白皮書來 ICO 了（誤）。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8YlN8RT",
+          "type": "Link",
+          "title": "Staticgen",
+          "url_domain": "staticgen.com",
+          "url": "https://www.staticgen.com/",
+          "description": "<p>想架簡單的網站，但是又懶得寫 HTML？靜態網站產生器是你的好朋友。 用膩了 GitHub 也用的 <a href=\"http://jekyllrb.com/\">Jekyll</a> ？這個網站提供了各種不同語言的產生器，讓你可以嚐鮮一下。</p>",
+          "description_markdown": "想架簡單的網站，但是又懶得寫 HTML？靜態網站產生器是你的好朋友。 用膩了 GitHub 也用的 [Jekyll](http://jekyllrb.com/) ？這個網站提供了各種不同語言的產生器，讓你可以嚐鮮一下。 ",
+          "embedded_links": [
+            {
+              "identifier": "bBc5SbI",
+              "title": "Jekyll",
+              "url_domain": "jekyllrb.com",
+              "url": "http://jekyllrb.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "vP5r6pB",
+          "type": "Link",
+          "title": "Python Backend Developer at Swag",
+          "url_domain": "facebook.com",
+          "url": "https://www.facebook.com/groups/616369245163622/permalink/1218104558323418/",
+          "description": "<p>薪資：年薪新台幣 100 ~ 200 萬元（強者上限可議），固定以 14 個月月薪發放。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python or NodeJS</li>\n<li>Experience with Python web frameworks ie. Flask/Django/Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of Mongo and Redis</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 ~ 200 萬元（強者上限可議），固定以 14 個月月薪發放。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python or NodeJS\r\n2. Experience with Python web frameworks ie. Flask/Django/Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of Mongo and Redis\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xN12Nbp",
+          "type": "Link",
+          "title": "Senior Frontend Developer at Swag",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5y8ew",
+          "description": "<p>薪資：年薪新台幣 100 ~ 200 萬元（強者上限可議），固定以 14 個月月薪發放。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>精通 JavaScript、CSS 與 HTML</li>\n<li>相容主流瀏覽器的前端整合開發經驗</li>\n<li>前端 framework / library 的使用經驗</li>\n<li>熟悉 React</li>\n<li>模組化開發經驗</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 ~ 200 萬元（強者上限可議），固定以 14 個月月薪發放。\r\n\r\n基本條件：\r\n\r\n1. 精通 JavaScript、CSS 與 HTML \r\n2. 相容主流瀏覽器的前端整合開發經驗 \r\n3. 前端 framework / library 的使用經驗 \r\n4. 熟悉 React \r\n5. 模組化開發經驗",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "ENRZMlr",
+          "type": "Link",
+          "title": "Monster Hunter World: 新人入坑怪猎必看！为什么我们这么爱",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=2oSWUy5hwwA&t=8s",
+          "description": "<p>2018/01/26 這個禮拜最大的(宅宅)事件，大概就是 Monster Hunter World 的發售．</p>\n\n<p>這款久違的正宗(?) 正式發行在家用主機上 (Wii U, NS 移植不算) ，上次大概就是 PS2 跟 Wii 主機的時代（遙望)\n所以大家的期待自然相當的熱情  (我好興奮! 我好興奮啊!</p>\n\n<p>自從 PS2 的 MH2 開始研究，一直到玩 PSP MH2G, Wii: MH3  PSP: MHP3, 3DS: MH3G, MH4, MH4G, MHX\n想問說有多熱愛，大概可以從我單人畢業考破了  MH3, MH3G, MH4, MH4G   參照<a href=\"http://www.evanlin.com/categories/#MH-ref\">宅宅 Evan 愛玩 MH </a></p>\n\n<p>這次的進化，除了畫面的進步上更有許多親民的系統調整．</p>\n\n<p>我個人是相當喜愛的，會讓人有一種玩了就不想回去舊系統的感覺 (這就是成功吧</p>\n\n<p>說到這片影片，我覺得他推薦的很好．因為他不是介紹畫面跟內容．</p>\n\n<p>是從魔物獵人這款遊戲的精神，慢慢來訴說為什麼他會那麼的紅</p>\n\n<p>很推薦大家看看喔</p>",
+          "description_markdown": "2018/01/26 這個禮拜最大的(宅宅)事件，大概就是 Monster Hunter World 的發售．\r\n\r\n這款久違的正宗(?) 正式發行在家用主機上 (Wii U, NS 移植不算) ，上次大概就是 PS2 跟 Wii 主機的時代（遙望)\r\n所以大家的期待自然相當的熱情  (我好興奮! 我好興奮啊!\r\n\r\n自從 PS2 的 MH2 開始研究，一直到玩 PSP MH2G, Wii: MH3  PSP: MHP3, 3DS: MH3G, MH4, MH4G, MHX\r\n想問說有多熱愛，大概可以從我單人畢業考破了  MH3, MH3G, MH4, MH4G   參照[宅宅 Evan 愛玩 MH ](http://www.evanlin.com/categories/#MH-ref)\r\n\r\n這次的進化，除了畫面的進步上更有許多親民的系統調整．\r\n\r\n我個人是相當喜愛的，會讓人有一種玩了就不想回去舊系統的感覺 (這就是成功吧\r\n\r\n說到這片影片，我覺得他推薦的很好．因為他不是介紹畫面跟內容．\r\n\r\n是從魔物獵人這款遊戲的精神，慢慢來訴說為什麼他會那麼的紅\r\n\r\n很推薦大家看看喔",
+          "embedded_links": [
+            {
+              "identifier": "CUI5LxJ",
+              "title": "宅宅 Evan 愛玩 MH ",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/categories/#MH-ref"
+            }
+          ],
+          "image_original_filename": "26ad12af-5576-4ff1-8618-55dd39eff65b.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_26ad12af-5576-4ff1-8618-55dd39eff65b.png",
+          "image_medium_filename": "twenty_by_nine_medium_26ad12af-5576-4ff1-8618-55dd39eff65b.png"
+        }
+      ]
+    }
+  ]
+}

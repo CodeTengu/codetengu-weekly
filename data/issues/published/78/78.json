@@ -1,0 +1,515 @@
+{
+  "number": 78,
+  "title": "Issue 78 小明相信最好的代碼本身就是文檔，他才不需要註解，他的函式名稱有 100 個字元",
+  "summary": "本期內容涵蓋 Machine Learning, Testing, PHP, Smart Contract, Alexa, ReactJS, Swift, Redux, Protocol Buffers",
+  "url": "https://weekly.codetengu.com/issues/78",
+  "publication_status": "published",
+  "published_at": "2017-03-06T02:00:00+00:00",
+  "updated_at": "2017-03-06T02:00:07+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href=\"https://www.douban.com/people/vinta/\">NieR: Automata</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://twitter.com/saiday/status/833915863573024768\">教召報名成功～</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩 [NieR: Automata](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [教召報名成功～](https://twitter.com/saiday/status/833915863573024768)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "vCdx3XE",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "he1FfNB",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "xJ7fsx3",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Qc7Dj2r",
+              "title": "NieR: Automata",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "B8PP60E",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "ccsLZPO",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "cSfYDgK",
+              "title": "教召報名成功～",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday/status/833915863573024768"
+            },
+            {
+              "identifier": "RjlB8ET",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "MGrzWAx",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "gS68DPq",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "dWH5TNE",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "bdc2mvG",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "2cul2Ql",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "6QfUZY8",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "2I1ar3P",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "mbBcQGJ",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "5RhEAIo",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "212U6YP",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "1XlEIn8",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "aP88880",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "BeFLHvP",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "JN9pR0m",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ZJentqD",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "Y5nsXhu",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "HiF5J7g",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "XlxUFUV",
+          "type": "Link",
+          "title": "This Machine Turns Trump Tweets into Planned Parenthood Donations",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@maxbraun/this-machine-turns-trump-tweets-into-planned-parenthood-donations-4ece8301e722#.nxk035mlh",
+          "description": "<p>Trump Driven Development：中級</p>\n\n<p>目前為止我所看過最經典的 <a href=\"https://github.com/fukuball/Trump-Driven-Development\">Trump Driven Development</a> 案例！ 由於美國選出了有史以來最愛上推的總統，Trump 在推上的每個訊息都牽動著產業的動盪，因此作者想出了一個點子：監控 Trump 推特帳號的訊息，透過 Google 自然語言處理 API 判斷訊息會對某家公司帶來什麼樣的影響之後，自動在交易平台上買賣股票（<a href=\"https://www.tradeking.com/\">TradeKing</a> 有 API 可以使用，好先進！），目前的投資報酬率是 7 %！相關程式碼都放在 <a href=\"https://github.com/maxbbraun/trump2cash\">GitHub</a> 了，有沒有人要一起去開一下 TradeKing 的帳號啊？真想玩玩看！</p>",
+          "description_markdown": "Trump Driven Development：中級\r\n\r\n目前為止我所看過最經典的 [Trump Driven Development](https://github.com/fukuball/Trump-Driven-Development) 案例！ 由於美國選出了有史以來最愛上推的總統，Trump 在推上的每個訊息都牽動著產業的動盪，因此作者想出了一個點子：監控 Trump 推特帳號的訊息，透過 Google 自然語言處理 API 判斷訊息會對某家公司帶來什麼樣的影響之後，自動在交易平台上買賣股票（[TradeKing](https://www.tradeking.com/) 有 API 可以使用，好先進！），目前的投資報酬率是 7 %！相關程式碼都放在 [GitHub](https://github.com/maxbbraun/trump2cash) 了，有沒有人要一起去開一下 TradeKing 的帳號啊？真想玩玩看！",
+          "embedded_links": [
+            {
+              "identifier": "AcApO8R",
+              "title": "Trump Driven Development",
+              "url_domain": "github.com",
+              "url": "https://github.com/fukuball/Trump-Driven-Development"
+            },
+            {
+              "identifier": "ZiIeZqu",
+              "title": "TradeKing",
+              "url_domain": "tradeking.com",
+              "url": "https://www.tradeking.com/"
+            },
+            {
+              "identifier": "TyE4jTa",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/maxbbraun/trump2cash"
+            }
+          ]
+        },
+        {
+          "identifier": "D7BcSXm",
+          "type": "Link",
+          "title": "基于 TensorFlow 让机器生成赵雷曲风的歌词",
+          "url_domain": "qq.com",
+          "url": "http://mp.weixin.qq.com/s/uYiq2knJ0rrzdpuvbdmWhw",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>最近看到的一篇有趣的實驗，作者使用了 RNN 等類似演算法訓練出了一個可以生成趙雷歌詞風格的歌詞產生器，文章將原理講述得蠻清楚的，雖然最後做出來的效果並不算好，但就是有趣！有燃起我做做類似實驗的念頭！學一項技術最快的方式就是動手做做自己覺得有趣的事啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n最近看到的一篇有趣的實驗，作者使用了 RNN 等類似演算法訓練出了一個可以生成趙雷歌詞風格的歌詞產生器，文章將原理講述得蠻清楚的，雖然最後做出來的效果並不算好，但就是有趣！有燃起我做做類似實驗的念頭！學一項技術最快的方式就是動手做做自己覺得有趣的事啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OYo2BEO",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 8 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-8-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上一講我們介紹了如何使用 Blending 及 Bagging 的技巧來做到 Aggregation Model，可以使用 Uniform 及 Linear 的方式融合不同的 Model。至於以 Non-linear 的方式融合 Model 就需要依據想展現的特性去調整演算法來做到，這一講將介紹 Adaptive Boosting 這種特別的演算法。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上一講我們介紹了如何使用 Blending 及 Bagging 的技巧來做到 Aggregation Model，可以使用 Uniform 及 Linear 的方式融合不同的 Model。至於以 Non-linear 的方式融合 Model 就需要依據想展現的特性去調整演算法來做到，這一講將介紹 Adaptive Boosting 這種特別的演算法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "b6s60Gt",
+          "type": "Link",
+          "title": "Testing Conventions - 測試的慣例",
+          "url_domain": "nikolaposa.in.rs",
+          "url": "http://blog.nikolaposa.in.rs/2017/02/13/testing-conventions/",
+          "description": "<p>PHP：中級</p>\n\n<p>作者用一些簡易的範例講述了測試的一些慣例，分成 Structure、Naming、Arrange-Act-Assert 三個面向來說明，其中 Naming 的部份蠻受用的，一般 PHPUnit 上的說明在 test method 的命名會使用類似 <code>testPostCanBeCommented</code> 這樣的格式來命名，但作者卻使用類似 <code>it_can_be_commented</code> 這樣的格式來命名，目的是為了增加可讀性。對了，<a href=\"https://laracasts.com/\">Laracasts</a> 的 <a href=\"https://twitter.com/jeffrey_way?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor\">Jeffrey Way</a> 也是使用這樣的方式寫測試喔～</p>",
+          "description_markdown": "PHP：中級\r\n\r\n作者用一些簡易的範例講述了測試的一些慣例，分成 Structure、Naming、Arrange-Act-Assert 三個面向來說明，其中 Naming 的部份蠻受用的，一般 PHPUnit 上的說明在 test method 的命名會使用類似 `testPostCanBeCommented ` 這樣的格式來命名，但作者卻使用類似 `it_can_be_commented ` 這樣的格式來命名，目的是為了增加可讀性。對了，[Laracasts](https://laracasts.com/) 的 [Jeffrey Way](https://twitter.com/jeffrey_way?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) 也是使用這樣的方式寫測試喔～",
+          "embedded_links": [
+            {
+              "identifier": "ihv3LA0",
+              "title": "Laracasts",
+              "url_domain": "laracasts.com",
+              "url": "https://laracasts.com/"
+            },
+            {
+              "identifier": "eree98B",
+              "title": "Jeffrey Way",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jeffrey_way?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            }
+          ]
+        },
+        {
+          "identifier": "AcFZTyf",
+          "type": "Link",
+          "title": "jmolivas/phpqa - PHP QA 工具大全",
+          "url_domain": "github.com",
+          "url": "https://github.com/jmolivas/phpqa",
+          "description": "<p>PHP：中級</p>\n\n<p>這個套件將 PHP 中一些好用的 QA 工具都整合在一起了，我自己是沒有全部都用到，但大家也可以先全部用用看之後在看自己想將哪些 QA 工具導入就好～</p>",
+          "description_markdown": "PHP：中級\r\n\r\n這個套件將 PHP 中一些好用的 QA 工具都整合在一起了，我自己是沒有全部都用到，但大家也可以先全部用用看之後在看自己想將哪些 QA 工具導入就好～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "dQUy39x",
+          "type": "Link",
+          "title": "使用 Node.js 部署智能合約 (Smart Contract)",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/taipei-ethereum-meetup/%E4%BD%BF%E7%94%A8node-js%E9%83%A8%E7%BD%B2%E6%99%BA%E8%83%BD%E5%90%88%E7%B4%84-smart-contract-520534305aaf",
+          "description": "<p><a href=\"https://medium.com/taipei-ethereum-meetup\">Taipei Ethereum Meetup</a> 專欄, 開始有很多人在這裡寫繁體中文 Ethereum 相關的文章, 不能再用看不懂英文或簡體中文來當藉口, 不學習新技術。這篇文章, 一步一步地教您如何用 node.js 部署一個簡單的 smart contract, 其中 <a href=\"https://medium.com/taipei-ethereum-meetup%20/%20%E4%BD%BF%E7%94%A8%20parity%20%E5%BB%BA%E7%AB%8B%20proof-of-authority-poa-ethereum-chain-c5c1cdd0f21a\">Proof-of-Authority (PoA) Ethereum Chain 連結</a>, 還教你如何利用 parity 自己蓋私有的 Ethereum 區塊鏈 (blockchain), 有了自己的鏈, 就不必花錢去買或花時間去 mining 才能使用真正的 Ethereum blockchain 了。</p>",
+          "description_markdown": "[Taipei Ethereum Meetup](https://medium.com/taipei-ethereum-meetup) 專欄, 開始有很多人在這裡寫繁體中文 Ethereum 相關的文章, 不能再用看不懂英文或簡體中文來當藉口, 不學習新技術。這篇文章, 一步一步地教您如何用 node.js 部署一個簡單的 smart contract, 其中 [Proof-of-Authority (PoA) Ethereum Chain 連結](https://medium.com/taipei-ethereum-meetup / 使用 parity 建立 proof-of-authority-poa-ethereum-chain-c5c1cdd0f21a), 還教你如何利用 parity 自己蓋私有的 Ethereum 區塊鏈 (blockchain), 有了自己的鏈, 就不必花錢去買或花時間去 mining 才能使用真正的 Ethereum blockchain 了。",
+          "embedded_links": [
+            {
+              "identifier": "pLCqfex",
+              "title": "Taipei Ethereum Meetup",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/taipei-ethereum-meetup"
+            }
+          ]
+        },
+        {
+          "identifier": "4AmUVOp",
+          "type": "Link",
+          "title": "The complete list of Alexa commands so far",
+          "url_domain": "cnet.com",
+          "url": "https://www.cnet.com/how-to/the-complete-list-of-alexa-commands/",
+          "description": "<p>2017 年起改變我生活的新東西, 她叫 Alexa (硬體叫 Amazon Echo 或 Echo Dot)。\n玩了幾天, 發現聲控的世界真的來臨了。更應該說, 已經可以感受得到人工智慧 (A.I.) 帶給人類生活的方便性, 是指日可待了。</p>\n\n<p>Alexa, what new features do you have?</p>\n\n<p>它有無限多的擴充能力, 我們稱它作 skills。人類幫她累積很多技能, 目前她已經學會了上萬個 skills。我覺得最有趣的遊戲, 叫 \"The Magic Door”。無聊時真的可以跟她玩玩…</p>\n\n<p><a href=\"https://www.themagicdoor.org/map/\">Alexa, enable The Magic Door</a></p>\n\n<p>你也能透過 IFTTT <a href=\"https://ifttt.com/amazon_alexa\">利用 Alexa 跟所有 IFTTT</a> 能做的事情介接, 你也可以自己教他新的技能, 有興趣的人, 不妨可以研究一下 <a href=\"https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide\">Alexa Skills Kit</a>。</p>\n\n<p>如果你玩 Arduino, 想利用 <a href=\"https://www.youtube.com/watch?v=CIi01OG8G0o\">Alexa 聲控你家裡的 IoT 設備</a>, 那已經是輕而易舉的事了。</p>\n\n<p>最後, 你一定會說, 台灣還買不到 Amazon Echo 或 Echo Dot 啊? 怎麼玩? 用 <a href=\"https://www.youtube.com/watch?v=JNTuoOsXS1k&amp;t=580s\">Raspberry Pi 3 做一個 Alexa 吧</a>。註: <a href=\"https://developer.amazon.com/alexa-voice-service\">AVS (alexa voice service)</a> 服務, 目前只有 US, UK 跟德國。你可能要想辦法翻牆了。</p>",
+          "description_markdown": "2017 年起改變我生活的新東西, 她叫 Alexa (硬體叫 Amazon Echo 或 Echo Dot)。\r\n玩了幾天, 發現聲控的世界真的來臨了。更應該說, 已經可以感受得到人工智慧 (A.I.) 帶給人類生活的方便性, 是指日可待了。\r\n\r\nAlexa, what new features do you have?\r\n\r\n它有無限多的擴充能力, 我們稱它作 skills。人類幫她累積很多技能, 目前她已經學會了上萬個 skills。我覺得最有趣的遊戲, 叫 \"The Magic Door”。無聊時真的可以跟她玩玩…\r\n\r\n[Alexa, enable The Magic Door](https://www.themagicdoor.org/map/)\r\n\r\n你也能透過 IFTTT [利用 Alexa 跟所有 IFTTT](https://ifttt.com/amazon_alexa) 能做的事情介接, 你也可以自己教他新的技能, 有興趣的人, 不妨可以研究一下 [Alexa Skills Kit](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide)。\r\n\r\n如果你玩 Arduino, 想利用 [Alexa 聲控你家裡的 IoT 設備](https://www.youtube.com/watch?v=CIi01OG8G0o), 那已經是輕而易舉的事了。\r\n\r\n最後, 你一定會說, 台灣還買不到 Amazon Echo 或 Echo Dot 啊? 怎麼玩? 用 [Raspberry Pi 3 做一個 Alexa 吧](https://www.youtube.com/watch?v=JNTuoOsXS1k&t=580s)。註: [AVS (alexa voice service)](https://developer.amazon.com/alexa-voice-service) 服務, 目前只有 US, UK 跟德國。你可能要想辦法翻牆了。",
+          "embedded_links": [
+            {
+              "identifier": "Xh7yMsV",
+              "title": "Alexa, enable The Magic Door",
+              "url_domain": "themagicdoor.org",
+              "url": "https://www.themagicdoor.org/map/"
+            },
+            {
+              "identifier": "XzCeGQa",
+              "title": "利用 Alexa 跟所有 IFTTT",
+              "url_domain": "ifttt.com",
+              "url": "https://ifttt.com/amazon_alexa"
+            },
+            {
+              "identifier": "LEByLMU",
+              "title": "Alexa Skills Kit",
+              "url_domain": "amazon.com",
+              "url": "https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/getting-started-guide"
+            },
+            {
+              "identifier": "i2gIyVn",
+              "title": "Alexa 聲控你家裡的 IoT 設備",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=CIi01OG8G0o"
+            },
+            {
+              "identifier": "Ya1Sopd",
+              "title": "Raspberry Pi 3 做一個 Alexa 吧",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=JNTuoOsXS1k&t=580s"
+            },
+            {
+              "identifier": "awh16jb",
+              "title": "AVS (alexa voice service)",
+              "url_domain": "amazon.com",
+              "url": "https://developer.amazon.com/alexa-voice-service"
+            }
+          ]
+        },
+        {
+          "identifier": "f6eCjvh",
+          "type": "Link",
+          "title": "How to make your React app fully functional, fully reactive, and able to handle all those crazy side effects",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/how-to-make-your-react-app-fully-functional-fully-reactive-and-able-to-handle-all-those-crazy-e5da8e7dac10",
+          "description": "<p>你還在用 MVC 方式寫前端嗎? 之前有介紹過 cyclejs, 也有人介紹過 Redux. 這篇文章介紹如何利用 <a href=\"https://github.com/cyclejs-community/redux-cycles\">redux-cycles</a> 在 React 裡寫比較 pure functional 而且比較 reactive 的程式。雖然用很多動畫圖片加以說明, 但還是需要一段時間理解, 也值得花時間研究, 因為現在的 front-end code, 還是太難測試。把程式寫的 pure (functional) 一點, 可能有更有助於理解與測試。這也許是個終極的方法!</p>\n\n<p>cyclejs 的 community 也膨脹得很快, <a href=\"https://github.com/cyclejs-community/awesome-cyclejs\">awesome-cyclejs</a> 已經不少東西可以讀了。而 <a href=\"https://github.com/xgrommx/awesome-redux\">awesome-redux</a> 更已經有 7,747 個 stars 了. 如果能合併使用, 應該會更好。</p>",
+          "description_markdown": "你還在用 MVC 方式寫前端嗎? 之前有介紹過 cyclejs, 也有人介紹過 Redux. 這篇文章介紹如何利用 [redux-cycles](https://github.com/cyclejs-community/redux-cycles) 在 React 裡寫比較 pure functional 而且比較 reactive 的程式。雖然用很多動畫圖片加以說明, 但還是需要一段時間理解, 也值得花時間研究, 因為現在的 front-end code, 還是太難測試。把程式寫的 pure (functional) 一點, 可能有更有助於理解與測試。這也許是個終極的方法! \r\n\r\ncyclejs 的 community 也膨脹得很快, [awesome-cyclejs](https://github.com/cyclejs-community/awesome-cyclejs) 已經不少東西可以讀了。而 [awesome-redux](https://github.com/xgrommx/awesome-redux) 更已經有 7,747 個 stars 了. 如果能合併使用, 應該會更好。",
+          "embedded_links": [
+            {
+              "identifier": "UWecwuc",
+              "title": "redux-cycles",
+              "url_domain": "github.com",
+              "url": "https://github.com/cyclejs-community/redux-cycles"
+            },
+            {
+              "identifier": "YW9Ja7E",
+              "title": "awesome-cyclejs",
+              "url_domain": "github.com",
+              "url": "https://github.com/cyclejs-community/awesome-cyclejs"
+            },
+            {
+              "identifier": "6HJtXZ1",
+              "title": "awesome-redux",
+              "url_domain": "github.com",
+              "url": "https://github.com/xgrommx/awesome-redux"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "Pecqlc5",
+          "type": "Link",
+          "title": "所有权宣言 - Swift 官方文章 Ownership Manifesto 译文评注版",
+          "url_domain": "onevcat.com",
+          "url": "https://onevcat.com/2017/02/ownership/",
+          "description": "<p>Swift 團隊前一陣子對社群的人寄出了一封郵件，是關於記憶體所有權相關的討論，主要是在說明未來打算改變的方向。這是一篇很長很長的文章，也提到了不少比較細節的部分，很值得仔細閱讀。</p>",
+          "description_markdown": "Swift 團隊前一陣子對社群的人寄出了一封郵件，是關於記憶體所有權相關的討論，主要是在說明未來打算改變的方向。這是一篇很長很長的文章，也提到了不少比較細節的部分，很值得仔細閱讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OBJTzFY",
+          "type": "Link",
+          "title": "Avoiding Accidental Complexity When Structuring Your App State",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/avoiding-accidental-complexity-when-structuring-your-app-state-6e6d22ad5e2a#.zjjhs7fvq",
+          "description": "<p>最近在規劃產品的新架構，我打算使用 <a href=\"http://redux.js.org/docs/introduction/index.html\">Redux</a> 作為資料流的處理方式。如何設計資料模型對 app 開發來說是很重要的一環，它可以說是整個 app 的地基，一開始沒做好，後來就很容易歪掉。因為 Redux 整個就是圍著資料模型運轉，所以如何規劃模型，以及如何讓團隊裡的其他成員遵循規劃原則，就顯得相當的重要。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1#.244xqpjxp\">Dissecting Twitter’s Redux Store</a></li>\n<li><a href=\"http://redux.js.org/docs/recipes/StructuringReducers.html\">Structuring Reducers · Redux</a></li>\n<li><a href=\"https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/\">Database Normalization Explained in Simple English</a></li>\n</ul>",
+          "description_markdown": "最近在規劃產品的新架構，我打算使用 [Redux](http://redux.js.org/docs/introduction/index.html) 作為資料流的處理方式。如何設計資料模型對 app 開發來說是很重要的一環，它可以說是整個 app 的地基，一開始沒做好，後來就很容易歪掉。因為 Redux 整個就是圍著資料模型運轉，所以如何規劃模型，以及如何讓團隊裡的其他成員遵循規劃原則，就顯得相當的重要。\r\n\r\n延伸閱讀：\r\n\r\n- [Dissecting Twitter’s Redux Store](https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1#.244xqpjxp)\r\n- [Structuring Reducers · Redux](http://redux.js.org/docs/recipes/StructuringReducers.html)\r\n- [Database Normalization Explained in Simple English](https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/)",
+          "embedded_links": [
+            {
+              "identifier": "BBSKNG2",
+              "title": "Redux",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/docs/introduction/index.html"
+            },
+            {
+              "identifier": "53zob0B",
+              "title": "Dissecting Twitter’s Redux Store",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/statuscode/dissecting-twitters-redux-store-d7280b62c6b1#.244xqpjxp"
+            },
+            {
+              "identifier": "8WVOz5m",
+              "title": "Structuring Reducers · Redux",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/docs/recipes/StructuringReducers.html"
+            },
+            {
+              "identifier": "iyxLnVN",
+              "title": "Database Normalization Explained in Simple English",
+              "url_domain": "essentialsql.com",
+              "url": "https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/"
+            }
+          ]
+        },
+        {
+          "identifier": "QCZCjAd",
+          "type": "Link",
+          "title": "谈谈 iOS 中图片的解压缩",
+          "url_domain": "leichunfeng.com",
+          "url": "http://blog.leichunfeng.com/blog/2017/02/20/talking-about-the-decompression-of-the-image-in-ios/",
+          "description": "<p>有在開發 iOS app 的人一定有做過用 table view 顯示一堆圖片，然後就會遇到滾動卡頓的問題，然後爬文就會發現可能是因為顯示圖片時需要解壓縮所以很耗時間，然後就會看到大家建議的做法是先在背景解壓縮再回到前景顯示，然後你最終會被指引到 <code>CGBitmapContextCreate</code> 這個函式。</p>\n\n<p>你會發現這個函式需要一大堆參數，看了文件之後還是似懂非懂，谷歌大神一下還會發現許多知名的 library 像是 YYImage、SDWebImage、AFNetworking 都用到它來解壓縮圖片，可是各家傳入的參數卻又略有不同。看完這篇說明你就會懂了。</p>",
+          "description_markdown": "有在開發 iOS app 的人一定有做過用 table view 顯示一堆圖片，然後就會遇到滾動卡頓的問題，然後爬文就會發現可能是因為顯示圖片時需要解壓縮所以很耗時間，然後就會看到大家建議的做法是先在背景解壓縮再回到前景顯示，然後你最終會被指引到 `CGBitmapContextCreate` 這個函式。\r\n\r\n你會發現這個函式需要一大堆參數，看了文件之後還是似懂非懂，谷歌大神一下還會發現許多知名的 library 像是 YYImage、SDWebImage、AFNetworking 都用到它來解壓縮圖片，可是各家傳入的參數卻又略有不同。看完這篇說明你就會懂了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "CCY4Zq",
+          "type": "Link",
+          "title": "Introduction to Protocol Buffers on iOS",
+          "url_domain": "raywenderlich.com",
+          "url": "https://www.raywenderlich.com/149335/introduction-protocol-buffers-ios",
+          "description": "<p>現在開發 app 免不了要跟後端或是其他客戶端傳遞資料，最常見的資料格式就是 JSON 跟 XML 了。它們非常適合有架構的資料，也提供了高度可閱讀性，但是相對的它們的檔案尺寸通常會比較大，序列/反序列化也會消耗比較多的資源。\nProtocol Buffers 是 Google 開發的結構化資料交換格式，它生成的資料體積小、處理的效率高、擴充彈性佳，早已被 Google 以及許多公司廣泛使用，尤其適合用在需要頻繁傳輸資料的場合。</p>\n\n<p>其他相關或類似的服務還有：</p>\n\n<ul>\n<li><a href=\"http://www.grpc.io/\">grpc.io</a></li>\n<li><a href=\"https://google.github.io/flatbuffers/index.html\">FlatBuffers</a></li>\n</ul>",
+          "description_markdown": "現在開發 app 免不了要跟後端或是其他客戶端傳遞資料，最常見的資料格式就是 JSON 跟 XML 了。它們非常適合有架構的資料，也提供了高度可閱讀性，但是相對的它們的檔案尺寸通常會比較大，序列/反序列化也會消耗比較多的資源。\r\nProtocol Buffers 是 Google 開發的結構化資料交換格式，它生成的資料體積小、處理的效率高、擴充彈性佳，早已被 Google 以及許多公司廣泛使用，尤其適合用在需要頻繁傳輸資料的場合。\r\n\r\n其他相關或類似的服務還有：\r\n\r\n- [grpc.io](http://www.grpc.io/)\r\n- [FlatBuffers](https://google.github.io/flatbuffers/index.html)",
+          "embedded_links": [
+            {
+              "identifier": "iheryGf",
+              "title": "grpc.io",
+              "url_domain": "grpc.io",
+              "url": "http://www.grpc.io/"
+            },
+            {
+              "identifier": "xwP4Dt1",
+              "title": "FlatBuffers",
+              "url_domain": "github.io",
+              "url": "https://google.github.io/flatbuffers/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "poXeONx",
+          "type": "Link",
+          "title": "Twitter Image Pipeline is a robust and performant image loading and caching framework for iOS clients",
+          "url_domain": "github.com",
+          "url": "https://github.com/twitter/ios-twitter-image-pipeline",
+          "description": "<p>圖片絕對是 app 開發當中不可或缺的重要角色，但是要如何優雅而且正確的處理它卻始終是個大難題，還好目前已經有許多出色的 library 可以幫我們解決「下載 / 緩存 / 顯示」三大問題，最廣為人知的大概就是 <a href=\"https://github.com/rs/SDWebImage\">SDWebImage</a>、<a href=\"https://github.com/ibireme/YYImage\">YYImage</a>、<a href=\"https://github.com/onevcat/Kingfisher\">Kingfisher</a> 這幾個。近期 Twitter 也公開了它們自家的圖片管理庫，讓廣大的開發者們又多了一個選擇，真是可喜可賀！</p>",
+          "description_markdown": "圖片絕對是 app 開發當中不可或缺的重要角色，但是要如何優雅而且正確的處理它卻始終是個大難題，還好目前已經有許多出色的 library 可以幫我們解決「下載 / 緩存 / 顯示」三大問題，最廣為人知的大概就是 [SDWebImage](https://github.com/rs/SDWebImage)、[YYImage](https://github.com/ibireme/YYImage)、[Kingfisher](https://github.com/onevcat/Kingfisher) 這幾個。近期 Twitter 也公開了它們自家的圖片管理庫，讓廣大的開發者們又多了一個選擇，真是可喜可賀！",
+          "embedded_links": [
+            {
+              "identifier": "pjRCWRe",
+              "title": "SDWebImage",
+              "url_domain": "github.com",
+              "url": "https://github.com/rs/SDWebImage"
+            },
+            {
+              "identifier": "6regmOH",
+              "title": "YYImage",
+              "url_domain": "github.com",
+              "url": "https://github.com/ibireme/YYImage"
+            },
+            {
+              "identifier": "NqVkJhs",
+              "title": "Kingfisher",
+              "url_domain": "github.com",
+              "url": "https://github.com/onevcat/Kingfisher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "CIChi9Y",
+          "type": "Link",
+          "title": "sgolemon/table-flip 翻桌例外",
+          "url_domain": "github.com",
+          "url": "https://github.com/sgolemon/table-flip",
+          "description": "<p>這是一個可以丟出翻桌表情符號作為例外的 PHP 套件，作者是從一個 <a href=\"https://twitter.com/LGnome/status/735573024825430016\">Twitter 討論串</a> 中獲得靈感的，希望大家也能時時刻刻保持著幽默感～</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "這是一個可以丟出翻桌表情符號作為例外的 PHP 套件，作者是從一個 [Twitter 討論串](https://twitter.com/LGnome/status/735573024825430016) 中獲得靈感的，希望大家也能時時刻刻保持著幽默感～\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "sZjNmgL",
+              "title": "Twitter 討論串",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/LGnome/status/735573024825430016"
+            },
+            {
+              "identifier": "7RR8jMt",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

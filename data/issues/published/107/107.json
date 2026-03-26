@@ -1,0 +1,535 @@
+{
+  "number": 107,
+  "title": "Issue 107 先講求效果，再講求不傷身體",
+  "summary": "本期內容涵蓋 iOS, React Native, Go, Machine Learning, API Design, CSS, DevOps, Microcontroller",
+  "url": "https://weekly.codetengu.com/issues/107",
+  "publication_status": "published",
+  "published_at": "2017-11-27T02:00:00+00:00",
+  "updated_at": "2017-11-27T05:19:34+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "mAzuAtQ",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "aktITxr",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "KYFyT9t",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "vreRXkv",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "8hwAZFO",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "spGHqOz",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "4NLT2a4",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "HVaO0po",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "9aQbEHl",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "OS68g5q",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "Du3jBSz",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "M7b2lbD",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "wx03use",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "VCRX3qm",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "8bPc3ow",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "xfX8agq",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Uz0xHaz",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "OEFujEZ",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "ES48Yjv",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "iUP91yP",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "eEZpKqc",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "gM6FB78",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "4BO2faJ",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "bxuWqyj",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "RcHDKs4",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "7P8Q2b5",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "nm92wS5",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "I0Vzh5k",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "fUiXk75",
+          "type": "Link",
+          "title": "Transformer",
+          "url_domain": "github.io",
+          "url": "https://andresinaka.github.io/Transformer/",
+          "description": "<p>一個方便的線上工具，可以讓你把格式化的文字轉成 <code>NSAttributedString</code>，更棒的是它同時提供 Swift 4 跟 Objective-C 版本。雖然目前的功能還有點少，但至少能幫忙提供一個基礎的 NSAttributedString，方便開發者後續修改。</p>\n\n<p>它的<a href=\"https://github.com/andresinaka/Transformer\">原始碼在這裏</a>，有興趣的人可以幫忙加上更多功能！</p>",
+          "description_markdown": "一個方便的線上工具，可以讓你把格式化的文字轉成 `NSAttributedString`，更棒的是它同時提供 Swift 4 跟 Objective-C 版本。雖然目前的功能還有點少，但至少能幫忙提供一個基礎的 NSAttributedString，方便開發者後續修改。\r\n\r\n它的[原始碼在這裏](https://github.com/andresinaka/Transformer)，有興趣的人可以幫忙加上更多功能！",
+          "embedded_links": [
+            {
+              "identifier": "1vpUQ57",
+              "title": "原始碼在這裏",
+              "url_domain": "github.com",
+              "url": "https://github.com/andresinaka/Transformer"
+            }
+          ]
+        },
+        {
+          "identifier": "lQFqv0G",
+          "type": "Link",
+          "title": "HelloGitHub – 分享 GitHub 上入门级、有趣的开源项目",
+          "url_domain": "hellogithub.com",
+          "url": "https://hellogithub.com/",
+          "description": "<p>就如同標題講的，這個網站就是搜集並定時分享在 GitHub 上有趣的專案，我想到就會來看一下，有時候會發現一些好玩的東西。不過可惜的是，它好像沒有提供「訂閱」的功能，不然就方便多了。</p>",
+          "description_markdown": "就如同標題講的，這個網站就是搜集並定時分享在 GitHub 上有趣的專案，我想到就會來看一下，有時候會發現一些好玩的東西。不過可惜的是，它好像沒有提供「訂閱」的功能，不然就方便多了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "pZubMrR",
+          "type": "Link",
+          "title": "fui: Find unused Objective-C imports.",
+          "url_domain": "github.com",
+          "url": "https://github.com/dblock/fui",
+          "description": "<p>現在手上的案子已經有一點年紀，所以被很多人修改過，app 提供的功能也跟一開始的設想有很大的出入。所以可以想見的，遺留卻沒用到的程式碼跟資源檔越來越多，整個專案越來越肥，啟動速度也越來越慢，這迫使我花了一點時間好好的處理了一下這個老案子。</p>\n\n<p>我用的就是這個 <code>fui</code>，它幫我找出許多早已不再被引用到的程式碼，一個個順藤摸瓜下去又找出一大串無用的程式碼，最後的結果讓我很滿意，砍掉很多舊檔案，包出來的 app 體積也比之前小很多。不過要注意的是，工具找出來的結果不一定百分百正確，你最好要一個個看過，並記得要用版本控制做好備份。</p>\n\n<p>接下來我會刪除沒用到的 frameworks / libraries 跟資源檔（字體、圖片、影音），順便提供幾個工具給各位參考：</p>\n\n<ul>\n<li><a href=\"https://github.com/onevcat/FengNiao\">FengNiao: A command line tool for cleaning unused resources in Xcode.</a></li>\n<li><a href=\"https://github.com/tinymind/LSUnusedResources\">LSUnusedResources: A Mac App to find unused images and resources in XCode project.</a></li>\n<li><a href=\"https://imageoptim.com/mac\">ImageOptim — better Save for Web</a></li>\n</ul>",
+          "description_markdown": "現在手上的案子已經有一點年紀，所以被很多人修改過，app 提供的功能也跟一開始的設想有很大的出入。所以可以想見的，遺留卻沒用到的程式碼跟資源檔越來越多，整個專案越來越肥，啟動速度也越來越慢，這迫使我花了一點時間好好的處理了一下這個老案子。\r\n\r\n我用的就是這個 `fui`，它幫我找出許多早已不再被引用到的程式碼，一個個順藤摸瓜下去又找出一大串無用的程式碼，最後的結果讓我很滿意，砍掉很多舊檔案，包出來的 app 體積也比之前小很多。不過要注意的是，工具找出來的結果不一定百分百正確，你最好要一個個看過，並記得要用版本控制做好備份。\r\n\r\n接下來我會刪除沒用到的 frameworks / libraries 跟資源檔（字體、圖片、影音），順便提供幾個工具給各位參考：\r\n\r\n- [FengNiao: A command line tool for cleaning unused resources in Xcode.](https://github.com/onevcat/FengNiao)\r\n- [LSUnusedResources: A Mac App to find unused images and resources in XCode project.](https://github.com/tinymind/LSUnusedResources)\r\n- [ImageOptim — better Save for Web](https://imageoptim.com/mac)",
+          "embedded_links": [
+            {
+              "identifier": "d3gGxxs",
+              "title": "FengNiao: A command line tool for cleaning unused resources in Xcode.",
+              "url_domain": "github.com",
+              "url": "https://github.com/onevcat/FengNiao"
+            },
+            {
+              "identifier": "Q5nN79b",
+              "title": "LSUnusedResources: A Mac App to find unused images and resources in XCode project.",
+              "url_domain": "github.com",
+              "url": "https://github.com/tinymind/LSUnusedResources"
+            },
+            {
+              "identifier": "wGSxGRK",
+              "title": "ImageOptim — better Save for Web",
+              "url_domain": "imageoptim.com",
+              "url": "https://imageoptim.com/mac"
+            }
+          ]
+        },
+        {
+          "identifier": "JassMEU",
+          "type": "Link",
+          "title": "iOS 开发是否要采用 React Native? - 简书",
+          "url_domain": "jianshu.com",
+          "url": "http://www.jianshu.com/p/17cfac53578a",
+          "description": "<p>React Native 已經推出大約兩年了，我自己還沒寫過，倒是聽到不少人或公司開始嘗試使用它，甚至有些新創公司也不找 native app developer 了，就直接指名要找會寫 React Native 的。到底該不該用 RN 開發呢，這篇文章整理了幾個不錯的思考點，值得開發者或公司決策者拿來參考參考。</p>",
+          "description_markdown": "React Native 已經推出大約兩年了，我自己還沒寫過，倒是聽到不少人或公司開始嘗試使用它，甚至有些新創公司也不找 native app developer 了，就直接指名要找會寫 React Native 的。到底該不該用 RN 開發呢，這篇文章整理了幾個不錯的思考點，值得開發者或公司決策者拿來參考參考。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "MLtMput",
+          "type": "Link",
+          "title": "Swift Community Awards",
+          "url_domain": "hackingwithswift.com",
+          "url": "https://www.hackingwithswift.com/awards",
+          "description": "<p>這就不多說了，滿滿的資源啊！就算現在看不完，也要加到書籤等著有空慢慢看！</p>",
+          "description_markdown": "這就不多說了，滿滿的資源啊！就算現在看不完，也要加到書籤等著有空慢慢看！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "CEnnTgt",
+          "type": "Link",
+          "title": "command center: The Upspin manifesto: On the ownership and sharing of data",
+          "url_domain": "blogspot.tw",
+          "url": "https://commandcenter.blogspot.tw/2017/10/the-upspin-manifesto-on-ownership-and.html",
+          "description": "<p>Rob Pike 是我相當尊敬的大師之一，不僅僅是因為他有參與到 Golang 的開發與許多規格的定義，更重要的是 Rob Pike 有著相當清楚而有條理的思路．</p>\n\n<p>Upspin (一個幫助人分享檔案的 Golang 套件) 是由 Rob Pike 創立的點子，這篇文章敘述著當初為什麼要做這樣的軟體？ 為什麼要另外開發一套檔案的分享工具？ 檔案的分享究竟有多麼重要？</p>\n\n<p>我一直認為，一個好的 Software Engineer 更是一個好的文章作者．他要能夠在他的程式裡面敘述出一個他要表達的故事（想法），他想要解決問題的脈絡．</p>\n\n<p>參考文章：</p>\n\n<ol>\n<li><a href=\"https://buff.ly/2zA1OtT\">Go Proverbs</a></li>\n<li><a href=\"https://buff.ly/2zoN7ZN\">The Best Programming Advice I Ever Got\" with Rob Pike</a></li>\n</ol>",
+          "description_markdown": "Rob Pike 是我相當尊敬的大師之一，不僅僅是因為他有參與到 Golang 的開發與許多規格的定義，更重要的是 Rob Pike 有著相當清楚而有條理的思路． \r\n\r\nUpspin (一個幫助人分享檔案的 Golang 套件) 是由 Rob Pike 創立的點子，這篇文章敘述著當初為什麼要做這樣的軟體？ 為什麼要另外開發一套檔案的分享工具？ 檔案的分享究竟有多麼重要？\r\n\r\n我一直認為，一個好的 Software Engineer 更是一個好的文章作者．他要能夠在他的程式裡面敘述出一個他要表達的故事（想法），他想要解決問題的脈絡．\r\n\r\n參考文章： \r\n\r\n1. [Go Proverbs](https://buff.ly/2zA1OtT)\r\n2. [The Best Programming Advice I Ever Got\" with Rob Pike](https://buff.ly/2zoN7ZN)\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "pdF6RAA",
+              "title": "Go Proverbs",
+              "url_domain": "buff.ly",
+              "url": "https://buff.ly/2zA1OtT"
+            },
+            {
+              "identifier": "uYj2pZN",
+              "title": "The Best Programming Advice I Ever Got\" with Rob Pike",
+              "url_domain": "buff.ly",
+              "url": "https://buff.ly/2zoN7ZN"
+            }
+          ]
+        },
+        {
+          "identifier": "bVcsUSP",
+          "type": "Link",
+          "title": "Go at DigitalOcean",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/farslan/go-at-digitalocean",
+          "description": "<p>Vim-go 作者 Faith Arslan 解釋 digital ocean 為何選擇 Go 而且也介紹他們如何使用。並且結合一般常用的工具。很實用的文章。 以下節錄一些:</p>\n\n<ul>\n<li>使用 monorepo (call: cthulhu) 來管理公司的 standard libraries ．有統一個工具，也有各個團隊必須的工具 （當然也有開發中的)</li>\n<li>剛報到的新人，只要 clone 這個 repo 加上他們有開發一個 DirEnv ( Hacking GoPath in zsh, bash..) 讓每個人一開始馬上就可以 build code</li>\n<li>Vendoring 還是使用 govendor (並且有解決 MacOS 的 case-insensetive 問題), dep 還在評估</li>\n<li>使用 Drone 做 CI/CD</li>\n<li>自己開發出 gta (Go Test Auto) 系統，讓 go build 從 20 min -> 2~3 mins (是一個可以抓出變動的目錄然後指編譯跟測試有變動的部分)</li>\n</ul>\n\n\n<p>Digital Ocean 的 custom 工具都好想要啊..</p>",
+          "description_markdown": "Vim-go 作者 Faith Arslan 解釋 digital ocean 為何選擇 Go 而且也介紹他們如何使用。並且結合一般常用的工具。很實用的文章。 以下節錄一些:\r\n\r\n- 使用 monorepo (call: cthulhu) 來管理公司的 standard libraries ．有統一個工具，也有各個團隊必須的工具 （當然也有開發中的)\r\n- 剛報到的新人，只要 clone 這個 repo 加上他們有開發一個 DirEnv ( Hacking GoPath in zsh, bash..) 讓每個人一開始馬上就可以 build code\r\n- Vendoring 還是使用 govendor (並且有解決 MacOS 的 case-insensetive 問題), dep 還在評估\r\n- 使用 Drone 做 CI/CD\r\n- 自己開發出 gta (Go Test Auto) 系統，讓 go build 從 20 min -> 2~3 mins (是一個可以抓出變動的目錄然後指編譯跟測試有變動的部分)\r\n\r\nDigital Ocean 的 custom 工具都好想要啊..",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "fOY0VvE",
+          "type": "Link",
+          "title": "Kubernetes v.s. mesos",
+          "url_domain": "slideshare.net",
+          "url": "https://www.slideshare.net/EvansLin/kubernetes-vs-mesos/EvansLin/kubernetes-vs-mesos",
+          "description": "<p>這篇投影片整理了 mesos 與 Kubernetes 的一些比較． 內容有包含:</p>\n\n<ul>\n<li>這兩年的發展</li>\n<li>基本架構圖</li>\n<li>整理最久的就是近兩年的版本功能發表的時間軸</li>\n</ul>\n\n\n<p>希望能幫助一些人</p>",
+          "description_markdown": "這篇投影片整理了 mesos 與 Kubernetes 的一些比較． 內容有包含:\r\n\r\n- 這兩年的發展\r\n- 基本架構圖\r\n- 整理最久的就是近兩年的版本功能發表的時間軸\r\n\r\n希望能幫助一些人",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "KFhwSNn",
+          "type": "Link",
+          "title": "Announcing GoLand (Former Gogland) EAP 18: Final Product Name, Templates Support and More | GoLand Blog",
+          "url_domain": "jetbrains.com",
+          "url": "https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/?utm_content=buffer25008&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>Jetbrain 出了很多好用的 IDE ，他們將他們的 Go IDE 原名 Gogand 後來正名為 GoLand.</p>\n\n<p>不過講回來 vscode 真的越來越好用，對於 Golang 支援也越來越好了．下一版更新還會內建 <code>go build</code>  跟 <code>go install</code> 真的是太方便了．</p>",
+          "description_markdown": "Jetbrain 出了很多好用的 IDE ，他們將他們的 Go IDE 原名 Gogand 後來正名為 GoLand.\r\n\r\n不過講回來 vscode 真的越來越好用，對於 Golang 支援也越來越好了．下一版更新還會內建 `go build`  跟 `go install` 真的是太方便了．\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9SVoqQV",
+          "type": "Link",
+          "title": "[Coursera] Deep Learning Specialization: Neural Networks and Deep Learning (一）",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/moocs-DLS-NN-DL/",
+          "description": "<p>本來就想把 Deep Learning 學一下， 因緣際會下看到這一篇 <a href=\"https://medium.com/@ywchen88/andrew-ng-deep-learning-specialization-%E8%AA%B2%E7%A8%8B%E6%84%9F%E6%83%B3-1-3-6acf4d6c5c82\">Coursera 學習心得</a> 試讀了七天，除了提供 Jupyter Notebook 之外，作業也都相當有趣，就開始繼續學了． 目前進度到 Week2 相當推薦有程式設計一點點基礎就可以來學．裡面的數學應該還好． 學習的過程中還可以學會 Python 裡面的 numpy 如何使用，因為裡面主要就是要教導你如何使用 numpy 來兜出 Neural Network ．</p>\n\n<p>真的相當有趣的基礎課程，基本上上完了就等於把o’reilly deep learning 的整本書都上完．並且有實際透過 numpy 寫完部分的 DNN 的分類器的作業．</p>\n\n<ul>\n<li><a href=\"http://www.evanlin.com/moocs-DLS-NN-DL/\">Week 1-2: Introduction to deep learning &amp; Neural Networks Basics</a></li>\n<li><a href=\"http://www.evanlin.com/moocs-DLS-NN-DL2/\">Week 3: Shallow neural networks</a></li>\n<li><a href=\"http://www.evanlin.com/moocs-DLS-NN-DL3/\">Week 4: Deep Neural Networks</a></li>\n</ul>",
+          "description_markdown": "本來就想把 Deep Learning 學一下， 因緣際會下看到這一篇 [Coursera 學習心得](https://medium.com/@ywchen88/andrew-ng-deep-learning-specialization-%E8%AA%B2%E7%A8%8B%E6%84%9F%E6%83%B3-1-3-6acf4d6c5c82) 試讀了七天，除了提供 Jupyter Notebook 之外，作業也都相當有趣，就開始繼續學了． 目前進度到 Week2 相當推薦有程式設計一點點基礎就可以來學．裡面的數學應該還好． 學習的過程中還可以學會 Python 裡面的 numpy 如何使用，因為裡面主要就是要教導你如何使用 numpy 來兜出 Neural Network ．\r\n\r\n真的相當有趣的基礎課程，基本上上完了就等於把o’reilly deep learning 的整本書都上完．並且有實際透過 numpy 寫完部分的 DNN 的分類器的作業．\r\n\r\n- [Week 1-2: Introduction to deep learning & Neural Networks Basics](http://www.evanlin.com/moocs-DLS-NN-DL/)\r\n- [Week 3: Shallow neural networks](http://www.evanlin.com/moocs-DLS-NN-DL2/)\r\n- [Week 4: Deep Neural Networks](http://www.evanlin.com/moocs-DLS-NN-DL3/)",
+          "embedded_links": [
+            {
+              "identifier": "dQ6rScj",
+              "title": "Coursera 學習心得",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@ywchen88/andrew-ng-deep-learning-specialization-%E8%AA%B2%E7%A8%8B%E6%84%9F%E6%83%B3-1-3-6acf4d6c5c82"
+            },
+            {
+              "identifier": "oU65cMv",
+              "title": "Week 1-2: Introduction to deep learning & Neural Networks Basics",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/moocs-DLS-NN-DL/"
+            },
+            {
+              "identifier": "oWx7q6S",
+              "title": "Week 3: Shallow neural networks",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/moocs-DLS-NN-DL2/"
+            },
+            {
+              "identifier": "ru1THr7",
+              "title": "Week 4: Deep Neural Networks",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/moocs-DLS-NN-DL3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "Ep2bZm8",
+          "type": "Link",
+          "title": "A brief history of APIs at Dailymotion",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/dailymotion-engineering/a-brief-history-of-apis-at-dailymotion-3c2c16001717",
+          "description": "<p>每天有百萬次 API 呼叫的 Dailymotion 如何 scale 他們的 API performance，像是解決 over-fetching 跟  chattiness 問題。</p>\n\n<p>後面還有一小段是在介紹如何 scale API Team。</p>",
+          "description_markdown": "每天有百萬次 API 呼叫的 Dailymotion 如何 scale 他們的 API performance，像是解決 over-fetching 跟  chattiness 問題。\r\n\r\n後面還有一小段是在介紹如何 scale API Team。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PHpuQ1W",
+          "type": "Link",
+          "title": "CSS for components",
+          "url_domain": "stylable.io",
+          "url": "https://stylable.io/",
+          "description": "<p>Wix 提出專為 Component 設計的 CSS preprocessor。</p>",
+          "description_markdown": "Wix 提出專為 Component 設計的 CSS preprocessor。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Igm3Jzh",
+          "type": "Link",
+          "title": "Facebook Overhauls ReasonML Syntax in Reason 3",
+          "url_domain": "infoq.com",
+          "url": "https://www.infoq.com/news/2017/11/facebook-releases-reason-3",
+          "description": "<p>ReasonML 正式邁入第三版，加入更多迎合 JS 開發人員的語法。</p>\n\n<p>像是 labeled arg 的 shorhand，或是更像 JS 的 function call。</p>",
+          "description_markdown": "ReasonML 正式邁入第三版，加入更多迎合 JS 開發人員的語法。\r\n\r\n像是 labeled arg 的 shorhand，或是更像 JS 的 function call。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "jOURx3z",
+          "type": "Link",
+          "title": "Seasells.io",
+          "url_domain": "seashells.io",
+          "url": "https://seashells.io/",
+          "description": "<p>這個網站可以讓你快速的把命令列(CLI) 的輸出變成一個網頁。 只要把輸出透過 netcat 上傳，就會產生一個會自動更新的網頁，可以拿來看 watch 的輸出，或是把程式執行的結果分享給別人。當然也可以傳 <a href=\"https://github.com/klange/nyancat\">nyancat</a> 或 <a href=\"https://github.com/erkin/ponysay\">ponysay</a> 給別人。</p>",
+          "description_markdown": "這個網站可以讓你快速的把命令列(CLI) 的輸出變成一個網頁。 只要把輸出透過 netcat 上傳，就會產生一個會自動更新的網頁，可以拿來看 watch 的輸出，或是把程式執行的結果分享給別人。當然也可以傳 [nyancat](https://github.com/klange/nyancat) 或 [ponysay](https://github.com/erkin/ponysay) 給別人。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "W2veKpE",
+              "title": "nyancat",
+              "url_domain": "github.com",
+              "url": "https://github.com/klange/nyancat"
+            },
+            {
+              "identifier": "V8ODBfM",
+              "title": "ponysay",
+              "url_domain": "github.com",
+              "url": "https://github.com/erkin/ponysay"
+            }
+          ]
+        },
+        {
+          "identifier": "8jsA0t9",
+          "type": "Link",
+          "title": "Feature Visualization",
+          "url_domain": "distill.pub",
+          "url": "https://distill.pub/2017/feature-visualization/",
+          "description": "<p>很多人覺得 deep learning 是一個魔法黑盒子。這篇 google 的研究把 Feature 化為圖像。讓我們能一窺黑盒子的內部，讓我們對於 deep learning 又多了一點點的了解。</p>",
+          "description_markdown": "很多人覺得 deep learning 是一個魔法黑盒子。這篇 google 的研究把 Feature 化為圖像。讓我們能一窺黑盒子的內部，讓我們對於 deep learning 又多了一點點的了解。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5rQduvn",
+          "type": "Link",
+          "title": "Spotify Scrum",
+          "url_domain": "spotify.com",
+          "url": "https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/",
+          "description": "<p><a href=\"https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/\">part 2</a>\nSpotify 描述了他們怎麼跑 Scrum。他們跑的不是教科書上的標準 Scrum。他們捨棄了許多標準項目，像是估時和 burndown chart等，只保留有助溝通和改進的像是 daily standup和 retrospective 等。有興趣的可以看看他們怎麼讓超過1000個工程師一起跑scrum。</p>",
+          "description_markdown": "[part 2](https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/)\r\nSpotify 描述了他們怎麼跑 Scrum。他們跑的不是教科書上的標準 Scrum。他們捨棄了許多標準項目，像是估時和 burndown chart等，只保留有助溝通和改進的像是 daily standup和 retrospective 等。有興趣的可以看看他們怎麼讓超過1000個工程師一起跑scrum。",
+          "embedded_links": [
+            {
+              "identifier": "6djnHrx",
+              "title": "part 2",
+              "url_domain": "spotify.com",
+              "url": "https://labs.spotify.com/2014/09/20/spotify-engineering-culture-part-2/"
+            }
+          ]
+        },
+        {
+          "identifier": "1lhuMHh",
+          "type": "Link",
+          "title": "Amazing 1$ microcontrollers",
+          "url_domain": "jaycarlson.net",
+          "url": "https://jaycarlson.net/microcontrollers/",
+          "description": "<p>介紹了 21 種價格低於一元美金的微控制器。鉅細彌遺的介紹了每一個微控制器的 IO，時脈等特色，還有編譯器，開發環境與效能的分析。 Maker 們絕對不能錯過。</p>",
+          "description_markdown": "介紹了 21 種價格低於一元美金的微控制器。鉅細彌遺的介紹了每一個微控制器的 IO，時脈等特色，還有編譯器，開發環境與效能的分析。 Maker 們絕對不能錯過。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "NzFKgFF",
+          "type": "Link",
+          "title": "魔法風雲會是圖靈完備的 (Turing complete) ",
+          "url_domain": "toothycat.net",
+          "url": "https://www.toothycat.net/~hologram/Turing/index.html",
+          "description": "<p><a href=\"https://zh.wikipedia.org/wiki/%E4%B8%87%E6%99%BA%E7%89%8C\">魔法風雲會 (Magic: the Gathering)</a> 是一款由<a href=\"https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AF%9F%C2%B7%E5%8A%A0%E8%8F%B2\">數學教授</a>發明的集換式卡片遊戲。有人證明了可以用這款遊戲製造出一個圖靈機。</p>\n\n<p>最近即將推出的新系列有不少和程式有關的梗，像是 <a href=\"https://shop.tcgplayer.com/magic/unstable/hot-fix\">hot fix</a> 和 <a href=\"https://shop.tcgplayer.com/magic/unstable/the-grand-calcutron\">The Grand Calcutron</a>。</p>",
+          "description_markdown": "[魔法風雲會 (Magic: the Gathering)](https://zh.wikipedia.org/wiki/%E4%B8%87%E6%99%BA%E7%89%8C) 是一款由[數學教授](https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AF%9F%C2%B7%E5%8A%A0%E8%8F%B2)發明的集換式卡片遊戲。有人證明了可以用這款遊戲製造出一個圖靈機。\r\n\r\n最近即將推出的新系列有不少和程式有關的梗，像是 [hot fix](https://shop.tcgplayer.com/magic/unstable/hot-fix) 和 [The Grand Calcutron](https://shop.tcgplayer.com/magic/unstable/the-grand-calcutron)。",
+          "embedded_links": [
+            {
+              "identifier": "kNfyzKD",
+              "title": "魔法風雲會 (Magic: the Gathering)",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E4%B8%87%E6%99%BA%E7%89%8C"
+            },
+            {
+              "identifier": "bM4jiMM",
+              "title": "數學教授",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E6%9D%8E%E5%AF%9F%C2%B7%E5%8A%A0%E8%8F%B2"
+            },
+            {
+              "identifier": "pzxhdkK",
+              "title": "hot fix",
+              "url_domain": "tcgplayer.com",
+              "url": "https://shop.tcgplayer.com/magic/unstable/hot-fix"
+            },
+            {
+              "identifier": "5yWcPYC",
+              "title": "The Grand Calcutron",
+              "url_domain": "tcgplayer.com",
+              "url": "https://shop.tcgplayer.com/magic/unstable/the-grand-calcutron"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

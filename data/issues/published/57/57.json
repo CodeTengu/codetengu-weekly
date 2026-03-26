@@ -1,0 +1,464 @@
+{
+  "number": 57,
+  "title": "Issue 57 Any application that can be written in JavaScript, will eventually be written in JavaScript.",
+  "summary": "本期內容涵蓋 JavaScript, HTML, React Native, iOS, Redux, MVVM, COSCUP, Modern Web, Go",
+  "url": "https://weekly.codetengu.com/issues/57",
+  "publication_status": "published",
+  "published_at": "2016-08-29T03:00:00+01:00",
+  "updated_at": "2016-08-29T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://book.douban.com/people/vinta/\">The Best of Isaac Asimov</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 因為工作看韓劇，同時開始追美漫</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Best of Isaac Asimov](https://book.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 因為工作看韓劇，同時開始追美漫\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Q5ukCvI",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "36mDThT",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "V8hYjkw",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "kf8VTST",
+              "title": "The Best of Isaac Asimov",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "xqoxG3f",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "RX9Zker",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "dIHMOXw",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Q3MqIkP",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "fE0wHoi",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "HQ9jKnw",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "dkXmZbF",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "LrsjTN3",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "9wyTXix",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "UdsJQVq",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "7WAMyru",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "SiAZVRM",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "ZiEICtn",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "9g6BZkN",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "e1NkVCc",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hpilmsY",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "zBpiZ2h",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1Z1nZuI",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "3iOY4p3",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "xhOFuLz",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "csKge2S",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "RpW8YAJ",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "C4Tf05X",
+          "type": "Link",
+          "title": "The Marvellously Mysterious JavaScript Maybe Monad",
+          "url_domain": "jrsinclair.com",
+          "url": "http://jrsinclair.com/articles/2016/marvellously-mysterious-javascript-maybe-monad/",
+          "description": "<p>如果對 Functional Programing 不熟，建議先看 <a href=\"http://crockford.com/\">Douglas Crockford</a> 在 YUIConf 2012 的<a href=\"https://www.youtube.com/watch?v=dkZFtimgAcM\">介紹影片</a>，以及 <a href=\"https://github.com/egonSchiele\">Aditya Bhargava</a> 的<a href=\"http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html\">圖解教學</a>。</p>\n\n<p>因為 JavaScript 的 Promise 其實也是一種 monad ，所以文章一開始會先重述 Promise ，以便理解 monad 的概念。</p>\n\n<p>再以凌亂的 if statement 當作例子，一步一步的套用 maybe monad ，改善 null/undefined checking 的流程。</p>",
+          "description_markdown": "如果對 Functional Programing 不熟，建議先看 [Douglas Crockford](http://crockford.com/) 在 YUIConf 2012 的[介紹影片](https://www.youtube.com/watch?v=dkZFtimgAcM)，以及 [Aditya Bhargava](https://github.com/egonSchiele) 的[圖解教學](http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html)。\r\n\r\n因為 JavaScript 的 Promise 其實也是一種 monad ，所以文章一開始會先重述 Promise ，以便理解 monad 的概念。\r\n\r\n再以凌亂的 if statement 當作例子，一步一步的套用 maybe monad ，改善 null/undefined checking 的流程。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "xxLtiCE",
+              "title": "Douglas Crockford",
+              "url_domain": "crockford.com",
+              "url": "http://crockford.com/"
+            },
+            {
+              "identifier": "af1AIhH",
+              "title": "介紹影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=dkZFtimgAcM"
+            },
+            {
+              "identifier": "bn7BYWV",
+              "title": "Aditya Bhargava",
+              "url_domain": "github.com",
+              "url": "https://github.com/egonSchiele"
+            },
+            {
+              "identifier": "l7P32sX",
+              "title": "圖解教學",
+              "url_domain": "adit.io",
+              "url": "http://adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html"
+            }
+          ]
+        },
+        {
+          "identifier": "HVEA0TP",
+          "type": "Link",
+          "title": "A few HTML tips",
+          "url_domain": "mozilla.org",
+          "url": "https://hacks.mozilla.org/2016/08/a-few-html-tips/",
+          "description": "<p>這篇文章點出了一些 HTML 上的小建議：</p>\n\n<ul>\n<li>段落\n\n<ul>\n<li>斷行使用 &lt;p> ，避免使用 &lt;br> （ &lt;br> 適合用在詩或歌的斷句 ）</li>\n</ul>\n</li>\n<li>標題\n\n<ul>\n<li>為了表示正確的語意，必須按照順序使用 &lt;h1> ~ &lt;h6> ，如果是需要調整字型大小，可以透過 CSS 更改</li>\n<li>在次標題上避免使用較低層級的 heading ，改用一般的文字 markup 。</li>\n</ul>\n</li>\n<li>表單\n\n<ul>\n<li>placeholder 建議放入正確格式的範例而非說明</li>\n<li>使用正確的 type 在 mobile 顯示對應的鍵盤</li>\n</ul>\n</li>\n<li>使用 &lt;svg> 取代 &lt;img> ， 使得向量圖也可以透過 CSS 來改變樣式</li>\n</ul>",
+          "description_markdown": "這篇文章點出了一些 HTML 上的小建議：\r\n\r\n* 段落\r\n    * 斷行使用 <p> ，避免使用 <br> （ <br> 適合用在詩或歌的斷句 ）\r\n* 標題\r\n    * 為了表示正確的語意，必須按照順序使用 <h1> ~ <h6> ，如果是需要調整字型大小，可以透過 CSS 更改\r\n    * 在次標題上避免使用較低層級的 heading ，改用一般的文字 markup 。\r\n* 表單\r\n    * placeholder 建議放入正確格式的範例而非說明\r\n    * 使用正確的 type 在 mobile 顯示對應的鍵盤\r\n* 使用 <svg> 取代 <img> ， 使得向量圖也可以透過 CSS 來改變樣式",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OoDc8l4",
+          "type": "Link",
+          "title": "Introducing React Native Ubuntu",
+          "url_domain": "ubuntu.com",
+          "url": "https://developer.ubuntu.com/en/blog/2016/08/05/introducing-react-native-ubuntu/",
+          "description": "<p>日前 Ubuntu 公布了 <a href=\"https://github.com/CanonicalLtd/react-native\">React Native for Ubuntu</a> 的 source code ，現在可以利用 React Native 來實作 Ubuntu 的 Desktop App 了！</p>\n\n<p>有興趣的朋友可以照著<a href=\"https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-ubuntu.md\">官方教學</a>玩玩看。</p>",
+          "description_markdown": "日前 Ubuntu 公布了 [React Native for Ubuntu](https://github.com/CanonicalLtd/react-native) 的 source code ，現在可以利用 React Native 來實作 Ubuntu 的 Desktop App 了！\r\n\r\n有興趣的朋友可以照著[官方教學](https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-ubuntu.md)玩玩看。",
+          "embedded_links": [
+            {
+              "identifier": "T80Cvb4",
+              "title": "React Native for Ubuntu",
+              "url_domain": "github.com",
+              "url": "https://github.com/CanonicalLtd/react-native"
+            },
+            {
+              "identifier": "sss4Kdc",
+              "title": "官方教學",
+              "url_domain": "github.com",
+              "url": "https://github.com/CanonicalLtd/react-native/blob/ubuntu/README-ubuntu.md"
+            }
+          ]
+        },
+        {
+          "identifier": "6vKFXA7",
+          "type": "Link",
+          "title": "How to Handle React Context in a Reliable Way.",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/react-ecosystem/how-to-handle-react-context-a7592dfdcbc#.ne9adfq2q",
+          "description": "<p>當需要將 properties 傳遞到多個 level 底下時， React 提供了一種方式來解決參數需要層層傳遞的問題： <a href=\"https://facebook.github.io/react/docs/context.html\">Context</a> ，已經被一些較熱門的 libraries 使用，如 <a href=\"https://github.com/reactjs/react-redux\">React-Redux</a> 與 <a href=\"https://github.com/reactjs/react-router\">React-Router</a>。</p>\n\n<p>不過使用上還是有一些缺點：</p>\n\n<ul>\n<li>因為目前還在實驗階段，將來 API 很有可能會變動</li>\n<li>假設 context value 更新了，使用到該 value 的 descendant component 與 provider component 間如有其他 component 進入 shouldComponentUpdate 並 return false ，則該 descendant component 並不會 re-render ，使用上容易出錯。</li>\n</ul>\n\n\n<p>對此 <a href=\"https://twitter.com/dan_abramov\">Dan Abramov</a> 在他的 twitter 上面給了一些<a href=\"https://twitter.com/dan_abramov/status/749715530454622208\">意見</a></p>\n\n<p>可以藉由 High-order component 的方式，將 context 寫在較外層的 component ，這樣 API 更新時，就只需要改一個地方。</p>",
+          "description_markdown": "當需要將 properties 傳遞到多個 level 底下時， React 提供了一種方式來解決參數需要層層傳遞的問題： [Context](https://facebook.github.io/react/docs/context.html) ，已經被一些較熱門的 libraries 使用，如 [React-Redux](https://github.com/reactjs/react-redux) 與 [React-Router](https://github.com/reactjs/react-router)。\r\n\r\n不過使用上還是有一些缺點：\r\n\r\n* 因為目前還在實驗階段，將來 API 很有可能會變動\r\n* 假設 context value 更新了，使用到該 value 的 descendant component 與 provider component 間如有其他 component 進入 shouldComponentUpdate 並 return false ，則該 descendant component 並不會 re-render ，使用上容易出錯。\r\n\r\n對此 [Dan Abramov](https://twitter.com/dan_abramov) 在他的 twitter 上面給了一些[意見](https://twitter.com/dan_abramov/status/749715530454622208)\r\n\r\n可以藉由 High-order component 的方式，將 context 寫在較外層的 component ，這樣 API 更新時，就只需要改一個地方。",
+          "embedded_links": [
+            {
+              "identifier": "ef502WY",
+              "title": "Context",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/docs/context.html"
+            },
+            {
+              "identifier": "msvFYkb",
+              "title": "React-Redux",
+              "url_domain": "github.com",
+              "url": "https://github.com/reactjs/react-redux"
+            },
+            {
+              "identifier": "GxLIJa",
+              "title": "React-Router",
+              "url_domain": "github.com",
+              "url": "https://github.com/reactjs/react-router"
+            },
+            {
+              "identifier": "Tz9cAL1",
+              "title": "Dan Abramov",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/dan_abramov"
+            },
+            {
+              "identifier": "qOEDC59",
+              "title": "意見",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/dan_abramov/status/749715530454622208"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "pPJ2SrS",
+          "type": "Link",
+          "title": "Managing Consistency of Immutable Models",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/slug-peter-livesey-managing-consistency-immutable-models/",
+          "description": "<p>資料不一致一直都是程式設計師的惡夢，也是 bug 最常發生的原因之一。LinkedIn 的工程師分享了他們對 Core Data 的評價，以及如何透過 immutable model 達到資料的一致性。說穿了就是「真相永遠只有一個（Single source of truth）」，建議可以配合最近很紅的 Redux 架構一起看，會有更多體會。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c\">用 Objective-C 實作 Redux 架構</a></li>\n<li><a href=\"http://redux.js.org/docs/introduction/index.html\">Redux</a></li>\n<li><a href=\"https://github.com/ReSwift/ReSwift\">ReSwift: Unidirectional Data Flow in Swift - Inspired by Redux</a></li>\n<li><a href=\"http://blog.benjamin-encz.de/post/real-world-flux-ios/\">Real World Flux Architecture on iOS</a></li>\n</ul>",
+          "description_markdown": "資料不一致一直都是程式設計師的惡夢，也是 bug 最常發生的原因之一。LinkedIn 的工程師分享了他們對 Core Data 的評價，以及如何透過 immutable model 達到資料的一致性。說穿了就是「真相永遠只有一個（Single source of truth）」，建議可以配合最近很紅的 Redux 架構一起看，會有更多體會。\r\n\r\n延伸閱讀：\r\n\r\n- [用 Objective-C 實作 Redux 架構](http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c)\r\n- [Redux](http://redux.js.org/docs/introduction/index.html)\r\n- [ReSwift: Unidirectional Data Flow in Swift - Inspired by Redux](https://github.com/ReSwift/ReSwift)\r\n- [Real World Flux Architecture on iOS](http://blog.benjamin-encz.de/post/real-world-flux-ios/)",
+          "embedded_links": [
+            {
+              "identifier": "BdGrR0h",
+              "title": "用 Objective-C 實作 Redux 架構",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/posts/2016/08/03/redux-in-objective-c"
+            },
+            {
+              "identifier": "mEPlZR",
+              "title": "Redux",
+              "url_domain": "js.org",
+              "url": "http://redux.js.org/docs/introduction/index.html"
+            },
+            {
+              "identifier": "FR5ItY0",
+              "title": "ReSwift: Unidirectional Data Flow in Swift - Inspired by Redux",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReSwift/ReSwift"
+            },
+            {
+              "identifier": "NoGHUgW",
+              "title": "Real World Flux Architecture on iOS",
+              "url_domain": "benjamin-encz.de",
+              "url": "http://blog.benjamin-encz.de/post/real-world-flux-ios/"
+            }
+          ]
+        },
+        {
+          "identifier": "jZ1Kg9e",
+          "type": "Link",
+          "title": "活久见的重构 - iOS 10 UserNotifications 框架解析",
+          "url_domain": "onevcat.com",
+          "url": "https://onevcat.com/2016/08/notification/",
+          "description": "<p>九月即將來臨，Apple 下一代產品也將要發表，這也代表著 iOS 10 正式版要上線了。在 iOS 10 裡頭對於 notification 相關的 framework 做了一個大更動，變得對開發者更加友好了，如果你還不知道改了什麼，是時候瞭解一下了！</p>",
+          "description_markdown": "九月即將來臨，Apple 下一代產品也將要發表，這也代表著 iOS 10 正式版要上線了。在 iOS 10 裡頭對於 notification 相關的 framework 做了一個大更動，變得對開發者更加友好了，如果你還不知道改了什麼，是時候瞭解一下了！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "SDWYQSQ",
+          "type": "Link",
+          "title": "The iOS bug chase",
+          "url_domain": "allegro.tech",
+          "url": "http://allegro.tech/2016/08/the-ios-bug-chase.html",
+          "description": "<p>遇到 bug 總是一件令人喪氣的事，尤其是遇到很難重現或者是系統的 bug 更是如此。有位開發者就遇到一個這種 bug，它是 Apple MapView 的一個老問題，存在好幾年了。多虧這位開發者，這個 bug 已經在即將正式推出的 iOS 10 被修正，他把 debug 的過程詳細的紀錄了下來，讀起來非常有趣。</p>",
+          "description_markdown": "遇到 bug 總是一件令人喪氣的事，尤其是遇到很難重現或者是系統的 bug 更是如此。有位開發者就遇到一個這種 bug，它是 Apple MapView 的一個老問題，存在好幾年了。多虧這位開發者，這個 bug 已經在即將正式推出的 iOS 10 被修正，他把 debug 的過程詳細的紀錄了下來，讀起來非常有趣。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "635NJ7P",
+          "type": "Link",
+          "title": "MVVM Is Quite Okay at What It Is Supposed to Do",
+          "url_domain": "christiantietze.de",
+          "url": "http://christiantietze.de/posts/2016/08/mvvm-is-okay-for-what-it-does/",
+          "description": "<p>MVVM 應該是這幾年 iOS 開發最熱門的關鍵字之一，網路上對它的褒貶不一，也有不少人以此為基礎提出了所謂的「加強版」。我個人是覺得它會背負這一些罵名，一部分是因為它的名字取的不好，另一部分是因為使用者沒有完全理解它就硬把它導入到專案裡頭。</p>\n\n<p>MVVM 所描述的是關於部分 UI 的架構，更精確的說，是關於「如何回應使用者動作（View 呼叫 View Model）」以及「如何將資料顯示到畫面（View Model 通知 View）」。但因為沒有明確的說明該怎麼設計 View Model，結果很多人把原本在 View Controller 的一大坨程式碼搬到 View Model，這對程式碼完全沒有幫助啊！</p>\n\n<p>正確的作法應該是：依照需要你可能會有 Network Manager、Data Parser、Data Center、有的沒的 Service，你的 View Model 呼叫這些元件做事，然後把回傳資料轉換成適當的格式，再通知 View 更新畫面。</p>",
+          "description_markdown": "MVVM 應該是這幾年 iOS 開發最熱門的關鍵字之一，網路上對它的褒貶不一，也有不少人以此為基礎提出了所謂的「加強版」。我個人是覺得它會背負這一些罵名，一部分是因為它的名字取的不好，另一部分是因為使用者沒有完全理解它就硬把它導入到專案裡頭。\r\n\r\nMVVM 所描述的是關於部分 UI 的架構，更精確的說，是關於「如何回應使用者動作（View 呼叫 View Model）」以及「如何將資料顯示到畫面（View Model 通知 View）」。但因為沒有明確的說明該怎麼設計 View Model，結果很多人把原本在 View Controller 的一大坨程式碼搬到 View Model，這對程式碼完全沒有幫助啊！\r\n\r\n正確的作法應該是：依照需要你可能會有 Network Manager、Data Parser、Data Center、有的沒的 Service，你的 View Model 呼叫這些元件做事，然後把回傳資料轉換成適當的格式，再通知 View 更新畫面。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8U1qoDD",
+          "type": "Link",
+          "title": "Xcode 8 Extensions",
+          "url_domain": "theswiftdev.com",
+          "url": "https://theswiftdev.com/2016/08/17/xcode-8-extensions/",
+          "description": "<p>Xcode 作為一個 IDE，它所提供的功能雖然一直都很不符合大多工程師的期待，但因為蘋果也沒有禁止我們幫 Xcode 開發 plugins，所以 plugins 生態圈也是蓬勃發展，大家也用的很開心。</p>\n\n<p>想不到在今年的 WWDC 蘋果放出了一個震撼彈，正式支援讓人開發 Xcode 套件，但也禁止舊有 plugins 執行。只是三個月過去了，大概是蘋果開放可控制的東西太少，所以目前看到的套件還是寥寥可數啊 :(</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://alcatraz.io/\">Alcatraz | The Package manager for Xcode</a></li>\n</ul>",
+          "description_markdown": "Xcode 作為一個 IDE，它所提供的功能雖然一直都很不符合大多工程師的期待，但因為蘋果也沒有禁止我們幫 Xcode 開發 plugins，所以 plugins 生態圈也是蓬勃發展，大家也用的很開心。\r\n\r\n想不到在今年的 WWDC 蘋果放出了一個震撼彈，正式支援讓人開發 Xcode 套件，但也禁止舊有 plugins 執行。只是三個月過去了，大概是蘋果開放可控制的東西太少，所以目前看到的套件還是寥寥可數啊 :(\r\n\r\n延伸閱讀：\r\n\r\n- [Alcatraz | The Package manager for Xcode](http://alcatraz.io/)",
+          "embedded_links": [
+            {
+              "identifier": "eGWoSYV",
+              "title": "Alcatraz | The Package manager for Xcode",
+              "url_domain": "alcatraz.io",
+              "url": "http://alcatraz.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "KtrvBGK",
+          "type": "Link",
+          "title": "[研討會心得][COSCUP] COSCUP 2016 上台初體驗",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/coscup2016/",
+          "description": "<p>曾經聽人提到這兩年參與大大小小研討會，越來越少看到參與者來寫心得了．\n所以就算是身為講者，我也提出了我的心得 :p</p>\n\n<p>裡面有附上兩場主要跟 Golang 有關場次的投影片，並且有把直播影片也附上，歡迎想看的人可以直接點取觀看．</p>",
+          "description_markdown": "曾經聽人提到這兩年參與大大小小研討會，越來越少看到參與者來寫心得了． \r\n所以就算是身為講者，我也提出了我的心得 :p \r\n\r\n裡面有附上兩場主要跟 Golang 有關場次的投影片，並且有把直播影片也附上，歡迎想看的人可以直接點取觀看．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "nzlzJZk",
+          "type": "Link",
+          "title": "[研討會] Modern Web 2016 - Day2 上台日",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/modernweb-2016-2/",
+          "description": "<p>今年的 <a href=\"http://modernweb.tw/agenda.html#content\">Modern Web 2016</a> 一共有三位碼天狗的 Curator 上台，你們有沒有參加呢？\n這是我參加第二天的心得整理 ( 內容有連接到第一天的心得 ) ，裡面也有我這次上台的投影片，希望對大家有些幫助...</p>",
+          "description_markdown": "今年的 [Modern Web 2016](http://modernweb.tw/agenda.html#content) 一共有三位碼天狗的 Curator 上台，你們有沒有參加呢？\r\n這是我參加第二天的心得整理 ( 內容有連接到第一天的心得 ) ，裡面也有我這次上台的投影片，希望對大家有些幫助...",
+          "embedded_links": [
+            {
+              "identifier": "NRSweG1",
+              "title": "Modern Web 2016",
+              "url_domain": "modernweb.tw",
+              "url": "http://modernweb.tw/agenda.html#content"
+            }
+          ]
+        },
+        {
+          "identifier": "Kbty94w",
+          "type": "Link",
+          "title": "Go Traps",
+          "url_domain": "go-traps.appspot.com",
+          "url": "http://go-traps.appspot.com/",
+          "description": "<p>列出了許多 Golang 的陷阱 (trap) ，舉例而言:</p>\n\n<ol>\n<li><code>range</code> 一個 slice 第一個回傳值不是 value 而是 key (最常犯 XD)</li>\n<li><code>map</code> 忘記初始化</li>\n<li>goroutine 如果沒有等待，直接結束 app 的話是不會執行的．</li>\n</ol>\n\n\n<p>試著看看你能不能看出每一個陷阱的原因吧．</p>",
+          "description_markdown": "列出了許多 Golang 的陷阱 (trap) ，舉例而言:\r\n\r\n1. `range` 一個 slice 第一個回傳值不是 value 而是 key (最常犯 XD)\r\n2. `map` 忘記初始化\r\n3. goroutine 如果沒有等待，直接結束 app 的話是不會執行的．\r\n\r\n試著看看你能不能看出每一個陷阱的原因吧．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "IJqir75",
+          "type": "Link",
+          "title": "GopherCon 2016 - Playlist",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdliXelGAItjzTMxy2WQh0P",
+          "description": "<p>今年最盛大的 Gopher 聚會， GopherCon 2016 在 07 月 10 ~ 11日已經結束了．\n但是影片在這八月底終於釋出．</p>\n\n<p>這裡有播放清單，快來看看:</p>\n\n<p>推薦 Session :</p>\n\n<ol>\n<li>Rob Pike - The Design of the Go Assembler</li>\n<li>Francesc Campoy - Understanding nil</li>\n<li>Daniel Whitenack - Go for Data Science</li>\n</ol>",
+          "description_markdown": "今年最盛大的 Gopher 聚會， GopherCon 2016 在 07 月 10 ~ 11日已經結束了． \r\n但是影片在這八月底終於釋出．\r\n\r\n這裡有播放清單，快來看看:\r\n\r\n推薦 Session :\r\n\r\n1. Rob Pike - The Design of the Go Assembler\r\n2. Francesc Campoy - Understanding nil\r\n3. Daniel Whitenack - Go for Data Science",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "C3nmnMj",
+          "type": "Link",
+          "title": "Why I consider if/else idiomatic Go ",
+          "url_domain": "nicerobot.org",
+          "url": "http://blog.nicerobot.org/posts/why-i-consider-ifelse-idiomatic-go",
+          "description": "<p>這一篇講解了很基本的 IF / ELSE 的使用方式．特別是在 Golang 的 Error Handle 部分．\n大家在判斷回傳值中的 Error ，是否有注意到他的變數生命週期？\n有沒有想過如何寫會讓人更容易了解？</p>\n\n<p>很推薦這一篇來好好學習一下</p>",
+          "description_markdown": "這一篇講解了很基本的 IF / ELSE 的使用方式．特別是在 Golang 的 Error Handle 部分．\r\n大家在判斷回傳值中的 Error ，是否有注意到他的變數生命週期？ \r\n有沒有想過如何寫會讓人更容易了解？ \r\n\r\n很推薦這一篇來好好學習一下",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

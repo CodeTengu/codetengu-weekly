@@ -1,0 +1,579 @@
+{
+  "number": 91,
+  "title": "Issue 91 如何檢查你的 Linux 作業系統是 32 位元或是 [敏感词已被屏蔽] 位元？請使用 uname -m 指令",
+  "summary": "本期內容涵蓋 Management, Scrum, iOS, Objective-C, Python, pip, Go, Kubernetes",
+  "url": "https://weekly.codetengu.com/issues/91",
+  "publication_status": "published",
+  "published_at": "2017-06-05T03:00:00+01:00",
+  "updated_at": "2017-06-05T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Singularity Sky</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 教召完領了 3500，得了毛囊炎</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 人生就是不斷地填坑</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - PyCon Taiwan 2017 倒數 4 天</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>（<a href=\"https://github.com/CodeTengu\">Open Source 專案</a>）或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Singularity Sky](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 教召完領了 3500，得了毛囊炎\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 人生就是不斷地填坑\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - PyCon Taiwan 2017 倒數 4 天\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters)（[Open Source 專案](https://github.com/CodeTengu)）或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "9emmIKS",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "mMhBkbH",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "l1Kly4D",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "QgDo5Ky",
+              "title": "Singularity Sky",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "qnIRQDq",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "u8vteWe",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "QHXzLqc",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "IIBAFxh",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "N9cuWaW",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "9paxtrX",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "kHnmuML",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "BqbXBI8",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "gSJq5eB",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "qKFIMSj",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "YDFBFbN",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "iuNTXsp",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "nNo7SfJ",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "vWHZcvY",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "mrmHfll",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "19KsSNT",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "QkXZ314",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "ze8nGCL",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "iPsvJCc",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "HcvU6Bj",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "FWKrYQu",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "KEVLPM5",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "40gmAxL",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "aPgLOoq",
+          "type": "Link",
+          "title": "The Engineering Manager Handbook",
+          "url_domain": "leadingsnowflakes.com",
+          "url": "http://leadingsnowflakes.com/",
+          "description": "<p>最近換了工作，擔任的角色跟以往有些不同，正在積極補充一些新知，<a href=\"https://twitter.com/tzangms\">海總理</a>就推薦了我這一本作為入門書，這本書頁數不多，言簡意賅，大致抓了一些重點：</p>\n\n<ul>\n<li>Manager 的任務是要讓整個團隊變得更好，其他事情都是基於這個前提而來。</li>\n<li>Manager 還是要偶爾寫寫程式，挑那些不會卡住別人進度或是對團隊有所幫助的任務來做。</li>\n<li>養成記錄決策的習慣，並且事後要檢視這些決策的結果。</li>\n<li>真誠的跟人分享，讓訊息流通更透明，並且取得他人的回饋。</li>\n<li>只做必要由你來做的事情，其他的事情分配給別人做，讓你的成員一起成長。</li>\n</ul>",
+          "description_markdown": "最近換了工作，擔任的角色跟以往有些不同，正在積極補充一些新知，[海總理](https://twitter.com/tzangms)就推薦了我這一本作為入門書，這本書頁數不多，言簡意賅，大致抓了一些重點：\r\n\r\n- Manager 的任務是要讓整個團隊變得更好，其他事情都是基於這個前提而來。\r\n- Manager 還是要偶爾寫寫程式，挑那些不會卡住別人進度或是對團隊有所幫助的任務來做。\r\n- 養成記錄決策的習慣，並且事後要檢視這些決策的結果。\r\n- 真誠的跟人分享，讓訊息流通更透明，並且取得他人的回饋。\r\n- 只做必要由你來做的事情，其他的事情分配給別人做，讓你的成員一起成長。",
+          "embedded_links": [
+            {
+              "identifier": "YOKQx77",
+              "title": "海總理",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            }
+          ]
+        },
+        {
+          "identifier": "conaImH",
+          "type": "Link",
+          "title": "How I share information with my team",
+          "url_domain": "mikemcgarr.com",
+          "url": "http://www.mikemcgarr.com/blog/week-in-review.html",
+          "description": "<p>Netflix 的 Engineering Manager 說明他是如何跟團隊分享資訊的，他每個禮拜都會用 Google Doc 寫一份 Week-in-Review（本週回顧），裡頭包含</p>\n\n<ul>\n<li>本週做了什麼事</li>\n<li>公司的 planning 跟 roadmaps</li>\n<li>徵人的進度</li>\n<li>產品的進度</li>\n<li>一些開會跟公司現況的資訊等等</li>\n</ul>\n\n\n<p>作者也解釋了為什麼他不把大家聚集起來開個會就好，而是採用這樣寫文件的方式，以及這樣做之後帶來的好處。</p>",
+          "description_markdown": "Netflix 的 Engineering Manager 說明他是如何跟團隊分享資訊的，他每個禮拜都會用 Google Doc 寫一份 Week-in-Review（本週回顧），裡頭包含\r\n\r\n- 本週做了什麼事\r\n- 公司的 planning 跟 roadmaps\r\n- 徵人的進度\r\n- 產品的進度\r\n- 一些開會跟公司現況的資訊等等\r\n\r\n作者也解釋了為什麼他不把大家聚集起來開個會就好，而是採用這樣寫文件的方式，以及這樣做之後帶來的好處。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bDn5hhB",
+          "type": "Link",
+          "title": "Scrum Of One: How to Bring Scrum into your One-Person Operation",
+          "url_domain": "raywenderlich.com",
+          "url": "https://www.raywenderlich.com/162654/scrum-one-bring-scrum-one-person-operation",
+          "description": "<p>一般人通常會覺得 Scrum 或是 Agile 這種工作流程比較適合多人團隊，如果是獨立開發者的話根本不需要這樣一套複雜流程來規範自己的工作方式。本文作者是個獨立開發者，他一開始的時候糾結於該怎麼找到適合自己的工作流程，後來嘗試對自己導入 Scrum 之後發現行程井井有條、生產力提高、考試都考一百分了！</p>\n\n<p>或許你們工程團隊沒有跑 Scrum/Agile 流程，或許你根本不是工程師，你都可以看看這篇文章，試著從中提取一些方法到日常的工作方式裡頭，一定會有幫助的！</p>",
+          "description_markdown": "一般人通常會覺得 Scrum 或是 Agile 這種工作流程比較適合多人團隊，如果是獨立開發者的話根本不需要這樣一套複雜流程來規範自己的工作方式。本文作者是個獨立開發者，他一開始的時候糾結於該怎麼找到適合自己的工作流程，後來嘗試對自己導入 Scrum 之後發現行程井井有條、生產力提高、考試都考一百分了！\r\n\r\n或許你們工程團隊沒有跑 Scrum/Agile 流程，或許你根本不是工程師，你都可以看看這篇文章，試著從中提取一些方法到日常的工作方式裡頭，一定會有幫助的！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "qgdKaOI",
+          "type": "Link",
+          "title": "iOS: How to build a Table View with multiple cell types",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/ios-os-x-development/ios-how-to-build-a-table-view-with-multiple-cell-types-2df91a206429",
+          "description": "<p><code>UITableView</code> 的重要性我就不多說了，它隨處可見並且千變萬化，許多 UI 都是用它打造出來的。有一定經驗的 iOS 工程師也都知道，雖然它很好用，可是需要處理多種不同類型的 Cell 時就會很頭痛，很容易就會寫出又臭又長的程式碼，卻又好像沒什麼好辦法可以避免。</p>\n\n<p>本文作者用 MVVM 的概念來處理各個不同型態的 Cell，為這個問題提供了一個不錯的解法。底下的留言也很精彩，不少人一起分享他們在設計 Cell 時遇到的問題以及做法。</p>",
+          "description_markdown": "`UITableView` 的重要性我就不多說了，它隨處可見並且千變萬化，許多 UI 都是用它打造出來的。有一定經驗的 iOS 工程師也都知道，雖然它很好用，可是需要處理多種不同類型的 Cell 時就會很頭痛，很容易就會寫出又臭又長的程式碼，卻又好像沒什麼好辦法可以避免。\r\n\r\n本文作者用 MVVM 的概念來處理各個不同型態的 Cell，為這個問題提供了一個不錯的解法。底下的留言也很精彩，不少人一起分享他們在設計 Cell 時遇到的問題以及做法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PAhGqoL",
+          "type": "Link",
+          "title": "Swifty Objective-C",
+          "url_domain": "pspdfkit.com",
+          "url": "https://pspdfkit.com/blog/2016/swifty-objective-c/",
+          "description": "<p>這是 PSPDFKit 團隊在 2016 年寫的文章，現在看來依然非常實用。這篇文章解釋了他們為何繼續使用 Objective-C 而不是 Swift、如何讓程式碼與 Swift 相容、還有如何適當的使用 C++ 讓程式碼更好維護。文中列出了許多 C++ 的小技巧，即使原本不熟悉 C++ 的人也能很快上手並從中獲益，最後他們也列出了這樣做的優點跟缺點。</p>",
+          "description_markdown": "這是 PSPDFKit 團隊在 2016 年寫的文章，現在看來依然非常實用。這篇文章解釋了他們為何繼續使用 Objective-C 而不是 Swift、如何讓程式碼與 Swift 相容、還有如何適當的使用 C++ 讓程式碼更好維護。文中列出了許多 C++ 的小技巧，即使原本不熟悉 C++ 的人也能很快上手並從中獲益，最後他們也列出了這樣做的優點跟缺點。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "KfKyeU1",
+          "type": "Link",
+          "title": "Pipenv: Sacred Marriage of Pipfile, Pip, & Virtualenv",
+          "url_domain": "pipenv.org",
+          "url": "http://pipenv.org",
+          "description": "<p>如果你用過像 <a href=\"https://www.npmjs.com\">NPM</a> 或 <a href=\"http://bundler.io\">Bundler</a> 之類的工具，可能會覺得 Python 的開發環境管理工具略為難用，例如 requirements.txt 難以升級、沒辦法自動管理 dependency 容易留下根本沒用到的套件、virtualenv 需要各種 activate 不小心就會裝錯地方（然後又很難反安裝！）。該有的功能是都有，我之前也<a href=\"https://weekly.codetengu.com/issues/68?m=web#LRlqnN1\">分享過</a>手動做相同流程的 workflow，但就是很麻煩啊。</p>\n\n<p>然後 Pipenv 就橫空出世！！其實它有一陣子了，但我是最近剛好開<a href=\"https://github.com/pycontw/quizbot-2017\">新專案</a>才有機會試用。它用同樣由 <a href=\"https://www.kennethreitz.org\">Kenneth</a> 發起的 <a href=\"https://github.com/pypa/pipfile\">Pipfile</a> 格式取代 requirements.txt，這個格式的基本概念等同於 Bundler 的 Gemfile 與 Gemfile.lock 概念；原本手動的 Virtualenv 管理，則以 <code>pipenv run</code> 與 <code>pipenv shell</code> 取代。完美。如果你有新專案，絕對要試試這個 solution。對於已經使用 requirements.txt 的專案，Pipenv 也內建 requirements.txt → Pipfile 的 converter；我是還不敢用，不過心臟大的可以試試看 XD</p>",
+          "description_markdown": "如果你用過像 [NPM](https://www.npmjs.com) 或 [Bundler](http://bundler.io) 之類的工具，可能會覺得 Python 的開發環境管理工具略為難用，例如 requirements.txt 難以升級、沒辦法自動管理 dependency 容易留下根本沒用到的套件、virtualenv 需要各種 activate 不小心就會裝錯地方（然後又很難反安裝！）。該有的功能是都有，我之前也[分享過](https://weekly.codetengu.com/issues/68?m=web#LRlqnN1)手動做相同流程的 workflow，但就是很麻煩啊。\r\n\r\n然後 Pipenv 就橫空出世！！其實它有一陣子了，但我是最近剛好開[新專案](https://github.com/pycontw/quizbot-2017)才有機會試用。它用同樣由 [Kenneth](https://www.kennethreitz.org) 發起的 [Pipfile](https://github.com/pypa/pipfile) 格式取代 requirements.txt，這個格式的基本概念等同於 Bundler 的 Gemfile 與 Gemfile.lock 概念；原本手動的 Virtualenv 管理，則以 `pipenv run` 與 `pipenv shell` 取代。完美。如果你有新專案，絕對要試試這個 solution。對於已經使用 requirements.txt 的專案，Pipenv 也內建 requirements.txt → Pipfile 的 converter；我是還不敢用，不過心臟大的可以試試看 XD",
+          "embedded_links": [
+            {
+              "identifier": "CD2xPSP",
+              "title": "NPM",
+              "url_domain": "npmjs.com",
+              "url": "https://www.npmjs.com"
+            },
+            {
+              "identifier": "lIwOR2o",
+              "title": "Bundler",
+              "url_domain": "bundler.io",
+              "url": "http://bundler.io"
+            },
+            {
+              "identifier": "385BqJJ",
+              "title": "分享過",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/68?m=web#LRlqnN1"
+            },
+            {
+              "identifier": "VUe5gtK",
+              "title": "新專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/pycontw/quizbot-2017"
+            },
+            {
+              "identifier": "47TIl1i",
+              "title": "Kenneth",
+              "url_domain": "kennethreitz.org",
+              "url": "https://www.kennethreitz.org"
+            },
+            {
+              "identifier": "K4jc5Zo",
+              "title": "Pipfile",
+              "url_domain": "github.com",
+              "url": "https://github.com/pypa/pipfile"
+            }
+          ]
+        },
+        {
+          "identifier": "TJrJHa9",
+          "type": "Link",
+          "title": "pipsi = pip script installer",
+          "url_domain": "github.com",
+          "url": "https://github.com/mitsuhiko/pipsi",
+          "description": "<p>承上篇。這類取代 Pip 的工具都有個缺點：需要安裝成 global site package。每個專案的 dependencies 可以用 virtualenv 來隔離，但有些工具就是需要 global 才能方便用，尤其有 CLI script 的工具像 <a href=\"https://cookiecutter.readthedocs.io/en/latest/\">Cookiecutter</a>、<a href=\"http://flake8.pycqa.org/\">Flake8</a>、<a href=\"http://xon.sh\">Xonsh</a>。Pipsi 就是用來解決這個問題。當你執行 <code>pipsi install [套件名]</code> 時，你的套件會被裝到自己的 virtualenv 裡，然後 entry point 被 link 到 <code>~/.local/bin</code>。這在概念上類似 NPM，會讓每個套件都有獨立的 dependency tree，讓反安裝非常簡單，也不會有 version conflicts。同樣建議使用。</p>",
+          "description_markdown": "承上篇。這類取代 Pip 的工具都有個缺點：需要安裝成 global site package。每個專案的 dependencies 可以用 virtualenv 來隔離，但有些工具就是需要 global 才能方便用，尤其有 CLI script 的工具像 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/)、[Flake8](http://flake8.pycqa.org/)、[Xonsh](http://xon.sh)。Pipsi 就是用來解決這個問題。當你執行 `pipsi install [套件名]` 時，你的套件會被裝到自己的 virtualenv 裡，然後 entry point 被 link 到 `~/.local/bin`。這在概念上類似 NPM，會讓每個套件都有獨立的 dependency tree，讓反安裝非常簡單，也不會有 version conflicts。同樣建議使用。",
+          "embedded_links": [
+            {
+              "identifier": "Xa0KqkF",
+              "title": "Cookiecutter",
+              "url_domain": "readthedocs.io",
+              "url": "https://cookiecutter.readthedocs.io/en/latest/"
+            },
+            {
+              "identifier": "7w50IzG",
+              "title": "Flake8",
+              "url_domain": "pycqa.org",
+              "url": "http://flake8.pycqa.org/"
+            },
+            {
+              "identifier": "c1wQAVe",
+              "title": "Xonsh",
+              "url_domain": "xon.sh",
+              "url": "http://xon.sh"
+            }
+          ]
+        },
+        {
+          "identifier": "WjHcwaE",
+          "type": "Link",
+          "title": "The Idiomatic Way to Merge Dictionaries in Python",
+          "url_domain": "treyhunner.com",
+          "url": "http://treyhunner.com/2016/02/how-to-merge-dictionaries-in-python/",
+          "description": "<p>前陣子聊天聊到 Python 偶爾會 imperative 到讓人討厭，尤其搭配 lambda 只能一個 expression 會讓某些事情特別拗口。例如我現在有個 dict <code>defaults</code>，想建一個新 dict 包含它，但加上一些新資訊，最 idiomatic 的寫法是這樣：</p>\n\n<pre><code class=\"python\">user = {'name': 'TP'}\nuser.update(defaults)\n</code></pre>\n\n<p>問題在 <code>update()</code> 的回傳值是 <code>None</code>，所以如果我有一堆 user dicts，想為它們每一個都加上 <code>defaults</code>，就非得寫一個獨立的 function，才能用 comprehension（或 <code>map</code>）來處理：</p>\n\n<pre><code class=\"python\">def make_info(name):\n    user = {'name': name}\n    user.update(defaults)\n    return user\n\nnames = ['Alex', 'Betty', 'Charlie', 'Dorothy']\nfor info in map(make_info, names):\n    print(info)\n</code></pre>\n\n<p>這時候就會希望 Python 有比較 <a href=\"https://www.martinfowler.com/bliki/FluentInterface.html\">fluent</a> 的 API。如果 <code>update()</code> 能夠回傳 callee，我就可以這樣寫：</p>\n\n<pre><code class=\"python\">map(lambda n: {'name': n}.update(defaults), names)\n</code></pre>\n\n<p>可惜事與願違。</p>\n\n<p>這篇文章就是在探討各種 dict merging 語法，比較它們的語意差異和好用程度（主要是能否 inline，亦即能否用在 fluent interface）。</p>\n\n<p><strong>以下爆雷</strong></p>\n\n<p>真的沒什麼完美解——除非你用 Python 3.5 以上。關鍵字：<a href=\"https://www.python.org/dev/peps/pep-0448/\">PEP 448</a>。終於！！淚流滿面。</p>",
+          "description_markdown": "前陣子聊天聊到 Python 偶爾會 imperative 到讓人討厭，尤其搭配 lambda 只能一個 expression 會讓某些事情特別拗口。例如我現在有個 dict `defaults`，想建一個新 dict 包含它，但加上一些新資訊，最 idiomatic 的寫法是這樣：\r\n\r\n```python\r\nuser = {'name': 'TP'}\r\nuser.update(defaults)\r\n```\r\n\r\n問題在 `update()` 的回傳值是 `None`，所以如果我有一堆 user dicts，想為它們每一個都加上 `defaults`，就非得寫一個獨立的 function，才能用 comprehension（或 `map`）來處理：\r\n\r\n```python\r\ndef make_info(name):\r\n    user = {'name': name}\r\n    user.update(defaults)\r\n    return user\r\n\r\nnames = ['Alex', 'Betty', 'Charlie', 'Dorothy']\r\nfor info in map(make_info, names):\r\n    print(info)\r\n```\r\n\r\n這時候就會希望 Python 有比較 [fluent](https://www.martinfowler.com/bliki/FluentInterface.html) 的 API。如果 `update()` 能夠回傳 callee，我就可以這樣寫：\r\n\r\n```python\r\nmap(lambda n: {'name': n}.update(defaults), names)\r\n```\r\n\r\n可惜事與願違。\r\n\r\n這篇文章就是在探討各種 dict merging 語法，比較它們的語意差異和好用程度（主要是能否 inline，亦即能否用在 fluent interface）。\r\n\r\n**以下爆雷**\r\n\r\n真的沒什麼完美解——除非你用 Python 3.5 以上。關鍵字：[PEP 448](https://www.python.org/dev/peps/pep-0448/)。終於！！淚流滿面。",
+          "embedded_links": [
+            {
+              "identifier": "acF71P4",
+              "title": "fluent",
+              "url_domain": "martinfowler.com",
+              "url": "https://www.martinfowler.com/bliki/FluentInterface.html"
+            },
+            {
+              "identifier": "pB1NevF",
+              "title": "PEP 448",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-0448/"
+            }
+          ]
+        },
+        {
+          "identifier": "8ffloeF",
+          "type": "Link",
+          "title": "Unconference – PyCon Taiwan 2017",
+          "url_domain": "github.com",
+          "url": "https://github.com/pycontw/unconference/issues",
+          "description": "<p>約好的 (並沒有) 自肥時間。週末就是 PyCon Taiwan 啦，今年第三天我們新開了 <a href=\"https://tw.pycon.org/2017/events/unconference/\">unconference 活動</a>，有想講的題目就上去開個新 issue 就行了，我們會幫你準備場地。只是打算來聽的人也可以進去幫喜歡的題目按個 👍 鼓勵一下。</p>\n\n<p>話說<a href=\"https://www.facebook.com/mosky.liu/posts/10209646506061254\">有人覺得</a>我們都沒宣傳<a href=\"https://tw.pycon.org/2017/events/schedule/\">今年的議程表</a>根本太囂張。其實不是這樣的啊，我們是體貼才低調進行，畢竟現在票都買不到了，宣傳也只會讓大家傷心吧。<del>你看這議程超精美還能和<a href=\"https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf\">林軒田</a>老師和<a href=\"https://www.facebook.com/vivianchen.tw\">陳縕儂</a>老師面對面但是你想來也沒辦法呢哈哈哈哈 UCCU (σ′▽‵)′▽‵)σ UCCU </del></p>",
+          "description_markdown": "約好的 (並沒有) 自肥時間。週末就是 PyCon Taiwan 啦，今年第三天我們新開了 [unconference 活動](https://tw.pycon.org/2017/events/unconference/)，有想講的題目就上去開個新 issue 就行了，我們會幫你準備場地。只是打算來聽的人也可以進去幫喜歡的題目按個 👍 鼓勵一下。 \r\n\r\n話說[有人覺得](https://www.facebook.com/mosky.liu/posts/10209646506061254)我們都沒宣傳[今年的議程表](https://tw.pycon.org/2017/events/schedule/)根本太囂張。其實不是這樣的啊，我們是體貼才低調進行，畢竟現在票都買不到了，宣傳也只會讓大家傷心吧。~~你看這議程超精美還能和[林軒田](https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf)老師和[陳縕儂](https://www.facebook.com/vivianchen.tw)老師面對面但是你想來也沒辦法呢哈哈哈哈 UCCU (σ′▽‵)′▽‵)σ UCCU ~~",
+          "embedded_links": [
+            {
+              "identifier": "RfvyR46",
+              "title": "unconference 活動",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2017/events/unconference/"
+            },
+            {
+              "identifier": "z6urnBt",
+              "title": "有人覺得",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/mosky.liu/posts/10209646506061254"
+            },
+            {
+              "identifier": "p92wRji",
+              "title": "今年的議程表",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2017/events/schedule/"
+            },
+            {
+              "identifier": "yMZPRuZ",
+              "title": "林軒田",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/playlist?list=PLXVfgk9fNX2I7tB6oIINGBmW50rrmFTqf"
+            },
+            {
+              "identifier": "J05Jlo6",
+              "title": "陳縕儂",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/vivianchen.tw"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "1bqu8S6",
+          "type": "Link",
+          "title": "為了自己的習慣，弄了一個簡單的服務 GitHub issue bookmark",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/til-2017-05-23/",
+          "description": "<p>筆者自肥的部分又來了，這次要來介紹一個寫起來好玩的小服務．</p>\n\n<p>大家是不是常常覺得在 twitter 上面有很多鏈結都很精彩，但是缺乏以下功能:</p>\n\n<ul>\n<li>不好搜尋</li>\n<li>不容易加上任何更多的意見</li>\n<li>不容易分類</li>\n</ul>\n\n\n<p>於是我寫了一個這樣的小服務透過 Heroku 來部署的．你可以透過 IFTTT 來達成完整的功能．</p>\n\n<p>只要你在 Twitter 上面發表一個鏈結後，他就會發表到你的某個指定 repo 的 issue 上面，並且根據你的 hashtag 來加上 label．如此一來你可以快速的紀錄你感興趣的網址，然後之後再加上更多的意見與資料，並且可以很容易的搜尋到．\n有興趣就拿去用吧..</p>\n\n<p>BTW:  這當然是用 Go 開發的...</p>",
+          "description_markdown": "筆者自肥的部分又來了，這次要來介紹一個寫起來好玩的小服務．\r\n\r\n大家是不是常常覺得在 twitter 上面有很多鏈結都很精彩，但是缺乏以下功能:\r\n\r\n- 不好搜尋\r\n- 不容易加上任何更多的意見\r\n- 不容易分類\r\n\r\n於是我寫了一個這樣的小服務透過 Heroku 來部署的．你可以透過 IFTTT 來達成完整的功能．\r\n\r\n只要你在 Twitter 上面發表一個鏈結後，他就會發表到你的某個指定 repo 的 issue 上面，並且根據你的 hashtag 來加上 label．如此一來你可以快速的紀錄你感興趣的網址，然後之後再加上更多的意見與資料，並且可以很容易的搜尋到．\r\n有興趣就拿去用吧..\r\n\r\nBTW:  這當然是用 Go 開發的...",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "WDiERVI",
+          "type": "Link",
+          "title": "kelseyhightower/oscon-metrics-tutorial: OSCON Metrics Tutorial",
+          "url_domain": "github.com",
+          "url": "https://github.com/kelseyhightower/oscon-metrics-tutorial",
+          "description": "<p>OSCON 2017 剛剛在上週結束，而身為 Google Kubernetes 的傳教士 - Kelsey Hightower 當然有來宣傳 Kubernetes．講解的主要是如何在 Kubernetes 集群裡面來做量測並且透過該數值資料來做一些應用．並且有公佈全部的 script 在 Github 上面．</p>\n\n<p>這個 Repo 主要使用 minikube 加上 helm 來安裝與使用，大量使用到 InfluxData 的許多工具，包括了:</p>\n\n<ul>\n<li>InfluxDB: 一個 Go 開發的時間序列資料庫</li>\n<li>Telegraf: 一個可以量測的工具</li>\n<li>Chronograf: 一個可以網頁顯示資料的工具</li>\n<li>Kapacitor: 拿來做 ETL 的工具</li>\n</ul>\n\n\n<p>除了安裝這些工具外，並且透過 Kapacitor 來做 auto-scaling ．想要學這些工具的話，可以玩玩這個 repo ．透過 minikube 要學習完全無難度啊....</p>",
+          "description_markdown": "OSCON 2017 剛剛在上週結束，而身為 Google Kubernetes 的傳教士 - Kelsey Hightower 當然有來宣傳 Kubernetes．講解的主要是如何在 Kubernetes 集群裡面來做量測並且透過該數值資料來做一些應用．並且有公佈全部的 script 在 Github 上面．\r\n\r\n這個 Repo 主要使用 minikube 加上 helm 來安裝與使用，大量使用到 InfluxData 的許多工具，包括了:\r\n\r\n- InfluxDB: 一個 Go 開發的時間序列資料庫\r\n- Telegraf: 一個可以量測的工具 \r\n- Chronograf: 一個可以網頁顯示資料的工具\r\n- Kapacitor: 拿來做 ETL 的工具\r\n\r\n除了安裝這些工具外，並且透過 Kapacitor 來做 auto-scaling ．想要學這些工具的話，可以玩玩這個 repo ．透過 minikube 要學習完全無難度啊....",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "XfN8ig1",
+          "type": "Link",
+          "title": "Advanced Scheduling in Kubernetes",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/til-2017-05-08/",
+          "description": "<p>支援多種方式的排程 (Scheduling) 一直都是 Kubernetes 這種群集管理系統很重要的功能之一．而 Kubernetes 在 1.6 的時候就支援了不少種的排程方式．從透過偏好的 Affinity 來讓 Pod 自動找到適合的節點，或是透過 Taints 來讓 Pod 自動遠離某些節點．都是可以讓排程上多了更多的彈性．</p>\n\n<p>如果還沒有太多的了解，可以先看看我寫的簡單介紹..</p>",
+          "description_markdown": "支援多種方式的排程 (Scheduling) 一直都是 Kubernetes 這種群集管理系統很重要的功能之一．而 Kubernetes 在 1.6 的時候就支援了不少種的排程方式．從透過偏好的 Affinity 來讓 Pod 自動找到適合的節點，或是透過 Taints 來讓 Pod 自動遠離某些節點．都是可以讓排程上多了更多的彈性．\r\n\r\n如果還沒有太多的了解，可以先看看我寫的簡單介紹..",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "G2a2SRu",
+          "type": "Link",
+          "title": "hobby-kube/guide: Kubernetes clusters for the hobbyist",
+          "url_domain": "github.com",
+          "url": "https://github.com/hobby-kube/guide",
+          "description": "<p>[給業餘者的 Kubernetes 架設指南]\n這份指南裡面有清楚的指導如何架設完整功能並且安全的 Kubernetes Cluster ，\n並且把 Firewall, Authentication, Authorization 與 Storage 的規劃相關的設定都講解得相當清楚．</p>",
+          "description_markdown": "[給業餘者的 Kubernetes 架設指南]\r\n這份指南裡面有清楚的指導如何架設完整功能並且安全的 Kubernetes Cluster ，\r\n並且把 Firewall, Authentication, Authorization 與 Storage 的規劃相關的設定都講解得相當清楚．\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TR9JfwI",
+          "type": "Link",
+          "title": "Contributing to the Go project",
+          "url_domain": "gopheracademy.com",
+          "url": "https://blog.gopheracademy.com/advent-2016/contributing-to-the-go-project/",
+          "description": "<p>2016 的舊文章，不過很實用．</p>\n\n<p>由於 Go 專案都是放在 <a href=\"https://www.gerritcodereview.com/\">Gerrit</a> 想要貢獻給 #golang 專案，卻又不知道該如何開始？ 這篇文章提供一整個流程的簡介．</p>",
+          "description_markdown": "2016 的舊文章，不過很實用．\r\n\r\n由於 Go 專案都是放在 [Gerrit](https://www.gerritcodereview.com/) 想要貢獻給 #golang 專案，卻又不知道該如何開始？ 這篇文章提供一整個流程的簡介．",
+          "embedded_links": [
+            {
+              "identifier": "bj7ySDx",
+              "title": "Gerrit",
+              "url_domain": "gerritcodereview.com",
+              "url": "https://www.gerritcodereview.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "xrrZClr",
+          "type": "Link",
+          "title": "单车和坦克更配！",
+          "url_domain": "facebook.com",
+          "url": "https://www.facebook.com/photo.php?fbid=10155488092519662",
+          "description": "<blockquote><p>北京小藍單車，在六月四號隆重推出「單車和坦克更配」的促銷活動，三小時內帳號被註銷。</p></blockquote>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://whogovernstw.org/2014/06/01/jaw-nian-huang-1/\">中國的威權鞏固模式與台灣的民主深化危機：寫於「六四」25 週年</a></li>\n<li><a href=\"https://twstreetcorner.org/2014/04/14/wangyiting/\">難以對話的兩種民主觀？秩序、政府效能 vs 自由、人權保障</a></li>\n</ul>\n\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 提供。</p>",
+          "description_markdown": "> 北京小藍單車，在六月四號隆重推出「單車和坦克更配」的促銷活動，三小時內帳號被註銷。\r\n\r\n延伸閱讀：\r\n\r\n- [中國的威權鞏固模式與台灣的民主深化危機：寫於「六四」25 週年](http://whogovernstw.org/2014/06/01/jaw-nian-huang-1/)\r\n- [難以對話的兩種民主觀？秩序、政府效能 vs 自由、人權保障](https://twstreetcorner.org/2014/04/14/wangyiting/)\r\n\r\n由 [@vinta](https://twitter.com/vinta) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "xG9qdxo",
+              "title": "中國的威權鞏固模式與台灣的民主深化危機：寫於「六四」25 週年",
+              "url_domain": "whogovernstw.org",
+              "url": "http://whogovernstw.org/2014/06/01/jaw-nian-huang-1/"
+            },
+            {
+              "identifier": "ABoWvZ3",
+              "title": "難以對話的兩種民主觀？秩序、政府效能 vs 自由、人權保障",
+              "url_domain": "twstreetcorner.org",
+              "url": "https://twstreetcorner.org/2014/04/14/wangyiting/"
+            },
+            {
+              "identifier": "a2KiYJJ",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "871ecae1-d8f4-412c-86eb-c0a2aaa6a952.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_871ecae1-d8f4-412c-86eb-c0a2aaa6a952.jpg",
+          "image_medium_filename": "original_ratio_medium_871ecae1-d8f4-412c-86eb-c0a2aaa6a952.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "sGLeSs8",
+          "type": "Link",
+          "title": "第一天上工就毀了正式環境的資料庫",
+          "url_domain": "reddit.com",
+          "url": "https://np.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/",
+          "description": "<p>身為一位工程師，第一天上工的首要任務當然是設定開發環境。不過有位可憐的新手工程師，在按照教學文件把本地資料庫清空並加入測試資料時，不小心打了正式資料庫的帳號密碼，毀滅了所有的資料。最慘的是資料庫完全沒有辦法從備份回復。CTO 要他立刻走人，還告訴他會找法務跟他談談。</p>\n\n<p>之前 <a href=\"https://aws.amazon.com/message/680587/\">AWS</a> 和 <a href=\"https://twitter.com/gitlabstatus/status/826591961444384768\">GitLab</a> 都發生過類似的事故。</p>\n\n<p>Reddit 和 <a href=\"https://twitter.com/jxxf/status/871000661869154304\">Twitter</a> 上的評論認為公司要負大部分的責任，而不是可憐的新手工程師。<a href=\"https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/dieitun/\">GitLab 事件的苦主</a> 也認為這是公司政策的問題，GitLab 事件發生後沒有任何人被責備或開除。</p>\n\n<p>有一個 <a href=\"https://andrewsrandomthoughts.wordpress.com/2012/07/29/the-10-million-dollar-mistake/\">IBM 的鄉野傳說</a>，有個年輕人做了錯誤的決定讓公司虧了 1000 萬。當他去找 CEO  Tom Watson Sr 負荊請罪時，Watson 跟他說: 『我怎麼可能讓你走呢？我們剛花了 1000 萬來教育你。』</p>\n\n<p>看來繼 <a href=\"http://www.worldbackupday.com/en/\">3/31</a> 還有 <a href=\"http://checkyourbackups.work/\">2/1</a> 後，6/3 也應該成為國際備份檢查日 。</p>\n\n<p>由 <a href=\"https://twitter.com/johnlinvc\">@johnlinvc</a> 提供。</p>",
+          "description_markdown": "身為一位工程師，第一天上工的首要任務當然是設定開發環境。不過有位可憐的新手工程師，在按照教學文件把本地資料庫清空並加入測試資料時，不小心打了正式資料庫的帳號密碼，毀滅了所有的資料。最慘的是資料庫完全沒有辦法從備份回復。CTO 要他立刻走人，還告訴他會找法務跟他談談。\r\n\r\n之前 [AWS](https://aws.amazon.com/message/680587/) 和 [GitLab](https://twitter.com/gitlabstatus/status/826591961444384768) 都發生過類似的事故。\r\n\r\nReddit 和 [Twitter](https://twitter.com/jxxf/status/871000661869154304) 上的評論認為公司要負大部分的責任，而不是可憐的新手工程師。[GitLab 事件的苦主](https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/dieitun/) 也認為這是公司政策的問題，GitLab 事件發生後沒有任何人被責備或開除。\r\n\r\n有一個 [IBM 的鄉野傳說](https://andrewsrandomthoughts.wordpress.com/2012/07/29/the-10-million-dollar-mistake/)，有個年輕人做了錯誤的決定讓公司虧了 1000 萬。當他去找 CEO  Tom Watson Sr 負荊請罪時，Watson 跟他說: 『我怎麼可能讓你走呢？我們剛花了 1000 萬來教育你。』\r\n\r\n看來繼 [3/31](http://www.worldbackupday.com/en/) 還有 [2/1](http://checkyourbackups.work/) 後，6/3 也應該成為國際備份檢查日 。\r\n\r\n由 [@johnlinvc](https://twitter.com/johnlinvc) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "rJn3Ttu",
+              "title": "AWS",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/message/680587/"
+            },
+            {
+              "identifier": "5lYxOIS",
+              "title": "GitLab",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/gitlabstatus/status/826591961444384768"
+            },
+            {
+              "identifier": "aBTPhzF",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jxxf/status/871000661869154304"
+            },
+            {
+              "identifier": "cTVkbnF",
+              "title": "GitLab 事件的苦主",
+              "url_domain": "reddit.com",
+              "url": "https://www.reddit.com/r/cscareerquestions/comments/6ez8ag/accidentally_destroyed_production_database_on/dieitun/"
+            },
+            {
+              "identifier": "iaOhxOk",
+              "title": "IBM 的鄉野傳說",
+              "url_domain": "wordpress.com",
+              "url": "https://andrewsrandomthoughts.wordpress.com/2012/07/29/the-10-million-dollar-mistake/"
+            },
+            {
+              "identifier": "MxUZdDq",
+              "title": "3/31",
+              "url_domain": "worldbackupday.com",
+              "url": "http://www.worldbackupday.com/en/"
+            },
+            {
+              "identifier": "k352vXj",
+              "title": "2/1",
+              "url_domain": "checkyourbackups.work",
+              "url": "http://checkyourbackups.work/"
+            },
+            {
+              "identifier": "rKQEpSz",
+              "title": "@johnlinvc",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/johnlinvc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

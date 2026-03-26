@@ -1,0 +1,413 @@
+{
+  "number": 30,
+  "title": "Issue 30 聽我說，我有一個獨家的點子，只缺幾個工程師來實現它：「設計一套可以付費下載更多 RAM 的 APP」",
+  "summary": "本期內容涵蓋 Python, Manager, DB, Career, CI, Docker",
+  "url": "https://weekly.codetengu.com/issues/30",
+  "publication_status": "published",
+  "published_at": "2016-02-15T03:12:12+00:00",
+  "updated_at": "2016-05-04T19:38:08+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 楊威利腦殘粉</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 機器學習好難</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 楊威利腦殘粉\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 機器學習好難\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "AExBCEp",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "PsgMWEH",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "BBYVjf9",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "9msvMQB",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "ghgknqm",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "A0cuIPl",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "nmAQPHo",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "uLpV2tA",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "qEeeWxJ",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "P2DAFOW",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "77MQB3s",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "NkfCood",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "xWR8EYJ",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "5SCg2Yf",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "CCiJHt9",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "RMkL1gP",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "I7zqVKr",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "BN98R6t",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "B3OUHSu",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "C6JNB5d",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "SaZKZbt",
+          "type": "Link",
+          "title": "Orator - An ActiveRecord ORM for Python",
+          "url_domain": "orator-orm.com",
+          "url": "https://orator-orm.com/",
+          "description": "<p>最近出現的 ORM, 看起來挺好用的, 其實一直都有在尋找 Python 有沒有這類獨立的 ORM, 平常都用 Django 的 ORM, 綁著 Django 不好抽出來, 可是也不太喜歡 SQLAlchemy :p</p>\n\n<p>特別是最近流行 Serverless, 像是 AWS Lambda, 就很需要一個好用 ORM 來開發一些小東西。 看了 Orator 的設定文件, 簡單明暸, 覺得就是它了!</p>",
+          "description_markdown": "最近出現的 ORM, 看起來挺好用的, 其實一直都有在尋找 Python 有沒有這類獨立的 ORM, 平常都用 Django 的 ORM, 綁著 Django 不好抽出來, 可是也不太喜歡 SQLAlchemy :p \r\n\r\n特別是最近流行 Serverless, 像是 AWS Lambda, 就很需要一個好用 ORM 來開發一些小東西。 看了 Orator 的設定文件, 簡單明暸, 覺得就是它了!",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Rr0yBel",
+          "type": "Link",
+          "title": "Announcing Zappa - Serverless Python Web Applications",
+          "url_domain": "gun.io",
+          "url": "https://gun.io/blog/announcing-zappa-serverless-python-aws-lambda/",
+          "description": "<p>因為 AWS Lambda 開始支援 Python 之後, 就開始看到一些 AWS Lambda 相關的 Python 專案出現了, 直接支援 Django 的就是 Zappa 了, 可以直接透過 <code>./manage.py</code> 來直接上傳、更新 AWS Lambda 的程式, 很容易就可以把 Django 變成 Serverless。</p>\n\n<p>雖然說我目前還是覺得在 Lambda 上面跑 Django 似乎 cost 有點高, 不過整個 <a href=\"https://github.com/Miserlou/Zappa\">zappa</a> 把整個 API Gateway 跟 Lambda 的概念都包好了, 我覺得可以參考一下。</p>\n\n<p>文章中的 <a href=\"https://www.youtube.com/watch?v=plUrbPN0xc8\">影片</a> 說明得滿清楚的, 不過比較好笑的是影片的第一個留言:</p>\n\n<blockquote><p>This is ridiculous. How is this even possible? I mean, I'm lost for words. How do you live with an unregistered copy of Sublime Text?﻿</p></blockquote>\n\n<p>不得不說, 老兄, 這樣真的不行啊 LOL</p>",
+          "description_markdown": "因為 AWS Lambda 開始支援 Python 之後, 就開始看到一些 AWS Lambda 相關的 Python 專案出現了, 直接支援 Django 的就是 Zappa 了, 可以直接透過 `./manage.py` 來直接上傳、更新 AWS Lambda 的程式, 很容易就可以把 Django 變成 Serverless。\r\n\r\n雖然說我目前還是覺得在 Lambda 上面跑 Django 似乎 cost 有點高, 不過整個 [zappa](https://github.com/Miserlou/Zappa) 把整個 API Gateway 跟 Lambda 的概念都包好了, 我覺得可以參考一下。\r\n\r\n文章中的 [影片](https://www.youtube.com/watch?v=plUrbPN0xc8) 說明得滿清楚的, 不過比較好笑的是影片的第一個留言:\r\n\r\n> This is ridiculous. How is this even possible? I mean, I'm lost for words. How do you live with an unregistered copy of Sublime Text?﻿\r\n\r\n不得不說, 老兄, 這樣真的不行啊 LOL",
+          "embedded_links": [
+            {
+              "identifier": "hREowv4",
+              "title": "zappa",
+              "url_domain": "github.com",
+              "url": "https://github.com/Miserlou/Zappa"
+            },
+            {
+              "identifier": "BexVuTC",
+              "title": "影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=plUrbPN0xc8"
+            }
+          ]
+        },
+        {
+          "identifier": "IFDkUYF",
+          "type": "Link",
+          "title": "Three Common Mistakes of the First Time Tech Lead",
+          "url_domain": "thoughtworks.com",
+          "url": "https://www.thoughtworks.com/insights/blog/three-common-mistakes-first-time-tech-lead",
+          "description": "<p>三個新手 Tech Lead 最常犯的錯誤。</p>\n\n<ol>\n<li>Coding Full-Time</li>\n<li>Making all the Technical Decisions</li>\n<li>Forgetting about Cultivating Team Culture</li>\n</ol>\n\n\n<p>我得承認我都犯過, 不過這幾年學習下來, 我想應該都有修正了吧 :p</p>\n\n<p>不過其實因為手上專案太多, 自己太容易變成瓶頸, 為了避免變成瓶頸, 其實就得朝這方向發展, 這幾年我也是讀了很多這方面的書跟文章。不過這篇確實寫得不錯, 除了收藏之外也跟大家分享一下。</p>",
+          "description_markdown": "三個新手 Tech Lead 最常犯的錯誤。\r\n\r\n1. Coding Full-Time\r\n2. Making all the Technical Decisions\r\n3. Forgetting about Cultivating Team Culture\r\n\r\n我得承認我都犯過, 不過這幾年學習下來, 我想應該都有修正了吧 :p\r\n\r\n不過其實因為手上專案太多, 自己太容易變成瓶頸, 為了避免變成瓶頸, 其實就得朝這方向發展, 這幾年我也是讀了很多這方面的書跟文章。不過這篇確實寫得不錯, 除了收藏之外也跟大家分享一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "IOjNE4w",
+          "type": "Link",
+          "title": "本週 IG: @yua_mikami",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/yua_mikami/",
+          "description": "<p>跟大家推薦, 三上悠亞, 不得了</p>",
+          "description_markdown": "跟大家推薦, 三上悠亞, 不得了",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "1971f0b2-11b9-46e0-b8c9-ca97d0032f1d.jpg",
+          "image_extra_large_filename": "square_extra_large_1971f0b2-11b9-46e0-b8c9-ca97d0032f1d.jpg",
+          "image_medium_filename": "square_medium_1971f0b2-11b9-46e0-b8c9-ca97d0032f1d.jpg"
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "WSbmvla",
+          "type": "Link",
+          "title": "How to build stable systems.",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4",
+          "description": "<p>如何做好 CI, 這是初學 DevOps 的人最常問的問題。但我始終認為, CI 要從程式架構的設計與專案的準備就開始, 而且整個團隊要有建構一個穩定系統的完整概念才行。然而建構一個穩定系統, 又談何容易, <a href=\"https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.ax3aydjai\">Jesper L. Andersen, How to build stable systems</a> 這篇文章, 已略述一二。這裡我只要強調一個重點, \"If you only ever run on windows, you are screwed.\" (是這篇文章說的, 不是我說的)</p>",
+          "description_markdown": "如何做好 CI, 這是初學 DevOps 的人最常問的問題。但我始終認為, CI 要從程式架構的設計與專案的準備就開始, 而且整個團隊要有建構一個穩定系統的完整概念才行。然而建構一個穩定系統, 又談何容易, [Jesper L. Andersen, How to build stable systems](https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.ax3aydjai) 這篇文章, 已略述一二。這裡我只要強調一個重點, \"If you only ever run on windows, you are screwed.\" (是這篇文章說的, 不是我說的)",
+          "embedded_links": [
+            {
+              "identifier": "GoFxSr2",
+              "title": "Jesper L. Andersen, How to build stable systems",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@jlouis666/how-to-build-stable-systems-6fe9dcf32fc4#.ax3aydjai"
+            }
+          ]
+        },
+        {
+          "identifier": "ezMSjeg",
+          "type": "Link",
+          "title": "Finding The Most Lucrative Technology Jobs In 2016",
+          "url_domain": "forbes.com",
+          "url": "http://www.forbes.com/sites/louiscolumbus/2016/02/10/finding-the-most-lucrative-technology-jobs-in-2016/",
+          "description": "<p>每天忙碌地 coding, 有沒有發現你的一行 code 在美國值多少錢? 看到 2016 年美國最有價值的 IT 工作, 我忍不住想介紹這分析給正在埋頭寫 code 的人看。參考這些數據, 讓你決定用哪一種語言, 寫哪一行業的應用, 選擇哪個工作角色對你未來的工作生涯最有利。我覺得, 現在在軟體業的年輕人, 明明就相當於以前台灣所謂的\"科技新貴\", 為何沒有相對的待遇, 令人百思不解。</p>",
+          "description_markdown": "每天忙碌地 coding, 有沒有發現你的一行 code 在美國值多少錢? 看到 2016 年美國最有價值的 IT 工作, 我忍不住想介紹這分析給正在埋頭寫 code 的人看。參考這些數據, 讓你決定用哪一種語言, 寫哪一行業的應用, 選擇哪個工作角色對你未來的工作生涯最有利。我覺得, 現在在軟體業的年輕人, 明明就相當於以前台灣所謂的\"科技新貴\", 為何沒有相對的待遇, 令人百思不解。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "rgH5jfZ",
+          "type": "Link",
+          "title": "How to setup Docker Monitoring",
+          "url_domain": "brianchristner.io",
+          "url": "https://www.brianchristner.io/how-to-setup-docker-monitoring/",
+          "description": "<p>當你越用越多 docker containers 時, 監控 docker 變成必要的工作之一。除了用 <a href=\"http://newrelic.com/docker\">New Relic 公司所提供的 360度 docker visibility</a> 以外, 你也可以利用 Google 的 cAdvisor, 配合 InfluxDB 資料庫引擎, 與 Grafana 的 Metrics Dashboard 自己架設 docker 監控環境。如果你已經裝 docker, 依照<a href=\"https://www.brianchristner.io/how-to-setup-docker-monitoring/\">本篇文章</a>的步驟, 就能快速架設完成。</p>",
+          "description_markdown": "當你越用越多 docker containers 時, 監控 docker 變成必要的工作之一。除了用 [New Relic 公司所提供的 360度 docker visibility](http://newrelic.com/docker) 以外, 你也可以利用 Google 的 cAdvisor, 配合 InfluxDB 資料庫引擎, 與 Grafana 的 Metrics Dashboard 自己架設 docker 監控環境。如果你已經裝 docker, 依照[本篇文章](https://www.brianchristner.io/how-to-setup-docker-monitoring/)的步驟, 就能快速架設完成。",
+          "embedded_links": [
+            {
+              "identifier": "FDrja1o",
+              "title": "New Relic 公司所提供的 360度 docker visibility",
+              "url_domain": "newrelic.com",
+              "url": "http://newrelic.com/docker"
+            },
+            {
+              "identifier": "E0SZBJs",
+              "title": "本篇文章",
+              "url_domain": "brianchristner.io",
+              "url": "https://www.brianchristner.io/how-to-setup-docker-monitoring/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "zrEvd8E",
+          "type": "Link",
+          "title": "The Reference Data Pattern: Extensible and Flexible",
+          "url_domain": "vertabelo.com",
+          "url": "http://www.vertabelo.com/blog/technical-articles/the-reference-data-pattern-extensible-and-flexible",
+          "description": "<p>一項關聯在資料庫裡通常直接用一個 table 表示，但是這樣 table 數量就會隨著資料模型複雜而變多。通常這些<em>關聯屬性</em>也會出現在標題、下拉選單、或其他 UI 元件上，手動維護 table 與程式碼間的對應也非常沒有效率又容易出錯。這篇文章說明另一種方式：僅以一個 table 來記錄各種不同的關聯。</p>\n\n<p>這不算新穎的概念，例如我在 <a href=\"https://streetvoice.com/\">StreetVoice</a> 時用了 Django 的 <a href=\"https://docs.djangoproject.com/en/1.9/ref/contrib/contenttypes/\">contenttypes framework</a> 來同時處理一個人的歌曲、專輯、圖片、文章等不同類型作品的情況，它底層就是相同概念。</p>\n\n<p>如果下次發現你的系統中 relation table 開始多到難以維護、或是需要同時處理跨不同關聯的資料時，試試看改成這種架構吧。</p>",
+          "description_markdown": "一項關聯在資料庫裡通常直接用一個 table 表示，但是這樣 table 數量就會隨著資料模型複雜而變多。通常這些*關聯屬性*也會出現在標題、下拉選單、或其他 UI 元件上，手動維護 table 與程式碼間的對應也非常沒有效率又容易出錯。這篇文章說明另一種方式：僅以一個 table 來記錄各種不同的關聯。\r\n\r\n這不算新穎的概念，例如我在 [StreetVoice](https://streetvoice.com/) 時用了 Django 的 [contenttypes framework](https://docs.djangoproject.com/en/1.9/ref/contrib/contenttypes/) 來同時處理一個人的歌曲、專輯、圖片、文章等不同類型作品的情況，它底層就是相同概念。\r\n\r\n如果下次發現你的系統中 relation table 開始多到難以維護、或是需要同時處理跨不同關聯的資料時，試試看改成這種架構吧。",
+          "embedded_links": [
+            {
+              "identifier": "6hpmEnN",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "Im6DCqp",
+              "title": "contenttypes framework",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/1.9/ref/contrib/contenttypes/"
+            }
+          ]
+        },
+        {
+          "identifier": "Cr1PRHh",
+          "type": "Link",
+          "title": "一些常见的重置密码漏洞分析总汇",
+          "url_domain": "qxzxp.com",
+          "url": "http://www.qxzxp.com/5309.html",
+          "description": "<p>只要有帳號的系統勢必就有重設密碼（reset password）的功能。看看前人留下了什麼樣的洞，避免自己重蹈覆轍吧。</p>",
+          "description_markdown": "只要有帳號的系統勢必就有重設密碼（reset password）的功能。看看前人留下了什麼樣的洞，避免自己重蹈覆轍吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "aczSZTU",
+          "type": "Link",
+          "title": "程序员到底是一个什么职业？",
+          "url_domain": "weibo.cn",
+          "url": "http://media.weibo.cn/article?id=2309403939907201539934&oid=3939907204912472",
+          "description": "<blockquote><p>程序员首先是雇员、然后是工程师；比起创造力，工程能力对这个职位更为重要。</p></blockquote>\n\n<p>雖然很多人（我以前也是）認為編寫程式是一件充滿創意、需要天份的事情；但是在工作職位上把事情做好更重要。與其追求新奇的技術並套用在公司的專案上，替程式加上測試、讓部署可以自動化還來得更有助益些。</p>\n\n<p>當然學習新的技術、發揮創意還是很重要的，所以在工作之餘做做小專案吧！</p>\n\n<ul>\n<li><a href=\"https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects\">Reflections from 52 weeks, 52 projects</a></li>\n<li><a href=\"http://www.evanlin.com/52week-52projets/\">52 Weeks, 52 Projects....</a></li>\n<li><a href=\"http://36kr.com/p/5042761.html\">开源我的 business ideas</a></li>\n</ul>",
+          "description_markdown": "> 程序员首先是雇员、然后是工程师；比起创造力，工程能力对这个职位更为重要。\r\n\r\n雖然很多人（我以前也是）認為編寫程式是一件充滿創意、需要天份的事情；但是在工作職位上把事情做好更重要。與其追求新奇的技術並套用在公司的專案上，替程式加上測試、讓部署可以自動化還來得更有助益些。\r\n\r\n當然學習新的技術、發揮創意還是很重要的，所以在工作之餘做做小專案吧！\r\n\r\n* [Reflections from 52 weeks, 52 projects](https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects)\r\n* [52 Weeks, 52 Projects....](http://www.evanlin.com/52week-52projets/)\r\n* [开源我的 business ideas](http://36kr.com/p/5042761.html)",
+          "embedded_links": [
+            {
+              "identifier": "KgtXv3s",
+              "title": "Reflections from 52 weeks, 52 projects",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/jeffersonlam/reflections-from-52-weeks-52-projects"
+            },
+            {
+              "identifier": "ZVfQ1pe",
+              "title": "52 Weeks, 52 Projects....",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/52week-52projets/"
+            },
+            {
+              "identifier": "4vCBUN6",
+              "title": "开源我的 business ideas",
+              "url_domain": "36kr.com",
+              "url": "http://36kr.com/p/5042761.html"
+            }
+          ]
+        },
+        {
+          "identifier": "S4ozBi9",
+          "type": "Link",
+          "title": "人人都能做产品经理吗？",
+          "url_domain": "qq.com",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIwNDExMzU1Mg%3D%3D&mid=401965503&idx=1&sn=7b4e2a731bc49bbf9b3a3ccd6597343e&scene=1&srcid=0114znp96J2dj6Y9Q5H6kztf&ascene=1&uin=MTc2NTU0Njk0Mg%3D%3D&devicetype=webwx&version=70000001&pass_ticket=3G1DC0c5Og9Ho0Qy3JUEGqwG1pR%2BS%2F4PZ7ycVQdAh40Wh5E85nDM%2FU1wVkCpT2vl",
+          "description": "<p>我聽過不少工程師朋友因為不擅長或不熱愛技術，所以考慮轉職為 PM。問題是 PM 難道是技術人員的避風港或養老中心，不需要特別的能力嗎？</p>\n\n<p>這篇文章可以跟 Pinkoi 前陣子的<a href=\"https://www.smartm.com.tw/article/32303338cea3\">徵才文章</a>搭配著看。雖然一個說的是專案經理、一個是產品經理，但在很多場合其實這兩者是交疊的。</p>\n\n<blockquote><p>顏君庭（Pinkoi共同創辦人暨執行長）：打造不需 PM，就能溝通順暢的跨部門合作文化</p></blockquote>\n\n<p>我是比較偏向微信這篇的看法，PM 需要經驗與專門能力。如果一個好的 PM 不容易找，那要讓整個團隊都具備等效的工作方式勢必更難了。換個職務類想一下：一個軟體團隊可不可以都是 developer 沒有 architect，靠 developer 互相協調出良好的架構？同理，其實 DevOps 也是類似的取捨。</p>\n\n<hr />\n\n<p>延伸閱讀：<a href=\"http://kevintsengtw.blogspot.tw/2015/03/coding.html\">你要 Coding 多久呢？</a></p>\n\n<blockquote><p>常看到很多開發人員就會說他想要去做 SD, SA 或是 PM，好像這些職務就是程式開發人員所謂的「往上」發展之路。\nPG, SD, SA, PM，這樣的職涯發展看起來好像煞有其事也相當合理，但是一個寫了兩三年甚至四五年的程式開發人員就適合去當 SD, SA 嗎？</p></blockquote>",
+          "description_markdown": "我聽過不少工程師朋友因為不擅長或不熱愛技術，所以考慮轉職為 PM。問題是 PM 難道是技術人員的避風港或養老中心，不需要特別的能力嗎？\r\n\r\n這篇文章可以跟 Pinkoi 前陣子的[徵才文章](https://www.smartm.com.tw/article/32303338cea3)搭配著看。雖然一個說的是專案經理、一個是產品經理，但在很多場合其實這兩者是交疊的。\r\n> 顏君庭（Pinkoi共同創辦人暨執行長）：打造不需 PM，就能溝通順暢的跨部門合作文化\r\n\r\n我是比較偏向微信這篇的看法，PM 需要經驗與專門能力。如果一個好的 PM 不容易找，那要讓整個團隊都具備等效的工作方式勢必更難了。換個職務類想一下：一個軟體團隊可不可以都是 developer 沒有 architect，靠 developer 互相協調出良好的架構？同理，其實 DevOps 也是類似的取捨。\r\n\r\n----\r\n\r\n延伸閱讀：[你要 Coding 多久呢？](http://kevintsengtw.blogspot.tw/2015/03/coding.html)\r\n> 常看到很多開發人員就會說他想要去做 SD, SA 或是 PM，好像這些職務就是程式開發人員所謂的「往上」發展之路。\r\n> PG, SD, SA, PM，這樣的職涯發展看起來好像煞有其事也相當合理，但是一個寫了兩三年甚至四五年的程式開發人員就適合去當 SD, SA 嗎？",
+          "embedded_links": [
+            {
+              "identifier": "DYpaG9e",
+              "title": "徵才文章",
+              "url_domain": "smartm.com.tw",
+              "url": "https://www.smartm.com.tw/article/32303338cea3"
+            },
+            {
+              "identifier": "D2uI7KU",
+              "title": "你要 Coding 多久呢？",
+              "url_domain": "blogspot.tw",
+              "url": "http://kevintsengtw.blogspot.tw/2015/03/coding.html"
+            }
+          ]
+        },
+        {
+          "identifier": "Xy1Nub8",
+          "type": "Link",
+          "title": "How a Password Changed my Life",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/the-lighthouse/how-a-password-changed-my-life-7af5d5f28038",
+          "description": "<p>這篇內容無關技術，但我覺得是很有趣的想法：作者遇到一個需要常常更換密碼而且不能重複的系統，所以他決定把生活目標設為密碼、於是每次輸入密碼時就像唸咒語般不斷提醒自己目標為何。他靠這種方式戒菸、調整作息、約女孩約會、求婚！感覺滿酷的。</p>",
+          "description_markdown": "這篇內容無關技術，但我覺得是很有趣的想法：作者遇到一個需要常常更換密碼而且不能重複的系統，所以他決定把生活目標設為密碼、於是每次輸入密碼時就像唸咒語般不斷提醒自己目標為何。他靠這種方式戒菸、調整作息、約女孩約會、求婚！感覺滿酷的。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "type": "Text",
+          "title": "成為貓奴的那一刻起每天都是歲末大掃除",
+          "description": "<p>自從家裡進駐了兩位貓殿下之後，每天回家第一件事就是開除濕機和空氣清淨機，即便如此，只要身上有黑色的衣服、褲子或包包，還是可以在兩秒鐘之內親身體驗被貓毛覆蓋的驚人效果，所以今年我也沒有大掃除 (挖鼻)。</p>\n\n<p>講是這樣講，可是貓奴其實每天都被迫維持環境清潔（就連那個陳上進都得乖乖鏟屎了），不然要不是貓生病就是我生病啊!!!（過敏體質），但工作很累的時候還真希望周圍出現個潔癖重症患者，譬如說今天要講的這部：「<a href=\"http://www.taaze.tw/sing.html?pid=11100764872\">潔癖男子！青山くん</a>」（以一個慢速滑球切入主題），推薦給喜歡坂本君或尼采大師的朋友，很適合開工第一天有點慵懶、有點煩躁的心情噢～</p>\n\n<p>接著來簡單介紹一下我們的青山君：</p>\n\n<ul>\n<li>是個為了潔淨而存在的謎樣生物</li>\n<li>是個為了不碰到別人而發展出高超過人技巧的天才足球選手 (蛤？)</li>\n<li>選擇理想球隊的標準是球衣的顏色</li>\n<li>選擇理想高中的標準是馬桶的種類</li>\n<li>練習前要洗澡、練習結束後要洗澡</li>\n<li>在比賽的最後五分鐘可以弄髒身體 (因為就快可以去洗澡了)</li>\n<li>毛巾非常香</li>\n</ul>\n\n\n<p>最後說一個題外話，今年動漫節從初三開始，所以其實我早就開工了 (哭)，在這邊跟各位分享兩個本屆的機密情報：</p>\n\n<ul>\n<li>平坂読（輕小說《如果有妹妹就好了。》作者）本人長得有一點點像<a href=\"https://goo.gl/EaCflD\">阿部サダヲ</a></li>\n<li>鈴木央（漫畫《七大罪》作者）每週準時交 20 頁稿子而且沒有助手，為了要來台灣簽名甚至還提早交稿。</li>\n</ul>\n\n\n<p>以上來自 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 的分享！</p>",
+          "description_markdown": "自從家裡進駐了兩位貓殿下之後，每天回家第一件事就是開除濕機和空氣清淨機，即便如此，只要身上有黑色的衣服、褲子或包包，還是可以在兩秒鐘之內親身體驗被貓毛覆蓋的驚人效果，所以今年我也沒有大掃除 (挖鼻)。\r\n\r\n講是這樣講，可是貓奴其實每天都被迫維持環境清潔（就連那個陳上進都得乖乖鏟屎了），不然要不是貓生病就是我生病啊!!!（過敏體質），但工作很累的時候還真希望周圍出現個潔癖重症患者，譬如說今天要講的這部：「[潔癖男子！青山くん](http://www.taaze.tw/sing.html?pid=11100764872)」（以一個慢速滑球切入主題），推薦給喜歡坂本君或尼采大師的朋友，很適合開工第一天有點慵懶、有點煩躁的心情噢～\r\n\r\n接著來簡單介紹一下我們的青山君：\r\n\r\n* 是個為了潔淨而存在的謎樣生物\r\n* 是個為了不碰到別人而發展出高超過人技巧的天才足球選手 (蛤？)\r\n* 選擇理想球隊的標準是球衣的顏色\r\n* 選擇理想高中的標準是馬桶的種類\r\n* 練習前要洗澡、練習結束後要洗澡\r\n* 在比賽的最後五分鐘可以弄髒身體 (因為就快可以去洗澡了)\r\n* 毛巾非常香\r\n\r\n最後說一個題外話，今年動漫節從初三開始，所以其實我早就開工了 (哭)，在這邊跟各位分享兩個本屆的機密情報：\r\n\r\n* 平坂読（輕小說《如果有妹妹就好了。》作者）本人長得有一點點像[阿部サダヲ](https://goo.gl/EaCflD)\r\n* 鈴木央（漫畫《七大罪》作者）每週準時交 20 頁稿子而且沒有助手，為了要來台灣簽名甚至還提早交稿。\r\n\r\n以上來自 [@autisticcat](https://twitter.com/autisticcat) 的分享！",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "TcMWesg",
+              "title": "潔癖男子！青山くん",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/sing.html?pid=11100764872"
+            },
+            {
+              "identifier": "4gt3vIf",
+              "title": "阿部サダヲ",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/EaCflD"
+            },
+            {
+              "identifier": "1xa7rfO",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ],
+          "image_original_filename": "e4d3021f-11c1-4497-9f3d-66004bb50a87.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_e4d3021f-11c1-4497-9f3d-66004bb50a87.jpg",
+          "image_medium_filename": "original_ratio_medium_e4d3021f-11c1-4497-9f3d-66004bb50a87.jpg"
+        }
+      ]
+    }
+  ]
+}

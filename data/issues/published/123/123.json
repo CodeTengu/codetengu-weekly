@@ -1,0 +1,443 @@
+{
+  "number": 123,
+  "title": "Issue 123 簡單、粗暴、做得到",
+  "summary": "本期內容涵蓋 Languages, F2E, Golang, DevOps, Data Cleaning, Kaggle",
+  "url": "https://weekly.codetengu.com/issues/123",
+  "publication_status": "published",
+  "published_at": "2018-04-16T03:00:00+01:00",
+  "updated_at": "2018-04-21T09:58:29+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Dirk Gently 系列</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們又要找 iOS 工程師啦！</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - <a href=\"https://tw.pycon.org/2018/registration/ticket-info/\">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Dirk Gently 系列](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們又要找 iOS 工程師啦！](https://www.yourator.co/companies/escapex/jobs/3116)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - [PyCon Taiwan 熱烈售票中](https://tw.pycon.org/2018/registration/ticket-info/)。Shadowverse: uranusjr\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "sp6oQtM",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "mDkVmxq",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "z5a00Dn",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "UdsqOHQ",
+              "title": "Dirk Gently 系列",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "WMghqJ7",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "7RhBMBI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "uM2sX8i",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "JgaZaGm",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "2Xj0uEJ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "5oEHC5n",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "4uP02uo",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "CSWbp63",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "qHf4mjU",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "IwrW1zs",
+              "title": "我們又要找 iOS 工程師啦！",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "gTvvgdj",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "HYmYxHX",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "PvuJdp4",
+              "title": "PyCon Taiwan 熱烈售票中",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2018/registration/ticket-info/"
+            },
+            {
+              "identifier": "Qc6j87N",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hzCRjph",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "W1p0u3K",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "BCR0QcQ",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "OKvVQOk",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "W8r80es",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "pkMB34I",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "46vPpvT",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "iVsVa7u",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "S92rTet",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "2LD2qbm",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "6JsbwCj",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "wqgse0J",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "hjoDz0v",
+          "type": "Link",
+          "title": "PyCon Taiwan 2018 開始售票辣！",
+          "url_domain": "pycon.org",
+          "url": "https://tw.pycon.org/2018/registration/ticket-info/",
+          "description": "<p>今年 PyCon Taiwan 會在 6/1–2 在老地方中研院舉辦，要來的記得買票。今年早鳥維持 2,500 <del>減量不減價</del> 先搶先贏，太晚的就只能買貴票了喔喔喔。我們今年同樣有<a href=\"https://tw.pycon.org/2018/registration/financial-aid/\">財務補助活動</a>，可以憑搭乘證明申請交通補助，外地參加者請多多利用，我們很期待看到更多台北以外的會眾 >&lt;</p>\n\n<p>另外今年同樣會有 tutorial，兩場在高雄兩場在台北，敬請關注相關情報。</p>",
+          "description_markdown": "今年 PyCon Taiwan 會在 6/1–2 在老地方中研院舉辦，要來的記得買票。今年早鳥維持 2,500 ~~減量不減價~~ 先搶先贏，太晚的就只能買貴票了喔喔喔。我們今年同樣有[財務補助活動](https://tw.pycon.org/2018/registration/financial-aid/)，可以憑搭乘證明申請交通補助，外地參加者請多多利用，我們很期待看到更多台北以外的會眾 ><\r\n\r\n另外今年同樣會有 tutorial，兩場在高雄兩場在台北，敬請關注相關情報。",
+          "embedded_links": [
+            {
+              "identifier": "O5gwEhr",
+              "title": "財務補助活動",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2018/registration/financial-aid/"
+            }
+          ]
+        },
+        {
+          "identifier": "zOuTeqC",
+          "type": "Link",
+          "title": "A Brief Totally Accurate History Of Programming Languages",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@caspervonb/a-brief-totally-accurate-history-of-programming-languages-cd93ec806124",
+          "description": "<p>簡單（但是保證準確）的程式語言史。可以看看你最喜歡的語言是什麼時候出現在這個世上的。說不定有些部份還會讓你很驚訝呢。你知道 Java 比 JavaScript、Python、甚至 Ruby 都還年輕嗎？ 你知道為什麼 Lua 的 index 是 1-based 嗎（大誤）</p>",
+          "description_markdown": "簡單（但是保證準確）的程式語言史。可以看看你最喜歡的語言是什麼時候出現在這個世上的。說不定有些部份還會讓你很驚訝呢。你知道 Java 比 JavaScript、Python、甚至 Ruby 都還年輕嗎？ 你知道為什麼 Lua 的 index 是 1-based 嗎（大誤）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vaYv87S",
+          "type": "Link",
+          "title": "History of the browser user-agent string",
+          "url_domain": "webaim.org",
+          "url": "https://webaim.org/blog/user-agent-string-history/",
+          "description": "<p>繼續歷史相關的主題，這篇文章帶你走過瀏覽器 user-agent 的歷史，試圖理解為什麼現在每家瀏覽器的 user-agent 完全莫名其妙，幾乎毫無用途，而且大家都假裝自己是別人。</p>\n\n<p>專業秘訣：不要忘想用 user-agent 判斷使用者究竟是用什麼瀏覽器。如果你真的要根據瀏覽器支援的功能進行邏輯判斷，請使用 <a href=\"https://zh.wikipedia.org/wiki/%E7%89%B9%E5%BE%81%E6%A3%80%E6%B5%8B\">feature detection</a> 判斷客戶端的特性，而不是瀏覽器種類本身。</p>",
+          "description_markdown": "繼續歷史相關的主題，這篇文章帶你走過瀏覽器 user-agent 的歷史，試圖理解為什麼現在每家瀏覽器的 user-agent 完全莫名其妙，幾乎毫無用途，而且大家都假裝自己是別人。\r\n\r\n專業秘訣：不要忘想用 user-agent 判斷使用者究竟是用什麼瀏覽器。如果你真的要根據瀏覽器支援的功能進行邏輯判斷，請使用 [feature detection](https://zh.wikipedia.org/wiki/%E7%89%B9%E5%BE%81%E6%A3%80%E6%B5%8B) 判斷客戶端的特性，而不是瀏覽器種類本身。",
+          "embedded_links": [
+            {
+              "identifier": "Kw7QOw8",
+              "title": "feature detection",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E7%89%B9%E5%BE%81%E6%A3%80%E6%B5%8B"
+            }
+          ]
+        },
+        {
+          "identifier": "CLpuLgh",
+          "type": "Link",
+          "title": " Evolution of the English Alphabet",
+          "url_domain": "usefulcharts.com",
+          "url": "https://usefulcharts.com/blogs/charts/evolution-of-the-english-alphabet",
+          "description": "<p>說到歷史就想到最近看到這個列出英文字母起源的表格。好像還是第一次有人這樣全部做出來，好想買一張回家掛！如果你有興趣知道「為什麼」會這樣演變，或者想多看一下古英語（Old English）使用，但是現在已被廢除的字母，也可以看看作者做的 <a href=\"https://www.youtube.com/watch?v=4VNVCxi9TL8\">YouTube 影片</a>，實在是很不錯。</p>\n\n<p>喔順帶一提，如果你對人類語言，或者英語的歷史有興趣，我最近又重新熟悉了一次<a href=\"https://en.wikipedia.org/wiki/Great_Vowel_Shift\">大元音轉移</a>（Greate Vowel Shift）。看完之後你就知道為什麼英語發音那麼沒道理了。然後可能也會對這個沒道理背後的道理有點概念。可能吧，畢竟真的沒道理。</p>\n\n<p>我有提過我很愛研究語言嗎？有興趣的歡迎一起來討論啊​ ╭( ･ㅂ･)و</p>",
+          "description_markdown": "說到歷史就想到最近看到這個列出英文字母起源的表格。好像還是第一次有人這樣全部做出來，好想買一張回家掛！如果你有興趣知道「為什麼」會這樣演變，或者想多看一下古英語（Old English）使用，但是現在已被廢除的字母，也可以看看作者做的 [YouTube 影片](https://www.youtube.com/watch?v=4VNVCxi9TL8)，實在是很不錯。\r\n\r\n喔順帶一提，如果你對人類語言，或者英語的歷史有興趣，我最近又重新熟悉了一次[大元音轉移](https://en.wikipedia.org/wiki/Great_Vowel_Shift)（Greate Vowel Shift）。看完之後你就知道為什麼英語發音那麼沒道理了。然後可能也會對這個沒道理背後的道理有點概念。可能吧，畢竟真的沒道理。\r\n\r\n我有提過我很愛研究語言嗎？有興趣的歡迎一起來討論啊​ ╭( ･ㅂ･)و\r\n",
+          "embedded_links": [
+            {
+              "identifier": "dawvT6T",
+              "title": "YouTube 影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=4VNVCxi9TL8"
+            },
+            {
+              "identifier": "MhQvQzo",
+              "title": "大元音轉移",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Great_Vowel_Shift"
+            }
+          ],
+          "image_original_filename": "c15b5ea2-e19b-49f9-bbd9-53e21a562532.png",
+          "image_extra_large_filename": "original_ratio_extra_large_c15b5ea2-e19b-49f9-bbd9-53e21a562532.png",
+          "image_medium_filename": "original_ratio_medium_c15b5ea2-e19b-49f9-bbd9-53e21a562532.png"
+        },
+        {
+          "identifier": "huVi7OJ",
+          "type": "Link",
+          "title": "CSS Sans",
+          "url_domain": "yusugomori.com",
+          "url": "https://yusugomori.com/projects/css-sans/",
+          "description": "<p>純 CSS 實作的字型。啥？</p>\n\n<p>不過這可以用來觀察各 CSS 版本（其實是瀏覽器版本）對現代 CSS 功能的支援演變。十分有趣。</p>",
+          "description_markdown": "純 CSS 實作的字型。啥？\r\n\r\n不過這可以用來觀察各 CSS 版本（其實是瀏覽器版本）對現代 CSS 功能的支援演變。十分有趣。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "rSoZzbI",
+          "type": "Link",
+          "title": "teh-cmc/go-internals: A book about the internals of the Go programming language.",
+          "url_domain": "github.com",
+          "url": "https://github.com/teh-cmc/go-internals",
+          "description": "<p>關於 Golang 內部實現的電子書，目前進度到第二章．裡面談到使用 interface 與內部如何實現．\n並且可以深入了解使用 interface 可能帶來效能上的犧牲以及內部實作的細節．\n相當硬派的書啊....</p>",
+          "description_markdown": "關於 Golang 內部實現的電子書，目前進度到第二章．裡面談到使用 interface 與內部如何實現．\r\n並且可以深入了解使用 interface 可能帶來效能上的犧牲以及內部實作的細節． \r\n相當硬派的書啊....",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "w4BexDy",
+          "type": "Link",
+          "title": "Line of sight in code – Mat Ryer – Medium",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@matryer/line-of-sight-in-code-186dd7cdea88",
+          "description": "<p>一篇很好的建議，可以讓你的 go code 變得更漂亮，更容易閱讀。\n裡面講解到很細，舉凡:</p>\n\n<ul>\n<li>error 處理方式如何變得更漂亮</li>\n<li>要讓你的 if 判斷句能夠精簡</li>\n<li>讓 switch/select 直接變成 function</li>\n</ul>\n\n\n<p>這些方式可以讓你的 code 變得更美，以後回來通靈 (?) 也會比較順暢..</p>",
+          "description_markdown": "一篇很好的建議，可以讓你的 go code 變得更漂亮，更容易閱讀。\r\n裡面講解到很細，舉凡: \r\n\r\n- error 處理方式如何變得更漂亮\r\n- 要讓你的 if 判斷句能夠精簡\r\n- 讓 switch/select 直接變成 function \r\n\r\n這些方式可以讓你的 code 變得更美，以後回來通靈 (?) 也會比較順暢..",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "sLso8yR",
+          "type": "Link",
+          "title": "Running a Keras / TensorFlow Model in Golang - Tony Truong",
+          "url_domain": "tonytruong.net",
+          "url": "http://www.tonytruong.net/running-a-keras-tensorflow-model-in-golang/",
+          "description": "<p>在 Deep Learning 上面，透過 Python 跟 Keras 與 Tensorflow 來進行．\n這篇文章相當有趣，我們可以透過 Golang 來跑 model inference ．\n有興趣想要透過 Golang 來進行 Deep Learning 的人可以看看</p>",
+          "description_markdown": "在 Deep Learning 上面，透過 Python 跟 Keras 與 Tensorflow 來進行． \r\n這篇文章相當有趣，我們可以透過 Golang 來跑 model inference ．\r\n有興趣想要透過 Golang 來進行 Deep Learning 的人可以看看",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8kKPP2w",
+          "type": "Link",
+          "title": "Go on very small hardware (Part 1) | Michał Derkacz",
+          "url_domain": "github.io",
+          "url": "https://ziutek.github.io/2018/03/30/go_on_very_small_hardware.html",
+          "description": "<p>在非常小的裝置上面使用 Golang ?\n透過 transpile C 的方式來將你原先 Go 的開發部署到相當小的裝置上</p>",
+          "description_markdown": "在非常小的裝置上面使用 Golang ? \r\n透過 transpile C 的方式來將你原先 Go 的開發部署到相當小的裝置上\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "68XNksm",
+          "type": "Link",
+          "title": "[Slides] Consistent Hashing: Algorithmic Tradoffs",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/til-consistent-hashing-algorithm-tradeoffs/",
+          "description": "<p>這一篇投影片的整理是根據 Damian Gryski 在他 <a href=\"https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8\">Medium 裡面文章</a> 的整理．</p>\n\n<p>裡面主要是透過整理來談 Consistent Hashing 主要要解決的問題，與先天設計上可能有的一些問題．之後 Google 發表了 Jump Hashing 來解決相關的限制．</p>\n\n<p>並且還有在他們的 Load balance 有使用到的 Maglev Hashing ，這一篇投影片會講解原理跟優缺點比較．</p>\n\n<p>有興趣相關演算法的人可以來看看....</p>",
+          "description_markdown": "這一篇投影片的整理是根據 Damian Gryski 在他 [Medium 裡面文章](https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8) 的整理．\r\n\r\n裡面主要是透過整理來談 Consistent Hashing 主要要解決的問題，與先天設計上可能有的一些問題．之後 Google 發表了 Jump Hashing 來解決相關的限制． \r\n\r\n並且還有在他們的 Load balance 有使用到的 Maglev Hashing ，這一篇投影片會講解原理跟優缺點比較．\r\n\r\n有興趣相關演算法的人可以來看看....",
+          "embedded_links": [
+            {
+              "identifier": "HcrfslM",
+              "title": "Medium 裡面文章",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@dgryski/consistent-hashing-algorithmic-tradeoffs-ef6b8e2fcae8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "2Qv4hC",
+          "type": "Link",
+          "title": "Kaggle 5-Day Challenge: Data Cleaning",
+          "url_domain": "kaggle.com",
+          "url": "https://www.kaggle.com/rtatman/data-cleaning-challenge-handling-missing-values",
+          "description": "<p>根據 Google 搜尋結果顯示，Kaggle 從去年十月開始了這種 5-Day Challenge 系列教學，內容基礎而精簡，主題則相當多樣化，有講解公式的、有講解演算法的、有視覺化的，還有這次的 Data Cleaning。教學的形式其實就是以 Kaggle Kernel 的方式呈現，讓有心學習的人能一邊學習一邊操作，這次的教學可以從上面的連結開始，如果有興趣參考過去的 5-Day Challenge，可以在 <a href=\"https://www.kaggle.com/rtatman/kernels\">Rachael 的 Kernel</a> 中搜尋 \"Challenge\" 就可以找到。</p>\n\n<p>不知道是不是教學迴響很好，或是 Data Cleaning 一直都是大家心中的痛，在上週，Rachael 還在 <a href=\"https://twitter.com/rctatman/status/981580342707421184\">twitter</a> 上跟大家募集『很髒』的資料集，搞不好這個 Challenge 還會有續集？</p>",
+          "description_markdown": "根據 Google 搜尋結果顯示，Kaggle 從去年十月開始了這種 5-Day Challenge 系列教學，內容基礎而精簡，主題則相當多樣化，有講解公式的、有講解演算法的、有視覺化的，還有這次的 Data Cleaning。教學的形式其實就是以 Kaggle Kernel 的方式呈現，讓有心學習的人能一邊學習一邊操作，這次的教學可以從上面的連結開始，如果有興趣參考過去的 5-Day Challenge，可以在 [Rachael 的 Kernel](https://www.kaggle.com/rtatman/kernels) 中搜尋 \"Challenge\" 就可以找到。  \r\n  \r\n不知道是不是教學迴響很好，或是 Data Cleaning 一直都是大家心中的痛，在上週，Rachael 還在 [twitter](https://twitter.com/rctatman/status/981580342707421184) 上跟大家募集『很髒』的資料集，搞不好這個 Challenge 還會有續集？",
+          "embedded_links": [
+            {
+              "identifier": "l0JvbWY",
+              "title": "Rachael 的 Kernel",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/rtatman/kernels"
+            },
+            {
+              "identifier": "drM6CnA",
+              "title": "twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/rctatman/status/981580342707421184"
+            }
+          ]
+        },
+        {
+          "identifier": "LWVZON8",
+          "type": "Link",
+          "title": "Kaggle Q1 產品更新說明",
+          "url_domain": "kaggle.com",
+          "url": "http://blog.kaggle.com/2018/04/03/q1-2018-product-update/",
+          "description": "<p>Kaggle 2018 年動作頻繁，發佈了好幾個實用的功能，例如：</p>\n\n<ul>\n<li>可以建立 private dataset</li>\n<li>Kernel 更新</li>\n<li>運算資源提高到 6 小時，而且可以 pip install 了</li>\n<li>協作分享</li>\n</ul>\n\n\n<p>主要就是把一般的工作流程整起來，方便<del>引誘</del>你使用 Kaggle 的平台。</p>\n\n<p>在其他更新中有兩點：</p>\n\n<ul>\n<li>正式發布了在 <a href=\"https://weekly.codetengu.com/issues/114\">#114</a> 提到的 <a href=\"https://www.kaggle.com/learn/overview\">Kaggle Learn</a>，比起一月底多了 Pandas 和 SQL 這兩個主題。關於 Kaggle Learn 這邊有兩邊心得文可以看看：<a href=\"https://yq.aliyun.com/articles/399913\">簡中</a> / <a href=\"https://medium.com/yiyi-network/https-medium-com-yiyi-network-kaggle-learn-8e585feaf241\">繁中</a></li>\n<li>目前有 14 個公開的資料集整合 BigQuery，在 Kaggle 中的實際用法可以參考 Kaggle Learn 的 SQL 課程。</li>\n</ul>",
+          "description_markdown": "Kaggle 2018 年動作頻繁，發佈了好幾個實用的功能，例如：\r\n\r\n* 可以建立 private dataset\r\n* Kernel 更新\r\n* 運算資源提高到 6 小時，而且可以 pip install 了\r\n* 協作分享\r\n\r\n主要就是把一般的工作流程整起來，方便~~引誘~~你使用 Kaggle 的平台。\r\n\r\n在其他更新中有兩點：\r\n\r\n* 正式發布了在 [#114](https://weekly.codetengu.com/issues/114) 提到的 [Kaggle Learn](https://www.kaggle.com/learn/overview)，比起一月底多了 Pandas 和 SQL 這兩個主題。關於 Kaggle Learn 這邊有兩邊心得文可以看看：[簡中](https://yq.aliyun.com/articles/399913) / [繁中](https://medium.com/yiyi-network/https-medium-com-yiyi-network-kaggle-learn-8e585feaf241)\r\n* 目前有 14 個公開的資料集整合 BigQuery，在 Kaggle 中的實際用法可以參考 Kaggle Learn 的 SQL 課程。",
+          "embedded_links": [
+            {
+              "identifier": "rQLdS07",
+              "title": "#114",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/114"
+            },
+            {
+              "identifier": "4RqdwEl",
+              "title": "Kaggle Learn",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/learn/overview"
+            },
+            {
+              "identifier": "jsgldRu",
+              "title": "簡中",
+              "url_domain": "aliyun.com",
+              "url": "https://yq.aliyun.com/articles/399913"
+            },
+            {
+              "identifier": "FBFkpV2",
+              "title": "繁中",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/yiyi-network/https-medium-com-yiyi-network-kaggle-learn-8e585feaf241"
+            }
+          ]
+        },
+        {
+          "identifier": "oBlOXg",
+          "type": "Link",
+          "title": "了解一下 Google Art & Culture 在幹嘛",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/p/f3ec0655c5be",
+          "description": "<p>一時興起了解一下 Google Art &amp; Culture 都在幹嘛，文中會提及幾個 Google Art &amp; Culture 最近的專案，都是將影像相關的機器學習技術與藝術作品結合的應用，未來有機會的話會持續關注這個領域。</p>",
+          "description_markdown": "一時興起了解一下 Google Art & Culture 都在幹嘛，文中會提及幾個 Google Art & Culture 最近的專案，都是將影像相關的機器學習技術與藝術作品結合的應用，未來有機會的話會持續關注這個領域。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

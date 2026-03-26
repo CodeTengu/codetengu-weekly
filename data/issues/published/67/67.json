@@ -1,0 +1,540 @@
+{
+  "number": 67,
+  "title": "Issue 67 小明白天只是一名普通的軟體工程師，但是只要一到了夜晚，他就會搖身一變，成為一名加班的軟體工程師",
+  "summary": "本期內容涵蓋 AWS, MySQL, Python, Django, Machine Learning, Docker, DevOps, ChatOps, Elixir, Phoenix, Go, Kubernetes, BlockChain",
+  "url": "https://weekly.codetengu.com/issues/67",
+  "publication_status": "published",
+  "published_at": "2016-11-07T02:00:00+00:00",
+  "updated_at": "2016-11-07T02:00:09+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob\">We Are Legion (We Are Bob)</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 買了文明帝國 6</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [We Are Legion (We Are Bob)](https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 買了文明帝國 6\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "CSXfxuD",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "95t7S3f",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "JwniiqQ",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "9npTOQO",
+              "title": "We Are Legion (We Are Bob)",
+              "url_domain": "goodreads.com",
+              "url": "https://www.goodreads.com/book/show/32109569-we-are-legion-we-are-bob"
+            },
+            {
+              "identifier": "di6q1Yx",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "fIyBzT4",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "1oXF6H8",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "iHAjbgk",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Izywb9k",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "OOw7bwT",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "5qArMNU",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "vSWoVLO",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "NY97Ohj",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "SX0Q11N",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "l9Fv3I0",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "C1lgI6a",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "O5XFpYp",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ozk0ofj",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "GHgat2M",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "XH3REUF",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1dipRwh",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "ZfCykl4",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "2DET51e",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "RjFscWy",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "8aIKGXZ",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "DqnIVjz",
+          "type": "Link",
+          "title": "open-guides/og-aws: Amazon Web Services — a practical guide",
+          "url_domain": "github.com",
+          "url": "https://github.com/open-guides/og-aws",
+          "description": "<p>這是一份非常全面的 AWS 使用指南，如果你正在用或打算用 AWS，必須好好讀一讀。</p>",
+          "description_markdown": "這是一份非常全面的 AWS 使用指南，如果你正在用或打算用 AWS，必須好好讀一讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Rx3WUqc",
+          "type": "Link",
+          "title": "What's the difference between utf8_general_ci and utf8_unicode_ci?",
+          "url_domain": "stackoverflow.com",
+          "url": "https://stackoverflow.com/questions/766809/whats-the-difference-between-utf8-general-ci-and-utf8-unicode-ci",
+          "description": "<p>上禮拜遇到一個 MySQL 的 Cannot add foreign key constraint 的問題，但是兩邊明明都有 index 而且 column type 也都一樣。後來突然想到我好像在哪裡看過一篇在說因為 collation 不同導致 index 失效的文章（雖然我其實只看了標題，根本沒點進去看內文），一查發現果然是這個原因：因為從正式環境 dump 出來的資料是用 <code>utf8_general_ci</code>，但是我在開發環境建立的 table 卻用了 <code>utf8_unicode_ci</code>。</p>\n\n<p>問題解決之後忍不住研究了一下這兩個 collation 有什麼不同，順便跟大家分享一下。</p>\n\n<p>然後雖然可能沒有人想知道，但是這些 <code>utf8_xxx_ci</code> 的 <code>ci</code> 其實是 <strong>case insensitive</strong> 的意思啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://stackoverflow.com/questions/30074492/what-is-the-difference-between-utf8mb4-and-utf8-charsets-in-mysql\">What is the difference between utf8mb4 and utf8 charsets in MySQL?</a></li>\n<li><a href=\"https://stackoverflow.com/questions/15534977/mysql-cannot-add-foreign-key-constraint\">MySQL Cannot Add Foreign Key Constraint</a></li>\n</ul>",
+          "description_markdown": "上禮拜遇到一個 MySQL 的 Cannot add foreign key constraint 的問題，但是兩邊明明都有 index 而且 column type 也都一樣。後來突然想到我好像在哪裡看過一篇在說因為 collation 不同導致 index 失效的文章（雖然我其實只看了標題，根本沒點進去看內文），一查發現果然是這個原因：因為從正式環境 dump 出來的資料是用 `utf8_general_ci`，但是我在開發環境建立的 table 卻用了 `utf8_unicode_ci`。\r\n\r\n問題解決之後忍不住研究了一下這兩個 collation 有什麼不同，順便跟大家分享一下。\r\n\r\n然後雖然可能沒有人想知道，但是這些 `utf8_xxx_ci` 的 `ci` 其實是 **case insensitive** 的意思啊。\r\n\r\n延伸閱讀：\r\n\r\n- [What is the difference between utf8mb4 and utf8 charsets in MySQL?](https://stackoverflow.com/questions/30074492/what-is-the-difference-between-utf8mb4-and-utf8-charsets-in-mysql)\r\n- [MySQL Cannot Add Foreign Key Constraint](https://stackoverflow.com/questions/15534977/mysql-cannot-add-foreign-key-constraint)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "339Hz3L",
+              "title": "What is the difference between utf8mb4 and utf8 charsets in MySQL?",
+              "url_domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/30074492/what-is-the-difference-between-utf8mb4-and-utf8-charsets-in-mysql"
+            },
+            {
+              "identifier": "4VMRMOi",
+              "title": "MySQL Cannot Add Foreign Key Constraint",
+              "url_domain": "stackoverflow.com",
+              "url": "https://stackoverflow.com/questions/15534977/mysql-cannot-add-foreign-key-constraint"
+            }
+          ]
+        },
+        {
+          "identifier": "ywQLBhT",
+          "type": "Link",
+          "title": "Upgrading Django",
+          "url_domain": "thosecleverkids.com",
+          "url": "http://thosecleverkids.com/thoughts/posts/upgrading-django",
+          "description": "<p>因為前陣子也才升級了 <a href=\"https://streetvoice.com/\">StreetVoice</a> 的 Django 版本，這就看到有人整理了從 Django 1.3 到 Django 1.10 各個版本的升級注意事項，雖然大部分內容都可以在官網的 <a href=\"https://docs.djangoproject.com/en/dev/releases/\">Release notes</a> 找到，但是有人幫你畫了重點整理成冊還是挺不錯的。</p>",
+          "description_markdown": "因為前陣子也才升級了 [StreetVoice](https://streetvoice.com/) 的 Django 版本，這就看到有人整理了從 Django 1.3 到 Django 1.10 各個版本的升級注意事項，雖然大部分內容都可以在官網的 [Release notes](https://docs.djangoproject.com/en/dev/releases/) 找到，但是有人幫你畫了重點整理成冊還是挺不錯的。",
+          "embedded_links": [
+            {
+              "identifier": "hXDuO0m",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "CEnzCgT",
+              "title": "Release notes",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/dev/releases/"
+            }
+          ]
+        },
+        {
+          "identifier": "iPPcxno",
+          "type": "Link",
+          "title": "Machine Learning: An In-Depth, Non-Technical Guide - Part 2",
+          "url_domain": "innoarchitech.com",
+          "url": "http://www.innoarchitech.com/machine-learning-an-in-depth-non-technical-guide-part-2/",
+          "description": "<p>最近在研究 Machine Learning，一邊上 MOOC，一邊自己讀書（這時候 <a href=\"https://www.safaribooksonline.com/\">Safari Books Online</a> 的優點就體現出來啦：某個概念搞不懂，可以隨時找其他書來看）。對初學者來說，機器學習除了多得嚇人的演算法之外，最煩的就是那些層出不窮的專有名詞了（雖然任何學問都是這樣），這個系列的文章就（概略地）解釋了不少常見的 Machine Learning 專有名詞和概念，讓你有個粗淺的理解，不至於在閱讀相關文章的時候寸步難行。</p>\n\n<p>然後，忍不住要提一下，Kaggle 的 Kernels 真的不錯啊，會有很多人分享他們對 Kaggle 上的比賽題目的解題過程，例如 <a href=\"https://www.kaggle.com/c/titanic/kernels\">Titanic: Machine Learning from Disaster</a>。</p>",
+          "description_markdown": "最近在研究 Machine Learning，一邊上 MOOC，一邊自己讀書（這時候 [Safari Books Online](https://www.safaribooksonline.com/) 的優點就體現出來啦：某個概念搞不懂，可以隨時找其他書來看）。對初學者來說，機器學習除了多得嚇人的演算法之外，最煩的就是那些層出不窮的專有名詞了（雖然任何學問都是這樣），這個系列的文章就（概略地）解釋了不少常見的 Machine Learning 專有名詞和概念，讓你有個粗淺的理解，不至於在閱讀相關文章的時候寸步難行。\r\n\r\n然後，忍不住要提一下，Kaggle 的 Kernels 真的不錯啊，會有很多人分享他們對 Kaggle 上的比賽題目的解題過程，例如 [Titanic: Machine Learning from Disaster](https://www.kaggle.com/c/titanic/kernels)。",
+          "embedded_links": [
+            {
+              "identifier": "4zpeJls",
+              "title": "Safari Books Online",
+              "url_domain": "safaribooksonline.com",
+              "url": "https://www.safaribooksonline.com/"
+            },
+            {
+              "identifier": "b4pYwpN",
+              "title": "Titanic: Machine Learning from Disaster",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/c/titanic/kernels"
+            }
+          ]
+        },
+        {
+          "identifier": "3nGgw5B",
+          "type": "Link",
+          "title": "10 Minutes to Pandas",
+          "url_domain": "pydata.org",
+          "url": "http://pandas.pydata.org/pandas-docs/stable/10min.html",
+          "description": "<p>對 <a href=\"http://pandas.pydata.org/\">Pandas</a> 的第一印象就是它的 API 實在是太他媽魔術了（雖然後來發現其實真正魔術的是 Numpy）。總之一開始完全看不懂，後來才發現官網上的這篇入門指南，雖然標題說只要 10 分鐘，但是那是騙你的，讀完 <a href=\"http://pandas.pydata.org/pandas-docs/stable/indexing.html\">Indexing and Selecting Data</a> 就不止了。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python\">Pandas Tutorial: DataFrames in Python</a></li>\n<li><a href=\"http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/\">Working with DataFrames</a></li>\n</ul>",
+          "description_markdown": "對 [Pandas](http://pandas.pydata.org/) 的第一印象就是它的 API 實在是太他媽魔術了（雖然後來發現其實真正魔術的是 Numpy）。總之一開始完全看不懂，後來才發現官網上的這篇入門指南，雖然標題說只要 10 分鐘，但是那是騙你的，讀完 [Indexing and Selecting Data](http://pandas.pydata.org/pandas-docs/stable/indexing.html) 就不止了。\r\n\r\n延伸閱讀：\r\n\r\n- [Pandas Tutorial: DataFrames in Python](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python)\r\n- [Working with DataFrames](http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/)",
+          "embedded_links": [
+            {
+              "identifier": "9hvo1ER",
+              "title": "Pandas",
+              "url_domain": "pydata.org",
+              "url": "http://pandas.pydata.org/"
+            },
+            {
+              "identifier": "dawRF5R",
+              "title": "Indexing and Selecting Data",
+              "url_domain": "pydata.org",
+              "url": "http://pandas.pydata.org/pandas-docs/stable/indexing.html"
+            },
+            {
+              "identifier": "HDSEMPQ",
+              "title": "Pandas Tutorial: DataFrames in Python",
+              "url_domain": "datacamp.com",
+              "url": "https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python"
+            },
+            {
+              "identifier": "klUFvQk",
+              "title": "Working with DataFrames",
+              "url_domain": "gregreda.com",
+              "url": "http://www.gregreda.com/2013/10/26/working-with-pandas-dataframes/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "Y0mLKup",
+          "type": "Link",
+          "title": "Docker in Production: A History of Failure",
+          "url_domain": "wordpress.com",
+          "url": "https://thehftguy.wordpress.com/2016/11/01/docker-in-production-an-history-of-failure/",
+          "description": "<p>對 Docker 滿滿的血淚控訴，事實上裡頭列的坑，我也幾乎都遇過，所以讀了特別地感同身受：</p>\n\n<ul>\n<li>每次大更版，都隨著亮眼的新功能夾帶了小臭蟲，以及一些不向前相容的坑。</li>\n<li>無法對 image 儲存空間做有效管理，為了這類小而惱人的問題，甚至要自己 call Docker API 寫個輔助程式處理。</li>\n<li>類似上一點，至今若要自架 Docker Registry (v2) <a href=\"https://github.com/docker/docker-registry/issues/988\">依舊很難做 image 的空間管理</a>。最後若不是轉到付費的解決方案 (Docker Trusted Registry, AWS ECR...)，就是放棄使用 Docker Registry，改以 save &amp; load 另走自己的一套 image 派送流程、迂迴曲折地 shipping。</li>\n<li>莫衷一是的 storage drivers，選了任一個，就代表你被強制同梱了那一個 storage driver 適用的、特定版本的 Linux distribution。</li>\n<li>資料庫之類仰賴 permanent disk storage 的應用，在 production 場合尤其不適合使用 Docker，無論哪種 workaround 都用起來綁手綁腳。</li>\n</ul>\n\n\n<p>如果要做 immutable infrastructure，現在的我會比較偏好用 <a href=\"https://www.packer.io/\">Packer</a> 做 VM image，仍以 VM 為應用程式的主要宿主，但是一些適用 container 的應用，我也不排斥使用 container。綜合考量適用場合、資源調度整合的便利性等因素，分別給予最合適的部署方式，而非一味地追逐酷炫潮夯、人云亦云、通通上 Docker。</p>",
+          "description_markdown": "對 Docker 滿滿的血淚控訴，事實上裡頭列的坑，我也幾乎都遇過，所以讀了特別地感同身受：\r\n\r\n* 每次大更版，都隨著亮眼的新功能夾帶了小臭蟲，以及一些不向前相容的坑。\r\n* 無法對 image 儲存空間做有效管理，為了這類小而惱人的問題，甚至要自己 call Docker API 寫個輔助程式處理。\r\n* 類似上一點，至今若要自架 Docker Registry (v2) [依舊很難做 image 的空間管理](https://github.com/docker/docker-registry/issues/988)。最後若不是轉到付費的解決方案 (Docker Trusted Registry, AWS ECR...)，就是放棄使用 Docker Registry，改以 save & load 另走自己的一套 image 派送流程、迂迴曲折地 shipping。\r\n* 莫衷一是的 storage drivers，選了任一個，就代表你被強制同梱了那一個 storage driver 適用的、特定版本的 Linux distribution。\r\n* 資料庫之類仰賴 permanent disk storage 的應用，在 production 場合尤其不適合使用 Docker，無論哪種 workaround 都用起來綁手綁腳。\r\n\r\n如果要做 immutable infrastructure，現在的我會比較偏好用 [Packer](https://www.packer.io/) 做 VM image，仍以 VM 為應用程式的主要宿主，但是一些適用 container 的應用，我也不排斥使用 container。綜合考量適用場合、資源調度整合的便利性等因素，分別給予最合適的部署方式，而非一味地追逐酷炫潮夯、人云亦云、通通上 Docker。",
+          "embedded_links": [
+            {
+              "identifier": "PW7VG8B",
+              "title": "依舊很難做 image 的空間管理",
+              "url_domain": "github.com",
+              "url": "https://github.com/docker/docker-registry/issues/988"
+            },
+            {
+              "identifier": "rXux1yn",
+              "title": "Packer",
+              "url_domain": "packer.io",
+              "url": "https://www.packer.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "h1JjexY",
+          "type": "Link",
+          "title": "Lita: ChatOps for Ruby",
+          "url_domain": "lita.io",
+          "url": "https://www.lita.io/",
+          "description": "<p>前陣子，我們單位終於把先前在此介紹過的 <a href=\"https://operable.io/\">Cog</a> 架了起來，感受到它設計上的一些強大之處，譬如完善的權限系統、不同用途的 command bundles 可部署在特定的 relay groups 區隔開來等。但是過沒幾天，就被一些毛邊給刮得滿手傷痕，誠實地說，我覺得 Cog 在目前（2016 年末）還沒成熟到可以運用在 production 環境中。</p>\n\n<p>於是我們又回頭去用雖然不那麼酷炫潮夯、但是掌握度高的 Lita。透過我們熟悉親切的老朋友 Ruby，無論是從頭撰寫，還是將之前既有的 DevOps 相關工作的 scripts 改寫為 Lita plug-in，相比之下真是無痛，且權限分野之類的需求，除了 Lita 基本的支援，我們還是能夠自行運用 Ruby 實作出更細緻、切合自身所需的管理邏輯。</p>\n\n<p>如果您的單位也想導入 ChatOps，我很誠心推薦您參考看看 Lita。</p>",
+          "description_markdown": "前陣子，我們單位終於把先前在此介紹過的 [Cog](https://operable.io/) 架了起來，感受到它設計上的一些強大之處，譬如完善的權限系統、不同用途的 command bundles 可部署在特定的 relay groups 區隔開來等。但是過沒幾天，就被一些毛邊給刮得滿手傷痕，誠實地說，我覺得 Cog 在目前（2016 年末）還沒成熟到可以運用在 production 環境中。\r\n\r\n於是我們又回頭去用雖然不那麼酷炫潮夯、但是掌握度高的 Lita。透過我們熟悉親切的老朋友 Ruby，無論是從頭撰寫，還是將之前既有的 DevOps 相關工作的 scripts 改寫為 Lita plug-in，相比之下真是無痛，且權限分野之類的需求，除了 Lita 基本的支援，我們還是能夠自行運用 Ruby 實作出更細緻、切合自身所需的管理邏輯。\r\n\r\n如果您的單位也想導入 ChatOps，我很誠心推薦您參考看看 Lita。",
+          "embedded_links": [
+            {
+              "identifier": "Vd46nUS",
+              "title": "Cog",
+              "url_domain": "operable.io",
+              "url": "https://operable.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "TQcoWiD",
+          "type": "Link",
+          "title": "Developer interview: How Haiku is building a better BeOS",
+          "url_domain": "techworld.com.au",
+          "url": "http://www.techworld.com.au/article/432871/developer_interview_how_haiku_building_better_beos/",
+          "description": "<p>BeOS 曾經是 Apple 公司次世代作業系統的可能選項之一，但是後來的歷史如各位所見，Steve Jobs 帶著 NeXTSTEP 回鍋，包著 Mac OS 皮、骨子裡是 NeXTSTEP 的 Mac OS X 最後上了位，技術優異卻時不我與的 BeOS 黯然退場。</p>\n\n<p>不過因為 <a href=\"https://www.haiku-os.org/\">Haiku</a> 專案出現、延續了它的靈魂，於是我們有了這麼一個 open source 版本的 BeOS。</p>\n\n<p>這篇採訪長文介紹了 Haiku 專案的緣起、設計決策、組織文化，雖然是一篇四年前的舊文，但是我還是覺得值得推薦給大家，此後還是會找一些類似的開源專案專訪文與大家分享，體會別人在程式碼以外，執行專案時是如何處理其他各種面向的議題。</p>",
+          "description_markdown": "BeOS 曾經是 Apple 公司次世代作業系統的可能選項之一，但是後來的歷史如各位所見，Steve Jobs 帶著 NeXTSTEP 回鍋，包著 Mac OS 皮、骨子裡是 NeXTSTEP 的 Mac OS X 最後上了位，技術優異卻時不我與的 BeOS 黯然退場。\r\n\r\n不過因為 [Haiku](https://www.haiku-os.org/) 專案出現、延續了它的靈魂，於是我們有了這麼一個 open source 版本的 BeOS。\r\n\r\n這篇採訪長文介紹了 Haiku 專案的緣起、設計決策、組織文化，雖然是一篇四年前的舊文，但是我還是覺得值得推薦給大家，此後還是會找一些類似的開源專案專訪文與大家分享，體會別人在程式碼以外，執行專案時是如何處理其他各種面向的議題。",
+          "embedded_links": [
+            {
+              "identifier": "3ZsFLWD",
+              "title": "Haiku",
+              "url_domain": "haiku-os.org",
+              "url": "https://www.haiku-os.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "mXj0lAa",
+          "type": "Link",
+          "title": "Anatomy of an Elixir Process",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@mustafaturan/anatomy-of-an-elixir-process-878030c37166#.mdo5d848i",
+          "description": "<p>簡潔有力地以圖解方式從微觀到巨觀介紹了 Elixir 的 Process，因為太簡潔有力了所以我也要寫得簡潔有力，直接點擊進去看吧！</p>",
+          "description_markdown": "簡潔有力地以圖解方式從微觀到巨觀介紹了 Elixir 的 Process，因為太簡潔有力了所以我也要寫得簡潔有力，直接點擊進去看吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "CZNrnRo",
+          "type": "Link",
+          "title": "Introducing Changelog 2.0",
+          "url_domain": "changelog.com",
+          "url": "https://changelog.com/posts/introducing-changelog-2-0",
+          "description": "<p>Changelog 這個 Podcast 很有趣，我也是訂戶之一。這篇文章介紹了他們使用 Elixir/Phoenix 製作的新網站（還預定會把這個 CMS 開源！）、以及新節目，包括 Go Time 這個針對 Go 語言的主題節目。大家感受一下。</p>",
+          "description_markdown": "Changelog 這個 Podcast 很有趣，我也是訂戶之一。這篇文章介紹了他們使用 Elixir/Phoenix 製作的新網站（還預定會把這個 CMS 開源！）、以及新節目，包括 Go Time 這個針對 Go 語言的主題節目。大家感受一下。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "HxzRWPA",
+          "type": "Link",
+          "title": "Golang Taipei 2016/10 第十七次聚會的投影片與錄影鏈結",
+          "url_domain": "github.com",
+          "url": "https://github.com/golangtw/GolangTaiwanGathering/tree/master/meetup/gtg17",
+          "description": "<p>各位好，編輯只好自肥一下．身為 <a href=\"http://golang.tw\">Golang.tw</a> 的共同主辦人之一，在這裡告訴各位我們十月地的聚會投影片與影片已經出現了．</p>\n\n<p>可以來這裡查看相關的投影片與影片內容，之後相關的聚會也會在這裡顯示出來．</p>\n\n<p>本月份的聚會有提到 <a href=\"https://grpc.io\">GRPC</a> 也有講到 <a href=\"https://github.com/golang/mobile\">gomobile</a> ，內容相當的精彩．</p>\n\n<p>十一月的聚會將會定在 11/29 號，歡迎大家來報名講者與協辦攝影師．請各位踴躍來報名啊</p>",
+          "description_markdown": "各位好，編輯只好自肥一下．身為 [Golang.tw](http://golang.tw) 的共同主辦人之一，在這裡告訴各位我們十月地的聚會投影片與影片已經出現了．\r\n\r\n可以來這裡查看相關的投影片與影片內容，之後相關的聚會也會在這裡顯示出來．\r\n\r\n本月份的聚會有提到 [GRPC](https://grpc.io) 也有講到 [gomobile](https://github.com/golang/mobile) ，內容相當的精彩． \r\n\r\n十一月的聚會將會定在 11/29 號，歡迎大家來報名講者與協辦攝影師．請各位踴躍來報名啊",
+          "embedded_links": [
+            {
+              "identifier": "58YlCE1",
+              "title": "Golang.tw",
+              "url_domain": "golang.tw",
+              "url": "http://golang.tw"
+            },
+            {
+              "identifier": "ST3137w",
+              "title": "GRPC",
+              "url_domain": "grpc.io",
+              "url": "https://grpc.io"
+            },
+            {
+              "identifier": "QSSoHpp",
+              "title": "gomobile",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/mobile"
+            }
+          ]
+        },
+        {
+          "identifier": "RzfLNia",
+          "type": "Link",
+          "title": "Why you should not use iris for your Go projects",
+          "url_domain": "florinpatan.ro",
+          "url": "http://www.florinpatan.ro/2016/10/why-you-should-not-use-iris-for-your-go.html",
+          "description": "<p>Iris 是一個號稱地表上最快的 Web Framework，擁有 5000+ star 的專案，但是想要申請 Awesome-Go 卻被 ban 掉的整個故事．  這篇文章，從多個角度建議你不應該把 Iris 當作你的專案中，故事精彩就直接看內文吧．</p>\n\n<p>懶人包:</p>\n\n<ol>\n<li>Iris 被 Awesome-Go 移除</li>\n<li>Iris 的 Kataras 申請重新加入．</li>\n<li>被人發現把 PR 改掉，License 亂寫</li>\n<li>被 Awesome-Go 拒絕並且 Ban 掉</li>\n<li>Kataras 把 Iris commit 改成只有兩個 (哪招？)</li>\n<li>Kataras 修改自己在 git issue 裡面的發言</li>\n</ol>\n\n\n<p>參考 : <a href=\"https://github.com/avelino/awesome-go/pull/1137\">Awesome-Go Github PR</a></p>",
+          "description_markdown": "Iris 是一個號稱地表上最快的 Web Framework，擁有 5000+ star 的專案，但是想要申請 Awesome-Go 卻被 ban 掉的整個故事．  這篇文章，從多個角度建議你不應該把 Iris 當作你的專案中，故事精彩就直接看內文吧．\r\n\r\n懶人包:\r\n\r\n1. Iris 被 Awesome-Go 移除\r\n2. Iris 的 Kataras 申請重新加入．\r\n3. 被人發現把 PR 改掉，License 亂寫\r\n4. 被 Awesome-Go 拒絕並且 Ban 掉\r\n5. Kataras 把 Iris commit 改成只有兩個 (哪招？)\r\n6. Kataras 修改自己在 git issue 裡面的發言 \r\n\r\n參考 : [Awesome-Go Github PR](https://github.com/avelino/awesome-go/pull/1137)    ",
+          "embedded_links": [
+            {
+              "identifier": "gtXLCLD",
+              "title": "Awesome-Go Github PR",
+              "url_domain": "github.com",
+              "url": "https://github.com/avelino/awesome-go/pull/1137"
+            }
+          ]
+        },
+        {
+          "identifier": "Wq3KzDC",
+          "type": "Link",
+          "title": "rekihattori/awesome-programmers: A list of history's greatest",
+          "url_domain": "github.com",
+          "url": "https://github.com/rekihattori/awesome-programmers",
+          "description": "<p>傑出程序員(捲舌音) 清單</p>\n\n<p>裡面有四個人跟 Golang 有關係</p>\n\n<p>在作業系統分類中:</p>\n\n<ul>\n<li>Ken Thompson: Go 創始人之一，也是 C 語言的共同發明者．</li>\n<li>Rob Pike: Go 創始人之一，主要管理整體架構與之後發展．</li>\n<li>Russ Cox: 許多好用的 Go 工具都是他起頭撰寫，不論是 gofmt 還是 goimport ．</li>\n<li>Brian Kernighan:  賣最好的 Go book作者 .  <a href=\"http://buff.ly/2dHhYpe\">書本的鏈結</a></li>\n</ul>\n\n\n<p>還有一個在資料庫的分類:</p>\n\n<ul>\n<li><a href=\"https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E5%BE%B7%C2%B7%E8%8F%B2%E8%8C%B2%E6%B4%BE%E7%BF%A0%E5%85%8B\">Brad Fitzpatrick</a>: LiveJournal 的創辦人，並且是 OpenID 制定協定的人．目前主要負責 Golang <code>net/http</code> 的相關開發．</li>\n</ul>",
+          "description_markdown": "傑出程序員(捲舌音) 清單 \r\n\r\n裡面有四個人跟 Golang 有關係\r\n\r\n在作業系統分類中:\r\n\r\n- Ken Thompson: Go 創始人之一，也是 C 語言的共同發明者．\r\n- Rob Pike: Go 創始人之一，主要管理整體架構與之後發展．\r\n- Russ Cox: 許多好用的 Go 工具都是他起頭撰寫，不論是 gofmt 還是 goimport ． \r\n- Brian Kernighan:  賣最好的 Go book作者 .  [書本的鏈結](http://buff.ly/2dHhYpe)\r\n\r\n還有一個在資料庫的分類:\r\n\r\n- [Brad Fitzpatrick](https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E5%BE%B7%C2%B7%E8%8F%B2%E8%8C%B2%E6%B4%BE%E7%BF%A0%E5%85%8B): LiveJournal 的創辦人，並且是 OpenID 制定協定的人．目前主要負責 Golang `net/http` 的相關開發．\r\n",
+          "embedded_links": [
+            {
+              "identifier": "8aJpPsM",
+              "title": "書本的鏈結",
+              "url_domain": "buff.ly",
+              "url": "http://buff.ly/2dHhYpe"
+            },
+            {
+              "identifier": "QBYxAYp",
+              "title": "Brad Fitzpatrick",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E5%BE%B7%C2%B7%E8%8F%B2%E8%8C%B2%E6%B4%BE%E7%BF%A0%E5%85%8B"
+            }
+          ]
+        },
+        {
+          "identifier": "exTsGmT",
+          "type": "Link",
+          "title": "Learn Kubernetes the Hard Way (the Easy and Cheap Way) – Medium",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@zwischenzugs/learn-kubernetes-the-hard-way-the-easy-and-cheap-way-6f82b665ccd9#.4t5ai4v65",
+          "description": "<p>Kelsey Hightower (Google Kubernetes 的傳教士) 的文件 <a href=\"https://github.com/kelseyhightower/kubernetes-the-hard-way\">kubernetes-the-hard-way</a> (透過硬派方式來安裝 Kubernetes) 一直都是了解與安裝 Kubernetes 最基本的安裝手冊．但是由於真的太困難而變成許多人望而卻步．（不然就是透過 minikube 或是直接使用 GKE)</p>\n\n<p>這篇文章，透過相同的方式來安裝．但是卻幫你透過 Vagrant 來安裝的方式幫你把 Kubernetes 安裝起來．不僅僅可以一鍵可以輕鬆完成，還可以在中間了解如何安裝並且一步步指導你相關步驟，實在相當的方便啊．</p>",
+          "description_markdown": "Kelsey Hightower (Google Kubernetes 的傳教士) 的文件 [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) (透過硬派方式來安裝 Kubernetes) 一直都是了解與安裝 Kubernetes 最基本的安裝手冊．但是由於真的太困難而變成許多人望而卻步．（不然就是透過 minikube 或是直接使用 GKE)\r\n\r\n這篇文章，透過相同的方式來安裝．但是卻幫你透過 Vagrant 來安裝的方式幫你把 Kubernetes 安裝起來．不僅僅可以一鍵可以輕鬆完成，還可以在中間了解如何安裝並且一步步指導你相關步驟，實在相當的方便啊．",
+          "embedded_links": [
+            {
+              "identifier": "cu8EzrP",
+              "title": "kubernetes-the-hard-way",
+              "url_domain": "github.com",
+              "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+            }
+          ]
+        },
+        {
+          "identifier": "Lv5Ha37",
+          "type": "Link",
+          "title": "chain/chain: Chain Core Developer Edition",
+          "url_domain": "github.com",
+          "url": "https://github.com/chain/chain?utm_content=buffer1a436&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>Chain 是一個 BlockChain 服務的公司，提供透過 blockchain 技術的金流與安全的資訊服務．</p>\n\n<p>相關訊息之前有板友貼過， 不過在這裡增加一些其他資訊:</p>\n\n<ol>\n<li><p>Chain 公司內部人員有一位是 Keith Rarick 是之前是 Heroku 做出 Go official buildpack 的大大 <a href=\"http://buff.ly/2dMp2xv\">KR Github</a></p></li>\n<li><p>根據 Reddit 上面的討論，如果你使用這個服務而沒有 AGPL 的話，你就得付企業的 License 費用  <a href=\"http://buff.ly/2eTmmio\">Reddit link</a></p></li>\n</ol>",
+          "description_markdown": "Chain 是一個 BlockChain 服務的公司，提供透過 blockchain 技術的金流與安全的資訊服務．\r\n\r\n相關訊息之前有板友貼過， 不過在這裡增加一些其他資訊:\r\n\r\n1.  Chain 公司內部人員有一位是 Keith Rarick 是之前是 Heroku 做出 Go official buildpack 的大大 [KR Github](http://buff.ly/2dMp2xv)\r\n\r\n\r\n2. 根據 Reddit 上面的討論，如果你使用這個服務而沒有 AGPL 的話，你就得付企業的 License 費用  [Reddit link](http://buff.ly/2eTmmio)",
+          "embedded_links": [
+            {
+              "identifier": "SV43HE1",
+              "title": "KR Github",
+              "url_domain": "buff.ly",
+              "url": "http://buff.ly/2dMp2xv"
+            },
+            {
+              "identifier": "NJVIXW4",
+              "title": "Reddit link",
+              "url_domain": "buff.ly",
+              "url": "http://buff.ly/2eTmmio"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "2u0z0Dc",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。</p>\n\n<p>意者歡迎來信：<a href=\"&#109;&#x61;&#105;&#108;&#116;&#111;&#58;&#116;&#x7a;&#97;&#110;&#103;&#109;&#115;&#x40;&#115;&#x74;&#x72;&#x65;&#101;&#x74;&#x76;&#x6f;&#x69;&#x63;&#x65;&#x2e;&#x63;&#111;&#x6d;\">&#116;&#122;&#97;&#x6e;&#103;&#109;&#x73;&#x40;&#115;&#x74;&#x72;&#101;&#x65;&#x74;&#x76;&#111;&#105;&#99;&#101;&#x2e;&#99;&#x6f;&#109;</a>。</p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL、Redis、Elasticsearch、Ansible 和 AWS。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+            {
+              "identifier": "RUds1Tw",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "Dc82vYa",
+          "type": "Link",
+          "title": "Frontend / Backend Developer at KKTIX",
+          "url_domain": "kktix.cc",
+          "url": "http://jobs.kktix.cc",
+          "description": "<p>負責開發與維護 KKTIX 服務，可自由遠端工作。團隊採行 Scrumban 敏捷開發流程，並實踐 Pair Programing、Code Review、整合 CI 作自動測試與佈署。讓你可以參與產品開發，並且能專注程式實作。團隊使用的技術包括但不限於 Golang / Ruby on Rails / JavaScript / ReactJS / AngularJS / AWS / PostgreSQL / Redis / Elasticsearch 歡迎自主管理能力強大的你，一起加入 KKTIX，開發更好用的售票報名服務。</p>\n\n<p>意者請將履歷寄到 <a href=\"mailto:hr@kkbox.com\">hr@kkbox.com</a> 或到 <a href=\"http://jobs.kktix.cc\">http://jobs.kktix.cc</a> 報名。</p>",
+          "description_markdown": "負責開發與維護 KKTIX 服務，可自由遠端工作。團隊採行 Scrumban 敏捷開發流程，並實踐 Pair Programing、Code Review、整合 CI 作自動測試與佈署。讓你可以參與產品開發，並且能專注程式實作。團隊使用的技術包括但不限於 Golang / Ruby on Rails / JavaScript / ReactJS / AngularJS / AWS / PostgreSQL / Redis / Elasticsearch 歡迎自主管理能力強大的你，一起加入 KKTIX，開發更好用的售票報名服務。\r\n\r\n意者請將履歷寄到 [hr@kkbox.com](mailto:hr@kkbox.com) 或到 [http://jobs.kktix.cc](http://jobs.kktix.cc) 報名。",
+          "embedded_links": [
+            {
+              "identifier": "bncsdAK",
+              "title": "http://jobs.kktix.cc",
+              "url_domain": "kktix.cc",
+              "url": "http://jobs.kktix.cc"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

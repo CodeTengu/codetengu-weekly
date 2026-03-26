@@ -1,0 +1,485 @@
+{
+  "number": 92,
+  "title": "Issue 92 To be OR NOT To be = To be",
+  "summary": "本期內容涵蓋 PHP, Laravel, Machine Learning, Deep Learning, DevOps, Kubernetes, JavaScript, WebAssembly, API",
+  "url": "https://weekly.codetengu.com/issues/92",
+  "publication_status": "published",
+  "published_at": "2017-06-12T05:00:00+01:00",
+  "updated_at": "2017-06-12T05:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Singularity Sky</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 教召完領了 3500，得了毛囊炎</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 人生就是不斷地填坑</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - PyCon Taiwan 2017 倒數 4 天</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>（<a href=\"https://github.com/CodeTengu\">Open Source 專案</a>）或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Singularity Sky](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 教召完領了 3500，得了毛囊炎\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 人生就是不斷地填坑\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - PyCon Taiwan 2017 倒數 4 天\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters)（[Open Source 專案](https://github.com/CodeTengu)）或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "CRwO33l",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "DfxpiF1",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "TqpcJmU",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "BSAHBKe",
+              "title": "Singularity Sky",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "WzZ5fAY",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "krUGLlB",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "wD1xE19",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "XUyF0OP",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "wK4tGOK",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "SDtxeWP",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "z1Pr7wM",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "HzH8IM0",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "vdblwa7",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "Xmae1hH",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "a5yV2Nb",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "mRNnZW5",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "lVtpPMs",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "VhyPVq5",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "vswRBuG",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "sElGpK1",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "DIZR7CL",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "jcvWamI",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "iTpCHSm",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "CAQ9zyH",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "7pDqSY0",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "MXWkT2P",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "S8YYLDk",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "op5U8pq",
+          "type": "Link",
+          "title": "Diving Laravel",
+          "url_domain": "divinglaravel.com",
+          "url": "https://divinglaravel.com/",
+          "description": "<p>Laravel：中級</p>\n\n<p>Laravel 核心開發人員 <a href=\"https://twitter.com/themsaid\">Mohamed</a> 的 blog，主要內容是深入探討 Laravel 核心與筆記，對於了解 Laravel Framework 底層架構很有幫助！</p>",
+          "description_markdown": "Laravel：中級\r\n\r\nLaravel 核心開發人員 [Mohamed](https://twitter.com/themsaid) 的 blog，主要內容是深入探討 Laravel 核心與筆記，對於了解 Laravel Framework 底層架構很有幫助！",
+          "embedded_links": [
+            {
+              "identifier": "L1VN0nf",
+              "title": "Mohamed",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/themsaid"
+            }
+          ]
+        },
+        {
+          "identifier": "THSN3f9",
+          "type": "Link",
+          "title": "Web App Performance Testing with Siege – Plan, Test, Learn",
+          "url_domain": "sitepoint.com",
+          "url": "https://www.sitepoint.com/web-app-performance-testing-siege-plan-test-learn/",
+          "description": "<p>Performance Testing：初級</p>\n\n<p>當你想了解一下你的網站的 Performance 時該怎麼做呢？本篇文章使用 <a href=\"https://github.com/JoeDog/siege\">Siege</a> 做了一個簡單的示範，從一開始準備測試計畫，到最後的分析報告，加了 Cache 之後比較在 Transaction、Throughput、Concurrency、Response Time 改善了多少程度，而不是拿到工具就胡亂測一發，簡單明暸，同樣的道理也可以適用在其他測試工具上喔。</p>",
+          "description_markdown": "Performance Testing：初級\r\n\r\n當你想了解一下你的網站的 Performance 時該怎麼做呢？本篇文章使用 [Siege](https://github.com/JoeDog/siege) 做了一個簡單的示範，從一開始準備測試計畫，到最後的分析報告，加了 Cache 之後比較在 Transaction、Throughput、Concurrency、Response Time 改善了多少程度，而不是拿到工具就胡亂測一發，簡單明暸，同樣的道理也可以適用在其他測試工具上喔。",
+          "embedded_links": [
+            {
+              "identifier": "onyPnEW",
+              "title": "Siege",
+              "url_domain": "github.com",
+              "url": "https://github.com/JoeDog/siege"
+            }
+          ]
+        },
+        {
+          "identifier": "hTnOxjT",
+          "type": "Link",
+          "title": "生成式对抗网络 GAN 有哪些最新的发展，可以实际应用到哪些场景中？",
+          "url_domain": "zhihu.com",
+          "url": "https://www.zhihu.com/question/52602529/answer/158727900",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>目前 Deep Learning 最紅的研究方向大概就是生成式對抗網路 GAN 了，這段討論串知乎上的神人們分享了各自的看法，探討 GAN 可以實際應用到哪些場景中。</p>\n\n<p>其中有人岔題討論道：「科幻电影降临 (異星入境) 里面的外星人 “七肢怪” 所使用的语言跟人类不同，人类使用的是线性的、串行的语言，而 “七肢怪” 使用的是非线性的、并行的语言。“七肢怪” 在跟主角交流的时候，都是一次性同时给出所有的语义单元的，所以说它们其实是一些多层反卷积网络进化出来的人工智能生命吗？」看到這段覺得真有趣啊，這段腦補推論還蠻有道理的，沒想到學 Deep Learning 還可以增加看電影的樂趣！</p>\n\n<p>如果大家對 GAN 還不甚了解，推薦大家看看微軟亞洲研究院<a href=\"http://www.msra.cn/zh-cn/news/blogs/2017/05/gan-20170511.aspx\">到底什么是生成式对抗网络 GAN？</a>這篇文章。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n目前 Deep Learning 最紅的研究方向大概就是生成式對抗網路 GAN 了，這段討論串知乎上的神人們分享了各自的看法，探討 GAN 可以實際應用到哪些場景中。\r\n\r\n其中有人岔題討論道：「科幻电影降临 (異星入境) 里面的外星人 “七肢怪” 所使用的语言跟人类不同，人类使用的是线性的、串行的语言，而 “七肢怪” 使用的是非线性的、并行的语言。“七肢怪” 在跟主角交流的时候，都是一次性同时给出所有的语义单元的，所以说它们其实是一些多层反卷积网络进化出来的人工智能生命吗？」看到這段覺得真有趣啊，這段腦補推論還蠻有道理的，沒想到學 Deep Learning 還可以增加看電影的樂趣！\r\n\r\n如果大家對 GAN 還不甚了解，推薦大家看看微軟亞洲研究院[到底什么是生成式对抗网络 GAN？](http://www.msra.cn/zh-cn/news/blogs/2017/05/gan-20170511.aspx)這篇文章。",
+          "embedded_links": [
+            {
+              "identifier": "Zc0rmZ2",
+              "title": "到底什么是生成式对抗网络 GAN？",
+              "url_domain": "msra.cn",
+              "url": "http://www.msra.cn/zh-cn/news/blogs/2017/05/gan-20170511.aspx"
+            }
+          ]
+        },
+        {
+          "identifier": "LgK8KSB",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 12 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-12-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>經過了許多講的 Aggregation Model 之後林軒田老師的課程終於進入到了類神經網路的部份，這一講算是對類神經網路的一個最基礎的認識，其中 Backpropagation 是演算法核心關鍵，了解了這個算法就能知道類神經網路是如何優化的，如果大家覺得林軒田老師這邊講得不夠詳細的話，這邊再推薦<a href=\"https://www.youtube.com/watch?v=ibJpTrp5mcE\">李宏毅老師的講解</a>。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n經過了許多講的 Aggregation Model 之後林軒田老師的課程終於進入到了類神經網路的部份，這一講算是對類神經網路的一個最基礎的認識，其中 Backpropagation 是演算法核心關鍵，了解了這個算法就能知道類神經網路是如何優化的，如果大家覺得林軒田老師這邊講得不夠詳細的話，這邊再推薦[李宏毅老師的講解](https://www.youtube.com/watch?v=ibJpTrp5mcE)。",
+          "embedded_links": [
+            {
+              "identifier": "vSmuYjw",
+              "title": "李宏毅老師的講解",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=ibJpTrp5mcE"
+            }
+          ]
+        },
+        {
+          "identifier": "UpwjSoM",
+          "type": "Link",
+          "title": "Automated Machine Learning — A Paradigm Shift That Accelerates Data Scientist Productivity @ Airbnb",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/airbnb-engineering/automated-machine-learning-a-paradigm-shift-that-accelerates-data-scientist-productivity-airbnb-f1f8a10d61f8",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>本篇文章分享了 Airbnb 如何在 Machine Learning 上做到自動化，包含資料前處理、參數調整、模型選擇等等，如果能夠自動化就可以幫助快速應用 Machine Learning 在產品上，其中有提到一個工具 <a href=\"https://github.com/automl/auto-sklearn\">auto-sklearn</a>\n 我蠻有興趣的，使用這個套件做 Classification 跟 Regression 就不用自己調參數、選模型，他會自動透過訓練資料選出最好的參數跟模型（背後原理應該也是用 cross validation，只是把調參數跟模型的過程自動化了，不用自己慢慢調慢慢做實驗），感覺超棒的！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n本篇文章分享了 Airbnb 如何在 Machine Learning 上做到自動化，包含資料前處理、參數調整、模型選擇等等，如果能夠自動化就可以幫助快速應用 Machine Learning 在產品上，其中有提到一個工具 [auto-sklearn](https://github.com/automl/auto-sklearn)\r\n 我蠻有興趣的，使用這個套件做 Classification 跟 Regression 就不用自己調參數、選模型，他會自動透過訓練資料選出最好的參數跟模型（背後原理應該也是用 cross validation，只是把調參數跟模型的過程自動化了，不用自己慢慢調慢慢做實驗），感覺超棒的！",
+          "embedded_links": [
+            {
+              "identifier": "iYa3PnP",
+              "title": "auto-sklearn",
+              "url_domain": "github.com",
+              "url": "https://github.com/automl/auto-sklearn"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "ppB69e1",
+          "type": "Link",
+          "title": "Green Ruby  謝幕",
+          "url_domain": "greenruby.org",
+          "url": "http://greenruby.org/",
+          "description": "<p>整整 4 年，不曾間斷地每週出刊，整理與介紹 Ruby，JavaScript，UI，以及 DevOps 相關的文章給我們，在此感謝 Mose，Xenor 以及 Tysliu 無私的分享和努力。謝謝！</p>",
+          "description_markdown": "整整 4 年，不曾間斷地每週出刊，整理與介紹 Ruby，JavaScript，UI，以及 DevOps 相關的文章給我們，在此感謝 Mose，Xenor 以及 Tysliu 無私的分享和努力。謝謝！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TUsHP1f",
+          "type": "Link",
+          "title": "Kubernetes 與 Docker Swarm，還有 DC/OS，到底哪一個好？",
+          "url_domain": "netsil.com",
+          "url": "https://netsil.com/blog/kubernetes-vs-docker-vs-mesosphere/",
+          "description": "<p>當你需要大量部署 containers 時，挑選一個最適合貴公司或單位的 orchestration platform，一直都處於各說各話的狀態：有人說 Kubernetes 最棒，有人說 Docker Swarm 最好。其實，很難有一個標準答案。所以先看看這篇文章怎麼說，再動手試試看，看哪個你比較喜歡且容易上手， 最後再加上你專業的判斷，就是您最佳選擇。沒有人可以幫你做決定！</p>",
+          "description_markdown": "當你需要大量部署 containers 時，挑選一個最適合貴公司或單位的 orchestration platform，一直都處於各說各話的狀態：有人說 Kubernetes 最棒，有人說 Docker Swarm 最好。其實，很難有一個標準答案。所以先看看這篇文章怎麼說，再動手試試看，看哪個你比較喜歡且容易上手， 最後再加上你專業的判斷，就是您最佳選擇。沒有人可以幫你做決定！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "peO6ZnS",
+          "type": "Link",
+          "title": "The RedMonk Programming Language Rankings: June 2017",
+          "url_domain": "redmonk.com",
+          "url": "http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/",
+          "description": "<p>最近又有人在 FB 問，給大一資訊系學生，最適合教他們什麼電腦語言，引起非常熱烈的討論。我們先看看這篇 RedMonk 2017 年 6 月的程式語言 rankings 報告，再下定論吧。</p>\n\n<p>值得一提的是，<a href=\"http://nilhcem.com/swift-is-like-kotlin/\">Swift 跟 Kotlin</a> 真的長得很像，一個是寫 iOS 手機 apps，另一種可以寫 Android 手機 apps。</p>",
+          "description_markdown": "最近又有人在 FB 問，給大一資訊系學生，最適合教他們什麼電腦語言，引起非常熱烈的討論。我們先看看這篇 RedMonk 2017 年 6 月的程式語言 rankings 報告，再下定論吧。\r\n\r\n值得一提的是，[Swift 跟 Kotlin](http://nilhcem.com/swift-is-like-kotlin/) 真的長得很像，一個是寫 iOS 手機 apps，另一種可以寫 Android 手機 apps。",
+          "embedded_links": [
+            {
+              "identifier": "WkLEXqD",
+              "title": "Swift 跟 Kotlin",
+              "url_domain": "nilhcem.com",
+              "url": "http://nilhcem.com/swift-is-like-kotlin/"
+            }
+          ]
+        },
+        {
+          "identifier": "fsYKb8h",
+          "type": "Link",
+          "title": "React to async/await",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@kkomaz/react-to-async-await-553c43f243e2",
+          "description": "<p>我在學 React 的過程中，一直有個問題：就是怎麼把 React 跟 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\">Promise</a> 放在一起使用？這篇文章卻告訴我，用 ES7 的 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function\">async</a>/<a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await\">await</a> 會比用 Promise 的 .then 讓程式看起來簡潔很多,，大家可以試試看。</p>",
+          "description_markdown": "我在學 React 的過程中，一直有個問題：就是怎麼把 React 跟 [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) 放在一起使用？這篇文章卻告訴我，用 ES7 的 [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)/[await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await) 會比用 Promise 的 .then 讓程式看起來簡潔很多,，大家可以試試看。",
+          "embedded_links": [
+            {
+              "identifier": "eA3Z9y0",
+              "title": "Promise",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+            },
+            {
+              "identifier": "gx7toAZ",
+              "title": "async",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+            },
+            {
+              "identifier": "VG3nVcl",
+              "title": "await",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "KLzQfUb",
+          "type": "Link",
+          "title": "7 Things You Should Know About WebAssembly",
+          "url_domain": "auth0.com",
+          "url": "https://auth0.com/blog/7-things-you-should-know-about-web-assembly/",
+          "description": "<p>一篇 <a href=\"http://webassembly.org/\">WebAssembly</a> 的科普文、觀念導正文，很適合對 WebAssembly 還處於一知半解、懵懵懂懂的人一讀。</p>\n\n<p>我自己是很期待 WebAssembly 假以時日可以在某種程度上解決「前端產品、技術，每隔 n 個月難度就翻一倍，或是根本就被推翻掉」這種問題，也希望 Web 能因為 WebAssembly 出現體驗更豐富的應用。</p>\n\n<p>本期就為各位先帶來 WebAssembly 三連發。</p>",
+          "description_markdown": "一篇 [WebAssembly](http://webassembly.org/) 的科普文、觀念導正文，很適合對 WebAssembly 還處於一知半解、懵懵懂懂的人一讀。\r\n\r\n我自己是很期待 WebAssembly 假以時日可以在某種程度上解決「前端產品、技術，每隔 n 個月難度就翻一倍，或是根本就被推翻掉」這種問題，也希望 Web 能因為 WebAssembly 出現體驗更豐富的應用。\r\n\r\n本期就為各位先帶來 WebAssembly 三連發。",
+          "embedded_links": [
+            {
+              "identifier": "slYTTft",
+              "title": "WebAssembly",
+              "url_domain": "webassembly.org",
+              "url": "http://webassembly.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "ryEg9vU",
+          "type": "Link",
+          "title": "Build Your First Thing With WebAssembly",
+          "url_domain": "cultureofdevelopment.com",
+          "url": "http://cultureofdevelopment.com/blog/build-your-first-thing-with-web-assembly/",
+          "description": "<p>實作文，作者嘗試將 <a href=\"http://asmjs.org/\">asm.js</a> 程式編譯（還是應該說組譯？）為 WebAssembly 程式的心得。</p>\n\n<p>除了 asm.js 以外，還有 C/C++ 以及 Rust 也是 WebAssembly 目前支援的來源語言。我還蠻私心推薦各位也可以試試<a href=\"http://www.hellorust.com/emscripten/\">把 Rust 程式編譯為 WebAssembly 程式</a>，Rust 自 1.14.0 版開始支援 <code>wasm32-unknown-emscripten</code> 這個 target。</p>",
+          "description_markdown": "實作文，作者嘗試將 [asm.js](http://asmjs.org/) 程式編譯（還是應該說組譯？）為 WebAssembly 程式的心得。\r\n\r\n除了 asm.js 以外，還有 C/C++ 以及 Rust 也是 WebAssembly 目前支援的來源語言。我還蠻私心推薦各位也可以試試[把 Rust 程式編譯為 WebAssembly 程式](http://www.hellorust.com/emscripten/)，Rust 自 1.14.0 版開始支援 `wasm32-unknown-emscripten` 這個 target。",
+          "embedded_links": [
+            {
+              "identifier": "I7YeJvj",
+              "title": "asm.js",
+              "url_domain": "asmjs.org",
+              "url": "http://asmjs.org/"
+            },
+            {
+              "identifier": "GpyoKCg",
+              "title": "把 Rust 程式編譯為 WebAssembly 程式",
+              "url_domain": "hellorust.com",
+              "url": "http://www.hellorust.com/emscripten/"
+            }
+          ]
+        },
+        {
+          "identifier": "FdGOA7p",
+          "type": "Link",
+          "title": "WebAssembly cut Figma’s load time by 3x",
+          "url_domain": "figma.com",
+          "url": "https://blog.figma.com/webassembly-cut-figmas-load-time-by-3x-76f3f2395164",
+          "description": "<p><a href=\"https://www.figma.com/\">Figma</a> 分享了他們採用 WebAssembly 的心得，透過 WebAssembly 的輔助，讓他們的設計工具產品加速了不少載入時間。我實際註冊了一個帳號去使用，雖然無從驗證是否確實有三倍速的載入時間表現，但確實很驚豔這個設計工具產品的 UI/UX。</p>\n\n<p><a href=\"https://blog.figma.com/building-a-professional-design-tool-on-the-web-6332ed4f1fcc\">這篇</a>透露了他們打造這個設計工作產品的技術面資訊，同樣值得一讀。</p>",
+          "description_markdown": "[Figma](https://www.figma.com/) 分享了他們採用 WebAssembly 的心得，透過 WebAssembly 的輔助，讓他們的設計工具產品加速了不少載入時間。我實際註冊了一個帳號去使用，雖然無從驗證是否確實有三倍速的載入時間表現，但確實很驚豔這個設計工具產品的 UI/UX。\r\n\r\n[這篇](https://blog.figma.com/building-a-professional-design-tool-on-the-web-6332ed4f1fcc)透露了他們打造這個設計工作產品的技術面資訊，同樣值得一讀。",
+          "embedded_links": [
+            {
+              "identifier": "KnXbA7B",
+              "title": "Figma",
+              "url_domain": "figma.com",
+              "url": "https://www.figma.com/"
+            },
+            {
+              "identifier": "v0ohbzJ",
+              "title": "這篇",
+              "url_domain": "figma.com",
+              "url": "https://blog.figma.com/building-a-professional-design-tool-on-the-web-6332ed4f1fcc"
+            }
+          ]
+        },
+        {
+          "identifier": "K8kBYi5",
+          "type": "Link",
+          "title": "APIs Design - Creation - Management",
+          "url_domain": "slideshare.net",
+          "url": "https://www.slideshare.net/welkaim/api-part-2-creating-and-managing-your-api",
+          "description": "<p>一份介紹如何打造與管理 RESTful API 服務的懶人包級投影片，一樣是我最近在學習刻 API 的時候找到的好物，各個環節都講到了，真的很棒，推薦給大家。</p>",
+          "description_markdown": "一份介紹如何打造與管理 RESTful API 服務的懶人包級投影片，一樣是我最近在學習刻 API 的時候找到的好物，各個環節都講到了，真的很棒，推薦給大家。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "zCUI6zF",
+          "type": "Link",
+          "title": "You Are Not Google 你不必是 Google，你就是你",
+          "url_domain": "bradfieldcs.com",
+          "url": "https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb",
+          "description": "<p>一篇痛擊 Over-Engineering 病（先承認我就是患者之一）的好文。</p>\n\n<p>我們這種人看到業界大手像是 Google 還是 Amazon 又提出了什麼特殊架構、以及對應這種架構釋出的工具時，往往就一頭熱地想著「有為者亦若是」、「從此我這小蝦米也可以有核彈級的武器跟大鯨魚一搏」，然後把心力與精力花在套這些架構、工具，卻因此失焦，忘了自己產品與訴求的用戶，也許根本不適合用這些架構與工具，同時也可能忽視了，業界大手發展出這些架構與工具，是要解決他們極為特殊的需求。</p>\n\n<p>這並不是說「地方的小工廠難道就不能作夢？」（←《<a href=\"https://zh.wikipedia.org/wiki/%E4%B8%8B%E7%94%BA%E7%81%AB%E7%AE%AD\">下町火箭</a>》哏）比誰大誰小的問題，而是你的產品想解決的問題需求，那些你覺得「不潮不夯」、但是經過千錘百鍊的「老」工具、「老」架構，搞不好更適合，綜合各項成本也更經濟。</p>\n\n<p>業界大手有他們要解決的問題需求，你有你要解決的問題需求。你不必是 Google，你就是你。</p>\n\n<p>作者提出的 UNPHAT 自我檢核法，各位 Over-Engineering 病友不妨拿來逐項審視自己，以及自己的產品，是否真有必要追著這些業界大手的腳步跑？還是說，其實你有自己的路可走？</p>",
+          "description_markdown": "一篇痛擊 Over-Engineering 病（先承認我就是患者之一）的好文。\r\n\r\n我們這種人看到業界大手像是 Google 還是 Amazon 又提出了什麼特殊架構、以及對應這種架構釋出的工具時，往往就一頭熱地想著「有為者亦若是」、「從此我這小蝦米也可以有核彈級的武器跟大鯨魚一搏」，然後把心力與精力花在套這些架構、工具，卻因此失焦，忘了自己產品與訴求的用戶，也許根本不適合用這些架構與工具，同時也可能忽視了，業界大手發展出這些架構與工具，是要解決他們極為特殊的需求。\r\n\r\n這並不是說「地方的小工廠難道就不能作夢？」（←《[下町火箭](https://zh.wikipedia.org/wiki/%E4%B8%8B%E7%94%BA%E7%81%AB%E7%AE%AD)》哏）比誰大誰小的問題，而是你的產品想解決的問題需求，那些你覺得「不潮不夯」、但是經過千錘百鍊的「老」工具、「老」架構，搞不好更適合，綜合各項成本也更經濟。\r\n\r\n業界大手有他們要解決的問題需求，你有你要解決的問題需求。你不必是 Google，你就是你。\r\n\r\n作者提出的 UNPHAT 自我檢核法，各位 Over-Engineering 病友不妨拿來逐項審視自己，以及自己的產品，是否真有必要追著這些業界大手的腳步跑？還是說，其實你有自己的路可走？",
+          "embedded_links": [
+            {
+              "identifier": "37GMd6P",
+              "title": "下町火箭",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E4%B8%8B%E7%94%BA%E7%81%AB%E7%AE%AD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "n8z3w25",
+          "type": "Link",
+          "title": "LinkComment 某留",
+          "url_domain": "google.com",
+          "url": "https://chrome.google.com/webstore/detail/linkcomment-%E6%9F%90%E7%95%99/lldjleecbhhdfkbjilmimaggjlonlkdk",
+          "description": "<p>我自己最近在研究 Machine Learning 及 Deep Learning，免不了要看論文，相關論文其實網路上都找得到 PDF 檔，但一個人看總有些看不明白的地方，也想要有人一起討論，這樣就能夠更快了解論文的精髓。</p>\n\n<p>後來想說既然論文 PDF 都在網路上了，不知有沒有方法可以讓大家在這篇在網路上的論文 PDF 進行留言討論，於是就做了一個 Chrome Extension 工具：<a href=\"https://bit.ly/linkcomment-chrome\">LinkComment 某留</a>。</p>\n\n<p>裝了這個 plugin 就可以讓大家在任何網頁或 PDF 上進行留言討論了，只要是 Chrome 可以瀏覽的，就可以留言，這樣大家對於論文的見解與知識就可以累積下來，不僅讓自己可以更快地與人討論理解論文也能造福後人！希望有在看論文的研究者都可以來使用看看，大家一起看論文比較快！</p>\n\n<p>PS. 大家如果想要用某留在 CodeTengu Weekly 討論（幹譙）誰分享的文章其實也可以啦～ 👻</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "我自己最近在研究 Machine Learning 及 Deep Learning，免不了要看論文，相關論文其實網路上都找得到 PDF 檔，但一個人看總有些看不明白的地方，也想要有人一起討論，這樣就能夠更快了解論文的精髓。\r\n\r\n後來想說既然論文 PDF 都在網路上了，不知有沒有方法可以讓大家在這篇在網路上的論文 PDF 進行留言討論，於是就做了一個 Chrome Extension 工具：[LinkComment 某留](https://bit.ly/linkcomment-chrome)。\r\n\r\n裝了這個 plugin 就可以讓大家在任何網頁或 PDF 上進行留言討論了，只要是 Chrome 可以瀏覽的，就可以留言，這樣大家對於論文的見解與知識就可以累積下來，不僅讓自己可以更快地與人討論理解論文也能造福後人！希望有在看論文的研究者都可以來使用看看，大家一起看論文比較快！\r\n\r\nPS. 大家如果想要用某留在 CodeTengu Weekly 討論（幹譙）誰分享的文章其實也可以啦～ 👻\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "r7Pvd1F",
+              "title": "LinkComment 某留",
+              "url_domain": "bit.ly",
+              "url": "https://bit.ly/linkcomment-chrome"
+            },
+            {
+              "identifier": "IyTHZl",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "9d53e33f-9b18-476f-92c0-7e9ed657b5a0.png",
+          "image_extra_large_filename": "original_ratio_extra_large_9d53e33f-9b18-476f-92c0-7e9ed657b5a0.png",
+          "image_medium_filename": "original_ratio_medium_9d53e33f-9b18-476f-92c0-7e9ed657b5a0.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "number": 124,
+  "title": "Issue 124 小明開了一間酒吧叫 Foo Bar",
+  "summary": "本期內容涵蓋 Data Visualization, Container, Ethereum, Vim, React, JavaScript, CSS, JVM, Swift",
+  "url": "https://weekly.codetengu.com/issues/124",
+  "publication_status": "published",
+  "published_at": "2018-04-23T03:00:00+01:00",
+  "updated_at": "2018-04-23T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，但是最近在玩 <a href=\"https://www.douban.com/people/vinta/\">God of War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們又要找 iOS 工程師啦！</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - <a href=\"https://tw.pycon.org/2018/registration/ticket-info/\">PyCon Taiwan 熱烈售票中</a>。Shadowverse: uranusjr</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，但是最近在玩 [God of War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們又要找 iOS 工程師啦！](https://www.yourator.co/companies/escapex/jobs/3116)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - [PyCon Taiwan 熱烈售票中](https://tw.pycon.org/2018/registration/ticket-info/)。Shadowverse: uranusjr\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Q5EhKdn",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "vwA3ssu",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "da1JeuH",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "c84eFvX",
+              "title": "God of War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "nTYqTGZ",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "VXfz5qb",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "fws5MtT",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "ZRyodTO",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "SLQm5TO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "VRuHuJv",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "HyKgbJY",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "AN3lc0b",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "YMiBh41",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "U5fVrIk",
+              "title": "我們又要找 iOS 工程師啦！",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "InZsylK",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "3XkKeTU",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "a6GA2P2",
+              "title": "PyCon Taiwan 熱烈售票中",
+              "url_domain": "pycon.org",
+              "url": "https://tw.pycon.org/2018/registration/ticket-info/"
+            },
+            {
+              "identifier": "X0wANZC",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "1jjgNhA",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "dKEJTJx",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "agJVjvX",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "beKkAR2",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "LqMi68z",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "oMSnnDG",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "kUDd8S4",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "TMw2dBK",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "CTfe4Bu",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "DH0cCHu",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "9Ql4xFl",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "rBUkbt0",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "MrQCOBQ",
+          "type": "Link",
+          "title": "Storytelling in Dashboards",
+          "url_domain": "susielu.com",
+          "url": "http://susielu.com/data-viz/storytelling-in-dashboards",
+          "description": "<p><a href=\"https://twitter.com/datatoviz\">Susie Lu</a> 介紹如何利用遊戲設計的思維與說故事的形式，來設計資料視覺化的儀表板。因此可以讓不同的使用者，從不同的角度去探索自己想要的答案，進而還能讓使用者輕鬆保存或分享當時的狀態與圖示，讓資料視覺化程式更創意，使用者體驗也會更好。</p>",
+          "description_markdown": "[Susie Lu](https://twitter.com/datatoviz) 介紹如何利用遊戲設計的思維與說故事的形式，來設計資料視覺化的儀表板。因此可以讓不同的使用者，從不同的角度去探索自己想要的答案，進而還能讓使用者輕鬆保存或分享當時的狀態與圖示，讓資料視覺化程式更創意，使用者體驗也會更好。",
+          "embedded_links": [
+            {
+              "identifier": "3xEnVCo",
+              "title": "Susie Lu",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/datatoviz"
+            }
+          ]
+        },
+        {
+          "identifier": "9HIpSaZ",
+          "type": "Link",
+          "title": "Titus, the Netflix Container Management Platform, Is Now Open Source",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436",
+          "description": "<p>Netflix 在幾天前終於開放它容器管理平台 <a href=\"https://github.com/Netflix/titus\">Titus</a> 的原始碼。從 2015 年年底，一週約開啟上千個容器，到現在一週開啟上百萬個容器，Titus 在 <a href=\"https://medium.com/netflix-techblog/the-evolution-of-container-usage-at-netflix-3abfc096781b\">Netflix 使用容器的演進過程</a>中扮演了非常重要的角色。</p>",
+          "description_markdown": "Netflix 在幾天前終於開放它容器管理平台 [Titus](https://github.com/Netflix/titus) 的原始碼。從 2015 年年底，一週約開啟上千個容器，到現在一週開啟上百萬個容器，Titus 在 [Netflix 使用容器的演進過程](https://medium.com/netflix-techblog/the-evolution-of-container-usage-at-netflix-3abfc096781b)中扮演了非常重要的角色。",
+          "embedded_links": [
+            {
+              "identifier": "C2fF5te",
+              "title": "Titus",
+              "url_domain": "github.com",
+              "url": "https://github.com/Netflix/titus"
+            },
+            {
+              "identifier": "PlQIhBU",
+              "title": "Netflix 使用容器的演進過程",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/netflix-techblog/the-evolution-of-container-usage-at-netflix-3abfc096781b"
+            }
+          ]
+        },
+        {
+          "identifier": "RrrjkIh",
+          "type": "Link",
+          "title": "Gitcoin: Open Source Bounties with Kevin Owocki",
+          "url_domain": "softwareengineeringdaily.com",
+          "url": "https://softwareengineeringdaily.com/2018/04/03/gitcoin-open-source-bounties-with-kevin-owocki/",
+          "description": "<p><a href=\"https://softwareengineeringdaily.com/\">Software Engineering Daily</a> 這個 Podcast 訪問 <a href=\"https://gitcoin.co/\">Gitcoin</a> 的發明人 <a href=\"https://www.linkedin.com/in/owocki\">Kevin Owocki</a>。Gitcoin 是一個寫在以太坊 (<a href=\"https://twitter.com/search?q=Ethereum\">Ethereum</a>) 智能合約上的開放原始碼懸賞平台。雖然它也叫 coin，但它不是一個 ICO。</p>",
+          "description_markdown": "[Software Engineering Daily](https://softwareengineeringdaily.com/) 這個 Podcast 訪問 [Gitcoin](https://gitcoin.co/) 的發明人 [Kevin Owocki](https://www.linkedin.com/in/owocki)。Gitcoin 是一個寫在以太坊 ([Ethereum](https://twitter.com/search?q=Ethereum)) 智能合約上的開放原始碼懸賞平台。雖然它也叫 coin，但它不是一個 ICO。",
+          "embedded_links": [
+            {
+              "identifier": "4g50cLO",
+              "title": "Software Engineering Daily",
+              "url_domain": "softwareengineeringdaily.com",
+              "url": "https://softwareengineeringdaily.com/"
+            },
+            {
+              "identifier": "LMiRgiD",
+              "title": "Gitcoin",
+              "url_domain": "gitcoin.co",
+              "url": "https://gitcoin.co/"
+            },
+            {
+              "identifier": "HyuyJix",
+              "title": "Kevin Owocki",
+              "url_domain": "linkedin.com",
+              "url": "https://www.linkedin.com/in/owocki"
+            },
+            {
+              "identifier": "xTT8h96",
+              "title": "Ethereum",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/search?q=Ethereum"
+            }
+          ]
+        },
+        {
+          "identifier": "DeHokFV",
+          "type": "Link",
+          "title": "vim tips and tricks",
+          "url_domain": "oberlin.edu",
+          "url": "https://www.cs.oberlin.edu/~kuperman/help/vim/",
+          "description": "<p>如題。</p>",
+          "description_markdown": "如題。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "cJ85Td0",
+          "type": "Link",
+          "title": "React v16.3.0: New lifecycles and context API",
+          "url_domain": "reactjs.org",
+          "url": "https://reactjs.org/blog/2018/03/29/react-v-16-3.html",
+          "description": "<p>React 16.3 在近期發佈了，這個版本的更新主要有以下幾點。</p>\n\n<ul>\n<li><p>正式推出新的 <a href=\"https://reactjs.org/docs/context.html\">Context API</a> ，將不再被列為實驗性的功能，使用上也更加的直覺了，支援 static type checking 和 deep updates 。</p></li>\n<li><p>提供新的 <a href=\"https://reactjs.org/docs/refs-and-the-dom.html\">createRef API</a> ，更方便的管理  refs 功能，並且沒有 string ref API 的一些<a href=\"https://github.com/facebook/react/issues/1373\">缺點</a>。</p></li>\n<li><p>利用 <a href=\"https://reactjs.org/docs/forwarding-refs.html\">forwardRef API</a> 來傳遞 ref ，使得 parent component 可以更方便操作 children 內的任何 DOM ，配合 Context API 使用會非常的方便。</p></li>\n<li><p>改變 Component Lifecycle ， componentWillMount 、 componentWillReceiveProps 和 componentWillUpdate ，這些容易擾亂 React Lifecycle 的 function 將在之後的版本被剔除。</p></li>\n<li><p>提供 <a href=\"https://reactjs.org/docs/strict-mode.html\">StrictMode Component</a> 用以檢查</p>\n\n<ul>\n<li>components 是否有 unsafe lifecycles</li>\n<li>是否有使用 legacy string ref API</li>\n<li>不預期的 side effects</li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "React 16.3 在近期發佈了，這個版本的更新主要有以下幾點。\r\n\r\n- 正式推出新的 [Context API](https://reactjs.org/docs/context.html) ，將不再被列為實驗性的功能，使用上也更加的直覺了，支援 static type checking 和 deep updates 。\r\n\r\n- 提供新的 [createRef API](https://reactjs.org/docs/refs-and-the-dom.html) ，更方便的管理  refs 功能，並且沒有 string ref API 的一些[缺點](https://github.com/facebook/react/issues/1373)。\r\n\r\n- 利用 [forwardRef API](https://reactjs.org/docs/forwarding-refs.html) 來傳遞 ref ，使得 parent component 可以更方便操作 children 內的任何 DOM ，配合 Context API 使用會非常的方便。\r\n\r\n- 改變 Component Lifecycle ， componentWillMount 、 componentWillReceiveProps 和 componentWillUpdate ，這些容易擾亂 React Lifecycle 的 function 將在之後的版本被剔除。\r\n\r\n- 提供 [StrictMode Component](https://reactjs.org/docs/strict-mode.html) 用以檢查\r\n  - components 是否有 unsafe lifecycles\r\n  - 是否有使用 legacy string ref API\r\n  - 不預期的 side effects",
+          "embedded_links": [
+            {
+              "identifier": "iqd9Tkm",
+              "title": "Context API",
+              "url_domain": "reactjs.org",
+              "url": "https://reactjs.org/docs/context.html"
+            },
+            {
+              "identifier": "bz8tkOI",
+              "title": "createRef API",
+              "url_domain": "reactjs.org",
+              "url": "https://reactjs.org/docs/refs-and-the-dom.html"
+            },
+            {
+              "identifier": "oOi5lu5",
+              "title": "缺點",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/1373"
+            },
+            {
+              "identifier": "VkZhPQA",
+              "title": "forwardRef API",
+              "url_domain": "reactjs.org",
+              "url": "https://reactjs.org/docs/forwarding-refs.html"
+            },
+            {
+              "identifier": "p9KlFTc",
+              "title": "StrictMode Component",
+              "url_domain": "reactjs.org",
+              "url": "https://reactjs.org/docs/strict-mode.html"
+            }
+          ]
+        },
+        {
+          "identifier": "jQysTpo",
+          "type": "Link",
+          "title": "因為 Oracle 持有 JavaScript 商標， Apple 下架使用了 JavaScript 字眼的 App",
+          "url_domain": "reddit.com",
+          "url": "https://www.reddit.com/r/javascript/comments/8d0bg2/oracle_owns_javascript_so_apple_is_taking_down_my/",
+          "description": "<p>JavaScript 商標為 Oracle 所擁有 (US Trademark Registration No. 2416017) ，最近有開發者在 reddit 上發文表示自己的 app 因為使用了  JavaScript 字眼而收到 Apple 寄的信，大致的內容是：「你不能使用 JavaScript，因為 Oracle 擁有這個商標」。</p>",
+          "description_markdown": "JavaScript 商標為 Oracle 所擁有 (US Trademark Registration No. 2416017) ，最近有開發者在 reddit 上發文表示自己的 app 因為使用了  JavaScript 字眼而收到 Apple 寄的信，大致的內容是：「你不能使用 JavaScript，因為 Oracle 擁有這個商標」。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8w4ydtE",
+          "type": "Link",
+          "title": "Awesome Checkbox and Radio-Button CSS Hacks",
+          "url_domain": "codeburst.io",
+          "url": "https://codeburst.io/awesome-checkbox-and-radio-button-css-hacks-a8c24fb15a95",
+          "description": "<p>利用 checkbox 、 radio button 並透過 CSS 的 <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes\">Pseudo-classes</a> 和 <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors\">General sibling combinator</a> 的技巧，不需要 JavaScript 也可以做出一些互動的效果！</p>",
+          "description_markdown": "利用 checkbox 、 radio button 並透過 CSS 的 [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) 和 [General sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors) 的技巧，不需要 JavaScript 也可以做出一些互動的效果！",
+          "embedded_links": [
+            {
+              "identifier": "cG1CVNE",
+              "title": "Pseudo-classes",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"
+            },
+            {
+              "identifier": "eGh3sbc",
+              "title": "General sibling combinator",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors"
+            }
+          ]
+        },
+        {
+          "identifier": "GSRAJm0",
+          "type": "Link",
+          "title": "Mario Kart: CSS",
+          "url_domain": "codeburst.io",
+          "url": "https://codeburst.io/mario-kart-css-7572bd2ce608",
+          "description": "<p>這篇文章也是利用上面的技巧，只利用 HTML 的 input 及 Pure CSS 來實作馬力歐賽車。</p>",
+          "description_markdown": "這篇文章也是利用上面的技巧，只利用 HTML 的 input 及 Pure CSS 來實作馬力歐賽車。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "R2gMe21",
+          "type": "Link",
+          "title": "Apple 開源了 FoundationDB",
+          "url_domain": "foundationdb.org",
+          "url": "https://www.foundationdb.org/",
+          "description": "<p>FoundationDB 是一個可以水平擴展而且支援 <a href=\"https://zh.wikipedia.org/zh-tw/ACID\">ACID</a> 的 <a href=\"https://zh.wikipedia.org/wiki/NoSQL\">NoSQL</a> DB。在 2015 年被 Apple 買走，並且停止開放下載。但就在 2018/4/19，Apple 將它變成了一個 <a href=\"https://www.openfoundry.org/tw/legal-column-list/8950-obligations-of-apache-20\">Apache 2 授權</a>的開源計畫。</p>\n\n<p>它設計上的理念很有趣，核心部分是一個 key-value store，在這之上有各種不同的 layer 來提供不同的存取方式，像是 SQL 或是 message queue。這次開源的部分是核心的部分，大家可以自己寫 Layer來達成不同的目的。</p>",
+          "description_markdown": "FoundationDB 是一個可以水平擴展而且支援 [ACID](https://zh.wikipedia.org/zh-tw/ACID) 的 [NoSQL](https://zh.wikipedia.org/wiki/NoSQL) DB。在 2015 年被 Apple 買走，並且停止開放下載。但就在 2018/4/19，Apple 將它變成了一個 [Apache 2 授權](https://www.openfoundry.org/tw/legal-column-list/8950-obligations-of-apache-20)的開源計畫。\r\n\r\n它設計上的理念很有趣，核心部分是一個 key-value store，在這之上有各種不同的 layer 來提供不同的存取方式，像是 SQL 或是 message queue。這次開源的部分是核心的部分，大家可以自己寫 Layer來達成不同的目的。",
+          "embedded_links": [
+            {
+              "identifier": "rrRL0eT",
+              "title": "ACID",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/zh-tw/ACID"
+            },
+            {
+              "identifier": "y27LLld",
+              "title": "NoSQL",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/NoSQL"
+            },
+            {
+              "identifier": "8hrgZjf",
+              "title": "Apache 2 授權",
+              "url_domain": "openfoundry.org",
+              "url": "https://www.openfoundry.org/tw/legal-column-list/8950-obligations-of-apache-20"
+            }
+          ]
+        },
+        {
+          "identifier": "yl6Q2KG",
+          "type": "Link",
+          "title": "GraalVM",
+          "url_domain": "graalvm.org",
+          "url": "http://www.graalvm.org/",
+          "description": "<p>GraalVM 是 Oracle 開發的開源 (GPLv2) 通用 VM，可以執行 JavaScript, Ruby, Python 和各種 JVM 和 LLVM 為基礎的程式語言，包含 Java, Scala, C++等等。裡面包含了幾個重要元件：</p>\n\n<ul>\n<li>Truffle: 用來實作動態語言的 framework, <a href=\"https://github.com/oracle/truffleruby\">TruffleRuby</a> 就是用這個寫的。</li>\n<li>Graal: 基於 JDK 的動態編譯器</li>\n<li>Substrate VM : 可以對 Java 程式做 ahead-of-time (AOT) 編譯。並且讓 Java 程式脫離 JVM 直接執行。</li>\n</ul>",
+          "description_markdown": "GraalVM 是 Oracle 開發的開源 (GPLv2) 通用 VM，可以執行 JavaScript, Ruby, Python 和各種 JVM 和 LLVM 為基礎的程式語言，包含 Java, Scala, C++等等。裡面包含了幾個重要元件：\r\n\r\n- Truffle: 用來實作動態語言的 framework, [TruffleRuby](https://github.com/oracle/truffleruby) 就是用這個寫的。\r\n- Graal: 基於 JDK 的動態編譯器\r\n- Substrate VM : 可以對 Java 程式做 ahead-of-time (AOT) 編譯。並且讓 Java 程式脫離 JVM 直接執行。 ",
+          "embedded_links": [
+            {
+              "identifier": "ZvhVkB3",
+              "title": "TruffleRuby",
+              "url_domain": "github.com",
+              "url": "https://github.com/oracle/truffleruby"
+            }
+          ]
+        },
+        {
+          "identifier": "zqS3boH",
+          "type": "Link",
+          "title": "KLEE ",
+          "url_domain": "github.io",
+          "url": "https://klee.github.io/",
+          "description": "<p>KlEE 是一個基於 LLVM 的 Symbolic 執行引擎，可以用來尋找程式所有可能的執行路徑。也可以用來自動產生各種 test case。</p>",
+          "description_markdown": "KlEE 是一個基於 LLVM 的 Symbolic 執行引擎，可以用來尋找程式所有可能的執行路徑。也可以用來自動產生各種 test case。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "rjJQzZw",
+          "type": "Link",
+          "title": "Swift 4.1 新功能介紹",
+          "url_domain": "github.com",
+          "url": "https://github.com/twostraws/whats-new-in-swift-4-1",
+          "description": "<p>Swift 4.1 隨著 Xcode 9.3 一起發佈了。\n包含了 conditional conformance ， Synthesized Equatable 等等方便的新功能。\n這個 playground 示範了各種實用的新功能。</p>",
+          "description_markdown": "Swift 4.1 隨著 Xcode 9.3 一起發佈了。\r\n包含了 conditional conformance ， Synthesized Equatable 等等方便的新功能。\r\n這個 playground 示範了各種實用的新功能。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bK11YRP",
+          "type": "Link",
+          "title": "csvkit",
+          "url_domain": "readthedocs.io",
+          "url": "https://csvkit.readthedocs.io/en/1.0.3/",
+          "description": "<p>相當實用的 csv 處理工具。\n可以轉換 excel, json 成 csv, 讀取特定欄位，還可以用 SQL 來對 csv 做查詢。</p>",
+          "description_markdown": "相當實用的 csv 處理工具。\r\n可以轉換 excel, json 成 csv, 讀取特定欄位，還可以用 SQL 來對 csv 做查詢。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "dmmRjOK",
+          "type": "Link",
+          "title": "Senior Backend Developer at Swag",
+          "url_domain": "104.com.tw",
+          "url": "https://www.104.com.tw/job/?jobno=5y8ex",
+          "description": "<p>薪資：年薪新台幣 100 萬元以上。</p>\n\n<p>基本條件：</p>\n\n<ol>\n<li>In-depth knowledge of Python or NodeJS</li>\n<li>Experience with Python web frameworks ie. Flask/Django/Tornado</li>\n<li>Utilized work queues for background processing</li>\n<li>In-depth knowledge of Mongo and Redis</li>\n<li>Excellent understanding of HTTP</li>\n<li>Experience developing REST APIs</li>\n</ol>",
+          "description_markdown": "薪資：年薪新台幣 100 萬元以上。\r\n\r\n基本條件：\r\n\r\n1. In-depth knowledge of Python or NodeJS\r\n2. Experience with Python web frameworks ie. Flask/Django/Tornado\r\n3. Utilized work queues for background processing\r\n4. In-depth knowledge of Mongo and Redis\r\n5. Excellent understanding of HTTP\r\n6. Experience developing REST APIs",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

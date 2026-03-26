@@ -1,0 +1,504 @@
+{
+  "number": 18,
+  "title": "Issue 18 今天要跟大家說一個很好笑的 UDP 笑話",
+  "summary": "本期內容涵蓋 Python, Go, MySQL, Docker, Android, iOS",
+  "url": "https://weekly.codetengu.com/issues/18",
+  "publication_status": "published",
+  "published_at": "2015-11-30T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:20:34+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是<a href=\"https://github.com/CodeTengu/headquarters\">目前的 curator 陣容</a>：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 泰國不得了</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近交了一個很正的女朋友，大家都很生氣</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://twitter.com/tonytonyjan\">@tonytonyjan</a> - 右手寫程式，左手寫音樂</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>\n\n<hr />\n\n<p>為了服務廣大的喜愛動漫的臭宅們，從本期開始，我們會不定期地推出 <strong>Otaku is the New Sexy</strong> 專欄，以三場晚餐約會和跟她去一次動物園作為交換，我們非常榮幸邀請到在東立出版社工作的職業腐女 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 小姐來跟大家分享。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是[目前的 curator 陣容](https://github.com/CodeTengu/headquarters)：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 泰國不得了\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近交了一個很正的女朋友，大家都很生氣\r\n- [@wancw](https://twitter.com/wancw) - 求職中的 Full-stack Developer，意者內洽\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@tonytonyjan](https://twitter.com/tonytonyjan) - 右手寫程式，左手寫音樂\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺\r\n\r\n- - -\r\n\r\n為了服務廣大的喜愛動漫的臭宅們，從本期開始，我們會不定期地推出 **Otaku is the New Sexy** 專欄，以三場晚餐約會和跟她去一次動物園作為交換，我們非常榮幸邀請到在東立出版社工作的職業腐女 [@autisticcat](https://twitter.com/autisticcat) 小姐來跟大家分享。",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "LEKfzNw",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "o241TQ1",
+              "title": "目前的 curator 陣容",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "F9Y9EBU",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "KpZe3Ia",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "LtSrQ41",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "FG3tAw8",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "19USq53",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "qfZpSwS",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "baClxGo",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "MUpUzhb",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "2EDoS4T",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "xoDk8b5",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "7S93W9T",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "3LhXcoo",
+              "title": "@tonytonyjan",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tonytonyjan"
+            },
+            {
+              "identifier": "mdCsPmq",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "hifVWXV",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "DXHlGf1",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "e2oH6WW",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "QSvBMq7",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "ipjv5hw",
+          "type": "Link",
+          "title": "A Guide to Python's Magic Methods",
+          "url_domain": "rafekettler.com",
+          "url": "http://www.rafekettler.com/magicmethods.html",
+          "description": "<p>所謂的 <strong>Magic Methods</strong> 就是指 Python 的那些 <code>__xxx__</code> 的特殊 methods，例如最常見的 <code>__init__</code>、<code>__call__</code>、<code>__str__</code> 或是寫 context manager 一定會用到的 <code>__enter__</code> 和 <code>__exit__</code>。雖然有很多的 magic methods 平常不見得用得到，但是你至少應該看一下最後的那個 <strong>How to Call Magic Methods</strong> 表格，這樣你就知道那些你在別人的程式碼裡看到的魔術一般的用法是怎麼做到的了。</p>",
+          "description_markdown": "所謂的 **Magic Methods** 就是指 Python 的那些 `__xxx__` 的特殊 methods，例如最常見的 `__init__`、`__call__`、`__str__` 或是寫 context manager 一定會用到的 `__enter__` 和 `__exit__`。雖然有很多的 magic methods 平常不見得用得到，但是你至少應該看一下最後的那個 **How to Call Magic Methods** 表格，這樣你就知道那些你在別人的程式碼裡看到的魔術一般的用法是怎麼做到的了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "B6GeijO",
+          "type": "Link",
+          "title": "Best practices for a new Go developer",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@IndianGuru/best-practices-for-a-new-go-developer-8660384302fc#.awgfkmxuj",
+          "description": "<p>這篇文章匯整了各方大神給 Golang 初學者的建議，但是主要講的都不是技術上的細節，而是觀念和心態上的 best practices。</p>\n\n<p>雖然常常聽到有人說每個程式語言都大同小異，只要精通一個，就能夠一法通萬法通，但是老實說我覺得這種說法根本就是放屁啊。如果只是學學基礎的語法，寫幾個屁程式，很多語言當然都很簡單。但是不同的語言其實都有各自的設計哲學、風格和慣例，要能夠寫出「道地的」程式碼，終究還是少不了長時間而且大量的實踐。所以「學習新的程式語言」這件事的潛在成本其實很高，換句話說，「如何決定要學什麼」也是一種很重要的技能啊。</p>",
+          "description_markdown": "這篇文章匯整了各方大神給 Golang 初學者的建議，但是主要講的都不是技術上的細節，而是觀念和心態上的 best practices。\r\n\r\n雖然常常聽到有人說每個程式語言都大同小異，只要精通一個，就能夠一法通萬法通，但是老實說我覺得這種說法根本就是放屁啊。如果只是學學基礎的語法，寫幾個屁程式，很多語言當然都很簡單。但是不同的語言其實都有各自的設計哲學、風格和慣例，要能夠寫出「道地的」程式碼，終究還是少不了長時間而且大量的實踐。所以「學習新的程式語言」這件事的潛在成本其實很高，換句話說，「如何決定要學什麼」也是一種很重要的技能啊。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "7PEXzyH",
+          "type": "Link",
+          "title": "[MySQL 优化案例] 系列 — RAND() 优化",
+          "url_domain": "imysql.com",
+          "url": "http://imysql.com/2014/07/04/mysql-optimization-case-rand-optimize.shtml",
+          "description": "<p>從資料庫中隨機取出幾筆記錄是個很常見的需求，但是我們都知道 <code>ORDER BY RAND()</code> 很慢，就算你以為你 <code>LIMIT 1</code> 了。這篇文章就列舉了其他幾個能夠達到同樣結果但是效率更好的方案。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html\">MySQL 5.7 Reference Manual - ORDER BY Optimization</a></li>\n<li><a href=\"http://dev.mysql.com/doc/refman/5.7/en/mathematical-functions.html#function_rand\">MySQL 5.7 Reference Manual - RAND()</a></li>\n</ul>",
+          "description_markdown": "從資料庫中隨機取出幾筆記錄是個很常見的需求，但是我們都知道 `ORDER BY RAND()` 很慢，就算你以為你 `LIMIT 1` 了。這篇文章就列舉了其他幾個能夠達到同樣結果但是效率更好的方案。\r\n\r\n延伸閱讀：\r\n\r\n- [MySQL 5.7 Reference Manual - ORDER BY Optimization](http://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html)\r\n- [MySQL 5.7 Reference Manual - RAND()](http://dev.mysql.com/doc/refman/5.7/en/mathematical-functions.html#function_rand)",
+          "embedded_links": [
+            {
+              "identifier": "35EKky9",
+              "title": "MySQL 5.7 Reference Manual - ORDER BY Optimization",
+              "url_domain": "mysql.com",
+              "url": "http://dev.mysql.com/doc/refman/5.7/en/order-by-optimization.html"
+            },
+            {
+              "identifier": "KKSadlc",
+              "title": "MySQL 5.7 Reference Manual - RAND()",
+              "url_domain": "mysql.com",
+              "url": "http://dev.mysql.com/doc/refman/5.7/en/mathematical-functions.html#function_rand"
+            }
+          ]
+        },
+        {
+          "identifier": "CCUoxPA",
+          "type": "Link",
+          "title": "eBooks Series: The Docker and Container Ecosystem",
+          "url_domain": "thenewstack.io",
+          "url": "http://thenewstack.io/ebookseries/",
+          "description": "<p>這是由 <a href=\"http://thenewstack.io/\">The New Stack</a> 出版的一系列的 Docker 特刊，這一本是第一集。雖然我偶爾會取笑 The New Stack 就是技術文章界的內容農場，但是這本製作精美的小冊子倒是挺全面的，連最近的熱詞 Unikernel 都提到了。雖然有些章節的廢話很多，但是其中提到的某些數據蠻有趣的，例如對 Docker / Container 這項新技術的採用程度，大公司反而比一般的 startup 更高，但是想了一下也是有道理。</p>\n\n<p>題外話，我當初知道這個網站其實是因為 <a href=\"https://github.com/vinta/awesome-python\">awesome-python</a>，那時候建立這個 repo 才沒幾天，就收到 The New Stack 的人寄來的信，說想針對這個主題<a href=\"http://thenewstack.io/awesome-python-frameworks-libraries-and-software-plus-tacos/\">寫一篇文章</a>（雖然其實我後來沒回覆他），從那個時候開始我才發現國外的技術寫手的生態原來這麼蓬勃，而且他們不像 <a href=\"http://www.inside.com.tw/\">Inside</a> 這樣的網路媒體，老是寫一些不入流或是錯誤百出的文章，國外的這些技術寫手對技術趨勢是有敏銳度的，而且他們是真的知道 Kubernetes 和 Mesos 是在做什麼的啊。</p>",
+          "description_markdown": "這是由 [The New Stack](http://thenewstack.io/) 出版的一系列的 Docker 特刊，這一本是第一集。雖然我偶爾會取笑 The New Stack 就是技術文章界的內容農場，但是這本製作精美的小冊子倒是挺全面的，連最近的熱詞 Unikernel 都提到了。雖然有些章節的廢話很多，但是其中提到的某些數據蠻有趣的，例如對 Docker / Container 這項新技術的採用程度，大公司反而比一般的 startup 更高，但是想了一下也是有道理。\r\n\r\n題外話，我當初知道這個網站其實是因為 [awesome-python](https://github.com/vinta/awesome-python)，那時候建立這個 repo 才沒幾天，就收到 The New Stack 的人寄來的信，說想針對這個主題[寫一篇文章](http://thenewstack.io/awesome-python-frameworks-libraries-and-software-plus-tacos/)（雖然其實我後來沒回覆他），從那個時候開始我才發現國外的技術寫手的生態原來這麼蓬勃，而且他們不像 [Inside](http://www.inside.com.tw/) 這樣的網路媒體，老是寫一些不入流或是錯誤百出的文章，國外的這些技術寫手對技術趨勢是有敏銳度的，而且他們是真的知道 Kubernetes 和 Mesos 是在做什麼的啊。",
+          "embedded_links": [
+            {
+              "identifier": "Xfov8Qn",
+              "title": "The New Stack",
+              "url_domain": "thenewstack.io",
+              "url": "http://thenewstack.io/"
+            },
+            {
+              "identifier": "ormWbhF",
+              "title": "awesome-python",
+              "url_domain": "github.com",
+              "url": "https://github.com/vinta/awesome-python"
+            },
+            {
+              "identifier": "jUlSim6",
+              "title": "寫一篇文章",
+              "url_domain": "thenewstack.io",
+              "url": "http://thenewstack.io/awesome-python-frameworks-libraries-and-software-plus-tacos/"
+            },
+            {
+              "identifier": "bT0iTo6",
+              "title": "Inside",
+              "url_domain": "inside.com.tw",
+              "url": "http://www.inside.com.tw/"
+            }
+          ]
+        },
+        {
+          "identifier": "VuzdAVP",
+          "type": "Link",
+          "title": "How do you answer questions like \"Why did you choose X over Y\" where X and Y are two competing technologies and you simply prefer X to Y?",
+          "url_domain": "devmag.io",
+          "url": "https://devmag.io/post/2010/how-do-you-answer-questions-like-why-did-you-choose-x-over-y-where-x-and-y-are-two-competing-technologies-and-you-simply-prefer-x-to-y",
+          "description": "<p>我對於這種怎麼決定要用什麼技術（或是該怎麼點自己的技能樹）的主題一直都很感興趣。</p>\n\n<p>這是一個在 <a href=\"https://devmag.io/\">devmag.io</a> 上討論，其中有一個人的回答可能挺有道理的：對於那些 \"serious\" 或是有急迫性的專案（簡單說就是你們公司的主力產品，做得好不好會左右公司存亡），最好還是用你或整個團隊都很熟悉的技術，即使那是個已經不新潮了的技術。</p>\n\n<p>但是我們也不要騙自己了，軟體工程師就是一群喜新厭舊的人啊，一聽到可以在專案裡用那個很潮的新玩意時，大家都超興奮的啊。所以嘛，才說每個人其實都應該要有自己的 side project，因為 side project 就是讓你嘗試新技術的地方啊。走得再前面一點，甚至每間公司、每個團隊也都應該要有 side project，畢竟現在優秀的軟體工程師可是很難找的啊，除了薪水、年終之外，彈性上下班（甚至是在家工作）、可以玩新技術也是很重要的福利啊，希望各企業的雇主們好好檢討一下。</p>",
+          "description_markdown": "我對於這種怎麼決定要用什麼技術（或是該怎麼點自己的技能樹）的主題一直都很感興趣。\r\n\r\n這是一個在 [devmag.io](https://devmag.io/) 上討論，其中有一個人的回答可能挺有道理的：對於那些 \"serious\" 或是有急迫性的專案（簡單說就是你們公司的主力產品，做得好不好會左右公司存亡），最好還是用你或整個團隊都很熟悉的技術，即使那是個已經不新潮了的技術。\r\n\r\n但是我們也不要騙自己了，軟體工程師就是一群喜新厭舊的人啊，一聽到可以在專案裡用那個很潮的新玩意時，大家都超興奮的啊。所以嘛，才說每個人其實都應該要有自己的 side project，因為 side project 就是讓你嘗試新技術的地方啊。走得再前面一點，甚至每間公司、每個團隊也都應該要有 side project，畢竟現在優秀的軟體工程師可是很難找的啊，除了薪水、年終之外，彈性上下班（甚至是在家工作）、可以玩新技術也是很重要的福利啊，希望各企業的雇主們好好檢討一下。",
+          "embedded_links": [
+            {
+              "identifier": "QK7F7IK",
+              "title": "devmag.io",
+              "url_domain": "devmag.io",
+              "url": "https://devmag.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "E1WlJAv",
+          "type": "Link",
+          "title": "Retrofit 2.0: The biggest update yet on the best HTTP Client Library for Android",
+          "url_domain": "inthecheesefactory.com",
+          "url": "http://inthecheesefactory.com/blog/retrofit-2.0/en",
+          "description": "<p>Android 上最知名的 REST client - Retrofit 在近期華麗地推出了 Retrofit 2 ，有哪些不一樣呢？<br/>\n終於可以在取得 deserialized object 的同時查找 header 或 URL、request 可以被真正的取消、一律採用 OkHttp 為 Retrofit 的 client。</p>\n\n<p>Retrofit 2 發佈時的 <a href=\"https://www.youtube.com/watch?v=KIAoQbAu3eA\">影片</a>, <a href=\"https://speakerdeck.com/jakewharton/simple-http-with-retrofit-2-droidcon-nyc-2015\">投影片</a></p>\n\n<p>如果你對 Retrofit 有興趣，但還在觀望，建議你可以看這篇教學 <a href=\"https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit\">Consuming APIs with Retrofit</a></p>",
+          "description_markdown": "Android 上最知名的 REST client - Retrofit 在近期華麗地推出了 Retrofit 2 ，有哪些不一樣呢？  \r\n終於可以在取得 deserialized object 的同時查找 header 或 URL、request 可以被真正的取消、一律採用 OkHttp 為 Retrofit 的 client。\r\n\r\nRetrofit 2 發佈時的 [影片](https://www.youtube.com/watch?v=KIAoQbAu3eA), [投影片](https://speakerdeck.com/jakewharton/simple-http-with-retrofit-2-droidcon-nyc-2015)\r\n\r\n如果你對 Retrofit 有興趣，但還在觀望，建議你可以看這篇教學 [Consuming APIs with Retrofit](https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit)",
+          "embedded_links": [
+            {
+              "identifier": "y1GosCL",
+              "title": "影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=KIAoQbAu3eA"
+            },
+            {
+              "identifier": "ydyz5xW",
+              "title": "投影片",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/jakewharton/simple-http-with-retrofit-2-droidcon-nyc-2015"
+            },
+            {
+              "identifier": "fT7udxA",
+              "title": "Consuming APIs with Retrofit",
+              "url_domain": "github.com",
+              "url": "https://github.com/codepath/android_guides/wiki/Consuming-APIs-with-Retrofit"
+            }
+          ]
+        },
+        {
+          "identifier": "TO1wHtA",
+          "type": "Link",
+          "title": "pedrovgs/AndroidWiFiADB",
+          "url_domain": "github.com",
+          "url": "https://github.com/pedrovgs/AndroidWiFiADB",
+          "description": "<p>這個 IntelliJ / Android Studio 的 plugin 實在是太令人振奮了！透過 Wifi 網路就可以 build 到實機上 debug 了。</p>",
+          "description_markdown": "這個 IntelliJ / Android Studio 的 plugin 實在是太令人振奮了！透過 Wifi 網路就可以 build 到實機上 debug 了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "R6AUHKW",
+          "type": "Link",
+          "title": "facebook/chisel",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/chisel",
+          "description": "<p>在開發 iOS 的時候一定會經常性使用 lldb console 或是 Xcode 6 之後的 Debug View Hierarchy。而 chisel 是一個 lldb 的插件，有一堆常用跟不常用的命令集合，可以加速以上的過程或做到一些原本需要 rebuild 才能調試的部分，省下大量的時間，理論上大家就可以因此更早下班了。</p>\n\n<p>大家的好朋友 objc.io 有一期 lldb 的主題 <a href=\"https://www.objc.io/issues/19-debugging/lldb-debugging/\">Dancing in the Debugger — A Waltz with LLDB</a>，在介紹實作的部分有大量提到 chisel。</p>\n\n<p>如果想要先感受一下，可以看 <a href=\"http://blog.cnbluebox.com/blog/2015/03/05/chisel/\">Chisel-LLDB 命令插件，让调试更 Easy</a> 及 <a href=\"http://www.jianshu.com/p/b2371dd4443b\">教你使用 FaceBook 的 chisel 来提高调试效率</a></p>",
+          "description_markdown": "在開發 iOS 的時候一定會經常性使用 lldb console 或是 Xcode 6 之後的 Debug View Hierarchy。而 chisel 是一個 lldb 的插件，有一堆常用跟不常用的命令集合，可以加速以上的過程或做到一些原本需要 rebuild 才能調試的部分，省下大量的時間，理論上大家就可以因此更早下班了。\r\n\r\n大家的好朋友 objc.io 有一期 lldb 的主題 [Dancing in the Debugger — A Waltz with LLDB](https://www.objc.io/issues/19-debugging/lldb-debugging/)，在介紹實作的部分有大量提到 chisel。\r\n\r\n如果想要先感受一下，可以看 [Chisel-LLDB 命令插件，让调试更 Easy](http://blog.cnbluebox.com/blog/2015/03/05/chisel/) 及 [教你使用 FaceBook 的 chisel 来提高调试效率](http://www.jianshu.com/p/b2371dd4443b)",
+          "embedded_links": [
+            {
+              "identifier": "sCFMQ5f",
+              "title": "Dancing in the Debugger — A Waltz with LLDB",
+              "url_domain": "objc.io",
+              "url": "https://www.objc.io/issues/19-debugging/lldb-debugging/"
+            },
+            {
+              "identifier": "h7MExEt",
+              "title": "Chisel-LLDB 命令插件，让调试更 Easy",
+              "url_domain": "cnbluebox.com",
+              "url": "http://blog.cnbluebox.com/blog/2015/03/05/chisel/"
+            },
+            {
+              "identifier": "H2TbWCn",
+              "title": "教你使用 FaceBook 的 chisel 来提高调试效率",
+              "url_domain": "jianshu.com",
+              "url": "http://www.jianshu.com/p/b2371dd4443b"
+            }
+          ]
+        },
+        {
+          "identifier": "2epn2du",
+          "type": "Link",
+          "title": "[iOS] Making deep links delightful",
+          "url_domain": "usebutton.com",
+          "url": "http://building.usebutton.com/ios/deeplinking/android/2015/09/28/making-deep-links-delightful/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_218",
+          "description": "<p>app 不只有一個進入點已經是越來越常見的事情，可以是在 web 上透過 <a href=\"https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html\">Universal Link</a>，較傳統的 custom URL schemes 或甚至是在 spotlight 搜尋進入 app 的特定頁面。</p>\n\n<p>這篇文章是 <a href=\"https://www.usebutton.com/\">Buttons</a> 內部對 Deep Links 的 best practice，比較有趣的部分是關於 Deep Links 的 error handling 以及開始為你的 Linkable page 做 testing。</p>",
+          "description_markdown": "app 不只有一個進入點已經是越來越常見的事情，可以是在 web 上透過 [Universal Link](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)，較傳統的 custom URL schemes 或甚至是在 spotlight 搜尋進入 app 的特定頁面。\r\n\r\n這篇文章是 [Buttons](https://www.usebutton.com/) 內部對 Deep Links 的 best practice，比較有趣的部分是關於 Deep Links 的 error handling 以及開始為你的 Linkable page 做 testing。",
+          "embedded_links": [
+            {
+              "identifier": "VkQPTr4",
+              "title": "Universal Link",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html"
+            },
+            {
+              "identifier": "jQmcRH7",
+              "title": "Buttons",
+              "url_domain": "usebutton.com",
+              "url": "https://www.usebutton.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "wlORtxJ",
+          "type": "Link",
+          "title": "Find WWDC Video Content Quickly",
+          "url_domain": "apple.com",
+          "url": "https://developer.apple.com/news/?id=10052015a",
+          "description": "<p>雖然 Apple 的開發者網站一直做得很爛，但是透過這個新的搜尋功能來找 WWDC 的影片真的是蠻棒的。<br/>\nWWDC sessions 就是 iOS 開發者的寶庫，現在可以精確地跳到你搜尋關鍵字所在的秒數，以後要是有什麼 iOS API 用得沒什麼信心，倒是可以先來這邊搜一下，再去 stackoverflow 或 GitHub 了。</p>",
+          "description_markdown": "雖然 Apple 的開發者網站一直做得很爛，但是透過這個新的搜尋功能來找 WWDC 的影片真的是蠻棒的。  \r\nWWDC sessions 就是 iOS 開發者的寶庫，現在可以精確地跳到你搜尋關鍵字所在的秒數，以後要是有什麼 iOS API 用得沒什麼信心，倒是可以先來這邊搜一下，再去 stackoverflow 或 GitHub 了。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "rdAfR0x",
+          "type": "Link",
+          "title": "Swagger - 世界上最多人用的 APIs framework",
+          "url_domain": "swagger.io",
+          "url": "http://swagger.io/",
+          "description": "<p>應該沒人真正統計過誰是最多人用的 APIs framework, 那是 Swagger 在官網宣稱的, 但值得我推薦。</p>\n\n<p>通常開發專案, 我們都會先開發 app, 再開 APIs, 最後才提供 APIs 文件。但有了 Swagger, 我反而喜歡請 PM 用 <a href=\"http://editor.swagger.io/#/\">swagger editor</a> 編輯器吧 APIs 開好, 再給程式設計師開發, 最後再統一給 front-end 或 mobile app 工程師同時來調用。</p>\n\n<p>由 swagger editor 編好的 YAML 或 JSON 檔, 除了可以直接放在 swagger UI 網路上開放, 如 <a href=\"http://petstore.swagger.io/\">petstore demo</a>, 更可以直接拿 <a href=\"https://github.com/swagger-api/swagger-codegen\">swagger generator</a> 來產生 client 端範例程式, 其中包括 iOS, Android, JavaScript, Java, Scala, Ruby, Python, Clojure 等。太好用了。下次有新專案, 讓我們用 swagger 定義 APIs 開始做起。</p>",
+          "description_markdown": "應該沒人真正統計過誰是最多人用的 APIs framework, 那是 Swagger 在官網宣稱的, 但值得我推薦。 \r\n\r\n通常開發專案, 我們都會先開發 app, 再開 APIs, 最後才提供 APIs 文件。但有了 Swagger, 我反而喜歡請 PM 用 [swagger editor](http://editor.swagger.io/#/) 編輯器吧 APIs 開好, 再給程式設計師開發, 最後再統一給 front-end 或 mobile app 工程師同時來調用。\r\n\r\n由 swagger editor 編好的 YAML 或 JSON 檔, 除了可以直接放在 swagger UI 網路上開放, 如 [petstore demo](http://petstore.swagger.io/), 更可以直接拿 [swagger generator](https://github.com/swagger-api/swagger-codegen) 來產生 client 端範例程式, 其中包括 iOS, Android, JavaScript, Java, Scala, Ruby, Python, Clojure 等。太好用了。下次有新專案, 讓我們用 swagger 定義 APIs 開始做起。",
+          "embedded_links": [
+            {
+              "identifier": "qXwDmbF",
+              "title": "swagger editor",
+              "url_domain": "swagger.io",
+              "url": "http://editor.swagger.io/#/"
+            },
+            {
+              "identifier": "MAl5Wry",
+              "title": "petstore demo",
+              "url_domain": "swagger.io",
+              "url": "http://petstore.swagger.io/"
+            },
+            {
+              "identifier": "O8iEMYT",
+              "title": "swagger generator",
+              "url_domain": "github.com",
+              "url": "https://github.com/swagger-api/swagger-codegen"
+            }
+          ]
+        },
+        {
+          "identifier": "PaKMioP",
+          "type": "Link",
+          "title": "go generate 的 Hello World",
+          "url_domain": "github.com",
+          "url": "https://github.com/tinylib/msgp/wiki/Getting-Started",
+          "description": "<p>一直想介紹 go generate, 但很難找到好且易懂的介紹文章。這個 <a href=\"https://github.com/tinylib/msgp\">msgp</a> 其實是一個 go generate 的工具, 自己也是它產生出來的碼自己叫用的副程式庫。(沒想到可以這樣用)</p>\n\n<p>每當你想用 go generate, 第一步你需要寫一個工具 (例如 msgp, 它可以用任何語言寫, 只要能被執行到), 第二步寫一個你想產出程式的部分程式碼 (這裡 main.go 爲例), 裡面加上下面這一行</p>\n\n<p><code>//go:generate msgp</code></p>\n\n<p>當你執行 go generate 後, main.go 會產生 main_gen.go 和 main_gen_test.go 這兩個程式就馬上可以執行, 範例還包含了測試和 benchmark 的程式碼。(很神奇吧!)</p>",
+          "description_markdown": "一直想介紹 go generate, 但很難找到好且易懂的介紹文章。這個 [msgp]( https://github.com/tinylib/msgp) 其實是一個 go generate 的工具, 自己也是它產生出來的碼自己叫用的副程式庫。(沒想到可以這樣用)\r\n\r\n每當你想用 go generate, 第一步你需要寫一個工具 (例如 msgp, 它可以用任何語言寫, 只要能被執行到), 第二步寫一個你想產出程式的部分程式碼 (這裡 main.go 爲例), 裡面加上下面這一行\r\n\r\n`//go:generate msgp`\r\n\r\n當你執行 go generate 後, main.go 會產生 main_gen.go 和 main_gen_test.go 這兩個程式就馬上可以執行, 範例還包含了測試和 benchmark 的程式碼。(很神奇吧!) ",
+          "embedded_links": [
+            {
+              "identifier": "qgip1OY",
+              "title": "msgp",
+              "url_domain": "github.com",
+              "url": "https://github.com/tinylib/msgp"
+            }
+          ]
+        },
+        {
+          "identifier": "aRPwiq9",
+          "type": "Link",
+          "title": "與 Go 的 Mutexes 共舞",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@deckarep/dancing-with-go-s-mutexes-92407ae927bf",
+          "description": "<p>當你寫 Go 時, 會慢慢開始用到 goroutines 來加速你的程式。但一平行化下去, 處理同一區資料時, 執行先後次序不同, 問題就來了。</p>\n\n<p>這篇文章介紹如何使用 Go 語言的 sync.Mutex 來寫 lock 跟 unlock, 還有如何寫才不會造成 deadlock。這是一般工程師常用的方法, 但未必是 Go 的 style, Go 更希望大家用 <a href=\"https://golang.org/doc/effective_go.html#channels\">channels</a> 來解決這類的問題。</p>\n\n<p>但到底用 sync 還是用 channel 比較好? <a href=\"https://github.com/golang/go/wiki/MutexOrChannel\">這裡</a>有簡單的答案: 一開始, 你可以先用熟悉的 lock, 當你 lock 越做越複雜時, 可慮看看用 channel 會不會比較簡單。</p>",
+          "description_markdown": "當你寫 Go 時, 會慢慢開始用到 goroutines 來加速你的程式。但一平行化下去, 處理同一區資料時, 執行先後次序不同, 問題就來了。\r\n\r\n這篇文章介紹如何使用 Go 語言的 sync.Mutex 來寫 lock 跟 unlock, 還有如何寫才不會造成 deadlock。這是一般工程師常用的方法, 但未必是 Go 的 style, Go 更希望大家用 [channels](https://golang.org/doc/effective_go.html#channels) 來解決這類的問題。\r\n\r\n但到底用 sync 還是用 channel 比較好? [這裡](https://github.com/golang/go/wiki/MutexOrChannel)有簡單的答案: 一開始, 你可以先用熟悉的 lock, 當你 lock 越做越複雜時, 可慮看看用 channel 會不會比較簡單。",
+          "embedded_links": [
+            {
+              "identifier": "x92ZspK",
+              "title": "channels",
+              "url_domain": "golang.org",
+              "url": "https://golang.org/doc/effective_go.html#channels"
+            },
+            {
+              "identifier": "7IFiZcH",
+              "title": "這裡",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/go/wiki/MutexOrChannel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "P6HRHAI",
+          "type": "Link",
+          "title": "Taipei.py Projects On",
+          "url_domain": "meetup.com",
+          "url": "http://www.meetup.com/Taipei-py/events/226558484/",
+          "description": "<p>\"More than one to a project.\"</p>\n\n<p>你有太多有趣的主意與專案，也許這麼剛好跟 Python 扯上一點關係，那歡迎 BYOP (bring your odd project) (or, obvious project) 一起來玩。或著更加白話的名稱，Taipei.py Sprints。</p>\n\n<p>固定在每個月的第二個星期三晚上，利用聚會期間的機會，成員聚集在 Sprint 場地中，依各自有興趣的項目，一起密集的進行專案衝刺。</p>\n\n<p>【活動原則與目標】</p>\n\n<ol>\n<li>到場（要參加聚會還是在 Meetup RSVP 一下喔！）</li>\n<li>專案要有兩人才算成立</li>\n<li><a href=\"https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-12-09-6gQvSe9KX9K\">報名專案</a></li>\n</ol>",
+          "description_markdown": "\"More than one to a project.\"\r\n\r\n你有太多有趣的主意與專案，也許這麼剛好跟 Python 扯上一點關係，那歡迎 BYOP (bring your odd project) (or, obvious project) 一起來玩。或著更加白話的名稱，Taipei.py Sprints。\r\n\r\n固定在每個月的第二個星期三晚上，利用聚會期間的機會，成員聚集在 Sprint 場地中，依各自有興趣的項目，一起密集的進行專案衝刺。\r\n\r\n【活動原則與目標】\r\n\r\n1. 到場（要參加聚會還是在 Meetup RSVP 一下喔！）\r\n2. 專案要有兩人才算成立\r\n3. [報名專案](https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-12-09-6gQvSe9KX9K)",
+          "embedded_links": [
+            {
+              "identifier": "M1OPV7F",
+              "title": "報名專案",
+              "url_domain": "hackpad.com",
+              "url": "https://taipeipy.hackpad.com/Taipei.py-Projects-On-2015-12-09-6gQvSe9KX9K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "KeUCk92",
+          "type": "Link",
+          "title": "真人版犬屋敷壱郎在新宿車站出沒中",
+          "url_domain": "moae.jp",
+          "url": "http://evening.moae.jp/news/2578",
+          "description": "<p>奧浩哉的《犬舍》，主角是一名突然被外星人改造成人間兵器的 58 歲男性，雖然看起來是爺爺輩，而且被改造後也始終維持著老人的模樣，體力跟得上不說，還不停釋放高能。但其實我爸都六十了頭髮還很黑啊！總之，除了衝擊性的人物設定之外，這部作品始終延續著奧浩哉獨特的 SF 風格，其暴力程度甚至一度被評為不適合代理、過度血腥的漫畫 (?)，目前雖然已經正式代理，但在台灣的討論度並不高，真可惜啊！</p>\n\n<p>隨著第五集單行本宣傳發行同時，官方推出了<a href=\"http://evening.moae.jp/news/2578\">尋找野生的真人版犬屋敷壱郎</a>計畫。找來了致力於將遊戲、動漫寫實化的 CG 公司 <a href=\"http://animareal.com/\">animareal</a>，拍攝過程似乎蠻有趣的，有興趣的話可以 follow 這個專案的擔當者  <a href=\"https://twitter.com/ANIMAREAL_ichi\">ICH@ANIMAREAL</a>。</p>\n\n<p>如果哪天要拍電影的話，身為《熟成男生產履歷》的編撰者，我的首推絕對是溫水洋一。</p>\n\n<p>知道你想問：<a href=\"https://goo.gl/6NduUT\">溫水洋一是誰？</a></p>\n\n<p>由 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 分享。</p>",
+          "description_markdown": "奧浩哉的《犬舍》，主角是一名突然被外星人改造成人間兵器的 58 歲男性，雖然看起來是爺爺輩，而且被改造後也始終維持著老人的模樣，體力跟得上不說，還不停釋放高能。但其實我爸都六十了頭髮還很黑啊！總之，除了衝擊性的人物設定之外，這部作品始終延續著奧浩哉獨特的 SF 風格，其暴力程度甚至一度被評為不適合代理、過度血腥的漫畫 (?)，目前雖然已經正式代理，但在台灣的討論度並不高，真可惜啊！\r\n\r\n隨著第五集單行本宣傳發行同時，官方推出了[尋找野生的真人版犬屋敷壱郎](http://evening.moae.jp/news/2578)計畫。找來了致力於將遊戲、動漫寫實化的 CG 公司 [animareal](http://animareal.com/)，拍攝過程似乎蠻有趣的，有興趣的話可以 follow 這個專案的擔當者  [ICH@ANIMAREAL](https://twitter.com/ANIMAREAL_ichi)。\r\n\r\n如果哪天要拍電影的話，身為《熟成男生產履歷》的編撰者，我的首推絕對是溫水洋一。\r\n\r\n知道你想問：[溫水洋一是誰？](https://goo.gl/6NduUT)\r\n\r\n由 [@autisticcat](https://twitter.com/autisticcat) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "zDX2dNH",
+              "title": "尋找野生的真人版犬屋敷壱郎",
+              "url_domain": "moae.jp",
+              "url": "http://evening.moae.jp/news/2578"
+            },
+            {
+              "identifier": "d7tGxfd",
+              "title": "animareal",
+              "url_domain": "animareal.com",
+              "url": "http://animareal.com/"
+            },
+            {
+              "identifier": "OA1gEZ6",
+              "title": "ICH@ANIMAREAL",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/ANIMAREAL_ichi"
+            },
+            {
+              "identifier": "japSWgc",
+              "title": "溫水洋一是誰？",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/6NduUT"
+            },
+            {
+              "identifier": "oCqRWEF",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ],
+          "image_original_filename": "fa24f1d3-c862-4c5c-893c-1c20758cf735.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_fa24f1d3-c862-4c5c-893c-1c20758cf735.jpeg",
+          "image_medium_filename": "original_ratio_medium_fa24f1d3-c862-4c5c-893c-1c20758cf735.jpeg"
+        }
+      ]
+    }
+  ]
+}

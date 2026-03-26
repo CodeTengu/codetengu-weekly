@@ -1,0 +1,465 @@
+{
+  "number": 129,
+  "title": "Issue 129 老婆餅裡面沒有老婆，JavaScript 裡面也沒有 Java",
+  "summary": "本期內容涵蓋 Machine Learning, Deep Learning, TensorFlow, JavaScript, GraphQL, Node.js, Go",
+  "url": "https://weekly.codetengu.com/issues/129",
+  "publication_status": "published",
+  "published_at": "2018-05-28T03:00:00+01:00",
+  "updated_at": "2018-05-28T03:00:02+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩<a href=\"https://www.douban.com/people/vinta/\">命運石之門 0</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩[命運石之門 0](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "xwSVxe",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "wON2xVx",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "5ICH8vt",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "TK0j68f",
+              "title": "命運石之門 0",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Q37mBdB",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "F5jNnZI",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "lB5t23o",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "mfF8dpZ",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "97ZyukO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "l34A0Mh",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "s4e3ZPW",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "ZsizDgy",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "84Do8MW",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "pZclaE2",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "DRmFCof",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "K9yGfEY",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Ri9wksN",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "hNC0pxd",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "9HEriyj",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "8uDv47B",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "rr94IxT",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "RiNNrtj",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "VBqabaY",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "lWqMR05",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "tPKKwpL",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "OVjG4bo",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "qtSl2nG",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "jEPTP5B",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "IrQQTl9",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "uUgkKcm",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "27LoTub",
+          "type": "Link",
+          "title": "Hello TensorFlow",
+          "url_domain": "glitch.me",
+          "url": "https://hello-tensorflow.glitch.me/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p><a href=\"https://js.tensorflow.org/\">TensorFlow.js</a> 最近終於正式 release 了，在這個到處都是 JavaScript 的時代真是個好消息，想像一下有 TensorFlow.js 的未來，要在前端視覺化 Machine Learning model 或是做一些教學文件就變得更方便了，如果掛上 React Native，也可以很容易地在使用者的 app 上訓練一個與 server 完全分離的 Machine Learning model，多了很多應用的可能性，大家有空真的可以玩玩看～</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n[TensorFlow.js](https://js.tensorflow.org/) 最近終於正式 release 了，在這個到處都是 JavaScript 的時代真是個好消息，想像一下有 TensorFlow.js 的未來，要在前端視覺化 Machine Learning model 或是做一些教學文件就變得更方便了，如果掛上 React Native，也可以很容易地在使用者的 app 上訓練一個與 server 完全分離的 Machine Learning model，多了很多應用的可能性，大家有空真的可以玩玩看～",
+          "embedded_links": [
+            {
+              "identifier": "4f6wjNj",
+              "title": "TensorFlow.js",
+              "url_domain": "tensorflow.org",
+              "url": "https://js.tensorflow.org/"
+            }
+          ]
+        },
+        {
+          "identifier": "SKWF37v",
+          "type": "Link",
+          "title": "Fashion-MNIST with tf.Keras",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/tensorflow/hello-deep-learning-fashion-mnist-with-keras-50fcff8cd74a",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>大家接觸 Machine Learning 應該都會練習過 MNIST 這個經典的手寫數字分類問題，<a href=\"https://github.com/zalandoresearch/fashion-mnist\">Fashion-MNIST</a> 則是一個衣著類型的分類 dataset，本篇文章展示了如何使用 Fashion-MNIST 來訓練一個衣著類型的預測模型，好的 dataset 值得分享啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n大家接觸 Machine Learning 應該都會練習過 MNIST 這個經典的手寫數字分類問題，[Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist) 則是一個衣著類型的分類 dataset，本篇文章展示了如何使用 Fashion-MNIST 來訓練一個衣著類型的預測模型，好的 dataset 值得分享啊！",
+          "embedded_links": [
+            {
+              "identifier": "r0rzOeX",
+              "title": "Fashion-MNIST",
+              "url_domain": "github.com",
+              "url": "https://github.com/zalandoresearch/fashion-mnist"
+            }
+          ]
+        },
+        {
+          "identifier": "sXN7aST",
+          "type": "Link",
+          "title": "To Build Truly Intelligent Machines, Teach Them Cause and Effect",
+          "url_domain": "quantamagazine.org",
+          "url": "https://www.quantamagazine.org/to-build-truly-intelligent-machines-teach-them-cause-and-effect-20180515/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>本篇文章是關於圖靈獎得主 Judea Pearl 對於人工智慧的一些反思，如果懶得看英文也可以看看<a href=\"https://www.leiphone.com/news/201805/7Afa6yJ7gvwGGKRS.html\">中文相關文章</a>，其實目前的 Deep Learning 大爆發都是關於特徵之間的關聯性的曲線擬和，需要大量的資料來確認關聯性，但人類其實可以在很少量的資料下就能達到學習效果，這是目前的演算法還無法達到的，離我們想像中的 AI 非常遠，這也是為何我們會稱這些機器學習方法是「弱」人工智慧。</p>\n\n<p>Judea Pearl 和大部分的人工智慧專家一樣醉心於科幻世界的「強」人工智慧，AI 能夠在環境中自我學習，他主張因果關係的相關方法才是正途，雖然我是不清楚啦，但大家可以看看想想，以目前的所有 Machine Learning 技術到底如何才有辦法在更接近我們想像中的強人工智慧。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n本篇文章是關於圖靈獎得主 Judea Pearl 對於人工智慧的一些反思，如果懶得看英文也可以看看[中文相關文章](https://www.leiphone.com/news/201805/7Afa6yJ7gvwGGKRS.html)，其實目前的 Deep Learning 大爆發都是關於特徵之間的關聯性的曲線擬和，需要大量的資料來確認關聯性，但人類其實可以在很少量的資料下就能達到學習效果，這是目前的演算法還無法達到的，離我們想像中的 AI 非常遠，這也是為何我們會稱這些機器學習方法是「弱」人工智慧。\r\n\r\nJudea Pearl 和大部分的人工智慧專家一樣醉心於科幻世界的「強」人工智慧，AI 能夠在環境中自我學習，他主張因果關係的相關方法才是正途，雖然我是不清楚啦，但大家可以看看想想，以目前的所有 Machine Learning 技術到底如何才有辦法在更接近我們想像中的強人工智慧。",
+          "embedded_links": [
+            {
+              "identifier": "dElxi7S",
+              "title": "中文相關文章",
+              "url_domain": "leiphone.com",
+              "url": "https://www.leiphone.com/news/201805/7Afa6yJ7gvwGGKRS.html"
+            }
+          ]
+        },
+        {
+          "identifier": "3QtDqK5",
+          "type": "Link",
+          "title": "TF-rex: Playing Google's T-rex game with TensorFlow",
+          "url_domain": "github.io",
+          "url": "https://vdutor.github.io/blog/2018/05/07/TF-rex.html",
+          "description": "<p>使用強化學習方法（Reinforcement Learning）來讓機器學習玩 Google 的離線暴龍遊戲，是一個了解強化學習方法的很棒的例子，相關程式碼也有開源在 <a href=\"https://github.com/vdutor/TF-rex\">GitHub</a>！</p>",
+          "description_markdown": "使用強化學習方法（Reinforcement Learning）來讓機器學習玩 Google 的離線暴龍遊戲，是一個了解強化學習方法的很棒的例子，相關程式碼也有開源在 [GitHub](https://github.com/vdutor/TF-rex)！",
+          "embedded_links": [
+            {
+              "identifier": "KhxAeIF",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/vdutor/TF-rex"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "si0kSwT",
+          "type": "Link",
+          "title": "BigInt: arbitrary-precision integers in JavaScript",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/web/updates/2018/05/bigint",
+          "description": "<p>V8 engine 6.7 版開始 support BigInt ，使用原生的 BigInt 操作將會比第三方的效能快上許多。</p>\n\n<p>BigInt 不能用來表示整數，Number也不能用來表示 BigInt，所以兩者間直接運算會導致 TypeError ，不過 comparison operators ( === 、 > 或 >= 等等 ) 則不在此限。</p>",
+          "description_markdown": "V8 engine 6.7 版開始 support BigInt ，使用原生的 BigInt 操作將會比第三方的效能快上許多。\r\n\r\nBigInt 不能用來表示整數，Number也不能用來表示 BigInt，所以兩者間直接運算會導致 TypeError ，不過 comparison operators ( === 、 > 或 >= 等等 ) 則不在此限。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "rlxKKbY",
+          "type": "Link",
+          "title": "isomorphic-git",
+          "url_domain": "github.com",
+          "url": "https://github.com/isomorphic-git/isomorphic-git",
+          "description": "<p>isomorphic-git 是一個 Pure JavaScript 的實作，可以在 Node.js 及瀏覽器上面執行，不過要注意如果要在前端達成所有功能，還必須先解決 CORS 的支援。</p>",
+          "description_markdown": "isomorphic-git 是一個 Pure JavaScript 的實作，可以在 Node.js 及瀏覽器上面執行，不過要注意如果要在前端達成所有功能，還必須先解決 CORS 的支援。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8ci1SHe",
+          "type": "Link",
+          "title": "GraphQL Full Course - Novice to Expert",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=ed8SzALpx1Q",
+          "description": "<p>這部影片會手把手的教學 GraphQL 操作，從 Node.js 以及 GraphQL server ，到 Database ( MongoDB ) 的串接。</p>",
+          "description_markdown": "這部影片會手把手的教學 GraphQL 操作，從 Node.js 以及 GraphQL server ，到 Database ( MongoDB ) 的串接。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "thejian",
+      "name": "@theJian",
+      "items": [
+        {
+          "identifier": "9LJsgp6",
+          "type": "Link",
+          "title": "5 things you can hate about Go",
+          "url_domain": "jaxenter.com",
+          "url": "https://jaxenter.com/5-things-you-hate-about-go-143422.html",
+          "description": "<p>在新晋的编程语言中，Go 可以算是非常特立独行的一位。本文分享了开发者会在 Go 中遇到的五个坑。</p>",
+          "description_markdown": "在新晋的编程语言中，Go 可以算是非常特立独行的一位。本文分享了开发者会在 Go 中遇到的五个坑。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "XdKbCYQ",
+          "type": "Link",
+          "title": "Web performance made easy (Google I/O '18)",
+          "url_domain": "youtu.be",
+          "url": "https://youtu.be/Mv-l3-tJgGk?t=35m3s",
+          "description": "<p>用 Machine Learning 助力 web 性能优化。</p>",
+          "description_markdown": "用 Machine Learning 助力 web 性能优化。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "AOL12G0",
+          "type": "Link",
+          "title": "MINT",
+          "url_domain": "mint-lang.com",
+          "url": "https://www.mint-lang.com/",
+          "description": "<p>一门与 <a href=\"http://elm-lang.org/\">elm</a> 的定位一样，也是专注于 SPA 开发的语言。\n熟悉 <a href=\"https://redux.js.org/\">redux</a> 的朋友应该会觉得似曾相识。</p>",
+          "description_markdown": "一门与 [elm](http://elm-lang.org/) 的定位一样，也是专注于 SPA 开发的语言。\r\n熟悉 [redux](https://redux.js.org/) 的朋友应该会觉得似曾相识。",
+          "embedded_links": [
+            {
+              "identifier": "gVzPqu",
+              "title": "elm",
+              "url_domain": "elm-lang.org",
+              "url": "http://elm-lang.org/"
+            },
+            {
+              "identifier": "fqz5LKz",
+              "title": "redux",
+              "url_domain": "js.org",
+              "url": "https://redux.js.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "GSSXGoU",
+          "type": "Link",
+          "title": "Laravel Conf Taiwan 2018: from {{ $idea }} to {{ $production }}",
+          "url_domain": "laravelconf.tw",
+          "url": "https://laravelconf.tw/zh-TW",
+          "description": "<p>為了讓更多開發者認識 Laravel 框架，並促進 PHP/Laravel 開發者之間的交流。LaravelConf Taiwan 於 2017 年正式成立，以一年一次的頻率為生態圈服務，致力成為台灣最專業的 Laravel 技術研討會。今 (2018) 年 7 月 8 號將擴大舉辦第二屆，大會主題為從想法到實踐，議程主題將以套件生態系為核心，囊括套件開發、測試、部署、效能、資安及上線維運等主題，議程採單日雙軌，搭配套件發表會進行。大會將開放 450 人入場，期能讓更多對 Laravel 有興趣的朋友一同參與。</p>\n\n<p>還沒購票嗎？快到購票頁 <a href=\"https://laravel-dojo.kktix.cc/events/laravelconftw2018\">https://laravel-dojo.kktix.cc/events/laravelconftw2018</a> 搶票！🤘</p>\n\n<ul>\n<li>大會官網：<a href=\"https://laravelconf.tw/zh-TW\">https://laravelconf.tw/zh-TW</a></li>\n<li>臉書粉絲頁：<a href=\"https://www.facebook.com/laravelconftw/\">https://www.facebook.com/laravelconftw/</a></li>\n<li>部落格：<a href=\"https://medium.com/laraveldojo/tagged/laravelconf-taiwan\">https://medium.com/laraveldojo/tagged/laravelconf-taiwan</a></li>\n<li>YouTube 頻道：<a href=\"https://www.youtube.com/c/laravelconftaiwan\">https://www.youtube.com/c/laravelconftaiwan</a></li>\n</ul>",
+          "description_markdown": "為了讓更多開發者認識 Laravel 框架，並促進 PHP/Laravel 開發者之間的交流。LaravelConf Taiwan 於 2017 年正式成立，以一年一次的頻率為生態圈服務，致力成為台灣最專業的 Laravel 技術研討會。今 (2018) 年 7 月 8 號將擴大舉辦第二屆，大會主題為從想法到實踐，議程主題將以套件生態系為核心，囊括套件開發、測試、部署、效能、資安及上線維運等主題，議程採單日雙軌，搭配套件發表會進行。大會將開放 450 人入場，期能讓更多對 Laravel 有興趣的朋友一同參與。\r\n\r\n還沒購票嗎？快到購票頁 [https://laravel-dojo.kktix.cc/events/laravelconftw2018](https://laravel-dojo.kktix.cc/events/laravelconftw2018) 搶票！🤘\r\n\r\n- 大會官網：[https://laravelconf.tw/zh-TW](https://laravelconf.tw/zh-TW) \r\n- 臉書粉絲頁：[https://www.facebook.com/laravelconftw/](https://www.facebook.com/laravelconftw/)\r\n- 部落格：[https://medium.com/laraveldojo/tagged/laravelconf-taiwan](https://medium.com/laraveldojo/tagged/laravelconf-taiwan) \r\n- YouTube 頻道：[https://www.youtube.com/c/laravelconftaiwan](https://www.youtube.com/c/laravelconftaiwan)",
+          "embedded_links": [
+            {
+              "identifier": "tLEA1Bs",
+              "title": "https://laravel-dojo.kktix.cc/events/laravelconftw2018",
+              "url_domain": "kktix.cc",
+              "url": "https://laravel-dojo.kktix.cc/events/laravelconftw2018"
+            },
+            {
+              "identifier": "bWOrxKW",
+              "title": "https://laravelconf.tw/zh-TW",
+              "url_domain": "laravelconf.tw",
+              "url": "https://laravelconf.tw/zh-TW"
+            },
+            {
+              "identifier": "bMXmhEe",
+              "title": "https://www.facebook.com/laravelconftw/",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/laravelconftw/"
+            },
+            {
+              "identifier": "yYX9nnU",
+              "title": "https://medium.com/laraveldojo/tagged/laravelconf-taiwan",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/laraveldojo/tagged/laravelconf-taiwan"
+            },
+            {
+              "identifier": "DBsA3Cb",
+              "title": "https://www.youtube.com/c/laravelconftaiwan",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/c/laravelconftaiwan"
+            }
+          ],
+          "image_original_filename": "637f07cc-0989-47c2-b2ed-3ea71e137582.png",
+          "image_extra_large_filename": "original_ratio_extra_large_637f07cc-0989-47c2-b2ed-3ea71e137582.png",
+          "image_medium_filename": "original_ratio_medium_637f07cc-0989-47c2-b2ed-3ea71e137582.png"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "jySD4ji",
+          "type": "Link",
+          "title": "Imaginary Soundscape -β ver.-",
+          "url_domain": "qosmo.jp",
+          "url": "http://imaginarysoundscape.qosmo.jp/",
+          "description": "<p>相信關於 Deep Learning 的神奇應用大家已經看過很多了，這是最近看到的一個有趣應用，使用 Deep Learning 將 Google Map 上的街景搭配上街景的聲音，如果街景在海邊就會聽到海浪的聲音、如果街景在樹林就會聽到蟲鳴鳥叫，雖然聲音的載入數度有點慢，不過真的蠻酷的，大家玩玩看吧！</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "相信關於 Deep Learning 的神奇應用大家已經看過很多了，這是最近看到的一個有趣應用，使用 Deep Learning 將 Google Map 上的街景搭配上街景的聲音，如果街景在海邊就會聽到海浪的聲音、如果街景在樹林就會聽到蟲鳴鳥叫，雖然聲音的載入數度有點慢，不過真的蠻酷的，大家玩玩看吧！\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "u6EDup0",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ]
+        },
+        {
+          "identifier": "f4GnRDg",
+          "type": "Link",
+          "title": "Weber's Law - Numberphile",
+          "url_domain": "youtu.be",
+          "url": "https://youtu.be/hHG8io5qIU8",
+          "description": "<p>为什么你总感觉小时候时间过得慢？</p>\n\n<p>由 <a href=\"http://hermitshed.com/\">@theJian</a> 分享。</p>",
+          "description_markdown": "为什么你总感觉小时候时间过得慢？\r\n\r\n由 [@theJian](http://hermitshed.com/) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "V0y01nJ",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

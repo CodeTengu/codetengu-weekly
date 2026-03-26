@@ -1,0 +1,364 @@
+{
+  "number": 15,
+  "title": "Issue 15 喜迎 Fallout 4 上市，故下週的 CodeTengu Weekly 將停刊一次",
+  "summary": "本期內容涵蓋 Growth Hacking, Mind Hacking, PHP, Laravel Elixir, Bootstrap, Deep Learning, Ruby, Rails, C10K, 技術團隊管理",
+  "url": "https://weekly.codetengu.com/issues/15",
+  "publication_status": "published",
+  "published_at": "2015-11-09T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:12:55+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - <strong>泰國不得了</strong></li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>最近交了一個很正的女朋友，大家都很生氣</strong></li>\n<li><a href=\"https://tonytonyjan.net\">@tonytonyjan</a> - <strong>右手寫程式，左手寫音樂</strong></li>\n</ul>\n\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n本期 curators：\r\n\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - **泰國不得了**\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **最近交了一個很正的女朋友，大家都很生氣**\r\n- [@tonytonyjan](https://tonytonyjan.net) - **右手寫程式，左手寫音樂**\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "8rBb7Hd",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "q3b4JsF",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "5W7tXzb",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "HE8IgK9",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "cPRYthr",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "tisxaeE",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "K7ZVXUe",
+              "title": "@tonytonyjan",
+              "url_domain": "tonytonyjan.net",
+              "url": "https://tonytonyjan.net"
+            },
+            {
+              "identifier": "rYHMhuV",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "CkYMlL7",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "RDaNbI7",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "ACH3FB5",
+          "type": "Link",
+          "title": "The Most Important Push Notification Metric",
+          "url_domain": "growthbug.com",
+          "url": "https://growthbug.com/the-most-important-push-notification-metric-ea0aeb2c0249",
+          "description": "<p>推播是現在手機 app 最重要的應用之一, 送太少不夠好, 送太多要不是關閉通知就是被移除 app, 該如何衡量?</p>",
+          "description_markdown": "推播是現在手機 app 最重要的應用之一, 送太少不夠好, 送太多要不是關閉通知就是被移除 app, 該如何衡量?",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "IxJG0TQ",
+          "type": "Link",
+          "title": "The Helping Mindset",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/medium-eng/the-helping-mindset-9b0f08049ee2",
+          "description": "<p>用兩個簡短的故事來說明技術領導人應該要保持何種心態來幫助團隊成員成長。</p>",
+          "description_markdown": "用兩個簡短的故事來說明技術領導人應該要保持何種心態來幫助團隊成員成長。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tUiTXfw",
+          "type": "Link",
+          "title": "The Stack That Helped Medium Scale To 2.6 Millennia Of Reading Time",
+          "url_domain": "stackshare.io",
+          "url": "http://stackshare.io/medium/the-stack-that-helped-medium-scale-to-2-6-millennia-of-reading-time",
+          "description": "<p>這篇文章講 Medium 的技術團隊用了哪些東西。</p>",
+          "description_markdown": "這篇文章講 Medium 的技術團隊用了哪些東西。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "aWX5I3c",
+          "type": "Link",
+          "title": "塗鴉思考革命",
+          "url_domain": "tzangms.com",
+          "url": "http://tzangms.com/the-doodle-revolution/",
+          "description": "<p>前一陣子讀了塗鴉思考革命這本書, 覺得滿有趣的, 跟大家分享一下心得。除了跟自身經驗有關之外, 也邀請了現在在 KKBOX 工作的 Randy 分享他的 Sketchnotes。</p>",
+          "description_markdown": "前一陣子讀了塗鴉思考革命這本書, 覺得滿有趣的, 跟大家分享一下心得。除了跟自身經驗有關之外, 也邀請了現在在 KKBOX 工作的 Randy 分享他的 Sketchnotes。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vY3Rz80",
+          "type": "Link",
+          "title": "本週 IG: kiksnowgirl",
+          "url_domain": "instagram.com",
+          "url": "https://instagram.com/kiksnowgirl/",
+          "description": "<p>小海在泰國為您報導</p>",
+          "description_markdown": "小海在泰國為您報導",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "be882afd-e8d8-4f1a-b0e3-5af4af1c96a9.jpg",
+          "image_extra_large_filename": "square_extra_large_be882afd-e8d8-4f1a-b0e3-5af4af1c96a9.jpg",
+          "image_medium_filename": "square_medium_be882afd-e8d8-4f1a-b0e3-5af4af1c96a9.jpg"
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "TQhHqV6",
+          "type": "Link",
+          "title": "Analyze the Quality Of Your PHP Code - 分析你寫的 PHP 程式碼品質",
+          "url_domain": "qafoo.com",
+          "url": "https://qafoo.com/blog/076_quality_analyzer.html",
+          "description": "<p>各位 PHP 碼農們在拍胸脯保證自己寫出來的系統程式品質時，一定會使用 <a href=\"https://phpunit.de/\">PHPUnit</a> 跑跑測試，程式測試覆蓋率要達 90% 以上，然後 Coding Style 也都要用 <a href=\"https://github.com/squizlabs/PHP_CodeSniffer\">Code Sniffer</a> 全面檢查一遍才會心安。我們可能會使用 Continuous Integration (CI) 工具來整合這些工作，但 CI 終究不是一個完整的程式品質檢測工具，而 Qafoo Quality Analyzer 就是一個專注在程式品質檢測這項工作的工具。</p>\n\n<p>Qafoo Quality Analyzer 除了可以跑測試、程式測試覆蓋率、檢查 Coding Style 之外，也使用了 <a href=\"http://pdepend.org/\">PDepend</a> 來檢測程式之間的相依性，而在最佳化程式品質降低程式之間的相依性時就往往需要程序員互相討論與介入，因此 Qafoo Quality Analyzer 使用了 <a href=\"https://facebook.github.io/react/\">React</a> 及 <a href=\"http://d3js.org/\">D3.js</a> 來實作高互動性的使用介面，讓碼農們討論最佳化程式品質時可以很容易的進行分析。</p>\n\n<p>更重要的是這是一個 <a href=\"https://github.com/Qafoo/QualityAnalyzer\">Open Source 的 Project</a>，沒道理不用用看啊！</p>",
+          "description_markdown": "各位 PHP 碼農們在拍胸脯保證自己寫出來的系統程式品質時，一定會使用 [PHPUnit](https://phpunit.de/) 跑跑測試，程式測試覆蓋率要達 90% 以上，然後 Coding Style 也都要用 [Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer) 全面檢查一遍才會心安。我們可能會使用 Continuous Integration (CI) 工具來整合這些工作，但 CI 終究不是一個完整的程式品質檢測工具，而 Qafoo Quality Analyzer 就是一個專注在程式品質檢測這項工作的工具。\r\n\r\nQafoo Quality Analyzer 除了可以跑測試、程式測試覆蓋率、檢查 Coding Style 之外，也使用了 [PDepend](http://pdepend.org/) 來檢測程式之間的相依性，而在最佳化程式品質降低程式之間的相依性時就往往需要程序員互相討論與介入，因此 Qafoo Quality Analyzer 使用了 [React](https://facebook.github.io/react/) 及 [D3.js](http://d3js.org/) 來實作高互動性的使用介面，讓碼農們討論最佳化程式品質時可以很容易的進行分析。\r\n\r\n更重要的是這是一個 [Open Source 的 Project](https://github.com/Qafoo/QualityAnalyzer)，沒道理不用用看啊！",
+          "embedded_links": [
+            {
+              "identifier": "nGoa9Qe",
+              "title": "PHPUnit",
+              "url_domain": "phpunit.de",
+              "url": "https://phpunit.de/"
+            },
+            {
+              "identifier": "DEpUZ27",
+              "title": "Code Sniffer",
+              "url_domain": "github.com",
+              "url": "https://github.com/squizlabs/PHP_CodeSniffer"
+            },
+            {
+              "identifier": "uGt0Olv",
+              "title": "PDepend",
+              "url_domain": "pdepend.org",
+              "url": "http://pdepend.org/"
+            },
+            {
+              "identifier": "LBiQsDZ",
+              "title": "React",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/"
+            },
+            {
+              "identifier": "gZ8y0Rr",
+              "title": "D3.js",
+              "url_domain": "d3js.org",
+              "url": "http://d3js.org/"
+            },
+            {
+              "identifier": "71YQt0N",
+              "title": "Open Source 的 Project",
+              "url_domain": "github.com",
+              "url": "https://github.com/Qafoo/QualityAnalyzer"
+            }
+          ]
+        },
+        {
+          "identifier": "f2XuBKD",
+          "type": "Link",
+          "title": "Setup Bootstrap Sass with Laravel Elixir - 使用 Laravel Elixir 整合 Bootstrap Sass",
+          "url_domain": "laravel-news.com",
+          "url": "https://laravel-news.com/2015/10/setup-bootstrap-sass-with-laravel-elixir/",
+          "description": "<p>Laravel 使用了 Elixir 這個套件來整合前端的開發工具如 Gulp 等等，可以讓碼農們很方便的自動化一些開發工作，比如編譯及壓縮 CSS、JavasScript，甚至用來自動化跑測試。本篇文章主要是介紹如何用 Laravel Elixir 這個套件來整合 Bootstrap 的 Sass 版本，讓自己的 Laravel 開發專案可以很容易的整合 Boostrap 這個前端 Framework，算是我看過蠻言簡意賅的一篇。</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"http://www.slideshare.net/shengyou/phpconf-taiwan-2015-laravel-51-php\">跟著 Laravel 5.1 一起成為更好的 PHP 開發者</a> - <a href=\"https://www.youtube.com/watch?v=al2eCFvvM-s&amp;feature=youtu.be\">影片</a></li>\n</ol>",
+          "description_markdown": "Laravel 使用了 Elixir 這個套件來整合前端的開發工具如 Gulp 等等，可以讓碼農們很方便的自動化一些開發工作，比如編譯及壓縮 CSS、JavasScript，甚至用來自動化跑測試。本篇文章主要是介紹如何用 Laravel Elixir 這個套件來整合 Bootstrap 的 Sass 版本，讓自己的 Laravel 開發專案可以很容易的整合 Boostrap 這個前端 Framework，算是我看過蠻言簡意賅的一篇。\r\n\r\n延伸閱讀：\r\n\r\n1. [跟著 Laravel 5.1 一起成為更好的 PHP 開發者](http://www.slideshare.net/shengyou/phpconf-taiwan-2015-laravel-51-php) - [影片](https://www.youtube.com/watch?v=al2eCFvvM-s&feature=youtu.be)",
+          "embedded_links": [
+            {
+              "identifier": "gDVceKe",
+              "title": "跟著 Laravel 5.1 一起成為更好的 PHP 開發者",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/shengyou/phpconf-taiwan-2015-laravel-51-php"
+            },
+            {
+              "identifier": "dPn8LWN",
+              "title": "影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=al2eCFvvM-s&feature=youtu.be"
+            }
+          ]
+        },
+        {
+          "identifier": "PQ1Rw74",
+          "type": "Link",
+          "title": "Why Self-Driving Cars Must Be Programmed to Kill - 探討自動駕駛汽車如何決定殺人（減輕死傷）的演算法",
+          "url_domain": "technologyreview.com",
+          "url": "http://www.technologyreview.com/view/542626/why-self-driving-cars-must-be-programmed-to-kill/",
+          "description": "<p>這是最近在網路上討論度很高的一篇文章，隨著汽車自動駕駛技術越來越成熟，有一個道德上兩難的問題漸漸浮現：當意外不可避免時，自動駕駛汽車的程式應該要選擇撞上前方 10 位行人以保護車主及乘客，或是轉向撞牆犧牲車主及乘客來保住 10 位行人的性命呢？本篇文章探討了這個問題，並且做了一些簡單的實驗來得出大眾的選擇以作為未來自動駕駛汽車如何決定殺人（減輕死傷）演算法的參考。</p>\n\n<p>各位碼農對這個問題有什麼想法呢？或許法律應該制定自動駕駛汽車都應該要編碼為選擇保護多數人性命，但如果有人要付更多錢買會選擇保護車主的車子呢？如果寫這隻程式的碼農被老闆命令一定要把老闆車子的演算法改成保護車主，那又該怎麼做呢？畢竟 <a href=\"http://www.bbc.com/news/business-34324772\">Volkswagen</a> 都會做這種逃避檢測的程式了，難保未來不會有同樣的事情再發生。</p>\n\n<p>說到 Volkswagen，各位碼農知道 <a href=\"https://github.com/auchenberg/volkswagen\">auchenberg/volkswagen</a> 這個逃避測試的套件嗎？好幽默的套件！</p>",
+          "description_markdown": "這是最近在網路上討論度很高的一篇文章，隨著汽車自動駕駛技術越來越成熟，有一個道德上兩難的問題漸漸浮現：當意外不可避免時，自動駕駛汽車的程式應該要選擇撞上前方 10 位行人以保護車主及乘客，或是轉向撞牆犧牲車主及乘客來保住 10 位行人的性命呢？本篇文章探討了這個問題，並且做了一些簡單的實驗來得出大眾的選擇以作為未來自動駕駛汽車如何決定殺人（減輕死傷）演算法的參考。\r\n\r\n各位碼農對這個問題有什麼想法呢？或許法律應該制定自動駕駛汽車都應該要編碼為選擇保護多數人性命，但如果有人要付更多錢買會選擇保護車主的車子呢？如果寫這隻程式的碼農被老闆命令一定要把老闆車子的演算法改成保護車主，那又該怎麼做呢？畢竟 [Volkswagen](http://www.bbc.com/news/business-34324772) 都會做這種逃避檢測的程式了，難保未來不會有同樣的事情再發生。\r\n\r\n說到 Volkswagen，各位碼農知道 [auchenberg/volkswagen](https://github.com/auchenberg/volkswagen) 這個逃避測試的套件嗎？好幽默的套件！",
+          "embedded_links": [
+            {
+              "identifier": "Fc8xEnh",
+              "title": "Volkswagen",
+              "url_domain": "bbc.com",
+              "url": "http://www.bbc.com/news/business-34324772"
+            },
+            {
+              "identifier": "6W0IZes",
+              "title": "auchenberg/volkswagen",
+              "url_domain": "github.com",
+              "url": "https://github.com/auchenberg/volkswagen"
+            }
+          ]
+        },
+        {
+          "identifier": "72AGi2F",
+          "type": "Link",
+          "title": "What a Deep Neural Network thinks about your #selfie - 用 Deep Neural Network 來看看你的自拍技術好不好",
+          "url_domain": "github.io",
+          "url": "http://karpathy.github.io/2015/10/25/selfie/",
+          "description": "<p><a href=\"https://en.wikipedia.org/wiki/Deep_learning\">Deep Learning</a> 漸漸使用在各種機器學習的應用，比如門牌的辨識、人臉辨識、中文字辨識、交通號誌辨識等等實用領域，但其實除了這些八股的應用之外，我們也可以把這樣的技術用在一些有趣、好玩就新奇的事情上，比如使用 Deep Neural Network 來看看你的自拍技術好不好，畢竟人生就是要保持一點幽默感嘛！</p>\n\n<p>本篇文章所使用的機器學習演算法是 <a href=\"http://ufldl.stanford.edu/tutorial/supervised/ConvolutionalNeuralNetwork/\">Convolutional Neural Networks</a>，作者還很好心地用了很大篇幅地說明了什麼是 Convolutional Neural Networks 及這個演算法究竟是如何運作的概念（但還是不容易懂，我知道），當然也詳細解釋了最後的實驗結果，五百萬張的圖片中，兩百萬張作為訓練資料，Convolutional Neural Networks 找出了好的自拍照的法則：</p>\n\n<ol>\n<li>身為女性先贏一半，Convolutional Neural Networks 認為的好自拍前 100 名沒有任何男性</li>\n<li>臉需要佔圖片的 1/3</li>\n<li>額頭要卡掉一些些，可能這樣看起來臉比較小吧，女生都愛這樣拍（內文真的這樣寫啦！請不要說我歧視！）</li>\n<li>長髮</li>\n<li>臉的飽和度要調高</li>\n<li>要加濾鏡</li>\n<li>邊邊要有留白</li>\n</ol>\n\n\n<p>本文真的寫得很詳盡，很寫內容也很有趣，值得好好細讀一下！</p>",
+          "description_markdown": "[Deep Learning](https://en.wikipedia.org/wiki/Deep_learning) 漸漸使用在各種機器學習的應用，比如門牌的辨識、人臉辨識、中文字辨識、交通號誌辨識等等實用領域，但其實除了這些八股的應用之外，我們也可以把這樣的技術用在一些有趣、好玩就新奇的事情上，比如使用 Deep Neural Network 來看看你的自拍技術好不好，畢竟人生就是要保持一點幽默感嘛！\r\n\r\n本篇文章所使用的機器學習演算法是 [Convolutional Neural Networks](http://ufldl.stanford.edu/tutorial/supervised/ConvolutionalNeuralNetwork/)，作者還很好心地用了很大篇幅地說明了什麼是 Convolutional Neural Networks 及這個演算法究竟是如何運作的概念（但還是不容易懂，我知道），當然也詳細解釋了最後的實驗結果，五百萬張的圖片中，兩百萬張作為訓練資料，Convolutional Neural Networks 找出了好的自拍照的法則：\r\n\r\n1. 身為女性先贏一半，Convolutional Neural Networks 認為的好自拍前 100 名沒有任何男性\r\n2. 臉需要佔圖片的 1/3\r\n3. 額頭要卡掉一些些，可能這樣看起來臉比較小吧，女生都愛這樣拍（內文真的這樣寫啦！請不要說我歧視！）\r\n4. 長髮\r\n5. 臉的飽和度要調高\r\n6. 要加濾鏡\r\n7. 邊邊要有留白\r\n\r\n本文真的寫得很詳盡，很寫內容也很有趣，值得好好細讀一下！",
+          "embedded_links": [
+            {
+              "identifier": "i08Q1JK",
+              "title": "Deep Learning",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Deep_learning"
+            },
+            {
+              "identifier": "dgGtgxm",
+              "title": "Convolutional Neural Networks",
+              "url_domain": "stanford.edu",
+              "url": "http://ufldl.stanford.edu/tutorial/supervised/ConvolutionalNeuralNetwork/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tonytonyjan",
+      "name": "@tonytonyjan",
+      "items": [
+        {
+          "identifier": "oAvpDrG",
+          "type": "Link",
+          "title": "thoughtbot 釋出新一代的 Rails 開源後台： Administrate",
+          "url_domain": "thoughtbot.com",
+          "url": "https://robots.thoughtbot.com/announcing-administrate",
+          "description": "<p>筆者用 Rails 打造後台向來不用使用 <a href=\"http://activeadmin.info/\">Active Admin</a> 或是 <a href=\"https://github.com/sferik/rails_admin\">RailsAdmin</a>，所以在 2014 Ruby Conference Taiwan 發表了「打造漂亮的 Rails 後台」，利用大家平時不常使用的 sacffold 去製作後台。</p>\n\n<p>理由？</p>\n\n<p>因為是那些開源的寫的是 DSL，不是 Rails，這個爭論就像是 rspec 之於 minitest 一樣，前者是寫 DSL，後者是寫 Ruby，所以一個會寫 Ruby 的人剛進入 minitest 其實很得心應手，但是進入 rspec 卻要花大半時間在翻文件。這個現象在使用 Active Admin 也是一樣的，你真的在寫 Rails 嗎？還是只是被 Active Admin 綁架呢？</p>\n\n<p>Rails 圈的巨人公司 thoughtbot 也發現了一樣的問題，於是自己做了一個 gem。</p>\n\n<p>還在找後台的方案嗎？不妨給 administrate 一個機會吧 :)</p>",
+          "description_markdown": "筆者用 Rails 打造後台向來不用使用 [Active Admin](http://activeadmin.info/) 或是 [RailsAdmin](https://github.com/sferik/rails_admin)，所以在 2014 Ruby Conference Taiwan 發表了「打造漂亮的 Rails 後台」，利用大家平時不常使用的 sacffold 去製作後台。\r\n\r\n理由？\r\n\r\n因為是那些開源的寫的是 DSL，不是 Rails，這個爭論就像是 rspec 之於 minitest 一樣，前者是寫 DSL，後者是寫 Ruby，所以一個會寫 Ruby 的人剛進入 minitest 其實很得心應手，但是進入 rspec 卻要花大半時間在翻文件。這個現象在使用 Active Admin 也是一樣的，你真的在寫 Rails 嗎？還是只是被 Active Admin 綁架呢？\r\n\r\nRails 圈的巨人公司 thoughtbot 也發現了一樣的問題，於是自己做了一個 gem。\r\n\r\n還在找後台的方案嗎？不妨給 administrate 一個機會吧 :)",
+          "embedded_links": [
+            {
+              "identifier": "lWGqXZZ",
+              "title": "Active Admin",
+              "url_domain": "activeadmin.info",
+              "url": "http://activeadmin.info/"
+            },
+            {
+              "identifier": "Z2ax3lx",
+              "title": "RailsAdmin",
+              "url_domain": "github.com",
+              "url": "https://github.com/sferik/rails_admin"
+            }
+          ]
+        },
+        {
+          "identifier": "fuTaOZi",
+          "type": "Link",
+          "title": "第二屆 Ruby 程式碼炫砲大賽",
+          "url_domain": "github.com",
+          "url": "https://github.com/tric/trick2015",
+          "description": "<p>第二屆 Ruby 程式碼炫砲大賽在今年 Ruby Kaigi 又開辦啦，2014 因停辦一次，筆者無緣參加，這次有幸投了一份用正規表達式去解直因數分解的程式碼，希望有什麼成果 w</p>\n\n<p>炫砲大賽就是用不尋常或是創意的方式寫 Ruby，例如 2013 年的得獎作品「best way to return true」：</p>\n\n<pre><code>$ruby.is_a?(Object){|oriented| language}\n</code></pre>\n\n<p>也有一些你絕對想不到的奇技淫巧，例如用 Ruby 的 ObjectSpace 去實作 Brainfuck 的直譯器等，上屆得獎作品在此：<a href=\"https://github.com/tric/trick2013\">https://github.com/tric/trick2013</a>。</p>",
+          "description_markdown": "第二屆 Ruby 程式碼炫砲大賽在今年 Ruby Kaigi 又開辦啦，2014 因停辦一次，筆者無緣參加，這次有幸投了一份用正規表達式去解直因數分解的程式碼，希望有什麼成果 w\r\n\r\n炫砲大賽就是用不尋常或是創意的方式寫 Ruby，例如 2013 年的得獎作品「best way to return true」：\r\n\r\n    $ruby.is_a?(Object){|oriented| language}\r\n\r\n也有一些你絕對想不到的奇技淫巧，例如用 Ruby 的 ObjectSpace 去實作 Brainfuck 的直譯器等，上屆得獎作品在此：[https://github.com/tric/trick2013](https://github.com/tric/trick2013)。",
+          "embedded_links": [
+            {
+              "identifier": "lNpmQXR",
+              "title": "https://github.com/tric/trick2013",
+              "url_domain": "github.com",
+              "url": "https://github.com/tric/trick2013"
+            }
+          ]
+        },
+        {
+          "identifier": "5cimiAm",
+          "type": "Link",
+          "title": "Ruby SSE Server 動手做",
+          "url_domain": "tonytonyjan.net",
+          "url": "http://tonytonyjan.net/2015/11/05/concurrent-ruby/",
+          "description": "<p>照片是日本硬體製造商 Speedlink 在東京舉辦的 server 投擲大賽，誰能把 server 推得最遠，可以得到最高的分數，圖片中的機器值 50 萬日幣，這也是名符其實的 push server。</p>\n\n<p>本篇介紹 Ruby 如何使用 Rails 或是不使用 Rails 做到即時串流服務，以及介紹在面對 C10K 問題時可選用的方案。</p>",
+          "description_markdown": "照片是日本硬體製造商 Speedlink 在東京舉辦的 server 投擲大賽，誰能把 server 推得最遠，可以得到最高的分數，圖片中的機器值 50 萬日幣，這也是名符其實的 push server。\r\n\r\n本篇介紹 Ruby 如何使用 Rails 或是不使用 Rails 做到即時串流服務，以及介紹在面對 C10K 問題時可選用的方案。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "cc659698-5589-48b2-899c-d4d3466f134f.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_cc659698-5589-48b2-899c-d4d3466f134f.jpg",
+          "image_medium_filename": "original_ratio_medium_cc659698-5589-48b2-899c-d4d3466f134f.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "cCPMMqE",
+          "type": "Link",
+          "title": "在 Steam 上預購 Fallout 4",
+          "url_domain": "steampowered.com",
+          "url": "http://store.steampowered.com/app/377160/",
+          "description": "<p>為了慶祝 Fallout 4 即將在本週的 11 月 10 日上市，所以下禮拜的 CodeTengu Weekly 停刊一週（誤）。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "為了慶祝 Fallout 4 即將在本週的 11 月 10 日上市，所以下禮拜的 CodeTengu Weekly 停刊一週（誤）。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "7vRYr19",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "2a147c97-0e40-46f7-8fb3-9bfade9dbe89.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_2a147c97-0e40-46f7-8fb3-9bfade9dbe89.jpg",
+          "image_medium_filename": "original_ratio_medium_2a147c97-0e40-46f7-8fb3-9bfade9dbe89.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "number": 72,
+  "title": "Issue 72 Workaround 雖可恥但有用",
+  "summary": "本期內容涵蓋 Machine Learning, Deep Learning, Data Mining, Xcode, Swift, Object-Oriented Programming, Python, CSS",
+  "url": "https://weekly.codetengu.com/issues/72",
+  "publication_status": "published",
+  "published_at": "2016-12-12T02:00:00+00:00",
+  "updated_at": "2016-12-12T02:00:08+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">More Than Human</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [More Than Human](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 希望在離開台北之前可以見證到捷運禁止飲食廢止\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "XNblTvK",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "UatPiyg",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "30LoLzj",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "3vHI6tv",
+              "title": "More Than Human",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ZtqZIF",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "AiIbFew",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "cIP6fFT",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "rk8u4A0",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "3esu2ta",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "qFTOl9o",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "oW3ZRXH",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "GxZ0iPM",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "9ld5Kvl",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "YSIOXaN",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "nC1O8cQ",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "VUAB5uk",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "csTjUPT",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "xeUIHIf",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "DYA3ns9",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "N4H8cbC",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "Fwpece3",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "UEyOZaY",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "RFspSnz",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "OeZNC3i",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "40oEoTw",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "l9Bf8JH",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 7 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-7-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>前 6 講我們對 SVM 做了完整的介紹，從基本的 SVM 分類器到使用 Support Vector 性質發展出來的 Regression 演算法 SVR，在機器學習基石中學過的各種問題，SVM 都有對應的演算法可以解。</p>\n\n<p>第 7 講我們要介紹 Aggregation Models，顧名思義就是要將多種模型結合起來，看能不能在機器學習上有更好的效果。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n前 6 講我們對 SVM 做了完整的介紹，從基本的 SVM 分類器到使用 Support Vector 性質發展出來的 Regression 演算法 SVR，在機器學習基石中學過的各種問題，SVM 都有對應的演算法可以解。\r\n\r\n第 7 講我們要介紹 Aggregation Models，顧名思義就是要將多種模型結合起來，看能不能在機器學習上有更好的效果。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "BF0wgi7",
+          "type": "Link",
+          "title": "大神 Yann LeCun 親授：如何自學深度學習技術並進階成專家",
+          "url_domain": "bangqu.com",
+          "url": "http://bangqu.com/gpu/blog/5145",
+          "description": "<p>Machine Learning、Deep Learning：初級</p>\n\n<p>如何自學深度學習？我想這應該是很多沒學過機器學習的開發者心中的疑問，Facebook AI Research 首席 <a href=\"https://www.facebook.com/yann.lecun\">Yann LeCun</a> 給大家的解答非常值得一看。其中幾點我看到時其實覺得不解，大神居然要我們盡量去上物理課、量子力學等等，我們不是要學深度學習嗎？原來物理學的許多數學建模方法，在建構機器學習演算法思維上也有共通之處。</p>\n\n<p>我本來半信半疑，但有人在我寫的<a href=\"http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-liu-jiang-xue-xi-bi-ji/#comment-3033683253\">機器學習基石第 6 講筆記</a>留言說「這些證明好像量子物理」，我嚇得都尿褲子了...</p>",
+          "description_markdown": "Machine Learning、Deep Learning：初級\r\n\r\n如何自學深度學習？我想這應該是很多沒學過機器學習的開發者心中的疑問，Facebook AI Research 首席 [Yann LeCun](https://www.facebook.com/yann.lecun) 給大家的解答非常值得一看。其中幾點我看到時其實覺得不解，大神居然要我們盡量去上物理課、量子力學等等，我們不是要學深度學習嗎？原來物理學的許多數學建模方法，在建構機器學習演算法思維上也有共通之處。\r\n\r\n我本來半信半疑，但有人在我寫的[機器學習基石第 6 講筆記](http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-liu-jiang-xue-xi-bi-ji/#comment-3033683253)留言說「這些證明好像量子物理」，我嚇得都尿褲子了...\r\n",
+          "embedded_links": [
+            {
+              "identifier": "dqm0Bx1",
+              "title": "Yann LeCun",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/yann.lecun"
+            },
+            {
+              "identifier": "ww2VVVV",
+              "title": "機器學習基石第 6 講筆記",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-liu-jiang-xue-xi-bi-ji/#comment-3033683253"
+            }
+          ]
+        },
+        {
+          "identifier": "tyLpkXx",
+          "type": "Link",
+          "title": "数据挖掘十大算法详解",
+          "url_domain": "gitbooks.io",
+          "url": "https://wizardforcel.gitbooks.io/dm-algo-top10/content/c4.5.html",
+          "description": "<p>Machine Learning、Data Mining：中級</p>\n\n<p>Machine Learning 跟 Data Mining 有許多重疊的部份，Data Mining 在字面上可能又較著重於從資料中挖掘出一些有趣的特性，也因此有一些在 Data Mining 領域的演算法會是依據 Data 而去設計的，有些演算法甚至是一些人類直觀的想法但卻沒有理論上的保證，不過，在許多應用上也是有出色的表現，例如 Apriori、knn、PageRank 等等。</p>\n\n<p>「数据挖掘十大算法详解」介紹了 Data Mining 領域大致上會碰到的十大演算法，寫得非常淺顯易懂。</p>",
+          "description_markdown": "Machine Learning、Data Mining：中級\r\n\r\nMachine Learning 跟 Data Mining 有許多重疊的部份，Data Mining 在字面上可能又較著重於從資料中挖掘出一些有趣的特性，也因此有一些在 Data Mining 領域的演算法會是依據 Data 而去設計的，有些演算法甚至是一些人類直觀的想法但卻沒有理論上的保證，不過，在許多應用上也是有出色的表現，例如 Apriori、knn、PageRank 等等。\r\n\r\n「数据挖掘十大算法详解」介紹了 Data Mining 領域大致上會碰到的十大演算法，寫得非常淺顯易懂。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tFEezyl",
+          "type": "Link",
+          "title": "[DSC 2016] 系列活動：李宏毅 / 一天搞懂深度學習",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/tw_dsconf/ss-62245351",
+          "description": "<p>Machine Learning、Deep Learning：中級</p>\n\n<p>上週去參加了台灣最大的人工智慧盛會「人工智慧與應用研討會 TAAI」，報名了近來在網路上評價非常好的專題演講 - 台大李弘毅教授的一天搞懂深度學習，原本是抱著來聽聽看的心態，想說也許能夠聽得懂 60% 就不錯了，結果李弘毅教授講得超清楚的，應該 90% 都聽懂了，什麼 CNN、RNN、LSTM、GAN 等等，感覺都被李弘毅教授點通了，有種想跑去台大聽李弘毅教授講課的衝動！</p>\n\n<p>對了，這場演講也是李弘毅教授的封麥之作了，之後要聽就真的要去台大聽了！還好李弘毅教授會不定期分享課程內容到 <a href=\"https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ\">YouTube</a> 上～</p>",
+          "description_markdown": "Machine Learning、Deep Learning：中級\r\n\r\n上週去參加了台灣最大的人工智慧盛會「人工智慧與應用研討會 TAAI」，報名了近來在網路上評價非常好的專題演講 - 台大李弘毅教授的一天搞懂深度學習，原本是抱著來聽聽看的心態，想說也許能夠聽得懂 60% 就不錯了，結果李弘毅教授講得超清楚的，應該 90% 都聽懂了，什麼 CNN、RNN、LSTM、GAN 等等，感覺都被李弘毅教授點通了，有種想跑去台大聽李弘毅教授講課的衝動！\r\n\r\n對了，這場演講也是李弘毅教授的封麥之作了，之後要聽就真的要去台大聽了！還好李弘毅教授會不定期分享課程內容到 [YouTube](https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ) 上～",
+          "embedded_links": [
+            {
+              "identifier": "OHOLQ0I",
+              "title": "YouTube",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/channel/UC2ggjtuuWvxrHHHiaDH1dlQ"
+            }
+          ]
+        },
+        {
+          "identifier": "eNbJSIO",
+          "type": "Link",
+          "title": "iNDIEVOX Open Data/API 智慧音樂應用",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/fukuball/api-and-the-intelligent-music-application",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>前幾天受邀去政治大學、中山大學演講 <a href=\"https://en.wikipedia.org/wiki/Music_information_retrieval\">Music Information Retrieval</a> 領域相關講題，於是就分享了 <a href=\"http://www.indievox.com/\">iNDIEVOX</a> 如何使用近期開放出來的 <a href=\"https://github.com/indievox-inc/iNDIEVOX-Dataset\">Open Data 及 API</a> 實做出一些有趣的智慧音樂應用，例如辨識音樂情緒、推薦購買關聯音樂等等需要機器學習演算法才能實現的功能。</p>\n\n<p>由於面對的學生有博士班及碩士班的同學，其實實作面及研究面都要顧及，所以除了說明一些演算法之外，也一步一步地帶著大家如何跑完一整個機器學習流程，甚至擔心大家沒跟上還寫了一些範例程式碼提供參考，詳情請大家自己看簡報內容吧。</p>\n\n<p>與現今許多神奇的機器學習應用比起來，也許這些音樂推薦功能也不怎麼神奇了，畢竟這也只是我工作之餘自己做的一些實驗性產品，技術深度要跟投入大量研究經費及人力的大公司比起來可能不算什麼，但對於想要入門機器學習做出些什麼有趣的應用系統，我想這是一個非常好的手把手教學與展示！</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n前幾天受邀去政治大學、中山大學演講 [Music Information Retrieval](https://en.wikipedia.org/wiki/Music_information_retrieval) 領域相關講題，於是就分享了 [iNDIEVOX](http://www.indievox.com/) 如何使用近期開放出來的 [Open Data 及 API](https://github.com/indievox-inc/iNDIEVOX-Dataset) 實做出一些有趣的智慧音樂應用，例如辨識音樂情緒、推薦購買關聯音樂等等需要機器學習演算法才能實現的功能。\r\n\r\n由於面對的學生有博士班及碩士班的同學，其實實作面及研究面都要顧及，所以除了說明一些演算法之外，也一步一步地帶著大家如何跑完一整個機器學習流程，甚至擔心大家沒跟上還寫了一些範例程式碼提供參考，詳情請大家自己看簡報內容吧。\r\n\r\n與現今許多神奇的機器學習應用比起來，也許這些音樂推薦功能也不怎麼神奇了，畢竟這也只是我工作之餘自己做的一些實驗性產品，技術深度要跟投入大量研究經費及人力的大公司比起來可能不算什麼，但對於想要入門機器學習做出些什麼有趣的應用系統，我想這是一個非常好的手把手教學與展示！",
+          "embedded_links": [
+            {
+              "identifier": "XC7DFAW",
+              "title": "Music Information Retrieval",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Music_information_retrieval"
+            },
+            {
+              "identifier": "bRXBty8",
+              "title": "iNDIEVOX",
+              "url_domain": "indievox.com",
+              "url": "http://www.indievox.com/"
+            },
+            {
+              "identifier": "10STM0o",
+              "title": "Open Data 及 API",
+              "url_domain": "github.com",
+              "url": "https://github.com/indievox-inc/iNDIEVOX-Dataset"
+            }
+          ],
+          "image_original_filename": "db875fe8-a6f9-4fed-a93d-6b61615bf6a6.png",
+          "image_extra_large_filename": "original_ratio_extra_large_db875fe8-a6f9-4fed-a93d-6b61615bf6a6.png",
+          "image_medium_filename": "original_ratio_medium_db875fe8-a6f9-4fed-a93d-6b61615bf6a6.png"
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "EqaLoSZ",
+          "type": "Link",
+          "title": "My Favorite Xcode 8 Shortcuts",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-1-3-36381e07284d#.tzowaiugd",
+          "description": "<p>有人分享了一份他常用的 Xcode 快速鍵（還有<a href=\"https://medium.com/ios-geek-community/bobs-favorite-xcode-shortcuts-part-2-3-c076e506cd20#.qwwokucyg\">第二集</a>，<a href=\"https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-3-3-afd2bf590442#.4rmozi811\">第三集</a>），作者很貼心的提供了 gif 檔展示每個快速鍵的功用。</p>\n\n<p>我從中學到了幾個之前沒注意到的快速鍵，例如 <code>Command Option Left/Right</code> 可以收合展開程式碼，<code>Control L</code> 可以將游標那一行程式碼置於畫面中央，<code>Control K</code> 可以刪除下一行程式碼。另外提供兩個我常用的快速鍵：<code>Control Shift J</code> 可以切到專案瀏覽器並選中目前編輯的檔案，<code>Control Command Up/Down</code> 可以在 .h/.m 檔之間切換。</p>",
+          "description_markdown": "有人分享了一份他常用的 Xcode 快速鍵（還有[第二集](https://medium.com/ios-geek-community/bobs-favorite-xcode-shortcuts-part-2-3-c076e506cd20#.qwwokucyg)，[第三集](https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-3-3-afd2bf590442#.4rmozi811)），作者很貼心的提供了 gif 檔展示每個快速鍵的功用。\r\n\r\n我從中學到了幾個之前沒注意到的快速鍵，例如 `Command Option Left/Right` 可以收合展開程式碼，`Control L` 可以將游標那一行程式碼置於畫面中央，`Control K` 可以刪除下一行程式碼。另外提供兩個我常用的快速鍵：`Control Shift J` 可以切到專案瀏覽器並選中目前編輯的檔案，`Control Command Up/Down` 可以在 .h/.m 檔之間切換。",
+          "embedded_links": [
+            {
+              "identifier": "rznmDhI",
+              "title": "第二集",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/ios-geek-community/bobs-favorite-xcode-shortcuts-part-2-3-c076e506cd20#.qwwokucyg"
+            },
+            {
+              "identifier": "utef7Mf",
+              "title": "第三集",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/ios-geek-community/bobs-favorite-xcode-8-shortcuts-part-3-3-afd2bf590442#.4rmozi811"
+            }
+          ]
+        },
+        {
+          "identifier": "BPDXzgH",
+          "type": "Link",
+          "title": "Watch Swift and the Legacy of Functional Programming",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/tryswift-rob-napier-swift-legacy-functional-programming/",
+          "description": "<p><a href=\"https://twitter.com/cocoaphony\">Rob Napier</a> 分享了他對 Swift 的看法，他認為 Swift 直至今日依然不是 Functional Language，所以如果用 functional 的思維去寫 Swift 會很不自然。他認為 <code>Type</code> 才是 Swift 的組成單位，要用 <code>Type</code> 來思考並組合你的 Swift 程式碼。講得非常簡單好懂，很值得一看的演講。</p>",
+          "description_markdown": "[Rob Napier](https://twitter.com/cocoaphony) 分享了他對 Swift 的看法，他認為 Swift 直至今日依然不是 Functional Language，所以如果用 functional 的思維去寫 Swift 會很不自然。他認為 `Type` 才是 Swift 的組成單位，要用 `Type` 來思考並組合你的 Swift 程式碼。講得非常簡單好懂，很值得一看的演講。",
+          "embedded_links": [
+            {
+              "identifier": "i7KEh8c",
+              "title": "Rob Napier",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/cocoaphony"
+            }
+          ]
+        },
+        {
+          "identifier": "jhMLQD3",
+          "type": "Link",
+          "title": "Composite Validators - Hot Cocoa Touch",
+          "url_domain": "hotcocoatouch.com",
+          "url": "http://hotcocoatouch.com/2016/11/16/composite-validators/",
+          "description": "<p>常常會聽到這麼一句話：「多用合成，少用繼承」，使用合成模式 (Composite Pattern) 真的可以避免許多麻煩、讓程式碼更有彈性、各個元件的職責更加明確。這篇文章的作者舉例說明，如何用合成模式來驗證使用者輸入的 Email 跟密碼，是個很常見的使用情境。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li>有人覺得作者這樣的設計還有改善空間，所以<a href=\"https://owensd.io/2016/11/28/composite-validators-refined/\">寫了一篇文章來回應</a></li>\n<li>配合上一篇 Rob Napier 的演講一起看會更有體會</li>\n</ul>",
+          "description_markdown": "常常會聽到這麼一句話：「多用合成，少用繼承」，使用合成模式 (Composite Pattern) 真的可以避免許多麻煩、讓程式碼更有彈性、各個元件的職責更加明確。這篇文章的作者舉例說明，如何用合成模式來驗證使用者輸入的 Email 跟密碼，是個很常見的使用情境。\r\n\r\n延伸閱讀：\r\n\r\n- 有人覺得作者這樣的設計還有改善空間，所以[寫了一篇文章來回應](https://owensd.io/2016/11/28/composite-validators-refined/)\r\n- 配合上一篇 Rob Napier 的演講一起看會更有體會",
+          "embedded_links": [
+            {
+              "identifier": "c2BA9SM",
+              "title": "寫了一篇文章來回應",
+              "url_domain": "owensd.io",
+              "url": "https://owensd.io/2016/11/28/composite-validators-refined/"
+            }
+          ]
+        },
+        {
+          "identifier": "NIout7y",
+          "type": "Link",
+          "title": "Hiding Your Action and Share Extensions In Your Own Apps",
+          "url_domain": "pspdfkit.com",
+          "url": "https://pspdfkit.com/blog/2016/hiding-action-share-extensions-in-your-own-apps/",
+          "description": "<p>iOS 提供了 <code>UIActivityViewController</code>（就是按下「分享」按鈕後會跳出來的那個界面），讓使用者可以用別的 app 來處理當前的檔案。但是假如使用者已經在使用你的 app 了，此時跳出來的 <code>UIActivityViewController</code> 如果還列出你的 app 選項，就會顯得很不合理。PSPDFKit 的開發團隊找到一個很有趣的方法來解決這個問題！</p>",
+          "description_markdown": "iOS 提供了 `UIActivityViewController`（就是按下「分享」按鈕後會跳出來的那個界面），讓使用者可以用別的 app 來處理當前的檔案。但是假如使用者已經在使用你的 app 了，此時跳出來的 `UIActivityViewController` 如果還列出你的 app 選項，就會顯得很不合理。PSPDFKit 的開發團隊找到一個很有趣的方法來解決這個問題！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "H9MckeB",
+          "type": "Link",
+          "title": "Would Async/Await Work In Swift/iOS?",
+          "url_domain": "stablekernel.com",
+          "url": "http://blog.stablekernel.com/would-async/await-work-in-swift/ios",
+          "description": "<p>「非同步操作」基本上已經是每個 app 都需要面對的問題，有些程式語言提供 async/await 語法來處理非同步操作，但目前看起來 Swift 尚未打算提供類似的語法。本文作者 Joe Conway 分享他的思路，說明 Swift 底下該怎麼實作這個特性。</p>",
+          "description_markdown": "「非同步操作」基本上已經是每個 app 都需要面對的問題，有些程式語言提供 async/await 語法來處理非同步操作，但目前看起來 Swift 尚未打算提供類似的語法。本文作者 Joe Conway 分享他的思路，說明 Swift 底下該怎麼實作這個特性。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "BgAdcue",
+          "type": "Link",
+          "title": "Debugging Your Operating System: A Lesson In Memory Allocation",
+          "url_domain": "lukasa.co.uk",
+          "url": "https://lukasa.co.uk/2016/12/Debugging_Your_Operating_System/",
+          "description": "<p><a href=\"http://docs.python-requests.org/en/master/\">Requests</a> 是 Python 上最受實戰驗證的 HTTP 客戶端函式庫。但它的主要維護人之一 Cory Benfield 最近卻收到一個神奇的 <a href=\"https://github.com/kennethreitz/requests/issues/3729\">bug report</a>：</p>\n\n<blockquote><p><code>iter_content</code> 在 HTTPS 連線收到很大的內容時會變得很慢</p></blockquote>\n\n<p>這一點也不合理 —— Requests 歷史如此之長，使用者如此之多，怎麼到現在才冒出這麼基本的問題？Cory 跟著 reporter 一路追下去，才發現這牽扯到非常多因素：使用 <a href=\"http://cffi.readthedocs.io/en/latest/\">CFFI</a> 配置記憶體的實作、C 標準庫對 <a href=\"https://vorpus.org/blog/why-does-calloc-exist/\"><code>calloc</code> 的實作</a>與 <code>malloc</code> 的差異、一直到蘋果需要針對記憶體極端受限的硬體，而對它的<a href=\"https://en.wikipedia.org/wiki/XNU\">極致優化</a>。</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Leaky_abstraction\"><em>Abstraction is leaky.</em></a> 不論你的應用有多麼高階，總是有些問題會需要一直往下挖，才能找到真正原因。希望大家都能擁有足夠的<a href=\"http://www.books.com.tw/products/0010456858\">自我修養</a>，不要漏點了底層的技能樹。</p>",
+          "description_markdown": "[Requests](http://docs.python-requests.org/en/master/) 是 Python 上最受實戰驗證的 HTTP 客戶端函式庫。但它的主要維護人之一 Cory Benfield 最近卻收到一個神奇的 [bug report](https://github.com/kennethreitz/requests/issues/3729)：\r\n\r\n> `iter_content` 在 HTTPS 連線收到很大的內容時會變得很慢\r\n\r\n這一點也不合理 —— Requests 歷史如此之長，使用者如此之多，怎麼到現在才冒出這麼基本的問題？Cory 跟著 reporter 一路追下去，才發現這牽扯到非常多因素：使用 [CFFI](http://cffi.readthedocs.io/en/latest/) 配置記憶體的實作、C 標準庫對 [`calloc` 的實作](https://vorpus.org/blog/why-does-calloc-exist/)與 `malloc` 的差異、一直到蘋果需要針對記憶體極端受限的硬體，而對它的[極致優化](https://en.wikipedia.org/wiki/XNU)。\r\n\r\n[*Abstraction is leaky.*](https://en.wikipedia.org/wiki/Leaky_abstraction) 不論你的應用有多麼高階，總是有些問題會需要一直往下挖，才能找到真正原因。希望大家都能擁有足夠的[自我修養](http://www.books.com.tw/products/0010456858)，不要漏點了底層的技能樹。",
+          "embedded_links": [
+            {
+              "identifier": "twPsRFl",
+              "title": "Requests",
+              "url_domain": "python-requests.org",
+              "url": "http://docs.python-requests.org/en/master/"
+            },
+            {
+              "identifier": "SmbebyJ",
+              "title": "bug report",
+              "url_domain": "github.com",
+              "url": "https://github.com/kennethreitz/requests/issues/3729"
+            },
+            {
+              "identifier": "WNwd9BY",
+              "title": "CFFI",
+              "url_domain": "readthedocs.io",
+              "url": "http://cffi.readthedocs.io/en/latest/"
+            },
+            {
+              "identifier": "bEVo5F0",
+              "title": "`calloc` 的實作",
+              "url_domain": "vorpus.org",
+              "url": "https://vorpus.org/blog/why-does-calloc-exist/"
+            },
+            {
+              "identifier": "bHKPCh1",
+              "title": "極致優化",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/XNU"
+            },
+            {
+              "identifier": "UL8Ajb5",
+              "title": "*Abstraction is leaky.*",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Leaky_abstraction"
+            },
+            {
+              "identifier": "LmR6gyD",
+              "title": "自我修養",
+              "url_domain": "books.com.tw",
+              "url": "http://www.books.com.tw/products/0010456858"
+            }
+          ]
+        },
+        {
+          "identifier": "bjaxv24",
+          "type": "Link",
+          "title": "The 100% correct way to do CSS breakpoints",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.457n7wdrd",
+          "description": "<p>三個實作 CSS 斷點的原則：</p>\n\n<ul>\n<li>正確規劃斷點位置</li>\n<li>為斷點取好名稱</li>\n<li>要有描述性</li>\n</ul>\n\n\n<p>第一點根本一上來就打爆所有你既有的斷點概念啊！我之前和各大網站的 layout 掙扎了滿久，才決定我筆電上的所有瀏覽器視窗都要是 1225 px 寬，不多也不少，就是因為很多網站的斷點都設得不太好（包括 Twitter），讓使用者體驗整個糟。希望大家都能被這篇文章啟發一些想法，進而改善自家網站的 layout。</p>",
+          "description_markdown": "三個實作 CSS 斷點的原則：\r\n\r\n* 正確規劃斷點位置\r\n* 為斷點取好名稱\r\n* 要有描述性\r\n\r\n第一點根本一上來就打爆所有你既有的斷點概念啊！我之前和各大網站的 layout 掙扎了滿久，才決定我筆電上的所有瀏覽器視窗都要是 1225 px 寬，不多也不少，就是因為很多網站的斷點都設得不太好（包括 Twitter），讓使用者體驗整個糟。希望大家都能被這篇文章啟發一些想法，進而改善自家網站的 layout。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UqQJdzB",
+          "type": "Link",
+          "title": "Why I’m Making Python 2.8",
+          "url_domain": "naftaliharris.com",
+          "url": "https://www.naftaliharris.com/blog/why-making-python-2.8/",
+          "description": "<p>有個人把所有的 Python 3 新功能都 backport 回 Python 2，然後把專案名稱作 Python 2.8。他的原因是自己的程式碼都在 Python 2，而與其把所有程式都改寫成 Python 3-compatible，不如把新功能移植回現在這個直譯器上，然後就可以用了。喔耶！</p>\n\n<p>嗯，不論你對這個專案的想法如何，至少不需要否認它的存在價值啦。作者有個問題需要處理，然後別人無法（<a href=\"https://www.python.org/dev/peps/pep-0404/\">不想？</a>）解決，所以他就用自己的方法找了出路。這就是開源的基本精神，不是嗎？</p>\n\n<p>比較有趣的倒是 Python 社群的反應。Hacker News 和 Reddit 一堆瘋子就不用看了，許多 Python 大名們也都有<a href=\"https://twitter.com/kennethreitz/status/807690433954344960\">討論</a>。話說前陣子也有某大手<a href=\"https://learnpythonthehardway.org/book/nopython3.html\">發表</a>自己對 Python 3 的厭惡，宣稱 Python 2 才是正道，自己永遠不會升級，也不會教任何新手 Python 3。好啦其實 Zed A. Shaw 在技術界早就頗黑，雖然很受一部份人愛戴 <del>怎麼有點像某人</del>，但畢竟他的 reach，尤其對許多初學者的影響力還是很大，所以雖然文章內容根本錯誤百出無從吐槽，但（幸好）還是有人跳出來反駁，其中不乏<a href=\"https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/\">比較情緒的發言</a>。反觀起來這個專案大家就比較能接受，普遍的反應比較接近「雖然不樂意，但這是個人自由，反正就冷處理」。最多的討論倒是圍繞在<a href=\"https://github.com/naftaliharris/python2.8/issues/47\">不該用 Python 這個名稱</a>，主要是商標因素。好像也是有道理。</p>",
+          "description_markdown": "有個人把所有的 Python 3 新功能都 backport 回 Python 2，然後把專案名稱作 Python 2.8。他的原因是自己的程式碼都在 Python 2，而與其把所有程式都改寫成 Python 3-compatible，不如把新功能移植回現在這個直譯器上，然後就可以用了。喔耶！\r\n\r\n嗯，不論你對這個專案的想法如何，至少不需要否認它的存在價值啦。作者有個問題需要處理，然後別人無法（[不想？](https://www.python.org/dev/peps/pep-0404/)）解決，所以他就用自己的方法找了出路。這就是開源的基本精神，不是嗎？\r\n\r\n比較有趣的倒是 Python 社群的反應。Hacker News 和 Reddit 一堆瘋子就不用看了，許多 Python 大名們也都有[討論](https://twitter.com/kennethreitz/status/807690433954344960)。話說前陣子也有某大手[發表](https://learnpythonthehardway.org/book/nopython3.html)自己對 Python 3 的厭惡，宣稱 Python 2 才是正道，自己永遠不會升級，也不會教任何新手 Python 3。好啦其實 Zed A. Shaw 在技術界早就頗黑，雖然很受一部份人愛戴 ~~怎麼有點像某人~~，但畢竟他的 reach，尤其對許多初學者的影響力還是很大，所以雖然文章內容根本錯誤百出無從吐槽，但（幸好）還是有人跳出來反駁，其中不乏[比較情緒的發言](https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/)。反觀起來這個專案大家就比較能接受，普遍的反應比較接近「雖然不樂意，但這是個人自由，反正就冷處理」。最多的討論倒是圍繞在[不該用 Python 這個名稱](https://github.com/naftaliharris/python2.8/issues/47)，主要是商標因素。好像也是有道理。",
+          "embedded_links": [
+            {
+              "identifier": "HoqrT72",
+              "title": "不想？",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-0404/"
+            },
+            {
+              "identifier": "BKQDCAy",
+              "title": "討論",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/kennethreitz/status/807690433954344960"
+            },
+            {
+              "identifier": "auc3orn",
+              "title": "發表",
+              "url_domain": "learnpythonthehardway.org",
+              "url": "https://learnpythonthehardway.org/book/nopython3.html"
+            },
+            {
+              "identifier": "MSANfWB",
+              "title": "比較情緒的發言",
+              "url_domain": "eev.ee",
+              "url": "https://eev.ee/blog/2016/11/23/a-rebuttal-for-python-3/"
+            },
+            {
+              "identifier": "sD7BJ3S",
+              "title": "不該用 Python 這個名稱",
+              "url_domain": "github.com",
+              "url": "https://github.com/naftaliharris/python2.8/issues/47"
+            }
+          ]
+        },
+        {
+          "identifier": "jJNAHiE",
+          "type": "Link",
+          "title": "H.264 is Magic",
+          "url_domain": "sidbala.com",
+          "url": "https://sidbala.com/h-264-is-magic/",
+          "description": "<p>為什麼桌面上顯示一張 1 MB 的 PNG 檔，錄成 5 秒鐘影片之後反而只剩 175 KB？因為 H.264 很神奇。這篇文章會帶你走過 H.264 所使用的各種技巧，解釋究竟要怎樣把影片中如此大量的資訊，壓進比圖片還要清亮的檔案尺寸。</p>\n\n<p>我<a href=\"http://weekly.codetengu.com/issues/68#DCyVxtS\">上次</a>引了一篇介紹 GIF 歷史的文章，裡面也有提到 GIF 的一大問題就是難以壓縮；為了解決這個問題，現代服務提出了各式各樣的解法。舉例而言，當你把一張 GIF 上傳到 Twitter，出現在你 timeline 上的其實是⋯⋯一個 H.264 編碼的無聲 MP5 影片！因為現代的影片壓縮技術實在比 GIF 厲害太多啦。</p>\n\n<p>文中的主題大致可分成幾個階段：</p>\n\n<ul>\n<li>頻域壓縮（量化壓縮 quantization）</li>\n<li>色度抽樣（chroma sampling）</li>\n<li>動態補償（motion compensation）</li>\n<li>熵編碼（entropy encoding）</li>\n</ul>\n\n\n<p>如果你很熟悉上面這些名詞，恭喜你 XD 如果你都看不懂，那才是正常不過；不過這篇文章就是來解釋它們的，所以完全適合好奇又沒有任何基礎知識的人。雖然看完大概對工作也不會有什麼立即幫助，但還是很酷的閒暇閱讀。</p>",
+          "description_markdown": "為什麼桌面上顯示一張 1 MB 的 PNG 檔，錄成 5 秒鐘影片之後反而只剩 175 KB？因為 H.264 很神奇。這篇文章會帶你走過 H.264 所使用的各種技巧，解釋究竟要怎樣把影片中如此大量的資訊，壓進比圖片還要清亮的檔案尺寸。\r\n\r\n我[上次](http://weekly.codetengu.com/issues/68#DCyVxtS)引了一篇介紹 GIF 歷史的文章，裡面也有提到 GIF 的一大問題就是難以壓縮；為了解決這個問題，現代服務提出了各式各樣的解法。舉例而言，當你把一張 GIF 上傳到 Twitter，出現在你 timeline 上的其實是⋯⋯一個 H.264 編碼的無聲 MP5 影片！因為現代的影片壓縮技術實在比 GIF 厲害太多啦。\r\n\r\n文中的主題大致可分成幾個階段：\r\n\r\n* 頻域壓縮（量化壓縮 quantization）\r\n* 色度抽樣（chroma sampling）\r\n* 動態補償（motion compensation）\r\n* 熵編碼（entropy encoding）\r\n\r\n如果你很熟悉上面這些名詞，恭喜你 XD 如果你都看不懂，那才是正常不過；不過這篇文章就是來解釋它們的，所以完全適合好奇又沒有任何基礎知識的人。雖然看完大概對工作也不會有什麼立即幫助，但還是很酷的閒暇閱讀。",
+          "embedded_links": [
+            {
+              "identifier": "n4vpcmK",
+              "title": "上次",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/68#DCyVxtS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "ROrLYLk",
+          "type": "Link",
+          "title": "Web Developers at Dcard",
+          "url_domain": "dcard.today",
+          "url": "https://join.dcard.today/",
+          "description": "<p>Dcard 是全台灣最大的學生社群，每天有超過百萬人在使用，是近年來台灣崛起最快的本土團隊。同時在技術上努力追求突破，是國內數一數二早將 Kubernetes 用在 production 的公司。使用架構：Kubernetes, Node.js, Golang, Elixir, PostgreSQL, Redis, Scylla, React/Redux。</p>\n\n<p>履歷請寄到： <a href=\"&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#x77;&#101;&#108;&#99;&#x6f;&#x6d;&#101;&#x40;&#100;&#99;&#x61;&#x72;&#100;&#x2e;&#x63;&#x63;\">&#119;&#101;&#108;&#99;&#x6f;&#109;&#x65;&#x40;&#100;&#99;&#97;&#114;&#x64;&#x2e;&#x63;&#99;</a> 或到 <a href=\"http://join.dcard.today\">http://join.dcard.today</a></p>",
+          "description_markdown": "Dcard 是全台灣最大的學生社群，每天有超過百萬人在使用，是近年來台灣崛起最快的本土團隊。同時在技術上努力追求突破，是國內數一數二早將 Kubernetes 用在 production 的公司。使用架構：Kubernetes, Node.js, Golang, Elixir, PostgreSQL, Redis, Scylla, React/Redux。\r\n\r\n\r\n履歷請寄到： <welcome@dcard.cc> 或到 <http://join.dcard.today>",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "V49aCSw",
+          "type": "Link",
+          "title": "Python Web Backend Developers at StreetVoice",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發與維護 <a href=\"https://streetvoice.com/\">StreetVoice</a> 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x74;&#x7a;&#97;&#110;&#x67;&#x6d;&#115;&#x40;&#x73;&#116;&#x72;&#x65;&#101;&#x74;&#118;&#x6f;&#x69;&#x63;&#101;&#46;&#99;&#x6f;&#x6d;\">&#116;&#122;&#97;&#x6e;&#103;&#x6d;&#x73;&#x40;&#x73;&#116;&#x72;&#x65;&#101;&#x74;&#x76;&#x6f;&#105;&#99;&#101;&#46;&#99;&#x6f;&#109;</a>。</p>",
+          "description_markdown": "開發與維護 [StreetVoice](https://streetvoice.com/) 旗下相關網站，開發流程包含 Code Review、CI 與自動化部署，團隊內有專職的 DevOps 和前端工程師。主要技術棧：Python、Django、MySQL (MariaDB)、Redis、Elasticsearch、Ansible 和 AWS。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+            {
+              "identifier": "f3BmhnO",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "z0sQ14P",
+          "type": "Link",
+          "title": "PPAV - 搜尋、推播 AV 的 Facebook Messenger BOT",
+          "url_domain": "github.com",
+          "url": "https://github.com/xxhomey19/PPAV",
+          "description": "<p>這大概是近期最熱門的一個機器人了吧！簡直就是殺手級應用啊！怎麼使用這個機器人我想附圖已經說明得很清楚了，如果還是不會用，那就直接去這個 <a href=\"https://www.facebook.com/ppavbot/\">PPAV 粉絲頁</a>傳私訊看看就知道了～</p>\n\n<p>我來改改 CodeTengu 的副標：</p>\n\n<blockquote><p>PPAV 適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。</p></blockquote>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "這大概是近期最熱門的一個機器人了吧！簡直就是殺手級應用啊！怎麼使用這個機器人我想附圖已經說明得很清楚了，如果還是不會用，那就直接去這個 [PPAV 粉絲頁](https://www.facebook.com/ppavbot/)傳私訊看看就知道了～\r\n\r\n我來改改 CodeTengu 的副標：\r\n\r\n> PPAV 適合所有患有資訊焦慮症、氣血循環不順以及性受挫的軟體工程師們。\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "EsbsAAz",
+              "title": "PPAV 粉絲頁",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/ppavbot/"
+            },
+            {
+              "identifier": "myXDsel",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "b5555ba8-7874-4b13-953a-98d7787003fb.png",
+          "image_extra_large_filename": "original_ratio_extra_large_b5555ba8-7874-4b13-953a-98d7787003fb.png",
+          "image_medium_filename": "original_ratio_medium_b5555ba8-7874-4b13-953a-98d7787003fb.png"
+        }
+      ]
+    }
+  ]
+}

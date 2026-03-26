@@ -1,0 +1,453 @@
+{
+  "number": 61,
+  "title": "Issue 61 大家都喜歡高測試覆蓋率，只是剛好大家都討厭寫測試",
+  "summary": "本期內容涵蓋 iOS, Android, JavaScript, Redux, Go, Docker, Rust",
+  "url": "https://weekly.codetengu.com/issues/61",
+  "publication_status": "published",
+  "published_at": "2016-09-26T03:00:00+01:00",
+  "updated_at": "2016-10-19T20:24:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://book.douban.com/people/vinta/\">The Best of Isaac Asimov</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://www.youtube.com/watch?v=u7rSnc7mYC4\">妙蛙種子破音</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - comiXology 的坑好大啊～</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事。</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Best of Isaac Asimov](https://book.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [妙蛙種子破音](https://www.youtube.com/watch?v=u7rSnc7mYC4)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@wancw](https://twitter.com/wancw) - comiXology 的坑好大啊～\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事。\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "hw6hC4e",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "q5tbyTC",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "18PEdaL",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "hkHiEyX",
+              "title": "The Best of Isaac Asimov",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ME5FbJF",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "ZXvZyJV",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "Zd3qQF0",
+              "title": "妙蛙種子破音",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=u7rSnc7mYC4"
+            },
+            {
+              "identifier": "IvcN5aT",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9boeV98",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "9HBjMFo",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "GQJKPYY",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "9KmDOXD",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "rv5oWmq",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "IuuucpK",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Ug6Dskf",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "RfNjbhh",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "7nGuB9p",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "3oXHnOz",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "JNIyUIl",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "KR3elL8",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "8gcoJ4O",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "zbS5Hjk",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "90nXpJX",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "jRYEOXQ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "AFww3xM",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "n7mvgi5",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "Cyh6EE7",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "HoLorxT",
+          "type": "Link",
+          "title": "Testing, for people who hate testing",
+          "url_domain": "eev.ee",
+          "url": "https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing",
+          "description": "<p>這一篇文章的目標族群是不喜歡寫測試的人，內容涵蓋你討厭測試的原因跟改善的方法、你應該對什麼樣的東西做測試、測試的道理。</p>\n\n<p>我覺得 <a href=\"https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing/?utm_source=wanqu.co&amp;utm_campaign=Wanqu+Daily&amp;utm_medium=website#hating-testing-less\">Hating testing less</a> 這個段落寫得還不錯。</p>\n\n<p>從這個段落做延伸，很多人在測試這件事上就是卡在連第一步都啟動不了，覺得值得測試的 module 完全是一個很難寫測試的狀態，說要測那些比較容易被測試的 module 嘛，卻又覺得測它一點意義都沒有。<br/>\n我會覺得第一個測試從你覺得重要的 module 開始會比較好，即便要改寫的東西很多，但也因此才能比較好地感受測試的方法、道理跟好處。</p>\n\n<p>工作了好幾年，總覺得習慣寫測試的工程師的程式風格大概就是一種樣子，而不習慣寫測試的工程師們卻有各式各樣的程式風格。</p>\n\n<p>以寫不寫測試來評斷一個軟體工程師的優劣是不精準的，但我相信好的工程師都可以掌握測試帶來的優點跟影響。</p>\n\n<p>PS. 王垠前陣子也寫了一篇批判測試形式主義的文章 <a href=\"http://www.yinwang.org/blog-cn/2016/09/14/tests\">测试的道理</a>，風格還是一如往常地激烈，當然所有的形式主義都應該被討厭，但還是有很多人可以把測試這個工具發揮地很好的。</p>",
+          "description_markdown": "這一篇文章的目標族群是不喜歡寫測試的人，內容涵蓋你討厭測試的原因跟改善的方法、你應該對什麼樣的東西做測試、測試的道理。  \r\n\r\n我覺得 [Hating testing less](https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website#hating-testing-less) 這個段落寫得還不錯。  \r\n\r\n從這個段落做延伸，很多人在測試這件事上就是卡在連第一步都啟動不了，覺得值得測試的 module 完全是一個很難寫測試的狀態，說要測那些比較容易被測試的 module 嘛，卻又覺得測它一點意義都沒有。  \r\n我會覺得第一個測試從你覺得重要的 module 開始會比較好，即便要改寫的東西很多，但也因此才能比較好地感受測試的方法、道理跟好處。\r\n\r\n工作了好幾年，總覺得習慣寫測試的工程師的程式風格大概就是一種樣子，而不習慣寫測試的工程師們卻有各式各樣的程式風格。\r\n\r\n以寫不寫測試來評斷一個軟體工程師的優劣是不精準的，但我相信好的工程師都可以掌握測試帶來的優點跟影響。\r\n\r\nPS. 王垠前陣子也寫了一篇批判測試形式主義的文章 [测试的道理](http://www.yinwang.org/blog-cn/2016/09/14/tests)，風格還是一如往常地激烈，當然所有的形式主義都應該被討厭，但還是有很多人可以把測試這個工具發揮地很好的。",
+          "embedded_links": [
+            {
+              "identifier": "W7bwtUh",
+              "title": "Hating testing less",
+              "url_domain": "eev.ee",
+              "url": "https://eev.ee/blog/2016/08/22/testing-for-people-who-hate-testing/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website#hating-testing-less"
+            },
+            {
+              "identifier": "F5xyEpP",
+              "title": "测试的道理",
+              "url_domain": "yinwang.org",
+              "url": "http://www.yinwang.org/blog-cn/2016/09/14/tests"
+            }
+          ]
+        },
+        {
+          "identifier": "yzvPP85",
+          "type": "Link",
+          "title": "Immutable models and data consistency in our iOS App",
+          "url_domain": "pinterest.com",
+          "url": "https://engineering.pinterest.com/blog/immutable-models-and-data-consistency-our-ios-app",
+          "description": "<p>Pinterest 分享他們將 iOS app 重新設計成 immutable models (entities) 的經驗。<br/>\n主要動機是想要 models 可以 thread safe。</p>\n\n<p>文章也揭露他們在 API response 跟 model initialization 之中還擋了一層 model cache，這樣的優點是可以從多個都不完整的 API response 合成出一個包含全部最新資料的 model。</p>\n\n<p>重新設計後得到的 immutability object 也影響以往他們是用 <a href=\"https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html\">KVO</a> 來處理資料的更新，現在得改用 NSNotificationCenter 來發送特定 model 需要更新的 event。</p>\n\n<p>PS. 在 app 擋一層 persistence layer 可以讓 remote API 的設計更有彈性，可以像 Pinterest 一樣塞到 cache 裡，或者是 app 自己維護一份 client 的 DB。</p>",
+          "description_markdown": "Pinterest 分享他們將 iOS app 重新設計成 immutable models (entities) 的經驗。  \r\n主要動機是想要 models 可以 thread safe。\r\n\r\n文章也揭露他們在 API response 跟 model initialization 之中還擋了一層 model cache，這樣的優點是可以從多個都不完整的 API response 合成出一個包含全部最新資料的 model。\r\n\r\n重新設計後得到的 immutability object 也影響以往他們是用 [KVO](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html) 來處理資料的更新，現在得改用 NSNotificationCenter 來發送特定 model 需要更新的 event。\r\n\r\nPS. 在 app 擋一層 persistence layer 可以讓 remote API 的設計更有彈性，可以像 Pinterest 一樣塞到 cache 裡，或者是 app 自己維護一份 client 的 DB。",
+          "embedded_links": [
+            {
+              "identifier": "KscPvFm",
+              "title": "KVO",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/KeyValueObserving/KeyValueObserving.html"
+            }
+          ]
+        },
+        {
+          "identifier": "fvzpkOs",
+          "type": "Link",
+          "title": "openURL Deprecated in iOS10",
+          "url_domain": "useyourloaf.com",
+          "url": "http://useyourloaf.com/blog/openurl-deprecated-in-ios10/",
+          "description": "<p>iOS 9 開始，我們就必須要把 app 會使用到的所有 <code>openURL:</code> 的 scheme 加到白名單裡面，關於這件事，可以參考一年前的這篇 <a href=\"http://awkwardhare.com/post/121196006730/quick-take-on-ios-9-url-scheme-changes\">Quick Take on iOS 9 URL Scheme Changes</a>。</p>\n\n<p>而這次 iOS 10 更是直接棄用了 <code>openURL:</code> 改以非同步的 <code>openURL:options:completionHandler:</code> 代替。<br/>\n相信這個改動會影響大多數 iOS 的開發者。</p>",
+          "description_markdown": "iOS 9 開始，我們就必須要把 app 會使用到的所有 `openURL:` 的 scheme 加到白名單裡面，關於這件事，可以參考一年前的這篇 [Quick Take on iOS 9 URL Scheme Changes](http://awkwardhare.com/post/121196006730/quick-take-on-ios-9-url-scheme-changes)。\r\n\r\n而這次 iOS 10 更是直接棄用了 `openURL:` 改以非同步的 `openURL:options:completionHandler:` 代替。  \r\n相信這個改動會影響大多數 iOS 的開發者。",
+          "embedded_links": [
+            {
+              "identifier": "exGgsYH",
+              "title": "Quick Take on iOS 9 URL Scheme Changes",
+              "url_domain": "awkwardhare.com",
+              "url": "http://awkwardhare.com/post/121196006730/quick-take-on-ios-9-url-scheme-changes"
+            }
+          ]
+        },
+        {
+          "identifier": "kf40OJf",
+          "type": "Link",
+          "title": "Make your build.gradle great again",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sergii/make-your-build-gradle-great-again-c84cc172a654#.1zjjxc9bo",
+          "description": "<p>一些 <code>build.gradle</code> 的小技巧，列了一些可以透過 <code>build.gradle</code> 處理那些能在 build time 做的事情、將那些獨立的 task 拆成不同的 scripts 再用 <code>apply</code> 讓主要的 <code>build.gradle</code> 保持精簡跟閱讀性。</p>\n\n<p>有一些比較有意思的技巧：</p>\n\n<ul>\n<li>Android library 庫用 <code>jcenter</code> 會比 <code>mavenCentral</code> 來得反應速度更快，作者建議大家唯一使用 <code>jcenter</code></li>\n<li>如果 app 的 <code>minSdkVersion</code> 小於 21，可以只在 debug 的時候將 <code>minSdkVersion</code> 指到 21，這是 build tools 優化的一個 API level 分水嶺，可以讓 build 的速度變快</li>\n</ul>",
+          "description_markdown": "一些 `build.gradle` 的小技巧，列了一些可以透過 `build.gradle` 處理那些能在 build time 做的事情、將那些獨立的 task 拆成不同的 scripts 再用 `apply` 讓主要的 `build.gradle` 保持精簡跟閱讀性。\r\n\r\n有一些比較有意思的技巧：\r\n\r\n- Android library 庫用 `jcenter` 會比 `mavenCentral` 來得反應速度更快，作者建議大家唯一使用 `jcenter`\r\n- 如果 app 的 `minSdkVersion` 小於 21，可以只在 debug 的時候將 `minSdkVersion` 指到 21，這是 build tools 優化的一個 API level 分水嶺，可以讓 build 的速度變快",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Is9Ji3a",
+          "type": "Link",
+          "title": "拆轮子系列：拆 RxJava",
+          "url_domain": "piasy.com",
+          "url": "http://blog.piasy.com/2016/09/15/Understand-RxJava/",
+          "description": "<p>我用過不少種的 Reactive framework，但其實一直都不明白它從 <code>Observable</code> 開始到我最喜歡的 <code>onNext</code> 中間是怎麼設計的，這篇文章對我來說是一個很好的觀念引導。</p>\n\n<p>作者從最間單的 <code>Observable.just().subscribe()</code> 開始觀察 <code>just</code> 跟 <code>subscribe</code> 的實作，再慢慢加入 <code>map</code>、<code>observeOn</code>、<code>subscribeOn</code>。</p>",
+          "description_markdown": "我用過不少種的 Reactive framework，但其實一直都不明白它從 `Observable` 開始到我最喜歡的 `onNext` 中間是怎麼設計的，這篇文章對我來說是一個很好的觀念引導。\r\n\r\n作者從最間單的 `Observable.just().subscribe()` 開始觀察 `just` 跟 `subscribe` 的實作，再慢慢加入 `map`、`observeOn`、`subscribeOn`。\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "i0eXiN0",
+          "type": "Link",
+          "title": "Is Your JavaScript Function Actually Pure?",
+          "url_domain": "staltz.com",
+          "url": "http://staltz.com/is-your-javascript-function-actually-pure.html",
+          "description": "<p>本篇文章探討 JavaScript 的 Purity 、 Referential Transparency ，最簡單的解釋方式就是，將同樣的參數給同個 function 或 expression 可以保證獲得相同結果。\n文內舉了一個簡單的 sum 例子探討該 function 內的行為是 pure 或 impure ，最後的答案是不確定的，必須依據 runtime 的行為，而大部分人之所以認為該例子是 pure 的，是因為對該 function 有了一些假設（如 sum 是用來加總數字的，其餘參照內文），而 functional programming 和 JavaScript 相比的好處就是讓你很容易把這些假設變成限制，進而讓行為更可預測。</p>",
+          "description_markdown": "本篇文章探討 JavaScript 的 Purity 、 Referential Transparency ，最簡單的解釋方式就是，將同樣的參數給同個 function 或 expression 可以保證獲得相同結果。\r\n文內舉了一個簡單的 sum 例子探討該 function 內的行為是 pure 或 impure ，最後的答案是不確定的，必須依據 runtime 的行為，而大部分人之所以認為該例子是 pure 的，是因為對該 function 有了一些假設（如 sum 是用來加總數字的，其餘參照內文），而 functional programming 和 JavaScript 相比的好處就是讓你很容易把這些假設變成限制，進而讓行為更可預測。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ZMv6fpy",
+          "type": "Link",
+          "title": "You Might Not Need Redux",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.3elgmjlyx",
+          "description": "<p>學習 Redux 前可以先評估自己是否真的需要用到這樣的 framework ，在使用 Redux 時有很多限制：</p>\n\n<ul>\n<li>使用 plain objects 或 arrays 來組成 application state</li>\n<li>使用 plain objects 來描述 state change</li>\n<li>處理程式邏輯和 state change 都必須透過 pure functions</li>\n</ul>\n\n\n<p>不過不論是否使用 React ，上面這些限制都不是必要的。\n如果你剛接觸 React ， 應該先去搞懂 <a href=\"https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.7wbdgn1ds\">think in React</a> ，等真的需要了，再來使用 Redux。</p>\n\n<p>然而就算你沒有使用 Redux ，你也可以自己將它的精神實作出來， Redux 把「發生了什麼」與「怎麼發生的」完整的 decouple ，但每次都需要這樣做嗎？或許應該自己先權衡利弊。</p>",
+          "description_markdown": "學習 Redux 前可以先評估自己是否真的需要用到這樣的 framework ，在使用 Redux 時有很多限制：\r\n\r\n* 使用 plain objects 或 arrays 來組成 application state \r\n* 使用 plain objects 來描述 state change\r\n* 處理程式邏輯和 state change 都必須透過 pure functions\r\n\r\n不過不論是否使用 React ，上面這些限制都不是必要的。\r\n如果你剛接觸 React ， 應該先去搞懂 [think in React](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.7wbdgn1ds) ，等真的需要了，再來使用 Redux。\r\n\r\n然而就算你沒有使用 Redux ，你也可以自己將它的精神實作出來， Redux 把「發生了什麼」與「怎麼發生的」完整的 decouple ，但每次都需要這樣做嗎？或許應該自己先權衡利弊。",
+          "embedded_links": [
+            {
+              "identifier": "ZIjwSxy",
+              "title": "think in React",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367#.7wbdgn1ds"
+            }
+          ]
+        },
+        {
+          "identifier": "R1QHOeB",
+          "type": "Link",
+          "title": "Descartes, Berkeley and Functional Reactive Programming",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/descartes-berkeley-and-functional-reactive-programming-18b0b61eac58#.c834m4vj8",
+          "description": "<p>本篇文章從兩個西洋哲學家的理念，來探討 functional reactive programming，一開始先從一個<a href=\"https://zh.wikipedia.org/wiki/%E5%81%87%E5%A6%82%E4%B8%80%E6%A3%B5%E6%A8%B9%E5%9C%A8%E6%A3%AE%E6%9E%97%E8%A3%A1%E5%80%92%E4%B8%8B\">思想實驗</a>轉換成兩種不同的程式實作，再和 <a href=\"https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes\">René Descartes</a> 與 <a href=\"https://en.wikipedia.org/wiki/George_Berkeley\">George Berkeley</a> 的哲理一一對應，算是一個有趣的（？）切入點，有興趣可以看看。</p>",
+          "description_markdown": "本篇文章從兩個西洋哲學家的理念，來探討 functional reactive programming，一開始先從一個[思想實驗](https://zh.wikipedia.org/wiki/%E5%81%87%E5%A6%82%E4%B8%80%E6%A3%B5%E6%A8%B9%E5%9C%A8%E6%A3%AE%E6%9E%97%E8%A3%A1%E5%80%92%E4%B8%8B)轉換成兩種不同的程式實作，再和 [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes) 與 [George Berkeley](https://en.wikipedia.org/wiki/George_Berkeley) 的哲理一一對應，算是一個有趣的（？）切入點，有興趣可以看看。",
+          "embedded_links": [
+            {
+              "identifier": "P9BjD9d",
+              "title": "思想實驗",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%81%87%E5%A6%82%E4%B8%80%E6%A3%B5%E6%A8%B9%E5%9C%A8%E6%A3%AE%E6%9E%97%E8%A3%A1%E5%80%92%E4%B8%8B"
+            },
+            {
+              "identifier": "ELcpLbN",
+              "title": "René Descartes",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+            },
+            {
+              "identifier": "yKSOq1V",
+              "title": "George Berkeley",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/George_Berkeley"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "2ZEaWCq",
+          "type": "Link",
+          "title": "我的社群之路： 參加，參與，受到啟發與啟發別人的道路",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/gtg16/",
+          "description": "<p>又到了 Curator 自肥時間． 來分享一下我的研討會與社群心得給大家．</p>\n\n<p>在參與研討會的演講中，其實我們會遇到很多熱情的讀者．有的甚至會來感謝講者，不過其實身為講者受到這些人的感謝．自己往往感謝最多．</p>\n\n<p><code>很多時候，當你啟發別人的時候．其實，最受到啟發的將會是你自己．</code></p>",
+          "description_markdown": "又到了 Curator 自肥時間． 來分享一下我的研討會與社群心得給大家．\r\n\r\n在參與研討會的演講中，其實我們會遇到很多熱情的讀者．有的甚至會來感謝講者，不過其實身為講者受到這些人的感謝．自己往往感謝最多．\r\n\r\n`很多時候，當你啟發別人的時候．其實，最受到啟發的將會是你自己．`",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "iYk5HQO",
+          "type": "Link",
+          "title": "Go + Docker = ♥",
+          "url_domain": "github.io",
+          "url": "https://jpetazzo.github.io/2016/09/09/go-docker/",
+          "description": "<p>Docker 界的大大 jpetazzo 寫了篇講解如何透過 Docker 而不安裝 Golang 的方式來編譯，執行甚至是跨平台編譯的相關指令． 但是有些地方需要注意:</p>\n\n<ol>\n<li><strong>cgo 與 net</strong> : 使用 Docker-Golang 來編譯與執行 Golang 程式碼，需要注意到是否有使用到 <code>net</code> 與 <code>cgo</code> 的部分，如果有你的 base image 可能要換成 <code>from debian</code> 雖然會比較大，但是就比較不會有平台上的問題．</li>\n<li>關於使用 ssl :  處理 SSL certificate 一直都是很麻煩的事情，這裡建議透過 <code>alpine</code> 來安裝    root certificate</li>\n</ol>\n\n\n<pre><code>FROM alpine:3.4\nRUN apk add --no-cache ca-certificates apache2-utils\n</code></pre>",
+          "description_markdown": "Docker 界的大大 jpetazzo 寫了篇講解如何透過 Docker 而不安裝 Golang 的方式來編譯，執行甚至是跨平台編譯的相關指令． 但是有些地方需要注意:\r\n\r\n1. **cgo 與 net** : 使用 Docker-Golang 來編譯與執行 Golang 程式碼，需要注意到是否有使用到 `net` 與 `cgo` 的部分，如果有你的 base image 可能要換成 `from debian` 雖然會比較大，但是就比較不會有平台上的問題．\r\n2. 關於使用 ssl :  處理 SSL certificate 一直都是很麻煩的事情，這裡建議透過 `alpine` 來安裝\troot certificate\r\n\r\n```\r\nFROM alpine:3.4\r\nRUN apk add --no-cache ca-certificates apache2-utils\r\n```\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9E8143W",
+          "type": "Link",
+          "title": "gravitational/teleconsole: UNIX shell broadcasting tool",
+          "url_domain": "github.com",
+          "url": "https://github.com/gravitational/teleconsole",
+          "description": "<p>類似 <a href=\"https://tmate.io/\">tmate</a> 有自己帶網路伺服器的 SSH console sharing 小工具．</p>\n\n<p>透過一個自己建立的 SSH Public 伺服器，甚至可以提供防火牆內的使用者來分享自己的終端器介面．</p>\n\n<p>此外，補充一下 <a href=\"https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen\">原來不需要 tmate , tmux 跟 screen 就可以。</a></p>",
+          "description_markdown": "類似 [tmate](https://tmate.io/) 有自己帶網路伺服器的 SSH console sharing 小工具． \r\n\r\n透過一個自己建立的 SSH Public 伺服器，甚至可以提供防火牆內的使用者來分享自己的終端器介面．\r\n\r\n此外，補充一下 [原來不需要 tmate , tmux 跟 screen 就可以。](https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "mcpqsoz",
+              "title": "tmate",
+              "url_domain": "tmate.io",
+              "url": "https://tmate.io/"
+            },
+            {
+              "identifier": "AcG5nHe",
+              "title": "原來不需要 tmate , tmux 跟 screen 就可以。",
+              "url_domain": "howtoforge.com",
+              "url": "https://www.howtoforge.com/sharing-terminal-sessions-with-tmux-and-screen"
+            }
+          ]
+        },
+        {
+          "identifier": "7GTHjd0",
+          "type": "Link",
+          "title": "使用 gofmt 與 golint 將 snake_case 換成 camelCase",
+          "url_domain": "github.com",
+          "url": "https://github.com/dgryski/go-lttb/commit/b13787546e2d18325b0222e9cad298a3943c7fab",
+          "description": "<p>由於 Golang 還算新，所以許多人原本都是從 java 或是 python 來學 GO ． 就容易在程式碼裡面看出一些蛛絲馬跡 （ 使用 python 的 snake_case 或是 使用  foo().bar().do()  這樣類似的用法．</p>\n\n<p>這個工具可以幫你把 GO 程式碼裡面所有的 python snake_case 轉換成 camelCase．</p>\n\n<pre><code>golint |\n   awk '/should be/{printf(\"gofmt -w -r %c%s -&gt; %s%c .\\n\", 39, $9, $12, 39)}' |\n   sh\n</code></pre>",
+          "description_markdown": "由於 Golang 還算新，所以許多人原本都是從 java 或是 python 來學 GO ． 就容易在程式碼裡面看出一些蛛絲馬跡 （ 使用 python 的 snake_case 或是 使用  foo().bar().do()  這樣類似的用法．\r\n\r\n這個工具可以幫你把 GO 程式碼裡面所有的 python snake_case 轉換成 camelCase．\r\n\r\n```\r\ngolint |\r\n   awk '/should be/{printf(\"gofmt -w -r %c%s -> %s%c .\\n\", 39, $9, $12, 39)}' |\r\n   sh\r\n```   ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "qxDmZuP",
+          "type": "Link",
+          "title": "[Podcast] Rust with Steve Klabnik",
+          "url_domain": "softwareengineeringdaily.com",
+          "url": "http://softwareengineeringdaily.com/2016/05/24/rust-steve-klabnik/",
+          "description": "<p>Podcast 分享 Software Engineer Daily Podcast: 由 Steve Klabnik 介紹 Rust\n透過淺顯易懂的方式來介紹 Rust ，並且介紹三大 Goal：</p>\n\n<ul>\n<li>Safety</li>\n<li>Speed</li>\n<li>Concurrency</li>\n</ul>\n\n\n<p>如果你還在觀看 Rust ，針對以下三個角色講者也提出一些 Rust 會吸引你的地方:</p>\n\n<ul>\n<li>如果你是 C/C++ 的使用者</li>\n<li>如果你是 FP 的使用者</li>\n<li>如果你是 Web App 的使用者 ( Python/Ruby)</li>\n</ul>\n\n\n<p>並且有介紹為何 Rust 沒有 GC 與 使用 LLVM 的優點，也有介紹到 LLVM 與其優點．\n蠻適合新手聽聽看</p>\n\n<p>雖然本人是熱愛 Golang 的，但是 Rust 的許多優點也是我們要好好重視的．</p>\n\n<p>延伸閱讀: <a href=\"http://www.yinwang.org/blog-cn/2016/09/18/rust\">王垠: 对 Rust 语言的分析</a></p>",
+          "description_markdown": "Podcast 分享 Software Engineer Daily Podcast: 由 Steve Klabnik 介紹 Rust\r\n透過淺顯易懂的方式來介紹 Rust ，並且介紹三大 Goal：\r\n\r\n- Safety\r\n- Speed \r\n- Concurrency\r\n\r\n如果你還在觀看 Rust ，針對以下三個角色講者也提出一些 Rust 會吸引你的地方:\r\n\r\n- 如果你是 C/C++ 的使用者\r\n- 如果你是 FP 的使用者\r\n- 如果你是 Web App 的使用者 ( Python/Ruby)\r\n\r\n並且有介紹為何 Rust 沒有 GC 與 使用 LLVM 的優點，也有介紹到 LLVM 與其優點．\r\n蠻適合新手聽聽看\r\n\r\n雖然本人是熱愛 Golang 的，但是 Rust 的許多優點也是我們要好好重視的．\r\n\r\n\r\n延伸閱讀: [王垠: 对 Rust 语言的分析](http://www.yinwang.org/blog-cn/2016/09/18/rust)",
+          "embedded_links": [
+            {
+              "identifier": "mOUp2a7",
+              "title": "王垠: 对 Rust 语言的分析",
+              "url_domain": "yinwang.org",
+              "url": "http://www.yinwang.org/blog-cn/2016/09/18/rust"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "1zUhaKs",
+          "type": "Link",
+          "title": "fogleman/primitive: Reproducing images with geometric primitives.",
+          "url_domain": "github.com",
+          "url": "https://github.com/fogleman/primitive",
+          "description": "<p>這是一個用 Go 寫出來的工具，用 geometric primitives 來繪製輸入的圖像，效果蠻好的。</p>\n\n<p>可以研究他的演算法或是直接拿來做一些圖片的效果。\n它有一個 Twitter 帳號 <a href=\"https://twitter.com/PrimitivePic\">@PrimitivePic</a> 每 30 分鐘會上傳一張作品。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "這是一個用 Go 寫出來的工具，用 geometric primitives 來繪製輸入的圖像，效果蠻好的。\r\n\r\n可以研究他的演算法或是直接拿來做一些圖片的效果。\r\n它有一個 Twitter 帳號 [@PrimitivePic](https://twitter.com/PrimitivePic) 每 30 分鐘會上傳一張作品。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "UfAi5iO",
+              "title": "@PrimitivePic",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/PrimitivePic"
+            },
+            {
+              "identifier": "NTDl6gX",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ],
+          "image_original_filename": "9698ad94-862e-4ec4-a27b-8796afde7930.gif",
+          "image_extra_large_filename": "original_ratio_extra_large_9698ad94-862e-4ec4-a27b-8796afde7930.gif",
+          "image_medium_filename": "original_ratio_medium_9698ad94-862e-4ec4-a27b-8796afde7930.gif"
+        }
+      ]
+    }
+  ]
+}

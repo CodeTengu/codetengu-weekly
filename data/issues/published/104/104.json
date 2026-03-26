@@ -1,0 +1,428 @@
+{
+  "number": 104,
+  "title": "Issue 104 當你凝視 bug，bug 也凝視著你",
+  "summary": "本期內容涵蓋 Spark, Scala, Machine Learning, Recommender System, Elasticsearch, MySQL, Product Management, Remote Working, CSS, JavaScript",
+  "url": "https://weekly.codetengu.com/issues/104",
+  "publication_status": "published",
+  "published_at": "2017-11-06T02:00:00+00:00",
+  "updated_at": "2017-11-06T02:00:04+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Ready Player One</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Ready Player One](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "EJiWkcL",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "jf5EIPT",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "pHeMz2h",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Dzj2ZGX",
+              "title": "Ready Player One",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "3Ps2Bot",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "a1dMms9",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "oiANgp1",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "K29qmSs",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "CGCziaC",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "2DMPWye",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "ISBtV1A",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "watqsFR",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "6HO1Tgk",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "9a3ZZUq",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "VFQvKUw",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "1oBgXY4",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "MwodkAf",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "Ix2PPYc",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "W41QJDJ",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "DVBH0Ss",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "4qP5LG2",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "i2Qk3Wi",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "xDjrsmr",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "UOkNext",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "mKpaAuA",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "TEXjIH6",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "qict4kr",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "PAz8CyP",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "qGpUqBv",
+          "type": "Link",
+          "title": "Build a recommender system with Spark: Logistic Regression",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/build-a-recommender-system-with-spark-logistic-regression.html",
+          "description": "<p>前陣子寫了幾篇文章專門在講用 Apache Spark 搭建一個 GitHub repo 的推薦系統，打算寫成一個系列，不過因為身體不適中斷了好一陣子，所以寫著寫著 GitHub 都推出自己的推薦系統了（攤手）。言歸正傳，這篇文章主要是在講用 Logistic Regression 來對推薦結果排序，重點放在特徵工程和 Machine Learning Pipeline，對 LR 演算法本身沒有太多著墨，畢竟它就是個線性模型嘛。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/build-a-recommender-system-with-pyspark-implicit-als.html\">Build a recommender system with Spark: Implicit ALS</a></li>\n<li><a href=\"https://vinta.ws/code/feature-engineering.html\">Feature Engineering 特徵工程中常見的方法</a></li>\n</ul>\n\n\n<p>接下來是個沈重的題外話，<strong>由衷地建議大家真的要好好注意自己用電腦、用手機的姿勢</strong>，因為我最近才被診斷出頸椎椎間盤突出壓迫到神經，這個發作起來真的不是在開玩笑的，手腳又麻又癢又痛，你根本沒辦法專心做任何事，連好好睡一覺都不行。我最近吃了一堆止痛藥和肌肉鬆弛劑，都他媽快變成燕南天了。大家就想像一下有個跳蛋在你的骨頭或是神經的深處，三不五時就震一下，喔，那可一點都不好玩。</p>",
+          "description_markdown": "前陣子寫了幾篇文章專門在講用 Apache Spark 搭建一個 GitHub repo 的推薦系統，打算寫成一個系列，不過因為身體不適中斷了好一陣子，所以寫著寫著 GitHub 都推出自己的推薦系統了（攤手）。言歸正傳，這篇文章主要是在講用 Logistic Regression 來對推薦結果排序，重點放在特徵工程和 Machine Learning Pipeline，對 LR 演算法本身沒有太多著墨，畢竟它就是個線性模型嘛。\r\n\r\n延伸閱讀：\r\n\r\n- [Build a recommender system with Spark: Implicit ALS](https://vinta.ws/code/build-a-recommender-system-with-pyspark-implicit-als.html)\r\n- [Feature Engineering 特徵工程中常見的方法](https://vinta.ws/code/feature-engineering.html)\r\n\r\n接下來是個沈重的題外話，**由衷地建議大家真的要好好注意自己用電腦、用手機的姿勢**，因為我最近才被診斷出頸椎椎間盤突出壓迫到神經，這個發作起來真的不是在開玩笑的，手腳又麻又癢又痛，你根本沒辦法專心做任何事，連好好睡一覺都不行。我最近吃了一堆止痛藥和肌肉鬆弛劑，都他媽快變成燕南天了。大家就想像一下有個跳蛋在你的骨頭或是神經的深處，三不五時就震一下，喔，那可一點都不好玩。",
+          "embedded_links": [
+            {
+              "identifier": "11nj0FA",
+              "title": "Build a recommender system with Spark: Implicit ALS",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/build-a-recommender-system-with-pyspark-implicit-als.html"
+            },
+            {
+              "identifier": "6ExXV56",
+              "title": "Feature Engineering 特徵工程中常見的方法",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/feature-engineering.html"
+            }
+          ]
+        },
+        {
+          "identifier": "nwGuait",
+          "type": "Link",
+          "title": "Build a recommender system with Spark: Content-based and Elasticsearch",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/build-a-recommender-system-with-spark-content-based-and-elasticsearch.html",
+          "description": "<p>這一篇也是 GitHub 推薦系統系列的文章之一，講的是大家喜聞樂見的 Content-based Recommendation。我原本是打算把 repo 的文本資料轉成 Word2Vec 向量，然後計算各個 repo 之間的相似度（所謂的 Similarity Join），但是要計算這麼多 repo 之間的相似度實在太花時間了，就算用了 Locality Sensitive Hashing 也還是太久又容易 OOM。後來一想，尋找相似或相關物品這件事不就是搜尋引擎在做的嗎，所以後來就直接改用 Elasticsearch 了。用 document id 當作搜尋條件，一個 More Like This query 就解決了，清爽利落。畢竟不需要所有的事情都在 Spark 裡解決。</p>",
+          "description_markdown": "這一篇也是 GitHub 推薦系統系列的文章之一，講的是大家喜聞樂見的 Content-based Recommendation。我原本是打算把 repo 的文本資料轉成 Word2Vec 向量，然後計算各個 repo 之間的相似度（所謂的 Similarity Join），但是要計算這麼多 repo 之間的相似度實在太花時間了，就算用了 Locality Sensitive Hashing 也還是太久又容易 OOM。後來一想，尋找相似或相關物品這件事不就是搜尋引擎在做的嗎，所以後來就直接改用 Elasticsearch 了。用 document id 當作搜尋條件，一個 More Like This query 就解決了，清爽利落。畢竟不需要所有的事情都在 Spark 裡解決。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vTXQQOV",
+          "type": "Link",
+          "title": "基于 Spark UI 性能优化与调试 —— 初级篇",
+          "url_domain": "cnblogs.com",
+          "url": "http://www.cnblogs.com/xing901022/p/6445254.html",
+          "description": "<p>在寫程式的時候偶爾會發生「我明明只是加了一行簡單的 code，為什麼整個程式的效能就掉了這麼多」的情形，只因為我們對那行 code 實際上到底做了什麼其實並不清楚。更慘的是你的程式還是跑在一個分散式系統上時。幸好 Spark 提供了一個非常棒的工具：Spark UI。透過 Event Timeline 和 DAG Visualization，你可以看到非常詳細的整個 Spark application 的執行過程，例如某個 job 的某個 stage 的某個 task 做了什麼、花了多少時間和在哪一台機器上執行，甚至能夠精確地定位到是在你的 code 的某個檔案的某一行的某個 function call。真希望所有語言和框架都有這樣方便的工具啊。</p>\n\n<p>不過老實說 DAG Visualization 第一眼看起來真的是讓人眼花撩亂，尤其是當你操作的是 Spark SQL 和 DataFrame，但是 Spark UI 顯示的其實卻是低層的 RDD operations，是需要花一點時間熟悉的。雖然你可能得先對 Executor、RDD、Partition 或 Shuffe 這些東西有點概念。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://databricks.com/blog/2015/06/22/understanding-your-spark-application-through-visualization.html\">Understanding your Apache Spark Application Through Visualization</a></li>\n</ul>",
+          "description_markdown": "在寫程式的時候偶爾會發生「我明明只是加了一行簡單的 code，為什麼整個程式的效能就掉了這麼多」的情形，只因為我們對那行 code 實際上到底做了什麼其實並不清楚。更慘的是你的程式還是跑在一個分散式系統上時。幸好 Spark 提供了一個非常棒的工具：Spark UI。透過 Event Timeline 和 DAG Visualization，你可以看到非常詳細的整個 Spark application 的執行過程，例如某個 job 的某個 stage 的某個 task 做了什麼、花了多少時間和在哪一台機器上執行，甚至能夠精確地定位到是在你的 code 的某個檔案的某一行的某個 function call。真希望所有語言和框架都有這樣方便的工具啊。\r\n\r\n不過老實說 DAG Visualization 第一眼看起來真的是讓人眼花撩亂，尤其是當你操作的是 Spark SQL 和 DataFrame，但是 Spark UI 顯示的其實卻是低層的 RDD operations，是需要花一點時間熟悉的。雖然你可能得先對 Executor、RDD、Partition 或 Shuffe 這些東西有點概念。\r\n\r\n延伸閱讀：\r\n\r\n- [Understanding your Apache Spark Application Through Visualization](https://databricks.com/blog/2015/06/22/understanding-your-spark-application-through-visualization.html)",
+          "embedded_links": [
+            {
+              "identifier": "2tzskOM",
+              "title": "Understanding your Apache Spark Application Through Visualization",
+              "url_domain": "databricks.com",
+              "url": "https://databricks.com/blog/2015/06/22/understanding-your-spark-application-through-visualization.html"
+            }
+          ]
+        },
+        {
+          "identifier": "GUfbh8W",
+          "type": "Link",
+          "title": "Google - Machine Learning Glossary",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/machine-learning/glossary/",
+          "description": "<p>這是 Google 製作的一份機器學習的常見詞彙表，非常實用！</p>",
+          "description_markdown": "這是 Google 製作的一份機器學習的常見詞彙表，非常實用！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FVw0cId",
+          "type": "Link",
+          "title": "MySQL vs. MariaDB vs. Percona Server: Reality Check",
+          "url_domain": "percona.com",
+          "url": "https://www.percona.com/blog/2017/11/02/mysql-vs-mariadb-reality-check/",
+          "description": "<p>Percona 製作了一份表格，比較了 MySQL、MariaDB 和 Percona Server for MySQL 之間的異同。對有在評估選用或是跳槽到其中之一的資料庫的人應該很有幫助。不過如果你看完還是不知道該選哪個，黃金法則：你就閉著眼睛挑最多人用的那個就好了。</p>\n\n<p>雖然當年 MariaDB 是打著 \"a drop-in replacement for MySQL\" 的名號，但是現在都 2017 年了，滄海桑田啊。而且大家對「相容性」這三個字可能都有更現實的認知了，畢竟它們就是由不同的人在不同的時間以不同的方式開發的不同的產品啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://mariadb.com/kb/en/library/mariadb-vs-mysql-compatibility/\">MariaDB versus MySQL - Compatibility</a></li>\n<li><a href=\"https://www.percona.com/software/mysql-database/percona-server/feature-comparison\">Percona Server Feature Comparison</a></li>\n</ul>",
+          "description_markdown": "Percona 製作了一份表格，比較了 MySQL、MariaDB 和 Percona Server for MySQL 之間的異同。對有在評估選用或是跳槽到其中之一的資料庫的人應該很有幫助。不過如果你看完還是不知道該選哪個，黃金法則：你就閉著眼睛挑最多人用的那個就好了。\r\n\r\n雖然當年 MariaDB 是打著 \"a drop-in replacement for MySQL\" 的名號，但是現在都 2017 年了，滄海桑田啊。而且大家對「相容性」這三個字可能都有更現實的認知了，畢竟它們就是由不同的人在不同的時間以不同的方式開發的不同的產品啊。\r\n\r\n延伸閱讀：\r\n\r\n- [MariaDB versus MySQL - Compatibility](https://mariadb.com/kb/en/library/mariadb-vs-mysql-compatibility/)\r\n- [Percona Server Feature Comparison](https://www.percona.com/software/mysql-database/percona-server/feature-comparison)",
+          "embedded_links": [
+            {
+              "identifier": "OCy7BsC",
+              "title": "MariaDB versus MySQL - Compatibility",
+              "url_domain": "mariadb.com",
+              "url": "https://mariadb.com/kb/en/library/mariadb-vs-mysql-compatibility/"
+            },
+            {
+              "identifier": "3kwIilF",
+              "title": "Percona Server Feature Comparison",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/software/mysql-database/percona-server/feature-comparison"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "TidJLPk",
+          "type": "Link",
+          "title": "Managing from Afar: How to Run a Remote Team",
+          "url_domain": "zapier.com",
+          "url": "https://zapier.com/blog/remote-team-management/",
+          "description": "<p>這是 Zapier 他們自己的文章, 其實 Zapier 真的不錯, 他們的 content marketing 也一直做得很好, 是少數我每次收到 email 都會打開看文章, 而且覺得文章有很多寶的一家公司。</p>\n\n<p>這篇主要當然還是在講 Zapier 如何進行遠距工作的管理, 還有他們所用到的工具跟流程。 但要做這件事情之前,\n 底子真的得先打好, 像是文化這件事情就真的很重要, 而你知道自己想要用什麼人也很重要。</p>\n\n<p>前一陣子一直在研讀 GitLab 的 <a href=\"https://about.gitlab.com/handbook/\">Team handbook</a>, 這個真的很棒, 不管是文化、做事方式，幾乎都寫得清清楚楚的, 每個人到職就讀個一遍, 馬上可以進入狀況。</p>\n\n<p>我覺得參照 GitLab 把你自己公司的 Team Handbook 寫出來, 要開啟 Remote team 的底子就有了。</p>",
+          "description_markdown": "這是 Zapier 他們自己的文章, 其實 Zapier 真的不錯, 他們的 content marketing 也一直做得很好, 是少數我每次收到 email 都會打開看文章, 而且覺得文章有很多寶的一家公司。\r\n\r\n這篇主要當然還是在講 Zapier 如何進行遠距工作的管理, 還有他們所用到的工具跟流程。 但要做這件事情之前,\r\n 底子真的得先打好, 像是文化這件事情就真的很重要, 而你知道自己想要用什麼人也很重要。\r\n\r\n前一陣子一直在研讀 GitLab 的 [Team handbook](https://about.gitlab.com/handbook/), 這個真的很棒, 不管是文化、做事方式，幾乎都寫得清清楚楚的, 每個人到職就讀個一遍, 馬上可以進入狀況。 \r\n\r\n我覺得參照 GitLab 把你自己公司的 Team Handbook 寫出來, 要開啟 Remote team 的底子就有了。 ",
+          "embedded_links": [
+            {
+              "identifier": "zkcGUkS",
+              "title": "Team handbook",
+              "url_domain": "gitlab.com",
+              "url": "https://about.gitlab.com/handbook/"
+            }
+          ]
+        },
+        {
+          "identifier": "vXWATk1",
+          "type": "Link",
+          "title": "Product Manager Skills By Seniority Level  —  A Deep Breakdown",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/pminsider/product-manager-skills-by-seniority-level-a-deep-breakdown-cd0690f76d10",
+          "description": "<p>最近終於把手上兩個產品的產品經理都找到了, 比起先前找到的好上不少 XD 唉, 原以為 PM 就是把我手上非技術的部分抽出來就可以了, 但是老實說我幾乎沒有跟 PM 共事過的經驗, 所以整個很難拿捏, 搞不好我身上負責的 PM 工作內容, 都可以找 Senior PM 或是 PM Lead 了 ( 無誤 )</p>\n\n<p>先前在碼天狗就一直在發 PM 相關的文章, 因為我真的為了辨識所謂好的 PM、知道 PM 到底在做什麼事, 這些事上花了不少功夫。</p>\n\n<p>而這篇則是直接對於 PM 的各種技能標示出了不同的等級來標示 PM, 這真的是太棒了, 我其實最近也想幫我們工程師做類似的事, 這樣可以幫助我們工程師知道他們還要學習、經歷過哪些事情才可以到下一步, 讓大家有更明確的目標。 ( 但應該已經有類似的文章了才對 )</p>\n\n<p>總之這篇很不錯, 對於 PM 這職務不清楚的朋友們可以看看, 可能大家平常身邊看到的大多都只是 PM 助理的程度, 甚至連 PM 助理都還不到, 好啦, 我覺得這真的很多。</p>",
+          "description_markdown": "最近終於把手上兩個產品的產品經理都找到了, 比起先前找到的好上不少 XD 唉, 原以為 PM 就是把我手上非技術的部分抽出來就可以了, 但是老實說我幾乎沒有跟 PM 共事過的經驗, 所以整個很難拿捏, 搞不好我身上負責的 PM 工作內容, 都可以找 Senior PM 或是 PM Lead 了 ( 無誤 )\r\n\r\n先前在碼天狗就一直在發 PM 相關的文章, 因為我真的為了辨識所謂好的 PM、知道 PM 到底在做什麼事, 這些事上花了不少功夫。\r\n\r\n而這篇則是直接對於 PM 的各種技能標示出了不同的等級來標示 PM, 這真的是太棒了, 我其實最近也想幫我們工程師做類似的事, 這樣可以幫助我們工程師知道他們還要學習、經歷過哪些事情才可以到下一步, 讓大家有更明確的目標。 ( 但應該已經有類似的文章了才對 )\r\n\r\n總之這篇很不錯, 對於 PM 這職務不清楚的朋友們可以看看, 可能大家平常身邊看到的大多都只是 PM 助理的程度, 甚至連 PM 助理都還不到, 好啦, 我覺得這真的很多。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xFfOkPW",
+          "type": "Link",
+          "title": "反击爬虫，前端工程师的脑洞可以有多大？",
+          "url_domain": "jobbole.com",
+          "url": "http://web.jobbole.com/92736/",
+          "description": "<p>真的是腦洞大開, 學習了, 很多很有趣的方式啊!</p>",
+          "description_markdown": "真的是腦洞大開, 學習了, 很多很有趣的方式啊!",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NtktxqI",
+          "type": "Link",
+          "title": "Engineering growth: introduction",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/s/engineering-growth-framework/engineering-growth-introduction-8ba7b78c8d6c",
+          "description": "<p>Medium 的工程師成長框架, 我還沒全部讀完, 但覺得一定得好好拜讀一下, 先分享給大家!</p>",
+          "description_markdown": "Medium 的工程師成長框架, 我還沒全部讀完, 但覺得一定得好好拜讀一下, 先分享給大家!",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "iZCej4A",
+          "type": "Link",
+          "title": "Introduction to CSS Grid Layout",
+          "url_domain": "github.io",
+          "url": "https://mozilladevelopers.github.io/playground/",
+          "description": "<p>CSS Grid Layout 已在目前各大主流瀏覽器（Chrome 、 Firefox 、 Safari 、 Edge）上被實作，是 <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes\">flexbox</a> 外另一種方便的排版選擇，方便處理 2D grid 的排版，可以透過本篇文章簡單的圖解來快速入門。</p>",
+          "description_markdown": "CSS Grid Layout 已在目前各大主流瀏覽器（Chrome 、 Firefox 、 Safari 、 Edge）上被實作，是 [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) 外另一種方便的排版選擇，方便處理 2D grid 的排版，可以透過本篇文章簡單的圖解來快速入門。",
+          "embedded_links": [
+            {
+              "identifier": "MM9lvNN",
+              "title": "flexbox",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes"
+            }
+          ]
+        },
+        {
+          "identifier": "GS7g3Jx",
+          "type": "Link",
+          "title": "An event for CSS position:sticky",
+          "url_domain": "google.com",
+          "url": "https://developers.google.com/web/updates/2017/09/sticky-headers",
+          "description": "<p><code>position: sticky</code> 語法有點類似 <code>position: fixed</code>，在 parent element 滾動到可視範圍就會自動轉變為像是 <code>position: relative</code> 的功能，本篇文章透過 <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API\">Intersection Observer</a> 來實作出 sticky change event ，簡單的檢查目前瀏覽的範圍。</p>",
+          "description_markdown": "`position: sticky` 語法有點類似 `position: fixed`，在 parent element 滾動到可視範圍就會自動轉變為像是 `position: relative` 的功能，本篇文章透過 [Intersection Observer](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) 來實作出 sticky change event ，簡單的檢查目前瀏覽的範圍。",
+          "embedded_links": [
+            {
+              "identifier": "cTZb5UE",
+              "title": "Intersection Observer",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"
+            }
+          ]
+        },
+        {
+          "identifier": "rH1f3rC",
+          "type": "Link",
+          "title": "Partially-applied (or curried) functions could obfuscate the JavaScript stack trace",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/partially-applied-curried-functions-could-obfuscate-the-javascript-stack-trace-84d66bd8032e",
+          "description": "<p>Pointfree style 意即在一些 function 組合的過程中，不需要直接去操作 data ，可以減少一些不必要的命名，讓程式保持簡潔易讀，不過在執行過程中會使 call stack 集中在一些通用的 function ，而不是主要的程式內，debug 就會變得麻煩，這裡也提出一些方式來 trace 程式上的錯誤。</p>",
+          "description_markdown": "Pointfree style 意即在一些 function 組合的過程中，不需要直接去操作 data ，可以減少一些不必要的命名，讓程式保持簡潔易讀，不過在執行過程中會使 call stack 集中在一些通用的 function ，而不是主要的程式內，debug 就會變得麻煩，這裡也提出一些方式來 trace 程式上的錯誤。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "Ke2WwwJ",
+          "type": "Link",
+          "title": "阿里巴巴 - Java 技术专家",
+          "url_domain": "alibabagroup.com",
+          "url": "http://www.alibabagroup.com/",
+          "description": "<p>我们是阿里巴巴新零售事业群负责阿里巴巴集团无线数据采集的部门，阿里是一家数据公司，每天有亿级的数据通过我们的数据网关到达集团各个业务系统，驱动导购，搜索，推荐等等业务的发展。未来这里会覆盖数据采集，用户增长，IOT，边缘计算等等诸多赋能阿里整个生态的场景，我们非常希望您能加入我们，一起用数据改变商业！</p>\n\n<p>岗位描述:</p>\n\n<ol>\n<li>承担核心功能代码编写，重点项目架构设计开发</li>\n<li>深入理解业务需求，分析和发现系统的优化点，负责推动产品性能和架构优化</li>\n<li>新人指导、培训及 Code Review，主导技术难题攻关，提升团队整体技术水平</li>\n</ol>\n\n\n<p>岗位要求:</p>\n\n<ol>\n<li>计算机相关专业本科及以上学历，三年以上 Java Web 应用软件开发经验</li>\n<li>精通 Servlet、Spring、Hibernate、iBatis、Velocity 开发，对 SOA 模式有深入理解，对虚拟机及 Linux 下的开发环境有 较深厚的开发经验</li>\n<li>熟练 MySQL，对数据库有较强的设计能力，同时熟悉大数据相关技术</li>\n<li>熟悉 Maven 项目配置管理工具，熟悉 Tomcat、Jboss 等应用服务器，熟悉高并发处下的性能优化</li>\n<li>熟悉网络编程，具有设计和开发对外 API 接口经验和能力</li>\n<li>具有良好的沟通，团队协作、计划和创新的能力</li>\n</ol>",
+          "description_markdown": "我们是阿里巴巴新零售事业群负责阿里巴巴集团无线数据采集的部门，阿里是一家数据公司，每天有亿级的数据通过我们的数据网关到达集团各个业务系统，驱动导购，搜索，推荐等等业务的发展。未来这里会覆盖数据采集，用户增长，IOT，边缘计算等等诸多赋能阿里整个生态的场景，我们非常希望您能加入我们，一起用数据改变商业！\r\n\r\n岗位描述:\r\n\r\n1. 承担核心功能代码编写，重点项目架构设计开发\r\n2. 深入理解业务需求，分析和发现系统的优化点，负责推动产品性能和架构优化\r\n3. 新人指导、培训及 Code Review，主导技术难题攻关，提升团队整体技术水平\r\n\r\n岗位要求:\r\n\r\n1. 计算机相关专业本科及以上学历，三年以上 Java Web 应用软件开发经验\r\n2. 精通 Servlet、Spring、Hibernate、iBatis、Velocity 开发，对 SOA 模式有深入理解，对虚拟机及 Linux 下的开发环境有 较深厚的开发经验\r\n3. 熟练 MySQL，对数据库有较强的设计能力，同时熟悉大数据相关技术\r\n4. 熟悉 Maven 项目配置管理工具，熟悉 Tomcat、Jboss 等应用服务器，熟悉高并发处下的性能优化\r\n5. 熟悉网络编程，具有设计和开发对外 API 接口经验和能力\r\n6. 具有良好的沟通，团队协作、计划和创新的能力",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UzcLMh1",
+          "type": "Link",
+          "title": "阿里巴巴 - 客户端技术专家",
+          "url_domain": "alibabagroup.com",
+          "url": "http://www.alibabagroup.com/",
+          "description": "<p>岗位描述:</p>\n\n<p>负责数据采集 SDK 的研发和架构升级维护工作，在这里你将直面海量用户，你的每一行代码将在上亿设备上运行，你的每一次优化将直接影响全球消费者的购买习惯，加入我们一起为全球消费者打造简单高效的购物动线。</p>\n\n<p>岗位要求:</p>\n\n<ol>\n<li>3 年以上 Android/iOS 开发经验；有丰富的客户端应用架构经验，可以独立承担架构设计，并主导项目</li>\n<li>熟练掌握设计模式，对架构解耦和主流编程模型有较好的实践经验</li>\n<li>精通 Android 或 iOS 调试工具和方法，可以应付各种 Android/iOS 复杂问题</li>\n<li>有高度的工作热情和自我能动性，项目和技术推动和执行能力强，有团队合作精神。</li>\n<li>有越狱开发经验或者服务端经验开发经验优先</li>\n</ol>",
+          "description_markdown": "岗位描述:\r\n\r\n负责数据采集 SDK 的研发和架构升级维护工作，在这里你将直面海量用户，你的每一行代码将在上亿设备上运行，你的每一次优化将直接影响全球消费者的购买习惯，加入我们一起为全球消费者打造简单高效的购物动线。\r\n\r\n岗位要求:\r\n\r\n1. 3 年以上 Android/iOS 开发经验；有丰富的客户端应用架构经验，可以独立承担架构设计，并主导项目\r\n2. 熟练掌握设计模式，对架构解耦和主流编程模型有较好的实践经验\r\n3. 精通 Android 或 iOS 调试工具和方法，可以应付各种 Android/iOS 复杂问题\r\n4. 有高度的工作热情和自我能动性，项目和技术推动和执行能力强，有团队合作精神。\r\n5. 有越狱开发经验或者服务端经验开发经验优先",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

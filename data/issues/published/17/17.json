@@ -1,0 +1,374 @@
+{
+  "number": 17,
+  "title": "Issue 17 Keyboard not found. Press F1 to continue.",
+  "summary": "本期內容涵蓋 PHP 7, SQL, JavaScript, Redux, CSS, 機器學習, 語音辨識",
+  "url": "https://weekly.codetengu.com/issues/17",
+  "publication_status": "published",
+  "published_at": "2015-11-23T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:16:20+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>最近交了一個很正的女朋友，大家都很生氣</strong></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - <strong>求職中的 Full-stack Developer，意者內洽</strong></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，<strong>副業是前端工程師</strong></li>\n</ul>\n\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n本期 curators：\r\n\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **最近交了一個很正的女朋友，大家都很生氣**\r\n- [@wancw](https://twitter.com/wancw) - **求職中的 Full-stack Developer，意者內洽**\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，**副業是前端工程師**\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "Xf08P3Z",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "gh3JVXE",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "zgUkZSX",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "6Ov4xai",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "yxJwhMg",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "BGCIiaZ",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "Y5yKDyU",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "C7oSAqb",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "MX26uRs",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "VzC9D1S",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "oFifPxY",
+          "type": "Link",
+          "title": "Zxcvbn-PHP - PHP 密碼強度估算程式",
+          "url_domain": "github.com",
+          "url": "https://github.com/bjeavons/zxcvbn-php",
+          "description": "<p>Zxcvbn-PHP 是基於 Dropbox 開源的 <a href=\"https://github.com/dropbox/zxcvbn\">Zxcvbn JS</a> 所翻譯成的 PHP 版本密碼強度估算程式，透過計算密碼的形式及複雜度，例如密碼和鍵盤位置是否有對應關係、密碼是否有規則性、比對常用字字典像是姓名、電影名稱等等，對使用者輸入的密碼計算強度分數。Zxcvbn 的特點不在於強制使用者要使用大小寫、符號、數字這種非人性化的規則來計算強度分數，其核心演算法主要專注於計算如果使用暴力法來猜密碼會需要多久的時間來得出密碼的強度分數，這樣的演算法有一個很棒的優點，它讓使用者可以得到容易記卻又不容易被暴力法猜中的密碼！</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/\">zxcvbn: realistic password strength estimation</a></li>\n</ol>",
+          "description_markdown": "Zxcvbn-PHP 是基於 Dropbox 開源的 [Zxcvbn JS](https://github.com/dropbox/zxcvbn) 所翻譯成的 PHP 版本密碼強度估算程式，透過計算密碼的形式及複雜度，例如密碼和鍵盤位置是否有對應關係、密碼是否有規則性、比對常用字字典像是姓名、電影名稱等等，對使用者輸入的密碼計算強度分數。Zxcvbn 的特點不在於強制使用者要使用大小寫、符號、數字這種非人性化的規則來計算強度分數，其核心演算法主要專注於計算如果使用暴力法來猜密碼會需要多久的時間來得出密碼的強度分數，這樣的演算法有一個很棒的優點，它讓使用者可以得到容易記卻又不容易被暴力法猜中的密碼！\r\n\r\n延伸閱讀：\r\n\r\n1. [zxcvbn: realistic password strength estimation](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/)",
+          "embedded_links": [
+            {
+              "identifier": "rnH27LO",
+              "title": "Zxcvbn JS",
+              "url_domain": "github.com",
+              "url": "https://github.com/dropbox/zxcvbn"
+            },
+            {
+              "identifier": "vamVuKB",
+              "title": "zxcvbn: realistic password strength estimation",
+              "url_domain": "dropbox.com",
+              "url": "https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/"
+            }
+          ],
+          "image_original_filename": "53e4b667-64de-4d6f-bd9f-e01b9d0ae0c0.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_53e4b667-64de-4d6f-bd9f-e01b9d0ae0c0.png",
+          "image_medium_filename": "twenty_by_nine_medium_53e4b667-64de-4d6f-bd9f-e01b9d0ae0c0.png"
+        },
+        {
+          "identifier": "SPJIXbE",
+          "type": "Link",
+          "title": "10 Things Not To Do In PHP 7 - 10 件不要在 PHP 7 做的事情",
+          "url_domain": "kinsta.com",
+          "url": "https://kinsta.com/blog/10-things-not-to-do-in-php-7/",
+          "description": "<p>PHP 7 將在這個月與各位碼農見面了，在迎接 PHP 7 之前本篇文章提出 10 件不要在 PHP 7 做的事情，為了節省時間可以看看 TL;DR：</p>\n\n<ol>\n<li>Do Not Use mysql_ Functions</li>\n<li>Do Not Write Wasteful Code</li>\n<li>Do Not Use PHP Close Tags At The End Of A file</li>\n<li>Do Not Pass By Reference If Not Needed</li>\n<li>Do Not Perform Queries In A Loop</li>\n<li>Do Not Use * In SQL Queries</li>\n<li>Do Not Trust User Input</li>\n<li>Do Not Try To Be Clever</li>\n<li>Do Not Reinvent The Wheel</li>\n<li>Do Not Neglect Other Languages</li>\n</ol>",
+          "description_markdown": "PHP 7 將在這個月與各位碼農見面了，在迎接 PHP 7 之前本篇文章提出 10 件不要在 PHP 7 做的事情，為了節省時間可以看看 TL;DR：\r\n\r\n1. Do Not Use mysql_ Functions\r\n2. Do Not Write Wasteful Code\r\n3. Do Not Use PHP Close Tags At The End Of A file\r\n4. Do Not Pass By Reference If Not Needed\r\n5. Do Not Perform Queries In A Loop\r\n6. Do Not Use * In SQL Queries\r\n7. Do Not Trust User Input\r\n8. Do Not Try To Be Clever\r\n9. Do Not Reinvent The Wheel\r\n10. Do Not Neglect Other Languages",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6TGvjOP",
+          "type": "Link",
+          "title": "SQL Schema Naming Conventions - SQL 結構命名慣例探討",
+          "url_domain": "paul-m-jones.com",
+          "url": "http://paul-m-jones.com/archives/6188",
+          "description": "<p><strong>“There are only two hard things in Computer Science: cache invalidation and naming things.”</strong> 本篇文章所要討論的就是其中一個難題：如何為 SQL 結構的資料表、欄位等等命名？本篇作者先是在 Twitter 上詢問一些問題徵詢專業人士的解答，收集這些解答之後再進行一些省思及討論，有些觀點值得一看！</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"http://www.sqlstyle.guide/\">SQL Style Guide</a></li>\n</ol>",
+          "description_markdown": "**“There are only two hard things in Computer Science: cache invalidation and naming things.”** 本篇文章所要討論的就是其中一個難題：如何為 SQL 結構的資料表、欄位等等命名？本篇作者先是在 Twitter 上詢問一些問題徵詢專業人士的解答，收集這些解答之後再進行一些省思及討論，有些觀點值得一看！\r\n\r\n延伸閱讀：\r\n\r\n1. [SQL Style Guide](http://www.sqlstyle.guide/)",
+          "embedded_links": [
+            {
+              "identifier": "qC233VC",
+              "title": "SQL Style Guide",
+              "url_domain": "sqlstyle.guide",
+              "url": "http://www.sqlstyle.guide/"
+            }
+          ]
+        },
+        {
+          "identifier": "PdZO90J",
+          "type": "Link",
+          "title": "Regressing Images - 用機器學習演算法來畫圖",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@samim/regressing-images-a80bacd0f862",
+          "description": "<p>迴歸分析（Regression）是機器學習中常見的一種方法，我們可以利用迴歸分析讓電腦從鮭魚的年齡及重量去學習如何預測鮭魚的長度。但如果把這樣的方法用來讓電腦學習畫圖那會得到什麼樣的結果呢？比如我們將圖片的每個像素當成是我們要預測的學習問題，然後像素的 (x, y) 位置作為學習的依據，讓電腦利用迴歸分析學習預測某些像素的（r, g, b）值重畫一張圖，這樣重畫的圖會長什麼樣子呢？本篇文章做了一些有趣的實驗，介紹了 <a href=\"https://github.com/karpathy/convnetjs\">convnetjs</a> 及 <a href=\"https://github.com/Newmu/stylize\">Stylize</a> 這兩個有趣的開源專案，我們也可以從這樣的應用中去了解迴歸分析這個機器學習演算法。</p>\n\n<p>對了，這個項目的主題圖就是使用 Stylize 重畫 Fallout 4 動力裝甲，有種介於抽象畫與印象畫之間的感覺，很酷吧！</p>",
+          "description_markdown": "迴歸分析（Regression）是機器學習中常見的一種方法，我們可以利用迴歸分析讓電腦從鮭魚的年齡及重量去學習如何預測鮭魚的長度。但如果把這樣的方法用來讓電腦學習畫圖那會得到什麼樣的結果呢？比如我們將圖片的每個像素當成是我們要預測的學習問題，然後像素的 (x, y) 位置作為學習的依據，讓電腦利用迴歸分析學習預測某些像素的（r, g, b）值重畫一張圖，這樣重畫的圖會長什麼樣子呢？本篇文章做了一些有趣的實驗，介紹了 [convnetjs](https://github.com/karpathy/convnetjs) 及 [Stylize](https://github.com/Newmu/stylize) 這兩個有趣的開源專案，我們也可以從這樣的應用中去了解迴歸分析這個機器學習演算法。\r\n\r\n對了，這個項目的主題圖就是使用 Stylize 重畫 Fallout 4 動力裝甲，有種介於抽象畫與印象畫之間的感覺，很酷吧！",
+          "embedded_links": [
+            {
+              "identifier": "DQ8DUoG",
+              "title": "convnetjs",
+              "url_domain": "github.com",
+              "url": "https://github.com/karpathy/convnetjs"
+            },
+            {
+              "identifier": "JfYjeBU",
+              "title": "Stylize",
+              "url_domain": "github.com",
+              "url": "https://github.com/Newmu/stylize"
+            }
+          ],
+          "image_original_filename": "a3830109-1105-4c80-934d-62e9e01007a5.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_a3830109-1105-4c80-934d-62e9e01007a5.png",
+          "image_medium_filename": "twenty_by_nine_medium_a3830109-1105-4c80-934d-62e9e01007a5.png"
+        },
+        {
+          "identifier": "uPdXLYv",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第六講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-liu-jiang-xue-xi-bi-ji/",
+          "description": "<p>在第五講中我們了解了如何將 PLA 無限的假設集合透過 Dichotomy、Break Point 這樣的概念轉換成有限的集合，在第六講中我們將更進一步去推導其實這個假設集合的成長函數會是一個多項式，如此我們就可以完全相信 PLA 機器學習方法的確在數學理論上是可行的了。</p>",
+          "description_markdown": "在第五講中我們了解了如何將 PLA 無限的假設集合透過 Dichotomy、Break Point 這樣的概念轉換成有限的集合，在第六講中我們將更進一步去推導其實這個假設集合的成長函數會是一個多項式，如此我們就可以完全相信 PLA 機器學習方法的確在數學理論上是可行的了。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "tqoXCAq",
+          "type": "Link",
+          "title": "Progressive Web App",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@addyosmani/instant-loading-web-apps-with-an-application-shell-architecture-7c0c2f10c73#.f09e4clyf",
+          "description": "<p>Chrome Dev Conf 這週剛結束，研討會議程中有許多令人興奮的主題，例如深入探討 RAIL（Responss, Animation, Idle, Load）和 Progressive Web App。其中 Progressive Web App 用到 Service Worker 來管理 cache、network（類似 proxy），不但能有效管理 assets，還可以製作 offline web app 和大幅提升效能。</p>\n\n<p>Addy Osmami 在他最近的文章中也提到 Progressive Web App 的概念，可以有效提升使用者體驗，讓載入速度更快。</p>\n\n<p><a href=\"https://www.youtube.com/watch?v=m2a9hlUFRhg&amp;list=PLNYkxOF6rcICcHeQY02XLvoGL34rZFWZn\">所有議程影片</a>。</p>",
+          "description_markdown": "Chrome Dev Conf 這週剛結束，研討會議程中有許多令人興奮的主題，例如深入探討 RAIL（Responss, Animation, Idle, Load）和 Progressive Web App。其中 Progressive Web App 用到 Service Worker 來管理 cache、network（類似 proxy），不但能有效管理 assets，還可以製作 offline web app 和大幅提升效能。\r\n\r\nAddy Osmami 在他最近的文章中也提到 Progressive Web App 的概念，可以有效提升使用者體驗，讓載入速度更快。\r\n\r\n[所有議程影片](https://www.youtube.com/watch?v=m2a9hlUFRhg&list=PLNYkxOF6rcICcHeQY02XLvoGL34rZFWZn)。",
+          "embedded_links": [
+            {
+              "identifier": "8ZMeiWS",
+              "title": "所有議程影片",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=m2a9hlUFRhg&list=PLNYkxOF6rcICcHeQY02XLvoGL34rZFWZn"
+            }
+          ],
+          "image_original_filename": "58ba9334-a8bf-4916-86cb-a73f87009493.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_58ba9334-a8bf-4916-86cb-a73f87009493.jpeg",
+          "image_medium_filename": "original_ratio_medium_58ba9334-a8bf-4916-86cb-a73f87009493.jpeg"
+        },
+        {
+          "identifier": "HqzMR00",
+          "type": "Link",
+          "title": "你知道瀏覽器也有語音辨識 API 嗎？",
+          "url_domain": "sitepoint.com",
+          "url": "http://www.sitepoint.com/voice-controlled-audio-player-web-speech-api",
+          "description": "<p>語音辨識 Speech Recognition API 其實已經推出好一陣子了，目前只有在 <a href=\"http://caniuse.com/#feat=speech-recognition\">Chrome 與 Oprea</a> 上被實作，並且支援大多數語系。這一篇教你如何用語音辨識做出一個 audio player 播放器，讓你不用操作鍵盤也可以聲控，還可以和播放器對話。</p>\n\n<p>國內的設計商品電子商務平台 Pinkoi 在搜尋欄上也有實作語音輸入功能，不妨玩玩看。</p>",
+          "description_markdown": "語音辨識 Speech Recognition API 其實已經推出好一陣子了，目前只有在 [Chrome 與 Oprea](http://caniuse.com/#feat=speech-recognition) 上被實作，並且支援大多數語系。這一篇教你如何用語音辨識做出一個 audio player 播放器，讓你不用操作鍵盤也可以聲控，還可以和播放器對話。\r\n\r\n國內的設計商品電子商務平台 Pinkoi 在搜尋欄上也有實作語音輸入功能，不妨玩玩看。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "iPTcfE8",
+              "title": "Chrome 與 Oprea",
+              "url_domain": "caniuse.com",
+              "url": "http://caniuse.com/#feat=speech-recognition"
+            }
+          ]
+        },
+        {
+          "identifier": "2aFugk4",
+          "type": "Link",
+          "title": "用 CSS 做出 LOMO 效果",
+          "url_domain": "una.im",
+          "url": "http://una.im/lomo/",
+          "description": "<p>CSS 的 filter （濾鏡）、blend （混色）越來越強大，相互搭配下可以創造出很有趣的影像處理效果，這一篇教學文告訴你如何利用 filter 和 blend 做出有暗角的 LOMO  相片和雙重曝光，相當有趣。</p>\n\n<p>同場加映：<a href=\"http://una.im/CSSgram/\">用 CSS filter 做出 instagram 各式濾鏡</a></p>",
+          "description_markdown": "CSS 的 filter （濾鏡）、blend （混色）越來越強大，相互搭配下可以創造出很有趣的影像處理效果，這一篇教學文告訴你如何利用 filter 和 blend 做出有暗角的 LOMO  相片和雙重曝光，相當有趣。\r\n\r\n同場加映：[用 CSS filter 做出 instagram 各式濾鏡](http://una.im/CSSgram/)",
+          "embedded_links": [
+            {
+              "identifier": "Xp6NPfm",
+              "title": "用 CSS filter 做出 instagram 各式濾鏡",
+              "url_domain": "una.im",
+              "url": "http://una.im/CSSgram/"
+            }
+          ],
+          "image_original_filename": "ce81dd08-5e4c-4e68-a0d7-b3cf09a7dc16.png",
+          "image_extra_large_filename": "original_ratio_extra_large_ce81dd08-5e4c-4e68-a0d7-b3cf09a7dc16.png",
+          "image_medium_filename": "original_ratio_medium_ce81dd08-5e4c-4e68-a0d7-b3cf09a7dc16.png"
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "sYsZvh8",
+          "type": "Link",
+          "title": "Arrow This",
+          "url_domain": "getify.com",
+          "url": "http://blog.getify.com/arrow-this/",
+          "description": "<p>ES6 新增的 arrow function 語法（<code>=&gt;</code>）跟原本的 <code>function</code> 最大的差別就在於它沒有 <code>this</code>、<code>arguments</code> 等特殊變數。這篇文章列出各種狀況說明這項差別帶來的具體影響。</p>\n\n<p>關於 JavaScript  function 的 <code>this</code> 綁定規則可以參考作者 <a href=\"https://github.com/getify/You-Dont-Know-JS\">You Don't Know JS</a> 書裡的  <em><a href=\"https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&amp;%20object%20prototypes/ch2.md#determining-this\">Determining this</a></em> 小節。</p>",
+          "description_markdown": "ES6 新增的 arrow function 語法（`=>`）跟原本的 `function` 最大的差別就在於它沒有 `this`、`arguments` 等特殊變數。這篇文章列出各種狀況說明這項差別帶來的具體影響。\r\n\r\n關於 JavaScript  function 的 `this` 綁定規則可以參考作者 [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) 書裡的  *[Determining this](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md#determining-this)* 小節。",
+          "embedded_links": [
+            {
+              "identifier": "pglBihH",
+              "title": "You Don't Know JS",
+              "url_domain": "github.com",
+              "url": "https://github.com/getify/You-Dont-Know-JS"
+            },
+            {
+              "identifier": "KFdUZOg",
+              "title": "Determining this",
+              "url_domain": "github.com",
+              "url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md#determining-this"
+            }
+          ]
+        },
+        {
+          "identifier": "aSR81UF",
+          "type": "Link",
+          "title": "A cartoon intro to Redux",
+          "url_domain": "code-cartoons.com",
+          "url": "https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6",
+          "description": "<p>這是小海在 <a href=\"http://weekly.codetengu.com/issues/11\">CodeTengu Weekly#11</a> 貼過的 <a href=\"https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207\">A cartoon guide to Flux</a> 續篇，同樣是以角色類比來說明 Redux 的運作流程。</p>\n\n<p>Redux 一開始就是為了<em>載入新 code 時不必重置 store</em> 和<em>可以回朔時光的除錯方式</em>（1）而設計，這些根本是開發者夢寐以求的功能。看看 <a href=\"https://github.com/gaearon/redux-devtools#user-content-redux-devtools\">Redux-DevTools</a> 的展示效果，你還猶豫什麼？</p>\n\n<p>1: <a href=\"https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35\">Hot reloading and time travel debugging</a></p>",
+          "description_markdown": "這是小海在 [CodeTengu Weekly#11](http://weekly.codetengu.com/issues/11) 貼過的 [A cartoon guide to Flux](https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207) 續篇，同樣是以角色類比來說明 Redux 的運作流程。\r\n\r\nRedux 一開始就是為了*載入新 code 時不必重置 store* 和*可以回朔時光的除錯方式*（1）而設計，這些根本是開發者夢寐以求的功能。看看 [Redux-DevTools](https://github.com/gaearon/redux-devtools#user-content-redux-devtools) 的展示效果，你還猶豫什麼？\r\n\r\n1: [Hot reloading and time travel debugging](https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35)",
+          "embedded_links": [
+            {
+              "identifier": "oXPeXrE",
+              "title": "CodeTengu Weekly#11",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/11"
+            },
+            {
+              "identifier": "F1Vz6sQ",
+              "title": "A cartoon guide to Flux",
+              "url_domain": "code-cartoons.com",
+              "url": "https://code-cartoons.com/a-cartoon-guide-to-flux-6157355ab207"
+            },
+            {
+              "identifier": "7bdOMVh",
+              "title": "Redux-DevTools",
+              "url_domain": "github.com",
+              "url": "https://github.com/gaearon/redux-devtools#user-content-redux-devtools"
+            },
+            {
+              "identifier": "BIJljYC",
+              "title": "Hot reloading and time travel debugging",
+              "url_domain": "code-cartoons.com",
+              "url": "https://code-cartoons.com/hot-reloading-and-time-travel-debugging-what-are-they-3c8ed2812f35"
+            }
+          ]
+        },
+        {
+          "identifier": "4xxEDfQ",
+          "type": "Link",
+          "title": "The Morning Paper",
+          "url_domain": "acolyer.org",
+          "url": "http://blog.acolyer.org/",
+          "description": "<p>這則要介紹的不是一篇文章，而是一份資訊科學相關的<strong>日報</strong>。（是的，是日報！）作者每天會摘要一篇他覺得重要或是有趣的資訊領域論文。如果你有資訊焦慮症的話，不要考慮、立刻訂閱吧！</p>\n\n<p>除了學習業界新的技術之外，看看學界的新研究也是滿有趣的。下面再推薦兩篇我從這裡讀到的有趣論文。</p>",
+          "description_markdown": "這則要介紹的不是一篇文章，而是一份資訊科學相關的**日報**。（是的，是日報！）作者每天會摘要一篇他覺得重要或是有趣的資訊領域論文。如果你有資訊焦慮症的話，不要考慮、立刻訂閱吧！\r\n\r\n除了學習業界新的技術之外，看看學界的新研究也是滿有趣的。下面再推薦兩篇我從這裡讀到的有趣論文。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FRNcPhm",
+          "type": "Link",
+          "title": "From APIs to Languages: Generalising Method Names",
+          "url_domain": "acolyer.org",
+          "url": "http://blog.acolyer.org/2015/11/09/from-apis-to-languages-generalising-method-names/",
+          "description": "<p>Function/method 除了具名參數、可省略參數、……之外，還可以有什麼形式？</p>\n\n<p>這篇論文提出更有彈性的 method 宣告語法，讓宣告 method 就像是定義一個迷你語言。乍看之下有點像 Obj-C 的語法，但是多了可重複、可省略等構件。</p>\n\n<p>如果能有這樣的語法，設計 DSL 就能變得更有彈性；但不知道實作 method 內容時又會衍生什麼新的難題？</p>",
+          "description_markdown": "Function/method 除了具名參數、可省略參數、……之外，還可以有什麼形式？\r\n\r\n這篇論文提出更有彈性的 method 宣告語法，讓宣告 method 就像是定義一個迷你語言。乍看之下有點像 Obj-C 的語法，但是多了可重複、可省略等構件。\r\n\r\n如果能有這樣的語法，設計 DSL 就能變得更有彈性；但不知道實作 method 內容時又會衍生什麼新的難題？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bT50iwY",
+          "type": "Link",
+          "title": "Fast Database Restarts at Facebook",
+          "url_domain": "acolyer.org",
+          "url": "http://blog.acolyer.org/2015/09/14/fast-database-restarts-at-facebook/",
+          "description": "<p>Facebook 內部使用的 in-memory database <strong>Scuba</strong> 通常包含 10~15 GB 的資料、一台機器則會有 120GB 左右的記憶體，不管是匯入、匯出或是建立冗餘 server 的成本都太高。</p>\n\n<p>這篇文章說明他們如何利用 shared memory 來快速重啟這樣的 server，而不必每次都把資料寫入硬碟再讀出。</p>",
+          "description_markdown": "Facebook 內部使用的 in-memory database **Scuba** 通常包含 10~15 GB 的資料、一台機器則會有 120GB 左右的記憶體，不管是匯入、匯出或是建立冗餘 server 的成本都太高。\r\n\r\n這篇文章說明他們如何利用 shared memory 來快速重啟這樣的 server，而不必每次都把資料寫入硬碟再讀出。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "L90Z6uv",
+          "type": "Link",
+          "title": "Emoji Party!",
+          "url_domain": "emojiparty.club",
+          "url": "http://emojiparty.club/",
+          "description": "<p>用 <code>&lt;canvas&gt;</code> 和 emoji 做出有趣的玩具，可以一直增加 emoji 還挺療癒的（？）</p>\n\n<p>由 <a href=\"https://www.facebook.com/adamp3\">@adamp33</a> 分享。</p>",
+          "description_markdown": "用 `<canvas>` 和 emoji 做出有趣的玩具，可以一直增加 emoji 還挺療癒的（？）\r\n\r\n由 [@adamp33](https://www.facebook.com/adamp3) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "iobI5BE",
+              "title": "@adamp33",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/adamp3"
+            }
+          ],
+          "image_original_filename": "542ed424-f5f9-4285-a70e-912285273be5.png",
+          "image_extra_large_filename": "original_ratio_extra_large_542ed424-f5f9-4285-a70e-912285273be5.png",
+          "image_medium_filename": "original_ratio_medium_542ed424-f5f9-4285-a70e-912285273be5.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,596 @@
+{
+  "number": 63,
+  "title": "Issue 63 雙十特刊：♫ PPAP! I have a China~ I have a Taiwan~ Ahhh, Republic-of-China-Taiwan-Chinese-Taipei!",
+  "summary": "本期內容涵蓋 MySQL, Python, JavaScript, Node.js, CSS, Code Review, Git, Progressive Web Apps, Phoenix, Elixir",
+  "url": "https://weekly.codetengu.com/issues/63",
+  "publication_status": "published",
+  "published_at": "2016-10-10T03:00:00+01:00",
+  "updated_at": "2016-10-19T20:25:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Lord of the Flies</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <a href=\"https://www.youtube.com/watch?v=u7rSnc7mYC4\">妙蛙種子破音</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - GCP 好用嗎？</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [Lord of the Flies](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - [妙蛙種子破音](https://www.youtube.com/watch?v=u7rSnc7mYC4)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - GCP 好用嗎？\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "EdPKVpU",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "YiEVXhq",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "zk09vpg",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "DGwlILe",
+              "title": "Lord of the Flies",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "U8jUNSr",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "FQH7pX7",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "uhMlYB5",
+              "title": "妙蛙種子破音",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=u7rSnc7mYC4"
+            },
+            {
+              "identifier": "3MRS8FQ",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "KsZn3Im",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "PXCsoH3",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "efUrAWy",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "WTyihMS",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "pWRVscz",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "KWDCy2j",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "P62fdi7",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "QhFRqP",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "E1B5MLH",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "dBk8L1n",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "20dQ55C",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "eaJLprR",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "YWyS7fw",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "khIio1i",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "miTBvx6",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "NJRawkW",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "aEebpjq",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "S4w8NKM",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "yg21vPy",
+          "type": "Link",
+          "title": "Basic Housekeeping for MySQL Indexes",
+          "url_domain": "percona.com",
+          "url": "https://www.percona.com/blog/2016/09/09/basic-housekeeping-for-mysql-indexes/",
+          "description": "<p>Percona Database Performance Blog 科普了幾個找出 MySQL 中無用的、重複的或欄位順序有問題的 indexes 的方法。除了透過 MySQL 的 sys schema 之外，還有大家的好朋友 <a href=\"https://www.percona.com/doc/percona-toolkit/2.2/index.html\">Percona Toolkit</a>，不只 <a href=\"https://www.percona.com/doc/percona-toolkit/2.2/pt-duplicate-key-checker.html\">pt-duplicate-key-checker</a>，還有其他像是 <a href=\"https://www.percona.com/doc/percona-toolkit/2.2/pt-query-digest.html\">pt-query-digest</a>、<a href=\"https://www.percona.com/doc/percona-toolkit/2.2/pt-online-schema-change.html\">pt-online-schema-change</a> 和 <a href=\"https://www.percona.com/doc/percona-toolkit/2.2/pt-archiver.html\">pt-archiver</a> 都是好東西啊。</p>",
+          "description_markdown": "Percona Database Performance Blog 科普了幾個找出 MySQL 中無用的、重複的或欄位順序有問題的 indexes 的方法。除了透過 MySQL 的 sys schema 之外，還有大家的好朋友 [Percona Toolkit](https://www.percona.com/doc/percona-toolkit/2.2/index.html)，不只 [pt-duplicate-key-checker](https://www.percona.com/doc/percona-toolkit/2.2/pt-duplicate-key-checker.html)，還有其他像是 [pt-query-digest](https://www.percona.com/doc/percona-toolkit/2.2/pt-query-digest.html)、[pt-online-schema-change](https://www.percona.com/doc/percona-toolkit/2.2/pt-online-schema-change.html) 和 [pt-archiver](https://www.percona.com/doc/percona-toolkit/2.2/pt-archiver.html) 都是好東西啊。",
+          "embedded_links": [
+            {
+              "identifier": "gkAoVED",
+              "title": "Percona Toolkit",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/doc/percona-toolkit/2.2/index.html"
+            },
+            {
+              "identifier": "Fit4csP",
+              "title": "pt-duplicate-key-checker",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/doc/percona-toolkit/2.2/pt-duplicate-key-checker.html"
+            },
+            {
+              "identifier": "G9JjfSv",
+              "title": "pt-query-digest",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/doc/percona-toolkit/2.2/pt-query-digest.html"
+            },
+            {
+              "identifier": "GXHybz2",
+              "title": "pt-online-schema-change",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/doc/percona-toolkit/2.2/pt-online-schema-change.html"
+            },
+            {
+              "identifier": "blL5YVt",
+              "title": "pt-archiver",
+              "url_domain": "percona.com",
+              "url": "https://www.percona.com/doc/percona-toolkit/2.2/pt-archiver.html"
+            }
+          ]
+        },
+        {
+          "identifier": "nbsB4JR",
+          "type": "Link",
+          "title": "Speed up Python and Node.js builds on Travis CI",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/speed-up-python-and-node-js-builds-on-travis-ci.html",
+          "description": "<p>因為前陣子都在重構公司的專案，清理了不少陳年老碼和前朝遺表，也順道補了不少測試（目前測試覆蓋率達到 83% 啦）。這時候就覺得跑 CI 的速度不夠快了，後來想到其實可以在 Travis CI 上把整個 <code>site-packages</code> 和 <code>node_modules</code> 目錄都 cache 起來，這樣一來，跑 <code>pip install</code> 和 <code>npm install</code> 的時間加起來從一百多秒變成只要 5 秒，開心。</p>\n\n<p>另外再跟大家分享一個好東西：<a href=\"https://github.com/realpython/django-slow-tests\">django-slow-tests</a>。把這個 Django app 設為 test runner，它就會在跑完所有的 test cases 之後自動幫你列出前 n 個最慢的測試。正所謂射人先射馬、擒賊先擒王、罵人先罵娘，要改善測試的執行速度，當然是從最慢的測試下手啦！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://weekly.codetengu.com/issues/5?m=web#Nf3vqv8\">Mock yourself, not your tests</a></li>\n</ul>",
+          "description_markdown": "因為前陣子都在重構公司的專案，清理了不少陳年老碼和前朝遺表，也順道補了不少測試（目前測試覆蓋率達到 83% 啦）。這時候就覺得跑 CI 的速度不夠快了，後來想到其實可以在 Travis CI 上把整個 `site-packages` 和 `node_modules` 目錄都 cache 起來，這樣一來，跑 `pip install` 和 `npm install` 的時間加起來從一百多秒變成只要 5 秒，開心。\r\n\r\n另外再跟大家分享一個好東西：[django-slow-tests](https://github.com/realpython/django-slow-tests)。把這個 Django app 設為 test runner，它就會在跑完所有的 test cases 之後自動幫你列出前 n 個最慢的測試。正所謂射人先射馬、擒賊先擒王、罵人先罵娘，要改善測試的執行速度，當然是從最慢的測試下手啦！\r\n\r\n延伸閱讀：\r\n\r\n- [Mock yourself, not your tests](http://weekly.codetengu.com/issues/5?m=web#Nf3vqv8)",
+          "embedded_links": [
+            {
+              "identifier": "OZILGuN",
+              "title": "django-slow-tests",
+              "url_domain": "github.com",
+              "url": "https://github.com/realpython/django-slow-tests"
+            },
+            {
+              "identifier": "CHbQ6m5",
+              "title": "Mock yourself, not your tests",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/5?m=web#Nf3vqv8"
+            }
+          ]
+        },
+        {
+          "identifier": "hIqd5Hw",
+          "type": "Link",
+          "title": "HTML5 Form Validation Examples",
+          "url_domain": "the-art-of-web.com",
+          "url": "http://www.the-art-of-web.com/html/html5-form-validation/",
+          "description": "<p>只要有使用者輸入的地方，就少不了要驗證資料。這篇文章就介紹了不少 HTML5 新增的有關 validation 的 <code>&lt;input&gt;</code> 屬性和 CSS pseudo-classes。除了大家應該都已經在用的 <code>required</code> 和各種新的 <code>&lt;input&gt;</code> 類型之外，還有可以直接指定 regular expression 的 <code>pattern</code> 屬性。也示範了如何透過 CSS 做到簡單的 valid 和 invalid 效果，畢竟<a href=\"http://yincheng.site/using-html-css-instead-of-js\">能使用 HTML/CSS 解决的问题就不要使用 JavaScript</a>。當然前提是<a href=\"http://caniuse.com/#feat=input-pattern\">瀏覽器有支援</a>，比如說 Safari，它雖然支援 <code>pattern</code> 屬性，但是如果輸入的資料不符合指定的格式，它還是會讓使用者提交表單... OK，好。</p>\n\n<p>不過，當你需要更複雜的 validation 時，就可以試試所謂的 Object Schema Validation 了。例如 <a href=\"https://github.com/hapijs/joi\">Joi</a>，它的 API 用起來真的舒服，可惜目前只支援 Node.js。至於瀏覽器環境可能可以用 <a href=\"https://github.com/jquense/yup\">Yup</a> 擋一擋，雖然我還沒用過 Yup。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation\">Data form validation</a></li>\n</ul>",
+          "description_markdown": "只要有使用者輸入的地方，就少不了要驗證資料。這篇文章就介紹了不少 HTML5 新增的有關 validation 的 `<input>` 屬性和 CSS pseudo-classes。除了大家應該都已經在用的 `required` 和各種新的 `<input>` 類型之外，還有可以直接指定 regular expression 的 `pattern` 屬性。也示範了如何透過 CSS 做到簡單的 valid 和 invalid 效果，畢竟[能使用 HTML/CSS 解决的问题就不要使用 JavaScript](http://yincheng.site/using-html-css-instead-of-js)。當然前提是[瀏覽器有支援](http://caniuse.com/#feat=input-pattern)，比如說 Safari，它雖然支援 `pattern` 屬性，但是如果輸入的資料不符合指定的格式，它還是會讓使用者提交表單... OK，好。\r\n\r\n不過，當你需要更複雜的 validation 時，就可以試試所謂的 Object Schema Validation 了。例如 [Joi](https://github.com/hapijs/joi)，它的 API 用起來真的舒服，可惜目前只支援 Node.js。至於瀏覽器環境可能可以用 [Yup](https://github.com/jquense/yup) 擋一擋，雖然我還沒用過 Yup。\r\n\r\n延伸閱讀：\r\n\r\n- [Data form validation](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation)",
+          "embedded_links": [
+            {
+              "identifier": "u8oM5v2",
+              "title": "能使用 HTML/CSS 解决的问题就不要使用 JavaScript",
+              "url_domain": "yincheng.site",
+              "url": "http://yincheng.site/using-html-css-instead-of-js"
+            },
+            {
+              "identifier": "4eK5nq6",
+              "title": "瀏覽器有支援",
+              "url_domain": "caniuse.com",
+              "url": "http://caniuse.com/#feat=input-pattern"
+            },
+            {
+              "identifier": "bCHOSTr",
+              "title": "Joi",
+              "url_domain": "github.com",
+              "url": "https://github.com/hapijs/joi"
+            },
+            {
+              "identifier": "VvPeXaR",
+              "title": "Yup",
+              "url_domain": "github.com",
+              "url": "https://github.com/jquense/yup"
+            },
+            {
+              "identifier": "BB7I5ee",
+              "title": "Data form validation",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/Data_form_validation"
+            }
+          ]
+        },
+        {
+          "identifier": "v1bJD93",
+          "type": "Link",
+          "title": "Tuning AWS SQS Job Queues",
+          "url_domain": "simontaranto.com",
+          "url": "http://blog.simontaranto.com/post/2016-09-25-tuning-aws-sqs.html/",
+          "description": "<p>在 <a href=\"https://streetvoice.com/\">StreetVoice</a> 我們有好幾個專案都是用 <a href=\"https://aws.amazon.com/sqs/\">Amazon SQS</a> 來當 Celery 的 broker，用了很長一段時間都沒出過什麼大問題（不過當然也是有在某個我們都沒發現的地方其實出了錯的可能性，也或許在立下了「XXX 已經很久都沒發生過問題了」這樣的死亡 flag 之後常常那個 XXX 就會很神奇地壞掉），所以一直沒什麼機會仔細研究 Amazon SQS 的各項配置和使用情境（慚愧），剛好看到這篇作者在講他們針對 Amazon SQS 的 debug 過程，應該是挺有參考價值的。</p>",
+          "description_markdown": "在 [StreetVoice](https://streetvoice.com/) 我們有好幾個專案都是用 [Amazon SQS](https://aws.amazon.com/sqs/) 來當 Celery 的 broker，用了很長一段時間都沒出過什麼大問題（不過當然也是有在某個我們都沒發現的地方其實出了錯的可能性，也或許在立下了「XXX 已經很久都沒發生過問題了」這樣的死亡 flag 之後常常那個 XXX 就會很神奇地壞掉），所以一直沒什麼機會仔細研究 Amazon SQS 的各項配置和使用情境（慚愧），剛好看到這篇作者在講他們針對 Amazon SQS 的 debug 過程，應該是挺有參考價值的。",
+          "embedded_links": [
+            {
+              "identifier": "ftKfOZG",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            },
+            {
+              "identifier": "RyPlfBE",
+              "title": "Amazon SQS",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/sqs/"
+            }
+          ]
+        },
+        {
+          "identifier": "aTn3D0c",
+          "type": "Link",
+          "title": "Founder's Guide to Automation",
+          "url_domain": "fundersclub.com",
+          "url": "https://fundersclub.com/blog/2016/08/17/founders-guide-automation/",
+          "description": "<p>雖然 <a href=\"https://codetengu.com/\">CodeTengu</a> 基本上是個越多人訂閱就越虧錢的 project（超過 5000 人訂閱的話每個月要噴 <a href=\"https://curated.co/pricing\">129 美金</a>，而現在已經四千多人啦），不過因為虛榮心作祟，三不五時也是會想著還可以怎麼推廣。正好就看到這篇文章，忍不住想知道國外的 startup 是如何自動化 Marketing、Social Media 和 Sales 等任務，不過讀完才發現，他們竟然把買廣告和 SEO 也稱為自動化（雖然也不能說不對啦），果然所謂的 founder 講的話都不能盡信啊。不過裡頭提到的幾個服務我恰巧也有在用，例如目前 CodeTengu 在各個社交平台上的貼文就是透過 <a href=\"https://buffer.com/\">Buffer</a> 發佈的。</p>\n\n<p>說到自動化，我上禮拜為了把豆瓣上多餘的電影標籤刪掉，還特地用 <a href=\"http://casperjs.org/\">CasperJS</a> 寫了一支 script 還開了 remote debugging mode 用來輸入 captcha，完美體現了工程師的浪漫與過剩的生產力 ── 畢竟所謂的自動化就是花比手動操作還要多一倍的時間寫一支你這輩子可能只會跑一次的程式。</p>\n\n<p>P.S. CasperJS 封裝了 <a href=\"http://phantomjs.org/\">PhantomJS</a> 並加了一層更友善的 API，可以讓你用 JavaScript 操作一個 headless 的瀏覽器環境。有興趣的人可以看一下 <a href=\"https://vinta.ws/code/integrate-with-webpages-using-casperjs-built-on-top-of-phantomjs.html\">Integrate with webpages using CasperJS</a>。靠北的是，我寫完這個 script 之後就發現了另一套類似的工具叫 <a href=\"https://github.com/segmentio/nightmare\">Nightmare</a>，是用 Electron 寫成，還附帶了一個 Chrome 外掛可以「直接把你在 Chrome 裡的操作錄製下來變成 script」，幹。</p>\n\n<p>P.S.2 雖然跟主題無關，但是看到 FundersClub 這個名字，就讓我想到以前讀過的伍迪艾倫的散文集「<a href=\"https://book.douban.com/review/1282268/\">门萨的娼妓</a>」（門薩 Mensa 是一個只有各地人口中智商最高的前百分之二的人才可以加入的同好會）裡面的一段話，大家感受一下。</p>",
+          "description_markdown": "雖然 [CodeTengu](https://codetengu.com/) 基本上是個越多人訂閱就越虧錢的 project（超過 5000 人訂閱的話每個月要噴 [129 美金](https://curated.co/pricing)，而現在已經四千多人啦），不過因為虛榮心作祟，三不五時也是會想著還可以怎麼推廣。正好就看到這篇文章，忍不住想知道國外的 startup 是如何自動化 Marketing、Social Media 和 Sales 等任務，不過讀完才發現，他們竟然把買廣告和 SEO 也稱為自動化（雖然也不能說不對啦），果然所謂的 founder 講的話都不能盡信啊。不過裡頭提到的幾個服務我恰巧也有在用，例如目前 CodeTengu 在各個社交平台上的貼文就是透過 [Buffer](https://buffer.com/) 發佈的。\r\n\r\n說到自動化，我上禮拜為了把豆瓣上多餘的電影標籤刪掉，還特地用 [CasperJS](http://casperjs.org/) 寫了一支 script 還開了 remote debugging mode 用來輸入 captcha，完美體現了工程師的浪漫與過剩的生產力 ── 畢竟所謂的自動化就是花比手動操作還要多一倍的時間寫一支你這輩子可能只會跑一次的程式。\r\n\r\nP.S. CasperJS 封裝了 [PhantomJS](http://phantomjs.org/) 並加了一層更友善的 API，可以讓你用 JavaScript 操作一個 headless 的瀏覽器環境。有興趣的人可以看一下 [Integrate with webpages using CasperJS](https://vinta.ws/code/integrate-with-webpages-using-casperjs-built-on-top-of-phantomjs.html)。靠北的是，我寫完這個 script 之後就發現了另一套類似的工具叫 [Nightmare](https://github.com/segmentio/nightmare)，是用 Electron 寫成，還附帶了一個 Chrome 外掛可以「直接把你在 Chrome 裡的操作錄製下來變成 script」，幹。\r\n\r\nP.S.2 雖然跟主題無關，但是看到 FundersClub 這個名字，就讓我想到以前讀過的伍迪艾倫的散文集「[门萨的娼妓](https://book.douban.com/review/1282268/)」（門薩 Mensa 是一個只有各地人口中智商最高的前百分之二的人才可以加入的同好會）裡面的一段話，大家感受一下。",
+          "embedded_links": [
+            {
+              "identifier": "1vrb1XV",
+              "title": "CodeTengu",
+              "url_domain": "codetengu.com",
+              "url": "https://codetengu.com/"
+            },
+            {
+              "identifier": "cB3hDb6",
+              "title": "129 美金",
+              "url_domain": "curated.co",
+              "url": "https://curated.co/pricing"
+            },
+            {
+              "identifier": "vnoveNh",
+              "title": "Buffer",
+              "url_domain": "buffer.com",
+              "url": "https://buffer.com/"
+            },
+            {
+              "identifier": "HmO4Rrq",
+              "title": "CasperJS",
+              "url_domain": "casperjs.org",
+              "url": "http://casperjs.org/"
+            },
+            {
+              "identifier": "yP6Nokr",
+              "title": "PhantomJS",
+              "url_domain": "phantomjs.org",
+              "url": "http://phantomjs.org/"
+            },
+            {
+              "identifier": "fHcYZQe",
+              "title": "Integrate with webpages using CasperJS",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/integrate-with-webpages-using-casperjs-built-on-top-of-phantomjs.html"
+            },
+            {
+              "identifier": "tTDPnhb",
+              "title": "Nightmare",
+              "url_domain": "github.com",
+              "url": "https://github.com/segmentio/nightmare"
+            },
+            {
+              "identifier": "ZHty9HF",
+              "title": "门萨的娼妓",
+              "url_domain": "douban.com",
+              "url": "https://book.douban.com/review/1282268/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "jXMRF0D",
+          "type": "Link",
+          "title": "How to successfully grow a code review culture",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/nnja/how-to-successfully-grow-a-code-review-culture",
+          "description": "<p>這份投影片是一份非常、非常好的 Code Review 指南啊!!!!</p>\n\n<p>裡面提到的許多的建議, 都是我這幾年在 <a href=\"https://streetvoice.com/\">StreetVoice</a> 推行 Code Review 幾年後所體認到的心得, 只是沒能把這些心得給寫下並分享出來, 不過看完這篇之後也強化了我先前對 Code Review 應該要怎麼做才好的認知。</p>\n\n<p>例如, 下面這幾點是這幾年在 StreetVoice 推行 Code Review 這件事, 在這篇投影片也提到, 讓我最有感觸的事:</p>\n\n<ul>\n<li>要盡快 Review, 因為隔太久的話, 原本的發起人可能會因為時間太久而遺忘, 需要比較久的時間回想, 再來就是, 因為這功能被擺太久都沒上線, 久了就越不想去看, 發起人也會覺得氣餒。</li>\n<li>大的 PR 做到一半之前 ( 30% ~ 50% ) 就得先送 PR, 這樣除了可以讓 reviewer 知道你在做什麼, 如果方向、架構對不對, 可以提早修正, 然後把 PR 的 title prefix 一下 <code>[WIP]</code></li>\n<li>push commit 之前自己先 diff review 過, 自己也是 reviewer, 不要因為有人會做 Code Review 就把找問題的責任丟到別人身上</li>\n<li>PR 來回討論太多次, 就離開電腦, 直接當面溝通</li>\n</ul>\n\n\n<p>看來得趕快找時間把這份投影片寫一篇中文手冊讓內部使用才行啊 ...</p>",
+          "description_markdown": "這份投影片是一份非常、非常好的 Code Review 指南啊!!!! \r\n\r\n裡面提到的許多的建議, 都是我這幾年在 [StreetVoice](https://streetvoice.com/) 推行 Code Review 幾年後所體認到的心得, 只是沒能把這些心得給寫下並分享出來, 不過看完這篇之後也強化了我先前對 Code Review 應該要怎麼做才好的認知。\r\n\r\n例如, 下面這幾點是這幾年在 StreetVoice 推行 Code Review 這件事, 在這篇投影片也提到, 讓我最有感觸的事:\r\n\r\n* 要盡快 Review, 因為隔太久的話, 原本的發起人可能會因為時間太久而遺忘, 需要比較久的時間回想, 再來就是, 因為這功能被擺太久都沒上線, 久了就越不想去看, 發起人也會覺得氣餒。\r\n* 大的 PR 做到一半之前 ( 30% ~ 50% ) 就得先送 PR, 這樣除了可以讓 reviewer 知道你在做什麼, 如果方向、架構對不對, 可以提早修正, 然後把 PR 的 title prefix 一下 `[WIP]`\r\n* push commit 之前自己先 diff review 過, 自己也是 reviewer, 不要因為有人會做 Code Review 就把找問題的責任丟到別人身上\r\n* PR 來回討論太多次, 就離開電腦, 直接當面溝通\r\n\r\n看來得趕快找時間把這份投影片寫一篇中文手冊讓內部使用才行啊 ...",
+          "embedded_links": [
+            {
+              "identifier": "9o92qsu",
+              "title": "StreetVoice",
+              "url_domain": "streetvoice.com",
+              "url": "https://streetvoice.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "HpU4vDw",
+          "type": "Link",
+          "title": "pre-commit by Yelp",
+          "url_domain": "pre-commit.com",
+          "url": "http://pre-commit.com/",
+          "description": "<p>這個 pre-commit 是 Yelp 所開放出來的「可維護的 pre-commit 框架」 簡單來說就是用 yaml 寫設定檔, 就可以方便地維護 pre commit hooks, 讓你的 team member 也可以透過簡單幾個指令便可以快速安裝、使用同一份 pre-commit hooks。</p>\n\n<p>兩個禮拜前看到這個, 當時就很想試試, 後來則是因為發現一些 team member 還是會有一些基本的 coding style 的問題, 所以才認真開始研究 pre-commit 這個工具。</p>\n\n<p>目前覺得真的很方便, 下禮拜要來正式強迫開發人員們開始採用。 只要格式不對, 便會沒辦法 commit, 需要把有問題的地方修正才能真正 commit, 從最根源的方式處理起, 我們的 code base 應該又會更棒了吧! 特別是用上了 autopep8-wrapper 這個外掛來自動修正格式了 (笑)</p>",
+          "description_markdown": "這個 pre-commit 是 Yelp 所開放出來的「可維護的 pre-commit 框架」 簡單來說就是用 yaml 寫設定檔, 就可以方便地維護 pre commit hooks, 讓你的 team member 也可以透過簡單幾個指令便可以快速安裝、使用同一份 pre-commit hooks。\r\n\r\n兩個禮拜前看到這個, 當時就很想試試, 後來則是因為發現一些 team member 還是會有一些基本的 coding style 的問題, 所以才認真開始研究 pre-commit 這個工具。\r\n\r\n目前覺得真的很方便, 下禮拜要來正式強迫開發人員們開始採用。 只要格式不對, 便會沒辦法 commit, 需要把有問題的地方修正才能真正 commit, 從最根源的方式處理起, 我們的 code base 應該又會更棒了吧! 特別是用上了 autopep8-wrapper 這個外掛來自動修正格式了 (笑)",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "yfkx2yt",
+          "type": "Link",
+          "title": "Interview with Jim Hall of FreeDOS",
+          "url_domain": "opensource.com",
+          "url": "https://opensource.com/life/16/9/interview-jim-hall-freedos",
+          "description": "<p>這篇專訪了 FreeDOS 專案創始人 <a href=\"http://www.freedos.org/jhall/\">Jim Hall</a>。對，是 <a href=\"http://www.freedos.org/\">FreeDOS</a> 不是 FreeBSD，不要眼花看錯了，就是那個 DOS，已經成了某些不明究理的人對「提示字元」、「命令列介面」慣稱的那個 DOS。</p>\n\n<p>即使到了 2016 年，仍有不少人透過 FreeDOS 或 <a href=\"http://www.dosbox.com/\">DOSBox</a> 運行那些換不掉的、捨不得丟掉的應用程式與遊戲（但是已經看不到有人還在用 OS/2 了…）。這篇專訪讓我覺得最發人深省的一點，就是他人說服了 Jim 讓 FreeDOS 保持「就是那個 DOS」，而不是引入各種酷炫夯的新特性，讓它成為一個「現代」的 OS。聽得進去這種「不冒進」意見的 Jim 也是不簡單。</p>\n\n<p>畢竟，大家都看多了那種不斷想要給用戶帶來新意、證明自己還活躍著的產品團隊，不知不覺間把產品邯鄲學步弄得四不像，或是功能變得無比繁複、眼花撩亂。</p>",
+          "description_markdown": "這篇專訪了 FreeDOS 專案創始人 [Jim Hall](http://www.freedos.org/jhall/)。對，是 [FreeDOS](http://www.freedos.org/) 不是 FreeBSD，不要眼花看錯了，就是那個 DOS，已經成了某些不明究理的人對「提示字元」、「命令列介面」慣稱的那個 DOS。\r\n\r\n即使到了 2016 年，仍有不少人透過 FreeDOS 或 [DOSBox](http://www.dosbox.com/) 運行那些換不掉的、捨不得丟掉的應用程式與遊戲（但是已經看不到有人還在用 OS/2 了…）。這篇專訪讓我覺得最發人深省的一點，就是他人說服了 Jim 讓 FreeDOS 保持「就是那個 DOS」，而不是引入各種酷炫夯的新特性，讓它成為一個「現代」的 OS。聽得進去這種「不冒進」意見的 Jim 也是不簡單。\r\n\r\n畢竟，大家都看多了那種不斷想要給用戶帶來新意、證明自己還活躍著的產品團隊，不知不覺間把產品邯鄲學步弄得四不像，或是功能變得無比繁複、眼花撩亂。",
+          "embedded_links": [
+            {
+              "identifier": "w2Ogvn3",
+              "title": "Jim Hall",
+              "url_domain": "freedos.org",
+              "url": "http://www.freedos.org/jhall/"
+            },
+            {
+              "identifier": "hshEb72",
+              "title": "FreeDOS",
+              "url_domain": "freedos.org",
+              "url": "http://www.freedos.org/"
+            },
+            {
+              "identifier": "szcNr7n",
+              "title": "DOSBox",
+              "url_domain": "dosbox.com",
+              "url": "http://www.dosbox.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "BBOvhey",
+          "type": "Link",
+          "title": "Using GPG with Smart Cards",
+          "url_domain": "jfry.me",
+          "url": "https://www.jfry.me/articles/2015/gpg-smartcard/",
+          "description": "<p>日前終於收到了千里迢迢、過鹹水而來的 <a href=\"https://www.yubico.com/products/yubikey-hardware/yubikey-neo/\">Yubikey Neo</a>，除了是因為在 COSCUP 2016 聽了「<a href=\"http://coscup.org/2016/schedules.html#H11\">深入淺出 Google/Dropbox/GitHub 都採用的 FIDO U2F</a>」這場啟發的興趣之外，另外就是看中這款可以當成 <a href=\"https://en.wikipedia.org/wiki/OpenPGP_card\">OpenPGP card</a> 的緣故，算是目前最好買的 OpenPGP card 吧？我一直很想要有個 OpenPGP card，方便我跨環境使用 OpenPGP/GnuPG。</p>\n\n<p>這篇就是講解如何設定、使用 OpenPGP card，寫得很清楚。</p>\n\n<p><strong>同場加映：</strong><a href=\"https://fbq.github.io/posts/yubikey-neo.html\">Yubikey NEO 入手小计</a></p>",
+          "description_markdown": "日前終於收到了千里迢迢、過鹹水而來的 [Yubikey Neo](https://www.yubico.com/products/yubikey-hardware/yubikey-neo/)，除了是因為在 COSCUP 2016 聽了「[深入淺出 Google/Dropbox/GitHub 都採用的 FIDO U2F](http://coscup.org/2016/schedules.html#H11)」這場啟發的興趣之外，另外就是看中這款可以當成 [OpenPGP card](https://en.wikipedia.org/wiki/OpenPGP_card) 的緣故，算是目前最好買的 OpenPGP card 吧？我一直很想要有個 OpenPGP card，方便我跨環境使用 OpenPGP/GnuPG。\r\n\r\n這篇就是講解如何設定、使用 OpenPGP card，寫得很清楚。\r\n\r\n**同場加映：**[Yubikey NEO 入手小计](https://fbq.github.io/posts/yubikey-neo.html)",
+          "embedded_links": [
+            {
+              "identifier": "uyNY64M",
+              "title": "Yubikey Neo",
+              "url_domain": "yubico.com",
+              "url": "https://www.yubico.com/products/yubikey-hardware/yubikey-neo/"
+            },
+            {
+              "identifier": "gdel3zE",
+              "title": "深入淺出 Google/Dropbox/GitHub 都採用的 FIDO U2F",
+              "url_domain": "coscup.org",
+              "url": "http://coscup.org/2016/schedules.html#H11"
+            },
+            {
+              "identifier": "NUsjv9D",
+              "title": "OpenPGP card",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/OpenPGP_card"
+            },
+            {
+              "identifier": "4flSqlW",
+              "title": "Yubikey NEO 入手小计",
+              "url_domain": "github.io",
+              "url": "https://fbq.github.io/posts/yubikey-neo.html"
+            }
+          ]
+        },
+        {
+          "identifier": "hPfrJoi",
+          "type": "Link",
+          "title": "Everything You Should Know About Progressive Web Apps",
+          "url_domain": "tutorialzine.com",
+          "url": "http://tutorialzine.com/2016/09/everything-you-should-know-about-progressive-web-apps/",
+          "description": "<p>Progressive Web Apps (PWA) 讓網站（頁）長得像一個原生應用程式、用起來像一個原生應用程式，這篇文章算是 PWA 的懶人包，闡釋了 PWA 的特性。對用戶而言，PWA 增進了 UX，對開發者而言，PWA 減低了因為不同平台間的技術 stacks 差異，導致需多重投入開發資源的各種成本問題。</p>\n\n<p>說實在的，很多行動 Apps 被使用的頻率極少，但是要用到時你又希望它隨傳隨到，總而言之，最好是「呼之即來，揮之即去」不要佔去手機寶貴的空間，這類的 Apps 其實更適合以 PWA 的形式滿足供需。</p>\n\n<p><strong>同場加映：</strong><a href=\"http://blog.techbridge.cc/2016/07/23/progressive-web-app/\">Progressive Web App 會是未來趨勢嗎？</a></p>",
+          "description_markdown": "Progressive Web Apps (PWA) 讓網站（頁）長得像一個原生應用程式、用起來像一個原生應用程式，這篇文章算是 PWA 的懶人包，闡釋了 PWA 的特性。對用戶而言，PWA 增進了 UX，對開發者而言，PWA 減低了因為不同平台間的技術 stacks 差異，導致需多重投入開發資源的各種成本問題。\r\n\r\n說實在的，很多行動 Apps 被使用的頻率極少，但是要用到時你又希望它隨傳隨到，總而言之，最好是「呼之即來，揮之即去」不要佔去手機寶貴的空間，這類的 Apps 其實更適合以 PWA 的形式滿足供需。\r\n\r\n**同場加映：**[Progressive Web App 會是未來趨勢嗎？](http://blog.techbridge.cc/2016/07/23/progressive-web-app/)",
+          "embedded_links": [
+            {
+              "identifier": "cxAOKHA",
+              "title": "Progressive Web App 會是未來趨勢嗎？",
+              "url_domain": "techbridge.cc",
+              "url": "http://blog.techbridge.cc/2016/07/23/progressive-web-app/"
+            }
+          ]
+        },
+        {
+          "identifier": "KR1hoHQ",
+          "type": "Link",
+          "title": "Adaptive Layout",
+          "url_domain": "sorotokin.com",
+          "url": "http://sorotokin.com/adaptive-layout/",
+          "description": "<p>前陣子因為某電子書平台在台灣設點開業，於是我去下載了一本書嘗鮮，在 Twitter 上<del>訐譙</del>感嘆這本又是 PDF 原封不動直接搬上來，不知何時這些出版業者才會意識到「電子顯示設備<strong>不是</strong>一張有著固定大小的紙」這件事？中間還跟其他人有些<del>爭執</del>意見交換，我在意的點是「現有科技、技術就是要你們（出版業者）適應 box model, RWD 與 Adaptive Layout，而你們卻是貪圖自己方便、因循苟且、輕忽讀者的閱讀體驗！」</p>\n\n<p>這個網站就是在講解 EPUB 規格當中的 <a href=\"http://www.idpf.org/epub/pgt/\">Adaptive Layout</a>。</p>",
+          "description_markdown": "前陣子因為某電子書平台在台灣設點開業，於是我去下載了一本書嘗鮮，在 Twitter 上~~訐譙~~感嘆這本又是 PDF 原封不動直接搬上來，不知何時這些出版業者才會意識到「電子顯示設備**不是**一張有著固定大小的紙」這件事？中間還跟其他人有些~~爭執~~意見交換，我在意的點是「現有科技、技術就是要你們（出版業者）適應 box model, RWD 與 Adaptive Layout，而你們卻是貪圖自己方便、因循苟且、輕忽讀者的閱讀體驗！」\r\n\r\n這個網站就是在講解 EPUB 規格當中的 [Adaptive Layout](http://www.idpf.org/epub/pgt/)。",
+          "embedded_links": [
+            {
+              "identifier": "ezdKTAz",
+              "title": "Adaptive Layout",
+              "url_domain": "idpf.org",
+              "url": "http://www.idpf.org/epub/pgt/"
+            }
+          ]
+        },
+        {
+          "identifier": "6jYuxOY",
+          "type": "Link",
+          "title": "Rise From the Ashes — Incremental APIs With Phoenix",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sugarpirate/rise-from-the-ashes-incremental-apis-with-phoenix-b08cd66bd142#.ba9t35rvu",
+          "description": "<p>這篇講解了如何使用 <a href=\"https://github.com/poteto/terraform\">terraform</a> 讓 Phoenix 可以整合既有的 API，達成漸次過渡，是想要導入 Phoenix、又有不少 legacy code 包袱的產品團隊可以借鑒的一篇好文。</p>",
+          "description_markdown": "這篇講解了如何使用 [terraform](https://github.com/poteto/terraform) 讓 Phoenix 可以整合既有的 API，達成漸次過渡，是想要導入 Phoenix、又有不少 legacy code 包袱的產品團隊可以借鑒的一篇好文。",
+          "embedded_links": [
+            {
+              "identifier": "ACnewUJ",
+              "title": "terraform",
+              "url_domain": "github.com",
+              "url": "https://github.com/poteto/terraform"
+            }
+          ]
+        },
+        {
+          "identifier": "a3B8EJz",
+          "type": "Link",
+          "title": "Welcome, adventurer! — BEAM VM Wisdoms 1.0 documentation",
+          "url_domain": "clau.se",
+          "url": "http://beam-wisdoms.clau.se/en/latest/",
+          "description": "<p>這個網站整理了 BEAM VM 的相關知識，對於想要瞭解 BEAM 工作原理的人來說是很好的指引文件。</p>",
+          "description_markdown": "這個網站整理了 BEAM VM 的相關知識，對於想要瞭解 BEAM 工作原理的人來說是很好的指引文件。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "PJUc4ZW",
+          "type": "Link",
+          "title": "Languages, and about languages, on the BEAM",
+          "url_domain": "github.com",
+          "url": "https://github.com/llaisdy/beam_languages",
+          "description": "<p>除了 Erlang 以及近來能見度愈來愈受矚目的 Elixir 之外，其實還有一些基於 BEAM 的語言，這篇整理、羅列出這些語言。</p>",
+          "description_markdown": "除了 Erlang 以及近來能見度愈來愈受矚目的 Elixir 之外，其實還有一些基於 BEAM 的語言，這篇整理、羅列出這些語言。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "8KM2fXD",
+          "type": "Link",
+          "title": "Elixir Maze",
+          "url_domain": "github.com",
+          "url": "https://github.com/drumaddict/elixir-maze",
+          "description": "<p>一個以 Elixir 移植自 <a href=\"https://github.com/drumaddict/ruby-maze\">ruby-maze</a> 的迷宮產生器。</p>\n\n<p>一個有效（有解）的迷宮，需符合「不論效率，沿著單邊牆壁走，要能夠走到出口」的設計原理，觀察這個程式的算法設計（溫馨提示：從 <code>lib/maze/maze.ex</code> 這裡開始看），蠻有趣的。</p>\n\n<p><strong>同場加映：</strong><a href=\"https://www.zhihu.com/question/20197462\">如果身处一个迷宫，且看不到出口和入口，且不可翻越迷宫墙。那么，怎样快速的离开迷宫？ - 数学建模 - 知乎</a></p>",
+          "description_markdown": "一個以 Elixir 移植自 [ruby-maze](https://github.com/drumaddict/ruby-maze) 的迷宮產生器。\r\n\r\n一個有效（有解）的迷宮，需符合「不論效率，沿著單邊牆壁走，要能夠走到出口」的設計原理，觀察這個程式的算法設計（溫馨提示：從 `lib/maze/maze.ex` 這裡開始看），蠻有趣的。\r\n\r\n**同場加映：**[如果身处一个迷宫，且看不到出口和入口，且不可翻越迷宫墙。那么，怎样快速的离开迷宫？ - 数学建模 - 知乎](https://www.zhihu.com/question/20197462)",
+          "embedded_links": [
+            {
+              "identifier": "3MopsCV",
+              "title": "ruby-maze",
+              "url_domain": "github.com",
+              "url": "https://github.com/drumaddict/ruby-maze"
+            },
+            {
+              "identifier": "rERz5vE",
+              "title": "如果身处一个迷宫，且看不到出口和入口，且不可翻越迷宫墙。那么，怎样快速的离开迷宫？ - 数学建模 - 知乎",
+              "url_domain": "zhihu.com",
+              "url": "https://www.zhihu.com/question/20197462"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "QMJ1hcA",
+          "type": "Link",
+          "title": "Python Web Developer at StreetVoice (台北、北京、上海)",
+          "url_domain": "streetvoice.com",
+          "url": "https://streetvoice.com/p/jobs/",
+          "description": "<p>開發及維護 StreetVoice 旗下相關網站。</p>\n\n<p>意者歡迎來信：<a href=\"&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x74;&#122;&#x61;&#x6e;&#x67;&#x6d;&#x73;&#x40;&#x73;&#116;&#114;&#x65;&#x65;&#x74;&#x76;&#111;&#105;&#x63;&#101;&#46;&#99;&#111;&#109;\">&#x74;&#122;&#97;&#110;&#103;&#x6d;&#115;&#64;&#115;&#116;&#x72;&#x65;&#x65;&#x74;&#118;&#111;&#105;&#x63;&#x65;&#x2e;&#99;&#111;&#x6d;</a>。</p>",
+          "description_markdown": "開發及維護 StreetVoice 旗下相關網站。\r\n\r\n意者歡迎來信：<tzangms@streetvoice.com>。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

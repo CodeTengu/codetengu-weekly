@@ -1,0 +1,387 @@
+{
+  "number": 2,
+  "title": "Issue 2 There is no cloud, just other people's computers.",
+  "summary": "本期內容涵蓋 Python, Cassandra, Git, Design Pattern, iOS, Android, Swift, AWS, API Gateway, Lambda, DynamoDB, React",
+  "url": "https://weekly.codetengu.com/issues/2",
+  "publication_status": "published",
+  "published_at": "2015-08-10T03:00:00+01:00",
+  "updated_at": "2016-05-22T13:09:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"http://vinta.ws/code/\">I failed the Turing Test</a><br/>\n<a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a><br/>\n<a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a></p>",
+          "description_markdown": "[@vinta](https://twitter.com/vinta) - [I failed the Turing Test](http://vinta.ws/code/)  \r\n[@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)  \r\n[@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/)",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "C0EpVxA",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "u5vUnvi",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "http://vinta.ws/code/"
+            },
+            {
+              "identifier": "GXoxK1j",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "wbr5fJ3",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "DAuuAZ2",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Srjuitz",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "MRjLXeB",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "lmDtq3E",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "SKrE6s6",
+          "type": "Link",
+          "title": "Introduction to PDB",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=vfPtGsSJldg",
+          "description": "<p>pdb 是 Python 內建的互動式 debug 神器，堪稱是 Python 的定海神針，只要往 source code 裡一插，什麼魑魅魍魎都會現形。不過我們通常不會直接用 pdb，而是會使用整合了 IPython 的 <a href=\"https://github.com/gotcha/ipdb\">ipdb</a>。其他選擇還有 <a href=\"https://pypi.python.org/pypi/pdbpp\">pdbpp</a> 和 <a href=\"https://pypi.python.org/pypi/pudb\">pudb</a>。</p>\n\n<p>PS. 標題的連結是影片，懶得看影片的人可以直接看延伸閱讀。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://yergler.net/2013/pdb/\">In Depth PDB</a><br/>\n<a href=\"http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/\">Python debugging tools</a></p>",
+          "description_markdown": "pdb 是 Python 內建的互動式 debug 神器，堪稱是 Python 的定海神針，只要往 source code 裡一插，什麼魑魅魍魎都會現形。不過我們通常不會直接用 pdb，而是會使用整合了 IPython 的 [ipdb](https://github.com/gotcha/ipdb)。其他選擇還有 [pdbpp](https://pypi.python.org/pypi/pdbpp) 和 [pudb](https://pypi.python.org/pypi/pudb)。\r\n\r\nPS. 標題的連結是影片，懶得看影片的人可以直接看延伸閱讀。\r\n\r\n延伸閱讀：  \r\n[In Depth PDB](http://yergler.net/2013/pdb/)  \r\n[Python debugging tools](http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/)",
+          "embedded_links": [
+            {
+              "identifier": "X1hQBon",
+              "title": "ipdb",
+              "url_domain": "github.com",
+              "url": "https://github.com/gotcha/ipdb"
+            },
+            {
+              "identifier": "YlS7MLQ",
+              "title": "pdbpp",
+              "url_domain": "python.org",
+              "url": "https://pypi.python.org/pypi/pdbpp"
+            },
+            {
+              "identifier": "F2W5Q6y",
+              "title": "pudb",
+              "url_domain": "python.org",
+              "url": "https://pypi.python.org/pypi/pudb"
+            },
+            {
+              "identifier": "IuoCcJl",
+              "title": "In Depth PDB",
+              "url_domain": "yergler.net",
+              "url": "http://yergler.net/2013/pdb/"
+            },
+            {
+              "identifier": "584MRfJ",
+              "title": "Python debugging tools",
+              "url_domain": "ionelmc.ro",
+              "url": "http://blog.ionelmc.ro/2013/06/05/python-debugging-tools/"
+            }
+          ]
+        },
+        {
+          "identifier": "A4qt5O9",
+          "type": "Link",
+          "title": "Why Move to Cassandra?",
+          "url_domain": "pythian.com",
+          "url": "http://www.pythian.com/blog/why-move-cassandra/",
+          "description": "<p>這陣子除了多了不少新特性的 MySQL 5.7、能見度越來越高的 PostgreSQL 和持續被唱衰的 MongoDB 之外，跟 Google BigTable、Amazon Dynamo 系出同門的 Apache Cassandra 也是一個相當熱門的 NoSQL 資料庫。這篇文章提到了 Instagram、eBay、Spotify、Comcast 等大公司改用 Cassandra 的理由和其用途。</p>\n\n<p>另外值得一提的，<a href=\"http://www.planetcassandra.org/apache-cassandra-use-cases/\">Planet Cassandra</a> 網站上也有一個 Use Cases 專欄，列舉了世界各地、各行各業的公司使用 Cassandra 的經驗分享，從 News Feed、Recommendation Engine、Fraud Detection 到 IoT (Internet of Things)，非常實用。真希望每個 open source 專案的官方網站都可以效法一下這種做法～</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"http://www.slideshare.net/yftzeng/mysql-postgresql\">淺入淺出 MySQL &amp; PostgreSQL</a>（來自 <a href=\"https://www.facebook.com/yftzeng.tw\">Ant</a> 的簡報）<br/>\n<a href=\"http://imysql.com/2015/06/23/mysql-57-new-feature-part-1.shtml\">MySQL 5.7 版本新特性连载（一）</a><br/>\n<a href=\"http://www.oschina.net/news/64575/never-ever-mongodb\">别再用 MongoDB 了！</a></p>",
+          "description_markdown": "這陣子除了多了不少新特性的 MySQL 5.7、能見度越來越高的 PostgreSQL 和持續被唱衰的 MongoDB 之外，跟 Google BigTable、Amazon Dynamo 系出同門的 Apache Cassandra 也是一個相當熱門的 NoSQL 資料庫。這篇文章提到了 Instagram、eBay、Spotify、Comcast 等大公司改用 Cassandra 的理由和其用途。\r\n\r\n另外值得一提的，[Planet Cassandra](http://www.planetcassandra.org/apache-cassandra-use-cases/) 網站上也有一個 Use Cases 專欄，列舉了世界各地、各行各業的公司使用 Cassandra 的經驗分享，從 News Feed、Recommendation Engine、Fraud Detection 到 IoT (Internet of Things)，非常實用。真希望每個 open source 專案的官方網站都可以效法一下這種做法～\r\n\r\n延伸閱讀：  \r\n[淺入淺出 MySQL & PostgreSQL](http://www.slideshare.net/yftzeng/mysql-postgresql)（來自 [Ant](https://www.facebook.com/yftzeng.tw) 的簡報）  \r\n[MySQL 5.7 版本新特性连载（一）](http://imysql.com/2015/06/23/mysql-57-new-feature-part-1.shtml)  \r\n[别再用 MongoDB 了！](http://www.oschina.net/news/64575/never-ever-mongodb)  ",
+          "embedded_links": [
+            {
+              "identifier": "PJZXElV",
+              "title": "Planet Cassandra",
+              "url_domain": "planetcassandra.org",
+              "url": "http://www.planetcassandra.org/apache-cassandra-use-cases/"
+            },
+            {
+              "identifier": "QsjCrbS",
+              "title": "淺入淺出 MySQL & PostgreSQL",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/yftzeng/mysql-postgresql"
+            },
+            {
+              "identifier": "gwkUiuW",
+              "title": "Ant",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/yftzeng.tw"
+            },
+            {
+              "identifier": "oEDnkDK",
+              "title": "MySQL 5.7 版本新特性连载（一）",
+              "url_domain": "imysql.com",
+              "url": "http://imysql.com/2015/06/23/mysql-57-new-feature-part-1.shtml"
+            },
+            {
+              "identifier": "ELZ4526",
+              "title": "别再用 MongoDB 了！",
+              "url_domain": "oschina.net",
+              "url": "http://www.oschina.net/news/64575/never-ever-mongodb"
+            }
+          ]
+        },
+        {
+          "identifier": "HOFqk87",
+          "type": "Link",
+          "title": "How to Write a Git Commit Message",
+          "url_domain": "beams.io",
+          "url": "http://chris.beams.io/posts/git-commit/",
+          "description": "<p>作者總結了各方意見，歸納出 7 條如何（用英文）寫好 git commit messages 的規則。因為文章有點長，沒有耐心的人可以點延伸閱讀或是直接看以下重點摘要翻譯：</p>\n\n<ul>\n<li>在 commit message 裡用空行分成標題和內文</li>\n<li>在內文裡說明 what 和 why，至於 how 其實看 diff 就知道了</li>\n<li>開頭大寫</li>\n<li>標題控制在 50 個字元以內</li>\n<li>標題不要用句號結尾</li>\n<li>標題一律使用「祈使語氣」（就是原形動詞啦）</li>\n<li>內文每行控制在 72 個字元以內</li>\n</ul>\n\n\n<p>延伸閱讀：<br/>\n<a href=\"https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages\">Format commit messages</a></p>",
+          "description_markdown": "作者總結了各方意見，歸納出 7 條如何（用英文）寫好 git commit messages 的規則。因為文章有點長，沒有耐心的人可以點延伸閱讀或是直接看以下重點摘要翻譯：\r\n\r\n- 在 commit message 裡用空行分成標題和內文\r\n- 在內文裡說明 what 和 why，至於 how 其實看 diff 就知道了\r\n- 開頭大寫\r\n- 標題控制在 50 個字元以內\r\n- 標題不要用句號結尾\r\n- 標題一律使用「祈使語氣」（就是原形動詞啦）\r\n- 內文每行控制在 72 個字元以內\r\n\r\n延伸閱讀：  \r\n[Format commit messages](https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages)",
+          "embedded_links": [
+            {
+              "identifier": "rsRyWcD",
+              "title": "Format commit messages",
+              "url_domain": "github.com",
+              "url": "https://github.com/spring-projects/spring-framework/blob/30bce7/CONTRIBUTING.md#format-commit-messages"
+            }
+          ]
+        },
+        {
+          "identifier": "IGliZVl",
+          "type": "Link",
+          "title": "從實例學設計模式",
+          "url_domain": "slides.com",
+          "url": "http://slides.com/jaceju/design-patterns-by-examples",
+          "description": "<p>來自 KKBOX 的 <a href=\"https://twitter.com/jaceju\">@jaceju</a> 關於物件導向程式設計的簡報，主要在講 SOLID 原則和幾個常見的 Design Patterns。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"https://sourcemaking.com/design_patterns\">Design Patterns</a></p>",
+          "description_markdown": "來自 KKBOX 的 [@jaceju](https://twitter.com/jaceju) 關於物件導向程式設計的簡報，主要在講 SOLID 原則和幾個常見的 Design Patterns。\r\n\r\n延伸閱讀：  \r\n[Design Patterns](https://sourcemaking.com/design_patterns)  ",
+          "embedded_links": [
+            {
+              "identifier": "cWdqc89",
+              "title": "@jaceju",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/jaceju"
+            },
+            {
+              "identifier": "iEJXpC",
+              "title": "Design Patterns",
+              "url_domain": "sourcemaking.com",
+              "url": "https://sourcemaking.com/design_patterns"
+            }
+          ]
+        },
+        {
+          "identifier": "jjhpZlG",
+          "type": "Link",
+          "title": "台灣勞工的轉型正義",
+          "url_domain": "facebook.com",
+          "url": "https://www.facebook.com/notes/willie-lin/%E5%8F%B0%E7%81%A3%E5%8B%9E%E5%B7%A5%E7%9A%84%E8%BD%89%E5%9E%8B%E6%AD%A3%E7%BE%A9/10153426725368232",
+          "description": "<p>作者是「政大學生勞動權益促進會」（簡稱：政大勞促會）的成員之一，前陣子政大因為不願意幫學校工讀生付勞健保費，而選擇解聘所有工讀生，校長周行一甚至還寫信給學生希望學生可以無償地幫學校勞動。這整起事件的「始作俑者」之一就是政大勞促會。作者在這篇文章中說明了即使會被視為是在「找碴」或「自我感覺良好的正義感」，爭取自己和其他人的勞動權益仍舊是重要的。</p>\n\n<p>延伸閱讀：<br/>\n<a href=\"https://www.facebook.com/permalink.php?story_fbid=945991635442305&amp;id=100000944336615\">感謝這位政大校長，讓我們看清原來校園也有權力落差、官僚傲慢</a></p>",
+          "description_markdown": "作者是「政大學生勞動權益促進會」（簡稱：政大勞促會）的成員之一，前陣子政大因為不願意幫學校工讀生付勞健保費，而選擇解聘所有工讀生，校長周行一甚至還寫信給學生希望學生可以無償地幫學校勞動。這整起事件的「始作俑者」之一就是政大勞促會。作者在這篇文章中說明了即使會被視為是在「找碴」或「自我感覺良好的正義感」，爭取自己和其他人的勞動權益仍舊是重要的。\r\n\r\n延伸閱讀：  \r\n[感謝這位政大校長，讓我們看清原來校園也有權力落差、官僚傲慢](https://www.facebook.com/permalink.php?story_fbid=945991635442305&id=100000944336615)  ",
+          "embedded_links": [
+            {
+              "identifier": "A5J2js5",
+              "title": "感謝這位政大校長，讓我們看清原來校園也有權力落差、官僚傲慢",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/permalink.php?story_fbid=945991635442305&id=100000944336615"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "WqtUx2q",
+          "type": "Link",
+          "title": "ChenYilong/iOS9AdaptationTips",
+          "url_domain": "github.com",
+          "url": "https://github.com/ChenYilong/iOS9AdaptationTips",
+          "description": "<p>升級你的 iOS App 到 iOS 9 有什麼要注意的？作者整理了以下六點，有點感人啊（甚至還有中文版本）：</p>\n\n<ol>\n<li>You'd better Convert HTTP to HTTPS</li>\n<li>iOS9 new feature in CoreLocation : background only when you need</li>\n<li>Untrusted Enterprise Developer with no option to trust</li>\n<li>Bitcode optional</li>\n<li>Privacy and Your App【URL scheme changes】</li>\n<li>Support Slide Over and Split View of iOS 9</li>\n</ol>",
+          "description_markdown": "升級你的 iOS App 到 iOS 9 有什麼要注意的？作者整理了以下六點，有點感人啊（甚至還有中文版本）：  \r\n\r\n1. You'd better Convert HTTP to HTTPS\r\n2. iOS9 new feature in CoreLocation : background only when you need\r\n3. Untrusted Enterprise Developer with no option to trust\r\n4. Bitcode optional\r\n5. Privacy and Your App【URL scheme changes】\r\n6. Support Slide Over and Split View of iOS 9",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "lhcYt3v",
+          "type": "Link",
+          "title": "facebook/fresco - Android 圖片下載、快取套件",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/fresco",
+          "description": "<p>載入速度快、也可以套 <a href=\"https://github.com/square/okhttp\">OkHttp</a> 當 fresco 的 network fetcher  client、文件寫得很全。</p>\n\n<p>最大的特色應該是在 Android 4.x 以下把圖片的 cache data 放在 Ashmem Heap (匿名共享內存) 而不是 Java Heap，這避免了 Java Heap 因為塞圖片造成的 OOM (Out of Memory) 跟 GC (Garbage Collector) 啟動 App 變慢。</p>\n\n<p>延伸：\n <a href=\"https://github.com/square/picasso\">Picasso</a>、<a href=\"https://github.com/bumptech/glide\">Glide</a></p>",
+          "description_markdown": "載入速度快、也可以套 [OkHttp](https://github.com/square/okhttp) 當 fresco 的 network fetcher  client、文件寫得很全。  \r\n\r\n最大的特色應該是在 Android 4.x 以下把圖片的 cache data 放在 Ashmem Heap (匿名共享內存) 而不是 Java Heap，這避免了 Java Heap 因為塞圖片造成的 OOM (Out of Memory) 跟 GC (Garbage Collector) 啟動 App 變慢。\r\n\r\n延伸：\r\n [Picasso](https://github.com/square/picasso)、[Glide](https://github.com/bumptech/glide)",
+          "embedded_links": [
+            {
+              "identifier": "De0Vmjx",
+              "title": "OkHttp",
+              "url_domain": "github.com",
+              "url": "https://github.com/square/okhttp"
+            },
+            {
+              "identifier": "bwXsgtd",
+              "title": "Picasso",
+              "url_domain": "github.com",
+              "url": "https://github.com/square/picasso"
+            },
+            {
+              "identifier": "sdw28uI",
+              "title": "Glide",
+              "url_domain": "github.com",
+              "url": "https://github.com/bumptech/glide"
+            }
+          ]
+        },
+        {
+          "identifier": "G88Dj3T",
+          "type": "Link",
+          "title": "Swift protocol extension method dispatch",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/ios-os-x-development/swift-protocol-extension-method-dispatch-6a6bf270ba94",
+          "description": "<p>Swift protocol extension 的一個你可能不會遇到，但遇到會痛不欲生的設計特性。</p>",
+          "description_markdown": "Swift protocol extension 的一個你可能不會遇到，但遇到會痛不欲生的設計特性。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "tCeGJXs",
+          "type": "Link",
+          "title": "Advanced Swift",
+          "url_domain": "objc.io",
+          "url": "http://www.objc.io/books/advanced-swift/",
+          "description": "<p>我有買這本在 iOS 界引領潮流、中流砥柱的 <a href=\"http://www.objc.io/\">objc.io</a> 出的 Advanced Swift，目前還是 pre-release，購買後新的章節推出會發 pdf 給你，也會把你加到一個 private 的 GitHub repo，裡面是原稿的 markdown。</p>\n\n<p>也因為還在 pre-release，所以錯字跟錯 code 還不算少。目前已經推出了 Strings、Optionals、Collections 三章，預計有九章。</p>\n\n<p>不愧其名 Advanced Swift，這本完全不適合當 Swift 的入門書，內容深度很夠。大概兩個禮拜出一章的時間，一章大概是 30 頁，有點像在追劇，蠻過癮的。</p>",
+          "description_markdown": "我有買這本在 iOS 界引領潮流、中流砥柱的 [objc.io](http://www.objc.io/) 出的 Advanced Swift，目前還是 pre-release，購買後新的章節推出會發 pdf 給你，也會把你加到一個 private 的 GitHub repo，裡面是原稿的 markdown。  \r\n\r\n也因為還在 pre-release，所以錯字跟錯 code 還不算少。目前已經推出了 Strings、Optionals、Collections 三章，預計有九章。  \r\n\r\n不愧其名 Advanced Swift，這本完全不適合當 Swift 的入門書，內容深度很夠。大概兩個禮拜出一章的時間，一章大概是 30 頁，有點像在追劇，蠻過癮的。",
+          "embedded_links": [
+            {
+              "identifier": "4xZ4lfr",
+              "title": "objc.io",
+              "url_domain": "objc.io",
+              "url": "http://www.objc.io/"
+            }
+          ]
+        },
+        {
+          "identifier": "mOKj4s7",
+          "type": "Link",
+          "title": "Defeating the Anti-Pattern Bully 💥 Part 1 - Singletons",
+          "url_domain": "krakendev.io",
+          "url": "http://krakendev.io/blog/antipatterns-singletons?utm_campaign=This%2BWeek%2Bin%2BSwift&utm_medium=email&utm_source=This_Week_in_Swift_47",
+          "description": "<p>最熟悉的人卻傷你最深 - Singleton。</p>\n\n<p>Singleton 大概是最惡名昭彰的 pattern，從該作者在寫完 <a href=\"http://krakendev.io/blog/the-right-way-to-write-a-singleton\">The right way to write a singleton in Swift</a> 後被大家指責你在鼓勵更多人用 Singleton 的叫罵聲中可得知。</p>\n\n<p>於是這篇就介紹了一下什麼時候可以用 Singleton，他舉了 Caching 的例子。也說明了怎麼用 Dependency Injection 替代你的 Singleton。</p>\n\n<blockquote><p>為什麼不好？<br/>\nSingleton 因為 Global state 的特性非常難被單元測試、比起 Dependency Injection，Singleton 相對難以閱讀、不符合物件導向精神的 Single responsibility principle。</p></blockquote>\n\n<p><strong><em>如果你在寫 Swift 的話，這個作者的 <a href=\"http://krakendev.io/blog/subclassing-can-suck-and-heres-why\">If you're Subclassing, You're doing it WRONG</a> 也值得一看。</em></strong></p>",
+          "description_markdown": "最熟悉的人卻傷你最深 - Singleton。\r\n\r\nSingleton 大概是最惡名昭彰的 pattern，從該作者在寫完 [The right way to write a singleton in Swift](http://krakendev.io/blog/the-right-way-to-write-a-singleton) 後被大家指責你在鼓勵更多人用 Singleton 的叫罵聲中可得知。\r\n\r\n於是這篇就介紹了一下什麼時候可以用 Singleton，他舉了 Caching 的例子。也說明了怎麼用 Dependency Injection 替代你的 Singleton。\r\n\r\n> 為什麼不好？  \r\n> Singleton 因為 Global state 的特性非常難被單元測試、比起 Dependency Injection，Singleton 相對難以閱讀、不符合物件導向精神的 Single responsibility principle。\r\n\r\n***如果你在寫 Swift 的話，這個作者的 [If you're Subclassing, You're doing it WRONG](http://krakendev.io/blog/subclassing-can-suck-and-heres-why) 也值得一看。***",
+          "embedded_links": [
+            {
+              "identifier": "O70HZPg",
+              "title": "The right way to write a singleton in Swift",
+              "url_domain": "krakendev.io",
+              "url": "http://krakendev.io/blog/the-right-way-to-write-a-singleton"
+            },
+            {
+              "identifier": "8Kv8FXX",
+              "title": "If you're Subclassing, You're doing it WRONG",
+              "url_domain": "krakendev.io",
+              "url": "http://krakendev.io/blog/subclassing-can-suck-and-heres-why"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "XXbtZd3",
+          "type": "Link",
+          "title": "Rock 'n' Roll Panty",
+          "url_domain": "rocknroll-panty.jp",
+          "url": "https://rocknroll-panty.jp/",
+          "description": "<p>雖然說我不是非常清楚這是在幹什麼的，但是喜歡音樂的我，真心覺得是個非常棒的企劃啊！</p>",
+          "description_markdown": "雖然說我不是非常清楚這是在幹什麼的，但是喜歡音樂的我，真心覺得是個非常棒的企劃啊！",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "f4afc6f7-4c00-4cd2-a10a-a8b66b333bca.png",
+          "image_extra_large_filename": "original_ratio_extra_large_f4afc6f7-4c00-4cd2-a10a-a8b66b333bca.png",
+          "image_medium_filename": "original_ratio_medium_f4afc6f7-4c00-4cd2-a10a-a8b66b333bca.png"
+        },
+        {
+          "identifier": "b2CFKHf",
+          "type": "Link",
+          "title": "JAWS: The JavaScript + AWS Stack",
+          "url_domain": "github.com",
+          "url": "https://github.com/jaws-stack/JAWS",
+          "description": "<p>用 JavaScript 搭配 AWS 的 S3 + API Gateway + Lambda + DynamoDB 組出來不需要 Server 的服務，（搓手，躍躍欲試）JavaScript 銳不可擋啊啊啊！</p>",
+          "description_markdown": "用 JavaScript 搭配 AWS 的 S3 + API Gateway + Lambda + DynamoDB 組出來不需要 Server 的服務，（搓手，躍躍欲試）JavaScript 銳不可擋啊啊啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "iz7t0zc",
+          "type": "Link",
+          "title": "Automate Your Life And Job With ToDoist And IFTTT",
+          "url_domain": "makeuseof.com",
+          "url": "http://www.makeuseof.com/tag/automate-todoist-and-ifttt/",
+          "description": "<p>其實是去年的文章，不過最近因為看到這篇才開始使用 todoist。文章裡面有一個搭配 IFTTT 用來寄工作報告給老闆的範例，覺得很有趣，得跟大家分享一下。</p>",
+          "description_markdown": "其實是去年的文章，不過最近因為看到這篇才開始使用 todoist。文章裡面有一個搭配 IFTTT 用來寄工作報告給老闆的範例，覺得很有趣，得跟大家分享一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xnKypT3",
+          "type": "Link",
+          "title": "Using React in the real world",
+          "url_domain": "swizec.com",
+          "url": "http://swizec.com/blog/using-react-in-the-real-world/swizec/6710",
+          "description": "<p>把 React component 包成 jQuery 外掛來使用，獻給暫時沒有時間整個重寫的勞工們。</p>",
+          "description_markdown": "把 React component 包成 jQuery 外掛來使用，獻給暫時沒有時間整個重寫的勞工們。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oEaxCwr",
+          "type": "Link",
+          "title": "Unsplash it",
+          "url_domain": "unsplash.it",
+          "url": "https://unsplash.it/",
+          "description": "<p>一個叫 Unsplash 的網站提供的精美 placeholder 圖片服務，看了一下 Unsplash 本身就個提供免費 (do whatever you want) 的 License 圖片的網站。</p>",
+          "description_markdown": "一個叫 Unsplash 的網站提供的精美 placeholder 圖片服務，看了一下 Unsplash 本身就個提供免費 (do whatever you want) 的 License 圖片的網站。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

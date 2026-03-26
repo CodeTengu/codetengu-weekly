@@ -1,0 +1,361 @@
+{
+  "number": 106,
+  "title": "Issue 106 大家都說除錯的難度要比程式被寫出來的時候難兩倍以上，因此，理論上你沒有能力除錯自己用盡全力寫出的精妙程式",
+  "summary": "本期內容涵蓋 Python, Design, CoC, Machine Learning, Keras, TensorFlow, Capsule, 溏心蛋",
+  "url": "https://weekly.codetengu.com/issues/106",
+  "publication_status": "published",
+  "published_at": "2017-11-20T02:00:00+00:00",
+  "updated_at": "2017-11-20T06:24:22+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "dgIqths",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "C3q6C9F",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "B8gmyKG",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "6znXOY7",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "jxcXrZa",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "YKbK3yV",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "G0iU8HD",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "R8tg7Ls",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "3wRQMrr",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "7W8rF3t",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "cWOsbkk",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "jBrJspm",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "2JngGhX",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "2LadVgc",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "BDCUsRc",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "ZeIHTq",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "QfbtoKH",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "IKXs2zs",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "ZuUBjMx",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "b2iDtq7",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "KBseih7",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "TJzLXG7",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "iL53h9K",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "kg0KLtD",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Pjk70R7",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "RjjfgMw",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "vvGp6vi",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "pcM1Mn",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "TpLRA05",
+          "type": "Link",
+          "title": "Careful With That PyPI",
+          "url_domain": "twistedmatrix.com",
+          "url": "https://glyph.twistedmatrix.com/2017/10/careful-with-that-pypi.html",
+          "description": "<p>教你怎麼讓 Python 社群大暴死：想辦法得到某個有名 package 作者的電腦，然後看他家目錄裡面的 <code>.pypirc</code>。這個檔案的內容會像這樣：</p>\n\n<pre><code class=\"ini\">[pypi]\nusername:uranusjr\npassword:s3cr3t\n</code></pre>\n\n<p>更新他的有名 library，在 <code>setup.py</code> 裡執行 <code>rm -rf /</code> 之類，再用這組帳密上傳 PyPI 就好了。很多人都用 sudo 在更新 Python 套件，而 <code>setup.py</code> 允許 arbitrary code execution；PyPI 更新套件時沒有主動確認機制，所以等作者輾轉發現時，應該已經有無數人中招了。</p>\n\n<p>我之前好像有分享過 <code>setup.py</code> 的 remote code execution 問題，不過這只是弱點的一部分——最大的漏洞是 PyPI 竟然要求你把密碼用明碼存在檔案系統裡。這問題也很久了，但 Glyph 又當了一次勇者跳出來發聲，並且教大家有什麼方法可以 workaround 這個可怕的弱點——大致的概念就是把密碼存在 password manager，然後用一個 custom function 動態讀出密碼、寫入檔案、上傳 PyPI、使用完清理。他提供了 1Password 和 LastPass 的解法，不過如果你像我一樣用 macOS 內建的 KeyChain Access，也可以<a href=\"https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/security.1.html\">用內建的 <code>security</code> command</a> 達到同樣效果。我是用下面的方法拿到密碼：</p>\n\n<pre><code>security find-internet-password -ws 'pypi.python.org'\n</code></pre>\n\n<p>延伸閱讀：如果你完全不懂怎麼發表 Python 套件，也趁這個機會學一下吧。現在也越來越多人會把專案發佈在 GitHub 上，但很多時候如果能發到 PyPI，一來能見度更高可以幫助更多人，二來也會讓你學到更多模組化技巧，寫出更好的 Python 程式。可以參考 <a href=\"https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/\">Hynek 的惡補式教學</a>，裡面也包含了這篇的密碼管理技巧，比<a href=\"https://packaging.python.org/tutorials/distributing-packages/\">官方的教學文</a>更適合快速學習——學會之後，再看官方教學補足背景知識就好。</p>",
+          "description_markdown": "教你怎麼讓 Python 社群大暴死：想辦法得到某個有名 package 作者的電腦，然後看他家目錄裡面的 `.pypirc`。這個檔案的內容會像這樣：\r\n\r\n```ini\r\n[pypi]\r\nusername:uranusjr\r\npassword:s3cr3t\r\n```\r\n\r\n更新他的有名 library，在 `setup.py` 裡執行 `rm -rf /` 之類，再用這組帳密上傳 PyPI 就好了。很多人都用 sudo 在更新 Python 套件，而 `setup.py` 允許 arbitrary code execution；PyPI 更新套件時沒有主動確認機制，所以等作者輾轉發現時，應該已經有無數人中招了。\r\n\r\n我之前好像有分享過 `setup.py` 的 remote code execution 問題，不過這只是弱點的一部分——最大的漏洞是 PyPI 竟然要求你把密碼用明碼存在檔案系統裡。這問題也很久了，但 Glyph 又當了一次勇者跳出來發聲，並且教大家有什麼方法可以 workaround 這個可怕的弱點——大致的概念就是把密碼存在 password manager，然後用一個 custom function 動態讀出密碼、寫入檔案、上傳 PyPI、使用完清理。他提供了 1Password 和 LastPass 的解法，不過如果你像我一樣用 macOS 內建的 KeyChain Access，也可以[用內建的 `security` command](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/security.1.html) 達到同樣效果。我是用下面的方法拿到密碼：\r\n\r\n    security find-internet-password -ws 'pypi.python.org'\r\n\r\n延伸閱讀：如果你完全不懂怎麼發表 Python 套件，也趁這個機會學一下吧。現在也越來越多人會把專案發佈在 GitHub 上，但很多時候如果能發到 PyPI，一來能見度更高可以幫助更多人，二來也會讓你學到更多模組化技巧，寫出更好的 Python 程式。可以參考 [Hynek 的惡補式教學](https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/)，裡面也包含了這篇的密碼管理技巧，比[官方的教學文](https://packaging.python.org/tutorials/distributing-packages/)更適合快速學習——學會之後，再看官方教學補足背景知識就好。",
+          "embedded_links": [
+            {
+              "identifier": "O7vU6BQ",
+              "title": "用內建的 `security` command",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/security.1.html"
+            },
+            {
+              "identifier": "Ae3P4Lf",
+              "title": "Hynek 的惡補式教學",
+              "url_domain": "hynek.me",
+              "url": "https://hynek.me/articles/sharing-your-labor-of-love-pypi-quick-and-dirty/"
+            },
+            {
+              "identifier": "DqfOCGB",
+              "title": "官方的教學文",
+              "url_domain": "python.org",
+              "url": "https://packaging.python.org/tutorials/distributing-packages/"
+            }
+          ]
+        },
+        {
+          "identifier": "cWrG7a3",
+          "type": "Link",
+          "title": "Flat UI Elements Attract Less Attention and Cause Uncertainty",
+          "url_domain": "nngroup.com",
+          "url": "https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/?ref=weekly.ui-patterns.com",
+          "description": "<p>文章摘要：扁平 UI 設計常使用效果較弱的符號。在眼球追蹤實驗中，符號效果較弱的 UI 擁有較少各類點擊線索，迫使使用者在面對 UI 時需要付出更多努力。</p>\n\n<p>（後面不是引文內容，是我自己的想法。）</p>\n\n<p>舊的網站設計 (2010 左右) 沿用從單機 PC 時代模仿現實世界事物的 UI 設計，按鈕看起來就像按鈕，所以使用者在面對新介面實，更容易推論各元件的作用。扁平 UI 的互動元件並沒有很明顯的特徵，使得使用者需要學習；每個網站都有自己的 UI，使用者難以沿用既有的使用經驗，使得扁平 UI 的問題更加明顯。</p>\n\n<p>如果你設計的 UI 只能在少數地方使用（而不是像 iOS 那樣大家都有大把機會學習），又想更接近扁平設計（畢竟這確實是現代設計的潮流），那麼 Google 的 <a href=\"https://material.io/guidelines/\">Material Design</a> 是個很好的折衝。它採用了很多流行的扁平設計，但是加入了少量的陰影來表達遠近感，加強可互動性的提示：另一方面，這些陰影仍然只停在功能性的提示，而非用來模擬現實事物，因此不會太囉唆，仍然維持一定的極簡風格。設計本身好不好看還是看人，但是後面的設計邏輯很值得學習。</p>",
+          "description_markdown": "文章摘要：扁平 UI 設計常使用效果較弱的符號。在眼球追蹤實驗中，符號效果較弱的 UI 擁有較少各類點擊線索，迫使使用者在面對 UI 時需要付出更多努力。\r\n\r\n（後面不是引文內容，是我自己的想法。）\r\n\r\n舊的網站設計 (2010 左右) 沿用從單機 PC 時代模仿現實世界事物的 UI 設計，按鈕看起來就像按鈕，所以使用者在面對新介面實，更容易推論各元件的作用。扁平 UI 的互動元件並沒有很明顯的特徵，使得使用者需要學習；每個網站都有自己的 UI，使用者難以沿用既有的使用經驗，使得扁平 UI 的問題更加明顯。\r\n\r\n如果你設計的 UI 只能在少數地方使用（而不是像 iOS 那樣大家都有大把機會學習），又想更接近扁平設計（畢竟這確實是現代設計的潮流），那麼 Google 的 [Material Design](https://material.io/guidelines/) 是個很好的折衝。它採用了很多流行的扁平設計，但是加入了少量的陰影來表達遠近感，加強可互動性的提示：另一方面，這些陰影仍然只停在功能性的提示，而非用來模擬現實事物，因此不會太囉唆，仍然維持一定的極簡風格。設計本身好不好看還是看人，但是後面的設計邏輯很值得學習。",
+          "embedded_links": [
+            {
+              "identifier": "Xt8qttg",
+              "title": "Material Design",
+              "url_domain": "material.io",
+              "url": "https://material.io/guidelines/"
+            }
+          ]
+        },
+        {
+          "identifier": "wOmSpQS",
+          "type": "Link",
+          "title": "Why I cancelled my ReactiveConf talk",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@peggyrayzis/why-i-cancelled-my-reactiveconf-talk-3a463bf14bd8",
+          "description": "<p>最近越來越多活動有 Code of Conduct 了，主辦單位慢慢有經驗之後也懂得怎麼處理一些問題行為，真讓人開心，希望這樣也能讓更多人在社群裡覺得舒服。但是如果主辦單位自己違反 CoC 又能怎麼辦？也不能怎麼辦，所以這個講者就決定不參加直接回家了，talk 就放生⋯⋯。</p>\n\n<p>這件事情最可憐的反而是沒邊站的會眾，付錢進場然後就這樣少了一個優秀的 talk。而這個結果其實完全是主辦單位可以預先避免的，畢竟事先徵求講者同意也是常識等級的事情。當然 hindsight is always 20/20 所以我也不覺得該怪誰，但是這件事情對辦活動的人都是個警惕：不要假設，盡可能取得各方面的同意再做事，寧可囉唆也沒關係。</p>",
+          "description_markdown": "最近越來越多活動有 Code of Conduct 了，主辦單位慢慢有經驗之後也懂得怎麼處理一些問題行為，真讓人開心，希望這樣也能讓更多人在社群裡覺得舒服。但是如果主辦單位自己違反 CoC 又能怎麼辦？也不能怎麼辦，所以這個講者就決定不參加直接回家了，talk 就放生⋯⋯。\r\n\r\n這件事情最可憐的反而是沒邊站的會眾，付錢進場然後就這樣少了一個優秀的 talk。而這個結果其實完全是主辦單位可以預先避免的，畢竟事先徵求講者同意也是常識等級的事情。當然 hindsight is always 20/20 所以我也不覺得該怪誰，但是這件事情對辦活動的人都是個警惕：不要假設，盡可能取得各方面的同意再做事，寧可囉唆也沒關係。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "drumrick",
+      "name": "@drumrick",
+      "items": [
+        {
+          "identifier": "QGq3Wvc",
+          "type": "Link",
+          "title": "機器學習領域問題的最新學術成果列表",
+          "url_domain": "github.com",
+          "url": "https://github.com/RedditSota/state-of-the-art-result-for-machine-learning-problems",
+          "description": "<p>這個類似 awesome list 的 github 頁面，將機器學習問題分為 Speech、Computer Vision、NLP 三大類，以算法實作作為區分，條列了各個問題目前最好的學術成果，同時整理論文使用的 Metric 方法以及成績，相關實作程式碼連結，以及發表年份。看不懂？覺得自己該努力學習了嗎？這裡附贈 <a href=\"https://github.com/prakhar1989/awesome-courses\">awesome-courses</a> 想學什麼應有盡有！</p>",
+          "description_markdown": "這個類似 awesome list 的 github 頁面，將機器學習問題分為 Speech、Computer Vision、NLP 三大類，以算法實作作為區分，條列了各個問題目前最好的學術成果，同時整理論文使用的 Metric 方法以及成績，相關實作程式碼連結，以及發表年份。看不懂？覺得自己該努力學習了嗎？這裡附贈 [awesome-courses](https://github.com/prakhar1989/awesome-courses) 想學什麼應有盡有！",
+          "embedded_links": [
+            {
+              "identifier": "hmucypv",
+              "title": "awesome-courses",
+              "url_domain": "github.com",
+              "url": "https://github.com/prakhar1989/awesome-courses"
+            }
+          ]
+        },
+        {
+          "identifier": "uTWyN9T",
+          "type": "Link",
+          "title": "2017 台灣人工智慧暨資料科學年會資料整理",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@drumrick/2017-台灣-人工智慧-暨-資料科學-年會-資料整理-af6d215d3f28",
+          "description": "<p>上週剛結束的 2017 台灣人工智慧暨資料科學年會，在我的同溫層中觀察，似乎是一片好評，也讓無法參加的我有點遺憾，只好透過講者的投影片以及參加人員的共筆來望梅止渴，在此文中分享一些收集到的連結。</p>",
+          "description_markdown": "上週剛結束的 2017 台灣人工智慧暨資料科學年會，在我的同溫層中觀察，似乎是一片好評，也讓無法參加的我有點遺憾，只好透過講者的投影片以及參加人員的共筆來望梅止渴，在此文中分享一些收集到的連結。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "QF4qKCK",
+          "type": "Link",
+          "title": "Deep Learning with Keras",
+          "url_domain": "github.com",
+          "url": "https://github.com/erhwenkuo/deep-learning-with-keras-notebooks",
+          "description": "<p>這是一個剛開始教學系列，屬於正在進行式，是我在<a href=\"https://www.facebook.com/groups/datasci.tw/\">台灣資料科學同好交流區</a>找資料的時候看到的，根據作者表示，只是自己學習過程中的紀錄。</p>\n\n<p>以目前的走向來看，是一個比較偏向動手做的學路路徑，Keras 是滿適合新手使用的，而讓我一看到這個系列就眼睛為之一亮的點在於，（我感覺）作者非常用心挑選使用的資料集，讓資料比較有實用性或是趣味性，比較能引起大家動手玩玩看。</p>",
+          "description_markdown": "這是一個剛開始教學系列，屬於正在進行式，是我在[台灣資料科學同好交流區](https://www.facebook.com/groups/datasci.tw/)找資料的時候看到的，根據作者表示，只是自己學習過程中的紀錄。\r\n\r\n以目前的走向來看，是一個比較偏向動手做的學路路徑，Keras 是滿適合新手使用的，而讓我一看到這個系列就眼睛為之一亮的點在於，（我感覺）作者非常用心挑選使用的資料集，讓資料比較有實用性或是趣味性，比較能引起大家動手玩玩看。",
+          "embedded_links": [
+            {
+              "identifier": "UqMpOme",
+              "title": "台灣資料科學同好交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/datasci.tw/"
+            }
+          ]
+        },
+        {
+          "identifier": "CeFihQb",
+          "type": "Link",
+          "title": "Google 發布 TensorFlow Lite",
+          "url_domain": "googleblog.com",
+          "url": "https://developers.googleblog.com/2017/11/announcing-tensorflow-lite.html",
+          "description": "<p>過去一週還有一件大事就是，Google 發佈預告了好久的 TensorFlow Lite。以輕量、跨平台、快速為主要重心，使開發人員能夠更容易部署 TensorFlow Model 到手機以及嵌入式系統。</p>\n\n<p>訓練模型的部分還是一樣用  TensorFlow 在伺服器上訓練，透過 TensorFlow Lite 的模型轉換器，將訓練好的模型轉換成特別的格式，在手機上透過 API 以及直譯器來執行。</p>\n\n<p>已經對 MobileNet、Inception v3、smart reply 三種模型做過優化，MobileNet 及 Inception v3 使用 ImageNet 訓練過了，開發者只要針對需求再做 transfer learning 就可以了。最後說 TensorFlow Mobile 將來會被 TensorFlow Lite 取代。</p>\n\n<p>回想 XLA 剛出來的時候大家辛辛苦苦地編譯到手機上執行，現在真的是省事很多啊！</p>",
+          "description_markdown": "過去一週還有一件大事就是，Google 發佈預告了好久的 TensorFlow Lite。以輕量、跨平台、快速為主要重心，使開發人員能夠更容易部署 TensorFlow Model 到手機以及嵌入式系統。\r\n\r\n訓練模型的部分還是一樣用  TensorFlow 在伺服器上訓練，透過 TensorFlow Lite 的模型轉換器，將訓練好的模型轉換成特別的格式，在手機上透過 API 以及直譯器來執行。\r\n\r\n已經對 MobileNet、Inception v3、smart reply 三種模型做過優化，MobileNet 及 Inception v3 使用 ImageNet 訓練過了，開發者只要針對需求再做 transfer learning 就可以了。最後說 TensorFlow Mobile 將來會被 TensorFlow Lite 取代。\r\n\r\n回想 XLA 剛出來的時候大家辛辛苦苦地編譯到手機上執行，現在真的是省事很多啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "type": "Text",
+          "title": "Hinton 大神的 Capsule Network",
+          "description": "<p>拖了很久這週才看  Hinton 大神的新作《Dynamic Routing Between Capsules》坦白說，大神潛水這麼久又鋪陳這麼久，我內心是有著極高的期待，結果打開先看結果比較，居然是 MNIST 有點小失望，會用 MNIST 來比幾乎是變相承認在 CIFAR-10 以及 ImageNet 上還沒有突破性的進展。當然文中也解釋了 CIFAR-10 遇到的問題，以及使用 MNIST 另一個主要的原因，表現「重構」的能力。</p>\n\n<p>推薦導讀<br/>\n- <a href=\"https://data-sci.info/2017/11/06/%E4%B8%80%E8%B5%B7%E8%AE%80-dynamic-routing-capsules/\">木刻思</a><br/>\n- <a href=\"https://www.zhihu.com/question/67287444/answer/251241736\">知乎討論</a><br/>\n木刻思的文章對於數學公式的解釋比較多，知乎討論有比較多概念比喻以及評論。</p>\n\n<p>實作的部分在論文出來後就有滿多不同框架的版本，因為我也還沒有實際使用過，就不敢隨便推薦，大家可以前往 github 搜尋 CapsNet 或是 capsule network，找自己熟悉框架的版本，基本上 Python 主流的框架都有人實作了。</p>",
+          "description_markdown": "拖了很久這週才看  Hinton 大神的新作《Dynamic Routing Between Capsules》坦白說，大神潛水這麼久又鋪陳這麼久，我內心是有著極高的期待，結果打開先看結果比較，居然是 MNIST 有點小失望，會用 MNIST 來比幾乎是變相承認在 CIFAR-10 以及 ImageNet 上還沒有突破性的進展。當然文中也解釋了 CIFAR-10 遇到的問題，以及使用 MNIST 另一個主要的原因，表現「重構」的能力。\r\n\r\n推薦導讀  \r\n- [木刻思](https://data-sci.info/2017/11/06/一起讀-dynamic-routing-capsules/)  \r\n- [知乎討論](https://www.zhihu.com/question/67287444/answer/251241736)  \r\n木刻思的文章對於數學公式的解釋比較多，知乎討論有比較多概念比喻以及評論。\r\n\r\n實作的部分在論文出來後就有滿多不同框架的版本，因為我也還沒有實際使用過，就不敢隨便推薦，大家可以前往 github 搜尋 CapsNet 或是 capsule network，找自己熟悉框架的版本，基本上 Python 主流的框架都有人實作了。\r\n",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "EEPN1AI",
+              "title": "木刻思",
+              "url_domain": "data-sci.info",
+              "url": "https://data-sci.info/2017/11/06/一起讀-dynamic-routing-capsules/"
+            },
+            {
+              "identifier": "NJ0I9Mw",
+              "title": "知乎討論",
+              "url_domain": "zhihu.com",
+              "url": "https://www.zhihu.com/question/67287444/answer/251241736"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "52Ktf6G",
+          "type": "Link",
+          "title": "在富士山頂端呼喊完美的半熟蛋",
+          "url_domain": "data-artist.com",
+          "url": "https://www.data-artist.com/atelier/20150718.html",
+          "description": "<p>要研究出怎麼煮完美的半熟蛋煮法真是讓人傷透腦筋，網路上的教學都說不會失敗保證完美，可是仔細一看這變因根本太多，照著煮還是很難成功，一直試誤好麻煩。這個模擬器直接把所有變因都放進去，回歸出來最佳的時間變數，照著煮就沒問題啦，我試了好幾次勝率 100% 根本無敵。</p>\n\n<ol>\n<li>輸入環境變因（冰箱冷藏通常蛋溫 5ºC，尺寸量短邊，海拔用手機羅盤 app 查）</li>\n<li>水煮滾後把蛋放進去跟著滾</li>\n<li>時間到之後撈起來用自來水沖 45 秒涼，放到 0ºC 冰水裡冷卻</li>\n</ol>\n\n\n<p>完成！上週用這個做了糖心蛋（煮好之後放到醃料裡冰一天）豪豪ㄘ啊～</p>",
+          "description_markdown": "要研究出怎麼煮完美的半熟蛋煮法真是讓人傷透腦筋，網路上的教學都說不會失敗保證完美，可是仔細一看這變因根本太多，照著煮還是很難成功，一直試誤好麻煩。這個模擬器直接把所有變因都放進去，回歸出來最佳的時間變數，照著煮就沒問題啦，我試了好幾次勝率 100% 根本無敵。\r\n\r\n1. 輸入環境變因（冰箱冷藏通常蛋溫 5ºC，尺寸量短邊，海拔用手機羅盤 app 查）\r\n2. 水煮滾後把蛋放進去跟著滾\r\n3. 時間到之後撈起來用自來水沖 45 秒涼，放到 0ºC 冰水裡冷卻\r\n\r\n完成！上週用這個做了糖心蛋（煮好之後放到醃料裡冰一天）豪豪ㄘ啊～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

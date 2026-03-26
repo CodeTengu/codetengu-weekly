@@ -1,0 +1,426 @@
+{
+  "number": 46,
+  "title": "Issue 46 不能信任那些 Terminal 或編輯器用白底的人",
+  "summary": "本期內容涵蓋 Python, Machine Learning, PHP, Ansible",
+  "url": "https://weekly.codetengu.com/issues/46",
+  "publication_status": "published",
+  "published_at": "2016-06-06T03:00:00+01:00",
+  "updated_at": "2016-06-11T17:52:10+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩「<a href=\"http://store.steampowered.com/app/238010/\">Deus Ex</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 我的變態是演化的一部份，請妳放尊重一點</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 五月病發作中</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩「[Deus Ex](http://store.steampowered.com/app/238010/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 我的變態是演化的一部份，請妳放尊重一點\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 五月病發作中\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "XtJUZbK",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "elOVTh",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "lFucjsu",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "sQ1GHTu",
+              "title": "Deus Ex",
+              "url_domain": "steampowered.com",
+              "url": "http://store.steampowered.com/app/238010/"
+            },
+            {
+              "identifier": "dY8BEon",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "U9LMUbk",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "pL4Tasc",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Hb4SgFC",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "LC2IsfW",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "cVJ7G4u",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "cn8uWxb",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "4lx2r9z",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "S1js6QQ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "4RcAGSA",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "TsPCDvH",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "ai5oQF5",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "mgSq8cb",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "bYFuaBx",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "TTrxpGU",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "stVa0rK",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "fRIPGpr",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "kbixttC",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "dtNxUIJ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "rlObAkJ",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "KA1LufB",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "Ui7ZBjP",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "SVPrYuz",
+          "type": "Link",
+          "title": "Great Software Isn’t Built To Last, It’s Built To Die Gracefully",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/building-freshbooks/great-software-isn-t-built-to-last-it-s-built-to-die-gracefully-594df9c3a470#.t62pcayxl",
+          "description": "<p>這篇文章中我覺得「Don’t build for the future, build for future change」這段很不錯:</p>\n\n<ul>\n<li>Monitoring over scalability</li>\n<li>Test behaviour, not implementation</li>\n<li>Keep error logs squeaky clean</li>\n<li>Write less code</li>\n</ul>\n\n\n<p>我最近的想法是這樣的, 程式寫得越久, 反而會想得太多、考慮的太遠, 而現在世界變化這麼快, 想那麼遠做那麼多, 反而會限制自己向前的速度。</p>",
+          "description_markdown": "這篇文章中我覺得「Don’t build for the future, build for future change」這段很不錯:\r\n\r\n* Monitoring over scalability\r\n* Test behaviour, not implementation\r\n* Keep error logs squeaky clean\r\n* Write less code\r\n\r\n我最近的想法是這樣的, 程式寫得越久, 反而會想得太多、考慮的太遠, 而現在世界變化這麼快, 想那麼遠做那麼多, 反而會限制自己向前的速度。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "cpC71pO",
+          "type": "Link",
+          "title": "The secret ingredient behind a successful tech lead",
+          "url_domain": "medallia.com",
+          "url": "http://engineering.medallia.com/blog/the-secret-ingredient-behind-a-successful-tech-lead/",
+          "description": "<p>一直到看完文章後, 重看一遍才懂裡面一直在提的 VTL ( Vice Tech Lead ) 的意思, 成功的 TL 背後的秘密就是要有 VTL!</p>\n\n<p>實際想像一下這個情況, 有點像是我們家 <a href=\"https://twitter.com/vinta\">@vinta</a> 跟 <a href=\"https://twitter.com/saiday\">@saiday</a> 在幫我的感覺一樣。</p>\n\n<p>原本我也不是非常懂 Tech Lead 的定義啦, 而這篇文章開頭就提到了其他關於 TL 的文章, 看過一輪之後大概懂了! 這幾篇也蠻值得一讀的:</p>\n\n<ul>\n<li><a href=\"https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead\">5 Tips for Being an Effective Tech Lead</a></li>\n<li><a href=\"http://davidmorgantini.blogspot.com.ar/2012/03/anatomy-of-great-tech-lead.html\">The anatomy of a great tech lead</a></li>\n<li><a href=\"http://codetunes.com/2015/8-qualities-of-a-great-technical-leader/\">8 qualities of a great Technical Leader</a></li>\n</ul>",
+          "description_markdown": "一直到看完文章後, 重看一遍才懂裡面一直在提的 VTL ( Vice Tech Lead ) 的意思, 成功的 TL 背後的秘密就是要有 VTL! \r\n\r\n實際想像一下這個情況, 有點像是我們家 [@vinta](https://twitter.com/vinta) 跟 [@saiday](https://twitter.com/saiday) 在幫我的感覺一樣。\r\n\r\n原本我也不是非常懂 Tech Lead 的定義啦, 而這篇文章開頭就提到了其他關於 TL 的文章, 看過一輪之後大概懂了! 這幾篇也蠻值得一讀的:\r\n\r\n* [5 Tips for Being an Effective Tech Lead](https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead)\r\n* [The anatomy of a great tech lead](http://davidmorgantini.blogspot.com.ar/2012/03/anatomy-of-great-tech-lead.html)\r\n* [8 qualities of a great Technical Leader](http://codetunes.com/2015/8-qualities-of-a-great-technical-leader/)",
+          "embedded_links": [
+            {
+              "identifier": "c0VaWMW",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "3dBmwdV",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "pfn6GYL",
+              "title": "5 Tips for Being an Effective Tech Lead",
+              "url_domain": "thoughtworks.com",
+              "url": "https://www.thoughtworks.com/insights/blog/5-tips-being-effective-tech-lead"
+            },
+            {
+              "identifier": "Ngfcld0",
+              "title": "The anatomy of a great tech lead",
+              "url_domain": "blogspot.com.ar",
+              "url": "http://davidmorgantini.blogspot.com.ar/2012/03/anatomy-of-great-tech-lead.html"
+            },
+            {
+              "identifier": "234HCxu",
+              "title": "8 qualities of a great Technical Leader",
+              "url_domain": "codetunes.com",
+              "url": "http://codetunes.com/2015/8-qualities-of-a-great-technical-leader/"
+            }
+          ]
+        },
+        {
+          "identifier": "3Zw4iRj",
+          "type": "Link",
+          "title": "Jam.py - the fastest way to create a web database application",
+          "url_domain": "jam-py.com",
+          "url": "http://jam-py.com/",
+          "description": "<p>截圖看起來真的好棒, 有時候我們需要的不就是這些而已嗎!?\n好啦, 手上有個專案似乎很適合跑一下這個 XD</p>",
+          "description_markdown": "截圖看起來真的好棒, 有時候我們需要的不就是這些而已嗎!? \r\n好啦, 手上有個專案似乎很適合跑一下這個 XD",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "27d4a94f-9cc4-4de8-a4ba-7e2ba739e07b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_27d4a94f-9cc4-4de8-a4ba-7e2ba739e07b.png",
+          "image_medium_filename": "original_ratio_medium_27d4a94f-9cc4-4de8-a4ba-7e2ba739e07b.png"
+        },
+        {
+          "identifier": "gSYuwpo",
+          "type": "Link",
+          "title": "A Primer on Giving Critical Feedback",
+          "url_domain": "tombartel.de",
+          "url": "http://www.tombartel.de/2016/05/21/a-primer-on-giving-critical-feedback/",
+          "description": "<p>身為一個主管, 在當要給有問題的同事 ... 一些負面的回饋時該怎麼說才好?\n這一篇給了一個很棒的入門跟架構, 以及清楚的範例, 真是難能可貴!</p>",
+          "description_markdown": "身為一個主管, 在當要給有問題的同事 ... 一些負面的回饋時該怎麼說才好? \r\n這一篇給了一個很棒的入門跟架構, 以及清楚的範例, 真是難能可貴!",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "A34Ejs1",
+          "type": "Link",
+          "title": "Latent Semantic Indexing: How I Built PUBmatch.co - LSI 潛在語意分析的應用",
+          "url_domain": "ryanglambert.com",
+          "url": "http://www.ryanglambert.com/blog/latent-semantic-indexing-how-i-built-pubmatchco",
+          "description": "<p>Machine Learning、Data Mining：初級</p>\n\n<p>在 CodeTengu Issue 43 中我曾經分享過 <a href=\"http://weekly.codetengu.com/issues/43#TxwkwBd\">Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）</a> ，現在分享的這篇文章也是使用同樣的技術，只是應用在不同的地方，之前是應用在計算藝人的相似性，這篇是應用在計算文章的相似性。</p>\n\n<p>其實這個技術核心就是使用奇異質分解（Singular Value Decomposition），如果了解奇異值分解的物理意義，那就可以知道為何這樣可以分析出潛在語意，比如本來是文章與單字的對應關係，可以轉換成文章與概念的對應關係，本篇舉的例子算是蠻清楚的，經過 LSI 分析之後，將每篇文章都對應到一個二維的概念空間，每個概念會是由原本的文字線性組合而成（所以才稱為「概念」），如此每篇文章就可以用二維向量來表示，也就可以比較像似性了～</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd/\">奇異值分解 (SVD)</a></li>\n<li><a href=\"https://radimrehurek.com/gensim/tut1.html\">Corpora and Vector Spaces</a></li>\n</ol>",
+          "description_markdown": "Machine Learning、Data Mining：初級\r\n\r\n在 CodeTengu Issue 43 中我曾經分享過 [Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）](http://weekly.codetengu.com/issues/43#TxwkwBd) ，現在分享的這篇文章也是使用同樣的技術，只是應用在不同的地方，之前是應用在計算藝人的相似性，這篇是應用在計算文章的相似性。\r\n\r\n其實這個技術核心就是使用奇異質分解（Singular Value Decomposition），如果了解奇異值分解的物理意義，那就可以知道為何這樣可以分析出潛在語意，比如本來是文章與單字的對應關係，可以轉換成文章與概念的對應關係，本篇舉的例子算是蠻清楚的，經過 LSI 分析之後，將每篇文章都對應到一個二維的概念空間，每個概念會是由原本的文字線性組合而成（所以才稱為「概念」），如此每篇文章就可以用二維向量來表示，也就可以比較像似性了～\r\n\r\n延伸閱讀：\r\n\r\n1. [奇異值分解 (SVD)](https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd/)\r\n2. [Corpora and Vector Spaces](https://radimrehurek.com/gensim/tut1.html)",
+          "embedded_links": [
+            {
+              "identifier": "qr9YdgG",
+              "title": "Finding Similar Music using Matrix Factorization - 利用矩陣分解來推薦相似音樂（藝人）",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/43#TxwkwBd"
+            },
+            {
+              "identifier": "7mVz6eK",
+              "title": "奇異值分解 (SVD)",
+              "url_domain": "wordpress.com",
+              "url": "https://ccjou.wordpress.com/2009/09/01/%E5%A5%87%E7%95%B0%E5%80%BC%E5%88%86%E8%A7%A3-svd/"
+            },
+            {
+              "identifier": "oI16xkn",
+              "title": "Corpora and Vector Spaces",
+              "url_domain": "radimrehurek.com",
+              "url": "https://radimrehurek.com/gensim/tut1.html"
+            }
+          ]
+        },
+        {
+          "identifier": "3AGB7vN",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第十六講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-liu-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>在前面十五講的內容中，基本上所有機器學習基石的理論及方法已經教授完畢了，這一講主要是分享林教授在這門領域上的一些經驗及建議，並且回顧機器學習基石的所有內容。林教授將內容整理成 power of three 來做一個總結，我個人覺得蠻有用的，在自己實作機器學習演算法或做實驗時，會讓自己有個方向感。</p>\n\n<p>完成了這門課程，接下來我會繼續向大家分享後續的機器學習技法課程。大致上有三個方向，一個是更多不同轉換方式的算法，不再只有多項式轉換；一個是更多的正規化算法；最後一個是沒有那麼多標籤的算法，比如說非監督式學習算法等等。</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n在前面十五講的內容中，基本上所有機器學習基石的理論及方法已經教授完畢了，這一講主要是分享林教授在這門領域上的一些經驗及建議，並且回顧機器學習基石的所有內容。林教授將內容整理成 power of three 來做一個總結，我個人覺得蠻有用的，在自己實作機器學習演算法或做實驗時，會讓自己有個方向感。\r\n\r\n完成了這門課程，接下來我會繼續向大家分享後續的機器學習技法課程。大致上有三個方向，一個是更多不同轉換方式的算法，不再只有多項式轉換；一個是更多的正規化算法；最後一個是沒有那麼多標籤的算法，比如說非監督式學習算法等等。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3Aqyc4r",
+          "type": "Link",
+          "title": "FukuML - 簡單易用的機器學習套件",
+          "url_domain": "github.com",
+          "url": "https://github.com/fukuball/fuku-ml",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>有人跟我說，看完了機器學習基石所有的分享及課程，結果還是不會機器學習，這... 如果沒有動手下去自己寫程式寫看看，那當然就還是不會。</p>\n\n<p>不過大家別擔心，我在分享機器學習基石課程時，也跟著把每個介紹過的機器學習演算法都實作了一遍，原始碼都放在 GitHub 上了，所以大家可以去參考看看每個演算法的實作細節，看完原始碼會對課程中的數學式更容易理解。</p>\n\n<p>如果大家對實作沒有興趣，只想知道怎麼使用機器學習演算法，那 FukuML 絕對會比起其他機器學習套件簡單易用，且方法及變數都會跟林軒田教授的課程類似，有看過課程的話，說不定連文件都不用看就會使用 FukuML 了。不過我還是有寫 <a href=\"https://github.com/fukuball/FukuML-Tutorial/blob/master/Perceptron%20Binary%20Classification%20Learning%20Algorithm%20Tutorial.ipynb\">Tutorial</a> 啦，之後會不定期更新，讓大家可以容易上手比較重要！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n有人跟我說，看完了機器學習基石所有的分享及課程，結果還是不會機器學習，這... 如果沒有動手下去自己寫程式寫看看，那當然就還是不會。\r\n\r\n不過大家別擔心，我在分享機器學習基石課程時，也跟著把每個介紹過的機器學習演算法都實作了一遍，原始碼都放在 GitHub 上了，所以大家可以去參考看看每個演算法的實作細節，看完原始碼會對課程中的數學式更容易理解。\r\n\r\n如果大家對實作沒有興趣，只想知道怎麼使用機器學習演算法，那 FukuML 絕對會比起其他機器學習套件簡單易用，且方法及變數都會跟林軒田教授的課程類似，有看過課程的話，說不定連文件都不用看就會使用 FukuML 了。不過我還是有寫 [Tutorial](https://github.com/fukuball/FukuML-Tutorial/blob/master/Perceptron%20Binary%20Classification%20Learning%20Algorithm%20Tutorial.ipynb) 啦，之後會不定期更新，讓大家可以容易上手比較重要！",
+          "embedded_links": [
+            {
+              "identifier": "ECfh0Dp",
+              "title": "Tutorial",
+              "url_domain": "github.com",
+              "url": "https://github.com/fukuball/fuku-ml/blob/master/tutorial/Perceptron%20Binary%20Classification%20Learning%20Algorithm%20Tutorial.ipynb"
+            },
+            {
+              "identifier": "CvtqiH7",
+              "title": "Tutorial",
+              "url_domain": "github.com",
+              "url": "https://github.com/fukuball/FukuML-Tutorial/blob/master/Perceptron%20Binary%20Classification%20Learning%20Algorithm%20Tutorial.ipynb"
+            }
+          ]
+        },
+        {
+          "identifier": "ZKAeEem",
+          "type": "Link",
+          "title": "Dynamic dependency injection - 動態依賴注入以 PHP 為例",
+          "url_domain": "github.io",
+          "url": "http://pwm.github.io/dynamic-dependency-injection/",
+          "description": "<p>PHP、Programming：中級</p>\n\n<p>上次在 CodeTengu Issue 43 分享了 <a href=\"http://weekly.codetengu.com/issues/43#uL4Xt3Z\">理解 Dependency Injection 實作原理</a>，這篇又是一個應用 DI 的例子，大家可以對照參考一下，基本上程式架構蠻類似的，即使是小小的一個 Command 程式實作，也可以使用 DI 的技巧。</p>\n\n<p>這邊所謂的「動態」依賴注入，其實也是應用 Resolver 這樣的方式來做到，基本上就類似 DI Container 在做的事，大家多看多比較～</p>",
+          "description_markdown": "PHP、Programming：中級\r\n\r\n上次在 CodeTengu Issue 43 分享了 [理解 Dependency Injection 實作原理](http://weekly.codetengu.com/issues/43#uL4Xt3Z)，這篇又是一個應用 DI 的例子，大家可以對照參考一下，基本上程式架構蠻類似的，即使是小小的一個 Command 程式實作，也可以使用 DI 的技巧。\r\n\r\n這邊所謂的「動態」依賴注入，其實也是應用 Resolver 這樣的方式來做到，基本上就類似 DI Container 在做的事，大家多看多比較～",
+          "embedded_links": [
+            {
+              "identifier": "CZX12QU",
+              "title": "理解 Dependency Injection 實作原理",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/43#uL4Xt3Z"
+            }
+          ]
+        },
+        {
+          "identifier": "q10oWIP",
+          "type": "Link",
+          "title": "PHP 如何使用 Closure?",
+          "url_domain": "oomusou.io",
+          "url": "http://oomusou.io/php/php-closure/",
+          "description": "<p>PHP、Closure：初級</p>\n\n<p>程式開發時我們有時會需要使用到 Closure，尤其前一陣子大家都在談 functional programming，幾乎都會應用到 Closure。回頭看看 PHP，其實 PHP 也很早就有 Closure 可以使用了。本篇文章鉅細靡遺地介紹了 PHP Closure 發展的脈絡及語法，更比較了 JavaScript Closure 與 PHP Closure 的異同，非常值得參考的一篇文章！</p>",
+          "description_markdown": "PHP、Closure：初級\r\n\r\n程式開發時我們有時會需要使用到 Closure，尤其前一陣子大家都在談 functional programming，幾乎都會應用到 Closure。回頭看看 PHP，其實 PHP 也很早就有 Closure 可以使用了。本篇文章鉅細靡遺地介紹了 PHP Closure 發展的脈絡及語法，更比較了 JavaScript Closure 與 PHP Closure 的異同，非常值得參考的一篇文章！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "hE8JXF7",
+          "type": "Link",
+          "title": "Greg Young - The art of destroying software",
+          "url_domain": "vimeo.com",
+          "url": "https://vimeo.com/108441214",
+          "description": "<p>一個禮拜的重寫, 是我的上限。</p>",
+          "description_markdown": "一個禮拜的重寫, 是我的上限。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "r84SYAJ",
+          "type": "Link",
+          "title": "Inside OpenAI, Elon Musk’s Wild Plan to Set Artificial Intelligence Free",
+          "url_domain": "wired.com",
+          "url": "http://www.wired.com/2016/04/openai-elon-musk-sam-altman-plan-to-set-artificial-intelligence-free/",
+          "description": "<p>研究人工智慧, 其實就是搶人大戰; 竟然還有誰可以搶贏 Google 和 Facebook? 大概只有 Elon Musk 了.  我想吸引 Zaremba 加入 <a href=\"https://openai.com/blog/introducing-openai/\">OpenAI</a> 公司的不是高薪, 而是 Musk 與 Altman 成立這家公司的理念: \"要讓 AI 更好, 就不能把最新的發現只留給自己 “。 他們把 OpenAI 公司比喻為 1970s 年代的 Xerox PARC, <a href=\"http://www.mac-history.net/computer-history/2012-03-22/apple-and-xerox-parc\">當年 Apple 的 Steve Jobs 就是到 XeroX PARC 參觀, 才發明了後來的麥金塔電腦的 GUI</a>。 這又是另一個電腦科技世代的開始; 你想要成為下一個 Steve Jobs 嗎, 可以先偷看一下他們的第一個發明 \"<a href=\"https://gym.openai.com/docs/rl\">reinforcement learning</a>\"。</p>",
+          "description_markdown": "研究人工智慧, 其實就是搶人大戰; 竟然還有誰可以搶贏 Google 和 Facebook? 大概只有 Elon Musk 了.  我想吸引 Zaremba 加入 [OpenAI](https://openai.com/blog/introducing-openai/) 公司的不是高薪, 而是 Musk 與 Altman 成立這家公司的理念: \"要讓 AI 更好, 就不能把最新的發現只留給自己 “。 他們把 OpenAI 公司比喻為 1970s 年代的 Xerox PARC, [當年 Apple 的 Steve Jobs 就是到 XeroX PARC 參觀, 才發明了後來的麥金塔電腦的 GUI](http://www.mac-history.net/computer-history/2012-03-22/apple-and-xerox-parc)。 這又是另一個電腦科技世代的開始; 你想要成為下一個 Steve Jobs 嗎, 可以先偷看一下他們的第一個發明 \"[reinforcement learning](https://gym.openai.com/docs/rl)\"。",
+          "embedded_links": [
+            {
+              "identifier": "E9y0qe0",
+              "title": "OpenAI",
+              "url_domain": "openai.com",
+              "url": "https://openai.com/blog/introducing-openai/"
+            },
+            {
+              "identifier": "3Jyw5jY",
+              "title": "當年 Apple 的 Steve Jobs 就是到 XeroX PARC 參觀, 才發明了後來的麥金塔電腦的 GUI",
+              "url_domain": "mac-history.net",
+              "url": "http://www.mac-history.net/computer-history/2012-03-22/apple-and-xerox-parc"
+            },
+            {
+              "identifier": "ITB5Eh7",
+              "title": "reinforcement learning",
+              "url_domain": "openai.com",
+              "url": "https://gym.openai.com/docs/rl"
+            }
+          ]
+        },
+        {
+          "identifier": "O328hLw",
+          "type": "Link",
+          "title": "15 Things You Should Know About Ansible",
+          "url_domain": "codeheaven.io",
+          "url": "http://codeheaven.io/15-things-you-should-know-about-ansible/",
+          "description": "<p>當你學會了怎麼使用 Ansible, 就來玩一點技巧吧。這篇文章教你一些小撇步, 我尤其喜歡第 12 項; 一個簡單的方法, 就可以叫 Ansible 部署哪一些 Amazon EC2 主機, 現在才發現為何 AWS 要讓你替每一個 EC2 instance 定義 tags。</p>",
+          "description_markdown": "當你學會了怎麼使用 Ansible, 就來玩一點技巧吧。這篇文章教你一些小撇步, 我尤其喜歡第 12 項; 一個簡單的方法, 就可以叫 Ansible 部署哪一些 Amazon EC2 主機, 現在才發現為何 AWS 要讓你替每一個 EC2 instance 定義 tags。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

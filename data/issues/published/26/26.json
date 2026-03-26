@@ -1,0 +1,488 @@
+{
+  "number": 26,
+  "title": "Issue 26 自從注意到更新 Xcode 需要先關閉 iTunes 之後，我對於模組解耦合這件事已經沒有追求",
+  "summary": "本期內容涵蓋 Git, iOS, Android, Swift, RxJava, Topbeat, Redux, JavaScript, npm",
+  "url": "https://weekly.codetengu.com/issues/26",
+  "publication_status": "published",
+  "published_at": "2016-01-25T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:31:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 一直被問要不要寫 Android App 的後端工程師</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/)\r\n- [@wancw](https://twitter.com/wancw) - 一直被問要不要寫 Android App 的後端工程師\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@mingderwang](https://github.com/mingderwang)\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "IoODR9P",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Y7fEQD1",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "EsV7qHL",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "IIcrrpc",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "SQxFEa4",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ATqdq7t",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "9w6ziMy",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "rGPkZW0",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "n8rSxBh",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "5hJvkXb",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "JdT98eM",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "5lew90h",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "YuZZA0z",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "8jOaUg8",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "qlZoTYP",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "sWPIY0F",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "FF6uCaL",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Qv99mEi",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ZOIK6Jv",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "yllo0fA",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "Dig410e",
+          "type": "Link",
+          "title": "git add -p: The most powerful git feature you're not using yet",
+          "url_domain": "johnkary.net",
+          "url": "http://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet/",
+          "description": "<p>上個月才發現 <code>git add -p</code> 這個指令，git add patch mode 可以讓你選擇要 stage 哪些 hunk。\n以前都會克制自己寫 code 的時候盡量只做一件事情，看到髒東西或怪東西的時候留一個 TODO 的註解就閃人下次再來改。但在知道 patch mode 之後現在就都順手把它改掉了。</p>\n\n<p>同場加映 <a href=\"https://git-scm.com/book/zh-tw/v2/Git-Tools-Interactive-Staging\">interactive mode</a> <a href=\"https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E4%BA%92%E5%8B%95%E5%BC%8F%E6%9A%AB%E5%AD%98\">(中文版)</a>，是包含 patch mode 的強化版，強大到自己帶了選單，對象是整個 repository，可以操作多個 file，一次搞定。</p>",
+          "description_markdown": "上個月才發現 `git add -p` 這個指令，git add patch mode 可以讓你選擇要 stage 哪些 hunk。\r\n以前都會克制自己寫 code 的時候盡量只做一件事情，看到髒東西或怪東西的時候留一個 TODO 的註解就閃人下次再來改。但在知道 patch mode 之後現在就都順手把它改掉了。\r\n\r\n同場加映 [interactive mode](https://git-scm.com/book/zh-tw/v2/Git-Tools-Interactive-Staging) [(中文版)](https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E4%BA%92%E5%8B%95%E5%BC%8F%E6%9A%AB%E5%AD%98)，是包含 patch mode 的強化版，強大到自己帶了選單，對象是整個 repository，可以操作多個 file，一次搞定。",
+          "embedded_links": [
+            {
+              "identifier": "wyCNydQ",
+              "title": "interactive mode",
+              "url_domain": "git-scm.com",
+              "url": "https://git-scm.com/book/zh-tw/v2/Git-Tools-Interactive-Staging"
+            },
+            {
+              "identifier": "ikYurs5",
+              "title": "(中文版)",
+              "url_domain": "git-scm.com",
+              "url": "https://git-scm.com/book/zh-tw/v1/Git-%E5%B7%A5%E5%85%B7-%E4%BA%92%E5%8B%95%E5%BC%8F%E6%9A%AB%E5%AD%98"
+            }
+          ]
+        },
+        {
+          "identifier": "jDwya3S",
+          "type": "Link",
+          "title": "CoreData VS Realm ",
+          "url_domain": "iiiyu.com",
+          "url": "http://iiiyu.com/2016/01/19/CoreData-VS-Realm/",
+          "description": "<p>在 iOS 上要做本地儲存的選擇有不少。這篇文記錄了作者從 Core Data 轉移到 <a href=\"https://realm.io/\">Realm</a> 的心得。</p>\n\n<p>Core Data 資源豐富但學習曲線陡峭是眾所皆知 (剛學 iOS 開發的時候在書店看到 Core Data 的書比 iOS SDK 的書還厚，我心都涼了)，而且不透過第三方工具的輔助還真的不太好用。我跟這篇文的作者一樣有用 <a href=\"https://github.com/rentzsch/mogenerator\">mogenerator</a> 來建 Entity、<a href=\"https://github.com/magicalpanda/MagicalRecord\">MagicalRecord</a> 來輔助操作，此外我的 API Client 是 <a href=\"https://github.com/RestKit/RestKit\">RESTKit</a> 透過 object mapping 直接塞到 DB 裡，很方便。</p>\n\n<p>通常在做技術選擇的時候第一個問題都是「到底要不要用 Core Data」，而 Realm 是現在較熱門的其他選擇，但老實說如果不用 Core Data 的話我可能會直接採用 <a href=\"https://github.com/ccgus/fmdb\">FMDB</a> 就是了。</p>\n\n<p>註：我個人非常喜歡 Core Data Framework 提供的這個 <a href=\"https://developer.apple.com/library/ios/documentation/CoreData/Reference/NSFetchedResultsController_Class/\">NSFetchedResultsController</a>，呈現一個上癮狀態。</p>",
+          "description_markdown": "在 iOS 上要做本地儲存的選擇有不少。這篇文記錄了作者從 Core Data 轉移到 [Realm](https://realm.io/) 的心得。\r\n\r\nCore Data 資源豐富但學習曲線陡峭是眾所皆知 (剛學 iOS 開發的時候在書店看到 Core Data 的書比 iOS SDK 的書還厚，我心都涼了)，而且不透過第三方工具的輔助還真的不太好用。我跟這篇文的作者一樣有用 [mogenerator](https://github.com/rentzsch/mogenerator) 來建 Entity、[MagicalRecord](https://github.com/magicalpanda/MagicalRecord) 來輔助操作，此外我的 API Client 是 [RESTKit](https://github.com/RestKit/RestKit) 透過 object mapping 直接塞到 DB 裡，很方便。\r\n\r\n通常在做技術選擇的時候第一個問題都是「到底要不要用 Core Data」，而 Realm 是現在較熱門的其他選擇，但老實說如果不用 Core Data 的話我可能會直接採用 [FMDB](https://github.com/ccgus/fmdb) 就是了。\r\n\r\n註：我個人非常喜歡 Core Data Framework 提供的這個 [NSFetchedResultsController](https://developer.apple.com/library/ios/documentation/CoreData/Reference/NSFetchedResultsController_Class/)，呈現一個上癮狀態。",
+          "embedded_links": [
+            {
+              "identifier": "cXZTlue",
+              "title": "Realm",
+              "url_domain": "realm.io",
+              "url": "https://realm.io/"
+            },
+            {
+              "identifier": "FuJpBp6",
+              "title": "mogenerator",
+              "url_domain": "github.com",
+              "url": "https://github.com/rentzsch/mogenerator"
+            },
+            {
+              "identifier": "xNwJ98Q",
+              "title": "MagicalRecord",
+              "url_domain": "github.com",
+              "url": "https://github.com/magicalpanda/MagicalRecord"
+            },
+            {
+              "identifier": "bN3cggM",
+              "title": "RESTKit",
+              "url_domain": "github.com",
+              "url": "https://github.com/RestKit/RestKit"
+            },
+            {
+              "identifier": "OzRet3V",
+              "title": "FMDB",
+              "url_domain": "github.com",
+              "url": "https://github.com/ccgus/fmdb"
+            },
+            {
+              "identifier": "Y2we3eC",
+              "title": "NSFetchedResultsController",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/ios/documentation/CoreData/Reference/NSFetchedResultsController_Class/"
+            }
+          ]
+        },
+        {
+          "identifier": "5YFsSlb",
+          "type": "Link",
+          "title": "Hipster Swift: Demystifying the Mysterious",
+          "url_domain": "krakendev.io",
+          "url": "http://krakendev.io/blog/hipster-swift",
+          "description": "<p>像我這種只用 Swift 來寫過小項目，還沒在每天工作項目上使用 Swift 的人來說，難免覺得 Swift 提供的語法糖（syntactic sugar）好像也太多了點，有時會看到一些覺得「你是誰啊？」的用法。<br/>\n這篇文章整理了 Swift 新潮的語法特性，是居家防身兩相宜。<br/>\n包含了 <code>@noescape</code>, <code>@autoclosure</code>, <code>@lazy</code>, parameter with <code>...</code>, <code>dynamic</code>, built-in identifiers (<code>__FILE__</code>, <code>__FUNCTION__</code> ..), loop labels (<code>break</code>, <code>continue</code>)。</p>\n\n<p>學習了。</p>\n\n<p>Swift 是一個快速發展中的語言，也因為它提供了各式各樣實作的可能性，建議在團隊使用時得訂出並遵循一份 Coding Guidelines，可以參考 <a href=\"https://github.com/github/swift-style-guide\">GitHub</a> 或 <a href=\"https://github.com/raywenderlich/swift-style-guide\">RayWenderlich</a>。</p>",
+          "description_markdown": "像我這種只用 Swift 來寫過小項目，還沒在每天工作項目上使用 Swift 的人來說，難免覺得 Swift 提供的語法糖（syntactic sugar）好像也太多了點，有時會看到一些覺得「你是誰啊？」的用法。  \r\n這篇文章整理了 Swift 新潮的語法特性，是居家防身兩相宜。  \r\n包含了 `@noescape`, `@autoclosure`, `@lazy`, parameter with `...`, `dynamic`, built-in identifiers (`__FILE__`, `__FUNCTION__` ..), loop labels (`break`, `continue`)。\r\n\r\n學習了。\r\n\r\nSwift 是一個快速發展中的語言，也因為它提供了各式各樣實作的可能性，建議在團隊使用時得訂出並遵循一份 Coding Guidelines，可以參考 [GitHub](https://github.com/github/swift-style-guide) 或 [RayWenderlich](https://github.com/raywenderlich/swift-style-guide)。",
+          "embedded_links": [
+            {
+              "identifier": "gtc5Wo9",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/github/swift-style-guide"
+            },
+            {
+              "identifier": "KDrPlYz",
+              "title": "RayWenderlich",
+              "url_domain": "github.com",
+              "url": "https://github.com/raywenderlich/swift-style-guide"
+            }
+          ]
+        },
+        {
+          "identifier": "rH2JCgy",
+          "type": "Link",
+          "title": "RxJava's Side Effect Methods",
+          "url_domain": "grokkingandroid.com",
+          "url": "http://www.grokkingandroid.com/rxjavas-side-effect-methods/?utm_source=Android+Weekly&utm_campaign=faec756f5a-Android_Weekly_179&utm_medium=email&utm_term=0_4eb677ad19-faec756f5a-337958501",
+          "description": "<p>在不斷地導入 <a href=\"https://www.quora.com/What-is-Functional-Reactive-Programming\">Functional Reactive Programming</a> 進行開發的過程中發現，怎麼設計你的 stream 是最重要的，我自己的標準是這個 stream 到結束之前可以做完哪些事情。\n透過 side effect method 的巧妙利用，讓很多原本以為沒有辦法在這個 stream 做的事情變得可能了。</p>\n\n<p>這篇文主要是在介紹 <a href=\"https://github.com/ReactiveX/RxJava\">RxJava</a> 的 side effect methods，並以利用 <code>doOnNext()</code> 做 debugging, caching 及 <code>doOnError()</code> 做 error handling 來舉例。</p>",
+          "description_markdown": "在不斷地導入 [Functional Reactive Programming](https://www.quora.com/What-is-Functional-Reactive-Programming) 進行開發的過程中發現，怎麼設計你的 stream 是最重要的，我自己的標準是這個 stream 到結束之前可以做完哪些事情。\r\n透過 side effect method 的巧妙利用，讓很多原本以為沒有辦法在這個 stream 做的事情變得可能了。\r\n\r\n這篇文主要是在介紹 [RxJava](https://github.com/ReactiveX/RxJava) 的 side effect methods，並以利用 `doOnNext()` 做 debugging, caching 及 `doOnError()` 做 error handling 來舉例。",
+          "embedded_links": [
+            {
+              "identifier": "DQY8F4t",
+              "title": "Functional Reactive Programming",
+              "url_domain": "quora.com",
+              "url": "https://www.quora.com/What-is-Functional-Reactive-Programming"
+            },
+            {
+              "identifier": "EatgWSo",
+              "title": "RxJava",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveX/RxJava"
+            }
+          ]
+        },
+        {
+          "identifier": "98MNqr3",
+          "type": "Link",
+          "title": "Android Application Architecture (Android Dev Summit 2015) - YouTube",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=BlkJzgjzL0c",
+          "description": "<p>這大概是近期 Android 界最熱門的 talk 了，針對 Android 實際開發上會遇到的各種問題跟選擇給出建議，建議大家可以看一下，我是覺得含金量很高。<br/>\n從前端架構、Best Practices 講到 API Design 然後忽然開始寫後端，他們的 backend solution 是 rails。</p>\n\n<p>他的 Source code <a href=\"https://github.com/yigit/dev-summit-architecture-demo\">在這</a> ，文件寫得超用心，而且 Android Client 跟 Server code 都放上來了！</p>",
+          "description_markdown": "這大概是近期 Android 界最熱門的 talk 了，針對 Android 實際開發上會遇到的各種問題跟選擇給出建議，建議大家可以看一下，我是覺得含金量很高。  \r\n從前端架構、Best Practices 講到 API Design 然後忽然開始寫後端，他們的 backend solution 是 rails。\r\n\r\n他的 Source code [在這](https://github.com/yigit/dev-summit-architecture-demo) ，文件寫得超用心，而且 Android Client 跟 Server code 都放上來了！",
+          "embedded_links": [
+            {
+              "identifier": "E2C9ezF",
+              "title": "在這",
+              "url_domain": "github.com",
+              "url": "https://github.com/yigit/dev-summit-architecture-demo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "D1z9MuX",
+          "type": "Link",
+          "title": "Linux Kernel Zero Day 漏洞 CVE-2016-0728 [ 19/Jan/2016 ] 你補了沒？",
+          "url_domain": "cyberciti.biz",
+          "url": "http://www.cyberciti.biz/faq/linux-cve-2016-0728-0-day-local-privilege-escalation-vulnerability-fix/",
+          "description": "<p>不管 32 或 64 位元 Kernel 版本 3.8+ 以上的 Linux 都有這 zero-day 漏洞 <a href=\"http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/\">CVE-2016-0728</a>, 不要再往下看了, 還沒修補的人, 請趕快先去修補您的 Linux OS。如果您電腦已經沒問題, 看看你 Android 手機 OS 版本, 只要是<a href=\"http://www.zdnet.com/article/new-zero-day-flaw-hits-millions-of-linux-servers-also-affects-most-android-devices/\"> Android KitKat 4.4</a> 以上都中獎了, 如果你手機原廠不提供 OS 更新, 可以有藉口換一支新手機了。</p>",
+          "description_markdown": "不管 32 或 64 位元 Kernel 版本 3.8+ 以上的 Linux 都有這 zero-day 漏洞 [CVE-2016-0728](http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/), 不要再往下看了, 還沒修補的人, 請趕快先去修補您的 Linux OS。如果您電腦已經沒問題, 看看你 Android 手機 OS 版本, 只要是[ Android KitKat 4.4]( http://www.zdnet.com/article/new-zero-day-flaw-hits-millions-of-linux-servers-also-affects-most-android-devices/) 以上都中獎了, 如果你手機原廠不提供 OS 更新, 可以有藉口換一支新手機了。",
+          "embedded_links": [
+            {
+              "identifier": "6ZzR6eW",
+              "title": "CVE-2016-0728",
+              "url_domain": "perception-point.io",
+              "url": "http://perception-point.io/2016/01/14/analysis-and-exploitation-of-a-linux-kernel-vulnerability-cve-2016-0728/"
+            },
+            {
+              "identifier": "CAtx5t3",
+              "title": " Android KitKat 4.4",
+              "url_domain": "zdnet.com",
+              "url": "http://www.zdnet.com/article/new-zero-day-flaw-hits-millions-of-linux-servers-also-affects-most-android-devices/"
+            }
+          ]
+        },
+        {
+          "identifier": "Qygv9TL",
+          "type": "Link",
+          "title": "一個跨平臺的聲音特效程式庫",
+          "url_domain": "github.com",
+          "url": "https://github.com/superpoweredSDK/Low-Latency-Android-Audio-iOS-Audio-Engine",
+          "description": "<p>如果你想在 Android 或 iOS 上使用聲音特效開發軟體, 不管是遊戲, 樂器, 音樂特效, 聲音互動軟體, <a href=\"http://superpowered.com/\">superpowered</a> 是一個不錯的選擇。它除了提供手機語音 IO 的處理方法以外, 還提供各種 DSP 功能, 例如 FFT 轉換, 讓你軟體的聲音變得非常生動有趣, 而且比其他家好的地方是 CPU 使用率低, 延遲少, 且跨平臺。</p>",
+          "description_markdown": "如果你想在 Android 或 iOS 上使用聲音特效開發軟體, 不管是遊戲, 樂器, 音樂特效, 聲音互動軟體, [superpowered](http://superpowered.com/) 是一個不錯的選擇。它除了提供手機語音 IO 的處理方法以外, 還提供各種 DSP 功能, 例如 FFT 轉換, 讓你軟體的聲音變得非常生動有趣, 而且比其他家好的地方是 CPU 使用率低, 延遲少, 且跨平臺。",
+          "embedded_links": [
+            {
+              "identifier": "aw7UAQZ",
+              "title": "superpowered",
+              "url_domain": "superpowered.com",
+              "url": "http://superpowered.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "mi7QLRZ",
+          "type": "Link",
+          "title": "如何安裝 Topbeat, 幫你收集系統 metrics 到 ELK",
+          "url_domain": "elastic.co",
+          "url": "https://www.elastic.co/guide/en/beats/topbeat/current/topbeat-getting-started.html",
+          "description": "<p>好久沒介紹 Elasticsearch 了, 最近 Elastic 公司推出新產品 <a href=\"https://www.elastic.co/guide/en/beats/topbeat/current/topbeat-getting-started.html\">Topbeat 1.0.1</a>, 可以收集系統的 metrics, 而且相當容易安裝。Elastic 公司也貼心的幫你把 Kibana 的 dashboard 都做好了, 只要照 <a href=\"https://www.elastic.co/guide/en/beats/libbeat/1.0.1/getting-started.html#load-kibana-dashboards\">這幾個步驟</a> 就可以完成, 馬上就能看到結果。</p>",
+          "description_markdown": "好久沒介紹 Elasticsearch 了, 最近 Elastic 公司推出新產品 [Topbeat 1.0.1](https://www.elastic.co/guide/en/beats/topbeat/current/topbeat-getting-started.html), 可以收集系統的 metrics, 而且相當容易安裝。Elastic 公司也貼心的幫你把 Kibana 的 dashboard 都做好了, 只要照 [這幾個步驟](https://www.elastic.co/guide/en/beats/libbeat/1.0.1/getting-started.html#load-kibana-dashboards) 就可以完成, 馬上就能看到結果。",
+          "embedded_links": [
+            {
+              "identifier": "4vwbJVk",
+              "title": "Topbeat 1.0.1",
+              "url_domain": "elastic.co",
+              "url": "https://www.elastic.co/guide/en/beats/topbeat/current/topbeat-getting-started.html"
+            },
+            {
+              "identifier": "EnXXatm",
+              "title": "這幾個步驟",
+              "url_domain": "elastic.co",
+              "url": "https://www.elastic.co/guide/en/beats/libbeat/1.0.1/getting-started.html#load-kibana-dashboards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "cluPFdq",
+          "type": "Link",
+          "title": "從 source code 來看 Redux 更新 state 的運行機制",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@as790726/%E5%BE%9E-source-code-%E4%BE%86%E7%9C%8B-redux-%E7%9A%84%E9%81%8B%E8%A1%8C%E6%A9%9F%E5%88%B6-f5e0adc1b9f6#.kuxe8df0q",
+          "description": "<p>Facebook 提出 Flux 架構後， <a href=\"https://github.com/rackt/redux\">Redux</a> 似乎是目前最夯的實作了！官方文件用一句話簡單描述 Redux ：\n\"Redux is a predictable state container for JavaScript apps\" ，單一方向的資料流可以使得架構更清楚簡單，每個 unit 各司其職，容易預測跟測試組件的行為。</p>\n\n<p>Redux 的資料遵從 single source of truth 的概念，資料只放在同一個地方，減少散落在各處的資料相互溝通所造成的複雜度。</p>\n\n<p>文中會介紹 redux 裡會帶大家簡單理解 state, middleware, 以及 bindActionCreator 的運作方式。</p>",
+          "description_markdown": "Facebook 提出 Flux 架構後， [Redux](https://github.com/rackt/redux) 似乎是目前最夯的實作了！官方文件用一句話簡單描述 Redux ：\r\n\"Redux is a predictable state container for JavaScript apps\" ，單一方向的資料流可以使得架構更清楚簡單，每個 unit 各司其職，容易預測跟測試組件的行為。\r\n\r\nRedux 的資料遵從 single source of truth 的概念，資料只放在同一個地方，減少散落在各處的資料相互溝通所造成的複雜度。\r\n\r\n文中會介紹 redux 裡會帶大家簡單理解 state, middleware, 以及 bindActionCreator 的運作方式。",
+          "embedded_links": [
+            {
+              "identifier": "qWC9YQs",
+              "title": "Redux",
+              "url_domain": "github.com",
+              "url": "https://github.com/rackt/redux"
+            }
+          ]
+        },
+        {
+          "identifier": "ibBwbVc",
+          "type": "Link",
+          "title": "React.js pure render performance anti-pattern",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@esamatti/react-js-pure-render-performance-anti-pattern-fb88c101332f#.bvj48oqiq",
+          "description": "<p>在撰寫 react component 時，為了減少不必要的 re-render ，有時會加入 <a href=\"https://facebook.github.io/react/docs/pure-render-mixin.html\">PureRenderMixin</a> 或者實作 shouldComponentUpdate 來檢查資料是否改變，是否需要 re-render 。</p>\n\n<p>在做這些 optimize 時，必須要注意有沒有從 props 帶入新的 object ， 避免在 data 沒改變的情況下重畫 child component ：</p>\n\n<ul>\n<li>避免帶入 {} 或 [] 產生新的 object</li>\n<li>避免在帶入 function 時 使用 bind(this) 產生新的 function</li>\n</ul>",
+          "description_markdown": "在撰寫 react component 時，為了減少不必要的 re-render ，有時會加入 [PureRenderMixin](https://facebook.github.io/react/docs/pure-render-mixin.html) 或者實作 shouldComponentUpdate 來檢查資料是否改變，是否需要 re-render 。\r\n\r\n在做這些 optimize 時，必須要注意有沒有從 props 帶入新的 object ， 避免在 data 沒改變的情況下重畫 child component ：\r\n\r\n* 避免帶入 {} 或 [] 產生新的 object\r\n* 避免在帶入 function 時 使用 bind(this) 產生新的 function",
+          "embedded_links": [
+            {
+              "identifier": "5e2Caa0",
+              "title": "PureRenderMixin",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/react/docs/pure-render-mixin.html"
+            }
+          ]
+        },
+        {
+          "identifier": "jQjpeT5",
+          "type": "Link",
+          "title": "Javascript is a prototypal language. What do I mean by this?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@will_gottchalk/javascript-interview-questions-javascript-is-a-prototypal-language-what-do-i-mean-by-this-76937a9aa42a#.r6ecbcldb",
+          "description": "<p>在 JavaScript 的世界裡，當宣告一個 function ，就會自動產生連結到 prototype ， 而該 function 就是此 prototype 的 contructor ， 成為一個互相循環的關係。\n本文將探討 new 這個動作的實作 ， 以及產生之 object 與 prototype 的關聯 ， 讓大家更了解 prototype 的運作方式。</p>",
+          "description_markdown": "在 JavaScript 的世界裡，當宣告一個 function ，就會自動產生連結到 prototype ， 而該 function 就是此 prototype 的 contructor ， 成為一個互相循環的關係。\r\n本文將探討 new 這個動作的實作 ， 以及產生之 object 與 prototype 的關聯 ， 讓大家更了解 prototype 的運作方式。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Xd6NUXx",
+          "type": "Link",
+          "title": "Danger of using async/await in ES7",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@yamalight/danger-of-using-async-await-in-es7-8006e3eb7efb#.a14ikg5kw",
+          "description": "<p>使用 ES7 的 async function 時，如有多個 await 指令，則會互相等待依序執行，假設要同時執行兩個以上的 await 指令，還是必須要配合 ES6 的 Promise.all 使用，不過因為搭配 await ， error 就不能直接透過 Promise.all 的 catch 來 trace 了。</p>\n\n<p>文章內提供三種解法：</p>\n\n<ul>\n<li>try/catch - 適用於循序執行的 await 指令</li>\n<li>在 call async function 時加入 .catch</li>\n<li>使用 <a href=\"https://github.com/petkaantonov/bluebird\">bluebird</a> 做為 Promise</li>\n</ul>",
+          "description_markdown": "使用 ES7 的 async function 時，如有多個 await 指令，則會互相等待依序執行，假設要同時執行兩個以上的 await 指令，還是必須要配合 ES6 的 Promise.all 使用，不過因為搭配 await ， error 就不能直接透過 Promise.all 的 catch 來 trace 了。\r\n\r\n文章內提供三種解法：\r\n\r\n* try/catch - 適用於循序執行的 await 指令\r\n* 在 call async function 時加入 .catch\r\n* 使用 [bluebird](https://github.com/petkaantonov/bluebird) 做為 Promise",
+          "embedded_links": [
+            {
+              "identifier": "oNQyGIO",
+              "title": "bluebird",
+              "url_domain": "github.com",
+              "url": "https://github.com/petkaantonov/bluebird"
+            }
+          ]
+        },
+        {
+          "identifier": "Gm6exBL",
+          "type": "Link",
+          "title": "Offline installation of npm packages",
+          "url_domain": "addyosmani.com",
+          "url": "https://addyosmani.com/blog/using-npm-offline/",
+          "description": "<p>在使用 npm 安裝 package 時，會保存兩份在 local 端，一份在 ～/.npm ，一份在 node_moudles 下，不過每次 npm install 時，都只會檢查 node_moudles 裡是否已有該版本的 package ，所以常常會重新抓同樣 package 耗費很多時間，為了解決這樣的問題，可以使用 --cache-min 參數，或者 <a href=\"https://github.com/nolanlawson/local-npm\">local-npm</a>  。</p>",
+          "description_markdown": "在使用 npm 安裝 package 時，會保存兩份在 local 端，一份在 ～/.npm ，一份在 node_moudles 下，不過每次 npm install 時，都只會檢查 node_moudles 裡是否已有該版本的 package ，所以常常會重新抓同樣 package 耗費很多時間，為了解決這樣的問題，可以使用 --cache-min 參數，或者 [local-npm](https://github.com/nolanlawson/local-npm)  。",
+          "embedded_links": [
+            {
+              "identifier": "yRw1FZA",
+              "title": "local-npm",
+              "url_domain": "github.com",
+              "url": "https://github.com/nolanlawson/local-npm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "type": "Text",
+          "title": "將中二進行到底的美好世界。",
+          "description": "<p><a href=\"https://twitter.com/asano_inio\">浅野一二〇</a></p>\n\n<p>記得曾經在文章中讀到某大師說「如果所有的漫畫都像<a href=\"http://www.tohan.com.tw/products/detail_1.php?id=3460\">《晚安，布布》</a>的話就太 @%#^&amp; 了啊!!!」忘記原文了總之是負評 XD。那時候心裡讚了一聲好，這個評論完全切中核心，因為打從一開始浅野就沒有要創作讓大家自我感覺良好的作品嘛！</p>\n\n<p>千萬不要天真的以為迎來布布的 13 卷完結之後 (X 販我們永遠等待你)，我們就能從浅野迷霧中脫身，中二爆破的這部新作<a href=\"http://sample.shogakukan.co.jp/bv?isbn=9784091865007\">《デッドデッドデーモンズデデデデデストラクション》</a>，就算硬是暴力破譯成中文也是 \"死死魔鬼毀毀毀毀毀滅\" 這麼中二，所以網路上都簡稱 \"滅世\"。</p>\n\n<p>在這個粗眉毛當女主角的世界，像 EVA 一樣有莫名襲來的外星機體，於是所有的地球人卯起來進行了一場國際對空打怪競賽，飛來就打，日本想當然很厲害。我們的女主角是個講十句話只聽得懂三句、而這三句還都沒什麼連貫性的雙馬尾粗眉毛高三生，一貫的浅野風格，一貫的青臭。</p>\n\n<p>最後用<a href=\"http://sol-comics.shogakukan.co.jp/solc_dtl?isbn=9784091865007\">小学館編輯的推文精華</a>、用現代詩一般的破碎感來綜合我所有的心得：「夢中的女子、崩壞的女子、戰爭遊戲、死黨的帥哥肥宅哥哥、泡泡一樣的初戀、永遠的 8 月 31 日、覆蓋天空的絕望。」有浅野陪伴的世界總是中二得令人很舒爽，對吧！但我實在不敢期待有人會代理中文版，嗯。</p>\n\n<p>以上來自 <a href=\"https://twitter.com/autisticcat\">@autisticcat</a> 的分享！</p>",
+          "description_markdown": "[浅野一二〇](https://twitter.com/asano_inio)\r\n\r\n記得曾經在文章中讀到某大師說「如果所有的漫畫都像[《晚安，布布》](http://www.tohan.com.tw/products/detail_1.php?id=3460)的話就太 @%#^& 了啊!!!」忘記原文了總之是負評 XD。那時候心裡讚了一聲好，這個評論完全切中核心，因為打從一開始浅野就沒有要創作讓大家自我感覺良好的作品嘛！\r\n\r\n千萬不要天真的以為迎來布布的 13 卷完結之後 (X 販我們永遠等待你)，我們就能從浅野迷霧中脫身，中二爆破的這部新作[《デッドデッドデーモンズデデデデデストラクション》](http://sample.shogakukan.co.jp/bv?isbn=9784091865007)，就算硬是暴力破譯成中文也是 \"死死魔鬼毀毀毀毀毀滅\" 這麼中二，所以網路上都簡稱 \"滅世\"。\r\n\r\n在這個粗眉毛當女主角的世界，像 EVA 一樣有莫名襲來的外星機體，於是所有的地球人卯起來進行了一場國際對空打怪競賽，飛來就打，日本想當然很厲害。我們的女主角是個講十句話只聽得懂三句、而這三句還都沒什麼連貫性的雙馬尾粗眉毛高三生，一貫的浅野風格，一貫的青臭。\r\n\r\n最後用[小学館編輯的推文精華](http://sol-comics.shogakukan.co.jp/solc_dtl?isbn=9784091865007)、用現代詩一般的破碎感來綜合我所有的心得：「夢中的女子、崩壞的女子、戰爭遊戲、死黨的帥哥肥宅哥哥、泡泡一樣的初戀、永遠的 8 月 31 日、覆蓋天空的絕望。」有浅野陪伴的世界總是中二得令人很舒爽，對吧！但我實在不敢期待有人會代理中文版，嗯。\r\n\r\n以上來自 [@autisticcat](https://twitter.com/autisticcat) 的分享！",
+          "footer": "<p>CodeTengu Weekly</p>",
+          "embedded_links": [
+            {
+              "identifier": "sCWhufP",
+              "title": "浅野一二〇",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/asano_inio"
+            },
+            {
+              "identifier": "jiDtsQ8",
+              "title": "《晚安，布布》",
+              "url_domain": "tohan.com.tw",
+              "url": "http://www.tohan.com.tw/products/detail_1.php?id=3460"
+            },
+            {
+              "identifier": "WggnrXw",
+              "title": "《デッドデッドデーモンズデデデデデストラクション》",
+              "url_domain": "shogakukan.co.jp",
+              "url": "http://sample.shogakukan.co.jp/bv?isbn=9784091865007"
+            },
+            {
+              "identifier": "8tiVphW",
+              "title": "小学館編輯的推文精華",
+              "url_domain": "shogakukan.co.jp",
+              "url": "http://sol-comics.shogakukan.co.jp/solc_dtl?isbn=9784091865007"
+            },
+            {
+              "identifier": "u9ZQsMh",
+              "title": "@autisticcat",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/autisticcat"
+            }
+          ],
+          "image_original_filename": "99f071c9-3650-4712-a301-5d62810ba13b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_99f071c9-3650-4712-a301-5d62810ba13b.png",
+          "image_medium_filename": "original_ratio_medium_99f071c9-3650-4712-a301-5d62810ba13b.png"
+        }
+      ]
+    }
+  ]
+}

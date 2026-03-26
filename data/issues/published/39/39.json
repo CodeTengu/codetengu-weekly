@@ -1,0 +1,594 @@
+{
+  "number": 39,
+  "title": "Issue 39 SQL 原教旨主義者每 9.5 個月就會對使用 ORM 的族群發起一次聖戰",
+  "summary": "本期內容涵蓋 Laravel, PHP, CSS, Go, 深度學習, 機器學習",
+  "url": "https://weekly.codetengu.com/issues/39",
+  "publication_status": "published",
+  "published_at": "2016-04-18T03:00:00+01:00",
+  "updated_at": "2016-05-03T17:38:22+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">平面國</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵 Android 工程師，<a href=\"https://www.indievox.com/h/jobs.html\">意者內洽</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - /ASD.?/ 工程師</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[平面國](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵 Android 工程師，[意者內洽](https://www.indievox.com/h/jobs.html)\r\n- [@wancw](https://twitter.com/wancw) - /ASD.?/ 工程師\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "1EML3fk",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Htyr3jM",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Dve9Qkp",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "kO2yxHu",
+              "title": "平面國",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "hg63QmP",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "brMIdV6",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "CDsTgsV",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "yfuOH0i",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "9RJvWAc",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "3aClPHg",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "2FHFh8X",
+              "title": "意者內洽",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/h/jobs.html"
+            },
+            {
+              "identifier": "r1ExAcJ",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "RMaiKET",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "Z52G5dR",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "Vzca43z",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "CJV2OYO",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "x5HFhjm",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "6AyJoA2",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "VzTM82L",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "PiqEq7",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "iESwJSK",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "no5L3et",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "Hb4nNpk",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "fQhnHAc",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "sheH3Ae",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "bQLBB3W",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "CWWhJRv",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "3LcZpZQ",
+          "type": "Link",
+          "title": "Deep3D: Automatic 2D-to-3D Video Conversion with CNNs - 親愛的！我把 2D 影片變成 3D 影片了！",
+          "url_domain": "dmlc.ml",
+          "url": "http://dmlc.ml/mxnet/2016/04/04/deep3d-automatic-2d-to-3d-conversion-with-CNN.html",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>Deep3D 這篇<a href=\"http://homes.cs.washington.edu/~jxie/pdf/deep3d.pdf\">論文</a>很有趣，它使用了 Deep Convolutional Neural Networks 這個深度學習演算法來將一個 2D 的圖片轉換成 3D 的視覺感，如此就可以將一個 2D 影片自動轉成 3D 影片！原理就是利用機器學習來偵測每一幀圖片中物件的景深，如此就可以為不同景深的物件微調產生左右眼觀看這些物件在圖片中的位置，進而產生立體感（其實有些用 2D 攝影機拍攝的電影也是用這樣的原理，使用人工的方式調成 3D 的）。很有趣吧！我個人是覺得很有趣啦！大家可以去找他們的<a href=\"https://github.com/piiswrong/deep3d\">原始碼</a>來玩玩看～</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\nDeep3D 這篇[論文](http://homes.cs.washington.edu/~jxie/pdf/deep3d.pdf)很有趣，它使用了 Deep Convolutional Neural Networks 這個深度學習演算法來將一個 2D 的圖片轉換成 3D 的視覺感，如此就可以將一個 2D 影片自動轉成 3D 影片！原理就是利用機器學習來偵測每一幀圖片中物件的景深，如此就可以為不同景深的物件微調產生左右眼觀看這些物件在圖片中的位置，進而產生立體感（其實有些用 2D 攝影機拍攝的電影也是用這樣的原理，使用人工的方式調成 3D 的）。很有趣吧！我個人是覺得很有趣啦！大家可以去找他們的[原始碼](https://github.com/piiswrong/deep3d)來玩玩看～",
+          "embedded_links": [
+            {
+              "identifier": "N4Rwg5n",
+              "title": "論文",
+              "url_domain": "washington.edu",
+              "url": "http://homes.cs.washington.edu/~jxie/pdf/deep3d.pdf"
+            },
+            {
+              "identifier": "l8tGxbe",
+              "title": "原始碼",
+              "url_domain": "github.com",
+              "url": "https://github.com/piiswrong/deep3d"
+            }
+          ],
+          "image_original_filename": "709a6e34-684c-458c-a0ad-7af545ea9a4a.gif",
+          "image_extra_large_filename": "original_ratio_extra_large_709a6e34-684c-458c-a0ad-7af545ea9a4a.gif",
+          "image_medium_filename": "original_ratio_medium_709a6e34-684c-458c-a0ad-7af545ea9a4a.gif"
+        },
+        {
+          "identifier": "QFRfIt3",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第 14 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-shi-si-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>上一講我們介紹了非線性轉換這個方法來將資料特徵值轉換到更高維的空間，如此我們就可以在高維空間做最訓練及最佳化，但在高維的空間卻會讓演算法有模擬到雜訊的可能，因此造成 Overfitting 的現象，除了用一些簡易的原則來避免 Overfitting，我們還可以使用正規化（Regularization）這個方法來限縮演算法最佳化的自由度，某種程度就可以避免 Overfitting 發生，就來看一下怎麼做到正規化吧～</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n上一講我們介紹了非線性轉換這個方法來將資料特徵值轉換到更高維的空間，如此我們就可以在高維空間做最訓練及最佳化，但在高維的空間卻會讓演算法有模擬到雜訊的可能，因此造成 Overfitting 的現象，除了用一些簡易的原則來避免 Overfitting，我們還可以使用正規化（Regularization）這個方法來限縮演算法最佳化的自由度，某種程度就可以避免 Overfitting 發生，就來看一下怎麼做到正規化吧～\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Z7er7ix",
+          "type": "Link",
+          "title": "Add Laravel Unit Tests Directly From Chrome - 用 Chrome 來寫 Laravel Unit Test !?",
+          "url_domain": "laravel-news.com",
+          "url": "https://laravel-news.com/2016/03/add-laravel-unit-tests-directly-chrome/",
+          "description": "<p>Laravel、PHP：初級</p>\n\n<p>你能想像過用 Chrome 來寫單元測試（Unit Test）嗎？這個 Laravel 單元測試工具 <a href=\"https://chrome.google.com/webstore/detail/laravel-testtools/ddieaepnbjhgcbddafciempnibnfnakl\">Chrome Extension</a> 可以用來幫助你快速寫好單元測試，只要裝了這個工具，它就可以錄下你在網頁的動作，並轉譯成 Laravel 的單元測試語法，很神奇吧！更好的是這個工具還有<a href=\"https://github.com/mpociot/laravel-testtools\">開源</a>出來，如果想加什麼功能都可以自己加上去喔～</p>",
+          "description_markdown": "Laravel、PHP：初級\r\n\r\n你能想像過用 Chrome 來寫單元測試（Unit Test）嗎？這個 Laravel 單元測試工具 [Chrome Extension](https://chrome.google.com/webstore/detail/laravel-testtools/ddieaepnbjhgcbddafciempnibnfnakl) 可以用來幫助你快速寫好單元測試，只要裝了這個工具，它就可以錄下你在網頁的動作，並轉譯成 Laravel 的單元測試語法，很神奇吧！更好的是這個工具還有[開源](https://github.com/mpociot/laravel-testtools)出來，如果想加什麼功能都可以自己加上去喔～ ",
+          "embedded_links": [
+            {
+              "identifier": "G4corlY",
+              "title": "Chrome Extension",
+              "url_domain": "google.com",
+              "url": "https://chrome.google.com/webstore/detail/laravel-testtools/ddieaepnbjhgcbddafciempnibnfnakl"
+            },
+            {
+              "identifier": "Fv11aLI",
+              "title": "開源",
+              "url_domain": "github.com",
+              "url": "https://github.com/mpociot/laravel-testtools"
+            }
+          ]
+        },
+        {
+          "identifier": "wOffdw6",
+          "type": "Link",
+          "title": "給網站初學者的建議：用 Ruby On Rails 非常辛苦，用 PHP 非常舒服",
+          "url_domain": "turn.tw",
+          "url": "http://blog.turn.tw/?p=2881",
+          "description": "<p>Web Programming、PHP：初級</p>\n\n<p>有一陣子台灣開發者社群非常熱衷於 Rails，甚至推坑一些初學者去學 Rails，把寫程式說得跟變魔術一樣，實在是有一點不道德。這篇文章提供了幾個觀點，如果你是程式新手，對於別人推坑學習 Rails（或是其他網頁框架） 半信半疑，甚至去上了一些 Rails 的訓練課程還是有點一知半解的感覺，或許你可以考慮一下從心開始、重新出發，慢慢摸索 HTML、CSS 和 PHP，慢慢讓自己的技術踏實了再回頭碰這些網頁框架，也許就會豁然開朗了～</p>",
+          "description_markdown": "Web Programming、PHP：初級\r\n\r\n有一陣子台灣開發者社群非常熱衷於 Rails，甚至推坑一些初學者去學 Rails，把寫程式說得跟變魔術一樣，實在是有一點不道德。這篇文章提供了幾個觀點，如果你是程式新手，對於別人推坑學習 Rails（或是其他網頁框架） 半信半疑，甚至去上了一些 Rails 的訓練課程還是有點一知半解的感覺，或許你可以考慮一下從心開始、重新出發，慢慢摸索 HTML、CSS 和 PHP，慢慢讓自己的技術踏實了再回頭碰這些網頁框架，也許就會豁然開朗了～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "6mr9CQl",
+          "type": "Link",
+          "title": "Google AMP 範例集",
+          "url_domain": "ampbyexample.com",
+          "url": "https://ampbyexample.com/",
+          "description": "<p>Google 在今年推出了手機版網頁加速計畫（Accelerated Mobile Pages, AMP）提供內容網站更佳的瀏覽速度。只要在 markup 上增加一些特殊用法（例如 <code>&lt;amp-img&gt;</code>），就可以套用。Google 的開發者傳教士 Sebastian Benz 整理出常見的一些 AMP 模組讓有需要的工程師能更輕鬆套用。</p>\n\n<p>對於 SEO 也相當有幫助，<a href=\"http://www.telegraph.co.uk/technology/google/11907334/google-launches-AMP-a-tool-to-speed-up-the-mobile-experience.html\">能夠在搜尋結果中卡片式的樣式被突顯出來</a>。</p>",
+          "description_markdown": "Google 在今年推出了手機版網頁加速計畫（Accelerated Mobile Pages, AMP）提供內容網站更佳的瀏覽速度。只要在 markup 上增加一些特殊用法（例如 `<amp-img>`），就可以套用。Google 的開發者傳教士 Sebastian Benz 整理出常見的一些 AMP 模組讓有需要的工程師能更輕鬆套用。\r\n\r\n對於 SEO 也相當有幫助，[能夠在搜尋結果中卡片式的樣式被突顯出來](http://www.telegraph.co.uk/technology/google/11907334/google-launches-AMP-a-tool-to-speed-up-the-mobile-experience.html)。",
+          "embedded_links": [
+            {
+              "identifier": "K0F5jon",
+              "title": "能夠在搜尋結果中卡片式的樣式被突顯出來",
+              "url_domain": "telegraph.co.uk",
+              "url": "http://www.telegraph.co.uk/technology/google/11907334/google-launches-AMP-a-tool-to-speed-up-the-mobile-experience.html"
+            }
+          ]
+        },
+        {
+          "identifier": "M2SGfIM",
+          "type": "Link",
+          "title": "用圖片主色作為底色，讓延遲載入圖片感覺更快",
+          "url_domain": "krasimirtsonev.com",
+          "url": "http://krasimirtsonev.com/blog/article/lazy-load-your-images-with-coloor",
+          "description": "<p>Pinterest 在載入圖片前，<a href=\"http://littlebigdetails.com/post/56782380031/pinterest-before-image-is-loaded-the-background\">會先用圖片的主色作為底色</a>，讓使用者有提前載入的感覺，同時也讓頁面不致於單調。這樣的做法往往用後端來儲存圖片主色，現在純的做法可以做到，主要就是透過 CSS 的 <code>filter:blur</code> 來處理。</p>",
+          "description_markdown": "Pinterest 在載入圖片前，[會先用圖片的主色作為底色](http://littlebigdetails.com/post/56782380031/pinterest-before-image-is-loaded-the-background)，讓使用者有提前載入的感覺，同時也讓頁面不致於單調。這樣的做法往往用後端來儲存圖片主色，現在純的做法可以做到，主要就是透過 CSS 的 `filter:blur` 來處理。",
+          "embedded_links": [
+            {
+              "identifier": "OaG0Vvr",
+              "title": "會先用圖片的主色作為底色",
+              "url_domain": "littlebigdetails.com",
+              "url": "http://littlebigdetails.com/post/56782380031/pinterest-before-image-is-loaded-the-background"
+            }
+          ],
+          "image_original_filename": "2c746cab-3964-4408-a887-3c06ca49713d.png",
+          "image_extra_large_filename": "original_ratio_extra_large_2c746cab-3964-4408-a887-3c06ca49713d.png",
+          "image_medium_filename": "original_ratio_medium_2c746cab-3964-4408-a887-3c06ca49713d.png"
+        },
+        {
+          "identifier": "8ppFjuC",
+          "type": "Link",
+          "title": "瀏覽器幾乎知道你的一切",
+          "url_domain": "robinlinus.com",
+          "url": "http://webkay.robinlinus.com/",
+          "description": "<p>隨著網路服務越來越普及，許多個人資訊也透過瀏覽器被間接公開。你知道瀏覽器握有多少少關於你的資訊嗎？可以點<a href=\"http://webkay.robinlinus.com/\">這裡</a>看看（無病毒，不用害怕）</p>",
+          "description_markdown": "隨著網路服務越來越普及，許多個人資訊也透過瀏覽器被間接公開。你知道瀏覽器握有多少少關於你的資訊嗎？可以點[這裡](http://webkay.robinlinus.com/)看看（無病毒，不用害怕）",
+          "embedded_links": [
+            {
+              "identifier": "llYqzfs",
+              "title": "這裡",
+              "url_domain": "robinlinus.com",
+              "url": "http://webkay.robinlinus.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "5A0ivMZ",
+          "type": "Link",
+          "title": "Golang 1.6.0 1.5.3 重大安全漏洞：CVE request - Go - DLL loading, Big int",
+          "url_domain": "seclists.org",
+          "url": "http://seclists.org/oss-sec/2016/q2/11",
+          "description": "<p>一個安全報告指出，目前的 Golang 1.6.0 與 1.5.3 有著以下兩個漏洞:</p>\n\n<ol>\n<li><p>在 Windows 方面，呼叫 DLLs 是透過 \"名稱\"來 LoadLibrary．這使得 Golang 在呼叫 DLLs 有相當程度的危險，尤其如果 Golang App 如果放在\"下載\"的資料夾下．有可能會使用到惡意的DLL ，而不是預期的DLL．<a href=\"https://go-review.googlesource.com/#/c/21428/\">詳細的修改可以參考這裡 21428</a></p></li>\n<li><p>使用 HTTPS client 或是 Go SSH server 都有可能遇到無窮迴圈而使系統陷入攻擊的危險．<a href=\"https://go-review.googlesource.com/#/c/21533/\">詳細的修改可以參考這裡 21533</a></p></li>\n</ol>\n\n\n<p>以上兩個問題已經被修復了，Golang PM - Jason Buberel 決定會提供更新 Go 1.6.1 跟 Go 1.5.4 來給使用者更新．</p>\n\n<p>目前 Golang 已經釋出了 1.6.1 跟 1.5.4 記得要更新．</p>",
+          "description_markdown": "一個安全報告指出，目前的 Golang 1.6.0 與 1.5.3 有著以下兩個漏洞:\r\n\r\n1. 在 Windows 方面，呼叫 DLLs 是透過 \"名稱\"來 LoadLibrary．這使得 Golang 在呼叫 DLLs 有相當程度的危險，尤其如果 Golang App 如果放在\"下載\"的資料夾下．有可能會使用到惡意的DLL ，而不是預期的DLL．[詳細的修改可以參考這裡 21428](https://go-review.googlesource.com/#/c/21428/) \r\n\r\n2. 使用 HTTPS client 或是 Go SSH server 都有可能遇到無窮迴圈而使系統陷入攻擊的危險．[詳細的修改可以參考這裡 21533](https://go-review.googlesource.com/#/c/21533/)\r\n\r\n以上兩個問題已經被修復了，Golang PM - Jason Buberel 決定會提供更新 Go 1.6.1 跟 Go 1.5.4 來給使用者更新．\r\n\r\n目前 Golang 已經釋出了 1.6.1 跟 1.5.4 記得要更新．",
+          "embedded_links": [
+            {
+              "identifier": "UalccEM",
+              "title": "詳細的修改可以參考這裡 21428",
+              "url_domain": "googlesource.com",
+              "url": "https://go-review.googlesource.com/#/c/21428/"
+            },
+            {
+              "identifier": "gVDTMFj",
+              "title": "詳細的修改可以參考這裡 21533",
+              "url_domain": "googlesource.com",
+              "url": "https://go-review.googlesource.com/#/c/21533/"
+            }
+          ]
+        },
+        {
+          "identifier": "vP6XFkN",
+          "type": "Link",
+          "title": "Filippo Valsorda: 我只用四行程式碼卻讓 go-github 速度增加四倍",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/FiloSottile/status/714161597397262336?ref_src=twsrc%5Etfw",
+          "description": "<p>Filippo Valsorda <a href=\"https://twitter.com/FiloSottile\">@FiloSottile</a> 在 Google 工具裡面中 <a href=\"https://github.com/google/go-github\">go-github</a> 發送了一個 <a href=\"https://github.com/google/go-github/pull/317\">fixed</a>.  這個 <a href=\"https://github.com/google/go-github/pull/317\">fixed</a> 只有四行的修改，卻可以把整個連線速度大大的提升了四倍以上．他是怎麼做到的？</p>\n\n<p>原來 <a href=\"https://golang.org/pkg/io/#Reader\">http.response.body</a> 在做關閉的時候，如果發現裡面還有資料（使用 <code>json.Decoder</code> 會殘留 <code>\\n</code> 在裡面）． 為了把資料清乾淨，就會把整個 HTTP 連線關閉重開．這樣就造成每次的 HTTP 連線無法重複使用，造就效能上的影響．經過了許多的討論過後， <a href=\"https://github.com/bradfitz\">Bradfitz</a> 也就是 Go <code>net/http</code> 的作者就跳出來說要把這個問題修回去 Golang 裡面，避免以後其他部分的影響．不過這部分的修改，已經趕不上 Go 1.6 之中了，大家要稍微注意一下．</p>\n\n<p>如果必須使用 <code>json.Decoder</code> 該如何避免連線重開的效能消耗呢？</p>\n\n<ul>\n<li>根據 <a href=\"https://github.com/mattn\">mattn</a> 的<a href=\"http://mattn.kaoriya.net/software/lang/go/20160329094503.htm\">這篇文章</a> ， <code>json.Unmarshal</code> 並不會有類似問題．當然兩者使用情境不同，請自己多加考慮．</li>\n<li>如果你一定得使用 <code>json.Decoder</code> 的話，可以使用 <a href=\"https://github.com/mattn\">mattn</a> 提供的小工具 <a href=\"https://github.com/mattn/go-drainclose\">go-drainclose</a> ， 來將資料清乾淨使得連線不會被強制關閉．</li>\n</ul>\n\n\n<p>延伸閱讀 :</p>\n\n<ul>\n<li><a href=\"https://github.com/google/go-github/pull/317\">Original fixed: Drain Response.Body to enable TCP/TLS connection reuse (4x speedup)</a></li>\n<li><a href=\"https://github.com/golang/go/commit/18072adbca7ee2cb2019704577a8f3f142010ba7\">Bradfitz's fixed: net/http: reuse HTTP/1 Transport conns more for gzipped responses</a></li>\n<li><a href=\"http://mattn.kaoriya.net/software/lang/go/20160329094503.htm\">JP: Mattn's article</a></li>\n<li><a href=\"https://github.com/mattn/go-drainclose\">Mattn's tool to help you to drain ready before close it</a></li>\n</ul>",
+          "description_markdown": "Filippo Valsorda [@FiloSottile](https://twitter.com/FiloSottile) 在 Google 工具裡面中 [go-github](https://github.com/google/go-github) 發送了一個 [fixed](https://github.com/google/go-github/pull/317).  這個 [fixed](https://github.com/google/go-github/pull/317) 只有四行的修改，卻可以把整個連線速度大大的提升了四倍以上．他是怎麼做到的？\r\n\r\n原來 [http.response.body](https://golang.org/pkg/io/#Reader) 在做關閉的時候，如果發現裡面還有資料（使用 `json.Decoder` 會殘留 `\\n` 在裡面）． 為了把資料清乾淨，就會把整個 HTTP 連線關閉重開．這樣就造成每次的 HTTP 連線無法重複使用，造就效能上的影響．經過了許多的討論過後， [Bradfitz](https://github.com/bradfitz) 也就是 Go `net/http` 的作者就跳出來說要把這個問題修回去 Golang 裡面，避免以後其他部分的影響．不過這部分的修改，已經趕不上 Go 1.6 之中了，大家要稍微注意一下．\r\n\r\n如果必須使用 `json.Decoder` 該如何避免連線重開的效能消耗呢？\r\n\r\n- 根據 [mattn](https://github.com/mattn) 的[這篇文章](http://mattn.kaoriya.net/software/lang/go/20160329094503.htm) ， ` json.Unmarshal` 並不會有類似問題．當然兩者使用情境不同，請自己多加考慮．\r\n- 如果你一定得使用 `json.Decoder` 的話，可以使用 [mattn](https://github.com/mattn) 提供的小工具 [go-drainclose](https://github.com/mattn/go-drainclose) ， 來將資料清乾淨使得連線不會被強制關閉．\r\n\r\n延伸閱讀 : \r\n\r\n- [Original fixed: Drain Response.Body to enable TCP/TLS connection reuse (4x speedup)](https://github.com/google/go-github/pull/317)\r\n- [Bradfitz's fixed: net/http: reuse HTTP/1 Transport conns more for gzipped responses](https://github.com/golang/go/commit/18072adbca7ee2cb2019704577a8f3f142010ba7)\r\n- [JP: Mattn's article](http://mattn.kaoriya.net/software/lang/go/20160329094503.htm)\r\n- [Mattn's tool to help you to drain ready before close it](https://github.com/mattn/go-drainclose)",
+          "embedded_links": [
+            {
+              "identifier": "QpUdmSc",
+              "title": "@FiloSottile",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/FiloSottile"
+            },
+            {
+              "identifier": "cHfJkL7",
+              "title": "go-github",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/go-github"
+            },
+            {
+              "identifier": "daoozGr",
+              "title": "http.response.body",
+              "url_domain": "golang.org",
+              "url": "https://golang.org/pkg/io/#Reader"
+            },
+            {
+              "identifier": "6FnzR88",
+              "title": "Bradfitz",
+              "url_domain": "github.com",
+              "url": "https://github.com/bradfitz"
+            },
+            {
+              "identifier": "nKiJcJS",
+              "title": "mattn",
+              "url_domain": "github.com",
+              "url": "https://github.com/mattn"
+            },
+            {
+              "identifier": "ncxLWCX",
+              "title": "Original fixed: Drain Response.Body to enable TCP/TLS connection reuse (4x speedup)",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/go-github/pull/317"
+            },
+            {
+              "identifier": "oOMqftj",
+              "title": "Bradfitz's fixed: net/http: reuse HTTP/1 Transport conns more for gzipped responses",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/go/commit/18072adbca7ee2cb2019704577a8f3f142010ba7"
+            },
+            {
+              "identifier": "VNrinQg",
+              "title": "JP: Mattn's article",
+              "url_domain": "kaoriya.net",
+              "url": "http://mattn.kaoriya.net/software/lang/go/20160329094503.htm"
+            },
+            {
+              "identifier": "RWyn74i",
+              "title": "Mattn's tool to help you to drain ready before close it",
+              "url_domain": "github.com",
+              "url": "https://github.com/mattn/go-drainclose"
+            }
+          ],
+          "image_original_filename": "f3ce02b3-794b-489d-9ec8-24e1406006e0.png",
+          "image_extra_large_filename": "original_ratio_extra_large_f3ce02b3-794b-489d-9ec8-24e1406006e0.png",
+          "image_medium_filename": "original_ratio_medium_f3ce02b3-794b-489d-9ec8-24e1406006e0.png"
+        },
+        {
+          "identifier": "KaSD8ZT",
+          "type": "Link",
+          "title": "Writing a very fast cache service with millions of entries in Go",
+          "url_domain": "allegro.tech",
+          "url": "http://allegro.tech/2016/03/writing-fast-cache-service-in-go.html",
+          "description": "<p>這篇文章的出發點是想要幫團隊裡面架設高效與高吞吐的 cache service ，透過研究之後決定使用 Go 來開發，以下是他提出的一些小訣竅：</p>\n\n<ul>\n<li>同步處理：\n\n<ul>\n<li>透過 goroutine 可以讓你的 cache service 有更高的效能，這邊也有建議透過 hash key 的方式來建立索引值，來存放 cache 的資料．</li>\n</ul>\n</li>\n<li>過期的暫存資料移除：\n\n<ul>\n<li>每筆資料需要有建立的時間標籤，透過時間標籤可以將過期的資料加以移除．</li>\n</ul>\n</li>\n<li>減少 GC（Garbage Collection）的產生：\n\n<ul>\n<li>如果有使用到 <code>map</code> ， GC 會去接觸到裡面的每一個元素． 這就造成效能上的消耗． 最建議的方式就是在需要高效率處理的部份不要使用 <code>map</code> ．</li>\n</ul>\n</li>\n<li>一個儲存大量資料的暫存區：\n\n<ul>\n<li>除了這篇文章，這家公司 <a href=\"http://allegro.tech/\">Allegro</a> 也發佈他們的套件 <a href=\"https://github.com/allegro/bigcache\">BigCache</a> 可以暫存 GB 等級的資料並且避免 GC 不斷地存取造成效能的低落．</li>\n</ul>\n</li>\n</ul>\n\n\n<p>接下來介紹幾個好的 Golang 套件（取代原先內建的部分）:</p>\n\n<ul>\n<li>HTTP 文章建議使用 <a href=\"https://github.com/valyala/fasthttp\">fasthttp</a> 據說比原生的 <code>net/http</code> 快上十倍．</li>\n<li>JSON 處理方面，文章建議使用 <a href=\"https://github.com/pquerna/ffjson\">ffjson</a> 比起原生的 <code>json</code> 快上二到三倍．</li>\n</ul>\n\n\n<p>大家可以參考一下</p>",
+          "description_markdown": "這篇文章的出發點是想要幫團隊裡面架設高效與高吞吐的 cache service ，透過研究之後決定使用 Go 來開發，以下是他提出的一些小訣竅：\r\n\r\n- 同步處理： \r\n  - 透過 goroutine 可以讓你的 cache service 有更高的效能，這邊也有建議透過 hash key 的方式來建立索引值，來存放 cache 的資料．\r\n- 過期的暫存資料移除：\r\n  - 每筆資料需要有建立的時間標籤，透過時間標籤可以將過期的資料加以移除．\r\n- 減少 GC（Garbage Collection）的產生： \r\n  - 如果有使用到 `map` ， GC 會去接觸到裡面的每一個元素． 這就造成效能上的消耗． 最建議的方式就是在需要高效率處理的部份不要使用 `map` ．\r\n- 一個儲存大量資料的暫存區：\r\n  -  除了這篇文章，這家公司 [Allegro](http://allegro.tech/) 也發佈他們的套件 [BigCache](https://github.com/allegro/bigcache) 可以暫存 GB 等級的資料並且避免 GC 不斷地存取造成效能的低落．\r\n\r\n接下來介紹幾個好的 Golang 套件（取代原先內建的部分）:\r\n\r\n- HTTP 文章建議使用 [fasthttp](https://github.com/valyala/fasthttp) 據說比原生的 `net/http` 快上十倍．\r\n- JSON 處理方面，文章建議使用 [ffjson](https://github.com/pquerna/ffjson) 比起原生的 `json` 快上二到三倍．\r\n\r\n大家可以參考一下",
+          "embedded_links": [
+            {
+              "identifier": "cfNbv3J",
+              "title": "Allegro",
+              "url_domain": "allegro.tech",
+              "url": "http://allegro.tech/"
+            },
+            {
+              "identifier": "oVZusDH",
+              "title": "BigCache",
+              "url_domain": "github.com",
+              "url": "https://github.com/allegro/bigcache"
+            },
+            {
+              "identifier": "XbOvMze",
+              "title": "fasthttp",
+              "url_domain": "github.com",
+              "url": "https://github.com/valyala/fasthttp"
+            },
+            {
+              "identifier": "5c8z2Sf",
+              "title": "ffjson",
+              "url_domain": "github.com",
+              "url": "https://github.com/pquerna/ffjson"
+            }
+          ],
+          "image_original_filename": "eaa5775c-2c8a-4a07-b486-659d3aa0c8ec.png",
+          "image_extra_large_filename": "original_ratio_extra_large_eaa5775c-2c8a-4a07-b486-659d3aa0c8ec.png",
+          "image_medium_filename": "original_ratio_medium_eaa5775c-2c8a-4a07-b486-659d3aa0c8ec.png"
+        },
+        {
+          "identifier": "5dCKQwk",
+          "type": "Link",
+          "title": "針對 Leftpad 的事件，在 Go 語言中有工具可以幫忙嗎?",
+          "url_domain": "github.io",
+          "url": "https://divan.github.io/posts/leftpad_and_go/",
+          "description": "<p>前一段時間 Node.JS 社群發生了一個讓整個軟體業鬧哄哄的事件，就是熟知的 LeftPad 事件 ( 想知道詳細事件可以看  <a href=\"http://www.plurk.com/p/ljm0w6\">保哥懶人包</a> ) ． 當然，在 Go 裡面可以透過一些 <a href=\"https://github.com/golang/go/wiki/PackageManagementTools\">Package Management Tool</a> 來將一些重要的 Dependency Package 透過 Vendor 的方式複製起來．本篇討論到的是另外一個方向:</p>\n\n<pre><code>A little copying is better than a little dependency.\n</code></pre>\n\n<p>也就是如果你使用到的套件比較小，其實作者是比較建議你自己寫一套放著．那麼要如何去找出這樣的小套件呢?   作者就發表了他開發的小工具： <a href=\"https://github.com/divan/depscheck\">Depscheck</a>  ． 一個可以查詢所有的相依套件，並且找出比較小的相依套件來建議你是否考慮要自己寫．</p>\n\n<p>裡面用的邏輯也相當有趣： 如果使用到其它套件 ，或是你使用的被套件參考超過 3 次以上，或是程式行數超過 <code>42</code> （<a href=\"https://www.youtube.com/watch?v=aboZctrHfK8\">宇宙的最終解答作為參考數</a>   XD  ）．就會被當作是不可移除的套件．</p>\n\n<p>當然，這個工具也可以當作 Dependency Walker 的工具來使用．可以清楚地瞭解你寫的套件中相依套件的關係．推薦給大家．</p>",
+          "description_markdown": "前一段時間 Node.JS 社群發生了一個讓整個軟體業鬧哄哄的事件，就是熟知的 LeftPad 事件 ( 想知道詳細事件可以看  [保哥懶人包](http://www.plurk.com/p/ljm0w6) ) ． 當然，在 Go 裡面可以透過一些 [Package Management Tool](https://github.com/golang/go/wiki/PackageManagementTools) 來將一些重要的 Dependency Package 透過 Vendor 的方式複製起來．本篇討論到的是另外一個方向:\r\n\r\n    A little copying is better than a little dependency.\r\n\r\n也就是如果你使用到的套件比較小，其實作者是比較建議你自己寫一套放著．那麼要如何去找出這樣的小套件呢?   作者就發表了他開發的小工具： [Depscheck](https://github.com/divan/depscheck)  ． 一個可以查詢所有的相依套件，並且找出比較小的相依套件來建議你是否考慮要自己寫．\r\n\r\n裡面用的邏輯也相當有趣： 如果使用到其它套件 ，或是你使用的被套件參考超過 3 次以上，或是程式行數超過 `42` （[宇宙的最終解答作為參考數](https://www.youtube.com/watch?v=aboZctrHfK8)   XD  ）．就會被當作是不可移除的套件．\r\n\r\n當然，這個工具也可以當作 Dependency Walker 的工具來使用．可以清楚地瞭解你寫的套件中相依套件的關係．推薦給大家．",
+          "embedded_links": [
+            {
+              "identifier": "YLoXWfX",
+              "title": "保哥懶人包",
+              "url_domain": "plurk.com",
+              "url": "http://www.plurk.com/p/ljm0w6"
+            },
+            {
+              "identifier": "4dtbb0t",
+              "title": "Package Management Tool",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/go/wiki/PackageManagementTools"
+            },
+            {
+              "identifier": "IUtYiZ0",
+              "title": "Depscheck",
+              "url_domain": "github.com",
+              "url": "https://github.com/divan/depscheck"
+            },
+            {
+              "identifier": "ttfVFXR",
+              "title": "宇宙的最終解答作為參考數",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=aboZctrHfK8"
+            }
+          ],
+          "image_original_filename": "946491b1-51b0-463f-8d76-76f372a52e86.png",
+          "image_extra_large_filename": "original_ratio_extra_large_946491b1-51b0-463f-8d76-76f372a52e86.png",
+          "image_medium_filename": "original_ratio_medium_946491b1-51b0-463f-8d76-76f372a52e86.png"
+        },
+        {
+          "identifier": "ctiVGAW",
+          "type": "Link",
+          "title": "微軟推出機器人架構 Bot Framework",
+          "url_domain": "botframework.com",
+          "url": "https://dev.botframework.com/",
+          "description": "<p>微軟在這次 Build 2016 程式開發者大會上推出的機器人架構 ( Bot Framework ), 透過官方提供的<a href=\"https://github.com/Microsoft/BotBuilder\">範例程式</a> ( 目前僅支援 C# 與 Node.Js ) 可以在 30 分鐘內建立出一個 Slack 機器人.</p>\n\n<p>接下來稍微解釋一下， Bot Framework 本身究竟提供了哪些功能:</p>\n\n<ul>\n<li>透過 <a href=\"http://docs.botframework.com/connector/getstarted/#navtitle\">Bot Connector</a> 連接各種 IM：\n\n<ul>\n<li>提供與各種 IM 的連接方式，其中包括了 ( Slack, Skype, Telegram, Email, SMS, Email )</li>\n</ul>\n</li>\n<li>建立對話（ Dialog）來處理不同的指令：\n\n<ul>\n<li>透過建立對話的方式，可以相當容易讓你的機器人處理多個指令．每一種指令都被視為是一個對話，並且可以針對每個對話處理他的邏輯與流程．</li>\n</ul>\n</li>\n<li>透過自然語言的處理方式建立更口語化的對話：\n\n<ul>\n<li>透過微軟提供的 <a href=\"http://docs.botframework.com/builder/node/guides/understanding-natural-language/#navtitle\">LUIS (  Language Understanding Intelligent Service ) </a> 可以讓你跟機器人的對話變得自然．也讓機器人處理各種語句的能力能夠更強． 比如說： 排定會議可以說成 「幫我預約明天三點的會議」，當然也可已訓練之後說成「幫我排定明天三點會議」． 簡單的說，就是透過自己建立的 LUIS 模型，你可以不用修改程式碼，就可以擴充你的機器人對各種語言的處理能力．</li>\n</ul>\n</li>\n</ul>\n\n\n<p>透過這三個主要的架構，雖然你還無法直接建立類似 Siri 一樣的小幫手，但是你可以很輕易地建立「訂披薩小幫手」，「客服小幫手」類似的機器人．</p>\n\n<p>此外，臉書也在 F8 公布了他們之前收購的語音與文字自然語言平台 <a href=\"https://wit.ai/home\">wit.ai</a>  將要支援 FB Messanger ．大家可以看看．</p>",
+          "description_markdown": "微軟在這次 Build 2016 程式開發者大會上推出的機器人架構 ( Bot Framework ), 透過官方提供的[範例程式](https://github.com/Microsoft/BotBuilder) ( 目前僅支援 C# 與 Node.Js ) 可以在 30 分鐘內建立出一個 Slack 機器人. \r\n\r\n接下來稍微解釋一下， Bot Framework 本身究竟提供了哪些功能:\r\n\r\n- 透過 [Bot Connector](http://docs.botframework.com/connector/getstarted/#navtitle) 連接各種 IM：\r\n    - 提供與各種 IM 的連接方式，其中包括了 ( Slack, Skype, Telegram, Email, SMS, Email )\r\n- 建立對話（ Dialog）來處理不同的指令：  \r\n    - 透過建立對話的方式，可以相當容易讓你的機器人處理多個指令．每一種指令都被視為是一個對話，並且可以針對每個對話處理他的邏輯與流程．\r\n- 透過自然語言的處理方式建立更口語化的對話：\r\n    - 透過微軟提供的 [LUIS (  Language Understanding Intelligent Service ) ](http://docs.botframework.com/builder/node/guides/understanding-natural-language/#navtitle) 可以讓你跟機器人的對話變得自然．也讓機器人處理各種語句的能力能夠更強． 比如說： 排定會議可以說成 「幫我預約明天三點的會議」，當然也可已訓練之後說成「幫我排定明天三點會議」． 簡單的說，就是透過自己建立的 LUIS 模型，你可以不用修改程式碼，就可以擴充你的機器人對各種語言的處理能力．\r\n \r\n透過這三個主要的架構，雖然你還無法直接建立類似 Siri 一樣的小幫手，但是你可以很輕易地建立「訂披薩小幫手」，「客服小幫手」類似的機器人．\r\n\r\n此外，臉書也在 F8 公布了他們之前收購的語音與文字自然語言平台 [wit.ai](https://wit.ai/home)  將要支援 FB Messanger ．大家可以看看．",
+          "embedded_links": [
+            {
+              "identifier": "Yu6sT3j",
+              "title": "範例程式",
+              "url_domain": "github.com",
+              "url": "https://github.com/Microsoft/BotBuilder"
+            },
+            {
+              "identifier": "vvmd7vp",
+              "title": "Bot Connector",
+              "url_domain": "botframework.com",
+              "url": "http://docs.botframework.com/connector/getstarted/#navtitle"
+            },
+            {
+              "identifier": "zVPfeHf",
+              "title": "LUIS (  Language Understanding Intelligent Service ) ",
+              "url_domain": "botframework.com",
+              "url": "http://docs.botframework.com/builder/node/guides/understanding-natural-language/#navtitle"
+            },
+            {
+              "identifier": "EmrIy2s",
+              "title": "wit.ai",
+              "url_domain": "wit.ai",
+              "url": "https://wit.ai/home"
+            }
+          ],
+          "image_original_filename": "7810d2da-a2b5-440c-a2b3-80b39c799a12.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_7810d2da-a2b5-440c-a2b3-80b39c799a12.png",
+          "image_medium_filename": "twenty_by_nine_medium_7810d2da-a2b5-440c-a2b3-80b39c799a12.png"
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "NqQ2i8S",
+          "type": "Link",
+          "title": "Stack Overflow Developer Survey Results 2016 - 開發者身家調查",
+          "url_domain": "stackoverflow.com",
+          "url": "http://stackoverflow.com/research/developer-survey-2016",
+          "description": "<p>今年 Stack Overflow 對大約 56000 名開發者進行了一個有趣的問券調查，包含了他們的職位、性別、教育程度、使用的技術、薪資等等... 大致上讓我們可以了解這個世界的開發者大概的樣貌（抽象的樣貌啦），至於為何我會把這篇放在 <a href=\"http://www.sparknotes.com/lit/animalfarm/quotes.html\">Two Legs Bad</a>，等你看到薪資這個部份就知道了。中國的開發者平均年薪有 54000 鎂，中位數位於 45000 鎂！台灣的開發者應該兩個數值都遠低於這個數字吧！大家好好感受一下身為無產階級碼農的感覺吧～</p>",
+          "description_markdown": "今年 Stack Overflow 對大約 56000 名開發者進行了一個有趣的問券調查，包含了他們的職位、性別、教育程度、使用的技術、薪資等等... 大致上讓我們可以了解這個世界的開發者大概的樣貌（抽象的樣貌啦），至於為何我會把這篇放在 [Two Legs Bad](http://www.sparknotes.com/lit/animalfarm/quotes.html)，等你看到薪資這個部份就知道了。中國的開發者平均年薪有 54000 鎂，中位數位於 45000 鎂！台灣的開發者應該兩個數值都遠低於這個數字吧！大家好好感受一下身為無產階級碼農的感覺吧～",
+          "embedded_links": [
+            {
+              "identifier": "9Zqgeng",
+              "title": "Two Legs Bad",
+              "url_domain": "sparknotes.com",
+              "url": "http://www.sparknotes.com/lit/animalfarm/quotes.html"
+            }
+          ],
+          "image_original_filename": "54703344-1ba1-494b-a4aa-b9de6998bbf2.png",
+          "image_extra_large_filename": "original_ratio_extra_large_54703344-1ba1-494b-a4aa-b9de6998bbf2.png",
+          "image_medium_filename": "original_ratio_medium_54703344-1ba1-494b-a4aa-b9de6998bbf2.png"
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "type": "Text",
+          "title": "被冠上閱覽注意的動物作品",
+          "description": "<p>ヤスミーン (茉莉)</p>\n\n<p>看起來極凶惡的這部「YASUMIN」，網上暫時翻成「茉莉」(Jasmin)。目前在ニコニコ上有完整的連載。</p>\n\n<p>和封閉的人類社會不同，動物社會的種族階級明確且僵固，建立在食物鏈的鐵則之上，作為「食物」的草食動物沒有任何翻轉階級的機會，只能盡可能的用數量來延續基因的存亡，這部作品描述一個由獅群建立的封建王國，極盡所能的奴役階級比自己低下的動物，草食動物以勞力換取「不被當做食物」的資格，而小型的肉食動物也可以付出勞力換取固定的食物配給。被奴役的草食動物地位比奴隸還卑賤，即使不被獵食，也有可能因為好玩、礙事等各種原因，被肉食動物隨意的殺死。<a href=\"https://goo.gl/OIok4T\">read more ...</a></p>",
+          "description_markdown": "ヤスミーン (茉莉)\r\n\r\n看起來極凶惡的這部「YASUMIN」，網上暫時翻成「茉莉」(Jasmin)。目前在ニコニコ上有完整的連載。\r\n\r\n和封閉的人類社會不同，動物社會的種族階級明確且僵固，建立在食物鏈的鐵則之上，作為「食物」的草食動物沒有任何翻轉階級的機會，只能盡可能的用數量來延續基因的存亡，這部作品描述一個由獅群建立的封建王國，極盡所能的奴役階級比自己低下的動物，草食動物以勞力換取「不被當做食物」的資格，而小型的肉食動物也可以付出勞力換取固定的食物配給。被奴役的草食動物地位比奴隸還卑賤，即使不被獵食，也有可能因為好玩、礙事等各種原因，被肉食動物隨意的殺死。[read more ...](https://goo.gl/OIok4T)",
+          "footer": "<p>@<a href=\"https://medium.com/@autisticcat\">autisticcat</a></p>",
+          "embedded_links": [
+            {
+              "identifier": "Ov9a7vi",
+              "title": "read more ...",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/OIok4T"
+            },
+            {
+              "identifier": "ZekXKMq",
+              "title": "autisticcat",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@autisticcat"
+            }
+          ],
+          "image_original_filename": "fa16d7ad-81f3-43cd-b48e-0ea299b3ac82.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_fa16d7ad-81f3-43cd-b48e-0ea299b3ac82.jpg",
+          "image_medium_filename": "original_ratio_medium_fa16d7ad-81f3-43cd-b48e-0ea299b3ac82.jpg"
+        }
+      ]
+    }
+  ]
+}

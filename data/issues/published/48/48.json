@@ -1,0 +1,512 @@
+{
+  "number": 48,
+  "title": "Issue 48 做高級工程師好多年了，沒想到今天忽然就被升職成傳說級工程師",
+  "summary": "本期內容涵蓋  iOS, Android, JavaScript, CSS, Kotlin, Python",
+  "url": "https://weekly.codetengu.com/issues/48",
+  "publication_status": "published",
+  "published_at": "2016-06-20T03:00:00+01:00",
+  "updated_at": "2016-06-20T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"http://www.books.com.tw/products/0010707194\">家畜人鴉俘</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 命剋公司的工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[家畜人鴉俘](http://www.books.com.tw/products/0010707194)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 命剋公司的工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "BSLNBP1",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "QYNLDQ8",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "zXEMoS7",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "ne44QRc",
+              "title": "家畜人鴉俘",
+              "url_domain": "books.com.tw",
+              "url": "http://www.books.com.tw/products/0010707194"
+            },
+            {
+              "identifier": "bSxbow7",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "Gh8Kh58",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "F3ZWhyr",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "YtOYRuw",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "cxMalKZ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "5SuwDRx",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "zZZSP2c",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "3IbtlqL",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "YWmyVW4",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "PxCCuRw",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "WYrxRA4",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "GUb1D9x",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "Yp5TxXL",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "cxGn1xq",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ouTEmaf",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "5C5hVs2",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "YM0KHKe",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1FQIPN",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "udSAZ2v",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "Ykt083p",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "2IkZmnD",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "bjMxM4d",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "MdEBlQZ",
+          "type": "Link",
+          "title": "Top developers can have a life outside coding",
+          "url_domain": "belenalbeza.com",
+          "url": "http://www.belenalbeza.com/top-developers-can-have-a-life-outside-coding/",
+          "description": "<p>軟體產業跟其他產業有一點相當不同，這個產業很在乎你在<strong>業後</strong>的表現，就像這篇文章說的，你沒有 open source project、pet project 就會遭受許多非議，好像自己多不入流一樣。</p>\n\n<p>雖然我不完全同意這篇文章的觀點，但我同意這個產業確實存在這個偏見。</p>\n\n<p>而貼這一則主要是因為我想分享這一篇文被貼在 Hacker News 其他人上有意思的評論：</p>\n\n<p><a href=\"https://news.ycombinator.com/item?id=11743896\">Would you tell someone they can be a \"top sports player\", if they have a life outside of playing that sport? ...</a></p>\n\n<p><a href=\"https://news.ycombinator.com/item?id=11744736\">I'm from China, where hard-working with a lot of overtime work is advocated in almost every internet-related company ...</a></p>\n\n<p><a href=\"https://news.ycombinator.com/item?id=11744174\">I am a recruiter and always ask this question - \"Is programming just a job for you to get the bills paid, or do you have a broader interest?\" ...</a> (大家好生氣一直嗆他)</p>",
+          "description_markdown": "軟體產業跟其他產業有一點相當不同，這個產業很在乎你在**業後**的表現，就像這篇文章說的，你沒有 open source project、pet project 就會遭受許多非議，好像自己多不入流一樣。\r\n\r\n雖然我不完全同意這篇文章的觀點，但我同意這個產業確實存在這個偏見。\r\n\r\n而貼這一則主要是因為我想分享這一篇文被貼在 Hacker News 其他人上有意思的評論：\r\n\r\n[Would you tell someone they can be a \"top sports player\", if they have a life outside of playing that sport? ...](https://news.ycombinator.com/item?id=11743896)\r\n\r\n[I'm from China, where hard-working with a lot of overtime work is advocated in almost every internet-related company ...](https://news.ycombinator.com/item?id=11744736)\r\n\r\n[I am a recruiter and always ask this question - \"Is programming just a job for you to get the bills paid, or do you have a broader interest?\" ...](https://news.ycombinator.com/item?id=11744174) (大家好生氣一直嗆他)",
+          "embedded_links": [
+            {
+              "identifier": "9uvX5eG",
+              "title": "Would you tell someone they can be a \"top sports player\", if they have a life outside of playing that sport? ...",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=11743896"
+            },
+            {
+              "identifier": "LDlM5RQ",
+              "title": "I'm from China, where hard-working with a lot of overtime work is advocated in almost every internet-related company ...",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=11744736"
+            },
+            {
+              "identifier": "icH5ov6",
+              "title": "I am a recruiter and always ask this question - \"Is programming just a job for you to get the bills paid, or do you have a broader interest?\" ...",
+              "url_domain": "ycombinator.com",
+              "url": "https://news.ycombinator.com/item?id=11744174"
+            }
+          ]
+        },
+        {
+          "identifier": "qXd8iVc",
+          "type": "Link",
+          "title": "What’s New in Swift 3?",
+          "url_domain": "raywenderlich.com",
+          "url": "https://www.raywenderlich.com/135655/whats-new-swift-3",
+          "description": "<p>Swift 3 傳說是最後一次包含大量 breaking change 的版本了，這一次也確實是改得夠痛快，不過我想大多數的語法改變都可以透過 Xcode 8 帶的 Migration Assistant 來幫忙吧，問題不大。</p>\n\n<p>這次改版大量處理了 Swift 使用既有的 ObjC 或 C 寫的 frameworks 在名稱上對 Swift 不友善的地方，經過新設計的 <a href=\"https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html#//apple_ref/doc/uid/TP40014216-CH10-ID162\">NS_SWIFT_NAME</a> 加持，現在 Swift project 程式語法的一致性上變得更好。<br/>\n一個語言的 naming convention 是很重要的，會讓團隊跟社群不用花那麼多力氣在 coding style 上面，像 ObjC 就以其 <a href=\"http://stackoverflow.com/questions/15152171/what-is-the-longest-method-name-you-have-seen-in-ios-cocoa-touch\">強烈且特別的風格</a> 為人稱道。</p>\n\n<p>而這篇文章在 Methods that Return or Modify 這一段提到，method 用名詞跟動詞來明示這個 method 會不會有回傳值跟操作對象，蠻有意思的。</p>",
+          "description_markdown": "Swift 3 傳說是最後一次包含大量 breaking change 的版本了，這一次也確實是改得夠痛快，不過我想大多數的語法改變都可以透過 Xcode 8 帶的 Migration Assistant 來幫忙吧，問題不大。\r\n\r\n這次改版大量處理了 Swift 使用既有的 ObjC 或 C 寫的 frameworks 在名稱上對 Swift 不友善的地方，經過新設計的 [NS_SWIFT_NAME](https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html#//apple_ref/doc/uid/TP40014216-CH10-ID162) 加持，現在 Swift project 程式語法的一致性上變得更好。  \r\n一個語言的 naming convention 是很重要的，會讓團隊跟社群不用花那麼多力氣在 coding style 上面，像 ObjC 就以其 [強烈且特別的風格](http://stackoverflow.com/questions/15152171/what-is-the-longest-method-name-you-have-seen-in-ios-cocoa-touch) 為人稱道。\r\n\r\n而這篇文章在 Methods that Return or Modify 這一段提到，method 用名詞跟動詞來明示這個 method 會不會有回傳值跟操作對象，蠻有意思的。",
+          "embedded_links": [
+            {
+              "identifier": "EG7CZYo",
+              "title": "NS_SWIFT_NAME",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/ios/documentation/Swift/Conceptual/BuildingCocoaApps/MixandMatch.html#//apple_ref/doc/uid/TP40014216-CH10-ID162"
+            },
+            {
+              "identifier": "Ncj1IfW",
+              "title": "強烈且特別的風格",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/15152171/what-is-the-longest-method-name-you-have-seen-in-ios-cocoa-touch"
+            }
+          ]
+        },
+        {
+          "identifier": "fNwZosQ",
+          "type": "Link",
+          "title": "Queues are not bound to any specific thread",
+          "url_domain": "krzyzanowskim.com",
+          "url": "http://blog.krzyzanowskim.com/2016/06/03/queues-are-not-bound-to-any-specific-thread/",
+          "description": "<p>Cocoa 的 main thread 跟 main queue 是同一件事情嗎？</p>\n\n<p>有人在 ReactiveCocoa 開了一個 <a href=\"https://github.com/ReactiveCocoa/ReactiveCocoa/issues/2635#issuecomment-170215083\">issue</a> 說他操作 MapKit 時非得要自己 dispatch 到 main queue 才不會 crash，而 ReactiveCocoa 的 <code>UIScheduler</code> 只會確保你在 main thread 而已，並不合用。</p>\n\n<p>雖然說這應該是 MapKit 的 bug，因為像 UIKit 的文件上從來都只有說必須要在 main thread 上執行而已，沒道理 MapKit 甚至要在 main queue 上執行。</p>\n\n<p>不過大家就開始就開始討論 main queue 跟 main thread 的差異了，直接截取結論： <strong>在 Cocoa  application 上，main queue 一定是跑 main thread，但 main thread 不一定跑在 main queue 上。</strong></p>\n\n<p>延伸：如果你想確定妳跑在 main queue 上，可以參考這個做法 <a href=\"http://blog.benjamin-encz.de/post/main-queue-vs-main-thread/\">GCD's Main Queue vs. Main Thread</a></p>",
+          "description_markdown": "Cocoa 的 main thread 跟 main queue 是同一件事情嗎？\r\n\r\n有人在 ReactiveCocoa 開了一個 [issue](https://github.com/ReactiveCocoa/ReactiveCocoa/issues/2635#issuecomment-170215083) 說他操作 MapKit 時非得要自己 dispatch 到 main queue 才不會 crash，而 ReactiveCocoa 的 `UIScheduler` 只會確保你在 main thread 而已，並不合用。\r\n\r\n雖然說這應該是 MapKit 的 bug，因為像 UIKit 的文件上從來都只有說必須要在 main thread 上執行而已，沒道理 MapKit 甚至要在 main queue 上執行。\r\n\r\n不過大家就開始就開始討論 main queue 跟 main thread 的差異了，直接截取結論： **在 Cocoa  application 上，main queue 一定是跑 main thread，但 main thread 不一定跑在 main queue 上。**\r\n\r\n延伸：如果你想確定妳跑在 main queue 上，可以參考這個做法 [GCD's Main Queue vs. Main Thread](http://blog.benjamin-encz.de/post/main-queue-vs-main-thread/)",
+          "embedded_links": [
+            {
+              "identifier": "2iXpScl",
+              "title": "issue",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveCocoa/issues/2635#issuecomment-170215083"
+            },
+            {
+              "identifier": "6kVunlt",
+              "title": "GCD's Main Queue vs. Main Thread",
+              "url_domain": "benjamin-encz.de",
+              "url": "http://blog.benjamin-encz.de/post/main-queue-vs-main-thread/"
+            }
+          ]
+        },
+        {
+          "identifier": "MxIhMNh",
+          "type": "Link",
+          "title": "Clean Android Code",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/android-news/keep-your-droid-clean-e9c093140eb6#.2x06j2put",
+          "description": "<p>這是一個系列文，主要在寫出 testable, re-usable, maintainable 的 Android app，我認為是近期我看到質量最高的 Android 技術傳教文。</p>\n\n<p>值得注意的是這個系列全程有寫 Tests、開發中混用了 <a href=\"http://kotlinlang.org/\">Kotlin</a>、大量使用 <a href=\"https://developer.android.com/topic/libraries/data-binding/index.html\">Databinding</a>、上半年社群中火熱到不行的 buzz word: RxJava 當然也是其中的技術選擇。</p>\n\n<p>對於以上這些技術實作感興趣的人，這是一個不錯的系列教程，像我就是來看 Kotlin 跟 Databinding 的！</p>",
+          "description_markdown": "這是一個系列文，主要在寫出 testable, re-usable, maintainable 的 Android app，我認為是近期我看到質量最高的 Android 技術傳教文。\r\n\r\n值得注意的是這個系列全程有寫 Tests、開發中混用了 [Kotlin](http://kotlinlang.org/)、大量使用 [Databinding](https://developer.android.com/topic/libraries/data-binding/index.html)、上半年社群中火熱到不行的 buzz word: RxJava 當然也是其中的技術選擇。\r\n\r\n對於以上這些技術實作感興趣的人，這是一個不錯的系列教程，像我就是來看 Kotlin 跟 Databinding 的！",
+          "embedded_links": [
+            {
+              "identifier": "etn4IyO",
+              "title": "Kotlin",
+              "url_domain": "kotlinlang.org",
+              "url": "http://kotlinlang.org/"
+            },
+            {
+              "identifier": "6h96QlC",
+              "title": "Databinding",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/topic/libraries/data-binding/index.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "T8T2g9s",
+          "type": "Link",
+          "title": "26 Impressive web projects built with CSS only",
+          "url_domain": "mybridge.co",
+          "url": "https://medium.mybridge.co/26-impressive-web-projects-built-with-css-only-4a4c2f773a21",
+          "description": "<p>筆者整理了 26 個在 <a href=\"http://codepen.io/\">Codepen</a> 上透過 CSS 達成的強大實例，幾乎每個範例都沒有使用到 JavaScript 和 Image ！</p>",
+          "description_markdown": "筆者整理了 26 個在 [Codepen](http://codepen.io/) 上透過 CSS 達成的強大實例，幾乎每個範例都沒有使用到 JavaScript 和 Image ！",
+          "embedded_links": [
+            {
+              "identifier": "hkdzd1d",
+              "title": "Codepen",
+              "url_domain": "codepen.io",
+              "url": "http://codepen.io/"
+            }
+          ],
+          "image_original_filename": "18b49f0b-0867-4c20-8b03-abc7771eab63.gif",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_18b49f0b-0867-4c20-8b03-abc7771eab63.gif",
+          "image_medium_filename": "twenty_by_nine_medium_18b49f0b-0867-4c20-8b03-abc7771eab63.gif"
+        },
+        {
+          "identifier": "X2eQXfK",
+          "type": "Link",
+          "title": "Dan Abramov - The Redux Journey",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=uvAXVMwHJXU",
+          "description": "<p>Redux 因為作者 <a href=\"Dan%20Abramov\">Dan Abramov</a> 在去年的 React Europe 上的介紹，開始火紅了一年，在這個影片， Dan 會回顧 Redux 的各個好用的功能，生態系，以及在開發時學到的一些經驗。</p>",
+          "description_markdown": "Redux 因為作者 [Dan Abramov](Dan Abramov) 在去年的 React Europe 上的介紹，開始火紅了一年，在這個影片， Dan 會回顧 Redux 的各個好用的功能，生態系，以及在開發時學到的一些經驗。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "v9TjBN4",
+          "type": "Link",
+          "title": "Web Component Challenges",
+          "url_domain": "revillweb.com",
+          "url": "https://blog.revillweb.com/web-component-challenges-a09ebc598d65#.t8wofalxj",
+          "description": "<p>本篇文章並不會大略簡介 <a href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Components</a>，有興趣可以先透過連結理解一下。雖然不是每個瀏覽器都支援 Web Components ，還是可以透過 <a href=\"https://github.com/webcomponents/webcomponentsjs\">webcomponentsjs</a> 這個 polyfill 來實作。</p>\n\n<p>因為目前 ES6 語法已經支援 modules, classes 和 template strings ，這裡就不探討 <a href=\"http://webcomponents.org/articles/introduction-to-template-element/\">template</a> 和 <a href=\"http://webcomponents.org/articles/introduction-to-html-imports/\">HTML import</a> ，著重在 <a href=\"http://webcomponents.org/articles/introduction-to-shadow-dom/\">shadow DOM</a> 需要注意的幾個點：</p>\n\n<ul>\n<li>如果透過 polyfill 實作在沒有原生支援 shadow DOM 的瀏覽器上，會造成 style 共用的情況，必須要將 shadow DOM 的 style 加上對應的 prefix 避免畫出錯誤的畫面。</li>\n<li>反之，如果是原生支援的瀏覽器上實作， style 無法共用，造成撰寫上可能會有重複的 code ，為了避免這種情況，可以透過內文的 injecting style sheets 、 styling considerations at design time 、 CSS Variables 來解決。</li>\n</ul>",
+          "description_markdown": "本篇文章並不會大略簡介 [Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components)，有興趣可以先透過連結理解一下。雖然不是每個瀏覽器都支援 Web Components ，還是可以透過 [webcomponentsjs](https://github.com/webcomponents/webcomponentsjs) 這個 polyfill 來實作。\r\n\r\n因為目前 ES6 語法已經支援 modules, classes 和 template strings ，這裡就不探討 [template](http://webcomponents.org/articles/introduction-to-template-element/) 和 [HTML import](http://webcomponents.org/articles/introduction-to-html-imports/) ，著重在 [shadow DOM](http://webcomponents.org/articles/introduction-to-shadow-dom/) 需要注意的幾個點：\r\n\r\n* 如果透過 polyfill 實作在沒有原生支援 shadow DOM 的瀏覽器上，會造成 style 共用的情況，必須要將 shadow DOM 的 style 加上對應的 prefix 避免畫出錯誤的畫面。\r\n* 反之，如果是原生支援的瀏覽器上實作， style 無法共用，造成撰寫上可能會有重複的 code ，為了避免這種情況，可以透過內文的 injecting style sheets 、 styling considerations at design time 、 CSS Variables 來解決。",
+          "embedded_links": [
+            {
+              "identifier": "IANfBCh",
+              "title": "Web Components",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/Web_Components"
+            },
+            {
+              "identifier": "VXxbOSd",
+              "title": "webcomponentsjs",
+              "url_domain": "github.com",
+              "url": "https://github.com/webcomponents/webcomponentsjs"
+            },
+            {
+              "identifier": "CFD4yEv",
+              "title": "template",
+              "url_domain": "webcomponents.org",
+              "url": "http://webcomponents.org/articles/introduction-to-template-element/"
+            },
+            {
+              "identifier": "on6HJy3",
+              "title": "HTML import",
+              "url_domain": "webcomponents.org",
+              "url": "http://webcomponents.org/articles/introduction-to-html-imports/"
+            },
+            {
+              "identifier": "Ip5k6Mf",
+              "title": "shadow DOM",
+              "url_domain": "webcomponents.org",
+              "url": "http://webcomponents.org/articles/introduction-to-shadow-dom/"
+            }
+          ]
+        },
+        {
+          "identifier": "nTqW3mh",
+          "type": "Link",
+          "title": "JavaScript Testing: Unit vs Functional vs Integration Tests",
+          "url_domain": "sitepoint.com",
+          "url": "https://www.sitepoint.com/javascript-testing-unit-functional-integration/",
+          "description": "<p>自動化測試一直是 <a href=\"https://en.wikipedia.org/wiki/Continuous_delivery\">Continuous Delivery</a> 中非常重要的一環，本篇文章整理了不同類型的測試，文中使用 <a href=\"https://github.com/substack/tape\">Tape</a> 來作為範例工具：</p>\n\n<ul>\n<li><p>Unit Tests</p>\n\n<ul>\n<li>確保各個 components 可以正常的獨立運作，可以選擇在開發階段使用 lint 和 unit test ，當檔案改變時自動執行，立即回報當下更改是否有造成錯誤，不過使用此方式必須要確保測試可以快速完成，所以盡量避免使用像是 network 與 file I/O 等非同步操作。</li>\n</ul>\n</li>\n<li><p>Integration Tests</p>\n\n<ul>\n<li>確保不同的 components 可以在互相合作下正確運作。</li>\n</ul>\n</li>\n<li><p>Functional Tests</p>\n\n<ul>\n<li>從使用者角度來確保程式能得到預期的結果。</li>\n</ul>\n</li>\n</ul>",
+          "description_markdown": "自動化測試一直是 [Continuous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery) 中非常重要的一環，本篇文章整理了不同類型的測試，文中使用 [Tape](https://github.com/substack/tape) 來作為範例工具：\r\n\r\n* Unit Tests\r\n    * 確保各個 components 可以正常的獨立運作，可以選擇在開發階段使用 lint 和 unit test ，當檔案改變時自動執行，立即回報當下更改是否有造成錯誤，不過使用此方式必須要確保測試可以快速完成，所以盡量避免使用像是 network 與 file I/O 等非同步操作。\r\n\r\n* Integration Tests\r\n    * 確保不同的 components 可以在互相合作下正確運作。\r\n\r\n* Functional Tests\r\n    * 從使用者角度來確保程式能得到預期的結果。",
+          "embedded_links": [
+            {
+              "identifier": "DLgEpqi",
+              "title": "Continuous Delivery",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Continuous_delivery"
+            },
+            {
+              "identifier": "pqneruO",
+              "title": "Tape",
+              "url_domain": "github.com",
+              "url": "https://github.com/substack/tape"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "rOZPhzN",
+          "type": "Link",
+          "title": "Kotlin Programming Language",
+          "url_domain": "kotlinlang.org",
+          "url": "https://kotlinlang.org",
+          "description": "<p>最近因為工作關係需要寫 mobile app。iOS 技術有稍微在追所以還好，花了一週就先做了個 prototype，但 Android 就很爆炸，以前用的 toolchain 現在好像都沒人在用了，API 似乎也改了一大堆東西，就決定重學。稍微找了一些資料，就發現這個有趣的程式語言。</p>\n\n<p>Kotlin 是由 JetBrains 主導開發，主要的編譯 target 是 JVM byte code。這個語言幾乎可以說是專門為 Android 開發設計，用來補足 Java 5 不足之處。用了一下發現確實滿順手，設計上一些有趣的選擇也讓人很容易把 Java 源碼翻譯過去，我即使看 Java 的 tutorial 也幾乎無痛使用。因為 Android Studio 的基礎——IntelliJ IDEA——也是由 JetBrains 開發，所以套件支援也不錯。建議可以學一下，應該會對 Android 開發頗有幫助。</p>\n\n<p>另外他們最近也在推 <a href=\"https://github.com/Kotlin/anko\">Anko</a>。這是個基於 Kotlin 的 Android UI DSL，目標是用來取代主流的 XML layout。因為是基於 Kotlin，所以這個 layout 方法基本上可以直接寫在程式裡，一方面容易擴充，一方面速度也會比 runtime 解析 XML 更快，我覺得應該滿有前途。因為還不成熟，我應該是不會在現在的 project 用。建議持續關注。另外 project 名一直讓我想到<a href=\"https://www.google.com.tw/search?q=%E3%81%82%E3%82%93%E3%81%93+%E3%81%9F%E3%81%BE%E3%81%93%E3%81%BE%E3%83%BC%E3%81%91%E3%81%A3%E3%81%A8\">這個</a>。</p>",
+          "description_markdown": "最近因為工作關係需要寫 mobile app。iOS 技術有稍微在追所以還好，花了一週就先做了個 prototype，但 Android 就很爆炸，以前用的 toolchain 現在好像都沒人在用了，API 似乎也改了一大堆東西，就決定重學。稍微找了一些資料，就發現這個有趣的程式語言。\r\n\r\nKotlin 是由 JetBrains 主導開發，主要的編譯 target 是 JVM byte code。這個語言幾乎可以說是專門為 Android 開發設計，用來補足 Java 5 不足之處。用了一下發現確實滿順手，設計上一些有趣的選擇也讓人很容易把 Java 源碼翻譯過去，我即使看 Java 的 tutorial 也幾乎無痛使用。因為 Android Studio 的基礎——IntelliJ IDEA——也是由 JetBrains 開發，所以套件支援也不錯。建議可以學一下，應該會對 Android 開發頗有幫助。\r\n\r\n另外他們最近也在推 [Anko](https://github.com/Kotlin/anko)。這是個基於 Kotlin 的 Android UI DSL，目標是用來取代主流的 XML layout。因為是基於 Kotlin，所以這個 layout 方法基本上可以直接寫在程式裡，一方面容易擴充，一方面速度也會比 runtime 解析 XML 更快，我覺得應該滿有前途。因為還不成熟，我應該是不會在現在的 project 用。建議持續關注。另外 project 名一直讓我想到[這個](https://www.google.com.tw/search?q=%E3%81%82%E3%82%93%E3%81%93+%E3%81%9F%E3%81%BE%E3%81%93%E3%81%BE%E3%83%BC%E3%81%91%E3%81%A3%E3%81%A8)。",
+          "embedded_links": [
+            {
+              "identifier": "LRr9kZF",
+              "title": "Anko",
+              "url_domain": "github.com",
+              "url": "https://github.com/Kotlin/anko"
+            },
+            {
+              "identifier": "LA5bLU6",
+              "title": "這個",
+              "url_domain": "google.com.tw",
+              "url": "https://www.google.com.tw/search?q=%E3%81%82%E3%82%93%E3%81%93+%E3%81%9F%E3%81%BE%E3%81%93%E3%81%BE%E3%83%BC%E3%81%91%E3%81%A3%E3%81%A8"
+            }
+          ]
+        },
+        {
+          "identifier": "FdCc5F0",
+          "type": "Link",
+          "title": "Intentional Communication — Keynote at PyCon Taiwan 2016 by Steve Dower",
+          "url_domain": "youtu.be",
+          "url": "https://youtu.be/4b3rKZTW3WA?t=3h58m21s",
+          "description": "<p>今年的 PyCon Taiwan 也結束啦。這次聽到最好的 keynote 是壓軸的 Steve Dower。這個演講和 Python 本身其實沒太大關聯，但提到了 programmer 常被忽略的重要技能：溝通。這個演講提出了一些方法，讓別人能共容易接受你的想法。這個可以應用在很多方面，最主要的是站上講台演講，但不少技巧在一對一溝通時也很有用。</p>\n\n<p>Steve 在微軟工作，負責了很多 Python 對 Windows 支援的東西（包括那個超優秀的<a href=\"https://docs.python.org/3/using/windows.html#installation-steps\">新版 installer</a>！）。我在工作上一直有用到 Python on Windows，但實在很少能找到機會和人討論，所以一直很期待 Steve 的演講。結果他講了個完全無關的內容⋯⋯但聽完之後什麼無法抱怨啊，值回票價。幸好後來也有堵到他聊了不少 Python on Windows 的話題，沒有遺憾了。他也提到微軟與他的 team 近期會注意的項目，有些頗有趣，但他說不見得會成功所以不能爆料哈哈。</p>\n\n<p>另外這次的錄影是直接從直播存下來的，所以目前都是很闊氣的六小時一刀未剪。徵求影片後製！主要的工作就是把每個 session 分成不同檔案，然後在前面加個字卡（已有設計）。有興趣者歡迎聯絡議程組長<a href=\"https://blog.liang2.tw/about-me/#about-me\">亮亮</a>。</p>",
+          "description_markdown": "今年的 PyCon Taiwan 也結束啦。這次聽到最好的 keynote 是壓軸的 Steve Dower。這個演講和 Python 本身其實沒太大關聯，但提到了 programmer 常被忽略的重要技能：溝通。這個演講提出了一些方法，讓別人能共容易接受你的想法。這個可以應用在很多方面，最主要的是站上講台演講，但不少技巧在一對一溝通時也很有用。\r\n\r\nSteve 在微軟工作，負責了很多 Python 對 Windows 支援的東西（包括那個超優秀的[新版 installer](https://docs.python.org/3/using/windows.html#installation-steps)！）。我在工作上一直有用到 Python on Windows，但實在很少能找到機會和人討論，所以一直很期待 Steve 的演講。結果他講了個完全無關的內容⋯⋯但聽完之後什麼無法抱怨啊，值回票價。幸好後來也有堵到他聊了不少 Python on Windows 的話題，沒有遺憾了。他也提到微軟與他的 team 近期會注意的項目，有些頗有趣，但他說不見得會成功所以不能爆料哈哈。\r\n\r\n另外這次的錄影是直接從直播存下來的，所以目前都是很闊氣的六小時一刀未剪。徵求影片後製！主要的工作就是把每個 session 分成不同檔案，然後在前面加個字卡（已有設計）。有興趣者歡迎聯絡議程組長[亮亮](https://blog.liang2.tw/about-me/#about-me)。",
+          "embedded_links": [
+            {
+              "identifier": "PPjsGXd",
+              "title": "新版 installer",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/using/windows.html#installation-steps"
+            },
+            {
+              "identifier": "iKizpNk",
+              "title": "亮亮",
+              "url_domain": "liang2.tw",
+              "url": "https://blog.liang2.tw/about-me/#about-me"
+            }
+          ]
+        },
+        {
+          "identifier": "7V6fCPJ",
+          "type": "Link",
+          "title": "pynsist: Build Windows installers for Python applications",
+          "url_domain": "github.com",
+          "url": "https://github.com/takluyver/pynsist",
+          "description": "<p>承上篇，上次被 Steve 推坑的 project。如果要 deploy 一個 Python 程式（尤其在 Windows），目前主流的方法是用 cxFreeze 或 PyInstaller 之類的工具，把源碼與 interpreter 打包成一個 standalone executable（.exe）。對於小程式而言這通常沒有大問題，但因為各種原因，我工作上的專案不適合用這個方法，而是用 <a href=\"http://nsis.sourceforge.net/Main_Page\">NSIS</a> 製作一個安裝程式，直接把源碼和 Python interpreter 拷貝進 target system，然後建立一個 shortcut 來執行。Python 自從 3.5 開始為 Windows 提供了 <a href=\"https://docs.python.org/3.5/using/windows.html#embedded-distribution\">embedded distribution</a>，可以大幅縮小這類安裝法需要的資源，我認為和單一執行檔的作法各有勝場。</p>\n\n<p>如果你也有類似的需求，但不想像我一樣特地跑去學 NSIS（或其他類似的東西），或許可以考慮這個工具。這個專案只需要你提供想安裝的源碼，並用一個 INI 檔（符合 Python 內建的 config parser 格式）指定 dependency list 和一些參數，就會自動幫你根據現在的 interpreter 建立安裝檔。目前的功能其實有點陽春，所以我也沒在工作上用，但微軟最近也對這個專案頗有興趣，之後可能會加上一些特別的支援（應該可以講吧）。</p>",
+          "description_markdown": "承上篇，上次被 Steve 推坑的 project。如果要 deploy 一個 Python 程式（尤其在 Windows），目前主流的方法是用 cxFreeze 或 PyInstaller 之類的工具，把源碼與 interpreter 打包成一個 standalone executable（.exe）。對於小程式而言這通常沒有大問題，但因為各種原因，我工作上的專案不適合用這個方法，而是用 [NSIS](http://nsis.sourceforge.net/Main_Page) 製作一個安裝程式，直接把源碼和 Python interpreter 拷貝進 target system，然後建立一個 shortcut 來執行。Python 自從 3.5 開始為 Windows 提供了 [embedded distribution](https://docs.python.org/3.5/using/windows.html#embedded-distribution)，可以大幅縮小這類安裝法需要的資源，我認為和單一執行檔的作法各有勝場。\r\n\r\n如果你也有類似的需求，但不想像我一樣特地跑去學 NSIS（或其他類似的東西），或許可以考慮這個工具。這個專案只需要你提供想安裝的源碼，並用一個 INI 檔（符合 Python 內建的 config parser 格式）指定 dependency list 和一些參數，就會自動幫你根據現在的 interpreter 建立安裝檔。目前的功能其實有點陽春，所以我也沒在工作上用，但微軟最近也對這個專案頗有興趣，之後可能會加上一些特別的支援（應該可以講吧）。",
+          "embedded_links": [
+            {
+              "identifier": "ETSzTaz",
+              "title": "NSIS",
+              "url_domain": "sourceforge.net",
+              "url": "http://nsis.sourceforge.net/Main_Page"
+            },
+            {
+              "identifier": "gvNs1Ih",
+              "title": "embedded distribution",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3.5/using/windows.html#embedded-distribution"
+            }
+          ]
+        },
+        {
+          "identifier": "zK1VlQh",
+          "type": "Link",
+          "title": "TVアニメ『NEW GAME!』オフィシャルサイト",
+          "url_domain": "newgame-anime.com",
+          "url": "http://newgame-anime.com",
+          "description": "<p>「今天一天也要加油喔！」</p>\n\n<p>又到了推坑新番的季節啦～～～這季有幾部都滿期待的，但還是決定選了有（一點點）相關的作品。得能正太郎的 NEW GAME! 是藉由新人遊戲繪師涼風青葉的角度，描述員工們在製作電腦遊戲同時發生的故事。你問相關在哪？因為裡面很多事會讓你心有戚戚焉啊！例如專案各種 delay 最後加班之類的（眼神死）。裡面也有個角色是程式 team，看他和主角的 team 互動感覺就像和 web designer 合作一樣，有開心也有各種翻白眼。動画工房做這種小品應該滿安全的，推薦。</p>\n\n<p>同時參考<a href=\"http://acg.gamer.com.tw/acgDetail.php?s=69653\">巴哈姆特的介紹</a>。</p>",
+          "description_markdown": "「今天一天也要加油喔！」\r\n\r\n又到了推坑新番的季節啦～～～這季有幾部都滿期待的，但還是決定選了有（一點點）相關的作品。得能正太郎的 NEW GAME! 是藉由新人遊戲繪師涼風青葉的角度，描述員工們在製作電腦遊戲同時發生的故事。你問相關在哪？因為裡面很多事會讓你心有戚戚焉啊！例如專案各種 delay 最後加班之類的（眼神死）。裡面也有個角色是程式 team，看他和主角的 team 互動感覺就像和 web designer 合作一樣，有開心也有各種翻白眼。動画工房做這種小品應該滿安全的，推薦。\r\n\r\n同時參考[巴哈姆特的介紹](http://acg.gamer.com.tw/acgDetail.php?s=69653)。",
+          "embedded_links": [
+            {
+              "identifier": "r5OFEov",
+              "title": "巴哈姆特的介紹",
+              "url_domain": "gamer.com.tw",
+              "url": "http://acg.gamer.com.tw/acgDetail.php?s=69653"
+            }
+          ],
+          "image_original_filename": "689574b5-0aeb-4c5c-9fad-06eb2b14122f.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_689574b5-0aeb-4c5c-9fad-06eb2b14122f.jpg",
+          "image_medium_filename": "original_ratio_medium_689574b5-0aeb-4c5c-9fad-06eb2b14122f.jpg"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "4tQ1lwn",
+          "type": "Link",
+          "title": "なんで愛が生まれるのか",
+          "url_domain": "qiita.com",
+          "url": "http://qiita.com/tienlen/items/44daf3a52eb872085556",
+          "description": "<p>\"生\" 跟 \"死\" bitwise AND 的結果是 \"愛\"！！！</p>\n\n<p>線上驗證：<br/>\n<a href=\"https://play.golang.org/p/O9tJl8XkDA\">Go playground</a></p>\n\n<p>在 terminal 自己驗證：  <br/>\n<code>perl -E 'say \"生\" &amp; \"死\"'</code></p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "\"生\" 跟 \"死\" bitwise AND 的結果是 \"愛\"！！！\r\n\r\n線上驗證：  \r\n[Go playground](https://play.golang.org/p/O9tJl8XkDA)\r\n\r\n在 terminal 自己驗證：    \r\n`perl -E 'say \"生\" & \"死\"'`\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "wyANzvV",
+              "title": "Go playground",
+              "url_domain": "golang.org",
+              "url": "https://play.golang.org/p/O9tJl8XkDA"
+            },
+            {
+              "identifier": "jL2Qv6f",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

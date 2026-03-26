@@ -1,0 +1,387 @@
+{
+  "number": 82,
+  "title": "Issue 82 把 .psd 副檔名改成 .jpg 並不叫做轉檔，不，改成 .png 也不是",
+  "summary": "本期內容涵蓋 Machine Learning, Tensorflow, PHP, iOS",
+  "url": "https://weekly.codetengu.com/issues/82",
+  "publication_status": "published",
+  "published_at": "2017-04-03T03:00:00+01:00",
+  "updated_at": "2017-04-06T17:51:14+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Forever War</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 最近在看<a href=\"http://www.taaze.tw/static_act/201302/art/\">禪與摩托車維修的藝術</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵會寫 HTML &amp; CSS 的網頁設計師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Forever War](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 最近在看[禪與摩托車維修的藝術](http://www.taaze.tw/static_act/201302/art/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵會寫 HTML & CSS 的網頁設計師\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "bP96zpa",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "ZvEb8rn",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "TmsK3rh",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "gs8roW4",
+              "title": "The Forever War",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "q37CVwM",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "jMtDO5d",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "fmjvNuU",
+              "title": "禪與摩托車維修的藝術",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/static_act/201302/art/"
+            },
+            {
+              "identifier": "Us5RlO1",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "biR5NpS",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "xRNl9KO",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "1FpxQEm",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "XVWWTa3",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "MNn479R",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "S5GoPS6",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "HC6wnan",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "MUJ1tc8",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "y9AXljN",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "6fZq5uD",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "v9gWw2Y",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "oVGKjNm",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "LlfDhOg",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "2cUMfzQ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "TNWbQgj",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "4KqOF5r",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "6wZw8ah",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "5PMnqTs",
+          "type": "Link",
+          "title": "Introducing Similarity Search at Flickr - Flickr 的相似圖片搜尋技術",
+          "url_domain": "flickr.net",
+          "url": "http://code.flickr.net/2017/03/07/introducing-similarity-search-at-flickr/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>本篇文章介紹了 Flickr 的相似圖片搜尋技術，說到相似這樣的問題，直接可以想到的就是使用矩陣降維後再進行內積做相似運算，而 Flickr 也大概是使用相同的原理，不過並不是直接使用矩陣運算的 SVD 或是 LSA 降維，而是使用類神經算法的方式將圖片對應至一個維度較低的 tag feature space（但其實就是降維），在這個空間再使用 K-Means、LOPQ 等算法去比較圖片的相似性，滿容易懂的，可以參考參考。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n本篇文章介紹了 Flickr 的相似圖片搜尋技術，說到相似這樣的問題，直接可以想到的就是使用矩陣降維後再進行內積做相似運算，而 Flickr 也大概是使用相同的原理，不過並不是直接使用矩陣運算的 SVD 或是 LSA 降維，而是使用類神經算法的方式將圖片對應至一個維度較低的 tag feature space（但其實就是降維），在這個空間再使用 K-Means、LOPQ 等算法去比較圖片的相似性，滿容易懂的，可以參考參考。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "SYKE1Qv",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 9 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-9-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上一講我們介紹了 Adaptive Boosting 這種可以結合多個 Weak Learner 的 ML 演算法，這一講將介紹另一種 Aggregation Model - Decision Tree 這老舊卻依然很常用的 ML 演算法，Decision Tree 好用的地方在於容易解釋的特性，比較容易用來說服舊時代老人。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上一講我們介紹了 Adaptive Boosting 這種可以結合多個 Weak Learner 的 ML 演算法，這一講將介紹另一種 Aggregation Model - Decision Tree 這老舊卻依然很常用的 ML 演算法，Decision Tree 好用的地方在於容易解釋的特性，比較容易用來說服舊時代老人。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "GxpUTlw",
+          "type": "Link",
+          "title": "tf-seq2seq - A general-purpose encoder-decoder framework for Tensorflow",
+          "url_domain": "github.io",
+          "url": "https://google.github.io/seq2seq/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>Encoder-Decoder 是目前非監督式學習一個熱門的領域，我們可以將這樣的機器學習技術使用在自動翻譯、自動懶人包、AI 對話、自動圖片標題等領域上，而這是一個由 google 開源的 Encoder-Decoder Framework，讓有興趣的人可以自己建立相關的 Model。但其實沒有好用的 Data 自己也玩不太起來，如果也可以提供足夠的 Training Dataset 就好了！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\nEncoder-Decoder 是目前非監督式學習一個熱門的領域，我們可以將這樣的機器學習技術使用在自動翻譯、自動懶人包、AI 對話、自動圖片標題等領域上，而這是一個由 google 開源的 Encoder-Decoder Framework，讓有興趣的人可以自己建立相關的 Model。但其實沒有好用的 Data 自己也玩不太起來，如果也可以提供足夠的 Training Dataset 就好了！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "99Vht4a",
+          "type": "Link",
+          "title": "The State of PHP MVC Frameworks in 2017 - 2017 PHP Framework 現狀",
+          "url_domain": "sitepoint.com",
+          "url": "https://www.sitepoint.com/the-state-of-php-mvc-frameworks-in-2017/",
+          "description": "<p>PHP：初級</p>\n\n<p>PHP MVC Frameworks 的現狀如何呢？長話短說，首選就是用 Laravel 或是 Symfony，然後才選其他，大家可以看看文章作者的論點。然後，Laravel 社群在台灣蠻活躍的，所以選擇使用 Laravel 應該會在學習上蠻有幫助的，順帶一提，今年台灣會辦 <a href=\"https://laravelconf.tw/\">Laravel Conf</a> 喔！敬請期待！</p>",
+          "description_markdown": "PHP：初級\r\n\r\nPHP MVC Frameworks 的現狀如何呢？長話短說，首選就是用 Laravel 或是 Symfony，然後才選其他，大家可以看看文章作者的論點。然後，Laravel 社群在台灣蠻活躍的，所以選擇使用 Laravel 應該會在學習上蠻有幫助的，順帶一提，今年台灣會辦 [Laravel Conf](https://laravelconf.tw/) 喔！敬請期待！\r\n",
+          "embedded_links": [
+            {
+              "identifier": "shEuaq2",
+              "title": "Laravel Conf",
+              "url_domain": "laravelconf.tw",
+              "url": "https://laravelconf.tw/"
+            }
+          ]
+        },
+        {
+          "identifier": "DRJp8F0",
+          "type": "Link",
+          "title": "Q&A With The Speakers From Laracon Online 2017",
+          "url_domain": "tighten.co",
+          "url": "https://blog.tighten.co/q-and-a-with-the-speakers-from-laracon-online-2017",
+          "description": "<p>PHP：初級</p>\n\n<p>今年 <a href=\"https://laracon.net/\">Laracon Online</a> 的一些大神問大語錄，有一些技術性的問題，有一些私人的問題，其實能這樣直接跟大神們互動也是蠻新鮮有趣的！</p>",
+          "description_markdown": "PHP：初級\r\n\r\n今年 [Laracon Online](https://laracon.net/) 的一些大神問大語錄，有一些技術性的問題，有一些私人的問題，其實能這樣直接跟大神們互動也是蠻新鮮有趣的！",
+          "embedded_links": [
+            {
+              "identifier": "qfgou6K",
+              "title": "Laracon Online",
+              "url_domain": "laracon.net",
+              "url": "https://laracon.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "bU7Njhn",
+          "type": "Link",
+          "title": "FBMemoryProfiler: iOS tool that helps with profiling iOS Memory usage.",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/FBMemoryProfiler",
+          "description": "<p>Facebook 推出好一陣子的記憶體用量檢測工具，在開發 iOS app 的時候可以三不五時用這工具檢查看看有沒有應該放掉卻沒放掉的物件，也可以檢查是否有 retain cycle 的產生。</p>\n\n<p>最近在幫公司 app 大體檢，用這個工具讓我找到不少 memory leak。要看記憶體問題的話，它比 Instruments 還方便使用，搭配 Xcode 的 Memory Graph Debug 更是如虎添翼。</p>\n\n<p>同場加映：<a href=\"http://wereadteam.github.io/2016/02/22/MLeaksFinder/\">MLeaksFinder：精准 iOS 内存泄露检测工具</a></p>",
+          "description_markdown": "Facebook 推出好一陣子的記憶體用量檢測工具，在開發 iOS app 的時候可以三不五時用這工具檢查看看有沒有應該放掉卻沒放掉的物件，也可以檢查是否有 retain cycle 的產生。\r\n\r\n最近在幫公司 app 大體檢，用這個工具讓我找到不少 memory leak。要看記憶體問題的話，它比 Instruments 還方便使用，搭配 Xcode 的 Memory Graph Debug 更是如虎添翼。\r\n\r\n同場加映：[MLeaksFinder：精准 iOS 内存泄露检测工具](http://wereadteam.github.io/2016/02/22/MLeaksFinder/)",
+          "embedded_links": [
+            {
+              "identifier": "X0QZo49",
+              "title": "MLeaksFinder：精准 iOS 内存泄露检测工具",
+              "url_domain": "github.io",
+              "url": "http://wereadteam.github.io/2016/02/22/MLeaksFinder/"
+            }
+          ]
+        },
+        {
+          "identifier": "rVn4pn3",
+          "type": "Link",
+          "title": "一個 AFNetworking 的 retain cycle 問題",
+          "url_domain": "logdown.com",
+          "url": "http://nelson.logdown.com/posts/2017/03/28/retain-cycle-in-afnetworking",
+          "description": "<p>這是在健檢公司 app 的時候發現的問題，其實這本質上並非 AFNetworking 所造成的，而是 NSURLSession 的設計使然，只要有用到 NSURLSession 又沒特別去留意文件說明的話，就很容易踩到這個坑。分享這篇小短文給各位，快回去檢查一下自家的 app 有沒有這個問題吧。</p>",
+          "description_markdown": "這是在健檢公司 app 的時候發現的問題，其實這本質上並非 AFNetworking 所造成的，而是 NSURLSession 的設計使然，只要有用到 NSURLSession 又沒特別去留意文件說明的話，就很容易踩到這個坑。分享這篇小短文給各位，快回去檢查一下自家的 app 有沒有這個問題吧。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OrNPj5G",
+          "type": "Link",
+          "title": "A Quick Look at Semaphores in Swift 🚦",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/swiftly-swift/a-quick-look-at-semaphores-6b7b85233ddb",
+          "description": "<p>當有多組線程要存取同一個變數的時候，稍微有點經驗的工程師都知道這時要為這個變數「上鎖」，才不會造成存取不一致導致非預期結果。蘋果提供了多種上鎖的機制，semaphore 是個相當好上手而且效能也很出色的一個選擇。這是一篇詳細講解 semaphore 的科普文，建議每個人都該讀讀看。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/\">不再安全的 OSSpinLock</a></li>\n</ul>",
+          "description_markdown": "當有多組線程要存取同一個變數的時候，稍微有點經驗的工程師都知道這時要為這個變數「上鎖」，才不會造成存取不一致導致非預期結果。蘋果提供了多種上鎖的機制，semaphore 是個相當好上手而且效能也很出色的一個選擇。這是一篇詳細講解 semaphore 的科普文，建議每個人都該讀讀看。\r\n\r\n延伸閱讀：\r\n\r\n- [不再安全的 OSSpinLock](http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/)",
+          "embedded_links": [
+            {
+              "identifier": "JIaCpf1",
+              "title": "不再安全的 OSSpinLock",
+              "url_domain": "ibireme.com",
+              "url": "http://blog.ibireme.com/2016/01/16/spinlock_is_unsafe_in_ios/"
+            }
+          ]
+        },
+        {
+          "identifier": "h0dJfVH",
+          "type": "Link",
+          "title": "Engineering the Architecture Behind Uber’s New Rider App",
+          "url_domain": "uber.com",
+          "url": "https://eng.uber.com/new-rider-app/",
+          "description": "<p>當 Uber 持續成長之後，他們的叫車 app 也遇到每家大公司都會遇到的問題，就是程式碼經年累月下來已經龐雜到難以維護的地步，所以他們決定要整個砍掉重練，規劃一套全新的架構。</p>\n\n<p>設計這個架構的時候，最重要的兩件事就是要「核心功能穩定」並且「易於擴充新功能」，最終的結果非常令人滿意，他們讓 iOS 跟 Android 平台共享了核心的架構與流程，以及商業邏輯。</p>\n\n<p>看完之後就覺得：「原來 Uber 的程式碼跟我們一樣也是一坨塞在 Controller 裏～ＸＤ」，以及「果然架構複雜一點之後，都會選擇類似 VIPER 的設計啊」。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://digital.travelport.com/blog/architecting-mobile-apps-with-bviper-modules\">Architecting Apps with (B)VIPER Modules | MTT Blog</a></li>\n</ul>",
+          "description_markdown": "當 Uber 持續成長之後，他們的叫車 app 也遇到每家大公司都會遇到的問題，就是程式碼經年累月下來已經龐雜到難以維護的地步，所以他們決定要整個砍掉重練，規劃一套全新的架構。\r\n\r\n設計這個架構的時候，最重要的兩件事就是要「核心功能穩定」並且「易於擴充新功能」，最終的結果非常令人滿意，他們讓 iOS 跟 Android 平台共享了核心的架構與流程，以及商業邏輯。\r\n\r\n看完之後就覺得：「原來 Uber 的程式碼跟我們一樣也是一坨塞在 Controller 裏～ＸＤ」，以及「果然架構複雜一點之後，都會選擇類似 VIPER 的設計啊」。\r\n\r\n延伸閱讀：\r\n\r\n- [Architecting Apps with (B)VIPER Modules | MTT Blog](http://digital.travelport.com/blog/architecting-mobile-apps-with-bviper-modules)",
+          "embedded_links": [
+            {
+              "identifier": "Ws9a89D",
+              "title": "Architecting Apps with (B)VIPER Modules | MTT Blog",
+              "url_domain": "travelport.com",
+              "url": "http://digital.travelport.com/blog/architecting-mobile-apps-with-bviper-modules"
+            }
+          ]
+        },
+        {
+          "identifier": "1OBbZsv",
+          "type": "Link",
+          "title": "Investigating Thread Safety of UIImage",
+          "url_domain": "pspdfkit.com",
+          "url": "https://pspdfkit.com/blog/2016/investigating-thread-saftey-of-UIImage/",
+          "description": "<p>在 iOS 開發裡，我們為了效能的考量，通常都會把「載入並解碼圖片」這個動作丟到 background queue 去執行，可是你有想過「建立圖片」這個動作並非線程安全嗎？PSPDFKit 的強者 <a href=\"https://twitter.com/steipete\">Peter Steinberger</a> 就在他們的官方部落格分享了他們對這問題的研究與解法。整篇文章非常精彩，值得一讀！</p>",
+          "description_markdown": "在 iOS 開發裡，我們為了效能的考量，通常都會把「載入並解碼圖片」這個動作丟到 background queue 去執行，可是你有想過「建立圖片」這個動作並非線程安全嗎？PSPDFKit 的強者 [Peter Steinberger](https://twitter.com/steipete) 就在他們的官方部落格分享了他們對這問題的研究與解法。整篇文章非常精彩，值得一讀！",
+          "embedded_links": [
+            {
+              "identifier": "mgPIEnY",
+              "title": "Peter Steinberger",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/steipete"
+            }
+          ]
+        },
+        {
+          "identifier": "KmnP9QP",
+          "type": "Link",
+          "title": "hipposan/Oslo: An anatomy of Oslo",
+          "url_domain": "github.com",
+          "url": "https://github.com/hipposan/Oslo",
+          "description": "<p>這是一款由愛好者自行開發的 <a href=\"https://unsplash.com/\">Unsplash</a> 第三方客戶端，Unsplash 提供了許多高品質的照片，並且開放讓人自由使用。這款 app 除了可以從 iTunes 下載安裝之外，作者也公開了所有的程式碼，供感興趣的人學習參考。</p>\n\n<p>同場加映：<a href=\"http://irvue.tumblr.com/\">Irvue for OS X</a>，Unsplash 的桌面端軟體，可定時更換桌布，同時也有提供螢幕保護程式。</p>",
+          "description_markdown": "這是一款由愛好者自行開發的 [Unsplash](https://unsplash.com/) 第三方客戶端，Unsplash 提供了許多高品質的照片，並且開放讓人自由使用。這款 app 除了可以從 iTunes 下載安裝之外，作者也公開了所有的程式碼，供感興趣的人學習參考。\r\n\r\n同場加映：[Irvue for OS X](http://irvue.tumblr.com/)，Unsplash 的桌面端軟體，可定時更換桌布，同時也有提供螢幕保護程式。",
+          "embedded_links": [
+            {
+              "identifier": "5qqzCaD",
+              "title": "Unsplash",
+              "url_domain": "unsplash.com",
+              "url": "https://unsplash.com/"
+            },
+            {
+              "identifier": "4xWZ0We",
+              "title": "Irvue for OS X",
+              "url_domain": "tumblr.com",
+              "url": "http://irvue.tumblr.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "ZID2EmT",
+          "type": "Link",
+          "title": "Dashboard 利器: Metabase",
+          "url_domain": "tzangms.com",
+          "url": "https://tzangms.com/dashboard-tool-metabase/",
+          "description": "<p>直接看網誌，這麼好用，狂！</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 分享。</p>",
+          "description_markdown": "直接看網誌，這麼好用，狂！\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "5DiQKBS",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "72d3074f-f2eb-4f7a-8a4f-d8da8cdce4f4.png",
+          "image_extra_large_filename": "original_ratio_extra_large_72d3074f-f2eb-4f7a-8a4f-d8da8cdce4f4.png",
+          "image_medium_filename": "original_ratio_medium_72d3074f-f2eb-4f7a-8a4f-d8da8cdce4f4.png"
+        }
+      ]
+    }
+  ]
+}

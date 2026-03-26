@@ -1,0 +1,651 @@
+{
+  "number": 42,
+  "title": "Issue 42 所有人都在說互联网，沒有人在說網際網路了",
+  "summary": "本期內容涵蓋 Python, Makefile, Go, Visual Studio Code, Bots, 寫作, 管理",
+  "url": "https://weekly.codetengu.com/issues/42",
+  "publication_status": "published",
+  "published_at": "2016-05-09T03:00:00+01:00",
+  "updated_at": "2016-05-09T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 喜歡科幻小說，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">平面國</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 徵 Android 工程師，<a href=\"https://www.indievox.com/h/jobs.html\">意者內洽</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a> 或 <a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 喜歡科幻小說，最近在讀「[平面國](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 徵 Android 工程師，[意者內洽](https://www.indievox.com/h/jobs.html)\r\n- [@wancw](https://twitter.com/wancw) - 繼續寫 LeetCode 可能會生出一套 Unit Test 框架\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu) 或 [GitHub](https://github.com/CodeTengu/headquarters)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "XpCaIDV",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Z7pnnL",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "toNiwfz",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "yRKRmlt",
+              "title": "平面國",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "6ZvtoEZ",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "VCF0eUY",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "r58CCBx",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "GNuWflC",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "9s0oL5s",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "izcY94T",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "75gI1jt",
+              "title": "意者內洽",
+              "url_domain": "indievox.com",
+              "url": "https://www.indievox.com/h/jobs.html"
+            },
+            {
+              "identifier": "lr8v9F",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "nAJ7XvH",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "iUKGKE2",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "tvlHQhV",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "rvAmmkZ",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "jJZOizC",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "S9VOR0s",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "nCVvSEZ",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "gAKGiIo",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "2aA2wkL",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "y4H7hVx",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "3ZWU6kQ",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "OvDYc2C",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "mkHesiv",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "ppT88of",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "ka4lrqA",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "vbNH6XZ",
+          "type": "Link",
+          "title": "What does Unsplash cost?",
+          "url_domain": "crew.co",
+          "url": "http://backstage.crew.co/what-does-unsplash-cost/",
+          "description": "<p>Unsplash 是一個提供高質量照片而且可以免費使用 (do whatever you want) 的網站, 一直以來, <a href=\"https://tzangms.com/\">我的部落格</a> 每發一篇文章就都會從這個網站找一張圖片搭配。</p>\n\n<p>其實我一直以為這網站似乎不太需要花錢, 一直到看了這篇文章才覺得實在太驚訝了, 這樣一個簡單的網站, 每個月居然要花上高達快 60萬台幣 :o</p>\n\n<p>不過當然得說一下, 他們的架構是朝著省時、省力的方向走, 這也是一種方式。</p>",
+          "description_markdown": "Unsplash 是一個提供高質量照片而且可以免費使用 (do whatever you want) 的網站, 一直以來, [我的部落格](https://tzangms.com/) 每發一篇文章就都會從這個網站找一張圖片搭配。 \r\n\r\n其實我一直以為這網站似乎不太需要花錢, 一直到看了這篇文章才覺得實在太驚訝了, 這樣一個簡單的網站, 每個月居然要花上高達快 60萬台幣 :o\r\n\r\n不過當然得說一下, 他們的架構是朝著省時、省力的方向走, 這也是一種方式。",
+          "embedded_links": [
+            {
+              "identifier": "V5PVU0d",
+              "title": "我的部落格",
+              "url_domain": "tzangms.com",
+              "url": "https://tzangms.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "Vm5fzk4",
+          "type": "Link",
+          "title": "The Internet Economy",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cdixon/the-internet-economy-fc43f3eff58a#.suci94v8j",
+          "description": "<p>作者畫了一張圖來表達現在的 (美國) 網路經濟流向, 以及現在網路經濟被五大公司 (Google, Apple, Facebook, Amazon, and Microsoft) 所掌握。</p>\n\n<p>我覺得當中比較有趣的是這一點, 提到 Amazon 是 Google 的主要威脅</p>\n\n<blockquote><p>it might seem counterintuitive that Amazon is a major threat to Google’s core search business.</p></blockquote>\n\n<p>論點大致上是這樣: 人們使用 Google 搜尋產品來進行購物, Google 透過搜尋來賣廣告, 而廣告通常是賣東西的人下廣告比較多, 不過 Amazon 的購物體驗比起其他商城好, 所以人們開始傾向直接上 Amazon, 跳過 Google 搜尋... 挺有道理的啊...</p>",
+          "description_markdown": "作者畫了一張圖來表達現在的 (美國) 網路經濟流向, 以及現在網路經濟被五大公司 (Google, Apple, Facebook, Amazon, and Microsoft) 所掌握。\r\n\r\n我覺得當中比較有趣的是這一點, 提到 Amazon 是 Google 的主要威脅\r\n\r\n> it might seem counterintuitive that Amazon is a major threat to Google’s core search business.\r\n\r\n論點大致上是這樣: 人們使用 Google 搜尋產品來進行購物, Google 透過搜尋來賣廣告, 而廣告通常是賣東西的人下廣告比較多, 不過 Amazon 的購物體驗比起其他商城好, 所以人們開始傾向直接上 Amazon, 跳過 Google 搜尋... 挺有道理的啊...",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "CQ6PlHM",
+          "type": "Link",
+          "title": "滲透 Facebook 的思路與發現",
+          "url_domain": "devco.re",
+          "url": "http://devco.re/blog/2016/04/21/how-I-hacked-facebook-and-found-someones-backdoor-script/",
+          "description": "<p>上個月火紅的一篇 Hack 進 FB 的技術文章, 沿著作者的思路一路走, 的確是很有趣</p>",
+          "description_markdown": "上個月火紅的一篇 Hack 進 FB 的技術文章, 沿著作者的思路一路走, 的確是很有趣",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "bEe5nZI",
+          "type": "Link",
+          "title": "Unintuitive Things I’ve Learned about Management (Part 1) ",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-part-2-7c22fc9d87ed#.77hq84rl1",
+          "description": "<p>雖然管理的文章看多了, 似乎就是那樣, 不過這篇我覺得寫的還是不錯, 還是推薦大家看看。其中印象比較深刻的是這一點</p>\n\n<blockquote><p>To evaluate the strength of a manager, look at the strength of their team.</p></blockquote>\n\n<p>也記得看 <a href=\"https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-part-2-7c22fc9d87ed#.77hq84rl1\">Part 2</a></p>",
+          "description_markdown": "雖然管理的文章看多了, 似乎就是那樣, 不過這篇我覺得寫的還是不錯, 還是推薦大家看看。其中印象比較深刻的是這一點\r\n\r\n> To evaluate the strength of a manager, look at the strength of their team.\r\n\r\n也記得看 [Part 2](https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-part-2-7c22fc9d87ed#.77hq84rl1)",
+          "embedded_links": [
+            {
+              "identifier": "eYnVXoR",
+              "title": "Part 2",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/the-year-of-the-looking-glass/unintuitive-things-i-ve-learned-about-management-part-2-7c22fc9d87ed#.77hq84rl1"
+            }
+          ]
+        },
+        {
+          "identifier": "eBKburN",
+          "type": "Link",
+          "title": "本週 IG: @qbee7582",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/qbee7582/",
+          "description": "<p>華航空姐, 已經是一位媽媽, 雖然穿搭的廣告有點多, 但是還是很棒</p>",
+          "description_markdown": "華航空姐, 已經是一位媽媽, 雖然穿搭的廣告有點多, 但是還是很棒",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "a2d804e7-1f70-473c-86c7-73381bee9bef.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_a2d804e7-1f70-473c-86c7-73381bee9bef.jpg",
+          "image_medium_filename": "original_ratio_medium_a2d804e7-1f70-473c-86c7-73381bee9bef.jpg"
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "dQXW6eg",
+          "type": "Link",
+          "title": "The one thing every programmer should do to succeed in the tech industry",
+          "url_domain": "businessinsider.com",
+          "url": "http://www.businessinsider.com/ex-microsoft-engineer-advice-success-2015-10",
+          "description": "<p>如果想在科技界成功，記得做一件事：寫作。這能讓你表達自己的意見——尤其如果你不擅長在公開場合說話。</p>\n\n<p>學習寫作可以讓工程師更容易向管理階層、甚至客戶解釋自己的工作。當你完成一個系統後，會需要用人類的語言解釋它；好的說明文章也會成為現成的廣告，一來提高作品能見度，二來提升使用者的使用慾——更多使用者代表更多找到問題的機會，對軟體本身的品質也有很大幫助。</p>\n\n<p>當然，軟體工程師本職還是寫程式，所以當不成文豪什麼的也沒關係。但千萬記得保留一些技能點給它。</p>",
+          "description_markdown": "如果想在科技界成功，記得做一件事：寫作。這能讓你表達自己的意見——尤其如果你不擅長在公開場合說話。\r\n\r\n學習寫作可以讓工程師更容易向管理階層、甚至客戶解釋自己的工作。當你完成一個系統後，會需要用人類的語言解釋它；好的說明文章也會成為現成的廣告，一來提高作品能見度，二來提升使用者的使用慾——更多使用者代表更多找到問題的機會，對軟體本身的品質也有很大幫助。\r\n\r\n當然，軟體工程師本職還是寫程式，所以當不成文豪什麼的也沒關係。但千萬記得保留一些技能點給它。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Adsr3mw",
+          "type": "Link",
+          "title": "Programming by Poking: Why MIT Stopped Teaching SICP",
+          "url_domain": "posteriorscience.net",
+          "url": "http://www.posteriorscience.net/?p=206",
+          "description": "<p>最近幾年 MIT 放棄使用經典《<a href=\"https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A\">電腦程式的構造和解釋</a>》（<em>Structure and Interpretation of Computer Programs</em>，通稱 SICP）作為計算機概論的教科書，開始用 Python 取代 SICP 使用的 Scheme，當作 CS 學生的入門語言。Yarden Katz 在這篇文章中稍微解釋了原因：Sussman 和 Abelson（SICP 的作者）不想繼續教，以及 SICP 的內容不再適合現代的工程概念，無法讓學生獲得成為當代軟體工程師所需的技能。</p>\n\n<p><a href=\"https://vimeo.com/151465912#t=59m36s\">根據 Gerry Sussman（SICP 作者與授課教授之一）的說法</a>，SICP 成書時的軟體工程需要從頭開始打造一個系統，但今天的工程師絕大時間都花在自己不了解（也不可能了解）的軟硬體技術上。Sussman 觀察到他的學生把大量時間花在閱讀文件，好把不同的現成元件接合在一起，讓它們能一起運作。用他的話講：</p>\n\n<blockquote><p>[現在的程式設計] 更像科學。你拿到一個程式庫，然後擺弄它。你寫一個程式，然後擺弄它，觀察它的運作結果。然後你就能問『我能不能調整它達成我的需求？』</p></blockquote>\n\n<p>SICP 的方法開始與當代的工程需求脫節，所以他們決定拋棄它。Python 因為擁有包山包海的函式庫，能夠適應講師希望教授的各種應用，而被選為新的教材。</p>\n\n<p>不過即使不再是入門的最佳方法，SICP 本身仍然是經典，值得一看（我承認我沒讀過）。<a href=\"https://mitpress.mit.edu/sicp/full-text/book/book.html\">書的內容</a>完全公開，Sussman 和 Abelson 的授課也有<a href=\"http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/\">錄影</a>。</p>",
+          "description_markdown": "最近幾年 MIT 放棄使用經典《[電腦程式的構造和解釋](https://zh.wikipedia.org/wiki/计算机程序的构造和解释)》（*Structure and Interpretation of Computer Programs*，通稱 SICP）作為計算機概論的教科書，開始用 Python 取代 SICP 使用的 Scheme，當作 CS 學生的入門語言。Yarden Katz 在這篇文章中稍微解釋了原因：Sussman 和 Abelson（SICP 的作者）不想繼續教，以及 SICP 的內容不再適合現代的工程概念，無法讓學生獲得成為當代軟體工程師所需的技能。\r\n\r\n[根據 Gerry Sussman（SICP 作者與授課教授之一）的說法](https://vimeo.com/151465912#t=59m36s)，SICP 成書時的軟體工程需要從頭開始打造一個系統，但今天的工程師絕大時間都花在自己不了解（也不可能了解）的軟硬體技術上。Sussman 觀察到他的學生把大量時間花在閱讀文件，好把不同的現成元件接合在一起，讓它們能一起運作。用他的話講：\r\n\r\n> [現在的程式設計] 更像科學。你拿到一個程式庫，然後擺弄它。你寫一個程式，然後擺弄它，觀察它的運作結果。然後你就能問『我能不能調整它達成我的需求？』\r\n\r\nSICP 的方法開始與當代的工程需求脫節，所以他們決定拋棄它。Python 因為擁有包山包海的函式庫，能夠適應講師希望教授的各種應用，而被選為新的教材。\r\n\r\n不過即使不再是入門的最佳方法，SICP 本身仍然是經典，值得一看（我承認我沒讀過）。[書的內容](https://mitpress.mit.edu/sicp/full-text/book/book.html)完全公開，Sussman 和 Abelson 的授課也有[錄影](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/)。",
+          "embedded_links": [
+            {
+              "identifier": "KBrjmEm",
+              "title": "電腦程式的構造和解釋",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/计算机程序的构造和解释"
+            },
+            {
+              "identifier": "smzMGAd",
+              "title": "根據 Gerry Sussman（SICP 作者與授課教授之一）的說法",
+              "url_domain": "vimeo.com",
+              "url": "https://vimeo.com/151465912#t=59m36s"
+            },
+            {
+              "identifier": "eEE47bw",
+              "title": "書的內容",
+              "url_domain": "mit.edu",
+              "url": "https://mitpress.mit.edu/sicp/full-text/book/book.html"
+            },
+            {
+              "identifier": "XF3rKjS",
+              "title": "錄影",
+              "url_domain": "mit.edu",
+              "url": "http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/"
+            }
+          ]
+        },
+        {
+          "identifier": "yGdh9ph",
+          "type": "Link",
+          "title": "Makefile Assignments are Turing-Complete",
+          "url_domain": "nullprogram.com",
+          "url": "http://nullprogram.com/blog/2016/04/30/",
+          "description": "<p>這年頭好像沒什麼人自己手寫 Makefile 了，一般程式 project 會因為平台支援轉用 meta-make system 例如 CMake 與 SCons，即使原本 Makefile 的 niche——單一 target platform 的 build dependency management——也被更潮的工具取代，例如什麼 Grunt 啊這不潮了是 Gulp 啊這也不潮我是說 Webpack。是說好像前年 COSCUP 吧，我聽了個介紹當時很夯的 build system 的 talk，聽到一半就忍不住跟隔壁的人說『啊這就是 Makefile 啊』。</p>\n\n<p>真的，Makefile 很厲害。而且它是 Turing-complete，也就是說你能想得 build tool 該辦到的事情，它都辦得到——甚至你覺得它不該辦到的也可以，例如用來實作<a href=\"https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E7%94%9F%E5%91%BD%E6%B8%B8%E6%88%8F\">康威生命遊戲</a>！？</p>\n\n<p>當然「辦得到」和「你該用它辦到」是兩件事，特定的狀況還是該用特定的工具（文章裡也舉了個著名的 <a href=\"https://www.cl.cam.ac.uk/~sd601/papers/mov.pdf\">x86 <code>mov</code> 是 Turing-complete</a> 例子），一切都視情況而定。但為了一個簡單的任務，與其費盡千辛萬苦裝 node 裝 npm 再裝那個你心愛的 build system，用一個幾乎所有 Linux distributions 都預裝、OS X 和 Windows 也只要裝任何開發工具就會送你的東西，好像還更方便呢。</p>",
+          "description_markdown": "這年頭好像沒什麼人自己手寫 Makefile 了，一般程式 project 會因為平台支援轉用 meta-make system 例如 CMake 與 SCons，即使原本 Makefile 的 niche——單一 target platform 的 build dependency management——也被更潮的工具取代，例如什麼 Grunt 啊這不潮了是 Gulp 啊這也不潮我是說 Webpack。是說好像前年 COSCUP 吧，我聽了個介紹當時很夯的 build system 的 talk，聽到一半就忍不住跟隔壁的人說『啊這就是 Makefile 啊』。\r\n\r\n真的，Makefile 很厲害。而且它是 Turing-complete，也就是說你能想得 build tool 該辦到的事情，它都辦得到——甚至你覺得它不該辦到的也可以，例如用來實作[康威生命遊戲](https://zh.wikipedia.org/wiki/康威生命游戏)！？\r\n\r\n當然「辦得到」和「你該用它辦到」是兩件事，特定的狀況還是該用特定的工具（文章裡也舉了個著名的 [x86 `mov` 是 Turing-complete](https://www.cl.cam.ac.uk/~sd601/papers/mov.pdf) 例子），一切都視情況而定。但為了一個簡單的任務，與其費盡千辛萬苦裝 node 裝 npm 再裝那個你心愛的 build system，用一個幾乎所有 Linux distributions 都預裝、OS X 和 Windows 也只要裝任何開發工具就會送你的東西，好像還更方便呢。",
+          "embedded_links": [
+            {
+              "identifier": "e6TnPq",
+              "title": "康威生命遊戲",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/康威生命游戏"
+            },
+            {
+              "identifier": "EWL3thM",
+              "title": "x86 `mov` 是 Turing-complete",
+              "url_domain": "cam.ac.uk",
+              "url": "https://www.cl.cam.ac.uk/~sd601/papers/mov.pdf"
+            }
+          ]
+        },
+        {
+          "identifier": "dH1T8II",
+          "type": "Link",
+          "title": "Classic Programmer Paintings",
+          "url_domain": "classicprogrammerpaintings.com",
+          "url": "http://classicprogrammerpaintings.com",
+          "description": "<p>《償還技術債》</p>\n\n<p>這個 Tumblr 收集了許多經典畫作，並為它們加上一個 programmer 取向的標題。其他我特別喜歡的還有像《<a href=\"http://classicprogrammerpaintings.com/post/143847262458\">Haskell meetup</a>》、《<a href=\"http://classicprogrammerpaintings.com/post/142702963264\">第一次 code review</a>》、《<a href=\"http://classicprogrammerpaintings.com/post/143109414333\">Sysadmin 確認 RFC2822 是否確實允許向所有收件人發佈 BCC 欄位</a>》等等。</p>",
+          "description_markdown": "《償還技術債》\r\n\r\n這個 Tumblr 收集了許多經典畫作，並為它們加上一個 programmer 取向的標題。其他我特別喜歡的還有像《[Haskell meetup](http://classicprogrammerpaintings.com/post/143847262458)》、《[第一次 code review](http://classicprogrammerpaintings.com/post/142702963264)》、《[Sysadmin 確認 RFC2822 是否確實允許向所有收件人發佈 BCC 欄位](http://classicprogrammerpaintings.com/post/143109414333)》等等。",
+          "embedded_links": [
+            {
+              "identifier": "J3Kv0Sq",
+              "title": "Haskell meetup",
+              "url_domain": "classicprogrammerpaintings.com",
+              "url": "http://classicprogrammerpaintings.com/post/143847262458"
+            },
+            {
+              "identifier": "m0R6BgP",
+              "title": "第一次 code review",
+              "url_domain": "classicprogrammerpaintings.com",
+              "url": "http://classicprogrammerpaintings.com/post/142702963264"
+            },
+            {
+              "identifier": "sDv0d1k",
+              "title": "Sysadmin 確認 RFC2822 是否確實允許向所有收件人發佈 BCC 欄位",
+              "url_domain": "classicprogrammerpaintings.com",
+              "url": "http://classicprogrammerpaintings.com/post/143109414333"
+            }
+          ],
+          "image_original_filename": "189fb575-fc91-4465-82bb-fd4965545021.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_189fb575-fc91-4465-82bb-fd4965545021.jpg",
+          "image_medium_filename": "original_ratio_medium_189fb575-fc91-4465-82bb-fd4965545021.jpg"
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "cu00Rch",
+          "type": "Link",
+          "title": "讓你 Go 程式碼變得更好的工具集 (Tools to Help you Go)",
+          "url_domain": "serifandsemaphore.io",
+          "url": "https://serifandsemaphore.io/tools-to-help-you-go-d6f782055ce7#.1iex1ex8l",
+          "description": "<p>Golang 讓人喜歡的許多原因之一，就是有著許多好用的工具可以讓你在撰寫 Go 的時候更加的輕鬆而方便． 舉個最間單的例子，就是 coding style tool <a href=\"https://github.com/bradfitz/goimports\">goimport</a>  他可以讓你在存在之後，自動把 coding style 改成 Golang community 所習慣的範例． 當然還有好用到不行的 <a href=\"https://godoc.org/golang.org/x/tools/cmd/guru\">guru</a> 可以幫助你查詢 caller 與 callee．除了這兩個之外，這一篇有介紹更多的工具:</p>\n\n<ul>\n<li><a href=\"https://github.com/golang/lint\">Golint</a> : 可以自動幫你檢查所有程式碼中潛在的語法問題．</li>\n<li><a href=\"https://github.com/fzipp/gocyclo\">Gocyclo</a> : 可以幫你計算你程式碼中的循環複雜度（Cyclomatic complexity）避免有過多的迴圈運算．</li>\n<li><a href=\"https://github.com/divan/depscheck\">Depscheck</a> :  可以幫你產生相依性的報表，讓你可以思考有多少小套套件是相依其他人的．經過了 <a href=\"http://www.thenewslens.com/post/305094/\">NPM 的 LeftPad </a> 事件之後．其實不少人建議如果相依的套件太小，不仿自己寫過來吧．</li>\n<li><a href=\"https://github.com/kisielk/errcheck\">errcheck</a> : 這個套件可以幫你檢查你的程式碼有沒有對於每個錯誤都有相對應的檢查與處理．避免明明有 error 卻沒有檢查的潛在問題．</li>\n<li><a href=\"https://github.com/stripe/safesql\">safesql</a> : SQL Injection 是每個人在撰寫後端與資料庫橋接程式的時候最擔心的問題．這個工具可以幫你檢查看看有沒有危險的語法存在．</li>\n</ul>\n\n\n<p>雖然 Golang 社群提供了許多的工具來幫助你，其實 Golang 本身的 Compiler 已經相當的強勢．會幫你檢查出許多潛在的問題．除了這些工具之外，當然相信自己與撰寫單元測試的好習慣都是可以幫助讓你的程式變得更好的不二法門．</p>",
+          "description_markdown": "Golang 讓人喜歡的許多原因之一，就是有著許多好用的工具可以讓你在撰寫 Go 的時候更加的輕鬆而方便． 舉個最間單的例子，就是 coding style tool [goimport](https://github.com/bradfitz/goimports)  他可以讓你在存在之後，自動把 coding style 改成 Golang community 所習慣的範例． 當然還有好用到不行的 [guru](https://godoc.org/golang.org/x/tools/cmd/guru) 可以幫助你查詢 caller 與 callee．除了這兩個之外，這一篇有介紹更多的工具:\r\n\r\n- [Golint](https://github.com/golang/lint) : 可以自動幫你檢查所有程式碼中潛在的語法問題．\r\n- [Gocyclo](https://github.com/fzipp/gocyclo) : 可以幫你計算你程式碼中的循環複雜度（Cyclomatic complexity）避免有過多的迴圈運算．\r\n- [Depscheck](https://github.com/divan/depscheck) :  可以幫你產生相依性的報表，讓你可以思考有多少小套套件是相依其他人的．經過了 [NPM 的 LeftPad ](http://www.thenewslens.com/post/305094/) 事件之後．其實不少人建議如果相依的套件太小，不仿自己寫過來吧．\r\n- [errcheck](https://github.com/kisielk/errcheck) : 這個套件可以幫你檢查你的程式碼有沒有對於每個錯誤都有相對應的檢查與處理．避免明明有 error 卻沒有檢查的潛在問題．\r\n- [safesql](https://github.com/stripe/safesql) : SQL Injection 是每個人在撰寫後端與資料庫橋接程式的時候最擔心的問題．這個工具可以幫你檢查看看有沒有危險的語法存在．\r\n\r\n雖然 Golang 社群提供了許多的工具來幫助你，其實 Golang 本身的 Compiler 已經相當的強勢．會幫你檢查出許多潛在的問題．除了這些工具之外，當然相信自己與撰寫單元測試的好習慣都是可以幫助讓你的程式變得更好的不二法門．",
+          "embedded_links": [
+            {
+              "identifier": "ZQOdb74",
+              "title": "goimport",
+              "url_domain": "github.com",
+              "url": "https://github.com/bradfitz/goimports"
+            },
+            {
+              "identifier": "9DH1TOQ",
+              "title": "guru",
+              "url_domain": "godoc.org",
+              "url": "https://godoc.org/golang.org/x/tools/cmd/guru"
+            },
+            {
+              "identifier": "QC5synR",
+              "title": "Golint",
+              "url_domain": "github.com",
+              "url": "https://github.com/golang/lint"
+            },
+            {
+              "identifier": "Y2A015Q",
+              "title": "Gocyclo",
+              "url_domain": "github.com",
+              "url": "https://github.com/fzipp/gocyclo"
+            },
+            {
+              "identifier": "o3T9Ctl",
+              "title": "Depscheck",
+              "url_domain": "github.com",
+              "url": "https://github.com/divan/depscheck"
+            },
+            {
+              "identifier": "EBjPag9",
+              "title": "NPM 的 LeftPad ",
+              "url_domain": "thenewslens.com",
+              "url": "http://www.thenewslens.com/post/305094/"
+            },
+            {
+              "identifier": "DBZNe18",
+              "title": "errcheck",
+              "url_domain": "github.com",
+              "url": "https://github.com/kisielk/errcheck"
+            },
+            {
+              "identifier": "kwzVrsD",
+              "title": "safesql",
+              "url_domain": "github.com",
+              "url": "https://github.com/stripe/safesql"
+            }
+          ]
+        },
+        {
+          "identifier": "qlzMWMS",
+          "type": "Link",
+          "title": "[Golang] 深入研究 Visual Studio Code for Golang",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/dive-with-vscode-golang/",
+          "description": "<p>筆者要推薦自己的一篇文章．主要就是推薦最近剛剛成為 1.0 正式版的 <a href=\"https://code.visualstudio.com/\">Visual Studio Code</a>  ，如果你有開發 Windows 應用程式的經驗，那麼你可能使用過 Visual Studio  而 Visual Studio Code 是基於 Visual Studio 類似的使用者習慣並且基於 <a href=\"https://atom.io/\">atom.io</a> 的編譯器原始碼所開發而成．</p>\n\n<p>本篇文章不僅僅介紹了該如何開始使用 VS Code for Golang ，更將筆者比較常使用的一些熱鍵與設定檔分享出來．希望能讓習慣於使用其他編輯器開發 Golang 的使用者可以更快速上手．</p>\n\n<p>如果你目前的開發編輯器是  Sublime-Text ，那麼你切換到 VS Code 會相當的順利並且快速．如果你目前的  atom.io 那麼你也可以試試看，不少開發者都說切換過去後的開發速度整個變快了不少． 如果你目前開發編輯器是 VIM ，也建議你試試看他的 debugger ．透過 <a href=\"https://github.com/derekparker/delve\">delve</a> 並且與 VS 相似的除錯介面，可以讓你解決問題更快上手．</p>",
+          "description_markdown": "筆者要推薦自己的一篇文章．主要就是推薦最近剛剛成為 1.0 正式版的 [Visual Studio Code](https://code.visualstudio.com/)  ，如果你有開發 Windows 應用程式的經驗，那麼你可能使用過 Visual Studio  而 Visual Studio Code 是基於 Visual Studio 類似的使用者習慣並且基於 [atom.io](https://atom.io/) 的編譯器原始碼所開發而成．\r\n\r\n本篇文章不僅僅介紹了該如何開始使用 VS Code for Golang ，更將筆者比較常使用的一些熱鍵與設定檔分享出來．希望能讓習慣於使用其他編輯器開發 Golang 的使用者可以更快速上手．\r\n\r\n如果你目前的開發編輯器是  Sublime-Text ，那麼你切換到 VS Code 會相當的順利並且快速．如果你目前的  atom.io 那麼你也可以試試看，不少開發者都說切換過去後的開發速度整個變快了不少． 如果你目前開發編輯器是 VIM ，也建議你試試看他的 debugger ．透過 [delve](https://github.com/derekparker/delve) 並且與 VS 相似的除錯介面，可以讓你解決問題更快上手．\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "78TwWiG",
+              "title": "Visual Studio Code",
+              "url_domain": "visualstudio.com",
+              "url": "https://code.visualstudio.com/"
+            },
+            {
+              "identifier": "RzMrnCj",
+              "title": "atom.io",
+              "url_domain": "atom.io",
+              "url": "https://atom.io/"
+            },
+            {
+              "identifier": "Hlymr5Q",
+              "title": "delve",
+              "url_domain": "github.com",
+              "url": "https://github.com/derekparker/delve"
+            }
+          ]
+        },
+        {
+          "identifier": "DJURGgO",
+          "type": "Link",
+          "title": "Dan Grover:  \"Bots won't replace apps. Better apps will replace apps.\"",
+          "url_domain": "dangrover.com",
+          "url": "http://dangrover.com/blog/2016/04/20/bots-wont-replace-apps.html?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website#fn:3",
+          "description": "<p>這裡有官方中文版可以看: <a href=\"http://www.pingwest.com/bots-wont-replace-apps/\">\"Bot 不会取代 app，更好的 app 才会\" </a>，作者是微信的 PM (美國人 !!)</p>\n\n<p>作者認為不論 Bot 多麼的具有智慧， 相對於 App的圖形介面，跟 Bot 對話就像是 以前時代的 DOS 命令列一樣，需要不斷地下指令．  而操作 App 就像是後來出的 Windows 視窗介面 (GUI) ．後者永遠不會被前者取代，但是如何讓使用者更容易與有效的使用你的服務才是重點．</p>\n\n<p>小編這幾週將一些的 Bot Framework 都玩了一下，包含微軟的 <a href=\"https://dev.botframework.com/\">Bot Framework</a>，臉書的 <a href=\"https://developers.facebook.com/docs/messenger-platform\">Messenger Platform</a> 還是 <a href=\"https://developers.line.me/bot-api/overview\">Line Bot API</a> ．其實聊天機器人並不是新的概念，從 IM 軟體出來的第一天就有了．但是透過現今不少的自然語音系統的輔助 (不論是微軟的 <a href=\"https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis\">LUIS</a> 或是被臉書收購的 <a href=\"https://wit.ai\">wit.ai</a> 都可以讓你的聊天機器人變得更加 \"有人性\"．更快能在最少的交談中去了解每個使用者的需求．</p>\n\n<p>最後，要開發 IM 的機器人不難，但是你希望它能幫你做些什麼? 要簡單的資料檢索，還是要複雜一點的 <a href=\"http://deploybot.com/guides/chatops-deploybot-slack\">ChatOps</a> ? 端看每個開發者的創造力．</p>\n\n<p>最後，列出一些 Bot 相關的 Go 專案:</p>\n\n<ul>\n<li><a href=\"https://github.com/line/line-bot-sdk-go\">Line 提供的官方 Go Bot API SDK</a></li>\n<li><a href=\"https://github.com/maciekmm/messenger-platform-go-sdk\">Facebook Messenger Platform SDK (非官方) </a></li>\n<li><a href=\"https://github.com/tucnak/telebot\">Telegram bot framework written in Go</a></li>\n</ul>",
+          "description_markdown": "\r\n這裡有官方中文版可以看: [\"Bot 不会取代 app，更好的 app 才会\" ](http://www.pingwest.com/bots-wont-replace-apps/)，作者是微信的 PM (美國人 !!)\r\n\r\n作者認為不論 Bot 多麼的具有智慧， 相對於 App的圖形介面，跟 Bot 對話就像是 以前時代的 DOS 命令列一樣，需要不斷地下指令．  而操作 App 就像是後來出的 Windows 視窗介面 (GUI) ．後者永遠不會被前者取代，但是如何讓使用者更容易與有效的使用你的服務才是重點．\r\n\r\n小編這幾週將一些的 Bot Framework 都玩了一下，包含微軟的 [Bot Framework](https://dev.botframework.com/)，臉書的 [Messenger Platform](https://developers.facebook.com/docs/messenger-platform) 還是 [Line Bot API](https://developers.line.me/bot-api/overview) ．其實聊天機器人並不是新的概念，從 IM 軟體出來的第一天就有了．但是透過現今不少的自然語音系統的輔助 (不論是微軟的 [LUIS](https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis) 或是被臉書收購的 [wit.ai](https://wit.ai) 都可以讓你的聊天機器人變得更加 \"有人性\"．更快能在最少的交談中去了解每個使用者的需求．\r\n\r\n最後，要開發 IM 的機器人不難，但是你希望它能幫你做些什麼? 要簡單的資料檢索，還是要複雜一點的 [ChatOps](http://deploybot.com/guides/chatops-deploybot-slack) ? 端看每個開發者的創造力．\r\n\r\n最後，列出一些 Bot 相關的 Go 專案:\r\n\r\n- [Line 提供的官方 Go Bot API SDK](https://github.com/line/line-bot-sdk-go)\r\n- [Facebook Messenger Platform SDK (非官方) ](https://github.com/maciekmm/messenger-platform-go-sdk)\r\n- [Telegram bot framework written in Go](https://github.com/tucnak/telebot)",
+          "embedded_links": [
+            {
+              "identifier": "vGHynUY",
+              "title": "\"Bot 不会取代 app，更好的 app 才会\" ",
+              "url_domain": "pingwest.com",
+              "url": "http://www.pingwest.com/bots-wont-replace-apps/"
+            },
+            {
+              "identifier": "eBHWySC",
+              "title": "Bot Framework",
+              "url_domain": "botframework.com",
+              "url": "https://dev.botframework.com/"
+            },
+            {
+              "identifier": "mB0Cll6",
+              "title": "Messenger Platform",
+              "url_domain": "facebook.com",
+              "url": "https://developers.facebook.com/docs/messenger-platform"
+            },
+            {
+              "identifier": "VhIHJpl",
+              "title": "Line Bot API",
+              "url_domain": "line.me",
+              "url": "https://developers.line.me/bot-api/overview"
+            },
+            {
+              "identifier": "WAxcII6",
+              "title": "LUIS",
+              "url_domain": "microsoft.com",
+              "url": "https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis"
+            },
+            {
+              "identifier": "q5BEB0A",
+              "title": "wit.ai",
+              "url_domain": "wit.ai",
+              "url": "https://wit.ai"
+            },
+            {
+              "identifier": "DDhI8wL",
+              "title": "ChatOps",
+              "url_domain": "deploybot.com",
+              "url": "http://deploybot.com/guides/chatops-deploybot-slack"
+            },
+            {
+              "identifier": "vieKJu2",
+              "title": "Line 提供的官方 Go Bot API SDK",
+              "url_domain": "github.com",
+              "url": "https://github.com/line/line-bot-sdk-go"
+            },
+            {
+              "identifier": "Qg8pKET",
+              "title": "Facebook Messenger Platform SDK (非官方) ",
+              "url_domain": "github.com",
+              "url": "https://github.com/maciekmm/messenger-platform-go-sdk"
+            },
+            {
+              "identifier": "zWFhF3Z",
+              "title": "Telegram bot framework written in Go",
+              "url_domain": "github.com",
+              "url": "https://github.com/tucnak/telebot"
+            }
+          ]
+        },
+        {
+          "identifier": "XHNffd7",
+          "type": "Link",
+          "title": "NYTimes/openapi2proto: A tool for generating Protobuf v3 schemas and gRPC service definitions from OpenAPI specifications",
+          "url_domain": "github.com",
+          "url": "https://github.com/NYTimes/openapi2proto",
+          "description": "<p>NYTimes!!!  恩，你沒有看錯．是 1851 年創立的紐約時報． 其實紐約時報發佈了相當多好用的 Golang 專案，不論是 Microservice Kit <a href=\"https://github.com/NYTimes/gizmo\">\"gizmo\"</a>  或是 Zip 的 middle wrapper <a href=\"https://github.com/NYTimes/gziphandler\">\"gziphandler\"</a> ． 讓我又為了這家公司而驚艷!</p>\n\n<p>最近他們發佈了 openapi2proto 可以將 OpenAPI 或是 Swagger 的定義檔轉換成 Protobuf v3 給 GRPC 使用．</p>",
+          "description_markdown": "NYTimes!!!  恩，你沒有看錯．是 1851 年創立的紐約時報． 其實紐約時報發佈了相當多好用的 Golang 專案，不論是 Microservice Kit [\"gizmo\"](https://github.com/NYTimes/gizmo)  或是 Zip 的 middle wrapper [\"gziphandler\"](https://github.com/NYTimes/gziphandler) ． 讓我又為了這家公司而驚艷!  \r\n\r\n最近他們發佈了 openapi2proto 可以將 OpenAPI 或是 Swagger 的定義檔轉換成 Protobuf v3 給 GRPC 使用．\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "MMZRJPp",
+              "title": "\"gizmo\"",
+              "url_domain": "github.com",
+              "url": "https://github.com/NYTimes/gizmo"
+            },
+            {
+              "identifier": "PfYzZIF",
+              "title": "\"gziphandler\"",
+              "url_domain": "github.com",
+              "url": "https://github.com/NYTimes/gziphandler"
+            }
+          ]
+        },
+        {
+          "identifier": "LEf8swQ",
+          "type": "Link",
+          "title": "[G0V][Pet Need Me] 透過 Line 來查看動物收容所流浪動物的資料，並且來領養這些動物吧",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/petsneedme-helping-adoption-pet/",
+          "description": "<p>收容所的狗，每一隻其實都曾經是你我的寶貝．他們透過不同的原因進了收容所，卻因為得不到適當得收容得要走向安樂死的路．</p>\n\n<p>這就是我寫這個 Line 機器人的原因，希望大家有事沒事可以滑滑 Line 看看有沒有你喜歡的朋友，一起帶他回家好嗎？</p>\n\n<p>整個機器人架構主要是透過 Golang 來寫，並且架設在 Heroku 上面．如果你也想要架設自己的 Line 機器人，不仿看看<a href=\"http://www.evanlin.com/create-your-line-bot-golang/\">我的另外一篇教學文章</a>．</p>\n\n<p>主要功能:</p>\n\n<p>目前僅僅支援顯示台北市流浪動物資料，並且顯示該動物圖片．打入任何文字就會依序顯示．</p>\n\n<p>資料來源:</p>\n\n<p><a href=\"http://data.taipei/opendata/datalist/datasetMeta/outboundDesc?id=6a3e862a-e1cb-4e44-b989-d35609559463&amp;rid=f4a75ba9-7721-4363-884d-c3820b0b917c\">「臺北市開放認養動物」API存取</a></p>",
+          "description_markdown": "收容所的狗，每一隻其實都曾經是你我的寶貝．他們透過不同的原因進了收容所，卻因為得不到適當得收容得要走向安樂死的路．\r\n\r\n這就是我寫這個 Line 機器人的原因，希望大家有事沒事可以滑滑 Line 看看有沒有你喜歡的朋友，一起帶他回家好嗎？\r\n\r\n整個機器人架構主要是透過 Golang 來寫，並且架設在 Heroku 上面．如果你也想要架設自己的 Line 機器人，不仿看看[我的另外一篇教學文章](http://www.evanlin.com/create-your-line-bot-golang/)．\r\n\r\n主要功能:\r\n\r\n目前僅僅支援顯示台北市流浪動物資料，並且顯示該動物圖片．打入任何文字就會依序顯示．\r\n\r\n資料來源:\r\n\r\n[「臺北市開放認養動物」API存取](http://data.taipei/opendata/datalist/datasetMeta/outboundDesc?id=6a3e862a-e1cb-4e44-b989-d35609559463&rid=f4a75ba9-7721-4363-884d-c3820b0b917c)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "7vosYFz",
+              "title": "我的另外一篇教學文章",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/create-your-line-bot-golang/"
+            },
+            {
+              "identifier": "4IV6IH7",
+              "title": "「臺北市開放認養動物」API存取",
+              "url_domain": "data.taipei",
+              "url": "http://data.taipei/opendata/datalist/datasetMeta/outboundDesc?id=6a3e862a-e1cb-4e44-b989-d35609559463&rid=f4a75ba9-7721-4363-884d-c3820b0b917c"
+            }
+          ],
+          "image_original_filename": "7e1014e3-59a8-44d8-b5d6-11d124c6def4.png",
+          "image_extra_large_filename": "original_ratio_extra_large_7e1014e3-59a8-44d8-b5d6-11d124c6def4.png",
+          "image_medium_filename": "original_ratio_medium_7e1014e3-59a8-44d8-b5d6-11d124c6def4.png"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "XzxI1Ew",
+          "type": "Link",
+          "title": "Commanding a Tesla Model S with the Amazon Echo \"透過語音控制你的電動車 Tesla S 駛出車庫\"",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@jsgoecke/commanding-a-tesla-model-s-with-the-amazon-echo-a06f975364b8#.b3qm6i97d",
+          "description": "<p>\"Tesla 電動車\" 加上 \"語音控制\" 加上 \"AWS\" 加上 \"Golang\" 有沒有搞頭？</p>\n\n<p>沒錯，就是像撒尿牛丸一樣新奇又好玩． 這篇介紹了幾個新的玩具：</p>\n\n<ul>\n<li><a href=\"http://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E\">Amzon Echo</a> : 不僅僅可以當你的喇叭， Echo 更可以讓你使用語音來與世界溝通．不論是訂披薩，買東西，叫 Uber，到現在這個例子：啟動你的車子．</li>\n<li><a href=\"https://aws.amazon.com/tw/lambda/details/\">AWS Lambda</a> : Amazon 的雲端服務也就是近來大家再提的 Serverless Computing ，似乎不該說是玩具．可能不少讀者上班都得每天追著他跑．</li>\n<li><a href=\"https://golang.org/\">Golang</a> : 程式設計師的好工具，剛成立滿六年的 Golang 已經是不少網路服務的主要構成語言．(大家一起來玩)</li>\n<li><a href=\"https://www.teslamotors.com/models\">Tesla S</a> : 男人的大玩具，特斯拉的 S 款電動車．</li>\n</ul>\n\n\n<p>這一篇文章透過一個非正式的 <a href=\"http://docs.timdorr.apiary.io/#\">Tesla API</a> 來控制車子的行動．並且透過 Amazon Echo 與相關的 AWS Lambda 溝通後來呼叫 <a href=\"https://github.com/jsgoecke/tesla\">Golang  Tesla API</a>，並且透過該 API 來跟自己的 Tesla S 車款溝通．並且讓車子自己開出車庫．</p>\n\n<p>不少朋友表示:  是說寫個 Open Source 有必要那麼炫富嗎?  XDDD</p>\n\n<p>由 <a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> 分享。</p>",
+          "description_markdown": "\"Tesla 電動車\" 加上 \"語音控制\" 加上 \"AWS\" 加上 \"Golang\" 有沒有搞頭？\r\n\r\n沒錯，就是像撒尿牛丸一樣新奇又好玩． 這篇介紹了幾個新的玩具：\r\n\r\n- [Amzon Echo](http://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E) : 不僅僅可以當你的喇叭， Echo 更可以讓你使用語音來與世界溝通．不論是訂披薩，買東西，叫 Uber，到現在這個例子：啟動你的車子．\r\n- [AWS Lambda](https://aws.amazon.com/tw/lambda/details/) : Amazon 的雲端服務也就是近來大家再提的 Serverless Computing ，似乎不該說是玩具．可能不少讀者上班都得每天追著他跑． \r\n- [Golang](https://golang.org/) : 程式設計師的好工具，剛成立滿六年的 Golang 已經是不少網路服務的主要構成語言．(大家一起來玩)\r\n- [Tesla S](https://www.teslamotors.com/models) : 男人的大玩具，特斯拉的 S 款電動車．\r\n\r\n這一篇文章透過一個非正式的 [Tesla API](http://docs.timdorr.apiary.io/#) 來控制車子的行動．並且透過 Amazon Echo 與相關的 AWS Lambda 溝通後來呼叫 [Golang  Tesla API](https://github.com/jsgoecke/tesla)，並且透過該 API 來跟自己的 Tesla S 車款溝通．並且讓車子自己開出車庫．\r\n\r\n不少朋友表示:  是說寫個 Open Source 有必要那麼炫富嗎?  XDDD\r\n\r\n由 [@kkdai](https://twitter.com/Evan_Lin) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "GJbtQ9",
+              "title": "Amzon Echo",
+              "url_domain": "amazon.com",
+              "url": "http://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E"
+            },
+            {
+              "identifier": "5QFHVGl",
+              "title": "AWS Lambda",
+              "url_domain": "amazon.com",
+              "url": "https://aws.amazon.com/tw/lambda/details/"
+            },
+            {
+              "identifier": "bzIUV2k",
+              "title": "Golang",
+              "url_domain": "golang.org",
+              "url": "https://golang.org/"
+            },
+            {
+              "identifier": "rhkNSW5",
+              "title": "Tesla S",
+              "url_domain": "teslamotors.com",
+              "url": "https://www.teslamotors.com/models"
+            },
+            {
+              "identifier": "ZfYX4mb",
+              "title": "Tesla API",
+              "url_domain": "apiary.io",
+              "url": "http://docs.timdorr.apiary.io/#"
+            },
+            {
+              "identifier": "eREK83i",
+              "title": "Golang  Tesla API",
+              "url_domain": "github.com",
+              "url": "https://github.com/jsgoecke/tesla"
+            },
+            {
+              "identifier": "25zFvbp",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            }
+          ],
+          "image_original_filename": "cdedc9fe-f0f2-4f67-9e65-1bd5d43c0641.png",
+          "image_extra_large_filename": "original_ratio_extra_large_cdedc9fe-f0f2-4f67-9e65-1bd5d43c0641.png",
+          "image_medium_filename": "original_ratio_medium_cdedc9fe-f0f2-4f67-9e65-1bd5d43c0641.png"
+        }
+      ]
+    }
+  ]
+}

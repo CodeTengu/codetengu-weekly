@@ -1,0 +1,528 @@
+{
+  "number": 140,
+  "title": "Issue 140 聽說新來的工程師喜歡玩密室逃脫，但是看他玩了一個下午都還沒離開 Vim 呢",
+  "summary": "本期內容涵蓋 MongoDB, Kubernetes, NGINX, Google Cloud Platform, MySQL, JavaScript, React.js, CSS, WebAssambly, Go, gRPC",
+  "url": "https://weekly.codetengu.com/issues/140",
+  "publication_status": "published",
+  "published_at": "2018-09-03T02:31:05+01:00",
+  "updated_at": "2018-09-04T18:54:37+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。或是關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a>。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Blindsight</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n</ul>\n\n\n<p><a href=\"https://twitter.com/vinta/status/967689046225907712\">本週標題出處</a>。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。或是關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo)。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Blindsight](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Runtime 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n\r\n[本週標題出處](https://twitter.com/vinta/status/967689046225907712)。",
+          "footer": "<p>不時致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "O5b3KFs",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "UCSFQVZ",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "cRatx8J",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "73Fkkb8",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "1zJ83hR",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "GbdB2JV",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "qlYZsVC",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "8TSoWMU",
+              "title": "Blindsight",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "7WSGggj",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "O70CTRB",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "U1Quhaf",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "d8G1y6Z",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "YAQCkSP",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "hDakKUT",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "qn1bteK",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "BZWP9qs",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "ooyN1m4",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "x8sTRAj",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "iEQA0iv",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "HyW38rq",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "f9EZ3lG",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "9IAT1gL",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "UVSySkv",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "zne0uPN",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "1LZZopV",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "7duFwgb",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "rtlvK7B",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "WFwyofE",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "gYyUpsi",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "zLm3fzo",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "D2gaJBN",
+              "title": "本週標題出處",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta/status/967689046225907712"
+            },
+            {
+              "identifier": "3YNHwfN",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "bk5ptiO",
+          "type": "Link",
+          "title": "MongoDB cookbook: Queries and Aggregations",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/mongodb-cookbook-queries-and-aggregations.html",
+          "description": "<p>在 <a href=\"https://weekly.codetengu.com/issues/130#FAYDcQ8\">Issue 130</a> 有提到，MongoDB 的 Aggregation 其實很強大，尤其搭配 <code>$elemMatch</code>、<code>$project</code>、<code>$let</code>、<code>$unwind</code> 和 <code>$facet</code> 等功能，可以直接完成很多複雜的業務邏輯，不需要多寫一行 code，雖然哪些事應該讓 DB 做、哪些事得在 API server 做，這就見仁見智啦。</p>\n\n<p>不過 MongoDB Aggregation 寫起來的阿雜程度實在也跟 Elasticsearch 的 Query DSL 不遑多讓了（Thanks JSON），因為老是記不起來各種 operators 的用法和限制，所以就遵循之前提過的 <a href=\"https://weekly.codetengu.com/search?q=cookbook\">Cookbook</a> 模式，幫自己寫了一份筆記，複習、速查、分享各相宜。</p>",
+          "description_markdown": "在 [Issue 130](https://weekly.codetengu.com/issues/130#FAYDcQ8) 有提到，MongoDB 的 Aggregation 其實很強大，尤其搭配 `$elemMatch`、`$project`、`$let`、`$unwind` 和 `$facet` 等功能，可以直接完成很多複雜的業務邏輯，不需要多寫一行 code，雖然哪些事應該讓 DB 做、哪些事得在 API server 做，這就見仁見智啦。\r\n\r\n不過 MongoDB Aggregation 寫起來的阿雜程度實在也跟 Elasticsearch 的 Query DSL 不遑多讓了（Thanks JSON），因為老是記不起來各種 operators 的用法和限制，所以就遵循之前提過的 [Cookbook](https://weekly.codetengu.com/search?q=cookbook) 模式，幫自己寫了一份筆記，複習、速查、分享各相宜。",
+          "embedded_links": [
+            {
+              "identifier": "uFVQ459",
+              "title": "Issue 130",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/130#FAYDcQ8"
+            },
+            {
+              "identifier": "GJCBYue",
+              "title": "Cookbook",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/search?q=cookbook"
+            }
+          ]
+        },
+        {
+          "identifier": "SarfhXk",
+          "type": "Link",
+          "title": "Kubernetes Best Practices with Sandeep Dinesh (Google)",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=BznjDNxp4Hs",
+          "description": "<p>這個影片是 Google 的工程師在講使用 Kubernetes 和 containers 時的最佳實踐，影片的後半段則是 <a href=\"https://www.weave.works/\">Weaveworks</a> 的人在講他們搭建自己的 Kubernetes cluster 時遇到的各種挑戰和解法。</p>\n\n<p>雖然前半段的內容有不少在 Kubernetes 和 GKE 的官方文件裡都有提到，但是有人貼心地幫你整理好還是挺棒的（就像你訂閱的這個 weekly 一樣），畢竟 Kubernetes 的文件實在多到靠北，看完都已經是 YAML 的形狀了。不過我對於越來越多人都推薦 Helm 這點還是不太能領略，總覺得 Helm 對一般使用者的意義好像不大啊（又不是 PaaS），我還不如直接幹一份 Chart 回來自己維護，之後要升級或客製化也比較方便，畢竟也就是一堆 YAML 檔。比較可行的用途似乎是團隊共用一套 Chart 來部署 production、staging 或 dev 環境？</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html\">The incomplete guide to Google Kubernetes Engine</a></li>\n</ul>",
+          "description_markdown": "這個影片是 Google 的工程師在講使用 Kubernetes 和 containers 時的最佳實踐，影片的後半段則是 [Weaveworks](https://www.weave.works/) 的人在講他們搭建自己的 Kubernetes cluster 時遇到的各種挑戰和解法。\r\n\r\n雖然前半段的內容有不少在 Kubernetes 和 GKE 的官方文件裡都有提到，但是有人貼心地幫你整理好還是挺棒的（就像你訂閱的這個 weekly 一樣），畢竟 Kubernetes 的文件實在多到靠北，看完都已經是 YAML 的形狀了。不過我對於越來越多人都推薦 Helm 這點還是不太能領略，總覺得 Helm 對一般使用者的意義好像不大啊（又不是 PaaS），我還不如直接幹一份 Chart 回來自己維護，之後要升級或客製化也比較方便，畢竟也就是一堆 YAML 檔。比較可行的用途似乎是團隊共用一套 Chart 來部署 production、staging 或 dev 環境？\r\n\r\n延伸閱讀：\r\n\r\n- [The incomplete guide to Google Kubernetes Engine](https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html)",
+          "embedded_links": [
+            {
+              "identifier": "YWpHGKW",
+              "title": "Weaveworks",
+              "url_domain": "weave.works",
+              "url": "https://www.weave.works/"
+            },
+            {
+              "identifier": "zZUIB9i",
+              "title": "The incomplete guide to Google Kubernetes Engine",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html"
+            }
+          ]
+        },
+        {
+          "identifier": "iVDQOSZ",
+          "type": "Link",
+          "title": "Tuning NGINX behind Google Cloud Platform HTTP(S) Load Balancer",
+          "url_domain": "percy.io",
+          "url": "https://blog.percy.io/tuning-nginx-behind-google-cloud-platform-http-s-load-balancer-305982ddb340",
+          "description": "<p>因為 Google Cloud HTTP Load Balancing 的某些特性，如果你在 Google Kubernetes Engine 裡面跑 NGINX（或 OpenResty）的話，會有一些額外的 config 需要設定，尤其是 <code>keepalive_timeout 620s;</code>。</p>\n\n<p>題外話，Google Cloud 的 Load Balancer 也是很強啊，除了支援 QUIC 之外，更是默認啟用 <a href=\"https://medium.com/google-cloud/tcp-bbr-magic-dust-for-network-performance-57a5f1ccf437\">TCP BBR</a>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://cloud.google.com/load-balancing/docs/https/\">Google Cloud - HTTP(S) Load Balancing Concepts</a></li>\n</ul>",
+          "description_markdown": "因為 Google Cloud HTTP Load Balancing 的某些特性，如果你在 Google Kubernetes Engine 裡面跑 NGINX（或 OpenResty）的話，會有一些額外的 config 需要設定，尤其是 `keepalive_timeout 620s;`。\r\n\r\n題外話，Google Cloud 的 Load Balancer 也是很強啊，除了支援 QUIC 之外，更是默認啟用 [TCP BBR](https://medium.com/google-cloud/tcp-bbr-magic-dust-for-network-performance-57a5f1ccf437)。\r\n\r\n延伸閱讀：\r\n\r\n- [Google Cloud - HTTP(S) Load Balancing Concepts](https://cloud.google.com/load-balancing/docs/https/)",
+          "embedded_links": [
+            {
+              "identifier": "Rgcxfxf",
+              "title": "TCP BBR",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/google-cloud/tcp-bbr-magic-dust-for-network-performance-57a5f1ccf437"
+            },
+            {
+              "identifier": "fIzR4Mm",
+              "title": "Google Cloud - HTTP(S) Load Balancing Concepts",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/load-balancing/docs/https/"
+            }
+          ]
+        },
+        {
+          "identifier": "TApVzth",
+          "type": "Link",
+          "title": "别废话，各种 SQL 到底加了什么锁？",
+          "url_domain": "qq.com",
+          "url": "https://mp.weixin.qq.com/s/wGOxro3uShp2q5w97azx5A",
+          "description": "<p>這個系列的文章專門在講 MySQL InnoDB 在各種情況下會使用的各種 lock，作者寫得非常淺顯易懂，最喜歡讀這種技術文章了～</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://weekly.codetengu.com/search?q=mysql\">CodeTengu Search - MySQL</a></li>\n</ul>",
+          "description_markdown": "這個系列的文章專門在講 MySQL InnoDB 在各種情況下會使用的各種 lock，作者寫得非常淺顯易懂，最喜歡讀這種技術文章了～\r\n\r\n延伸閱讀：\r\n\r\n- [CodeTengu Search - MySQL](https://weekly.codetengu.com/search?q=mysql)",
+          "embedded_links": [
+            {
+              "identifier": "FDmB1yg",
+              "title": "CodeTengu Search - MySQL",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/search?q=mysql"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "BVpFep6",
+          "type": "Link",
+          "title": "React Fire: Modernizing React DOM",
+          "url_domain": "github.com",
+          "url": "https://github.com/facebook/react/issues/13525",
+          "description": "<p>React DOM 目前有許多不經過大改很難修復的 <a href=\"https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Bug%22+label%3A%22Component%3A+DOM%22\">known problems</a> 。</p>\n\n<p>團隊希望可以刪除一些 event system 的 abstraction ，是造成系統複雜以及 bundle size 變大的原因。</p>\n\n<p>React Fire 計畫的大致方向：</p>\n\n<ul>\n<li><a href=\"https://github.com/facebook/react/issues/11896\">Stop reflecting input values in the value attribute</a>\n\n<ul>\n<li>原生 DOM 的行為，鍵入字串改變 input 的 value 時瀏覽器並不會更新 DOM attribute 之 value 的值， React 也不該這麼做，雖然這樣做對一些依賴 CSS Selector 的 code 有幫助，但是也產生了一些未修復的 bug 。</li>\n</ul>\n</li>\n<li><a href=\"https://github.com/facebook/react/issues/2043\">Attach events at the React root rather than the document</a>\n\n<ul>\n<li>React 嵌入到更大的系统中時，將 event handlers 綁定在 document 上，會造成一些與 stopPropagation 相關的問題。</li>\n</ul>\n</li>\n<li><a href=\"https://github.com/facebook/react/issues/9657\">Migrate from onChange to onInput and don’t polyfill it for uncontrolled components</a>\n\n<ul>\n<li>React 使用和原生不同的事件名稱來表示 input event 會造成混淆。</li>\n</ul>\n</li>\n<li><a href=\"https://github.com/facebook/react/issues/4751\">Drastically simplify the event system</a>\n\n<ul>\n<li>自 2013 初始版本以來， React event system 幾乎沒有變化。它的許多 polyfills 對於現代瀏覽器來說是不需要的，並且可能會產生更多的問題，也佔據了 React DOM 很大部分的 bundle size 。</li>\n</ul>\n</li>\n<li><a href=\"https://github.com/facebook/react/issues/4331\">className → class</a></li>\n</ul>",
+          "description_markdown": "React DOM 目前有許多不經過大改很難修復的 [known problems](https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Bug%22+label%3A%22Component%3A+DOM%22) 。\r\n\r\n團隊希望可以刪除一些 event system 的 abstraction ，是造成系統複雜以及 bundle size 變大的原因。\r\n\r\nReact Fire 計畫的大致方向：\r\n\r\n* [Stop reflecting input values in the value attribute](https://github.com/facebook/react/issues/11896)\r\n    * 原生 DOM 的行為，鍵入字串改變 input 的 value 時瀏覽器並不會更新 DOM attribute 之 value 的值， React 也不該這麼做，雖然這樣做對一些依賴 CSS Selector 的 code 有幫助，但是也產生了一些未修復的 bug 。\r\n* [Attach events at the React root rather than the document](https://github.com/facebook/react/issues/2043)\r\n    * React 嵌入到更大的系统中時，將 event handlers 綁定在 document 上，會造成一些與 stopPropagation 相關的問題。\r\n* [Migrate from onChange to onInput and don’t polyfill it for uncontrolled components](https://github.com/facebook/react/issues/9657)\r\n    * React 使用和原生不同的事件名稱來表示 input event 會造成混淆。\r\n* [Drastically simplify the event system](https://github.com/facebook/react/issues/4751)\r\n    * 自 2013 初始版本以來， React event system 幾乎沒有變化。它的許多 polyfills 對於現代瀏覽器來說是不需要的，並且可能會產生更多的問題，也佔據了 React DOM 很大部分的 bundle size 。\r\n* [className → class](https://github.com/facebook/react/issues/4331)",
+          "embedded_links": [
+            {
+              "identifier": "CMerUyn",
+              "title": "known problems",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22Type%3A+Bug%22+label%3A%22Component%3A+DOM%22"
+            },
+            {
+              "identifier": "aMCYKF3",
+              "title": "Stop reflecting input values in the value attribute",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/11896"
+            },
+            {
+              "identifier": "7f5oh9A",
+              "title": "Attach events at the React root rather than the document",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/2043"
+            },
+            {
+              "identifier": "VD80s9O",
+              "title": "Migrate from onChange to onInput and don’t polyfill it for uncontrolled components",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/9657"
+            },
+            {
+              "identifier": "HwosnpA",
+              "title": "Drastically simplify the event system",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/4751"
+            },
+            {
+              "identifier": "UXHwxYq",
+              "title": "className → class",
+              "url_domain": "github.com",
+              "url": "https://github.com/facebook/react/issues/4331"
+            }
+          ]
+        },
+        {
+          "identifier": "h9iXMkA",
+          "type": "Link",
+          "title": "How I built a mood changing animation using CSS masks",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/how-i-built-a-mood-changing-animation-using-css-masks-565b16ed051f",
+          "description": "<p>本文透過表情動畫的例子學習 CSS 遮罩 mask-image 以及切換 mask-position 的效果。</p>",
+          "description_markdown": "本文透過表情動畫的例子學習 CSS 遮罩 mask-image 以及切換 mask-position 的效果\b。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "XjAHYtq",
+          "type": "Link",
+          "title": "Improve your motion",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@elcferreira/improve-your-motion-2ae6475641ca",
+          "description": "<p>在使用 CSS 轉場動畫時，使用 transition-duration 取代 transition-delay 達到更順暢的效果，透過文內的 timeline 可以更理解這兩者之間的效果差異。</p>",
+          "description_markdown": "在使用 CSS 轉場動畫時，使用 transition-duration 取代 transition-delay 達到更順暢的效果，透過文內的 timeline 可以更理解這兩者之間的效果差異。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ovlwGL5",
+          "type": "Link",
+          "title": "透過 WebAssambly 執行 Windows 2000",
+          "url_domain": "bellard.org",
+          "url": "https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768https://bellard.org/jslinux/vm.html?url=https://bellard.org/jslinux/win2k.cfg&mem=192&graphic=1&w=1024&h=768",
+          "description": "<p>透過瀏覽器也可以執行 Windows 2000 !</p>\n\n<p>QEMU 的作者 <a href=\"https://bellard.org/\">Fabrice Bellard</a> 在 2011 年就實作了這套 PC/x86 的模擬器 - <a href=\"https://bellard.org/jslinux/tech.html\">JSLinux</a> ，\n為了提升效能，先是利用 asm.js 來改寫，後期更透過 <a href=\"https://github.com/kripken/emscripten\">Emscripten</a> 將 C code 轉為 JavaScript 執行，而最近又更進一步支援 WebAssembly 。</p>",
+          "description_markdown": "透過瀏覽器也可以執行 Windows 2000 ! \r\n\r\nQEMU 的作者 [Fabrice Bellard](https://bellard.org/) 在 2011 年就實作了這套 PC/x86 的模擬器 - [JSLinux](https://bellard.org/jslinux/tech.html) ，\r\n為了提升效能，先是利用 asm.js 來改寫，後期更透過 [Emscripten](https://github.com/kripken/emscripten) 將 C code 轉為 JavaScript 執行，而最近又更進一步支援 WebAssembly 。",
+          "embedded_links": [
+            {
+              "identifier": "Jr2VFaD",
+              "title": "Fabrice Bellard",
+              "url_domain": "bellard.org",
+              "url": "https://bellard.org/"
+            },
+            {
+              "identifier": "ewJaFeP",
+              "title": "JSLinux",
+              "url_domain": "bellard.org",
+              "url": "https://bellard.org/jslinux/tech.html"
+            },
+            {
+              "identifier": "qSSFC0g",
+              "title": "Emscripten",
+              "url_domain": "github.com",
+              "url": "https://github.com/kripken/emscripten"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "qSGf3TC",
+          "type": "Link",
+          "title": "Go on Twitter: 🎉 Go 1.11 is released!",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/golang/status/1033118808087646213",
+          "description": "<p>令人期待（？）的 Go 1.11 正式版出來了。包括兩個新功能：</p>\n\n<ol>\n<li>Golang module support (vgo experimental migration)</li>\n<li>WebAssembly port</li>\n</ol>\n\n\n<p>整理一下其他相關消息：</p>\n\n<ul>\n<li><a href=\"https://docs.google.com/presentation/d/1EwuJhEHR5Trr2aXBPQajZ2Hcoh29tm_LQCpgfrCnuRk/preview?slide=id.g33148270ac_0_143\">Brad Fitzpatrick 在七月底的演講 Go 1.11 and beyond</a></li>\n<li><a href=\"https://tw.saowen.com/a/280205cad1502193482905232ba84e501998fcb7216d8e51b037ca892cb22337\">Go modules 初探</a></li>\n</ul>\n\n\n<p>Go 1.11 可能的問題：</p>\n\n<p>Go 1.11 之後 <code>github.com/nsf/gocode</code> 會爆炸喔… 各家 IDE 已經開始換 <code>github.com/mdempsky/gocode</code></p>",
+          "description_markdown": "令人期待（？）的 Go 1.11 正式版出來了。包括兩個新功能：\r\n\r\n1. Golang module support (vgo experimental migration)\r\n2. WebAssembly port\r\n\r\n整理一下其他相關消息：\r\n\r\n- [Brad Fitzpatrick 在七月底的演講 Go 1.11 and beyond](https://docs.google.com/presentation/d/1EwuJhEHR5Trr2aXBPQajZ2Hcoh29tm_LQCpgfrCnuRk/preview?slide=id.g33148270ac_0_143)\r\n- [Go modules 初探](https://tw.saowen.com/a/280205cad1502193482905232ba84e501998fcb7216d8e51b037ca892cb22337)\r\n\r\nGo 1.11 可能的問題：\r\n\r\nGo 1.11 之後 `github.com/nsf/gocode` 會爆炸喔… 各家 IDE 已經開始換 `github.com/mdempsky/gocode`",
+          "embedded_links": [
+            {
+              "identifier": "ZqfOehv",
+              "title": "Brad Fitzpatrick 在七月底的演講 Go 1.11 and beyond",
+              "url_domain": "google.com",
+              "url": "https://docs.google.com/presentation/d/1EwuJhEHR5Trr2aXBPQajZ2Hcoh29tm_LQCpgfrCnuRk/preview?slide=id.g33148270ac_0_143"
+            },
+            {
+              "identifier": "KVU7Z1R",
+              "title": "Go modules 初探",
+              "url_domain": "saowen.com",
+              "url": "https://tw.saowen.com/a/280205cad1502193482905232ba84e501998fcb7216d8e51b037ca892cb22337"
+            }
+          ]
+        },
+        {
+          "identifier": "UbYbIcu",
+          "type": "Link",
+          "title": "securego/gosec: Golang security checker",
+          "url_domain": "github.com",
+          "url": "https://github.com/securego/gosec",
+          "description": "<p>一個很有趣的專案，透過 AST 的解析來分析你的 golang source code 是否有任何安全上漏洞．包括了：</p>\n\n<ul>\n<li>SQL Query</li>\n<li>File permission</li>\n<li>Random number security</li>\n</ul>",
+          "description_markdown": "一個很有趣的專案，透過 AST 的解析來分析你的 golang source code 是否有任何安全上漏洞．包括了：\r\n\r\n- SQL Query\r\n- File permission\r\n- Random number security",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "EHX3ne7",
+          "type": "Link",
+          "title": "My Favorite Go 2 Proposals",
+          "url_domain": "dev.to",
+          "url": "https://dev.to/deanveloper/my-favorite-go-2-proposals-3lie",
+          "description": "<p>這篇文章的作者一直在關心 Golang 2.0 (Go++?) 的發展.. 他列出了幾個有趣的 proposal ，大家可以看看</p>\n\n<ol>\n<li>Interface literals: 可以讓你寫 interface 更精簡</li>\n<li>Add collect statements to the language: 讓你處理 error 可以更 “漂亮”</li>\n</ol>\n\n\n<p>當然還有更多有趣的 proposal 正在進行.. 大家喜歡的是哪個?</p>",
+          "description_markdown": "這篇文章的作者一直在關心 Golang 2.0 (Go++?) 的發展.. 他列出了幾個有趣的 proposal ，大家可以看看\r\n\r\n1. Interface literals: 可以讓你寫 interface 更精簡\r\n2. Add collect statements to the language: 讓你處理 error 可以更 “漂亮”\r\n\r\n當然還有更多有趣的 proposal 正在進行.. 大家喜歡的是哪個?",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "2Agkh4X",
+          "type": "Link",
+          "title": "在 Kubernetes 上面透過 Go 開發 gRPC service 可能遇到的問題",
+          "url_domain": "evanlin.com",
+          "url": "http://www.evanlin.com/go-grpc-service/",
+          "description": "<p>這幾週調整一下 gRPC service ，所以有這篇心得文．裡面解決了幾個問題：</p>\n\n<ol>\n<li>如何 streaming request</li>\n<li>如何調整 gRPC request timeout</li>\n<li>如何調整 gRPC request size</li>\n</ol>\n\n\n<p>裡面也有一個簡單的範例給大家參考一下.</p>\n\n<p>更新：放了 Dockerfile 跟 Kubernetes yaml 在裡面</p>",
+          "description_markdown": "這幾週調整一下 gRPC service ，所以有這篇心得文．裡面解決了幾個問題：\r\n\r\n1. 如何 streaming request \r\n2. 如何調整 gRPC request timeout\r\n3. 如何調整 gRPC request size\r\n\r\n裡面也有一個簡單的範例給大家參考一下.\r\n\r\n更新：放了 Dockerfile 跟 Kubernetes yaml 在裡面",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "jobs",
+      "name": "工作機會",
+      "items": [
+        {
+          "identifier": "4HyVRtl",
+          "type": "Link",
+          "title": "Senior Backend Engineer at Swag",
+          "url_domain": "github.com",
+          "url": "https://github.com/swaglive/careers/issues/5",
+          "description": "<h2>必備</h2>\n\n<ul>\n<li>In-depth knowledge of Python, NodeJS </li>\n<li>Experience with Python web frameworks ie. Flask/Django/Tornado </li>\n<li>Utilized work queues for background processing </li>\n<li>In-depth knowledge of MongoDB and Redis </li>\n<li>Excellent understanding of HTTP </li>\n<li>Experience developing REST APIs </li>\n<li>Designed for modular systems </li>\n<li>Cloud environment experience</li>\n<li>Excellent communication and organizational skills</li>\n</ul>\n\n\n<h2>加分</h2>\n\n<ul>\n<li>Worked with Python <code>asyncio</code></li>\n<li>Experience developing in Go </li>\n<li>Event-driven architecture </li>\n<li>Experience working with cluster environments and/or containers. ie. Kubernetes, Docker </li>\n<li>Development flow utilizing CI/CD </li>\n<li>Experience working with distributed systems </li>\n<li>Experience working with real-time APIs </li>\n</ul>\n\n\n<h2>薪資範圍</h2>\n\n<ul>\n<li>年薪 100 萬新台幣以上。</li>\n</ul>",
+          "description_markdown": "## 必備\r\n\r\n* In-depth knowledge of Python, NodeJS \r\n* Experience with Python web frameworks ie. Flask/Django/Tornado \r\n* Utilized work queues for background processing \r\n* In-depth knowledge of MongoDB and Redis \r\n* Excellent understanding of HTTP \r\n* Experience developing REST APIs \r\n* Designed for modular systems \r\n* Cloud environment experience\r\n* Excellent communication and organizational skills\r\n\r\n## 加分\r\n\r\n* Worked with Python `asyncio`\r\n* Experience developing in Go \r\n* Event-driven architecture \r\n* Experience working with cluster environments and/or containers. ie. Kubernetes, Docker \r\n* Development flow utilizing CI/CD \r\n* Experience working with distributed systems \r\n* Experience working with real-time APIs \r\n\r\n## 薪資範圍\r\n\r\n* 年薪 100 萬新台幣以上。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "otakuisthenewsexy",
+      "name": "Otaku is the New Sexy",
+      "items": [
+        {
+          "identifier": "R4jNZup",
+          "type": "Link",
+          "title": "TeePublic",
+          "url_domain": "teepublic.com",
+          "url": "https://www.teepublic.com/",
+          "description": "<p>上禮拜發現的一個專門賣 T-shirt 的網站，重點是上面賣的 T-shirt <strong>都！超！宅！</strong>它甚至有一個叫做 <a href=\"https://www.teepublic.com/t-shirts/programmer\">Programmer</a> 的分類，或是你也可以隨便拿幾個你喜歡的電影、遊戲或動漫畫作品的名字去搜尋看看，保證有驚喜。我看到的第一天就買了八件。推薦各位臭宅去感受一下。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享！</p>",
+          "description_markdown": "上禮拜發現的一個專門賣 T-shirt 的網站，重點是上面賣的 T-shirt **都！超！宅！**它甚至有一個叫做 [Programmer](https://www.teepublic.com/t-shirts/programmer) 的分類，或是你也可以隨便拿幾個你喜歡的電影、遊戲或動漫畫作品的名字去搜尋看看，保證有驚喜。我看到的第一天就買了八件。推薦各位臭宅去感受一下。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享！",
+          "embedded_links": [
+            {
+              "identifier": "SKkU7oR",
+              "title": "Programmer",
+              "url_domain": "teepublic.com",
+              "url": "https://www.teepublic.com/t-shirts/programmer"
+            },
+            {
+              "identifier": "xqqAn1f",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

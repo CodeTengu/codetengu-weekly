@@ -1,0 +1,420 @@
+{
+  "number": 113,
+  "title": "Issue 113 寫文件跟去健身是一樣的，大家都明白這只有好沒有壞，但總是覺得不需要",
+  "summary": "本期內容涵蓋 Career, Swift, Kotlin, Machine Learning, Ethereum, JavaScript, CSS, WASM",
+  "url": "https://weekly.codetengu.com/issues/113",
+  "publication_status": "published",
+  "published_at": "2018-01-22T02:00:00+00:00",
+  "updated_at": "2018-01-22T02:00:03+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "zJ0QTjb",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "gtQb5HR",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "vZI9mdW",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Wtsd2Pp",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "k0oBrmH",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "JQg03VL",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "IXvKG0r",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "v3xwF8C",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "6ljIH8M",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "LKja3Xo",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "aK58Ldm",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "bbbd0VL",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Lq3pnVl",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "nas0NMT",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "iiu8b2V",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Mes45fA",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "BlouLQ9",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "UJI0Txk",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "8hG2iP7",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "9IA7nvX",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "HhDL1L1",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "or1hPvW",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "AsdOe1o",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "NmTGxyi",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "yfevWfQ",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "KeZ42Xk",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "ySgFMLF",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "UzZZj8y",
+          "type": "Link",
+          "title": "I just got a developer job at Facebook. Here’s how I prepped for my interviews.",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/software-engineering-interviews-744380f4f2af",
+          "description": "<p><strong>Interviewing is a skill</strong></p>\n\n<p>作者為了應徵矽谷的工程師辭掉工作準備面試，這是他的記錄跟心得。<br/>\n他列舉了各種面試的階段跟目的，還提供了一些學習的資源。<br/>\n無論你是要找工作還是要找人，這篇真的可以看一下，不是那種雞湯文。</p>\n\n<p>話說，現在的面試流程要先寫一份 <a href=\"https://app.codility.com/programmers/\">codility</a> 的試題似乎已經是常態了。</p>",
+          "description_markdown": "**Interviewing is a skill**\r\n\r\n作者為了應徵矽谷的工程師辭掉工作準備面試，這是他的記錄跟心得。  \r\n他列舉了各種面試的階段跟目的，還提供了一些學習的資源。  \r\n無論你是要找工作還是要找人，這篇真的可以看一下，不是那種雞湯文。\r\n\r\n話說，現在的面試流程要先寫一份 [codility](https://app.codility.com/programmers/) 的試題似乎已經是常態了。",
+          "embedded_links": [
+            {
+              "identifier": "rm3Z1uG",
+              "title": "codility",
+              "url_domain": "codility.com",
+              "url": "https://app.codility.com/programmers/"
+            }
+          ]
+        },
+        {
+          "identifier": "jYuLYfW",
+          "type": "Link",
+          "title": "Why Swift Enums with Associated Values Cannot Have a Raw Value",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@PhiJay/why-swift-enums-with-associated-values-cannot-have-a-raw-value-21e41d5ec11",
+          "description": "<p>這是一個有趣的問題，為什麼 Swift 的 <code>Enum</code> 有了 Associated Value 後就沒有 <code>rawValue</code> 了？</p>\n\n<p>原因就是 <code>rawValue</code> 是 <a href=\"https://developer.apple.com/documentation/swift/rawrepresentable\">RawRepresentable</a> protocol 的值，<code>RawRepresentable</code> 簡單來說，符合的類別可以表示另一個類別，透過 <code>rawValue</code> 得到值。</p>\n\n<p>回到問題，因為 <code>Enum</code> 有了 Associated Values 之後就沒有單純的 <code>rawValue</code> 也就無法轉回到原本的類別，所以在 <code>Enum</code> 中你只能在 Associated Values 跟 <code>rawValue</code> 二選一。</p>\n\n<p>這個 <code>RawRepresentable</code> 前陣子剛好有用在 hard-coded string 的地方，沒辦法只用 <code>Enum</code> 來包裝，自己定義了一個符合 <code>RawRepresentable</code> 的 type 來處理。</p>\n\n<p><code>RawRepresentable</code> 另一個用法：<a href=\"http://www.russbishop.net/singlevaluecodable\">SingleValueCodable</a></p>",
+          "description_markdown": "這是一個有趣的問題，為什麼 Swift 的 `Enum` 有了 Associated Value 後就沒有 `rawValue` 了？\r\n\r\n原因就是 `rawValue` 是 [RawRepresentable](https://developer.apple.com/documentation/swift/rawrepresentable) protocol 的值，`RawRepresentable` 簡單來說，符合的類別可以表示另一個類別，透過 `rawValue` 得到值。\r\n \r\n回到問題，因為 `Enum` 有了 Associated Values 之後就沒有單純的 `rawValue` 也就無法轉回到原本的類別，所以在 `Enum` 中你只能在 Associated Values 跟 `rawValue` 二選一。\r\n\r\n這個 `RawRepresentable` 前陣子剛好有用在 hard-coded string 的地方，沒辦法只用 `Enum` 來包裝，自己定義了一個符合 `RawRepresentable` 的 type 來處理。\r\n\r\n`RawRepresentable` 另一個用法：[SingleValueCodable](http://www.russbishop.net/singlevaluecodable)",
+          "embedded_links": [
+            {
+              "identifier": "yJRfZRC",
+              "title": "RawRepresentable",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/documentation/swift/rawrepresentable"
+            },
+            {
+              "identifier": "jPuFEsr",
+              "title": "SingleValueCodable",
+              "url_domain": "russbishop.net",
+              "url": "http://www.russbishop.net/singlevaluecodable"
+            }
+          ]
+        },
+        {
+          "identifier": "GvJOiKo",
+          "type": "Link",
+          "title": "KotlinConf 2017 - A View State Machine for Network Calls on Android by Amanda Hill",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Vre-Ih5Gdc0",
+          "description": "<p>這是今年在 KotlinConf 的 talk，我覺得滿實際的。<br/>\n如果你的 Android project 也是使用 MVP 架構，又 Presenter 因為有處理到獲取遠端資源的部分，所以 View Interface 得有許多 method 的存在就只為了反應 Presenter 的網路狀態。</p>\n\n<p>這個 talk 試著用 View State Machine 的概念來處理這個問題，特別之處在用了 Kotlin 的 <a href=\"https://kotlinlang.org/docs/reference/sealed-classes.html\">Sealed Classes</a> 來封裝那些狀態，這的確是很好的用法，學習了。</p>\n\n<p>其實概念很簡單，可以先看一下 <a href=\"https://speakerdeck.com/mandybess/kotlinconf-2017-view-state-machine-for-network-calls-on-android\">投影片</a> 再決定要不要看影片。</p>",
+          "description_markdown": "這是今年在 KotlinConf 的 talk，我覺得滿實際的。  \r\n如果你的 Android project 也是使用 MVP 架構，又 Presenter 因為有處理到獲取遠端資源的部分，所以 View Interface 得有許多 method 的存在就只為了反應 Presenter 的網路狀態。\r\n\r\n這個 talk 試著用 View State Machine 的概念來處理這個問題，特別之處在用了 Kotlin 的 [Sealed Classes](https://kotlinlang.org/docs/reference/sealed-classes.html) 來封裝那些狀態，這的確是很好的用法，學習了。\r\n\r\n其實概念很簡單，可以先看一下 [投影片](https://speakerdeck.com/mandybess/kotlinconf-2017-view-state-machine-for-network-calls-on-android) 再決定要不要看影片。",
+          "embedded_links": [
+            {
+              "identifier": "TtuCvKl",
+              "title": "Sealed Classes",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/reference/sealed-classes.html"
+            },
+            {
+              "identifier": "52aIJlQ",
+              "title": "投影片",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/mandybess/kotlinconf-2017-view-state-machine-for-network-calls-on-android"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "lCsd7wR",
+          "type": "Link",
+          "title": "slundberg/shap - Explain the output of any machine learning model using expectations and Shapley values",
+          "url_domain": "github.com",
+          "url": "https://github.com/slundberg/shap",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>Machine Learning 模型訓練完之後，我們常常會想知道 Model 是怎麼做出預測的，有沒有哪個 feature 對預測最有影響力呢？這是研究者常常需要面對的問題，我們必須解釋給老闆或是一般民眾了解。</p>\n\n<p>Shap 就是一個很方便容易使用來解釋 Model 的一個套件，github 上的說明寫得還蠻清楚的，大家可以在自己的 jupyter notebook 裝來跑看看，不過套件的 description 上寫可以「Explain the output of any machine learning model」，這個我自己是覺得不可能啦，畢竟各種 Machine Learning Model 還是有分成容易解釋跟不容易解釋的，像是 Tree 類型的 Machine Learning Model 就比較容易解釋，而 Deep Learning Model 就比較不容易解釋，所以大家使用時還是要了解一下可能還是有所限制。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\nMachine Learning 模型訓練完之後，我們常常會想知道 Model 是怎麼做出預測的，有沒有哪個 feature 對預測最有影響力呢？這是研究者常常需要面對的問題，我們必須解釋給老闆或是一般民眾了解。\r\n\r\nShap 就是一個很方便容易使用來解釋 Model 的一個套件，github 上的說明寫得還蠻清楚的，大家可以在自己的 jupyter notebook 裝來跑看看，不過套件的 description 上寫可以「Explain the output of any machine learning model」，這個我自己是覺得不可能啦，畢竟各種 Machine Learning Model 還是有分成容易解釋跟不容易解釋的，像是 Tree 類型的 Machine Learning Model 就比較容易解釋，而 Deep Learning Model 就比較不容易解釋，所以大家使用時還是要了解一下可能還是有所限制。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "14UUS53",
+          "type": "Link",
+          "title": "How to unit test machine learning code",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@keeper6928/how-to-unit-test-machine-learning-code-57cf6fd81765",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>為了避免程式往非預期的方向運作，我們常常會寫測試來避免這個問題，但如果是一個 Machine Learning 的程式我們要怎麼寫測試呢？這篇文章舉了一些簡單的例子來說明如何在 Machine Learning 的程式上寫測試，大家可以參考一下。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n為了避免程式往非預期的方向運作，我們常常會寫測試來避免這個問題，但如果是一個 Machine Learning 的程式我們要怎麼寫測試呢？這篇文章舉了一些簡單的例子來說明如何在 Machine Learning 的程式上寫測試，大家可以參考一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ol0kTWX",
+          "type": "Link",
+          "title": "Ethereum ERC20 Token Standard 以太坊代幣標準介紹",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/hackoin-taiwan/ethereum-erc20-token-standard-%E4%BB%A5%E5%A4%AA%E5%9D%8A%E4%BB%A3%E5%B9%A3%E6%A8%99%E6%BA%96%E4%BB%8B%E7%B4%B9-b7bc58171021",
+          "description": "<p>Ethereum：中級</p>\n\n<p>大家一定知道最近很紅的 ICO（Initial Coin Offering），發起 ICO 的公司一定會發行自己的代幣（Token）來炒幣，如果你也想要 ICO 自己發代幣，那要怎麼做呢？首先就要了解代幣的其中一種標準 ERC20，若是一個 Token 符合 ERC20，即代表他是一種具有完整貨幣交易功能的代幣。</p>\n\n<p>這篇文章淺顯地介紹了 ERC20 標準，大家如果看完了有想到任何有趣的應用要發起 ICO，記得通知一聲，pre-sale 一些便宜的代幣給可憐的碼農們吧～</p>",
+          "description_markdown": "Ethereum：中級\r\n\r\n大家一定知道最近很紅的 ICO（Initial Coin Offering），發起 ICO 的公司一定會發行自己的代幣（Token）來炒幣，如果你也想要 ICO 自己發代幣，那要怎麼做呢？首先就要了解代幣的其中一種標準 ERC20，若是一個 Token 符合 ERC20，即代表他是一種具有完整貨幣交易功能的代幣。\r\n\r\n這篇文章淺顯地介紹了 ERC20 標準，大家如果看完了有想到任何有趣的應用要發起 ICO，記得通知一聲，pre-sale 一些便宜的代幣給可憐的碼農們吧～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "js7TJ3R",
+          "type": "Link",
+          "title": "JavaScript: Can (a==1 && a==2 && a==3) ever evaluate to true?",
+          "url_domain": "codeburst.io",
+          "url": "https://codeburst.io/javascript-can-a-1-a-2-a-3-ever-evaluate-to-true-aca13ff4462d",
+          "description": "<p>執行 (a==1 &amp;&amp; a==2 &amp;&amp; a==3) 的結果在 JavaScript 是有可能為 true 的。\n這裏透過了兩個手法達成：</p>\n\n<ul>\n<li>double equals ( \"==\" )</li>\n<li><a href=\"https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf\">valueOf</a></li>\n</ul>\n\n\n<p>JavaScript 的 Type Conversion 過程會經過 typeOf function 來回傳 <a href=\"https://developer.mozilla.org/en-US/docs/Glossary/Primitive\">Primitive Value</a> ，這裏運用定義 a 的 valueOf function 以及 double equals 比對，得到一個特別的結果，文內有更清楚的流程拆解。</p>",
+          "description_markdown": "執行 (a==1 && a==2 && a==3) 的結果在 JavaScript 是有可能為 true 的。\r\n這裏透過了兩個手法達成\b：\r\n\r\n* double equals ( \"==\" )\r\n* [valueOf](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf)\r\n\r\nJavaScript 的 Type Conversion 過程會經過 typeOf function 來回傳 [Primitive Value](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) ，這裏運用定義 a 的 valueOf function 以及 double equals 比對，得到一個特別的結果，文內有更清楚的流程拆解。",
+          "embedded_links": [
+            {
+              "identifier": "RbtC5zu",
+              "title": "valueOf",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf"
+            },
+            {
+              "identifier": "XSH0Qm2",
+              "title": "Primitive Value",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+            }
+          ]
+        },
+        {
+          "identifier": "AYHb10b",
+          "type": "Link",
+          "title": "\"display: contents\" is coming",
+          "url_domain": "igalia.com",
+          "url": "https://blogs.igalia.com/mrego/2018/01/11/display-contents-is-coming/",
+          "description": "<p>CSS display 的新 property － contents 已經在 blink 和 webkit 引擎上實作，意味著會在將來的 chrome 以及 safari 推出，而 firefox 已經在 version 37 加入這個功能。</p>\n\n<p>設置 <a href=\"https://www.w3.org/TR/css-display-3/#box-generation\">display: contents</a> 會將該 element 在 box tree 中移除，並保留它的 contents (children elements)，即 children elements 在 box tree 中的層級會取代該 element 。</p>\n\n<p>文內利用一個 form 的例子表達，如果需要語意上而不是畫面上的結構，就可以利用 display: contents 。</p>",
+          "description_markdown": "CSS display 的新 property － contents 已經在 blink 和 webkit 引擎上實作，意味著會在將來的 chrome 以及 safari 推出，而 firefox 已經在 version 37 加入這個功能。\r\n\r\n設置 [display: contents](https://www.w3.org/TR/css-display-3/#box-generation) 會將該 element 在 box tree 中移除，並保留它的 contents (children elements)，即 children elements 在 box tree 中的層級會取代該 element 。\r\n\r\n文內利用一個 form 的例子表達，如果需要語意上而不是畫面上的結構，就可以利用 display: contents 。",
+          "embedded_links": [
+            {
+              "identifier": "6N7qCK5",
+              "title": "display: contents",
+              "url_domain": "w3.org",
+              "url": "https://www.w3.org/TR/css-display-3/#box-generation"
+            }
+          ]
+        },
+        {
+          "identifier": "Mjn7oQa",
+          "type": "Link",
+          "title": "Making WebAssembly even faster: Firefox’s new streaming and tiering compiler",
+          "url_domain": "mozilla.org",
+          "url": "https://hacks.mozilla.org/2018/01/making-webassembly-even-faster-firefoxs-new-streaming-and-tiering-compiler/",
+          "description": "<p>Firefox 58 加入了 2-tiered compiler (baseline compiler 、 optimizing compiler) 和 streaming compilation 機制藉此加速 WebAssembly。</p>\n\n<p>baseline compiler 會盡可能快速的 compile 程式， compilation 可以在 multiple threads 下完成，速度是 optimizing compiler 的 10 到 15 倍，當程式被 baseline compiled 後，可以立即在 main thread 下執行，而同時 optimizing compiler 也會在其他 threads 做最佳化，當最佳化完成後再換成新的版本。</p>\n\n<p>streaming compilation 機制讓 compilation 儘早被執行，透過新的 WebAssembly’s streaming API ，當接到新的 chunk ， 會直接送到 WebAssembly engine ，立即被 compiled ，同時間下一個 chunk 也會直接繼續被下載，另外， .wasm 的 code section 會在 data section 之前，確保程式能優先被下載編譯，當 data section 較大時，就可以達到很好的效能。</p>",
+          "description_markdown": "Firefox 58 加入了 2-tiered compiler (baseline compiler 、 optimizing compiler) 和 streaming compilation 機制藉此加速 WebAssembly。\r\n\r\nbaseline compiler 會盡可能快速的 compile 程式， compilation 可以在 multiple threads 下完成，速度是 optimizing compiler 的 10 到 15 倍，當程式被 baseline compiled 後，可以立即在 main thread 下執行，而同時 optimizing compiler 也會在其他 threads 做最佳化，當最佳化完成後再換成新的版本。\r\n\r\nstreaming compilation 機制讓 compilation 儘早被執行，透過新的 WebAssembly’s streaming API ，當接到新的 chunk ， 會直接送到 WebAssembly engine ，立即被 compiled ，同時間下一個 chunk 也會直接繼續被下載，另外， .wasm 的 code section 會在 data section 之前，確保程式能優先被下載編譯，當 data section 較大時，就可以達到很好的效能。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ncRnMsy",
+          "type": "Link",
+          "title": "Demystifying CSS alignment",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@patrickbrosset/demystifying-css-alignment-2d3ea7a02a36",
+          "description": "<p>本篇文章介紹 <a href=\"https://www.w3.org/TR/css-align-3/\">CSS Box Alignment</a> 在 Flexbox 、 Grid 及 Block 上面的用法，作者也提供了一個 <a href=\"http://patrickbrosset.com/lab/2018-01-10-css-alignment-cheatsheet/\">cheatsheet</a> 供大家參考。</p>",
+          "description_markdown": "本篇文章介紹 [CSS Box Alignment](https://www.w3.org/TR/css-align-3/) 在 Flexbox 、 Grid 及 Block 上面的用法，作者也提供了一個 [cheatsheet](http://patrickbrosset.com/lab/2018-01-10-css-alignment-cheatsheet/) 供大家參考。",
+          "embedded_links": [
+            {
+              "identifier": "9HGXd0e",
+              "title": "CSS Box Alignment",
+              "url_domain": "w3.org",
+              "url": "https://www.w3.org/TR/css-align-3/"
+            },
+            {
+              "identifier": "xSKv2x0",
+              "title": "cheatsheet",
+              "url_domain": "patrickbrosset.com",
+              "url": "http://patrickbrosset.com/lab/2018-01-10-css-alignment-cheatsheet/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "ptrLtpb",
+          "type": "Link",
+          "title": "Singing Voice Separator - 音樂訊號自動分軌",
+          "url_domain": "ciaua.com",
+          "url": "http://ss.ciaua.com/",
+          "description": "<p>最近在<a href=\"http://mac.citi.sinica.edu.tw/~yang/\">楊奕軒</a>博士的 facebook 看到這個新研究成果，他們實驗室博士生 Jenyu Liu 開發出了音樂訊號自動分軌程式，給定任何音檔，可以分離出人聲、鼓聲、bass、和其他樂器的背景音樂，實際使用 demo 的試聽成果，覺得分軌出來的音訊基本上算是效果蠻好的！</p>\n\n<p>這種音訊分軌的問題真的很難，通常分軌出來的結果都會有很多雜訊，根本無法聆聽，但這個成果真的大大超越了我之前所知的一些研究，大家可以聽聽看 Demo 裡面的伍佰台灣製造這首歌，按右鍵可以選擇把某個樂器軌給「關掉」。例如把前三個都關掉，則只會留下人聲，各個分軌都聽聽看好好感受一下。也許之後他們會將研究成果發表成論文，到時來拜讀一下吧！</p>",
+          "description_markdown": "最近在[楊奕軒](http://mac.citi.sinica.edu.tw/~yang/)博士的 facebook 看到這個新研究成果，他們實驗室博士生 Jenyu Liu 開發出了音樂訊號自動分軌程式，給定任何音檔，可以分離出人聲、鼓聲、bass、和其他樂器的背景音樂，實際使用 demo 的試聽成果，覺得分軌出來的音訊基本上算是效果蠻好的！\r\n\r\n這種音訊分軌的問題真的很難，通常分軌出來的結果都會有很多雜訊，根本無法聆聽，但這個成果真的大大超越了我之前所知的一些研究，大家可以聽聽看 Demo 裡面的伍佰台灣製造這首歌，按右鍵可以選擇把某個樂器軌給「關掉」。例如把前三個都關掉，則只會留下人聲，各個分軌都聽聽看好好感受一下。也許之後他們會將研究成果發表成論文，到時來拜讀一下吧！",
+          "embedded_links": [
+            {
+              "identifier": "angALKB",
+              "title": "楊奕軒",
+              "url_domain": "sinica.edu.tw",
+              "url": "http://mac.citi.sinica.edu.tw/~yang/"
+            }
+          ]
+        },
+        {
+          "identifier": "pHHWSio",
+          "type": "Link",
+          "title": "Blockchain Demo",
+          "url_domain": "anders.com",
+          "url": "https://anders.com/blockchain/",
+          "description": "<p>Blockchain 是怎麼運作的？<br/>\n以 Blockchain 為基礎的分布式帳本要怎麼防止竄改跟偽造？</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "Blockchain 是怎麼運作的？  \r\n以 Blockchain 為基礎的分布式帳本要怎麼防止竄改跟偽造？\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "dCyOUh2",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

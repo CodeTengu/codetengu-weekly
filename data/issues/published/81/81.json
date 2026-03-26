@@ -1,0 +1,449 @@
+{
+  "number": 81,
+  "title": "Issue 81 I � Unicode",
+  "summary": "本期內容涵蓋 iOS, Android, Elasticsearch, Smart Contract, Bash script, Markdown, Programming Language",
+  "url": "https://weekly.codetengu.com/issues/81",
+  "publication_status": "published",
+  "published_at": "2017-03-27T03:00:00+01:00",
+  "updated_at": "2017-03-27T19:16:25+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩 <a href=\"https://www.douban.com/people/vinta/\">Horizon: Zero Dawn</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 最近在看 <a href=\"http://www.taaze.tw/static_act/201302/art/\">禪與摩托車維修的藝術</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩 [Horizon: Zero Dawn](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 最近在看 [禪與摩托車維修的藝術](http://www.taaze.tw/static_act/201302/art/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "qn5vQK6",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "kQLm3Cj",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "5ctFQ8B",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "oK6dPSA",
+              "title": "Horizon: Zero Dawn",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "2XFiFba",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "gmiAQXW",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "FQ8EU85",
+              "title": "禪與摩托車維修的藝術",
+              "url_domain": "taaze.tw",
+              "url": "http://www.taaze.tw/static_act/201302/art/"
+            },
+            {
+              "identifier": "RhRjDAW",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "WWUEkJj",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "cq3gtyX",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "PXjDMJ4",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "UcSwK7x",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "x8HHv3R",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "YRSSezY",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "mYnLRnV",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "h7KBnP",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "KVcqXFB",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "s6em8VI",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "cbHqHWk",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "7dthPLF",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "KzQmIiw",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "3TdfK0n",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "TQXbDPi",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "fIimeZF",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "785JugV",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "Gd9aY1y",
+          "type": "Link",
+          "title": "GitHub lets workers keep the IP when they use company resources for personal projects",
+          "url_domain": "qz.com",
+          "url": "https://qz.com/937038/github-now-lets-its-workers-keep-the-ip-when-they-use-company-resources-for-personal-projects/",
+          "description": "<p>在上班時間或用公司資產創造出來的作品，即便作品的內容跟公司無關，公司還是擁有你的作品的智慧財產權。這樣的爭議場景常常在影集或是科技名人自傳裡看到。</p>\n\n<p>現在 GitHub 提出了一個新的政策，Balanced Employee IP Agreement，讓員工擁有在上述情況下創造的個人作品的智慧財產權，這除了加強 GitHub 的文化之外，我相信對於 GitHub 在尋找強者的路上也會有更好的機會。</p>\n\n<p>這份政策也是 Open Source 的 - <a href=\"https://github.com/github/balanced-employee-ip-agreement\">balanced-employee-ip-agreement</a>。身為一個受雇的開發者，當然樂見這樣的發展方向。</p>\n\n<p>研究了一下，以台灣來說，沒有特別簽契約的話，只要被認定是利用公司的設備和資源以及上班時間所完成的著作，大多會被認定為是受雇著作。根據著作權法第 11 條第 2 項規定，受雇著作之著作人為受雇人，著作財產權人為雇用人，因此該著作財產權歸老闆所有。</p>",
+          "description_markdown": "在上班時間或用公司資產創造出來的作品，即便作品的內容跟公司無關，公司還是擁有你的作品的智慧財產權。這樣的爭議場景常常在影集或是科技名人自傳裡看到。\r\n\r\n現在 GitHub 提出了一個新的政策，Balanced Employee IP Agreement，讓員工擁有在上述情況下創造的個人作品的智慧財產權，這除了加強 GitHub 的文化之外，我相信對於 GitHub 在尋找強者的路上也會有更好的機會。\r\n\r\n這份政策也是 Open Source 的 - [balanced-employee-ip-agreement](https://github.com/github/balanced-employee-ip-agreement)。身為一個受雇的開發者，當然樂見這樣的發展方向。\r\n\r\n研究了一下，以台灣來說，沒有特別簽契約的話，只要被認定是利用公司的設備和資源以及上班時間所完成的著作，大多會被認定為是受雇著作。根據著作權法第 11 條第 2 項規定，受雇著作之著作人為受雇人，著作財產權人為雇用人，因此該著作財產權歸老闆所有。",
+          "embedded_links": [
+            {
+              "identifier": "v4Wqr19",
+              "title": "balanced-employee-ip-agreement",
+              "url_domain": "github.com",
+              "url": "https://github.com/github/balanced-employee-ip-agreement"
+            }
+          ]
+        },
+        {
+          "identifier": "yQfraOm",
+          "type": "Link",
+          "title": "The Two ID Problem",
+          "url_domain": "trello.com",
+          "url": "http://tech.trello.com/sync-two-id-problem/",
+          "description": "<p>前陣子 Trello app 改版，多了 offline 的功能，而他們的技術團隊也因此寫了一篇開發這個功能時遇到的 offline ID 問題。</p>\n\n<p>只要支援離線操作，就免不了要思考有兩組 ID 的解決方式。還沒有跟 backend 溝通之前的那組 local ID 跟溝通之後新得到的 server ID，要怎麼做儲存跟對應的修改？</p>\n\n<p>Trello 團隊說明了兩種他們試過並放棄的方案：</p>\n\n<ol>\n<li>在拿到 server ID 之後將自己產生的 local ID 全部替換掉\n\n<ul>\n<li>要更新所有的關聯欄位，效能問題</li>\n<li>不安全，漏更新到欄位也不知道，後果會很嚴重</li>\n</ul>\n</li>\n<li>將 ID 的型別改為一組自定義的結構，包含 local ID 跟 server ID，並且在 client 建立一份 ID 的 mapping table\n\n<ul>\n<li>要對應修改的範圍太大</li>\n<li>得頻繁去查表，行為詭異</li>\n</ul>\n</li>\n</ol>\n\n\n<p>最後也分享了他們目前的解決方法。這種案例分享真是不錯～</p>",
+          "description_markdown": "前陣子 Trello app 改版，多了 offline 的功能，而他們的技術團隊也因此寫了一篇開發這個功能時遇到的 offline ID 問題。\r\n\r\n只要支援離線操作，就免不了要思考有兩組 ID 的解決方式。還沒有跟 backend 溝通之前的那組 local ID 跟溝通之後新得到的 server ID，要怎麼做儲存跟對應的修改？\r\n\r\nTrello 團隊說明了兩種他們試過並放棄的方案：\r\n\r\n1. 在拿到 server ID 之後將自己產生的 local ID 全部替換掉\r\n    - 要更新所有的關聯欄位，效能問題\r\n    - 不安全，漏更新到欄位也不知道，後果會很嚴重\r\n2. 將 ID 的型別改為一組自定義的結構，包含 local ID 跟 server ID，並且在 client 建立一份 ID 的 mapping table\r\n   - 要對應修改的範圍太大\r\n   - 得頻繁去查表，行為詭異\r\n\r\n最後也分享了他們目前的解決方法。這種案例分享真是不錯～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oXYlgDx",
+          "type": "Link",
+          "title": "硅谷和国内的 iOS 开发到底有何不同？",
+          "url_domain": "jianshu.com",
+          "url": "http://www.jianshu.com/p/63aec174bdb7",
+          "description": "<p>分析中國跟矽谷的 iOS 工程師跟開發工具的差別。</p>\n\n<p>提到幾個有趣的現象：</p>\n\n<ul>\n<li>中國目前特有的工程師培訓班，  帶學員刷面試題，有計劃地弄好 GitHub 跟部落格，讓學員拿到 Offer，量產了一大批的工程師到市場上。</li>\n<li>中國與矽谷對產品經理角色定位的不同，矽谷對產品經理的要求嚴格，技術能力是必備的技能，通常都是拿來培養部門經理的接班人，中國則標準較低一些。</li>\n<li>矽谷的職涯發展較能發展出只寫程式不做管理的技術愛好者，讓其在特定領域作專精的事情，相較之下中國工程師技能樹點得較廣，不只技術領域涉獵較多，後期也會轉型管理職。這個現象可以跟 <a href=\"https://moz.com/rand/if-management-is-the-only-way-up-were-all-fd/\">If Management is the Only Way Up, We’re All F’d</a>  一起看。</li>\n</ul>",
+          "description_markdown": "分析中國跟矽谷的 iOS 工程師跟開發工具的差別。\r\n\r\n提到幾個有趣的現象：\r\n\r\n- 中國目前特有的工程師培訓班，  帶學員刷面試題，有計劃地弄好 GitHub 跟部落格，讓學員拿到 Offer，量產了一大批的工程師到市場上。  \r\n- 中國與矽谷對產品經理角色定位的不同，矽谷對產品經理的要求嚴格，技術能力是必備的技能，通常都是拿來培養部門經理的接班人，中國則標準較低一些。  \r\n- 矽谷的職涯發展較能發展出只寫程式不做管理的技術愛好者，讓其在特定領域作專精的事情，相較之下中國工程師技能樹點得較廣，不只技術領域涉獵較多，後期也會轉型管理職。這個現象可以跟 [If Management is the Only Way Up, We’re All F’d](https://moz.com/rand/if-management-is-the-only-way-up-were-all-fd/)  一起看。",
+          "embedded_links": [
+            {
+              "identifier": "L3zKQTw",
+              "title": "If Management is the Only Way Up, We’re All F’d",
+              "url_domain": "moz.com",
+              "url": "https://moz.com/rand/if-management-is-the-only-way-up-were-all-fd/"
+            }
+          ]
+        },
+        {
+          "identifier": "pHoY4vF",
+          "type": "Link",
+          "title": "Future of Java 8 Language Feature Support on Android",
+          "url_domain": "googleblog.com",
+          "url": "https://android-developers.googleblog.com/2017/03/future-of-java-8-language-feature.html",
+          "description": "<p>去年 Android 忽然出現了 <a href=\"https://source.android.com/source/jack.html\">Jack</a> 這套新的編譯工具，擾亂了一池春水，各大第三方套件都在討論要不要引入。</p>\n\n<p>忽然之間，Google 就放棄了，打算回到原本 javac + dx。</p>\n\n<p>官方給的理由是</p>\n\n<blockquote><p>Over time, we realized the cost of switching to Jack was too high for our community when we considered the annotation processors, bytecode analyzers and rewriters impacted.</p></blockquote>\n\n<p>簡單來說，透過 Jack 這個自己打造出來的編譯器 Google 可以直接在上面加入 Java 8 的 features 跟針對 Android 做優化，但是也因此 Java bytecode 就沒有了，社群上很多現存工具會無法支援，要重新打造一套編譯系統的門檻已經不是技術問題而是生態的問題。</p>\n\n<blockquote><p>We are currently matching Jack's feature set. That means that we support lambdas, method references, type annotations, and repeated annotations for every API level; default and static interface methods are only supported for 24 and up. <a href=\"https://www.reddit.com/r/androiddev/comments/5zf1xo/future_of_java_8_language_feature_support_on/\">來源 (Reddit comment)</a></p></blockquote>\n\n<p>回到 javac + dx 之後的進度看似也很不錯，可喜可賀。</p>",
+          "description_markdown": "去年 Android 忽然出現了 [Jack](https://source.android.com/source/jack.html) 這套新的編譯工具，擾亂了一池春水，各大第三方套件都在討論要不要引入。\r\n\r\n忽然之間，Google 就放棄了，打算回到原本 javac + dx。\r\n\r\n官方給的理由是\r\n> Over time, we realized the cost of switching to Jack was too high for our community when we considered the annotation processors, bytecode analyzers and rewriters impacted. \r\n\r\n簡單來說，透過 Jack 這個自己打造出來的編譯器 Google 可以直接在上面加入 Java 8 的 features 跟針對 Android 做優化，但是也因此 Java bytecode 就沒有了，社群上很多現存工具會無法支援，要重新打造一套編譯系統的門檻已經不是技術問題而是生態的問題。\r\n\r\n> We are currently matching Jack's feature set. That means that we support lambdas, method references, type annotations, and repeated annotations for every API level; default and static interface methods are only supported for 24 and up. [來源 (Reddit comment)](https://www.reddit.com/r/androiddev/comments/5zf1xo/future_of_java_8_language_feature_support_on/)\r\n\r\n回到 javac + dx 之後的進度看似也很不錯，可喜可賀。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "WO3bxG1",
+              "title": "Jack",
+              "url_domain": "android.com",
+              "url": "https://source.android.com/source/jack.html"
+            },
+            {
+              "identifier": "f0JiaIz",
+              "title": "來源 (Reddit comment)",
+              "url_domain": "reddit.com",
+              "url": "https://www.reddit.com/r/androiddev/comments/5zf1xo/future_of_java_8_language_feature_support_on/"
+            }
+          ]
+        },
+        {
+          "identifier": "uwioeG6",
+          "type": "Link",
+          "title": "Why your app should crash",
+          "url_domain": "jeroenmols.com",
+          "url": "http://jeroenmols.com/blog/2017/03/08/appcrash/",
+          "description": "<p>這篇文章以 null check 為例討論什麼情況不應該加上僅只是防止 app crash 的判斷式。</p>\n\n<p>也以 null check 為例，我在做 null check 之前會問自己一個問題，照我的設計或是參與的第三方行為，這個地方有沒有可能是 null？如果照理說不可能，那就不要 null check 啦！</p>\n\n<p>發生問題就去該找真正的問題來源，這種「我挺住了，我沒 crash」的判斷很有可能讓你的 program 進入奇怪的 state 中，加深之後想要除錯的難度～</p>",
+          "description_markdown": "這篇文章以 null check 為例討論什麼情況不應該加上僅只是防止 app crash 的判斷式。\r\n\r\n也以 null check 為例，我在做 null check 之前會問自己一個問題，照我的設計或是參與的第三方行為，這個地方有沒有可能是 null？如果照理說不可能，那就不要 null check 啦！\r\n\r\n發生問題就去該找真正的問題來源，這種「我挺住了，我沒 crash」的判斷很有可能讓你的 program 進入奇怪的 state 中，加深之後想要除錯的難度～",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "3ARAGpK",
+          "type": "Link",
+          "title": "Design first, then code.",
+          "url_domain": "ycombinator.com",
+          "url": "https://news.ycombinator.com/item?id=750866",
+          "description": "<p>2785 天以前，就有一群人在討論到底是先設計再 coding，還是不需要設計就直接 coding 的問題。其實這個問題，還是每天不斷的困擾著我們。尤其是還沒找到自己的路和方法的公司或某些創新公司，更需要仔細思考一下這個問題。</p>\n\n<p>其實，最根本問題不是 \"需不需要設計\"，而是 \"到底多少設計，才不算太多\"。在 coding 前，不可能完全沒設計，只有要設計多少的問題。</p>\n\n<p>另外，program architecture 到底要不要設計，我個人覺得如果貴公司還沒有自己的 program architecture，那當然要; 且如果設計的好，就可以重複使用。它的目的，就是能讓設計快速 (敏捷地) 實作，且能快速的抽換。也就是在本文中所提到的: Good design can try out and throw away ideas really quickly.</p>",
+          "description_markdown": "2785 天以前，就有一群人在討論到底是先設計再 coding，還是不需要設計就直接 coding 的問題。其實這個問題，還是每天不斷的困擾著我們。尤其是還沒找到自己的路和方法的公司或某些創新公司，更需要仔細思考一下這個問題。\r\n\r\n其實，最根本問題不是 \"需不需要設計\"，而是 \"到底多少設計，才不算太多\"。在 coding 前，不可能完全沒設計，只有要設計多少的問題。\r\n\r\n另外，program architecture 到底要不要設計，我個人覺得如果貴公司還沒有自己的 program architecture，那當然要; 且如果設計的好，就可以重複使用。它的目的，就是能讓設計快速 (敏捷地) 實作，且能快速的抽換。也就是在本文中所提到的: Good design can try out and throw away ideas really quickly.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Dqy3aYN",
+          "type": "Link",
+          "title": "Learn Elasticsearch Sorting in 5 minutes",
+          "url_domain": "appbase.io",
+          "url": "https://medium.appbase.io/sort-elasticsearch-a-tutorial-on-sorting-with-elasticsearch-762b6c02557f",
+          "description": "<p>最近在寫 Elasticsearch 資料庫查詢程式，發現不只需要對您選用語言所使用 elasticsearch 的副程式庫要深入了解，更需要知道 Elasticsearch 查詢的語法和特性，才能將程式發揮到極致。這篇文章，讓你能在短短五分鐘內學會 Elasticsearch sort 的方法，我也對 twitter 撈來的資料，做了一個簡單的練習，如下:</p>\n\n<pre><code>GET /logstash-twitter/_search\n{\n    \"query\" : {\n        \"bool\" : {\n            \"filter\" : {\n                \"term\" : {\n                    \"retweeted\" : false\n                }\n            }\n        }\n    },\n    \"sort\" : {\n        \"user.keyword\": {\"order\": \"desc\"}\n    }\n}\n</code></pre>\n\n<p>如果您還不熟悉 Elasticsearch 的 Query DSL，不妨先看看這篇 3 年多以前就有的文章 <a href=\"http://joelabrahamsson.com/elasticsearch-101/\">Elasticsearch 101</a>，就能對 Elasticsearch 查詢先有個大概的了解。</p>",
+          "description_markdown": "最近在寫 Elasticsearch 資料庫查詢程式，發現不只需要對您選用語言所使用 elasticsearch 的副程式庫要深入了解，更需要知道 Elasticsearch 查詢的語法和特性，才能將程式發揮到極致。這篇文章，讓你能在短短五分鐘內學會 Elasticsearch sort 的方法，我也對 twitter 撈來的資料，做了一個簡單的練習，如下:\r\n\r\n```\r\nGET /logstash-twitter/_search\r\n{\r\n    \"query\" : {\r\n        \"bool\" : {\r\n            \"filter\" : {\r\n                \"term\" : {\r\n                    \"retweeted\" : false\r\n                }\r\n            }\r\n        }\r\n    },\r\n    \"sort\" : {\r\n        \"user.keyword\": {\"order\": \"desc\"}\r\n    }\r\n}\r\n```\r\n\r\n如果您還不熟悉 Elasticsearch 的 Query DSL，不妨先看看這篇 3 年多以前就有的文章 [Elasticsearch 101](http://joelabrahamsson.com/elasticsearch-101/)，就能對 Elasticsearch 查詢先有個大概的了解。",
+          "embedded_links": [
+            {
+              "identifier": "4xd17i0",
+              "title": "Elasticsearch 101",
+              "url_domain": "joelabrahamsson.com",
+              "url": "http://joelabrahamsson.com/elasticsearch-101/"
+            }
+          ]
+        },
+        {
+          "identifier": "5QftGX7",
+          "type": "Link",
+          "title": "The Hitchhiker’s Guide to Smart Contracts in Ethereum",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/zeppelin-blog/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05",
+          "description": "<p>開發 smart contracts 環境的架設，以及部署智能合約到 Ethereum 網路，對初學者來說，的確是有點難度。這篇文章教您如何安裝 testrpc 來架設一個模擬 Ehtereum 網路以及幫你開好 10 個帳號。並介紹如何利用 truffle 這套工具，很快能產生一個新專案, 開始撰寫與測試您的 solidity 程式。</p>\n\n<p>但最後要部署到 testnet，或真正的 Ethereum 網路，還是要裝 geth 才能成功。我建議可以使用 <a href=\"https://github.com/paritytech/parity\">Parity</a> 代替 geth，或用 docker 安裝 <a href=\"https://hub.docker.com/r/mingder78/instance-parity/\">instance-parity</a>，可以省去大量 blocks 同步的時間。</p>",
+          "description_markdown": "開發 smart contracts 環境的架設，以及部署智能合約到 Ethereum 網路，對初學者來說，的確是有點難度。這篇文章教您如何安裝 testrpc 來架設一個模擬 Ehtereum 網路以及幫你開好 10 個帳號。並介紹如何利用 truffle 這套工具，很快能產生一個新專案, 開始撰寫與測試您的 solidity 程式。\r\n\r\n但最後要部署到 testnet，或真正的 Ethereum 網路，還是要裝 geth 才能成功。我建議可以使用 [Parity](https://github.com/paritytech/parity) 代替 geth，或用 docker 安裝 [instance-parity](https://hub.docker.com/r/mingder78/instance-parity/)，可以省去大量 blocks 同步的時間。",
+          "embedded_links": [
+            {
+              "identifier": "taDszXR",
+              "title": "Parity",
+              "url_domain": "github.com",
+              "url": "https://github.com/paritytech/parity"
+            },
+            {
+              "identifier": "RqohciP",
+              "title": "instance-parity",
+              "url_domain": "docker.com",
+              "url": "https://hub.docker.com/r/mingder78/instance-parity/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "Nqkf5v7",
+          "type": "Link",
+          "title": "The Unofficial Bash Strict Mode",
+          "url_domain": "redsymbol.net",
+          "url": "http://redsymbol.net/articles/unofficial-bash-strict-mode/",
+          "description": "<p>寫過 JavaScript 的人<del>大概</del><strong>應該要</strong>知道什麼是 <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode\">strict mode</a>。Strict mode 會對 JavaScript 執行環境加上較強的限制，讓你避免一些語法陷阱。這篇文章為 Bash script 提出了類似的概念，建議你把所有 Bash script 開頭都寫成下面這樣：</p>\n\n<pre><code class=\"bash\">#!/bin/bash\nset -euo pipefail\nIFS=$'\\n\\t'\n</code></pre>\n\n<p>第一行沒什麼問題，大家都懂 shebang。第二行代表設定三個模式：</p>\n\n<ul>\n<li><code>-e</code>：當任何一個指令失敗（return code 不為 0），立刻結束 shell。這個大家應該很熟悉了。預設的行為是當指令失敗時，繼續往後執行。這是 interactive shell 該有的行為，但 script 這樣做很危險。</li>\n<li><code>-u</code>：禁止未定義的參數。預設的行為是把未定義的變數視為空白，但這很危險，尤其當你用變數組路徑時。</li>\n<li><code>-o pipefail</code>：會把 pipe 中的錯誤往外傳。預設模式下，使用 pipe 時會回傳最後一個指令的結果，讓你看不出來前面的指令是否失敗。</li>\n</ul>\n\n\n<p>第三行的設定就比較是個人偏好，會影響 Bash 中 for loop 拆字串的行為。不過這滿合理的，建議使用。</p>\n\n<p>和 JavaScript 一樣，不是所有現存程式都與 strict mode 相容。作者也在下面列出一些常見的狀況，並提供解法。如果你遇到什麼其他問題，歡迎回報！</p>",
+          "description_markdown": "寫過 JavaScript 的人~~大概~~**應該要**知道什麼是 [strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)。Strict mode 會對 JavaScript 執行環境加上較強的限制，讓你避免一些語法陷阱。這篇文章為 Bash script 提出了類似的概念，建議你把所有 Bash script 開頭都寫成下面這樣：\r\n\r\n~~~bash\r\n#!/bin/bash\r\nset -euo pipefail\r\nIFS=$'\\n\\t'\r\n~~~\r\n\r\n第一行沒什麼問題，大家都懂 shebang。第二行代表設定三個模式：\r\n\r\n* `-e`：當任何一個指令失敗（return code 不為 0），立刻結束 shell。這個大家應該很熟悉了。預設的行為是當指令失敗時，繼續往後執行。這是 interactive shell 該有的行為，但 script 這樣做很危險。\r\n* `-u`：禁止未定義的參數。預設的行為是把未定義的變數視為空白，但這很危險，尤其當你用變數組路徑時。\r\n* `-o pipefail`：會把 pipe 中的錯誤往外傳。預設模式下，使用 pipe 時會回傳最後一個指令的結果，讓你看不出來前面的指令是否失敗。\r\n\r\n第三行的設定就比較是個人偏好，會影響 Bash 中 for loop 拆字串的行為。不過這滿合理的，建議使用。\r\n\r\n和 JavaScript 一樣，不是所有現存程式都與 strict mode 相容。作者也在下面列出一些常見的狀況，並提供解法。如果你遇到什麼其他問題，歡迎回報！",
+          "embedded_links": [
+            {
+              "identifier": "EqYGXbo",
+              "title": "strict mode",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+            }
+          ]
+        },
+        {
+          "identifier": "UQscGR2",
+          "type": "Link",
+          "title": "Bug 1202858 - 重啟 Squid 讓硬碟中所有檔案被刪除",
+          "url_domain": "redhat.com",
+          "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1202858",
+          "description": "<p>重現度：<br/>\n100%</p>\n\n<p>重現步驟：</p>\n\n<ol>\n<li>登入已安裝 Squid 的 RHEL 6.7 主機</li>\n<li>啟動 Squid <code>service squid start</code></li>\n<li>重啟 Squid <code>service squid restart</code></li>\n</ol>\n\n\n<p>實際狀況：<br/>\n機器上所有檔案被刪除。</p>\n\n<p>預期狀況：<br/>\nSquid 正常重啟。</p>\n\n<hr />\n\n<p>上一篇說了 Bash script 裡有未定義的變數很危險。這裡有個實際例子。還好 Red Hat 在正式發行之前就抓到了這個問題；Steam 可是發了正式版之後才有<a href=\"https://github.com/valvesoftware/steam-for-linux/issues/3671\">使用者回報</a>呢。幫 QQ。</p>",
+          "description_markdown": "重現度：  \r\n100%\r\n\r\n重現步驟：\r\n\r\n1. 登入已安裝 Squid 的 RHEL 6.7 主機\r\n2. 啟動 Squid `service squid start`\r\n3. 重啟 Squid `service squid restart`\r\n\r\n實際狀況：  \r\n機器上所有檔案被刪除。\r\n\r\n預期狀況：  \r\nSquid 正常重啟。\r\n\r\n---\r\n\r\n上一篇說了 Bash script 裡有未定義的變數很危險。這裡有個實際例子。還好 Red Hat 在正式發行之前就抓到了這個問題；Steam 可是發了正式版之後才有[使用者回報](https://github.com/valvesoftware/steam-for-linux/issues/3671)呢。幫 QQ。",
+          "embedded_links": [
+            {
+              "identifier": "8OiaXvh",
+              "title": "使用者回報",
+              "url_domain": "github.com",
+              "url": "https://github.com/valvesoftware/steam-for-linux/issues/3671"
+            }
+          ]
+        },
+        {
+          "identifier": "ZUyQFbv",
+          "type": "Link",
+          "title": "A formal spec for GitHub Flavored Markdown",
+          "url_domain": "githubengineering.com",
+          "url": "https://githubengineering.com/a-formal-spec-for-github-markdown/",
+          "description": "<p>GitHub <del>終於</del>發表了他們的 Markdown specification。基本上以 <a href=\"http://commonmark.org\">CommonMark</a> 為主，加上一些 GitHub 自己的外掛語法，但不與 CommonMark 衝突。</p>\n\n<p>對一般人這可能沒差，我已經預想這篇的點閱率應該會超低。XD 但對 <a href=\"https://macdown.uranusjr.com\">Markdown editor 維護人</a>而言這是大新聞啊。GitHub 之前使用首席工程師 Vicent Martí 開發的<a href=\"https://github.com/vmg/sundown\">Sundown</a>（基於 Natacha Porté 開發的 Upskirt），以及它的 Ruby binding <a href=\"https://github.com/vmg/redcarpet\">Redcarpet</a>。這個實作非常優秀（MacDown 使用它的一個衍伸專案 <a href=\"https://github.com/hoedown/hoedown\">Hoedown</a>），但<a href=\"https://github.com/MacDownApp/macdown/issues/260\">有一些</a><a href=\"https://github.com/MacDownApp/macdown/issues/148\">不直覺</a><a href=\"https://github.com/MacDownApp/macdown/issues/656\">的行為</a>。這不是誰的錯，而很大部分來自<a href=\"https://daringfireball.net/projects/markdown/syntax\">原始 Markdown specification</a> 不夠清楚造成的未定義行為。CommonMark 清掉了很多類似問題，但造成一些不相容語法，而 GitHub 在 Markdown 界的影響力太大，成為與 CommonMark 競爭的 <a href=\"https://zh.wikipedia.org/wiki/De_facto\">de facto</a> standard。</p>\n\n<p>GitHub 這次的舉動讓 CommonMark 實質上一統天下了，應該會讓我們的工作輕鬆許多。期待。</p>",
+          "description_markdown": "GitHub ~~終於~~發表了他們的 Markdown specification。基本上以 [CommonMark](http://commonmark.org) 為主，加上一些 GitHub 自己的外掛語法，但不與 CommonMark 衝突。\r\n\r\n對一般人這可能沒差，我已經預想這篇的點閱率應該會超低。XD 但對 [Markdown editor 維護人](https://macdown.uranusjr.com)而言這是大新聞啊。GitHub 之前使用首席工程師 Vicent Martí 開發的[Sundown](https://github.com/vmg/sundown)（基於 Natacha Porté 開發的 Upskirt），以及它的 Ruby binding [Redcarpet](https://github.com/vmg/redcarpet)。這個實作非常優秀（MacDown 使用它的一個衍伸專案 [Hoedown](https://github.com/hoedown/hoedown)），但[有一些](https://github.com/MacDownApp/macdown/issues/260)[不直覺](https://github.com/MacDownApp/macdown/issues/148)[的行為](https://github.com/MacDownApp/macdown/issues/656)。這不是誰的錯，而很大部分來自[原始 Markdown specification](https://daringfireball.net/projects/markdown/syntax) 不夠清楚造成的未定義行為。CommonMark 清掉了很多類似問題，但造成一些不相容語法，而 GitHub 在 Markdown 界的影響力太大，成為與 CommonMark 競爭的 [de facto](https://zh.wikipedia.org/wiki/De_facto) standard。\r\n\r\nGitHub 這次的舉動讓 CommonMark 實質上一統天下了，應該會讓我們的工作輕鬆許多。期待。",
+          "embedded_links": [
+            {
+              "identifier": "XJmHLVc",
+              "title": "CommonMark",
+              "url_domain": "commonmark.org",
+              "url": "http://commonmark.org"
+            },
+            {
+              "identifier": "Yt4rVm0",
+              "title": "Markdown editor 維護人",
+              "url_domain": "uranusjr.com",
+              "url": "https://macdown.uranusjr.com"
+            },
+            {
+              "identifier": "qNfqjAG",
+              "title": "Sundown",
+              "url_domain": "github.com",
+              "url": "https://github.com/vmg/sundown"
+            },
+            {
+              "identifier": "EJ81o8c",
+              "title": "Redcarpet",
+              "url_domain": "github.com",
+              "url": "https://github.com/vmg/redcarpet"
+            },
+            {
+              "identifier": "HILQaSN",
+              "title": "Hoedown",
+              "url_domain": "github.com",
+              "url": "https://github.com/hoedown/hoedown"
+            },
+            {
+              "identifier": "yCXbU4o",
+              "title": "有一些",
+              "url_domain": "github.com",
+              "url": "https://github.com/MacDownApp/macdown/issues/260"
+            },
+            {
+              "identifier": "JVWNdij",
+              "title": "不直覺",
+              "url_domain": "github.com",
+              "url": "https://github.com/MacDownApp/macdown/issues/148"
+            },
+            {
+              "identifier": "4jCYxHS",
+              "title": "的行為",
+              "url_domain": "github.com",
+              "url": "https://github.com/MacDownApp/macdown/issues/656"
+            },
+            {
+              "identifier": "LHlt2qH",
+              "title": "原始 Markdown specification",
+              "url_domain": "daringfireball.net",
+              "url": "https://daringfireball.net/projects/markdown/syntax"
+            },
+            {
+              "identifier": "TOpTGsH",
+              "title": "de facto",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/De_facto"
+            }
+          ]
+        },
+        {
+          "identifier": "D7KEKGb",
+          "type": "Link",
+          "title": "If-statements in Smalltalk",
+          "url_domain": "livejournal.com",
+          "url": "http://pozorvlak.livejournal.com/94558.html",
+          "description": "<p>在討論語言時，一個很重要的區別是了解某個功能是<strong>語法</strong>還是<strong>函式庫</strong>帶來的。Mark Dominus <a href=\"http://blog.plover.com/2006/09/11/\">認為</a> design pattern 代表一個語言不夠高階，無法直接達成你想要的功能，而需要使用者重複描述同樣的概念。但什麼樣的功能才算是語言提供呢？作者舉了 Smalltalk 獨特的條件式實作作為例子。在大部分的語言裡，if block（包含 else 與 else if）都是語言功能，但 Smalltalk 不然。在 Smalltalk 中，條件式是這樣寫：</p>\n\n<pre><code class=\"smalltalk\">a &lt; b\n  ifTrue: [^'a is less than b']\n  ifFalse: [^'a is greater than or equal to b']\n</code></pre>\n\n<p>下面是這段程式的解讀：</p>\n\n<ul>\n<li>Smalltalk 中 <code>Boolean</code> 有個 <code>- ifTrue: ifFalse:</code> 方法。這個方法接受兩個 block 引數（<code>[^ ...]</code> 語法）。</li>\n<li><code>Boolean</code>有兩個 concrete subclasses <code>True</code> 與 <code>False</code>。其中 <code>True</code> 的 <code>- ifTrue: ifFalse:</code> 會執行 <code>ifTrue:</code> 後面的 block，<code>False</code> 會執行 <code>ifFalse:</code> 後面那個。</li>\n<li>這一整段其實是一個 method call，<code>a &lt; b</code> 得到的 <code>Boolean</code> 實例是 callee。</li>\n</ul>\n\n\n<p>這代表 Smalltalk 中，條件式<strong>不是語言功能</strong>，而是實作 design pattern 的內建函式——因為即使 Smalltalk 標準庫沒有它，使用者也可以自己寫出等效的功能。語言功能與內建函式之間的界線其實比我們想像得更模糊，以語法 expresiveness 判斷語言夠不夠高階，也不是正確的基準。</p>\n\n<p>MIND. BLOWN.</p>",
+          "description_markdown": "在討論語言時，一個很重要的區別是了解某個功能是**語法**還是**函式庫**帶來的。Mark Dominus [認為](http://blog.plover.com/2006/09/11/) design pattern 代表一個語言不夠高階，無法直接達成你想要的功能，而需要使用者重複描述同樣的概念。但什麼樣的功能才算是語言提供呢？作者舉了 Smalltalk 獨特的條件式實作作為例子。在大部分的語言裡，if block（包含 else 與 else if）都是語言功能，但 Smalltalk 不然。在 Smalltalk 中，條件式是這樣寫：\r\n\r\n~~~smalltalk\r\na < b\r\n  ifTrue: [^'a is less than b']\r\n  ifFalse: [^'a is greater than or equal to b']\r\n~~~\r\n\r\n下面是這段程式的解讀：\r\n\r\n* Smalltalk 中 `Boolean` 有個 `- ifTrue: ifFalse:` 方法。這個方法接受兩個 block 引數（`[^ ...]` 語法）。\r\n* `Boolean`有兩個 concrete subclasses `True` 與 `False`。其中 `True` 的 `- ifTrue: ifFalse:` 會執行 `ifTrue:` 後面的 block，`False` 會執行 `ifFalse:` 後面那個。\r\n* 這一整段其實是一個 method call，`a < b` 得到的 `Boolean` 實例是 callee。\r\n\r\n這代表 Smalltalk 中，條件式**不是語言功能**，而是實作 design pattern 的內建函式——因為即使 Smalltalk 標準庫沒有它，使用者也可以自己寫出等效的功能。語言功能與內建函式之間的界線其實比我們想像得更模糊，以語法 expresiveness 判斷語言夠不夠高階，也不是正確的基準。\r\n\r\nMIND. BLOWN.",
+          "embedded_links": [
+            {
+              "identifier": "n9BP0EL",
+              "title": "認為",
+              "url_domain": "plover.com",
+              "url": "http://blog.plover.com/2006/09/11/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

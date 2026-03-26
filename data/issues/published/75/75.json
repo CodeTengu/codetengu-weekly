@@ -1,0 +1,780 @@
+{
+  "number": 75,
+  "title": "Issue 75 程式寫得爛沒關係，技術奇點來臨之後，你程式裡的 bug 電腦都可以自己解決，如果沒有，至少你會被電腦解決",
+  "summary": "本期內容涵蓋 Microservice, MySQL, Python, JavaScript, iOS, Chatbot, PHP, AI, Machine Learning, Deep Learning, Blockchain, API, Node.js, UI, Go",
+  "url": "https://weekly.codetengu.com/issues/75",
+  "publication_status": "published",
+  "published_at": "2017-01-02T02:00:00+00:00",
+  "updated_at": "2017-01-02T08:27:39+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會由三位不同的 curator 來負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Player of Games</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 新年新專案，好刺激啊！</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會由三位不同的 curator 來負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Player of Games](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 希望在離開台北之前可以見證到捷運禁止飲食廢止\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 新年新專案，好刺激啊！\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "LWtoRpW",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "LPA5Jy0",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "a49L8jP",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "EhgOZ1y",
+              "title": "The Player of Games",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "SExEwen",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "bvfY6Li",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "6ebyV3B",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "D8r30Ik",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "ZBwYQ52",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "xsAKCT5",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "II9D4SM",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "m3VzyJa",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "UZMdWow",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "n3OmuBI",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "hLy40bx",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "mV863MF",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "ypLQgu1",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "9pvrIOO",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "upCy5gi",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "EPkzT0m",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "lntz3KJ",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "9jnBXiL",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "HNriK91",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "TT2hzYF",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "B78vva1",
+          "type": "Link",
+          "title": "Best Practices for Building a Microservice Architecture",
+          "url_domain": "vinaysahni.com",
+          "url": "http://www.vinaysahni.com/best-practices-for-building-a-microservice-architecture",
+          "description": "<p>跟作者的另一篇文章 <a href=\"http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api\">Best Practices for Designing a Pragmatic RESTful API</a> 一樣，列舉了很多非常值得遵循的最佳實踐。而且不像其他講 Microservice 的文章，其實不需要一上來就跟讀者吼一堆 Domain-Driven Design (DDD) 的術語也是可以把很多重要概念講得很清楚的嘛，不過當然缺點就是篇幅稍微長了一點。基本上就是精華版的 <a href=\"https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/\">Building Microservices</a>。</p>\n\n<p>不過說到底，在把 Monolith 改造成 Microservice 之前，其實你應該得先有一個「高內聚、低耦合」的 Monolith 才行啊，不然事情只會變得更複雜。</p>",
+          "description_markdown": "跟作者的另一篇文章 [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api) 一樣，列舉了很多非常值得遵循的最佳實踐。而且不像其他講 Microservice 的文章，其實不需要一上來就跟讀者吼一堆 Domain-Driven Design (DDD) 的術語也是可以把很多重要概念講得很清楚的嘛，不過當然缺點就是篇幅稍微長了一點。基本上就是精華版的 [Building Microservices](https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/)。\r\n\r\n不過說到底，在把 Monolith 改造成 Microservice 之前，其實你應該得先有一個「高內聚、低耦合」的 Monolith 才行啊，不然事情只會變得更複雜。",
+          "embedded_links": [
+            {
+              "identifier": "3018sSl",
+              "title": "Best Practices for Designing a Pragmatic RESTful API",
+              "url_domain": "vinaysahni.com",
+              "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api"
+            },
+            {
+              "identifier": "ETl1q6b",
+              "title": "Building Microservices",
+              "url_domain": "safaribooksonline.com",
+              "url": "https://www.safaribooksonline.com/library/view/building-microservices/9781491950340/"
+            }
+          ]
+        },
+        {
+          "identifier": "grSbD65",
+          "type": "Link",
+          "title": "MySQL 5.6 Reference Manual - InnoDB Locking and Transaction Model",
+          "url_domain": "mysql.com",
+          "url": "http://dev.mysql.com/doc/refman/5.6/en/innodb-locking-transaction-model.html",
+          "description": "<p>上禮拜都在研究 MySQL 的 deadlock 問題，但是卻發現自己對這方面的理解不夠扎實，看了一些文章之後才發現其實還是官方的文件寫得最完整（這不是廢話嗎？！）。大家有空也研究研究，不要讓別人笑我們不懂資料庫。雖然說 lock 的實作也只是冰山一角就是了。</p>",
+          "description_markdown": "上禮拜都在研究 MySQL 的 deadlock 問題，但是卻發現自己對這方面的理解不夠扎實，看了一些文章之後才發現其實還是官方的文件寫得最完整（這不是廢話嗎？！）。大家有空也研究研究，不要讓別人笑我們不懂資料庫。雖然說 lock 的實作也只是冰山一角就是了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "yg8lf85",
+          "type": "Link",
+          "title": "Handling Unicode Strings in Python",
+          "url_domain": "emacsos.com",
+          "url": "http://blog.emacsos.com/unicode-in-python.html",
+          "description": "<p>說到 unicode 應該是很多 Python Developers 心中永遠的痛，讀了這篇文章應該可以稍微緩解一點。作者不像其他的 unicode 科普文那樣，他沒有講太多其實你根本也不想知道或是看不懂的 unicode 標準的前世今生和實作細節（當然還有那些和你的 OS 有關的眉眉角角）。好吧，不過至少你讀完就會知道什麼時候該用 <code>.encode()</code> 什麼要用 <code>.decode()</code> 了。</p>",
+          "description_markdown": "說到 unicode 應該是很多 Python Developers 心中永遠的痛，讀了這篇文章應該可以稍微緩解一點。作者不像其他的 unicode 科普文那樣，他沒有講太多其實你根本也不想知道或是看不懂的 unicode 標準的前世今生和實作細節（當然還有那些和你的 OS 有關的眉眉角角）。好吧，不過至少你讀完就會知道什麼時候該用 `.encode()` 什麼要用 `.decode()` 了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "nVpb3Am",
+          "type": "Link",
+          "title": "Become a pdb power-user",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/instamojo-matters/become-a-pdb-power-user-e3fc4e2774b2",
+          "description": "<p>雖然在 <a href=\"http://weekly.codetengu.com/issues/2#SKrE6s6\">Issue 2</a> 也有分享過 pdb，但是這篇文章介紹得更詳盡，例如 <a href=\"https://github.com/vinta/HAL-9000/blob/master/dotfiles/.pdbrc\">.pdbrc</a> 這個用法我還是看了文章才知道，值得再分享一次。而且因為前陣子面試了一些 Python Developers，卻發現用過或是聽過 pdb 的人比我想像中要少得多，正所謂「工欲善其事，必先利其器」啊諸君。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/ipdb-interactive-python-debugger-with-ipython.html\">ipdb: Interactive Python Debugger with IPython</a></li>\n<li><a href=\"https://vinta.ws/code/ipython-another-python-repl-interpreter.html\">IPython: Another Python REPL interpreter</a></li>\n</ul>",
+          "description_markdown": "雖然在 [Issue 2](http://weekly.codetengu.com/issues/2#SKrE6s6) 也有分享過 pdb，但是這篇文章介紹得更詳盡，例如 [.pdbrc](https://github.com/vinta/HAL-9000/blob/master/dotfiles/.pdbrc) 這個用法我還是看了文章才知道，值得再分享一次。而且因為前陣子面試了一些 Python Developers，卻發現用過或是聽過 pdb 的人比我想像中要少得多，正所謂「工欲善其事，必先利其器」啊諸君。\r\n\r\n延伸閱讀：\r\n\r\n- [ipdb: Interactive Python Debugger with IPython](https://vinta.ws/code/ipdb-interactive-python-debugger-with-ipython.html)\r\n- [IPython: Another Python REPL interpreter](https://vinta.ws/code/ipython-another-python-repl-interpreter.html)",
+          "embedded_links": [
+            {
+              "identifier": "WDTNUrK",
+              "title": "Issue 2",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/2#SKrE6s6"
+            },
+            {
+              "identifier": "GRv0XOE",
+              "title": ".pdbrc",
+              "url_domain": "github.com",
+              "url": "https://github.com/vinta/HAL-9000/blob/master/dotfiles/.pdbrc"
+            },
+            {
+              "identifier": "qll2HL3",
+              "title": "ipdb: Interactive Python Debugger with IPython",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/ipdb-interactive-python-debugger-with-ipython.html"
+            },
+            {
+              "identifier": "6c6gOMB",
+              "title": "IPython: Another Python REPL interpreter",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/ipython-another-python-repl-interpreter.html"
+            }
+          ]
+        },
+        {
+          "identifier": "CeUiP79",
+          "type": "Link",
+          "title": "Dev Tips - Chrome DevTools Tips by Umar Hansa",
+          "url_domain": "umaar.com",
+          "url": "https://umaar.com/dev-tips/",
+          "description": "<p>這個網站的作者每個禮拜會發布一則 DevTools 的實用小技巧（而且會把使用方式做成 GIF 圖！幹人也太好！），一直有聽說 Chrome 的 DevTools 很強，但是直到看了這個網站之後才真的知道 DevTools 究竟有多強，嚇到尿褲子了。不過有些新一點的功能可能只有在 <a href=\"https://www.google.com/chrome/browser/canary.html\">Chrome Canary</a> 才會出現。這裡列了幾個我真心覺得實用的小技巧，大家感受一下：</p>\n\n<ul>\n<li><a href=\"https://umaar.com/dev-tips/15-dollar-zero/\">https://umaar.com/dev-tips/15-dollar-zero/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/31-get-debug-event-listeners/\">https://umaar.com/dev-tips/31-get-debug-event-listeners/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/53-console-trace/\">https://umaar.com/dev-tips/53-console-trace/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/60-console-edit-html/\">https://umaar.com/dev-tips/60-console-edit-html/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/95-resource-initiator/\">https://umaar.com/dev-tips/95-resource-initiator/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/104-quick-source/\">https://umaar.com/dev-tips/104-quick-source/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/115-manage-network-response-headers/\">https://umaar.com/dev-tips/115-manage-network-response-headers/</a></li>\n<li><a href=\"https://umaar.com/dev-tips/117-inspect-function-scope/\">https://umaar.com/dev-tips/117-inspect-function-scope/</a></li>\n</ul>\n\n\n<p>有時候還真的有點羨慕前端工程師啊，竟然有像 DevTools 這麼棒的工具可以用，但是轉頭一看 JavaScript，嗯，好吧，上帝可能還是公平的。</p>",
+          "description_markdown": "這個網站的作者每個禮拜會發布一則 DevTools 的實用小技巧（而且會把使用方式做成 GIF 圖！幹人也太好！），一直有聽說 Chrome 的 DevTools 很強，但是直到看了這個網站之後才真的知道 DevTools 究竟有多強，嚇到尿褲子了。不過有些新一點的功能可能只有在 [Chrome Canary](https://www.google.com/chrome/browser/canary.html) 才會出現。這裡列了幾個我真心覺得實用的小技巧，大家感受一下：\r\n\r\n- <https://umaar.com/dev-tips/15-dollar-zero/>\r\n- <https://umaar.com/dev-tips/31-get-debug-event-listeners/>\r\n- <https://umaar.com/dev-tips/53-console-trace/>\r\n- <https://umaar.com/dev-tips/60-console-edit-html/>\r\n- <https://umaar.com/dev-tips/95-resource-initiator/>\r\n- <https://umaar.com/dev-tips/104-quick-source/>\r\n- <https://umaar.com/dev-tips/115-manage-network-response-headers/>\r\n- <https://umaar.com/dev-tips/117-inspect-function-scope/>\r\n\r\n有時候還真的有點羨慕前端工程師啊，竟然有像 DevTools 這麼棒的工具可以用，但是轉頭一看 JavaScript，嗯，好吧，上帝可能還是公平的。",
+          "embedded_links": [
+            {
+              "identifier": "EMW2uKr",
+              "title": "Chrome Canary",
+              "url_domain": "google.com",
+              "url": "https://www.google.com/chrome/browser/canary.html"
+            }
+          ]
+        },
+        {
+          "identifier": "VBJq6qB",
+          "type": "Link",
+          "title": "罗辑思维 - 即将到来的阶层社会",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=OemtBmvQSKE",
+          "description": "<p>因為 Issue 75 正好是 CodeTengu Weekly 在 2017 年的第一期內容，不免俗地要跟大家說聲新年快樂！說幾句吉祥話，祝福大家在新的一年裡不要再對自己有不切實際的期望了，<strong>如果用著一樣的心態</strong>，你在 2016 年做不好的事情到了 2017 年多半也還是做不好。衷心地希望各位可以早點接受自己所在的階級位置然後心安理得地活下去。就像是那個你每天汲汲營營追求的夢想中的生活，對某個上層階級的小孩來說他不費吹灰之力就能得到，而你卻還覺得這一切只是因為你不夠努力。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.dadas.com.tw/ingawei/38321/\">一盤之間的貧富差距 ── 階級複製的故事</a></li>\n</ul>\n\n\n<p>最後，順道一提，CodeTengu Weekly 接下來會休刊四個禮拜，不過也可能更久。</p>",
+          "description_markdown": "因為 Issue 75 正好是 CodeTengu Weekly 在 2017 年的第一期內容，不免俗地要跟大家說聲新年快樂！說幾句吉祥話，祝福大家在新的一年裡不要再對自己有不切實際的期望了，**如果用著一樣的心態**，你在 2016 年做不好的事情到了 2017 年多半也還是做不好。衷心地希望各位可以早點接受自己所在的階級位置然後心安理得地活下去。就像是那個你每天汲汲營營追求的夢想中的生活，對某個上層階級的小孩來說他不費吹灰之力就能得到，而你卻還覺得這一切只是因為你不夠努力。\r\n\r\n延伸閱讀：\r\n\r\n- [一盤之間的貧富差距 ── 階級複製的故事](http://www.dadas.com.tw/ingawei/38321/)\r\n\r\n最後，順道一提，CodeTengu Weekly 接下來會休刊四個禮拜，不過也可能更久。",
+          "embedded_links": [
+            {
+              "identifier": "sTd220L",
+              "title": "一盤之間的貧富差距 ── 階級複製的故事",
+              "url_domain": "dadas.com.tw",
+              "url": "http://www.dadas.com.tw/ingawei/38321/"
+            }
+          ],
+          "image_original_filename": "9ae148f6-233d-4111-ac65-d7958a066f64.gif",
+          "image_extra_large_filename": "original_ratio_extra_large_9ae148f6-233d-4111-ac65-d7958a066f64.gif",
+          "image_medium_filename": "original_ratio_medium_9ae148f6-233d-4111-ac65-d7958a066f64.gif"
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "R7EqXWv",
+          "type": "Link",
+          "title": "Your Git Log Should Tell A Story",
+          "url_domain": "mokacoding.com",
+          "url": "http://www.mokacoding.com/blog/your-git-log-should-tell-a-story/",
+          "description": "<p>有時候光是看到好的 commit message，連 diff 都不想看就想 merge 了！</p>\n\n<p>commit message 不應該是 murmur 而應該是跟另一個人講事情，就算只有自己一個人在做。半年後的你 (還沒有放棄的話 (不能加這種附註吧) ) 會感謝自己的。</p>",
+          "description_markdown": "有時候光是看到好的 commit message，連 diff 都不想看就想 merge 了！\r\n\r\ncommit message 不應該是 murmur 而應該是跟另一個人講事情，就算只有自己一個人在做。半年後的你 (還沒有放棄的話 (不能加這種附註吧) ) 會感謝自己的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "erUMwmG",
+          "type": "Link",
+          "title": "Behind the Scenes of iOS Security",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=BLGFriOKz6U",
+          "description": "<p>這是 Apple 的安全架構師 <a href=\"https://twitter.com/radian\">Ivan Krstić</a> 在 Black Hat conference 的 talk，深度地介紹了 iOS 的安全機制跟實作方法，看完之後有種肅然起敬的感覺。</p>\n\n<ul>\n<li>Hardened WebKit JIT Mapping<br/>\niOS 10 的新特性，JavaScript 編譯出來放在記憶體一個設定成只能執行不能讀寫的地方，這讓同一個 process 也沒辦法讀跟改最後執行的版本。</li>\n<li>Secure Enclave Processor<br/>\n有指紋辨識的 iPhone 就會有 SEP，SEP 是一個獨立的硬體跟軟體用來管理你的登入資訊 (指紋、passcode)，不僅如此，他還介紹了從裝置開機到解鎖到再鎖起來相關的 key 的產生、派發跟儲存。</li>\n<li>Synchronizing Secrets<br/>\n<a href=\"http://www.apple.com/ios/home/\">HomeKit</a>、Apple Watch 的 <a href=\"https://support.apple.com/en-us/HT206995\">Auto Unlock</a>、iCloud photos 同步的安全系統，聽起來是滴水不漏，甚至為了安全性不惜自斷經脈將系統的實體 admin cards 用強力攪拌機粉碎了(?!)，也就是說之後這個系統若要更新，所有裝置都必須做軟體升級。<br/>\n另外，Cloud Key Vault 在 server side 也是用專用的硬體機制隔離，就像是上面提到的 Secure Enclave 在我們的 iOS 裝置上的那樣。</li>\n</ul>\n\n\n<p>關於把 admin cards 粉碎的解釋：<br/>\n\"Why do we take this last step that's extremely unusual? We go to great lengths to engineer the security systems to provide trust. When data leaves the device, the stakes are even higher. We need to maintain that trust. If we keep possession of those admin cards, there's the possibility that's not true. That's how seriously we take our mission about user data.\"</p>",
+          "description_markdown": "這是 Apple 的安全架構師 [Ivan Krstić](https://twitter.com/radian) 在 Black Hat conference 的 talk，深度地介紹了 iOS 的安全機制跟實作方法，看完之後有種肅然起敬的感覺。\r\n\r\n- Hardened WebKit JIT Mapping  \r\niOS 10 的新特性，JavaScript 編譯出來放在記憶體一個設定成只能執行不能讀寫的地方，這讓同一個 process 也沒辦法讀跟改最後執行的版本。\r\n- Secure Enclave Processor  \r\n有指紋辨識的 iPhone 就會有 SEP，SEP 是一個獨立的硬體跟軟體用來管理你的登入資訊 (指紋、passcode)，不僅如此，他還介紹了從裝置開機到解鎖到再鎖起來相關的 key 的產生、派發跟儲存。\r\n- Synchronizing Secrets  \r\n[HomeKit](http://www.apple.com/ios/home/)、Apple Watch 的 [Auto Unlock](https://support.apple.com/en-us/HT206995)、iCloud photos 同步的安全系統，聽起來是滴水不漏，甚至為了安全性不惜自斷經脈將系統的實體 admin cards 用強力攪拌機粉碎了(?!)，也就是說之後這個系統若要更新，所有裝置都必須做軟體升級。  \r\n另外，Cloud Key Vault 在 server side 也是用專用的硬體機制隔離，就像是上面提到的 Secure Enclave 在我們的 iOS 裝置上的那樣。\r\n\r\n關於把 admin cards 粉碎的解釋：  \r\n\"Why do we take this last step that's extremely unusual? We go to great lengths to engineer the security systems to provide trust. When data leaves the device, the stakes are even higher. We need to maintain that trust. If we keep possession of those admin cards, there's the possibility that's not true. That's how seriously we take our mission about user data.\"",
+          "embedded_links": [
+            {
+              "identifier": "9hZtA1l",
+              "title": "Ivan Krstić",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/radian"
+            },
+            {
+              "identifier": "esPoNiX",
+              "title": "HomeKit",
+              "url_domain": "apple.com",
+              "url": "http://www.apple.com/ios/home/"
+            },
+            {
+              "identifier": "aXToHDy",
+              "title": "Auto Unlock",
+              "url_domain": "apple.com",
+              "url": "https://support.apple.com/en-us/HT206995"
+            }
+          ]
+        },
+        {
+          "identifier": "kMwh0HM",
+          "type": "Link",
+          "title": "Make an android custom view, publish and open source.",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/dualcores-studio/make-an-android-custom-view-publish-and-open-source-99a3d86df228#.9py9w5m08",
+          "description": "<p>Android 自定義 view 的實作跟設計，還包含了將 library 加入到 <code>JCenter</code> 的詳細解說。</p>\n\n<p>這是一篇給有心想開源視覺元件的人很好的參考文。</p>",
+          "description_markdown": "Android 自定義 view 的實作跟設計，還包含了將 library 加入到 `JCenter` 的詳細解說。\r\n\r\n這是一篇給有心想開源視覺元件的人很好的參考文。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "MaiDlNm",
+          "type": "Link",
+          "title": "A framework agnostic PHP library to build chat bots - 一個打十個的訊息機器人開發 PHP 套件",
+          "url_domain": "github.com",
+          "url": "https://github.com/mpociot/botman",
+          "description": "<p>PHP：初級</p>\n\n<p>訊息機器人這樣的服務相信大家都不陌生，近期這樣的服務又慢慢火熱起來浮上檯面，可能因為天時、地利、人和，又可能是因為 ChatOps、AI、Deep Learning on NLP 的發展等等因素，我不知道，我不是趨勢專家，所以什麼原因我們就不要去深究了！但我相信大家在工作上多少會有開發訊息機器人的需求，甚至有些開發者問你有沒有寫過訊息機器人，如果回答沒寫過那就太遜啦～</p>\n\n<p>mpociot/botman 這個 PHP 套件可以讓 PHP 開發者用同一套寫法來串接各個訊息平台，包含 Slack、Telegram、Microsoft Bot Framework、Nexmo、HipChat 及 Facebook Messenger（不過沒有 Line 及微信，沒辦法，西方高階種族不用這些），幾乎所有知名的訊息平台都可以串接了，所以才號稱一個打十個啊！大家自己玩玩看吧！</p>",
+          "description_markdown": "PHP：初級\r\n\r\n訊息機器人這樣的服務相信大家都不陌生，近期這樣的服務又慢慢火熱起來浮上檯面，可能因為天時、地利、人和，又可能是因為 ChatOps、AI、Deep Learning on NLP 的發展等等因素，我不知道，我不是趨勢專家，所以什麼原因我們就不要去深究了！但我相信大家在工作上多少會有開發訊息機器人的需求，甚至有些開發者問你有沒有寫過訊息機器人，如果回答沒寫過那就太遜啦～\r\n\r\nmpociot/botman 這個 PHP 套件可以讓 PHP 開發者用同一套寫法來串接各個訊息平台，包含 Slack、Telegram、Microsoft Bot Framework、Nexmo、HipChat 及 Facebook Messenger（不過沒有 Line 及微信，沒辦法，西方高階種族不用這些），幾乎所有知名的訊息平台都可以串接了，所以才號稱一個打十個啊！大家自己玩玩看吧！\r\n \r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "XaO9aXU",
+          "type": "Link",
+          "title": "The major advancements in Deep Learning in 2016 - Deep Learning 在 2016 的大躍進",
+          "url_domain": "tryolabs.com",
+          "url": "https://tryolabs.com/blog/2016/12/06/major-advancements-deep-learning-2016/",
+          "description": "<p>Deep Learning：中級</p>\n\n<p>相信大家一開始接觸 Machine Learning 及 Deep Learning 一定都是從監督式學習開始，非監督式學習在這個領域一直都是一個較為進階的問題，而 Deep Learning 在 2016 的大躍進主要就是非監督式學習 GAN 的發展（Generative Adversarial Networks 生成式對抗網路），主要概念就是 generator (G) 會透過 discriminator (D) 漸漸改進他的效果，而這個過程不需要人類標示來評估，像這樣的模型可以用在語意理解、自然語言處理、為文字產生圖片、為圖片產生文字等等應用。</p>\n\n<p>這篇文章算是對 Deep Learning 在 2016 大躍進的一個總結，其中 <a href=\"https://openai.com/about/\">Open AI</a> 這樣還 A.I. 於民的非營利組織及越來越活絡的 A.I. 社群似乎也揭示了未來 A.I. is new energy。</p>",
+          "description_markdown": "Deep Learning：中級\r\n\r\n相信大家一開始接觸 Machine Learning 及 Deep Learning 一定都是從監督式學習開始，非監督式學習在這個領域一直都是一個較為進階的問題，而 Deep Learning 在 2016 的大躍進主要就是非監督式學習 GAN 的發展（Generative Adversarial Networks 生成式對抗網路），主要概念就是 generator (G) 會透過 discriminator (D) 漸漸改進他的效果，而這個過程不需要人類標示來評估，像這樣的模型可以用在語意理解、自然語言處理、為文字產生圖片、為圖片產生文字等等應用。\r\n\r\n這篇文章算是對 Deep Learning 在 2016 大躍進的一個總結，其中 [Open AI](https://openai.com/about/) 這樣還 A.I. 於民的非營利組織及越來越活絡的 A.I. 社群似乎也揭示了未來 A.I. is new energy。",
+          "embedded_links": [
+            {
+              "identifier": "E4IhDsW",
+              "title": "Open AI",
+              "url_domain": "openai.com",
+              "url": "https://openai.com/about/"
+            }
+          ]
+        },
+        {
+          "identifier": "YOfhUk",
+          "type": "Link",
+          "title": "Finding the genre of a song with Deep Learning - 使用 Deep Learning 辨識音樂風格",
+          "url_domain": "chatbotslife.com",
+          "url": "https://chatbotslife.com/finding-the-genre-of-a-song-with-deep-learning-da8f59a61194#.a8kxdyx8e",
+          "description": "<p>Deep Learning：中級</p>\n\n<p>本篇文章展示了如何使用 Deep Learning 來辨識音樂風格，其實有時使用 Deep Learning 的哪個算法可能不是重點，由於音樂是一個時間序列，且長短不一，了解這個特性將資料轉換成可以用來訓練的形式反而是關鍵。這裡的作法就是先將音訊轉換成頻譜之後，產生頻譜圖再切成固定大小的圖片，使用頻譜圖片特徵來進行訓練，預測時再用各個小段落的預測結果投票產出一首歌的音樂風格預測。作者也將原始碼分享出來了，大家有興趣可以去 <a href=\"https://github.com/despoisj/DeepAudioClassification\">GitHub</a> 載來玩玩看。</p>",
+          "description_markdown": "Deep Learning：中級\r\n\r\n本篇文章展示了如何使用 Deep Learning 來辨識音樂風格，其實有時使用 Deep Learning 的哪個算法可能不是重點，由於音樂是一個時間序列，且長短不一，了解這個特性將資料轉換成可以用來訓練的形式反而是關鍵。這裡的作法就是先將音訊轉換成頻譜之後，產生頻譜圖再切成固定大小的圖片，使用頻譜圖片特徵來進行訓練，預測時再用各個小段落的預測結果投票產出一首歌的音樂風格預測。作者也將原始碼分享出來了，大家有興趣可以去 [GitHub](https://github.com/despoisj/DeepAudioClassification) 載來玩玩看。",
+          "embedded_links": [
+            {
+              "identifier": "T7zkqVX",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/despoisj/DeepAudioClassification"
+            }
+          ]
+        },
+        {
+          "identifier": "5kpx9kP",
+          "type": "Link",
+          "title": "The Great A.I. Awakening - A.I. 的覺醒",
+          "url_domain": "nytimes.com",
+          "url": "http://www.nytimes.com/2016/12/14/magazine/the-great-ai-awakening.html",
+          "description": "<p>Artificial Intelligence：初級</p>\n\n<p>這篇刊在 The New York Times 的文章介紹了 Google 在 A.I. 領域 - 特別是 Google Translate 的發展，類神經網路在近幾年成果豐碩，A.I. 也在這樣的成果中從幾十年的黑暗中看到了曙光，雖然這些成果在人類想像中的 A.I. 還只是弱人工智慧，但或許人類正在喚醒 A.I. 中。大家可以把這篇文章當成是科幻小說的序章在閒暇時看看吧～</p>",
+          "description_markdown": "Artificial Intelligence：初級\r\n\r\n這篇刊在 The New York Times 的文章介紹了 Google 在 A.I. 領域 - 特別是 Google Translate 的發展，類神經網路在近幾年成果豐碩，A.I. 也在這樣的成果中從幾十年的黑暗中看到了曙光，雖然這些成果在人類想像中的 A.I. 還只是弱人工智慧，但或許人類正在喚醒 A.I. 中。大家可以把這篇文章當成是科幻小說的序章在閒暇時看看吧～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "O8Nzlkg",
+          "type": "Link",
+          "title": "手把手的深度學習實務",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/tw_dsconf/ss-70083878",
+          "description": "<p>Machine Learning、Deep Learning：中級</p>\n\n<p><a href=\"https://www.facebook.com/twdsconf/\">台灣資料科學年會</a>舉辦的手把手系列真的質量都蠻高的，今天再跟大家分享一下手把手的深度學習實務，這份簡報非常詳細，使用 <a href=\"https://www.kaggle.com\">Kaggle</a> 上的 <a href=\"https://www.kaggle.com/semioniy/predictemall\">Predict'em All</a> 資料集帶著大家一步一步使用深度學習練習訓練出一個有效的預測模型，如果想要趕快上手深度學習，這是一個很棒的捷徑！</p>\n\n<p>目前這門課程一月也有開，大家有興趣可以去<a href=\"http://datasci.tw/event/step_by_step_dl_170115/\">報名</a>！（這不是廣告啦，單純就是我覺得很值得分享給大家）</p>",
+          "description_markdown": "Machine Learning、Deep Learning：中級\r\n\r\n[台灣資料科學年會](https://www.facebook.com/twdsconf/)舉辦的手把手系列真的質量都蠻高的，今天再跟大家分享一下手把手的深度學習實務，這份簡報非常詳細，使用 [Kaggle](https://www.kaggle.com) 上的 [Predict'em All](https://www.kaggle.com/semioniy/predictemall) 資料集帶著大家一步一步使用深度學習練習訓練出一個有效的預測模型，如果想要趕快上手深度學習，這是一個很棒的捷徑！\r\n\r\n目前這門課程一月也有開，大家有興趣可以去[報名](http://datasci.tw/event/step_by_step_dl_170115/)！（這不是廣告啦，單純就是我覺得很值得分享給大家）",
+          "embedded_links": [
+            {
+              "identifier": "JQIqC4Y",
+              "title": "台灣資料科學年會",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/twdsconf/"
+            },
+            {
+              "identifier": "mdvnSFE",
+              "title": "Kaggle",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com"
+            },
+            {
+              "identifier": "wGWlpDJ",
+              "title": "Predict'em All",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/semioniy/predictemall"
+            },
+            {
+              "identifier": "oETqAmr",
+              "title": "報名",
+              "url_domain": "datasci.tw",
+              "url": "http://datasci.tw/event/step_by_step_dl_170115/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "3gDQSTP",
+          "type": "Link",
+          "title": "Why are suicides used in contract programming?",
+          "url_domain": "stackexchange.com",
+          "url": "http://ethereum.stackexchange.com/questions/315/why-are-suicides-used-in-contract-programming",
+          "description": "<p>誰說在 blockchain 上寫一個 \"Smart Contract\" 就永遠不會消失，那你就被騙了。該合約還是有可能被刪除的，也就是合約有可能因此終止。在 <a href=\"http://slides.com/ming-derwang/solidity-tutorial-6-37-38#/\">Solidity 101</a> 教學裡就有提到方法，就是 call suicide() 這個 function，但後來改用 selfdestruct()，怕用 suicide (自殺) 大家有可能聯想到傷心事。Anyway，這討論有提到它的用途，也有提到它的缺點。記得不要把錢往已經中止的合約送，那就有去無回了！</p>",
+          "description_markdown": "誰說在 blockchain 上寫一個 \"Smart Contract\" 就永遠不會消失，那你就被騙了。該合約還是有可能被刪除的，也就是合約有可能因此終止。在 [Solidity 101](http://slides.com/ming-derwang/solidity-tutorial-6-37-38#/) 教學裡就有提到方法，就是 call suicide() 這個 function，但後來改用 selfdestruct()，怕用 suicide (自殺) 大家有可能聯想到傷心事。Anyway，這討論有提到它的用途，也有提到它的缺點。記得不要把錢往已經中止的合約送，那就有去無回了！",
+          "embedded_links": [
+            {
+              "identifier": "VYgzCY9",
+              "title": "Solidity 101",
+              "url_domain": "slides.com",
+              "url": "http://slides.com/ming-derwang/solidity-tutorial-6-37-38#/"
+            }
+          ]
+        },
+        {
+          "identifier": "KJkuTym",
+          "type": "Link",
+          "title": "Blockchain Predictions for 2017",
+          "url_domain": "fee.org",
+          "url": "https://fee.org/articles/blockchain-predictions-for-2017/",
+          "description": "<p><a href=\"http://www.nytimes.com/2016/03/28/business/dealbook/ethereum-a-virtual-currency-enables-transactions-that-rival-bitcoins.html\">Ethereum 跟比特幣的對抗</a>預測將會在 2017 年結束。但 Ethereum 要到成熟，也還有一段<a href=\"https://blog.ethereum.org/2015/03/03/ethereum-launch-process/\">很長的路要走</a>！</p>",
+          "description_markdown": "[Ethereum 跟比特幣的對抗](http://www.nytimes.com/2016/03/28/business/dealbook/ethereum-a-virtual-currency-enables-transactions-that-rival-bitcoins.html)預測將會在 2017 年結束。但 Ethereum 要到成熟，也還有一段[很長的路要走](https://blog.ethereum.org/2015/03/03/ethereum-launch-process/)！",
+          "embedded_links": [
+            {
+              "identifier": "EgBIbhP",
+              "title": "Ethereum 跟比特幣的對抗",
+              "url_domain": "nytimes.com",
+              "url": "http://www.nytimes.com/2016/03/28/business/dealbook/ethereum-a-virtual-currency-enables-transactions-that-rival-bitcoins.html"
+            },
+            {
+              "identifier": "Q7PLLAy",
+              "title": "很長的路要走",
+              "url_domain": "ethereum.org",
+              "url": "https://blog.ethereum.org/2015/03/03/ethereum-launch-process/"
+            }
+          ]
+        },
+        {
+          "identifier": "k7AQGO9",
+          "type": "Link",
+          "title": "Testing API Examples with Dredd",
+          "url_domain": "codeship.com",
+          "url": "https://blog.codeship.com/testing-code-examples-in-documentation/",
+          "description": "<p>一個適用多種語言的 API 測試 framework，Dredd。目前可以測 Go、Node.js、PHP、Python、Ruby、以及 Perl 所開發出來的 API 程式。且支援用 <a href=\"https://apiblueprint.org/\">api blueprint</a> 或 <a href=\"http://swagger.io/\">swagger</a> 定義出來的格式。也就是說，不管你用哪一種語言開發 API backend，要先從定義 API 開始，但不是用 word 文件來寫 API 規格，而是用 <a href=\"https://help.apiary.io/tools/apiary-editor/\">apiary editor</a> 或 <a href=\"http://editor.swagger.io/\">swagger editor</a> 的線上方式直接撰寫，就可以邊寫邊產出 API 的互動畫面。有了 apiary.apib 或 swagger 的 yml 檔，就可以用 Dredd 直接測試，最後再跟 <a href=\"https://jenkins.io/\">Jenkins</a> 或其他 CI 整合，真是一個非常理想的開發 API backend 的流程。\n本文用 Python 跟 Node.js 當範例，簡單的做了個示範，希望能挑起你使用 Dredd 做 API 自動化測試的興趣。</p>",
+          "description_markdown": "一個適用多種語言的 API 測試 framework，Dredd。目前可以測 Go、Node.js、PHP、Python、Ruby、以及 Perl 所開發出來的 API 程式。且支援用 [api blueprint](https://apiblueprint.org/) 或 [swagger](http://swagger.io/) 定義出來的格式。也就是說，不管你用哪一種語言開發 API backend，要先從定義 API 開始，但不是用 word 文件來寫 API 規格，而是用 [apiary editor](https://help.apiary.io/tools/apiary-editor/) 或 [swagger editor](http://editor.swagger.io/) 的線上方式直接撰寫，就可以邊寫邊產出 API 的互動畫面。有了 apiary.apib 或 swagger 的 yml 檔，就可以用 Dredd 直接測試，最後再跟 [Jenkins](https://jenkins.io/) 或其他 CI 整合，真是一個非常理想的開發 API backend 的流程。\r\n本文用 Python 跟 Node.js 當範例，簡單的做了個示範，希望能挑起你使用 Dredd 做 API 自動化測試的興趣。",
+          "embedded_links": [
+            {
+              "identifier": "Vho2pAD",
+              "title": "api blueprint",
+              "url_domain": "apiblueprint.org",
+              "url": "https://apiblueprint.org/"
+            },
+            {
+              "identifier": "O2ehg3Y",
+              "title": "swagger",
+              "url_domain": "swagger.io",
+              "url": "http://swagger.io/"
+            },
+            {
+              "identifier": "pBVgKMw",
+              "title": "apiary editor",
+              "url_domain": "apiary.io",
+              "url": "https://help.apiary.io/tools/apiary-editor/"
+            },
+            {
+              "identifier": "A5m4hjI",
+              "title": "swagger editor",
+              "url_domain": "swagger.io",
+              "url": "http://editor.swagger.io/"
+            },
+            {
+              "identifier": "RM11xqF",
+              "title": "Jenkins",
+              "url_domain": "jenkins.io",
+              "url": "https://jenkins.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "hyn1Mwl",
+          "type": "Link",
+          "title": "Code-splitting your way to better perf with Webpack",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=QH94CXVv3UE",
+          "description": "<p>在使用 webpack bundle JavaScript 時有可能會產生過大的檔案，這個短短六分鐘的影片介紹 Webpack 的 code splitting (Lazy loading) 的一些小技巧：</p>\n\n<ul>\n<li>CommonsChunkPlugin: 將一些共用的 module 提取出，產生 common bundle file。</li>\n<li>AggressiveSplittingPlugin (for HTTP/2): HTTP/2 下每個 request 都是同一個 TCP 連線，所以靠減少 requests 這個目前還算主流的網頁最佳化方式反而會造成反效果，這個 plugin 可以用來切割 bundle file 成多個較小的 chunks 來增進快取的效率。</li>\n</ul>",
+          "description_markdown": "在使用 webpack bundle JavaScript 時有可能會產生過大的檔案，這個短短六分鐘的影片介紹 Webpack 的 code splitting (Lazy loading) 的一些小技巧：\r\n\r\n* CommonsChunkPlugin: 將一些共用的 module 提取出，產生 common bundle file。\r\n* AggressiveSplittingPlugin (for HTTP/2): HTTP/2 下每個 request 都是同一個 TCP 連線，所以靠減少 requests 這個目前還算主流的網頁最佳化方式反而會造成反效果，這個 plugin 可以用來切割 bundle file 成多個較小的 chunks 來增進快取的效率。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "YCE5APm",
+          "type": "Link",
+          "title": "Tail call optimization (TCO) in Node v6",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@dai_shi/tail-call-optimization-tco-in-node-v6-e2492c9d5b7c#.gw5bsie6p",
+          "description": "<p>Node.js v6 支援了 Tail call optimization (TCO) ，因為在 Tail call 執行後 caller 已不需要執行任何指令，在 tail call 前即不須保留 stack，所以就不會產生 stack overflow 的問題。</p>",
+          "description_markdown": "Node.js v6 支援了 Tail call optimization (TCO) ，因為在 Tail call 執行後 caller 已不需要執行任何指令，在 tail call 前即不須保留 stack，所以就不會產生 stack overflow 的問題。 ",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "hH4AAX1",
+          "type": "Link",
+          "title": "fantastic-ios-architecture: Better ways to structure apps",
+          "url_domain": "github.com",
+          "url": "https://github.com/onmyway133/fantastic-ios-architecture",
+          "description": "<p>開發 iOS 這麼多年了，越來越感受到架構的重要性，尤其是當產品越長越大的時候，更能體會「好的架構帶你上天堂」這句話的辛酸血淚。新年第一波就為各位帶來滿滿的架構大禮包，祝福各位在新的一年能夠準時下班、荷包滿滿！</p>",
+          "description_markdown": "開發 iOS 這麼多年了，越來越感受到架構的重要性，尤其是當產品越長越大的時候，更能體會「好的架構帶你上天堂」這句話的辛酸血淚。新年第一波就為各位帶來滿滿的架構大禮包，祝福各位在新的一年能夠準時下班、荷包滿滿！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "173sux5",
+          "type": "Link",
+          "title": "The ‘Say Thanks’ Project",
+          "url_domain": "saythanks.io",
+          "url": "https://saythanks.io",
+          "description": "<p>偶爾會在 Email、<a href=\"https://twitter.com/MacDownApp\">Twitter</a>、其他 SNS 收到、甚至當面跟我說欸你是那個什麼什麼的作者，那個超棒的！謝謝你！之類的話。雖然會做軟體玩社群辦活動之類的也不是想得到什麼回饋，但是這種時候真是超級開心的啦。 >///&lt;</p>\n\n<p>然後就會想，其實大家都是這樣吧。我這麼喜歡他做的工具，如果能對他說聲謝謝一定很棒！如果你喜歡某個專案，趕快上去說聲謝謝！如果你是專案作者，那就快把這個按鈕放上你的專案，好讓我謝謝你！！</p>\n\n<pre><code class=\"markdown\">[![Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/&lt;username&gt;)\n</code></pre>\n\n<p>感謝 <a href=\"https://saythanks.io/to/kennethreitz\">Kenneth</a> 帶來這麼棒的服務。✨🍰✨</p>",
+          "description_markdown": "偶爾會在 Email、[Twitter](https://twitter.com/MacDownApp)、其他 SNS 收到、甚至當面跟我說欸你是那個什麼什麼的作者，那個超棒的！謝謝你！之類的話。雖然會做軟體玩社群辦活動之類的也不是想得到什麼回饋，但是這種時候真是超級開心的啦。 >///<\r\n\r\n然後就會想，其實大家都是這樣吧。我這麼喜歡他做的工具，如果能對他說聲謝謝一定很棒！如果你喜歡某個專案，趕快上去說聲謝謝！如果你是專案作者，那就快把這個按鈕放上你的專案，好讓我謝謝你！！\r\n\r\n```markdown\r\n[![Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/<username>)\r\n```\r\n\r\n感謝 [Kenneth](https://saythanks.io/to/kennethreitz) 帶來這麼棒的服務。✨🍰✨",
+          "embedded_links": [
+            {
+              "identifier": "UvjPc5O",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/MacDownApp"
+            },
+            {
+              "identifier": "yoT6cJ8",
+              "title": "Say Thanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)",
+              "url_domain": "saythanks.io",
+              "url": "https://saythanks.io/to/<username>"
+            },
+            {
+              "identifier": "X3Mzpq6",
+              "title": "Kenneth",
+              "url_domain": "saythanks.io",
+              "url": "https://saythanks.io/to/kennethreitz"
+            }
+          ]
+        },
+        {
+          "identifier": "ZU2IEbG",
+          "type": "Link",
+          "title": "The .zip file specification is flawed",
+          "url_domain": "github.com",
+          "url": "https://github.com/thejoshwolfe/yauzl/issues/48#issuecomment-266587526",
+          "description": "<p>Node 的 ZIP 解壓縮函式庫 <a href=\"https://github.com/thejoshwolfe/yauzl\">yauzl</a> 收到下面的 bug report：</p>\n\n<blockquote><p>我在解壓縮一個使用者上傳的 zip 檔時遇到問題。我試過的所有程式都打得開這個檔案。下面是錯誤訊息：</p>\n\n<pre><code>Error: invalid comment length. expected: 12298. found: 0\n    at /usr/src/app/node_modules/yauzl/index.js:125:25\n    at /usr/src/app/node_modules/yauzl/index.js:539:5\n    at /usr/src/app/node_modules/fd-slicer/index.js:32:7\n    at FSReqWrap.wrapper [as oncomplete] (fs.js:681:17)\n</code></pre>\n\n<p>如果我把拋出錯誤的 index.js 第 25 行註解掉，檔案似乎就能正常解壓縮。有想法嗎？</p></blockquote>\n\n<p>在短暫的訊息交換後，作者給了一篇破千字的解釋，從 ZIP 標準開始談起，描述其中對 magic number 位置定義的問題、實作如何處理這個問題、使用者檔案中包含特殊格式而觸發的 bug、一直到可行的解決方案。這同時是對 ZIP 檔案結構的基本介紹，提醒制定標準時需要注意的事情，也描述了各實作方對模糊標準的不同處理風格，當小故事看也十分有趣。</p>",
+          "description_markdown": "Node 的 ZIP 解壓縮函式庫 [yauzl](https://github.com/thejoshwolfe/yauzl) 收到下面的 bug report：\r\n\r\n> 我在解壓縮一個使用者上傳的 zip 檔時遇到問題。我試過的所有程式都打得開這個檔案。下面是錯誤訊息：\r\n>\r\n>     Error: invalid comment length. expected: 12298. found: 0\r\n>         at /usr/src/app/node_modules/yauzl/index.js:125:25\r\n>         at /usr/src/app/node_modules/yauzl/index.js:539:5\r\n>         at /usr/src/app/node_modules/fd-slicer/index.js:32:7\r\n>         at FSReqWrap.wrapper [as oncomplete] (fs.js:681:17)\r\n>\r\n> 如果我把拋出錯誤的 index.js 第 25 行註解掉，檔案似乎就能正常解壓縮。有想法嗎？\r\n\r\n在短暫的訊息交換後，作者給了一篇破千字的解釋，從 ZIP 標準開始談起，描述其中對 magic number 位置定義的問題、實作如何處理這個問題、使用者檔案中包含特殊格式而觸發的 bug、一直到可行的解決方案。這同時是對 ZIP 檔案結構的基本介紹，提醒制定標準時需要注意的事情，也描述了各實作方對模糊標準的不同處理風格，當小故事看也十分有趣。",
+          "embedded_links": [
+            {
+              "identifier": "zWFdFKe",
+              "title": "yauzl",
+              "url_domain": "github.com",
+              "url": "https://github.com/thejoshwolfe/yauzl"
+            }
+          ]
+        },
+        {
+          "identifier": "DbAIVSH",
+          "type": "Link",
+          "title": "Intro to the 8-Point Grid System",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/built-to-adapt/intro-to-the-8-point-grid-system-d2573cde8632#.le6dia3t6",
+          "description": "<p>作者介紹了一個排列 UI 元件的基本準則：八點系統，也就是把所有 UI 上的尺寸都做成 8 pt 的整數倍。這會讓你的 UI 看起來更一致，被縮放時（不論你自己或客戶端的設備）也會更準確。</p>\n\n<p>我一直都在做 UI 的時候把單位做成 8 的倍數（偶爾在小區域用 4），但從來沒想過背後的道理，只是做久了就直覺認為這樣特別方便，畫面上的東西很容易對齊。原來這有個專門的稱呼，還被系統化了啊。推薦給大家。</p>",
+          "description_markdown": "作者介紹了一個排列 UI 元件的基本準則：八點系統，也就是把所有 UI 上的尺寸都做成 8 pt 的整數倍。這會讓你的 UI 看起來更一致，被縮放時（不論你自己或客戶端的設備）也會更準確。\r\n\r\n我一直都在做 UI 的時候把單位做成 8 的倍數（偶爾在小區域用 4），但從來沒想過背後的道理，只是做久了就直覺認為這樣特別方便，畫面上的東西很容易對齊。原來這有個專門的稱呼，還被系統化了啊。推薦給大家。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "9lkM2zm",
+          "type": "Link",
+          "title": "Grace Hopper and the psychological drain on the gender minority",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/code-like-a-girl/grace-hopper-and-the-psychological-drain-on-the-gender-minority-be3ff348f2ff#.4t4b5xofb",
+          "description": "<p>作者單槍匹馬參加 <a href=\"http://ghc.anitaborg.org\">Grace Hopper Celebration of Women in Computing</a> 後，寫下了一些感想。</p>\n\n<p>一點 context：Grace Hopper Celebration of Women in Computing 是世界最大的科技界女性集會，會議名稱來自世界上第一批電腦工程師之一、COBOL 創造人，美國海軍准將 <a href=\"https://zh.wikipedia.org/wiki/%E8%91%9B%E9%BA%97%E7%B5%B2%C2%B7%E9%9C%8D%E6%99%AE\">Grace Hopper</a>。會眾幾乎都是女性，而作者（直男）一個人去參加，嗯⋯⋯。</p>\n\n<p>我對文中提到的一點特別感同身受：當你與眾不同的時候，那種沒辦法融入、讓你懷疑自己不屬於這裡的感受，是最難熬的情緒。作者在會議最後溜出 closing party 思考他在會議中的經歷，這個舉動就說明了很多。我不知道大家有沒有這種經驗，但我完全能從自身經歷 reflect 他的感受。雖然非常讓人討厭，但也很重要的體驗。</p>",
+          "description_markdown": "作者單槍匹馬參加 [Grace Hopper Celebration of Women in Computing](http://ghc.anitaborg.org) 後，寫下了一些感想。\r\n\r\n一點 context：Grace Hopper Celebration of Women in Computing 是世界最大的科技界女性集會，會議名稱來自世界上第一批電腦工程師之一、COBOL 創造人，美國海軍准將 [Grace Hopper](https://zh.wikipedia.org/wiki/葛麗絲·霍普)。會眾幾乎都是女性，而作者（直男）一個人去參加，嗯⋯⋯。\r\n\r\n我對文中提到的一點特別感同身受：當你與眾不同的時候，那種沒辦法融入、讓你懷疑自己不屬於這裡的感受，是最難熬的情緒。作者在會議最後溜出 closing party 思考他在會議中的經歷，這個舉動就說明了很多。我不知道大家有沒有這種經驗，但我完全能從自身經歷 reflect 他的感受。雖然非常讓人討厭，但也很重要的體驗。",
+          "embedded_links": [
+            {
+              "identifier": "qNIQ3GF",
+              "title": "Grace Hopper Celebration of Women in Computing",
+              "url_domain": "anitaborg.org",
+              "url": "http://ghc.anitaborg.org"
+            },
+            {
+              "identifier": "wcBMcVJ",
+              "title": "Grace Hopper",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/葛麗絲·霍普"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "br74Zs2",
+          "type": "Link",
+          "title": "如何成为一名人工智能产品经理？",
+          "url_domain": "36kr.com",
+          "url": "http://36kr.com/p/5059871.html",
+          "description": "<p>這篇文章主要介紹做一個 AI (ML) 的 PM 與一般軟體（或是服務）的差別在哪裡，如何做好一個?</p>\n\n<p>也會一並建議如何自我進修的部分．</p>\n\n<p>引用 Andrew Ng 的一段話：</p>\n\n<pre><code>「对我而言，无论何时，当我觉得我不知道下一步应该如何做的时候，\n我将会尝试大量的学习和阅读，和某些领域的专家谈话。我不知道我们\n的大脑是如何工作的，但它非常的神奇：当你读了足够多的书，或者和\n足够多的专家谈话之后，换句话说，当你的大脑有了足够多的输入信\n息，新的想法就会随之产生。」\n</code></pre>",
+          "description_markdown": "這篇文章主要介紹做一個 AI (ML) 的 PM 與一般軟體（或是服務）的差別在哪裡，如何做好一個?\r\n\r\n也會一並建議如何自我進修的部分．\r\n\r\n引用 Andrew Ng 的一段話：\r\n\r\n\t「对我而言，无论何时，当我觉得我不知道下一步应该如何做的时候，\r\n\t我将会尝试大量的学习和阅读，和某些领域的专家谈话。我不知道我们\r\n\t的大脑是如何工作的，但它非常的神奇：当你读了足够多的书，或者和\r\n\t足够多的专家谈话之后，换句话说，当你的大脑有了足够多的输入信\r\n\t息，新的想法就会随之产生。」\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "el3NVlW",
+          "type": "Link",
+          "title": "The 12 Factors of Go ",
+          "url_domain": "scene-si.org",
+          "url": "https://scene-si.org/2016/09/27/the-12-factors-of-go/?utm_content=bufferdfcee&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>12FA (12 factor app) 是 heroku 提出建制 modern app 的方法論。</p>\n\n<p>這篇作者試著用 Go 與 Docker 來實作並且寫了<a href=\"https://leanpub.com/12fa-docker-golang\">一本書</a>。</p>",
+          "description_markdown": "12FA (12 factor app) 是 heroku 提出建制 modern app 的方法論。\r\n\r\n這篇作者試著用 Go 與 Docker 來實作並且寫了[一本書](https://leanpub.com/12fa-docker-golang)。",
+          "embedded_links": [
+            {
+              "identifier": "IW4FymU",
+              "title": "一本書",
+              "url_domain": "leanpub.com",
+              "url": "https://leanpub.com/12fa-docker-golang"
+            }
+          ]
+        },
+        {
+          "identifier": "ZNYxm50",
+          "type": "Link",
+          "title": "fern4lvarez/piladb: Lightweight RESTful database engine based on stack data structures",
+          "url_domain": "github.com",
+          "url": "https://github.com/fern4lvarez/piladb",
+          "description": "<p>piladb (pila: 就是西班牙文的 stack): PilaDB 是一個輕量化的 RESTful DB ，並且提供 stack structure 的架構，也就是說你可以透過 Push/Pop 來存取資料．</p>",
+          "description_markdown": "piladb (pila: 就是西班牙文的 stack): PilaDB 是一個輕量化的 RESTful DB ，並且提供 stack structure 的架構，也就是說你可以透過 Push/Pop 來存取資料． ",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xbisAjN",
+          "type": "Link",
+          "title": "Infrastructure for Deep Learning",
+          "url_domain": "openai.com",
+          "url": "https://openai.com/blog/infrastructure-for-deep-learning/",
+          "description": "<p>OpenAI（一個提供平台給大家做 AI 練習的公司) 公佈了他們的基礎架構，一個基於 Kubernetes 所部署出來的分散式的 Tensorflow ．</p>\n\n<p>這篇文章除了介紹 Tensorflow 之外，也介紹了一個透過 Deep Learning 完成的範例． 其中系統架構是透過 Kubernetes 加上分散式的 Tensorflow cluster ，並且透過 <a href=\"https://github.com/openai/kubernetes-ec2-autoscaler\">Kubernetes-ec2-autoscaler</a> 來做到機器的 Auto-Scaling ．</p>",
+          "description_markdown": "OpenAI（一個提供平台給大家做 AI 練習的公司) 公佈了他們的基礎架構，一個基於 Kubernetes 所部署出來的分散式的 Tensorflow ．\r\n\r\n這篇文章除了介紹 Tensorflow 之外，也介紹了一個透過 Deep Learning 完成的範例． 其中系統架構是透過 Kubernetes 加上分散式的 Tensorflow cluster ，並且透過 [Kubernetes-ec2-autoscaler](https://github.com/openai/kubernetes-ec2-autoscaler) 來做到機器的 Auto-Scaling ．",
+          "embedded_links": [
+            {
+              "identifier": "jkXfsXF",
+              "title": "Kubernetes-ec2-autoscaler",
+              "url_domain": "github.com",
+              "url": "https://github.com/openai/kubernetes-ec2-autoscaler"
+            }
+          ]
+        },
+        {
+          "identifier": "11HaWJx",
+          "type": "Link",
+          "title": "Why Red Hat makes more money on Docker than Docker does",
+          "url_domain": "techrepublic.com",
+          "url": "http://www.techrepublic.com/article/why-red-hat-makes-more-money-on-docker-than-docker-does/",
+          "description": "<p>\"Red Hat 透過 Docker 賺的錢，比 Docker 自己都還要多\"</p>\n\n<p>這篇章從商業的角度上來探討為何 Docker 很難賺到錢，相反的身為系統服務商 Red Hat 卻透過 OpenShift 賺進大筆的鈔票 ($2 billion in annual revenue )．</p>\n\n<p>本文中認為 OpenShift 其實在內容上跟 Docker Datacenter 的服務並沒有太大差異，而 Red Hat 憑著是良好的 Docker Container 的運作熟悉度 ( BTW: Redhat 是第二大的 Docker open source 的貢獻者) 搭配著 Kubernetes 在底層的服務就賺進了大筆的器業服務與諮詢費．</p>\n\n<p>常跟幾個商業夥伴在笑說，Red Hat 的服務費是很貴，那是因為當以要找他的時候，就是你需要服務( 解 Bug ) 的時候．所以就像是軟體服（ㄌ ㄜ ）務（ㄙ ㄨ ㄛ \\/ ) 費一樣．</p>",
+          "description_markdown": "\"Red Hat 透過 Docker 賺的錢，比 Docker 自己都還要多\"\r\n\r\n這篇章從商業的角度上來探討為何 Docker 很難賺到錢，相反的身為系統服務商 Red Hat 卻透過 OpenShift 賺進大筆的鈔票 ($2 billion in annual revenue )．\r\n\r\n本文中認為 OpenShift 其實在內容上跟 Docker Datacenter 的服務並沒有太大差異，而 Red Hat 憑著是良好的 Docker Container 的運作熟悉度 ( BTW: Redhat 是第二大的 Docker open source 的貢獻者) 搭配著 Kubernetes 在底層的服務就賺進了大筆的器業服務與諮詢費．\r\n\r\n常跟幾個商業夥伴在笑說，Red Hat 的服務費是很貴，那是因為當以要找他的時候，就是你需要服務( 解 Bug ) 的時候．所以就像是軟體服（ㄌ ㄜ ）務（ㄙ ㄨ ㄛ \\/ ) 費一樣．",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "LWZ1owR",
+          "type": "Link",
+          "title": "geohot/lolrecaptcha: We try to break the recaptcha for the Merry Christmas for all!",
+          "url_domain": "github.com",
+          "url": "https://github.com/geohot/lolrecaptcha",
+          "description": "<p><a href=\"https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%9C%8D%E5%85%B9\">喬治·霍茲</a> (geohot) 是美國的知名駭客，目前在 Google 的 Zero Project 團隊中專門發現所謂的 Zero-Day Bug.</p>\n\n<p>之前比較知名的事件就是他是第一個破解 iOS 跟 PS3 的人，並且也開源了 <a href=\"https://github.com/commaai/research\">comma.ai</a>．</p>\n\n<p>在聖誕節前夕，他忽然想來學 Golang，於是就把 <a href=\"https://www.google.com/recaptcha/intro/comingsoon/invisiblebeta.html\">recaptcha</a> (Google 開發的是否是機器人的判斷器) 破解了．</p>\n\n<p>快來看看他怎麼破解的..</p>",
+          "description_markdown": "[喬治·霍茲](https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%9C%8D%E5%85%B9) (geohot) 是美國的知名駭客，目前在 Google 的 Zero Project 團隊中專門發現所謂的 Zero-Day Bug.\r\n\r\n之前比較知名的事件就是他是第一個破解 iOS 跟 PS3 的人，並且也開源了 [comma.ai](https://github.com/commaai/research)．\r\n\r\n在聖誕節前夕，他忽然想來學 Golang，於是就把 [recaptcha](https://www.google.com/recaptcha/intro/comingsoon/invisiblebeta.html) (Google 開發的是否是機器人的判斷器) 破解了．\r\n\r\n快來看看他怎麼破解的..",
+          "embedded_links": [
+            {
+              "identifier": "Bb46Ki0",
+              "title": "喬治·霍茲",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E9%9C%8D%E5%85%B9"
+            },
+            {
+              "identifier": "w3y7A8A",
+              "title": "comma.ai",
+              "url_domain": "github.com",
+              "url": "https://github.com/commaai/research"
+            },
+            {
+              "identifier": "5hZQm66",
+              "title": "recaptcha",
+              "url_domain": "google.com",
+              "url": "https://www.google.com/recaptcha/intro/comingsoon/invisiblebeta.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

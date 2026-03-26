@@ -1,0 +1,369 @@
+{
+  "number": 109,
+  "title": "Issue 109 「全端工程師」是指「有能力把系統裡的每一層都弄壞」",
+  "summary": "本期內容涵蓋 Career, Startup, Machine Learning, PHP",
+  "url": "https://weekly.codetengu.com/issues/109",
+  "publication_status": "published",
+  "published_at": "2017-12-11T02:00:00+00:00",
+  "updated_at": "2017-12-11T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 諸君，賺錢有數，性命要顧</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 諸君，賺錢有數，性命要顧\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "mswiFcQ",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "W3vIsix",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "Vq7yNGP",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "B0QgtX6",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "a3e8hw",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "BEncMez",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "cQ2x2ZS",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "TFmY6nG",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "RAAGzh6",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "M6CgJ4z",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "C5SHmPp",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "jKn833V",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "hjmY2ui",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "QiYlvCp",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "sLmmgPi",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "oDKdr6X",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "IglZw9r",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "zrPmEk0",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "wsrAJD",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "dQgaRQj",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "OxUcriO",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "PLmxGvI",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "1YIC1gt",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "uDVt8VK",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "3ba1YZg",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "D28QPgw",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "ApiIVv3",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "spGOROY",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "yOuPKnF",
+          "type": "Link",
+          "title": "Who do you promote? 5 Qualities of a Good Leader",
+          "url_domain": "getlighthouse.com",
+          "url": "https://getlighthouse.com/blog/qualities-of-a-good-leader/",
+          "description": "<p>其實這一兩年一直困擾於到底要抓誰來當 Manager，給個技術經理的職稱，或是想從外面直接應徵技術經理、技術總監之類的人進來，但是的確是有一些困擾，因為除了技術能力之外，技術主管還需要有不少特質，才能撐起一個團隊。</p>\n\n<p>不過分享這邊主要是看到有幾段非常心有戚戚焉，例如下面這段:</p>\n\n<blockquote><p>If someone is accountable, you know that even if something goes wrong, they’ll fix it or take responsibility. They won’t hide from problems and they’ll work hard to deliver positive outcomes.</p></blockquote>\n\n<p>當你把責任丟給某人，應該得確定他會把事情搞定，不讓東西出任何差錯，即使出問題了，他也會想辦法把問題搞定，不論搞到多晚。但是當你發現最適合當主管的人卻不太在意這些問題的時候，那麼問題就來了，是不是不該 promote 他？</p>\n\n<p>當然也不一定是這個人的錯，可能你根本沒說清楚，或是人家根本不覺得你重視這些事。所以，說清楚、講明白才是比較好的策略，但偏偏又不好拿捏 :p</p>\n\n<p>再來則是這段：</p>\n\n<blockquote><p>Make sure the person you choose to promote is someone whose actions you want others to follow, and that you’re comfortable trusting them with leading their team.</p></blockquote>\n\n<p>如果你把團隊丟給一個人負責，卻擔心他會把團隊帶歪，或是底下的人會學壞？這題就是 Leadership 的問題了，也是公司文化問題。</p>\n\n<p>而這篇文章提供了一些線索讓你評估，我個人覺得還算不錯。\n最近發現 Lighthouse 的文章質量不錯呀，收藏了一堆還沒看。</p>\n\n<p>PS. 我在上海 SV 找網站後端技術經理，有興趣的朋友可以參考我們 <a href=\"https://www.lagou.com/gongsi/279681.html\">SV 上海的職缺</a></p>",
+          "description_markdown": "其實這一兩年一直困擾於到底要抓誰來當 Manager，給個技術經理的職稱，或是想從外面直接應徵技術經理、技術總監之類的人進來，但是的確是有一些困擾，因為除了技術能力之外，技術主管還需要有不少特質，才能撐起一個團隊。\r\n\r\n不過分享這邊主要是看到有幾段非常心有戚戚焉，例如下面這段:\r\n\r\n\r\n> If someone is accountable, you know that even if something goes wrong, they’ll fix it or take responsibility. They won’t hide from problems and they’ll work hard to deliver positive outcomes.\r\n\r\n當你把責任丟給某人，應該得確定他會把事情搞定，不讓東西出任何差錯，即使出問題了，他也會想辦法把問題搞定，不論搞到多晚。但是當你發現最適合當主管的人卻不太在意這些問題的時候，那麼問題就來了，是不是不該 promote 他？ \r\n\r\n當然也不一定是這個人的錯，可能你根本沒說清楚，或是人家根本不覺得你重視這些事。所以，說清楚、講明白才是比較好的策略，但偏偏又不好拿捏 :p\r\n\r\n再來則是這段：\r\n\r\n> Make sure the person you choose to promote is someone whose actions you want others to follow, and that you’re comfortable trusting them with leading their team.\r\n\r\n如果你把團隊丟給一個人負責，卻擔心他會把團隊帶歪，或是底下的人會學壞？這題就是 Leadership 的問題了，也是公司文化問題。\r\n\r\n而這篇文章提供了一些線索讓你評估，我個人覺得還算不錯。\r\n最近發現 Lighthouse 的文章質量不錯呀，收藏了一堆還沒看。\r\n\r\nPS. 我在上海 SV 找網站後端技術經理，有興趣的朋友可以參考我們 [SV 上海的職缺](https://www.lagou.com/gongsi/279681.html)",
+          "embedded_links": [
+            {
+              "identifier": "KZuKJak",
+              "title": "SV 上海的職缺",
+              "url_domain": "lagou.com",
+              "url": "https://www.lagou.com/gongsi/279681.html"
+            }
+          ]
+        },
+        {
+          "identifier": "cQmJhMm",
+          "type": "Link",
+          "title": "Becoming Your Future Self",
+          "url_domain": "codingvc.com",
+          "url": "https://codingvc.com/becoming-your-future-self/",
+          "description": "<p>早期的 CTO 必須是一個技術強者、招募者，跟好的主管，但當團隊快速成長，你該怎麼調整工作內容？ 想一下一年後、五年後，你應該要做什麼工作、不做什麼工作？</p>\n\n<p>像是我的技術團隊有 10+ 人，我已經沒辦法寫 code，寫 code 反而會成為團隊的瓶頸，現在這幾個月則是在思考，我該怎麼產出更多的有領導力的管理人員。</p>\n\n<p>設想明年我的團隊會成長到 30+ 人（其實不是設想，明年預算都開好了 XD ），那麼我到時候該怎麼做事？ 一定跟現在又完全不一樣，那我明年之前得該先點好哪些技能？或是先把什麼事情做好？ 先想一下，後續才能夠快速應對跟學習。</p>\n\n<p>PS. 在上海有興趣的朋友可以參考我們 <a href=\"https://www.lagou.com/gongsi/279681.html\">SV 上海的職缺</a></p>",
+          "description_markdown": "早期的 CTO 必須是一個技術強者、招募者，跟好的主管，但當團隊快速成長，你該怎麼調整工作內容？ 想一下一年後、五年後，你應該要做什麼工作、不做什麼工作？ \r\n\r\n像是我的技術團隊有 10+ 人，我已經沒辦法寫 code，寫 code 反而會成為團隊的瓶頸，現在這幾個月則是在思考，我該怎麼產出更多的有領導力的管理人員。\r\n\r\n設想明年我的團隊會成長到 30+ 人（其實不是設想，明年預算都開好了 XD ），那麼我到時候該怎麼做事？ 一定跟現在又完全不一樣，那我明年之前得該先點好哪些技能？或是先把什麼事情做好？ 先想一下，後續才能夠快速應對跟學習。\r\n\r\nPS. 在上海有興趣的朋友可以參考我們 [SV 上海的職缺](https://www.lagou.com/gongsi/279681.html)",
+          "embedded_links": [
+            {
+              "identifier": "MnsyU3J",
+              "title": "SV 上海的職缺",
+              "url_domain": "lagou.com",
+              "url": "https://www.lagou.com/gongsi/279681.html"
+            }
+          ]
+        },
+        {
+          "identifier": "c83xq1i",
+          "type": "Link",
+          "title": "The right way to start a company",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@gerstenzang/the-right-way-to-start-a-company-8fe4932b59d0",
+          "description": "<p>這篇提到一些很有趣的歷史，當然也有很有啟發的話，像是:</p>\n\n<blockquote><p>“Work on something you’re passionate about” ends up being fairly useless advice. You can be passionate about building teams or closing sales, and it might turn out that horses or makeup or gourmet food aren’t nearly as interesting when you’re running out of money and your best employee just quit.</p>\n\n<p> passion comes from success</p></blockquote>\n\n<p>「做你覺得最有熱情的事」是個相當無用的建議，因為當你錢燒光了，最棒的夥伴先閃人了，你的熱情還會在哪？ 這段我覺得比較有啟發的是「建立團隊」也可以是算是一種有熱情、可以獲得成就感的項目。 我最近也在想我的成就感從哪裡來，「解決問題」可能是一種，但就不是賺錢啊，可惡！</p>\n\n<p>有趣的歷史則像是:</p>\n\n<ul>\n<li>WhatsApp 的創辦人 Koum 本來撐不下去, 想收攤去找工作了, 另一位創辦人 Acton 說再撐幾個月, 然後就 ...</li>\n<li>AirBnB 剛開始時，不知道他們的 idea 有多威, 他們開始做另外一個找室友的產品，花了四個月開發，最後發現 roommates.com 早就有人在做了 ...</li>\n<li>Facebook 團隊不知道他們產品成長有多厲害, 還另外跑去做朋友之間分享檔案的產品 <a href=\"https://en.wikipedia.org/wiki/Wirehog\">Wirehog</a> ...</li>\n</ul>",
+          "description_markdown": "這篇提到一些很有趣的歷史，當然也有很有啟發的話，像是:\r\n\r\n> “Work on something you’re passionate about” ends up being fairly useless advice. You can be passionate about building teams or closing sales, and it might turn out that horses or makeup or gourmet food aren’t nearly as interesting when you’re running out of money and your best employee just quit.\r\n\r\n>  passion comes from success\r\n\r\n「做你覺得最有熱情的事」是個相當無用的建議，因為當你錢燒光了，最棒的夥伴先閃人了，你的熱情還會在哪？ 這段我覺得比較有啟發的是「建立團隊」也可以是算是一種有熱情、可以獲得成就感的項目。 我最近也在想我的成就感從哪裡來，「解決問題」可能是一種，但就不是賺錢啊，可惡！\r\n\r\n有趣的歷史則像是:\r\n\r\n* WhatsApp 的創辦人 Koum 本來撐不下去, 想收攤去找工作了, 另一位創辦人 Acton 說再撐幾個月, 然後就 ...\r\n* AirBnB 剛開始時，不知道他們的 idea 有多威, 他們開始做另外一個找室友的產品，花了四個月開發，最後發現 roommates.com 早就有人在做了 ...\r\n* Facebook 團隊不知道他們產品成長有多厲害, 還另外跑去做朋友之間分享檔案的產品 [Wirehog](https://en.wikipedia.org/wiki/Wirehog) ...\r\n",
+          "embedded_links": [
+            {
+              "identifier": "fJhopMA",
+              "title": "Wirehog",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Wirehog"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "E5bo2YY",
+          "type": "Link",
+          "title": "AI 工具手把手工作坊 / Hands on AI Tools",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/fukuball/hands-on-ai-tools",
+          "description": "<p>Machine Learning：初級</p>\n\n<p>最近受政大<a href=\"http://www.cs.nccu.edu.tw/~chenk/\">陳恭</a>老師邀請幫忙上了一堂 AI 工具手把手工作坊，個人覺得內容算是蠻深入潛出的，監督式學習、非監督式學習、分群及降維大致上都有提到，也就是 <a href=\"http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html\">scikit-learn cheat sheet</a> 上的四大區塊都有 cover 到了，最後還示範應用了一個歌詞推薦系統的範例，當然入門之後，就需要自己慢慢再深入研究了。</p>\n\n<p>我也有分享 <a href=\"https://github.com/fukuball/Hands-on-AI-Tools\">jupyter notebook 範例程式碼</a>，希望可以幫助想入門 Machine Learning 的人學習。</p>",
+          "description_markdown": "Machine Learning：初級\r\n\r\n最近受政大[陳恭](http://www.cs.nccu.edu.tw/~chenk/)老師邀請幫忙上了一堂 AI 工具手把手工作坊，個人覺得內容算是蠻深入潛出的，監督式學習、非監督式學習、分群及降維大致上都有提到，也就是 [scikit-learn cheat sheet](http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html) 上的四大區塊都有 cover 到了，最後還示範應用了一個歌詞推薦系統的範例，當然入門之後，就需要自己慢慢再深入研究了。\r\n\r\n我也有分享 [jupyter notebook 範例程式碼](https://github.com/fukuball/Hands-on-AI-Tools)，希望可以幫助想入門 Machine Learning 的人學習。",
+          "embedded_links": [
+            {
+              "identifier": "OIBqayy",
+              "title": "陳恭",
+              "url_domain": "nccu.edu.tw",
+              "url": "http://www.cs.nccu.edu.tw/~chenk/"
+            },
+            {
+              "identifier": "YEJ2nYc",
+              "title": "scikit-learn cheat sheet",
+              "url_domain": "scikit-learn.org",
+              "url": "http://scikit-learn.org/stable/tutorial/machine_learning_map/index.html"
+            },
+            {
+              "identifier": "s2V98l3",
+              "title": "jupyter notebook 範例程式碼",
+              "url_domain": "github.com",
+              "url": "https://github.com/fukuball/Hands-on-AI-Tools"
+            }
+          ]
+        },
+        {
+          "identifier": "UgEwD1D",
+          "type": "Link",
+          "title": "A Year in Computer Vision",
+          "url_domain": "themtank.org",
+          "url": "http://www.themtank.org/a-year-in-computer-vision",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>這篇文章整理了滿滿 2017 一整年電腦視覺領域的乾貨，ML（DL）在電腦視覺領域真的大有進展，論文多到看不完啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n這篇文章整理了滿滿 2017 一整年電腦視覺領域的乾貨，ML（DL）在電腦視覺領域真的大有進展，論文多到看不完啊！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OrPt1tY",
+          "type": "Link",
+          "title": "How to Read Big Files with PHP (Without Killing Your Server)",
+          "url_domain": "sitepoint.com",
+          "url": "https://www.sitepoint.com/performant-reading-big-files-php/",
+          "description": "<p>PHP：中級</p>\n\n<p>怎麼有效率的處理大檔案呢？當不做任何處理的時候，用 PHP 把整個檔案讀進來可能就會讓 sever 的記憶體直接爆掉，這篇文章示範了幾種方法來讀取大檔案，讓 server 的記憶體使用量大大降低，當然也就可以讓 server 可以服務更多使用者，進階的開發者應該都要學會如何處理大檔案。</p>",
+          "description_markdown": "PHP：中級\r\n\r\n怎麼有效率的處理大檔案呢？當不做任何處理的時候，用 PHP 把整個檔案讀進來可能就會讓 sever 的記憶體直接爆掉，這篇文章示範了幾種方法來讀取大檔案，讓 server 的記憶體使用量大大降低，當然也就可以讓 server 可以服務更多使用者，進階的開發者應該都要學會如何處理大檔案。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "m2iU2ed",
+          "type": "Link",
+          "title": "Ethereum’s First Killer App Is Here, and It’s a Game Where You Create Digital Cats",
+          "url_domain": "technologyreview.com",
+          "url": "https://www.technologyreview.com/the-download/609669/ethereums-first-killer-app-is-here-and-its-a-game-where-you-create-digital-cats/",
+          "description": "<p>本週上線了一個 Ethereum 殺手級應用 <a href=\"https://www.cryptokitties.co/\">CryptoKitties</a>，上線之後佔了整個 Ethereum 12% 的交易量！最高價的交易是<a href=\"https://www.cryptokitties.co/kitty/1\">創世貓 Genesis</a> 要價 247 eth！很有特色的 <a href=\"https://www.cryptokitties.co/kitty/101\">BugCat</a> 也要 175 eth！</p>\n\n<p>說穿了就是一個區塊鏈虛擬貓咪的交易平台啊（好啦，還可以生小貓）！貓咪真的太可愛太強大了！買幾隻來壓壓驚～</p>\n\n<p>CryptoKitties 帳本：<a href=\"https://kittysales.herokuapp.com/\">https://kittysales.herokuapp.com/</a></p>",
+          "description_markdown": "本週上線了一個 Ethereum 殺手級應用 [CryptoKitties](https://www.cryptokitties.co/)，上線之後佔了整個 Ethereum 12% 的交易量！最高價的交易是[創世貓 Genesis](https://www.cryptokitties.co/kitty/1) 要價 247 eth！很有特色的 [BugCat](https://www.cryptokitties.co/kitty/101) 也要 175 eth！\r\n\r\n說穿了就是一個區塊鏈虛擬貓咪的交易平台啊（好啦，還可以生小貓）！貓咪真的太可愛太強大了！買幾隻來壓壓驚～\r\n\r\nCryptoKitties 帳本：[https://kittysales.herokuapp.com/](https://kittysales.herokuapp.com/)",
+          "embedded_links": [
+            {
+              "identifier": "xoZhkaV",
+              "title": "CryptoKitties",
+              "url_domain": "cryptokitties.co",
+              "url": "https://www.cryptokitties.co/"
+            },
+            {
+              "identifier": "6ig2TND",
+              "title": "創世貓 Genesis",
+              "url_domain": "cryptokitties.co",
+              "url": "https://www.cryptokitties.co/kitty/1"
+            },
+            {
+              "identifier": "SL6z3si",
+              "title": "BugCat",
+              "url_domain": "cryptokitties.co",
+              "url": "https://www.cryptokitties.co/kitty/101"
+            },
+            {
+              "identifier": "XttfUqL",
+              "title": "https://kittysales.herokuapp.com/",
+              "url_domain": "herokuapp.com",
+              "url": "https://kittysales.herokuapp.com/"
+            }
+          ],
+          "image_original_filename": "13146213-e487-4850-be55-2e577e87b1e0.png",
+          "image_extra_large_filename": "original_ratio_extra_large_13146213-e487-4850-be55-2e577e87b1e0.png",
+          "image_medium_filename": "original_ratio_medium_13146213-e487-4850-be55-2e577e87b1e0.png"
+        },
+        {
+          "identifier": "IoJQmQX",
+          "type": "Link",
+          "title": "MakeGirlsMoe 2D 萌妹圖像產生器",
+          "url_domain": "girls.moe",
+          "url": "http://make.girls.moe/#/",
+          "description": "<p>GAN 進展到現在終於可以產生出不是妖怪的 2D 萌妹圖像了，真是可喜可賀啊！接下來可能 H-Game 跟 A 漫的人物都可以用 GAN 來自動產生了？！</p>",
+          "description_markdown": "GAN 進展到現在終於可以產生出不是妖怪的 2D 萌妹圖像了，真是可喜可賀啊！接下來可能 H-Game 跟 A 漫的人物都可以用 GAN 來自動產生了？！",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "9ddb9aad-aad3-4520-a412-e0ad9c623845.png",
+          "image_extra_large_filename": "original_ratio_extra_large_9ddb9aad-aad3-4520-a412-e0ad9c623845.png",
+          "image_medium_filename": "original_ratio_medium_9ddb9aad-aad3-4520-a412-e0ad9c623845.png"
+        }
+      ]
+    }
+  ]
+}

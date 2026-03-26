@@ -1,0 +1,528 @@
+{
+  "number": 45,
+  "title": "Issue 45 我女朋友說她最近需要一些時間跟距離，請問她是不是要算速率？",
+  "summary": "本期內容涵蓋 Career, Swift, Android, Erlang, Elixir, Rails, Open Source, SQL, Compiler, Go, Memcached",
+  "url": "https://weekly.codetengu.com/issues/45",
+  "publication_status": "published",
+  "published_at": "2016-05-30T03:00:00+01:00",
+  "updated_at": "2016-05-30T10:16:17+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀「<a href=\"http://book.douban.com/people/vinta/\">家畜人鴉俘</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 我的變態是演化的一部份，請妳放尊重一點</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 五月病發作中</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說這是技術週刊，可是我不愛談技術怎麼辦</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀「[家畜人鴉俘](http://book.douban.com/people/vinta/)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 我的變態是演化的一部份，請妳放尊重一點\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 五月病發作中\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說這是技術週刊，可是我不愛談技術怎麼辦\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Mx7yRNu",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "iqn6FBk",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "2gbsWPT",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "toAkgpi",
+              "title": "家畜人鴉俘",
+              "url_domain": "douban.com",
+              "url": "http://book.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "Fe48HUl",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "EbX54QM",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "47miwIy",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "Wczb55",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "MsmVx7s",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "pmAISlA",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "2fmxf0D",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "8MhpfaS",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "dAxA9HN",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "N3IzsRI",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "BAlCVra",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "qJk7BBB",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "znR1YhK",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "PzzvPAk",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "uRAh53n",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "r1N2bJN",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "izqYAJb",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "RC0Tkzi",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "3MciZxD",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "eeXq86",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "NRkFhVw",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "Tg7581f",
+          "type": "Link",
+          "title": "The New 10-Year Vesting Schedule",
+          "url_domain": "zachholman.com",
+          "url": "https://zachholman.com/posts/the-new-10-year-vesting-schedule",
+          "description": "<p>新創公司的其中一個特色就是會給比較低的實質薪水，用其他的方式來補償員工，股票選擇權是常見的方式之一。</p>\n\n<p>這篇文說的是新創圈的創辦人跟 VC 是怎樣技術性地操作股票選擇權，讓他們獲得最大利益，當然犧牲的就是持有選擇權的員工了。<br/>\n先有四年期的股票選擇權，兩年後告訴你當初給的股票太少，提高之後再重新來一輪四年期。<br/>\n更不要說這些創辦人跟 VC 都不希望公司太早上市，這讓員工沒辦法把股票換成現金啊。</p>\n\n<p>大家可以參考看看，雖然說台灣的情況比較特別，因為我們還會有這樣的工作型態需要去思考 <a href=\"https://github.com/nodejs-tw/jobs/issues/11\">全職工作 薪水自備 可簽約定股權</a>，唉。</p>\n\n<p>註：這一季的 <a href=\"http://www.imdb.com/title/tt2575988/\">SILICON VALLEY</a> 美劇也剛好都在演那些 CEO 跟 VC 們都是怎麼在看待軟體公司的，真的好壞喔。</p>",
+          "description_markdown": "新創公司的其中一個特色就是會給比較低的實質薪水，用其他的方式來補償員工，股票選擇權是常見的方式之一。\r\n\r\n這篇文說的是新創圈的創辦人跟 VC 是怎樣技術性地操作股票選擇權，讓他們獲得最大利益，當然犧牲的就是持有選擇權的員工了。  \r\n先有四年期的股票選擇權，兩年後告訴你當初給的股票太少，提高之後再重新來一輪四年期。  \r\n更不要說這些創辦人跟 VC 都不希望公司太早上市，這讓員工沒辦法把股票換成現金啊。\r\n\r\n大家可以參考看看，雖然說台灣的情況比較特別，因為我們還會有這樣的工作型態需要去思考 [全職工作 薪水自備 可簽約定股權](https://github.com/nodejs-tw/jobs/issues/11)，唉。\r\n\r\n註：這一季的 [SILICON VALLEY](http://www.imdb.com/title/tt2575988/) 美劇也剛好都在演那些 CEO 跟 VC 們都是怎麼在看待軟體公司的，真的好壞喔。",
+          "embedded_links": [
+            {
+              "identifier": "NXs7STv",
+              "title": "全職工作 薪水自備 可簽約定股權",
+              "url_domain": "github.com",
+              "url": "https://github.com/nodejs-tw/jobs/issues/11"
+            },
+            {
+              "identifier": "eR3H6BC",
+              "title": "SILICON VALLEY",
+              "url_domain": "imdb.com",
+              "url": "http://www.imdb.com/title/tt2575988/"
+            }
+          ]
+        },
+        {
+          "identifier": "b4XVr8y",
+          "type": "Link",
+          "title": "Reflections on six months of Swift",
+          "url_domain": "khanlou.com",
+          "url": "http://khanlou.com/2016/05/six-months-of-swift/",
+          "description": "<p><a href=\"https://twitter.com/khanlou\">Khanlou</a> 是一個我很喜歡的 iOS 開發者，最近寫了一篇關於 Swift 的文章，跟大家分享為什麼開始寫 Swift 跟為什麼不寫 Swift。</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Steve_Yegge\">Steve Yegge</a> 說軟體工程師跟所有的立場一樣，有分成保守派跟自由派，關於自由派讚揚 Swift 的言論已經看過很多了，<a href=\"https://twitter.com/khanlou\">Khanlou</a> 在我心中是一個典型保守派的代表，他專注的領域偏向效能、架構、pattern、best practice，這樣的人來評價 Swift 值得參考。</p>\n\n<blockquote><p>I still think the prudent choice is to continue writing apps in Objective-C.</p></blockquote>\n\n<p>繼續使用 Objective-C 開發，這是他寫了六個月 Swift 的心得。\n只不過前提是在 Swift 做到可以版本向下相容之前，當 Swift <a href=\"http://www.bensnider.com/abi-compatibility-whoopdty-do-what-does-it-all-mean.html\">ABI compatibility</a> 的那一天他就會義無反顧地使用 Swift 了。<br/>\n他的理由也很務實，如果是一個長期的 project，在做 Swift 版本升級的期間你可能得維護兩份 <code>swift-2</code>、 <code>swift-3</code> 之類的 branch、升級也會受制於你的 dependencies，好不容易升級完了，想要 trace 一個 bug 你用 <a href=\"https://git-scm.com/docs/git-bisect\">git bisect</a> 或是手動 checkout 回去，連 compile 都無法，這樣不優啊。</p>",
+          "description_markdown": "[Khanlou](https://twitter.com/khanlou) 是一個我很喜歡的 iOS 開發者，最近寫了一篇關於 Swift 的文章，跟大家分享為什麼開始寫 Swift 跟為什麼不寫 Swift。\r\n\r\n[Steve Yegge](https://en.wikipedia.org/wiki/Steve_Yegge) 說軟體工程師跟所有的立場一樣，有分成保守派跟自由派，關於自由派讚揚 Swift 的言論已經看過很多了，[Khanlou](https://twitter.com/khanlou) 在我心中是一個典型保守派的代表，他專注的領域偏向效能、架構、pattern、best practice，這樣的人來評價 Swift 值得參考。\r\n\r\n> I still think the prudent choice is to continue writing apps in Objective-C.\r\n\r\n繼續使用 Objective-C 開發，這是他寫了六個月 Swift 的心得。\r\n只不過前提是在 Swift 做到可以版本向下相容之前，當 Swift [ABI compatibility](http://www.bensnider.com/abi-compatibility-whoopdty-do-what-does-it-all-mean.html) 的那一天他就會義無反顧地使用 Swift 了。  \r\n他的理由也很務實，如果是一個長期的 project，在做 Swift 版本升級的期間你可能得維護兩份 `swift-2`、 `swift-3` 之類的 branch、升級也會受制於你的 dependencies，好不容易升級完了，想要 trace 一個 bug 你用 [git bisect](https://git-scm.com/docs/git-bisect) 或是手動 checkout 回去，連 compile 都無法，這樣不優啊。",
+          "embedded_links": [
+            {
+              "identifier": "DEwBA0G",
+              "title": "Steve Yegge",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Steve_Yegge"
+            },
+            {
+              "identifier": "1v0SpAP",
+              "title": "Khanlou",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/khanlou"
+            },
+            {
+              "identifier": "d5GqZ8O",
+              "title": "ABI compatibility",
+              "url_domain": "bensnider.com",
+              "url": "http://www.bensnider.com/abi-compatibility-whoopdty-do-what-does-it-all-mean.html"
+            },
+            {
+              "identifier": "WmmQGJM",
+              "title": "git bisect",
+              "url_domain": "git-scm.com",
+              "url": "https://git-scm.com/docs/git-bisect"
+            }
+          ]
+        },
+        {
+          "identifier": "g4BO2Pu",
+          "type": "Link",
+          "title": "[Swift] Pattern Matching",
+          "url_domain": "github.io",
+          "url": "http://alisoftware.github.io/swift/pattern-matching/2016/03/27/pattern-matching-1/",
+          "description": "<p>Swift 被稱讚的彈性很大部分來自於 <code>case</code> 這個關鍵字可以很靈活，而這個 <code>case</code> 就是 Swift 對 pattern matching 的實作。這篇對 pattern matching 說明得很詳細，如果你對這個詞還不太有把握的話，那麼看完你就明白了。</p>\n\n<p>當然也介紹了大量的 <code>enum</code>, <code>switch</code>, <code>case</code> 用法。</p>\n\n<p>註： Swift 的 pattern matching 不像純正的函數式語言可以在 function declaration 實作 pattern matching，全部都是透過 <code>case</code> 關鍵字實作的。</p>",
+          "description_markdown": "Swift 被稱讚的彈性很大部分來自於 `case` 這個關鍵字可以很靈活，而這個 `case` 就是 Swift 對 pattern matching 的實作。這篇對 pattern matching 說明得很詳細，如果你對這個詞還不太有把握的話，那麼看完你就明白了。\r\n\r\n當然也介紹了大量的 `enum`, `switch`, `case` 用法。\r\n\r\n註： Swift 的 pattern matching 不像純正的函數式語言可以在 function declaration 實作 pattern matching，全部都是透過 `case` 關鍵字實作的。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "WcJowSj",
+          "type": "Link",
+          "title": "ConstraintLayout 101 & the new Layout Builder in Android Studio - Riggaroo",
+          "url_domain": "riggaroo.co.za",
+          "url": "http://riggaroo.co.za/constraintlayout-101-new-layout-builder-android-studio/",
+          "description": "<p>這次 Google I/O Android 的部分讓我感興趣的除了 <a href=\"https://www.youtube.com/watch?v=cosqlfqrpFA\">Instant Apps</a> 之外就是 <a href=\"https://www.youtube.com/watch?v=sO9aX87hq9c\">ConstraintLayout</a> 了。</p>\n\n<p>以往的 Layout 功能相較之下比較單純，一個 Layout 不容易處理太複雜的視覺，所以 Layout 嵌套的狀況很常見，這樣除了增加開發 XML 的複雜度之外也影響了效能。<br/>\n這次新引入的 ConstraintLayout 就是想要解決這些問題，甚至還在 Android Studio 提供了更強大的編輯方式，看起來簡直就是另一種 layout design 的方式，難怪在 Google I/O 的標題叫做 <strong>Android Layouts: a new world</strong>。</p>\n\n<p>想要直接感受一下的話，可以參考另一個 GitHub repo <a href=\"https://github.com/hitherejoe/Constraints\">hitherejoe/Constraints</a></p>",
+          "description_markdown": "這次 Google I/O Android 的部分讓我感興趣的除了 [Instant Apps](https://www.youtube.com/watch?v=cosqlfqrpFA) 之外就是 [ConstraintLayout](https://www.youtube.com/watch?v=sO9aX87hq9c) 了。\r\n\r\n以往的 Layout 功能相較之下比較單純，一個 Layout 不容易處理太複雜的視覺，所以 Layout 嵌套的狀況很常見，這樣除了增加開發 XML 的複雜度之外也影響了效能。  \r\n這次新引入的 ConstraintLayout 就是想要解決這些問題，甚至還在 Android Studio 提供了更強大的編輯方式，看起來簡直就是另一種 layout design 的方式，難怪在 Google I/O 的標題叫做 **Android Layouts: a new world**。\r\n\r\n想要直接感受一下的話，可以參考另一個 GitHub repo [hitherejoe/Constraints](https://github.com/hitherejoe/Constraints)",
+          "embedded_links": [
+            {
+              "identifier": "wQSTxFO",
+              "title": "Instant Apps",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=cosqlfqrpFA"
+            },
+            {
+              "identifier": "mOhSRjn",
+              "title": "ConstraintLayout",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=sO9aX87hq9c"
+            },
+            {
+              "identifier": "z3ZyUHD",
+              "title": "hitherejoe/Constraints",
+              "url_domain": "github.com",
+              "url": "https://github.com/hitherejoe/Constraints"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "hiroshiyui",
+      "name": "@hiroshiyui",
+      "items": [
+        {
+          "identifier": "Rqt2OsH",
+          "type": "Link",
+          "title": "Erlang 執行速度好慢好慢嗎？",
+          "url_domain": "wordpress.com",
+          "url": "https://yauhsien.wordpress.com/2010/11/15/erlang-%E5%9F%B7%E8%A1%8C%E9%80%9F%E5%BA%A6%E5%A5%BD%E6%85%A2%E5%A5%BD%E6%85%A2%E5%97%8E%EF%BC%9F/",
+          "description": "<p>一個很經典有趣的例子，計算、列舉<a href=\"https://zh.wikipedia.org/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86\">畢氏定理</a>的可能值，以我彆腳的數學程度也只能想出原始的版本，覺得能夠想出改良版本的人真的很厲害。但我想不僅是 Erlang、函式語言如此，很多語言用了更巧妙、或者說更貼近電腦計算方式的演算法，效能表現就會有顯著的差異。</p>",
+          "description_markdown": "一個很經典有趣的例子，計算、列舉[畢氏定理](https://zh.wikipedia.org/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86)的可能值，以我彆腳的數學程度也只能想出原始的版本，覺得能夠想出改良版本的人真的很厲害。但我想不僅是 Erlang、函式語言如此，很多語言用了更巧妙、或者說更貼近電腦計算方式的演算法，效能表現就會有顯著的差異。",
+          "embedded_links": [
+            {
+              "identifier": "czGpFKT",
+              "title": "畢氏定理",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86"
+            }
+          ]
+        },
+        {
+          "identifier": "KoIonPz",
+          "type": "Link",
+          "title": "Elixir-koans by elixirkoans",
+          "url_domain": "elixirkoans.io",
+          "url": "http://elixirkoans.io/",
+          "description": "<p>之前提過 <a href=\"https://elixirschool.com/\">Elixir School</a> 這個 Elixir 學習資源，這次要介紹的是 Elixir-koans，透過 TDD 的方式帶您學習 Elixir，類似的資源有 Python 的 <a href=\"https://github.com/gregmalcolm/python_koans\">Python Koans</a>、Ruby 的 <a href=\"http://rubykoans.com/\">Ruby Koans</a>、Clojure 的 <a href=\"http://clojurekoans.com/\">Clojure Koans</a>… 等。學程式語言順便學 Test-driven Development，<a href=\"http://twblg.dict.edu.tw/holodict_new/result_detail.jsp?n_no=60021&amp;curpage=1&amp;sample=%E4%B8%80%E5%85%BC%E4%BA%8C%E9%A1%A7%EF%BC%8C%E6%91%B8%E8%9C%8A%E4%BB%94%E5%85%BC%E6%B4%97%E8%A4%B2%E3%80%82&amp;radiobutton=1&amp;querytarget=1&amp;limit=20&amp;pagenum=1&amp;rowcount=1\">一兼二顧，摸蜊仔兼洗褲</a>，真的很推薦。</p>\n\n<p>我是很崇尚「測試先行」這件事的，測試不是萬能，但是缺少測試，您的產品 QA 就是無法給人（無論這人是他人還是您自己）一個保證。</p>\n\n<p>同場加映：<a href=\"http://ithelp.ithome.com.tw/articles/10171645\">重談「佛祖流」敏捷軟體開發</a></p>",
+          "description_markdown": "之前提過 [Elixir School](https://elixirschool.com/) 這個 Elixir 學習資源，這次要介紹的是 Elixir-koans，透過 TDD 的方式帶您學習 Elixir，類似的資源有 Python 的 [Python Koans](https://github.com/gregmalcolm/python_koans)、Ruby 的 [Ruby Koans](http://rubykoans.com/)、Clojure 的 [Clojure Koans](http://clojurekoans.com/)… 等。學程式語言順便學 Test-driven Development，[一兼二顧，摸蜊仔兼洗褲](http://twblg.dict.edu.tw/holodict_new/result_detail.jsp?n_no=60021&curpage=1&sample=%E4%B8%80%E5%85%BC%E4%BA%8C%E9%A1%A7%EF%BC%8C%E6%91%B8%E8%9C%8A%E4%BB%94%E5%85%BC%E6%B4%97%E8%A4%B2%E3%80%82&radiobutton=1&querytarget=1&limit=20&pagenum=1&rowcount=1)，真的很推薦。\r\n\r\n我是很崇尚「測試先行」這件事的，測試不是萬能，但是缺少測試，您的產品 QA 就是無法給人（無論這人是他人還是您自己）一個保證。\r\n\r\n同場加映：[重談「佛祖流」敏捷軟體開發](http://ithelp.ithome.com.tw/articles/10171645)",
+          "embedded_links": [
+            {
+              "identifier": "Xyhvb4Z",
+              "title": "Elixir School",
+              "url_domain": "elixirschool.com",
+              "url": "https://elixirschool.com/"
+            },
+            {
+              "identifier": "AndscqZ",
+              "title": "Python Koans",
+              "url_domain": "github.com",
+              "url": "https://github.com/gregmalcolm/python_koans"
+            },
+            {
+              "identifier": "G0Vqexx",
+              "title": "Ruby Koans",
+              "url_domain": "rubykoans.com",
+              "url": "http://rubykoans.com/"
+            },
+            {
+              "identifier": "kBfJYsc",
+              "title": "Clojure Koans",
+              "url_domain": "clojurekoans.com",
+              "url": "http://clojurekoans.com/"
+            },
+            {
+              "identifier": "i57ZNQj",
+              "title": "一兼二顧，摸蜊仔兼洗褲",
+              "url_domain": "dict.edu.tw",
+              "url": "http://twblg.dict.edu.tw/holodict_new/result_detail.jsp?n_no=60021&curpage=1&sample=%E4%B8%80%E5%85%BC%E4%BA%8C%E9%A1%A7%EF%BC%8C%E6%91%B8%E8%9C%8A%E4%BB%94%E5%85%BC%E6%B4%97%E8%A4%B2%E3%80%82&radiobutton=1&querytarget=1&limit=20&pagenum=1&rowcount=1"
+            },
+            {
+              "identifier": "TRVRlFr",
+              "title": "重談「佛祖流」敏捷軟體開發",
+              "url_domain": "ithome.com.tw",
+              "url": "http://ithelp.ithome.com.tw/articles/10171645"
+            }
+          ]
+        },
+        {
+          "identifier": "PfuO8pn",
+          "type": "Link",
+          "title": "Static Markdown blog posts with Elixir Phoenix",
+          "url_domain": "sebastianseilund.com",
+          "url": "http://www.sebastianseilund.com/static-markdown-blog-posts-with-elixir-phoenix",
+          "description": "<p>這篇教您用 Phoenix 做出類似 <a href=\"https://jekyllrb.com/\">Jekyll</a> 的靜態網誌，有使用 <a href=\"https://pages.github.com/\">GitHub Pages</a> 的人應該對 Jekyll 這個產品不陌生。</p>",
+          "description_markdown": "這篇教您用 Phoenix 做出類似 [Jekyll](https://jekyllrb.com/) 的靜態網誌，有使用 [GitHub Pages](https://pages.github.com/) 的人應該對 Jekyll 這個產品不陌生。",
+          "embedded_links": [
+            {
+              "identifier": "dmtuCA5",
+              "title": "Jekyll",
+              "url_domain": "jekyllrb.com",
+              "url": "https://jekyllrb.com/"
+            },
+            {
+              "identifier": "rBesM0m",
+              "title": "GitHub Pages",
+              "url_domain": "github.com",
+              "url": "https://pages.github.com/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "ilWPoBL",
+          "type": "Link",
+          "title": "My time with Rails is up",
+          "url_domain": "solnic.eu",
+          "url": "http://solnic.eu/2016/05/22/my-time-with-rails-is-up.html",
+          "description": "<p>長期在 Ruby 社群活躍的 Piotr Solnica 宣布自己受夠 Rails 了，決定以後再也不在自己的 Ruby 專案中支援它。他舉出了一些原因：</p>\n\n<ul>\n<li>Merb 與 DataMapper 的消亡，使得 Rails 缺少競爭</li>\n<li>Rails 過於擁腫且複雜</li>\n<li>高度耦合，無法單獨使用任何元件，同時使得測試困難</li>\n<li>無法很好的與任意 Ruby 專案共存</li>\n</ul>\n\n\n<p>他同時也講了很多使用 Rails 的心路歷程（以及 Rails 的許多優點）。如果你也有用 Rails，應該會感到共鳴；如果你想考慮學習 Rails，也很值得看看。</p>\n\n<p>我個人主要還是用 Python，和 Ruby 只是偶爾玩玩（很久沒碰 Rails 了），所以看到這類文章第一個直覺就是把其他社群與 Python 比較。感覺每個社群都有一些很獨特的地方，不知道是否因為語言和主流函式庫會吸引相同性質的人，還是一開始在同一社群裡的人會更容易接納同類。像 JavaScript 尤其 Node 的社群感覺就是混亂（不是貶義，是 <a href=\"https://goo.gl/7bSkS8\">D&amp;D 屬性</a>的那個意思，相對於守序）。</p>\n\n<p>另一方面 Ruby 給我的的感覺就是集中。例如 Matz 本人和 DDH 等等，有很多「他說了就算」的狀況。當然集中有集中的方便——尤其是效率——但在某些時候就會有這次的問題，因為領導人的鮮明人格特質，以及大家的附和，而排擠了不同聲音。原文發出後隔天，就有人發出了一篇⋯⋯或許可以說是<a href=\"http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room\">反擊</a>？DDH 本人也有一些意見，更進一步讓人感受 Rails 對於集中的擁護，以及他們依據這個偏好做出選擇的各種理由。當然這不是出於惡意，只是社群的特點，喜不喜歡就看個人了。我還是比較偏守序、中立、分散的風格，所以就繼續留在 Python 社群囉。</p>",
+          "description_markdown": "長期在 Ruby 社群活躍的 Piotr Solnica 宣布自己受夠 Rails 了，決定以後再也不在自己的 Ruby 專案中支援它。他舉出了一些原因：\r\n\r\n* Merb 與 DataMapper 的消亡，使得 Rails 缺少競爭\r\n* Rails 過於擁腫且複雜\r\n* 高度耦合，無法單獨使用任何元件，同時使得測試困難\r\n* 無法很好的與任意 Ruby 專案共存\r\n\r\n他同時也講了很多使用 Rails 的心路歷程（以及 Rails 的許多優點）。如果你也有用 Rails，應該會感到共鳴；如果你想考慮學習 Rails，也很值得看看。\r\n\r\n我個人主要還是用 Python，和 Ruby 只是偶爾玩玩（很久沒碰 Rails 了），所以看到這類文章第一個直覺就是把其他社群與 Python 比較。感覺每個社群都有一些很獨特的地方，不知道是否因為語言和主流函式庫會吸引相同性質的人，還是一開始在同一社群裡的人會更容易接納同類。像 JavaScript 尤其 Node 的社群感覺就是混亂（不是貶義，是 [D&D 屬性](https://goo.gl/7bSkS8)的那個意思，相對於守序）。\r\n\r\n另一方面 Ruby 給我的的感覺就是集中。例如 Matz 本人和 DDH 等等，有很多「他說了就算」的狀況。當然集中有集中的方便——尤其是效率——但在某些時候就會有這次的問題，因為領導人的鮮明人格特質，以及大家的附和，而排擠了不同聲音。原文發出後隔天，就有人發出了一篇⋯⋯或許可以說是[反擊](http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room)？DDH 本人也有一些意見，更進一步讓人感受 Rails 對於集中的擁護，以及他們依據這個偏好做出選擇的各種理由。當然這不是出於惡意，只是社群的特點，喜不喜歡就看個人了。我還是比較偏守序、中立、分散的風格，所以就繼續留在 Python 社群囉。",
+          "embedded_links": [
+            {
+              "identifier": "uLB1gQS",
+              "title": "D&D 屬性",
+              "url_domain": "goo.gl",
+              "url": "https://goo.gl/7bSkS8"
+            },
+            {
+              "identifier": "UISrzRz",
+              "title": "反擊",
+              "url_domain": "akitaonrails.com",
+              "url": "http://www.akitaonrails.com/2016/05/23/rails-has-won-the-elephant-in-the-room"
+            }
+          ]
+        },
+        {
+          "identifier": "I9nMooq",
+          "type": "Link",
+          "title": "I hate the term “open source”",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@nayafia/i-hate-the-term-open-source-a65fd481a95",
+          "description": "<p>作者認為「開源」這個詞已經無法反映大家在做的事情。字面上來看，開源就是，呃，讓大家看得到/可以用你的源碼，但其實當我們說開源社群的時候，指的並不只是這件事，而隱含一個更重要的性質：這個軟體是由大家共同完成，且任何人都可以加入。或許<strong>公共軟體</strong>會是個好詞？</p>",
+          "description_markdown": "作者認為「開源」這個詞已經無法反映大家在做的事情。字面上來看，開源就是，呃，讓大家看得到/可以用你的源碼，但其實當我們說開源社群的時候，指的並不只是這件事，而隱含一個更重要的性質：這個軟體是由大家共同完成，且任何人都可以加入。或許**公共軟體**會是個好詞？",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FLjmSIE",
+          "type": "Link",
+          "title": "Seldomly Used SQL: bool Aggregate Functions",
+          "url_domain": "neovintage.org",
+          "url": "http://neovintage.org/2016/05/04/the-bool-aggregate-functions/",
+          "description": "<p>SQL 中有一類特殊的運算函式叫 aggregation，可以把很多的結果合併成一個，例如 <code>sum</code>、<code>avg</code> 等等。這篇文章舉出兩個大家比較少用到的函式：<code>bool_and</code> 與 <code>bool_or</code>，用來對所有資料做 <code>and</code> 或 <code>or</code>，類似 Python 的 <a href=\"https://docs.python.org/3/library/functions.html#all\"><code>all</code></a> 與 <a href=\"https://docs.python.org/3/library/functions.html#any\"><code>any</code></a>，並舉出一些好用的範例。</p>",
+          "description_markdown": "SQL 中有一類特殊的運算函式叫 aggregation，可以把很多的結果合併成一個，例如 `sum`、`avg` 等等。這篇文章舉出兩個大家比較少用到的函式：`bool_and` 與 `bool_or`，用來對所有資料做 `and` 或 `or`，類似 Python 的 [`all`](https://docs.python.org/3/library/functions.html#all) 與 [`any`](https://docs.python.org/3/library/functions.html#any)，並舉出一些好用的範例。",
+          "embedded_links": [
+            {
+              "identifier": "TwtHODM",
+              "title": "`all`",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/library/functions.html#all"
+            },
+            {
+              "identifier": "cfWucgC",
+              "title": "`any`",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/library/functions.html#any"
+            }
+          ]
+        },
+        {
+          "identifier": "7tcbvJk",
+          "type": "Link",
+          "title": "The surprising cleverness of modern compilers",
+          "url_domain": "lemire.me",
+          "url": "http://lemire.me/blog/2016/05/23/the-surprising-cleverness-of-modern-compilers/",
+          "description": "<pre><code class=\"c\">#include &lt;stdint.h&gt;\nint count(uint64_t x) {\n  int v = 0;\n  while(x != 0) {\n    x &amp;= x - 1;\n    v++;\n  }\n  return v;\n}\n</code></pre>\n\n<p>你絕對猜不到 Clang 對這個函式的編譯結果！（內容農場口吻）</p>\n\n<p>本文是一個 C 編譯器有多麽變態（良い意味で）的例子。事實上這個寫法在 LLVM <a href=\"https://llvm.org/bugs/show_bug.cgi?id=1488\">被視為一個特例來優化</a>，所以如果你用錯算法，效率會莫名得差非常多。</p>\n\n<p>這讓我想到 <a href=\"https://developers.slashdot.org/story/13/08/25/2115204/interviews-guido-van-rossum-answers-your-questions\">Guido 說過</a> Python 的 compiler 做得很笨，但反而很有用。你基本上可以把程式源碼直接對應到 Python compiler 吐出來的 op codes，也因此更容易從判斷一段源碼執行的效率，不會有神奇的非預期效果。</p>\n\n<p>相對的，因為 C 實在太 bare-metal，編譯器為了補救標準庫沒有的東西，就必須對你的程式做出各種奇奇怪怪的事情。如果 C 函式庫包含一個 <code>size_t bcount(uint64_t x, bool positive)</code>，不就沒這個問題了嗎？有特殊 CPU 指令的平台可以使用該有的實作，其他平台也可以使用最有效率的演算法，使用者負責使用就好；若不知道這個內建函式，而寫出不好的程式，那是使用者自己的問題。真希望活在這樣完美的世界啊。</p>",
+          "description_markdown": "~~~c\r\n#include <stdint.h>\r\nint count(uint64_t x) {\r\n  int v = 0;\r\n  while(x != 0) {\r\n    x &= x - 1;\r\n    v++;\r\n  }\r\n  return v;\r\n}\r\n~~~\r\n\r\n你絕對猜不到 Clang 對這個函式的編譯結果！（內容農場口吻）\r\n\r\n本文是一個 C 編譯器有多麽變態（良い意味で）的例子。事實上這個寫法在 LLVM [被視為一個特例來優化](https://llvm.org/bugs/show_bug.cgi?id=1488)，所以如果你用錯算法，效率會莫名得差非常多。\r\n\r\n這讓我想到 [Guido 說過](https://developers.slashdot.org/story/13/08/25/2115204/interviews-guido-van-rossum-answers-your-questions) Python 的 compiler 做得很笨，但反而很有用。你基本上可以把程式源碼直接對應到 Python compiler 吐出來的 op codes，也因此更容易從判斷一段源碼執行的效率，不會有神奇的非預期效果。\r\n\r\n相對的，因為 C 實在太 bare-metal，編譯器為了補救標準庫沒有的東西，就必須對你的程式做出各種奇奇怪怪的事情。如果 C 函式庫包含一個 `size_t bcount(uint64_t x, bool positive)`，不就沒這個問題了嗎？有特殊 CPU 指令的平台可以使用該有的實作，其他平台也可以使用最有效率的演算法，使用者負責使用就好；若不知道這個內建函式，而寫出不好的程式，那是使用者自己的問題。真希望活在這樣完美的世界啊。",
+          "embedded_links": [
+            {
+              "identifier": "uCuC3Hf",
+              "title": "被視為一個特例來優化",
+              "url_domain": "llvm.org",
+              "url": "https://llvm.org/bugs/show_bug.cgi?id=1488"
+            },
+            {
+              "identifier": "rp3Mjrm",
+              "title": "Guido 說過",
+              "url_domain": "slashdot.org",
+              "url": "https://developers.slashdot.org/story/13/08/25/2115204/interviews-guido-van-rossum-answers-your-questions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "OB8Ud24",
+          "type": "Link",
+          "title": "The Netflix Tech Blog: Application data caching using SSDs",
+          "url_domain": "netflix.com",
+          "url": "http://techblog.netflix.com/2016/05/application-data-caching-using-ssds.html",
+          "description": "<p>Netflix 最新的技術部落格文章：</p>\n\n<p>Netflix 的技術部落格，一直都是相當值得挖寶的地方．如同 Google 一樣， Netflix 不斷的在建立自己的系統．\n本篇文章提到有一個 ‪Golang‬ 寫的 application data cache proxy</p>\n\n<h3>Rend</h3>\n\n<p>透過 <code>Rend</code> 決定資料要存放 memcached 或是 SSD，同時他們也把 Rend 開源出來． <a href=\"https://github.com/netflix/rend\">Rend Github</a></p>\n\n<p><a href=\"https://www.facebook.com/yftzeng.tw/posts/10204764308946988?pnref=story\">ANT</a> 提出一個很好的思考題:  為何 Netflix EVCache 用 Memcached 而不是 Redis</p>",
+          "description_markdown": "Netflix 最新的技術部落格文章：\r\n\r\nNetflix 的技術部落格，一直都是相當值得挖寶的地方．如同 Google 一樣， Netflix 不斷的在建立自己的系統．\r\n本篇文章提到有一個 ‪Golang‬ 寫的 application data cache proxy \r\n\r\n### Rend ###\r\n\r\n透過 `Rend` 決定資料要存放 memcached 或是 SSD，同時他們也把 Rend 開源出來． [Rend Github](https://github.com/netflix/rend) \r\n\r\n[ANT](https://www.facebook.com/yftzeng.tw/posts/10204764308946988?pnref=story) 提出一個很好的思考題:  為何 Netflix EVCache 用 Memcached 而不是 Redis",
+          "embedded_links": [
+            {
+              "identifier": "YWDqfjG",
+              "title": "Rend Github",
+              "url_domain": "github.com",
+              "url": "https://github.com/netflix/rend"
+            },
+            {
+              "identifier": "bRuvAGs",
+              "title": "ANT",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/yftzeng.tw/posts/10204764308946988?pnref=story"
+            }
+          ],
+          "image_original_filename": "03408c4d-cf3b-4fd5-919d-1405c5bbecb3.png",
+          "image_extra_large_filename": "original_ratio_extra_large_03408c4d-cf3b-4fd5-919d-1405c5bbecb3.png",
+          "image_medium_filename": "original_ratio_medium_03408c4d-cf3b-4fd5-919d-1405c5bbecb3.png"
+        },
+        {
+          "identifier": "80BTIfC",
+          "type": "Link",
+          "title": "Dropbox's Magic Pocket with James Cowling - Software Engineering Daily",
+          "url_domain": "softwareengineeringdaily.com",
+          "url": "http://softwareengineeringdaily.com/2016/05/17/dropboxs-magic-pocket-james-cowling/",
+          "description": "<p>分享一個最近聽到的 podcast:</p>\n\n<p>幾個月前 Dropbox 離開 Amazon S3 離開到自己建立的 Magic Pocket 硬體架構，被稱為是史詩般的故事．\nDropbox storage lead James Cowling 來談談當初的轉換過程．不少有趣的架構討論與經驗談(包含測試)．\n會放在這裡是因為在 (32:55) 開始會討論到使用 Go 與 Rust 在的選擇上．</p>\n\n<p>大家都知道 Dropbox 本身是使用 Python 起家的，但是他們喜歡 Go 的 Concurrency 跟 Strong type system ，架構語言選擇上:</p>\n\n<ul>\n<li>整體架構使用 Golang 控管整個流程．</li>\n<li>商業部份的邏輯仍舊使用原來的 Python</li>\n<li>硬體相關與記憶體相關操作使用 Rust ，因為 Rust 在記憶體部分比較有彈性也容易控制 Low-level API ．</li>\n</ul>\n\n\n<p>有考慮使用 Go 與 Rust 的人可以聽聽那一段．</p>",
+          "description_markdown": "分享一個最近聽到的 podcast:\r\n\r\n幾個月前 Dropbox 離開 Amazon S3 離開到自己建立的 Magic Pocket 硬體架構，被稱為是史詩般的故事．\r\nDropbox storage lead James Cowling 來談談當初的轉換過程．不少有趣的架構討論與經驗談(包含測試)．\r\n會放在這裡是因為在 (32:55) 開始會討論到使用 Go 與 Rust 在的選擇上．\r\n\r\n大家都知道 Dropbox 本身是使用 Python 起家的，但是他們喜歡 Go 的 Concurrency 跟 Strong type system ，架構語言選擇上:\r\n\r\n- 整體架構使用 Golang 控管整個流程．\r\n- 商業部份的邏輯仍舊使用原來的 Python \r\n- 硬體相關與記憶體相關操作使用 Rust ，因為 Rust 在記憶體部分比較有彈性也容易控制 Low-level API ．\r\n\r\n有考慮使用 Go 與 Rust 的人可以聽聽那一段．",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "Dk3LGC2",
+          "type": "Link",
+          "title": "希特勒使用 Docker",
+          "url_domain": "weibo.com",
+          "url": "http://www.weibo.com/p/230444ba217136d0bf6a0317d308fc4c67b2dd",
+          "description": "<p>這個影片真的 超！好！笑！如果你有在用 Docker 的話（沒有在 production 環境用過 Docker 的現在就給我滾！）。</p>\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "這個影片真的 超！好！笑！如果你有在用 Docker 的話（沒有在 production 環境用過 Docker 的現在就給我滾！）。\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "mYfpmGB",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

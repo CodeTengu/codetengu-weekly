@@ -1,0 +1,554 @@
+{
+  "number": 51,
+  "title": "Issue 51 小明以為自己是中產階級",
+  "summary": "本期內容涵蓋 Python, JavaScript, iOS, Android, Machine Learning, TensorFlow, 時間管理",
+  "url": "https://weekly.codetengu.com/issues/51",
+  "publication_status": "published",
+  "published_at": "2016-07-11T03:00:00+01:00",
+  "updated_at": "2016-07-13T04:33:57+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩「<a href=\"https://www.youtube.com/watch?v=AluTOOCVXVQ\">Mass Effect 3</a>」</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 太熱了</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近好窮，有案子可以接嗎？</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 為了工作開始看韓劇</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - <a href=\"http://nelson.logdown.com/\">Nelson</a></li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 非典型司書</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩「[Mass Effect 3](https://www.youtube.com/watch?v=AluTOOCVXVQ)」\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 太熱了\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近好窮，有案子可以接嗎？\r\n- [@wancw](https://twitter.com/wancw) - 為了工作開始看韓劇\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - [Nelson](http://nelson.logdown.com/)\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 非典型司書\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "ox2xEyV",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "AgLAEWS",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "58Nmknb",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "Zg2k8NV",
+              "title": "Mass Effect 3",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=AluTOOCVXVQ"
+            },
+            {
+              "identifier": "J6jMjar",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "PXzv5xs",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "kUF79lu",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "5kET8kC",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "aS6BBzl",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "UQhkNaC",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "1LwAm9b",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "59BoJBT",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "42aFDgw",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "DG0q0jW",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "vVgFuvz",
+              "title": "Nelson",
+              "url_domain": "logdown.com",
+              "url": "http://nelson.logdown.com/"
+            },
+            {
+              "identifier": "CtXvFqM",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "jNlHbHQ",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "IDL3sOb",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "XjOf9Q1",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "5pw65bq",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "hGuUmSP",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ODqGNyi",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "FTduK7J",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "xxddjqn",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "HjDx8gb",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "ZvLs2WF",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "hL7RJO9",
+          "type": "Link",
+          "title": "Is Python call-by-value or call-by-reference? Neither.",
+          "url_domain": "jeffknupp.com",
+          "url": "https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/",
+          "description": "<p>官方的說法叫做 <a href=\"https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference\">call-by-assignment</a>，也有人稱之為 <a href=\"http://effbot.org/zone/call-by-object.htm\">call-by-object</a>。雖然看起來有點抽象，但是有人總結得很好：</p>\n\n<blockquote><p>If you pass a mutable object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.</p>\n\n<p>If you pass an immutable object to a method, you still can't rebind the outer reference, and you can't even mutate the object.</p></blockquote>\n\n<p>再補充一下，例如 <code>def foo(bar):</code> 這個 function 的參數傳遞其實是在 <code>foo</code> 的 local namespace 裡幫傳進去的物件綁定了一個叫做 <code>bar</code> 的名字（所謂的 assignment）；如果你在 <code>foo</code> 裡 re-assign 了一個新的物件給 <code>bar</code>，實際上是把 <code>bar</code> 這個名字綁定到那個新的物件。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference\">How do I pass a variable by reference in Python?</a></li>\n</ul>",
+          "description_markdown": "官方的說法叫做 [call-by-assignment](https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference)，也有人稱之為 [call-by-object](http://effbot.org/zone/call-by-object.htm)。雖然看起來有點抽象，但是有人總結得很好：\r\n\r\n> If you pass a mutable object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.\r\n\r\n> If you pass an immutable object to a method, you still can't rebind the outer reference, and you can't even mutate the object.\r\n\r\n再補充一下，例如 `def foo(bar):` 這個 function 的參數傳遞其實是在 `foo` 的 local namespace 裡幫傳進去的物件綁定了一個叫做 `bar` 的名字（所謂的 assignment）；如果你在 `foo` 裡 re-assign 了一個新的物件給 `bar`，實際上是把 `bar` 這個名字綁定到那個新的物件。\r\n\r\n延伸閱讀：\r\n\r\n- [How do I pass a variable by reference in Python?](http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference)",
+          "embedded_links": [
+            {
+              "identifier": "wSuPIau",
+              "title": "call-by-assignment",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference"
+            },
+            {
+              "identifier": "csjNzZd",
+              "title": "call-by-object",
+              "url_domain": "effbot.org",
+              "url": "http://effbot.org/zone/call-by-object.htm"
+            },
+            {
+              "identifier": "2gw98QO",
+              "title": "How do I pass a variable by reference in Python?",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/986006/how-do-i-pass-a-variable-by-reference"
+            }
+          ]
+        },
+        {
+          "identifier": "gSrdz9t",
+          "type": "Link",
+          "title": "Idiomatic Python: EAFP versus LBYL",
+          "url_domain": "microsoft.com",
+          "url": "https://blogs.msdn.microsoft.com/pythonengineering/2016/06/29/idiomatic-python-eafp-versus-lbyl/",
+          "description": "<p>跟某些語言不同，Python 對於錯誤處理的方式更偏好 EAFP（<strong>E</strong>asier to <strong>A</strong>sk <strong>F</strong>orgiveness than <strong>P</strong>ermission）而不是 LBYL（<strong>L</strong>ook <strong>B</strong>efore <strong>Y</strong>ou <strong>L</strong>eap）。簡單說，EAFP 就是 <code>try-except</code> 而 LBYL 就是 <code>if</code>。</p>\n\n<p>這篇文章的重點其實是在講「可讀性」，說得更精確一點是 <a href=\"https://www.python.org/dev/peps/pep-0020/\">Explicit is better than implicit</a>。作者的論點是，對在讀程式碼的人來說，<code>try-except</code> 其實能夠比較直覺地意識到那段 code 要做什麼事，因為你會先看到那段 <code>try</code> 接著看到可能會發生哪些例外，而不是先看到一串複雜的 <code>if</code> 判斷式。不過 exception 的另一個重點其實是它應該要是 exceptional 的，所以也不是要你把所有的 <code>if</code> 都改用 <code>try-except</code> 吶。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/\">Write Cleaner Python: Use Exceptions</a></li>\n<li><a href=\"https://docs.python.org/3/faq/design.html#how-fast-are-exceptions\">How fast are exceptions in Python?</a></li>\n</ul>",
+          "description_markdown": "跟某些語言不同，Python 對於錯誤處理的方式更偏好 EAFP（**E**asier to **A**sk **F**orgiveness than **P**ermission）而不是 LBYL（**L**ook **B**efore **Y**ou **L**eap）。簡單說，EAFP 就是 `try-except` 而 LBYL 就是 `if`。\r\n\r\n這篇文章的重點其實是在講「可讀性」，說得更精確一點是 [Explicit is better than implicit](https://www.python.org/dev/peps/pep-0020/)。作者的論點是，對在讀程式碼的人來說，`try-except` 其實能夠比較直覺地意識到那段 code 要做什麼事，因為你會先看到那段 `try` 接著看到可能會發生哪些例外，而不是先看到一串複雜的 `if` 判斷式。不過 exception 的另一個重點其實是它應該要是 exceptional 的，所以也不是要你把所有的 `if` 都改用 `try-except` 吶。\r\n\r\n延伸閱讀：\r\n\r\n- [Write Cleaner Python: Use Exceptions](https://jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/)\r\n- [How fast are exceptions in Python?](https://docs.python.org/3/faq/design.html#how-fast-are-exceptions)",
+          "embedded_links": [
+            {
+              "identifier": "kPyczzr",
+              "title": "Explicit is better than implicit",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-0020/"
+            },
+            {
+              "identifier": "6X8agEe",
+              "title": "Write Cleaner Python: Use Exceptions",
+              "url_domain": "jeffknupp.com",
+              "url": "https://jeffknupp.com/blog/2013/02/06/write-cleaner-python-use-exceptions/"
+            },
+            {
+              "identifier": "MYJypIr",
+              "title": "How fast are exceptions in Python?",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/faq/design.html#how-fast-are-exceptions"
+            }
+          ]
+        },
+        {
+          "identifier": "Bfq1J2o",
+          "type": "Link",
+          "title": "hasattr() – A Dangerous Misnomer in Python 2",
+          "url_domain": "hynek.me",
+          "url": "https://hynek.me/articles/hasattr/",
+          "description": "<p>作者強烈地建議大家不要在 Python 2 裡使用 <code>hasattr()</code>，至少是不要對用 <code>@property</code> 裝飾的 method 使用，因為一旦你的 <code>@property</code> method 會拋出任何 exception，你的 <code>hasattr()</code> 的結果永遠都會是 <code>False</code>（而那些 exception 會默默地被 catch 掉），嘖，這個 bug 也太靠北。</p>\n\n<p>不過所幸在 Python 3 就沒有這個問題了。</p>",
+          "description_markdown": "作者強烈地建議大家不要在 Python 2 裡使用 `hasattr()`，至少是不要對用 `@property` 裝飾的 method 使用，因為一旦你的 `@property` method 會拋出任何 exception，你的 `hasattr()` 的結果永遠都會是 `False`（而那些 exception 會默默地被 catch 掉），嘖，這個 bug 也太靠北。\r\n\r\n不過所幸在 Python 3 就沒有這個問題了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "q8mN6nN",
+          "type": "Link",
+          "title": "You don't need Lodash.js / Underscore.js",
+          "url_domain": "github.com",
+          "url": "https://github.com/cht8687/You-Dont-Need-Lodash-Underscore",
+          "description": "<p>繼 <a href=\"http://youmightnotneedjquery.com/\">You Might Not Need jQuery</a> 和 <a href=\"https://github.com/NamPNQ/You-Dont-Need-Javascript\">You Don't Need JavaScript</a> 之後，又出現了 You don't need Lodash.js / Underscore.js 了。</p>\n\n<p>這篇文章就是在告訴你哪些 lodash 和 underscore 的功能其實 native 的 ES5 或 ES6 就支援，不過最棒的是他竟然還為了這個做了一個 ESLint plugin，喔，所有 JavaScript 的事物裡，最喜歡的就是 ESLint 了。</p>",
+          "description_markdown": "繼 [You Might Not Need jQuery](http://youmightnotneedjquery.com/) 和 [You Don't Need JavaScript](https://github.com/NamPNQ/You-Dont-Need-Javascript) 之後，又出現了 You don't need Lodash.js / Underscore.js 了。\r\n\r\n這篇文章就是在告訴你哪些 lodash 和 underscore 的功能其實 native 的 ES5 或 ES6 就支援，不過最棒的是他竟然還為了這個做了一個 ESLint plugin，喔，所有 JavaScript 的事物裡，最喜歡的就是 ESLint 了。",
+          "embedded_links": [
+            {
+              "identifier": "fiMXZaA",
+              "title": "You Might Not Need jQuery",
+              "url_domain": "youmightnotneedjquery.com",
+              "url": "http://youmightnotneedjquery.com/"
+            },
+            {
+              "identifier": "zpTbGlb",
+              "title": "You Don't Need JavaScript",
+              "url_domain": "github.com",
+              "url": "https://github.com/NamPNQ/You-Dont-Need-Javascript"
+            }
+          ]
+        },
+        {
+          "identifier": "WXnVPC0",
+          "type": "Link",
+          "title": "Finding Time to Become a Better Developer",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/finding-time-to-become-a-better-developer-eebc154881b2#.txqzmgmxi",
+          "description": "<p>這是一篇在談時間管理的文章，而且讀起來還挺療癒的。尤其是第 5 點，讓我想到當兵的時候讀過的「<a href=\"http://www.books.com.tw/products/0010520788\">親愛的臥底經濟學家</a>」書裡提到的一句話：「意志力跟其他東西一樣，都是稀有資源，無法超額使用」，大家感受一下。</p>\n\n<p>對一個 developer 來說，決定在什麼時候學什麼（以及不學什麼）其實是個很重要的軟技能啊。像我最近就有意識地不太去追那些 buzzword 新技術，而是多花了一點時間在那些相對更本質、更基礎一點的知識，例如資料結構、Refactoring、SQL 以及更重要的，英語。比如說我這陣子終於找到一個適合自己的學英文的套路，就是「打電動」。媽的，打電動學英文的成就感實在太高，才兩個禮拜我就已經玩完兩款 RPG 了（質量效應 2 和 3），效果顯著啊。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://ingramchen.io/blog/2014/03/learning-deep-and-wide-not-duplicate.html\">Learning deep and wide, not duplicate</a></li>\n<li><a href=\"http://www.ithome.com.tw/voice/99274\">投資組合與技能樹</a></li>\n</ul>",
+          "description_markdown": "這是一篇在談時間管理的文章，而且讀起來還挺療癒的。尤其是第 5 點，讓我想到當兵的時候讀過的「[親愛的臥底經濟學家](http://www.books.com.tw/products/0010520788)」書裡提到的一句話：「意志力跟其他東西一樣，都是稀有資源，無法超額使用」，大家感受一下。\r\n\r\n對一個 developer 來說，決定在什麼時候學什麼（以及不學什麼）其實是個很重要的軟技能啊。像我最近就有意識地不太去追那些 buzzword 新技術，而是多花了一點時間在那些相對更本質、更基礎一點的知識，例如資料結構、Refactoring、SQL 以及更重要的，英語。比如說我這陣子終於找到一個適合自己的學英文的套路，就是「打電動」。媽的，打電動學英文的成就感實在太高，才兩個禮拜我就已經玩完兩款 RPG 了（質量效應 2 和 3），效果顯著啊。\r\n\r\n延伸閱讀：\r\n\r\n- [Learning deep and wide, not duplicate](https://ingramchen.io/blog/2014/03/learning-deep-and-wide-not-duplicate.html)\r\n- [投資組合與技能樹](http://www.ithome.com.tw/voice/99274)",
+          "embedded_links": [
+            {
+              "identifier": "mGPv8tx",
+              "title": "親愛的臥底經濟學家",
+              "url_domain": "books.com.tw",
+              "url": "http://www.books.com.tw/products/0010520788"
+            },
+            {
+              "identifier": "4Kxj0KQ",
+              "title": "Learning deep and wide, not duplicate",
+              "url_domain": "ingramchen.io",
+              "url": "https://ingramchen.io/blog/2014/03/learning-deep-and-wide-not-duplicate.html"
+            },
+            {
+              "identifier": "IVQYY7L",
+              "title": "投資組合與技能樹",
+              "url_domain": "ithome.com.tw",
+              "url": "http://www.ithome.com.tw/voice/99274"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "foyv4YN",
+          "type": "Link",
+          "title": "Good coding instincts will eventually kick you in the teeth",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/good-coding-instincts-will-eventually-kick-you-in-the-teeth-2b3766897f3f#.wl0uue74a",
+          "description": "<p>上一期 <a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> 分享了一篇關於 debug 的文章: <a href=\"http://www.informit.com/articles/article.aspx?p=1941206\">\n\"The Best Programming Advice I Ever Got\" with Rob Pike</a> 是在說開始用工具 debug 之前，先在腦中思考一次程式運行整體的狀況。</p>\n\n<p>不過還是會有毫無頭緒的時候，這種情形在接手別人的 project 時特別常見，作者分享了一些他在這種情況下 debugging 的紀律跟技巧。</p>\n\n<p>其中對於用測試來 debugging 的部分，我認為的確是很好的紀律，比在 production code 上硬改跟強行 log 來得合理，而且也可以透過 mock object 的使用一次針對一個方向去猜。</p>\n\n<p>文章裡面沒有提到，但我認為更重要的是，透過這種方式 debug 完之後，你自然也有了針對這個 bug 的 test case，避免這個 bug 還會再次出現。</p>\n\n<p>註：文章裡面有提到 RTFM (read the fucking manual)，我看到 RTFM 就忍不住想說一個笑話：</p>\n\n<blockquote><p>菜鳥工程師：我要怎麼做這個 ...<br/>\n資深工程師：RTFM！<br/>\n菜鳥工程師：npm install <a href=\"https://www.npmjs.com/package/rtfm\">RTFM</a></p></blockquote>",
+          "description_markdown": "上一期 [@kkdai](https://twitter.com/Evan_Lin) 分享了一篇關於 debug 的文章: [\r\n\"The Best Programming Advice I Ever Got\" with Rob Pike](http://www.informit.com/articles/article.aspx?p=1941206) 是在說開始用工具 debug 之前，先在腦中思考一次程式運行整體的狀況。\r\n\r\n不過還是會有毫無頭緒的時候，這種情形在接手別人的 project 時特別常見，作者分享了一些他在這種情況下 debugging 的紀律跟技巧。\r\n\r\n其中對於用測試來 debugging 的部分，我認為的確是很好的紀律，比在 production code 上硬改跟強行 log 來得合理，而且也可以透過 mock object 的使用一次針對一個方向去猜。\r\n\r\n文章裡面沒有提到，但我認為更重要的是，透過這種方式 debug 完之後，你自然也有了針對這個 bug 的 test case，避免這個 bug 還會再次出現。\r\n\r\n註：文章裡面有提到 RTFM (read the fucking manual)，我看到 RTFM 就忍不住想說一個笑話：\r\n> 菜鳥工程師：我要怎麼做這個 ...  \r\n資深工程師：RTFM！  \r\n菜鳥工程師：npm install [RTFM](https://www.npmjs.com/package/rtfm)",
+          "embedded_links": [
+            {
+              "identifier": "m8mCoco",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "z4EG2ty",
+              "title": "\r\n\"The Best Programming Advice I Ever Got\" with Rob Pike",
+              "url_domain": "informit.com",
+              "url": "http://www.informit.com/articles/article.aspx?p=1941206"
+            },
+            {
+              "identifier": "u61gEzJ",
+              "title": "RTFM",
+              "url_domain": "npmjs.com",
+              "url": "https://www.npmjs.com/package/rtfm"
+            }
+          ]
+        },
+        {
+          "identifier": "2ifbQp9",
+          "type": "Link",
+          "title": "Machine Learning for iOS in Swift",
+          "url_domain": "invasivecode.com",
+          "url": "https://www.invasivecode.com/weblog/machine-learning-swift-ios/",
+          "description": "<p>文章的引言直接就說 WWDC 16 除了 Swift 3 之外，其它的更新無論是給使用者的功能或是提供給開發者的工具幾乎都跟 AI 有關。</p>\n\n<p>這幾年 Machine Learning 的趨勢化除了運算效能的提升跟成本的下降之外，最重要的還是 <a href=\"https://en.wikipedia.org/wiki/Artificial_neural_network\">神經網路模型</a> 的應用。</p>\n\n<p>這篇文章也對於 AI, Machine Learning, Neural Network 的背景跟基礎知識做了簡單介紹，特別適合沒有相關經驗的人。</p>\n\n<p>Apple 這次在 <a href=\"https://developer.apple.com/library/ios/documentation/Accelerate/Reference/AccelerateFWRef/\">Accelerate</a> 跟 <a href=\"https://developer.apple.com/metal/\">Metal</a> framework 提供了 <a href=\"http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/\">Convolutional Neural Networks</a> 在 CPU 跟 GPU 上的實作，這個模型適合處理圖片跟聲音，剛好手機裝置可以錄音跟拍照，正好可以拿來做深度學習。</p>\n\n<p>當然文章裡也用 Swift 簡單地實作了一個神經網路。</p>\n\n<p>其實我是現在才猛然注意到 Machine Learning 跟 iOS 開發有關聯，後來一想其實很合理啊，果然長期做 client side app，想法都窄了呢。</p>\n\n<p>延伸：<a href=\"https://www.bignerdranch.com/blog/neural-networks-in-ios-10-and-macos/\">Neural Networks in iOS 10 and macOS (Big Nerd Ranch)</a></p>",
+          "description_markdown": "文章的引言直接就說 WWDC 16 除了 Swift 3 之外，其它的更新無論是給使用者的功能或是提供給開發者的工具幾乎都跟 AI 有關。\r\n\r\n這幾年 Machine Learning 的趨勢化除了運算效能的提升跟成本的下降之外，最重要的還是 [神經網路模型](https://en.wikipedia.org/wiki/Artificial_neural_network) 的應用。  \r\n\r\n這篇文章也對於 AI, Machine Learning, Neural Network 的背景跟基礎知識做了簡單介紹，特別適合沒有相關經驗的人。\r\n\r\nApple 這次在 [Accelerate](https://developer.apple.com/library/ios/documentation/Accelerate/Reference/AccelerateFWRef/) 跟 [Metal](https://developer.apple.com/metal/) framework 提供了 [Convolutional Neural Networks](http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/) 在 CPU 跟 GPU 上的實作，這個模型適合處理圖片跟聲音，剛好手機裝置可以錄音跟拍照，正好可以拿來做深度學習。\r\n\r\n當然文章裡也用 Swift 簡單地實作了一個神經網路。\r\n\r\n其實我是現在才猛然注意到 Machine Learning 跟 iOS 開發有關聯，後來一想其實很合理啊，果然長期做 client side app，想法都窄了呢。\r\n\r\n延伸：[Neural Networks in iOS 10 and macOS (Big Nerd Ranch)](https://www.bignerdranch.com/blog/neural-networks-in-ios-10-and-macos/)",
+          "embedded_links": [
+            {
+              "identifier": "g2LrZwY",
+              "title": "神經網路模型",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Artificial_neural_network"
+            },
+            {
+              "identifier": "4ke02YN",
+              "title": "Accelerate",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/ios/documentation/Accelerate/Reference/AccelerateFWRef/"
+            },
+            {
+              "identifier": "HzgKC4L",
+              "title": "Metal",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/metal/"
+            },
+            {
+              "identifier": "PHvcNEb",
+              "title": "Convolutional Neural Networks",
+              "url_domain": "wildml.com",
+              "url": "http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/"
+            },
+            {
+              "identifier": "33w5sIG",
+              "title": "Neural Networks in iOS 10 and macOS (Big Nerd Ranch)",
+              "url_domain": "bignerdranch.com",
+              "url": "https://www.bignerdranch.com/blog/neural-networks-in-ios-10-and-macos/"
+            }
+          ]
+        },
+        {
+          "identifier": "8tBCXeb",
+          "type": "Link",
+          "title": "Little Bites of Cocoa - Tips and techniques for iOS and Mac development",
+          "url_domain": "littlebitesofcocoa.com",
+          "url": "https://littlebitesofcocoa.com/",
+          "description": "<p>每個平日早上 9:42 都會發出一篇 iOS 或 Mac 相關的文章，篇幅不大，比較大的 topic 可能會拆開分好幾天發。非常適合每天上班先花五分鐘看一下這個再上 Facebook。</p>\n\n<p>我覺得這系列就還不錯：<br/>\n<a href=\"https://littlebitesofcocoa.com/223-standard-setup\">#223: Standard Setup</a><br/>\n<a href=\"https://littlebitesofcocoa.com/224-standard-architecture\">#224: Standard Architecture</a></p>",
+          "description_markdown": "每個平日早上 9:42 都會發出一篇 iOS 或 Mac 相關的文章，篇幅不大，比較大的 topic 可能會拆開分好幾天發。非常適合每天上班先花五分鐘看一下這個再上 Facebook。 \r\n\r\n我覺得這系列就還不錯：  \r\n[#223: Standard Setup](https://littlebitesofcocoa.com/223-standard-setup)  \r\n[#224: Standard Architecture](https://littlebitesofcocoa.com/224-standard-architecture)",
+          "embedded_links": [
+            {
+              "identifier": "OXMbhoR",
+              "title": "#223: Standard Setup",
+              "url_domain": "littlebitesofcocoa.com",
+              "url": "https://littlebitesofcocoa.com/223-standard-setup"
+            },
+            {
+              "identifier": "JlZioiD",
+              "title": "#224: Standard Architecture",
+              "url_domain": "littlebitesofcocoa.com",
+              "url": "https://littlebitesofcocoa.com/224-standard-architecture"
+            }
+          ]
+        },
+        {
+          "identifier": "BpaBm5W",
+          "type": "Link",
+          "title": "No More findViewById — Google Developers",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/google-developers/no-more-findviewbyid-457457644885#.vpv5wfuy8",
+          "description": "<p>利用 <a href=\"https://developer.android.com/topic/libraries/data-binding/index.html#studio_support\">Data Binding</a> 來取代 <code>findViewById()</code>，看起來比較清爽、不需要再強制轉型 view type 更保險，而且效能也提高了一些些。</p>\n\n<p>Data Binding 這個套件庫野心很大，像是在 xml 裡面 import packages 或用它的 expression language 這些功能我還是感覺蠻猶豫的，但至少就這個取代 <code>findViewById()</code> 的特性我是非常同意的，也從這個誘因開始，先把 Data Binding 的環境處理好。</p>",
+          "description_markdown": "利用 [Data Binding](https://developer.android.com/topic/libraries/data-binding/index.html#studio_support) 來取代 `findViewById()`，看起來比較清爽、不需要再強制轉型 view type 更保險，而且效能也提高了一些些。\r\n\r\nData Binding 這個套件庫野心很大，像是在 xml 裡面 import packages 或用它的 expression language 這些功能我還是感覺蠻猶豫的，但至少就這個取代 `findViewById()` 的特性我是非常同意的，也從這個誘因開始，先把 Data Binding 的環境處理好。",
+          "embedded_links": [
+            {
+              "identifier": "emozWdd",
+              "title": "Data Binding",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/topic/libraries/data-binding/index.html#studio_support"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "cjtciMk",
+          "type": "Link",
+          "title": "白石ゆうか (@shiraishi_yuuka) • Instagram photos and videos",
+          "url_domain": "instagram.com",
+          "url": "https://www.instagram.com/shiraishi_yuuka/",
+          "description": "<p>本期我的部分多半是自己的書籤或是看到一半的內容分享，心得較少。\n只好先附上 IG 推薦來充數了。</p>",
+          "description_markdown": "本期我的部分多半是自己的書籤或是看到一半的內容分享，心得較少。\r\n只好先附上 IG 推薦來充數了。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "ce207574-e0cb-4365-993a-ac07a02a3c03.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_ce207574-e0cb-4365-993a-ac07a02a3c03.jpg",
+          "image_medium_filename": "original_ratio_medium_ce207574-e0cb-4365-993a-ac07a02a3c03.jpg"
+        },
+        {
+          "identifier": "ucEZJ7n",
+          "type": "Link",
+          "title": "Tensorflow tutorial Python (Eng Sub) 神经网络 教学 学习教程 - YouTube",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PLXO45tsB95cKI5AIlf5TxxFPzb-0zeVZ8",
+          "description": "<p>用 Tensorflow 建構類神經網路做 deep-learning 的教學系列影片。\n（好吧，我自己還沒開始看……）</p>\n\n<p>英語版： <a href=\"https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f\">https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f</a></p>",
+          "description_markdown": "用 Tensorflow 建構類神經網路做 deep-learning 的教學系列影片。\r\n（好吧，我自己還沒開始看……）\r\n\r\n英語版： [https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f](https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f)",
+          "embedded_links": [
+            {
+              "identifier": "gy4xUWq",
+              "title": "https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/playlist?list=PLXO45tsB95cJHXaDKpbwr5fC_CCYylw1f"
+            }
+          ]
+        },
+        {
+          "identifier": "iHHSLBk",
+          "type": "Link",
+          "title": "用 Scheme 實作一個Tensorflow (1)",
+          "url_domain": "github.io",
+          "url": "https://odie2630463.github.io/2016/07/06/scheme-nn/",
+          "description": "<p>在用 Tensorflow 來做 deep-learning 之前，先自己刻一個簡單版來了解它的構造吧！（大誤）</p>\n\n<p>P.S. 文中提到 <a href=\"https://mitpress.mit.edu/sicp/\">SICP</a>，最近同事也在讀 <a href=\"http://www.scheme.com/tspl4/\">The Scheme\nProgramming Language</a>。讓我又想把 Scheme 撿回來複習一下了。</p>",
+          "description_markdown": "在用 Tensorflow 來做 deep-learning 之前，先自己刻一個簡單版來了解它的構造吧！（大誤）\r\n\r\nP.S. 文中提到 [SICP](https://mitpress.mit.edu/sicp/)，最近同事也在讀 [The Scheme\r\nProgramming Language](http://www.scheme.com/tspl4/)。讓我又想把 Scheme 撿回來複習一下了。",
+          "embedded_links": [
+            {
+              "identifier": "9SG46Xb",
+              "title": "SICP",
+              "url_domain": "mit.edu",
+              "url": "https://mitpress.mit.edu/sicp/"
+            },
+            {
+              "identifier": "ylmhaLD",
+              "title": "The Scheme\r\nProgramming Language",
+              "url_domain": "scheme.com",
+              "url": "http://www.scheme.com/tspl4/"
+            }
+          ]
+        },
+        {
+          "identifier": "R0tR3fA",
+          "type": "Link",
+          "title": "“Function” objects are not a thing",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@eric.programmer/function-objects-are-not-a-thing-97cd14351889#.fvbxck30p",
+          "description": "<p><del>這又是一篇 OO 基本教義派文章。</del></p>\n\n<p>TL;DR 不要寫出當 function 用的 class/object。</p>\n\n<p><strong>到底 helper/util class 是否算不良的 OO 設計？</strong> 是個歷久不衰的話題，隨便搜尋就可以找到一堆討論文章：</p>\n\n<ul>\n<li><a href=\"http://oo-programming.blogspot.tw/2009/06/util-classes-must-die.html\">Util Classes Must Die</a></li>\n<li><a href=\"http://stackoverflow.com/questions/3340032/utility-classes-are-evil\">Utility classes are evil?</a></li>\n<li><a href=\"http://jamesjwang.blogspot.tw/2012/05/why-stateless-utility-class-with-static.html\">Why stateless utility class with static methods is bad?</a></li>\n</ul>",
+          "description_markdown": "~~這又是一篇 OO 基本教義派文章。~~\r\n\r\nTL;DR 不要寫出當 function 用的 class/object。\r\n\r\n**到底 helper/util class 是否算不良的 OO 設計？** 是個歷久不衰的話題，隨便搜尋就可以找到一堆討論文章：\r\n\r\n- [Util Classes Must Die](http://oo-programming.blogspot.tw/2009/06/util-classes-must-die.html)\r\n- [Utility classes are evil?](http://stackoverflow.com/questions/3340032/utility-classes-are-evil) \r\n- [Why stateless utility class with static methods is bad?](http://jamesjwang.blogspot.tw/2012/05/why-stateless-utility-class-with-static.html)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "3mFbOoU",
+              "title": "Util Classes Must Die",
+              "url_domain": "blogspot.tw",
+              "url": "http://oo-programming.blogspot.tw/2009/06/util-classes-must-die.html"
+            },
+            {
+              "identifier": "EpyGNjo",
+              "title": "Utility classes are evil?",
+              "url_domain": "stackoverflow.com",
+              "url": "http://stackoverflow.com/questions/3340032/utility-classes-are-evil"
+            },
+            {
+              "identifier": "qUHoH8v",
+              "title": "Why stateless utility class with static methods is bad?",
+              "url_domain": "blogspot.tw",
+              "url": "http://jamesjwang.blogspot.tw/2012/05/why-stateless-utility-class-with-static.html"
+            }
+          ]
+        },
+        {
+          "identifier": "7jo9oaJ",
+          "type": "Link",
+          "title": "Big-O Complexities / Poster of common algorithms used in Computer Science",
+          "url_domain": "github.com",
+          "url": "https://github.com/ro31337/bigoposter",
+          "description": "<p>常用演算法與資料結構的時間複雜度海報，可以印出來貼在牆上參考用。</p>",
+          "description_markdown": "常用演算法與資料結構的時間複雜度海報，可以印出來貼在牆上參考用。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "OM6De4d",
+          "type": "Link",
+          "title": "When someone says \"You don't need a library for that!\" then shows you how to implement it manually.",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/ossia/status/751561367946076160",
+          "description": "<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供</p>",
+          "description_markdown": "由 [@saiday](https://twitter.com/saiday) 提供",
+          "embedded_links": [
+            {
+              "identifier": "bJiXLV8",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ],
+          "image_original_filename": "dc42aa2d-78fb-4423-abc2-76be8cf4306b.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_dc42aa2d-78fb-4423-abc2-76be8cf4306b.jpg",
+          "image_medium_filename": "original_ratio_medium_dc42aa2d-78fb-4423-abc2-76be8cf4306b.jpg"
+        }
+      ]
+    }
+  ]
+}

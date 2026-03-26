@@ -1,0 +1,413 @@
+{
+  "number": 13,
+  "title": "Issue 13 為了理解遞迴，首先你得理解遞迴",
+  "summary": "本期內容涵蓋 Core Data, iOS, Android, Functional Reactive Programming, CSS, JavaScript, 開會技巧, 技術團隊管理",
+  "url": "https://weekly.codetengu.com/issues/13",
+  "publication_status": "published",
+  "published_at": "2015-10-26T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:18:02+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - <strong>捷運飲食推廣委員</strong></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - <strong>希望大家不要跑去宜蘭玩了啦</strong></li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，<strong>副業是前端工程師</strong></li>\n</ul>\n\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n本期 curators：\r\n\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - **捷運飲食推廣委員**\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - **希望大家不要跑去宜蘭玩了啦**\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，**副業是前端工程師**\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "PJEqBkb",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "gdg5gB6",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "yajM6xb",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "DwHwsNN",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "8S0ugXv",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "P11LDeJ",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "qMQXEB8",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "ydojgGJ",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "m7KT76H",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "XkLMoDR",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "wEtObmG",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "HoSDjjT",
+          "type": "Link",
+          "title": "Introducing the Big Nerd Ranch Core Data Stack",
+          "url_domain": "bignerdranch.com",
+          "url": "https://www.bignerdranch.com/blog/introducing-the-big-nerd-ranch-core-data-stack/?utm_campaign=iOS%2BLearning%2B%2BWeekly&utm_medium=email&utm_source=iOS_Learning_Weekly_27",
+          "description": "<p>iOS 開發者們在做數據儲存是用 Core Data、<a href=\"https://github.com/ccgus/fmdb\">fmdb</a> 還是 <a href=\"https://realm.io/\">realm</a>？如果你還沒決定也許 <a href=\"https://www.bipsync.com/blog/evaluating-ios-data-storage-options/\">Evaluating iOS data storage options: Core Data, FMDB and Realm</a> 能給你一點點輪廓。</p>\n\n<p>不過這篇就是講 Core Data 就是了。\nBig Nerd Ranch 講解了三個常見的 Core Data stack pattern (列在下面)，有圖表跟優缺點介紹，以及分享他們自己基於第二跟第三種 pattern 組合起來的 best practice。開源了 <a href=\"https://github.com/bignerdranch/CoreDataStack\">bignerdranch/CoreDataStack</a>。</p>\n\n<ul>\n<li>Shared Persistent Store Coordinator Pattern</li>\n<li>Nested Managed Object Context Pattern</li>\n<li>Shared Store Stack Pattern</li>\n</ul>",
+          "description_markdown": "iOS 開發者們在做數據儲存是用 Core Data、[fmdb](https://github.com/ccgus/fmdb) 還是 [realm](https://realm.io/)？如果你還沒決定也許 [Evaluating iOS data storage options: Core Data, FMDB and Realm](https://www.bipsync.com/blog/evaluating-ios-data-storage-options/) 能給你一點點輪廓。 \r\n\r\n不過這篇就是講 Core Data 就是了。\r\nBig Nerd Ranch 講解了三個常見的 Core Data stack pattern (列在下面)，有圖表跟優缺點介紹，以及分享他們自己基於第二跟第三種 pattern 組合起來的 best practice。開源了 [bignerdranch/CoreDataStack](https://github.com/bignerdranch/CoreDataStack)。\r\n\r\n- Shared Persistent Store Coordinator Pattern\r\n- Nested Managed Object Context Pattern\r\n- Shared Store Stack Pattern",
+          "embedded_links": [
+            {
+              "identifier": "a3PS0aF",
+              "title": "fmdb",
+              "url_domain": "github.com",
+              "url": "https://github.com/ccgus/fmdb"
+            },
+            {
+              "identifier": "MQbhIBf",
+              "title": "realm",
+              "url_domain": "realm.io",
+              "url": "https://realm.io/"
+            },
+            {
+              "identifier": "N4pJeeP",
+              "title": "Evaluating iOS data storage options: Core Data, FMDB and Realm",
+              "url_domain": "bipsync.com",
+              "url": "https://www.bipsync.com/blog/evaluating-ios-data-storage-options/"
+            },
+            {
+              "identifier": "AnKr0e9",
+              "title": "bignerdranch/CoreDataStack",
+              "url_domain": "github.com",
+              "url": "https://github.com/bignerdranch/CoreDataStack"
+            }
+          ]
+        },
+        {
+          "identifier": "cnnVjlj",
+          "type": "Link",
+          "title": "A Better Way to Automatically Merge Changes in Your Xcode Project Files",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/ios-os-x-development/a-better-way-to-automatically-merge-changes-in-your-xcode-project-files-3d83b3583fe4#.6ncssgjlx",
+          "description": "<p>在 iOS 多人開發的環境下，大家應該對 git 上出現 <code>project.pbxproj</code> conflict 不陌生，常常有人新增一些檔案就要手動解決 conflicts 了，很浪費時間啊。</p>\n\n<p><a href=\"https://github.com/simonwagner/mergepbx\">mergepbx</a> 這套開源項目是了解 <code>.pbxproj</code> 應該長什麼樣的 script，可以幫助我們自動 merge 煩人的 <code>.pbxproj</code> conflicts。</p>\n\n<p>另外如果你嫌麻煩的話，可以試試對 <code>.pbxproj</code> 採用 git 的 merge policy <code>union</code>， <code>union</code> 是不會產生 conflict 而直接保存兩個 commit 的變更。也就是說就可能會有一個情況是你的 <code>.pbxproj</code> 會變成 Xcode 打不開的格式。</p>\n\n<p>註：<a href=\"https://git-scm.com/docs/git-merge-file#_options\">git-merge-file union</a></p>",
+          "description_markdown": "在 iOS 多人開發的環境下，大家應該對 git 上出現 `project.pbxproj` conflict 不陌生，常常有人新增一些檔案就要手動解決 conflicts 了，很浪費時間啊。\r\n\r\n[mergepbx](https://github.com/simonwagner/mergepbx) 這套開源項目是了解 `.pbxproj` 應該長什麼樣的 script，可以幫助我們自動 merge 煩人的 `.pbxproj` conflicts。\r\n\r\n另外如果你嫌麻煩的話，可以試試對 `.pbxproj` 採用 git 的 merge policy `union`， `union` 是不會產生 conflict 而直接保存兩個 commit 的變更。也就是說就可能會有一個情況是你的 `.pbxproj` 會變成 Xcode 打不開的格式。\r\n\r\n註：[git-merge-file union](https://git-scm.com/docs/git-merge-file#_options)",
+          "embedded_links": [
+            {
+              "identifier": "dH938HH",
+              "title": "mergepbx",
+              "url_domain": "github.com",
+              "url": "https://github.com/simonwagner/mergepbx"
+            },
+            {
+              "identifier": "7KZSN2r",
+              "title": "git-merge-file union",
+              "url_domain": "git-scm.com",
+              "url": "https://git-scm.com/docs/git-merge-file#_options"
+            }
+          ]
+        },
+        {
+          "identifier": "mQf2CRR",
+          "type": "Link",
+          "title": "Speed up your app  (Droidcon NYC 2015) ",
+          "url_domain": "udinic.com",
+          "url": "http://blog.udinic.com/2015/09/15/speed-up-your-app",
+          "description": "<p>在 CodeTengu <a href=\"http://weekly.codetengu.com/issues/6#start\">Issue 6</a> 有推過 <a href=\"https://twitter.com/udinic\">Udi Cohen</a> 在 Droidcon NYC 的投影片，因為我覺得投影片的內容就很豐富了，並且說等它的錄影片段出來會推到粉絲團。沒想到影片出來是出來了竟然還搭著文章一起，因為內容又太豐富而且有些是投影片中沒有的，我決定再推一次。</p>\n\n<p>在文章中他很詳細的解釋怎麼用這些 profiling tools 跟提示訊息對應的意思，非常有教育意義！</p>",
+          "description_markdown": "在 CodeTengu [Issue 6](http://weekly.codetengu.com/issues/6#start) 有推過 [Udi Cohen](https://twitter.com/udinic) 在 Droidcon NYC 的投影片，因為我覺得投影片的內容就很豐富了，並且說等它的錄影片段出來會推到粉絲團。沒想到影片出來是出來了竟然還搭著文章一起，因為內容又太豐富而且有些是投影片中沒有的，我決定再推一次。\r\n\r\n在文章中他很詳細的解釋怎麼用這些 profiling tools 跟提示訊息對應的意思，非常有教育意義！",
+          "embedded_links": [
+            {
+              "identifier": "akjrwJ6",
+              "title": "Issue 6",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/6#start"
+            },
+            {
+              "identifier": "TXZo7gg",
+              "title": "Udi Cohen",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/udinic"
+            }
+          ]
+        },
+        {
+          "identifier": "bMNgU7U",
+          "type": "Link",
+          "title": "A private Maven repository for Android in 30 min · Jeroen Mols",
+          "url_domain": "github.io",
+          "url": "http://jeroenmols.github.io/blog/2015/08/06/artifactory/",
+          "description": "<p>大家都在使用 Gradle 來做 Android 的依賴管理了，往往在公司內部可能會流傳著一些神祕 Utils 還是什麼號稱萬用的套件庫，平常 import 來 import 去的又可能有一些改動，實在很麻煩啊。<br/>\n如果有一個私人的 maven repository 就什麼都搞定了！</p>\n\n<p>這篇文章選擇使用 <a href=\"https://www.jfrog.com/open-source/\">Artifactory</a> 這個 open source maven repository manager 來管理我們的私人 maven artifacts，他說只要 30 分鐘就能完成了，看起來也真的蠻簡單方便的。</p>",
+          "description_markdown": "大家都在使用 Gradle 來做 Android 的依賴管理了，往往在公司內部可能會流傳著一些神祕 Utils 還是什麼號稱萬用的套件庫，平常 import 來 import 去的又可能有一些改動，實在很麻煩啊。  \r\n如果有一個私人的 maven repository 就什麼都搞定了！\r\n\r\n這篇文章選擇使用 [Artifactory](https://www.jfrog.com/open-source/) 這個 open source maven repository manager 來管理我們的私人 maven artifacts，他說只要 30 分鐘就能完成了，看起來也真的蠻簡單方便的。",
+          "embedded_links": [
+            {
+              "identifier": "P0urXnp",
+              "title": "Artifactory",
+              "url_domain": "jfrog.com",
+              "url": "https://www.jfrog.com/open-source/"
+            }
+          ]
+        },
+        {
+          "identifier": "ws7mumo",
+          "type": "Link",
+          "title": "Functional Reactive Programming in an Imperative World, with Nacho Soto",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/nacho-soto-functional-reactive-programming/",
+          "description": "<p>又是一個關於 Functional reactive programming 的 talk，推薦的原因是這個 talk 不是那麼的學院派地介紹及講著我們其實很少會用到的實作方式以展現 functional reactive programming 的威力。</p>\n\n<p>這個 talk 以 client 對 sever 發 request 當例子，先以 imperative programming (一般代碼) 寫一次，然後用 functional reactive programming 的方式再寫一次。</p>\n\n<p>在結尾的這句話我覺得說得挺好</p>\n\n<blockquote><p>In a modern codebase of hundreds or thousands of files, the job of the engineer stands beyond contributing to the massive code. It should be our duty to make the code as manageable and scalable as possible. We can do so by reducing complexity, and FRP one great way to do so.</p></blockquote>\n\n<p>這個 Talk 的作者是 <a href=\"http://elevateapp.com/\">elevate app</a> 的 tech lead，其實我也是 elevate 的腦粉。</p>\n\n<p>註：這個 Talk 是以 <a href=\"https://github.com/ReactiveCocoa/ReactiveCocoa\">ReactiveCocoa</a> 及 Swift 示範</p>",
+          "description_markdown": "又是一個關於 Functional reactive programming 的 talk，推薦的原因是這個 talk 不是那麼的學院派地介紹及講著我們其實很少會用到的實作方式以展現 functional reactive programming 的威力。\r\n\r\n這個 talk 以 client 對 sever 發 request 當例子，先以 imperative programming (一般代碼) 寫一次，然後用 functional reactive programming 的方式再寫一次。\r\n\r\n在結尾的這句話我覺得說得挺好\r\n> In a modern codebase of hundreds or thousands of files, the job of the engineer stands beyond contributing to the massive code. It should be our duty to make the code as manageable and scalable as possible. We can do so by reducing complexity, and FRP one great way to do so.\r\n\r\n這個 Talk 的作者是 [elevate app](http://elevateapp.com/) 的 tech lead，其實我也是 elevate 的腦粉。\r\n\r\n註：這個 Talk 是以 [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) 及 Swift 示範",
+          "embedded_links": [
+            {
+              "identifier": "PhpUWiq",
+              "title": "elevate app",
+              "url_domain": "elevateapp.com",
+              "url": "http://elevateapp.com/"
+            },
+            {
+              "identifier": "rxHOlPw",
+              "title": "ReactiveCocoa",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveCocoa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "dTRPVVE",
+          "type": "Link",
+          "title": "Meetings",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@padday/meetings-e27767bcf6b6#.o35v2id43",
+          "description": "<p>這幾年讀了許多的書, 主要都還是職場、工作有關的書，許多書都會提到開會這件事, 這篇文章就在說如何開一場好會。</p>\n\n<p>也分享一下, 這是我看書以及這幾年工作的心得:</p>\n\n<ul>\n<li>準時開會</li>\n<li>開會前後的十幾分鐘大家都會沒辦法專心工作, 因為待會要開會了, 會停下手邊的事。 開會是有花費的, 而且不僅只是開會那段時間而已。</li>\n<li>開會前先通知與會人員開會要討論的事情, 與會人員可以預先思考, 或是方便收集資料作出正確的判斷, 而且 ... 開會也可以比較快結束。</li>\n<li>會議要有主要負責人, 例如修正開會中討論的方向偏差, 以及確認開會時間準時結束。</li>\n<li>要有人做會議記錄, 記錄討論決策、後續執行事項負責人、完成時間。</li>\n<li>會議結束前, 跟所有人確認開會決定的事項, 個別負責的事情。</li>\n<li>最後, 會議記錄很重要, 不要叫菜鳥做。</li>\n</ul>\n\n\n<p>先前看過一本書叫「華頓商學院最受歡迎的談判課」裡面就有強調會議記錄的重要性, 大家有興趣可以看看。</p>",
+          "description_markdown": "這幾年讀了許多的書, 主要都還是職場、工作有關的書，許多書都會提到開會這件事, 這篇文章就在說如何開一場好會。\r\n\r\n也分享一下, 這是我看書以及這幾年工作的心得:\r\n\r\n* 準時開會\r\n* 開會前後的十幾分鐘大家都會沒辦法專心工作, 因為待會要開會了, 會停下手邊的事。 開會是有花費的, 而且不僅只是開會那段時間而已。\r\n* 開會前先通知與會人員開會要討論的事情, 與會人員可以預先思考, 或是方便收集資料作出正確的判斷, 而且 ... 開會也可以比較快結束。\r\n* 會議要有主要負責人, 例如修正開會中討論的方向偏差, 以及確認開會時間準時結束。\r\n* 要有人做會議記錄, 記錄討論決策、後續執行事項負責人、完成時間。\r\n* 會議結束前, 跟所有人確認開會決定的事項, 個別負責的事情。\r\n* 最後, 會議記錄很重要, 不要叫菜鳥做。 \r\n\r\n先前看過一本書叫「華頓商學院最受歡迎的談判課」裡面就有強調會議記錄的重要性, 大家有興趣可以看看。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "RyNlQuU",
+          "type": "Link",
+          "title": "The Hidden Costs That Engineers Ignore",
+          "url_domain": "theeffectiveengineer.com",
+          "url": "http://www.theeffectiveengineer.com/blog/hidden-costs-that-engineers-ignore",
+          "description": "<p>這是一篇非常棒的文章, 跟我這陣子形成的觀點幾乎一樣。</p>\n\n<p>雖然一開頭用「It’ll only take me a few hours to implement the feature」這句老話開頭, 不過這篇主要不只講程式碼, 而是包含了程式碼、系統、專案, 以及組織, 這四個東西裡面所隱含的複雜性問題。</p>\n\n<p>像是程式碼寫的太複雜、用了太新的技術, 導致其他 team member 沒辦法很快接手, 或者是產品太複雜、功能太多等。</p>\n\n<p>文章後半也有提到如何對付這些複雜性問題, 其中一點我覺得很有趣, 作者說他在 Quora 舉辦了一次「Code Purge Day 」並且有排行榜, 讓這件事更有趣。</p>\n\n<p>我想這篇我會在部落格另外寫一篇, 因為我差點就在這裡寫得太長了。</p>",
+          "description_markdown": "這是一篇非常棒的文章, 跟我這陣子形成的觀點幾乎一樣。 \r\n\r\n雖然一開頭用「It’ll only take me a few hours to implement the feature」這句老話開頭, 不過這篇主要不只講程式碼, 而是包含了程式碼、系統、專案, 以及組織, 這四個東西裡面所隱含的複雜性問題。\r\n\r\n像是程式碼寫的太複雜、用了太新的技術, 導致其他 team member 沒辦法很快接手, 或者是產品太複雜、功能太多等。\r\n\r\n文章後半也有提到如何對付這些複雜性問題, 其中一點我覺得很有趣, 作者說他在 Quora 舉辦了一次「Code Purge Day 」並且有排行榜, 讓這件事更有趣。 \r\n\r\n我想這篇我會在部落格另外寫一篇, 因為我差點就在這裡寫得太長了。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "2toMXvp",
+          "type": "Link",
+          "title": "如何才能成为一个好的技术领导者？",
+          "url_domain": "infoq.com",
+          "url": "http://www.infoq.com/cn/news/2015/10/Technology-Leader",
+          "description": "<p>這篇文章主要是下面這幾個重點, 我覺得很不錯, 身為一個技術領導者, 以下幾點都得做到。</p>\n\n<ol>\n<li>如果不能從幫助團隊獲得滿足感，那麼就不要成為一名領導者</li>\n<li>將自己視為其他開發人員的導師</li>\n<li>隨時準備好回答團隊成員的問題</li>\n<li>減少具體的編碼工作，但仍然要編碼</li>\n<li>要謙遜</li>\n<li>要誠實</li>\n</ol>\n\n\n<p>當主管前兩年, 我沒做到前面 1, 2 點, 第 3 點我做得很好, 第 4 點我 code 寫得太多, 第 5 ,6 點我有做到。</p>\n\n<p>現在呢, 第 1 點我努力中, 第 2 點對於新人我有做到, 第 3 點因為太忙, 做的沒有非常好, 第 4, 5, 6 點我則是自認做得不錯 :)</p>\n\n<p>誠實才是上策</p>",
+          "description_markdown": "這篇文章主要是下面這幾個重點, 我覺得很不錯, 身為一個技術領導者, 以下幾點都得做到。\r\n\r\n1. 如果不能從幫助團隊獲得滿足感，那麼就不要成為一名領導者\r\n2. 將自己視為其他開發人員的導師\r\n3. 隨時準備好回答團隊成員的問題\r\n4. 減少具體的編碼工作，但仍然要編碼\r\n5. 要謙遜\r\n6. 要誠實\r\n\r\n當主管前兩年, 我沒做到前面 1, 2 點, 第 3 點我做得很好, 第 4 點我 code 寫得太多, 第 5 ,6 點我有做到。\r\n\r\n現在呢, 第 1 點我努力中, 第 2 點對於新人我有做到, 第 3 點因為太忙, 做的沒有非常好, 第 4, 5, 6 點我則是自認做得不錯 :)\r\n\r\n誠實才是上策",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3os84mT",
+          "type": "Link",
+          "title": "本週 IG: wjmild",
+          "url_domain": "instagram.com",
+          "url": "https://instagram.com/wjmild/",
+          "description": "<p>小海在泰國為您報導</p>",
+          "description_markdown": "小海在泰國為您報導",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "9854a690-be08-48b1-be91-db60f96b09f7.jpg",
+          "image_extra_large_filename": "square_extra_large_9854a690-be08-48b1-be91-db60f96b09f7.jpg",
+          "image_medium_filename": "square_medium_9854a690-be08-48b1-be91-db60f96b09f7.jpg"
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "5SEnqmC",
+          "type": "Link",
+          "title": "Pseudo-comments in CSS",
+          "url_domain": "sitepoint.com",
+          "url": "http://www.sitepoint.com/pseudo-comments-in-css-or-how-browsers-parse-styles/",
+          "description": "<pre><code class=\"CSS\">background: red;\n'background: yellow;\nbackground: green;  // this is white\nbackground: blue !important;\n</code></pre>\n\n<p>你知道以上的 CSS 會出現哪個背景顏色嗎？這篇文章以另類的角度來看 CSS 如何被瀏覽器解讀，也許可以幫助你省去很多抓臭蟲的時間。（如果你常常有 typo 的話）</p>",
+          "description_markdown": "``` CSS\r\nbackground: red;\r\n'background: yellow;\r\nbackground: green;  // this is white\r\nbackground: blue !important;\r\n```\r\n你知道以上的 CSS 會出現哪個背景顏色嗎？這篇文章以另類的角度來看 CSS 如何被瀏覽器解讀，也許可以幫助你省去很多抓臭蟲的時間。（如果你常常有 typo 的話）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "OJOlhm5",
+          "type": "Link",
+          "title": "HTTP 203 脫口秀",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PLOU2XLYxmsII_38oWcnQzXs9K9HKBMg-e",
+          "description": "<p>由 Google Chrome 傳教士 Paul Lewis 和 Jake Archibald 所策劃，最近已經來到了第三季，影片大都是 10 分鐘以內，都是講前端議題，沒有程式碼，很適合通勤時收看。</p>\n\n<p>若是想要練習英文聽力，對於前端工程師是很好的聽力教材。</p>\n\n<p>也推薦其他 Google Developers 在 Youtube 上其他前端相關的節目：</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=korrJRyCSDA&amp;list=PLOU2XLYxmsILKwwASNS0xgfcmakbK_8JZ\">Total Tooling</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=obtCN3Goaw4&amp;index=3&amp;list=PLNYkxOF6rcIBz9ACEQRmO9Lw8PW7vn0lr\">Supercharged</a></li>\n</ul>",
+          "description_markdown": "由 Google Chrome 傳教士 Paul Lewis 和 Jake Archibald 所策劃，最近已經來到了第三季，影片大都是 10 分鐘以內，都是講前端議題，沒有程式碼，很適合通勤時收看。\r\n\r\n若是想要練習英文聽力，對於前端工程師是很好的聽力教材。\r\n\r\n也推薦其他 Google Developers 在 Youtube 上其他前端相關的節目：\r\n\r\n*   [Total Tooling](https://www.youtube.com/watch?v=korrJRyCSDA&list=PLOU2XLYxmsILKwwASNS0xgfcmakbK_8JZ)\r\n*   [Supercharged](https://www.youtube.com/watch?v=obtCN3Goaw4&index=3&list=PLNYkxOF6rcIBz9ACEQRmO9Lw8PW7vn0lr)",
+          "embedded_links": [
+            {
+              "identifier": "J7QEVGN",
+              "title": "Total Tooling",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=korrJRyCSDA&list=PLOU2XLYxmsILKwwASNS0xgfcmakbK_8JZ"
+            },
+            {
+              "identifier": "vhekvB5",
+              "title": "Supercharged",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=obtCN3Goaw4&index=3&list=PLNYkxOF6rcIBz9ACEQRmO9Lw8PW7vn0lr"
+            }
+          ],
+          "image_original_filename": "d20f4392-68b4-4ef4-88cc-567d97d79ebb.png",
+          "image_extra_large_filename": "original_ratio_extra_large_d20f4392-68b4-4ef4-88cc-567d97d79ebb.png",
+          "image_medium_filename": "original_ratio_medium_d20f4392-68b4-4ef4-88cc-567d97d79ebb.png"
+        },
+        {
+          "identifier": "lDvGsdZ",
+          "type": "Link",
+          "title": "smartcrop.js 用 JavaScript 偵測照片主要物體",
+          "url_domain": "29a.ch",
+          "url": "http://29a.ch/sandbox/2014/smartcrop/examples/testsuite.html",
+          "description": "<p>用 JavaScript 和 canvas 做出裁切工具，可以透過判斷膚色、高反差區域找出圖片中主要物體，將物體放在裁切範圍內。出乎意料效能很好，滿神奇的！</p>\n\n<p><a href=\"https://github.com/jwagner/smartcrop.js\">github repo</a></p>",
+          "description_markdown": "用 JavaScript 和 canvas 做出裁切工具，可以透過判斷膚色、高反差區域找出圖片中主要物體，將物體放在裁切範圍內。出乎意料效能很好，滿神奇的！\r\n\r\n[github repo](https://github.com/jwagner/smartcrop.js)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "qdOx8dJ",
+              "title": "github repo",
+              "url_domain": "github.com",
+              "url": "https://github.com/jwagner/smartcrop.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "4nZY69T",
+          "type": "Link",
+          "title": "Safari Digital Library",
+          "url_domain": "safaribooksonline.com",
+          "url": "https://www.safaribooksonline.com/",
+          "description": "<p>Safari 是 O'Reilly Media 100% 投資的子公司，Safari Digital Library 資料庫整合 200 家以上全球知名資訊教育出版社內容（包含：O'Reilly Media, Pearson, Microsoft Press, IBM Press, Cisco Press, Addison Wesley, John Wiley &amp; Sons 等），提供 32,000+ 本與資訊、管理相關的電子書、3,200+ 支教學影片、1,100 小時 O'Reilly 研討會影片、搶先上市手稿（Early Releases）、證照準備教材、有聲書等豐富資源。資料庫內容支援全文檢索，使用者可以快速的查詢到所需章節或影片段落，同時也可以建立閱讀清單、並下載到手持裝置上進行離線閱讀。</p>",
+          "description_markdown": "Safari 是 O'Reilly Media 100% 投資的子公司，Safari Digital Library 資料庫整合 200 家以上全球知名資訊教育出版社內容（包含：O'Reilly Media, Pearson, Microsoft Press, IBM Press, Cisco Press, Addison Wesley, John Wiley & Sons 等），提供 32,000+ 本與資訊、管理相關的電子書、3,200+ 支教學影片、1,100 小時 O'Reilly 研討會影片、搶先上市手稿（Early Releases）、證照準備教材、有聲書等豐富資源。資料庫內容支援全文檢索，使用者可以快速的查詢到所需章節或影片段落，同時也可以建立閱讀清單、並下載到手持裝置上進行離線閱讀。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "51172ce4-93cd-46be-8ead-ba8e13965804.png",
+          "image_extra_large_filename": "original_ratio_extra_large_51172ce4-93cd-46be-8ead-ba8e13965804.png",
+          "image_medium_filename": "original_ratio_medium_51172ce4-93cd-46be-8ead-ba8e13965804.png"
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "67nPXEE",
+          "type": "Link",
+          "title": "Software Licenses Explained in Plain English",
+          "url_domain": "tldrlegal.com",
+          "url": "https://tldrlegal.com/",
+          "description": "<p>到底誰有真的看過引用的第三方庫或服務的 licenses 呢？沒有吧！</p>\n\n<p><a href=\"http://robb.weblaws.org/2015/10/17/os-x-el-capitan-license-in-plain-english/\">有，他有，他把 OS X El Capitan License 看完了</a></p>\n\n<p>每次按下 Agree 的時候都覺得不踏實，不知道會不會同意了之後就簽下了什麼賣身契或是黨證申請書，好緊張喔。這個服務可以讓你查你用的 license 到底是什麼，如果有 open source project 的話，也許幫得上忙。比方說 <a href=\"https://tldrlegal.com/license/idgaf-v1.0\">IDGAF v1.0</a>。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "到底誰有真的看過引用的第三方庫或服務的 licenses 呢？沒有吧！\r\n\r\n[有，他有，他把 OS X El Capitan License 看完了](http://robb.weblaws.org/2015/10/17/os-x-el-capitan-license-in-plain-english/)\r\n\r\n每次按下 Agree 的時候都覺得不踏實，不知道會不會同意了之後就簽下了什麼賣身契或是黨證申請書，好緊張喔。這個服務可以讓你查你用的 license 到底是什麼，如果有 open source project 的話，也許幫得上忙。比方說 [IDGAF v1.0](https://tldrlegal.com/license/idgaf-v1.0)。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "gjYkavM",
+              "title": "有，他有，他把 OS X El Capitan License 看完了",
+              "url_domain": "weblaws.org",
+              "url": "http://robb.weblaws.org/2015/10/17/os-x-el-capitan-license-in-plain-english/"
+            },
+            {
+              "identifier": "bRtdGGv",
+              "title": "IDGAF v1.0",
+              "url_domain": "tldrlegal.com",
+              "url": "https://tldrlegal.com/license/idgaf-v1.0"
+            },
+            {
+              "identifier": "k8v0Vph",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        },
+        {
+          "identifier": "bSGQxv8",
+          "type": "Link",
+          "title": "用純 CSS 畫立體樂高人物",
+          "url_domain": "codepen.io",
+          "url": "http://codepen.io/rachel_web/pen/rOLRvM/",
+          "description": "<p>由 <a href=\"https://twitter.com/adamp3\">@adamp33</a> 提供。</p>",
+          "description_markdown": "由 [@adamp33](https://twitter.com/adamp3) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "kfjZz2V",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            }
+          ],
+          "image_original_filename": "8a3298ff-9c3c-4657-aa39-c4bda146bb8f.png",
+          "image_extra_large_filename": "original_ratio_extra_large_8a3298ff-9c3c-4657-aa39-c4bda146bb8f.png",
+          "image_medium_filename": "original_ratio_medium_8a3298ff-9c3c-4657-aa39-c4bda146bb8f.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "number": 105,
+  "title": "Issue 105 做不出來時，資深工程師知道什麼時候該站起來走一走，更資深的工程師知道什麼時候該跑",
+  "summary": "本期內容涵蓋 iOS, Android, Swift, Kotlin, Machine Learning, PHP, Ethereum, Programming Language",
+  "url": "https://weekly.codetengu.com/issues/105",
+  "publication_status": "published",
+  "published_at": "2017-11-13T02:00:00+00:00",
+  "updated_at": "2017-11-13T02:00:03+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Ye2scVw",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "xRqDmGG",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "qxUqsTG",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "nLIsPOj",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "EwiK7HY",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "bOXqScM",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "HccVZWm",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "JRK0OuD",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "tp4QHs8",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "Zt29mB",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "FQEMmlI",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "hdz3NBO",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "npY1jLf",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "Z5nMwQC",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "IKb13Ri",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "f9RyLzH",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "98YQxW7",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "lBjwwBw",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "7Fe8RKj",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "7Q3et6r",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "mwILoWM",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "JDYyJ0S",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "kmDwtly",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "TIeD9VK",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "xJ6h79K",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "4l8K2gP",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "VhBw51b",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "5bNWAPf",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CocoaPods 的 use_framework! 是在 use 什麼 framework？",
+          "description": "<p>最近跟朋友聊到 CocoaPods 的 <code>use_framework!</code> attribute 時驚覺自己不清楚為什麼要用 Framework 才能讓 CocoaPods 整合 Swift project。<br/>\n考察之後對 Framework 跟 Static Library  這兩種 Cocoa Touch 支援的依賴引入方式更認識了一點，跟大家分享一下。</p>\n\n<p>CocoaPods 以往預設是會把依賴編譯成 Static Library，當時 Swift 不支援編譯 Static Library 所以就得用 Framework 的方式來引入，不支援的原因就是 iOS 版本沒有 Swift runtime，詳細可以參考 <a href=\"https://blog.cocoapods.org/CocoaPods-0.36/\">CocoaPods 0.36 release notes</a>。</p>\n\n<p>Framework 跟 Static Library 是兩種不同的依賴引用方式，沒有誰比較先進的問題，取決於使用情境。<br/>\n但以 app 開發者來說，要特別注意 Dynamic Framework 會使你的 app 啟動時間變長，因為在 app 啟動時才由 <a href=\"https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/dyld.1.html\">dyld</a> 載入 framework (參考：<a href=\"https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea\">How we cut our iOS app’s launch time in half</a>)，開發中也需要花時間去 compile 這些依賴，如果是 Static Library 或 Static Framework 就沒這些問題。</p>\n\n<p>CocoaPods 已經支援 Static Framework，也在做 <a href=\"https://github.com/CocoaPods/CocoaPods/issues/6899\"> Static Library 相關支援</a> 了，用 Swift 及 CocoaPods 開發的人可以關注一下。</p>",
+          "description_markdown": "最近跟朋友聊到 CocoaPods 的 `use_framework!` attribute 時驚覺自己不清楚為什麼要用 Framework 才能讓 CocoaPods 整合 Swift project。  \r\n考察之後對 Framework 跟 Static Library  這兩種 Cocoa Touch 支援的依賴引入方式更認識了一點，跟大家分享一下。\r\n\r\nCocoaPods 以往預設是會把依賴編譯成 Static Library，當時 Swift 不支援編譯 Static Library 所以就得用 Framework 的方式來引入，不支援的原因就是 iOS 版本沒有 Swift runtime，詳細可以參考 [CocoaPods 0.36 release notes](https://blog.cocoapods.org/CocoaPods-0.36/)。\r\n\r\nFramework 跟 Static Library 是兩種不同的依賴引用方式，沒有誰比較先進的問題，取決於使用情境。  \r\n但以 app 開發者來說，要特別注意 Dynamic Framework 會使你的 app 啟動時間變長，因為在 app 啟動時才由 [dyld](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/dyld.1.html) 載入 framework (參考：[How we cut our iOS app’s launch time in half](https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea))，開發中也需要花時間去 compile 這些依賴，如果是 Static Library 或 Static Framework 就沒這些問題。\r\n\r\nCocoaPods 已經支援 Static Framework，也在做 [ Static Library 相關支援](https://github.com/CocoaPods/CocoaPods/issues/6899) 了，用 Swift 及 CocoaPods 開發的人可以關注一下。",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "H9MHevR",
+              "title": "CocoaPods 0.36 release notes",
+              "url_domain": "cocoapods.org",
+              "url": "https://blog.cocoapods.org/CocoaPods-0.36/"
+            },
+            {
+              "identifier": "3mRwx1N",
+              "title": "dyld",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/dyld.1.html"
+            },
+            {
+              "identifier": "AsKt88R",
+              "title": "How we cut our iOS app’s launch time in half",
+              "url_domain": "automatic.com",
+              "url": "https://blog.automatic.com/how-we-cut-our-ios-apps-launch-time-in-half-with-this-one-cool-trick-7aca2011e2ea"
+            },
+            {
+              "identifier": "EYe8Msi",
+              "title": " Static Library 相關支援",
+              "url_domain": "github.com",
+              "url": "https://github.com/CocoaPods/CocoaPods/issues/6899"
+            }
+          ]
+        },
+        {
+          "identifier": "xQ44Az7",
+          "type": "Link",
+          "title": "fastred/Optimizing-Swift-Build-Times: Collection of advice on optimizing compile times of Swift projects.",
+          "url_domain": "github.com",
+          "url": "https://github.com/fastred/Optimizing-Swift-Build-Times",
+          "description": "<p>「看看我！看看我！我身體裡的怪物已經長得這麼大了哦」</p>\n\n<p>Swift project 的 build time 會隨著 project 變大指數型的成長，這幾年越來越常看到大家在 building 的時候跑到 SNS 上放風。</p>\n\n<p>這篇文章收錄 build time 優化的事項、介紹跟參考文章，推薦大家看一下。<br/>\n裡面有提到一篇 <a href=\"https://medium.com/@RobertGummesson/regarding-swift-build-time-optimizations-fc92cdd91e31\">Regarding Swift build time optimizations</a>，大家可以感受一下 Swift compiler 在很多常見的寫法下出現的巨大效能落差。</p>\n\n<p>補充一個我覺得很實用的 Xcode plugin <a href=\"https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode\">https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode</a>，讓你知道你的 functions 的 build time。</p>",
+          "description_markdown": "「看看我！看看我！我身體裡的怪物已經長得這麼大了哦」\r\n\r\nSwift project 的 build time 會隨著 project 變大指數型的成長，這幾年越來越常看到大家在 building 的時候跑到 SNS 上放風。\r\n\r\n這篇文章收錄 build time 優化的事項、介紹跟參考文章，推薦大家看一下。  \r\n裡面有提到一篇 [Regarding Swift build time optimizations](https://medium.com/@RobertGummesson/regarding-swift-build-time-optimizations-fc92cdd91e31)，大家可以感受一下 Swift compiler 在很多常見的寫法下出現的巨大效能落差。\r\n\r\n補充一個我覺得很實用的 Xcode plugin [https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)，讓你知道你的 functions 的 build time。",
+          "embedded_links": [
+            {
+              "identifier": "uM6INF5",
+              "title": "Regarding Swift build time optimizations",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@RobertGummesson/regarding-swift-build-time-optimizations-fc92cdd91e31"
+            },
+            {
+              "identifier": "8uf3jKk",
+              "title": "https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode",
+              "url_domain": "github.com",
+              "url": "https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode"
+            }
+          ]
+        },
+        {
+          "identifier": "CzJic7G",
+          "type": "Link",
+          "title": "Video Processing on Android",
+          "url_domain": "realm.io",
+          "url": "https://academy.realm.io/posts/360-andev-2017-namrata-bandekar-video-processing-on-android/",
+          "description": "<p>App 的影片製作是很少看到的分享主題，這段針對 Android 的影片製作 talk 給了很好的技術選擇參考。</p>\n\n<p> Android 不像 iOS 可以直接使用 <code>AVFoundation</code> 來處理影像編輯，除了 <code>MediaCodec</code>, <code>MediaExtractor</code> 可以幫到一些前期的忙之外，大部分的事情都要自己幹，在這種情況下，所謂的技術選擇就很重要，因為會有很多取捨。</p>\n\n<p>剛好我在工作上 (StreetVoice) 也做過類似的事情，我的做法大致上跟這個 talk 提到的很接近，不一樣的地方是我多用了 OpenGL ES 畫 surface 再 encode 成影片後才做 layering, muxing。</p>\n\n<p>工商：如果你有興趣的話，StreetVoice 正在徵 Android developer，趕快應徵的話還來得及把相關的功能留一部分給你做！ (<a href=\"https://www.instagram.com/p/BbMxydklcyY/\">StreetVoice 影片製作的結果</a>)</p>",
+          "description_markdown": "App 的影片製作是很少看到的分享主題，這段針對 Android 的影片製作 talk 給了很好的技術選擇參考。\r\n\r\n Android 不像 iOS 可以直接使用 `AVFoundation` 來處理影像編輯，除了 `MediaCodec`, `MediaExtractor` 可以幫到一些前期的忙之外，大部分的事情都要自己幹，在這種情況下，所謂的技術選擇就很重要，因為會有很多取捨。\r\n\r\n剛好我在工作上 (StreetVoice) 也做過類似的事情，我的做法大致上跟這個 talk 提到的很接近，不一樣的地方是我多用了 OpenGL ES 畫 surface 再 encode 成影片後才做 layering, muxing。  \r\n\r\n\r\n工商：如果你有興趣的話，StreetVoice 正在徵 Android developer，趕快應徵的話還來得及把相關的功能留一部分給你做！ ([StreetVoice 影片製作的結果](https://www.instagram.com/p/BbMxydklcyY/))\r\n",
+          "embedded_links": [
+            {
+              "identifier": "SFROUvm",
+              "title": "StreetVoice 影片製作的結果",
+              "url_domain": "instagram.com",
+              "url": "https://www.instagram.com/p/BbMxydklcyY/"
+            }
+          ]
+        },
+        {
+          "identifier": "Jybr3F8",
+          "type": "Link",
+          "title": "Diving deep into Kotlin Coroutines",
+          "url_domain": "kotlindevelopment.com",
+          "url": "https://www.kotlindevelopment.com/deep-dive-coroutines/",
+          "description": "<p>Coroutine 是 <a href=\"https://kotlinlang.org/docs/reference/whatsnew11.html\">Kotlin 1.1</a> 加入的重要特性，官方的 <a href=\"https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html\">Coroutines Tutorials</a> 寫得很完整，建議先看一下。</p>\n\n<p>而本篇文章介紹了 Coroutines 這個語言特性的實作方式，簡單說明了 compiler 的參與機制到使用的狀態機架構。</p>\n\n<p>我同意 <a href=\"https://www.kotlindevelopment.com/deep-dive-coroutines/#comment-3599439255\">這篇文章下面留言</a> 的說法： Kotlin 的 Coroutine 可以跟 RxJava 這類 Reactive 框架做分工，把 Threading 的事情都交給 Coroutine 做，因為它寫出來的程式碼表達力更好。把那些真正需要 pipeline 的事情再交給 Rx 就好。</p>\n\n<p>補充：<a href=\"https://github.com/Kotlin/anko/wiki/Anko-Coroutines\">Anko Coroutines</a> 是相關的 Kotlin 工具，那個產生 weak reference 的 <code>asReference()</code> 是個方便的 method。</p>\n\n<p>如果你想要再確定 Coroutine 跟 Thread 的差異：<a href=\"https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html#my-first-coroutine\">One can think of a coroutine as a light-weight thread ...</a></p>",
+          "description_markdown": "Coroutine 是 [Kotlin 1.1](https://kotlinlang.org/docs/reference/whatsnew11.html) 加入的重要特性，官方的 [Coroutines Tutorials](https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html) 寫得很完整，建議先看一下。\r\n\r\n而本篇文章介紹了 Coroutines 這個語言特性的實作方式，簡單說明了 compiler 的參與機制到使用的狀態機架構。\r\n\r\n我同意 [這篇文章下面留言](https://www.kotlindevelopment.com/deep-dive-coroutines/#comment-3599439255) 的說法： Kotlin 的 Coroutine 可以跟 RxJava 這類 Reactive 框架做分工，把 Threading 的事情都交給 Coroutine 做，因為它寫出來的程式碼表達力更好。把那些真正需要 pipeline 的事情再交給 Rx 就好。 \r\n\r\n補充：[Anko Coroutines](https://github.com/Kotlin/anko/wiki/Anko-Coroutines) 是相關的 Kotlin 工具，那個產生 weak reference 的 `asReference()` 是個方便的 method。 \r\n\r\n如果你想要再確定 Coroutine 跟 Thread 的差異：[One can think of a coroutine as a light-weight thread ...](https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html#my-first-coroutine)",
+          "embedded_links": [
+            {
+              "identifier": "2FLt9OU",
+              "title": "Kotlin 1.1",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/reference/whatsnew11.html"
+            },
+            {
+              "identifier": "57yZAqJ",
+              "title": "Coroutines Tutorials",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html"
+            },
+            {
+              "identifier": "nbeeAEM",
+              "title": "這篇文章下面留言",
+              "url_domain": "kotlindevelopment.com",
+              "url": "https://www.kotlindevelopment.com/deep-dive-coroutines/#comment-3599439255"
+            },
+            {
+              "identifier": "hssNHEx",
+              "title": "Anko Coroutines",
+              "url_domain": "github.com",
+              "url": "https://github.com/Kotlin/anko/wiki/Anko-Coroutines"
+            },
+            {
+              "identifier": "rImDbg2",
+              "title": "One can think of a coroutine as a light-weight thread ...",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/tutorials/coroutines-basic-jvm.html#my-first-coroutine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "l2nLL7F",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 14 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-14-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>上一講介紹了深度學習神經網路，基本上神經網路林軒田老師只說明了兩講，這一講將進入一個新的 Machine Learning 演算法 Radial Basis Function Network（我個人不太覺得這個是神經網路演算法），並延伸介紹了其中會使用到的 K-means 分群演算法，RBF Network 基本上就是透過訓練資料各群中心點的距離公式對資料進行投票的一個算法。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n上一講介紹了深度學習神經網路，基本上神經網路林軒田老師只說明了兩講，這一講將進入一個新的 Machine Learning 演算法 Radial Basis Function Network（我個人不太覺得這個是神經網路演算法），並延伸介紹了其中會使用到的 K-means 分群演算法，RBF Network 基本上就是透過訓練資料各群中心點的距離公式對資料進行投票的一個算法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "z9y6YpB",
+          "type": "Link",
+          "title": "How Adversarial Attacks Work",
+          "url_domain": "xix.ai",
+          "url": "https://blog.xix.ai/how-adversarial-attacks-work-87495b81da2d",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>之前 Google Brain 曾經揭示任何分類（或者辨識）機器學習模型都可以用一些技巧來讓模型的辨識能力失效，這個問題在 AI 應用越來越廣泛的未來可能會成為一個嚴重的資安問題，駭客可以用這些技巧來攻擊 AI 應用，這些攻擊又可分為 Non-targeted Attack（單純讓機器學習模型失效）或是 Targeted Attack（讓機器學習模型辨識成特定結果，讓駭客可以裝成某人），本篇文章淺顯地說明了這些攻擊，目前也越來越多關於這個問題的研究了，值得了解一下。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n之前 Google Brain 曾經揭示任何分類（或者辨識）機器學習模型都可以用一些技巧來讓模型的辨識能力失效，這個問題在 AI 應用越來越廣泛的未來可能會成為一個嚴重的資安問題，駭客可以用這些技巧來攻擊 AI 應用，這些攻擊又可分為 Non-targeted Attack（單純讓機器學習模型失效）或是 Targeted Attack（讓機器學習模型辨識成特定結果，讓駭客可以裝成某人），本篇文章淺顯地說明了這些攻擊，目前也越來越多關於這個問題的研究了，值得了解一下。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "MkdYzaF",
+          "type": "Link",
+          "title": "Colorizing B&W Photos with Neural Networks",
+          "url_domain": "floydhub.com",
+          "url": "https://blog.floydhub.com/colorizing-b&w-photos-with-neural-networks/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>前一陣子有位演算法工程師 Amir Avni 在 reddit <a href=\"https://www.reddit.com/r/Colorization/\">/r/Colorization</a> 看板（這個看板是一個分享將黑白照片 photoshop 成彩色照片的看板）發表了他用 Neural Networks 訓練出來的黑白照片自動著色模型，震驚了這個看板的所有成員，包含了本文作者 Emil Wallner，於是他也照著相關論文的方法實作一遍，並把過程記錄下來。</p>\n\n<p>我對他使用的 <a href=\"https://www.floydhub.com\">FloydHub</a> 服務還蠻感興趣的（看起來他在那邊工作？業配文？），標榜是 Deep Learning 的 Heroku，還有 GPU 可以用，感覺很不錯啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n前一陣子有位演算法工程師 Amir Avni 在 reddit [/r/Colorization](https://www.reddit.com/r/Colorization/) 看板（這個看板是一個分享將黑白照片 photoshop 成彩色照片的看板）發表了他用 Neural Networks 訓練出來的黑白照片自動著色模型，震驚了這個看板的所有成員，包含了本文作者 Emil Wallner，於是他也照著相關論文的方法實作一遍，並把過程記錄下來。\r\n\r\n我對他使用的 [FloydHub](https://www.floydhub.com) 服務還蠻感興趣的（看起來他在那邊工作？業配文？），標榜是 Deep Learning 的 Heroku，還有 GPU 可以用，感覺很不錯啊！",
+          "embedded_links": [
+            {
+              "identifier": "5fiR2nI",
+              "title": "/r/Colorization",
+              "url_domain": "reddit.com",
+              "url": "https://www.reddit.com/r/Colorization/"
+            },
+            {
+              "identifier": "7LwEDPB",
+              "title": "FloydHub",
+              "url_domain": "floydhub.com",
+              "url": "https://www.floydhub.com"
+            }
+          ]
+        },
+        {
+          "identifier": "yMXflJ5",
+          "type": "Link",
+          "title": "How to Deploy With Deployer",
+          "url_domain": "tutsplus.com",
+          "url": "https://code.tutsplus.com/tutorials/how-to-deploy-with-deployer--cms-29719",
+          "description": "<p>PHP、DevOps：初級</p>\n\n<p>應該不少人使用 <a href=\"https://www.ansible.com/\">Ansible</a> 這個工具來做 deploy 吧！個人覺得真的蠻好用的。而在我看到 <a href=\"https://deployer.org/\">Deployer</a> 時有種看到 Ansible 的既視感，也是一樣簡單易用，設定好環境之後只要下 <code>dep deploy</code> 就可以 deploy 了，如果發生錯誤只要下 <code>dep rollback</code> 就能回復上一版本，蠻酷的。</p>\n\n<p>如果你的專案是用 PHP 寫的，那的確可以試試看 Deployer，至於改用 Deployer 的理由我也幫忙想好怎麼說服團隊了：</p>\n\n<ol>\n<li>Deployer 是完全用 PHP 寫的，不用再裝其他東西</li>\n<li>Deployer 文件比起 Ansible 簡單易懂多了，如果還沒導入 deploy 工具，那就先試試 Deployer</li>\n</ol>",
+          "description_markdown": "PHP、DevOps：初級\r\n\r\n應該不少人使用 [Ansible](https://www.ansible.com/) 這個工具來做 deploy 吧！個人覺得真的蠻好用的。而在我看到 [Deployer](https://deployer.org/) 時有種看到 Ansible 的既視感，也是一樣簡單易用，設定好環境之後只要下 `dep deploy` 就可以 deploy 了，如果發生錯誤只要下 `dep rollback` 就能回復上一版本，蠻酷的。\r\n\r\n如果你的專案是用 PHP 寫的，那的確可以試試看 Deployer，至於改用 Deployer 的理由我也幫忙想好怎麼說服團隊了：\r\n\r\n1. Deployer 是完全用 PHP 寫的，不用再裝其他東西\r\n2. Deployer 文件比起 Ansible 簡單易懂多了，如果還沒導入 deploy 工具，那就先試試 Deployer",
+          "embedded_links": [
+            {
+              "identifier": "Cmq7LQg",
+              "title": "Ansible",
+              "url_domain": "ansible.com",
+              "url": "https://www.ansible.com/"
+            },
+            {
+              "identifier": "6PUCCyC",
+              "title": "Deployer",
+              "url_domain": "deployer.org",
+              "url": "https://deployer.org/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "zgKhXXJ",
+          "type": "Link",
+          "title": "Parity 錢包合約漏洞",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/taipei-ethereum-meetup/parity-%E9%8C%A2%E5%8C%85%E5%90%88%E7%B4%84%E6%BC%8F%E6%B4%9E-43ed412ebcd2",
+          "description": "<p>Peter Lai 在這篇文章裡，介紹為何 Parity 多人簽章錢包 1.5+ 版有漏洞，是什麼樣的錯誤寫法，造成 7 月時被駭客偷走等值 3 千萬美金的以太幣。</p>\n\n<p>其中，最近又發現另一個寫得不好的地方，就是把副程式庫的地址寫死在地址 <a href=\"https://etherscan.io/address/0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4#code\">0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4</a>，5 天前原程式部署人卻又意外的把這副程式 kill 掉，也就是所謂智能合約的 suicide (自殺)。因此，其他用這程式的錢包，執行上都會有問題，當然錢也領不出來了。</p>\n\n<p>有興趣研究或撰寫智能合約的朋友們，值得仔細研讀。也不妨自行部署一個有問題的程式，親身體驗一下錢拿不出來的感覺。</p>",
+          "description_markdown": "Peter Lai 在這篇文章裡，介紹為何 Parity 多人簽章錢包 1.5+ 版有漏洞，是什麼樣的錯誤寫法，造成 7 月時被駭客偷走等值 3 千萬美金的以太幣。\r\n\r\n其中，最近又發現另一個寫得不好的地方，就是把副程式庫的地址寫死在地址 [0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4](https://etherscan.io/address/0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4#code)，5 天前原程式部署人卻又意外的把這副程式 kill 掉，也就是所謂智能合約的 suicide (自殺)。因此，其他用這程式的錢包，執行上都會有問題，當然錢也領不出來了。\r\n\r\n有興趣研究或撰寫智能合約的朋友們，值得仔細研讀。也不妨自行部署一個有問題的程式，親身體驗一下錢拿不出來的感覺。",
+          "embedded_links": [
+            {
+              "identifier": "BdstIQQ",
+              "title": "0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4",
+              "url_domain": "etherscan.io",
+              "url": "https://etherscan.io/address/0x863df6bfa4469f3ead0be8f9f2aae51c91a907b4#code"
+            }
+          ]
+        },
+        {
+          "identifier": "qNmXyz2",
+          "type": "Link",
+          "title": "Ten interesting features from various modern languages",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@kasperpeulen/10-features-from-various-modern-languages-that-i-would-like-to-see-in-any-programming-language-f2a4a8ee6727",
+          "description": "<p>喜歡研究電腦語言的人，一定會喜歡 Kasper Peulen 這篇文章。</p>\n\n<p>他利用幾種新語言，例如 <a href=\"https://reasonml.github.io/\">Reason</a>、<a href=\"https://kotlinlang.org/\">Kotlin</a>、<a href=\"https://www.dartlang.org/\">Dart</a>、以及 Apple 的 <a href=\"https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309\">Swift</a>，來介紹幾種特殊且有趣的程式寫法，例如 pipeline、cascade、以及 currying 等。</p>\n\n<p>雖然這些語言都有點新，但這些寫法可能早在 Lisp (1958)，Smalltalk (1972)，Objective-C (1984)，Haskell (1990) 或 OCaml (1996) 的語言裡，早已經都有了。</p>",
+          "description_markdown": "喜歡研究電腦語言的人，一定會喜歡 Kasper Peulen 這篇文章。\r\n\r\n他利用幾種新語言，例如 [Reason](https://reasonml.github.io/)、[Kotlin](https://kotlinlang.org/)、[Dart](https://www.dartlang.org/)、以及 Apple 的 [Swift](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309)，來介紹幾種特殊且有趣的程式寫法，例如 pipeline、cascade、以及 currying 等。\r\n\r\n雖然這些語言都有點新，但這些寫法可能早在 Lisp (1958)，Smalltalk (1972)，Objective-C (1984)，Haskell (1990) 或 OCaml (1996) 的語言裡，早已經都有了。",
+          "embedded_links": [
+            {
+              "identifier": "GNHfXdJ",
+              "title": "Reason",
+              "url_domain": "github.io",
+              "url": "https://reasonml.github.io/"
+            },
+            {
+              "identifier": "mTvjRiQ",
+              "title": "Kotlin",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/"
+            },
+            {
+              "identifier": "EkJuUEq",
+              "title": "Dart",
+              "url_domain": "dartlang.org",
+              "url": "https://www.dartlang.org/"
+            },
+            {
+              "identifier": "tEI0CpE",
+              "title": "Swift",
+              "url_domain": "apple.com",
+              "url": "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "number": 111,
+  "title": "Issue 111 「職涯路上不順嗎？」「順啊，一路上都沒什麼人」",
+  "summary": "本期內容涵蓋 Git Flow, iOS, Kubernetes, Golang, UX, JavaScript, CSS",
+  "url": "https://weekly.codetengu.com/issues/111",
+  "publication_status": "published",
+  "published_at": "2018-01-08T02:00:00+00:00",
+  "updated_at": "2018-01-08T02:00:05+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 電量給我這種人用就是一種浪費</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 靠, 買比特幣了啊!!!</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 我要成為錯字王</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 電量給我這種人用就是一種浪費\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 靠, 買比特幣了啊!!!\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 iOS 工程師，快來 Twitter 私訊我\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 我要成為錯字王\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "6QesDmD",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "9jqozNj",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "9KmBnnc",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "YApMsRQ",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "O7dGvN8",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "3yoVfAS",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "5TSob82",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "WnSv7mE",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "kuaQL04",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "MPr9o5g",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "nwjBro2",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "8RWquHr",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "uirwYxt",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "QU4sB4d",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "IuFmNeU",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "tIn8FzR",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "z5K9420",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "kuv5F0n",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "naiJ5mC",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "ivBmxtg",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "IPBbWDK",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "WcU5tHg",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "F52Dwpy",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "6Xh7Gia",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "dHpo6sN",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "tKXJhyQ",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "jXlFqmD",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "chiahsien",
+      "name": "@chiahsien",
+      "items": [
+        {
+          "identifier": "lPKIugt",
+          "type": "Link",
+          "title": "為何 Git-Flow 可能不適合你",
+          "url_domain": "logdown.com",
+          "url": "http://nelson.logdown.com/posts/2017/12/29/why-git-flow-may-be-not-for-you",
+          "description": "<p>我發現每隔一段時間就會有人討論 Git-Flow 的優缺點或是怎樣才是好的 Git 工作流程，然後就會有人跳出來說「我們也是用 Git-Flow，可是我覺得沒有很好用」，每次看到這樣的留言我腦海裡都會冒出一句「不好用就不要用啊！」</p>\n\n<p>我也時常跟朋友講說不一定要用 Git-Flow，後來想說乾脆寫一篇文章來記錄我的論點算了，所以就有這篇部落格文章的產生了：）</p>",
+          "description_markdown": "我發現每隔一段時間就會有人討論 Git-Flow 的優缺點或是怎樣才是好的 Git 工作流程，然後就會有人跳出來說「我們也是用 Git-Flow，可是我覺得沒有很好用」，每次看到這樣的留言我腦海裡都會冒出一句「不好用就不要用啊！」\r\n\r\n我也時常跟朋友講說不一定要用 Git-Flow，後來想說乾脆寫一篇文章來記錄我的論點算了，所以就有這篇部落格文章的產生了：）",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UXpE3z5",
+          "type": "Link",
+          "title": "2017 best resources for advance iOS developers",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@davidlin_98861/2017-best-resources-for-advance-ios-developers-2d1355d09ba9",
+          "description": "<p>一年過去，新的一年又來到了，有沒有覺得又浪費了一年啊（大誤）。如果你的新年希望是要奮發向上吸收新知的話，這篇文章很適合你，裡頭滿滿的好文連結，還依據不同主題分類了，整個看完大概可以撐到農曆過年吧！</p>",
+          "description_markdown": "一年過去，新的一年又來到了，有沒有覺得又浪費了一年啊（大誤）。如果你的新年希望是要奮發向上吸收新知的話，這篇文章很適合你，裡頭滿滿的好文連結，還依據不同主題分類了，整個看完大概可以撐到農曆過年吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "NrA5j4y",
+          "type": "Link",
+          "title": "CAEmitterLayer粒子发射器的神奇效果",
+          "url_domain": "juejin.im",
+          "url": "https://juejin.im/post/5a44cb1df265da430a50e29b",
+          "description": "<p>最近工作上有個需求是點擊某個按鈕之後要出現類似冒泡泡的動畫效果，所以就不小心找到了這篇文章，才知道原來有 CAEmitterLayer 這種東西可以用，真的頗酷！另外也發現了一個頗有趣的<a href=\"https://github.com/Lision/LSAnimator\">動畫函式庫</a>，順便分享給各位朋友。</p>",
+          "description_markdown": "最近工作上有個需求是點擊某個按鈕之後要出現類似冒泡泡的動畫效果，所以就不小心找到了這篇文章，才知道原來有 CAEmitterLayer 這種東西可以用，真的頗酷！另外也發現了一個頗有趣的[動畫函式庫](https://github.com/Lision/LSAnimator)，順便分享給各位朋友。",
+          "embedded_links": [
+            {
+              "identifier": "XC29JPY",
+              "title": "動畫函式庫",
+              "url_domain": "github.com",
+              "url": "https://github.com/Lision/LSAnimator"
+            }
+          ]
+        },
+        {
+          "identifier": "zJJzJE",
+          "type": "Link",
+          "title": "View-state driven applications",
+          "url_domain": "cocoawithlove.com",
+          "url": "https://www.cocoawithlove.com/blog/view-state-driven-applications.html",
+          "description": "<p>本文作者認為在目前常見的 MVC 架構中，都刻意忽略了  View-State 這一塊，只把它當作過渡的產物，沒有好好思考過該把它放在哪裡。作者覺得 View-State 應該要擺在 Model 裏頭，並在文中舉了一個支援時光旅行的 app 為例，說明這樣做帶來的好處。</p>\n\n<p>看完這篇文章後，有空的話可以繼續看 <a href=\"https://redux.js.org/\">Redux</a> 跟 <a href=\"https://zh.wikipedia.org/wiki/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA\">Finite State Machine</a>，或許能碰撞出更多有趣的想法。</p>",
+          "description_markdown": "本文作者認為在目前常見的 MVC 架構中，都刻意忽略了  View-State 這一塊，只把它當作過渡的產物，沒有好好思考過該把它放在哪裡。作者覺得 View-State 應該要擺在 Model 裏頭，並在文中舉了一個支援時光旅行的 app 為例，說明這樣做帶來的好處。\r\n\r\n看完這篇文章後，有空的話可以繼續看 [Redux](https://redux.js.org/) 跟 [Finite State Machine](https://zh.wikipedia.org/wiki/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA)，或許能碰撞出更多有趣的想法。",
+          "embedded_links": [
+            {
+              "identifier": "GFkU407",
+              "title": "Redux",
+              "url_domain": "js.org",
+              "url": "https://redux.js.org/"
+            },
+            {
+              "identifier": "EA0D54q",
+              "title": "Finite State Machine",
+              "url_domain": "wikipedia.org",
+              "url": "https://zh.wikipedia.org/wiki/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA"
+            }
+          ]
+        },
+        {
+          "identifier": "pScRqF9",
+          "type": "Link",
+          "title": "Carbon",
+          "url_domain": "now.sh",
+          "url": "https://carbon.now.sh/",
+          "description": "<p>想要貼程式碼到部落格或是網路論壇上，可是對方卻沒有支援程式碼輸入的功能的話該怎麼辦呢？你可以考慮使用 <a href=\"https://gist.github.com/\">GitHubGist</a>，或者是把程式碼轉成圖片分享出去。這個服務能幫你轉成圖片，而且還有不少設定可以調整誒～</p>",
+          "description_markdown": "想要貼程式碼到部落格或是網路論壇上，可是對方卻沒有支援程式碼輸入的功能的話該怎麼辦呢？你可以考慮使用 [GitHubGist](https://gist.github.com/)，或者是把程式碼轉成圖片分享出去。這個服務能幫你轉成圖片，而且還有不少設定可以調整誒～",
+          "embedded_links": [
+            {
+              "identifier": "q9Os1P9",
+              "title": "GitHubGist",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/"
+            }
+          ]
+        },
+        {
+          "identifier": "IJbRal1",
+          "type": "Link",
+          "title": "Color themes for Xcode",
+          "url_domain": "github.com",
+          "url": "https://github.com/hdoria/xcode-themes",
+          "description": "<p>身為一個 iOS 工程師，整天都得盯著 Xcode 開發程式，當然要把它調得順眼一點。這個 repo 收集了許多 Xcode 的佈景主題，並且還附上了許多預覽圖，讓人可以快速找到自己喜歡的主題。</p>",
+          "description_markdown": "身為一個 iOS 工程師，整天都得盯著 Xcode 開發程式，當然要把它調得順眼一點。這個 repo 收集了許多 Xcode 的佈景主題，並且還附上了許多預覽圖，讓人可以快速找到自己喜歡的主題。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "q4iOZol",
+          "type": "Link",
+          "title": "超好用的 Kubernetes Console tool - c9s/Vikube.vim",
+          "url_domain": "github.com",
+          "url": "https://github.com/c9s/vikube.vim",
+          "description": "<p>Kubernetes 相當好用，但是要維運的時候最痛苦的事情，就是要打 <code>kubectl</code></p>\n\n<p>雖然我超愛 Golang ，而且其實我基本的 IDE 都是使用 VSCode ，但是我一定要跟各位好好推薦這個好工具． Vikube.vim</p>\n\n<p>不論你透過 alias 設定成 <code>kc</code> 甚至是 <code>k</code> 還是得要記憶一堆指令  ex: kubectl get pod</p>\n\n<p>其實就算你不是 vim 的愛用者 (畢竟學習曲線太高了) 我還是很推薦你使用這個工具．</p>\n\n<ul>\n<li><code>:VikubeContextList</code> 可以開啟你所有連接過的 K8S 集群，透過 <code>s</code>  來切換你的集群．</li>\n<li><code>:VikubeNodeList</code> 可以開啟所有的節點清單，<code>l</code> 可以看到 結點上面的 logs,   可以幫助你除錯（如果有問題)</li>\n<li><code>:VikubePodList</code> 可以開啟 pod 清單，當然也可以透過 <code>l</code> 來看 POD 是否有出現問題．</li>\n<li><code>:VikubeTop</code> 可以開啟 top 來看各個 POD 的使用量</li>\n</ul>\n\n\n<p>真的很好用... 再也不用擔心打 <code>kubectl</code> 或是忘記相關指令了   :p</p>",
+          "description_markdown": "Kubernetes 相當好用，但是要維運的時候最痛苦的事情，就是要打 `kubectl` \r\n\r\n雖然我超愛 Golang ，而且其實我基本的 IDE 都是使用 VSCode ，但是我一定要跟各位好好推薦這個好工具． Vikube.vim\r\n\r\n不論你透過 alias 設定成 `kc` 甚至是 `k` 還是得要記憶一堆指令  ex: kubectl get pod \r\n\r\n其實就算你不是 vim 的愛用者 (畢竟學習曲線太高了) 我還是很推薦你使用這個工具．  \r\n\r\n- `:VikubeContextList` 可以開啟你所有連接過的 K8S 集群，透過 `s`  來切換你的集群．\r\n- `:VikubeNodeList` 可以開啟所有的節點清單，`l` 可以看到 結點上面的 logs,   可以幫助你除錯（如果有問題)\r\n- `:VikubePodList` 可以開啟 pod 清單，當然也可以透過 `l` 來看 POD 是否有出現問題．\r\n- `:VikubeTop` 可以開啟 top 來看各個 POD 的使用量\r\n\r\n真的很好用... 再也不用擔心打 `kubectl` 或是忘記相關指令了   :p  \r\n\r\n\r\n\r\n",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "6d98449a-6451-4725-a90e-97fe9f7eb6cd.png",
+          "image_extra_large_filename": "twenty_by_nine_extra_large_6d98449a-6451-4725-a90e-97fe9f7eb6cd.png",
+          "image_medium_filename": "twenty_by_nine_medium_6d98449a-6451-4725-a90e-97fe9f7eb6cd.png"
+        },
+        {
+          "identifier": "RiMkKsy",
+          "type": "Link",
+          "title": "Golang Internals Part 2: Nice benefits of named return values",
+          "url_domain": "minio.io",
+          "url": "https://blog.minio.io/golang-internals-part-2-nice-benefits-of-named-return-values-1e95305c8687",
+          "description": "<p>\"named return values\" 是在你的 function 事先把回傳變數先命名好 ex: func foo() (bar string)</p>\n\n<p>這篇文章告訴你，這樣做在 compiler code 上面會有什麼差異． 並且可以獲得更小的 function size 並且更有效率..</p>\n\n<p>很值得好好閱讀.</p>",
+          "description_markdown": "\"named return values\" 是在你的 function 事先把回傳變數先命名好 ex: func foo() (bar string) \r\n\r\n這篇文章告訴你，這樣做在 compiler code 上面會有什麼差異． 並且可以獲得更小的 function size 並且更有效率..\r\n\r\n很值得好好閱讀.",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "UuuCkNn",
+          "type": "Link",
+          "title": "dotConferences talks",
+          "url_domain": "dotconferences.com",
+          "url": "https://www.dotconferences.com/conference/dotgo-2017",
+          "description": "<p>https://www.dotconferences.com/conference/dotgo-2017</p>\n\n<p>11 月剛剛在歐洲結束的的 dotGo conference 是相當盛大的 Golang 研討會， Google 與 Golang 社群有許多權威都有加入這場盛會．  在這場有有許多值得一聽的演講．</p>\n\n<ul>\n<li>Francesc 講 Machine Learning in Go</li>\n<li>Sam Boyer (dep 的主要開發者之一) 來講 Dep</li>\n<li>Sameer Ajmani (Go team manager ) 來講 Simulation real world in Go</li>\n</ul>\n\n\n<p>推薦大家一定要看....</p>\n\n<p>此外: dot Conferences 是歐洲盛大的技術研討會.. 還有很多...   dotSwift dotAI dotJS ..都可以看看喔</p>",
+          "description_markdown": "https://www.dotconferences.com/conference/dotgo-2017\r\n\r\n11 月剛剛在歐洲結束的的 dotGo conference 是相當盛大的 Golang 研討會， Google 與 Golang 社群有許多權威都有加入這場盛會．  在這場有有許多值得一聽的演講．\r\n\r\n-  Francesc 講 Machine Learning in Go\r\n-  Sam Boyer (dep 的主要開發者之一) 來講 Dep  \r\n-  Sameer Ajmani (Go team manager ) 來講 Simulation real world in Go\r\n\r\n推薦大家一定要看....\r\n\r\n此外: dot Conferences 是歐洲盛大的技術研討會.. 還有很多...   dotSwift dotAI dotJS ..都可以看看喔",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6LlKJF6",
+          "type": "Link",
+          "title": "Go Datastructure slices // Speaker Deck",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/rarchana2001asu/go-datastructure-slices?utm_content=buffer2deee&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>相當好的投影片，講解 C 與 Go 的array 比較之處外，更有清楚講解 Golang 在 slice 跟 array 的差異之處。其架構與處理方式。</p>",
+          "description_markdown": "相當好的投影片，講解 C 與 Go 的array 比較之處外，更有清楚講解 Golang 在 slice 跟 array 的差異之處。其架構與處理方式。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ssufzPf",
+          "type": "Link",
+          "title": "RFC: Apache Beam Go SDK design",
+          "url_domain": "google.com",
+          "url": "https://docs.google.com/document/d/1yj0_hxq2J1iestjFUUrm_BVQLsFxQiiqtcFhgodzIgM/mobilebasic",
+          "description": "<p>這篇是由 Apache Beam (一個類似 Spark streaming 的資料串流處理的 framework)  所提出的 Golang SDK RFC (Request For Comments)． 別以為是一篇死板板的說明文件，裡面有說明了 Golang 的好處與作為 Streaming Data processing 的缺點與該如何設計．  相當值得一看...</p>",
+          "description_markdown": "這篇是由 Apache Beam (一個類似 Spark streaming 的資料串流處理的 framework)  所提出的 Golang SDK RFC (Request For Comments)． 別以為是一篇死板板的說明文件，裡面有說明了 Golang 的好處與作為 Streaming Data processing 的缺點與該如何設計．  相當值得一看...",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "wz2eyLC",
+          "type": "Link",
+          "title": "12 Mobile UX Design Trends For 2018",
+          "url_domain": "uxplanet.org",
+          "url": "https://uxplanet.org/12-mobile-ux-design-trends-for-2018-5b4ce7e8445f",
+          "description": "<p>2018 行動裝置的使用者體驗趨勢，大部分圍繞著 iPhone X，像是沒有 Home 鍵或是全螢幕的體驗。</p>\n\n<p>最後還有提到 AR 跟手機支付，有興趣的朋友可以仔細閱讀，有些類別作者還提供了延伸閱讀。</p>",
+          "description_markdown": "2018 行動裝置的使用者體驗趨勢，大部分圍繞著 iPhone X，像是沒有 Home 鍵或是全螢幕的體驗。\r\n\r\n最後還有提到 AR 跟手機支付，有興趣的朋友可以仔細閱讀，有些類別作者還提供了延伸閱讀。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "nRSIyMs",
+          "type": "Link",
+          "title": "ReasonML: polymorphic variant types",
+          "url_domain": "2ality.com",
+          "url": "http://2ality.com/2018/01/polymorphic-variants-reasonml.html",
+          "description": "<p>之前我們提到了 ReasonML 正式推出第三版本，語法更貼近 JavaScript 開發者。</p>\n\n<p>果然吸引了不少人開始學習，2ality 的作者也開始在部落格更新他學習 ReasonML 的過程。</p>\n\n<p>此篇是帶你理解 ReasonML 中的 polymorphic variant type，蠻適合正在學習的 ReasonML 朋友們。</p>",
+          "description_markdown": "之前我們提到了 ReasonML 正式推出第三版本，語法更貼近 JavaScript 開發者。\r\n\r\n果然吸引了不少人開始學習，2ality 的作者也開始在部落格更新他學習 ReasonML 的過程。\r\n\r\n此篇是帶你理解 ReasonML 中的 polymorphic variant type，蠻適合正在學習的 ReasonML 朋友們。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "E24ARe0",
+          "type": "Link",
+          "title": "Introducing Hyperapp 1.0",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/introducing-hyperapp-1-0-dbf4229abfef",
+          "description": "<p>喜歡 react, redux 的朋友，應該都會喜歡這套。</p>\n\n<p>像 preact 是輕量化的 react， hyperapp 就是輕量化的 react + redux。</p>",
+          "description_markdown": "喜歡 react, redux 的朋友，應該都會喜歡這套。\r\n\r\n像 preact 是輕量化的 react， hyperapp 就是輕量化的 react + redux。\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "uOYN65j",
+          "type": "Link",
+          "title": "8 Best Practices for Perfect CSS Documentation",
+          "url_domain": "tutsplus.com",
+          "url": "https://webdesign.tutsplus.com/articles/css-documentation-best-practices--cms-30139",
+          "description": "<p>寫文件總是很困難，作者提供了一些方向。</p>\n\n<p>各位如果想要改進自己的 css 文件，不妨可以參考此篇的做法。</p>",
+          "description_markdown": "寫文件總是很困難，作者提供了一些方向。\r\n\r\n各位如果想要改進自己的 css 文件，不妨可以參考此篇的做法。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

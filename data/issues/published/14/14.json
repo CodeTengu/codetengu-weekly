@@ -1,0 +1,489 @@
+{
+  "number": 14,
+  "title": "Issue 14 如果 Java 真的有 Garbage Collection 的話，大部份的程式應該在剛開始執行的時候就把自己給回收了",
+  "summary": "本期內容涵蓋 RESTful API, Python 3, Redis, Docker, Ansible, DevOps, iTerm2, JavaScript, Amazon S3, PHP, Android, NodeJS",
+  "url": "https://weekly.codetengu.com/issues/14",
+  "publication_status": "published",
+  "published_at": "2015-11-02T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:11:04+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從<a href=\"https://github.com/codetengu/headquarters\">目前的 curator 名單</a>中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>本期 curators：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - <strong>無法通過圖靈測試的程序員</strong></li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - <strong>最近交了一個很正的女朋友</strong></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - <strong>現在跟同學聚餐只能約親子餐廳了</strong></li>\n</ul>\n\n\n<hr />\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從[目前的 curator 名單](https://github.com/codetengu/headquarters)中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n本期 curators：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - **無法通過圖靈測試的程序員**\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - **最近交了一個很正的女朋友**\r\n- [@wancw](https://twitter.com/wancw) - **現在跟同學聚餐只能約親子餐廳了**\r\n\r\n- - -\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "",
+          "embedded_links": [
+            {
+              "identifier": "FvnkoQs",
+              "title": "目前的 curator 名單",
+              "url_domain": "github.com",
+              "url": "https://github.com/codetengu/headquarters"
+            },
+            {
+              "identifier": "Oov7Q1",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "o6bKate",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "YOOSywY",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "j3QMKBJ",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "OTFl48Z",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "xAhn5V5",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "qfmQGFN",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Oky303r",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "opTKRah",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "Je1XyPr",
+          "type": "Link",
+          "title": "Best Practices for Designing a Pragmatic RESTful API",
+          "url_domain": "vinaysahni.com",
+          "url": "http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api",
+          "description": "<p>這篇文章列出了許多 RESTful APIs 的最佳實踐和慣例，因為 StreetVoice 的 API 版本號最近正好要來到 v2 了，打算趁這個機會把以前亂寫的部分好好重構，順便 follow 一下比較好的做法。</p>\n\n<p>說不定之後 v3 的時候可以來玩玩 <a href=\"https://code.facebook.com/posts/1691455094417024/graphql-a-data-query-language/\">GraphQL</a> 啊～</p>",
+          "description_markdown": "這篇文章列出了許多 RESTful APIs 的最佳實踐和慣例，因為 StreetVoice 的 API 版本號最近正好要來到 v2 了，打算趁這個機會把以前亂寫的部分好好重構，順便 follow 一下比較好的做法。\r\n\r\n說不定之後 v3 的時候可以來玩玩 [GraphQL](https://code.facebook.com/posts/1691455094417024/graphql-a-data-query-language/) 啊～",
+          "embedded_links": [
+            {
+              "identifier": "3MvwceB",
+              "title": "GraphQL",
+              "url_domain": "facebook.com",
+              "url": "https://code.facebook.com/posts/1691455094417024/graphql-a-data-query-language/"
+            }
+          ]
+        },
+        {
+          "identifier": "GVElGdM",
+          "type": "Link",
+          "title": "What's REALLY New in Python 3",
+          "url_domain": "migrateup.com",
+          "url": "http://migrateup.com/whats-really-new-in-python-3/",
+          "description": "<p>大家都知道，Python 除了惡名昭彰的 unicode 和 GIL 的問題之外，Python 2/3 的並存也是一大硬傷。但是就像在 <a href=\"http://weekly.codetengu.com/issues/1#bFiqlHa\">Issue 1</a> 提到的，Python 3 已經是大勢所趨。如果你要開始一個新的 project 或是正打算學 Python，也不用再機機歪歪了，至少可以直接上 Python 3.4 了吶！</p>\n\n<p>這篇文章就幫我們整理了從 Python 3.0 到不久前才發布的 Python 3.5 所新增的特性和語法，大家感受一下。</p>",
+          "description_markdown": "大家都知道，Python 除了惡名昭彰的 unicode 和 GIL 的問題之外，Python 2/3 的並存也是一大硬傷。但是就像在 [Issue 1](http://weekly.codetengu.com/issues/1#bFiqlHa) 提到的，Python 3 已經是大勢所趨。如果你要開始一個新的 project 或是正打算學 Python，也不用再機機歪歪了，至少可以直接上 Python 3.4 了吶！\r\n\r\n這篇文章就幫我們整理了從 Python 3.0 到不久前才發布的 Python 3.5 所新增的特性和語法，大家感受一下。",
+          "embedded_links": [
+            {
+              "identifier": "tG6U9P9",
+              "title": "Issue 1",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/1#bFiqlHa"
+            }
+          ]
+        },
+        {
+          "identifier": "3TWHzgG",
+          "type": "Link",
+          "title": "Developing with Docker",
+          "url_domain": "ifttt.com",
+          "url": "http://engineering.ifttt.com/oss/2015/10/06/developing-with-docker/",
+          "description": "<p>IFTTT 開源了一個簡單的專案，能夠讓他們的 developers 在 Mac 上迅速地把整個開發環境跑起來，主要使用了 Ansible、VirtualBox、Docker Machine、Docker Compose，做法之漂亮，非常具有參考價值。作者除了說明這個專案的技術細節之外，也提到了幾個用 Docker 當開發環境會遇到的問題和對應的解法，對於想把環境 container 化的人，這篇算是個很好的起步。</p>\n\n<p>我原本是用 Vagrant 和 SaltStack 來架開發環境，但是因為這陣子 SaltStack 每次更新就弄我一次，所以最近打算連同公司的專案也都順便改成 Docker，剛好就看到這篇文章用 Ansible 來設定 Mac 開發環境的做法，還挺聰明的。畢竟我們都有 configuration management 這種工具了，實在沒有道理要寫一堆 shell script 啊，雖然 Dockerfile 說穿了也就是一堆 shell script。</p>\n\n<p>P.S. Ansible 前陣子被 Red Hat 收購啦！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://github.com/IFTTT/dash\">IFTTT/dash</a> - 這個就是 IFTTT 開源的專案</li>\n</ul>",
+          "description_markdown": "IFTTT 開源了一個簡單的專案，能夠讓他們的 developers 在 Mac 上迅速地把整個開發環境跑起來，主要使用了 Ansible、VirtualBox、Docker Machine、Docker Compose，做法之漂亮，非常具有參考價值。作者除了說明這個專案的技術細節之外，也提到了幾個用 Docker 當開發環境會遇到的問題和對應的解法，對於想把環境 container 化的人，這篇算是個很好的起步。\r\n\r\n我原本是用 Vagrant 和 SaltStack 來架開發環境，但是因為這陣子 SaltStack 每次更新就弄我一次，所以最近打算連同公司的專案也都順便改成 Docker，剛好就看到這篇文章用 Ansible 來設定 Mac 開發環境的做法，還挺聰明的。畢竟我們都有 configuration management 這種工具了，實在沒有道理要寫一堆 shell script 啊，雖然 Dockerfile 說穿了也就是一堆 shell script。\r\n\r\nP.S. Ansible 前陣子被 Red Hat 收購啦！\r\n\r\n延伸閱讀：\r\n\r\n- [IFTTT/dash](https://github.com/IFTTT/dash) - 這個就是 IFTTT 開源的專案",
+          "embedded_links": [
+            {
+              "identifier": "6HTALZE",
+              "title": "IFTTT/dash",
+              "url_domain": "github.com",
+              "url": "https://github.com/IFTTT/dash"
+            }
+          ]
+        },
+        {
+          "identifier": "FCPtzgy",
+          "type": "Link",
+          "title": "Storing Data with Redis",
+          "url_domain": "mikeperham.com",
+          "url": "http://www.mikeperham.com/2015/09/24/storing-data-with-redis/",
+          "description": "<p>這篇文章的重點其實只有一個，因為 Redis 是 single thread 而且也不能針對個別的 database 使用不同的 config，所以建議的做法是：<strong>不同用途的 Redis 就開不同的 instance，可以是不同的機器（或是在同一台機器上，但是監聽不同的 port，這樣反而可以更好地利用多核 CPU）</strong>。</p>\n\n<p>像在 StreetVoice，我們就把用來當 session backend（或 cache）的 Redis 和用來存一些 metadata 的 Redis 分別跑在不同的機器上，然後分別使用不同的 configuration，尤其是 <a href=\"http://redis.io/topics/persistence\">persistence options</a>。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://www.slideshare.net/yftzeng/redis-another-step-on-the-road\">Redis, another step on the road</a></li>\n</ul>",
+          "description_markdown": "這篇文章的重點其實只有一個，因為 Redis 是 single thread 而且也不能針對個別的 database 使用不同的 config，所以建議的做法是：**不同用途的 Redis 就開不同的 instance，可以是不同的機器（或是在同一台機器上，但是監聽不同的 port，這樣反而可以更好地利用多核 CPU）**。\r\n\r\n像在 StreetVoice，我們就把用來當 session backend（或 cache）的 Redis 和用來存一些 metadata 的 Redis 分別跑在不同的機器上，然後分別使用不同的 configuration，尤其是 [persistence options](http://redis.io/topics/persistence)。\r\n\r\n延伸閱讀：\r\n\r\n- [Redis, another step on the road](http://www.slideshare.net/yftzeng/redis-another-step-on-the-road)",
+          "embedded_links": [
+            {
+              "identifier": "E50LtSx",
+              "title": "persistence options",
+              "url_domain": "redis.io",
+              "url": "http://redis.io/topics/persistence"
+            },
+            {
+              "identifier": "1EVUk0l",
+              "title": "Redis, another step on the road",
+              "url_domain": "slideshare.net",
+              "url": "http://www.slideshare.net/yftzeng/redis-another-step-on-the-road"
+            }
+          ]
+        },
+        {
+          "identifier": "OrSkOXC",
+          "type": "Link",
+          "title": "iTerm - 让你的命令行也能丰富多彩",
+          "url_domain": "swiftcafe.io",
+          "url": "http://swiftcafe.io/2015/07/25/iterm/",
+          "description": "<p>這篇文章提到了幾個非常實用的 iTerm2 小技巧，例如 <code>Command + F</code> 可以搜尋螢幕上的任意字串然後按一下 Tab 鍵就直接複製，唔！差點都要嚇到尿褲子了。我建議大家直接用 iTerm2 的 <a href=\"https://www.iterm2.com/downloads.html\">Test Release</a>，不要用殺小 Stable Releases，尤其最近 Test 版新增了一個在每一行指令的右邊顯示 timestamp 的功能，超貼心。</p>\n\n<p>至於他提到的 system-wide hotkey 的功能，我是用 <a href=\"http://manico.im/\">Manico</a> 直接綁定 F1、F2、F3、F4 一鍵開啟 Chrome、Evernote、Sublime Text 3 和 iTerm2，這樣更方便。</p>\n\n<p>P.S. 自從升級到 OS X El Capitan 之後，<a href=\"https://www.trankynam.com/xtrafinder/\">XtraFinder</a> 就壞掉了，作者到底什麼時候才要更新啊！</p>",
+          "description_markdown": "這篇文章提到了幾個非常實用的 iTerm2 小技巧，例如 `Command + F` 可以搜尋螢幕上的任意字串然後按一下 Tab 鍵就直接複製，唔！差點都要嚇到尿褲子了。我建議大家直接用 iTerm2 的 [Test Release](https://www.iterm2.com/downloads.html)，不要用殺小 Stable Releases，尤其最近 Test 版新增了一個在每一行指令的右邊顯示 timestamp 的功能，超貼心。\r\n\r\n至於他提到的 system-wide hotkey 的功能，我是用 [Manico](http://manico.im/) 直接綁定 F1、F2、F3、F4 一鍵開啟 Chrome、Evernote、Sublime Text 3 和 iTerm2，這樣更方便。\r\n\r\nP.S. 自從升級到 OS X El Capitan 之後，[XtraFinder](https://www.trankynam.com/xtrafinder/) 就壞掉了，作者到底什麼時候才要更新啊！",
+          "embedded_links": [
+            {
+              "identifier": "MntkKDY",
+              "title": "Test Release",
+              "url_domain": "iterm2.com",
+              "url": "https://www.iterm2.com/downloads.html"
+            },
+            {
+              "identifier": "no02ABw",
+              "title": "Manico",
+              "url_domain": "manico.im",
+              "url": "http://manico.im/"
+            },
+            {
+              "identifier": "qMt05ao",
+              "title": "XtraFinder",
+              "url_domain": "trankynam.com",
+              "url": "https://www.trankynam.com/xtrafinder/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "vLo3obE",
+          "type": "Link",
+          "title": "Smartcrop.js : Content aware image cropping - 一個使用愚蠢演算法的內容感知截圖程式",
+          "url_domain": "github.com",
+          "url": "https://github.com/jwagner/smartcrop.js/",
+          "description": "<p>嚴格來說這個套件並不算是機器學習的應用，不過實在太酷了，所以我要推薦給大家！如同 <a href=\"https://github.com/jwagner/smartcrop.js/\">Smartcrop.js</a> 的描述所說的，它使用了一些「相當愚蠢」（fairly dumb）的影像演算法找出圖片內的「重要部份」來決定裁切圖片的最佳位置，大致演算法概觀如下：</p>\n\n<ol>\n<li>用 laplace 偵測邊緣</li>\n<li>利用膚色這個特徵來偵測重要區域（因為人的皮膚在圖片中都很重要嘛！）</li>\n<li>利用高彩度這個特徵來偵測重要區域</li>\n<li>以 sliding window 的方式產生多個候選的裁切區域</li>\n<li>然後用一個 importance function 來評分所有候選的裁切區域（大致可以想像膚色多、高彩度部份多的候選區分數會高）</li>\n<li>選出一個最高分的裁切區域</li>\n</ol>\n\n\n<p>這樣的演算法學術上就稱之為 <a href=\"http://students.ceid.upatras.gr/~papagel/project/kef5_5.htm\">Heuristic Algorithm</a>，其實就是以人類直觀的感覺去調整演算法，讓演算法的結果可以符合我們想要的結果，有時可以接近最佳解，但無法證明這樣的演算法可以得出最佳解，也因此 Smartcrop.js 才會說自己是使用一個 fairly dumb 的演算法了！各位碼農可以看一下 <a href=\"http://29a.ch/sandbox/2014/smartcrop/examples/testbed.html\">線上火力展示</a> 來感受一下究竟 dumb 不 dumb！</p>",
+          "description_markdown": "嚴格來說這個套件並不算是機器學習的應用，不過實在太酷了，所以我要推薦給大家！如同 [Smartcrop.js](https://github.com/jwagner/smartcrop.js/) 的描述所說的，它使用了一些「相當愚蠢」（fairly dumb）的影像演算法找出圖片內的「重要部份」來決定裁切圖片的最佳位置，大致演算法概觀如下：\r\n\r\n1. 用 laplace 偵測邊緣\r\n2. 利用膚色這個特徵來偵測重要區域（因為人的皮膚在圖片中都很重要嘛！）\r\n3. 利用高彩度這個特徵來偵測重要區域\r\n4. 以 sliding window 的方式產生多個候選的裁切區域\r\n5. 然後用一個 importance function 來評分所有候選的裁切區域（大致可以想像膚色多、高彩度部份多的候選區分數會高）\r\n6. 選出一個最高分的裁切區域\r\n\r\n這樣的演算法學術上就稱之為 [Heuristic Algorithm](http://students.ceid.upatras.gr/~papagel/project/kef5_5.htm)，其實就是以人類直觀的感覺去調整演算法，讓演算法的結果可以符合我們想要的結果，有時可以接近最佳解，但無法證明這樣的演算法可以得出最佳解，也因此 Smartcrop.js 才會說自己是使用一個 fairly dumb 的演算法了！各位碼農可以看一下 [線上火力展示](http://29a.ch/sandbox/2014/smartcrop/examples/testbed.html) 來感受一下究竟 dumb 不 dumb！",
+          "embedded_links": [
+            {
+              "identifier": "1iK3Sd9",
+              "title": "Smartcrop.js",
+              "url_domain": "github.com",
+              "url": "https://github.com/jwagner/smartcrop.js/"
+            },
+            {
+              "identifier": "3myumgk",
+              "title": "Heuristic Algorithm",
+              "url_domain": "upatras.gr",
+              "url": "http://students.ceid.upatras.gr/~papagel/project/kef5_5.htm"
+            },
+            {
+              "identifier": "MpLierL",
+              "title": "線上火力展示",
+              "url_domain": "29a.ch",
+              "url": "http://29a.ch/sandbox/2014/smartcrop/examples/testbed.html"
+            }
+          ]
+        },
+        {
+          "identifier": "QYIriRR",
+          "type": "Link",
+          "title": "PDFx : Extract metadata and URLs from PDFs, and download all referenced PDFs - 下載論文所有的 Reference PDF",
+          "url_domain": "metachris.com",
+          "url": "http://www.metachris.com/pdfx/",
+          "description": "<p>閱讀演算法或機器學習相關論文做研究的時候，往往需要追朔閱讀一些相關論文以補足背景知識的不足，PDFx 這個工具可以使用簡單的指令來一次下載論文中所有的 Reference PDF，可以節省不少自己手動複製、貼上、然後下載相關論文的時間！PDFx 大致提供以下特點：</p>\n\n<ol>\n<li>萃取出論文的 Metadata 及論文中出現的連結</li>\n<li>下載所有相關論文 PDF</li>\n<li>可支援線上或本地端的 PDF 檔案</li>\n<li>提供命令列工具</li>\n<li>相容於 Python 2 及 Python 3</li>\n</ol>\n\n\n<p>其實如果不用在下載論文這方面，也可以用來做成爬蟲工具抓資料，也許可以做一些研究者社會網絡相關的研究～</p>",
+          "description_markdown": "閱讀演算法或機器學習相關論文做研究的時候，往往需要追朔閱讀一些相關論文以補足背景知識的不足，PDFx 這個工具可以使用簡單的指令來一次下載論文中所有的 Reference PDF，可以節省不少自己手動複製、貼上、然後下載相關論文的時間！PDFx 大致提供以下特點：\r\n\r\n1. 萃取出論文的 Metadata 及論文中出現的連結\r\n2. 下載所有相關論文 PDF\r\n3. 可支援線上或本地端的 PDF 檔案\r\n4. 提供命令列工具\r\n5. 相容於 Python 2 及 Python 3\r\n\r\n其實如果不用在下載論文這方面，也可以用來做成爬蟲工具抓資料，也許可以做一些研究者社會網絡相關的研究～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "7VGtYky",
+          "type": "Link",
+          "title": "Amazon S3 PHP Stream Wrapper - 使用 Amazon S3 PHP Stream Wrapper 處理 S3 檔案存取",
+          "url_domain": "amazon.com",
+          "url": "https://blogs.aws.amazon.com/php/post/TxKV69TBGSONBU/Amazon-S3-PHP-Stream-Wrapper",
+          "description": "<p>各位碼農大概都有這樣的經驗，當系統搬上雲端的時候，檔案系統存取這部分的程式碼難免會有修改的必要。如果檔案選擇存到 AWS S3，那就需要使用 AWS 提供的 API 來存取檔案。在 AWS PHP SDK 2.3.0 之後的版本提供了 PHP Stream Wrapper 這樣的機制，讓 PHP 開發者可以直接使用原本 PHP 檔案處理的相關函式來存取 S3 上面的檔案，支援包含 <code>fopen()</code>、<code>file_get_contents()</code>、<code>filesize()</code> 等函式，更多可用函式可看<a href=\"http://docs.aws.amazon.com/aws-sdk-php/v2/guide/feature-s3-stream-wrapper.html\">這邊</a>，這樣幾乎就可以無痛將檔案系統搬到 AWS S3 了啊！不過如果為了未來可能會有轉換檔案儲存解決方案的一天，建議還是使用多一層中介軟體來處理相關程式，比如在 PHP 可以使用 <a href=\"https://github.com/thephpleague/flysystem\">Flysystem</a>，這樣未來就可以任意切換存到 Flysystem 有支援的檔案系統而不用改到任何程式碼。</p>",
+          "description_markdown": "各位碼農大概都有這樣的經驗，當系統搬上雲端的時候，檔案系統存取這部分的程式碼難免會有修改的必要。如果檔案選擇存到 AWS S3，那就需要使用 AWS 提供的 API 來存取檔案。在 AWS PHP SDK 2.3.0 之後的版本提供了 PHP Stream Wrapper 這樣的機制，讓 PHP 開發者可以直接使用原本 PHP 檔案處理的相關函式來存取 S3 上面的檔案，支援包含 `fopen()`、`file_get_contents()`、`filesize()` 等函式，更多可用函式可看[這邊](http://docs.aws.amazon.com/aws-sdk-php/v2/guide/feature-s3-stream-wrapper.html)，這樣幾乎就可以無痛將檔案系統搬到 AWS S3 了啊！不過如果為了未來可能會有轉換檔案儲存解決方案的一天，建議還是使用多一層中介軟體來處理相關程式，比如在 PHP 可以使用 [Flysystem](https://github.com/thephpleague/flysystem)，這樣未來就可以任意切換存到 Flysystem 有支援的檔案系統而不用改到任何程式碼。",
+          "embedded_links": [
+            {
+              "identifier": "tY7R5Br",
+              "title": "這邊",
+              "url_domain": "amazon.com",
+              "url": "http://docs.aws.amazon.com/aws-sdk-php/v2/guide/feature-s3-stream-wrapper.html"
+            },
+            {
+              "identifier": "s8llfD4",
+              "title": "Flysystem",
+              "url_domain": "github.com",
+              "url": "https://github.com/thephpleague/flysystem"
+            }
+          ]
+        },
+        {
+          "identifier": "omipgJm",
+          "type": "Link",
+          "title": "怎样成为技术达人",
+          "url_domain": "jianshu.com",
+          "url": "http://www.jianshu.com/p/bcfe4cbb5735",
+          "description": "<p>身在碼農界，總是會覺得自己所學還不足，尤其看到身邊的強者，無論年長的或年輕的，就會激發自己想再變強的欲望。但實際上要怎麼做呢？本篇文章提出了一些論點：</p>\n\n<ol>\n<li>10000 個小時法則：依據 Anders Ericsson 教授的論文研究，暢銷書作家 Malcolm Gladwell 提出要成為專家至少要練習超過 10000 小時，這就是著名的 10000 小時法則。</li>\n<li>愛是眾妙之門：為了將事情做好，首先你得喜歡做這件事，而不是喜歡這件事情的結果，那僅僅是第二位。</li>\n<li>編碼編到吐：持續編碼的結果有兩個，一個是達到質變，水平不斷提升；一個是重複重複再重複最終麻木。想得到質變，那下一個步驟就很重要。</li>\n<li>回顧與思考：要想質變與提升，必須有目的地停下編碼！然後思考與分析以前與現在自己編碼的不同，來了解自己是否有在進步，或如何突破。</li>\n<li>多學一點點：對於用過的技術，最好在當時，項目的間隙或者項目結束時，抽時間了解它的背景、長處、機理，讓自己對用到的技術都有相當程度的了解。</li>\n<li>溝通：解決問題才是程序員的職責。要解決問題，離不開溝通。</li>\n<li>找到你的小伙伴：程序員幹的是技術活，找到一個談得來的小伙伴很重要，可以相互促進，消除登頂路上的寂寞。可能你需要在不同的階段找不同的伙伴，最好是找某方面比你牛的人一起研究技術，這樣可以學到東西。</li>\n<li>分享：分享很重要，文章沒有寫太多，但其實透過分享不僅可以幫助別人，還可以得到別人的回饋修正自己的錯誤。</li>\n</ol>\n\n\n<p>這些論點平心而論是有道理的，但最終自己可以做到幾點呢？心法終究是心法，勞苦功高的碼農們還是要動手做下去執行才能真正體會囉～</p>\n\n<p>延伸閱讀：</p>\n\n<ol>\n<li><a href=\"http://blog.csdn.net/happydeer/article/details/8107560\">程序员的八种境界</a></li>\n<li><a href=\"http://weekly.codetengu.com/issues/13#2toMXvp\">如何才能成为一个好的技术领导者？</a></li>\n</ol>",
+          "description_markdown": "身在碼農界，總是會覺得自己所學還不足，尤其看到身邊的強者，無論年長的或年輕的，就會激發自己想再變強的欲望。但實際上要怎麼做呢？本篇文章提出了一些論點：\r\n\r\n1. 10000 個小時法則：依據 Anders Ericsson 教授的論文研究，暢銷書作家 Malcolm Gladwell 提出要成為專家至少要練習超過 10000 小時，這就是著名的 10000 小時法則。\r\n2. 愛是眾妙之門：為了將事情做好，首先你得喜歡做這件事，而不是喜歡這件事情的結果，那僅僅是第二位。\r\n3. 編碼編到吐：持續編碼的結果有兩個，一個是達到質變，水平不斷提升；一個是重複重複再重複最終麻木。想得到質變，那下一個步驟就很重要。\r\n4. 回顧與思考：要想質變與提升，必須有目的地停下編碼！然後思考與分析以前與現在自己編碼的不同，來了解自己是否有在進步，或如何突破。\r\n5. 多學一點點：對於用過的技術，最好在當時，項目的間隙或者項目結束時，抽時間了解它的背景、長處、機理，讓自己對用到的技術都有相當程度的了解。\r\n6. 溝通：解決問題才是程序員的職責。要解決問題，離不開溝通。\r\n7. 找到你的小伙伴：程序員幹的是技術活，找到一個談得來的小伙伴很重要，可以相互促進，消除登頂路上的寂寞。可能你需要在不同的階段找不同的伙伴，最好是找某方面比你牛的人一起研究技術，這樣可以學到東西。\r\n8. 分享：分享很重要，文章沒有寫太多，但其實透過分享不僅可以幫助別人，還可以得到別人的回饋修正自己的錯誤。\r\n\r\n這些論點平心而論是有道理的，但最終自己可以做到幾點呢？心法終究是心法，勞苦功高的碼農們還是要動手做下去執行才能真正體會囉～\r\n\r\n延伸閱讀：\r\n\r\n1. [程序员的八种境界](http://blog.csdn.net/happydeer/article/details/8107560)\r\n2. [如何才能成为一个好的技术领导者？](http://weekly.codetengu.com/issues/13#2toMXvp)",
+          "embedded_links": [
+            {
+              "identifier": "mPIuhF6",
+              "title": "程序员的八种境界",
+              "url_domain": "csdn.net",
+              "url": "http://blog.csdn.net/happydeer/article/details/8107560"
+            },
+            {
+              "identifier": "VSjiE5S",
+              "title": "如何才能成为一个好的技术领导者？",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/13#2toMXvp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "wancw",
+      "name": "@wancw",
+      "items": [
+        {
+          "identifier": "bSx4uVi",
+          "type": "Link",
+          "title": "Architecting Android… The clean way?",
+          "url_domain": "fernandocejas.com",
+          "url": "http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/",
+          "description": "<p>SoundCloud 的工程師 Fernando Cejas (<a href=\"https://twitter.com/fernando_cejas\">@fernando_cejas</a>) 介紹 <a href=\"https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html\">Clean Architecture</a> 基礎概念以及如何套用在 Android App 上。作者在<a href=\"http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/\">後續的文章</a>裡進一步說明了一些實作上的細節與（當代流行）技術：</p>\n\n<ul>\n<li>用 <a href=\"https://github.com/ReactiveX/RxJava\">RxJava</a> 寫成 Reactive 形式</li>\n<li>用 <a href=\"http://google.github.io/dagger/\">Dagger 2</a> 做 Dependency Injection</li>\n<li>用 <a href=\"https://github.com/orfjackal/retrolambda\">Retrolambda</a> 引入 Lambda 語法 → 弊多於利，不建議</li>\n<li>組織 package 與 gradlefile 的方法</li>\n</ul>",
+          "description_markdown": "SoundCloud 的工程師 Fernando Cejas ([@fernando_cejas](https://twitter.com/fernando_cejas)) 介紹 [Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) 基礎概念以及如何套用在 Android App 上。作者在[後續的文章](http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/)裡進一步說明了一些實作上的細節與（當代流行）技術：\r\n\r\n- 用 [RxJava](https://github.com/ReactiveX/RxJava) 寫成 Reactive 形式\r\n- 用 [Dagger 2](http://google.github.io/dagger/) 做 Dependency Injection\r\n- 用 [Retrolambda](https://github.com/orfjackal/retrolambda) 引入 Lambda 語法 → 弊多於利，不建議\r\n- 組織 package 與 gradlefile 的方法",
+          "embedded_links": [
+            {
+              "identifier": "h09Ef05",
+              "title": "@fernando_cejas",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fernando_cejas"
+            },
+            {
+              "identifier": "vUHUsio",
+              "title": "Clean Architecture",
+              "url_domain": "8thlight.com",
+              "url": "https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html"
+            },
+            {
+              "identifier": "kuRYNg2",
+              "title": "後續的文章",
+              "url_domain": "fernandocejas.com",
+              "url": "http://fernandocejas.com/2015/07/18/architecting-android-the-evolution/"
+            },
+            {
+              "identifier": "55koKu5",
+              "title": "RxJava",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveX/RxJava"
+            },
+            {
+              "identifier": "t5PsKu5",
+              "title": "Dagger 2",
+              "url_domain": "github.io",
+              "url": "http://google.github.io/dagger/"
+            },
+            {
+              "identifier": "KrMUZq3",
+              "title": "Retrolambda",
+              "url_domain": "github.com",
+              "url": "https://github.com/orfjackal/retrolambda"
+            }
+          ]
+        },
+        {
+          "identifier": "VhuCxEq",
+          "type": "Link",
+          "title": "Effective Android Architecture - MWDC",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/richk/effective-android-architecture-mwdc",
+          "description": "<p>Coursera 的 Android 工程師 <a href=\"https://twitter.com/richa123\">@rich123</a> 以 MVC 為起點逐步<em>演化</em>、逐一整理不同元件的角色與責任，然後歸結到 Clean Architecture 的全貌。適合有點 MVC 基礎或喜歡從實作理解概念的人。</p>",
+          "description_markdown": "Coursera 的 Android 工程師 [@rich123](https://twitter.com/richa123) 以 MVC 為起點逐步*演化*、逐一整理不同元件的角色與責任，然後歸結到 Clean Architecture 的全貌。適合有點 MVC 基礎或喜歡從實作理解概念的人。",
+          "embedded_links": [
+            {
+              "identifier": "wWOhavA",
+              "title": "@rich123",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/richa123"
+            }
+          ]
+        },
+        {
+          "identifier": "5s2R3B4",
+          "type": "Link",
+          "title": "Flux Architecture on Android",
+          "url_domain": "lgvalle.xyz",
+          "url": "http://lgvalle.xyz/2015/08/04/flux-architecture/",
+          "description": "<p>TL;DR 簡單扼要地介紹 Flux 架構，開發任何前端平台都可以參考。</p>\n\n<p>作者覺得以 Web App 為出發點的 <strong>Clean Architecture</strong> 對 Mobile App 來說太複雜了；Mobile App 通常沒有 Web 後端這麼複雜的業務邏輯，需要的只是一個清楚的 code 組織方式。而 Facebook 提出的 <a href=\"https://facebook.github.io/flux/\">Flux</a> 是一個不錯的選項。</p>\n\n<p>作者還提及了一般 Flux 文章比較少提的「API call （或其他 async 操作）該由誰處理？」問題：</p>\n\n<ul>\n<li>Store 只負責記錄 App 的狀態、不負責呼叫 API 或查詢 DB</li>\n<li>呼叫 API、查詢 DB 應該由 Actions Creator 負責</li>\n</ul>",
+          "description_markdown": "TL;DR 簡單扼要地介紹 Flux 架構，開發任何前端平台都可以參考。\r\n\r\n作者覺得以 Web App 為出發點的 **Clean Architecture** 對 Mobile App 來說太複雜了；Mobile App 通常沒有 Web 後端這麼複雜的業務邏輯，需要的只是一個清楚的 code 組織方式。而 Facebook 提出的 [Flux](https://facebook.github.io/flux/) 是一個不錯的選項。\r\n\r\n作者還提及了一般 Flux 文章比較少提的「API call （或其他 async 操作）該由誰處理？」問題：\r\n\r\n- Store 只負責記錄 App 的狀態、不負責呼叫 API 或查詢 DB\r\n- 呼叫 API、查詢 DB 應該由 Actions Creator 負責",
+          "embedded_links": [
+            {
+              "identifier": "Z2UACpn",
+              "title": "Flux",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/flux/"
+            }
+          ]
+        },
+        {
+          "identifier": "r7u7xop",
+          "type": "Link",
+          "title": "Eliminate JavaScript Code Smells",
+          "url_domain": "elijahmanor.com",
+          "url": "http://elijahmanor.com/talks/js-smells/",
+          "description": "<p>列舉 JavaScript 常見的不良寫法、說明原因並提供檢測工具（或規則）。可以直接拿來當團隊開發指南的基礎。</p>\n\n<p>其中列出的不良寫法，包括：Convoluted Code、Copy Paste Code、Switch Statement、The This Abyss、Crisp Concatenation、jQuery Inquiry、Tempermental Timer、Repeat Reassign、Inappropriate Intelligence、Incessant Interaction、Anonymous Algorithm、Unconfirmed Code、Two Way Data Binding。</p>",
+          "description_markdown": "列舉 JavaScript 常見的不良寫法、說明原因並提供檢測工具（或規則）。可以直接拿來當團隊開發指南的基礎。\r\n\r\n其中列出的不良寫法，包括：Convoluted Code、Copy Paste Code、Switch Statement、The This Abyss、Crisp Concatenation、jQuery Inquiry、Tempermental Timer、Repeat Reassign、Inappropriate Intelligence、Incessant Interaction、Anonymous Algorithm、Unconfirmed Code、Two Way Data Binding。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4nxtwPD",
+          "type": "Link",
+          "title": "Background Jobs + NodeJS",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/evantahler/background-jobs-plus-nodejs",
+          "description": "<p>作者比較了 Node.js 處理背景工作（像是寄信）的幾種方式，不過主要還是要推廣 <a href=\"https://github.com/resque/resque\">resque</a> 和 <a href=\"https://www.npmjs.com/package/node-resque\">node-resque</a>：</p>\n\n<ul>\n<li>Foreground → 一般寫法、用 callback 等待結果</li>\n<li>Parallel (threaded-ish) → 射後不理，不給 callback</li>\n<li>Local Messages (fork-ish) → 折衷方案，用 Node.js 內建的 cluster 傳送 message。缺點是仍然綁在一台機器上</li>\n<li><del>Remote Messages → 把 Local Messages 改成 client/server 架構，不如直接用 Remote Queue</del></li>\n<li>Remote Queues (Resque-ish) → 用 Resque (Redis) 來管理背景工作</li>\n<li>Event Bus (Kafka-ish)</li>\n</ul>",
+          "description_markdown": "作者比較了 Node.js 處理背景工作（像是寄信）的幾種方式，不過主要還是要推廣 [resque](https://github.com/resque/resque) 和 [node-resque](https://www.npmjs.com/package/node-resque)：\r\n\r\n* Foreground → 一般寫法、用 callback 等待結果\r\n* Parallel (threaded-ish) → 射後不理，不給 callback\r\n* Local Messages (fork-ish) → 折衷方案，用 Node.js 內建的 cluster 傳送 message。缺點是仍然綁在一台機器上\r\n* ~~Remote Messages → 把 Local Messages 改成 client/server 架構，不如直接用 Remote Queue~~\r\n* Remote Queues (Resque-ish) → 用 Resque (Redis) 來管理背景工作\r\n* Event Bus (Kafka-ish)",
+          "embedded_links": [
+            {
+              "identifier": "rWMopjI",
+              "title": "resque",
+              "url_domain": "github.com",
+              "url": "https://github.com/resque/resque"
+            },
+            {
+              "identifier": "MzmrhXT",
+              "title": "node-resque",
+              "url_domain": "npmjs.com",
+              "url": "https://www.npmjs.com/package/node-resque"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "kWha0vb",
+          "type": "Link",
+          "title": "DevOps Reactions",
+          "url_domain": "tumblr.com",
+          "url": "http://devopsreactions.tumblr.com/",
+          "description": "<p>這個網站搜集了很多 GIF 動圖，每一則 GIF 都會配上一句只有 developer 才懂的笑點，真的，超！好！笑！</p>\n\n<p>這裡有幾個 link 大家可以先感受一下：</p>\n\n<ul>\n<li><a href=\"http://devopsreactions.tumblr.com/post/131145798972/running-the-data-migration-scripts-on-the-live\">Running the data migration scripts on the live production on Friday</a></li>\n<li><a href=\"http://devopsreactions.tumblr.com/post/126496204752/watching-a-vim-guru\">Watching a vim guru</a></li>\n<li><a href=\"http://devopsreactions.tumblr.com/post/124650273863/when-your-sunday-oncall-outage-turns-into-their\">When your Sunday oncall outage turns into their Monday oncall outage</a></li>\n<li><a href=\"http://devopsreactions.tumblr.com/post/95720939010/the-software-development-life-cycle\">The software development life cycle</a></li>\n<li><a href=\"http://devopsreactions.tumblr.com/post/68152221988/trying-to-automate-things-sometimes\">Trying to automate things - sometimes</a></li>\n</ul>\n\n\n<p>由 <a href=\"https://twitter.com/vinta\">@vinta</a> 分享。</p>",
+          "description_markdown": "這個網站搜集了很多 GIF 動圖，每一則 GIF 都會配上一句只有 developer 才懂的笑點，真的，超！好！笑！\r\n\r\n這裡有幾個 link 大家可以先感受一下：\r\n\r\n- [Running the data migration scripts on the live production on Friday](http://devopsreactions.tumblr.com/post/131145798972/running-the-data-migration-scripts-on-the-live)\r\n- [Watching a vim guru](http://devopsreactions.tumblr.com/post/126496204752/watching-a-vim-guru)\r\n- [When your Sunday oncall outage turns into their Monday oncall outage](http://devopsreactions.tumblr.com/post/124650273863/when-your-sunday-oncall-outage-turns-into-their)\r\n- [The software development life cycle](http://devopsreactions.tumblr.com/post/95720939010/the-software-development-life-cycle)\r\n- [Trying to automate things - sometimes](http://devopsreactions.tumblr.com/post/68152221988/trying-to-automate-things-sometimes)\r\n\r\n由 [@vinta](https://twitter.com/vinta) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "7NUiXs7",
+              "title": "Running the data migration scripts on the live production on Friday",
+              "url_domain": "tumblr.com",
+              "url": "http://devopsreactions.tumblr.com/post/131145798972/running-the-data-migration-scripts-on-the-live"
+            },
+            {
+              "identifier": "HJ5qoW",
+              "title": "Watching a vim guru",
+              "url_domain": "tumblr.com",
+              "url": "http://devopsreactions.tumblr.com/post/126496204752/watching-a-vim-guru"
+            },
+            {
+              "identifier": "ftIkbol",
+              "title": "When your Sunday oncall outage turns into their Monday oncall outage",
+              "url_domain": "tumblr.com",
+              "url": "http://devopsreactions.tumblr.com/post/124650273863/when-your-sunday-oncall-outage-turns-into-their"
+            },
+            {
+              "identifier": "5RSYv8a",
+              "title": "The software development life cycle",
+              "url_domain": "tumblr.com",
+              "url": "http://devopsreactions.tumblr.com/post/95720939010/the-software-development-life-cycle"
+            },
+            {
+              "identifier": "t1EdBJa",
+              "title": "Trying to automate things - sometimes",
+              "url_domain": "tumblr.com",
+              "url": "http://devopsreactions.tumblr.com/post/68152221988/trying-to-automate-things-sometimes"
+            },
+            {
+              "identifier": "ryxpffW",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            }
+          ],
+          "image_original_filename": "535f5d48-bcaa-43bb-8386-e380e4f2e4e9.jpg",
+          "image_extra_large_filename": "original_ratio_extra_large_535f5d48-bcaa-43bb-8386-e380e4f2e4e9.jpg",
+          "image_medium_filename": "original_ratio_medium_535f5d48-bcaa-43bb-8386-e380e4f2e4e9.jpg"
+        },
+        {
+          "identifier": "se5MhNe",
+          "type": "Link",
+          "title": "cube composer",
+          "url_domain": "david-peter.de",
+          "url": "http://david-peter.de/cube-composer/",
+          "description": "<p>一個以 Functional Programming 為基礎的網頁遊戲，可以用輕鬆的方式體會一下 FP。</p>\n\n<p>原始程式碼有放在 <a href=\"https://github.com/sharkdp/cube-composer\">GitHub</a> 上，有興趣的可以自己加關卡什麼的。</p>\n\n<p>由 <a href=\"https://twitter.com/wancw\">@wancw</a> 分享。</p>",
+          "description_markdown": "一個以 Functional Programming 為基礎的網頁遊戲，可以用輕鬆的方式體會一下 FP。\r\n\r\n原始程式碼有放在 [GitHub](https://github.com/sharkdp/cube-composer) 上，有興趣的可以自己加關卡什麼的。\r\n\r\n由 [@wancw](https://twitter.com/wancw) 分享。",
+          "embedded_links": [
+            {
+              "identifier": "NnZPikM",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/sharkdp/cube-composer"
+            },
+            {
+              "identifier": "Didio9K",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

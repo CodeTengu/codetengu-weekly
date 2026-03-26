@@ -1,0 +1,630 @@
+{
+  "number": 20,
+  "title": "Issue 20 使用 Cobol 是有損心智的，因此，講授這門語言的行為，應被視為刑事犯罪",
+  "summary": "本期內容涵蓋 iOS, Android, Reactive Programming, Machine Learning, PHP, CSS, Frontend, 7688",
+  "url": "https://weekly.codetengu.com/issues/20",
+  "publication_status": "published",
+  "published_at": "2015-12-14T02:00:00+00:00",
+  "updated_at": "2016-02-08T16:21:29+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。</p>\n\n<p>你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>，有價值的東西是不會過時的。</p>\n\n<p>以下是<a href=\"https://github.com/CodeTengu/headquarters\">目前的 curator 陣容</a>：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 無法通過圖靈測試的程序員</li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 捷運飲食推廣委員會</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 泰國不得了</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 最近交了一個很正的女朋友，大家都很生氣</li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a> - 求職中的 Full-stack Developer，意者內洽</li>\n<li><a href=\"https://twitter.com/adamp3\">@adamp33</a> - <a href=\"http://facebook.com/sportsenglish\">看棒球才是正職</a>，副業是前端工程師。 <a href=\"http://pinkoi.com/about/pinkoist\">Pinkoi 徵才中</a></li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a></li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n</ul>\n\n\n<p>大家也可以 follow 一下 CodeTengu 的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a> 和 <a href=\"https://twitter.com/codetengu\">Twitter</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊一聊，歡迎亂入 👺</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每一位 curator 各自負責不同的領域，如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。\r\n\r\n你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)，有價值的東西是不會過時的。\r\n\r\n以下是[目前的 curator 陣容](https://github.com/CodeTengu/headquarters)：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 無法通過圖靈測試的程序員\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 捷運飲食推廣委員會\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 泰國不得了\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 最近交了一個很正的女朋友，大家都很生氣\r\n- [@wancw](https://twitter.com/wancw) - 求職中的 Full-stack Developer，意者內洽\r\n- [@adamp33](https://twitter.com/adamp3) - [看棒球才是正職](http://facebook.com/sportsenglish)，副業是前端工程師。 [Pinkoi 徵才中](http://pinkoi.com/about/pinkoist)\r\n- [@mingderwang](https://github.com/mingderwang)\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n\r\n大家也可以 follow 一下 CodeTengu 的 [Facebook](https://www.facebook.com/codetengu) 和 [Twitter](https://twitter.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊一聊，歡迎亂入 👺",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Ba9e7rr",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "UFeTecp",
+              "title": "目前的 curator 陣容",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "aGazpdM",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "dcmupo4",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "m8YF4Ss",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "fQajs9Y",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "NLUGlyc",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "uhsfF2Y",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "YaJSwwC",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "20CLdTb",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "jG8x36x",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "ZKbOXVt",
+              "title": "@adamp33",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/adamp3"
+            },
+            {
+              "identifier": "rsYNohC",
+              "title": "看棒球才是正職",
+              "url_domain": "facebook.com",
+              "url": "http://facebook.com/sportsenglish"
+            },
+            {
+              "identifier": "Apz6knv",
+              "title": "Pinkoi 徵才中",
+              "url_domain": "pinkoi.com",
+              "url": "http://pinkoi.com/about/pinkoist"
+            },
+            {
+              "identifier": "7Xvb1NZ",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "6igrBkv",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "Ird3Cks",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "sgM9Xzo",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "fyIBwwu",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "p9U0fB3",
+          "type": "Link",
+          "title": "Become a Better Engineer Through Writing",
+          "url_domain": "kristinathai.com",
+          "url": "http://www.kristinathai.com/wp-content/uploads/2015/10/Writing.pdf",
+          "description": "<p>作者認為透過各種形式的寫作可以讓你成為一個更好的工程師。分別是 Personal Journal, Question &amp; Answer Forums, Blogging, Technical Tutorials。後面兩個比較有趣，寫部落格跟寫教學。<br/>\n寫教學、經營部落格除了增進自己的技術能力以外，培養溝通能力跟當一個帶領者的角色也是她認為一個好的工程師需要具備的要素。然後寫著寫著你就可能會被邀請去研討會，認識更多的人，諸如此類。最重要的一點是，你不需要很厲害才可以開始寫部落格。</p>\n\n<p>有一點很重要卻好像沒提到，有部落格可以很大程度增加你換好工作的機會，無論是人家自己找的或是放在履歷表裡。<br/>\n不只是個人可以寫部落格，公司也應該要有自己的技術部落格，除了分享之外還可以讓這間公司在技術圈有知名度因此就可以找到更好的同事。同事真的很重要啊！</p>\n\n<p>其實，大家也可以考慮來加入 CodeTengu 嘛！</p>",
+          "description_markdown": "作者認為透過各種形式的寫作可以讓你成為一個更好的工程師。分別是 Personal Journal, Question & Answer Forums, Blogging, Technical Tutorials。後面兩個比較有趣，寫部落格跟寫教學。  \r\n寫教學、經營部落格除了增進自己的技術能力以外，培養溝通能力跟當一個帶領者的角色也是她認為一個好的工程師需要具備的要素。然後寫著寫著你就可能會被邀請去研討會，認識更多的人，諸如此類。最重要的一點是，你不需要很厲害才可以開始寫部落格。  \r\n\r\n\r\n有一點很重要卻好像沒提到，有部落格可以很大程度增加你換好工作的機會，無論是人家自己找的或是放在履歷表裡。  \r\n不只是個人可以寫部落格，公司也應該要有自己的技術部落格，除了分享之外還可以讓這間公司在技術圈有知名度因此就可以找到更好的同事。同事真的很重要啊！\r\n\r\n其實，大家也可以考慮來加入 CodeTengu 嘛！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Itq4huG",
+          "type": "Link",
+          "title": "The introduction to Reactive Programming you've been missing",
+          "url_domain": "github.com",
+          "url": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+          "description": "<p>因為 <a href=\"https://en.wikipedia.org/wiki/Reactive_programming\">Reactive Programming</a> 實在太潮了，感覺無時無刻都會聽到人家在談論：</p>\n\n<ul>\n<li>這個可以使用 Reactive Programming 的方式來處理</li>\n<li>如果要說什麼時候開始覺得自己很陌生，大概是在我學會 <a href=\"https://en.wikipedia.org/wiki/Functional_reactive_programming\">Functional Reactive Programming</a> 之後吧</li>\n<li>我們必須使用 MVVM 模式，所以我們得開始 Reactive Programming</li>\n</ul>\n\n\n<p>到底為什麼 Reactive 說一說都會開始扯到 Functional 及 MVVM？如果你有這些疑問的話，雖然這篇文裡沒有解答，但是理解了 Reactive Programming 之後就什麼都明白了。這篇真的寫得很好！</p>\n\n<p>註：雖然它最後是以 RxJS 當工具來示範，但是就算不懂 JavaScript 也能看懂。</p>",
+          "description_markdown": "因為 [Reactive Programming](https://en.wikipedia.org/wiki/Reactive_programming) 實在太潮了，感覺無時無刻都會聽到人家在談論：  \r\n\r\n- 這個可以使用 Reactive Programming 的方式來處理  \r\n- 如果要說什麼時候開始覺得自己很陌生，大概是在我學會 [Functional Reactive Programming](https://en.wikipedia.org/wiki/Functional_reactive_programming) 之後吧  \r\n- 我們必須使用 MVVM 模式，所以我們得開始 Reactive Programming  \r\n\r\n到底為什麼 Reactive 說一說都會開始扯到 Functional 及 MVVM？如果你有這些疑問的話，雖然這篇文裡沒有解答，但是理解了 Reactive Programming 之後就什麼都明白了。這篇真的寫得很好！\r\n\r\n註：雖然它最後是以 RxJS 當工具來示範，但是就算不懂 JavaScript 也能看懂。",
+          "embedded_links": [
+            {
+              "identifier": "1YIQXuy",
+              "title": "Reactive Programming",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Reactive_programming"
+            },
+            {
+              "identifier": "MeDvvtt",
+              "title": "Functional Reactive Programming",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Functional_reactive_programming"
+            }
+          ]
+        },
+        {
+          "identifier": "B8pALim",
+          "type": "Link",
+          "title": "ReactiveX/RxSwift",
+          "url_domain": "github.com",
+          "url": "https://github.com/ReactiveX/RxSwift",
+          "description": "<p><a href=\"http://reactivex.io/\">ReactiveX</a> 九月推出 RxSwift 之後立刻在社群獲得大量的關注，大概是因為 <a href=\"https://msdn.microsoft.com/en-us/data/gg577609.aspx\">Reactive Extension</a> 這套框架的簡潔及強大吧，不過也可能是不少人都同時開發 iOS 跟 Android 也都導入 Reactive 框架，經常在 ReactiveCocoa 跟 RxJava 之間用錯語法。</p>\n\n<blockquote><p>ReactiveX is a library for composing asynchronous and event-based programs by using observable sequences.</p></blockquote>\n\n<p>在大家熟悉的 ReactiveCocoa README 中有一節 <a href=\"https://github.com/ReactiveCocoa/ReactiveCocoa#how-does-reactivecocoa-relate-to-rx\">How does ReactiveCocoa relate to Rx?</a> 特別說明了 ReactiveCocoa 跟 Rx 之間的糾葛與為什麼 ReactiveCocoa 認為他們還是比較適合 Objc / Swift 開發者。</p>\n\n<p>如果你要體驗感受 RxSwift，可以 clone repository 下來，開啟 <a href=\"https://github.com/ReactiveX/RxSwift/tree/master/Rx.playground\">Rx.playground</a>，這個 playground 編寫地很認真。</p>",
+          "description_markdown": "[ReactiveX](http://reactivex.io/) 九月推出 RxSwift 之後立刻在社群獲得大量的關注，大概是因為 [Reactive Extension](https://msdn.microsoft.com/en-us/data/gg577609.aspx) 這套框架的簡潔及強大吧，不過也可能是不少人都同時開發 iOS 跟 Android 也都導入 Reactive 框架，經常在 ReactiveCocoa 跟 RxJava 之間用錯語法。\r\n\r\n> ReactiveX is a library for composing asynchronous and event-based programs by using observable sequences.\r\n\r\n在大家熟悉的 ReactiveCocoa README 中有一節 [How does ReactiveCocoa relate to Rx?](https://github.com/ReactiveCocoa/ReactiveCocoa#how-does-reactivecocoa-relate-to-rx) 特別說明了 ReactiveCocoa 跟 Rx 之間的糾葛與為什麼 ReactiveCocoa 認為他們還是比較適合 Objc / Swift 開發者。\r\n\r\n如果你要體驗感受 RxSwift，可以 clone repository 下來，開啟 [Rx.playground](https://github.com/ReactiveX/RxSwift/tree/master/Rx.playground)，這個 playground 編寫地很認真。\r\n",
+          "embedded_links": [
+            {
+              "identifier": "oXfxQti",
+              "title": "ReactiveX",
+              "url_domain": "reactivex.io",
+              "url": "http://reactivex.io/"
+            },
+            {
+              "identifier": "i4rsqCP",
+              "title": "Reactive Extension",
+              "url_domain": "microsoft.com",
+              "url": "https://msdn.microsoft.com/en-us/data/gg577609.aspx"
+            },
+            {
+              "identifier": "ehb0fLT",
+              "title": "How does ReactiveCocoa relate to Rx?",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveCocoa/ReactiveCocoa#how-does-reactivecocoa-relate-to-rx"
+            },
+            {
+              "identifier": "pN15Q6C",
+              "title": "Rx.playground",
+              "url_domain": "github.com",
+              "url": "https://github.com/ReactiveX/RxSwift/tree/master/Rx.playground"
+            }
+          ]
+        },
+        {
+          "identifier": "NutNjBD",
+          "type": "Link",
+          "title": "[Android] Reactive Extensions: Beyond the Basics - YouTube Video",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=Jt-_oVQVZlQ",
+          "description": "<p>CodeTengu 之前提過兩次 RxJava，如果你錯過的話，<a href=\"https://twitter.com/wancw\">@wancw</a>  跟我在 <a href=\"http://weekly.codetengu.com/issues/10\">#10</a> <a href=\"http://weekly.codetengu.com/issues/12\">#12</a> 分別介紹了：</p>\n\n<ul>\n<li><a href=\"https://yongjhih.gitbooks.io/feed/content/RxJava.html\">以 RxJava 實例了解 Reactive Programming 的優點</a></li>\n<li><a href=\"http://gank.io/post/560e15be2dca930e00da1083\">给 Android 开发者的 RxJava 详解</a></li>\n</ul>\n\n\n<p>這兩篇都適合概覽跟入門，而當你導入 RxJava 之後就會遇到一些現實的問題，比如說我們是採用 <a href=\"https://github.com/square/retrofit\">Retrofit</a> + RxJava 來實作 API Client，每個 Retrofit 派發出來的 request observable 都得重複寫 <code>.subscribeOn(..).observeOn(..)</code> 嗎？我的 <code>subscription</code> 會不會造成 memory leak？這兩個問題我是在這個影片中豁然開朗的。</p>\n\n<p>繼續列一些不錯的 RxJava <strong>入門</strong>介紹：</p>\n\n<ul>\n<li><a href=\"https://www.youtube.com/watch?v=JCLZ55M2gVo\">#droidconDE 2015: Ivan Morgillo – Android reactive programming with Rxjava</a></li>\n<li><a href=\"http://futurice.com/blog/top-7-tips-for-rxjava-on-android\">Top 7 Tips for RxJava on Android</a></li>\n<li><a href=\"http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/\">Grokking RxJava, Part 1: The Basics</a></li>\n<li><a href=\"http://boolan.com/lecture/1000001243#0-tsina-1-68759-397232819ff9a47a7b7e80a40613cfe1\">Android开发者们一定会喜欢的 RxJava</a></li>\n</ul>",
+          "description_markdown": "CodeTengu 之前提過兩次 RxJava，如果你錯過的話，[@wancw](https://twitter.com/wancw)  跟我在 [#10](http://weekly.codetengu.com/issues/10) [#12](http://weekly.codetengu.com/issues/12) 分別介紹了：\r\n\r\n- [以 RxJava 實例了解 Reactive Programming 的優點](https://yongjhih.gitbooks.io/feed/content/RxJava.html)\r\n- [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)\r\n\r\n這兩篇都適合概覽跟入門，而當你導入 RxJava 之後就會遇到一些現實的問題，比如說我們是採用 [Retrofit](https://github.com/square/retrofit) + RxJava 來實作 API Client，每個 Retrofit 派發出來的 request observable 都得重複寫 `.subscribeOn(..).observeOn(..)` 嗎？我的 `subscription` 會不會造成 memory leak？這兩個問題我是在這個影片中豁然開朗的。\r\n\r\n繼續列一些不錯的 RxJava **入門**介紹：\r\n\r\n- [#droidconDE 2015: Ivan Morgillo – Android reactive programming with Rxjava](https://www.youtube.com/watch?v=JCLZ55M2gVo)\r\n- [Top 7 Tips for RxJava on Android](http://futurice.com/blog/top-7-tips-for-rxjava-on-android)\r\n- [Grokking RxJava, Part 1: The Basics](http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/)\r\n- [Android开发者们一定会喜欢的 RxJava](http://boolan.com/lecture/1000001243#0-tsina-1-68759-397232819ff9a47a7b7e80a40613cfe1)",
+          "embedded_links": [
+            {
+              "identifier": "JYseqmL",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "yQYXH2D",
+              "title": "#10",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/10"
+            },
+            {
+              "identifier": "G3CCg6c",
+              "title": "#12",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues/12"
+            },
+            {
+              "identifier": "n5muU5A",
+              "title": "以 RxJava 實例了解 Reactive Programming 的優點",
+              "url_domain": "gitbooks.io",
+              "url": "https://yongjhih.gitbooks.io/feed/content/RxJava.html"
+            },
+            {
+              "identifier": "FTqoo03",
+              "title": "给 Android 开发者的 RxJava 详解",
+              "url_domain": "gank.io",
+              "url": "http://gank.io/post/560e15be2dca930e00da1083"
+            },
+            {
+              "identifier": "VzGTaoB",
+              "title": "Retrofit",
+              "url_domain": "github.com",
+              "url": "https://github.com/square/retrofit"
+            },
+            {
+              "identifier": "cw5QAnt",
+              "title": "#droidconDE 2015: Ivan Morgillo – Android reactive programming with Rxjava",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=JCLZ55M2gVo"
+            },
+            {
+              "identifier": "sWeD8am",
+              "title": "Top 7 Tips for RxJava on Android",
+              "url_domain": "futurice.com",
+              "url": "http://futurice.com/blog/top-7-tips-for-rxjava-on-android"
+            },
+            {
+              "identifier": "DqeWkgE",
+              "title": "Grokking RxJava, Part 1: The Basics",
+              "url_domain": "danlew.net",
+              "url": "http://blog.danlew.net/2014/09/15/grokking-rxjava-part-1/"
+            },
+            {
+              "identifier": "SNWwfBN",
+              "title": "Android开发者们一定会喜欢的 RxJava",
+              "url_domain": "boolan.com",
+              "url": "http://boolan.com/lecture/1000001243#0-tsina-1-68759-397232819ff9a47a7b7e80a40613cfe1"
+            }
+          ]
+        },
+        {
+          "identifier": "hC3qZBs",
+          "type": "Link",
+          "title": "Automating Your Daily iOS Developer Tasks, with Felix Krause - Video",
+          "url_domain": "realm.io",
+          "url": "https://realm.io/news/felix-krause-fastlane-automating-ios-tasks/",
+          "description": "<p><a href=\"https://fastlane.tools/\">fastlane</a> 是一套非常成功的 iOS 自動化建置部署工具集，無論是 testing, building, 還是 beta / release process 都可以透過它來完成。如果你平常的開發流程中有 CI server，那麼 fastlane 就超好用的。如果平常有要自己截圖更新到 App Store 的需求，花一點時間設定一下 <a href=\"https://github.com/fastlane/snapshot\">snapshot</a>, <a href=\"https://github.com/fastlane/frameit\">frameit</a>, <a href=\"https://github.com/fastlane/deliver\">deliver</a>， 無論有沒有 CI server 都可以省下很多時間在做重複的事情。</p>\n\n<p>其實貼這篇除了介紹 fastlane 之外，我主要是有個問題想問大家，有沒有人用 Travis CI 在 Xcode 7.0.1+ 的 image 會因為 pods file not found build 不過的啊 (Xcode 7.0 可以)，我卡了一個月了，好煩！</p>",
+          "description_markdown": "[fastlane](https://fastlane.tools/) 是一套非常成功的 iOS 自動化建置部署工具集，無論是 testing, building, 還是 beta / release process 都可以透過它來完成。如果你平常的開發流程中有 CI server，那麼 fastlane 就超好用的。如果平常有要自己截圖更新到 App Store 的需求，花一點時間設定一下 [snapshot](https://github.com/fastlane/snapshot), [frameit](https://github.com/fastlane/frameit), [deliver](https://github.com/fastlane/deliver)， 無論有沒有 CI server 都可以省下很多時間在做重複的事情。\r\n\r\n其實貼這篇除了介紹 fastlane 之外，我主要是有個問題想問大家，有沒有人用 Travis CI 在 Xcode 7.0.1+ 的 image 會因為 pods file not found build 不過的啊 (Xcode 7.0 可以)，我卡了一個月了，好煩！",
+          "embedded_links": [
+            {
+              "identifier": "gfU2FRu",
+              "title": "fastlane",
+              "url_domain": "fastlane.tools",
+              "url": "https://fastlane.tools/"
+            },
+            {
+              "identifier": "1N2kWTC",
+              "title": "snapshot",
+              "url_domain": "github.com",
+              "url": "https://github.com/fastlane/snapshot"
+            },
+            {
+              "identifier": "5dm0I5q",
+              "title": "frameit",
+              "url_domain": "github.com",
+              "url": "https://github.com/fastlane/frameit"
+            },
+            {
+              "identifier": "7RMxLBe",
+              "title": "deliver",
+              "url_domain": "github.com",
+              "url": "https://github.com/fastlane/deliver"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "cAnzCSS",
+          "type": "Link",
+          "title": "TensorFlow - Google 開源機器學習系統",
+          "url_domain": "tensorflow.org",
+          "url": "https://www.tensorflow.org/",
+          "description": "<p>最近 <a href=\"http://googleresearch.blogspot.tw/2015/11/tensorflow-googles-latest-machine_9.html\">Google 宣佈</a> 將其最新的機器學習技術 TensorFlow 以開放源碼專案釋出，稍微看了一下文件覺得如果真的都可以用那還蠻屌的！大概玩了一下 <a href=\"https://www.tensorflow.org/versions/master/get_started/index.html\">Get Start</a> 的範例，內容就是餵進去許多 2 維的點，然後再利用 TensorFlow 算出能夠代表這些點的線性方程式是什麼，當然範例很正確地算出答案了，不過我再進一步看其他 <a href=\"https://www.tensorflow.org/versions/master/tutorials/index.html\">Tutorials</a> 時卻發現很多地方寫得不是很清楚，所以跑不太起來，可能剛開源，文件還不齊全吧～未來可以期待一下！</p>",
+          "description_markdown": "最近 [Google 宣佈](http://googleresearch.blogspot.tw/2015/11/tensorflow-googles-latest-machine_9.html) 將其最新的機器學習技術 TensorFlow 以開放源碼專案釋出，稍微看了一下文件覺得如果真的都可以用那還蠻屌的！大概玩了一下 [Get Start](https://www.tensorflow.org/versions/master/get_started/index.html) 的範例，內容就是餵進去許多 2 維的點，然後再利用 TensorFlow 算出能夠代表這些點的線性方程式是什麼，當然範例很正確地算出答案了，不過我再進一步看其他 [Tutorials](https://www.tensorflow.org/versions/master/tutorials/index.html) 時卻發現很多地方寫得不是很清楚，所以跑不太起來，可能剛開源，文件還不齊全吧～未來可以期待一下！",
+          "embedded_links": [
+            {
+              "identifier": "ta0ORQn",
+              "title": "Google 宣佈",
+              "url_domain": "blogspot.tw",
+              "url": "http://googleresearch.blogspot.tw/2015/11/tensorflow-googles-latest-machine_9.html"
+            },
+            {
+              "identifier": "fqFLom8",
+              "title": "Get Start",
+              "url_domain": "tensorflow.org",
+              "url": "https://www.tensorflow.org/versions/master/get_started/index.html"
+            },
+            {
+              "identifier": "2Y8cPXS",
+              "title": "Tutorials",
+              "url_domain": "tensorflow.org",
+              "url": "https://www.tensorflow.org/versions/master/tutorials/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "qdwzCbo",
+          "type": "Link",
+          "title": "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks",
+          "url_domain": "github.com",
+          "url": "https://github.com/Newmu/dcgan_code",
+          "description": "<p>這個機器學習演算法好強，但我實在看不懂核心怎麼做，只知道結果很神奇，比如給右臉及左臉的照片，它會自動產生右臉轉到左臉之間的所有圖片，另外一個例子是，給男生有戴眼鏡的圖減掉男生沒戴眼鏡的圖加上女生沒戴眼鏡的圖，就可以產生女生有戴眼鏡的圖，這.... 太強了... 有沒有強者能夠說明一下怎麼做到的～</p>",
+          "description_markdown": "這個機器學習演算法好強，但我實在看不懂核心怎麼做，只知道結果很神奇，比如給右臉及左臉的照片，它會自動產生右臉轉到左臉之間的所有圖片，另外一個例子是，給男生有戴眼鏡的圖減掉男生沒戴眼鏡的圖加上女生沒戴眼鏡的圖，就可以產生女生有戴眼鏡的圖，這.... 太強了... 有沒有強者能夠說明一下怎麼做到的～",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "4ada2ecb-e572-4fe3-b456-c7eb0452312b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_4ada2ecb-e572-4fe3-b456-c7eb0452312b.png",
+          "image_medium_filename": "original_ratio_medium_4ada2ecb-e572-4fe3-b456-c7eb0452312b.png"
+        },
+        {
+          "identifier": "AuXVKCr",
+          "type": "Link",
+          "title": "林軒田教授機器學習基石 Machine Learning Foundations 第七講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "http://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-shi-machine-learning-foundations-di-qi-jiang-xue-xi-bi-ji/",
+          "description": "<p>在第六講我們可以知道 Break Point 的出現可以大大限縮假設集合成長函數，而這個成長函數的上界是 B(N, k)，且可推導出 B(N, k) 是一個多項式，經過一些轉換與推導我們可以把無限的假設集合代換成有限的假設集合，這個上界我們就稱之為 VC Bond。因此可以從數學理論中得知 2D perceptrons 是可以從數據中得到學習效果，而且也不會有 Ein 與 Eout 誤差過大的情況發生，而這一講將進一步說明 VC Bond。</p>",
+          "description_markdown": "在第六講我們可以知道 Break Point 的出現可以大大限縮假設集合成長函數，而這個成長函數的上界是 B(N, k)，且可推導出 B(N, k) 是一個多項式，經過一些轉換與推導我們可以把無限的假設集合代換成有限的假設集合，這個上界我們就稱之為 VC Bond。因此可以從數學理論中得知 2D perceptrons 是可以從數據中得到學習效果，而且也不會有 Ein 與 Eout 誤差過大的情況發生，而這一講將進一步說明 VC Bond。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "ELkipt2",
+          "type": "Link",
+          "title": "PHP Versions Stats 2015 Edition - PHP 版本現況 2015",
+          "url_domain": "seld.be",
+          "url": "http://seld.be/notes/php-versions-stats-2015-edition",
+          "description": "<p>2015 年要結束了，PHP 7 也在今年年底與大家見面了，讓我們來瞧瞧 <a href=\"https://twitter.com/seldaek\">@Jordi Boggiano</a> 整理更新的 PHP 各版本目前的使用比例現況吧～</p>",
+          "description_markdown": "2015 年要結束了，PHP 7 也在今年年底與大家見面了，讓我們來瞧瞧 [@Jordi Boggiano](https://twitter.com/seldaek) 整理更新的 PHP 各版本目前的使用比例現況吧～",
+          "embedded_links": [
+            {
+              "identifier": "7jyvqBB",
+              "title": "@Jordi Boggiano",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/seldaek"
+            }
+          ]
+        },
+        {
+          "identifier": "bm9XZff",
+          "type": "Link",
+          "title": "Managing Cronjobs with Laravel - 如何在 Laravel 中管理 Cronjobs",
+          "url_domain": "sitepoint.com",
+          "url": "http://www.sitepoint.com/managing-cronjobs-with-laravel/",
+          "description": "<p>開發一個應用程式或服務，一定會遇到需要重複呼叫執行程式處理某些工作的時候，比如寄信、定時清除資料、轉檔等等，在 unix-like 的系統我們就會使用 cron job 來完成這樣的功能。但單純使用系統的 cron job 可能會在日後造成維護的困難，本篇文章將說明如何在 Laravel 正確的管理 cron job。</p>",
+          "description_markdown": "開發一個應用程式或服務，一定會遇到需要重複呼叫執行程式處理某些工作的時候，比如寄信、定時清除資料、轉檔等等，在 unix-like 的系統我們就會使用 cron job 來完成這樣的功能。但單純使用系統的 cron job 可能會在日後造成維護的困難，本篇文章將說明如何在 Laravel 正確的管理 cron job。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "adamp33",
+      "name": "@adamp33",
+      "items": [
+        {
+          "identifier": "iD7XAjA",
+          "type": "Link",
+          "title": "bliss.js",
+          "url_domain": "blissfuljs.com",
+          "url": "http://blissfuljs.com/",
+          "description": "<p>前端大師同時也是 <a href=\"http://shop.oreilly.com/product/0636920031123.do\">CSS Secret</a> 一書的作者 Lea Verou 最近推出一套輕量級的 JavaScript 函式庫，取名為 bliss.js，壓縮後只有不到 3KB，相當適合手機版網頁或是講求效能的專案使用。大量使用 Promise，因此寫法比起 vanilla.js 更為簡潔，不妨試用看看。</p>",
+          "description_markdown": "前端大師同時也是 [CSS Secret](http://shop.oreilly.com/product/0636920031123.do) 一書的作者 Lea Verou 最近推出一套輕量級的 JavaScript 函式庫，取名為 bliss.js，壓縮後只有不到 3KB，相當適合手機版網頁或是講求效能的專案使用。大量使用 Promise，因此寫法比起 vanilla.js 更為簡潔，不妨試用看看。\r\n\r\n",
+          "embedded_links": [
+            {
+              "identifier": "n1Nzm8m",
+              "title": "CSS Secret",
+              "url_domain": "oreilly.com",
+              "url": "http://shop.oreilly.com/product/0636920031123.do"
+            }
+          ]
+        },
+        {
+          "identifier": "gEeKjZd",
+          "type": "Link",
+          "title": "用遊戲來學 CSS Flexbox",
+          "url_domain": "flexboxfroggy.com",
+          "url": "http://flexboxfroggy.com/",
+          "description": "<p>強大的排版工具 Flexbox 可說是 CSS 中最難學會的一種特性（property），不僅有容器和子元素特殊的用法，許多語法也不直覺。</p>\n\n<p>如今有人將此作成青蛙遊戲，透過互動的方式學習，很快就能上手。你多快能學會並且破關呢？</p>",
+          "description_markdown": "強大的排版工具 Flexbox 可說是 CSS 中最難學會的一種特性（property），不僅有容器和子元素特殊的用法，許多語法也不直覺。\r\n\r\n如今有人將此作成青蛙遊戲，透過互動的方式學習，很快就能上手。你多快能學會並且破關呢？\r\n\r\n",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "e4229b61-bc90-419e-9716-6c1b3498b5fd.png",
+          "image_extra_large_filename": "original_ratio_extra_large_e4229b61-bc90-419e-9716-6c1b3498b5fd.png",
+          "image_medium_filename": "original_ratio_medium_e4229b61-bc90-419e-9716-6c1b3498b5fd.png"
+        },
+        {
+          "identifier": "EqhQy5L",
+          "type": "Link",
+          "title": "如何讓 CSS box-shadow 的動畫更為順暢？",
+          "url_domain": "tobiasahlin.com",
+          "url": "http://tobiasahlin.com/blog/how-to-animate-box-shadow/",
+          "description": "<p>如果你有使用 box-shadow 做過 CSS 動畫（例如在滑鼠移過時出現陰影、捲軸滾動），一定會遇到效能問題，box-shadow 的繪製成本相當高，要如何做出順暢的陰影動畫，這裡有一招你一定要學起來。</p>",
+          "description_markdown": "如果你有使用 box-shadow 做過 CSS 動畫（例如在滑鼠移過時出現陰影、捲軸滾動），一定會遇到效能問題，box-shadow 的繪製成本相當高，要如何做出順暢的陰影動畫，這裡有一招你一定要學起來。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "y9Bo9WO",
+          "type": "Link",
+          "title": "Microsoft 將在下月開源 Edge瀏覽器的 JavaScript 核心",
+          "url_domain": "windows.com",
+          "url": "https://blogs.windows.com/msedgedev/2015/12/05/open-source-chakra-core/",
+          "description": "<p>Microsoft 真的不一樣了！ 打算在下月開源自家瀏覽器 Edge 核心 ChakraCore， 從 <a href=\"http://kangax.github.io/compat-table/es6/\">Kangax ES6 Compatibility Table</a> 可以看出， Edge 13 是目前支援最多 ECMAScript 6 新特性的瀏覽器，並已實作 ECMAScript 7 的 <a href=\"https://blogs.windows.com/msedgedev/2015/09/30/asynchronous-code-gets-easier-with-es2016-async-function-support-in-chakra-and-microsoft-edge/\">Async Functions</a> 和 <a href=\"https://blogs.windows.com/msedgedev/2015/05/21/intel-and-microsoft-partnering-for-an-improved-web-experience/\">SIMD (Single Instruction Multiple Data)</a></p>\n\n<p>目前微軟除了將 ChakraCore 用在瀏覽器上，也包含 XBOX、Windows Phone，以及自家服務，像是  <a href=\"https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/\">Azure DocumentDB</a> ， <a href=\"https://www.microsoft.com/en-us/windows/Cortana\">Cortana數位語音助理</a> 與 Outlook.com ， 一般使用者也可在 <a href=\"https://ms-iot.github.io/content/en-US/GetStarted.htm\">Windows IoT</a> 上直接運行 Node.js 擁有的生態系。</p>\n\n<p>微軟希望藉此讓 ChakraCore 更廣泛應用在各個領域，將來 Node 的開發者可以有除了 v8 核心以外的選擇。</p>",
+          "description_markdown": "Microsoft 真的不一樣了！ 打算在下月開源自家瀏覽器 Edge 核心 ChakraCore， 從 [Kangax ES6 Compatibility Table](http://kangax.github.io/compat-table/es6/) 可以看出， Edge 13 是目前支援最多 ECMAScript 6 新特性的瀏覽器，並已實作 ECMAScript 7 的 [Async Functions](https://blogs.windows.com/msedgedev/2015/09/30/asynchronous-code-gets-easier-with-es2016-async-function-support-in-chakra-and-microsoft-edge/) 和 [SIMD (Single Instruction Multiple Data)](https://blogs.windows.com/msedgedev/2015/05/21/intel-and-microsoft-partnering-for-an-improved-web-experience/)\r\n\r\n目前微軟除了將 ChakraCore 用在瀏覽器上，也包含 XBOX、Windows Phone，以及自家服務，像是  [Azure DocumentDB](https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/) ， [Cortana數位語音助理](https://www.microsoft.com/en-us/windows/Cortana) 與 Outlook.com ， 一般使用者也可在 [Windows IoT](https://ms-iot.github.io/content/en-US/GetStarted.htm) 上直接運行 Node.js 擁有的生態系。\r\n\r\n微軟希望藉此讓 ChakraCore 更廣泛應用在各個領域，將來 Node 的開發者可以有除了 v8 核心以外的選擇。",
+          "embedded_links": [
+            {
+              "identifier": "sfbzkip",
+              "title": "Kangax ES6 Compatibility Table",
+              "url_domain": "github.io",
+              "url": "http://kangax.github.io/compat-table/es6/"
+            },
+            {
+              "identifier": "YYiFCYH",
+              "title": "Async Functions",
+              "url_domain": "windows.com",
+              "url": "https://blogs.windows.com/msedgedev/2015/09/30/asynchronous-code-gets-easier-with-es2016-async-function-support-in-chakra-and-microsoft-edge/"
+            },
+            {
+              "identifier": "gs9VDGb",
+              "title": "SIMD (Single Instruction Multiple Data)",
+              "url_domain": "windows.com",
+              "url": "https://blogs.windows.com/msedgedev/2015/05/21/intel-and-microsoft-partnering-for-an-improved-web-experience/"
+            },
+            {
+              "identifier": "jaqqQPA",
+              "title": "Azure DocumentDB",
+              "url_domain": "microsoft.com",
+              "url": "https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/"
+            },
+            {
+              "identifier": "RAJIroj",
+              "title": "Cortana數位語音助理",
+              "url_domain": "microsoft.com",
+              "url": "https://www.microsoft.com/en-us/windows/Cortana"
+            },
+            {
+              "identifier": "7NwUAtv",
+              "title": "Windows IoT",
+              "url_domain": "github.io",
+              "url": "https://ms-iot.github.io/content/en-US/GetStarted.htm"
+            }
+          ]
+        },
+        {
+          "identifier": "ZSJGDFc",
+          "type": "Link",
+          "title": "HTTP/2 101 (Chrome Dev Summit 2015)",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=r5oT_2ndjms",
+          "description": "<p>現在大部分使用者的網路頻寬已經非常快速，但是因為 HTTP/1.1 每個 request 都需佔用一個 TCP 連線，在 Ajax 頻繁的網頁速度常常還是需要數秒的讀取時間，而前端工程師為了加快速度做了很多 hacks (<a href=\"http://www.w3schools.com/css/css_image_sprites.asp\">CSS Image Sprites</a>, Concatenation/Minifization, Inline CSS, <a href=\"https://en.wikipedia.org/wiki/Data_URI_scheme\">Data URI</a>), HTTP/2 透過同一個 TCP 連線處理所有 request ，來加快網頁的速度，並且完全不用更改原本前後端的 code ，只要 server 和 client 都有支援 HTTP/2 即可對網站讀取速度最佳化 。</p>\n\n<p>影片中會介紹 HTTP 的歷史，可以簡單的理解 HTTP/2 的特性，在 HTTP/2 ， 因為 request 變得輕盈，原先習慣的一些最佳化方式反而變得不合用，看來前端工程師很快的又要學習新的方式 coding 了。</p>",
+          "description_markdown": "現在大部分使用者的網路頻寬已經非常快速，但是因為 HTTP/1.1 每個 request 都需佔用一個 TCP 連線，在 Ajax 頻繁的網頁速度常常還是需要數秒的讀取時間，而前端工程師為了加快速度做了很多 hacks ([CSS Image Sprites](http://www.w3schools.com/css/css_image_sprites.asp), Concatenation/Minifization, Inline CSS, [Data URI](https://en.wikipedia.org/wiki/Data_URI_scheme)), HTTP/2 透過同一個 TCP 連線處理所有 request ，來加快網頁的速度，並且完全不用更改原本前後端的 code ，只要 server 和 client 都有支援 HTTP/2 即可對網站讀取速度最佳化 。\r\n\r\n影片中會介紹 HTTP 的歷史，可以簡單的理解 HTTP/2 的特性，在 HTTP/2 ， 因為 request 變得輕盈，原先習慣的一些最佳化方式反而變得不合用，看來前端工程師很快的又要學習新的方式 coding 了。",
+          "embedded_links": [
+            {
+              "identifier": "me2aD5F",
+              "title": "CSS Image Sprites",
+              "url_domain": "w3schools.com",
+              "url": "http://www.w3schools.com/css/css_image_sprites.asp"
+            },
+            {
+              "identifier": "Sv60iXP",
+              "title": "Data URI",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Data_URI_scheme"
+            }
+          ]
+        },
+        {
+          "identifier": "WlHAi37",
+          "type": "Link",
+          "title": "開源免費 SSL 憑證 Let's Encrypt 正式進入開放測試",
+          "url_domain": "letsencrypt.org",
+          "url": "https://letsencrypt.org/",
+          "description": "<p>Let's Encrypt 希望藉由免費且簡單自動化申請的方式，加速推動 HTTPS 加密傳輸。由於使用的是 DV 驗證，只會驗證 Domain 的所有權，並不會驗證所有者的身份，不過如果只是架個個人網站， Let's Encrypt 就會是一個很棒的選擇！</p>",
+          "description_markdown": "Let's Encrypt 希望藉由免費且簡單自動化申請的方式，加速推動 HTTPS 加密傳輸。由於使用的是 DV 驗證，只會驗證 Domain 的所有權，並不會驗證所有者的身份，不過如果只是架個個人網站， Let's Encrypt 就會是一個很棒的選擇！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "psaO8Mr",
+          "type": "Link",
+          "title": "Getting Started with Redux",
+          "url_domain": "egghead.io",
+          "url": "https://egghead.io/series/getting-started-with-redux",
+          "description": "<p><a href=\"https://github.com/rackt/redux\">Redux</a> 作者最近在 <a href=\"https://egghead.io/\">egghead.io</a> 開放了免費課程， Redux 是給 JavaScript app 使用的 state container ， 改善了 <a href=\"https://facebook.github.io/flux/\">Flux</a> 架構，將所有資料流和 Event Handling 都包起來，減少了大量手動書寫。</p>\n\n<p>因為採用了 <a href=\"https://en.wikipedia.org/wiki/Immutable_object\">immutable data</a> 以及 <a href=\"https://en.wikipedia.org/wiki/Single_Source_of_Truth\">SSOT (Single Source of Truth)</a> ，資料可以非常容易的達到 time travel ，方便追蹤資料的改變，是一個值得去玩玩的 framework 。</p>",
+          "description_markdown": "[Redux](https://github.com/rackt/redux) 作者最近在 [egghead.io](https://egghead.io/) 開放了免費課程， Redux 是給 JavaScript app 使用的 state container ， 改善了 [Flux](https://facebook.github.io/flux/) 架構，將所有資料流和 Event Handling 都包起來，減少了大量手動書寫。\r\n\r\n因為採用了 [immutable data](https://en.wikipedia.org/wiki/Immutable_object) 以及 [SSOT (Single Source of Truth)](https://en.wikipedia.org/wiki/Single_Source_of_Truth) ，資料可以非常容易的達到 time travel ，方便追蹤資料的改變，是一個值得去玩玩的 framework 。",
+          "embedded_links": [
+            {
+              "identifier": "105e4yz",
+              "title": "Redux",
+              "url_domain": "github.com",
+              "url": "https://github.com/rackt/redux"
+            },
+            {
+              "identifier": "H2EsGcU",
+              "title": "egghead.io",
+              "url_domain": "egghead.io",
+              "url": "https://egghead.io/"
+            },
+            {
+              "identifier": "9k7d9GA",
+              "title": "Flux",
+              "url_domain": "github.io",
+              "url": "https://facebook.github.io/flux/"
+            },
+            {
+              "identifier": "5O8v0L2",
+              "title": "immutable data",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Immutable_object"
+            },
+            {
+              "identifier": "9OBNScv",
+              "title": "SSOT (Single Source of Truth)",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Single_Source_of_Truth"
+            }
+          ]
+        },
+        {
+          "identifier": "Objr05w",
+          "type": "Link",
+          "title": "聯發科推出 MediaTek LinkIt™ Smart 7688",
+          "url_domain": "mediatek.com",
+          "url": "https://labs.mediatek.com/site/global/developer_tools/mediatek_linkit_smart_7688/whatis_7688/index.gsp",
+          "description": "<p>最近聯發科的 MediaTek Lab 推出了新的開發版 LinkIt™ Smart 7688 ，內建包好 Node.js 與 Python ，分為兩個版本，LinkIt™ Smart 7688 (MPU) 與 LinkIt™ Smart 7688 (MPU\n+ MCU) 各只要 $13 與 $16 ，且這次除了 driver (聽說之後會釋出) 外完全開源！自己也跟了團購訂了一組準備來玩玩！</p>",
+          "description_markdown": "最近聯發科的 MediaTek Lab 推出了新的開發版 LinkIt™ Smart 7688 ，內建包好 Node.js 與 Python ，分為兩個版本，LinkIt™ Smart 7688 (MPU) 與 LinkIt™ Smart 7688 (MPU \r\n+ MCU) 各只要 $13 與 $16 ，且這次除了 driver (聽說之後會釋出) 外完全開源！自己也跟了團購訂了一組準備來玩玩！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "R4gJfrR",
+          "type": "Link",
+          "title": "Is it Pokémon or Big Data? - 這是神奇寶貝或是大數據？",
+          "url_domain": "github.io",
+          "url": "http://pixelastic.github.io/pokemonorbigdata/",
+          "description": "<p>這是一個謎題小遊戲，每次給出一個名詞讓你猜這這是神奇寶貝或是大數據？作者會做這個小遊戲的原因應該是因為現在太多大數據的服務或工具命名實在是太像神奇寶貝了，比如 Seahorse 跟 Horsea 哪一個是大數據呢？真的好難啊！</p>\n\n<p>由 <a href=\"https://twitter.com/fukuball\">@fukuball</a> 提供</p>",
+          "description_markdown": "這是一個謎題小遊戲，每次給出一個名詞讓你猜這這是神奇寶貝或是大數據？作者會做這個小遊戲的原因應該是因為現在太多大數據的服務或工具命名實在是太像神奇寶貝了，比如 Seahorse 跟 Horsea 哪一個是大數據呢？真的好難啊！\r\n\r\n由 [@fukuball](https://twitter.com/fukuball) 提供",
+          "embedded_links": [
+            {
+              "identifier": "UmTzMSR",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            }
+          ],
+          "image_original_filename": "83e8ebc8-6a2d-4d87-b16e-b16a4fa747fb.png",
+          "image_extra_large_filename": "original_ratio_extra_large_83e8ebc8-6a2d-4d87-b16e-b16a4fa747fb.png",
+          "image_medium_filename": "original_ratio_medium_83e8ebc8-6a2d-4d87-b16e-b16a4fa747fb.png"
+        }
+      ]
+    }
+  ]
+}

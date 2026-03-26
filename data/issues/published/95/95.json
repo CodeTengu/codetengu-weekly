@@ -1,0 +1,517 @@
+{
+  "number": 95,
+  "title": "Issue 95 Information wants to be free",
+  "summary": "本期內容涵蓋 Blockchain, Machine Learning, Python, Django, Interviewing, Go",
+  "url": "https://weekly.codetengu.com/issues/95",
+  "publication_status": "published",
+  "published_at": "2017-07-10T03:00:00+01:00",
+  "updated_at": "2017-07-10T03:00:03+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">The Quantum Thief</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a></li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 總算把 Gopher Day 辦完了..</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [The Quantum Thief](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/)\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 總算把 Gopher Day 辦完了..  \r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "HksXnuR",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "adtWJkG",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "eIHX7sq",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "g4GSCv2",
+              "title": "The Quantum Thief",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "xeOhkC7",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "BGxzmU2",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "9S8dYKA",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "kGwa9bi",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "6x1jTOB",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "wXMOWGA",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "UloqiY",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "Lfcpppq",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "GFooJMb",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "Hj0GycP",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "dLRpd5I",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "BwKb3lD",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "mKzyQJs",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "Tkce2Ho",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "TveYlQe",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "OHp1nQf",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "iVOJxOa",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "UjdUMeI",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "Hv8a48t",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "yhoQLzb",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "tnExDbh",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "1KiwDyu",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "k3qT3BT",
+          "type": "Link",
+          "title": "Beginner’s guide to Ethereum (1) — Build a smart contract on a private network",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@tina26919742/a-complete-guide-on-building-a-smart-contract-on-a-private-net-in-ethereum-726851c7c044",
+          "description": "<p>Blockchain：初級</p>\n\n<p>雖然 <a href=\"https://twitter.com/mingderwang\">@mingderwang</a> 一直都有在 CodeTengu 推廣 Ethereum 相關技術開發，但我一直沒能好好靜下心來好好學習，這近看到這篇遊港正妹工程師李婷婷的教學文章之後，我終於寫出了我人生第一個 <a href=\"https://www.facebook.com/photo.php?fbid=1611595085519890&amp;set=a.177940655552014.43383.100000082436586&amp;type=3&amp;theater\">Smart Contract</a> 了！難道正妹寫的教學文效果比較好嗎？</p>\n\n<p>Beginner’s guide to Ethereum 系列文章：</p>\n\n<ul>\n<li><a href=\"https://medium.com/@tina26919742/beginners-guide-to-ethereum-2-run-multiple-nodes-on-a-private-network-in-5-lines-c97a4d78a590\">Beginners guide to Ethereum (2) — run multiple nodes on a private network in 5 lines</a></li>\n<li><a href=\"https://medium.com/@tina26919742/beginners-guide-to-ethereum-3-explain-the-genesis-file-and-use-it-to-customize-your-blockchain-552eb6265145\">Beginners guide to Ethereum (3) — explain the genesis file and use it to customize your blockchain</a></li>\n</ul>",
+          "description_markdown": "Blockchain：初級\r\n\r\n雖然 [@mingderwang](https://twitter.com/mingderwang) 一直都有在 CodeTengu 推廣 Ethereum 相關技術開發，但我一直沒能好好靜下心來好好學習，這近看到這篇遊港正妹工程師李婷婷的教學文章之後，我終於寫出了我人生第一個 [Smart Contract](https://www.facebook.com/photo.php?fbid=1611595085519890&set=a.177940655552014.43383.100000082436586&type=3&theater) 了！難道正妹寫的教學文效果比較好嗎？\r\n\r\nBeginner’s guide to Ethereum 系列文章：\r\n\r\n- [Beginners guide to Ethereum (2) — run multiple nodes on a private network in 5 lines](https://medium.com/@tina26919742/beginners-guide-to-ethereum-2-run-multiple-nodes-on-a-private-network-in-5-lines-c97a4d78a590)\r\n- [Beginners guide to Ethereum (3) — explain the genesis file and use it to customize your blockchain](https://medium.com/@tina26919742/beginners-guide-to-ethereum-3-explain-the-genesis-file-and-use-it-to-customize-your-blockchain-552eb6265145)",
+          "embedded_links": [
+            {
+              "identifier": "Nxy3q1X",
+              "title": "@mingderwang",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/mingderwang"
+            },
+            {
+              "identifier": "dlp6wsF",
+              "title": "Smart Contract",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/photo.php?fbid=1611595085519890&set=a.177940655552014.43383.100000082436586&type=3&theater"
+            },
+            {
+              "identifier": "z3KnoWX",
+              "title": "Beginners guide to Ethereum (2) — run multiple nodes on a private network in 5 lines",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@tina26919742/beginners-guide-to-ethereum-2-run-multiple-nodes-on-a-private-network-in-5-lines-c97a4d78a590"
+            },
+            {
+              "identifier": "bybtN60",
+              "title": "Beginners guide to Ethereum (3) — explain the genesis file and use it to customize your blockchain",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@tina26919742/beginners-guide-to-ethereum-3-explain-the-genesis-file-and-use-it-to-customize-your-blockchain-552eb6265145"
+            }
+          ]
+        },
+        {
+          "identifier": "8kbma3R",
+          "type": "Link",
+          "title": "Kaggle 心得分享",
+          "url_domain": "ptt.cc",
+          "url": "https://www.ptt.cc/bbs/Soft_Job/M.1498959912.A.6C5.html",
+          "description": "<p>Kaggle、Machine Learning：初級</p>\n\n<p>這是 <a href=\"https://www.kaggle.com/\">Kaggle</a> 上<a href=\"https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count\">數海獅競賽</a>第一名 Kaggler 的心得分享，參加比賽直接練習解 ML 問題真的是學習 ML 最快的方法，而且如果得了前幾名還會有優渥的競賽獎金！比如這個數海獅競賽的總獎金就有 25000 美金，第一名可以獨得 12000 美金，真的超爽，我應該也要來找時間比 Kaggle 來賺賺外快啊！</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"http://speech.ee.ntu.edu.tw/~tlkagk/courses.html\">Machine Learning and having it deep and structured</a></li>\n<li><a href=\"http://cs231n.stanford.edu/\">CS231n: Convolutional Neural Networks for Visual Recognition</a></li>\n</ul>",
+          "description_markdown": "Kaggle、Machine Learning：初級\r\n\r\n這是 [Kaggle](https://www.kaggle.com/) 上[數海獅競賽](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count)第一名 Kaggler 的心得分享，參加比賽直接練習解 ML 問題真的是學習 ML 最快的方法，而且如果得了前幾名還會有優渥的競賽獎金！比如這個數海獅競賽的總獎金就有 25000 美金，第一名可以獨得 12000 美金，真的超爽，我應該也要來找時間比 Kaggle 來賺賺外快啊！\r\n\r\n延伸閱讀：\r\n\r\n- [Machine Learning and having it deep and structured](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)\r\n- [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)",
+          "embedded_links": [
+            {
+              "identifier": "6wJsnOx",
+              "title": "Kaggle",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/"
+            },
+            {
+              "identifier": "i2xHD8t",
+              "title": "數海獅競賽",
+              "url_domain": "kaggle.com",
+              "url": "https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count"
+            },
+            {
+              "identifier": "Bss9wHZ",
+              "title": "Machine Learning and having it deep and structured",
+              "url_domain": "ntu.edu.tw",
+              "url": "http://speech.ee.ntu.edu.tw/~tlkagk/courses.html"
+            },
+            {
+              "identifier": "Ry2CBqz",
+              "title": "CS231n: Convolutional Neural Networks for Visual Recognition",
+              "url_domain": "stanford.edu",
+              "url": "http://cs231n.stanford.edu/"
+            }
+          ]
+        },
+        {
+          "identifier": "6nlea1t",
+          "type": "Link",
+          "title": "KKBOX Data Game - 17.06 1st place Solution",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@kstseng/kkbox-data-game-17-06-1st-place-solution-2baa14aee5f4",
+          "description": "<p>Kaggle、Machine Learning：初級</p>\n\n<p>最近 KKBOX 集團新服務 - KKTV 在 Kaggle 上第一次對外舉辦了資料分析競賽，比賽內容是這樣的：「以前四個月的資料為分析基石，推測用戶在接下來一個月花最長時間觀看的是哪部劇」，希望藉由 Kaggler 的競爭中來找出增進推薦系統預測準確度的方法。本篇文章是這個比賽第一名 Kaggler 的分享，雖然只是將準確度從 0.27 提升到 0.28，但寶貴的分析過程很值得參考。</p>\n\n<p>不過，忍不住要說一下，前三名的獎勵只有精緻米其林主廚料理體驗暨交流餐敘跟 KKTV 6 個月免費看序號卡好像真的有點虛啊～</p>",
+          "description_markdown": "Kaggle、Machine Learning：初級\r\n\r\n最近 KKBOX 集團新服務 - KKTV 在 Kaggle 上第一次對外舉辦了資料分析競賽，比賽內容是這樣的：「以前四個月的資料為分析基石，推測用戶在接下來一個月花最長時間觀看的是哪部劇」，希望藉由 Kaggler 的競爭中來找出增進推薦系統預測準確度的方法。本篇文章是這個比賽第一名 Kaggler 的分享，雖然只是將準確度從 0.27 提升到 0.28，但寶貴的分析過程很值得參考。\r\n\r\n不過，忍不住要說一下，前三名的獎勵只有精緻米其林主廚料理體驗暨交流餐敘跟 KKTV 6 個月免費看序號卡好像真的有點虛啊～",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "TNMKO5o",
+          "type": "Link",
+          "title": "Startup SaaS Stack",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/blissfully/startup-saas-stack-4aa9a17b9afc",
+          "description": "<p>Business：初級</p>\n\n<p>想要創業開一下公司（網路、軟體開發相關）都會面臨一些共同的問題，像是公司要如何發工資、要怎麼記帳、怎麼報稅等等問題，這篇文章分享了公司處在各種規模時可以考慮使用的 SaaS 工具服務來解決上述的問題，雖然在台灣不一定能用，但還是可以參考一下，或者是自己創業做一個在台灣可以運作的相同服務出來（推坑）。</p>",
+          "description_markdown": "Business：初級\r\n\r\n想要創業開一下公司（網路、軟體開發相關）都會面臨一些共同的問題，像是公司要如何發工資、要怎麼記帳、怎麼報稅等等問題，這篇文章分享了公司處在各種規模時可以考慮使用的 SaaS 工具服務來解決上述的問題，雖然在台灣不一定能用，但還是可以參考一下，或者是自己創業做一個在台灣可以運作的相同服務出來（推坑）。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "LuS67yX",
+          "type": "Link",
+          "title": "Checklist for Python libraries APIs",
+          "url_domain": "apichecklist.com",
+          "url": "http://python.apichecklist.com",
+          "description": "<p>源自 <a href=\"https://github.com/fjsj\">Flávio Juvenal</a>  在 PyCon 2017 的演講 <a href=\"https://www.youtube.com/watch?v=4mkFfce46zE\">How to make a good library API</a>。這個 talk 探討了一些好 library 值得學習的特點，包括簡易性、一致性、彈性、安全性四個大項，並提供了一些該注意的細節與實例。為了讓大家在每次設計 API 時不要漏掉東西，作者把他提到的項目整理成一個清單，並用 checklist 方便逐項確認。</p>\n\n<p>雖然是 PyCon 的演講，但這些項目只要稍微調整一下，在其他語言也適用，而且我覺得不只是 library，很多設計上的重點在跨元件 interface 設計上也同樣需要注意。網頁用了 <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage\">LocalStorage</a> 儲存狀態。</p>\n\n<p>我還沒機會用，不過感覺很方便，應該會把它加入下一個專案的檢查項目裡。如果下次有什麼需要設計介面的狀況，也絕對要試試看。</p>\n\n<p>Flávio 目前任職於 <a href=\"https://www.vinta.com.br\">Vinta Software</a>，一家巴西軟體公司，與 <a href=\"https://vinta.ws\">Vinta</a> 沒有任何關聯。</p>",
+          "description_markdown": "源自 [Flávio Juvenal](https://github.com/fjsj)  在 PyCon 2017 的演講 [How to make a good library API](https://www.youtube.com/watch?v=4mkFfce46zE)。這個 talk 探討了一些好 library 值得學習的特點，包括簡易性、一致性、彈性、安全性四個大項，並提供了一些該注意的細節與實例。為了讓大家在每次設計 API 時不要漏掉東西，作者把他提到的項目整理成一個清單，並用 checklist 方便逐項確認。\r\n\r\n雖然是 PyCon 的演講，但這些項目只要稍微調整一下，在其他語言也適用，而且我覺得不只是 library，很多設計上的重點在跨元件 interface 設計上也同樣需要注意。網頁用了 [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage) 儲存狀態。\r\n\r\n我還沒機會用，不過感覺很方便，應該會把它加入下一個專案的檢查項目裡。如果下次有什麼需要設計介面的狀況，也絕對要試試看。\r\n\r\nFlávio 目前任職於 [Vinta Software](https://www.vinta.com.br)，一家巴西軟體公司，與 [Vinta](https://vinta.ws) 沒有任何關聯。",
+          "embedded_links": [
+            {
+              "identifier": "kRdboMI",
+              "title": "Flávio Juvenal",
+              "url_domain": "github.com",
+              "url": "https://github.com/fjsj"
+            },
+            {
+              "identifier": "FBoPjqY",
+              "title": "How to make a good library API",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=4mkFfce46zE"
+            },
+            {
+              "identifier": "5RrxK7y",
+              "title": "LocalStorage",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage/LocalStorage"
+            },
+            {
+              "identifier": "FP2E58m",
+              "title": "Vinta Software",
+              "url_domain": "vinta.com.br",
+              "url": "https://www.vinta.com.br"
+            },
+            {
+              "identifier": "FZNDYOf",
+              "title": "Vinta",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws"
+            }
+          ]
+        },
+        {
+          "identifier": "L1EV3qk",
+          "type": "Link",
+          "title": "pydantic: Data validation using Python 3.6 type hinting",
+          "url_domain": "helpmanual.io",
+          "url": "https://pydantic-docs.helpmanual.io",
+          "description": "<p>Python 3.6 在 <a href=\"https://www.python.org/dev/peps/pep-3107/\">PEP 3107 Function Annotation</a> 基礎上發展的 <a href=\"https://docs.python.org/3/library/typing.html\"><code>typing</code> module</a> 受到不少關注。可以指定型態在很多時候確實很有用，尤其對沒辦法精確掌握維護狀況的大型團隊裡，可以把 code review 部份標準化（例如 Guido 共同開發、Dropbox 大量使用的 <a href=\"http://mypy-lang.org\">mypy</a>）就特別方便。但 dynamic typing 也有它的好處，如果只是把 type annotation 像 static typing system 那樣用，總是感覺不太痛快。</p>\n\n<p>幸好強大的 Python 社群馬上開始發揮創意。就我所知的第一槍是 <a href=\"http://www.django-rest-framework.org\">Django REST Framework</a> 作者 Tom Christie 開發的 <a href=\"https://github.com/tomchristie/apistar\">API Star</a>。這是一個 web API framework，讓你可以用很少量的宣告做出 web API。「如果 Django REST Framework 的作者覺得有需要開發新工具，那它肯定是好東西。」我忘了是從哪裡聽到這句話，但 API Star 確實很酷。這是另一個獨立題材了，有機會再另外分享。</p>\n\n<p>回到 pydantic。Data validation 最重要的 interface 就是要能方便宣告怎樣的資料才合法。我之前也用過不少工具，例如 Django 的 <a href=\"https://docs.djangoproject.com/en/1.11/ref/forms/api/\">Forms API</a>、<a href=\"https://wtforms.readthedocs.io/en/latest/\">WTForms</a>（主要用來與 HTML forms 互動）和 <a href=\"http://alecthomas.github.io/voluptuous/docs/_build/html/index.html\">Voluptuous</a> 等等，不過 pydantic 的宣告方法感覺特別舒服。Type annotation 提供型態、assignment 提供 default，這比傳統的 declarative API 要漂亮太多啦！大家也來用用看吧，然後我覺得更重要的是，不要掉入 static vs dynamic typing 的陷阱啊，一起想想 type hints 有什麼創意用法才是正途。</p>",
+          "description_markdown": "Python 3.6 在 [PEP 3107 Function Annotation](https://www.python.org/dev/peps/pep-3107/) 基礎上發展的 [`typing` module](https://docs.python.org/3/library/typing.html) 受到不少關注。可以指定型態在很多時候確實很有用，尤其對沒辦法精確掌握維護狀況的大型團隊裡，可以把 code review 部份標準化（例如 Guido 共同開發、Dropbox 大量使用的 [mypy](http://mypy-lang.org)）就特別方便。但 dynamic typing 也有它的好處，如果只是把 type annotation 像 static typing system 那樣用，總是感覺不太痛快。\r\n\r\n幸好強大的 Python 社群馬上開始發揮創意。就我所知的第一槍是 [Django REST Framework](http://www.django-rest-framework.org) 作者 Tom Christie 開發的 [API Star](https://github.com/tomchristie/apistar)。這是一個 web API framework，讓你可以用很少量的宣告做出 web API。「如果 Django REST Framework 的作者覺得有需要開發新工具，那它肯定是好東西。」我忘了是從哪裡聽到這句話，但 API Star 確實很酷。這是另一個獨立題材了，有機會再另外分享。\r\n\r\n回到 pydantic。Data validation 最重要的 interface 就是要能方便宣告怎樣的資料才合法。我之前也用過不少工具，例如 Django 的 [Forms API](https://docs.djangoproject.com/en/1.11/ref/forms/api/)、[WTForms](https://wtforms.readthedocs.io/en/latest/)（主要用來與 HTML forms 互動）和 [Voluptuous](http://alecthomas.github.io/voluptuous/docs/_build/html/index.html) 等等，不過 pydantic 的宣告方法感覺特別舒服。Type annotation 提供型態、assignment 提供 default，這比傳統的 declarative API 要漂亮太多啦！大家也來用用看吧，然後我覺得更重要的是，不要掉入 static vs dynamic typing 的陷阱啊，一起想想 type hints 有什麼創意用法才是正途。",
+          "embedded_links": [
+            {
+              "identifier": "ooxKvJf",
+              "title": "PEP 3107 Function Annotation",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/dev/peps/pep-3107/"
+            },
+            {
+              "identifier": "g25XXO",
+              "title": "`typing` module",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/library/typing.html"
+            },
+            {
+              "identifier": "DD3C4e6",
+              "title": "mypy",
+              "url_domain": "mypy-lang.org",
+              "url": "http://mypy-lang.org"
+            },
+            {
+              "identifier": "FvEnoNv",
+              "title": "Django REST Framework",
+              "url_domain": "django-rest-framework.org",
+              "url": "http://www.django-rest-framework.org"
+            },
+            {
+              "identifier": "su7lKyb",
+              "title": "API Star",
+              "url_domain": "github.com",
+              "url": "https://github.com/tomchristie/apistar"
+            },
+            {
+              "identifier": "xKkU5xt",
+              "title": "Forms API",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/1.11/ref/forms/api/"
+            },
+            {
+              "identifier": "xxFfGEA",
+              "title": "WTForms",
+              "url_domain": "readthedocs.io",
+              "url": "https://wtforms.readthedocs.io/en/latest/"
+            },
+            {
+              "identifier": "wm2P8Dp",
+              "title": "Voluptuous",
+              "url_domain": "github.io",
+              "url": "http://alecthomas.github.io/voluptuous/docs/_build/html/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "9RLr8Wl",
+          "type": "Link",
+          "title": "5 ways to make Django Admin safer",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/5-ways-to-make-django-admin-safer-eb7753698ac8",
+          "description": "<p>我常常嘴 <a href=\"https://docs.djangoproject.com/en/1.11/ref/contrib/admin/\">Django Admin</a> 其實就是個比較好看客製化程度比較高的 phpMyAdmin，所以也有很多同樣的問題。這篇列出了五個能讓它安全<strong>一點</strong>的方法，其實都是老生常談，不過因為太重要，還是值得提醒：</p>\n\n<ul>\n<li>不要用預設的 <code>/admin/</code> 路徑。</li>\n<li>覆寫設定與 template，讓每個環境的 admin 外觀有差異。</li>\n<li>為你的 admin 取名字，不要用預設的 <em>Django Administration</em>。</li>\n<li>不要開放 admin 給任意來源。</li>\n<li>強化 authentication 機制（文中的例子是 2FA）。</li>\n</ul>\n\n\n<p>其實我也不能說我都有做到，尤其第四個雖然很想這麼做，但實務上還是很不方便啊。倒是文中提供的 2FA solution 感覺頗值得。</p>",
+          "description_markdown": "我常常嘴 [Django Admin](https://docs.djangoproject.com/en/1.11/ref/contrib/admin/) 其實就是個比較好看客製化程度比較高的 phpMyAdmin，所以也有很多同樣的問題。這篇列出了五個能讓它安全**一點**的方法，其實都是老生常談，不過因為太重要，還是值得提醒：\r\n\r\n* 不要用預設的 `/admin/` 路徑。\r\n* 覆寫設定與 template，讓每個環境的 admin 外觀有差異。\r\n* 為你的 admin 取名字，不要用預設的 *Django Administration*。\r\n* 不要開放 admin 給任意來源。\r\n* 強化 authentication 機制（文中的例子是 2FA）。\r\n\r\n其實我也不能說我都有做到，尤其第四個雖然很想這麼做，但實務上還是很不方便啊。倒是文中提供的 2FA solution 感覺頗值得。",
+          "embedded_links": [
+            {
+              "identifier": "sPMTaxL",
+              "title": "Django Admin",
+              "url_domain": "djangoproject.com",
+              "url": "https://docs.djangoproject.com/en/1.11/ref/contrib/admin/"
+            }
+          ]
+        },
+        {
+          "identifier": "VkwS18R",
+          "type": "Link",
+          "title": "Antisocial Coding: My Year At GitHub",
+          "url_domain": "coraline.codes",
+          "url": "http://where.coraline.codes/blog/my-year-at-github/",
+          "description": "<p><a href=\"https://en.wikipedia.org/wiki/Coraline_Ada_Ehmke\">Coraline Ada Ehmke</a> 回顧了他加入 GitHub 一年多一點，最後被開除的經歷。這個故事與技術無關，而是描述他如何被其他人批評具有攻擊性，最後在各種事件交織下離開公司。</p>\n\n<p>最近覺得建立團體文化實在是條非常非常細的鋼索。一方面我們需要找到適合的同伴，才能在舒服的環境發揮出能力，但當團體裡無可避免地發生衝突，要如何正確處理各種議題，這個價值觀無比重要，也無比難拿捏。前陣子有個朋友分享並贊同 Mark Zuckerberg 的<a href=\"http://uk.businessinsider.com/mark-zuckerberg-tip-for-hiring-employees-2015-3\">用人哲學</a>，簡單來講就是「如果角色交換，我願不願意為他工作」。我完全不同意。這個想法在初衷上可能不差，但對於一個本來就在公司文化內、又身為主管的優勢位置，實在太容易否定別人。老闆挑員工比起員工挑老闆，應該用更絕對的對錯標準來判斷。你自己想不想為他工作根本不重要，這是你的責任；真正重要的，是你的員工們能不能合作，以及如果不能，該讓誰離開，或者該怎麼讓他們不會互相影響。</p>\n\n<p>這篇文章本身也只是一面之詞，我其實不覺得你應該用這篇文章支持 Coraline 或者否定 GitHub —— 有很多證據指出 GitHub 需要受到批評，不過這是另一碼事。但這個故事裡透露的衝突點，以及主角們面對衝突的方式，還是透露了許多事情，能讓人反思。</p>",
+          "description_markdown": "[Coraline Ada Ehmke](https://en.wikipedia.org/wiki/Coraline_Ada_Ehmke) 回顧了他加入 GitHub 一年多一點，最後被開除的經歷。這個故事與技術無關，而是描述他如何被其他人批評具有攻擊性，最後在各種事件交織下離開公司。\r\n\r\n最近覺得建立團體文化實在是條非常非常細的鋼索。一方面我們需要找到適合的同伴，才能在舒服的環境發揮出能力，但當團體裡無可避免地發生衝突，要如何正確處理各種議題，這個價值觀無比重要，也無比難拿捏。前陣子有個朋友分享並贊同 Mark Zuckerberg 的[用人哲學](http://uk.businessinsider.com/mark-zuckerberg-tip-for-hiring-employees-2015-3)，簡單來講就是「如果角色交換，我願不願意為他工作」。我完全不同意。這個想法在初衷上可能不差，但對於一個本來就在公司文化內、又身為主管的優勢位置，實在太容易否定別人。老闆挑員工比起員工挑老闆，應該用更絕對的對錯標準來判斷。你自己想不想為他工作根本不重要，這是你的責任；真正重要的，是你的員工們能不能合作，以及如果不能，該讓誰離開，或者該怎麼讓他們不會互相影響。\r\n\r\n這篇文章本身也只是一面之詞，我其實不覺得你應該用這篇文章支持 Coraline 或者否定 GitHub —— 有很多證據指出 GitHub 需要受到批評，不過這是另一碼事。但這個故事裡透露的衝突點，以及主角們面對衝突的方式，還是透露了許多事情，能讓人反思。",
+          "embedded_links": [
+            {
+              "identifier": "SSC205p",
+              "title": "Coraline Ada Ehmke",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Coraline_Ada_Ehmke"
+            },
+            {
+              "identifier": "3mcsAyo",
+              "title": "用人哲學",
+              "url_domain": "businessinsider.com",
+              "url": "http://uk.businessinsider.com/mark-zuckerberg-tip-for-hiring-employees-2015-3"
+            }
+          ]
+        },
+        {
+          "identifier": "jm8LYn4",
+          "type": "Link",
+          "title": "Two sql developers walk into a bar & then walk straight out...",
+          "url_domain": "reddit.com",
+          "url": "https://www.reddit.com/r/ProgrammerDadJokes/comments/6hzsym/two_sql_developers_walk_into_a_bar_then_walk/",
+          "description": "<p>來自最近發現的 subreddit <a href=\"https://www.reddit.com/r/ProgrammerDadJokes/\">/r/ProgrammerDadJokes</a>。</p>\n\n<p><a href=\"https://en.wikipedia.org/wiki/Dad_joke\">Dad joke</a> 是英文俚語，用來稱呼那種長輩裝年輕講的，一點也不好笑的笑話，通常是雙關語或音相似的字，就像你爸沒話題的時候會跟你講的那種。寬鬆翻譯成日文就是ダジャレ，中文好像沒有類似的，反正就是廢到笑的那種。我很喜歡這類笑話 <del>初老症狀</del>，連結這個是我看到最好（最廢？）的，分享給大家。</p>",
+          "description_markdown": "來自最近發現的 subreddit [/r/ProgrammerDadJokes](https://www.reddit.com/r/ProgrammerDadJokes/)。\r\n\r\n[Dad joke](https://en.wikipedia.org/wiki/Dad_joke) 是英文俚語，用來稱呼那種長輩裝年輕講的，一點也不好笑的笑話，通常是雙關語或音相似的字，就像你爸沒話題的時候會跟你講的那種。寬鬆翻譯成日文就是ダジャレ，中文好像沒有類似的，反正就是廢到笑的那種。我很喜歡這類笑話 ~~初老症狀~~，連結這個是我看到最好（最廢？）的，分享給大家。",
+          "embedded_links": [
+            {
+              "identifier": "emN8nsz",
+              "title": "/r/ProgrammerDadJokes",
+              "url_domain": "reddit.com",
+              "url": "https://www.reddit.com/r/ProgrammerDadJokes/"
+            },
+            {
+              "identifier": "WdUWrZ6",
+              "title": "Dad joke",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Dad_joke"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "iUlKaUH",
+          "type": "Link",
+          "title": "十年磨一劍:  etpan 的故事",
+          "url_domain": "etpan.org",
+          "url": "http://www.etpan.org/",
+          "description": "<p>工作生涯也過了 10年，經歷了不少公司和團隊，遇過許許多多的人，在這麼多人之中，只有一個人跟我說過『基礎的重要性、很多東西的關鍵要願意捲起袖子鑽進去，像是 RFC 或是各種 Spec，就會獲得答案』。大部分遇到的人都是喜歡玩新技術、新語言，快速的做出一個有趣的專案，而這種求快的想法，也造成了一堆公司都是用 open source 組一組，然後想趕快賣錢、結案。這種形式的軟體公司在台灣是多數，但想想其實也頗合理，我想這就是所謂的製造業的血液吧，總認為輪子買來裝一裝，可以動就可以賣錢了。</p>\n\n<p>下面連結這個人，他只做了兩個 open source 的 project，第一個 libetpan - 用 C 語言實作郵件收發功能的組件。第二個是 mailcore，一樣是郵件收發的組件，屬於比較高階抽象化的組件。簡單說，他就是利用這兩個 project 做完所有郵件收發的功能。也就是實作了郵件相關的 RFC。</p>\n\n<p>libetpan 從 2001年開始，mailcore 是 2013 年開始，一直到現在仍持續在維護。他在 2010 年推出了一款 Mac 郵件軟體 Sparrow，評價很好，然後 2012 年被 Google 買走。在很多領域或許都有類似的現象，沒有中心思想哲學的人，就像草一樣隨處蔓延，吹不死也長不大。期待在島上的人們，可以把自己當作一個種子，往土裡深深地種下去，然後可以茁壯成大樹，進而成為一片森林。</p>\n\n<p>[本文引用自臉書陳信邦]</p>",
+          "description_markdown": "工作生涯也過了 10年，經歷了不少公司和團隊，遇過許許多多的人，在這麼多人之中，只有一個人跟我說過『基礎的重要性、很多東西的關鍵要願意捲起袖子鑽進去，像是 RFC 或是各種 Spec，就會獲得答案』。大部分遇到的人都是喜歡玩新技術、新語言，快速的做出一個有趣的專案，而這種求快的想法，也造成了一堆公司都是用 open source 組一組，然後想趕快賣錢、結案。這種形式的軟體公司在台灣是多數，但想想其實也頗合理，我想這就是所謂的製造業的血液吧，總認為輪子買來裝一裝，可以動就可以賣錢了。\r\n\r\n下面連結這個人，他只做了兩個 open source 的 project，第一個 libetpan - 用 C 語言實作郵件收發功能的組件。第二個是 mailcore，一樣是郵件收發的組件，屬於比較高階抽象化的組件。簡單說，他就是利用這兩個 project 做完所有郵件收發的功能。也就是實作了郵件相關的 RFC。\r\n\r\nlibetpan 從 2001年開始，mailcore 是 2013 年開始，一直到現在仍持續在維護。他在 2010 年推出了一款 Mac 郵件軟體 Sparrow，評價很好，然後 2012 年被 Google 買走。在很多領域或許都有類似的現象，沒有中心思想哲學的人，就像草一樣隨處蔓延，吹不死也長不大。期待在島上的人們，可以把自己當作一個種子，往土裡深深地種下去，然後可以茁壯成大樹，進而成為一片森林。\r\n\r\n[本文引用自臉書陳信邦]",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "g59e0of",
+          "type": "Link",
+          "title": "開發人員的面試指南 - A developer’s guide to interviewing ",
+          "url_domain": "louie.lu",
+          "url": "https://blog.louie.lu/2017/04/30/%E9%96%8B%E7%99%BC%E4%BA%BA%E5%93%A1%E7%9A%84%E9%9D%A2%E8%A9%A6%E6%8C%87%E5%8D%97-a-developers-guide-to-interviewing/",
+          "description": "<p>如何面試一家公司 (開發人員的面試指南 – A developer’s guide to interviewing)</p>\n\n<p>最近面試不少人，也有一些工讀生．發現學生不知道要問公司什麼.. 於是把這一篇貼上來分享給大家．\n老生常談的是，大家都說不僅僅是公司面試你．你同時也在面試公司的．你應該要把握任何一個跟面試官交流的問題，來問出來自己究竟適不適合（或是喜不喜歡）這一間公司．</p>\n\n<p>歡迎大家來看看這一篇文章.. 也歡迎大家丟履歷來敝公司..</p>\n\n<ul>\n<li>Data Scientist (senior)</li>\n<li>Frontend (senior)</li>\n</ul>\n\n\n<p>快來丟履歷... 大家快來面試我.... (鞠躬..)</p>",
+          "description_markdown": "如何面試一家公司 (開發人員的面試指南 – A developer’s guide to interviewing)\r\n\r\n最近面試不少人，也有一些工讀生．發現學生不知道要問公司什麼.. 於是把這一篇貼上來分享給大家．\r\n老生常談的是，大家都說不僅僅是公司面試你．你同時也在面試公司的．你應該要把握任何一個跟面試官交流的問題，來問出來自己究竟適不適合（或是喜不喜歡）這一間公司．\r\n\r\n歡迎大家來看看這一篇文章.. 也歡迎大家丟履歷來敝公司..\r\n\r\n- Data Scientist (senior)\r\n- Frontend (senior)\r\n\r\n快來丟履歷... 大家快來面試我.... (鞠躬..)",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "dAbbAfD",
+          "type": "Link",
+          "title": "Rob Pike 在 Twitter  分享了一個笑話",
+          "url_domain": "twitter.com",
+          "url": "https://twitter.com/rob_pike/status/878412416127606784",
+          "description": "<p>Go 大神 Rob Pike 講的笑話一則 :</p>\n\n<p>當初在做 Java 與 Go 發現 Go 竟然比 Jave 慢了十倍，不過再細看之後才發現． 測量 Go 的速度單位原來是 micros 而不是 millis ．</p>\n\n<p>[編按: 由於看錯，其實該測量結果 Go 比起 Java 快上了一百倍]</p>",
+          "description_markdown": "Go 大神 Rob Pike 講的笑話一則 :\r\n\r\n當初在做 Java 與 Go 發現 Go 竟然比 Jave 慢了十倍，不過再細看之後才發現． 測量 Go 的速度單位原來是 micros 而不是 millis ．\r\n\r\n[編按: 由於看錯，其實該測量結果 Go 比起 Java 快上了一百倍]",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Aqv8aBI",
+          "type": "Link",
+          "title": "mattn/sudo: sudo for windows",
+          "url_domain": "github.com",
+          "url": "https://github.com/mattn/sudo?utm_content=buffer2a9d1&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer",
+          "description": "<p>在 Windows 下要切換 administrator 的 console 來執行某些指令其實很麻煩， mattn 弄了一個 windows 的 sudo 版本．</p>\n\n<p>當你跑 sudo 需要權限的指令，就會跳出 UAC</p>\n\n<p>意外的實用說...  總覺得稍微修改，可以給 drag and drop</p>",
+          "description_markdown": "在 Windows 下要切換 administrator 的 console 來執行某些指令其實很麻煩， mattn 弄了一個 windows 的 sudo 版本．\r\n\r\n當你跑 sudo 需要權限的指令，就會跳出 UAC \r\n\r\n意外的實用說...  總覺得稍微修改，可以給 drag and drop",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "azjCJil",
+          "type": "Link",
+          "title": "Golang Jobs in Taiwan",
+          "url_domain": "github.com",
+          "url": "https://github.com/golangtw/jobs/issues",
+          "description": "<p>你的公司想要找台灣的 Golang 人才嗎?</p>\n\n<p>你不知道到底一個好的 Golang 工程師到底應該值多少錢？</p>\n\n<p>不妨來這個 Github issue 看看吧，裡面有包括來自 Blockchain, 直撥產業的各種職缺．</p>\n\n<p>而且薪水都超過 80K 以上喔，快來應徵吧 (?</p>",
+          "description_markdown": "你的公司想要找台灣的 Golang 人才嗎?\r\n\r\n你不知道到底一個好的 Golang 工程師到底應該值多少錢？\r\n\r\n不妨來這個 Github issue 看看吧，裡面有包括來自 Blockchain, 直撥產業的各種職缺． \r\n\r\n而且薪水都超過 80K 以上喔，快來應徵吧 (? ",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

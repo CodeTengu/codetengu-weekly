@@ -1,0 +1,407 @@
+{
+  "number": 101,
+  "title": "Issue 101 國慶日小測驗，若中華民國是指標，請問它是空指標、野指標還是懸空指標？",
+  "summary": "本期內容涵蓋 Machine Learning, Data Science, Python, JavaScript, Flexbox , CSS, GraphQL",
+  "url": "https://weekly.codetengu.com/issues/101",
+  "publication_status": "published",
+  "published_at": "2017-10-09T03:00:00+01:00",
+  "updated_at": "2017-10-13T01:01:41+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Ready Player One</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 徵 Android Developer！救我！</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> -  公司誠徵前端，有想做 5G 與 AI 相關方面的前端歡迎聯絡我</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Ready Player One](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 徵 Android Developer！救我！\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objective-C 工程師，快來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) -  公司誠徵前端，有想做 5G 與 AI 相關方面的前端歡迎聯絡我\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>偶爾致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "11wbxDl",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "Wnkld4p",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "DaCDAy1",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "yss8R0F",
+              "title": "Ready Player One",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "VW3FGuU",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "aETvhQX",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "zLJPLDG",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "QZg4aZW",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "TxQ36Pe",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "uUzIoKY",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "3X5AgXM",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "PZE6FJt",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "vuyfNja",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "ah3Kuz9",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "huQdFu5",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "crOYPQS",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "dGwzmGq",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "s7oLlos",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "sZohYG8",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "LjopIvn",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "mZ3xoOR",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "HY8Yp9P",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "HePurWf",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "rmDFXFM",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "vwqx0QH",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "bmj1lhF",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "4gR88tL",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "WmFCOL0",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "pa5UA3c",
+          "type": "Link",
+          "title": "Feature Engineering 相關文章推薦",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@drumrick/feature-engineering-%E7%9B%B8%E9%97%9C%E6%96%87%E7%AB%A0%E6%8E%A8%E8%96%A6-b4c2aaffe93d",
+          "description": "<p>Machine Learning：中級</p>\n\n<p><a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a> 版主整理了有關 Feature Engineering 的一些文章，目前 Feature Engineering 算是大家比較少討論的一塊，但這一塊應該算是 Machine Learning 中相當重要的一環。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/) 版主整理了有關 Feature Engineering 的一些文章，目前 Feature Engineering 算是大家比較少討論的一塊，但這一塊應該算是 Machine Learning 中相當重要的一環。",
+          "embedded_links": [
+            {
+              "identifier": "cbOIExW",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            }
+          ]
+        },
+        {
+          "identifier": "nYDx3OH",
+          "type": "Link",
+          "title": "林軒田教授機器學習技法 Machine Learning Techniques 第 13 講學習筆記",
+          "url_domain": "fukuball.com",
+          "url": "https://blog.fukuball.com/lin-xuan-tian-jiao-shou-ji-qi-xue-xi-ji-fa-machine-learning-techniques-di-13-jiang-xue-xi-bi-ji/",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>林軒田老師的機器學習技法課程在第 13 講終於講到了 Deep Learning，不過也就僅僅這一章有講到 Deep Learning 了，如果大家想要再深入了解 Deep Learning，那可能要移駕到<a href=\"http://speech.ee.ntu.edu.tw/~tlkagk/talk.html\">李宏毅老師</a>的課程了。</p>\n\n<p>Deep Learning 究竟跟一般的神經網路有什麼不同呢？其實簡單來說，Deep Learning 就是一個比較深層的神經網路，而要訓練深層的神經網路運算量會比較大、容易 overfitting，也因此發展了許多深層神經網路特有的處理方法來訓練深層神經網路，Deep Learning 也因為不同網路結構的研究而形成越來越獨特的領域，現在都需要有專門的課程來學習 Deep Learning 了。</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n林軒田老師的機器學習技法課程在第 13 講終於講到了 Deep Learning，不過也就僅僅這一章有講到 Deep Learning 了，如果大家想要再深入了解 Deep Learning，那可能要移駕到[李宏毅老師](http://speech.ee.ntu.edu.tw/~tlkagk/talk.html)的課程了。\r\n\r\nDeep Learning 究竟跟一般的神經網路有什麼不同呢？其實簡單來說，Deep Learning 就是一個比較深層的神經網路，而要訓練深層的神經網路運算量會比較大、容易 overfitting，也因此發展了許多深層神經網路特有的處理方法來訓練深層神經網路，Deep Learning 也因為不同網路結構的研究而形成越來越獨特的領域，現在都需要有專門的課程來學習 Deep Learning 了。",
+          "embedded_links": [
+            {
+              "identifier": "Nnl0X8n",
+              "title": "李宏毅老師",
+              "url_domain": "ntu.edu.tw",
+              "url": "http://speech.ee.ntu.edu.tw/~tlkagk/talk.html"
+            }
+          ]
+        },
+        {
+          "identifier": "7bOUCIn",
+          "type": "Link",
+          "title": "Can we beat the state of the art from 2013 with only 0.046% of training examples?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@radekosmulski/can-we-beat-the-state-of-the-art-from-2013-with-only-0-046-of-training-examples-yes-we-can-18be24b8615f",
+          "description": "<p>Machine Learning：中級</p>\n\n<p>剛看文章前半部份發現作者只用了 6 張圖片作為訓練資料就可以取得貓狗圖片辨識 89.97% 的準確率，著實嚇了一大跳，畢竟目前的 Machine Learning 演算法要可以 work 都是需要有大量資料，要能夠像人類一樣只用小數據就可以學習並取得高辨識率的演算法目前還在發展中，後來看到是使用 Transfer Learning 就... 覺得作者寫這樣一篇文章有點太大驚小怪了。</p>\n\n<p>Transfer Learning 基本上會用之前已經訓練好的模型（或是其他相似領域的資料）然後再加上自己的小資料去做訓練，所以其實也是經過了大量資料做了訓練，並不是單純只用了 6 張圖片，這個故事告訴我們，要多看點書，不然不小心就會被騙啊！看來小數據機器學習模型目前還是夢啊！</p>",
+          "description_markdown": "Machine Learning：中級\r\n\r\n剛看文章前半部份發現作者只用了 6 張圖片作為訓練資料就可以取得貓狗圖片辨識 89.97% 的準確率，著實嚇了一大跳，畢竟目前的 Machine Learning 演算法要可以 work 都是需要有大量資料，要能夠像人類一樣只用小數據就可以學習並取得高辨識率的演算法目前還在發展中，後來看到是使用 Transfer Learning 就... 覺得作者寫這樣一篇文章有點太大驚小怪了。\r\n\r\nTransfer Learning 基本上會用之前已經訓練好的模型（或是其他相似領域的資料）然後再加上自己的小資料去做訓練，所以其實也是經過了大量資料做了訓練，並不是單純只用了 6 張圖片，這個故事告訴我們，要多看點書，不然不小心就會被騙啊！看來小數據機器學習模型目前還是夢啊！\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "44YwJAO",
+          "type": "Link",
+          "title": "The Language of Hip-Hop",
+          "url_domain": "pudding.cool",
+          "url": "https://pudding.cool/2017/09/hip-hop-words/",
+          "description": "<p>Data Science：中級</p>\n\n<p>一直對音樂相關的資料分析應用蠻著迷的，這個研究分析了 308 位 Hip-Hop 藝人在歌詞寫作上的相似程度，並把這些藝人對應到一個平面，比如國外知名 Hip-Hop 團體 Wu-Tang Clan 的成員們依據歌詞相似程度幾乎都在平面相鄰近的地方，文章還有許多有趣的分析，並用生動的動態圖示呈現出來，蠻值得一看的～</p>",
+          "description_markdown": "Data Science：中級\r\n\r\n一直對音樂相關的資料分析應用蠻著迷的，這個研究分析了 308 位 Hip-Hop 藝人在歌詞寫作上的相似程度，並把這些藝人對應到一個平面，比如國外知名 Hip-Hop 團體 Wu-Tang Clan 的成員們依據歌詞相似程度幾乎都在平面相鄰近的地方，文章還有許多有趣的分析，並用生動的動態圖示呈現出來，蠻值得一看的～",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "6c25fd77-e40c-472e-b49b-bf92a77bc7ed.png",
+          "image_extra_large_filename": "original_ratio_extra_large_6c25fd77-e40c-472e-b49b-bf92a77bc7ed.png",
+          "image_medium_filename": "original_ratio_medium_6c25fd77-e40c-472e-b49b-bf92a77bc7ed.png"
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "w1ctkwH",
+          "type": "Link",
+          "title": "SNAFU: Python Installation Manager for Windows",
+          "url_domain": "github.com",
+          "url": "https://github.com/uranusjr/snafu",
+          "description": "<p>這一整週的空閑時間都花在這個東西身上，讓我賣個瓜吧。</p>\n\n<p>在 Python 社群混一陣子大概或多或少會聽到大家對 Windows 總是感到頭痛。其實在 Windows 上用 Python 開發並不那麼糟，只是因為它和 Mac 與 Linux（i.e. Unix-like 系統）的設定邏輯相差太多，使得它們上面的 best practice 在 Windows 根本不適用。偏偏 Python 高手通常也很少用 Windows，使得網路上的教學要嘛<a href=\"https://github.com/pypa/get-pip#usage\">完全忽視 Windows</a>，要嘛用了從 Unix-like 系統帶來的錯誤邏輯，然後發現 Windows 這樣設定會出一堆狀況，就更排斥 Windows，一直循環讓 Windows 的 best practices 無法廣泛流傳。</p>\n\n<p>最近<a href=\"https://gist.github.com/uranusjr/a0e72b2249eb4f9f940679c112a6be05\">在整理 Python 環境設定的 best practices</a>，但是寫完 Windows 部分就發現這・太・難・了。重新研究了一番才發現官方其實<a href=\"https://docs.python.org/3/using/windows.html\">早就提供了很詳盡的說明</a>，而且解釋了<a href=\"https://www.python.org/download/releases/2.5/msi/\">怎麼在 command line 執行安裝程式</a>，於是決定把這些 best practices 自動化。</p>\n\n<p>SNAFU 是一系列 CLI 指令，讓你直接從 Windows command prompt 安裝指定版本的 Python。SNAFU 會自動設定好所有選項，並在同時安裝很多版本時，也能方便管理。從此之後，在 Windows 設定 Python 再也不需要<a href=\"https://djangogirlstaipei.herokuapp.com/tutorials/installation/?os=windows\">一大篇教學</a>，只需要這樣：</p>\n\n<pre><code>:: 安裝 Python 2.7 和 3.6\nsnafu install 3.6\nsnafu install 2.7\n\n:: 執行 Python 3.6\npython3.6\n\n:: 執行 Python 2.7\npython2.7\n</code></pre>\n\n<p>更詳細的教學可以看<a href=\"https://gist.github.com/uranusjr/91969cb2826d11d8e9e8f636b9ac1b97\">這裡</a>，或者 project 頁的 README。</p>\n\n<p>真心覺得 Windows 使用者值得 Python 社群更多注意捏。拜託別再直接放生用 Windows 的人；推薦他使用這個工具，然後試著 follow 一下 Windows 的哲學，讓 Windows 真的成為 Python 界的 first-class citizen，而不<a href=\"https://docs.pipenv.org\">只是說說</a>。</p>",
+          "description_markdown": "這一整週的空閑時間都花在這個東西身上，讓我賣個瓜吧。\r\n\r\n在 Python 社群混一陣子大概或多或少會聽到大家對 Windows 總是感到頭痛。其實在 Windows 上用 Python 開發並不那麼糟，只是因為它和 Mac 與 Linux（i.e. Unix-like 系統）的設定邏輯相差太多，使得它們上面的 best practice 在 Windows 根本不適用。偏偏 Python 高手通常也很少用 Windows，使得網路上的教學要嘛[完全忽視 Windows](https://github.com/pypa/get-pip#usage)，要嘛用了從 Unix-like 系統帶來的錯誤邏輯，然後發現 Windows 這樣設定會出一堆狀況，就更排斥 Windows，一直循環讓 Windows 的 best practices 無法廣泛流傳。\r\n\r\n最近[在整理 Python 環境設定的 best practices](https://gist.github.com/uranusjr/a0e72b2249eb4f9f940679c112a6be05)，但是寫完 Windows 部分就發現這・太・難・了。重新研究了一番才發現官方其實[早就提供了很詳盡的說明](https://docs.python.org/3/using/windows.html)，而且解釋了[怎麼在 command line 執行安裝程式](https://www.python.org/download/releases/2.5/msi/)，於是決定把這些 best practices 自動化。\r\n\r\nSNAFU 是一系列 CLI 指令，讓你直接從 Windows command prompt 安裝指定版本的 Python。SNAFU 會自動設定好所有選項，並在同時安裝很多版本時，也能方便管理。從此之後，在 Windows 設定 Python 再也不需要[一大篇教學](https://djangogirlstaipei.herokuapp.com/tutorials/installation/?os=windows)，只需要這樣：\r\n\r\n    :: 安裝 Python 2.7 和 3.6\r\n    snafu install 3.6\r\n    snafu install 2.7\r\n\r\n    :: 執行 Python 3.6\r\n    python3.6\r\n\r\n    :: 執行 Python 2.7\r\n    python2.7\r\n\r\n更詳細的教學可以看[這裡](https://gist.github.com/uranusjr/91969cb2826d11d8e9e8f636b9ac1b97)，或者 project 頁的 README。\r\n\r\n真心覺得 Windows 使用者值得 Python 社群更多注意捏。拜託別再直接放生用 Windows 的人；推薦他使用這個工具，然後試著 follow 一下 Windows 的哲學，讓 Windows 真的成為 Python 界的 first-class citizen，而不[只是說說](https://docs.pipenv.org)。",
+          "embedded_links": [
+            {
+              "identifier": "4Frphe6",
+              "title": "完全忽視 Windows",
+              "url_domain": "github.com",
+              "url": "https://github.com/pypa/get-pip#usage"
+            },
+            {
+              "identifier": "XSFq1tn",
+              "title": "在整理 Python 環境設定的 best practices",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/uranusjr/a0e72b2249eb4f9f940679c112a6be05"
+            },
+            {
+              "identifier": "6xken2R",
+              "title": "早就提供了很詳盡的說明",
+              "url_domain": "python.org",
+              "url": "https://docs.python.org/3/using/windows.html"
+            },
+            {
+              "identifier": "EEQ51XM",
+              "title": "怎麼在 command line 執行安裝程式",
+              "url_domain": "python.org",
+              "url": "https://www.python.org/download/releases/2.5/msi/"
+            },
+            {
+              "identifier": "vm5vNLN",
+              "title": "一大篇教學",
+              "url_domain": "herokuapp.com",
+              "url": "https://djangogirlstaipei.herokuapp.com/tutorials/installation/?os=windows"
+            },
+            {
+              "identifier": "2PaqyGE",
+              "title": "這裡",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/uranusjr/91969cb2826d11d8e9e8f636b9ac1b97"
+            },
+            {
+              "identifier": "wJVMEty",
+              "title": "只是說說",
+              "url_domain": "pipenv.org",
+              "url": "https://docs.pipenv.org"
+            }
+          ]
+        },
+        {
+          "identifier": "pMvJmv6",
+          "type": "Link",
+          "title": "First Pull Request",
+          "url_domain": "firstpr.me",
+          "url": "http://firstpr.me",
+          "description": "<p>輸入帳號可以看你在 GitHub 上發過的第一個 pull request 是什麼。偶爾回顧一下黑歷史還滿有趣的。看完如果覺得不夠羞恥，下面還有個連結可以讓你看自己曾經發過的<strong>所有</strong> pull requests 呢。</p>",
+          "description_markdown": "輸入帳號可以看你在 GitHub 上發過的第一個 pull request 是什麼。偶爾回顧一下黑歷史還滿有趣的。看完如果覺得不夠羞恥，下面還有個連結可以讓你看自己曾經發過的**所有** pull requests 呢。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "jM5mtPL",
+          "type": "Link",
+          "title": "Await and Async Explained with Diagrams and Examples",
+          "url_domain": "nikgrozev.com",
+          "url": "http://nikgrozev.com/2017/10/01/async-await/",
+          "description": "<p>這篇將 async/ await 介紹得很清楚。從 Promise 講起，並且搭配執行時候的圖。讓你清楚了解 JavaScript Promise 的運作模式，後面再帶到 async / await。</p>\n\n<p>相信很多人都會寫 async / await ，但是背後的原理可以透過這篇，理解的更清楚。</p>",
+          "description_markdown": "這篇將 async/ await 介紹得很清楚。從 Promise 講起，並且搭配執行時候的圖。讓你清楚了解 JavaScript Promise 的運作模式，後面再帶到 async / await。\r\n\r\n相信很多人都會寫 async / await ，但是背後的原理可以透過這篇，理解的更清楚。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "4PZmzSW",
+          "type": "Link",
+          "title": "The Ultimate Guide to Flexbox — Learning Through Examples",
+          "url_domain": "freecodecamp.org",
+          "url": "https://medium.freecodecamp.org/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676",
+          "description": "<p>給了相當多的例子，透過這些例子可以學習到 flexbox 及其相關的 css property。</p>\n\n<p>需要花一點時間耐心地讀完，但是收穫會很多。</p>",
+          "description_markdown": "給了相當多的例子，透過這些例子可以學習到 flexbox 及其相關的 css property。\r\n\r\n需要花一點時間耐心地讀完，但是收穫會很多。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "77Kc7Oh",
+          "type": "Link",
+          "title": "5 things CSS developers wish they knew before they started",
+          "url_domain": "css-tricks.com",
+          "url": "https://css-tricks.com/5-things-css-developers-wish-knew-started/",
+          "description": "<p>如果你是 CSS 入門的開發者，可以聽從這五點建議。</p>\n\n<ol>\n<li>別低估 CSS</li>\n<li>分享跟參與</li>\n<li>選用正確的工具</li>\n<li>弄懂 Browser</li>\n<li>學會寫可維護的 CSS</li>\n</ol>",
+          "description_markdown": "如果你是 CSS 入門的開發者，可以聽從這五點建議。\r\n\r\n1. 別低估 CSS\r\n2. 分享跟參與\r\n3. 選用正確的工具\r\n4. 弄懂 Browser\r\n5. 學會寫可維護的 CSS\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "C42N1s0",
+          "type": "Link",
+          "title": "Extend your Graphcool API with Resolvers",
+          "url_domain": "graph.cool",
+          "url": "https://blog.graph.cool/extend-your-graphcool-api-with-resolvers-ca0f0270bca7",
+          "description": "<p>graphcool 是一個 graphQL backend as service 的服務。</p>\n\n<p>最近推出了，可以撰寫 custom resolver function 的功能。</p>\n\n<p>對 graphQL 來說 resolver function 是很重要的功能，雖然 graphcool 到最近才提供，相信對使用這個平台的人會有很大幫助，也會吸引更多寫 graphQL 的人去嘗試他們的平台。</p>",
+          "description_markdown": "graphcool 是一個 graphQL backend as service 的服務。\r\n\r\n最近推出了，可以撰寫 custom resolver function 的功能。\r\n\r\n對 graphQL 來說 resolver function 是很重要的功能，雖然 graphcool 到最近才提供，相信對使用這個平台的人會有很大幫助，也會吸引更多寫 graphQL 的人去嘗試他們的平台。\r\n",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "M7NUMqS",
+          "type": "Link",
+          "title": "3D Face Reconstruction from a Single Image",
+          "url_domain": "nott.ac.uk",
+          "url": "http://www.cs.nott.ac.uk/~psxasj/3dme/",
+          "description": "<p>之前學過電腦動畫，每次要做立體模型都覺得超麻煩，讓我完全放棄了這個領域，現在或許已經有了許多工具可以來幫助快速建模，但從一張圖片就可以快速建立出對應的立體模型這種魔法我還未曾見過。這個研究目前已經可以快速從一張人臉圖片建立出相對應的立體模型了，屬於二次元世界的 2D 人物直接變 3D 的時代終於要來臨了嗎？</p>\n\n<p>ps. 可以上傳自己的人臉圖片上去看看建出來的立體模型喔！</p>",
+          "description_markdown": "之前學過電腦動畫，每次要做立體模型都覺得超麻煩，讓我完全放棄了這個領域，現在或許已經有了許多工具可以來幫助快速建模，但從一張圖片就可以快速建立出對應的立體模型這種魔法我還未曾見過。這個研究目前已經可以快速從一張人臉圖片建立出相對應的立體模型了，屬於二次元世界的 2D 人物直接變 3D 的時代終於要來臨了嗎？\r\n\r\nps. 可以上傳自己的人臉圖片上去看看建出來的立體模型喔！",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "d88a9161-9e65-442f-b2a6-803cf85db151.png",
+          "image_extra_large_filename": "original_ratio_extra_large_d88a9161-9e65-442f-b2a6-803cf85db151.png",
+          "image_medium_filename": "original_ratio_medium_d88a9161-9e65-442f-b2a6-803cf85db151.png"
+        }
+      ]
+    }
+  ]
+}

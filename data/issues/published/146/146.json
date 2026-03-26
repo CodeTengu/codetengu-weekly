@@ -1,0 +1,463 @@
+{
+  "number": 146,
+  "title": "Issue 146 When in doubt, open an issue on GitHub.",
+  "summary": "本期內容涵蓋 MongoDB, Kubernetes, Google Cloud Platform, Python, JavaScript, Node.js, Android, HTML",
+  "url": "https://weekly.codetengu.com/issues/146",
+  "publication_status": "published",
+  "published_at": "2018-11-23T01:00:00+00:00",
+  "updated_at": "2018-11-23T01:00:07+00:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。或是關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a>。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Blindsight</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://twitter.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 明年 PyCon Taiwan 在九月喔</li>\n<li><a href=\"https://twitter.com/lyforever\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://twitter.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://twitter.com/WanCW\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n<li><a href=\"https://twitter.com/hw_chiu\">@hwchiu</a></li>\n</ul>\n\n\n<p><a href=\"https://twitter.com/vinta/status/993801441121714178\">本週標題出處</a>。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。或是關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo)。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Blindsight](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Runtime 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://twitter.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 明年 PyCon Taiwan 在九月喔\r\n- [@yhsiang](https://twitter.com/lyforever) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://twitter.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@wancw](https://twitter.com/WanCW)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n- [@hwchiu](https://twitter.com/hw_chiu)\r\n\r\n[本週標題出處](https://twitter.com/vinta/status/993801441121714178)。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "7MwVsQ0",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "XPOe8x7",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "7fWl765",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "bws3yOS",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "1GQIOiD",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "YOxMxVU",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "foawQeF",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "oPW63se",
+              "title": "Blindsight",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ZhF7X0k",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "we170JS",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "v1XRVHk",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "fh2DZK3",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "5NBu4Zo",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "lwECSiZ",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "UbIO8WE",
+              "title": "@mingderwang",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/mingderwang"
+            },
+            {
+              "identifier": "BZGA1cM",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "oboWaJa",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "dZaIt8w",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "St4U52f",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "9r1iqyC",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "1sq8iqC",
+              "title": "@yhsiang",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/lyforever"
+            },
+            {
+              "identifier": "vVVzISv",
+              "title": "@johnlinvc",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/johnlinvc"
+            },
+            {
+              "identifier": "SmVMhoR",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/WanCW"
+            },
+            {
+              "identifier": "mnqcDh1",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "XnrSADG",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "jkGlrEN",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "7WqGUgh",
+              "title": "@hwchiu",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hw_chiu"
+            },
+            {
+              "identifier": "TLSmJUE",
+              "title": "本週標題出處",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta/status/993801441121714178"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "NjQz0T8",
+          "type": "Link",
+          "title": "KubeCon + CloudNativeCon China 2018 - YouTube",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/playlist?list=PLj6h78yzYM2OK087kzLgc4jTPVbZjuNfs",
+          "description": "<p>上禮拜去了上海參加今年的 KubeCon + CloudNativeCon China 2018，沒想到這次這麼快就有錄影可以看了，沒有去現場的朋友可以看看影片過過癮。</p>\n\n<hr />\n\n<p>題外話，有些讀者可能有注意到，<del>因為命運的齒輪出了差錯</del>，近期咱們 CodeTengu Weekly 出刊的頻率實在有點不穩定，週刊都不週刊了，在這裡得跟讀者說聲抱歉，怠慢了。</p>\n\n<p>不過話說回來，這個週刊從 2015/08/03 的<a href=\"https://weekly.codetengu.com/issues/1\">第一期</a>到現在，也經營了三年多了啊，但是就像上班久了，難免會遇到工作倦怠嘛（攤手），而且每位 curator 其實也都各有全職工作和家庭要顧，仔細想想，這個完全無酬、全靠興趣在支撐的 weekly 能夠存活這麼久真的是挺了不起的啊，在這裡真的要跟各位 curator 說聲由衷的感謝。另外，如果大家不嫌麻煩的話，也想請各位讀者可以在 <a href=\"https://twitter.com/vinta/lists/codetengu-curators/members\">Twitter</a> 或 <a href=\"https://gitter.im/CodeTengu/headquarters\">Gitter</a> 上跟你喜歡的 curator 說聲辛苦啦或是任何的反饋都行，畢竟除了我三不五時偷懶之外，其他的 curator 可都是非常用心地準備每一期的分享啊。</p>\n\n<p>最後，為了讓這個 weekly 能夠盡量持續下去，我們目前的運作方式勢必是得做些調整了，雖然我也還沒想清楚確切的方向，不過最近應該會在 CodeTengu 的 <a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 上跟大家討論一下。所以呢，在有定論之前，可能也還是會像最近這樣不定期休刊，還望各位讀者多多包涵了。</p>",
+          "description_markdown": "上禮拜去了上海參加今年的 KubeCon + CloudNativeCon China 2018，沒想到這次這麼快就有錄影可以看了，沒有去現場的朋友可以看看影片過過癮。\r\n\r\n---\r\n\r\n題外話，有些讀者可能有注意到，~~因為命運的齒輪出了差錯~~，近期咱們 CodeTengu Weekly 出刊的頻率實在有點不穩定，週刊都不週刊了，在這裡得跟讀者說聲抱歉，怠慢了。\r\n\r\n不過話說回來，這個週刊從 2015/08/03 的[第一期](https://weekly.codetengu.com/issues/1)到現在，也經營了三年多了啊，但是就像上班久了，難免會遇到工作倦怠嘛（攤手），而且每位 curator 其實也都各有全職工作和家庭要顧，仔細想想，這個完全無酬、全靠興趣在支撐的 weekly 能夠存活這麼久真的是挺了不起的啊，在這裡真的要跟各位 curator 說聲由衷的感謝。另外，如果大家不嫌麻煩的話，也想請各位讀者可以在 [Twitter](https://twitter.com/vinta/lists/codetengu-curators/members) 或 [Gitter](https://gitter.im/CodeTengu/headquarters) 上跟你喜歡的 curator 說聲辛苦啦或是任何的反饋都行，畢竟除了我三不五時偷懶之外，其他的 curator 可都是非常用心地準備每一期的分享啊。\r\n\r\n最後，為了讓這個 weekly 能夠盡量持續下去，我們目前的運作方式勢必是得做些調整了，雖然我也還沒想清楚確切的方向，不過最近應該會在 CodeTengu 的 [GitHub](https://github.com/CodeTengu/HyakkiYagyo) 上跟大家討論一下。所以呢，在有定論之前，可能也還是會像最近這樣不定期休刊，還望各位讀者多多包涵了。",
+          "embedded_links": [
+            {
+              "identifier": "afMXsCH",
+              "title": "第一期",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues/1"
+            },
+            {
+              "identifier": "AanWqcb",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta/lists/codetengu-curators/members"
+            },
+            {
+              "identifier": "RU4qSrv",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "wM4d8dC",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            }
+          ]
+        },
+        {
+          "identifier": "fxsTIn3",
+          "type": "Link",
+          "title": "Container Native Load Balancing on GKE",
+          "url_domain": "youtube.com",
+          "url": "https://www.youtube.com/watch?v=ficroL6bS-w",
+          "description": "<p>Google Cloud 前陣子推出了 Container Native Load Balancing，可以直接 target 到實際的 containers，每個 connection 直接從 load balancer 到 backend pods，不再有 iptables magic 了。</p>\n\n<p>這個影片很清楚地說明了 Kubernetes 原本的 networking 機制，然後又介紹了新的 Load Balancing 是如何運作的；影片的後半段也講到了 GKE 上的 Custom Resource <code>BackendConfig</code>，基本上就是讓你只需要在 Service 加上幾個 annotation 就可以配置許多 L7 的網路設定，例如 CDN、Security Policy，帥氣。</p>\n\n<p>我們團隊在公司的一個新產品上正好試用了一下這個新功能，嗯，只能說想嚐鮮的人其實可以等這個功能成熟一點再用到 production。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html\">The incomplete guide to Google Kubernetes Engine</a> - 新增了設定 NEGs 的部分</li>\n<li><a href=\"https://www.youtube.com/watch?v=y2bhV81MfKQ\">The ins and outs of networking in Google Container Engine and Kubernetes</a></li>\n</ul>",
+          "description_markdown": "Google Cloud 前陣子推出了 Container Native Load Balancing，可以直接 target 到實際的 containers，每個 connection 直接從 load balancer 到 backend pods，不再有 iptables magic 了。\r\n\r\n這個影片很清楚地說明了 Kubernetes 原本的 networking 機制，然後又介紹了新的 Load Balancing 是如何運作的；影片的後半段也講到了 GKE 上的 Custom Resource `BackendConfig`，基本上就是讓你只需要在 Service 加上幾個 annotation 就可以配置許多 L7 的網路設定，例如 CDN、Security Policy，帥氣。\r\n\r\n我們團隊在公司的一個新產品上正好試用了一下這個新功能，嗯，只能說想嚐鮮的人其實可以等這個功能成熟一點再用到 production。\r\n\r\n延伸閱讀：\r\n\r\n- [The incomplete guide to Google Kubernetes Engine](https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html) - 新增了設定 NEGs 的部分\r\n- [The ins and outs of networking in Google Container Engine and Kubernetes](https://www.youtube.com/watch?v=y2bhV81MfKQ)",
+          "embedded_links": [
+            {
+              "identifier": "20QCIvj",
+              "title": "The incomplete guide to Google Kubernetes Engine",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/the-complete-guide-to-google-kubernetes-engine-gke.html"
+            },
+            {
+              "identifier": "1lzZHBJ",
+              "title": "The ins and outs of networking in Google Container Engine and Kubernetes",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=y2bhV81MfKQ"
+            }
+          ]
+        },
+        {
+          "identifier": "cGe57q7",
+          "type": "Link",
+          "title": "MongoDB Change Streams",
+          "url_domain": "mongodb.com",
+          "url": "https://docs.mongodb.com/manual/changeStreams/",
+          "description": "<p>前陣子學到一個新詞 Change Data Capture (CDC)，基本上就是資料庫提供了一個機制，讓你能夠即時監聽所有數據的 insert、update、delete 等修改。當然你也可以透過解析資料庫底層的 replication logs（例如 MySQL 的 binlog）來做到同樣的事，差別在於某些資料庫直接提供了一套高階而且<strong>安全</strong>的 API，例如本文提到的 MongoDB 的 Change Streams，然後你就可以用這些 data change event 去更新 cache、search index 或是另一個資料庫，炫炮一點也可以丟進 Kafka，變成一個更通用的 stream processing 系統，峰峰相連到天邊。</p>\n\n<p>不過類似的功能 Microsoft SQL Server 在 10 年前就已經提供了啊，太陽底下果真沒有新鮮事。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.safaribooksonline.com/library/view/designing-data-intensive-applications/9781491903063/ch11.html#sec_stream_cdc\">Designing Data-Intensive Applications: Change Data Capture</a></li>\n</ul>",
+          "description_markdown": "前陣子學到一個新詞 Change Data Capture (CDC)，基本上就是資料庫提供了一個機制，讓你能夠即時監聽所有數據的 insert、update、delete 等修改。當然你也可以透過解析資料庫底層的 replication logs（例如 MySQL 的 binlog）來做到同樣的事，差別在於某些資料庫直接提供了一套高階而且**安全**的 API，例如本文提到的 MongoDB 的 Change Streams，然後你就可以用這些 data change event 去更新 cache、search index 或是另一個資料庫，炫炮一點也可以丟進 Kafka，變成一個更通用的 stream processing 系統，峰峰相連到天邊。\r\n\r\n不過類似的功能 Microsoft SQL Server 在 10 年前就已經提供了啊，太陽底下果真沒有新鮮事。\r\n\r\n延伸閱讀：\r\n\r\n- [Designing Data-Intensive Applications: Change Data Capture](https://www.safaribooksonline.com/library/view/designing-data-intensive-applications/9781491903063/ch11.html#sec_stream_cdc)",
+          "embedded_links": [
+            {
+              "identifier": "Gh775sA",
+              "title": "Designing Data-Intensive Applications: Change Data Capture",
+              "url_domain": "safaribooksonline.com",
+              "url": "https://www.safaribooksonline.com/library/view/designing-data-intensive-applications/9781491903063/ch11.html#sec_stream_cdc"
+            }
+          ]
+        },
+        {
+          "identifier": "uSJhgZl",
+          "type": "Link",
+          "title": "mitmproxy: proxy any network traffic through your local machine",
+          "url_domain": "vinta.ws",
+          "url": "https://vinta.ws/code/mitmproxy-proxy-any-application-network-traffic-through-your-local-machine.html",
+          "description": "<p><a href=\"https://mitmproxy.org/\">mitmproxy</a> 和 Charles 一樣，都是用來攔截 network traffic 的工具，硬派一點的還有 tcpdump 和 wireshark。不過 mitmproxy 最棒的是它自帶一套完善的 Python API（畢竟 mitmproxy 就是用 Python 寫的嘛），這樣一來可以玩的東西可就多了呢～</p>\n\n<p>這篇文章簡單地介紹了 mitmproxy 的幾個用法，例如把 remote server 的 requests 導到你的 local server 和怎麼對付 certificate pinning（當然前提是你有當初綁定的那個 certificate）。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://corte.si/posts/code/mitmproxy/howitworks/index.html\">How mitmproxy works</a></li>\n</ul>",
+          "description_markdown": "[mitmproxy](https://mitmproxy.org/) 和 Charles 一樣，都是用來攔截 network traffic 的工具，硬派一點的還有 tcpdump 和 wireshark。不過 mitmproxy 最棒的是它自帶一套完善的 Python API（畢竟 mitmproxy 就是用 Python 寫的嘛），這樣一來可以玩的東西可就多了呢～\r\n\r\n這篇文章簡單地介紹了 mitmproxy 的幾個用法，例如把 remote server 的 requests 導到你的 local server 和怎麼對付 certificate pinning（當然前提是你有當初綁定的那個 certificate）。\r\n\r\n延伸閱讀：\r\n\r\n- [How mitmproxy works](https://corte.si/posts/code/mitmproxy/howitworks/index.html)",
+          "embedded_links": [
+            {
+              "identifier": "FjxGCW9",
+              "title": "mitmproxy",
+              "url_domain": "mitmproxy.org",
+              "url": "https://mitmproxy.org/"
+            },
+            {
+              "identifier": "grLELiQ",
+              "title": "How mitmproxy works",
+              "url_domain": "corte.si",
+              "url": "https://corte.si/posts/code/mitmproxy/howitworks/index.html"
+            }
+          ]
+        },
+        {
+          "identifier": "2cDwaEd",
+          "type": "Link",
+          "title": "caolan/async - Async utilities for node and the browser",
+          "url_domain": "github.io",
+          "url": "https://caolan.github.io/async/",
+          "description": "<p>目前公司裡的不少 Node.js 專案都用到了 <code>async.js</code> 這個 library，裡頭有很多既好用又魔性的 utility functions，例如 <a href=\"https://caolan.github.io/async/docs.html#autoInject\">autoInject</a> 和 <a href=\"https://caolan.github.io/async/docs.html#cargo\">cargo</a>，大家感受一下。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures\">JavaScript Closures | MDN</a></li>\n</ul>",
+          "description_markdown": "目前公司裡的不少 Node.js 專案都用到了 `async.js` 這個 library，裡頭有很多既好用又魔性的 utility functions，例如 [autoInject](https://caolan.github.io/async/docs.html#autoInject) 和 [cargo](https://caolan.github.io/async/docs.html#cargo)，大家感受一下。\r\n\r\n延伸閱讀：\r\n\r\n- [JavaScript Closures | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)",
+          "embedded_links": [
+            {
+              "identifier": "LcetRfQ",
+              "title": "autoInject",
+              "url_domain": "github.io",
+              "url": "https://caolan.github.io/async/docs.html#autoInject"
+            },
+            {
+              "identifier": "7Oq13uF",
+              "title": "cargo",
+              "url_domain": "github.io",
+              "url": "https://caolan.github.io/async/docs.html#cargo"
+            },
+            {
+              "identifier": "R0CznD1",
+              "title": "JavaScript Closures | MDN",
+              "url_domain": "mozilla.org",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "vLoCi32",
+          "type": "Link",
+          "title": "The Reality of Migrating to AndroidX",
+          "url_domain": "danlew.net",
+          "url": "https://blog.danlew.net/2018/11/14/the-reality-of-migrating-to-androidx/",
+          "description": "<p>Android support library 已經被整併到 <a href=\"https://developer.android.com/jetpack/\">Jetpack aka AndroidX</a> 了，往後也只會更新 Jetpack 裡的 support library，所以，我們必須轉換。</p>\n\n<p>對一個行之有年的專案來說這個轉換很辛苦，有許多的 support library 依賴要處理。<br/>\n作者使用 Android Studio 帶的 Migrate to AndroidX 會有非預期的更動，所以他自己提供了一個最簡單版本的 <a href=\"https://gist.github.com/dlew/5db1b780896bbc6f542e7c00a11db6a0\">script</a> 來改舊的 support library 的 import path，這個實用！</p>\n\n<hr />\n\n<p>因為這個週刊（？）不是只給 Android developer 看的，所以跟大家分享一下，在這種依賴轉移的案例上 Google 在 Gradle (build tool) 上面加了一個 flag <code>android.enableJetifier</code>，當值是 <code>true</code> 的時候會在 build time 的時候直接改第三方套件的 binary 採用新的 library，有創意！</p>",
+          "description_markdown": "Android support library 已經被整併到 [Jetpack aka AndroidX](https://developer.android.com/jetpack/) 了，往後也只會更新 Jetpack 裡的 support library，所以，我們必須轉換。\r\n\r\n對一個行之有年的專案來說這個轉換很辛苦，有許多的 support library 依賴要處理。  \r\n作者使用 Android Studio 帶的 Migrate to AndroidX 會有非預期的更動，所以他自己提供了一個最簡單版本的 [script](https://gist.github.com/dlew/5db1b780896bbc6f542e7c00a11db6a0) 來改舊的 support library 的 import path，這個實用！\r\n\r\n---\r\n\r\n因為這個週刊（？）不是只給 Android developer 看的，所以跟大家分享一下，在這種依賴轉移的案例上 Google 在 Gradle (build tool) 上面加了一個 flag `android.enableJetifier`，當值是 `true` 的時候會在 build time 的時候直接改第三方套件的 binary 採用新的 library，有創意！",
+          "embedded_links": [
+            {
+              "identifier": "b94UX3B",
+              "title": "Jetpack aka AndroidX",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/jetpack/"
+            },
+            {
+              "identifier": "wVosMF6",
+              "title": "script",
+              "url_domain": "github.com",
+              "url": "https://gist.github.com/dlew/5db1b780896bbc6f542e7c00a11db6a0"
+            }
+          ]
+        },
+        {
+          "identifier": "nQoc1dP",
+          "type": "Link",
+          "title": "The power of key paths in Swift",
+          "url_domain": "swiftbysundell.com",
+          "url": "https://www.swiftbysundell.com/posts/the-power-of-key-paths-in-swift",
+          "description": "<p>我本來對 Swift 的 KeyPath 想像就是拿來做簡單的 KVC，但這篇文利用 KeyPath 語言特性做了 function composition。</p>\n\n<p>大概像是這樣：<br/>\n<code>loader.load(setter(for: self, keyPath: \\.items))</code></p>\n\n<p>對呢，把 KeyPath 當成 function argument 就可以設計出有動態特性的的 APIs。現在的靜態語言真是不得了。</p>",
+          "description_markdown": "我本來對 Swift 的 KeyPath 想像就是拿來做簡單的 KVC，但這篇文利用 KeyPath 語言特性做了 function composition。\r\n\r\n大概像是這樣：  \r\n`loader.load(setter(for: self, keyPath: \\.items))`\r\n\r\n對呢，把 KeyPath 當成 function argument 就可以設計出有動態特性的的 APIs。現在的靜態語言真是不得了。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "uranusjr",
+      "name": "@uranusjr",
+      "items": [
+        {
+          "identifier": "qvSi2o2",
+          "type": "Link",
+          "title": "Ownership Explained with Python",
+          "url_domain": "paulkernfeld.com",
+          "url": "https://paulkernfeld.com/2018/09/16/ownership-explained-with-python.html",
+          "description": "<p>用 Python (主要是 iterator 行為) 解釋 Rust 的 ownership 概念，以及它為什麼好用。</p>\n\n<p>Python 的 iterator 行為一直很困擾我。它在概念上很棒，但是如果你的介面需要接受任何 iterables，怎麼設計和實作防呆就是個大問題。如果你接受所有可以 iterate 的類型，就得注意實作裡不能跑它複數次，或者記得先 copy，以防使用者傳 iterator 進來。但是如果你永遠 copy，又代表你會浪費不必要的資源和時間。如果你堅決只接受 collection types，實作就會簡單一些，但是一來你必須在文件寫明，二來 API 在很多時候會十分彆扭，而且最重要的是，你還是沒辦法保證使用者不會犯錯。</p>\n\n<p>Rust 的 ownership system 代表你可以放心的使用任何一種設計，讓編譯器負責剩下的事情。如果你接受 iterators，它會發現你有沒有不小心重複 iterate；如果你接 Vec 之類的類型，它也會阻止使用者亂搞。我還在思考 Python（和其他動態語言）有什麼好方法可以借鑑這個特性，希望能想出個合理的解答。如果你有什麼好想法，也麻煩跟我說一聲。</p>",
+          "description_markdown": "用 Python (主要是 iterator 行為) 解釋 Rust 的 ownership 概念，以及它為什麼好用。\r\n\r\nPython 的 iterator 行為一直很困擾我。它在概念上很棒，但是如果你的介面需要接受任何 iterables，怎麼設計和實作防呆就是個大問題。如果你接受所有可以 iterate 的類型，就得注意實作裡不能跑它複數次，或者記得先 copy，以防使用者傳 iterator 進來。但是如果你永遠 copy，又代表你會浪費不必要的資源和時間。如果你堅決只接受 collection types，實作就會簡單一些，但是一來你必須在文件寫明，二來 API 在很多時候會十分彆扭，而且最重要的是，你還是沒辦法保證使用者不會犯錯。\r\n\r\nRust 的 ownership system 代表你可以放心的使用任何一種設計，讓編譯器負責剩下的事情。如果你接受 iterators，它會發現你有沒有不小心重複 iterate；如果你接 Vec 之類的類型，它也會阻止使用者亂搞。我還在思考 Python（和其他動態語言）有什麼好方法可以借鑑這個特性，希望能想出個合理的解答。如果你有什麼好想法，也麻煩跟我說一聲。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "daWWDB4",
+          "type": "Link",
+          "title": "When does white space matter in HTML?",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@patrickbrosset/when-does-white-space-matter-in-html-b90e8a7cdd33",
+          "description": "<p>如果我剛學做網頁的時候就有這篇文章該有多好。</p>",
+          "description_markdown": "如果我剛學做網頁的時候就有這篇文章該有多好。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "8mTIOpc",
+          "type": "Link",
+          "title": "企業數據搜索分析利器：Elastic 大解密（台中場）",
+          "url_domain": "accupass.com",
+          "url": "https://www.accupass.com/event/1811120314251958159468",
+          "description": "<p>常常 on-call 被公司叫回去救火？ 還是老闆說了想要發展大數據轉頭就把擔子丟給你？或是工作太久想要吸收新知？以上疑難雜症，就交給 CloudMile 萬里雲的講座吧！</p>\n\n<p>我們即將於 11 月下旬陸續舉辦不同講座，希望能讓身為攻城師的你少一點為問題煩心，多一些經歷可以專注在開發：）</p>\n\n<p>講座連發：</p>\n\n<ul>\n<li><a href=\"https://www.accupass.com/event/1810310553502831985130\">11/22 @ 台中的雲端資安講座 by CloudMile X Cloudflare</a></li>\n<li><a href=\"https://www.accupass.com/event/1811120314251958159468\">11/28 @ 台中的大數據揭密講座 by Elastic</a></li>\n<li><a href=\"https://www.accupass.com/event/1811120418111940999084\">11/29 ＠ 台北的大數據揭密講座 by Elastic</a></li>\n<li><a href=\"https://www.accupass.com/event/1811120254021620487412\">12/04 @ 台中 Google Maps Platform 新功能說明講座</a></li>\n</ul>",
+          "description_markdown": "常常 on-call 被公司叫回去救火？ 還是老闆說了想要發展大數據轉頭就把擔子丟給你？或是工作太久想要吸收新知？以上疑難雜症，就交給 CloudMile 萬里雲的講座吧！\r\n\r\n我們即將於 11 月下旬陸續舉辦不同講座，希望能讓身為攻城師的你少一點為問題煩心，多一些經歷可以專注在開發：）\r\n\r\n講座連發：\r\n\r\n- [11/22 @ 台中的雲端資安講座 by CloudMile X Cloudflare](https://www.accupass.com/event/1810310553502831985130)\r\n- [11/28 @ 台中的大數據揭密講座 by Elastic](https://www.accupass.com/event/1811120314251958159468)\r\n- [11/29 ＠ 台北的大數據揭密講座 by Elastic](https://www.accupass.com/event/1811120418111940999084)\r\n- [12/04 @ 台中 Google Maps Platform 新功能說明講座](https://www.accupass.com/event/1811120254021620487412)",
+          "embedded_links": [
+            {
+              "identifier": "U0LT0kZ",
+              "title": "11/22 @ 台中的雲端資安講座 by CloudMile X Cloudflare",
+              "url_domain": "accupass.com",
+              "url": "https://www.accupass.com/event/1810310553502831985130"
+            },
+            {
+              "identifier": "iUbgS9W",
+              "title": "11/28 @ 台中的大數據揭密講座 by Elastic",
+              "url_domain": "accupass.com",
+              "url": "https://www.accupass.com/event/1811120314251958159468"
+            },
+            {
+              "identifier": "8FblHa",
+              "title": "11/29 ＠ 台北的大數據揭密講座 by Elastic",
+              "url_domain": "accupass.com",
+              "url": "https://www.accupass.com/event/1811120418111940999084"
+            },
+            {
+              "identifier": "vKO40DO",
+              "title": "12/04 @ 台中 Google Maps Platform 新功能說明講座",
+              "url_domain": "accupass.com",
+              "url": "https://www.accupass.com/event/1811120254021620487412"
+            }
+          ],
+          "image_original_filename": "e47a9e90-5f31-48e1-9c1b-7f0dc1568491.png",
+          "image_extra_large_filename": "original_ratio_extra_large_e47a9e90-5f31-48e1-9c1b-7f0dc1568491.png",
+          "image_medium_filename": "original_ratio_medium_e47a9e90-5f31-48e1-9c1b-7f0dc1568491.png"
+        }
+      ]
+    },
+    {
+      "code": "twolegsbad",
+      "name": "Two Legs Bad",
+      "items": [
+        {
+          "identifier": "IdYpDPH",
+          "type": "Link",
+          "title": "投票指南",
+          "url_domain": "g0v.tw",
+          "url": "https://councils.g0v.tw/",
+          "description": "<p>減少盲目投票，讓民主社會的台灣更進步！</p>",
+          "description_markdown": "減少盲目投票，讓民主社會的台灣更進步！",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "d5c5c988-cf10-42a9-bd37-c2a22c2b16bf.png",
+          "image_extra_large_filename": "original_ratio_extra_large_d5c5c988-cf10-42a9-bd37-c2a22c2b16bf.png",
+          "image_medium_filename": "original_ratio_medium_d5c5c988-cf10-42a9-bd37-c2a22c2b16bf.png"
+        }
+      ]
+    }
+  ]
+}

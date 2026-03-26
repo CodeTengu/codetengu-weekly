@@ -1,0 +1,397 @@
+{
+  "number": 142,
+  "title": "Issue 142 投資虛擬貨幣讓我學會了相當現實的理財觀念",
+  "summary": "本期內容涵蓋 security, RxJava, Blockchain, Ethereum, Cryptography, k8s, Cloud native",
+  "url": "https://weekly.codetengu.com/issues/142",
+  "publication_status": "published",
+  "published_at": "2018-09-17T03:00:00+01:00",
+  "updated_at": "2018-09-17T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。或是關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a>。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在玩<a href=\"https://www.douban.com/people/vinta/\">蜘蛛人</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Runtime 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast，最近在研究區塊鏈遊戲</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00\">我們公司在徵人</a></li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - Pinkoi 少了個棒球記者現在去應徵前端應該有機會</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n<li><a href=\"https://github.com/lucienlee\">@lucienlee</a> - 🦌</li>\n</ul>\n\n\n<p><a href=\"https://twitter.com/saiday\">本週標題出處</a>。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。或是關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo)。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在玩[蜘蛛人](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Runtime 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast，最近在研究區塊鏈遊戲\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - [我們公司在徵人](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00)\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - Pinkoi 少了個棒球記者現在去應徵前端應該有機會\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n- [@lucienlee](https://github.com/lucienlee) - 🦌 \r\n\r\n[本週標題出處](https://twitter.com/saiday)。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "8I5Upq5",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "SHvdIRP",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "KudgSMc",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "U3p4Etp",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "eAKqcdH",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            },
+            {
+              "identifier": "gBDhe2I",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "PhD6g7H",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "21rR916",
+              "title": "蜘蛛人",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "XSbSFEY",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "eJx5dVq",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "3t6ePxa",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "8gEqosB",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "49YWN70",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "wnbiZXq",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "39egCEV",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "DwFCokY",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "QOjLSNY",
+              "title": "我們公司在徵人",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=4d3f4770393b436c35373f683d433b1e12e2e2e2c4661612634j00"
+            },
+            {
+              "identifier": "Ld47I76",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "BeZfzIY",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "er0L9zr",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "7YmppGS",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "P4YDqwB",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "wP84UuE",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "6IIFsnK",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "4GCBidQ",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "IaNEBcp",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "pYHy4r3",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "ghiaSTB",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "sgZzVLH",
+              "title": "@lucienlee",
+              "url_domain": "github.com",
+              "url": "https://github.com/lucienlee"
+            },
+            {
+              "identifier": "Oz1g0Z0",
+              "title": "本週標題出處",
+              "url_domain": "imgur.com",
+              "url": "https://i.imgur.com/KWiBfbZ.jpg"
+            },
+            {
+              "identifier": "Jk688rQ",
+              "title": "本週標題出處",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "9slmkOC",
+          "type": "Link",
+          "title": "Password and Credential Management in 2018 🔒",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@harwoeck/password-and-credential-management-in-2018-56f43669d588",
+          "description": "<blockquote><p>If a database leak happens, we don’t want the attacker …<br/>\n… to somehow regain access to our user’s plain text password<br/>\n… to be able to use the credentials to authenticate against the service</p></blockquote>\n\n<p>這篇文章就是在講密碼跟 credentials 的處理跟保存。</p>\n\n<p>有個細節很有趣，如果是給用戶保存的 credentials (recovery code)，作者建議用 <code>base32</code> 來 encode 過再切成字段，這樣在抄寫或紀錄過程比較不會出錯。</p>",
+          "description_markdown": "> If a database leak happens, we don’t want the attacker …  \r\n>… to somehow regain access to our user’s plain text password  \r\n>… to be able to use the credentials to authenticate against the service\r\n\r\n這篇文章就是在講密碼跟 credentials 的處理跟保存。\r\n\r\n有個細節很有趣，如果是給用戶保存的 credentials (recovery code)，作者建議用 `base32` 來 encode 過再切成字段，這樣在抄寫或紀錄過程比較不會出錯。",
+          "embedded_links": [
+
+          ],
+          "image_original_filename": "27024ad5-5f13-4ec9-a132-c2dc23a5f243.jpeg",
+          "image_extra_large_filename": "original_ratio_extra_large_27024ad5-5f13-4ec9-a132-c2dc23a5f243.jpeg",
+          "image_medium_filename": "original_ratio_medium_27024ad5-5f13-4ec9-a132-c2dc23a5f243.jpeg"
+        },
+        {
+          "identifier": "wRCOxfK",
+          "type": "Link",
+          "title": "What is the XY problem? How do I avoid it?",
+          "url_domain": "stackexchange.com",
+          "url": "https://meta.stackexchange.com/questions/66377/what-is-the-xy-problem",
+          "description": "<p>XY 問題：</p>\n\n<ol>\n<li>遇到了一個問題 X，不知道怎麼解決</li>\n<li>想試著用 Y 方法來解決 X 問題，同樣地，也不知道怎麼實作 Y 方法</li>\n<li>向其他人提問 Y 方法要怎麼執行，並沒有提到問題 X</li>\n</ol>\n\n\n<p>可能在大家花了很多時間討論 Y 方法之後，這並不能解決問題 X，或其實存在著更好的方法。</p>\n\n<p>如果你是提問的人，無論有多確定問題的價值都應該提供想問這個問題的原因。如果你是被提問的人，只要你感覺到這可能是 XY 問題，你就應該問「為什麼要用方法 Y？」</p>\n\n<p>延伸：<a href=\"http://www.catb.org/~esr/faqs/smart-questions.html\">How To Ask Questions The Smart Way</a></p>",
+          "description_markdown": "XY 問題：\r\n\r\n1. 遇到了一個問題 X，不知道怎麼解決\r\n2. 想試著用 Y 方法來解決 X 問題，同樣地，也不知道怎麼實作 Y 方法\r\n3. 向其他人提問 Y 方法要怎麼執行，並沒有提到問題 X\r\n\r\n可能在大家花了很多時間討論 Y 方法之後，這並不能解決問題 X，或其實存在著更好的方法。\r\n\r\n如果你是提問的人，無論有多確定問題的價值都應該提供想問這個問題的原因。如果你是被提問的人，只要你感覺到這可能是 XY 問題，你就應該問「為什麼要用方法 Y？」\r\n\r\n延伸：[How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)",
+          "embedded_links": [
+            {
+              "identifier": "2VedUvE",
+              "title": "How To Ask Questions The Smart Way",
+              "url_domain": "catb.org",
+              "url": "http://www.catb.org/~esr/faqs/smart-questions.html"
+            }
+          ]
+        },
+        {
+          "identifier": "qPau3Cc",
+          "type": "Link",
+          "title": "RxJava 沉思录（一）：你认为 RxJava 真的好用吗？",
+          "url_domain": "github.io",
+          "url": "https://prototypez.github.io/2018/08/29/thoughts-in-rxjava-1/",
+          "description": "<p>Android 開發者都或多或少用過 RxJava 這個框架，這是一系列有思考含量的文章，值得一讀。</p>\n\n<blockquote><p>大多数我看到的有关 RxJava 的技术文章举例说明的所谓 “逻辑简洁” 或者是 “随着程序逻辑的复杂性提高，依然能够保持简洁” 的例子大多数都是不恰当的。一方面他们仅仅停留在 Callback 的维度，举那种依次执行的异步任务的例子，完全没有点到 RxJava 对处理问题的维度的提升这一点；二是举的那些例子实在难以令人信服，至少我并没有觉得那些例子用了 RxJava 相比 Callback 有多么大的提升。</p></blockquote>\n\n<p>我對 RxJava 的理解就是 Event driven。非同步、線程管理、Rx Operators 都是為了搭建 Event driven framework 而生。用 Observable 對事件做封裝，有了統一的介面，我們就可以對事件做加工或清洗（業務邏輯），然後得到結果。</p>\n\n<p>延伸：<a href=\"https://medium.com/airbnb-engineering/introducing-mvrx-android-on-autopilot-552bca86bd0a\">Introducing MvRx: Android on Autopilot</a><br/>\nAirbnb 釋出內部搭建在 RxJava 上的 Android 基礎架構，Kotlin only</p>",
+          "description_markdown": "Android 開發者都或多或少用過 RxJava 這個框架，這是一系列有思考含量的文章，值得一讀。\r\n\r\n> 大多数我看到的有关 RxJava 的技术文章举例说明的所谓 “逻辑简洁” 或者是 “随着程序逻辑的复杂性提高，依然能够保持简洁” 的例子大多数都是不恰当的。一方面他们仅仅停留在 Callback 的维度，举那种依次执行的异步任务的例子，完全没有点到 RxJava 对处理问题的维度的提升这一点；二是举的那些例子实在难以令人信服，至少我并没有觉得那些例子用了 RxJava 相比 Callback 有多么大的提升。\r\n\r\n我對 RxJava 的理解就是 Event driven。非同步、線程管理、Rx Operators 都是為了搭建 Event driven framework 而生。用 Observable 對事件做封裝，有了統一的介面，我們就可以對事件做加工或清洗（業務邏輯），然後得到結果。\r\n\r\n延伸：[Introducing MvRx: Android on Autopilot](https://medium.com/airbnb-engineering/introducing-mvrx-android-on-autopilot-552bca86bd0a)  \r\nAirbnb 釋出內部搭建在 RxJava 上的 Android 基礎架構，Kotlin only\r\n",
+          "embedded_links": [
+            {
+              "identifier": "k4BIgEU",
+              "title": "Introducing MvRx: Android on Autopilot",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/airbnb-engineering/introducing-mvrx-android-on-autopilot-552bca86bd0a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "fukuball",
+      "name": "@fukuball",
+      "items": [
+        {
+          "identifier": "i0fLAB3",
+          "type": "Link",
+          "title": "Ethereum 開發筆記",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/fukuball-murmur/tagged/ethereum",
+          "description": "<p>Blockchain、Ethereum：初級</p>\n\n<p>之前一直有在關注 Blockchain、Ethereum，寫過 Smart Contract 也寫過 Dapp，但邊看網路上散落的文章邊學習總有些見樹不見林之感，狠下心來決定從頭到尾來把 Ethereum 開發摸一遍，順便將自己學習到的記錄下來寫成筆記，之後會陸續發佈新內容，大家跟我一起來受苦吧！</p>",
+          "description_markdown": "Blockchain、Ethereum：初級\r\n\r\n之前一直有在關注 Blockchain、Ethereum，寫過 Smart Contract 也寫過 Dapp，但邊看網路上散落的文章邊學習總有些見樹不見林之感，狠下心來決定從頭到尾來把 Ethereum 開發摸一遍，順便將自己學習到的記錄下來寫成筆記，之後會陸續發佈新內容，大家跟我一起來受苦吧！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "6TBGGBm",
+          "type": "Link",
+          "title": "區塊鏈乾貨 Samson's Blog",
+          "url_domain": "samsonhoi.com",
+          "url": "https://www.samsonhoi.com/category/technology/%E5%8D%80%E5%A1%8A%E9%8F%88",
+          "description": "<p>Blockchain：初級</p>\n\n<p>這幾天查 Blockchain 相關資料看到的部落格，滿滿 Blockchain 相關乾貨，蠻值得一看的！尤其作者用詞精準且嚴謹，這讓閱讀的人可以更容易釐清文章所要傳達的知識，這樣的寫作態度令人佩服也值得學習，相比之下我用詞就有點太不嚴謹了，總之，分享給大家！</p>",
+          "description_markdown": "Blockchain：初級\r\n\r\n這幾天查 Blockchain 相關資料看到的部落格，滿滿 Blockchain 相關乾貨，蠻值得一看的！尤其作者用詞精準且嚴謹，這讓閱讀的人可以更容易釐清文章所要傳達的知識，這樣的寫作態度令人佩服也值得學習，相比之下我用詞就有點太不嚴謹了，總之，分享給大家！",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Ei6XtSy",
+          "type": "Link",
+          "title": "RSA 算法原理",
+          "url_domain": "ruanyifeng.com",
+          "url": "http://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html",
+          "description": "<p>Cryptography：初級</p>\n\n<p>以前有明明有聽過、學過，但卻不是很記得其中的原理了，明明工作上常常用到卻忘記其中的原理豈不是很弔詭，阮一峰這兩篇文章（<a href=\"http://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html\">第二篇</a>）寫得蠻清楚的啊，看完推導過程就會情不自禁對發明這個算法的人感到肅然起敬！</p>",
+          "description_markdown": "Cryptography：初級\r\n\r\n以前有明明有聽過、學過，但卻不是很記得其中的原理了，明明工作上常常用到卻忘記其中的原理豈不是很弔詭，阮一峰這兩篇文章（[第二篇](http://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html)）寫得蠻清楚的啊，看完推導過程就會情不自禁對發明這個算法的人感到肅然起敬！",
+          "embedded_links": [
+            {
+              "identifier": "I4fsOae",
+              "title": "第二篇",
+              "url_domain": "ruanyifeng.com",
+              "url": "http://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "mingderwang",
+      "name": "@mingderwang",
+      "items": [
+        {
+          "identifier": "T2EtlXJ",
+          "type": "Link",
+          "title": "Kubernetes Ingress 101: NodePort, Load Balancers, and Ingress Controllers",
+          "url_domain": "getambassador.io",
+          "url": "https://blog.getambassador.io/kubernetes-ingress-nodeport-load-balancers-and-ingress-controllers-6e29f1c44f2d",
+          "description": "<p>如果你想當一個 DevOps 工程師，少不了自己裝一個 k8s，來實驗自動部署的環境。不管你是用 AWS、GCP、或是 Azure，甚至其他雲端或本地架設主機，都少了要自己決定怎麼部署你的 ingress。所謂 k8s ingress 就是外面進來的請求，要怎麼 routing 到 k8s 裡正確的 services。其實方法很多種，本文介紹你如何挑選。</p>",
+          "description_markdown": "如果你想當一個 DevOps 工程師，少不了自己裝一個 k8s，來實驗自動部署的環境。不管你是用 AWS、GCP、或是 Azure，甚至其他雲端或本地架設主機，都少了要自己決定怎麼部署你的 ingress。所謂 k8s ingress 就是外面進來的請求，要怎麼 routing 到 k8s 裡正確的 services。其實方法很多種，本文介紹你如何挑選。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "dhCOTEp",
+          "type": "Link",
+          "title": "The Rise of Cloud Native Programming Languages",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/the-rise-of-cloud-native-programming-languages-211a5081f1b2",
+          "description": "<p>市面上已經有那麼多種電腦語言，為何還要學 cloud native 程式語言呢？這跟我説會 VM 就好，為何還要學 docker 是一樣的道理。對 DevOps 團隊來説，如果能簡單的再把程式跟架構結合在一起，還能同時對架構做測試，cloud native 也許是個可行的方法。</p>",
+          "description_markdown": "市面上已經有那麼多種電腦語言，為何還要學 cloud native 程式語言呢？這跟我説會 VM 就好，為何還要學 docker 是一樣的道理。對 DevOps 團隊來説，如果能簡單的再把程式跟架構結合在一起，還能同時對架構做測試，cloud native 也許是個可行的方法。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "vecHe0o",
+          "type": "Link",
+          "title": "Packaging Applications for Docker and Kubernetes: Metaparticle vs Pulumi vs Ballerina",
+          "url_domain": "infoq.com",
+          "url": "https://www.infoq.com/articles/metaparticle-pulumi-ballerina",
+          "description": "<p>有興趣對 cloud native 語言寫法一窺究竟的人，可以看這篇文章。它簡單地利用 hello world 範例來展示如何利用 <a href=\"https://metaparticle.io/\">Metaparticle</a>、<a href=\"https://ballerina.io/\">Ballerina</a>、或 <a href=\"https://pulumi.io/\">Pulumi</a> 包裝的應用程式，能直接在 <a href=\"https://kubernetes.io/\">kubernetes</a> 裡執行。</p>",
+          "description_markdown": "有興趣對 cloud native 語言寫法一窺究竟的人，可以看這篇文章。它簡單地利用 hello world 範例來展示如何利用 [Metaparticle](https://metaparticle.io/)、[Ballerina](https://ballerina.io/)、或 [Pulumi](https://pulumi.io/) 包裝的應用程式，能直接在 [kubernetes](https://kubernetes.io/) 裡執行。",
+          "embedded_links": [
+            {
+              "identifier": "ztkClI8",
+              "title": "Metaparticle",
+              "url_domain": "metaparticle.io",
+              "url": "https://metaparticle.io/"
+            },
+            {
+              "identifier": "S4emTYP",
+              "title": "Ballerina",
+              "url_domain": "ballerina.io",
+              "url": "https://ballerina.io/"
+            },
+            {
+              "identifier": "ijUIUY2",
+              "title": "Pulumi",
+              "url_domain": "pulumi.io",
+              "url": "https://pulumi.io/"
+            },
+            {
+              "identifier": "6x30zqb",
+              "title": "kubernetes",
+              "url_domain": "kubernetes.io",
+              "url": "https://kubernetes.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "EBJwZxD",
+          "type": "Link",
+          "title": "Google Dataset Search",
+          "url_domain": "google.com",
+          "url": "https://toolbox.google.com/datasetsearch",
+          "description": "<p>Dataset 是做資料科學或機器學習最重要的一環，最近 Google 推出了 Dataset Search Beta，這絕對是研究者的一大福音！</p>",
+          "description_markdown": "Dataset 是做資料科學或機器學習最重要的一環，最近 Google 推出了 Dataset Search Beta，這絕對是研究者的一大福音！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    }
+  ]
+}

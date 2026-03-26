@@ -1,0 +1,368 @@
+{
+  "number": 134,
+  "title": "Issue 134 小明有被駭妄想症，小明是 System Admin，小明很棒",
+  "summary": "本期內容涵蓋 Career, Kotlin, Swift, iOS, Bufferbloat, Ruby, Python",
+  "url": "https://weekly.codetengu.com/issues/134",
+  "publication_status": "published",
+  "published_at": "2018-07-09T03:00:00+01:00",
+  "updated_at": "2018-07-09T03:00:04+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Wool</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 有什麼意見進來 Run time 講啊</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 最近真的都在玩薩爾達</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 》〉》<a href=\"https://www.yourator.co/companies/escapex/jobs/3116\">我們要找 iOS 工程師</a>《〈《</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: <code>uranusjr</code></li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - Learning Deeply....</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a> - AMIS / MAICOIN 徵才中，歡迎聯繫！</li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 挑戰自動化家中電器</li>\n<li><a href=\"https://medium.com/@drumrick\">@drumrick</a> - 歡迎加入<a href=\"https://www.facebook.com/groups/kaggletw/\">台灣 Kaggle 交流區</a></li>\n<li><a href=\"https://twitter.com/wancw\">@wancw</a></li>\n<li><a href=\"https://medium.com/@allanlei\">@allanlei</a></li>\n<li><a href=\"http://hermitshed.com/\">@theJian</a></li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/HyakkiYagyo\">GitHub</a> 或 <a href=\"https://github.com/CodeTengu\">Open Source 專案</a>，有很多 weekly 看不到的內容。有任何建議也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "如果命運的齒輪沒有出差錯，CodeTengu Weekly 都會在 UTC+8 時區的每個禮拜一 AM 10:00 出刊。每週會由三位 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到感興趣的東西，可能下一期就有了。當然你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Wool](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 有什麼意見進來 Run time 講啊\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 最近真的都在玩薩爾達\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 》〉》[我們要找 iOS 工程師](https://www.yourator.co/companies/escapex/jobs/3116)《〈《\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 聽說 Pinkoi 少了個棒球記者所以現在去應徵前端應該有機會！？Shadowverse: `uranusjr`\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - Learning Deeply....\r\n- [@yhsiang](https://github.com/yhsiang) - AMIS / MAICOIN 徵才中，歡迎聯繫！\r\n- [@johnlinvc](https://github.com/johnlinvc) - 挑戰自動化家中電器\r\n- [@drumrick](https://medium.com/@drumrick) - 歡迎加入[台灣 Kaggle 交流區](https://www.facebook.com/groups/kaggletw/)\r\n- [@wancw](https://twitter.com/wancw)\r\n- [@allanlei](https://medium.com/@allanlei)\r\n- [@theJian](http://hermitshed.com/)\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/HyakkiYagyo) 或 [Open Source 專案](https://github.com/CodeTengu)，有很多 weekly 看不到的內容。有任何建議也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>彷彿致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "aylVh5y",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "8fWu0cx",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "oPCR9ux",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "OdGPVXx",
+              "title": "Wool",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "lkvBAta",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "Nm9OqDg",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "IsDGvWn",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "gEZev75",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "lKk37Xj",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "mug8lGs",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "8P9OWWG",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "DtAsc7d",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "vvdK7wQ",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "B6lep6Q",
+              "title": "我們要找 iOS 工程師",
+              "url_domain": "yourator.co",
+              "url": "https://www.yourator.co/companies/escapex/jobs/3116"
+            },
+            {
+              "identifier": "ILYhD0L",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "6urJgOh",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "mWs5HLV",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "gCBaBeY",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "k4I2OA",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "ouL5Lxx",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "kdKBwR1",
+              "title": "@drumrick",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@drumrick"
+            },
+            {
+              "identifier": "rDzvytW",
+              "title": "台灣 Kaggle 交流區",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/groups/kaggletw/"
+            },
+            {
+              "identifier": "tnLGarl",
+              "title": "@wancw",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/wancw"
+            },
+            {
+              "identifier": "5B76Xgr",
+              "title": "@allanlei",
+              "url_domain": "medium.com",
+              "url": "https://medium.com/@allanlei"
+            },
+            {
+              "identifier": "g67jB7E",
+              "title": "@theJian",
+              "url_domain": "hermitshed.com",
+              "url": "http://hermitshed.com/"
+            },
+            {
+              "identifier": "vVt1n4f",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "9Ca5pth",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "laR9Rwd",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/HyakkiYagyo"
+            },
+            {
+              "identifier": "5wGGTZp",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "9NyUNcm",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "nVvWuls",
+          "type": "Link",
+          "title": "The Best Career Advice from Dev Chats",
+          "url_domain": "samjarman.co.nz",
+          "url": "https://www.samjarman.co.nz/blog/career-advice?utm_campaign=Indie%2BiOS%2BFocus%2BWeekly&utm_medium=email&utm_source=Indie_iOS_Focus_Weekly_178",
+          "description": "<p>分享一下文章裡面 Teach What You Know 的重點。</p>\n\n<ul>\n<li>資深工程師的其中工作內容是要產生更多資深工程師</li>\n<li>資深工程師不只是可以拿更高的薪水跟閃避那些枯燥的工作；透過傳遞經驗，團隊才可以成長得更快速</li>\n</ul>",
+          "description_markdown": "分享一下文章裡面 Teach What You Know 的重點。\r\n\r\n- 資深工程師的其中工作內容是要產生更多資深工程師\r\n- 資深工程師不只是可以拿更高的薪水跟閃避那些枯燥的工作；透過傳遞經驗，團隊才可以成長得更快速",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "7A6hZgI",
+          "type": "Link",
+          "title": "Getting to know Kotlin’s Extension functions: some caveats to keep in mind",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@quiro91/getting-to-know-kotlins-extension-functions-some-caveats-to-keep-in-mind-d14d734d108b",
+          "description": "<p>最近寫了幾個 Kotlin 的 extension，覺得自己很 Kotlinic（有這個詞嗎？）。用在了以往會用 Utility static method 的情境跟透過 extension 支援 <a href=\"https://kotlinlang.org/docs/reference/extensions.html#nullable-receiver\">Nullable Receiver</a> 的特性在那些不得不對 nullable type 檢查並處理的邏輯統一跟易讀。</p>\n\n<p>Kotlin extension 比較值得留個印象的是它是 static dispatch 的，因為是 compile time 加入的語言特性，如果把它當成一般的 dynamic dispatch 可能某一天你會花很久的時間才搞懂你的 function 沒被呼叫是因為這個原因。</p>\n\n<p>放這篇文章是因為他講的 Static vs dynamic dispatching 很易懂，如果上面那一段沒有很清楚的人可以看一下。</p>",
+          "description_markdown": "最近寫了幾個 Kotlin 的 extension，覺得自己很 Kotlinic（有這個詞嗎？）。用在了以往會用 Utility static method 的情境跟透過 extension 支援 [Nullable Receiver](https://kotlinlang.org/docs/reference/extensions.html#nullable-receiver) 的特性在那些不得不對 nullable type 檢查並處理的邏輯統一跟易讀。\r\n\r\nKotlin extension 比較值得留個印象的是它是 static dispatch 的，因為是 compile time 加入的語言特性，如果把它當成一般的 dynamic dispatch 可能某一天你會花很久的時間才搞懂你的 function 沒被呼叫是因為這個原因。  \r\n\r\n放這篇文章是因為他講的 Static vs dynamic dispatching 很易懂，如果上面那一段沒有很清楚的人可以看一下。",
+          "embedded_links": [
+            {
+              "identifier": "wfR2bTg",
+              "title": "Nullable Receiver",
+              "url_domain": "kotlinlang.org",
+              "url": "https://kotlinlang.org/docs/reference/extensions.html#nullable-receiver"
+            }
+          ]
+        },
+        {
+          "identifier": "yV0ytGy",
+          "type": "Link",
+          "title": "Android KTX - Android development with Kotlin - Kotlin Expertise Blog",
+          "url_domain": "kotlinexpertise.com",
+          "url": "https://kotlinexpertise.com/android-ktx-kotlin/",
+          "description": "<p>接續 Kotlin extension 的主題。</p>\n\n<p><a href=\"https://developer.android.com/kotlin/ktx\">Android KTX</a> 是 <a href=\"https://developer.android.com/jetpack/\">Android Jetpack</a> 的其中一部分，Google 這幾年在做 Android 的開發基礎組件這件事做得很認真，一直有在推出新的框架跟 best practice。</p>\n\n<p>Android KTX 全名是 Android Kotlin extensions，實際上就是 Google 幫你寫了一堆針對 Android SDK API 的 Kotlin extension 在不改變原本 API 的情況下透過 KTX 讓你開發 Android 更快速。</p>\n\n<p><a href=\"https://www.youtube.com/watch?v=r_19VZ0xRO8\">Android KTX 簡介</a><br/>\n<a href=\"https://www.youtube.com/watch?v=st1XVfkDWqk\">Jake Wharton 在 Google I/O '18 的 Android KTX 主題</a></p>",
+          "description_markdown": "接續 Kotlin extension 的主題。\r\n\r\n[Android KTX](https://developer.android.com/kotlin/ktx) 是 [Android Jetpack](https://developer.android.com/jetpack/) 的其中一部分，Google 這幾年在做 Android 的開發基礎組件這件事做得很認真，一直有在推出新的框架跟 best practice。\r\n\r\nAndroid KTX 全名是 Android Kotlin extensions，實際上就是 Google 幫你寫了一堆針對 Android SDK API 的 Kotlin extension 在不改變原本 API 的情況下透過 KTX 讓你開發 Android 更快速。\r\n\r\n[Android KTX 簡介](https://www.youtube.com/watch?v=r_19VZ0xRO8)  \r\n[Jake Wharton 在 Google I/O '18 的 Android KTX 主題](https://www.youtube.com/watch?v=st1XVfkDWqk)",
+          "embedded_links": [
+            {
+              "identifier": "lGcFZDU",
+              "title": "Android KTX",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/kotlin/ktx"
+            },
+            {
+              "identifier": "z47fCOY",
+              "title": "Android Jetpack",
+              "url_domain": "android.com",
+              "url": "https://developer.android.com/jetpack/"
+            },
+            {
+              "identifier": "1H4Muyo",
+              "title": "Android KTX 簡介",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=r_19VZ0xRO8"
+            },
+            {
+              "identifier": "8e5OyuH",
+              "title": "Jake Wharton 在 Google I/O '18 的 Android KTX 主題",
+              "url_domain": "youtube.com",
+              "url": "https://www.youtube.com/watch?v=st1XVfkDWqk"
+            }
+          ]
+        },
+        {
+          "identifier": "l9mlrey",
+          "type": "Link",
+          "title": "Handling mutable models in Swift",
+          "url_domain": "swiftbysundell.com",
+          "url": "https://www.swiftbysundell.com/posts/handling-mutable-models-in-swift",
+          "description": "<p>處理可變動跟未完整的 data model 是開發 client 很常見跟經典的一個問題，透過 Swift 的語言特性我們可能有新的設計選擇。</p>\n\n<p>當你在明確知道這不是 nil 卻為了要應付 compiler 而 guard 或 unwrap 時，表示你 model 的設計可以改進了。</p>\n\n<p>作者提出了一種 Partial immutability + Observing mutations 的方式來設計 data model。</p>",
+          "description_markdown": "處理可變動跟未完整的 data model 是開發 client 很常見跟經典的一個問題，透過 Swift 的語言特性我們可能有新的設計選擇。\r\n\r\n當你在明確知道這不是 nil 卻為了要應付 compiler 而 guard 或 unwrap 時，表示你 model 的設計可以改進了。\r\n\r\n作者提出了一種 Partial immutability + Observing mutations 的方式來設計 data model。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "KDCNEyF",
+          "type": "Link",
+          "title": "iOS-factor",
+          "url_domain": "ios-factor.com",
+          "url": "https://ios-factor.com/",
+          "description": "<p>致敬 <a href=\"https://www.12factor.net/\">The Twelve-Factor App</a> 的 iOS 版本。The Twelve-Factor App 是針對 web service, SaaS 的開發跟部署的大方向參考手冊。</p>\n\n<p>直接引用他的介紹：</p>\n\n<blockquote><p>It aims to provide a collection of best practices for building high-end iOS applications. Each topic is covered by a factor, which describes an ideal state of how a certain category of the iOS app development process could look like.</p></blockquote>\n\n<p>嘿對沒錯，這個計畫又是 <a href=\"https://twitter.com/KrauseFx\">@KrauseFx</a> 發起的</p>",
+          "description_markdown": "致敬 [The Twelve-Factor App](https://www.12factor.net/) 的 iOS 版本。The Twelve-Factor App 是針對 web service, SaaS 的開發跟部署的大方向參考手冊。\r\n\r\n直接引用他的介紹：\r\n\r\n> It aims to provide a collection of best practices for building high-end iOS applications. Each topic is covered by a factor, which describes an ideal state of how a certain category of the iOS app development process could look like.\r\n\r\n嘿對沒錯，這個計畫又是 [@KrauseFx](https://twitter.com/KrauseFx) 發起的",
+          "embedded_links": [
+            {
+              "identifier": "OBfZNW5",
+              "title": "The Twelve-Factor App",
+              "url_domain": "12factor.net",
+              "url": "https://www.12factor.net/"
+            },
+            {
+              "identifier": "Sd4lx8x",
+              "title": "@KrauseFx",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/KrauseFx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "johnlinvc",
+      "name": "@johnlinvc",
+      "items": [
+        {
+          "identifier": "wB4UnSp",
+          "type": "Link",
+          "title": "bufferbloat",
+          "url_domain": "bufferbloat.net",
+          "url": "https://www.bufferbloat.net/projects/bloat/wiki/What_can_I_do_about_Bufferbloat/",
+          "description": "<p>Bufferbloat 指的是 router 沒辦法好好同時處理大量資料上下載和即時的資料，造成即時的資料（像是線上遊戲）有比較大的 latency (lag)。</p>\n\n<p>可以用 <a href=\"http://www.dslreports.com/speedtest\">speedtest</a> 測測看自己的 router 有沒有設定好。</p>\n\n<p>這個網站提供了一些處理方法，像是改刷 DD-WRT 之類的。想吃更多雞🐔的朋友可以參考一下。</p>",
+          "description_markdown": "Bufferbloat 指的是 router 沒辦法好好同時處理大量資料上下載和即時的資料，造成即時的資料（像是線上遊戲）有比較大的 latency (lag)。\r\n\r\n可以用 [speedtest](http://www.dslreports.com/speedtest) 測測看自己的 router 有沒有設定好。\r\n\r\n這個網站提供了一些處理方法，像是改刷 DD-WRT 之類的。想吃更多雞🐔的朋友可以參考一下。",
+          "embedded_links": [
+            {
+              "identifier": "ZkdMxqK",
+              "title": "speedtest",
+              "url_domain": "dslreports.com",
+              "url": "http://www.dslreports.com/speedtest"
+            }
+          ]
+        },
+        {
+          "identifier": "LvyxXnU",
+          "type": "Link",
+          "title": "Sobert : a Ruby Type checker",
+          "url_domain": "sorbet.run",
+          "url": "https://sorbet.run/",
+          "description": "<p>預計在東京奧運時發布的 Ruby 3 有三個目標</p>\n\n<ul>\n<li>Ruby3x3: 在 <a href=\"https://github.com/mame/optcarrot\">optcarrot (NES 模擬器)</a>  跑的速度是 Ruby 2.0  3 倍。</li>\n<li>Concurrency: 加入一個好用的非同步機制。</li>\n<li>Type Check:  讓不須編譯的 Ruby 能在程式執行前就找出錯誤。</li>\n</ul>\n\n\n<p>Stripe 用 C++（才夠快ＸＤ）寫了一個 Ruby 的 Type Checker，有興趣的人可以玩玩看。\n目前還在他們內部使用，等到夠穩定才會開源。</p>",
+          "description_markdown": "預計在東京奧運時發布的 Ruby 3 有三個目標\r\n\r\n- Ruby3x3: 在 [optcarrot (NES 模擬器)](https://github.com/mame/optcarrot)  跑的速度是 Ruby 2.0  3 倍。\r\n- Concurrency: 加入一個好用的非同步機制。\r\n- Type Check:  讓不須編譯的 Ruby 能在程式執行前就找出錯誤。\r\n\r\nStripe 用 C++（才夠快ＸＤ）寫了一個 Ruby 的 Type Checker，有興趣的人可以玩玩看。\r\n目前還在他們內部使用，等到夠穩定才會開源。",
+          "embedded_links": [
+            {
+              "identifier": "SYLoXXA",
+              "title": "optcarrot (NES 模擬器)",
+              "url_domain": "github.com",
+              "url": "https://github.com/mame/optcarrot"
+            }
+          ]
+        },
+        {
+          "identifier": "PXAWsZH",
+          "type": "Link",
+          "title": "Black: Python Code Formatter",
+          "url_domain": "github.com",
+          "url": "https://github.com/ambv/black",
+          "description": "<p>在Python 這邊，繼 Google 的 <a href=\"https://github.com/google/yapf\">YAPF</a> 之後， Facebook 也出了一個 Python formatter，叫做 Black。名字的是來自福特汽車的福特當年說的一句話：</p>\n\n<blockquote><p>Any customer can have a car painted any color that he wants so long as it is black.</p></blockquote>\n\n<p>所以和 YAPF 不同， Black 幾乎沒有選項可以調整。讓大家又少了一些在開會時可以討論的話題。</p>",
+          "description_markdown": "在Python 這邊，繼 Google 的 [YAPF](https://github.com/google/yapf) 之後， Facebook 也出了一個 Python formatter，叫做 Black。名字的是來自福特汽車的福特當年說的一句話：\r\n\r\n> Any customer can have a car painted any color that he wants so long as it is black.\r\n\r\n所以和 YAPF 不同， Black 幾乎沒有選項可以調整。讓大家又少了一些在開會時可以討論的話題。",
+          "embedded_links": [
+            {
+              "identifier": "Try535o",
+              "title": "YAPF",
+              "url_domain": "github.com",
+              "url": "https://github.com/google/yapf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

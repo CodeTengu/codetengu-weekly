@@ -1,0 +1,476 @@
+{
+  "number": 71,
+  "title": "Issue 71 如果你覺得自己的工作環境裡沒有機歪人，那你就是那個機歪人",
+  "summary": "本期內容涵蓋 Web, Machine Learning, Testing, iOS, Android, Golang",
+  "url": "https://weekly.codetengu.com/issues/71",
+  "publication_status": "published",
+  "published_at": "2016-12-05T02:00:00+00:00",
+  "updated_at": "2017-06-30T10:35:45+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下<a href=\"http://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>以下是目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷。最近在讀 <a href=\"https://www.douban.com/people/vinta/\">More Than Human</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 希望在離開台北之前可以見證到捷運禁止飲食廢止</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 婚後生活</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://github.com/chiahsien\">@chiahsien</a> - 我們在找 <a href=\"https://www.104.com.tw/jobbank/custjob/index.php?r=cust&amp;j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56\">iOS 工程師與其它人才</a>，歡迎來跟我當同事</li>\n<li><a href=\"https://twitter.com/hiroshiyui\">@hiroshiyui</a> - 沒有人是一座孤島</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 不愛談技術的技術人，最近對做菜很有興趣</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n</ul>\n\n\n<p>大家也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a> 或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊，歡迎亂入。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一早上 10:00 出刊，每一期會從目前的 curator 名單中選出三位來負責當期的內容，每個 curator 各自負責不同的領域。如果你在這一期沒有看到自已感興趣的東西，說不定下一期就會有了。你也可以瀏覽一下[前幾期的內容](http://weekly.codetengu.com/issues)。\r\n\r\n以下是目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷。最近在讀 [More Than Human](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 希望在離開台北之前可以見證到捷運禁止飲食廢止\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 婚後生活\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://github.com/chiahsien) - 我們在找 [iOS 工程師與其它人才](https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56)，歡迎來跟我當同事\r\n- [@hiroshiyui](https://twitter.com/hiroshiyui) - 沒有人是一座孤島\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 不愛談技術的技術人，最近對做菜很有興趣\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師\r\n- [@yhsiang](https://github.com/yhsiang)\r\n\r\n大家也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters) 或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也可以來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊，歡迎亂入。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Kdi1EMx",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "http://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "oUBiUrd",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "ZmIfdPg",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "VgLKKUU",
+              "title": "More Than Human",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "txEHGdG",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "sWZngCD",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "ql73rWq",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "U3u1G5k",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "TtoscOt",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "iVa9FRS",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "LBAOa8m",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "1LOqzlv",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "n4BpvOD",
+              "title": "@chiahsien",
+              "url_domain": "github.com",
+              "url": "https://github.com/chiahsien"
+            },
+            {
+              "identifier": "FWa1IVj",
+              "title": "iOS 工程師與其它人才",
+              "url_domain": "104.com.tw",
+              "url": "https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=6866497260724f704e38422742343c6533e4048713a3c446d424840232323232204a504c3725j56"
+            },
+            {
+              "identifier": "mvOzLyF",
+              "title": "@hiroshiyui",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/hiroshiyui"
+            },
+            {
+              "identifier": "KVqGnu8",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "thYtKQT",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "Or4kbr4",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "iXLeTx3",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "QvqAAfs",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "1qzajV1",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "xJHZUKU",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "1bp5ysp",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "ntsUzSA",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "YBnToWZ",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "vinta",
+      "name": "@vinta",
+      "items": [
+        {
+          "identifier": "j0Iqslx",
+          "type": "Link",
+          "title": "What happens when you type google.com into your browser and press enter?",
+          "url_domain": "github.com",
+          "url": "https://github.com/alex/what-happens-when",
+          "description": "<p>（因為趕著回去玩 Final Fantasy XV，這一期就不多廢話了，PSN ID <code>vintalines</code>，大家多多指教。）</p>\n\n<p>之前在面試工程師的時候，常常會問一下標題的這個問題，但是老實說能夠答得好的人真的不多呢，了解這個問題對於你平常 debug 其實是很有幫助的。不過除了技術問題之外，我也會好奇地問一下來面試的人他們是怎麼準備這次的面試的，不過讓我訝異的是，其實有不少人都支支吾吾地表示他們沒有特別準備，嗯，也不是說不行啦，只是有時候面試你的人也是花了不少時間在看你的履歷和 GitHub 上的 code，專門準備要問你哪些問題。而且更重要的是，從你怎麼準備面試，多少是可以看出你平常是怎麼做事的嘛。</p>",
+          "description_markdown": "（因為趕著回去玩 Final Fantasy XV，這一期就不多廢話了，PSN ID `vintalines`，大家多多指教。）\r\n\r\n之前在面試工程師的時候，常常會問一下標題的這個問題，但是老實說能夠答得好的人真的不多呢，了解這個問題對於你平常 debug 其實是很有幫助的。不過除了技術問題之外，我也會好奇地問一下來面試的人他們是怎麼準備這次的面試的，不過讓我訝異的是，其實有不少人都支支吾吾地表示他們沒有特別準備，嗯，也不是說不行啦，只是有時候面試你的人也是花了不少時間在看你的履歷和 GitHub 上的 code，專門準備要問你哪些問題。而且更重要的是，從你怎麼準備面試，多少是可以看出你平常是怎麼做事的嘛。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "x5Rmeab",
+          "type": "Link",
+          "title": "9 DevOps Tips for going in production with MySQL / MariaDB Galera Cluster",
+          "url_domain": "slideshare.net",
+          "url": "http://www.slideshare.net/Severalnines/webinar-slides-9-devops-tips-for-going-in-production-with-galera-cluster-for-mysql-mariadb",
+          "description": "<p>StreetVoice 的資料庫前陣子換成了 MariaDB Galera Cluster，因為需要跨 data center 又得支援 multi-master 讀寫（其中一個 data center 還是在連外網路異常險惡的中國），而 Galera 基本上是對我們整個後端的程式來說改動最少的方案。</p>\n\n<p>這份 Severalnines 的簡報提到了很多用 Galera Cluster 需要注意的地方，非常值得一看。如果你是 Severalnines 的會員，也可以看看他們的 Webinar 的<a href=\"http://severalnines.com/blog/9-devops-tips-going-production-mysql-mariadb-galera-cluster-webinar-replay\">影片</a>。</p>",
+          "description_markdown": "StreetVoice 的資料庫前陣子換成了 MariaDB Galera Cluster，因為需要跨 data center 又得支援 multi-master 讀寫（其中一個 data center 還是在連外網路異常險惡的中國），而 Galera 基本上是對我們整個後端的程式來說改動最少的方案。\r\n\r\n這份 Severalnines 的簡報提到了很多用 Galera Cluster 需要注意的地方，非常值得一看。如果你是 Severalnines 的會員，也可以看看他們的 Webinar 的[影片](http://severalnines.com/blog/9-devops-tips-going-production-mysql-mariadb-galera-cluster-webinar-replay)。",
+          "embedded_links": [
+            {
+              "identifier": "2WhEyMe",
+              "title": "影片",
+              "url_domain": "severalnines.com",
+              "url": "http://severalnines.com/blog/9-devops-tips-going-production-mysql-mariadb-galera-cluster-webinar-replay"
+            }
+          ]
+        },
+        {
+          "identifier": "cqvdik7",
+          "type": "Link",
+          "title": "htop explained",
+          "url_domain": "peteris.rocks",
+          "url": "https://peteris.rocks/blog/htop/",
+          "description": "<p>想必很多人都用過 <code>htop</code>，不過你真的都知道畫面上每個欄位或數值是什麼意思嗎？不懂沒關係，看完這篇文章你就懂了。不過更棒的是，作者還講了很多 Linux 的基本知識，學到很多啊。</p>",
+          "description_markdown": "想必很多人都用過 `htop`，不過你真的都知道畫面上每個欄位或數值是什麼意思嗎？不懂沒關係，看完這篇文章你就懂了。不過更棒的是，作者還講了很多 Linux 的基本知識，學到很多啊。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "3VPZSJK",
+          "type": "Link",
+          "title": "Introduction to Machine Learning with Python",
+          "url_domain": "amazon.com",
+          "url": "https://www.amazon.com/Introduction-Machine-Learning-Python-Scientists-ebook/dp/B01M0LNE8C/",
+          "description": "<p>最近在讀這本書，真的不錯，跟大家分享一下，作者就是 <a href=\"http://scikit-learn.org/\">scikit-learn</a> 的核心開發者之一，讀起來（幾乎）沒有挫折感，這對初學者來說是很關鍵的啊。不過這本書並不是在教你怎麼一步一步地 implement 各種 Machine Learning 的演算法，畢竟他整本書都在用 scikit-learn 了。就像你在讀 High Performance MySQL 的時候，它也不是在教你怎麼 implement 一個資料庫的嘛。</p>\n\n<p>這本書最棒的地方是他在說明每個演算法的時候都會有好幾幅精心繪製的圖表，可以讓你用非常直觀的方式了解到不同演算法之間的差異。甚至是在示範調整演算法的參數時也有把結果做成圖，所謂的 Visualization 真的很重要呢。</p>\n\n<p>延伸閱讀：</p>\n\n<ul>\n<li><a href=\"https://www.safaribooksonline.com/library/view/python-for-data/9781491957653/\">Python for Data Analysis</a> 要出第二版了</li>\n</ul>",
+          "description_markdown": "最近在讀這本書，真的不錯，跟大家分享一下，作者就是 [scikit-learn](http://scikit-learn.org/) 的核心開發者之一，讀起來（幾乎）沒有挫折感，這對初學者來說是很關鍵的啊。不過這本書並不是在教你怎麼一步一步地 implement 各種 Machine Learning 的演算法，畢竟他整本書都在用 scikit-learn 了。就像你在讀 High Performance MySQL 的時候，它也不是在教你怎麼 implement 一個資料庫的嘛。\r\n\r\n這本書最棒的地方是他在說明每個演算法的時候都會有好幾幅精心繪製的圖表，可以讓你用非常直觀的方式了解到不同演算法之間的差異。甚至是在示範調整演算法的參數時也有把結果做成圖，所謂的 Visualization 真的很重要呢。\r\n\r\n延伸閱讀：\r\n\r\n- [Python for Data Analysis](https://www.safaribooksonline.com/library/view/python-for-data/9781491957653/) 要出第二版了",
+          "embedded_links": [
+            {
+              "identifier": "YJ7wsva",
+              "title": "scikit-learn",
+              "url_domain": "scikit-learn.org",
+              "url": "http://scikit-learn.org/"
+            },
+            {
+              "identifier": "pNUzPVE",
+              "title": "Python for Data Analysis",
+              "url_domain": "safaribooksonline.com",
+              "url": "https://www.safaribooksonline.com/library/view/python-for-data/9781491957653/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "saiday",
+      "name": "@saiday",
+      "items": [
+        {
+          "identifier": "xgQnSQi",
+          "type": "Link",
+          "title": "Google Testing Blog: Just Say No to More End-to-End Tests",
+          "url_domain": "googleblog.com",
+          "url": "https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html",
+          "description": "<p>在 app 的領域是比較少看到 <a href=\"https://www.techopedia.com/definition/7035/end-to-end-test\">End-to-End Testing</a> 的方法討論跟工具，但參加了好幾次 MOPCON 都有 UI Testing 的議程，而 End-to-End Testing 免不了一定會包含到 UI Testing 的部分，所以下面就混在一起說好了。</p>\n\n<p>這個標題乍看之下是有點重，但重點是 <strong>more</strong> End-to-End Tests，End-to-End Tests 有它不可取代的必要性，但不要因為 UI Testing 或是 End-to-End 的概念上很吸引人而做了過多不必要的測試，這樣並不會帶來等量的助益，只是在消耗你的開發資源。</p>\n\n<p>附圖是 Testing Pyramid，轉載自 Martin Fowler 的部落格 <a href=\"http://martinfowler.com/bliki/TestPyramid.html\">TestPyramid</a>，大概就是說越高階的測試跑得越慢、要花更多資源去寫跟維護。這個測試三角形跟 Google 在文章裡提到的測試方法分配分別是 70% unit tests, 20% integration tests, 10% end-to-end tests 也是不謀而合。</p>\n\n<p>而我個人認為這篇文章的精華在這句：</p>\n\n<blockquote><p>Thus, to evaluate any testing strategy, you cannot just evaluate how it finds bugs. You also must evaluate how it enables developers to fix (and even prevent) bugs.</p></blockquote>",
+          "description_markdown": "在 app 的領域是比較少看到 [End-to-End Testing](https://www.techopedia.com/definition/7035/end-to-end-test) 的方法討論跟工具，但參加了好幾次 MOPCON 都有 UI Testing 的議程，而 End-to-End Testing 免不了一定會包含到 UI Testing 的部分，所以下面就混在一起說好了。\r\n\r\n這個標題乍看之下是有點重，但重點是 **more** End-to-End Tests，End-to-End Tests 有它不可取代的必要性，但不要因為 UI Testing 或是 End-to-End 的概念上很吸引人而做了過多不必要的測試，這樣並不會帶來等量的助益，只是在消耗你的開發資源。\r\n\r\n附圖是 Testing Pyramid，轉載自 Martin Fowler 的部落格 [TestPyramid](http://martinfowler.com/bliki/TestPyramid.html)，大概就是說越高階的測試跑得越慢、要花更多資源去寫跟維護。這個測試三角形跟 Google 在文章裡提到的測試方法分配分別是 70% unit tests, 20% integration tests, 10% end-to-end tests 也是不謀而合。\r\n\r\n而我個人認為這篇文章的精華在這句：\r\n> Thus, to evaluate any testing strategy, you cannot just evaluate how it finds bugs. You also must evaluate how it enables developers to fix (and even prevent) bugs.",
+          "embedded_links": [
+            {
+              "identifier": "BDEtTaN",
+              "title": "End-to-End Testing",
+              "url_domain": "techopedia.com",
+              "url": "https://www.techopedia.com/definition/7035/end-to-end-test"
+            },
+            {
+              "identifier": "4sXEU2r",
+              "title": "TestPyramid",
+              "url_domain": "martinfowler.com",
+              "url": "http://martinfowler.com/bliki/TestPyramid.html"
+            }
+          ],
+          "image_original_filename": "d8fb92ee-0ba6-4108-87bc-0e41be9044eb.png",
+          "image_extra_large_filename": "original_ratio_extra_large_d8fb92ee-0ba6-4108-87bc-0e41be9044eb.png",
+          "image_medium_filename": "original_ratio_medium_d8fb92ee-0ba6-4108-87bc-0e41be9044eb.png"
+        },
+        {
+          "identifier": "8m7kJhs",
+          "type": "Link",
+          "title": "Intelligence in Mobile Applications",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@sadmansamee/intelligence-in-mobile-applications-ca3be3c0e773#.nwbq4c9uw",
+          "description": "<p>機器學習現在非常熱門，相關的平台跟服務也是大量的湧現出來。</p>\n\n<p>如果想要做 <strong>語音辨識</strong>、<strong>臉部辨識</strong>、<strong>自然語言處理</strong>、<strong>預測系統</strong> 這類的東西，有哪些第三方的服務可以加速你的開發呢？</p>\n\n<p>這篇文介紹了 mobile app developer 可以應用的服務：</p>\n\n<ul>\n<li><a href=\"https://wit.ai/\">Wit.ai</a></li>\n<li><a href=\"https://cloud.google.com/products/machine-learning/\">Google Cloud Machine Learning APIs</a></li>\n<li><a href=\"https://www.microsoft.com/cognitive-services\">Microsoft Cognitive Services</a></li>\n<li><a href=\"https://www.ibm.com/watson/developercloud/services-catalog.html\">IBM Watson</a></li>\n</ul>",
+          "description_markdown": "機器學習現在非常熱門，相關的平台跟服務也是大量的湧現出來。\r\n\r\n如果想要做 **語音辨識**、**臉部辨識**、**自然語言處理**、**預測系統** 這類的東西，有哪些第三方的服務可以加速你的開發呢？\r\n\r\n這篇文介紹了 mobile app developer 可以應用的服務：\r\n\r\n- [Wit.ai](https://wit.ai/)\r\n- [Google Cloud Machine Learning APIs](https://cloud.google.com/products/machine-learning/)\r\n- [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services)\r\n- [IBM Watson](https://www.ibm.com/watson/developercloud/services-catalog.html)",
+          "embedded_links": [
+            {
+              "identifier": "PNpZWZH",
+              "title": "TensorFlow",
+              "url_domain": "tensorflow.org",
+              "url": "https://www.tensorflow.org/"
+            },
+            {
+              "identifier": "rvzovl7",
+              "title": "Wit.ai",
+              "url_domain": "wit.ai",
+              "url": "https://wit.ai/"
+            },
+            {
+              "identifier": "nZ2Gfbf",
+              "title": "Google Cloud Machine Learning APIs",
+              "url_domain": "google.com",
+              "url": "https://cloud.google.com/products/machine-learning/"
+            },
+            {
+              "identifier": "872LZtB",
+              "title": "Microsoft Cognitive Services",
+              "url_domain": "microsoft.com",
+              "url": "https://www.microsoft.com/cognitive-services"
+            },
+            {
+              "identifier": "O1Nlgy6",
+              "title": "IBM Watson",
+              "url_domain": "ibm.com",
+              "url": "https://www.ibm.com/watson/developercloud/services-catalog.html"
+            }
+          ]
+        },
+        {
+          "identifier": "Qvbrt9w",
+          "type": "Link",
+          "title": "面向协议编程与 Cocoa 的邂逅 (上)",
+          "url_domain": "onevcat.com",
+          "url": "https://onevcat.com/2016/11/pop-cocoa-1/",
+          "description": "<p><a href=\"https://onevcat.com/2016/12/pop-cocoa-2/\">面向协议编程与 Cocoa 的邂逅 (下)</a></p>\n\n<p><a href=\"https://twitter.com/onevcat\">王巍</a> 對 POP (Protocol Oriented Programming) 的介紹跟想法。標題寫的是「與 Cocoa 的邂逅」，表示這不只是一篇關於 POP 的理論介紹，包含了一些日常中很實際的應用。</p>\n\n<p>用 POP 而非 OO 的原因王巍列出這三點：</p>\n\n<ul>\n<li>動態派發安全性 (Dynamic dispatch)</li>\n<li>橫切關注點 (Cross-Cutting Concerns)</li>\n<li>菱形缺陷 (Diamond Problem)</li>\n</ul>\n\n\n<p>POP 的應用上，你所需要掌握的工具：</p>\n\n<ul>\n<li>protocol extension</li>\n<li>protocol associatedtype</li>\n</ul>\n\n\n<p>這兩篇網誌是由他自己的 <a href=\"https://speakerdeck.com/onevcat/mian-xiang-xie-yi-bian-cheng-yu-cocoa-de-xie-hou\">這份簡報</a> 延伸出來的，簡報十分完整，推薦可以先看簡報。</p>\n\n<p>延伸閱讀：<a href=\"http://chris.eidhof.nl/post/protocol-oriented-programming/\">Protocol Oriented Programming is Not a Silver Bullet</a></p>",
+          "description_markdown": "[面向协议编程与 Cocoa 的邂逅 (下)](https://onevcat.com/2016/12/pop-cocoa-2/)  \r\n\r\n[王巍](https://twitter.com/onevcat) 對 POP (Protocol Oriented Programming) 的介紹跟想法。標題寫的是「與 Cocoa 的邂逅」，表示這不只是一篇關於 POP 的理論介紹，包含了一些日常中很實際的應用。\r\n\r\n用 POP 而非 OO 的原因王巍列出這三點：\r\n\r\n- 動態派發安全性 (Dynamic dispatch)\r\n- 橫切關注點 (Cross-Cutting Concerns)\r\n- 菱形缺陷 (Diamond Problem)\r\n\r\nPOP 的應用上，你所需要掌握的工具：\r\n\r\n- protocol extension\r\n- protocol associatedtype\r\n\r\n這兩篇網誌是由他自己的 [這份簡報](https://speakerdeck.com/onevcat/mian-xiang-xie-yi-bian-cheng-yu-cocoa-de-xie-hou) 延伸出來的，簡報十分完整，推薦可以先看簡報。\r\n\r\n延伸閱讀：[Protocol Oriented Programming is Not a Silver Bullet](http://chris.eidhof.nl/post/protocol-oriented-programming/)",
+          "embedded_links": [
+            {
+              "identifier": "qjVhrv4",
+              "title": "面向协议编程与 Cocoa 的邂逅 (下)",
+              "url_domain": "onevcat.com",
+              "url": "https://onevcat.com/2016/12/pop-cocoa-2/"
+            },
+            {
+              "identifier": "7YMdDiE",
+              "title": "王巍",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/onevcat"
+            },
+            {
+              "identifier": "hKIu9g2",
+              "title": "這份簡報",
+              "url_domain": "speakerdeck.com",
+              "url": "https://speakerdeck.com/onevcat/mian-xiang-xie-yi-bian-cheng-yu-cocoa-de-xie-hou"
+            },
+            {
+              "identifier": "62PGIRs",
+              "title": "Protocol Oriented Programming is Not a Silver Bullet",
+              "url_domain": "eidhof.nl",
+              "url": "http://chris.eidhof.nl/post/protocol-oriented-programming/"
+            }
+          ]
+        },
+        {
+          "identifier": "uPIgula",
+          "type": "Link",
+          "title": "Mastering the Terminal side of Android development",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521#.6p3ae11s8",
+          "description": "<p>不多說了，直接用文內的 TL;DR</p>\n\n<ul>\n<li>Install iterm2, a better terminal than the default one</li>\n<li>Use the oh-my-zsh shell with autosuggestions</li>\n<li>compact the commands ./gradlew iDD</li>\n<li>Run the commands faster by using the offline flag --offline</li>\n<li>Pretty print your tests</li>\n<li>Don’t manually open the app on the phone after install, use <a href=\"https://github.com/cesarferreira/android-rocket-launcher\">this plugin</a> to automate it</li>\n<li>Attach the process to debugger without restarting the app in debug mode</li>\n<li>Enjoy a more convenient logcat output with <a href=\"https://github.com/JakeWharton/pidcat\">pidcat</a></li>\n</ul>",
+          "description_markdown": "不多說了，直接用文內的 TL;DR\r\n\r\n- Install iterm2, a better terminal than the default one\r\n- Use the oh-my-zsh shell with autosuggestions\r\n- compact the commands ./gradlew iDD\r\n- Run the commands faster by using the offline flag --offline\r\n- Pretty print your tests\r\n- Don’t manually open the app on the phone after install, use [this plugin](https://github.com/cesarferreira/android-rocket-launcher) to automate it\r\n- Attach the process to debugger without restarting the app in debug mode\r\n- Enjoy a more convenient logcat output with [pidcat](https://github.com/JakeWharton/pidcat)",
+          "embedded_links": [
+            {
+              "identifier": "7iMdltu",
+              "title": "this plugin",
+              "url_domain": "github.com",
+              "url": "https://github.com/cesarferreira/android-rocket-launcher"
+            },
+            {
+              "identifier": "iucNyUR",
+              "title": "pidcat",
+              "url_domain": "github.com",
+              "url": "https://github.com/JakeWharton/pidcat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kkdai",
+      "name": "@kkdai",
+      "items": [
+        {
+          "identifier": "EsQWXLf",
+          "type": "Link",
+          "title": "GDG DevFest Taipei 2016 - In Love with Golang",
+          "url_domain": "go-talks.appspot.com",
+          "url": "http://go-talks.appspot.com/github.com/kkdai/GolangTalks/gdgfest/gdgfest.slide#1",
+          "description": "<p>GDG Dev Fest 是 Google Developer Group Festival Taipei ( Google 開發者群組嘉年華會 )\nGDG DevFest 之前在 GTG 有人問我，為何大家投影片不用 Golang Present 來做．所以我為了 GDG Dev Fest 做好了 Golang Talk 的投影片．</p>",
+          "description_markdown": "GDG Dev Fest 是 Google Developer Group Festival Taipei ( Google 開發者群組嘉年華會 ) \r\nGDG DevFest 之前在 GTG 有人問我，為何大家投影片不用 Golang Present 來做．所以我為了 GDG Dev Fest 做好了 Golang Talk 的投影片． \r\n\r\n\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oyAY9X4",
+          "type": "Link",
+          "title": "How to avoid Go gotchas (如何避免 Golang 的雷 (坑))",
+          "url_domain": "github.io",
+          "url": "http://divan.github.io/posts/avoid_gotchas/",
+          "description": "<p>如何避免 Golang 的坑？</p>\n\n<p>一半而言坑的原因有兩種： 錯誤的語言跟錯誤的直覺。</p>\n\n<p>而錯誤的直覺往往在於對於語言本身的架構與原理夠不夠了解。</p>\n\n<p>這篇文章詳細了介紹 slice 與 interface 的原理，並且講解常常會踩到坑的原因。</p>\n\n<p><a href=\"https://gocn.io/article/171\">簡體中文翻譯文</a></p>",
+          "description_markdown": "如何避免 Golang 的坑？\r\n\r\n一半而言坑的原因有兩種： 錯誤的語言跟錯誤的直覺。\r\n\r\n而錯誤的直覺往往在於對於語言本身的架構與原理夠不夠了解。\r\n\r\n這篇文章詳細了介紹 slice 與 interface 的原理，並且講解常常會踩到坑的原因。\r\n\r\n[簡體中文翻譯文](https://gocn.io/article/171)",
+          "embedded_links": [
+            {
+              "identifier": "h1Pidub",
+              "title": "簡體中文翻譯文",
+              "url_domain": "gocn.io",
+              "url": "https://gocn.io/article/171"
+            }
+          ]
+        },
+        {
+          "identifier": "Rh9JWpk",
+          "type": "Link",
+          "title": "Go 1.8 toolchain improvements",
+          "url_domain": "cheney.net",
+          "url": "https://dave.cheney.net/2016/11/19/go-1-8-toolchain-improvements",
+          "description": "<p>Dave Cheney 解釋預計在 2017/01/31 將要釋出的 Go 1.8 主要在 toolchain 上的優化． 其中包含有:</p>\n\n<p><strong>編譯得更快:</strong>\nGo 1.7 就支援了 SSA(Static single assignment) 但是由於相容舊的方式，留了不少舊的架構． 1.8 完成了所有的優化並且拔光舊有的架構． 可以讓你編譯得更快， 雖然比不上 Go 1.4 (因為當時用 C 來做底層 Compiler  1.5 之後換成 Go 原生來編譯 Compiler ) ，但是也有長足的進步．</p>\n\n<p><strong>Code Generation 的優化:</strong>\n對於 Code 分析與產生 (go gen) 有著些許的優化與速度提升．</p>\n\n<p><strong>Defer 與 cgo 的效能提升:</strong>\nDefer 提升 33% 而 cgo 提升 45%</p>\n\n<p><strong>平台支援:</strong>\nGo 1.7 支援 64-bit mips, Go 1.8 支援 32-bit mips</p>",
+          "description_markdown": "Dave Cheney 解釋預計在 2017/01/31 將要釋出的 Go 1.8 主要在 toolchain 上的優化． 其中包含有:\r\n\r\n**編譯得更快:**\r\nGo 1.7 就支援了 SSA(Static single assignment) 但是由於相容舊的方式，留了不少舊的架構． 1.8 完成了所有的優化並且拔光舊有的架構． 可以讓你編譯得更快， 雖然比不上 Go 1.4 (因為當時用 C 來做底層 Compiler  1.5 之後換成 Go 原生來編譯 Compiler ) ，但是也有長足的進步．\r\n\r\n**Code Generation 的優化:**\r\n對於 Code 分析與產生 (go gen) 有著些許的優化與速度提升．\r\n\r\n**Defer 與 cgo 的效能提升:**\r\nDefer 提升 33% 而 cgo 提升 45%\r\n\r\n**平台支援:**\r\nGo 1.7 支援 64-bit mips, Go 1.8 支援 32-bit mips",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "xIswOGl",
+          "type": "Link",
+          "title": "How to write your own Go tool ",
+          "url_domain": "speakerdeck.com",
+          "url": "https://speakerdeck.com/farslan/how-to-write-your-own-go-tool",
+          "description": "<p><a href=\"https://github.com/fatih\">Fatma Arslan</a> (vim-go 的作者) 介紹了如何透過 go/ast go/parser 與 go/printer 來製作 golang 的小工具，\n並且透過 gofmt 的 use case 來解釋如何透過這些工具來製作．</p>",
+          "description_markdown": "[Fatma Arslan](https://github.com/fatih) (vim-go 的作者) 介紹了如何透過 go/ast go/parser 與 go/printer 來製作 golang 的小工具，\r\n並且透過 gofmt 的 use case 來解釋如何透過這些工具來製作．",
+          "embedded_links": [
+            {
+              "identifier": "j2IbcX1",
+              "title": "Fatma Arslan",
+              "url_domain": "github.com",
+              "url": "https://github.com/fatih"
+            }
+          ]
+        },
+        {
+          "identifier": "Ju3fHkd",
+          "type": "Link",
+          "title": "FromXToGo ",
+          "url_domain": "github.com",
+          "url": "https://github.com/golang/go/wiki/FromXToGo",
+          "description": "<p>如果你正從某個語言（PHP, Python, Ruby...）想要換到 Golang 卻又害怕嗎？</p>\n\n<p>這邊有一連串文章搜集好相關的故事，可以給你們一切參考。</p>",
+          "description_markdown": "如果你正從某個語言（PHP, Python, Ruby...）想要換到 Golang 卻又害怕嗎？  \r\n\r\n這邊有一連串文章搜集好相關的故事，可以給你們一切參考。",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "randomcoolstuff",
+      "name": "Random Cool Stuff",
+      "items": [
+        {
+          "identifier": "H9SJcaa",
+          "type": "Link",
+          "title": "Language Spam – The Latest Google Analytics Spam",
+          "url_domain": "analytics-toolkit.com",
+          "url": "http://blog.analytics-toolkit.com/2016/language-spam-latest-google-analytics-spam/",
+          "description": "<p>上次打開 Google Analytics 發現來訪的語言欄位有大量 <code>Secret.ɢoogle.com You are invited! Enter only with this ticket URL. Copy it. Vote for Trump!</code> 紀錄。</p>\n\n<p>當下忍不住笑了出來，詭異的句子有一種莫名的喜感。</p>\n\n<p>這篇是我看到比較詳細的說明也提供了解法。</p>\n\n<p>由 <a href=\"https://twitter.com/saiday\">@saiday</a> 提供。</p>",
+          "description_markdown": "上次打開 Google Analytics 發現來訪的語言欄位有大量 `Secret.ɢoogle.com You are invited! Enter only with this ticket URL. Copy it. Vote for Trump!` 紀錄。\r\n\r\n當下忍不住笑了出來，詭異的句子有一種莫名的喜感。\r\n\r\n這篇是我看到比較詳細的說明也提供了解法。\r\n\r\n由 [@saiday](https://twitter.com/saiday) 提供。",
+          "embedded_links": [
+            {
+              "identifier": "vlrLvAp",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "number": 93,
+  "title": "Issue 93 理論上，理論和實際是沒有差異的；但實際上，是有的",
+  "summary": "本期內容涵蓋 Mail Management, Django, JavaScript, Bonsai, Preact, ReactJS, CSS, GraphQL, Babylon",
+  "url": "https://weekly.codetengu.com/issues/93",
+  "publication_status": "published",
+  "published_at": "2017-06-19T03:00:00+01:00",
+  "updated_at": "2017-06-19T03:00:05+01:00",
+  "categories": [
+    {
+      "code": "helloworld",
+      "name": "Hello World",
+      "items": [
+        {
+          "type": "Text",
+          "title": "CodeTengu Weekly 碼天狗週刊",
+          "description": "<p>CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下<a href=\"https://weekly.codetengu.com/issues\">前幾期的內容</a>。</p>\n\n<p>目前的 curator 陣容：</p>\n\n<ul>\n<li><a href=\"https://twitter.com/vinta\">@vinta</a> - <a href=\"https://vinta.ws/code/\">I failed the Turing Test</a> - 科幻迷，最近在讀 <a href=\"https://www.douban.com/people/vinta/\">Singularity Sky</a></li>\n<li><a href=\"https://twitter.com/saiday\">@saiday</a> - <a href=\"http://imnotyourson.com/\">Imnotyourson</a> - 教召完領了 3500，得了毛囊炎</li>\n<li><a href=\"https://twitter.com/tzangms\">@tzangms</a> - <a href=\"http://tzangms.com/\">Oceanic / 人生海海</a> - 衝動型購物</li>\n<li><a href=\"https://twitter.com/fukuball\">@fukuball</a> - <a href=\"http://blog.fukuball.com/\">ImFukuball</a> - 有新工作了，但歡迎直接挖角</li>\n<li><a href=\"https://github.com/mingderwang\">@mingderwang</a> - Ethereum enthusiast</li>\n<li><a href=\"https://github.com/kako0507\">@kako0507</a> - 熱愛嘗試新事物的前端工程師</li>\n<li><a href=\"https://twitter.com/NelsonT\">@chiahsien</a> - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我</li>\n<li><a href=\"https://g0v.social/@hiroshiyui\">@hiroshiyui</a> - 歧路亡羊與中年危機的典範</li>\n<li><a href=\"https://twitter.com/uranusjr\">@uranusjr</a> - <a href=\"https://uranusjr.com\">Smaller Things</a> - 邊緣人拉到 conference 還是邊緣人</li>\n<li><a href=\"https://twitter.com/Evan_Lin\">@kkdai</a> - <a href=\"http://www.evanlin.com/\">態度萬歲</a> - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)</li>\n<li><a href=\"https://github.com/yhsiang\">@yhsiang</a></li>\n<li><a href=\"https://github.com/johnlinvc\">@johnlinvc</a> - 在 <a href=\"https://kerbalspaceprogram.com/\">KSP</a> 內登陸月球中</li>\n</ul>\n\n\n<p>你也可以關注我們的 <a href=\"https://www.facebook.com/codetengu\">Facebook</a>、<a href=\"https://twitter.com/codetengu\">Twitter</a>、<a href=\"https://github.com/CodeTengu/headquarters\">GitHub</a>（<a href=\"https://github.com/CodeTengu\">Open Source 專案</a>）或<a href=\"http://www.weibo.com/codetengu\">微博</a>，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 <a href=\"https://gitter.im/codetengu/headquarters\">Gitter</a> 聊聊。</p>",
+          "description_markdown": "CodeTengu Weekly 會在 GMT+8 時區的每個禮拜一 AM 10:00 出刊，每期會由三位不同的 curator 負責當期的內容，每個 curator 有各自擅長的領域，如果你在這一期沒有看到自已感興趣的東西，可能下一期就會有了。你也可以瀏覽一下[前幾期的內容](https://weekly.codetengu.com/issues)。\r\n\r\n目前的 curator 陣容：\r\n\r\n- [@vinta](https://twitter.com/vinta) - [I failed the Turing Test](https://vinta.ws/code/) - 科幻迷，最近在讀 [Singularity Sky](https://www.douban.com/people/vinta/)\r\n- [@saiday](https://twitter.com/saiday) - [Imnotyourson](http://imnotyourson.com/) - 教召完領了 3500，得了毛囊炎\r\n- [@tzangms](https://twitter.com/tzangms) - [Oceanic / 人生海海](http://tzangms.com/) - 衝動型購物\r\n- [@fukuball](https://twitter.com/fukuball) - [ImFukuball](http://blog.fukuball.com/) - 有新工作了，但歡迎直接挖角\r\n- [@mingderwang](https://github.com/mingderwang) - Ethereum enthusiast\r\n- [@kako0507](https://github.com/kako0507) - 熱愛嘗試新事物的前端工程師\r\n- [@chiahsien](https://twitter.com/NelsonT) - 徵有經驗的 Objecitve-C 工程師，意者請來 Twitter 私訊我\r\n- [@hiroshiyui](https://g0v.social/@hiroshiyui) - 歧路亡羊與中年危機的典範\r\n- [@uranusjr](https://twitter.com/uranusjr) - [Smaller Things](https://uranusjr.com) - 邊緣人拉到 conference 還是邊緣人\r\n- [@kkdai](https://twitter.com/Evan_Lin) - [態度萬歲](http://www.evanlin.com/) - 喜歡 Golang 的略懂工程師，最近在學機器學習 (疑?)\r\n- [@yhsiang](https://github.com/yhsiang)\r\n- [@johnlinvc](https://github.com/johnlinvc) - 在 [KSP](https://kerbalspaceprogram.com/) 內登陸月球中\r\n\r\n你也可以關注我們的 [Facebook](https://www.facebook.com/codetengu)、[Twitter](https://twitter.com/codetengu)、[GitHub](https://github.com/CodeTengu/headquarters)（[Open Source 專案](https://github.com/CodeTengu)）或[微博](http://www.weibo.com/codetengu)，有很多 Weekly 看不到的內容。有任何建議或疑問也歡迎來 [Gitter](https://gitter.im/codetengu/headquarters) 聊聊。",
+          "footer": "<p>致力於解決開發者之間的資訊不對稱</p>",
+          "embedded_links": [
+            {
+              "identifier": "Qhy61WE",
+              "title": "前幾期的內容",
+              "url_domain": "codetengu.com",
+              "url": "https://weekly.codetengu.com/issues"
+            },
+            {
+              "identifier": "9mz5ivR",
+              "title": "@vinta",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/vinta"
+            },
+            {
+              "identifier": "do705iy",
+              "title": "I failed the Turing Test",
+              "url_domain": "vinta.ws",
+              "url": "https://vinta.ws/code/"
+            },
+            {
+              "identifier": "EbDwFfp",
+              "title": "Singularity Sky",
+              "url_domain": "douban.com",
+              "url": "https://www.douban.com/people/vinta/"
+            },
+            {
+              "identifier": "ZDHSJwY",
+              "title": "@saiday",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/saiday"
+            },
+            {
+              "identifier": "UQX3bqd",
+              "title": "Imnotyourson",
+              "url_domain": "imnotyourson.com",
+              "url": "http://imnotyourson.com/"
+            },
+            {
+              "identifier": "q7SK3vK",
+              "title": "@tzangms",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/tzangms"
+            },
+            {
+              "identifier": "vu6POnl",
+              "title": "Oceanic / 人生海海",
+              "url_domain": "tzangms.com",
+              "url": "http://tzangms.com/"
+            },
+            {
+              "identifier": "Tne7iFS",
+              "title": "@fukuball",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/fukuball"
+            },
+            {
+              "identifier": "peAtrsM",
+              "title": "ImFukuball",
+              "url_domain": "fukuball.com",
+              "url": "http://blog.fukuball.com/"
+            },
+            {
+              "identifier": "pBx5S6c",
+              "title": "@mingderwang",
+              "url_domain": "github.com",
+              "url": "https://github.com/mingderwang"
+            },
+            {
+              "identifier": "NeuIk0b",
+              "title": "@kako0507",
+              "url_domain": "github.com",
+              "url": "https://github.com/kako0507"
+            },
+            {
+              "identifier": "zy8bwLc",
+              "title": "@chiahsien",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/NelsonT"
+            },
+            {
+              "identifier": "fZCgXsS",
+              "title": "@hiroshiyui",
+              "url_domain": "g0v.social",
+              "url": "https://g0v.social/@hiroshiyui"
+            },
+            {
+              "identifier": "eFlKU0J",
+              "title": "@uranusjr",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/uranusjr"
+            },
+            {
+              "identifier": "dHoP8bZ",
+              "title": "Smaller Things",
+              "url_domain": "uranusjr.com",
+              "url": "https://uranusjr.com"
+            },
+            {
+              "identifier": "P4oai7u",
+              "title": "@kkdai",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/Evan_Lin"
+            },
+            {
+              "identifier": "d12NfIb",
+              "title": "態度萬歲",
+              "url_domain": "evanlin.com",
+              "url": "http://www.evanlin.com/"
+            },
+            {
+              "identifier": "k4otSYR",
+              "title": "@yhsiang",
+              "url_domain": "github.com",
+              "url": "https://github.com/yhsiang"
+            },
+            {
+              "identifier": "CkjkO1U",
+              "title": "@johnlinvc",
+              "url_domain": "github.com",
+              "url": "https://github.com/johnlinvc"
+            },
+            {
+              "identifier": "aAhexiV",
+              "title": "KSP",
+              "url_domain": "kerbalspaceprogram.com",
+              "url": "https://kerbalspaceprogram.com/"
+            },
+            {
+              "identifier": "LEZAUhr",
+              "title": "Facebook",
+              "url_domain": "facebook.com",
+              "url": "https://www.facebook.com/codetengu"
+            },
+            {
+              "identifier": "RmVkYCX",
+              "title": "Twitter",
+              "url_domain": "twitter.com",
+              "url": "https://twitter.com/codetengu"
+            },
+            {
+              "identifier": "cae52Bm",
+              "title": "GitHub",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu/headquarters"
+            },
+            {
+              "identifier": "edJjRSc",
+              "title": "Open Source 專案",
+              "url_domain": "github.com",
+              "url": "https://github.com/CodeTengu"
+            },
+            {
+              "identifier": "UNpECRC",
+              "title": "微博",
+              "url_domain": "weibo.com",
+              "url": "http://www.weibo.com/codetengu"
+            },
+            {
+              "identifier": "VThfnK6",
+              "title": "Gitter",
+              "url_domain": "gitter.im",
+              "url": "https://gitter.im/codetengu/headquarters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "tzangms",
+      "name": "@tzangms",
+      "items": [
+        {
+          "identifier": "UJNl7Cq",
+          "type": "Link",
+          "title": "Making Photos Smaller Without Quality Loss",
+          "url_domain": "yelp.com",
+          "url": "https://engineeringblog.yelp.com/2017/06/making-photos-smaller.html",
+          "description": "<p>其實 Etsy 也有一篇 <a href=\"https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/\">Reducing Image File Size at Etsy</a></p>\n\n<p>通常網站的圖片除了大小之外, 通常都得考慮壓縮比, 就我的個人經驗就是設定為 85% 左右, 但是看了這兩篇文章提到, 每種圖片類型不太一樣, 例如像是散景的圖片壓縮比搞不好可以壓到 25% (!?) 可是看起來卻跟 92% 壓縮比的差不多。</p>\n\n<p>而這兩篇都提到了 <a href=\"https://en.wikipedia.org/wiki/Structural_similarity\">SSIM</a>, 簡單來說就是模仿人類的視覺來比較兩張圖片哪張畫質比較好, 這樣就可以用程式來嘗試多種縮比決定每張圖片要壓多大了。</p>\n\n<p>最近因為最近有同事提到有國家網路速度特別慢, 圖片壓縮比能否提高? 所以這幾兩篇文章讓我特別感興趣, 過一陣子要來嘗試看看了</p>",
+          "description_markdown": "其實 Etsy 也有一篇 [Reducing Image File Size at Etsy](https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/)\r\n\r\n通常網站的圖片除了大小之外, 通常都得考慮壓縮比, 就我的個人經驗就是設定為 85% 左右, 但是看了這兩篇文章提到, 每種圖片類型不太一樣, 例如像是散景的圖片壓縮比搞不好可以壓到 25% (!?) 可是看起來卻跟 92% 壓縮比的差不多。\r\n\r\n而這兩篇都提到了 [SSIM](https://en.wikipedia.org/wiki/Structural_similarity), 簡單來說就是模仿人類的視覺來比較兩張圖片哪張畫質比較好, 這樣就可以用程式來嘗試多種縮比決定每張圖片要壓多大了。\r\n\r\n最近因為最近有同事提到有國家網路速度特別慢, 圖片壓縮比能否提高? 所以這幾兩篇文章讓我特別感興趣, 過一陣子要來嘗試看看了",
+          "embedded_links": [
+            {
+              "identifier": "Xu2VJ07",
+              "title": "Reducing Image File Size at Etsy",
+              "url_domain": "codeascraft.com",
+              "url": "https://codeascraft.com/2017/05/30/reducing-image-file-size-at-etsy/"
+            },
+            {
+              "identifier": "dXv9c1O",
+              "title": "SSIM",
+              "url_domain": "wikipedia.org",
+              "url": "https://en.wikipedia.org/wiki/Structural_similarity"
+            }
+          ]
+        },
+        {
+          "identifier": "G0O2xnb",
+          "type": "Link",
+          "title": "Don’t drown in email! How to use Gmail more efficiently.",
+          "url_domain": "klinger.io",
+          "url": "http://klinger.io/post/71640845938/dont-drown-in-email-how-to-use-gmail-more",
+          "description": "<p>身為敝公司收發最多信的冠軍, 4 月我總共寄出 459 封, 收了 3655 封信, 用 RescueTime 追蹤, 現在時常會出現一天內有 2  ~ 4 個小時的時間都用 Gmail 處理信件的狀況, 所以有效率的處理信件真的變成一個很重要的課題。</p>\n\n<p>即便我用了 <a href=\"https://sanebox.com/t/a0726\">Sanebox</a> 來幫我預先分類信件, 但是 Inbox 的控管還是很重要。</p>\n\n<p>雖然這篇跟程式沒有太多關係, 但是如果用 Gmail, 而且又有很多信件要處理的人可以參考一下, 我的 Gmail 設定成這樣後的兩個禮拜, 我把很多信都清掉了。</p>\n\n<p>但簡單來說就是用 Gmail labs 裡面的 Multiple Inboxes 來讓你的信件可以區分成以下幾種情況:</p>\n\n<ol>\n<li>需要回覆</li>\n<li>已排程</li>\n<li>等待回覆</li>\n<li>已丟給同事處理</li>\n</ol>\n\n\n<p>這樣下來可以完全排除 2, 3, 4 這幾種類型的信件, 而專注在第一種信件上, 大大降低雜訊。</p>\n\n<p>當然, 實際上用了一段時間我覺得用 star 的做法還有待商榷, 改成 label 的方式可能是一個更好的選擇, 不過這篇文章真的幫助我很多, 如果你信件也很多, 不仿試試。</p>",
+          "description_markdown": "身為敝公司收發最多信的冠軍, 4 月我總共寄出 459 封, 收了 3655 封信, 用 RescueTime 追蹤, 現在時常會出現一天內有 2  ~ 4 個小時的時間都用 Gmail 處理信件的狀況, 所以有效率的處理信件真的變成一個很重要的課題。 \r\n\r\n即便我用了 [Sanebox](https://sanebox.com/t/a0726) 來幫我預先分類信件, 但是 Inbox 的控管還是很重要。\r\n\r\n雖然這篇跟程式沒有太多關係, 但是如果用 Gmail, 而且又有很多信件要處理的人可以參考一下, 我的 Gmail 設定成這樣後的兩個禮拜, 我把很多信都清掉了。 \r\n\r\n但簡單來說就是用 Gmail labs 裡面的 Multiple Inboxes 來讓你的信件可以區分成以下幾種情況:\r\n\r\n1. 需要回覆\r\n2. 已排程\r\n3. 等待回覆\r\n4. 已丟給同事處理\r\n\r\n這樣下來可以完全排除 2, 3, 4 這幾種類型的信件, 而專注在第一種信件上, 大大降低雜訊。 \r\n\r\n當然, 實際上用了一段時間我覺得用 star 的做法還有待商榷, 改成 label 的方式可能是一個更好的選擇, 不過這篇文章真的幫助我很多, 如果你信件也很多, 不仿試試。",
+          "embedded_links": [
+            {
+              "identifier": "3lEQzEl",
+              "title": "Sanebox",
+              "url_domain": "sanebox.com",
+              "url": "https://sanebox.com/t/a0726"
+            }
+          ],
+          "image_original_filename": "d489c79f-05a6-4900-ba82-e1f567d47f43.png",
+          "image_extra_large_filename": "original_ratio_extra_large_d489c79f-05a6-4900-ba82-e1f567d47f43.png",
+          "image_medium_filename": "original_ratio_medium_d489c79f-05a6-4900-ba82-e1f567d47f43.png"
+        },
+        {
+          "identifier": "tlYfYKA",
+          "type": "Link",
+          "title": "5 ways to make Django Admin safer",
+          "url_domain": "hackernoon.com",
+          "url": "https://hackernoon.com/5-ways-to-make-django-admin-safer-eb7753698ac8",
+          "description": "<p>用了 Django 這麼多年, 看了這篇覺得實在慚愧, 原來 Django admin 的 title 跟 header 可以改啊 ... XD</p>\n\n<p>再來就是, 原來有 <a href=\"https://bitbucket.org/psagers/django-otp\">django-otp</a> 可以很方便地加上 2FA</p>",
+          "description_markdown": "用了 Django 這麼多年, 看了這篇覺得實在慚愧, 原來 Django admin 的 title 跟 header 可以改啊 ... XD\r\n\r\n再來就是, 原來有 [django-otp](https://bitbucket.org/psagers/django-otp) 可以很方便地加上 2FA",
+          "embedded_links": [
+            {
+              "identifier": "Rb0u8b7",
+              "title": "django-otp",
+              "url_domain": "bitbucket.org",
+              "url": "https://bitbucket.org/psagers/django-otp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "kako0507",
+      "name": "@kako0507",
+      "items": [
+        {
+          "identifier": "4bEXy1x",
+          "type": "Link",
+          "title": "JavaScript's new #private class fields",
+          "url_domain": "thejameskyle.com",
+          "url": "http://thejameskyle.com/javascripts-new-private-class-fields.html",
+          "description": "<p>JavaScript 在 ES6 實作了 Class ，但並沒有 private properties 的功能， Private class fields 目前正在 Stage 2 階段並且很可能變成之後的標準。</p>\n\n<p>而在使用上面可以透過 #hashtag 來 defined 以及 use private properties ，文內將會透過例子解釋為什麼需要 #hashtag 。</p>",
+          "description_markdown": "JavaScript 在 ES6 實作了 Class ，但並沒有 private properties 的功能， Private class fields 目前正在 Stage 2 階段並且很可能變成之後的標準。\r\n\r\n而在使用上面可以透過 #hashtag 來 defined 以及 use private properties ，文內將會透過例子解釋為什麼需要 #hashtag 。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "maGYHxA",
+          "type": "Link",
+          "title": "Mastering Chrome Developer Tools: Next Level Front-End Development Techniques",
+          "url_domain": "freecodecamp.com",
+          "url": "https://medium.freecodecamp.com/mastering-chrome-developer-tools-next-level-front-end-development-techniques-3ac0b6fe8a3",
+          "description": "<p>Chrome Developer Tools 是 Debug 非常方便的工具，本篇文章介紹了幾個非常實用的小技巧以及分析工具。</p>",
+          "description_markdown": "Chrome Developer Tools 是 Debug 非常方便的工具，本篇文章介紹了幾個非常實用的小技巧以及分析工具。",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "FBTxUpN",
+          "type": "Link",
+          "title": "Introducing Bonsai: an open source Webpack analyzer",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/@Pinterest_Engineering/introducing-bonsai-an-open-source-webpack-analyzer-6bdfe22f8984",
+          "description": "<p><a href=\"https://github.com/pinterest/bonsai\">Bonsai</a> 是一個 webpack analyzer ，可以列出專案的 dependency tree ，以及各個 module 所佔的大小，可以透過這套工具來幫助檢測較肥大的 bundle 來減少載入時間。</p>",
+          "description_markdown": "[Bonsai](https://github.com/pinterest/bonsai) 是一個 webpack analyzer ，可以列出專案的 dependency tree ，以及各個 module 所佔的大小，可以透過這套工具來幫助檢測較肥大的 bundle 來減少載入時間。",
+          "embedded_links": [
+            {
+              "identifier": "q0Br0mK",
+              "title": "Bonsai",
+              "url_domain": "github.com",
+              "url": "https://github.com/pinterest/bonsai"
+            }
+          ]
+        },
+        {
+          "identifier": "45FGdpy",
+          "type": "Link",
+          "title": "Up and running with Preact",
+          "url_domain": "egghead.io",
+          "url": "https://egghead.io/courses/up-and-running-with-preact",
+          "description": "<p>Preact 是 lightweight 版本的 React 替代方案，目前 <a href=\"https://egghead.io\">egghead.io</a> 提供免費的課程，從環境建設到與其他第三方 library 的整合的教學。</p>",
+          "description_markdown": "Preact 是 lightweight 版本的 React 替代方案，目前 [egghead.io](https://egghead.io) 提供免費的課程，從環境建設到與其他第三方 library 的整合的教學。",
+          "embedded_links": [
+            {
+              "identifier": "wHXfl4s",
+              "title": "egghead.io",
+              "url_domain": "egghead.io",
+              "url": "https://egghead.io"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "yhsiang",
+      "name": "@yhsiang",
+      "items": [
+        {
+          "identifier": "orGiv18",
+          "type": "Link",
+          "title": "How to become a more productive React Developer",
+          "url_domain": "jakoblind.no",
+          "url": "http://blog.jakoblind.no/2017/06/15/how-to-become-a-more-productive-react-developer",
+          "description": "<p>如同標題說的，作者提供了幾個建議，讓你成為更有生產力的 React 開發者。</p>\n\n<ol>\n<li>善用 prettier 自動做 code format</li>\n<li>透過 eslint 在編輯器中指出 errors 跟 warnings</li>\n<li>使用 react/redux 的瀏覽器開發工具</li>\n<li>加入 React Hot Loader</li>\n</ol>",
+          "description_markdown": "如同標題說的，作者提供了幾個建議，讓你成為更有生產力的 React 開發者。\r\n\r\n1. 善用 prettier 自動做 code format\r\n2. 透過 eslint 在編輯器中指出 errors 跟 warnings\r\n3. 使用 react/redux 的瀏覽器開發工具\r\n4. 加入 React Hot Loader",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "oZaPhNh",
+          "type": "Link",
+          "title": "Locally Scoped CSS Variables: What, How, and Why",
+          "url_domain": "una.im",
+          "url": "https://una.im/local-css-vars",
+          "description": "<p>主要在介紹 CSS Custom Properties，還有 local scope 的 CSS Variable 就像在使用 ES2015 裡面的 let 一樣。</p>\n\n<p>還有搭配 SASS 的 nested &amp; 做更進階的用法。</p>\n\n<p>一篇簡潔清楚的介紹文，歡迎不熟悉這個 spec 的朋友閱讀，也歡迎重新複習 :)</p>",
+          "description_markdown": "主要在介紹 CSS Custom Properties，還有 local scope 的 CSS Variable 就像在使用 ES2015 裡面的 let 一樣。\r\n\r\n還有搭配 SASS 的 nested & 做更進階的用法。\r\n\r\n一篇簡潔清楚的介紹文，歡迎不熟悉這個 spec 的朋友閱讀，也歡迎重新複習 :)",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "uJHf5rJ",
+          "type": "Link",
+          "title": "Best Practices for A Healthy GraphQL Implementation",
+          "url_domain": "nordicapis.com",
+          "url": "http://nordicapis.com/best-practices-for-a-healthy-graphql-implementation/",
+          "description": "<p>有在寫 GraphQL 的朋友建議閱讀，看是否有符合裡面提到的 guideline 。</p>\n\n<p>API Versioning，Pagination，Batch 應該都是有在撰寫的朋友會遇到的問題。</p>\n\n<p>看看你是否也認同作者的想法呢？</p>",
+          "description_markdown": "有在寫 GraphQL 的朋友建議閱讀，看是否有符合裡面提到的 guideline 。\r\n\r\nAPI Versioning，Pagination，Batch 應該都是有在撰寫的朋友會遇到的問題。\r\n\r\n看看你是否也認同作者的想法呢？\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "Xqsrg9E",
+          "type": "Link",
+          "title": "Exploring the AST with Babylon and Prettier",
+          "url_domain": "swizec.com",
+          "url": "https://swizec.com/blog/exploring-ast-babylon-prettier/swizec/7633",
+          "description": "<p>近幾年 JavaScript 的 AST 工具或應用蓬勃發展，從 Babel 到 Prettier，展現 AST 無限的可能。</p>\n\n<p>這篇作者在介紹他使用 Babylon 這套 JS AST 工具。</p>",
+          "description_markdown": "近幾年 JavaScript 的 AST 工具或應用蓬勃發展，從 Babel 到 Prettier，展現 AST 無限的可能。\r\n\r\n這篇作者在介紹他使用 Babylon 這套 JS AST 工具。\r\n\r\n\r\n",
+          "embedded_links": [
+
+          ]
+        },
+        {
+          "identifier": "5nYIH8F",
+          "type": "Link",
+          "title": "No No No",
+          "url_domain": "medium.com",
+          "url": "https://medium.com/the-year-of-the-looking-glass/no-no-no-97cfd94321c8",
+          "description": "<p>Facebook 的 Product Design VP 介紹拒絕的藝術。</p>\n\n<p>教你何時說不，跟如何說不！</p>",
+          "description_markdown": "Facebook 的 Product Design VP 介紹拒絕的藝術。\r\n\r\n教你何時說不，跟如何說不！",
+          "embedded_links": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "code": "sponsor",
+      "name": "工商服務",
+      "items": [
+        {
+          "identifier": "Tp1uTOA",
+          "type": "Link",
+          "title": "自己一個人三頭六臂？不如來組一個完美的團隊！",
+          "url_domain": "laravelconf.tw",
+          "url": "https://laravelconf.tw/zh-TW",
+          "description": "<p>著名的 PHP 框架 - Laravel，帶給開發者的第一印象，是 Web Artisan 喜好的框架，或是讓一般的開發者能夠成為更好的 Web Artisan。而當你開始使用 Laravel 時，你會發現，Laravel 在團隊開發上的幫助，似乎也是多有琢磨。</p>\n\n<p>究竟是什麼樣的功能，讓新創團隊選擇 Laravel 作為團隊開發的首選 Framework？\n又是哪些功能，讓這些團隊能夠更緊密的開發出一致性高，而且易於維護的程式？</p>\n\n<p>第一屆亞洲自行主辦的 Laravel Conference - LaravelConf Taiwan 2017，即將在 2017 年 7 月 1 日星期六舉行。\n讓大家一窺台灣的開發團隊，從個人到團隊，是如何看待 Laravel，又如何透過 Laravel 來幫助個人及團隊得到更順暢的開發流程。</p>\n\n<p>為了讓尚未接觸 Laravel 的開發者，在參與這次盛會時，也可以愉悅地參與議程，大會特別在 2017 年 6 月 30 日星期五晚上 18:30 至 21:30 安排了一場新手工作坊。參加工作坊，你將學會透過 Laravel，如何建出自己的第一個網站，並部署到 Azure。</p>\n\n<p>立刻查看更多 LaravelConf Taiwan 2017 相關議程與訊息: <a href=\"https://laravelconf.tw/zh-TW\">https://laravelconf.tw/zh-TW</a></p>",
+          "description_markdown": "著名的 PHP 框架 - Laravel，帶給開發者的第一印象，是 Web Artisan 喜好的框架，或是讓一般的開發者能夠成為更好的 Web Artisan。而當你開始使用 Laravel 時，你會發現，Laravel 在團隊開發上的幫助，似乎也是多有琢磨。\r\n \r\n究竟是什麼樣的功能，讓新創團隊選擇 Laravel 作為團隊開發的首選 Framework？\r\n又是哪些功能，讓這些團隊能夠更緊密的開發出一致性高，而且易於維護的程式？\r\n \r\n第一屆亞洲自行主辦的 Laravel Conference - LaravelConf Taiwan 2017，即將在 2017 年 7 月 1 日星期六舉行。\r\n讓大家一窺台灣的開發團隊，從個人到團隊，是如何看待 Laravel，又如何透過 Laravel 來幫助個人及團隊得到更順暢的開發流程。\r\n \r\n為了讓尚未接觸 Laravel 的開發者，在參與這次盛會時，也可以愉悅地參與議程，大會特別在 2017 年 6 月 30 日星期五晚上 18:30 至 21:30 安排了一場新手工作坊。參加工作坊，你將學會透過 Laravel，如何建出自己的第一個網站，並部署到 Azure。\r\n \r\n立刻查看更多 LaravelConf Taiwan 2017 相關議程與訊息: [https://laravelconf.tw/zh-TW](https://laravelconf.tw/zh-TW)\r\n",
+          "embedded_links": [
+            {
+              "identifier": "nZPZghu",
+              "title": "https://laravelconf.tw/zh-TW",
+              "url_domain": "laravelconf.tw",
+              "url": "https://laravelconf.tw/zh-TW"
+            }
+          ],
+          "image_original_filename": "a1a8a5f8-67ac-4ecc-8b34-221a7ca2542b.png",
+          "image_extra_large_filename": "original_ratio_extra_large_a1a8a5f8-67ac-4ecc-8b34-221a7ca2542b.png",
+          "image_medium_filename": "original_ratio_medium_a1a8a5f8-67ac-4ecc-8b34-221a7ca2542b.png"
+        }
+      ]
+    }
+  ]
+}
