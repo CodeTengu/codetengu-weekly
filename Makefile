@@ -1,4 +1,4 @@
 .PHONY: preview
 
 preview:
-	cd website && python3 -m http.server 8000
+	python -m http.server -b 127.0.0.1 -d website/ 8000
