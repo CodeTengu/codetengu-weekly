@@ -101,6 +101,14 @@ button {
 .item__list .item:before {
   border-top-color: rgba(69, 69, 71, 0.2);
 }
+.item__issue-number {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6a6f75;
+  letter-spacing: 0.08em;
+  margin-bottom: 2px;
+}
 .item__heading {
   color: #c21e24;
 }
@@ -109,6 +117,14 @@ button {
 }
 .issue__heading h1 {
   color: #454547;
+}
+.issue__number {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(69, 69, 71, 0.6);
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
 }
 .issue__heading h1 i {
   color: rgba(69, 69, 71, 0.7);
