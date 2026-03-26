@@ -3,6 +3,9 @@ body,
 button {
   color: #454547;
 }
+.navbar-a {
+  text-transform: none;
+}
 .item__list--issues .item__heading {
   text-transform: none;
   font-size: 18px;
