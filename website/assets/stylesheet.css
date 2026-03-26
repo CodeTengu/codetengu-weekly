@@ -135,7 +135,10 @@ button {
   color: rgba(69, 69, 71, 0.7);
 }
 .issue__heading h1 {
-  color: #454547;
+  color: #c21e24;
+  text-transform: none;
+  font-size: 22px;
+  font-weight: 700;
 }
 .issue__number {
   display: block;
@@ -144,9 +147,6 @@ button {
   color: rgba(69, 69, 71, 0.6);
   letter-spacing: 0.08em;
   margin-bottom: 4px;
-}
-.issue__heading h1 i {
-  color: rgba(69, 69, 71, 0.7);
 }
 .item--cc-helloworld .item__heading {
   color: #c21e24;
