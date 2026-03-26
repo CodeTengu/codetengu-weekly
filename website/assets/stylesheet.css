@@ -5,6 +5,25 @@ button {
 }
 .item__list--issues .item__heading {
   text-transform: none;
+  font-size: 18px;
+  line-height: 1.333333333;
+}
+@media (min-width: 760px) {
+  .item__list--issues .item__heading {
+    font-size: 22px;
+    line-height: 1.272727273;
+  }
+}
+.item__list--issues .item__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+@media (min-width: 760px) {
+  .item__list--issues .item__title {
+    font-size: 18px;
+    line-height: 1.35;
+  }
 }
 .btn {
   background-color: #000000;
